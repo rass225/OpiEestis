@@ -1,0 +1,112 @@
+let tartuTervishoiuKõrgkoolRaka = [
+    majorsMinors(
+        name: "Õde",
+        level: .applied,
+        type: .tervishoid,
+        requirements: [
+            Requirements(term: "Erialakatse", percentage: 40),
+            Requirements(term: "Gümnaasiumi füüsika, keemia ja bioloogia keskmine hinne", percentage: 30),
+            Requirements(term: "Gümnaasiumi matemaatika lõpuhinne", percentage: 30)
+        ],
+        description: ["Õde on tervishoiuspetsialist, kes osundab õendusabi: rakendab oma kutsealaseid teadmisi, oskusi ja hoiakuid üksikisiku, perekonna ja/või kogukonna abistamisel, selleks et säilitada tervist, saavutada parem elukvaliteet, parem enesehoolduse- ja funktsioneerimisvõime või võimaldada inimesel surra väärikalt kui tervise taastamine pole võimalik. Õde hindab inimese kogemusi ja reaktsioone haiguse ja tervise suhtes ning õpetab ja juhendab teda tervise hoidmisel ja/või haigusest paranemisel lähtudest holistlikust inimkäsitusest.", "Tartu Tervishoiu Kõrgkoolis kestab õe põhiõpe kolm ja pool aastat, selle aja jooksul kogub üliõpilane 210 EAP-d. Õppekava koosneb kümnest moodulist: kutsealane ja isiksuslik areng, õenduse alused, anatoomia-füsioloogia, kogukonnaõendus, lapse õendusabi, reproduktiivtervis, eaka õendusabi, kliiniline õendusabi, komplitseeritud juhtude õendusabi, vaimne tervis ja psühhiaatriline õendusabi.", "Lisaks teoreetilisele õppele on olulisel kohal praktika: eelkliiniline praktika viiakse läbi kõrgkooli õppeklassis, kliiniline õppepraktika toimub praktikabaasides integreeritult teooriaõppe tsüklitega ning annab üliõpilasele kokku 86 EAP-d (üle 40% õppe mahust). Praktika eesmärgiks on arendada teoreetiliste teadmiste rakendamise ning kutseoskusi ja selle juhendajateks on praktikabaasi erialaspetsialist ja kõrgkooli poolt vastava aine õppejõud."],
+        outcomes: ["Õe põhiõppe õppekava läbinu:", "Mõistab õenduse kui teadusala põhimõtteid, keskseid mõisteid, õendusteooriaid, uurimismeetodeid, kutsealade aktuaalseid probleeme ja rakendusvõimalusi", "Tuginedes õe eetikakoodeksile hindab inimese kui terviku tervisevajadusi ja lähtub talle õendusabi osutades parimast olemasolevast teabest ja patsiendi-/kliendi- ning perekesksuse printsiibist", "Mõistab õendusabi kui protsessi, mille eesmärk on võimestada inimest võtma vastutust enda ja pereliikmete tervise eest", "Rakendab meeskonnatöö põhimõtteid õendusabi osutamisel, juhtimisel ja vastutades oma pädevuse piires koostöös teiste tervishoiu spetsialistidega", "Omab kutsealast valmisolekut iseseisvalt töötamiseks õenduse valdkonnas", "Oskab kriitiliselt analüüsida enda kutsealase ja isiksusliku arengu vajadust ning on valmis elukestvaks ennastjuhtivaks õppimiseks ja kutseala tõenduspõhiseks arendamiseks.", "Õed töötavad tervishoiu ja sotsiaalvaldkonda kuuluvates asutustes, näiteks haiglates, päeva- ja tervisekeskustes ning ka hooldekodudes. Õdesid vajatakse tööturul pidevalt: erialase ametikoha leidmine ei tohiks valmistada probleeme ning karjäärivõimalused on laiad. Samuti on lõpetamise järel võimalik jätkata õpinguid õe või selle lähedase kutse- või eriala magistriõppes."],
+        language: .eesti,
+        majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/ode",
+        spots: 160,
+        duration: 3.5,
+        studyLocation: "Tartu",
+        eap: 210,
+        cost: "0€"
+    ),
+    majorsMinors(
+        name: "Ämmaemand",
+        level: .applied,
+        type: .tervishoid,
+        requirements: [
+            Requirements(term: "Erialakatse", percentage: 10),
+            Requirements(term: "Gümnaasiumi füüsika, keemia ja bioloogia keskmine hinne", percentage: 30),
+            Requirements(term: "Gümnaasiumi matemaatika lõpuhinne", percentage: 30),
+            Requirements(term: "Vestlus", percentage: 30)],
+        description: ["Ämmaemand juhendab, jälgib, hooldab ja nõustab naisi ning peresid raseduse ja sünnituse ajal, sünnitusjärgsel perioodil ning günekoloogiliste probleemide lahendamisel, juhib sünnitusi, hooldab ja jälgib vastsündinuid ja imikuid. Ämmaemandal on tähtis roll tervisekasvatuses ja nõustamises mitte ainult naiste, vaid ka nende perede ja kogu ühiskonna tasandil.", "Erialal rakenduskõrghariduse saamiseks tuleb Tartu Tervishoiu Kõrgkoolis nelja ja poole aasta jooksul koguda 270 EAP-d. Õppekava koosneb kaheksast moodulist: kutsealane ja isiksuslik areng, kutsealane orientatsioon, rahvatervis, farmakoloogia, terve inimene, emadushooldus I, emadushooldus II ja esmatasandi tervishoid, kliiniline õendusabi.", "Stuudiumis on lisaks teooriale olulisel kohal ka praktiline õpe – eelkliinilised praktikumid viiakse läbi kõrgkooli laboris, kliiniline õppepraktika toimub praktikabaasides integreeritult teooriaõppe tsüklitega ning moodustab ligi 40% õppetöö mahust (106 EAP-d). Praktika eesmärgiks on arendada teoreetiliste teadmiste rakendamist ning kutseoskusi ja õppepraktika juhendajateks on praktikabaasides erialaspetsialistid ja kõrgkooli poolt vastava aine õppejõud. Kõrgkooli lõpetamiseks peab üliõpilane läbima õppekava etteantud mahus ja kaitsma  lõputöö.", "Ämmaemanduse õppekava läbinu saab lisaks ämmaemanda diplomile ka õe kutse ja võib töötada nii ämmaemanda kui õena erinevates haiglates, nõuandlates, perekoolides, nõustamiskeskustes, perearstikeskustes ja erapraksistes – töö leidmise ja karjäärivõimalused on väga head. "],
+        outcomes: ["Ämmaemanda õppekava läbinu:", "Mõistab ämmaemanduse ja õenduse kui teadusalade põhimõtteid, keskseid mõisteid, teooriaid, uurimismeetodeid, kutsealade aktuaalseid probleeme ja rakendusvõimalusi", "Hindab inimese kui terviku tervisevajadusi ja lähtub talle ämmaemandus-/õendusabi osutades parimast olemasolevast teabest, patsiendi-/kliendi- ning perekesksuse ja kultuuritundlikkuse printsiipidest, tuginedes eetikakoodeksile ja seadusandlusele sh EU direktiividele", "Mõistab ämmaemandus-/õendusabi kui protsessi, mille eesmärk on võimestada inimest võtma vastutust enda ja pereliikmete tervise eest", "Rakendab meeskonnatöö põhimõtteid ämmaemandus-/õendusabi osutamisel, juhtimisel ja oma pädevuse piires vastutamisel koostöös teiste tervishoiu spetsialistidega", "Omab kutsealast valmisolekut iseseisvalt töötamiseks ämmaemanduse ja õenduse valdkonnas", "Oskab kriitiliselt analüüsida enda kutsealase ja isiksusliku arengu vajadust ning on valmis elukestvaks ennastjuhtivaks õppimiseks ja kutseala tõenduspõhiseks arendamiseks"],
+        language: .eesti,
+        majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/ammaemand",
+        spots: 26,
+        duration: 4.5,
+        studyLocation: "Tartu",
+        eap: 270,
+        cost: "0€"
+    ),
+    majorsMinors(
+        name: "Füsioterapeut",
+        level: .applied,
+        type: .tervishoid,
+        requirements: [
+            Requirements(term: "Erialakatse", percentage: 40),
+            Requirements(term: "Gümnaasiumi füüsika, keemia ja bioloogia keskmine hinne", percentage: 30),
+            Requirements(term: "Gümnaasiumi matemaatika lõpuhinne", percentage: 30)],
+        description: ["Füsioterapeut on taastusravi spetsialist, kes aitab inimestel taastada või säilitada häirunud liikumis- ja tegevusvõimet ning selle kaudu osalemist tavapärases elus.", "Õpe täiskoormusega õppes kestab kolm aastat, osakoormusega õppes 4,5 aastat, selle aja jooksul tuleb koguda 180 EAP-d. Tartu Tervishoiu Kõrgkoolis füsioterapeudi õppe eeliseks on see, et  praktika moodustab ainepunktide kogumahust ligi kolmandiku. Rikkalikud praktikakogemused võimaldavad lõpetajatel tööturule suundudes end kindlalt tunda.", "Õppekava koosneb kolmest moodulist: füsioteraapia alusained, füsioteraapia erialaained,  kutsealane ja isiksuslik areng. Lõpetamiseks peab üliõpilane olema sooritanud kõik õppekavas ettenähtud eksamid, arvestused, kohustuslikud tööd ja praktikaõppe ning kaitsnud lõputöö, mis enamasti on uurimuslikku laadi."],
+        outcomes: ["Üliõpilane:", "On võimeline töötama eksperdina nii individuaalselt kui ka interdisiplinaarses rehabilitatsioonimeeskonnas, vastavalt rahvusvaheliselt tunnustatud pädevustele", "Oskab teostada funktsionaalset füsioterapeutilist hindamist igas vanuses kliendile, püstitada füsioteraapia eesmärke ja leida parimad sobilikud füsioterapeutilise sekkumise viisid kliendi tervisliku seisundi säilitamiseks ja/või parandamiseks", "Oskab hinnata füsioteraapia protsessi mõjutavaid faktoreid ja analüüsida vastastikuseid mõjusid, näidustusi ja vastunäidustusi", "Oskab nõustada klienti tervist edendavates küsimustes ja teda motiveerida aktiivselt osalema rehabilitatsiooni protsessis", "Lähtub oma töös kliendikesksetest põhimõtetest, edastab kliendile informatsiooni, juhised ning nõuandeid didaktilisel moel ning seostab need kliendi psühhosotsiaalse ja kultuurikontekstiga", "On oma töös järjekindel ja korrektne, lähtub objektiivse ja õiglase kohtlemise reeglitest ning eetiliste normide läbipaistvuse põhimõtetest", "Hoiab end kursis uusimate arendustöödega oma valdkonnas, on teadlik ühiskonna vajadustest ning võimalustest parandada oma üldisi ja erialaseid oskusi ja teadmisi"],
+        language: .eesti,
+        majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/fusioterapeut",
+        spots: 20,
+        duration: 3,
+        studyLocation: "Tartu",
+        eap: 180,
+        cost: "1 EAP/55€"
+    ),
+    majorsMinors(
+        name: "Tervisekaitse Spetsialist",
+        level: .applied,
+        type: .tervishoid,
+        requirements: [
+            Requirements(term: "Erialakatse", percentage: 40),
+            Requirements(term: "Gümnaasiumi füüsika, keemia ja bioloogia keskmine hinne", percentage: 30),
+            Requirements(term: "Gümnaasiumi matemaatika lõpuhinne", percentage: 30)],
+        description: ["Tervisekaitse spetsialist tegeleb tervisliku elukeskkonna ja igapäevase heaolu tagamisega ning kontrollib tervisekaitsenõuetest kinnipidamist. Tervisekaitse spetsialistid õpivad mõõtma paljusid (sise)keskkonna näitajaid, näiteks süsihappegaasi sisaldus, õhu liikumiskiirus, suhteline õhuniiskus, mikroobide arvukus õhus jne ning hindama nende mõju inimese tervisele.", "Õppekava maht Tartu Tervishoiu Kõrgkoolis on 180 EAP-d, õppeaeg kolm aastat. Õpingutest pool on auditoorne töö, sellest neljandiku moodustavad praktikumid. Samuti on ette nähtud õppepraktika töökohtades.", "Õppekava sisaldab järgmisi mooduleid: kutsealane ja isiksuslik areng, inimeseõpetus, patoloogia ja haigusõpetus, järelevalve menetluse õiguslik regulatsioon, toiduohutus, laste- ja hooldekandeasutused, teenuste ja toodete terviseohutus, töötervishoid, rahvatervis, nakkushaigused ja epidemioloogia, väliskeskkonna saastumine, psühhosotsiaalsed ja füsioloogilised ohutegurid, füüsikalised ohutegurid, bioloogilised ohutegurid, keemilised ohutegurid, vesi.", "Tartu Tervishoiu Kõrgkoolis tuleb tervisekaitse spetsialisti diplomi saamiseks kaitsta uurimusliku sisu või praktilise suunitlusega lõputöö."],
+        outcomes: ["Õppekava lõpetanu:","Mõistab inimest bio-psühho-sotsiaalse tervikuna ja keskkonna osana ning tuginedes kehtivatele eetikapõhimõtetele lähtub sellest oma kutsetegevuses.", "Mõistab tervisekaitsealase töö olulisust tervisekahjustuste ennetamisel ja vältimisel ning rahva tervise edendamisel", "Oskab teostada terviseohtude riskianalüüsi ja valdab riskijuhtimise meetmeid", "Tunneb kehtivaid õigusakte, on võimeline teostama järelevalvet aidates kaasa turvalise keskkonna tagamisele", "Osaleb interdistsiplinaarse meeskonna töös", "Oskab sõnastada erialaga seotud probleeme ning analüüsida ja hinnata erinevaid lahendusi", "Mõistab kutseala spetsiifikat, sealhulgas informatsiooni leviku piiramise vajalikkust ja järgib oma tegevuses seadusega sätestatud konfidentsiaalsusnõudeid", "Omab valmisolekut elukestvaks õppimiseks ja arenguks ning osalemiseks kutseala arendamises.","Tervisekaitse spetsialistil on võimalus tööle asuda mitmetes valdkondades, erinevates ettevõtetes ja asutustes. Tervisekaitse spetsialistid võivad töötada näiteks töökeskkonna spetsialistidena, terviseametis ja tööinspektsioonis nii inspektori kui spetsialistina, aga ka sotsiaalministeeriumis. Mitmed lõpetajad tegutsevad edukalt eraettevõtluses. Tööle saamise võimalused on head, kui inimene ise on aktiivne. Samas on Tartu Tervishoiu Kõrgkoolis omandatud tervisekaitse spetsialisti haridus väga laiapõhjaline ning võimaldab magistrantuuriõpinguid mitmes suunas – näiteks Tartu Ülikooli rahvatervise, Eesti Maaülikooli ergonoomika või Tallinna Tehnikaülikooli tervishoiutehnoloogia magistriõppes."],
+        language: .eesti,
+        majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/tervisekaitse-spetsialist",
+        spots: 14,
+        duration: 3,
+        studyLocation: "Tartu",
+        eap: 180,
+        cost: "0€"
+    ),
+    majorsMinors(
+        name: "Radioloogiatehnik",
+        level: .applied,
+        type: .tervishoid,
+        requirements: [
+            Requirements(term: "Erialakatse", percentage: 40),
+            Requirements(term: "Gümnaasiumi füüsika, keemia ja bioloogia keskmine hinne", percentage: 30),
+            Requirements(term: "Gümnaasiumi matemaatika lõpuhinne", percentage: 30)],
+        description: ["Radioloogiatehnik teostab radiodiagnostilisi ja -terapeutilisi protseduure, et edendada ja säilitada inimeste tervist ning ennetada ja diagnoosida haigusi.", "Õppekava maht Tartu Tervishoiu Kõrgkoolis on 210 EAP-d, õppeajaks kolm ja pool aastat. Õppekavas on kaheksa moodulit, mille läbimine on kohustuslik: inimkäsitlus, patsiendi hooldus, haigusõpetus, kiirgusbioloogia ja -kaitse, radiodiagnostilised meetodid, radiodiagnostilised meetodid organsüsteemide patoloogia diagnoosimisel, radioteraapia, kutsealane ja isiksuslik areng. Õpe toimub erinevates vormides − loengud, seminarid, e-õppe kursused, praktikumid jne.", "Eelkliinilisteks praktikumideks on olemas kaasaegse kõrgekvaliteetse radioloogilise aparatuuriga (täisdigitaalne röntgeniaparaat, mammograaf, ultraheliaparaat, ortopantomograaf jne) sisustatud õpperuumid. Erinevates haiglates läbiviidav individuaalne õppepraktika moodustab õppekava mahust ligi kolmandiku.", "Praktikakohad tagab üliõpilasele kõrgkool, lähtutakse põhimõttest, et samas valdkonnas korduvad õppepraktikad toimuvad võimalusel erinevates praktikabaasides. Praktikat on võimalik teha ka Erasmuse programmi kaudu mõnes Euroopa väliskõrgkooli praktikakeskuses, näiteks Maltal, Portugalis, Soomes, Saksamaal jm).", "Radioloogiatehniku õppe lõpetamise tingimuseks on edukas lõputöö kaitsmine. Seni puudub Eestis kutsealase magistriõppe võimalus, seda on võimalik omandada mitmetes Euroopa riikides, kus on avatud diagnostilise radiograafia magistriõppekava, näiteks Soomes, Ühendkuningriigis ja Hollandis. Eestis saab õpinguid jätkata meditsiinifüüsika, rahvatervise, majanduse jms valdkondades. Pooltel Tartu Tervishoiu Kõrgkoolis erialaaineid õpetavatest õppejõududest on  magistrikraad."],
+        outcomes: ["Õppekava edukal läbimisel üliõpilane:", "Mõistab radiograafia, kiirguskaitse, holistliku inimkäsituse, patsiendi hoolduse, haigusõpetuse, patsiendiõpetuse põhimõisteid, teoreetilisi põhimõtteid ning lähtub neist oma kutsealases tegevuses", "Oskab kasutada erinevaid radiograafilisi uurimistehnikaid erinevate organsüsteemide patoloogia diagnoosimisel järgides kiirguskaitse ja ohutuse ning kvaliteedi tagamise nõudeid", "Omab põhiteadmisi radioteraapia meetodite kohta ja oskab neid rakendada kiirguskaitse nõudeid järgides", "Mõistab, et radiodiagnostiliste uuringute ja radioteraapia eesmärk on kvaliteetsete ja tõeste uuringutulemuste ning raviga kaasa aidata inimese tervise ja elukvaliteedi parendamisele", "Määratleb ennast radioloogiatehnikuna, juhindudes oma igapäevatöös patsiendikesksuse, kutseetika, meeskonnatöö ja tõenduspõhisuse põhimõtetest", "Oskab määratleda ja põhjendada oma arengu ja õppimise vajadusi ja võimalusi","Tartu Tervishoiu Kõrgkoolis radioloogiatehniku õppe lõpetanutest 90-95% on asunud erialasele tööle.  Eriala on perspektiivikas ja leiab üha suuremat rakendust nii haiguste diagnoosimisel kui ka ravis. Enamik radioloogiatehnikuid töötab haiglate radioloogiateenistustes või −osakondades. Tööleasumise võimalusi on ka väljaspool tervishoiuasutusi, näiteks veterinaarmeditsiinis, ülikoolide teaduslaborites, tööstusliku kompuutertomograafia vladkonnas ja mujal."],
+        language: .eesti,
+        majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/radioloogiatehni",
+        spots: 20,
+        duration: 3.5,
+        studyLocation: "Tartu",
+        eap: 210,
+        cost: "0€"
+    ),
+    majorsMinors(
+        name: "Bioanalüütik",
+        level: .applied,
+        type: .tervishoid,
+        requirements: [
+            Requirements(term: "Erialakatse", percentage: 40),
+            Requirements(term: "Gümnaasiumi füüsika, keemia ja bioloogia keskmine hinne", percentage: 30),
+            Requirements(term: "Gümnaasiumi matemaatika lõpuhinne", percentage: 30)],
+        description: ["Bioanalüütik töötab laborites, kus uuritakse organismi seisundit ning organite, kudede, rakkude, molekulide ehitust ja funktsiooni, mikrobioloogilist kooslust ja inimorganismi mõjutavaid tegureid. Bioanalüütiku ülesandeks on uurida koeproove, kehavedelikke, teha kindlaks organismi tervislik seisund ja monitoorida patsiendi ravi kulgu. Töös tuleb muuhulgas kokku puutuda selliste materjalidega nagu veri, uriin, röga, mäda, koed, liikvor jne. Samas ei ole töö iseloom enam väga iseloomulik tavaarusaamale laboritööst – vaikne nokitsemine. Pigem on bioanalüütik meditsiiniasutuse meeskonnas lisaks usaldusväärsele analüüside teostajale aktiivselt inimestega suhtlev ja nõustav töötaja.", "Õppe kestus bioanalüütiku õppekaval on kolm ja pool aastat, õppekava kogumaht on 210 EAP-d. Kõrgkoolil on head sidemed rahvusvahelise assotsiatsiooniga EPBS (European Association for Professions in Biomedical Science), tänu millele on bioanalüütiku õpe kõrgkoolis kooskõlas bioanalüütiku eriala rahvusvaheliste arengusuunadega.", "Õppekava koosneb 13 moodulist: kutsealane ja isiksuslik areng, anatoomia-füsioloogia, laboritöö alused ja keemia, labori töökeskkond, haigusõpetus, mikrobioloogia, immunoloogia, patoloogia, kliiniline keemia, hematoloogia, farmakoloogia ja toksikoloogia, rahvatervis; rakubioloogia, molekulaardiagnostika alused ja geneetika.", "Stuudium lõpeb lõputööga, mis üldjuhul on empiiriline. Üliõpilastel on võimalik lõputöö teostada mõne rakendusuuringu või meditsiinilaborites tehtava suurema uuringu raames."],
+        outcomes: ["Bioanalüütiku põhikoolituse lõpetanu:", "Mõistab inimest kui tervikut ja oma kutsetegevuses lähtub sellest, bioanalüütiku kutse-eetikast ning tunnustatud eetikapõhimõtetest.", "Mõistab, et biomeditsiiniliste laboriuuringute eesmärk on kvaliteetse ja tõese uuringutulemuse kaudu kaasa aidata inimese tervise ning elukvaliteedi paremaks muutmisele.", "Mõistab laboriuuringu protsessi tervishoiu süsteemi integreerunud osana.", "Valdab biomeditsiiniliste laboriuuringute tehnoloogiat, analüüsib ja hindab kriitiliselt uuringuprotsessi, andes selle kaudu oma panuse tõese uuringutulemuse saamisse.", "Suudab rakendada meeskonnatöös analüüsi ja otsustusvõimet vastutades pädevuse piires oma tegevuse eest.", "Omab valmisolekut elukestvaks õppimiseks ja arenguks ning osalemiseks kutseala arendamises.","Erialasele tööle suundumise võimalused on väga head. Juba teise kursuse üliõpilased on saanud tööd laborites  puhkuse ajal asendajatena. Kõrgkooli lõpetajad on väga edukad bioanalüütikutena nii siin kui ka mujal Euroopas. Paljud neist jätkavad õpinguid nii magistrantuuris kui ka pärast seda doktorantuuris."],
+        language: .eesti,
+        majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/bioanaluutik",
+        spots: 26,
+        duration: 3.5,
+        studyLocation: "Tallinn",
+        eap: 210,
+        cost: "0€"
+    ),
+]
