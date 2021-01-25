@@ -22,7 +22,8 @@ struct DegreeView: View {
                                     }) {
                                         Text(item.title)
                                             .padding(.horizontal, 6)
-                                    }
+                                    }.font(Font.callout.weight(selectedLevel == item.level ? .bold : .light))
+                                    .animation(.default)
                                     Divider()
                                 }
                             }

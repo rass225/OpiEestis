@@ -61,6 +61,11 @@
 		C0460EDA25B04CEE00E4A15D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460ED925B04CEE00E4A15D /* Font.swift */; };
 		C0460EDF25B0582800E4A15D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460EDE25B0582800E4A15D /* TextField.swift */; };
 		C0460F9625B0861200E4A15D /* TabViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460F9525B0861200E4A15D /* TabViewCell.swift */; };
+		C07D36F625BDB5DB004A7058 /* TartuÜlikoolBaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D36F525BDB5DB004A7058 /* TartuÜlikoolBaka.swift */; };
+		C07D36FE25BDB5EA004A7058 /* TartuÜlikoolMaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D36FD25BDB5EA004A7058 /* TartuÜlikoolMaka.swift */; };
+		C07D370325BDB5F8004A7058 /* TartuÜlikoolDoktor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D370225BDB5F8004A7058 /* TartuÜlikoolDoktor.swift */; };
+		C07D370825BDF2BF004A7058 /* TartuÜlikoolInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D370725BDF2BF004A7058 /* TartuÜlikoolInter.swift */; };
+		C07D370D25BDF5C6004A7058 /* TartuÜlikoolRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D370C25BDF5C6004A7058 /* TartuÜlikoolRaka.swift */; };
 		C09C4E2925B08E5500F03F5A /* SchoolImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C4E2825B08E5500F03F5A /* SchoolImageView.swift */; };
 		C09C4E2F25B09CBF00F03F5A /* StatCellModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C4E2E25B09CBF00F03F5A /* StatCellModifier.swift */; };
 		C09C4E4225B1D0B900F03F5A /* SchoolDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C4E4125B1D0B900F03F5A /* SchoolDescriptionView.swift */; };
@@ -187,6 +192,11 @@
 		C0460ED925B04CEE00E4A15D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		C0460EDE25B0582800E4A15D /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		C0460F9525B0861200E4A15D /* TabViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCell.swift; sourceTree = "<group>"; };
+		C07D36F525BDB5DB004A7058 /* TartuÜlikoolBaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolBaka.swift"; sourceTree = "<group>"; };
+		C07D36FD25BDB5EA004A7058 /* TartuÜlikoolMaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolMaka.swift"; sourceTree = "<group>"; };
+		C07D370225BDB5F8004A7058 /* TartuÜlikoolDoktor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolDoktor.swift"; sourceTree = "<group>"; };
+		C07D370725BDF2BF004A7058 /* TartuÜlikoolInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolInter.swift"; sourceTree = "<group>"; };
+		C07D370C25BDF5C6004A7058 /* TartuÜlikoolRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolRaka.swift"; sourceTree = "<group>"; };
 		C09C4E2825B08E5500F03F5A /* SchoolImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolImageView.swift; sourceTree = "<group>"; };
 		C09C4E2E25B09CBF00F03F5A /* StatCellModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCellModifier.swift; sourceTree = "<group>"; };
 		C09C4E4125B1D0B900F03F5A /* SchoolDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDescriptionView.swift; sourceTree = "<group>"; };
@@ -422,6 +432,7 @@
 		C0460E8A25AF0EEA00E4A15D /* Universities */ = {
 			isa = PBXGroup;
 			children = (
+				C07D36F425BDB5B2004A7058 /* Tartu Ülikool */,
 				C09C503A25BA573C00F03F5A /* TTÜ */,
 				C09C501D25BA4F9E00F03F5A /* TallinnaÜlikool */,
 				C09C501925B9D94B00F03F5A /* TallinnaTervishoioKõrgkool */,
@@ -436,7 +447,6 @@
 				C09C4F7A25B9CC1B00F03F5A /* KõrgemKunstikoolPallas */,
 				C09C4F5E25B9CA0100F03F5A /* EBS */,
 				C09C4F4A25B9C7FC00F03F5A /* KaitseväeAkadeemia */,
-				C0460E8C25AF0F1300E4A15D /* TartuÜlikool.swift */,
 				C0460E8D25AF0F1300E4A15D /* Universities Structure.swift */,
 			);
 			path = Universities;
@@ -450,6 +460,20 @@
 				C09C4E5B25B1E23D00F03F5A /* MajorButtonModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		C07D36F425BDB5B2004A7058 /* Tartu Ülikool */ = {
+			isa = PBXGroup;
+			children = (
+				C0460E8C25AF0F1300E4A15D /* TartuÜlikool.swift */,
+				C07D36F525BDB5DB004A7058 /* TartuÜlikoolBaka.swift */,
+				C07D36FD25BDB5EA004A7058 /* TartuÜlikoolMaka.swift */,
+				C07D370225BDB5F8004A7058 /* TartuÜlikoolDoktor.swift */,
+				C07D370725BDF2BF004A7058 /* TartuÜlikoolInter.swift */,
+				C07D370C25BDF5C6004A7058 /* TartuÜlikoolRaka.swift */,
+			);
+			name = "Tartu Ülikool";
+			path = "Tartu Ülikool";
 			sourceTree = "<group>";
 		};
 		C09C4E3625B1A33900F03F5A /* SchoolOverview */ = {
@@ -787,6 +811,7 @@
 				C09C4F6025B9CA1D00F03F5A /* EBSbaka.swift in Sources */,
 				C09C4F5425B9C89E00F03F5A /* KaitseväeMaka.swift in Sources */,
 				C0460EA125AF0F1400E4A15D /* Kunstiakadeemia.swift in Sources */,
+				C07D36F625BDB5DB004A7058 /* TartuÜlikoolBaka.swift in Sources */,
 				C0460E5F25AF0E3B00E4A15D /* Outcomes View.swift in Sources */,
 				C0460E3F25AF0D8A00E4A15D /* Mail.swift in Sources */,
 				C09C4FAE25B9D00700F03F5A /* MaaülikoolMaka.swift in Sources */,
@@ -835,6 +860,7 @@
 				C0460E9E25AF0F1400E4A15D /* TartuTervishoiuKõrgkool.swift in Sources */,
 				C09C500525B9D82200F03F5A /* TallinnaÜlikool.swift in Sources */,
 				C09C4FE125B9D55F00F03F5A /* MuusikaAkadeemiaDoktor.swift in Sources */,
+				C07D370D25BDF5C6004A7058 /* TartuÜlikoolRaka.swift in Sources */,
 				C0460E3B25AF0D8A00E4A15D /* SchoolCell.swift in Sources */,
 				C09C4FDC25B9D52600F03F5A /* MuusikaAkadeemiaMaka.swift in Sources */,
 				C09C4FA925B9CFFA00F03F5A /* MaaülikoolBaka.swift in Sources */,
@@ -848,6 +874,7 @@
 				C0460E4225AF0D8A00E4A15D /* SocialMediaButton.swift in Sources */,
 				C09C503125BA52E900F03F5A /* TallinnaÜlikoolMaka.swift in Sources */,
 				C09C4F4C25B9C83F00F03F5A /* KaitseväeRaka.swift in Sources */,
+				C07D370825BDF2BF004A7058 /* TartuÜlikoolInter.swift in Sources */,
 				C09C4E2925B08E5500F03F5A /* SchoolImageView.swift in Sources */,
 				C09C4E4225B1D0B900F03F5A /* SchoolDescriptionView.swift in Sources */,
 				C0460E9C25AF0F1400E4A15D /* TartuÜlikool.swift in Sources */,
@@ -860,11 +887,13 @@
 				C09C4F7C25B9CC3F00F03F5A /* PallasBaka.swift in Sources */,
 				C09C4F8525B9CCAD00F03F5A /* kunstiAkadeemiaBaka.swift in Sources */,
 				C09C4F8F25B9CD3600F03F5A /* KunstiAkadeemiaDoktor.swift in Sources */,
+				C07D370325BDB5F8004A7058 /* TartuÜlikoolDoktor.swift in Sources */,
 				C0460E4125AF0D8A00E4A15D /* SearchNavBar.swift in Sources */,
 				C0460EA425AF0F1400E4A15D /* Lennuakadeemia.swift in Sources */,
 				C09C505625BA59CD00F03F5A /* TTÜInter.swift in Sources */,
 				C0460E6025AF0E3B00E4A15D /* AllView.swift in Sources */,
 				C09C4E5425B1E03F00F03F5A /* MajorButton.swift in Sources */,
+				C07D36FE25BDB5EA004A7058 /* TartuÜlikoolMaka.swift in Sources */,
 				C09C4FFA25B9D71E00F03F5A /* TallinnaTehnikaKõrgkoolRaka.swift in Sources */,
 				C09C502725BA516400F03F5A /* TallinnaÜlikoolRaka.swift in Sources */,
 				C0460E0E25AF0C2700E4A15D /* finderQuiry.swift in Sources */,

@@ -6,8 +6,8 @@ struct OpiEestisApp: App {
     init(){
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .red
-        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: customTitleFont(), weight: UIFont.Weight.regular), .foregroundColor : UIColor.white.withAlphaComponent(0.9)]
-        UINavigationBar.appearance().tintColor = UIColor.white.withAlphaComponent(0.9)
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: customTitleFont(), weight: UIFont.Weight.regular), .foregroundColor : UIColor.white.withAlphaComponent(1)]
+        UINavigationBar.appearance().tintColor = UIColor.white.withAlphaComponent(1)
         UINavigationBar.appearance().barStyle = .black
         UITableView.appearance().separatorStyle = .none
     }
