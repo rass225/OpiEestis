@@ -32,11 +32,6 @@ struct TabViewController: View {
                 
             }
             .navigationBarTitle(Text(passedSchool.name), displayMode: .inline)
-            
         }.edgesIgnoringSafeArea(.bottom)
     }
-//
-//    func tabBottomPadding() -> Int {
-//        let screenHeight = UIScreen.main.bounds.width
-//    }
 }
