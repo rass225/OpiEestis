@@ -14,7 +14,7 @@ let maaülikoolInter = [
         majorWebsite: "http://mi.emu.ee/",
         spots: 35,
         duration: 5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 300,
         cost: "0€"
     ),
@@ -35,7 +35,7 @@ let maaülikoolInter = [
         majorWebsite: "http://mi.emu.ee/",
         spots: 20,
         duration: 5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 300,
         cost: "0€"
     ),
@@ -54,7 +54,7 @@ let maaülikoolInter = [
         majorWebsite: "http://vl.emu.ee/",
         spots: 34,
         duration: 6,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 360,
         cost: "0€"
     ),
@@ -73,7 +73,7 @@ let maaülikoolInter = [
         majorWebsite: "http://vl.emu.ee/",
         spots: 38,
         duration: 6,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 360,
         cost: "0€"
     ),

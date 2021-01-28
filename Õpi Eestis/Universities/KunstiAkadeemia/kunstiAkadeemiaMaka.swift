@@ -14,7 +14,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
         spots: 7,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -34,7 +34,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -53,7 +53,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 30,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -72,7 +72,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 15,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -91,7 +91,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 10,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -110,7 +110,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 12,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1250€/semester"
     ),
@@ -129,7 +129,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -148,7 +148,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
         spots: 6,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -167,7 +167,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -186,7 +186,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 14,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -205,7 +205,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 12,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -224,7 +224,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/arhitektuuriteaduskond/",
         spots: 7,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -243,7 +243,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/erialad/stsenograafia/",
         spots: 6,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -262,7 +262,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/erialad/tootedisain/oppe-sisu/",
         spots: 5,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -281,7 +281,7 @@ let kunstiAkadeemiaMaka = [
         majorWebsite: "https://www.artun.ee/erialad/urbanistika/",
         spots: 7,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "O€"
     ),

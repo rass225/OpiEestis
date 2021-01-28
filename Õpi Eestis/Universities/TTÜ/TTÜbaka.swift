@@ -13,7 +13,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/sisseastujale/abituriendile/erialad/inseneriteaduskonna-erialad/?id=146604",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -30,7 +30,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -48,7 +48,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -66,7 +66,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -84,7 +84,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -103,7 +103,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -121,7 +121,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -139,7 +139,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -157,7 +157,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -175,7 +175,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -193,7 +193,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -211,7 +211,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -229,7 +229,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -247,7 +247,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -265,7 +265,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -283,7 +283,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -301,7 +301,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/?id=146608",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -319,7 +319,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/?id=146608",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -337,7 +337,7 @@ let ttüBaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),

@@ -14,7 +14,7 @@ let maaülikoolRaka = [
         majorWebsite: "http://mi.emu.ee/",
         spots: 25,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -34,7 +34,7 @@ let maaülikoolRaka = [
         majorWebsite: "http://te.emu.ee/",
         spots: 35,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),

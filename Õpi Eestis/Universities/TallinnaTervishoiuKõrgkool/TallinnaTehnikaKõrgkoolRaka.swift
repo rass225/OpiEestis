@@ -13,7 +13,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/arhitektuuriinstituut",
         spots: 30,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -31,7 +31,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ehitusinstituut",
         spots: 65,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -46,7 +46,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/arhitektuuriinstituut",
         spots: 55,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -64,28 +64,28 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ehitusinstituut",
         spots: 20,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
-    majorsMinors(
-        name: "Kinnisvara Korrashoid",
-        level: .applied,
-        type: .ehitus,
-        requirements: [
-            Requirements(term: "Keskharidus"),
-            Requirements(term: "Laia matemaatika riigieksami tulemus vähemalt 40 punkti")
-        ],
-        description: ["Uued moodsate lahendustega äri- ja eluhooned on tipptehnoloogiaga varustatud nutikad ja automatiseeritud kompleksid. Nende tõrgeteta toimimiseks ja omaniku/kliendi rahulolu tagamiseks vajatakse andekaid haldus- ja hooldusjuhte, kes tagavad hoonete kasutusperioodi jooksul kvaliteetse haldus-, hooldus- ja heakorrateenuse.", "Haritud kinnisvara korrashoiu spetsialistil on laialdane ehitustehniline pädevus ning üldtehniline taip, oskus lugeda jooniseid ning teadmised kütte-, jahutus- ja ventilatsioonisüsteemidest. Ta on hea suhtleja, oskab juhtida meeskonda ning omab õigus- ja majandusalaseid teadmisi.", "Kinnisvara korrashoiu õppekava tagab 3,5-aastase õppeperioodi jooksul eriala lõpetajale kõik eelloetletud teadmised võimaldamaks tegutseda kinnisvara korrashoiu valdkonnas pädeva ja kutset omava spetsialistina. Samuti on lõpetanutel võimalus jätkata õpinguid Tallinna Tehnikaülikooli magistriõppes.", "Üliõpilaste käsutuses on ehitusinstituudi tipptasemel laborid ja õpetajateks oma ala professionaalid. Spetsiifiliste kinnisvara korrashoiuga seotud õppeainete läbiviimine toimub koostöös Eesti Kinnisvara Korrashoiu Liiduga. Tihedat koostööd tehakse valdkonna mainekate riigi- ja eraettevõtetega nagu Riigi Kinnisvara AS, BPT Real Estate OÜ, Done Haldus OÜ, Cityhaldus OÜ, Reminet OÜ. Koostööpartneriteks on ka Tallinna Linnavalitsus, Haabersti vald ja Viimsi vald."],
-        outcomes: ["Õppekava täies mahus läbinul on järgmine pädevus:", "Omab süsteemset ülevaadet kinnisvara korrashoiu teostamise enamlevinud vahenditest ja võimalustest ning tunneb hoonete haldamise ja hooldamise aluspõhimõtteid", "Oskab koostada lihtsamaid eelarveid, kalkulatsioone, kinnisvara korrashoiustrateegiaid, -tegevuskavasid ja lepinguid ning on suuteline hindama nende õiguslikku ja majanduslikku sisu", "On omandanud hoonete, rajatiste ja tehnosüsteemide kavandamise, ehitamise, hooldamise ja arendamisega seotud teoreetilised teadmised ning baastasemel praktilised oskused", "Tunneb ehitusmaterjale, ehitusprotsesside tehnoloogiat, ehitustööde vastuvõtmisega seotud nõudeid ja oskab hinnata tööde kvaliteeti", "Tunneb ja järgib valdkonda reguleerivaid õigusakte, standardeid ja tehnilisi norme", "Tunneb majanduse ja ettevõtluse aluseid ning oskab neid erialases töös rakendada", "Suudab õpitut töös rakendada ja ennast pidevalt erialaselt täiendada", "Lähtub oma tegevuses erialasest kutse-eetikast ning oskab arvestada sotsiaalsete, majanduslike, keskkonnahoiu ja eetiliste aspektidega", "Suudab ennast erialaselt väljendada nii suuliselt kui kirjalikult emakeeles ja vähemalt ühes võõrkeeles", "Vldab erialaseks tööks vajalikke suhtlus- ja juhtimisoskusi ning suudab töötada multidistsiplinaarses projektimeeskonnas.","Ettevõtete hinnangul on tööturul suur puudus noorest ja haritud põlvkonnast, kes lisaks spetsiifilistele erialateadmistele omavad häid teadmisi IT, digitaliseerimise ja virtualiseerimise vallast, mistõttu kinnisvara korrashoiu eriala lõpetanud üliõpilastele on pärast lõpetamist kindel töökoht garanteeritud."],
-        language: .eesti,
-        majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ehitusinstituut",
-        spots: 20,
-        duration: 4,
-        studyLocation: "Tallinn",
-        eap: 240,
-        cost: "0€"
-    ),
+//    majorsMinors(
+//        name: "Kinnisvara Korrashoid",
+//        level: .applied,
+//        type: .ehitus,
+//        requirements: [
+//            Requirements(term: "Keskharidus"),
+//            Requirements(term: "Laia matemaatika riigieksami tulemus vähemalt 40 punkti")
+//        ],
+//        description: ["Uued moodsate lahendustega äri- ja eluhooned on tipptehnoloogiaga varustatud nutikad ja automatiseeritud kompleksid. Nende tõrgeteta toimimiseks ja omaniku/kliendi rahulolu tagamiseks vajatakse andekaid haldus- ja hooldusjuhte, kes tagavad hoonete kasutusperioodi jooksul kvaliteetse haldus-, hooldus- ja heakorrateenuse.", "Haritud kinnisvara korrashoiu spetsialistil on laialdane ehitustehniline pädevus ning üldtehniline taip, oskus lugeda jooniseid ning teadmised kütte-, jahutus- ja ventilatsioonisüsteemidest. Ta on hea suhtleja, oskab juhtida meeskonda ning omab õigus- ja majandusalaseid teadmisi.", "Kinnisvara korrashoiu õppekava tagab 3,5-aastase õppeperioodi jooksul eriala lõpetajale kõik eelloetletud teadmised võimaldamaks tegutseda kinnisvara korrashoiu valdkonnas pädeva ja kutset omava spetsialistina. Samuti on lõpetanutel võimalus jätkata õpinguid Tallinna Tehnikaülikooli magistriõppes.", "Üliõpilaste käsutuses on ehitusinstituudi tipptasemel laborid ja õpetajateks oma ala professionaalid. Spetsiifiliste kinnisvara korrashoiuga seotud õppeainete läbiviimine toimub koostöös Eesti Kinnisvara Korrashoiu Liiduga. Tihedat koostööd tehakse valdkonna mainekate riigi- ja eraettevõtetega nagu Riigi Kinnisvara AS, BPT Real Estate OÜ, Done Haldus OÜ, Cityhaldus OÜ, Reminet OÜ. Koostööpartneriteks on ka Tallinna Linnavalitsus, Haabersti vald ja Viimsi vald."],
+//        outcomes: ["Õppekava täies mahus läbinul on järgmine pädevus:", "Omab süsteemset ülevaadet kinnisvara korrashoiu teostamise enamlevinud vahenditest ja võimalustest ning tunneb hoonete haldamise ja hooldamise aluspõhimõtteid", "Oskab koostada lihtsamaid eelarveid, kalkulatsioone, kinnisvara korrashoiustrateegiaid, -tegevuskavasid ja lepinguid ning on suuteline hindama nende õiguslikku ja majanduslikku sisu", "On omandanud hoonete, rajatiste ja tehnosüsteemide kavandamise, ehitamise, hooldamise ja arendamisega seotud teoreetilised teadmised ning baastasemel praktilised oskused", "Tunneb ehitusmaterjale, ehitusprotsesside tehnoloogiat, ehitustööde vastuvõtmisega seotud nõudeid ja oskab hinnata tööde kvaliteeti", "Tunneb ja järgib valdkonda reguleerivaid õigusakte, standardeid ja tehnilisi norme", "Tunneb majanduse ja ettevõtluse aluseid ning oskab neid erialases töös rakendada", "Suudab õpitut töös rakendada ja ennast pidevalt erialaselt täiendada", "Lähtub oma tegevuses erialasest kutse-eetikast ning oskab arvestada sotsiaalsete, majanduslike, keskkonnahoiu ja eetiliste aspektidega", "Suudab ennast erialaselt väljendada nii suuliselt kui kirjalikult emakeeles ja vähemalt ühes võõrkeeles", "Vldab erialaseks tööks vajalikke suhtlus- ja juhtimisoskusi ning suudab töötada multidistsiplinaarses projektimeeskonnas.","Ettevõtete hinnangul on tööturul suur puudus noorest ja haritud põlvkonnast, kes lisaks spetsiifilistele erialateadmistele omavad häid teadmisi IT, digitaliseerimise ja virtualiseerimise vallast, mistõttu kinnisvara korrashoiu eriala lõpetanud üliõpilastele on pärast lõpetamist kindel töökoht garanteeritud."],
+//        language: .eesti,
+//        majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ehitusinstituut",
+//        spots: 20,
+//        duration: 4,
+//        studyLocation:  ["Tallinn"],
+//        eap: 240,
+//        cost: "0€"
+//    ),
     majorsMinors(
         name: "Transport ja Logistika",
         level: .applied,
@@ -101,7 +101,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/logistikainstituut",
         spots: 70,
         duration: 3.5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 210,
         cost: "0€"
     ),
@@ -120,7 +120,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/logistikainstituut",
         spots: 40,
         duration: 3.5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 210,
         cost: "0€"
     ),
@@ -138,7 +138,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/logistikainstituut",
         spots: 25,
         duration: 3.5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -156,7 +156,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ringmajanduse-ja-tehnoloogia-instituut",
         spots: 25,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -174,7 +174,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ringmajanduse-ja-tehnoloogia-instituut",
         spots: 60,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -192,7 +192,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ehitusinstituut",
         spots: 20,
         duration: 3.5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 210,
         cost: "0€"
     ),
@@ -210,7 +210,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/roiva-ja-tekstiili-instituut",
         spots: 60,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -229,7 +229,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/tehnikainstituut",
         spots: 45,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -247,7 +247,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/tehnikainstituut",
         spots: 25,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -265,7 +265,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/tehnikainstituut",
         spots: 45,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -283,7 +283,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/tehnikainstituut",
         spots: 25,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -301,7 +301,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/teenusmajanduse-instituut",
         spots: 40,
         duration: 3.5,
-        studyLocation: "Mõdriku",
+        studyLocation:  ["Mõdriku"],
         eap: 210,
         cost: "0€"
     ),
@@ -320,7 +320,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/teenusmajanduse-instituut",
         spots: 60,
         duration: 3,
-        studyLocation: "Mõdriku",
+        studyLocation:  ["Mõdriku"],
         eap: 180,
         cost: "0€"
         
@@ -340,7 +340,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/teenusmajanduse-instituut",
         spots: 60,
         duration: 3,
-        studyLocation: "Mõdriku",
+        studyLocation:  ["Mõdriku"],
         eap: 180,
         cost: "0€"
     ),
@@ -359,7 +359,7 @@ let tallinnatehnikaKõrgkoolRaka = [
         majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/teenusmajanduse-instituut",
         spots: 40,
         duration: 3,
-        studyLocation: "Mõdriku",
+        studyLocation:  ["Mõdriku"],
         eap: 180,
         cost: "0€"
     )

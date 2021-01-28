@@ -15,7 +15,7 @@ let tallinnaÜlikoolRaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 36,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let tallinnaÜlikoolRaka = [
         majorWebsite: "https://www.tlu.ee/haapsalu",
         spots: 15,
         duration: 3,
-        studyLocation: "Haapsalu",
+        studyLocation:  ["Haapsalu"],
         eap: 180,
         cost: "0€"
     ),
@@ -51,7 +51,7 @@ let tallinnaÜlikoolRaka = [
         majorWebsite: "https://www.tlu.ee/haapsalu",
         spots: 15,
         duration: 3,
-        studyLocation: "Haapsalu",
+        studyLocation:  ["Haapsalu"],
         eap: 180,
         cost: "0€"
     ),
@@ -69,7 +69,7 @@ let tallinnaÜlikoolRaka = [
         majorWebsite: "https://www.tlu.ee/haapsalu",
         spots: 22,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -87,7 +87,7 @@ let tallinnaÜlikoolRaka = [
         majorWebsite: "https://www.tlu.ee/haapsalu",
         spots: 22,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),

@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct MajorView1: View {
+    
     var passedMajor: majorsMinors
-    //i love rasmus <3
-    let EBSsession = 3.5
+    
     var body: some View {
         ZStack{
             Color.customBlue.edgesIgnoringSafeArea(.all)
@@ -15,3 +15,4 @@ struct MajorView1: View {
         .environment(\.colorScheme, .light)
     }
 }
+//i love rasmus <3

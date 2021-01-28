@@ -17,7 +17,7 @@ var kaitseväeMaka = [majorsMinors(
     majorWebsite: "",
     spots: 0,
     duration: 2,
-    studyLocation: "Tartu",
+    studyLocation:  ["Tartu"],
     eap: 120,
     cost: "0€"
 )]

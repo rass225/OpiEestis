@@ -14,7 +14,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.flaj.ut.ee/et",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.humanitaarteadused.ut.ee/ee",
         spots: 6,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -52,7 +52,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.flfi.ut.ee/et/semiootika-osakond",
         spots: 1,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -71,7 +71,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.maailmakeeled.ut.ee/et",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -90,7 +90,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "https://www.flku.ut.ee/et",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -109,7 +109,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.us.ut.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -128,7 +128,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.flfi.ut.ee/et/semiootika-osakond",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -147,7 +147,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.maailmakeeled.ut.ee/et/osakonnad/slavistika",
         spots: 2,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -166,7 +166,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.ht.ut.ee/",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -185,7 +185,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.majandus.ut.ee/",
         spots: 4,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -204,7 +204,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.yti.ut.ee/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -223,7 +223,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "https://skytte.ut.ee/et",
         spots: 2,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -242,7 +242,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.psychology.ut.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -261,7 +261,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.yti.ut.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -280,7 +280,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://oigus.ut.ee/",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -299,7 +299,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.meditsiiniteadused.ut.ee/",
         spots: 21,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -318,7 +318,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.meditsiiniteadused.ut.ee/",
         spots: 1,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -337,7 +337,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.kk.ut.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -356,7 +356,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.meditsiiniteadused.ut.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -375,7 +375,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 8,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -394,7 +394,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 6,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -413,7 +413,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -432,7 +432,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -449,7 +449,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 1,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -468,7 +468,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.cs.ut.ee/",
         spots: 14,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -487,7 +487,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 12,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -506,7 +506,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -525,7 +525,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.math.ut.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -544,7 +544,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.math.ut.ee/",
         spots: 1,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -563,7 +563,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 1,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -582,7 +582,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -601,7 +601,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 16,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -620,7 +620,7 @@ let tartuÜlikoolDoktor = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     )

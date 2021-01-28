@@ -7,62 +7,34 @@ struct SchoolDescriptionView: View {
         HStack(alignment: .top){
             VStack(alignment: .leading){
                 HStack{
-                    VStack(alignment: .center){
-                        Image(systemName: "mappin.and.ellipse")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 30)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "mappin.and.ellipse", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Asukoht")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        Text("\(self.locationfunc().city)")
-                            .font(Font.caption.weight(.regular))
+                        Text("\(locationfunc().city)").font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .center) {
-                        Image(systemName: "person.3")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 30)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "person.3", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Üliõpilasi")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        if self.passedschools.students == 0 {
-                            Text("N/A")
-                                .font(Font.caption.weight(.regular))
-                        } else {
-                            Text("\(self.passedschools.students)")
-                                .font(Font.caption.weight(.regular))
-                        }
+                        Text(passedschools.students != 0 ? "\(passedschools.students)" : "N/A").font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .center) {
-                        Image(systemName: "person.2")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 30)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "person.2", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Välisüliõpilasi")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        if passedschools.name != "Estonian Business School" {
-                            Text(foreignStudentsToggle ? "\(foreignStudents())%": "\(self.passedschools.internationalStudents)")
-                                .font(Font.caption.weight(.regular))
-                        } else {
-                            Text(foreignStudentsToggle ? "\(foreignStudents())%": "42. riigist")
-                                .font(Font.caption.weight(.regular))
-                        }
+                        Text(passedschools.name.contains("Business")
+                                ? foreignStudentsToggle ? "\(foreignStudents())%": "42. riigist"
+                                : foreignStudentsToggle ? "\(foreignStudents())%": "\(passedschools.internationalStudents)"
+                        ).font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 .onTapGesture { foreignStudentsToggle.toggle() }
             }
@@ -71,94 +43,72 @@ struct SchoolDescriptionView: View {
             
             VStack(alignment: .leading){
                 HStack{
-                    VStack(alignment: .center) {
-                        Image(systemName: "mappin.circle")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 30)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "mappin.circle", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Osakonnad")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        Text("\(self.locationCount()) linnas")
-                                .font(Font.caption.weight(.regular))
+                        Text("\(locationCount()) linnas").font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .center) {
-                        Image(systemName: "list.dash")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 30)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "list.dash", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Erialasid")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        Text("\(self.passedschools.education.count)")
-                                .font(Font.caption.weight(.regular))
+                        Text("\(passedschools.education.count)").font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .center) {
-                        Image(systemName: "chart.bar")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 30)
-                    VStack(alignment: .leading, spacing: 0){
-                        if passedschools.name != "Estonian Business School" {
-                            Text("Maailmas")
-                                .font(Font.callout.weight(.regular))
-                                .padding(.bottom, 5)
-                            Text(passedschools.worldRanking == 0 ? ">1000. koht" : "\(self.passedschools.worldRanking). Koht")
-                                .font(Font.caption.weight(.regular))
-                        } else {
-                            Text("Ärikool")
-                                .font(Font.callout.weight(.regular))
-                                .padding(.bottom, 5)
-                            Text("Top 100 maailmas")
-                                .font(Font.caption.weight(.regular))
-                        }
+                    StatImage(image: "chart.bar", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
+                        Text(passedschools.name.contains("Business") ? "Ärikool" : "Maailmas")
+                        Text(passedschools.name.contains("Business")
+                                ? "Top 100 maailmas"
+                                : passedschools.worldRanking == 0 ? ">1000. koht" : "\(passedschools.worldRanking). Koht"
+                        ).font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
             }
         }
         .padding(.vertical, 20)
         .frame(height: UIScreen.main.bounds.height / 3.5)
         .background(Color.black.opacity(0.5))
-        .foregroundColor(Color.white.opacity(1))
     }
 }
 
 extension SchoolDescriptionView {
     
     func locationCount() -> Int {
-        var majors: [majorsMinors]
-        majors = passedschools.education
-        let majors2 = majors.map {
-            ($0.studyLocation)
+        let majors = passedschools.education
+        let studyLocations = majors.map{ ($0.studyLocation) }
+        var differentStudyLocations: [String] = []
+        for major in studyLocations {
+            for item in major {
+                differentStudyLocations.append(item)
+            }
         }
         var count: [String: Int] = [:]
-        majors2.forEach { count[$0, default: 0] += 1 }
+        differentStudyLocations.forEach { count[$0, default: 0] += 1 }
         return count.count
+//        let majors = passedschools.education.map{ ($0.studyLocation) }
+//        let test = majors.unique
+//        var count: [String: Int] = [:]
+//        test.forEach { count[$0, default: 0] += 1 }
+//        return count.count
     }
     
     func locationfunc() -> Location {
-        let location = passedschools.location
-        return location
+        return passedschools.location
     }
     
     func foreignStudents() -> Int {
-        let s = passedschools.students
-        let fs = passedschools.internationalStudents
         var percent: Int
-        if fs != 0 {
-            percent = fs * 100 / s
+        if passedschools.students != 0 {
+            percent = passedschools.internationalStudents * 100 / passedschools.students
         } else {
             percent = 0
         }

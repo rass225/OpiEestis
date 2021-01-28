@@ -12,7 +12,7 @@ let tartuTervishoiuKõrgkoolMaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/magistriope/terviseteadus",
         spots: 51,
         duration: 1.5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 90,
         cost: "0€"
     ),
@@ -31,7 +31,7 @@ let tartuTervishoiuKõrgkoolMaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/magistriope/radiograafia",
         spots: 16,
         duration: 2,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 120,
         cost: "3300€/year"
     ),

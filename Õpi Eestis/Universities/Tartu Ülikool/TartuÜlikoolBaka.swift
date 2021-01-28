@@ -13,7 +13,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.flaj.ut.ee/et",
         spots: 47,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -31,7 +31,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/klassikalinefiloloogia",
         spots: 10,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -49,7 +49,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.keel.ut.ee/et",
         spots: 33,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -67,7 +67,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.fl.ut.ee/flfi",
         spots: 15,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -85,7 +85,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/anglistika",
         spots: 46,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -103,7 +103,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.flku.ut.ee/et",
         spots: 38,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -121,7 +121,7 @@ let tartuÜlikoolBaka = [
 //        majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/klassikalinefiloloogia",
 //        spots: 6,
 //        duration: 3,
-//        studyLocation: "Tartu"
+//        studyLocation:  ["Tartu"]
 //    ),
     majorsMinors(
         name: "Religiooniuuringud ja Teoloogia",
@@ -136,7 +136,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.us.ut.ee/et",
         spots: 15,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -154,7 +154,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/romanistika",
         spots: 16,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -172,7 +172,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/romanistika",
         spots: 19,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -190,7 +190,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/germanistika",
         spots: 15,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -208,7 +208,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.flfi.ut.ee/et/semiootika-osakond",
         spots: 15,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -226,7 +226,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/skandinavistika",
         spots: 17,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -244,7 +244,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.maailmakeeled.ut.ee/et/osakonnad/slavistika",
         spots: 15,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -263,7 +263,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.yti.ut.ee/et",
         spots: 45,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -282,7 +282,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ht.ut.ee/et",
         spots: 30,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -300,7 +300,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://majandus.ut.ee/et",
         spots: 25,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "1900€/semester"
     ),
@@ -318,7 +318,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ht.ut.ee/et",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -335,7 +335,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.yti.ut.ee/et",
         spots: 40,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -353,7 +353,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.yti.ut.ee/et",
         spots: 35,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -372,7 +372,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ht.ut.ee/et",
         spots: 30,
         duration: 5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 300,
         cost: "0€"
     ),
@@ -391,7 +391,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ht.ut.ee/et",
         spots: 50,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
         
@@ -410,7 +410,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ht.ut.ee/et",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -428,7 +428,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ht.ut.ee/et",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -446,7 +446,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://majandus.ut.ee/et",
         spots: 70,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -464,7 +464,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/psuhholoogia",
         spots: 60,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "1300€/semester"
     ),
@@ -482,7 +482,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://skytte.ut.ee/et/instituudist-9",
         spots: 45,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -500,7 +500,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://oigus.ut.ee/et",
         spots: 150,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -517,7 +517,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/keeled-mitmekeelsus-koolis",
         spots: 34,
         duration: 3,
-        studyLocation: "Narva",
+        studyLocation:  ["Narva"],
         eap: 180,
         cost: "0€"
     ),
@@ -534,7 +534,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/koolieelse-lasteasutuse-opetaja-mitmekeelses-oppekeskkonnas",
         spots: 34,
         duration: 3,
-        studyLocation: "Narva",
+        studyLocation:  ["Narva"],
         eap: 180,
         cost: "0€"
     ),
@@ -551,7 +551,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/noorsootoo-1",
         spots: 20,
         duration: 3,
-        studyLocation: "Narva",
+        studyLocation:  ["Narva"],
         eap: 180,
         cost: "0€"
     ),
@@ -569,7 +569,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://meditsiiniteadused.ut.ee/et",
         spots: 45,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -587,7 +587,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.kk.ut.ee/et",
         spots: 45,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -605,7 +605,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.cs.ut.ee/et/oppimine/bakalaureuseope",
         spots: 50,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -623,7 +623,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://reaalteadused.ut.ee/et",
         spots: 50,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -641,7 +641,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://reaalteadused.ut.ee/et",
         spots: 65,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -659,7 +659,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://reaalteadused.ut.ee/et",
         spots: 50,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -677,7 +677,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://reaalteadused.ut.ee/et",
         spots: 23,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -695,7 +695,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://reaalteadused.ut.ee/et",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -713,7 +713,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://www.cs.ut.ee/et",
         spots: 225,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -732,7 +732,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "https://reaalteadused.ut.ee/et",
         spots: 50,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "2500€/semester"
     ),
@@ -750,7 +750,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 30,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -768,7 +768,7 @@ let tartuÜlikoolBaka = [
         majorWebsite: "http://www.reaalteadused.ut.ee/",
         spots: 30,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),

@@ -17,6 +17,5 @@ var tartuÜlikool = School(
     internationalStudents: 1800,
     worldRanking: 285,
     vastuvõtt: ["18.06 - 02.07.2020"],
-    education: [
-    ]
+    education: tartuÜlikoolRaka + tartuÜlikoolMaka + tartuÜlikoolBaka + tartuÜlikoolInter + tartuÜlikoolDoktor
 )

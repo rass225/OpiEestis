@@ -14,7 +14,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://ms.emu.ee/",
         spots: 48,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://mi.emu.ee/",
         spots: 30,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -52,7 +52,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://mi.emu.ee/",
         spots: 50,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -71,7 +71,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -90,7 +90,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 15,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -109,7 +109,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 34,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -129,7 +129,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -148,7 +148,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -167,7 +167,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 45,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -187,7 +187,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://te.emu.ee/",
         spots: 75,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -206,7 +206,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://vl.emu.ee/",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -225,7 +225,7 @@ let maaülikoolBaka = [
         majorWebsite: "http://vl.emu.ee/",
         spots: 25,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),

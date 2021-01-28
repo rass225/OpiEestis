@@ -16,7 +16,9 @@ struct MajorCell: View {
                     Text("\u{2022}")
                     Text(item.type.rawValue)
                     Text("\u{2022}")
-                    Text(item.studyLocation)
+                    ForEach(item.studyLocation, id: \.self) { location in
+                        Text(location)
+                    }
                     Spacer()
                 }.font(Font.caption2.weight(.light))
                 .foregroundColor(Color.black)

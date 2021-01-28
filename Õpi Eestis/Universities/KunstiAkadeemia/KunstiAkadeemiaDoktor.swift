@@ -14,7 +14,7 @@ let kunstiAkadeemiaDoktor = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/arhitektuuriteaduskond/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let kunstiAkadeemiaDoktor = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ), majorsMinors(
@@ -51,7 +51,7 @@ let kunstiAkadeemiaDoktor = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -70,7 +70,7 @@ let kunstiAkadeemiaDoktor = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     )

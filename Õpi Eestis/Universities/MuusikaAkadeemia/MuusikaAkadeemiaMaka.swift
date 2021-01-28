@@ -12,7 +12,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "https://eamt.ee/erialad/helilooming-improvisatsiooniline-muusika-ja-kaasaegsed-etenduskunstid/kaasaegsed-etenduskunstid/",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -30,7 +30,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "https://eamt.ee/erialad/helilooming-improvisatsiooniline-muusika-ja-kaasaegsed-etenduskunstid/helilooming-ja-muusikatehnoloogia/",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -50,7 +50,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -68,7 +68,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -85,7 +85,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -104,7 +104,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -124,7 +124,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "https://eamt.ee/erialad/muusikateadus/muusikateadus/",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -143,7 +143,7 @@ let muusikaAkadeemiaMaka = [
         majorWebsite: "https://eamt.ee/erialad/muusikateadus/interpretatsioonipedagoogika/",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -163,7 +163,7 @@ let muusikaAkadeemiaMaka = [
 //            majorWebsite: "",
 //            spots: 0,
 //            duration: 2,
-//            studyLocation: "Tallinn",
+//            studyLocation:  ["Tallinn"],
 //            eap: 120,
 //            cost: "0€"
 //        ),

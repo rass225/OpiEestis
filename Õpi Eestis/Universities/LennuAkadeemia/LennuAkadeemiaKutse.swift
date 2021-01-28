@@ -14,7 +14,7 @@ let lennuAkadeemiaKutse = [
         majorWebsite: "https://lennuakadeemia.ee/tookohapohine-ope/ohusoiduki-hooldustehniku-oppekava",
         spots: 15,
         duration: 2,
-        studyLocation: "Reola",
+        studyLocation: ["Reola"],
         ekap: 120,
         cost: "0€"
     )

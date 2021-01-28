@@ -9,4 +9,5 @@ public extension Color {
     
     static let customBlue = Color.init(red: 20/255, green: 200/255, blue: 175/255)
     static let customGreen = Color.init(red: 20/255, green: 175/255, blue: 255/255)
+    static let whiteDim = Color.init(red: 240/255, green: 240/255, blue: 240/255)
 }

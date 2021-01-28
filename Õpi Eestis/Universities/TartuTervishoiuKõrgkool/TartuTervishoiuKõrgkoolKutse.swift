@@ -11,7 +11,7 @@ let tartuTervishoiuKõrgkoolKutse = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/kutseope/hooldustootaja",
         spots: 24,
         duration: 2,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         ekap: 120,
         cost: "0€"
     ),
@@ -27,7 +27,7 @@ let tartuTervishoiuKõrgkoolKutse = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/kutseope/tegevusjuhendaja",
         spots: 22,
         duration: 1,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         ekap: 60,
         cost: "0€"
     ),
@@ -44,7 +44,7 @@ let tartuTervishoiuKõrgkoolKutse = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/kutseope/lapsehoidja",
         spots: 46,
         duration: 1,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         ekap: 60,
         cost: "0€"
     ),
@@ -62,7 +62,7 @@ let tartuTervishoiuKõrgkoolKutse = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/kutseope/erakorralise-meditsiini-tehnik",
         spots: 25,
         duration: 1,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         ekap: 60,
         cost: "0€"
     ),
@@ -79,7 +79,7 @@ let tartuTervishoiuKõrgkoolKutse = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/kutseope/massoor",
         spots: 16,
         duration: 2,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         ekap: 120,
         cost: "0€"
     )

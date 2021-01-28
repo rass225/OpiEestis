@@ -12,7 +12,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -31,7 +31,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -50,7 +50,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -69,7 +69,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/infotehnoloogia-teaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -88,7 +88,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/loodusteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -107,7 +107,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -126,7 +126,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/loodusteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -145,7 +145,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/majandusteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -164,7 +164,7 @@ let ttüDoktor = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),

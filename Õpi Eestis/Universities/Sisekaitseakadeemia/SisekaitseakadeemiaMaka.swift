@@ -18,7 +18,7 @@ let sisekaitseakadeemiaMaka = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_sji",
         spots: 30,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     )

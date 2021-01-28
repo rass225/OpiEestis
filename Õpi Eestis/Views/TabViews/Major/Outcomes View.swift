@@ -9,17 +9,15 @@ struct Outcomes_View: View {
                 ScrollView{
                     ForEach(passedMajor.outcomes, id: \.self) { hey in
                         Text("\u{2022} \(hey)")
-                            .font(Font.callout.weight(.light))
+                            .font(.lightCallout)
                             .multilineTextAlignment(.leading)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .foregroundColor(Color.white.opacity(1))
+                            .foregroundColor(Color.white)
                             .padding(.vertical, 8)
                     }
                     .lineSpacing(10)
                     .padding(.horizontal, 16)
-                    .frame(maxWidth: .infinity)
-                }.padding(.bottom, 1)
-                .edgesIgnoringSafeArea(.bottom)
+                }.edgesIgnoringSafeArea(.bottom)
         }.navigationBarTitle(Text("Õpiväljundid"))
     }
 }

@@ -1,6 +1,5 @@
 import SwiftUI
 
-@available(iOS 14.0, *)
 struct DegreeView: View {
     var passedSchools1: School
     @State var selectedLevel = "Kõik Erialad"
@@ -10,8 +9,6 @@ struct DegreeView: View {
         ZStack{
             Color.customBlue.edgesIgnoringSafeArea(.all)
             VStack(spacing: 0){
-                
-                
                 ScrollView{
                     VStack(spacing: 0){
                         ScrollView(.horizontal, showsIndicators: false){
@@ -37,14 +34,12 @@ struct DegreeView: View {
                         ForEach(selectedMajors()) { item in
                             NavigationLink(destination: MajorView1(passedMajor: item)) {
                                 MajorCell(item: item)
-                                
                             }
                             Divider()
                         }
                     }
                 }
             }
-            
         }
         .navigationBarItems(trailing:
             Button(action: { isAscending.toggle() }) {
@@ -55,11 +50,6 @@ struct DegreeView: View {
     }
 }
 
-//NavigationLink(destination: AllView(passedSchools: item.majors, category: item.title)) {
-//                        MajorLabel(text: item.title)
-    
-//}
-@available(iOS 14.0, *)
 extension DegreeView {
     
     struct SelectedLevel: Identifiable {
@@ -133,13 +123,7 @@ extension DegreeView {
             majors = passedSchools1.education.filter({ $0.level.rawValue == selectedLevel.lowercased()})
         }
         if !searchText.isEmpty {
-//            if selectedLevel == "Kõik Erialad" {
-                majors = majors.filter({ $0.name.lowercased().contains(searchText.lowercased()) })
-//            } else {
-//                let majors2 = majors
-//                
-//            }
-            
+            majors = majors.filter({ $0.name.lowercased().contains(searchText.lowercased()) })
         }
         if isAscending {
            majors = majors.sorted(by: { $0.name > $1.name })

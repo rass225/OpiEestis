@@ -14,7 +14,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
         spots: 9,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -32,7 +32,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/arhitektuuriteaduskond/",
         spots: 20,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 300,
         cost: "0€"
     ),
@@ -51,7 +51,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 15,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -70,7 +70,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -89,7 +89,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
         spots: 8,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -108,7 +108,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 15,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -127,7 +127,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 12,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -146,7 +146,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 15,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -165,7 +165,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/",
         spots: 10,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -184,7 +184,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/disainiteaduskond/",
         spots: 20,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -203,7 +203,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/arhitektuuriteaduskond/",
         spots: 12,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -222,7 +222,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
         spots: 7,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -241,7 +241,7 @@ let kunstiAkadeemiaBaka = [
         majorWebsite: "https://www.artun.ee/erialad/tekstiilidisain/",
         spots: 20,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),

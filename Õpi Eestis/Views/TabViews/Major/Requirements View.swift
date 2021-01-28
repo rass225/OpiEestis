@@ -11,9 +11,9 @@ struct Requirements_View: View {
                 ForEach(passedMajor){ hey in
                     HStack{
                         Text("•")
-                            .font(.custom("Roboto", size: UIScreen.main.bounds.width / 17))
+                            .font(.regularBody)
                             .padding(.leading, 10)
-                            .foregroundColor(Color.black.opacity(1))
+                            .foregroundColor(Color.black)
                         Text(hey.term)
                             .padding(.trailing, 20)
                         Spacer()
@@ -21,13 +21,12 @@ struct Requirements_View: View {
                             Text("\(hey.percentage!)%")
                                 .padding(.trailing, 20)
                         }
-                    }.foregroundColor(Color.white.opacity(1))
+                    }.foregroundColor(Color.white)
                     .padding(.vertical, 10)
-                    .font(Font.callout.weight(.light))
+                    .font(.lightCallout)
                 }.background(Color.black.opacity(0.5))
                 Spacer()
             }
-            
         }.navigationBarTitle(Text("Sisseastumine"), displayMode: .inline)
     }
 }

@@ -13,7 +13,7 @@ let tartuÜlikoolInter = [
         majorWebsite: "https://meditsiiniteadused.ut.ee/et",
         spots: 185,
         duration: 6,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 360,
         cost: "0€"
     ),
@@ -31,7 +31,7 @@ let tartuÜlikoolInter = [
         majorWebsite: "https://www.farmaatsia.ut.ee/et",
         spots: 40,
         duration: 5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 300,
         cost: "0€"
     ),
@@ -49,7 +49,7 @@ let tartuÜlikoolInter = [
         majorWebsite: "https://meditsiiniteadused.ut.ee/et",
         spots: 24,
         duration: 6,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 360,
         cost: "0€"
     ),
@@ -68,7 +68,7 @@ let tartuÜlikoolInter = [
         majorWebsite: "https://meditsiiniteadused.ut.ee/et",
         spots: 32,
         duration: 5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 300,
         cost: "0€"
     ),

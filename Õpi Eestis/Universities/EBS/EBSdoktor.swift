@@ -14,7 +14,7 @@ let ebsDoktor = [
         majorWebsite: "https://ebs.ee/doctoral-studies",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation: ["Tallinn"],
         eap: 240,
         cost: "2750€"
     )

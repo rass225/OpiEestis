@@ -15,7 +15,7 @@ let ebsMaka = [
         majorWebsite: "https://www.ebs.ee/mba-management-1-year-program",
         spots: 0,
         duration: 1,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 60,
         cost: "5500€"
     ),
@@ -34,7 +34,7 @@ let ebsMaka = [
         majorWebsite: "https://www.ebs.ee/mba-management-2-year-program",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "alates 6125€"
     ),
@@ -53,7 +53,7 @@ let ebsMaka = [
         majorWebsite: "https://www.ebs.ee/international-business-administration-ma",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn ja Helsingi",
+        studyLocation: ["Tallinn", "Helsingi"],
         eap: 120,
         cost: "6475€"
     ),

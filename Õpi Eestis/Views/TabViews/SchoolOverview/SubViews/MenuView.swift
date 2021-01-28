@@ -3,7 +3,7 @@ import UIKit
 import MessageUI
 
 struct Menu: View {
-    @Binding var contact: School
+    let contact: School
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     @State private var showingAlert = false

@@ -17,7 +17,7 @@ let kaitseväeRaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180, cost: "0€"
     ),
     majorsMinors(
@@ -38,7 +38,7 @@ let kaitseväeRaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -60,7 +60,7 @@ let kaitseväeRaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 186,
         cost: "0€"
     )

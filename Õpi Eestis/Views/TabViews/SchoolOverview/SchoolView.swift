@@ -1,25 +1,16 @@
 import SwiftUI
-import UIKit
-import MessageUI
 
 struct SchoolView: View {
     
-    @State var passedschools: School
-    @State private var draggedEffect = CGSize.zero
-    @State private var dragzoom = CGSize.zero
+    let passedschools: School
     
     var body: some View {
         ZStack {
             ScrollView{
                 VStack(spacing: 0){
-                    
-                    Image(passedschools.image)
-                        .resizable()
-                        .frame(height: UIScreen.main.bounds.width / 1.7)
-                        .scaledToFit()
-                        
+                    SchoolImage(image: passedschools.image)
                     SchoolDescriptionView(passedschools: passedschools)
-                    Menu(contact: $passedschools)
+                    Menu(contact: passedschools)
                     SocialMediaView(socialMedia: passedschools.socialMedia)
                 }
             }

@@ -14,7 +14,7 @@ let maaülikoolDoktor = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 5,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let maaülikoolDoktor = [
         majorWebsite: "http://pk.emu.ee/",
         spots: 7,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -52,7 +52,7 @@ let maaülikoolDoktor = [
         majorWebsite: "http://te.emu.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -71,7 +71,7 @@ let maaülikoolDoktor = [
         majorWebsite: "http://vl.emu.ee/",
         spots: 3,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -90,7 +90,7 @@ let maaülikoolDoktor = [
         majorWebsite: "http://mi.emu.ee/",
         spots: 4,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     )

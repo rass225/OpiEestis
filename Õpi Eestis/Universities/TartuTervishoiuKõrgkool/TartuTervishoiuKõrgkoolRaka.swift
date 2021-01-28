@@ -14,7 +14,7 @@ let tartuTervishoiuKõrgkoolRaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/ode",
         spots: 160,
         duration: 3.5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 210,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let tartuTervishoiuKõrgkoolRaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/ammaemand",
         spots: 26,
         duration: 4.5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 270,
         cost: "0€"
     ),
@@ -51,7 +51,7 @@ let tartuTervishoiuKõrgkoolRaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/fusioterapeut",
         spots: 20,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "1 EAP/55€"
     ),
@@ -69,7 +69,7 @@ let tartuTervishoiuKõrgkoolRaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/tervisekaitse-spetsialist",
         spots: 14,
         duration: 3,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 180,
         cost: "0€"
     ),
@@ -87,7 +87,7 @@ let tartuTervishoiuKõrgkoolRaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/radioloogiatehni",
         spots: 20,
         duration: 3.5,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 210,
         cost: "0€"
     ),
@@ -105,7 +105,7 @@ let tartuTervishoiuKõrgkoolRaka = [
         majorWebsite: "https://www.nooruse.ee/et/korgkoolis-oppimine/rakenduskorgharidus/bioanaluutik",
         spots: 26,
         duration: 3.5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 210,
         cost: "0€"
     ),

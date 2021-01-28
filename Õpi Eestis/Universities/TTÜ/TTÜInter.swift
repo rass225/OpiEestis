@@ -14,7 +14,7 @@ let ttüInter = [
         majorWebsite: "https://www.ttu.ee/sisseastujale/abituriendile/erialad/inseneriteaduskonna-erialad/arhitektuur/#ulevaade-11",
         spots: 0,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 300,
         cost: "0€"
     ),
@@ -32,7 +32,7 @@ let ttüInter = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 5,
-        studyLocation: "Tallinn ja Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 300,
         cost: "0€"
     ),
@@ -51,7 +51,7 @@ let ttüInter = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 300,
         cost: "0€"
     ),
@@ -72,7 +72,7 @@ let ttüInter = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 300,
         cost: "0€"
     ),

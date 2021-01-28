@@ -49,6 +49,11 @@ struct ContentView: View {
                         .font(.system(size: 20, weight: .medium))
                         .foregroundColor(Color.white)
                 }
+                NavigationLink(
+                    destination: DiscoveryView(),
+                    label: {
+                        /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                    })
             })
         }
     }

@@ -15,7 +15,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/graafiline_disain",
         spots: 25,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "3700€/aastas"
     ),
@@ -35,7 +35,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/start-up_ettev%C3%B5tlus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "4720€/aastas"
     ),
@@ -55,7 +55,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/finantsjuhtimine",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
         cost: "3640€/aastas"
     ),
@@ -75,7 +75,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/logistika",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
         cost: "3640€/aastas"
     ),
@@ -95,7 +95,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/arvutim%C3%A4ngude_disain_ja_arendus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "4720€/aastas"
     ),
@@ -115,7 +115,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/turundus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
         cost: "3640€/aastas"
     ),
@@ -135,7 +135,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/veebitehnoloogiad",
         spots: 25,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "3760€/aastas"
     ),
@@ -155,7 +155,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/tarkvaraarendus_ja_ettev%C3%B5tlus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "4660€/aasta"
     ),
@@ -175,7 +175,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/kvaliteedijuhtimine",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
         cost: "3640€/aastas"
     ),
@@ -195,7 +195,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/personalijuhtimine",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
         cost: "3640€/aastat"
     ),
@@ -215,7 +215,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/rakendusk%C3%B5rgharidus%C3%B5pe/eriala/restoraniettev%C3%B5tlus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 195,
         cost: "3640€/aastas"
     ),
@@ -235,7 +235,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/loovus_ja_%C3%A4riinnovatsioon",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "4720€/aastas"
     ),
@@ -255,7 +255,7 @@ let mainorBaka = [
         majorWebsite: "https://www.eek.ee/rakendusk%C3%B5rgharidus%C3%B5pe/eriala/turismiettev%C3%B5tlus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn, Tartu",
+        studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
         cost: "3640€/aastas"
     )

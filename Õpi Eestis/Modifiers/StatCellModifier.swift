@@ -7,8 +7,9 @@ struct statCellModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .padding(.leading, 10)
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: .infinity, alignment: .leading)
             .foregroundColor(Color.white)
+            .font(.regularCallout)
 //            .background(Color.yellow)
 //            .cornerRadius(10)
 //            

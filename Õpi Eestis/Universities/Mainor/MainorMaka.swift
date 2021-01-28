@@ -16,7 +16,7 @@ let mainorMaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/inimressursside_juhtimine",
         spots: 25,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "4240€/aastas"
     ),
@@ -37,7 +37,7 @@ let mainorMaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/finantslahenduste_juhtimine",
         spots: 25,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "4240€/aastas"
     ),
@@ -58,7 +58,7 @@ let mainorMaka = [
         majorWebsite: "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/rahvusvaheline_%C3%A4rijuhtimine",
         spots: 25,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "4960€/aastas"
     ),

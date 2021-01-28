@@ -13,7 +13,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et",
         spots: 34,
         duration: 4,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         eap: 240,
         cost: "0€"
     ),
@@ -31,7 +31,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et",
         spots: 26,
         duration: 3,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         eap: 240,
         cost: "0€"
     ),
@@ -49,7 +49,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et/muusika",
         spots: 40,
         duration: 4,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         eap: 240,
         cost: "0€"
     ),
@@ -67,7 +67,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et/rahvuslik",
         spots: 28,
         duration: 4,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         eap: 240,
         cost: "0€"
     ),
@@ -85,7 +85,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et/rahvuslik",
         spots: 28,
         duration: 4,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         eap: 240,
         cost: "0€"
     ),
@@ -103,7 +103,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et/rahvuslik",
         spots: 28,
         duration: 4,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         eap: 240,
         cost: "0€"
     ),
@@ -121,7 +121,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.kultuur.ut.ee/et/etenduskunst",
         spots: 26,
         duration: 4,
-        studyLocation: "Viljandi",
+        studyLocation:  ["Viljandi"],
         cost: "0€"
     ),
     majorsMinors(
@@ -138,7 +138,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/ettevotlus-digilahendused",
         spots: 20,
         duration: 3,
-        studyLocation: "Narva",
+        studyLocation:  ["Narva"],
         eap: 180,
         cost: "0€"
     ),
@@ -156,7 +156,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/infotehnoloogiliste-susteemide-arendus",
         spots: 25,
         duration: 3,
-        studyLocation: "Narva",
+        studyLocation:  ["Narva"],
         eap: 180,
         cost: "0€"
     ),
@@ -173,7 +173,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/ettevotlus-projektijuhtimine",
         spots: 30,
         duration: 3,
-        studyLocation: "Pärnu",
+        studyLocation:  ["Pärnu"],
         eap: 180,
         cost: "0€"
     ),
@@ -190,7 +190,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/turismi-hotelliettevotlus",
         spots: 67,
         duration: 3,
-        studyLocation: "Pärnu",
+        studyLocation:  ["Pärnu"],
         eap: 180,
         cost: "0€"
     ),
@@ -207,7 +207,7 @@ let tartuÜlikoolRaka = [
         majorWebsite: "https://www.ut.ee/et/ut-oppekavad/sotsiaaltoo-rehabilitatsiooni-korraldus",
         spots: 50,
         duration: 3,
-        studyLocation: "Pärnu",
+        studyLocation:  ["Pärnu"],
         eap: 180,
         cost: "0€"
     ),

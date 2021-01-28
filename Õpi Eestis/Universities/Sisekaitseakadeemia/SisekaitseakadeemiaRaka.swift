@@ -16,7 +16,7 @@ let sisekaitseAkadeemiaRaka = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_toll_maksundus",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -37,7 +37,7 @@ let sisekaitseAkadeemiaRaka = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_korrektsioon",
         spots: 30,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -58,7 +58,7 @@ let sisekaitseAkadeemiaRaka = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_politseiteenistus",
         spots: 50,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),

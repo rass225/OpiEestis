@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C018106A25C041680026A86F /* StatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018106925C041680026A86F /* StatImage.swift */; };
+		C018106F25C049530026A86F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018106E25C049530026A86F /* Double.swift */; };
+		C018107B25C07C5F0026A86F /* SchoolImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018107A25C07C5F0026A86F /* SchoolImage.swift */; };
+		C018108D25C086500026A86F /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018108C25C086500026A86F /* DiscoveryView.swift */; };
 		C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */; };
 		C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DCF25AF0A9200E4A15D /* Assets.xcassets */; };
 		C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DD225AF0A9200E4A15D /* Preview Assets.xcassets */; };
@@ -30,7 +34,6 @@
 		C0460E5125AF0DDD00E4A15D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E4E25AF0DDD00E4A15D /* View.swift */; };
 		C0460E5E25AF0E3B00E4A15D /* Requirements View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E5A25AF0E3B00E4A15D /* Requirements View.swift */; };
 		C0460E5F25AF0E3B00E4A15D /* Outcomes View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E5B25AF0E3B00E4A15D /* Outcomes View.swift */; };
-		C0460E6025AF0E3B00E4A15D /* AllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E5C25AF0E3B00E4A15D /* AllView.swift */; };
 		C0460E6E25AF0E8100E4A15D /* Description View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E6625AF0E8100E4A15D /* Description View.swift */; };
 		C0460E6F25AF0E8100E4A15D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E6725AF0E8100E4A15D /* TabView.swift */; };
 		C0460E7025AF0E8100E4A15D /* MajorView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E6825AF0E8100E4A15D /* MajorView1.swift */; };
@@ -112,6 +115,7 @@
 		C09C504925BA58B700F03F5A /* TTÜRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C504825BA58B700F03F5A /* TTÜRaka.swift */; };
 		C09C505125BA590900F03F5A /* TTÜDoktor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C505025BA590900F03F5A /* TTÜDoktor.swift */; };
 		C09C505625BA59CD00F03F5A /* TTÜInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C505525BA59CD00F03F5A /* TTÜInter.swift */; };
+		C0F476CF25C197140082A20F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F476CE25C197140082A20F /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +136,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C018106925C041680026A86F /* StatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatImage.swift; sourceTree = "<group>"; };
+		C018106E25C049530026A86F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		C018107A25C07C5F0026A86F /* SchoolImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolImage.swift; sourceTree = "<group>"; };
+		C018108C25C086500026A86F /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
 		C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Õpi Eestis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpiEestisApp.swift; sourceTree = "<group>"; };
 		C0460DCF25AF0A9200E4A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,7 +169,6 @@
 		C0460E4E25AF0DDD00E4A15D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C0460E5A25AF0E3B00E4A15D /* Requirements View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Requirements View.swift"; sourceTree = "<group>"; };
 		C0460E5B25AF0E3B00E4A15D /* Outcomes View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Outcomes View.swift"; sourceTree = "<group>"; };
-		C0460E5C25AF0E3B00E4A15D /* AllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllView.swift; sourceTree = "<group>"; };
 		C0460E6625AF0E8100E4A15D /* Description View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Description View.swift"; sourceTree = "<group>"; };
 		C0460E6725AF0E8100E4A15D /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		C0460E6825AF0E8100E4A15D /* MajorView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorView1.swift; sourceTree = "<group>"; };
@@ -243,6 +250,7 @@
 		C09C504825BA58B700F03F5A /* TTÜRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTÜRaka.swift"; sourceTree = "<group>"; };
 		C09C505025BA590900F03F5A /* TTÜDoktor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTÜDoktor.swift"; sourceTree = "<group>"; };
 		C09C505525BA59CD00F03F5A /* TTÜInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTÜInter.swift"; sourceTree = "<group>"; };
+		C0F476CE25C197140082A20F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +278,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C018108B25C085260026A86F /* Discover(beta2) */ = {
+			isa = PBXGroup;
+			children = (
+				C018108C25C086500026A86F /* DiscoveryView.swift */,
+			);
+			path = "Discover(beta2)";
+			sourceTree = "<group>";
+		};
 		C0460DBF25AF0A8E00E4A15D = {
 			isa = PBXGroup;
 			children = (
@@ -298,7 +314,6 @@
 				C0460ECD25AF1CDA00E4A15D /* Modifiers */,
 				C0460E2625AF0D0E00E4A15D /* Views */,
 				C0460E3125AF0D6200E4A15D /* Custom Views */,
-				C0460E2D25AF0D4400E4A15D /* Support Files */,
 				C0460E8A25AF0EEA00E4A15D /* Universities */,
 				C0460E4B25AF0DCF00E4A15D /* Extensions */,
 				C0460DD125AF0A9200E4A15D /* Preview Content */,
@@ -335,11 +350,11 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C018108B25C085260026A86F /* Discover(beta2) */,
 				C0460E7C25AF0E9300E4A15D /* Discover(beta) */,
 				C0460E5825AF0DFE00E4A15D /* MainPage */,
 				C0460E2725AF0D2200E4A15D /* SchoolList */,
 				C0460E6525AF0E6700E4A15D /* TabViews */,
-				C0460E5925AF0E1300E4A15D /* Search */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,13 +365,6 @@
 				C0460E2825AF0D3700E4A15D /* SchoolListView.swift */,
 			);
 			path = SchoolList;
-			sourceTree = "<group>";
-		};
-		C0460E2D25AF0D4400E4A15D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Support Files";
 			sourceTree = "<group>";
 		};
 		C0460E3125AF0D6200E4A15D /* Custom Views */ = {
@@ -374,6 +382,7 @@
 				C0460EDE25B0582800E4A15D /* TextField.swift */,
 				C0460F9525B0861200E4A15D /* TabViewCell.swift */,
 				C09C4E2825B08E5500F03F5A /* SchoolImageView.swift */,
+				C018106925C041680026A86F /* StatImage.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -387,6 +396,8 @@
 				C0460EB725AF113300E4A15D /* Color.swift */,
 				C0460EBC25AF126000E4A15D /* Gradient.swift */,
 				C0460ED925B04CEE00E4A15D /* Font.swift */,
+				C018106E25C049530026A86F /* Double.swift */,
+				C0F476CE25C197140082A20F /* Array.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -401,19 +412,10 @@
 			path = MainPage;
 			sourceTree = "<group>";
 		};
-		C0460E5925AF0E1300E4A15D /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
 		C0460E6525AF0E6700E4A15D /* TabViews */ = {
 			isa = PBXGroup;
 			children = (
-				C0460E6725AF0E8100E4A15D /* TabView.swift */,
 				C09C4E3625B1A33900F03F5A /* SchoolOverview */,
-				C0460E5C25AF0E3B00E4A15D /* AllView.swift */,
 				C09C4E4925B1DEE100F03F5A /* Major */,
 			);
 			path = TabViews;
@@ -480,6 +482,7 @@
 			isa = PBXGroup;
 			children = (
 				C09C4E4025B1D09A00F03F5A /* SubViews */,
+				C0460E6725AF0E8100E4A15D /* TabView.swift */,
 				C0460E6A25AF0E8100E4A15D /* SchoolView.swift */,
 				C0460E6B25AF0E8100E4A15D /* Degree View.swift */,
 			);
@@ -492,6 +495,7 @@
 				C0460E6D25AF0E8100E4A15D /* SocialMedia.swift */,
 				C0460E6925AF0E8100E4A15D /* MenuView.swift */,
 				C09C4E4125B1D0B900F03F5A /* SchoolDescriptionView.swift */,
+				C018107A25C07C5F0026A86F /* SchoolImage.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -806,6 +810,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0460E5025AF0DDD00E4A15D /* UIApplication.swift in Sources */,
+				C018108D25C086500026A86F /* DiscoveryView.swift in Sources */,
 				C0460F9625B0861200E4A15D /* TabViewCell.swift in Sources */,
 				C0460EA625AF0F1400E4A15D /* TTÜ.swift in Sources */,
 				C09C4F6025B9CA1D00F03F5A /* EBSbaka.swift in Sources */,
@@ -831,6 +836,7 @@
 				C09C4E6525B1E39500F03F5A /* MajorButtonsView.swift in Sources */,
 				C0460E5125AF0DDD00E4A15D /* View.swift in Sources */,
 				C0460E2925AF0D3700E4A15D /* SchoolListView.swift in Sources */,
+				C018106F25C049530026A86F /* Double.swift in Sources */,
 				C0460E9F25AF0F1400E4A15D /* EBS.swift in Sources */,
 				C09C501025B9D88600F03F5A /* TartuTervishoiuKõrgkoolMaka.swift in Sources */,
 				C0460EA325AF0F1400E4A15D /* TallinnaTervishoiuKõrgkool.swift in Sources */,
@@ -854,10 +860,13 @@
 				C0460E9D25AF0F1400E4A15D /* Universities Structure.swift in Sources */,
 				C09C4F8A25B9CCBA00F03F5A /* kunstiAkadeemiaMaka.swift in Sources */,
 				C09C4E5C25B1E23D00F03F5A /* MajorButtonModifier.swift in Sources */,
+				C0F476CF25C197140082A20F /* Array.swift in Sources */,
 				C09C504425BA584200F03F5A /* TTÜmaka.swift in Sources */,
 				C09C4FCE25B9D42800F03F5A /* MainorMaka.swift in Sources */,
 				C09C4FC925B9D41500F03F5A /* MainorBaka.swift in Sources */,
 				C0460E9E25AF0F1400E4A15D /* TartuTervishoiuKõrgkool.swift in Sources */,
+				C018107B25C07C5F0026A86F /* SchoolImage.swift in Sources */,
+				C018106A25C041680026A86F /* StatImage.swift in Sources */,
 				C09C500525B9D82200F03F5A /* TallinnaÜlikool.swift in Sources */,
 				C09C4FE125B9D55F00F03F5A /* MuusikaAkadeemiaDoktor.swift in Sources */,
 				C07D370D25BDF5C6004A7058 /* TartuÜlikoolRaka.swift in Sources */,
@@ -891,7 +900,6 @@
 				C0460E4125AF0D8A00E4A15D /* SearchNavBar.swift in Sources */,
 				C0460EA425AF0F1400E4A15D /* Lennuakadeemia.swift in Sources */,
 				C09C505625BA59CD00F03F5A /* TTÜInter.swift in Sources */,
-				C0460E6025AF0E3B00E4A15D /* AllView.swift in Sources */,
 				C09C4E5425B1E03F00F03F5A /* MajorButton.swift in Sources */,
 				C07D36FE25BDB5EA004A7058 /* TartuÜlikoolMaka.swift in Sources */,
 				C09C4FFA25B9D71E00F03F5A /* TallinnaTehnikaKõrgkoolRaka.swift in Sources */,

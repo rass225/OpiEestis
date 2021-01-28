@@ -14,7 +14,7 @@ let lennuAkadeemiaRaka = [
         majorWebsite: "https://lennuakadeemia.ee/sisseastuja/oppekavad/lennuliiklusteenindus",
         spots: 8,
         duration: 4,
-        studyLocation: "Reola",
+        studyLocation:  ["Reola"],
         eap: 240,
         cost: "0€"
     ),
@@ -32,7 +32,7 @@ let lennuAkadeemiaRaka = [
         majorWebsite: "https://lennuakadeemia.ee/sisseastuja/oppekavad/lennundustehnika/ohusoiduki-ehitus-ja-hooldus",
         spots: 27,
         duration: 4,
-        studyLocation: "Reola",
+        studyLocation:  ["Reola"],
         eap: 240,
         cost: "0€"
     ),
@@ -50,7 +50,7 @@ let lennuAkadeemiaRaka = [
         majorWebsite: "https://lennuakadeemia.ee/sisseastuja/oppekavad/lennunduskorraldus",
         spots: 15,
         duration: 4,
-        studyLocation: "Reola",
+        studyLocation:  ["Reola"],
         eap: 240,
         cost: "0€"
     ),
@@ -70,7 +70,7 @@ let lennuAkadeemiaRaka = [
         majorWebsite: "https://lennuakadeemia.ee/sisseastuja/oppekavad/ohusoiduki-juhtimine",
         spots: 10,
         duration: 4,
-        studyLocation: "Reola",
+        studyLocation:  ["Reola"],
         eap: 240,
         cost: "0€"
     ),

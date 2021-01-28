@@ -36,7 +36,7 @@ struct majorsMinors: Hashable, Codable, Identifiable {
     var majorWebsite: String
     var spots: Int
     var duration: Double
-    var studyLocation: String
+    var studyLocation: [String]
     var eap: Int?
     var ekap: Int?
     var cost: String
@@ -183,7 +183,7 @@ var schools = [
     sisekaitseakadeemia,
     ebs,
     tartuTervishoiuKõrgkool,
-//    tartuÜlikool,
+    tartuÜlikool,
     Kaitseakadeemia,
 //    tallinnaTervishoiuKõrgkool ////Korras - Leping?
 ]

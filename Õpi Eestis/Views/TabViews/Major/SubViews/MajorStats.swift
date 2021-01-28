@@ -10,174 +10,97 @@ struct MajorStats: View {
         HStack{
             VStack(alignment: .leading){
                 HStack{
-                    VStack(alignment: .leading){
-                        Image(systemName:"thermometer")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "thermometer", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Kraad")
-                            .padding(.bottom, 5)
-                            .font(Font.callout.weight(.regular))
-                        Text(passedMajor.level.rawValue)
-                            .font(Font.caption.weight(.regular))
+                        Text(passedMajor.level.rawValue).font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .leading){
-                        Image(systemName: "square.grid.3x2")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "square.grid.3x2", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         if passedMajor.type.rawValue == mereAkadeemia {
                             Text("Osakond")
-                                .padding(.bottom, 5)
-                                .font(Font.callout.weight(.regular))
                         } else if passedMajor.type.rawValue == riigikaitse {
                             Text("Õppekava rühm")
-                                .padding(.bottom, 5)
-                                .font(Font.callout.weight(.regular))
-                        }
-                        else {
-                            Text("Valdkond")
-                                .padding(.bottom, 5)
-                                .font(Font.callout.weight(.regular))
-                        }
-                        Text(passedMajor.type.rawValue)
-                            .font(Font.caption.weight(.regular))
-                    }
-                    Spacer()
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    VStack(alignment: .leading) {
-                        Image(systemName: "clock")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
-                        Text("Kestus")
-                            .padding(.bottom, 5)
-                            .font(Font.callout.weight(.regular))
-                        if passedMajor.name != "Ettevõtlus ja ärijuhtimine" {
-                            Text("\(Int(passedMajor.duration)) aastat")
-                                .font(Font.caption.weight(.regular))
                         } else {
-                            VStack(alignment: .leading){
-                                Text("\(Int(passedMajor.duration))a päevaõppes")
-                                    .font(Font.caption.weight(.regular))
-                                Text("3.5a sessioonõppes")
-                                    .font(Font.caption.weight(.regular))
-                            }
+                            Text("Valdkond")
                         }
+                        Text(passedMajor.type.rawValue).font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .leading) {
-                        Image(systemName: "square.stack.3d.up.fill")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
-                        Text(passedMajor.eap != nil ? "EAP" : "EKAP")
-                            .padding(.bottom, 5)
-                            .font(Font.callout.weight(.regular))
-                        if passedMajor.eap != nil {
-                            Text("\(passedMajor.eap!)")
-                                .font(Font.caption.weight(.regular))
-                        } else if passedMajor.ekap != nil {
-                            Text("\(passedMajor.ekap!)")
-                                .font(Font.caption.weight(.regular))
-                        }
-                        
+                    StatImage(image: "clock", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
+                        Text("Kestus")
+                        Text(
+                            passedMajor.duration.isInt()
+                                ? "\(Int(passedMajor.duration))":
+                                "\(passedMajor.duration, specifier: "%.1f")"
+                        ).font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
+                Spacer()
+                
+                HStack{
+                    StatImage(image: "square.stack.3d.up.fill", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
+                        Text(passedMajor.eap != nil ? "EAP" : "EKAP")
+                        Text(passedMajor.eap != nil ? "\(passedMajor.eap!)" : "\(passedMajor.ekap!)").font(.regularCaption)
+                    }
+                }.modifier(statCellModifier())
             }
-            
             
             Spacer()
             
             VStack(alignment: .leading){
-                
                 HStack{
-                    VStack(alignment: .center){
-                        Image(systemName: "globe")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "globe", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Õppekeel")
-                            .padding(.bottom, 5)
-                            .font(Font.callout.weight(.regular))
-                        Text("\(passedMajor.language.rawValue)")
-                            .font(Font.caption.weight(.regular))
+                        Text("\(passedMajor.language.rawValue)").font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .center){
-                        Image(systemName: "person.2")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "person.2", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Õppekohti")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        if passedMajor.spots == 0 {
-                            Text("Piiramatu")
-                                .font(Font.caption.weight(.regular))
-                        } else {
-                            Text("\(passedMajor.spots)")
-                                .font(Font.caption.weight(.regular))
+                        Text(passedMajor.spots == 0 ? "Piiramatu" : "\(passedMajor.spots)").font(.regularCaption)
+                    }
+                }.modifier(statCellModifier())
+                
+                Spacer()
+                
+                HStack{
+                    StatImage(image: "location", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
+                        Text("Asukoht")
+                        HStack{
+                            ForEach(passedMajor.studyLocation, id: \.self) { item in
+                                Text(item)
+                            }.font(.regularCaption)
                         }
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
                 
                 Spacer()
                 
                 HStack{
-                    VStack(alignment: .center){
-                        Image(systemName: "location")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
-                        Text("Asukoht")
-                            .font(Font.callout.weight(.regular))
-                            .padding(.bottom, 5)
-                        Text("\(passedMajor.studyLocation)")
-                            .font(Font.caption.weight(.regular))
-                    }
-                    Spacer()
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    VStack(alignment: .leading) {
-                        Image(systemName: "eurosign.circle")
-                            .foregroundColor(Color.black)
-                    }.frame(width: 25)
-                    VStack(alignment: .leading, spacing: 0){
+                    StatImage(image: "eurosign.circle", width: 30)
+                    VStack(alignment: .leading, spacing: 5){
                         Text("Maksumus")
-                            .padding(.bottom, 5)
-                            .font(Font.callout.weight(.regular))
-                        Text(passedMajor.cost)
-                            .font(Font.caption.weight(.regular))
+                        Text(passedMajor.cost).font(.regularCaption)
                     }
-                    Spacer()
                 }.modifier(statCellModifier())
             }
         }

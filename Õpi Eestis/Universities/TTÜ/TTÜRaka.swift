@@ -13,7 +13,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 3.5,
-        studyLocation: "Kohtla Järve",
+        studyLocation: ["Kohtla Järve"],
         eap: 210,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/asutused/mereakadeemia/",
         spots: 0,
         duration: 3,
-        studyLocation: "Kuressaare",
+        studyLocation:  ["Kuressaare"],
         eap: 180,
         cost: "0€"
     ),
@@ -51,7 +51,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/asutused/mereakadeemia/",
         spots: 0,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -69,7 +69,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/asutused/mereakadeemia/",
         spots: 0,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -88,7 +88,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/asutused/mereakadeemia/",
         spots: 0,
         duration: 4,
-        studyLocation: "Kuressaare",
+        studyLocation:  ["Kuressaare"],
         eap: 240,
         cost: "0€"
     ),
@@ -107,7 +107,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/asutused/mereakadeemia/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -125,7 +125,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/asutused/mereakadeemia/",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -143,7 +143,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Kohtla Järve",
+        studyLocation: ["Kohtla Järve"],
         eap: 240,
         cost: "0€"
     ),
@@ -162,7 +162,7 @@ let ttüRaka = [
         majorWebsite: "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
         spots: 0,
         duration: 4,
-        studyLocation: "Kohta Järve",
+        studyLocation: ["Kohtla Järve"],
         eap: 240,
         cost: "0€"
     ),

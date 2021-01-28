@@ -12,7 +12,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/fotograafia/",
         spots: 12,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -29,7 +29,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/maaliosakond/",
         spots: 12,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -46,7 +46,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/meediaosakond/",
         spots: 12,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -63,7 +63,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/moobliosakond/",
         spots: 12,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -81,7 +81,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/nahaosakond/",
         spots: 10,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -98,7 +98,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/skulptuur/",
         spots: 10,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     ),
@@ -115,7 +115,7 @@ let pallasBaka = [
         majorWebsite: "https://pallasart.ee/sisseastumine/erialad/tekstiil/",
         spots: 10,
         duration: 4,
-        studyLocation: "Tartu",
+        studyLocation:  ["Tartu"],
         eap: 240,
         cost: "0€"
     )

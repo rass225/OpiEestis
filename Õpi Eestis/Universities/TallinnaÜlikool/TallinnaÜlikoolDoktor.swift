@@ -17,7 +17,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -36,7 +36,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 1,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -54,7 +54,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -74,7 +74,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 5,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -95,7 +95,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -115,7 +115,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -135,7 +135,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 1,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -155,7 +155,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 1,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -173,7 +173,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 1,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -191,7 +191,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -210,7 +210,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -231,7 +231,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),
@@ -251,7 +251,7 @@ let tallinnaÜlikoolDoktor = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 2,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     )

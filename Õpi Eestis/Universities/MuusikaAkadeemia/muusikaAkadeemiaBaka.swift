@@ -14,7 +14,7 @@ let muusikaAkadeemiaBaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -33,7 +33,7 @@ let muusikaAkadeemiaBaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -52,7 +52,7 @@ let muusikaAkadeemiaBaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -70,7 +70,7 @@ let muusikaAkadeemiaBaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -88,7 +88,7 @@ let muusikaAkadeemiaBaka = [
 //            majorWebsite: "",
 //            spots: 0,
 //            duration: 3,
-//            studyLocation: "Tallinn"
+//            studyLocation:  ["Tallinn"]
 //        ),
     majorsMinors(
         name: "Muusikateadus ja Muusikakorraldus",
@@ -105,7 +105,7 @@ let muusikaAkadeemiaBaka = [
         majorWebsite: "",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -125,7 +125,7 @@ let muusikaAkadeemiaBaka = [
         majorWebsite: "",
         spots: 0,
         duration: 4,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 240,
         cost: "0€"
     ),

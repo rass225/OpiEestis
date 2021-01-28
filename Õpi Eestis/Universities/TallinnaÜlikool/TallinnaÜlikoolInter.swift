@@ -16,7 +16,7 @@ let tallinnaÜlikoolInter = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 30,
         duration: 5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 300,
         cost: "0€"
     ),

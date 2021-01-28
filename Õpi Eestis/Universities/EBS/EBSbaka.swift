@@ -13,7 +13,7 @@ let ebsBaka = [
         majorWebsite: "https://www.ebs.ee/oppekava/ettevotlus-ja-arijuhtimine-tallinnas",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "2050€ - 2300€/semester"
     ),
@@ -32,7 +32,7 @@ let ebsBaka = [
         majorWebsite: "https://www.ebs.ee/oppekava/rahvusvaheline-arijuhtimine",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn ja Helsingi",
+        studyLocation: ["Tallinn", "Helsingi"],
         eap: 180,
         cost: "2300€ - 3200€/semester"
         
@@ -51,7 +51,7 @@ let ebsBaka = [
         majorWebsite: "https://www.ebs.ee/oppekava/uus-oppekava-ettevotlus-digiajastul",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "2300€/semester"
     ),]

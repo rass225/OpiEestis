@@ -16,7 +16,7 @@ let sisekaitseAkadeemiaKutse = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_politseiametnik",
         spots: 50,
         duration: 1.5,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         ekap: 100,
         cost: "0€"
     ),
@@ -38,7 +38,7 @@ let sisekaitseAkadeemiaKutse = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_vanglaametnik",
         spots: 60,
         duration: 1,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         ekap: 60,
         cost: "0€"
     ),
@@ -57,7 +57,7 @@ let sisekaitseAkadeemiaKutse = [
         majorWebsite: "https://www.sisekaitse.ee/et/vastuv6tt_p22stekorraldaja",
         spots: 20,
         duration: 1,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         ekap: 60,
         cost: "0€"
     ),

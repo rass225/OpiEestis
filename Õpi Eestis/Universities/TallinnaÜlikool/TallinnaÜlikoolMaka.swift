@@ -14,7 +14,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -34,7 +34,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 180,
         cost: "0€"
     ),
@@ -53,7 +53,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -72,7 +72,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 20,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -91,7 +91,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 20,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -110,7 +110,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "913€/semester"
     ),
@@ -130,7 +130,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1250€/semester"
     ),
@@ -151,7 +151,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1250€/semester"
     ),
@@ -173,7 +173,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "2000€/semester"
     ),
@@ -192,7 +192,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -211,7 +211,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -232,7 +232,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "913€/semester"
     ),
@@ -252,7 +252,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1900€/semester"
     ),
@@ -270,7 +270,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 60,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -287,7 +287,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "4500€/semester"
     ),
@@ -306,7 +306,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -325,7 +325,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 20,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -344,7 +344,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "2250€/semester"
     ),
@@ -364,7 +364,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 20,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -383,7 +383,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1500€/semester"
     ),
@@ -401,7 +401,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -420,7 +420,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 14,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -439,7 +439,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 22,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -458,7 +458,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -476,7 +476,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1250€/semester"
     ),
@@ -495,7 +495,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "2030€/semester"
     ),
@@ -515,7 +515,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -534,7 +534,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 20,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -551,7 +551,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -569,7 +569,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -588,7 +588,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -609,7 +609,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 22,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -628,7 +628,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1000€/semester"
     ),
@@ -646,7 +646,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -666,7 +666,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1900€/semester"
     ),
@@ -683,7 +683,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm ",
         spots: 5,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -702,7 +702,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -723,7 +723,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -741,7 +741,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -760,7 +760,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -779,7 +779,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 14,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -797,7 +797,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -816,7 +816,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 0,
         duration: 3,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -835,7 +835,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -853,7 +853,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/bfm",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -872,7 +872,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/hti",
         spots: 15,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -899,7 +899,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: " https://www.tlu.ee/bfm",
         spots: 28,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -917,7 +917,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 30,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -937,7 +937,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 50,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -956,7 +956,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 12,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -978,7 +978,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -999,7 +999,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/lti",
         spots: 12,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1019,7 +1019,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1628€/semester"
     ),
@@ -1037,7 +1037,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 17,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1058,7 +1058,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1078,7 +1078,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 16,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1099,7 +1099,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1119,7 +1119,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1924€/semester"
     ),
@@ -1139,7 +1139,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 35,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1159,7 +1159,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 35,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1178,7 +1178,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/yti",
         spots: 8,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1201,7 +1201,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 12,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1222,7 +1222,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ), majorsMinors(
@@ -1242,7 +1242,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/ht",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "0€"
     ),
@@ -1261,7 +1261,7 @@ let tallinnaÜlikoolMaka = [
         majorWebsite: "https://www.tlu.ee/dt",
         spots: 0,
         duration: 2,
-        studyLocation: "Tallinn",
+        studyLocation:  ["Tallinn"],
         eap: 120,
         cost: "1875€/semester"
     )
