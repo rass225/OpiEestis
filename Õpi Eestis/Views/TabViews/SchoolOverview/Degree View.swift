@@ -1,66 +1,60 @@
 import SwiftUI
 
 struct DegreeView: View {
-    var passedSchools1: School
+    let school: School
     @State var selectedLevel = "Kõik Erialad"
+    @State var navBarTitle = "Kõik Erialad"
     @State var searchText = ""
     @State var isAscending = false
     var body: some View {
         ZStack{
-            Color.customBlue.edgesIgnoringSafeArea(.all)
+            Color.white.edgesIgnoringSafeArea(.all)
             VStack(spacing: 0){
                 ScrollView{
-                    VStack(spacing: 0){
-                        ScrollView(.horizontal, showsIndicators: false){
-                            HStack{
-                                ForEach(levels()) { item in
-                                    Button(action: {
-                                        selectedLevel = item.level
-                                    }) {
-                                        Text(item.title)
-                                            .padding(.horizontal, 6)
-                                    }.font(Font.callout.weight(selectedLevel == item.level ? .bold : .light))
-                                    .animation(.default)
-                                    Divider()
-                                }
+                    ScrollView(.horizontal, showsIndicators: false){
+                        HStack{
+                            ForEach(levels()) { item in
+                                Button(action: {
+                                    selectedLevel = item.level
+                                    navBarTitle = item.title
+                                }) {
+                                    Text(item.title.capitalizingFirstLetter())
+                                        .padding(.horizontal, 6)
+                                }.font(Font.callout.weight(selectedLevel == item.level ? .bold : .light))
+                                .animation(.default)
+                                Divider().background(Color.black)
                             }
-                        }.frame(height: 40)
-                        .font(Font.callout.weight(.light))
-                        .background(Color.black.opacity(0.5))
-                        .foregroundColor(Color.white)
-                        Divider()
-                        SearchNavBar(text: $searchText, placeholder: "Otsi eriala...")
-                        Divider()
-                        ForEach(selectedMajors()) { item in
-                            NavigationLink(destination: MajorView1(passedMajor: item)) {
-                                MajorCell(item: item)
-                            }
-                            Divider()
                         }
+                    }.frame(height: 40)
+                    .foregroundColor(Color.black)
+                    Divider()
+                    SearchNavBar(text: $searchText, placeholder: "Otsi eriala...")
+                    Divider().background(Color.black)
+                    ForEach(selectedMajors()) { item in
+                        NavigationLink(destination: MajorView1(passedMajor: item, school: school)) {
+                            MajorCell(item: item)
+                        }
+                        Divider()
                     }
                 }
             }
         }
-        .navigationBarItems(trailing:
-            Button(action: { isAscending.toggle() }) {
-                Image(systemName: "arrow.up.arrow.down")
-            }
-        )
-        .environment(\.colorScheme, .light)
+        .navigationBarItems(trailing: Button(action: { isAscending.toggle() }) { Image.flip })
+        .navigationBarTitle(Text(navBarTitle), displayMode: .automatic)
     }
 }
 
 extension DegreeView {
     
-    struct SelectedLevel: Identifiable {
+    private struct SelectedLevel: Identifiable {
         var id = UUID()
         var title: String
         var level: String
         var majors: [majorsMinors]
     }
-    func levels() -> [SelectedLevel] {
+    private func levels() -> [SelectedLevel] {
         var selectedLevel = [SelectedLevel]()
-        let majors = passedSchools1.education
+        let majors = school.education
         var bachelor: [majorsMinors]
         var masters: [majorsMinors]
         var doctor: [majorsMinors]
@@ -92,13 +86,13 @@ extension DegreeView {
             return level.level == levelchoice.kutseharidus
         })
         
-        selectedLevel.append(SelectedLevel(title: "Kõik Erialad", level: "Kõik Erialad", majors: passedSchools1.education))
+        selectedLevel.append(SelectedLevel(title: "Kõik Erialad", level: "Kõik Erialad", majors: school.education))
         
         if !kutse.isEmpty {
             selectedLevel.append(SelectedLevel(title: "Kutseharidus", level: "kutseharidus", majors: kutse))
         }
         if !applied.isEmpty {
-            selectedLevel.append(SelectedLevel(title: "Rakenduskõrgharidusõpe", level: "rakenduskõrgharidus", majors: applied))
+            selectedLevel.append(SelectedLevel(title: "Rakenduskõrgharidus", level: "rakenduskõrgharidus", majors: applied))
         }
         if !bachelor.isEmpty {
             selectedLevel.append(SelectedLevel(title: "Bakalaureuseõpe", level: "bakalaureus", majors: bachelor))
@@ -118,20 +112,18 @@ extension DegreeView {
     func selectedMajors() -> [majorsMinors] {
         var majors: [majorsMinors]
         if selectedLevel == "Kõik Erialad" {
-            majors = passedSchools1.education
+            majors = school.education
         } else {
-            majors = passedSchools1.education.filter({ $0.level.rawValue == selectedLevel.lowercased()})
+            majors = school.education.filter({ $0.level.rawValue == selectedLevel.lowercased()})
         }
         if !searchText.isEmpty {
             majors = majors.filter({ $0.name.lowercased().contains(searchText.lowercased()) })
         }
         if isAscending {
-           majors = majors.sorted(by: { $0.name > $1.name })
+            majors = majors.sorted(by: { $0.name > $1.name })
         } else {
-           majors = majors.sorted(by: { $0.name < $1.name})
+            majors = majors.sorted(by: { $0.name < $1.name})
         }
-         
-        
         return majors
     }
 }

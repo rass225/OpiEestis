@@ -1,37 +1,43 @@
 import SwiftUI
 
-@available(iOS 14.0, *)
 struct MajorCell: View {
     @State var item: majorsMinors
     let mereakadeemia = "Eesti Mereakadeemia"
     var body: some View {
         HStack(alignment: .center, spacing: 0){
-            VStack(alignment: .leading, spacing: 0){
-                Spacer()
-                    Text(item.name)
-                        .font(Font.callout.weight(.light))
-                Spacer()
+            VStack(alignment: .leading){
                 HStack{
-                    Text(item.level.rawValue)
-                    Text("\u{2022}")
-                    Text(item.type.rawValue)
-                    Text("\u{2022}")
-                    ForEach(item.studyLocation, id: \.self) { location in
-                        Text(location)
-                    }
+                    Text(item.name).font(.semiboldCallout)
                     Spacer()
-                }.font(Font.caption2.weight(.light))
-                .foregroundColor(Color.black)
+                }
+                Spacer()
+                HStack(spacing: 20){
+                    HStack(spacing: 2){
+                        Image(systemName: .locationFill)
+                        ForEach(item.studyLocation, id: \.self) { item in
+                            Text(item)
+                        }
+                    }
+                    HStack(spacing: 2){
+                        Image(systemName: .clockFill)
+                        Text(item.duration.isInt()
+                                ? "\(Int(item.duration))a":
+                                "\(item.duration, specifier: "%.1f")a")
+                    }
+                    HStack(spacing: 2){
+                        Image(systemName: .thermometer)
+                        Text(item.level.rawValue.capitalizingFirstLetter())
+                    }
+                }.font(.regularCaption)
             }
-            Image(systemName: "chevron.right")
         }
-        .frame(height: CustomListCellHeight(), alignment: .leading)
+        .frame(height: 48, alignment: .leading)
         .padding(.leading, 16)
         .padding(.trailing, 10)
-        .padding(.bottom, 16)
+        .padding(.bottom, 10)
         .padding(.top, 10)
-        .foregroundColor(Color.white)
-        .background(Color.black.opacity(0.3))
+        .foregroundColor(Color.black)
+//        .background(Color.black.opacity(0.3))
         .environment(\.colorScheme, .light)
     }
 }
@@ -75,17 +81,6 @@ extension MajorCell {
             customHeight = screenHeight / 22
         }
         
-        return customHeight
-    }
-    func customCornerRadiusFunc() -> CGFloat {
-        var customHeight: CGFloat = 0
-        let screenHeight = UIScreen.main.bounds.height
-        let screenWidth = UIScreen.main.bounds.width
-        if screenHeight > 900 {
-            customHeight = (screenHeight / 4) / 14
-        } else {
-            customHeight = (screenWidth / 4) / 6
-        }
         return customHeight
     }
 }

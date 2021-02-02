@@ -4,31 +4,29 @@ struct SearchNavBar: View {
     @Binding var text: String
     var placeholder: String
     var body: some View {
-        VStack{
-            HStack{
-                Image(systemName: "magnifyingglass")
-                    .padding(.leading, 15)
-                CustomTextField(
-                    placeholder: Text(placeholder).foregroundColor(Color.white.opacity(0.7)),
-                    text: $text
-                )
-                .padding(5)
-                .padding(.leading, 5)
-                Spacer()
-                if !text.isEmpty {
-                    Button(action: { text = "" }) {
-                        Image(systemName: "multiply")
-                    }.animation(.default)
-                     .padding(.trailing, 15)
-                }
-            }
-            .frame(height: 38)
-            .font(.system(size: CustomCellFontSize(), weight: .regular))
-            .foregroundColor(Color.white)
-        }
-        
-        .background(Color.black.opacity(0.5))
-//        .cornerRadiusCustom(10, corners: [.bottomLeft, .bottomRight])
+        ZStack{
+//            Color.customBlue.edgesIgnoringSafeArea(.all)
+                HStack{
+                    Image.magnifyingGlass
+                        .padding(.leading, 15)
+                    CustomTextField(
+                        placeholder: Text(placeholder).foregroundColor(Color.black.opacity(0.7)),
+                        text: $text
+                    )
+                    .padding(5)
+                    .padding(.leading, 5)
+                    Spacer()
+                    if !text.isEmpty {
+                        Button(action: { text = "" }) {
+                            Image.multiply
+                        }.animation(.default)
+                         .padding(.trailing, 15)
+                    }
+                }.frame(height: 38)
+                
+                .font(.system(size: CustomCellFontSize(), weight: .regular))
+                .foregroundColor(Color.black)
+        }.frame(height: 38)
     }
 }
 

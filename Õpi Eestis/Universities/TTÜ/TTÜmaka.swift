@@ -182,7 +182,7 @@ let ttüMaka = [
         cost: "0€"
     ),
     majorsMinors(
-        name: "Mehhatroonika*",
+        name: "Mehhatroonika",
         level: .masters,
         type: .insener,
         requirements: [

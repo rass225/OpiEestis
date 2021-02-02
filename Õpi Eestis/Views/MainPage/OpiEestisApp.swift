@@ -2,13 +2,12 @@ import SwiftUI
 
 @main
 struct OpiEestisApp: App {
-    
     init(){
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .red
-        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: customTitleFont(), weight: UIFont.Weight.regular), .foregroundColor : UIColor.white.withAlphaComponent(1)]
-        UINavigationBar.appearance().tintColor = UIColor.white.withAlphaComponent(1)
-        UINavigationBar.appearance().barStyle = .black
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: customTitleFont(), weight: UIFont.Weight.regular), .foregroundColor : UIColor.black.withAlphaComponent(1)]
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor.black.withAlphaComponent(1)]
+        UINavigationBar.appearance().tintColor = UIColor.black.withAlphaComponent(1)
         UITableView.appearance().separatorStyle = .none
     }
     
@@ -30,11 +29,3 @@ struct OpiEestisApp: App {
         return customSize
     }
 }
-
-
-
-//        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-//        UINavigationBar.appearance().shadowImage = UIImage()
-//        UINavigationBar.appearance().isTranslucent = true
-
-//        UINavigationBar.appearance().backgroundColor = UIColor.init(red: 20/255, green: 100/255, blue: 100/255, alpha: 1)

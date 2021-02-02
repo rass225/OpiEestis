@@ -17,7 +17,6 @@ struct AboutView: View {
                             .multilineTextAlignment(.leading)
                             .frame(maxHeight: .infinity)
                     }.font(.system(size: UIScreen.main.bounds.width / 28, weight: .light))
-                    
                 }
             }
             .background(Color.black.opacity(0.5))
@@ -29,7 +28,6 @@ struct AboutView: View {
 }
 
 extension AboutView {
-    
     func customNavBarHeight() -> CGFloat {
         var customHeight: CGFloat = 0
         let screenHeight = UIScreen.main.bounds.height

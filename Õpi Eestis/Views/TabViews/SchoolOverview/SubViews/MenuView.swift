@@ -7,18 +7,14 @@ struct Menu: View {
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     @State private var showingAlert = false
-    @State private var copytext = "Kopeeritud"
     
     var body: some View {
         ZStack{
-            VStack(alignment: .leading, spacing: 0){
+            HStack(alignment: .center, spacing: 0){
+                Spacer()
                 HStack(alignment: .center){
-                    Button(action: {
-                        isShowingMailView.toggle()
-                    }) {
-                        MajorButton(image: "envelope", label: contact.contact.email)
-                            .frame(height: 70)
-                            .background(Color.black.opacity(0.3))
+                    Button(action: { isShowingMailView.toggle() }) {
+                        ContactButton(image: .envelope, label: contact.contact.email)
                     }
                     .disabled(!MFMailComposeViewController.canSendMail())
                     .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: contact)}
@@ -28,14 +24,10 @@ struct Menu: View {
                             pastedtext.string = contact.contact.email
                             showingAlert = true
                         }) {
-                            Text("Kopeeri")
+                            Text.copy
                         }
-                    })
-                                        
-                    .alert(isPresented: $showingAlert) { Alert(title: Text(copytext)) }
-                    
+                    }).alert(isPresented: $showingAlert) { Alert(title: Text.copied) }
                 }
-                Divider()
                 HStack(alignment: .center){
                     Button(action: {
                         let tel = "tel://"
@@ -43,9 +35,7 @@ struct Menu: View {
                         let url: NSURL = URL(string: formattedString)! as NSURL
                         UIApplication.shared.open(url as URL)
                     }) {
-                        MajorButton(image: "phone", label: contact.contact.phonenumber)
-                            .frame(height: 70)
-                            .background(Color.black.opacity(0.3))
+                        ContactButton(image: .phone, label: contact.contact.phonenumber)
                     }
                     .contextMenu(menuItems: {
                         Button(action: {
@@ -53,22 +43,17 @@ struct Menu: View {
                             pastedtext.string = contact.contact.phonenumber
                             showingAlert = true
                         }) {
-                            Text("Kopeeri")
+                            Text.copy
                         }
                     })
-                    .alert(isPresented: $showingAlert) { Alert(title: Text(copytext)) }
-                    
+                    .alert(isPresented: $showingAlert) { Alert(title: Text.copied) }
                 }
-                Divider()
                 HStack(alignment: .center){
                     Button(action: {
                         guard let url = URL(string: contact.location.coordinates as String) else { return }
                         UIApplication.shared.open(url)
                     }) {
-                        MajorButton(image: "map", label: "\(contact.contact.address), \(contact.location.city)")
-                            .frame(height: 70)
-                            .background(Color.black.opacity(0.3))
-                            
+                        ContactButton(image: .map, label: "\(contact.contact.address), \(contact.location.city)")
                     }
                     .contextMenu(menuItems: {
                         Button(action: {
@@ -76,42 +61,22 @@ struct Menu: View {
                             let formattedString = contact.contact.address + ", " + contact.location.city
                             pastedtext.string = formattedString
                         }) {
-                            Text("Kopeeri")
+                            Text.copy
                         }
                     })
-                    .alert(isPresented: $showingAlert) { Alert(title: Text(copytext))}
+                    .alert(isPresented: $showingAlert) { Alert(title: Text.copied)}
                 }
-                Divider()
-                
                 HStack(alignment: .center){
                     Button(action: {
                         guard let url = URL(string: contact.website as String) else { return }
                         UIApplication.shared.open(url)
                     }) {
-                        MajorButton(image: "house", label: "Koduleht")
-                            .frame(height: 70)
-                            .background(Color.black.opacity(0.3))
+                        ContactButton(image: .house, label: "Koduleht")
                     }
                 }
-                Divider()
-            }
-            .font(Font.callout.weight(.regular))
-            .foregroundColor(Color.black)
+                Spacer()
+            }.padding(.vertical)
+            .font(.regularCallout)
         }.environment(\.colorScheme, .light)
-    }
-}
-
-extension Menu {
-    func headerSize() -> CGFloat {
-        var customHeight: CGFloat = 0
-        let screenHeight = UIScreen.main.bounds.height
-        let screenWidth = UIScreen.main.bounds.width
-        if screenHeight > 900 {
-            customHeight = screenHeight / 70
-        }
-        else {
-            customHeight = screenWidth / 30
-        }
-        return customHeight
     }
 }

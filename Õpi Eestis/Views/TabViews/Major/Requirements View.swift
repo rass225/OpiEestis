@@ -2,32 +2,31 @@ import SwiftUI
 
 struct Requirements_View: View {
     
-    var passedMajor: [Requirements]
+    var major: [Requirements]
     
     var body: some View {
         ZStack{
-            Color.customBlue.edgesIgnoringSafeArea(.all)
+            WhiteBackground()
             VStack(spacing: 0){
-                ForEach(passedMajor){ hey in
+                ForEach(major){ hey in
                     HStack{
                         Text("•")
                             .font(.regularBody)
                             .padding(.leading, 10)
-                            .foregroundColor(Color.black)
                         Text(hey.term)
                             .padding(.trailing, 20)
                         Spacer()
                         if hey.percentage != nil {
                             Text("\(hey.percentage!)%")
-                                .padding(.trailing, 20)
+                                .padding(.trailing, 10)
                         }
-                    }.foregroundColor(Color.white)
+                    }.foregroundColor(Color.black)
                     .padding(.vertical, 10)
-                    .font(.lightCallout)
-                }.background(Color.black.opacity(0.5))
+                    .font(.regularCallout)
+                }
                 Spacer()
             }
-        }.navigationBarTitle(Text("Sisseastumine"), displayMode: .inline)
+        }.navigationBarTitle(Text("Sisseastumine"), displayMode: .automatic)
     }
 }
 

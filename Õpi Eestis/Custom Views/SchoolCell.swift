@@ -1,37 +1,44 @@
 import SwiftUI
 
 struct SchoolCell: View {
-    var school: School
+    let school: School
+    let index: Int
+    let colors1 = Gradient(colors: [Color.white, Color.white])
+    let colors2 = Gradient(colors: [Color.white, Color.whiteDim2])
     var body: some View {
-        VStack(spacing: 0){
-            HStack(spacing: 0){
-                Image(school.logo)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 70, height: CustomCellImageSize())
-                    .background(Color.white)
-                VStack{
-                   Text(school.name)
-                    .font(Font.callout.weight(.regular))
-                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+        ZStack{
+            VStack(spacing: 0){
+                HStack(spacing: 0){
+                    Image(school.logo)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 70, height: CustomCellImageSize())
+                        .padding(2)
+                        .padding(.leading, 5)
+                    VStack{
+                       Text(school.name)
+                        .font(.regularBody)
+                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                        Spacer()
+                        Text(school.location.city + ", Eesti")
+                            .font(.regularCaption)
+                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                            .foregroundColor(Color.black)
+                            
+                    }.padding(.bottom, 10)
+                    .padding(.top, 20)
+                    .padding(.leading, 10)
                     Spacer()
-                    Text(school.location.city + ", Eesti")
-                        .font(Font.caption.weight(.regular))
-                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        .foregroundColor(Color.black)
-                        
-                }.padding(.bottom, 5)
-                .padding(.top, 20)
-                .padding(.leading, 10)
-                Spacer()
-                Image(systemName: "chevron.right")
-                    .padding(.trailing, 10)
-            }.frame(height: CustomCellImageSize(), alignment: .leading)
-//            .padding(.vertical, 15)
-//            .padding(.leading)
+                    Image.chevronRight
+                        .padding(.trailing, 10)
+                }.frame(height: CustomCellImageSize(), alignment: .leading)
+            }
+            .foregroundColor(Color.black)
+//            .background()
+            .background(LinearGradient(gradient: index % 2 == 0 ? colors1 : colors2, startPoint: .center, endPoint: .trailing))
+            .cornerRadiusCustom(100, corners: .bottomRight)
         }
-        .foregroundColor(Color.white)
-        .background(Color.black.opacity(0.3))
+        .background(index % 2 == 0 ? Color.whiteDim2 : Color.white)
     }
 }
 

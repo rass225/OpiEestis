@@ -3,109 +3,75 @@ import SwiftUI
 struct MajorStats: View {
     
     @State var passedMajor: majorsMinors
-    let mereAkadeemia = "Eesti Mereakadeemia"
-    let riigikaitse = "Riigikaitse"
+    @State var school: School
+    let statSpacing: CGFloat = 2
     
     var body: some View {
-        HStack{
-            VStack(alignment: .leading){
-                HStack{
-                    StatImage(image: "thermometer", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text("Kraad")
-                        Text(passedMajor.level.rawValue).font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    StatImage(image: "square.grid.3x2", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        if passedMajor.type.rawValue == mereAkadeemia {
-                            Text("Osakond")
-                        } else if passedMajor.type.rawValue == riigikaitse {
-                            Text("Õppekava rühm")
-                        } else {
-                            Text("Valdkond")
-                        }
-                        Text(passedMajor.type.rawValue).font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    StatImage(image: "clock", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text("Kestus")
-                        Text(
-                            passedMajor.duration.isInt()
-                                ? "\(Int(passedMajor.duration))":
-                                "\(passedMajor.duration, specifier: "%.1f")"
-                        ).font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    StatImage(image: "square.stack.3d.up.fill", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text(passedMajor.eap != nil ? "EAP" : "EKAP")
-                        Text(passedMajor.eap != nil ? "\(passedMajor.eap!)" : "\(passedMajor.ekap!)").font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
-            }
+        VStack(spacing: 10){
             
-            Spacer()
-            
-            VStack(alignment: .leading){
-                HStack{
-                    StatImage(image: "globe", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text("Õppekeel")
-                        Text("\(passedMajor.language.rawValue)").font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    StatImage(image: "person.2", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text("Õppekohti")
-                        Text(passedMajor.spots == 0 ? "Piiramatu" : "\(passedMajor.spots)").font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    StatImage(image: "location", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text("Asukoht")
-                        HStack{
-                            ForEach(passedMajor.studyLocation, id: \.self) { item in
-                                Text(item)
-                            }.font(.regularCaption)
-                        }
-                    }
-                }.modifier(statCellModifier())
-                
-                Spacer()
-                
-                HStack{
-                    StatImage(image: "eurosign.circle", width: 30)
-                    VStack(alignment: .leading, spacing: 5){
-                        Text("Maksumus")
-                        Text(passedMajor.cost).font(.regularCaption)
-                    }
-                }.modifier(statCellModifier())
+            VStack(spacing: 3){
+                Text(passedMajor.name).font(Font.title3.weight(.semibold))
+                Text(passedMajor.level.rawValue.capitalizingFirstLetter()).font(.lightCaption)
             }
-        }
-        .padding(.vertical, 15)
-        .frame(height: UIScreen.main.bounds.height / 3 )
-        .background(Color.black.opacity(0.5))
+            LabelledDivider(label: school.logo)
+                .padding(.horizontal, 20)
+                .padding(.bottom, 20)
+            VStack(spacing: 40){
+                HStack{
+                    Spacer()
+                    HStack(spacing: statSpacing){
+                        StatImage(image: .squareStack)
+                        HStack(spacing: 2){
+                            let eap = passedMajor.eap != nil ? "\(passedMajor.eap!)" : "\(passedMajor.ekap!)"
+                            let label = passedMajor.eap != nil ? "EAP" : "EKAP"
+                            Text("\(eap) \(label)")
+                        }
+                    }.modifier(statCellModifier())
+                    Spacer()
+                    HStack(spacing: statSpacing){
+                        StatImage(image: .globe)
+                        Text("\(passedMajor.language.rawValue.capitalizingFirstLetter())es")
+                    }.modifier(statCellModifier())
+                    Spacer()
+                    HStack(spacing: statSpacing){
+                        StatImage(image: .clockFill)
+                        Text(passedMajor.duration.isInt()
+                                ? "\(Int(passedMajor.duration))a"
+                                : "\(passedMajor.duration, specifier: "%.1f")a"
+                        )
+                    }.modifier(statCellModifier())
+                    Spacer()
+                    
+                }.padding(.horizontal, 12)
+                HStack(spacing: 0){
+                    if passedMajor.cost == "0€" || passedMajor.spots != 0 {
+                        Spacer()
+                    }
+                    HStack(spacing: statSpacing){
+                        StatImage(image: .locationFill)
+                        ForEach(passedMajor.studyLocation, id: \.self) { item in
+                            Text(item)
+                        }
+                    }.modifier(statCellModifier())
+                    Spacer()
+                    HStack(spacing: statSpacing){
+                        StatImage(image: .person2Fill)
+                        HStack(spacing: 2){
+                            let number = passedMajor.spots == 0 ? "Piiramatult" : "\(passedMajor.spots)"
+                            let label = passedMajor.spots == 0 ? "õppekohti" : "Õppekohta"
+                            Text("\(number) \(label)")
+                        }
+                    }.modifier(statCellModifier())
+                    Spacer()
+                    HStack(spacing: statSpacing){
+                        StatImage(image: .euroFill)
+                        Text(passedMajor.cost)
+                    }.modifier(statCellModifier())
+                    if passedMajor.cost == "0€" || passedMajor.spots != 0 {
+                        Spacer()
+                    }
+                }
+            }
+        }.padding(.bottom, 30)
     }
 }

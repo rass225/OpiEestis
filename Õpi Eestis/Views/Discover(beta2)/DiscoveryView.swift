@@ -5,11 +5,10 @@ struct DiscoveryView: View {
     @State var city = ""
     @State var degree = ""
     @State var type = ""
-//    @State var
     @State var didSelectHello = false
     var body: some View {
         ZStack{
-            Color.whiteDim.edgesIgnoringSafeArea(.all)
+            Color.whiteDim1.edgesIgnoringSafeArea(.all)
             Form{
                 Section(header: Text("Linn")){
                     DisclosureGroup(city.isEmpty ? "Vali linn..." : city, isExpanded: $didSelectHello) {
