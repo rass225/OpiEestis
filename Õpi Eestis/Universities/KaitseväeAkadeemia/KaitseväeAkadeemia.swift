@@ -1,6 +1,6 @@
 var Kaitseakadeemia = School(
     name: "Kaitseväe Akadeemia",
-    description: "Kaitseväe Akadeemia on sõjandusega seotud teadusvaldkondi ühendav riigikaitseline rakenduskõrgkool. Kõrgkool tegutseb kaitseministeeriumi valitsemisalas ja kaitseväe juhataja alluvuses. Õppeasutuste eesmärk on ette valmistada professionaalseid allohvitsere ja ohvitsere kaitseväele ja Kaitseliidule. Õppekava võimaldab spetsialiseeruda maaväe, õhuväe, mereväe erialale ja saada vastava väeliigi nooremohvitseri ettevalmistus. Õppeasutused on sõjalise teadus- ja arendustegevuse edendajaks Eesti Vabariigis, teostades oma eesmärke koostöös partneritega nii kodumaal kui ka NATO-s.",
+    description: ["Kaitseväe Akadeemia on sõjandusega seotud teadusvaldkondi ühendav riigikaitseline rakenduskõrgkool. Kõrgkool tegutseb kaitseministeeriumi valitsemisalas ja kaitseväe juhataja alluvuses. Õppeasutuste eesmärk on ette valmistada professionaalseid allohvitsere ja ohvitsere kaitseväele ja Kaitseliidule. Õppekava võimaldab spetsialiseeruda maaväe, õhuväe, mereväe erialale ja saada vastava väeliigi nooremohvitseri ettevalmistus. Õppeasutused on sõjalise teadus- ja arendustegevuse edendajaks Eesti Vabariigis, teostades oma eesmärke koostöös partneritega nii kodumaal kui ka NATO-s."],
     location: Location(
         city: "Tartu",
         aadress: "Riia 12",
@@ -16,7 +16,7 @@ var Kaitseakadeemia = School(
     image: "KAimage",
     internationalStudents: 0,
     worldRanking: 0,
-    vastuvõtt: ["24.05 - 27.06.2021"],
+    vastuvõtt: ["01.02. – 01.03.2021", "24.05. – 27.06.2021"],
     education: kaitseväeRaka + kaitseväeMaka
     
 )

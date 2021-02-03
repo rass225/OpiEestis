@@ -22,14 +22,14 @@ struct DegreeView: View {
                                         .padding(.horizontal, 6)
                                 }.font(Font.callout.weight(selectedLevel == item.level ? .bold : .light))
                                 .animation(.default)
-                                Divider().background(Color.black)
+                                Divider()
                             }
                         }
                     }.frame(height: 40)
                     .foregroundColor(Color.black)
                     Divider()
                     SearchNavBar(text: $searchText, placeholder: "Otsi eriala...")
-                    Divider().background(Color.black)
+                    Divider()
                     ForEach(selectedMajors()) { item in
                         NavigationLink(destination: MajorView1(passedMajor: item, school: school)) {
                             MajorCell(item: item)

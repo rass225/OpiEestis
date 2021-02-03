@@ -1,6 +1,6 @@
 var kõrgemkunstikoolPallas = School(
     name: "Kõrgem Kunstikool Pallas",
-    description: "Kõrgem Kunstikool Pallas on Eesti ainuke rakenduslik kunstikõrgkool. Pallases saab õppida kunstide, disaini ja konserveerimise/restaureerimise suunal, kokku seitsmel erialal. Pallas on oluline haridus-, kunsti- ja kultuurielu kujundaja Eestis, paistes silma avatuse ja aktiivsusega nii ühiskondlikus elus kaasarääkimisel kui ka avaliku ruumi kujundamisel. Pallas on loonud rahvusvahelistumist toetava keskkonna ja muutnud õppe rahvusvaheliseks ka kohapeal, kaasates õppetöösse väliseksperte ja -õppejõude ning osaledes Eestis toimuvates rahvusvahelistes projektides.",
+    description: ["Kõrgem Kunstikool Pallas on Eesti ainuke rakenduslik kunstikõrgkool. Pallas on integreeritud õppekavadega disaini-, konserveerimise/restaureerimise ja kunstikõrgkool, kus toimub õpe seitsmel õppekaval: fotograafia, maal ja restaureerimine, meedia- ja reklaamidisain, mööblidisain ja restaureerimine, nahadisain ja restaureerimine, skulptuur ja tekstiil.", "Pallas on oluline haridus-, kunsti- ja kultuurielu kujundaja Eestis, paistes silma avatuse ja aktiivsusega nii ühiskondlikus elus kaasarääkimisel kui ka avaliku ruumi kujundamisel. Pallas on loonud rahvusvahelistumist toetava keskkonna ja muutnud õppe rahvusvaheliseks ka kohapeal, kaasates õppetöösse väliseksperte ja -õppejõude ning osaledes Eestis toimuvates rahvusvahelistes projektides.", "Pallas teeb koostööd avaliku, era- ja vabasektori organisatsioonide ja asutustega, olles seega osaline ühiskonna väärtuste kujundamisel."],
     location: Location(
         city: "Tartu",
         aadress: "Tähe 38b",
@@ -19,6 +19,6 @@ var kõrgemkunstikoolPallas = School(
     image: "KKPimage",
     internationalStudents: 10,
     worldRanking: 15584,
-    vastuvõtt: ["08.06 - 29.06.2020"],
+    vastuvõtt: [],
     education: pallasBaka
 )

@@ -33,7 +33,7 @@ struct SchoolView: View {
                 HStack{
                     Image.infoCircle.font(.regularTitle2)
                 }.shadow(color: Color.black, radius: 7, x: 0, y: 0)
-                .shadow(color: Color.black, radius: 7, x: 0, y: 0)
+                .shadow(color: Color.black.opacity(0.5), radius: 3, x: 0, y: 0)
                 .foregroundColor(Color.white)
                 .font(.regularBody)
                 .padding(.leading, 30)

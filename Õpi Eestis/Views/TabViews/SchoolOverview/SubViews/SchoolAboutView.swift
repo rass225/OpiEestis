@@ -7,26 +7,49 @@ struct SchoolAboutView: View {
     var body: some View {
         ZStack{
             WhiteBackground()
-            ScrollView{
+            VStack(spacing: 0){
                 SheetCapsule()
-                LabelledDivider(label: school.logo, color: Color.white)
-                drawDescription()
-            }.padding(.horizontal, 16)
+                ScrollView{
+                    LabelledDivider(label: school.logo, color: Color.white)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 16)
+                    if !school.vastuvõtt.isEmpty {
+                        drawStats()
+                    }
+                    drawDescription()
+                }
+            }
         }
+    }
+    
+    @ViewBuilder private func drawStats() -> some View {
+        VStack{
+            Text("Vastuvõtt")
+                .font(.boldCallout)
+            HStack{
+                ForEach(school.vastuvõtt, id: \.self) { item in
+                    Text(item)
+                }.font(.regularCaption)
+            }
+//            Divider().background(Color.black).padding(.horizontal)
+        }
+        
+//        .cornerRadius(10)
     }
     
     @ViewBuilder private func drawDescription() -> some View {
         VStack{
-            Text(school.description)
-                .font(.lightCallout)
-                .multilineTextAlignment(.leading)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .foregroundColor(Color.black)
-                .padding(.vertical, 8)
-                .lineSpacing(5)
-        }
-        .padding(.horizontal, 10)
-        .cornerRadius(10)
+            ForEach(school.description, id: \.self) { item in
+                Text(item)
+                    .font(.lightCallout)
+                    .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .foregroundColor(Color.black)
+                    .padding(.vertical, 8)
+                    .lineSpacing(5)
+            }
+        }.padding(.horizontal, 16)
+        .padding(.top, 20)
     }
 }
 

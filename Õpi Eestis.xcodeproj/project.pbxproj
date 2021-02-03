@@ -22,6 +22,9 @@
 		C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B642A25C860B2004D144F /* LinearGradient.swift */; };
 		C01B643625C89084004D144F /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B643525C89084004D144F /* WhiteBackground.swift */; };
 		C01B643E25C89426004D144F /* MajorNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B643D25C89426004D144F /* MajorNavigationLink.swift */; };
+		C032993C25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */; };
+		C032994125CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */; };
+		C032994625CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */; };
 		C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */; };
 		C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DCF25AF0A9200E4A15D /* Assets.xcassets */; };
 		C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DD225AF0A9200E4A15D /* Preview Assets.xcassets */; };
@@ -154,6 +157,9 @@
 		C01B642A25C860B2004D144F /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		C01B643525C89084004D144F /* WhiteBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackground.swift; sourceTree = "<group>"; };
 		C01B643D25C89426004D144F /* MajorNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorNavigationLink.swift; sourceTree = "<group>"; };
+		C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervishoiuRaka.swift; sourceTree = "<group>"; };
+		C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervidhoidMaka.swift; sourceTree = "<group>"; };
+		C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervishoiuKutse.swift; sourceTree = "<group>"; };
 		C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Õpi Eestis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpiEestisApp.swift; sourceTree = "<group>"; };
 		C0460DCF25AF0A9200E4A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -656,6 +662,9 @@
 			isa = PBXGroup;
 			children = (
 				C0460E9325AF0F1300E4A15D /* TallinnaTervishoiuKõrgkool.swift */,
+				C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */,
+				C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */,
+				C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */,
 			);
 			name = "TallinnaTervishoioKõrgkool";
 			path = "TallinnaTervishoioKõrgkool";
@@ -831,6 +840,7 @@
 				C0460E3F25AF0D8A00E4A15D /* Mail.swift in Sources */,
 				C09C4FAE25B9D00700F03F5A /* MaaülikoolMaka.swift in Sources */,
 				C09C4F6B25B9CACC00F03F5A /* EBSmaka.swift in Sources */,
+				C032993C25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift in Sources */,
 				C0460EDF25B0582800E4A15D /* TextField.swift in Sources */,
 				C0460E7225AF0E8100E4A15D /* SchoolView.swift in Sources */,
 				C0460E1225AF0C2700E4A15D /* AboutView.swift in Sources */,
@@ -851,9 +861,11 @@
 				C01B63F825C31A6A004D144F /* SheetCapsule.swift in Sources */,
 				C01B640125C468C5004D144F /* SchoolMajor.swift in Sources */,
 				C09C501025B9D88600F03F5A /* TartuTervishoiuKõrgkoolMaka.swift in Sources */,
+				C032994125CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift in Sources */,
 				C0460EA325AF0F1400E4A15D /* TallinnaTervishoiuKõrgkool.swift in Sources */,
 				C0460E7025AF0E8100E4A15D /* MajorView1.swift in Sources */,
 				C09C4E4C25B1DF3900F03F5A /* MajorStats.swift in Sources */,
+				C032994625CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift in Sources */,
 				C09C4F7025B9CB1700F03F5A /* EBSdoktor.swift in Sources */,
 				C0460EB825AF113300E4A15D /* Color.swift in Sources */,
 				C09C4F9525B9CDCC00F03F5A /* LennuAkadeemiaRaka.swift in Sources */,

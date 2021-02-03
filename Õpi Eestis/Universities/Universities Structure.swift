@@ -3,7 +3,7 @@ import Foundation
 struct School: Hashable, Codable, Identifiable {
     var id = UUID()
     var name: String
-    var description: String
+    var description: [String]
     var location: Location
     var website: String
     var students: Int
@@ -116,7 +116,6 @@ enum typechoice: String, CaseIterable, Codable {
     //Tallinna Tervishoiu Kõrgkool
     case heaolu = "Tervis ja heaolu"
     
-    
     //Tallinna Ülikool
     case BFM = "Balti Filmi ja Meedia Instituut"
     case digitehnoloogia = "Digitehnoloogiate Instituut"
@@ -125,7 +124,6 @@ enum typechoice: String, CaseIterable, Codable {
     case loodusteadusInstituut = "loodus- ja terviseteaduste Instituut"
     case ühiskond = "Ühiskonnateaduste Instituut"
     
-    
     //Tallinna Tehnikakõrgkool
     case ehitus = "Ehitusinstituut"
     case logistika = "Logistikainstituut"
@@ -133,7 +131,6 @@ enum typechoice: String, CaseIterable, Codable {
     case rõivasTekstiil = "Rõiva ja Tekstiili Instituut"
     case teenusMajandus = "Teenusmajanduse Instutuut"
     case tehnikaInstituut = "Tehnikainstituut"
-    
     
     //Sisekaitseakadeemia
     case finantskolledž = "Finantskolledž"
@@ -144,8 +141,6 @@ enum typechoice: String, CaseIterable, Codable {
     
     case none = ""
     case kunstid = "kunstid"
-    
-    
     
     var description: String {
         get {

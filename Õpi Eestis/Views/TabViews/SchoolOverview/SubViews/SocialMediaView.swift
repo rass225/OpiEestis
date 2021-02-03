@@ -8,7 +8,7 @@ struct SocialMediaView: View {
     var body: some View {
         VStack(spacing: 10){
             Spacer()
-            LabelledDivider2(label: "Meedia")
+//            LabelledDivider2(label: "Meedia")
 //            Divider().background(Color.black)
             HStack{
                 ForEach(school.socialMedia, id: \.self) { item in
@@ -24,9 +24,10 @@ struct SocialMediaView: View {
                         MajorButtonCustomImage(image: item.website, label: item.website)
                     }
                 }
-            }
+            }.frame(maxWidth: .infinity)
         }.padding(.vertical, 40)
         .foregroundColor(Color.black)
-        .background(LinearGradient(gradient: .whiteToDim, startPoint: .bottom, endPoint: .top))
+//        .background(LinearGradient(gradient: .whiteToDim, startPoint: .bottom, endPoint: .top))
+        .background(Color.white)
     }
 }

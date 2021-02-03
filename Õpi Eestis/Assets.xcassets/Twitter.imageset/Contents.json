@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Twitter (2).png",
+      "filename" : "icons8-twitter-480.png",
       "idiom" : "universal"
     }
   ],
@@ -10,6 +10,6 @@
     "version" : 1
   },
   "properties" : {
-    "preserves-vector-representation" : true
+    "compression-type" : "gpu-optimized-best"
   }
 }

@@ -9,10 +9,7 @@ struct SchoolImage: View {
             Image(school.image)
                 .resizable()
                 .overlay(SchoolNameOverlay(school: school), alignment: .bottomTrailing)
-//                .overlay(SchoolAboutOverlay(school: school), alignment: .topTrailing)
-                
-        }.frame(height: UIScreen.main.bounds.height / 3)
-        .frame(width: UIScreen.main.bounds.width)
+        }.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 3)
         .cornerRadiusCustom(90, corners: .bottomLeft)
     }
 }

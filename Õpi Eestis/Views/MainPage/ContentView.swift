@@ -28,9 +28,10 @@ struct ContentView: View {
                             }
                             .frame(width: 150, height: 150)
                             .foregroundColor(Color.black)
-                            .background(Color.white)
+                            .background(Color.whiteDim)
                             .cornerRadius(150)
-                            .shadow(color: Color.black.opacity(0.4), radius: 8, x: 0, y: 0)
+                            .shadow(color: Color.black.opacity(0.2), radius: 7, x: 8, y: 8)
+                            .shadow(color: Color.white.opacity(1), radius: 7, x: -8, y: -8)
                             .font(.regularCallout)
                         }
                         Spacer()
@@ -39,7 +40,6 @@ struct ContentView: View {
                     .padding(.bottom, 10)
                 }
             }
-//            .navigationBarHidden(true)
             .navigationBarItems(
                 trailing:
                     HStack{
@@ -47,12 +47,12 @@ struct ContentView: View {
                             Image(systemName: "info.circle")
                                 .resizable()
                                 .frame(width: 25, height: 25)
-                                .font(.system(size: 20, weight: .medium))
+                                .font(.lightTitle)
                                 .foregroundColor(Color.black)
                         }
-                        NavigationLink(destination: DiscoveryView()) {
-                                /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
-                        }
+//                        NavigationLink(destination: DiscoveryView()) {
+//                                /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+//                        }
                     })
         }
     }

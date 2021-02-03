@@ -14,7 +14,7 @@ struct SchoolMajor: View {
     
     var body: some View {
         ZStack{
-            Color.whiteDim1
+            Color.white
             VStack{
                 NavigationLink(destination: DegreeView(school: school)) {
                     ZStack{
@@ -35,7 +35,7 @@ struct SchoolMajor: View {
                 }.padding(.horizontal, 20)
             }
             .foregroundColor(Color.black)
-            .background(LinearGradient(gradient: gradient, startPoint: .center, endPoint: .top))
+            .background(Color.whiteDim1)
             .cornerRadiusCustom(100, corners: .bottomLeft)
         }
     }

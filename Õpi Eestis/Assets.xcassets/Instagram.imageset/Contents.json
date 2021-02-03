@@ -1,12 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Instagram.png",
+      "filename" : "icons8-instagram-240.png",
       "idiom" : "universal"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "gpu-optimized-best"
   }
 }

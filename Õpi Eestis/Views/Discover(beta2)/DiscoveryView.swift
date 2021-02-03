@@ -46,6 +46,6 @@ extension DiscoveryView {
             }
         }
         let differentCities = allCities.unique
-        return differentCities
+        return differentCities.sorted(by: { $0 < $1 })
     }
 }
