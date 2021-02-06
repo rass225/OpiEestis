@@ -31,7 +31,7 @@ struct SocialMediaView: View {
     }
     
     func toSocialMedia(socialMedia: SocialMedia) {
-        if school.website == "Facebook" {
+        if socialMedia.website == "Facebook" {
             let appURL = NSURL(string: "fb://profile/\(socialMedia.link)")!
             UIApplication.shared.open(appURL as URL)
         } else {
