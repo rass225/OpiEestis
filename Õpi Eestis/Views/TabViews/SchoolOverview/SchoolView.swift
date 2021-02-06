@@ -22,20 +22,11 @@ struct SchoolView: View {
         .navigationBarItems(
             leading: Button(action: { dismiss() }) {
                 Image.chevronLight
-                    .defaultShadow(color: .black, radius: 10)
-                    .defaultShadow(color: .black, radius: 7)
-                    .foregroundColor(.white)
-                    .font(.regularTitle3)
-                    .padding(.trailing, 30)
-                
+                    .modifier(NavBarButtonModifier(font: .regularTitle3, edge: .trailing, padding: 30, radius1: 10, radius2: 7))
             },
             trailing: Button(action: { toAbout() }) {
                 Image.infoCircle
-                    .font(.regularTitle2)
-                    .defaultShadow(color: .black, radius: 7)
-                    .defaultShadow(color: Color.black.opacity(0.4), radius: 3)
-                    .foregroundColor(.white)
-                    .padding(.leading, 30)
+                    .modifier(NavBarButtonModifier(font: .regularTitle2, edge: .leading, padding: 30, radius1: 7, radius2: 3))
             }.sheet(isPresented: $descriptionIsShown, content: {
                 SchoolAboutView(school: school)
             })

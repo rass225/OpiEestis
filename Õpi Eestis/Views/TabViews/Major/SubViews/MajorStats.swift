@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MajorStats: View {
     
-    @State var passedMajor: majorsMinors
+    @State var major: majorsMinors
     @State var school: School
     let statSpacing: CGFloat = 2
     
@@ -10,8 +10,8 @@ struct MajorStats: View {
         VStack(spacing: 10){
             
             VStack(spacing: 3){
-                Text(passedMajor.name).font(.semiBoldTitle3)
-                Text(passedMajor.level.rawValue.capitalizingFirstLetter()).font(.lightCaption)
+                Text(major.name).font(.semiBoldTitle3)
+                Text(major.level.rawValue.capitalizingFirstLetter()).font(.lightCaption)
             }
             LabelledDivider(label: school.logo)
                 .padding(.horizontal, 20)
@@ -22,34 +22,34 @@ struct MajorStats: View {
                     HStack(spacing: statSpacing){
                         StatImage(image: .squareStack)
                         HStack(spacing: 2){
-                            let eap = passedMajor.eap != nil ? "\(passedMajor.eap!)" : "\(passedMajor.ekap!)"
-                            let label = passedMajor.eap != nil ? "EAP" : "EKAP"
+                            let eap = major.eap != nil ? "\(major.eap!)" : "\(major.ekap!)"
+                            let label = major.eap != nil ? "EAP" : "EKAP"
                             Text("\(eap) \(label)")
                         }
                     }.modifier(statCellModifier())
                     Spacer()
                     HStack(spacing: statSpacing){
                         StatImage(image: .globe)
-                        Text("\(passedMajor.language.rawValue.capitalizingFirstLetter())es")
+                        Text("\(major.language.rawValue.capitalizingFirstLetter())es")
                     }.modifier(statCellModifier())
                     Spacer()
                     HStack(spacing: statSpacing){
                         StatImage(image: .clockFill)
-                        Text(passedMajor.duration.isInt()
-                                ? "\(Int(passedMajor.duration))a"
-                                : "\(passedMajor.duration, specifier: "%.1f")a"
+                        Text(major.duration.isInt()
+                                ? "\(Int(major.duration))a"
+                                : "\(major.duration, specifier: "%.1f")a"
                         )
                     }.modifier(statCellModifier())
                     Spacer()
                     
                 }.padding(.horizontal, 12)
                 HStack(spacing: 0){
-                    if passedMajor.cost == "0€" || passedMajor.spots != 0 {
+                    if major.cost == "0€" || major.spots != 0 {
                         Spacer()
                     }
                     HStack(spacing: statSpacing){
                         StatImage(image: .locationFill)
-                        ForEach(passedMajor.studyLocation, id: \.self) { item in
+                        ForEach(major.studyLocation, id: \.self) { item in
                             Text(item)
                         }
                     }.modifier(statCellModifier())
@@ -57,17 +57,17 @@ struct MajorStats: View {
                     HStack(spacing: statSpacing){
                         StatImage(image: .person2Fill)
                         HStack(spacing: 2){
-                            let number = passedMajor.spots == 0 ? "Piiramatult" : "\(passedMajor.spots)"
-                            let label = passedMajor.spots == 0 ? "õppekohti" : "Õppekohta"
+                            let number = major.spots == 0 ? "Piiramatult" : "\(major.spots)"
+                            let label = major.spots == 0 ? "õppekohti" : "Õppekohta"
                             Text("\(number) \(label)")
                         }
                     }.modifier(statCellModifier())
                     Spacer()
                     HStack(spacing: statSpacing){
                         StatImage(image: .euroFill)
-                        Text(passedMajor.cost)
+                        Text(major.cost)
                     }.modifier(statCellModifier())
-                    if passedMajor.cost == "0€" || passedMajor.spots != 0 {
+                    if major.cost == "0€" || major.spots != 0 {
                         Spacer()
                     }
                 }

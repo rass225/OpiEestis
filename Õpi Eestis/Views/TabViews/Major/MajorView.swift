@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct MajorView1: View {
+struct MajorView: View {
     
-    var passedMajor: majorsMinors
+    let major: majorsMinors
     let school: School
     @Environment(\.presentationMode) var presentationMode
     
@@ -10,8 +10,8 @@ struct MajorView1: View {
         ZStack{
             WhiteBackground()
             VStack(spacing: 0){
-                MajorStats(passedMajor: passedMajor, school: school)
-                MajorButtonsView(major: passedMajor)
+                MajorStats(major: major, school: school)
+                MajorButtonsView(major: major)
                 Spacer()
             }.padding(.top, -40)
             .ignoreEdges(edge: .bottom)

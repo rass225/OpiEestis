@@ -39,8 +39,7 @@ struct ContentView: View {
                     .padding(.bottom, 10)
                 }
             }
-            .navigationBarItems(
-                trailing:
+            .navigationBarItems(trailing:
                     HStack{
                         Button(action: { navigationSelectionTag = 1 }) {
                             Image.infoCircle

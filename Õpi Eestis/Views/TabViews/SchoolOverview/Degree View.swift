@@ -14,24 +14,21 @@ struct DegreeView: View {
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack{
                             ForEach(levels()) { item in
-                                Button(action: {
-                                    selectedLevel = item.level
-                                    navBarTitle = item.title
-                                }) {
+                                Button(action: { didSelectLevel(level: item) }) {
                                     Text(item.title.capitalizingFirstLetter()).padding(.horizontal, 6)
+                                        .font(selectedLevel == item.level ? .boldCallout : .lightCallout)
+                                        .animation(.default)
+                                        .foregroundColor(Color.black)
                                 }
-                                .font(selectedLevel == item.level ? .boldCallout : .lightCallout)
-                                .animation(.default)
                                 Divider()
                             }
                         }
                     }.frame(height: 40)
-                    .foregroundColor(Color.black)
                     Divider()
                     SearchNavBar(text: $searchText, placeholder: "Otsi eriala...")
                     Divider()
                     ForEach(selectedMajors()) { item in
-                        NavigationLink(destination: MajorView1(passedMajor: item, school: school)) {
+                        NavigationLink(destination: MajorView(major: item, school: school)) {
                             MajorCell(item: item)
                         }
                         Divider()
@@ -123,7 +120,12 @@ extension DegreeView {
         return majors
     }
     
-    func order() {
+    private func order() {
         isAscending.toggle()
+    }
+    
+    private func didSelectLevel(level: SelectedLevel) {
+        selectedLevel = level.level
+        navBarTitle = level.title
     }
 }
