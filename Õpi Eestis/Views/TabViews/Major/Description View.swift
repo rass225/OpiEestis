@@ -1,7 +1,9 @@
 import SwiftUI
 
 struct Description_View: View {
-    var major: majorsMinors
+    let major: majorsMinors
+    let navBar = NavigationBarTitles()
+    
     var body: some View {
         ZStack{
             WhiteBackground()
@@ -9,15 +11,13 @@ struct Description_View: View {
                 ForEach(major.description, id: \.self) { hey in
                     Text(hey)
                         .font(.lightCallout)
-                        .multilineTextAlignment(.leading)
-                        .foregroundColor(Color.black)
+                        .foregroundColor(.black)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.vertical, 8)
-                    
                 }.lineSpacing(5)
                 .padding(.horizontal, 16)
             }
-        }.navigationBarTitle(Text("Eriala kirjeldus"), displayMode: .automatic)
+        }.navigationBarTitle(navBar.descriptionTitle, displayMode: .automatic)
     }
 }
 

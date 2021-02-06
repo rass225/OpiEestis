@@ -7,7 +7,8 @@ struct MailView: UIViewControllerRepresentable {
 
     @Environment(\.presentationMode) var presentation
     @Binding var result: Result<MFMailComposeResult, Error>?
-    let email: School
+    let email: ContactInfo
+    let name: String
 
     class Coordinator: NSObject, MFMailComposeViewControllerDelegate {
 
@@ -43,8 +44,8 @@ struct MailView: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<MailView>) -> MFMailComposeViewController {
         let vc = MFMailComposeViewController()
         vc.mailComposeDelegate = context.coordinator
-        vc.setToRecipients([emailExtract().email])
-        vc.setMessageBody("<html><body><p>Lugupeetud \(email.name)!</p><br><br><br><br><br><br><br><br> <p>Saadetud läbi Õpi Eestis rakenduse.</p></body></html>", isHTML: true)
+        vc.setToRecipients([email.email])
+        vc.setMessageBody("<html><body><p>Lugupeetud \(name)!</p><br><br><br><br><br><br><br><br> <p>Saadetud läbi Õpi Eestis rakenduse.</p></body></html>", isHTML: true)
         return vc
     }
 
@@ -52,8 +53,8 @@ struct MailView: UIViewControllerRepresentable {
                                 context: UIViewControllerRepresentableContext<MailView>) {
 
     }
-    func emailExtract() -> ContactInfo {
-        let emailAddress = email.contact
-        return emailAddress
-    }
+//    func emailExtract() -> ContactInfo {
+//        let emailAddress = email.contact
+//        return emailAddress
+//    }
 }

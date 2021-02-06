@@ -2,15 +2,16 @@ import SwiftUI
 
 struct Requirements_View: View {
     
-    var major: [Requirements]
+    let requirements: [Requirements]
+    let navBar = NavigationBarTitles()
     
     var body: some View {
         ZStack{
             WhiteBackground()
             VStack(spacing: 0){
-                ForEach(major){ hey in
+                ForEach(requirements){ hey in
                     HStack{
-                        Text("•")
+                        Text(String.dot)
                             .font(.regularBody)
                             .padding(.leading, 10)
                         Text(hey.term)
@@ -20,13 +21,13 @@ struct Requirements_View: View {
                             Text("\(hey.percentage!)%")
                                 .padding(.trailing, 10)
                         }
-                    }.foregroundColor(Color.black)
+                    }.foregroundColor(.black)
                     .padding(.vertical, 10)
                     .font(.regularCallout)
                 }
                 Spacer()
             }
-        }.navigationBarTitle(Text("Sisseastumine"), displayMode: .automatic)
+        }.navigationBarTitle(navBar.requirementsTitle, displayMode: .automatic)
     }
 }
 

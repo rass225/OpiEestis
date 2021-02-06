@@ -10,7 +10,7 @@ struct MajorStats: View {
         VStack(spacing: 10){
             
             VStack(spacing: 3){
-                Text(passedMajor.name).font(Font.title3.weight(.semibold))
+                Text(passedMajor.name).font(.semiBoldTitle3)
                 Text(passedMajor.level.rawValue.capitalizingFirstLetter()).font(.lightCaption)
             }
             LabelledDivider(label: school.logo)

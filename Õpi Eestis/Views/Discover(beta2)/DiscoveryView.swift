@@ -2,21 +2,29 @@
 import SwiftUI
 
 struct DiscoveryView: View {
+    let schools = Universities()
     @State var city = ""
     @State var degree = ""
     @State var type = ""
-    @State var didSelectHello = false
+    @State var didSelectCity = false
+    @State var didSelectLevel = false
     var body: some View {
         ZStack{
-            Color.whiteDim1.edgesIgnoringSafeArea(.all)
+            Color.whiteDim1.ignoreEdges(edge: .all)
             Form{
                 Section(header: Text("Linn")){
-                    DisclosureGroup(city.isEmpty ? "Vali linn..." : city, isExpanded: $didSelectHello) {
+                    DisclosureGroup(city.isEmpty ? "Vali linn..." : city, isExpanded: $didSelectCity) {
                         ForEach(fetchAllCities(), id: \.self) { item in
-                            Button(action: {
-                                city = item
-                                didSelectHello.toggle()
-                            }) {
+                            Button(action: { cityAction(selectedCity: item) }) {
+                                Text(item).foregroundColor(Color.black)
+                            }
+                        }
+                    }
+                }
+                Section(header: Text("Õppeaste")) {
+                    DisclosureGroup(degree.isEmpty ? "Vali õppeaste..." : degree, isExpanded: $didSelectCity) {
+                        ForEach(fetchAllCities(), id: \.self) { item in
+                            Button(action: { cityAction(selectedCity: item) }) {
                                 Text(item).foregroundColor(Color.black)
                             }
                         }
@@ -30,7 +38,7 @@ struct DiscoveryView: View {
 extension DiscoveryView {
     func fetchAllCities() -> [String] {
         var allCities: [String] = []
-        for school in schools {
+        for school in schools.schools {
             let education = school.education
             var allLocations: [String] = []
             
@@ -47,5 +55,10 @@ extension DiscoveryView {
         }
         let differentCities = allCities.unique
         return differentCities.sorted(by: { $0 < $1 })
+    }
+    
+    func cityAction(selectedCity: String) {
+        city = selectedCity
+        didSelectCity.toggle()
     }
 }

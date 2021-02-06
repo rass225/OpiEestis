@@ -8,4 +8,5 @@ public extension Image {
     static let docs = Image(systemName:"doc.on.doc")
     static let magnifyingGlass = Image(systemName: "magnifyingglass")
     static let multiply = Image(systemName: "multiply")
+    static let appLogo = Image("Õpi Eestis logo")
 }

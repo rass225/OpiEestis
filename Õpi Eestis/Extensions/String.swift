@@ -27,6 +27,7 @@ public extension String {
     static let requirements = "person.crop.circle.badge.checkmark"
     static let outcomes = "briefcase"
     static let link = "link"
+    static let dot = "\u{2022}"
     
     func capitalizingFirstLetter() -> String {
         return prefix(1).capitalized + dropFirst()
@@ -37,3 +38,4 @@ public extension String {
     }
     
 }
+

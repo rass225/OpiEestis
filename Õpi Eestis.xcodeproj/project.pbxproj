@@ -25,6 +25,19 @@
 		C032993C25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */; };
 		C032994125CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */; };
 		C032994625CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */; };
+		C032995325CC17A100EB7862 /* SchoolDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032995225CC17A100EB7862 /* SchoolDomain.swift */; };
+		C032995B25CC180900EB7862 /* LocationDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032995A25CC180900EB7862 /* LocationDomain.swift */; };
+		C032996025CC187100EB7862 /* MajorDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032995F25CC187100EB7862 /* MajorDomain.swift */; };
+		C032996825CC189E00EB7862 /* SocialMediaDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032996725CC189E00EB7862 /* SocialMediaDomain.swift */; };
+		C032996D25CC18BE00EB7862 /* ContactDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032996C25CC18BE00EB7862 /* ContactDomain.swift */; };
+		C032997225CC18CE00EB7862 /* Requirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032997125CC18CE00EB7862 /* Requirements.swift */; };
+		C032997B25CC192D00EB7862 /* levelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032997A25CC192D00EB7862 /* levelData.swift */; };
+		C032998325CC194600EB7862 /* typeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032998225CC194600EB7862 /* typeData.swift */; };
+		C032998825CC196100EB7862 /* languageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032998725CC196100EB7862 /* languageData.swift */; };
+		C032999225CC8CFF00EB7862 /* AboutObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032999125CC8CFF00EB7862 /* AboutObject.swift */; };
+		C03299A425CC913900EB7862 /* NavigationBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03299A325CC913900EB7862 /* NavigationBarObject.swift */; };
+		C03299AD25CC92CE00EB7862 /* SizeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03299AC25CC92CE00EB7862 /* SizeObject.swift */; };
+		C03299C225CE97D000EB7862 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03299C125CE97D000EB7862 /* MenuItem.swift */; };
 		C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */; };
 		C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DCF25AF0A9200E4A15D /* Assets.xcassets */; };
 		C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DD225AF0A9200E4A15D /* Preview Assets.xcassets */; };
@@ -53,7 +66,7 @@
 		C0460E8025AF0EAF00E4A15D /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E7E25AF0EAF00E4A15D /* ResultsView.swift */; };
 		C0460E9B25AF0F1400E4A15D /* TallinnaTehnikaKõrgkool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E8B25AF0F1300E4A15D /* TallinnaTehnikaKõrgkool.swift */; };
 		C0460E9C25AF0F1400E4A15D /* TartuÜlikool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E8C25AF0F1300E4A15D /* TartuÜlikool.swift */; };
-		C0460E9D25AF0F1400E4A15D /* Universities Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E8D25AF0F1300E4A15D /* Universities Structure.swift */; };
+		C0460E9D25AF0F1400E4A15D /* Universities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E8D25AF0F1300E4A15D /* Universities.swift */; };
 		C0460E9E25AF0F1400E4A15D /* TartuTervishoiuKõrgkool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E8E25AF0F1300E4A15D /* TartuTervishoiuKõrgkool.swift */; };
 		C0460E9F25AF0F1400E4A15D /* EBS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E8F25AF0F1300E4A15D /* EBS.swift */; };
 		C0460EA125AF0F1400E4A15D /* Kunstiakadeemia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E9125AF0F1300E4A15D /* Kunstiakadeemia.swift */; };
@@ -160,6 +173,19 @@
 		C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervishoiuRaka.swift; sourceTree = "<group>"; };
 		C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervidhoidMaka.swift; sourceTree = "<group>"; };
 		C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervishoiuKutse.swift; sourceTree = "<group>"; };
+		C032995225CC17A100EB7862 /* SchoolDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDomain.swift; sourceTree = "<group>"; };
+		C032995A25CC180900EB7862 /* LocationDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDomain.swift; sourceTree = "<group>"; };
+		C032995F25CC187100EB7862 /* MajorDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorDomain.swift; sourceTree = "<group>"; };
+		C032996725CC189E00EB7862 /* SocialMediaDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaDomain.swift; sourceTree = "<group>"; };
+		C032996C25CC18BE00EB7862 /* ContactDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDomain.swift; sourceTree = "<group>"; };
+		C032997125CC18CE00EB7862 /* Requirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requirements.swift; sourceTree = "<group>"; };
+		C032997A25CC192D00EB7862 /* levelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelData.swift; sourceTree = "<group>"; };
+		C032998225CC194600EB7862 /* typeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeData.swift; sourceTree = "<group>"; };
+		C032998725CC196100EB7862 /* languageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageData.swift; sourceTree = "<group>"; };
+		C032999125CC8CFF00EB7862 /* AboutObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutObject.swift; sourceTree = "<group>"; };
+		C03299A325CC913900EB7862 /* NavigationBarObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarObject.swift; sourceTree = "<group>"; };
+		C03299AC25CC92CE00EB7862 /* SizeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeObject.swift; sourceTree = "<group>"; };
+		C03299C125CE97D000EB7862 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Õpi Eestis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpiEestisApp.swift; sourceTree = "<group>"; };
 		C0460DCF25AF0A9200E4A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -194,7 +220,7 @@
 		C0460E7E25AF0EAF00E4A15D /* ResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		C0460E8B25AF0F1300E4A15D /* TallinnaTehnikaKõrgkool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TallinnaTehnikaKõrgkool.swift"; sourceTree = "<group>"; };
 		C0460E8C25AF0F1300E4A15D /* TartuÜlikool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TartuÜlikool.swift"; sourceTree = "<group>"; };
-		C0460E8D25AF0F1300E4A15D /* Universities Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Universities Structure.swift"; sourceTree = "<group>"; };
+		C0460E8D25AF0F1300E4A15D /* Universities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Universities.swift; sourceTree = "<group>"; };
 		C0460E8E25AF0F1300E4A15D /* TartuTervishoiuKõrgkool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TartuTervishoiuKõrgkool.swift"; sourceTree = "<group>"; };
 		C0460E8F25AF0F1300E4A15D /* EBS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBS.swift; sourceTree = "<group>"; };
 		C0460E9125AF0F1300E4A15D /* Kunstiakadeemia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kunstiakadeemia.swift; sourceTree = "<group>"; };
@@ -298,6 +324,81 @@
 			path = "Discover(beta2)";
 			sourceTree = "<group>";
 		};
+		C032995025CC178300EB7862 /* University */ = {
+			isa = PBXGroup;
+			children = (
+				C032997925CC190F00EB7862 /* UniversityData */,
+				C032995125CC178A00EB7862 /* UniversityDomain */,
+			);
+			path = University;
+			sourceTree = "<group>";
+		};
+		C032995125CC178A00EB7862 /* UniversityDomain */ = {
+			isa = PBXGroup;
+			children = (
+				C032995225CC17A100EB7862 /* SchoolDomain.swift */,
+				C032995A25CC180900EB7862 /* LocationDomain.swift */,
+				C032995F25CC187100EB7862 /* MajorDomain.swift */,
+				C032996725CC189E00EB7862 /* SocialMediaDomain.swift */,
+				C032996C25CC18BE00EB7862 /* ContactDomain.swift */,
+				C032997125CC18CE00EB7862 /* Requirements.swift */,
+			);
+			path = UniversityDomain;
+			sourceTree = "<group>";
+		};
+		C032997925CC190F00EB7862 /* UniversityData */ = {
+			isa = PBXGroup;
+			children = (
+				C032997A25CC192D00EB7862 /* levelData.swift */,
+				C032998225CC194600EB7862 /* typeData.swift */,
+				C032998725CC196100EB7862 /* languageData.swift */,
+			);
+			path = UniversityData;
+			sourceTree = "<group>";
+		};
+		C032998F25CC8CB600EB7862 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C03299BD25CDA28600EB7862 /* UniversityObject */,
+				C03299AB25CC929000EB7862 /* SizeObject */,
+				C03299A225CC90B900EB7862 /* NavigationBarObject */,
+				C032999025CC8CC200EB7862 /* AboutObject */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C032999025CC8CC200EB7862 /* AboutObject */ = {
+			isa = PBXGroup;
+			children = (
+				C032999125CC8CFF00EB7862 /* AboutObject.swift */,
+			);
+			path = AboutObject;
+			sourceTree = "<group>";
+		};
+		C03299A225CC90B900EB7862 /* NavigationBarObject */ = {
+			isa = PBXGroup;
+			children = (
+				C03299A325CC913900EB7862 /* NavigationBarObject.swift */,
+			);
+			path = NavigationBarObject;
+			sourceTree = "<group>";
+		};
+		C03299AB25CC929000EB7862 /* SizeObject */ = {
+			isa = PBXGroup;
+			children = (
+				C03299AC25CC92CE00EB7862 /* SizeObject.swift */,
+			);
+			path = SizeObject;
+			sourceTree = "<group>";
+		};
+		C03299BD25CDA28600EB7862 /* UniversityObject */ = {
+			isa = PBXGroup;
+			children = (
+				C0460E8D25AF0F1300E4A15D /* Universities.swift */,
+			);
+			path = UniversityObject;
+			sourceTree = "<group>";
+		};
 		C0460DBF25AF0A8E00E4A15D = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +422,7 @@
 		C0460DCA25AF0A8F00E4A15D /* Õpi Eestis */ = {
 			isa = PBXGroup;
 			children = (
+				C032998F25CC8CB600EB7862 /* Objects */,
 				C0460DD425AF0A9200E4A15D /* Info.plist */,
 				C0460DCF25AF0A9200E4A15D /* Assets.xcassets */,
 				C0460ECD25AF1CDA00E4A15D /* Modifiers */,
@@ -446,6 +548,7 @@
 		C0460E8A25AF0EEA00E4A15D /* Universities */ = {
 			isa = PBXGroup;
 			children = (
+				C032995025CC178300EB7862 /* University */,
 				C07D36F425BDB5B2004A7058 /* Tartu Ülikool */,
 				C09C503A25BA573C00F03F5A /* TTÜ */,
 				C09C501D25BA4F9E00F03F5A /* TallinnaÜlikool */,
@@ -461,7 +564,6 @@
 				C09C4F7A25B9CC1B00F03F5A /* KõrgemKunstikoolPallas */,
 				C09C4F5E25B9CA0100F03F5A /* EBS */,
 				C09C4F4A25B9C7FC00F03F5A /* KaitseväeAkadeemia */,
-				C0460E8D25AF0F1300E4A15D /* Universities Structure.swift */,
 			);
 			path = Universities;
 			sourceTree = "<group>";
@@ -510,6 +612,7 @@
 				C0460E6925AF0E8100E4A15D /* MenuView.swift */,
 				C01B63EF25C311F5004D144F /* SchoolAboutView.swift */,
 				C01B641025C7FCA0004D144F /* LevelStat.swift */,
+				C03299C125CE97D000EB7862 /* MenuItem.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -828,6 +931,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0460E5025AF0DDD00E4A15D /* UIApplication.swift in Sources */,
+				C03299AD25CC92CE00EB7862 /* SizeObject.swift in Sources */,
 				C01B63E825C30412004D144F /* Image.swift in Sources */,
 				C018108D25C086500026A86F /* DiscoveryView.swift in Sources */,
 				C0460EA625AF0F1400E4A15D /* TTÜ.swift in Sources */,
@@ -844,6 +948,7 @@
 				C0460EDF25B0582800E4A15D /* TextField.swift in Sources */,
 				C0460E7225AF0E8100E4A15D /* SchoolView.swift in Sources */,
 				C0460E1225AF0C2700E4A15D /* AboutView.swift in Sources */,
+				C032995B25CC180900EB7862 /* LocationDomain.swift in Sources */,
 				C09C500B25B9D87300F03F5A /* TartuTervishoiuKõrgkoolRaka.swift in Sources */,
 				C0460E6E25AF0E8100E4A15D /* Description View.swift in Sources */,
 				C09C501525B9D89600F03F5A /* TartuTervishoiuKõrgkoolKutse.swift in Sources */,
@@ -856,6 +961,7 @@
 				C09C4E6525B1E39500F03F5A /* MajorButtonsView.swift in Sources */,
 				C0460E5125AF0DDD00E4A15D /* View.swift in Sources */,
 				C0460E2925AF0D3700E4A15D /* SchoolListView.swift in Sources */,
+				C032997225CC18CE00EB7862 /* Requirements.swift in Sources */,
 				C018106F25C049530026A86F /* Double.swift in Sources */,
 				C0460E9F25AF0F1400E4A15D /* EBS.swift in Sources */,
 				C01B63F825C31A6A004D144F /* SheetCapsule.swift in Sources */,
@@ -876,13 +982,14 @@
 				C0460EA825AF0F1400E4A15D /* KõrgemKunstikoolPallas.swift in Sources */,
 				C09C4FB825B9D04E00F03F5A /* MaaülikoolRaka.swift in Sources */,
 				C0460EA225AF0F1400E4A15D /* MuusikaAkadeemia.swift in Sources */,
+				C032998825CC196100EB7862 /* languageData.swift in Sources */,
 				C0460EBD25AF126000E4A15D /* Gradient.swift in Sources */,
 				C09C4E2F25B09CBF00F03F5A /* StatCellModifier.swift in Sources */,
 				C09C4FB325B9D03C00F03F5A /* Maaülikoolinter.swift in Sources */,
 				C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */,
 				C0460E7125AF0E8100E4A15D /* MenuView.swift in Sources */,
 				C09C503625BA53A900F03F5A /* TallinnaÜlikoolDoktor.swift in Sources */,
-				C0460E9D25AF0F1400E4A15D /* Universities Structure.swift in Sources */,
+				C0460E9D25AF0F1400E4A15D /* Universities.swift in Sources */,
 				C09C4F8A25B9CCBA00F03F5A /* kunstiAkadeemiaMaka.swift in Sources */,
 				C09C4E5C25B1E23D00F03F5A /* MajorButtonModifier.swift in Sources */,
 				C01B643625C89084004D144F /* WhiteBackground.swift in Sources */,
@@ -892,6 +999,7 @@
 				C09C4FC925B9D41500F03F5A /* MainorBaka.swift in Sources */,
 				C0460E9E25AF0F1400E4A15D /* TartuTervishoiuKõrgkool.swift in Sources */,
 				C018107B25C07C5F0026A86F /* SchoolImage.swift in Sources */,
+				C03299A425CC913900EB7862 /* NavigationBarObject.swift in Sources */,
 				C01B63F025C311F5004D144F /* SchoolAboutView.swift in Sources */,
 				C018106A25C041680026A86F /* StatImage.swift in Sources */,
 				C09C500525B9D82200F03F5A /* TallinnaÜlikool.swift in Sources */,
@@ -899,6 +1007,7 @@
 				C09C4FE125B9D55F00F03F5A /* MuusikaAkadeemiaDoktor.swift in Sources */,
 				C07D370D25BDF5C6004A7058 /* TartuÜlikoolRaka.swift in Sources */,
 				C0460E3B25AF0D8A00E4A15D /* SchoolCell.swift in Sources */,
+				C032996025CC187100EB7862 /* MajorDomain.swift in Sources */,
 				C09C4FDC25B9D52600F03F5A /* MuusikaAkadeemiaMaka.swift in Sources */,
 				C09C4FA925B9CFFA00F03F5A /* MaaülikoolBaka.swift in Sources */,
 				C09C4FEF25B9D60300F03F5A /* SisekaitseAkadeemiaKutse.swift in Sources */,
@@ -908,18 +1017,23 @@
 				C0460EDA25B04CEE00E4A15D /* Font.swift in Sources */,
 				C0460E7F25AF0EAF00E4A15D /* DiscoverView.swift in Sources */,
 				C09C503125BA52E900F03F5A /* TallinnaÜlikoolMaka.swift in Sources */,
+				C032998325CC194600EB7862 /* typeData.swift in Sources */,
 				C09C4F4C25B9C83F00F03F5A /* KaitseväeRaka.swift in Sources */,
+				C03299C225CE97D000EB7862 /* MenuItem.swift in Sources */,
 				C07D370825BDF2BF004A7058 /* TartuÜlikoolInter.swift in Sources */,
+				C032997B25CC192D00EB7862 /* levelData.swift in Sources */,
 				C09C4E4225B1D0B900F03F5A /* SchoolDescriptionView.swift in Sources */,
 				C0460E9C25AF0F1400E4A15D /* TartuÜlikool.swift in Sources */,
 				C01B63E325C303F8004D144F /* Text.swift in Sources */,
 				C0460EAA25AF0F1400E4A15D /* Mainor.swift in Sources */,
 				C09C502C25BA521000F03F5A /* TallinnaÜlikoolInter.swift in Sources */,
+				C032996D25CC18BE00EB7862 /* ContactDomain.swift in Sources */,
 				C09C4FE725B9D5EA00F03F5A /* SisekaitseakadeemiaRaka.swift in Sources */,
 				C0460E4025AF0D8A00E4A15D /* MajorCell.swift in Sources */,
 				C09C4F7C25B9CC3F00F03F5A /* PallasBaka.swift in Sources */,
 				C01B63DB25C2FAD1004D144F /* String.swift in Sources */,
 				C09C4F8525B9CCAD00F03F5A /* kunstiAkadeemiaBaka.swift in Sources */,
+				C032995325CC17A100EB7862 /* SchoolDomain.swift in Sources */,
 				C09C4F8F25B9CD3600F03F5A /* KunstiAkadeemiaDoktor.swift in Sources */,
 				C07D370325BDB5F8004A7058 /* TartuÜlikoolDoktor.swift in Sources */,
 				C0460E4125AF0D8A00E4A15D /* SearchNavBar.swift in Sources */,
@@ -928,6 +1042,8 @@
 				C09C4E5425B1E03F00F03F5A /* ContactButton.swift in Sources */,
 				C07D36FE25BDB5EA004A7058 /* TartuÜlikoolMaka.swift in Sources */,
 				C09C4FFA25B9D71E00F03F5A /* TallinnaTehnikaKõrgkoolRaka.swift in Sources */,
+				C032999225CC8CFF00EB7862 /* AboutObject.swift in Sources */,
+				C032996825CC189E00EB7862 /* SocialMediaDomain.swift in Sources */,
 				C09C502725BA516400F03F5A /* TallinnaÜlikoolRaka.swift in Sources */,
 				C0460E0E25AF0C2700E4A15D /* finderQuiry.swift in Sources */,
 				C09C504925BA58B700F03F5A /* TTÜRaka.swift in Sources */,
@@ -1095,6 +1211,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1104,10 +1221,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1117,6 +1235,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1126,10 +1245,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

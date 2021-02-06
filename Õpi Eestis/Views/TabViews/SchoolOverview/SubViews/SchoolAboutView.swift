@@ -24,17 +24,13 @@ struct SchoolAboutView: View {
     
     @ViewBuilder private func drawStats() -> some View {
         VStack{
-            Text("Vastuvõtt")
-                .font(.boldCallout)
+            Text("Vastuvõtt").font(.boldCallout)
             HStack{
                 ForEach(school.vastuvõtt, id: \.self) { item in
                     Text(item)
                 }.font(.regularCaption)
             }
-//            Divider().background(Color.black).padding(.horizontal)
         }
-        
-//        .cornerRadius(10)
     }
     
     @ViewBuilder private func drawDescription() -> some View {
@@ -44,7 +40,7 @@ struct SchoolAboutView: View {
                     .font(.lightCallout)
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(.black)
                     .padding(.vertical, 8)
                     .lineSpacing(5)
             }
@@ -58,6 +54,7 @@ struct LabelledDivider: View {
     let label: String
     let horizontalPadding: CGFloat
     let color: Color
+    let size = SizeObject()
     
     init(label: String, horizontalPadding: CGFloat = 10, color: Color = .black) {
         self.label = label
@@ -72,8 +69,8 @@ struct LabelledDivider: View {
                 .resizable()
                 .foregroundColor(color)
                 .scaledToFit()
-                .frame(height: UIScreen.main.bounds.width / 6)
-                .frame(minWidth: 0, maxWidth: UIScreen.main.bounds.width / 5)
+                .frame(height: size.width / 6)
+                .frame(minWidth: 0, maxWidth: size.width / 5)
             line.padding(.leading, horizontalPadding)
         }
     }
@@ -102,7 +99,7 @@ struct LabelledDivider2: View {
             line.padding(.trailing, horizontalPadding)
             Text(label)
                 .foregroundColor(color)
-                .font(Font.title.weight(.bold))
+                .font(.boldTitle)
             line.padding(.leading, horizontalPadding)
         }
     }
