@@ -1,8 +1,6 @@
 import Foundation
 import SwiftUI
 
-
-
 struct RoundedCorner: Shape {
 
     var radius: CGFloat = .infinity
@@ -13,12 +11,3 @@ struct RoundedCorner: Shape {
         return Path(path.cgPath)
     }
 }
-
-extension View {
-    func cornerRadiusCustom(_ radius: CGFloat, corners: UIRectCorner) -> some View {
-        clipShape( RoundedCorner(radius: radius, corners: corners) )
-        
-        
-    }
-}
-

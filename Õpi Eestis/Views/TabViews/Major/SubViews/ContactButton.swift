@@ -2,7 +2,6 @@ import SwiftUI
 
 struct ContactButton: View {
     let image: String
-    let label: String
     
     var body: some View {
         ZStack{
@@ -30,9 +29,8 @@ struct MajorButtonCustomImage: View {
                     .scaledToFit()
             }.frame(width: 35)
         }
-        .foregroundColor(Color.white)
+        .foregroundColor(.white)
         .padding(.horizontal, 15)
-        
     }
 }
 

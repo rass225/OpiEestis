@@ -10,7 +10,6 @@ import SwiftUI
 struct SchoolMajor: View {
     
     let school: School
-    let gradient = Gradient(colors: [Color.white, Color.whiteDim1])
     
     var body: some View {
         ZStack{
@@ -34,7 +33,7 @@ struct SchoolMajor: View {
                     }.frame(maxHeight: .infinity)
                 }.padding(.horizontal, 20)
             }
-            .foregroundColor(Color.black)
+            .foregroundColor(.black)
             .background(Color.whiteDim1)
             .cornerRadiusCustom(100, corners: .bottomLeft)
         }

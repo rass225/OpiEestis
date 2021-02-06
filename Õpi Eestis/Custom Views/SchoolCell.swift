@@ -16,15 +16,15 @@ struct SchoolCell: View {
                         .padding(2)
                         .padding(.leading, 5)
                     VStack{
-                       Text(school.name)
-                        .font(.regularBody)
-                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                        Text(school.name)
+                            .font(.regularBody)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                         Spacer()
                         Text(school.location.city + ", Eesti")
                             .font(.regularCaption)
-                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                            .foregroundColor(Color.black)
-                            
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .foregroundColor(.black)
+                        
                     }.padding(.bottom, 10)
                     .padding(.top, 20)
                     .padding(.leading, 10)
@@ -33,12 +33,11 @@ struct SchoolCell: View {
                         .padding(.trailing, 10)
                 }.frame(height: CustomCellImageSize(), alignment: .leading)
             }
-            .foregroundColor(Color.black)
-//            .background()
+            .foregroundColor(.black)
             .background(LinearGradient(gradient: index % 2 == 0 ? colors1 : colors2, startPoint: .center, endPoint: .trailing))
             .cornerRadiusCustom(100, corners: .bottomRight)
         }
-        .background(index % 2 == 0 ? Color.whiteDim2 : Color.white)
+        .background(index % 2 == 0 ? Color.whiteDim2 : .white)
     }
 }
 

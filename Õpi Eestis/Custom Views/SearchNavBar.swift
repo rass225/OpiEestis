@@ -5,7 +5,6 @@ struct SearchNavBar: View {
     var placeholder: String
     var body: some View {
         ZStack{
-//            Color.customBlue.edgesIgnoringSafeArea(.all)
                 HStack{
                     Image.magnifyingGlass
                         .padding(.leading, 15)
@@ -23,35 +22,22 @@ struct SearchNavBar: View {
                          .padding(.trailing, 15)
                     }
                 }.frame(height: 38)
-                
                 .font(.system(size: CustomCellFontSize(), weight: .regular))
-                .foregroundColor(Color.black)
+                .foregroundColor(.black)
         }.frame(height: 38)
     }
 }
 
 
 extension SearchNavBar {
-    func customNavBarHeight() -> CGFloat {
-        var customHeight: CGFloat = 0
-        let screenHeight = UIScreen.main.bounds.height
-        if screenHeight > 690 {
-            customHeight = CGFloat(124)
-        } else {
-            customHeight = CGFloat(100)
-        }
-        return customHeight
-    }
-    
     func CustomCellFontSize() -> CGFloat {
+        let size = SizeObject()
         var customHeight: CGFloat = 0
-        let screenHeight = UIScreen.main.bounds.height
-        let screenWidth = UIScreen.main.bounds.width
-        if screenHeight > 900 {
-            customHeight = screenHeight / 70
+        if size.height > 900 {
+            customHeight = size.height / 70
         }
         else {
-            customHeight = screenWidth / 25
+            customHeight = size.width / 25
         }
         
         return customHeight

@@ -16,30 +16,37 @@ struct SchoolView: View {
                 SchoolMajor(school: school)
                 SocialMediaView(school: school)
             }
-        }.edgesIgnoringSafeArea(.vertical)
+        }
+        .ignoreEdges(edge: .vertical)
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(
-            leading: Button(action: {
-                self.presentationMode.wrappedValue.dismiss()
-            }) {
+            leading: Button(action: { dismiss() }) {
                 Image.chevronLight
-                    .shadow(color: Color.black, radius: 10, x: 0, y: 0)
-                    .shadow(color: Color.black, radius: 7, x: 0, y: 0)
-                    .foregroundColor(Color.white)
+                    .defaultShadow(color: .black, radius: 10)
+                    .defaultShadow(color: .black, radius: 7)
+                    .foregroundColor(.white)
                     .font(.regularTitle3)
                     .padding(.trailing, 30)
+                
             },
-            trailing: Button(action: { descriptionIsShown.toggle() }) {
-                HStack{
-                    Image.infoCircle.font(.regularTitle2)
-                }.shadow(color: Color.black, radius: 7, x: 0, y: 0)
-                .shadow(color: Color.black.opacity(0.5), radius: 3, x: 0, y: 0)
-                .foregroundColor(Color.white)
-                .font(.regularBody)
-                .padding(.leading, 30)
+            trailing: Button(action: { toAbout() }) {
+                Image.infoCircle
+                    .font(.regularTitle2)
+                    .defaultShadow(color: .black, radius: 7)
+                    .defaultShadow(color: Color.black.opacity(0.4), radius: 3)
+                    .foregroundColor(.white)
+                    .padding(.leading, 30)
             }.sheet(isPresented: $descriptionIsShown, content: {
                 SchoolAboutView(school: school)
             })
         )
+    }
+    
+    func toAbout() {
+        descriptionIsShown.toggle()
+    }
+    
+    func dismiss() {
+        self.presentationMode.wrappedValue.dismiss()
     }
 }

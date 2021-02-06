@@ -8,7 +8,7 @@ struct DegreeView: View {
     @State var isAscending = false
     var body: some View {
         ZStack{
-            Color.white.edgesIgnoringSafeArea(.all)
+            WhiteBackground()
             VStack(spacing: 0){
                 ScrollView{
                     ScrollView(.horizontal, showsIndicators: false){
@@ -18,9 +18,9 @@ struct DegreeView: View {
                                     selectedLevel = item.level
                                     navBarTitle = item.title
                                 }) {
-                                    Text(item.title.capitalizingFirstLetter())
-                                        .padding(.horizontal, 6)
-                                }.font(Font.callout.weight(selectedLevel == item.level ? .bold : .light))
+                                    Text(item.title.capitalizingFirstLetter()).padding(.horizontal, 6)
+                                }
+                                .font(selectedLevel == item.level ? .boldCallout : .lightCallout)
                                 .animation(.default)
                                 Divider()
                             }
@@ -39,7 +39,7 @@ struct DegreeView: View {
                 }
             }
         }
-        .navigationBarItems(trailing: Button(action: { isAscending.toggle() }) { Image.flip })
+        .navigationBarItems(trailing: Button(action: { order() }) { Image.flip })
         .navigationBarTitle(Text(navBarTitle), displayMode: .automatic)
     }
 }
@@ -119,14 +119,11 @@ extension DegreeView {
         if !searchText.isEmpty {
             majors = majors.filter({ $0.name.lowercased().contains(searchText.lowercased()) })
         }
-        if isAscending {
-            majors = majors.sorted(by: { $0.name > $1.name })
-        } else {
-            majors = majors.sorted(by: { $0.name < $1.name})
-        }
+        majors = isAscending ? majors.sorted(by: { $0.name > $1.name }) : majors.sorted(by: { $0.name < $1.name})
         return majors
     }
+    
+    func order() {
+        isAscending.toggle()
+    }
 }
-
-
-

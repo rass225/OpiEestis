@@ -17,8 +17,8 @@ struct MajorNavigationLink<Destination: View>: View  {
                     Spacer()
                     Image.chevronRight
                 }
-                Text(label)
-            }.foregroundColor(Color.black)
+                Text(label).font(.regularCallout)
+            }.foregroundColor(.black)
             .padding(.horizontal, 25)
             .frame(minHeight: 0, maxHeight: .infinity)
             .background(Color.whiteDim)
@@ -41,8 +41,8 @@ struct MajorButton: View  {
                 Spacer()
                 Image.chevronRight
             }
-            Text(label)
-        }.foregroundColor(Color.black)
+            Text(label).font(.regularCallout)
+        }.foregroundColor(.black)
         .padding(.horizontal, 25)
         .frame(minHeight: 0, maxHeight: .infinity)
         .background(Color.whiteDim)

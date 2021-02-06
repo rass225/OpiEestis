@@ -40,12 +40,16 @@ struct SchoolDescriptionView: View {
                     }.modifier(statCellModifier())
                 }
                 Spacer()
-                Menu(contact: school)
+                Menu(
+                    contact: school.contact,
+                    location: school.location,
+                    website: school.website,
+                    name: school.name
+                )
             }.padding(.top, 20)
             .background(Color.white)
             .cornerRadiusCustom(100, corners: .bottomLeft)
-        }.frame(height: UIScreen.main.bounds.height / 4.25)
-        
+        }
     }
 }
 

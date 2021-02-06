@@ -2,22 +2,21 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var navigationSelectionTag: Int? = 0
-    let logo = "Õpi Eestis logo"
-    let screenWidth = UIScreen.main.bounds.width
+    let size = SizeObject()
     var body: some View {
         NavigationView {
             ZStack{
                 NavigationLink(destination: AboutView(), tag: 1, selection: $navigationSelectionTag) { EmptyView() }
                 NavigationLink(destination: SchoolListView(), tag: 2, selection: $navigationSelectionTag) { EmptyView() }
-                LinearGradient.dimToWhiteGradient.edgesIgnoringSafeArea(.all)
+                WhiteBackground()
                 VStack{
                     Spacer()
-                    Image(logo)
+                    Image.appLogo
                         .resizable()
                         .scaledToFit()
                         .padding()
-                        .frame(width: screenWidth)
-                        .background(Color.whiteDim1)
+                        .frame(width: size.width)
+                        .background(Color.white)
                     Spacer()
                     Spacer()
                     VStack{
@@ -27,7 +26,7 @@ struct ContentView: View {
                                 Text("ülikoole")
                             }
                             .frame(width: 150, height: 150)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(.black)
                             .background(Color.whiteDim)
                             .cornerRadius(150)
                             .shadow(color: Color.black.opacity(0.2), radius: 7, x: 8, y: 8)
@@ -36,7 +35,7 @@ struct ContentView: View {
                         }
                         Spacer()
                     }
-                    .frame(maxWidth: .infinity, minHeight: 0, maxHeight: UIScreen.main.bounds.height / 2.5)
+                    .frame(maxWidth: .infinity, minHeight: 0, maxHeight: size.thirdHeight)
                     .padding(.bottom, 10)
                 }
             }
@@ -44,15 +43,12 @@ struct ContentView: View {
                 trailing:
                     HStack{
                         Button(action: { navigationSelectionTag = 1 }) {
-                            Image(systemName: "info.circle")
+                            Image.infoCircle
                                 .resizable()
                                 .frame(width: 25, height: 25)
                                 .font(.lightTitle)
-                                .foregroundColor(Color.black)
+                                .foregroundColor(.black)
                         }
-//                        NavigationLink(destination: DiscoveryView()) {
-//                                /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
-//                        }
                     })
         }
     }

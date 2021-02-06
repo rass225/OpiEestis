@@ -14,20 +14,22 @@ struct MajorView1: View {
                 MajorButtonsView(major: passedMajor)
                 Spacer()
             }.padding(.top, -40)
-            .edgesIgnoringSafeArea(.bottom)
+            .ignoreEdges(edge: .bottom)
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(
-            leading: Button(action: {
-                self.presentationMode.wrappedValue.dismiss()
-            }) {
+            leading: Button(action: { dismiss() }) {
                 Image.chevronLight
-                    .shadow(color: Color.black, radius: 10, x: 0, y: 0)
-                    .foregroundColor(Color.black)
+                    .defaultShadow(color: .black, radius: 10)
+                    .foregroundColor(.black)
                     .font(.regularTitle3)
                     .padding(.trailing, 30)
             }
         )
+    }
+    
+    func dismiss() {
+        self.presentationMode.wrappedValue.dismiss()
     }
 }
 //i love rasmus <3
