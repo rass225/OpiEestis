@@ -9,17 +9,12 @@ struct SchoolImage: View {
         ZStack{
             Image(school.image)
                 .resizable()
-                .overlay(SchoolNameOverlay(school: school), alignment: .bottomTrailing)
+                .overlay(drawOverlay(school: school), alignment: .bottomTrailing)
         }.frame(width: size.width, height: size.thirdHeight)
         .cornerRadiusCustom(90, corners: .bottomLeft)
     }
-}
-
-struct SchoolNameOverlay: View {
     
-    let school: School
-    
-    var body: some View {
+    @ViewBuilder private func drawOverlay(school: School) -> some View {
         VStack(alignment: .trailing, spacing: 10){
             Text(school.name)
                 .defaultShadow(color: .black, radius: 5)
@@ -33,5 +28,6 @@ struct SchoolNameOverlay: View {
         .foregroundColor(.white)
         .padding(.bottom, 20)
         .padding(.trailing, 20)
+        
     }
 }

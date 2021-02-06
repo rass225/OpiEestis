@@ -37,8 +37,7 @@ struct MailView: UIViewControllerRepresentable {
     }
 
     func makeCoordinator() -> Coordinator {
-        return Coordinator(presentation: presentation,
-                           result: $result)
+        return Coordinator(presentation: presentation, result: $result)
     }
 
     func makeUIViewController(context: UIViewControllerRepresentableContext<MailView>) -> MFMailComposeViewController {
@@ -51,10 +50,5 @@ struct MailView: UIViewControllerRepresentable {
 
     func updateUIViewController(_ uiViewController: MFMailComposeViewController,
                                 context: UIViewControllerRepresentableContext<MailView>) {
-
     }
-//    func emailExtract() -> ContactInfo {
-//        let emailAddress = email.contact
-//        return emailAddress
-//    }
 }

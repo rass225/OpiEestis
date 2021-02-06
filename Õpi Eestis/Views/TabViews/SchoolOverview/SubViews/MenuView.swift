@@ -15,21 +15,21 @@ struct Menu: View {
         ZStack{
             HStack(alignment: .center, spacing: 0){
                 Spacer()
-                MenuItem(
+                drawMenuItem(
                     image: .envelope,
                     action: {isShowingMailView.toggle()},
                     contextAction: { copy(string: contact.email) }
                 )
-                MenuItem(
+                drawMenuItem(
                     image: .phone,
                     action: { phoneAction() },
                     contextAction: { copy(string: contact.phonenumber) })
-                MenuItem(
+                drawMenuItem(
                     image: .map,
                     action: { mapsAction() },
                     contextAction: {copy(string: contact.address + ", " + location.city)}
                 )
-                MenuItem(
+                drawMenuItem(
                     image: .house,
                     action: { websiteAction() },
                     contextAction: { copy(string: website) }
@@ -40,9 +40,30 @@ struct Menu: View {
         }.disabled(!MFMailComposeViewController.canSendMail())
         .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: contact, name: name)}
     }
+    
+    @ViewBuilder private func drawMenuItem(image: String, action: @escaping () -> Void, contextAction: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            ZStack{
+                HStack{
+                    VStack{
+                        Image(systemName: image)
+                    }
+                    .frame(width: 35)
+                    .font(.lightTitle)
+                }
+            }.foregroundColor(Color.black)
+            .padding(.horizontal, 20)
+        }.contextMenu(menuItems: {
+            Button(action:  contextAction) {
+                Text.copy
+            }
+        })
+        
+    }
 }
 
 extension Menu {
+    
     func websiteAction() {
         guard let url = URL(string: website) else { return }
         UIApplication.shared.open(url)

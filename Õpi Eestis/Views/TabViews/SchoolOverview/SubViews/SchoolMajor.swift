@@ -1,10 +1,3 @@
-//
-//  SchoolMajor.swift
-//  Õpi Eestis
-//
-//  Created by Rasmus Tauts on 29.01.2021.
-//
-
 import SwiftUI
 
 struct SchoolMajor: View {
@@ -20,11 +13,11 @@ struct SchoolMajor: View {
                         VStack(alignment: .center, spacing: 20){
                             LabelledDivider2(label: "Erialad")
                             HStack(spacing: 10){
-                                LevelStat(label: "Kutseharidus", stat: getLevelStats().kutse)
-                                LevelStat(label: "Rakenduskõrgharidus", stat: getLevelStats().applied)
-                                LevelStat(label: "Bakalaureus", stat: getLevelStats().bachelor)
-                                LevelStat(label: "Magister", stat: getLevelStats().master)
-                                LevelStat(label: "Doktor", stat: getLevelStats().doctor)
+                                drawLevel(label: "Kutseharidus", stat: getLevelStats().kutse)
+                                drawLevel(label: "Rakenduskõrgharidus", stat: getLevelStats().applied)
+                                drawLevel(label: "Bakalaureus", stat: getLevelStats().bachelor)
+                                drawLevel(label: "Magister", stat: getLevelStats().master)
+                                drawLevel(label: "Doktor", stat: getLevelStats().doctor)
                             }
                             Spacer()
                         }.padding(.top, 40)
@@ -36,6 +29,15 @@ struct SchoolMajor: View {
             .foregroundColor(.black)
             .background(Color.whiteDim1)
             .cornerRadiusCustom(100, corners: .bottomLeft)
+        }
+    }
+    
+    @ViewBuilder private func drawLevel(label: String, stat: Int) -> some View {
+        if stat != 0 {
+            VStack(alignment: .center, spacing: 0){
+                Text("\(stat)").font(.boldCallout)
+                Text(label).font(.regularCaption)
+            }
         }
     }
 }
