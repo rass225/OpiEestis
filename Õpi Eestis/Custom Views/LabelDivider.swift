@@ -50,7 +50,7 @@ struct LabelledDivider2: View {
             line.padding(.trailing, horizontalPadding)
             Text(label)
                 .foregroundColor(color)
-                .font(.boldTitle)
+                .font(.semiBoldTitle3)
             line.padding(.leading, horizontalPadding)
         }
     }

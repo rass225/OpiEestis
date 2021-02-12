@@ -6,6 +6,7 @@ struct MajorButtonsView: View {
     
     var body: some View {
         VStack(spacing: 0){
+            
             Divider().background(Color.black)
             MajorNavigationLink(image: .doc, label: "Eriala kirjeldus", destination: { Description_View(major: major) })
             Divider()
@@ -19,10 +20,10 @@ struct MajorButtonsView: View {
         }
     }
     
-    @ViewBuilder private func drawButton(image: String, label: String) -> some View {
+    @ViewBuilder private func drawButton(image: Image, label: String) -> some View {
         ZStack{
             HStack{
-                Image(systemName: image)
+                image
                     .font(.lightTitle)
                     .frame(width: 35)
                     .padding(.trailing, 25)

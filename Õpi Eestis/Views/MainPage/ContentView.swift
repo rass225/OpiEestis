@@ -10,11 +10,9 @@ struct ContentView: View {
                 NavigationLink(destination: SchoolListView(), tag: 2, selection: $navigationSelectionTag) { EmptyView() }
                 WhiteBackground()
                 VStack{
-                    Spacer()
                     Image.appLogo
                         .resizable()
                         .scaledToFit()
-                        .padding()
                         .frame(width: size.width)
                         .background(Color.white)
                     Spacer()
@@ -27,11 +25,11 @@ struct ContentView: View {
                             }
                             .frame(width: 150, height: 150)
                             .foregroundColor(.black)
-                            .background(Color.whiteDim)
+                            .background(LinearGradient(gradient: Gradient(colors: [Color.whiteDim, Color.white]), startPoint: .topLeading, endPoint: .center))
                             .cornerRadius(150)
-                            .shadow(color: Color.black.opacity(0.2), radius: 7, x: 8, y: 8)
-                            .shadow(color: Color.white.opacity(1), radius: 7, x: -8, y: -8)
-                            .font(.regularCallout)
+                            .shadow(color: Color.black.opacity(0.15), radius: 4, x: 5, y: 5)
+                            .shadow(color: Color.white.opacity(1), radius: 10, x: -11, y: -11)
+                            .font(.regularBody)
                         }
                         Spacer()
                     }
@@ -39,13 +37,19 @@ struct ContentView: View {
                     .padding(.bottom, 10)
                 }
             }
-            .navigationBarItems(trailing:
+            .navigationBarItems(
+                leading: HStack{
+                    Image.appLogo
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40, height: 40)
+                    Text("Õpi Eestis")
+                },
+                trailing:
                     HStack{
                         Button(action: { navigationSelectionTag = 1 }) {
                             Image.infoCircle
-                                .resizable()
-                                .frame(width: 25, height: 25)
-                                .font(.lightTitle)
+                                .font(.regularTitle2)
                                 .foregroundColor(.black)
                         }
                     })

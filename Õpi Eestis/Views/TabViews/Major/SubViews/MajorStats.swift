@@ -36,8 +36,8 @@ struct MajorStats: View {
                     HStack(spacing: statSpacing){
                         StatImage(image: .clockFill)
                         Text(major.duration.isInt()
-                                ? "\(Int(major.duration))a"
-                                : "\(major.duration, specifier: "%.1f")a"
+                                ? "\(Int(major.duration)) aastat"
+                                : "\(major.duration, specifier: "%.1f") aastat"
                         )
                     }.modifier(statCellModifier())
                     Spacer()

@@ -5,11 +5,11 @@ struct SchoolMajor: View {
     let school: School
     
     var body: some View {
-        ZStack{
+        ZStack(alignment: .top){
             Color.white
             VStack{
                 NavigationLink(destination: DegreeView(school: school)) {
-                    ZStack{
+                    ZStack(alignment: .center){
                         VStack(alignment: .center, spacing: 20){
                             LabelledDivider2(label: "Erialad")
                             HStack(spacing: 10){
@@ -19,12 +19,11 @@ struct SchoolMajor: View {
                                 drawLevel(label: "Magister", stat: getLevelStats().master)
                                 drawLevel(label: "Doktor", stat: getLevelStats().doctor)
                             }
-                            Spacer()
-                        }.padding(.top, 40)
-                        Image.chevronRight
-                            .frame(maxWidth: .infinity, alignment: .trailing)
-                    }.frame(maxHeight: .infinity)
+                        }
+                        Image.chevronRight.frame(maxWidth: .infinity, alignment: .trailing)
+                    }
                 }.padding(.horizontal, 20)
+                .padding(.vertical, 30)
             }
             .foregroundColor(.black)
             .background(Color.whiteDim1)

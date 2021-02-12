@@ -41,15 +41,13 @@ struct Menu: View {
         .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: contact, name: name)}
     }
     
-    @ViewBuilder private func drawMenuItem(image: String, action: @escaping () -> Void, contextAction: @escaping () -> Void) -> some View {
+    @ViewBuilder private func drawMenuItem(image: Image, action: @escaping () -> Void, contextAction: @escaping () -> Void) -> some View {
         Button(action: action) {
             ZStack{
                 HStack{
-                    VStack{
-                        Image(systemName: image)
-                    }
-                    .frame(width: 35)
-                    .font(.lightTitle)
+                    image
+                        .frame(width: 35)
+                        .font(.lightTitle2)
                 }
             }.foregroundColor(Color.black)
             .padding(.horizontal, 20)
@@ -58,7 +56,6 @@ struct Menu: View {
                 Text.copy
             }
         })
-        
     }
 }
 
