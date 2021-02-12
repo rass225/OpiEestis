@@ -16,7 +16,7 @@ struct DegreeView: View {
                             ForEach(levels()) { item in
                                 Button(action: { didSelectLevel(level: item) }) {
                                     Text(item.title.capitalizingFirstLetter()).padding(.horizontal, 6)
-                                        .font(selectedLevel == item.level ? .boldCallout : .lightCallout)
+                                        .font(selectedLevel == item.level ? .semiboldCallout : .lightCallout)
                                         .animation(.default)
                                         .foregroundColor(Color.black)
                                 }

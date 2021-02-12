@@ -7,6 +7,9 @@ public extension Font {
     static let lightCallout = Font.callout.weight(.light)
     static let lightCaption = Font.caption.weight(.light)
     static let lightTitle = Font.title.weight(.light)
+    static let lightTitle2 = Font.title2.weight(.light)
+    static let lightTitle3 = Font.title3.weight(.light)
+    static let boldCaption = Font.caption.weight(.bold)
     static let boldCallout = Font.callout.weight(.bold)
     static let boldTitle = Font.title.weight(.bold)
     static let semiboldCallout = Font.callout.weight(.semibold)
@@ -14,6 +17,7 @@ public extension Font {
     static let regularTitle2 = Font.title2.weight(.regular)
     static let mediumTitle2 = Font.title2.weight(.medium)
     static let semiBoldTitle3 = Font.title3.weight(.semibold)
+//    static let boldCallout = Font.callout.weight(.bold)
     
 }
 

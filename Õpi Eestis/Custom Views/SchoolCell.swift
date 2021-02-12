@@ -17,11 +17,11 @@ struct SchoolCell: View {
                         .padding(.leading, 5)
                     VStack{
                         Text(school.name)
-                            .font(.regularBody)
+                            .font(Font.callout.weight(.medium))
                             .frame(maxWidth: .infinity, alignment: .leading)
                         Spacer()
                         Text(school.location.city + ", Eesti")
-                            .font(.regularCaption)
+                            .font(.lightCaption)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .foregroundColor(.black)
                         

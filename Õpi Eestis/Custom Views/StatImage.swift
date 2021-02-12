@@ -2,12 +2,12 @@ import SwiftUI
 
 struct StatImage: View {
     
-    let image: String
+    let image: Image
     var body: some View {
         VStack(alignment: .center){
-            Image(systemName: image)
+            image
                 .foregroundColor(.black)
-                .font(.regularCallout)
+                .font(.regularCaption)
         }
     }
 }

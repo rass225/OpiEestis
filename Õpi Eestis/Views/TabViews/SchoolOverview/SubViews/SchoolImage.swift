@@ -20,7 +20,7 @@ struct SchoolImage: View {
                 .defaultShadow(color: .black, radius: 5)
                 .font(.mediumTitle2)
             HStack{
-                Image(systemName: .locationFill)
+                Image.locationFill
                 Text(school.location.city).font(.regularBody)
             }.defaultShadow(color: .black, radius: 5)
         }
