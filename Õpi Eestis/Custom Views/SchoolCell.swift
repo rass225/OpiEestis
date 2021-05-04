@@ -36,8 +36,7 @@ struct SchoolCell: View {
             .foregroundColor(.black)
             .background(LinearGradient(gradient: index % 2 == 0 ? colors1 : colors2, startPoint: .center, endPoint: .trailing))
             .cornerRadiusCustom(100, corners: .bottomRight)
-        }
-        .background(index % 2 == 0 ? Color.whiteDim2 : .white)
+        }.background(index % 2 == 0 ? Color.whiteDim2 : .white)
     }
 }
 

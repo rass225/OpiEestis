@@ -3,66 +3,60 @@ import SwiftUI
 struct SchoolMajor: View {
     
     let school: School
-    
+    @ObservedObject var presenter = SchoolViewPresenter()
     var body: some View {
-        ZStack(alignment: .top){
-            Color.white
-            VStack{
-                NavigationLink(destination: DegreeView(school: school)) {
-                    ZStack(alignment: .center){
-                        VStack(alignment: .center, spacing: 20){
-                            LabelledDivider2(label: "Erialad")
-                            HStack(spacing: 10){
-                                drawLevel(label: "Kutseharidus", stat: getLevelStats().kutse)
-                                drawLevel(label: "Rakenduskõrgharidus", stat: getLevelStats().applied)
-                                drawLevel(label: "Bakalaureus", stat: getLevelStats().bachelor)
-                                drawLevel(label: "Magister", stat: getLevelStats().master)
-                                drawLevel(label: "Doktor", stat: getLevelStats().doctor)
+        ZStack{
+            NavigationLink(destination: DegreeView(school: school)) {
+                VStack{
+                    ZStack{
+                        HStack(spacing: 20){
+                            ZStack {
+                                ForEach(presenter.getLevelStats(school: school).indices) { index in
+                                    Circle()
+                                        .trim(from: index == 0 ? 0.0 : presenter.getLevelStats(school: school)[index-1].value/100, to: presenter.getLevelStats(school: school)[index].value/100)
+                                        .stroke(presenter.getLevelStats(school: school)[index].color, lineWidth: 10)
+                                }
+                                VStack{
+                                    Text("\(school.education.count)").font(.boldCallout)
+                                    Text("Eriala").font(.regularCaption)
+                                }
+                            }
+                            .padding(.leading)
+                            .frame(width: 90, height: 90)
+                            .padding(.trailing)
+                            VStack(alignment: .leading, spacing: 5){
+                                ForEach(presenter.getLevelStats(school: school)) { item in
+                                    if item.level != 0 {
+                                        HStack(alignment: .center, spacing: 10){
+                                            RoundedRectangle(cornerRadius: 25)
+                                                .fill(item.color)
+                                                .frame(width: 10, height: 10, alignment: .center)
+                                            Text("\(item.level)")
+                                                .font(.boldCallout)
+                                                .frame(width: 25, alignment: .leading)
+                                            Text(item.name)
+                                                .font(.regularCaption)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
+                                        }.foregroundColor(Color.black)
+                                    }
+                                }
                             }
                         }
-                        Image.chevronRight.frame(maxWidth: .infinity, alignment: .trailing)
+                        HStack{
+                            Spacer()
+                            Image.chevronRight
+                                .padding(.trailing, 10)
+                        }
                     }
-                }.padding(.horizontal, 20)
-                .padding(.vertical, 30)
+                    
+                }.padding(.vertical, 20)
             }
+            .padding(.leading)
+            .frame(maxWidth: .infinity)
             .foregroundColor(.black)
-            .background(Color.whiteDim1)
-            .cornerRadiusCustom(100, corners: .bottomLeft)
-        }
-    }
-    
-    @ViewBuilder private func drawLevel(label: String, stat: Int) -> some View {
-        if stat != 0 {
-            VStack(alignment: .center, spacing: 0){
-                Text("\(stat)").font(.boldCallout)
-                Text(label).font(.regularCaption)
-            }
+            .background(Color.white)
+            .cornerRadius(5)
+            .padding()
         }
     }
 }
-
-extension SchoolMajor{
-    
-    private struct LevelStats {
-        var bachelor: Int
-        var master: Int
-        var doctor: Int
-        var applied: Int
-        var kutse: Int
-    }
-    
-    private func getLevelStats() -> LevelStats {
-        let levelStats: LevelStats
-        let bachelor = school.education.filter{$0.level.rawValue == "bakalaureus" }.count
-        let master = school.education.filter{$0.level.rawValue == "magister" }.count
-        let intergrated = school.education.filter{$0.level.rawValue == "integreeritud õpe" }.count
-        let doctor = school.education.filter{$0.level.rawValue == "doktor" }.count
-        let kutse = school.education.filter{$0.level.rawValue == "kutseharidus" }.count
-        let applied = school.education.filter{$0.level.rawValue == "rakenduskõrgharidus" }.count
-        
-        levelStats = LevelStats(bachelor: bachelor, master: master + intergrated, doctor: doctor, applied: applied, kutse: kutse)
-        return levelStats
-    }
-}
-
-

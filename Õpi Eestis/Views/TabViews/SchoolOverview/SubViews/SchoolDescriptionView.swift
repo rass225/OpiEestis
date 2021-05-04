@@ -6,7 +6,6 @@ struct SchoolDescriptionView: View {
     
     var body: some View {
         ZStack{
-            Color.whiteDim1
             VStack{
                 LabelledDivider(label: school.logo).padding(.horizontal, 20)
                 HStack(spacing: 10){
@@ -39,7 +38,7 @@ struct SchoolDescriptionView: View {
                         }
                     }.modifier(statCellModifier())
                 }
-                Spacer()
+                
                 Menu(
                     contact: school.contact,
                     location: school.location,

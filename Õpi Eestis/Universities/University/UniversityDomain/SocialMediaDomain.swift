@@ -1,4 +1,4 @@
-struct SocialMedia: Hashable, Codable {//
+struct SocialMedia: Hashable, Codable {
     var website: String
     var link: String
 }

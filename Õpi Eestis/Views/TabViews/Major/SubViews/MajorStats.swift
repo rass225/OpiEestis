@@ -44,7 +44,7 @@ struct MajorStats: View {
                     
                 }.padding(.horizontal, 12)
                 HStack(spacing: 0){
-                    if major.cost == "0€" || major.spots != 0 {
+                    if sidePadding() {
                         Spacer()
                     }
                     HStack(spacing: statSpacing){
@@ -67,11 +67,19 @@ struct MajorStats: View {
                         StatImage(image: .euroFill)
                         Text(major.cost)
                     }.modifier(statCellModifier())
-                    if major.cost == "0€" || major.spots != 0 {
+                    if sidePadding() {
                         Spacer()
                     }
                 }
             }
         }.padding(.bottom, 30)
+    }
+    
+    func sidePadding() -> Bool {
+        if major.cost == "0€" || major.spots != 0 {
+            return true
+        } else {
+            return false
+        }
     }
 }

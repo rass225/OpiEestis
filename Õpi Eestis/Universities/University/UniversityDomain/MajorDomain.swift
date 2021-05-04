@@ -1,5 +1,5 @@
 import Foundation
-import SwiftUI
+
 struct majorsMinors: Hashable, Codable, Identifiable {
     var id = UUID()
     var name: String

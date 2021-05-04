@@ -1,24 +1,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var navigationSelectionTag: Int? = 0
-    let size = SizeObject()
+    @ObservedObject var presenter = ContentViewPresenter()
+    
     var body: some View {
         NavigationView {
             ZStack{
-                NavigationLink(destination: AboutView(), tag: 1, selection: $navigationSelectionTag) { EmptyView() }
-                NavigationLink(destination: SchoolListView(), tag: 2, selection: $navigationSelectionTag) { EmptyView() }
                 WhiteBackground()
                 VStack{
                     Image.appLogo
                         .resizable()
                         .scaledToFit()
-                        .frame(width: size.width)
+                        .frame(width: presenter.size.width)
                         .background(Color.white)
                     Spacer()
                     Spacer()
                     VStack{
-                        Button(action: { navigationSelectionTag = 2 }) {
+                        NavigationLink(destination: presenter.navigateToSchoolList()) {
                             VStack{
                                 Text("Vaata").padding(.bottom, 2)
                                 Text("ülikoole")
@@ -33,7 +31,7 @@ struct ContentView: View {
                         }
                         Spacer()
                     }
-                    .frame(maxWidth: .infinity, minHeight: 0, maxHeight: size.thirdHeight)
+                    .frame(maxWidth: .infinity, minHeight: 0, maxHeight: presenter.size.thirdHeight)
                     .padding(.bottom, 10)
                 }
             }
@@ -46,13 +44,11 @@ struct ContentView: View {
                     Text("Õpi Eestis")
                 },
                 trailing:
-                    HStack{
-                        Button(action: { navigationSelectionTag = 1 }) {
-                            Image.infoCircle
-                                .font(.regularTitle2)
-                                .foregroundColor(.black)
-                        }
-                    })
+                    NavigationLink(destination: presenter.navigateToAbout()) {
+                        Image.infoCircle
+                            .font(.regularTitle2)
+                            .foregroundColor(.black)
+                })
         }
     }
 }
