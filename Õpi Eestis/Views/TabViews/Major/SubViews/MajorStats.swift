@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MajorStats: View {
-    
+    @EnvironmentObject var theme: Theme
     @State var major: majorsMinors
     @State var school: School
     let statSpacing: CGFloat = 2
@@ -11,7 +11,8 @@ struct MajorStats: View {
             
             VStack(spacing: 3){
                 Text(major.name).font(.semiBoldTitle3)
-                Text(major.level.rawValue.capitalizingFirstLetter()).font(.lightCaption)
+                Text(major.level.rawValue.capitalizingFirstLetter()).font(.semiboldCallout)
+                    .foregroundColor(theme.colorTheme)
             }
             LabelledDivider(label: school.logo)
                 .padding(.horizontal, 20)
@@ -73,6 +74,9 @@ struct MajorStats: View {
                 }
             }
         }.padding(.bottom, 30)
+        .background(Color.white)
+        .cornerRadiusCustom(50, corners: [.bottomLeft, .bottomRight])
+        .padding(.bottom, 20)
     }
     
     func sidePadding() -> Bool {

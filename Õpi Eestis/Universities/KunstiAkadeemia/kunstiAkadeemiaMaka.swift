@@ -16,7 +16,44 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Filmiajalugu", eapCount: 3),
+                    Course(name: "Erialaprojekti arendus", eapCount: 6),
+                    Course(name: "Karikatuur", eapCount: 3),
+                    Course(name: "Filmi idee ja storyboard", eapCount: 6),
+                    Course(name: "Meistriklass", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Helikujundus", eapCount: 3),
+                    Course(name: "Filmidramaturgia analüüs", eapCount: 3),
+                    Course(name: "Animatsiooni ajalugu", eapCount: 4),
+                    Course(name: "Filmimuusika", eapCount: 3),
+                    Course(name: "Erialaprojekt 1", eapCount: 8)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Interaktiivne meedia", eapCount: 3),
+                    Course(name: "Erialaprojekt 2", eapCount: 11),
+                    Course(name: "Kaasaegse animatsiooni tehnikad", eapCount: 4),
+                    Course(name: "Meistriklass", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Disaini ja Tehnoloogia Tulevik",
@@ -36,7 +73,51 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemeste",
+                courses: [
+                    Course(name: "Inimkeskne disain", eapCount: 6),
+                    Course(name: "Ettevõtlus ja äri planeerimine", eapCount: 6),
+                    Course(name: "Disaini stuudio 1: isiklik", eapCount: 12),
+                    Course(name: "Tootmistehnika - planeerimine ja kontroll", eapCount: 6),
+                    Course(name: "Tehnoloogilis-majanduslikud paradigmad ja tehnoloogilised muutused", eapCount: 6),
+                    Course(name: "Tehnoloogia, ühiskond ja tulevik", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Korporatiivne ettevõtlus ja disain", eapCount: 6),
+                    Course(name: "Disaini stuudio 2: kontekst", eapCount: 6),
+                    Course(name: "Teenusesüsteemide disain", eapCount: 6),
+                    Course(name: "Tootmise digitaliseerimine", eapCount: 6),
+                    Course(name: "Sotsiaalne ettevõtlus", eapCount: 6),
+                    Course(name: "Ettevõtte loomine", eapCount: 6),
+                    Course(name: "Cultural Theory and Visual Literacy", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Disaini Stuudio 3: süsteem", eapCount: 12),
+                    Course(name: "Magistritöö seminar", eapCount: 6),
+                    Course(name: "Samaaegne tootearendus", eapCount: 6),
+                    Course(name: "Inseneriõppe põhialused", eapCount: 6),
+                    Course(name: "Asjade internet tööstusele", eapCount: 6),
+                    Course(name: "Kestlikkusele suunatud disain", eapCount: 6),
+                    Course(name: "Problems of 20th and 21st Century Design", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 23),
+                    Course(name: "Vabaained", eapCount: 6)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Disain ja Rakenduskunst",
@@ -55,7 +136,54 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Loomeettevõtlus", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 1", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi disaini probleeme 1*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi kunsti probleeme 1*", eapCount: 3),
+                    Course(name: "Arhitektuuriteooria ajalugu 1*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi disaini probleeme 2*", eapCount: 3),
+                    Course(name: "Valikaine*", eapCount: 3),
+                    Course(name: "Stuudio 1", eapCount: 3),
+                    Course(name: "Disaini ja rakenduskunsti seminar 1", eapCount: 3),
+                    Course(name: "Projekt 1", eapCount: 6),
+                    Course(name: "Projekt 2", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Arhitektuuriteooria ajalugu 2*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 2", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi kunsti probleeme 2*", eapCount: 3),
+                    Course(name: "Valikaine*", eapCount: 6),
+                    Course(name: "Stuudio 2", eapCount: 3),
+                    Course(name: "Projekt 3", eapCount: 6),
+                    Course(name: "Praktika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Valikaine*", eapCount: 3),
+                    Course(name: "Magistriprojekt (Stuudio 3)", eapCount: 3),
+                    Course(name: "Disaini ja rakenduskunsti seminar 2", eapCount: 3),
+                    Course(name: "Projekt 4", eapCount: 6),
+                    Course(name: "Projekt 5", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Disain ja Rakenduskunst",
@@ -74,7 +202,44 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Valikaine*", eapCount: 3),
+                    Course(name: "Stuudio 1", eapCount: 3),
+                    Course(name: "Disaini ja rakenduskunsti seminar 1", eapCount: 3),
+                    Course(name: "Projekt 1", eapCount: 6),
+                    Course(name: "Projekt 2", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Valikaine*", eapCount: 6),
+                    Course(name: "Stuudio 2", eapCount: 3),
+                    Course(name: "Projekt 3", eapCount: 6),
+                    Course(name: "Praktika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Disaini ja rakenduskunsti seminar 2", eapCount: 3),
+                    Course(name: "Magistriprojekt (Stuudio 3)", eapCount: 3),
+                    Course(name: "Projekt 4", eapCount: 6),
+                    Course(name: "Projekt 5", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Graafiline Disain",
@@ -93,7 +258,46 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Töötuba 1", eapCount: 3),
+                    Course(name: "Stuudio 1", eapCount: 9),
+                    Course(name: "Töötuba 2", eapCount: 3),
+                    Course(name: "Külaliskriitik 1", eapCount: 3),
+                    Course(name: "Teooria & Praktika 1", eapCount: 3),
+                    Course(name: "Disain & Kontekst 1", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Külaliskriitik 2", eapCount: 3),
+                    Course(name: "Teooria & Praktika 2", eapCount: 3),
+                    Course(name: "Disain & Kontekst 2", eapCount: 3),
+                    Course(name: "Disain & Kontekst 2", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Külaliskriitik 3", eapCount: 3),
+                    Course(name: "Töötuba 3", eapCount: 3),
+                    Course(name: "Disain & Kontekst 3", eapCount: 3),
+                    Course(name: "Magistriprojekt (Stuudio 3)", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Interaktsiooni­disain",
@@ -112,7 +316,49 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "1250€/semester"
+        cost: "1250€/semester",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Estonian culture at the crossroads 1", eapCount: 3),
+                    Course(name: "Problems of 20th-21st Century Philosophy", eapCount: 3),
+                    Course(name: "Academic Writing", eapCount: 3),
+                    Course(name: "Disainiantropoloogia", eapCount: 3),
+                    Course(name: "Erialaprojekt: Teenusedisain", eapCount: 9),
+                    Course(name: "Erialaprojekt: Sissejuhatus inimkesksesse interaktsioonidisaini", eapCount: 6),
+                    Course(name: "Visuaalne interaktsioonidisain", eapCount: 3),
+                    Course(name: "Praktika: Loojutustamine disainis", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Estonian Culture at the Crossroads 2", eapCount: 3),
+                    Course(name: "Digitaalse portfoolio arendus", eapCount: 3),
+                    Course(name: "Praktiline äridisain", eapCount: 3),
+                    Course(name: "Disainiajalugu ja -teooria", eapCount: 3),
+                    Course(name: "Emotsioonidisain", eapCount: 6),
+                    Course(name: "Erialaprojekt: Digitaalse toote arendamine ja disain", eapCount: 9),
+                    Course(name: "Praktika: Füüsiline interaktsioonidisain", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Psühholoogia disaineritele", eapCount: 3),
+                    Course(name: "Erialaprojekt: Disain arenevatele valdkondadele", eapCount: 6),
+                    Course(name: "Praktika: Disain sotsiaalse innovatsiooni heaks", eapCount: 9),
+                    Course(name: "Magistriseminar", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Kaasaegne Kunst",
@@ -131,7 +377,42 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Kunstipraktika 1", eapCount: 15),
+                    Course(name: "Meistriklass", eapCount: 3),
+                    Course(name: "Grupikriitika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Research Methods", eapCount: 3),
+                    Course(name: "Kunstipraktika 2", eapCount: 15),
+                    Course(name: "Kaasaegse kunsti teoreetiline kontekst", eapCount: 3),
+                    Course(name: "Meistriklass", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Loomeettevõtlus", eapCount: 3),
+                    Course(name: "Kunstipraktika 3", eapCount: 15),
+                    Course(name: "Meistriklass", eapCount: 3),
+                    Course(name: "Kuraatoriprojekt", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Kaasaegne Kunst",
@@ -150,7 +431,42 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Academic Writing", eapCount: 3),
+                    Course(name: "Kunstipraktika 1", eapCount: 15),
+                    Course(name: "Meistriklass", eapCount: 3),
+                    Course(name: "Grupikriitika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Research Methods", eapCount: 3),
+                    Course(name: "Kunstipraktika 2", eapCount: 15),
+                    Course(name: "Kaasaegse kunsti teoreetiline kontekst", eapCount: 3),
+                    Course(name: "Meistriklass", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Creative Industries", eapCount: 3),
+                    Course(name: "Kunstipraktika 3", eapCount: 15),
+                    Course(name: "Meistriklass", eapCount: 3),
+                    Course(name: "Kuraatoriprojekt", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Kunstiõpetaja",
@@ -169,7 +485,59 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Kunstiõpetuse didaktika 1", eapCount: 4),
+                    Course(name: "Muuseumiõppe didaktika", eapCount: 4),
+                    Course(name: "Õpetajakoolituse praktika 1", eapCount: 3),
+                    Course(name: "Üldhariduskooli vaatluspraktika", eapCount: 3),
+                    Course(name: "Loominguline projekt 1*", eapCount: 3),
+                    Course(name: "Digitaalsed tehnoloogiad kunstiõpetuses*", eapCount: 3),
+                    Course(name: "Arengu ja õppimise toetamine", eapCount: 6),
+                    Course(name: "Õppimise emotsionaalsed ja sotsiaalsed aspektid", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Kunstiõpetuse didaktika 2", eapCount: 5),
+                    Course(name: "Õpetajakoolituse praktika 2", eapCount: 3),
+                    Course(name: "Muuseumiõppe praktika", eapCount: 3),
+                    Course(name: "20. sajandi kunstiteooriad*", eapCount: 3),
+                    Course(name: "Loominguline projekt 3*", eapCount: 3),
+                    Course(name: "Loominguline koostööprojekt*", eapCount: 3),
+                    Course(name: "Visuaalkultuur ja kommunikatsioon", eapCount: 4),
+                    Course(name: "Jätkusuutlikkuse käsitlusviise kunsti- ja disainiõpetuses*", eapCount: 3),
+                    Course(name: "Õppe diferentseerimine", eapCount: 6),
+                    Course(name: "Õpetaja ja õpilane õppijatena koolis ja ühiskonnas", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Kunstiteose analüüsi ja kunstiajaloo didaktika", eapCount: 4),
+                    Course(name: "Disaini- ja ruumiõppe didaktika", eapCount: 4),
+                    Course(name: "Kunstihariduse uurimistöö alused", eapCount: 4),
+                    Course(name: "Põhipraktika 1 (üldhariduskoolis)", eapCount: 3),
+                    Course(name: "Kunstikooli praktika", eapCount: 3),
+                    Course(name: "Kunstididaktika praktikum", eapCount: 3),
+                    Course(name: "Loominguline projekt 2", eapCount: 3),
+                    Course(name: "Disaini- ja ruumiõppe töötoad", eapCount: 4),
+                    Course(name: "Vabaainete maht semestris - 2 EAP", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Magistriseminar", eapCount: 4),
+                    Course(name: "Magistritöö", eapCount: 18),
+                    Course(name: "Põhipraktika 2 (üldhariduskoolis)", eapCount: 6)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Kunstiteadus ja Visuaalkultuur",
@@ -188,7 +556,72 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi disaini probleeme 2*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 1", eapCount: 3),
+                    Course(name: "Loomeettevõtlus*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi disaini probleeme 1*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi kunsti probleeme 1*", eapCount: 3),
+                    Course(name: "Erikursus: Mõis - Balti ajaloo fenomen: transdistsiplinaarseid vaatenurki*", eapCount: 3),
+                    Course(name: "Kunstimaailm ja kuraatorlus 1*", eapCount: 6),
+                    Course(name: "Kunstimuuseumide ajalugu ja teooria*", eapCount: 6),
+                    Course(name: "Kunstiteaduse ajalugu ja teooria", eapCount: 9),
+                    Course(name: "Meistrikursus: Kunst ja avalik ruum*", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Arhitektuuriteooria ajalugu 2*", eapCount: 3),
+                    Course(name: "Projektikirjutamise põhimõtted*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 2", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi kunsti probleeme 2*", eapCount: 3),
+                    Course(name: "Kunstisotsioloogia (uurimismeetodid 2)", eapCount: 3),
+                    Course(name: "Kriitilise teooria ja visuaalkultuuri võtmemõisted", eapCount: 6),
+                    Course(name: "Erikursus: Mõis - Balti ajaloo fenomen: transdistsiplinaarseid vaatenurki*", eapCount: 3),
+                    Course(name: "Hans-Georg Gadameri esteetika eesti kunstimaastikul*", eapCount: 3),
+                    Course(name: "Meistrikursus: Kunst, teadus ja ökoloogia - eksperimentaalsed keskkonnad hilisel nõukogude ajal*", eapCount: 6),
+                    Course(name: "Erikursus: Muuseumi- ja galeriiharidus*", eapCount: 3),
+                    Course(name: "Kriitikaseminar", eapCount: 6),
+                    Course(name: "Kriitilise teooria seminar", eapCount: 6),
+                    Course(name: "Kunstimaailm ja kuraatorlus 2", eapCount: 6),
+                    Course(name: "Erikursus: Välispraktika*", eapCount: 3),
+                    Course(name: "Kuraatoriõppe seminar 1", eapCount: 3),
+                    Course(name: "Muuseumiharidus ja -kommunikatsioon", eapCount: 6),
+                    Course(name: "Muuseumi kogud ja säilituspraktikad", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Semiootika (uurimismeetodid 1)", eapCount: 3),
+                    Course(name: "Toimetajapraktika", eapCount: 6),
+                    Course(name: "Kunstiteaduse seminar", eapCount: 6),
+                    Course(name: "Näituse kujundamise ja tehnilise teostamise põhimõtted", eapCount: 3),
+                    Course(name: "Galeristiõpe", eapCount: 6),
+                    Course(name: "Kuraatoriõppe seminar 2", eapCount: 3),
+                    Course(name: "Näituseprojekt", eapCount: 6),
+                    Course(name: "Muuseumipraktika", eapCount: 6),
+                    Course(name: "Museoloogia seminar", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Arhitektuuriteooria ajalugu 1*", eapCount: 3),
+                    Course(name: "Magistriprojekt", eapCount: 6),
+                    Course(name: "Näituse kujundamise ja tehnilise teostamise põhimõtted", eapCount: 3),
+                    Course(name: "Galeristiõpe", eapCount: 6),
+                    Course(name: "Kuraatoriõppe seminar 2", eapCount: 3),
+                    Course(name: "Näituseprojekt", eapCount: 6),
+                    Course(name: "Magistritöö", eapCount: 24)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Muinsuskaitse ja Konserveerimine",
@@ -207,7 +640,92 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi disaini probleeme 1*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi kunsti probleeme 1*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi disaini probleeme 2*", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 1", eapCount: 3),
+                    Course(name: "Erialaprojekt 1", eapCount: 2),
+                    Course(name: "Muinsuskaitse ajalugu ja teooria 1", eapCount: 2),
+                    Course(name: "Eesti muinsuskaitse ajalugu", eapCount: 2),
+                    Course(name: "Arhitektuuri konserveerimine: Ajaloolised materjalid ja restaureerimistehnoloogiad 2", eapCount: 2),
+                    Course(name: "Arhitektuuri konserveerimine: Allikad ja uurimine", eapCount: 3),
+                    Course(name: "Arhitektuursete sõlmede koostamine mälestisel*", eapCount: 1),
+                    Course(name: "Ehitiste restaureerimise insenerlikud aspektid", eapCount: 4),
+                    Course(name: "Pärandi kiirabi – kultuuripärandi kaitsmine kriisides*", eapCount: 2),
+                    Course(name: "Pildilise pärandi digitaalne elu, ühisloome. Keskkonna refotograafiline dokumenteerimine*", eapCount: 2),
+                    Course(name: "Kunstimuuseumide ajalugu ja teooria*", eapCount: 6),
+                    Course(name: "Arhitektuuri konserveerimine: Ajaloolised materjalid ja restaureerimistehnoloogiad 1*", eapCount: 3),
+                    Course(name: "Arhitektuuri konserveerimine: Ajalooliste hoonete ja hoonestusalade projekteerimine ja planeerimine*", eapCount: 3),
+                    Course(name: "Mälestis ja keskkond 1*", eapCount: 2),
+                    Course(name: "Erialaprojekt 3*", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 2", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi kunsti probleeme 2*", eapCount: 3),
+                    Course(name: "Arhitektuuriteooria ajalugu 2*", eapCount: 3),
+                    Course(name: "Muinsuskaitse ajalugu ja teooria 2", eapCount: 2),
+                    Course(name: "Arhitektuuri konserveerimine: Ajaloolised materjalid ja restaureerimistehnoloogiad 2", eapCount: 2),
+                    Course(name: "Linnaruumi restaureerimine", eapCount: 3),
+                    Course(name: "Arhitektuuri konserveerimine: Keskkond ja arhitektuur", eapCount: 1),
+                    Course(name: "Arhitektuuri konserveerimine: Praktilised töövõtted restaureerimises", eapCount: 2),
+                    Course(name: "Arhitektuursete sõlmede koostamine mälestisel*", eapCount: 1),
+                    Course(name: "Arhitektuuri konserveerimine: Ajaloolise hoone restaureerimisproblemaatika", eapCount: 4),
+                    Course(name: "Arhitektuuri konserveerimine: Muinsuskaitseline järelevalve", eapCount: 2),
+                    Course(name: "Ajaloolise hoone uuringud 1", eapCount: 1),
+                    Course(name: "Hüljatud maastikud 1", eapCount: 3),
+                    Course(name: "Pildiline pärand ja digitaalne talgutöö Ajapaiga näitel*", eapCount: 1),
+                    Course(name: "Arhitektuuri konserveerimine: Ajaloolised interjöörid*", eapCount: 2),
+                    Course(name: "Hüljatud maastikud 2*", eapCount: 3),
+                    Course(name: "Erialaprojekt 5: Kuusalu kiriku uurimispraktika*", eapCount: 2),
+                    Course(name: "Erialaprojekt 4: Pärandi avariitööd – Narva-Jõesuu kunstivara päästmine*", eapCount: 2),
+                    Course(name: "Muuseumiharidus ja -kommunikatsioon*", eapCount: 6),
+                    Course(name: "Väliskunsti ajaloo praktika*", eapCount: 2),
+                    Course(name: "Muuseumi kogud ja säilituspraktikad*", eapCount: 6),
+                    Course(name: "Erialaprojekt 6*", eapCount: 2),
+                    Course(name: "Magistriseminar", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Arhitektuuriteooria ajalugu 1*", eapCount: 3),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Loomeettevõtlus", eapCount: 3),
+                    Course(name: "Erialaprojekt 2", eapCount: 2),
+                    Course(name: "Muinsuskaitse õiguslikud alused", eapCount: 2),
+                    Course(name: "Füüsikalis-keemilised uurimismeetodid restaureerimises", eapCount: 1),
+                    Course(name: "Muinsuskaitselise järelevalve praktika", eapCount: 2),
+                    Course(name: "Sõlmelahendused restaureerimisprojektis", eapCount: 3),
+                    Course(name: "Ajaloolise hoone uuringud 2", eapCount: 3),
+                    Course(name: "Erialaprojekt 7*", eapCount: 2),
+                    Course(name: "Museoloogia seminar*", eapCount: 6),
+                    Course(name: "Ehitiste restaureerimise insenerlikud aspektid*", eapCount: 4),
+                    Course(name: "Muuseumipraktika*", eapCount: 6),
+                    Course(name: "Mälestis ja keskkond 2*", eapCount: 2),
+                    Course(name: "Erialaprojekt 8*", eapCount: 2),
+                    Course(name: "Eesti keskaja arhitektuuri ja kunsti restaureerimine*", eapCount: 2),
+                    Course(name: "Näituseprojekt*", eapCount: 6),
+                    Course(name: "Magistrikonverents", eapCount: 3),
+                    Course(name: "Magistritöö projekt", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialaprojekt 9*", eapCount: 2),
+                    Course(name: "Erialaprojekt 10*", eapCount: 2),
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Sisearhitektuur",
@@ -226,7 +744,55 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 1", eapCount: 3),
+                    Course(name: "Arhitektuuriteooria ajalugu 1", eapCount: 3),
+                    Course(name: "Ruumisemiootika", eapCount: 3),
+                    Course(name: "Loovuurimus*", eapCount: 4),
+                    Course(name: "Keskkonnapsühholoogia", eapCount: 2),
+                    Course(name: "Arendamise suund 1*", eapCount: 4),
+                    Course(name: "Magistristuudio 1", eapCount: 6),
+                    Course(name: "Ruumikunst", eapCount: 2),
+                    Course(name: "Presenteerimise meetodid 1", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 2", eapCount: 3),
+                    Course(name: "Arhitektuuriteooria ajalugu 2", eapCount: 3),
+                    Course(name: "Kaasaegse arhitektuuri tekstid", eapCount: 2),
+                    Course(name: "Eetiline ruum", eapCount: 2),
+                    Course(name: "Tehnoloogiline ruum", eapCount: 2),
+                    Course(name: "Kohaspetsiifiline ehitus", eapCount: 3),
+                    Course(name: "Magistristuudio 2", eapCount: 6),
+                    Course(name: "Arendamise suund 2", eapCount: 4),
+                    Course(name: "Presenteerimise meetodid 2", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Loomeettevõtlus", eapCount: 3),
+                    Course(name: "Magistriprojekt 2", eapCount: 5),
+                    Course(name: "Magistriprojekt 3", eapCount: 5),
+                    Course(name: "Magistriprojekt 4", eapCount: 5),
+                    Course(name: "Magistriprojekt 1", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Välitööd", eapCount: 2),
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Stsenograafia",
@@ -264,7 +830,49 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi disaini probleeme 2*", eapCount: 3),
+                    Course(name: "Loomeettevõtlus", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 1", eapCount: 3),
+                    Course(name: "20. ja 21. sajandi disaini probleeme 1*", eapCount: 3),
+                    Course(name: "Arhitektuuriteooria ajalugu 1*", eapCount: 3),
+                    Course(name: "Valikaine*", eapCount: 3),
+                    Course(name: "Eksperimentaalne vorm ja süsteem 1", eapCount: 6),
+                    Course(name: "Eksperimentaalne vorm ja süsteem 2", eapCount: 6),
+                    Course(name: "Magistritöö seminar 1", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "20. ja 21. sajandi filosoofia probleeme 2", eapCount: 3),
+                    Course(name: "Arhitektuuriteooria ajalugu 2*", eapCount: 3),
+                    Course(name: "Valikaine*", eapCount: 6),
+                    Course(name: "Aktivism ja muutuste prototüüpimine 1", eapCount: 6),
+                    Course(name: "Aktivism ja muutuste prototüüpimine 2", eapCount: 6),
+                    Course(name: "Magistritöö seminar 2", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Valikaine*", eapCount: 3),
+                    Course(name: "Toote-teenuse-süsteemid 1", eapCount: 6),
+                    Course(name: "Toote-teenuse-süsteemid 2", eapCount: 6),
+                    Course(name: "Praktika", eapCount: 6),
+                    Course(name: "Magistritöö seminar 3", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [Course(name: "Magistritöö", eapCount: 30)]
+            )
+        ]
     ),
     majorsMinors(
         name: "Urbanistika",
@@ -283,6 +891,47 @@ let kunstiAkadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "O€"
+        cost: "O€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Debatid linnaplaneerimises", eapCount: 2),
+                    Course(name: "Linnageograafia", eapCount: 2),
+                    Course(name: "Linna ajalugu ja teooria 1", eapCount: 6),
+                    Course(name: "Joonistamine (Sissejuhatus)", eapCount: 1),
+                    Course(name: "Arvutitarkvara (Sissejuhatus)", eapCount: 1),
+                    Course(name: "Stuudio 1: Linnastumine", eapCount: 8),
+                    Course(name: "Kunst ja linn", eapCount: 4),
+                    Course(name: "Mudeliloome (Sissejuhatus)", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Linnaturism ja tarbimine", eapCount: 2),
+                    Course(name: "Linna ajalugu ja teooria 2", eapCount: 3),
+                    Course(name: "Elamuehitus: disain ja poliitika", eapCount: 3),
+                    Course(name: "Etnograafia", eapCount: 4),
+                    Course(name: "Linna mudelid", eapCount: 4),
+                    Course(name: "Stuudio 2: Linnalised tulevikud", eapCount: 8)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Magistritöö lugemisseminar", eapCount: 5),
+                    Course(name: "Linna väljakutsed", eapCount: 2),
+                    Course(name: "Linnaplaneerimine", eapCount: 8),
+                    Course(name: "Stuudio 3: Linnaruum", eapCount: 8),
+                    Course(name: "Praktika", eapCount: 1),
+                    Course(name: "Linnavaatlus", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [Course(name: "Magistritöö", eapCount: 30)]
+            )
+        ]
     ),
 ]

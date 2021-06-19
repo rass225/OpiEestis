@@ -18,7 +18,87 @@ let sisekaitseAkadeemiaRaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Siseturvalisus ja kiirreageerimine", eapCount: 4),
+                    Course(name: "Õiguse õpetus", eapCount: 8),
+                    Course(name: "Kirjalik ja suuline eneseväljendamine", eapCount: 4),
+                    Course(name: "Enese ja teiste juhtimine ning sotsiaalne kompetentsus", eapCount: 4),
+                    Course(name: "Üldõpingute valikmoodul ", eapCount: 10)
+                ]
+            ),
+            Module(
+                module: "Erialaõpingud",
+                courses: [
+                    Course(name: "Ettevõtluskeskkond", eapCount: 7),
+                    Course(name: "Ettevõtlustegevuse nõustamine", eapCount: 20)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Keeleõppe moodul",
+                        courses: [
+                            Course(name: "Erialane eesti keel", eapCount: 3),
+                            Course(name: "Erialane vene keel", eapCount: 3),
+                            Course(name: "Erialane inglise keel", eapCount: 3),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maksu- ja tollinõustamine",
+                        courses: [
+                            Course(name: "Maksu- ja tollinõustamine I", eapCount: 10),
+                            Course(name: "Maksu- ja tollinõustamine II", eapCount: 10)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maksud ja maksustamine",
+                        courses: [
+                            Course(name: "Maksud ja maksustamine I", eapCount: 11),
+                            Course(name: "Maksud ja maksustamine II", eapCount: 10),
+                            Course(name: "Maksud ja maksustamine III", eapCount: 4),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Praktikad",
+                        courses: [
+                            Course(name: "Tutvumispraktika", eapCount: 3),
+                            Course(name: "Ettevõtluspraktika", eapCount: 10),
+                            Course(name: "Ametipraktika", eapCount: 17)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Süvaõppesuunad",
+                courses: [
+                    Course(name: "Maksujärelvalve", eapCount: 23),
+                    Course(name: "Tollijärelvalve", eapCount: 23)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Erialaste valikainete moodul",
+                        courses: [
+                            Course(name: "Maksuõiguse aktuaalsed probleemid ", eapCount: 3),
+                            Course(name: "Tolliõiguse aktuaalsed probleemid (inglise keeles) ", eapCount: 3),
+                            Course(name: "Euroopa Liidu rahandus (inglise keeles", eapCount: 3),
+                            Course(name: "Rahvusvaheline koostöö ", eapCount: 3),
+                            Course(name: "Sissejuhatus erialasesse vene keelde", eapCount: 2),
+                            Course(name: "Maksualaste süütegude menetlemine kohtupraktikas ", eapCount: 3),
+                            Course(name: "Praktika välisriigis ", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Lõputöö moodul",
+                        courses: [
+                            Course(name: "Teadustöö metodoloogia", eapCount: 3),
+                            Course(name: "Lõputöö", eapCount: 8)
+                        ]
+                    )
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Korrektsioon",
@@ -39,7 +119,60 @@ let sisekaitseAkadeemiaRaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpingud",
+                courses: [
+                    Course(name: "Siseturvalisus ja kriisireguleerimine", eapCount: 4),
+                    Course(name: "Õiguse õpetus", eapCount: 8),
+                    Course(name: "Kirjalik ja suuline eneseväljendamine", eapCount: 4),
+                    Course(name: "Enese ja teiste juhtimine ning sotsiaalne kompetentsus", eapCount: 4),
+                    Course(name: "Üldõpingute valikmoodul ", eapCount: 10)
+                ]
+            ),
+            Module(
+                module: "Erialaõpingud",
+                courses: [
+                    Course(name: "Isiku hälbiv käitumine", eapCount: 10),
+                    Course(name: "Sotsiaaltöö vanglas", eapCount: 6),
+                    Course(name: "Juhtumikorraldus", eapCount: 10),
+                    Course(name: "Turvalisus vanglas I", eapCount: 15),
+                    Course(name: "Turvalisus vanglas II", eapCount: 9),
+                    Course(name: "Turvalisuse tagamise erikursus I", eapCount: 8),
+                    Course(name: "Turvalisuse tagamise erikursus II", eapCount: 9),
+                    Course(name: "Vanglateenistus", eapCount: 4),
+                    Course(name: "Haldusmenetlus ja karistusõigus vanglas", eapCount: 8),
+                    Course(name: "Haldusmenetluse erikursus ", eapCount: 10),
+                    Course(name: "Uurimisseminar", eapCount: 5),
+                    Course(name: "Järelevalvetoimingute praktika", eapCount: 8),
+                    Course(name: "Juhtumikorralduse praktika ", eapCount: 8),
+                    Course(name: "Haldusmenetluse praktika", eapCount: 8),
+                    Course(name: "Lõpupraktika", eapCount: 4),
+                    Course(name: "Lõpueksam", eapCount: 8)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Erialane valikainete moodul",
+                        courses: [
+                            Course(name: "Rahvusvaheline koostöö", eapCount: 3),
+                            Course(name: "Õigusõpetuse jätkukursus", eapCount: 2),
+                            Course(name: "Eneseväljenduse alused (inglise keeles)", eapCount: 2),
+                            Course(name: "Praktika välisriigis", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "keeleõpe",
+                        courses: [
+                            Course(name: "Taasühiskonnastamise alane vene kee", eapCount: 7),
+                            Course(name: "Vangistus- ja haldusõigusalane vene keel", eapCount: 3),
+                            Course(name: "Haldusmenetluse erikursus (vene keeles)", eapCount: 2),
+                            Course(name: "Erialane inglise keel", eapCount: 4)
+                        ]
+                    )
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Politseiteenistus",
@@ -60,7 +193,87 @@ let sisekaitseAkadeemiaRaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpingud",
+                courses: [
+                    Course(name: "Siseturvalisus ja kriisireguleerimine", eapCount: 4),
+                    Course(name: "Õiguse õpetus", eapCount: 8),
+                    Course(name: "Kirjalik ja suuline eneseväljendamine", eapCount: 4),
+                    Course(name: "Enese ja teiste juhtimine ning sotsiaalne kompetentsus", eapCount: 4),
+                    Course(name: "Üldõpingute valikmoodul", eapCount: 10)
+                ]
+            ),
+            Module(
+                module: "Erialaõpingud",
+                courses: [
+                    Course(name: "Vahetu sunni ja turvataktika rakendamine", eapCount: 9),
+                    Course(name: "Avaliku korra kaitsmine", eapCount: 22),
+                    Course(name: "Avaliku korra kaitsmise praktika", eapCount: 8),
+                    Course(name: "Väärtegude menetlemine ja kriminaalmenetluse alustamine", eapCount: 29),
+                    Course(name: "Ressursimahuka sündmuse lahendaminen", eapCount: 4),
+                    Course(name: "Kriminaalmenetluse läbiviimine ", eapCount: 27),
+                    Course(name: "Piirikontrolli läbiviimine", eapCount: 8),
+                    Course(name: "Piiriülene koostöö (inglise keeles)", eapCount: 5),
+                    Course(name: "Politseitöö korraldamine ja juhtimine", eapCount: 5),
+                    Course(name: "Kogukonnakeskne politseitöö", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Süvaõppesuunad",
+                courses: [
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Piirivalve",
+                        courses: [
+                            Course(name: "Piirivalve", eapCount: 16),
+                            Course(name: "Lõputöö", eapCount: 8),
+                            Course(name: "Lõpueksam", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Korrakaitsepolitsei",
+                        courses: [
+                            Course(name: "Kogukonnakeskne ennetustöö", eapCount: 16),
+                            Course(name: "Lõputöö", eapCount: 8),
+                            Course(name: "Lõpueksam", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Kriminaalpolitsei",
+                        courses: [
+                            Course(name: "Raskete kuritegude menetlemine", eapCount: 16),
+                            Course(name: "Lõputöö", eapCount: 8),
+                            Course(name: "Lõpueksam", eapCount: 5)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialane valikmoodul",
+                courses: [
+                    Course(name: "Politseiteenistuse alusõpingud", eapCount: 4),
+                    Course(name: "B-kategooria sõiduõpetus", eapCount: 3),
+                    Course(name: "Rahvusvaheline politseitöö", eapCount: 3),
+                    Course(name: "Tegevus ohtliku ründe korral", eapCount: 1),
+                    Course(name: "Sissejuhatus erialasesse vene keelde", eapCount: 2),
+                    Course(name: "Ujumise algõpetus", eapCount: 2),
+                    Course(name: "Kohtuvälise menetleja tegevusele esitatud kaebuste lahendamine ja kohtumenetluses osalemine", eapCount: 3),
+                    Course(name: "Praktika välisriigis", eapCount: 7),
+                    Course(name: "Dokumentide II astme kontroll", eapCount: 3),
+                    Course(name: "Inimsmuugeldamine ja inimkaubandus kui piiriülene organiseeritud kuritegevus (inglise keeles)", eapCount: 1),
+                    Course(name: "Viisamenetlus", eapCount: 1),
+                    Course(name: "Politseitöö praktika", eapCount: 2),
+                    Course(name: "Alarmsõiduki juhtimine", eapCount: 2),
+                    Course(name: "Varjupaigamenetlus", eapCount: 1),
+                    Course(name: "Elektrišokirelva kasutamine ", eapCount: 1),
+                    Course(name: "Siseturvalisuse praktika", eapCount: 2),
+                    Course(name: "Vabatahtliku päästja I astme teoreetiline osa", eapCount: 1)
+                ]
+            )
+        ]
     ),
     
 ]

@@ -18,7 +18,66 @@ let mainorMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "4240€/aastas"
+        cost: "4240€/aastas",
+        modules: [
+            Module(
+                module: "Uurimistöö metoodika",
+                courses: [
+                    Course(name: "Andmetöötlus ja visualiseerimine", eapCount: 5),
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Äriprotsesside analüüs ja juhtimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Juhtimise moodul",
+                courses: [
+                    Course(name: "Ettevõtlik juhtimine", eapCount: 6),
+                    Course(name: "Sotsiaalne vastutus ja eetika", eapCount: 3),
+                    Course(name: "Terve organisatsioon", eapCount: 3),
+                    Course(name: "Individuaalse arengu juhtimine", eapCount: 3),
+                    Course(name: "Talendijuhtimine ja hoidmine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Majanduse moodul",
+                courses: [
+                    Course(name: "Majanduskeskkonda kujundav õigusruum", eapCount: 3),
+                    Course(name: "Globaalne majandus ja finantsturud", eapCount: 4),
+                    Course(name: "Finantsanalüüs ja ärirahandus", eapCount: 4),
+                    Course(name: "Juhtimisökonoomika", eapCount: 4),
+                    Course(name: "Finantsjuhtimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Äriprotsesside juhtimise moodul",
+                courses: [
+                    Course(name: "Strateegiline juhtimine", eapCount: 3),
+                    Course(name: "Juhtimise infosüsteemid", eapCount: 3),
+                    Course(name: "Infopõhine juhtimine", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimissüsteemid", eapCount: 3),
+                    Course(name: "Modernsed ärimudelid", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Inimressursside juhtimise erialaõpe",
+                courses: [
+                    Course(name: "Paindlikud ja turvalised töösuhted", eapCount: 3),
+                    Course(name: "Loovus ja juhtimine", eapCount: 3),
+                    Course(name: "Suhete juhtimine", eapCount: 4),
+                    Course(name: "Organisatsiooni arengu juhtimine", eapCount: 4),
+                    Course(name: "HRM strateegiad ja poliitikad", eapCount: 4),
+                    Course(name: "Juhtimise konsulteerimine", eapCount: 3),
+                    Course(name: "Isiksuse psühholoogia", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Magistritöö moodul",
+                courses: [
+                    Course(name: "Magistriseminar", eapCount: 5),
+                    Course(name: "Magistritöö", eapCount: 25)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Finantslahenduste Juhtimine",
@@ -39,7 +98,66 @@ let mainorMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "4240€/aastas"
+        cost: "4240€/aastas",
+        modules: [
+            Module(
+                module: "Uurimistöö metoodika",
+                courses: [
+                    Course(name: "Andmetöötlus ja visualiseerimine", eapCount: 5),
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Äriprotsesside analüüs ja juhtimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Juhtimise moodul",
+                courses: [
+                    Course(name: "Ettevõtlik juhtimine", eapCount: 6),
+                    Course(name: "Sotsiaalne vastutus ja eetika", eapCount: 3),
+                    Course(name: "Terve organisatsioon", eapCount: 3),
+                    Course(name: "Individuaalse arengu juhtimine", eapCount: 3),
+                    Course(name: "Talendijuhtimine ja hoidmine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Majanduse moodul",
+                courses: [
+                    Course(name: "Majanduskeskkonda kujundav õigusruum", eapCount: 3),
+                    Course(name: "Globaalne majandus ja finantsturud", eapCount: 4),
+                    Course(name: "Finantsanalüüs ja ärirahandus", eapCount: 4),
+                    Course(name: "Juhtimisökonoomika", eapCount: 4),
+                    Course(name: "Finantsjuhtimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Äriprotsesside juhtimise moodul",
+                courses: [
+                    Course(name: "Strateegiline juhtimine", eapCount: 3),
+                    Course(name: "Juhtimise infosüsteemid", eapCount: 3),
+                    Course(name: "Infopõhine juhtimine", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimissüsteemid", eapCount: 3),
+                    Course(name: "Modernsed ärimudelid", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Finantslahenduste juhtimise erialaõpe",
+                courses: [
+                    Course(name: "Finantslahenduste juhtimine", eapCount: 4),
+                    Course(name: "Ettevõtte riskijuhtimine ja sisekontroll", eapCount: 3),
+                    Course(name: "Ettevõtte väärtuse hindamine", eapCount: 3),
+                    Course(name: "Ettevõtte rahandus", eapCount: 4),
+                    Course(name: "IT lahendused finantsjuhtimises", eapCount: 3),
+                    Course(name: "Finantsturud, -institutsioonid ja investorsuhtlus", eapCount: 4),
+                    Course(name: "Tarneahela finantseerimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Magistritöö moodul",
+                courses: [
+                    Course(name: "Magistriseminar", eapCount: 5),
+                    Course(name: "Magistritöö", eapCount: 25)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Rahvusvaheline Ärijuhtimine",
@@ -60,6 +178,59 @@ let mainorMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "4960€/aastas"
+        cost: "4960€/aastas",
+        modules: [
+            Module(
+                module: "Juhtimise moodul",
+                courses: [
+                    Course(name: "Ettevõtlik juhtimine", eapCount: 6),
+                    Course(name: "Sotsiaalne vastutus ja eetika", eapCount: 3),
+                    Course(name: "Terve organisatsioon", eapCount: 3),
+                    Course(name: "Individuaalse arengu juhtimine", eapCount: 3),
+                    Course(name: "Talendijuhtimine ja hoidmine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö moodul",
+                courses: [
+                    Course(name: "Magistriseminar", eapCount: 6),
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Magistritöö", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "Äriprotsesside juhtimise moodul",
+                courses: [
+                    Course(name: "Strateegiline juhtimine", eapCount: 3),
+                    Course(name: "Juhtimise infosüsteemid", eapCount: 3),
+                    Course(name: "Tarneahela juhtimine", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimissüsteemid", eapCount: 3),
+                    Course(name: "Modernsed ärimudelid", eapCount: 3),
+                    Course(name: "Äriprotsesside analüüs ja juhtimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Majanduse moodul",
+                courses: [
+                    Course(name: "Majanduskeskkonda kujundav õigusruum", eapCount: 3),
+                    Course(name: "Rahvusvaheline majandus ja finantsturud", eapCount: 4),
+                    Course(name: "Finantsanalüüs ja ärirahandus", eapCount: 4),
+                    Course(name: "Juhtimisökonoomika", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Rahvusvahelise ärijuhtimise erialaõpe",
+                courses: [
+                    Course(name: "Erialased valikained", eapCount: 4),
+                    Course(name: "Rahvusvaheline õigus", eapCount: 3),
+                    Course(name: "Ettevõtte rahandus", eapCount: 3),
+                    Course(name: "Rahvusvaheline turundus", eapCount: 3),
+                    Course(name: "Rahvusvaheline organisatsiooni arengu juhtimine", eapCount: 3),
+                    Course(name: "HRM strateegiad ja poliitikad", eapCount: 3),
+                    Course(name: "Eesti keel I", eapCount: 3),
+                    Course(name: "Eesti keel II", eapCount: 3)
+                ]
+            )
+        ]
     ),
 ]

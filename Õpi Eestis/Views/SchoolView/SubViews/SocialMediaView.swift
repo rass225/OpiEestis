@@ -24,10 +24,12 @@ struct SocialMediaView: View {
                 }
             }.frame(maxWidth: .infinity)
             .padding(.vertical, 5)
+            
             .background(Color.white)
             .foregroundColor(.black)
-            .cornerRadius(5)
+            .cornerRadius(6)
             .padding(.horizontal)
-        }
+            .padding(.top, 8)
+        }//.shadow(color: Color.black.opacity(0.05), radius: 2, x: 0, y: 0)
     }
 }

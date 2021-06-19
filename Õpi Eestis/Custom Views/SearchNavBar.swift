@@ -7,9 +7,10 @@ struct SearchNavBar: View {
         ZStack{
                 HStack{
                     Image.magnifyingGlass
+                        .font(.regularBody)
                         .padding(.leading, 15)
                     CustomTextField(
-                        placeholder: Text(placeholder).foregroundColor(Color.black.opacity(0.7)),
+                        placeholder: Text(placeholder).foregroundColor(Color.black.opacity(1)),
                         text: $text
                     )
                     .padding(5)
@@ -18,13 +19,20 @@ struct SearchNavBar: View {
                     if !text.isEmpty {
                         Button(action: { text = "" }) {
                             Image.multiply
+                                .padding(4)
+                                .background(Color.oeBlue)
+                                .cornerRadius(100)
+                                .foregroundColor(Color.white)
                         }.animation(.default)
                          .padding(.trailing, 15)
                     }
-                }.frame(height: 38)
+                }.frame(height: 40)
                 .font(.system(size: CustomCellFontSize(), weight: .regular))
                 .foregroundColor(.black)
-        }.frame(height: 38)
+            
+        }.frame(height: 40)
+        .background(Color.white)
+//        .cornerRadiusCustom(10, corners: [.bottomLeft, .bottomRight])
     }
 }
 

@@ -14,7 +14,61 @@ let tallinnaÜlikoolBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üleülikoolilised ained",
+                courses: [
+                    Course(name: "Õppimine kommunikatsiooni- ja loomevaldkonnas I", eapCount: 4),
+                    Course(name: "Õppimine kommunikatsiooni- ja loomevaldkonnas II", eapCount: 2),
+                    Course(name: "Ühiskonna uurimine ja analüüs", eapCount: 6),
+                    Course(name: "ELU - Erialasid Lõimiv Uuendus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Ajakirjanduse kohustuslikud ained",
+                courses: [
+                    Course(name: "Meedia ja kommunikatsiooni õigusruum", eapCount: 4),
+                    Course(name: "Audiovisuaalne loojutustus", eapCount: 6),
+                    Course(name: "AV tootmise alused", eapCount: 3),
+                    Course(name: "Sissejuhatus teleajakirjandusse", eapCount: 6),
+                    Course(name: "Loomemajandus ja loomeettevõtlus", eapCount: 4),
+                    Course(name: "Kaameratöö", eapCount: 4),
+                    Course(name: "Sissejuhatus teletootmisesse", eapCount: 4),
+                    Course(name: "Eesti keele kirjalik väljendusoskus", eapCount: 6),
+                    Course(name: "Ajakirjandus ja ühiskond", eapCount: 4),
+                    Course(name: "Arvamuslugu ja juhtkiri", eapCount: 4),
+                    Course(name: "Sissejuhatus raadioajakirjandusse", eapCount: 4),
+                    Course(name: "Uudis", eapCount: 6),
+                    Course(name: "Intervjueerimise tehnikad, olemuslugu ja reportaaž", eapCount: 6),
+                    Course(name: "Toimetuse praktika (praktika)", eapCount: 6),
+                    Course(name: "Sissejuhatus digitaal- ja ristmeediasse", eapCount: 6),
+                    Course(name: "Ajakirjanduslik multimeedia projekt", eapCount: 5),
+                    Course(name: "Sissejuhatus suhtekorraldusse", eapCount: 4),
+                    Course(name: "Bakalaureusetöö eriseminar", eapCount: 3),
+                    Course(name: "Bakalaureusetöö eriseminar II", eapCount: 3),
+                    Course(name: "Kommunikatsiooni- ja meediateooriad", eapCount: 6),
+                    Course(name: "Kommunikatsioonipsühholoogia", eapCount: 4),
+                    Course(name: "Uurimismeetodid ja andmekogumine", eapCount: 6),
+                    Course(name: "Riik, poliitika ja valitsemine", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Erialane võõrkeel",
+                courses: [
+                    Course(name: "Erialane inglise keel I", eapCount: 6),
+                    Course(name: "Erialane inglise keel II", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: [Course(name: "Vabaained", eapCount: 16)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [Course(name: "Bakalaureusetöö", eapCount: 12)]
+            )
+        ]
     ),
     majorsMinors(
         name: "Ajalugu",
@@ -33,7 +87,170 @@ let tallinnaÜlikoolBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Ajalugu",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Üleülikoolilised ained",
+                        courses: [
+                            Course(name: "Suured küsimused", eapCount: 6),
+                            Course(name: "Kriitiline mõtlemine", eapCount: 6),
+                            Course(name: "ELU - Erialasid Lõimiv Uuendus", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Eesti ajalugu regionaalses kontekstis",
+                        courses: [
+                            Course(name: "Põhjamaade ajaloo seminar", eapCount: 6),
+                            Course(name: "Vene ajaloo seminar", eapCount: 6),
+                            Course(name: "Eesti ajaloo seminar I", eapCount: 6),
+                            Course(name: "Eesti ajaloo seminar II", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Valikmoodul: Digihumanitaaria",
+                        courses: [
+                            Course(name: "Sissejuhatus digihumanitaariasse", eapCount: 6),
+                            Course(name: "Digitaalne kultuuriloome", eapCount: 6),
+                            Course(name: "Digihumanitaaria tehnoloogiad", eapCount: 6),
+                            Course(name: "Tehnoloogia ja ühiskond", eapCount: 6),
+                            Course(name: "Kvantitatiivne digihumanitaaria", eapCount: 6),
+                            Course(name: "Kvalitatiivne digihumanitaaria", eapCount: 6),
+                            Course(name: "Keel ja tehnoloogia", eapCount: 6),
+                            Course(name: "Multimeediumi tehnoloogiad", eapCount: 6),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Valikmoodul: Ühiskonnaõpetus",
+                        courses: [
+                            Course(name: "Ühiskond ja õigus", eapCount: 6),
+                            Course(name: "Rahvusvahelised inimõigused", eapCount: 3),
+                            Course(name: "Ühiskonna uurimine ja analüüs", eapCount: 6),
+                            Course(name: "Euroopa Liidu põhikursus", eapCount: 4),
+                            Course(name: "Majanduspoliitika alused", eapCount: 4),
+                            Course(name: "Ettevõtlus ja majandus", eapCount: 6),
+                            Course(name: "Poliitilised ideoloogiad", eapCount: 3),
+                            Course(name: "Kodanikuühiskond", eapCount: 4),
+                            Course(name: "Eesti ühiskond ja poliitika", eapCount: 5),
+                            Course(name: "Riik, poliitika ja valitsemine", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Valikmoodul: Kultuur ja ühiskond",
+                        courses: [
+                            Course(name: "Nõukogude kultuur ja ühiskond", eapCount: 6),
+                            Course(name: "Baltisaksa kultuur ja ühiskond", eapCount: 6),
+                            Course(name: "Kunst ja ühiskond", eapCount: 6),
+                            Course(name: "Argikultuuri ajalugu", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Valikmoodul: Inimene muutuvas keskkonnas",
+                        courses: [
+                            Course(name: "Keskkonnaajalugu ja -humanitaaria", eapCount: 6),
+                            Course(name: "Inimene ja materiaalne kultuur", eapCount: 6),
+                            Course(name: "Majandus- ja kommunikatsioonivõrgustikud", eapCount: 6),
+                            Course(name: "Rände- ja koloniaalajalugu", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Erialane võõrkeel",
+                        courses: [
+                            Course(name: "Erialane saksa keel ajaloolastele", eapCount: 6),
+                            Course(name: "Erialane vene keel ajaloolastele", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Euroopa ajaloo põhijooned",
+                        courses: [
+                            Course(name: "Antiikmaailm", eapCount: 6),
+                            Course(name: "Kesk- ja varauusaegne maailm", eapCount: 6),
+                            Course(name: "Uusaegne maailm", eapCount: 6),
+                            Course(name: "20. sajandi ajalugu", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Humanitaaria alused",
+                        courses: [
+                            Course(name: "Globaalne ajalugu", eapCount: 6),
+                            Course(name: "Maailmakirjandus", eapCount: 6),
+                            Course(name: "Maailmavaated ja usundid", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Praktikaline õpe",
+                        courses: [
+                            Course(name: "Uurimistöö alused ja akadeemiline kirjutamine", eapCount: 6),
+                            Course(name: "Ajaloouurimise allikad", eapCount: 6),
+                            Course(name: "Museoloogia ja muinsuskaitse", eapCount: 6),
+                            Course(name: "Erialane praktika (praktika)", eapCount: 6),
+                            Course(name: "Välispraktika", eapCount: 15)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Bakalaureuseeksam",
+                        courses: [Course(name: "Bakalaureuseeksam", eapCount: 6)]
+                    )
+                ]
+            ),
+            Module(
+                module: "Kõrvaleriala: Ajalugu",
+                courses: [
+                    Course(name: "Antiikmaailm", eapCount: 6),
+                    Course(name: "Kesk- ja varauusaegne maailm", eapCount: 6),
+                    Course(name: "Uusaegne maailm", eapCount: 6),
+                    Course(name: "20. sajandi ajalugu", eapCount: 6),
+                    Course(name: "Põhjamaade ajaloo seminar", eapCount: 6),
+                    Course(name: "Vene ajaloo seminar", eapCount: 6),
+                    Course(name: "Eesti ajaloo seminar I", eapCount: 6),
+                    Course(name: "Eesti ajaloo seminar II", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Kõrvaleriala: Digihumanitaaria",
+                courses: [
+                    Course(name: "Sissejuhatus digihumanitaariasse", eapCount: 6),
+                    Course(name: "Digitaalne kultuuriloome", eapCount: 6),
+                    Course(name: "Digihumanitaaria tehnoloogiad", eapCount: 6),
+                    Course(name: "Tehnoloogia ja ühiskond", eapCount: 6),
+                    Course(name: "Kvantitatiivne digihumanitaaria", eapCount: 6),
+                    Course(name: "Kvalitatiivne digihumanitaaria", eapCount: 6),
+                    Course(name: "Keel ja tehnoloogia", eapCount: 6),
+                    Course(name: "Multimeediumi tehnoloogiad", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Kõrvaleriala: Kultuuri- ja keskkonnaajalugu",
+                courses: [
+                    Course(name: "Nõukogude kultuur ja ühiskond", eapCount: 6),
+                    Course(name: "Baltisaksa kultuur ja ühiskond", eapCount: 6),
+                    Course(name: "Keskkonnaajalugu ja -humanitaaria", eapCount: 6),
+                    Course(name: "Kunst ja ühiskond", eapCount: 6),
+                    Course(name: "Inimene ja materiaalne kultuur", eapCount: 6),
+                    Course(name: "Argikultuuri ajalugu", eapCount: 6),
+                    Course(name: "Majandus- ja kommunikatsioonivõrgustikud", eapCount: 6),
+                    Course(name: "Rände- ja koloniaalajalugu", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Ühiskonnaõpetus",
+                courses: [
+                    Course(name: "Ühiskond ja õigus", eapCount: 6),
+                    Course(name: "Rahvusvahelised inimõigused", eapCount: 3),
+                    Course(name: "Ühiskonna uurimine ja analüüs", eapCount: 6),
+                    Course(name: "Euroopa Liidu põhikursus", eapCount: 4),
+                    Course(name: "Majanduspoliitika alused", eapCount: 4),
+                    Course(name: "Ettevõtlus ja majandus", eapCount: 6),
+                    Course(name: "Poliitilised ideoloogiad", eapCount: 4),
+                    Course(name: "Kodanikuühiskond", eapCount: 4),
+                    Course(name: "Eesti ühiskond ja poliitika", eapCount: 5),
+                    Course(name: "Riik, poliitika ja valitsemine", eapCount: 6)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Alushariduse Pedagoog",

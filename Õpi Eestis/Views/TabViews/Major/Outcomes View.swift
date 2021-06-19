@@ -5,18 +5,27 @@ struct Outcomes_View: View {
     let navBar = NavigationBarTitles()
     var body: some View {
         ZStack{
-            WhiteBackground()
+            Color.whiteDim1.edgesIgnoringSafeArea(.all)
             ScrollView{
-                ForEach(major.outcomes, id: \.self) { hey in
-                    Text("\u{2022} \(hey)")
-                        .font(.lightCallout)
-                        .multilineTextAlignment(.leading)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .foregroundColor(.black)
-                        .padding(.vertical, 8)
+                VStack(spacing: 0){
+                    ForEach(major.outcomes, id: \.self) { hey in
+                        VStack{
+                            Text("\(hey)")
+                                .multilineTextAlignment(.leading)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .foregroundColor(.black)
+                                .font(.regularCallout)
+                                .lineSpacing(5)
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 10)
+                        .background(Color.white)
+                        .cornerRadius(6)
+                        .padding(.horizontal)
+                        .padding(.top, 8)
+                    }
                 }
-                .lineSpacing(5)
-                .padding(.horizontal, 16)
+                
             }
         }.navigationBarTitle(navBar.outcomesTitle, displayMode: .automatic)
     }

@@ -16,4 +16,5 @@ struct majorsMinors: Hashable, Codable, Identifiable {
     var eap: Int?
     var ekap: Int?
     var cost: String
+    var modules: [Module]?
 }

@@ -16,6 +16,92 @@ let ebsDoktor = [
         duration: 4,
         studyLocation: ["Tallinn"],
         eap: 240,
-        cost: "2750€"
+        cost: "2750€",
+        modules: [
+            Module(
+                module: "Semester I",
+                
+                courses: [
+                    Course(name: "Doktoriseminar I", eapCount: 1.5),
+                    Course(name: "Juhtimisteooriad", eapCount: 3),
+                    Course(name: "Teadusuuringu kavandamine", eapCount: 3),
+                    Course(name: "Teadusfilosoofia ja teadustöö metodoloogia", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Teadustöö strateegias ja innovatsioonis*", eapCount: 3),
+                    Course(name: "Eetika ja vastutustundlikkus juhtimises*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester II",
+                
+                courses: [
+                    Course(name: "Doktoriseminar II", eapCount: 1.5),
+                    Course(name: "Institutsiooniökonoomika", eapCount: 6),
+                    Course(name: "Kvalitatiivsed uurimismeetodid", eapCount: 3),
+                    Course(name: "Kvantitatiivsed uurimismeetodid", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Research Design with Idea Puzzle*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester III",
+                
+                courses: [
+                    Course(name: "Doktoriseminar III", eapCount: 1.5),
+                    Course(name: "Organisatsiooniteooriad: traditsiooniliste teooriate meta-teoreetiline vaade ning alternatiivsed lähenemised", eapCount: 6),
+                    Course(name: "Õppimise olemus ja alused", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "vabaaine", eapCount: 1.5)
+                ]
+            ),
+            Module(
+                module: "Semester IV",
+                
+                courses: [
+                    Course(name: "Doktoriseminar IV", eapCount: 1.5),
+                    Course(name: "Kõrgkoolipedagoogika ja õpetamise planeerimine", eapCount: 3),
+                    Course(name: "Sotsiaalteaduse kaasaegsed paradigmad", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5)
+                ]
+            ),
+            Module(
+                module: "Semester V",
+                
+                courses: [
+                    Course(name: "Doktoriseminar V", eapCount: 1.5)
+                ]
+            ),
+            Module(
+                module: "Semester VI",
+                
+                courses: [
+                    Course(name: "Doktoriseminar VI", eapCount: 1.5)
+                ]
+            ),
+            Module(
+                module: "Määratlemata semester",
+                
+                courses: [
+                    Course(name: "Tasuvusanalüüs*", eapCount: 3),
+                    Course(name: "Süsteemiteooria*", eapCount: 3),
+                    Course(name: "Loogika*", eapCount: 3),
+                    Course(name: "Mitmekriteeriumilised otsuste tegemise meetodid*", eapCount: 3),
+                    Course(name: "Teadmusjuhtimine ja intellektuaalne kapital*", eapCount: 3),
+                    Course(name: "Organisatsiooniliste muudatuste juhtimisteooriad*", eapCount: 3),
+                    Course(name: "Häguskogumimeetodil tuginev võrdlev analüüs*", eapCount: 3),
+                    Course(name: "Struktuurivõrrandite mudelid*", eapCount: 3),
+                    Course(name: "Kultuuripsühholoogia*", eapCount: 3),
+                    Course(name: "Doktoriväitekiri", eapCount: 180),
+                    Course(name: "Erikursus erialakirjanduse baasil", eapCount: 1.5),
+                    Course(name: "Erikursus erialakirjanduse baasil", eapCount: 3),
+                    Course(name: "Erikursus erialakirjanduse baasil", eapCount: 4.5),
+                    Course(name: "Erikursus erialakirjanduse baasil", eapCount: 6),
+                    Course(name: "Pedagoogiline praktika", eapCount: 3)
+                ]
+            )
+        ]
     )
 ]

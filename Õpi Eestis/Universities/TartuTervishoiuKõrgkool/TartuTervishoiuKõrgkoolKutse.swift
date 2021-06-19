@@ -13,7 +13,67 @@ let tartuTervishoiuKõrgkoolKutse = [
         duration: 2,
         studyLocation:  ["Viljandi"],
         ekap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Koolipõhine",
+                courses: [
+                    Course(name: "Karjääri planeerimine ja ettevõtlus", eapCount: 7),
+                    Course(name: "Hoolduse alused", eapCount: 10),
+                    Course(name: "Hooldustoimingud", eapCount: 20),
+                    Course(name: "Abivajaja arendamine, juhendamine ja aktiviseerimine", eapCount: 16),
+                    Course(name: "Meeskonnatöö korraldamine ja juhendamine", eapCount: 2),
+                    Course(name: "Töö lastega peredega", eapCount: 4),
+                    Course(name: "Töö eakatega", eapCount: 5),
+                    Course(name: "Töö erivajadustega inimestega", eapCount: 6),
+                    Course(name: "Õppepraktika", eapCount: 30),
+                    Course(name: "Digiajastu tehnoloogiate rakendamine", eapCount: 2),
+                    Course(name: "Infotund", eapCount: 0),
+                    Course(name: "Vene keel ", eapCount: 3),
+                    Course(name: "Saksa keel", eapCount: 3),
+                    Course(name: "Soome keel", eapCount: 3),
+                    Course(name: "Tervis ja teadvelolek", eapCount: 2),
+                    Course(name: "Terve imiku ja väikelapse hooldus", eapCount: 3),
+                    Course(name: "Haridusliku erivajadusega laps", eapCount: 2),
+                    Course(name: "Dementsusega inimese hooldamine", eapCount: 3),
+                    Course(name: "Kriisipsühholoogia", eapCount: 2),
+                    Course(name: "Klassikaline massaaž", eapCount: 2),
+                    Course(name: "Autismispektri häired", eapCount: 2),
+                    Course(name: "Diabeedihaige hooldus", eapCount: 2),
+                    Course(name: "Jalgade tervishoid hooldustöös", eapCount: 1),
+                    Course(name: "Lõpueksam", eapCount: 0),
+                ]
+            ),
+            Module(
+                module: "Töökohapõhine",
+                courses: [
+                    Course(name: "Karjääri planeerimine ja ettevõtlus", eapCount: 7),
+                    Course(name: "Hoolduse alused", eapCount: 10),
+                    Course(name: "Hooldustoimingud", eapCount: 20),
+                    Course(name: "Abivajaja arendamine, juhendamine ja aktiviseerimine", eapCount: 16),
+                    Course(name: "Meeskonnatöö korraldamine ja juhendamine", eapCount: 2),
+                    Course(name: "Töö lastega peredega", eapCount: 4),
+                    Course(name: "Töö eakatega", eapCount: 5),
+                    Course(name: "Töö erivajadustega inimestega", eapCount: 6),
+                    Course(name: "Õppepraktika ", eapCount: 30),
+                    Course(name: "Digiajastu tehnoloogiate rakendamine", eapCount: 2),
+                    Course(name: "Infotund", eapCount: 0),
+                    Course(name: "Vene keel", eapCount: 3),
+                    Course(name: "Saksa keel", eapCount: 3),
+                    Course(name: "Soome keel", eapCount: 3),
+                    Course(name: "Tervis ja teadvelolek", eapCount: 2),
+                    Course(name: "Terve imiku ja väikelapse hooldus", eapCount: 3),
+                    Course(name: "Haridusliku erivajadusega laps", eapCount: 2),
+                    Course(name: "Dementsusega inimese hooldamine", eapCount: 3),
+                    Course(name: "Kriisipsühholoogia", eapCount: 2),
+                    Course(name: "Klassikaline massaaž", eapCount: 2),
+                    Course(name: "Autismispektri häired", eapCount: 2),
+                    Course(name: "Diabeedihaige hooldus", eapCount: 2),
+                    Course(name: "Jalgade tervishoid hooldustöös", eapCount: 1),
+                    Course(name: "Lõpueksam", eapCount: 0),
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Tegevusjuhendaja",
@@ -29,7 +89,26 @@ let tartuTervishoiuKõrgkoolKutse = [
         duration: 1,
         studyLocation:  ["Tartu"],
         ekap: 60,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Õppekava",
+                courses: [
+                    Course(name: "Kliendi tegevusvõime hindamine ja tegevuste planeerimine", eapCount: 25),
+                    Course(name: "Kliendi juhendamine ja toetamine igapäevelu toimingutes", eapCount: 20),
+                    Course(name: "Õpitee ja töö muutuvas keskkonnas", eapCount: 5),
+                    Course(name: "Digiajastu tehnoloogiate kasutamine õppimises ja erialases arengus", eapCount: 2),
+                    Course(name: "Vene keel", eapCount: 3),
+                    Course(name: "Dementsusega inimese juhendamine", eapCount: 3),
+                    Course(name: "Autismispektri häired", eapCount: 2),
+                    Course(name: "Kriisipsühholoogia", eapCount: 2),
+                    Course(name: "Juhendamine ja mentorlus", eapCount: 3),
+                    Course(name: "Toimetulek vägivaldselt käituva kliendiga", eapCount: 3),
+                    Course(name: "Lõpueksam", eapCount: 0),
+                    Course(name: "Infotund", eapCount: 0)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Lapsehoidja",
@@ -46,7 +125,30 @@ let tartuTervishoiuKõrgkoolKutse = [
         duration: 1,
         studyLocation:  ["Tartu"],
         ekap: 60,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Õppekava",
+                courses: [
+                    Course(name: "Õpitee ja töö muutuvas keskkonnas", eapCount: 5),
+                    Course(name: "Lapse kasvukeskkonna kujundamine", eapCount: 3),
+                    Course(name: "Lapse arengu toetamine", eapCount: 4),
+                    Course(name: "Lapse tervise edendamine", eapCount: 4),
+                    Course(name: "Erivajadusega ja suure hooldusvajadusega lapse hoidmine", eapCount: 11),
+                    Course(name: "Tööjuhendamine", eapCount: 6),
+                    Course(name: "Õppepraktika", eapCount: 15),
+                    Course(name: "Lõpueksam", eapCount: 0),
+                    Course(name: "Laste massaaž", eapCount: 1),
+                    Course(name: "Ergonoomika ja turvavahendid", eapCount: 3),
+                    Course(name: "Füüsilise puudega lapse hoidmine ja arendamine", eapCount: 1),
+                    Course(name: "Väikelaste võimlemine", eapCount: 3),
+                    Course(name: "Digitehnoloogia kasutamine", eapCount: 2),
+                    Course(name: "Laste vaba aja sisustamine", eapCount: 3),
+                    Course(name: "Teenus kogukonnale", eapCount: 3),
+                    Course(name: "Koostöö lapsevanema või hooldajaga", eapCount: 3)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Erakorralise Meditsiini Tehnik",
@@ -64,7 +166,29 @@ let tartuTervishoiuKõrgkoolKutse = [
         duration: 1,
         studyLocation:  ["Tartu"],
         ekap: 60,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Õppekava",
+                courses: [
+                    Course(name: "Erakorralise abi osutamine", eapCount: 15),
+                    Course(name: "Kriisipsühholoogia", eapCount: 2),
+                    Course(name: "Karjääri planeerimine ja ettevõtlus", eapCount: 6),
+                    Course(name: "Digiajastu tehnoloogiate rakendamine", eapCount: 2),
+                    Course(name: "Ettevalmistumine erakorraldise meditsiiniabi osutamiseks", eapCount: 9),
+                    Course(name: "Vene keel", eapCount: 1.5),
+                    Course(name: "Praktika", eapCount: 21),
+                    Course(name: "Suhtlemine võõrkeeles (inglise/saksa/soome)", eapCount: 1.5),
+                    Course(name: "Sõja- ja katastroofimeditsiin", eapCount: 2),
+                    Course(name: "Alarmsõiduki juhtimine", eapCount: 1),
+                    Course(name: "Rahvatervis, tervisedenduse alused EMT 21", eapCount: 2),
+                    Course(name: "Kogukonna teenimine", eapCount: 1),
+                    Course(name: "Patoloogia alused ", eapCount: 1),
+                    Course(name: "Infotund", eapCount: 0),
+                    Course(name: "Lõpueksam", eapCount: 0),
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Massöör",
@@ -81,6 +205,30 @@ let tartuTervishoiuKõrgkoolKutse = [
         duration: 2,
         studyLocation:  ["Tartu"],
         ekap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Õppekava",
+                courses: [
+                    Course(name: "Karjääri planeerimine ja ettevõtluse alused", eapCount: 6),
+                    Course(name: "Massaži alused", eapCount: 26),
+                    Course(name: "Massaaž", eapCount: 35),
+                    Course(name: "Praktika", eapCount: 35),
+                    Course(name: "Tiibeti massaaž", eapCount: 2),
+                    Course(name: "Toitumisõpetuse alused", eapCount: 2),
+                    Course(name: "Digiajastu tehnoloogiate rakendamine", eapCount: 2),
+                    Course(name: "Vene keel", eapCount: 3),
+                    Course(name: "Suhtlemine võõrkeeles (inglise, saksa, soome)", eapCount: 3),
+                    Course(name: "Rahvatervis, tervisedenduse alused", eapCount: 2),
+                    Course(name: "Arengupsühholoogia", eapCount: 2),
+                    Course(name: "Eripedagoogika ja alternatiivkommunikatsiooni alused", eapCount: 2),
+                    Course(name: "Tervis ja teadvelolek", eapCount: 2),
+                    Course(name: "Meemassaaž", eapCount: 2),
+                    Course(name: "Lõpueksam", eapCount: 0),
+                    Course(name: "Sissejuhatus muusikateraapiasse", eapCount: 1),
+                    Course(name: "Kupumassaaž", eapCount: 1)
+                ]
+            ),
+        ]
     )
 ]

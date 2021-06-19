@@ -1,5 +1,5 @@
 var tallinnaTervishoiuKõrgkool = School(
-    name: "Tallinna Tervishoiu Kõrgkool",
+    name: .tallinnaTervishoiuKõrgkool,
     description: ["Tallinna Tervishoiu Kõrgkool on rahvusvaheliselt tunnustatud tervise ja heaolu valdkonnas koolitust pakkuv riiklik rakenduskõrgkool. Kõrgkooli missioon on koolitada innovaatiliselt ja kriitiliselt mõtlevaid tehnoloogiliste pädevustega tervisevaldkonna töötajaid. Kõrgkooli visioon on olla pidevalt arenev, siseriiklikult ja rahvusvaheliselt võrgustunud organisatsioon, kus koostöös sise- ja välispartneritega ning õppijaid kaasates lahendatakse aktuaalseid probleeme."],
     location: Location(
         city: "Tallinn",

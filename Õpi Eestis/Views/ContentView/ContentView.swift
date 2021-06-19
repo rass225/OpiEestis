@@ -13,21 +13,34 @@ struct ContentView: View {
                         .scaledToFit()
                         .frame(width: presenter.size.width)
                         .background(Color.white)
+                        
                     Spacer()
                     Spacer()
                     VStack{
-                        NavigationLink(destination: presenter.navigateToSchoolList()) {
-                            VStack{
-                                Text("Vaata").padding(.bottom, 2)
-                                Text("ülikoole")
+                        ZStack{
+                            Circle()
+                                .strokeBorder(Color.whiteDim2, lineWidth: 15)
+                                .frame(width: 170)
+                            NavigationLink(destination: presenter.navigateToSchoolList()) {
+                                ZStack{
+                                    Circle()
+                                        .fill(Color.customBlue)
+                                        .frame(width: 155)
+                                        .overlay(
+                                                Circle().strokeBorder(Color.whiteDim2, lineWidth: 1)
+                                                    .shadow(color: Color.black.opacity(0.4), radius: 3, x: 0, y: 5)
+                                                    .shadow(color: Color.black.opacity(0.4), radius: 3, x: 0, y: -5)
+                                                    .shadow(color: Color.black.opacity(0.4), radius: 3, x: 5, y: 0)
+                                                    .shadow(color: Color.black.opacity(0.4), radius: 3, x: -5, y: 0)
+                                        ).foregroundColor(Color.red)
+                                    Text("Vaata ülikoole")
+                                        .font(.regularBody)
+                                        .foregroundColor(.white)
+                                }
                             }
-                            .frame(width: 150, height: 150)
-                            .foregroundColor(.black)
-                            .background(LinearGradient(gradient: Gradient(colors: [Color.whiteDim, Color.white]), startPoint: .topLeading, endPoint: .center))
-                            .cornerRadius(150)
-                            .shadow(color: Color.black.opacity(0.15), radius: 4, x: 5, y: 5)
-                            .shadow(color: Color.white.opacity(1), radius: 10, x: -11, y: -11)
-                            .font(.regularBody)
+                            Circle()
+                                .strokeBorder(Color.whiteDim2, lineWidth: 15)
+                                .frame(width: 170)
                         }
                         Spacer()
                     }
@@ -48,7 +61,7 @@ struct ContentView: View {
                         Image.infoCircle
                             .font(.regularTitle2)
                             .foregroundColor(.black)
-                })
+                    })
         }
     }
 }

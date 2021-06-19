@@ -15,7 +15,89 @@ let ebsBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "2300€/semester"
+        cost: "2300€/semester",
+        modules: [
+            Module(
+                module: "Semester I",
+                
+                courses: [
+                    Course(name: "Ettevõtluse alused", eapCount: 3),
+                    Course(name: "Majandusteaduste alused", eapCount: 3),
+                    Course(name: "Inglise ärikeele keskastme kursus I", eapCount: 3),
+                    Course(name: "Liidri professionaalne identiteet", eapCount: 3),
+                    Course(name: "Turundus ja müük", eapCount: 6),
+                    Course(name: "Majandusmatemaatika ja statistika", eapCount: 6),
+                    Course(name: "Informaatika", eapCount: 3),
+                    Course(name: "Spetsialiseerumisplokk: müük", eapCount: 6),
+                    Course(name: "Spetsialiseerumisplokk: tehnoloogiaettevõtlus", eapCount: 6),
+                    Course(name: "Spetsialiseerumisplokk: loomeettevõtlus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Semester II",
+                
+                courses: [
+                    Course(name: "Tudengiettevõtted", eapCount: 3),
+                    Course(name: "Mikroökonoomika", eapCount: 6),
+                    Course(name: "Fintantsarvestus", eapCount: 6),
+                    Course(name: "Inglise ärikeele keskastme kursus II", eapCount: 3),
+                    Course(name: "Õiguse entsüklopeedia", eapCount: 3),
+                    Course(name: "Juhtimise alused", eapCount: 3),
+                    Course(name: "Praktika: Kärjääriväljakutse 1", eapCount: 2),
+                    Course(name: "Spetsialiseerumisplokk: müük II", eapCount: 6),
+                    Course(name: "Spetsialiseerumisplokk: tehnoloogiaettevõtlus II", eapCount: 6),
+                    Course(name: "Spetsialiseerumisplokk: loomeettevõtlus II", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Semester III",
+                
+                courses: [Course(name: "Valikained", eapCount: 24)]
+            ),
+            Module(
+                module: "Semester IV",
+                
+                courses: [
+                    Course(name: "Makroökonoomika", eapCount: 6),
+                    Course(name: "Juhtimisarvestus", eapCount: 3),
+                    Course(name: "Inglise ärikeele kursus edeasijõudnutele I", eapCount: 3),
+                    Course(name: "Designing Managerial Intervention", eapCount: 3),
+                    Course(name: "Digitaalne turundus", eapCount: 3),
+                    Course(name: "uurimistöö disain", eapCount: 3),
+                    Course(name: "Kvalitatiivsed uurimismeetodid", eapCount: 3),
+                    Course(name: "Ärialane suhtlemine", eapCount: 3),
+                    Course(name: "Filosoofia", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester V",
+                
+                courses: [
+                    Course(name: "Rahvusvaheline äri", eapCount: 3),
+                    Course(name: "Äritegevus Aasia riikides", eapCount: 3),
+                    Course(name: "Inglise ärikeele kursus edasijõudnutele", eapCount: 3),
+                    Course(name: "Äriõigus", eapCount: 6),
+                    Course(name: "Maksunduse alused", eapCount: 3),
+                    Course(name: "Eestvedamine", eapCount: 3),
+                    Course(name: "Kvantitatiivsed uurimismeetodid", eapCount: 3),
+                    Course(name: "Sotsiaalpsühholoogia", eapCount: 3),
+                    Course(name: "Sotsioloogia", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester VI",
+                
+                courses: [
+                    Course(name: "Äriplaan", eapCount: 3),
+                    Course(name: "E-äri", eapCount: 6),
+                    Course(name: "Juhtimissimulatsioon DYNAMA", eapCount: 5),
+                    Course(name: "Ärieetika", eapCount: 3),
+                    Course(name: "Lõpueksam", eapCount: 6),
+                    Course(name: "Bakalaureusetöö", eapCount: 6),
+                    Course(name: "Valikaine", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Rahvusvaheline ärijuhtimine",
@@ -34,7 +116,84 @@ let ebsBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Helsingi"],
         eap: 180,
-        cost: "2300€/semester"
+        cost: "2300€/semester",
+        modules: [
+            Module(
+                module: "Semester I",
+                
+                courses: [
+                    Course(name: "Principles of Economics", eapCount: 3),
+                    Course(name: "English for Management and Marketing", eapCount: 3),
+                    Course(name: "Principles of Management", eapCount: 3),
+                    Course(name: "Principles of Marketing", eapCount: 6),
+                    Course(name: "Mathematics for Business", eapCount: 6),
+                    Course(name: "Computer Fundamentals for Business I", eapCount: 3),
+                    Course(name: "Development of Study Skills", eapCount: 2),
+                    Course(name: "Philosophy", eapCount: 3),
+                    Course(name: "Sociology", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester II",
+                
+                courses: [
+                    Course(name: "Microeconomics", eapCount: 6),
+                    Course(name: "Financial Accounting", eapCount: 6),
+                    Course(name: "Human Resource Management", eapCount: 3),
+                    Course(name: "English for Finance and Accounting", eapCount: 3),
+                    Course(name: "Introduction to Statistics", eapCount: 3),
+                    Course(name: "Communication and Presentation Skills", eapCount: 3),
+                    Course(name: "Social Psychology", eapCount: 3),
+                    Course(name: "Optional", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester III",
+                
+                courses: [
+                    Course(name: "Mobility window", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "Semester IV",
+                
+                courses: [
+                    Course(name: "Business Planning", eapCount: 3),
+                    Course(name: "Macroeconomics", eapCount: 6),
+                    Course(name: "Managerial Accounting", eapCount: 3),
+                    Course(name: "English for Economics and Law", eapCount: 3),
+                    Course(name: "Law Encyclopedia", eapCount: 3),
+                    Course(name: "Project Management", eapCount: 3),
+                    Course(name: "Research Design", eapCount: 3),
+                    Course(name: "Qualitative Research Methods", eapCount: 3),
+                    Course(name: "Internship", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Semester V",
+                
+                courses: [
+                    Course(name: "International Business", eapCount: 3),
+                    Course(name: "Corporate Finance", eapCount: 6),
+                    Course(name: "Academic and Business Writing", eapCount: 3),
+                    Course(name: "Business Law", eapCount: 6),
+                    Course(name: "Quantitative Research Methods", eapCount: 3),
+                    Course(name: "Optional", eapCount: 9)
+                ]
+            ),
+            Module(
+                module: "Semester VI",
+                
+                courses: [
+                    Course(name: "Strategic Management", eapCount: 3),
+                    Course(name: "Business Simulation DYNAMA", eapCount: 5),
+                    Course(name: "Business Ethics", eapCount: 3),
+                    Course(name: "Public Relations and Media Communication", eapCount: 6),
+                    Course(name: "Optional", eapCount: 3),
+                    Course(name: "Bachelor Thesis or Final Exam", eapCount: 6)
+                ]
+            )
+        ]
         
     ),
     majorsMinors(
@@ -53,5 +212,85 @@ let ebsBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "2300€/semester"
+        cost: "2300€/semester",
+        modules: [
+            Module(
+                module: "Ettevõtlusega alustmine",
+                
+                courses: [
+                    Course(name: "Ettevõtlusmaastiku ja võimaluste avastamine", eapCount: 12),
+                    Course(name: "Ärimudeli koostamine", eapCount: 12),
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Entrepreneurial Practices*", eapCount: 3),
+                    Course(name: "Ringmajandus*", eapCount: 3),
+                    Course(name: "English for Entrepreneurs*", eapCount: 3),
+                    Course(name: "Maksunduse alused*", eapCount: 3),
+                    Course(name: "Liidri professionaalne identiteet*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte strateegia rakendamine",
+                
+                courses: [
+                    Course(name: "Ettevõtte käivitamine", eapCount: 12),
+                    Course(name: "Efektiivse äriorganisatsiooni disainimine", eapCount: 12),
+                    Course(name: "Observation Internship", eapCount: 2),
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Entrepreneurial Practices II*", eapCount: 3),
+                    Course(name: "Basic Digital Literacy*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte tegevuse tõhustamine",
+                
+                courses: [
+                    Course(name: "Ettevõtte ettevalmistamine rahvusvahelistumiseks", eapCount: 6),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte laiendamine ja rahvusvahelistumine",
+                
+                courses: [
+                    Course(name: "Ettevõtte kasvu finantseerimine ja juhtimine", eapCount: 12),
+                    Course(name: "Muutuste juhtimine ettevõttes", eapCount: 12),
+                    Course(name: "Analysis Internship", eapCount: 2),
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Valikaine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: " Ettevõtte ümberkujundamine",
+                
+                courses: [
+                    Course(name: "Ettevõtte hindamine", eapCount: 12),
+                    Course(name: "Ettevõttest väljumise strateegia loomine ja rakendamine", eapCount: 12),
+                    Course(name: "Valikaine", eapCount: 3),
+                    Course(name: "Valikaine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte tulevikustrateegia loomine",
+                
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 6),
+                    Course(name: "Õppekava lõpetamine ja tulevikusihtide seadmine", eapCount: 9),
+                    Course(name: "Alustava ettevõtte nõustamine", eapCount: 9),
+                    Course(name: "Counceling Internship", eapCount: 2)
+                ]
+            )
+        ]
     ),]

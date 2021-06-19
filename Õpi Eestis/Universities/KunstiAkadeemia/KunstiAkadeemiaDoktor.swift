@@ -16,7 +16,71 @@ let kunstiAkadeemiaDoktor = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 6),
+                    Course(name: "Doktoritöö 1", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Kõrgkoolipedagoogika", eapCount: 6),
+                    Course(name: "Teadusfilosoofia", eapCount: 6),
+                    Course(name: "Erialaseminar 1 (arhitektuur ja linnaplaneerimine)", eapCount: 3),
+                    Course(name: "Doktoritöö 2", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Doktoritöö 3", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialaseminar 2 (arhitektuur ja linnaplaneerimine)", eapCount: 3),
+                    Course(name: "Uurimistöö strateegiad 1", eapCount: 3),
+                    Course(name: "Uurimistöö tulemuste avaldamine 1", eapCount: 3),
+                    Course(name: "Doktoritöö 4", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Uurimistöö strateegiad 2", eapCount: 3),
+                    Course(name: "Uurimistöö tulemuste avaldamine 2", eapCount: 3),
+                    Course(name: "Doktoritöö 5", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Uurimistöö tulemuste avaldamine 3", eapCount: 3),
+                    Course(name: "EKA doktorikooli konverents", eapCount: 3),
+                    Course(name: "Erialaseminar 3 (arhitektuur ja linnaplaneerimine)", eapCount: 3),
+                    Course(name: "Ülikoolis õpetamise praktika", eapCount: 3),
+                    Course(name: "Doktoritöö 6", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Uurimistöö strateegiad 3", eapCount: 3),
+                    Course(name: "Doktoritöö 7", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Kunst ja Disain",
@@ -35,8 +99,75 @@ let kunstiAkadeemiaDoktor = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
-    ), majorsMinors(
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 6),
+                    Course(name: "Erialaseminar 1 (kunst ja disain)", eapCount: 2),
+                    Course(name: "Doktoritöö 1", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "1. õppeaast kevadsemester",
+                courses: [
+                    Course(name: "Kõrgkoolipedagoogika", eapCount: 6),
+                    Course(name: "Teadusfilosoofia", eapCount: 6),
+                    Course(name: "Erialaseminar 2 (kunst ja disain)", eapCount: 3),
+                    Course(name: "Metodoloogia 1", eapCount: 3),
+                    Course(name: "Doktoritöö 2", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Metodoloogia 2", eapCount: 3),
+                    Course(name: "Ettekanne konverentsil", eapCount: 3),
+                    Course(name: "Erialaseminar 3 (kunst ja disain)", eapCount: 2),
+                    Course(name: "Doktoritöö 3", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Publikatsioonid ja/või loometegevus", eapCount: 3),
+                    Course(name: "Erialaseminar 4 (kunst ja disain)", eapCount: 3),
+                    Course(name: "Doktoritöö 4", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Teadusürituse korraldamine", eapCount: 2),
+                    Course(name: "Erialaseminar 5 (kunst ja disain)", eapCount: 2),
+                    Course(name: "Doktoritöö 5", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Ülikoolis õpetamise praktika", eapCount: 3),
+                    Course(name: "Erialaseminar 6 (kunst ja disain)", eapCount: 3),
+                    Course(name: "EKA doktorikooli konverents", eapCount: 3),
+                    Course(name: "Doktoritöö 6", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Doktoritöö 7", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Doktoritöö ", eapCount: 30)
+                ]
+            )
+        ]
+    ),
+    majorsMinors(
         name: "Kunstiteadus ja Visuaalkultuur",
         level: .doctor,
         type: .kunstikultuur,
@@ -53,7 +184,70 @@ let kunstiAkadeemiaDoktor = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 6),
+                    Course(name: "Erialaseminar 1 (kunstiteadus)", eapCount: 3),
+                    Course(name: "Doktoritöö 1", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Kõrgkoolipedagoogika", eapCount: 6),
+                    Course(name: "Teadusfilosoofia", eapCount: 6),
+                    Course(name: "Erialaseminar 2 (kunstiteadus)", eapCount: 3),
+                    Course(name: "Doktoritöö 2", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Erialaseminar 3 (kunstiteadus)", eapCount: 3),
+                    Course(name: "Ettekanne konverentsil", eapCount: 6),
+                    Course(name: "Konverentsi korraldamine", eapCount: 3),
+                    Course(name: "Doktoritöö 3", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialaseminar 4 (kunstiteadus)", eapCount: 3),
+                    Course(name: "Doktoritöö 4", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Ülikoolis õpetamise praktika", eapCount: 3),
+                    Course(name: "Erialaseminar 5 (kunstiteadus)", eapCount: 3),
+                    Course(name: "Doktoritöö 5", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialaseminar 6 (kunstiteadus)", eapCount: 3),
+                    Course(name: "EKA doktorikooli konverents", eapCount: 3),
+                    Course(name: "Doktoritöö 6", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Doktoritöö 7", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 30)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Muinsuskaitse ja konserveerimine",
@@ -72,6 +266,71 @@ let kunstiAkadeemiaDoktor = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 6),
+                    Course(name: "Erialaseminar 1 (muinsuskaitse ja konserveerimine)", eapCount: 3),
+                    Course(name: "Doktoritöö 1", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Kõrgkoolipedagoogika", eapCount: 6),
+                    Course(name: "Teadusfilosoofia", eapCount: 6),
+                    Course(name: "Erialaseminar 2 (muinsuskaitse ja konserveerimine)", eapCount: 3),
+                    Course(name: "Doktoritöö 2", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Ettekanne konverentsil", eapCount: 6),
+                    Course(name: "Teadusürituse korraldamine", eapCount: 3),
+                    Course(name: "Erialaseminar 3 (muinsuskaitse ja konserveerimine)", eapCount: 3),
+                    Course(name: "Doktoritöö 3", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Publikatsioonid või loomingulised tegevused 1", eapCount: 3),
+                    Course(name: "Erialaseminar 4 (muinsuskaitse ja konserveerimine)", eapCount: 3),
+                    Course(name: "Doktoritöö 4", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Erialaseminar 5 (muinsuskaitse ja konserveerimine)", eapCount: 3),
+                    Course(name: "Publikatsioonid või loomingulised tegevused 2", eapCount: 3),
+                    Course(name: "Ülikoolis õpetamise praktika", eapCount: 3),
+                    Course(name: "Doktoritöö 5", eapCount: 18)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "EKA doktorikooli konverents", eapCount: 3),
+                    Course(name: "Erialaseminar 6 (muinsuskaitse ja konserveerimine)", eapCount: 3),
+                    Course(name: "Doktoritöö 6", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Doktoritöö 7", eapCount: 30)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 30)
+                ]
+            )
+        ]
     )
 ]

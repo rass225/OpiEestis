@@ -17,7 +17,34 @@ let ebsMaka = [
         duration: 1,
         studyLocation:  ["Tallinn"],
         eap: 60,
-        cost: "5500€/aasta"
+        cost: "5500€/aasta",
+        modules: [
+            Module(
+                module: "Semester I",
+                
+                courses: [
+                    Course(name: "Ettevõtte rahandus", eapCount: 6),
+                    Course(name: "Finants- ja juhtimisarvestus", eapCount: 6),
+                    Course(name: "Strateegiline juhtimine ja innovatsioon", eapCount: 6),
+                    Course(name: "Inimeste juhtimine ja organisatsioonid", eapCount: 6),
+                    Course(name: "Juhtimine je eetika", eapCount: 3),
+                    Course(name: "Turndus ja müük", eapCount: 3),
+                    Course(name: "Koondeksam I: Coaching", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Semester II",
+                
+                courses: [
+                    Course(name: "Juhtimisökonoomika", eapCount: 3),
+                    Course(name: "Uued tehnoloogiad äris", eapCount: 6),
+                    Course(name: "Operatsioonide ja projektijuhtimine", eapCount: 6),
+                    Course(name: "Koondeksam II: Juhtimismäng", eapCount: 5),
+                    Course(name: "Koondeksam III: Teoreetiline põhiõppe test", eapCount: 3),
+                    Course(name: "Koondeksam IV: Kaasusepõhine lõpueksam", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Rahvusvaheline ärijuhtimine (2a)",
@@ -36,7 +63,40 @@ let ebsMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "6125€/aasta"
+        cost: "6125€/aasta",
+        modules: [
+            Module(
+                module: "Semester I",
+                
+                courses: [
+                    Course(name: "Ettevõtte rahandus", eapCount: 6),
+                    Course(name: "Finants- ja juhtimisarvestus", eapCount: 6),
+                    Course(name: "Strateegiline juhtimine ja innovatsioon", eapCount: 6),
+                    Course(name: "Inimeste juhtimine ja organisatsioonid", eapCount: 6),
+                    Course(name: "Juhtimine je eetika", eapCount: 3),
+                    Course(name: "Turndus ja müük", eapCount: 3),
+                    Course(name: "Koondeksam I: Coaching", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Semester II",
+                
+                courses: [
+                    Course(name: "Juhtimisökonoomika", eapCount: 3),
+                    Course(name: "Uued tehnoloogiad äris", eapCount: 6),
+                    Course(name: "Operatsioonide ja projektijuhtimine", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Semester III",
+                
+                courses: [
+                    Course(name: "Koondeksam II: Juhtimismäng", eapCount: 5),
+                    Course(name: "Koondeksam III: Teoreetiline põhiõppe test", eapCount: 3),
+                    Course(name: "Koondeksam IV: Kaasusepõhine lõpueksam", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Rahvusvaheline ärijuhtimine",
@@ -55,6 +115,87 @@ let ebsMaka = [
         duration: 2,
         studyLocation: ["Tallinn", "Helsingi"],
         eap: 120,
-        cost: "6475€/aasta"
+        cost: "6475€/aasta",
+        modules: [
+            Module(
+                module: "Semester I",
+                
+                courses: [
+                    Course(name: "Globaalne majandus ja poliitika", eapCount: 6),
+                    Course(name: "Juhtimisotsuste tegemine ja finantsid", eapCount: 6),
+                    Course(name: "Coaching", eapCount: 3),
+                    Course(name: "Strateegiline juhtimine", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Valikmoodul: Digitaalne turundus Google lahendustega",
+                        
+                        courses: [
+                            Course(name: "Sissejuhatus digiturundusse, trendid & Google tööriistad ja tooted", eapCount: 3),
+                            Course(name: "Otsingumootoriturundus", eapCount: 3),
+                            Course(name: "Digitaalse turunduse mõõtmine ja aruandlus", eapCount: 3),
+                            Course(name: "Bänner- ja videoreklaami turundus. Mobiil & äpid", eapCount: 3),
+                            Course(name: "Digitaalse turnuduse strateegia", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Valikmoodul: Data-Driven Sustainability in Business with Focus on Finance",
+                        
+                        courses: [
+                            Course(name: "Estonian Private Equity & Venture Capital", eapCount: 3),
+                            Course(name: "Sustainable and Circular Business Models", eapCount: 3),
+                            Course(name: "Introduction into Green Finance", eapCount: 3),
+                            Course(name: "Enablers and Barriers to Sustainable and Circular Business Transition", eapCount: 3),
+                            Course(name: "Artificial Intelligence in Energy and Environmental Applications", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Semester II",
+                
+                courses: [
+                    Course(name: "Uurimistöö disain", eapCount: 3),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Kvalitatiivsed ja kvantitatiivsed andmeanalüüsi meetodid", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Semester III",
+                
+                courses: [
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 1.5),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3),
+                    Course(name: "Vabaaine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Semester IV",
+                
+                courses: [
+                    Course(name: "Magistritöö", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Valikmoodul: Eestvedamine digiajastul",
+                
+                courses: [
+                    Course(name: "Eestvedamise ja juhtimise kontseptsioonid", eapCount: 3),
+                    Course(name: "Loov ja mänguline juhtimine", eapCount: 3),
+                    Course(name: "Mõjuv suhtumine ja esitlemine", eapCount: 3),
+                    Course(name: "Mitmekülgsete ja globaalsete meeskondade juhtimine", eapCount: 3),
+                    Course(name: "Mooduli projekt", eapCount: 3)
+                ]
+            )
+        ]
     ),
 ]

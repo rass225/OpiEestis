@@ -19,7 +19,7 @@ struct SchoolImage: View {
     
     @ViewBuilder private func drawOverlay(school: School) -> some View {
         VStack(alignment: .trailing, spacing: 10){
-            Text(school.name)
+            Text(school.name.rawValue)
                 .defaultShadow(color: .black, radius: 5)
                 .font(.mediumTitle2)
             HStack{

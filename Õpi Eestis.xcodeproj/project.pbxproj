@@ -21,6 +21,9 @@
 		C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B642A25C860B2004D144F /* LinearGradient.swift */; };
 		C01B643625C89084004D144F /* WhiteBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B643525C89084004D144F /* WhiteBackground.swift */; };
 		C01B643E25C89426004D144F /* MajorNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B643D25C89426004D144F /* MajorNavigationLink.swift */; };
+		C023689B26649DC20032FF2D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023689A26649DC20032FF2D /* NetworkManager.swift */; };
+		C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */; };
+		C0244EE5265E7668009C909A /* AboutViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0244EE4265E7668009C909A /* AboutViewButton.swift */; };
 		C032993C25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */; };
 		C032994125CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */; };
 		C032994625CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */; };
@@ -38,6 +41,7 @@
 		C03299AD25CC92CE00EB7862 /* SizeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03299AC25CC92CE00EB7862 /* SizeObject.swift */; };
 		C03299C725CECC8400EB7862 /* NavBarButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03299C625CECC8400EB7862 /* NavBarButtonModifier.swift */; };
 		C03299D825CED50A00EB7862 /* LabelDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03299D725CED50A00EB7862 /* LabelDivider.swift */; };
+		C0359656267CA2F90044729B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0359655267CA2F90044729B /* Theme.swift */; };
 		C039486626279BC0004D5F00 /* ContentViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039486526279BC0004D5F00 /* ContentViewPresenter.swift */; };
 		C03948722627A003004D5F00 /* SchoolListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03948712627A003004D5F00 /* SchoolListPresenter.swift */; };
 		C03948772627A146004D5F00 /* SchoolViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03948762627A146004D5F00 /* SchoolViewPresenter.swift */; };
@@ -91,6 +95,7 @@
 		C07D370325BDB5F8004A7058 /* TartuÜlikoolDoktor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D370225BDB5F8004A7058 /* TartuÜlikoolDoktor.swift */; };
 		C07D370825BDF2BF004A7058 /* TartuÜlikoolInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D370725BDF2BF004A7058 /* TartuÜlikoolInter.swift */; };
 		C07D370D25BDF5C6004A7058 /* TartuÜlikoolRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D370C25BDF5C6004A7058 /* TartuÜlikoolRaka.swift */; };
+		C08E192B2661A6C300FA4E81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C08E192A2661A6C300FA4E81 /* GoogleService-Info.plist */; };
 		C09C4E2F25B09CBF00F03F5A /* StatCellModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C4E2E25B09CBF00F03F5A /* StatCellModifier.swift */; };
 		C09C4E4225B1D0B900F03F5A /* SchoolDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C4E4125B1D0B900F03F5A /* SchoolDescriptionView.swift */; };
 		C09C4E4C25B1DF3900F03F5A /* MajorStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C4E4B25B1DF3900F03F5A /* MajorStats.swift */; };
@@ -135,6 +140,8 @@
 		C09C504925BA58B700F03F5A /* TTÜRaka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C504825BA58B700F03F5A /* TTÜRaka.swift */; };
 		C09C505125BA590900F03F5A /* TTÜDoktor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C505025BA590900F03F5A /* TTÜDoktor.swift */; };
 		C09C505625BA59CD00F03F5A /* TTÜInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C505525BA59CD00F03F5A /* TTÜInter.swift */; };
+		C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBC265271FD00CE9130 /* CourseView.swift */; };
+		C0B93FBF2652803F00CE9130 /* CourseDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBE2652803F00CE9130 /* CourseDomain.swift */; };
 		C0F476CF25C197140082A20F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F476CE25C197140082A20F /* Array.swift */; };
 /* End PBXBuildFile section */
 
@@ -170,6 +177,9 @@
 		C01B642A25C860B2004D144F /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		C01B643525C89084004D144F /* WhiteBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackground.swift; sourceTree = "<group>"; };
 		C01B643D25C89426004D144F /* MajorNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorNavigationLink.swift; sourceTree = "<group>"; };
+		C023689A26649DC20032FF2D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C0244EE2265DA485009C909A /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		C0244EE4265E7668009C909A /* AboutViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewButton.swift; sourceTree = "<group>"; };
 		C032993B25CAAF3F00EB7862 /* TallinnaTervishoiuRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervishoiuRaka.swift; sourceTree = "<group>"; };
 		C032994025CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervidhoidMaka.swift; sourceTree = "<group>"; };
 		C032994525CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallinnaTervishoiuKutse.swift; sourceTree = "<group>"; };
@@ -187,6 +197,7 @@
 		C03299AC25CC92CE00EB7862 /* SizeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeObject.swift; sourceTree = "<group>"; };
 		C03299C625CECC8400EB7862 /* NavBarButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarButtonModifier.swift; sourceTree = "<group>"; };
 		C03299D725CED50A00EB7862 /* LabelDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDivider.swift; sourceTree = "<group>"; };
+		C0359655267CA2F90044729B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C039486526279BC0004D5F00 /* ContentViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPresenter.swift; sourceTree = "<group>"; };
 		C03948712627A003004D5F00 /* SchoolListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListPresenter.swift; sourceTree = "<group>"; };
 		C03948762627A146004D5F00 /* SchoolViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewPresenter.swift; sourceTree = "<group>"; };
@@ -246,6 +257,7 @@
 		C07D370225BDB5F8004A7058 /* TartuÜlikoolDoktor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolDoktor.swift"; sourceTree = "<group>"; };
 		C07D370725BDF2BF004A7058 /* TartuÜlikoolInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolInter.swift"; sourceTree = "<group>"; };
 		C07D370C25BDF5C6004A7058 /* TartuÜlikoolRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TartuÜlikoolRaka.swift"; sourceTree = "<group>"; };
+		C08E192A2661A6C300FA4E81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C09C4E2E25B09CBF00F03F5A /* StatCellModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCellModifier.swift; sourceTree = "<group>"; };
 		C09C4E4125B1D0B900F03F5A /* SchoolDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDescriptionView.swift; sourceTree = "<group>"; };
 		C09C4E4B25B1DF3900F03F5A /* MajorStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorStats.swift; sourceTree = "<group>"; };
@@ -290,6 +302,8 @@
 		C09C504825BA58B700F03F5A /* TTÜRaka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTÜRaka.swift"; sourceTree = "<group>"; };
 		C09C505025BA590900F03F5A /* TTÜDoktor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTÜDoktor.swift"; sourceTree = "<group>"; };
 		C09C505525BA59CD00F03F5A /* TTÜInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTÜInter.swift"; sourceTree = "<group>"; };
+		C0B93FBC265271FD00CE9130 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		C0B93FBE2652803F00CE9130 /* CourseDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDomain.swift; sourceTree = "<group>"; };
 		C0F476CE25C197140082A20F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -318,12 +332,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADE328494BA14EEAD54128CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C018108B25C085260026A86F /* Discover(beta2) */ = {
 			isa = PBXGroup;
 			children = (
 				C018108C25C086500026A86F /* DiscoveryView.swift */,
 			);
 			path = "Discover(beta2)";
+			sourceTree = "<group>";
+		};
+		C023689926649DB00032FF2D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C023689A26649DC20032FF2D /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		C032995025CC178300EB7862 /* University */ = {
@@ -344,6 +373,7 @@
 				C032996725CC189E00EB7862 /* SocialMediaDomain.swift */,
 				C032996C25CC18BE00EB7862 /* ContactDomain.swift */,
 				C032997125CC18CE00EB7862 /* Requirements.swift */,
+				C0B93FBE2652803F00CE9130 /* CourseDomain.swift */,
 			);
 			path = UniversityDomain;
 			sourceTree = "<group>";
@@ -361,6 +391,8 @@
 		C032998F25CC8CB600EB7862 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				C0359654267CA2E70044729B /* Theme */,
+				C023689926649DB00032FF2D /* Network */,
 				C03299BD25CDA28600EB7862 /* UniversityObject */,
 				C03299AB25CC929000EB7862 /* SizeObject */,
 				C03299A225CC90B900EB7862 /* NavigationBarObject */,
@@ -401,6 +433,14 @@
 			path = UniversityObject;
 			sourceTree = "<group>";
 		};
+		C0359654267CA2E70044729B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C0359655267CA2F90044729B /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		C039486426279BAD004D5F00 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +453,7 @@
 		C039487026279FEA004D5F00 /* SchoolView */ = {
 			isa = PBXGroup;
 			children = (
+				C09C4E4025B1D09A00F03F5A /* SubViews */,
 				C0460E6A25AF0E8100E4A15D /* SchoolView.swift */,
 				C03948762627A146004D5F00 /* SchoolViewPresenter.swift */,
 			);
@@ -422,10 +463,12 @@
 		C0460DBF25AF0A8E00E4A15D = {
 			isa = PBXGroup;
 			children = (
+				C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */,
 				C0460DCA25AF0A8F00E4A15D /* Õpi Eestis */,
 				C0460DDC25AF0A9200E4A15D /* Õpi EestisTests */,
 				C0460DE725AF0A9200E4A15D /* Õpi EestisUITests */,
 				C0460DC925AF0A8F00E4A15D /* Products */,
+				ADE328494BA14EEAD54128CA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -446,6 +489,7 @@
 				C0A33B7A2602214A005F6517 /* Utilities */,
 				C032998F25CC8CB600EB7862 /* Objects */,
 				C0460DD425AF0A9200E4A15D /* Info.plist */,
+				C08E192A2661A6C300FA4E81 /* GoogleService-Info.plist */,
 				C0460DCF25AF0A9200E4A15D /* Assets.xcassets */,
 				C0460E2625AF0D0E00E4A15D /* Views */,
 				C0460E3125AF0D6200E4A15D /* Custom Views */,
@@ -483,12 +527,12 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C0460E7C25AF0E9300E4A15D /* Discover(beta) */,
+				C018108B25C085260026A86F /* Discover(beta2) */,
+				C0460E5825AF0DFE00E4A15D /* MainPage */,
 				C039486426279BAD004D5F00 /* ContentView */,
 				C0460E2725AF0D2200E4A15D /* SchoolList */,
 				C039487026279FEA004D5F00 /* SchoolView */,
-				C018108B25C085260026A86F /* Discover(beta2) */,
-				C0460E7C25AF0E9300E4A15D /* Discover(beta) */,
-				C0460E5825AF0DFE00E4A15D /* MainPage */,
 				C0460E6525AF0E6700E4A15D /* TabViews */,
 			);
 			path = Views;
@@ -617,7 +661,6 @@
 		C09C4E3625B1A33900F03F5A /* SchoolOverview */ = {
 			isa = PBXGroup;
 			children = (
-				C09C4E4025B1D09A00F03F5A /* SubViews */,
 				C0460E6B25AF0E8100E4A15D /* Degree View.swift */,
 			);
 			path = SchoolOverview;
@@ -632,6 +675,7 @@
 				C01B640825C469C4004D144F /* SocialMediaView.swift */,
 				C0460E6925AF0E8100E4A15D /* MenuView.swift */,
 				C01B63EF25C311F5004D144F /* SchoolAboutView.swift */,
+				C0244EE4265E7668009C909A /* AboutViewButton.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -644,6 +688,7 @@
 				C0460E5B25AF0E3B00E4A15D /* Outcomes View.swift */,
 				C0460E6625AF0E8100E4A15D /* Description View.swift */,
 				C0460E5A25AF0E3B00E4A15D /* Requirements View.swift */,
+				C0B93FBC265271FD00CE9130 /* CourseView.swift */,
 			);
 			path = Major;
 			sourceTree = "<group>";
@@ -933,6 +978,7 @@
 			files = (
 				C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */,
 				C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */,
+				C08E192B2661A6C300FA4E81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,6 +1011,7 @@
 				C09C4F6025B9CA1D00F03F5A /* EBSbaka.swift in Sources */,
 				C09C4F5425B9C89E00F03F5A /* KaitseväeMaka.swift in Sources */,
 				C0460EA125AF0F1400E4A15D /* Kunstiakadeemia.swift in Sources */,
+				C0244EE5265E7668009C909A /* AboutViewButton.swift in Sources */,
 				C01B640925C469C4004D144F /* SocialMediaView.swift in Sources */,
 				C07D36F625BDB5DB004A7058 /* TartuÜlikoolBaka.swift in Sources */,
 				C03299D825CED50A00EB7862 /* LabelDivider.swift in Sources */,
@@ -986,6 +1033,7 @@
 				C09C501F25BA4FE800F03F5A /* TallinnaÜlikoolBaka.swift in Sources */,
 				C09C503C25BA575400F03F5A /* TTÜbaka.swift in Sources */,
 				C09C4E6525B1E39500F03F5A /* MajorButtonsView.swift in Sources */,
+				C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */,
 				C0460E5125AF0DDD00E4A15D /* View.swift in Sources */,
 				C0460E2925AF0D3700E4A15D /* SchoolListView.swift in Sources */,
 				C032997225CC18CE00EB7862 /* Requirements.swift in Sources */,
@@ -994,9 +1042,11 @@
 				C01B63F825C31A6A004D144F /* SheetCapsule.swift in Sources */,
 				C01B640125C468C5004D144F /* SchoolMajor.swift in Sources */,
 				C09C501025B9D88600F03F5A /* TartuTervishoiuKõrgkoolMaka.swift in Sources */,
+				C0359656267CA2F90044729B /* Theme.swift in Sources */,
 				C032994125CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift in Sources */,
 				C0460EA325AF0F1400E4A15D /* TallinnaTervishoiuKõrgkool.swift in Sources */,
 				C0460E7025AF0E8100E4A15D /* MajorView.swift in Sources */,
+				C023689B26649DC20032FF2D /* NetworkManager.swift in Sources */,
 				C039486626279BC0004D5F00 /* ContentViewPresenter.swift in Sources */,
 				C09C4E4C25B1DF3900F03F5A /* MajorStats.swift in Sources */,
 				C032994625CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift in Sources */,
@@ -1004,6 +1054,7 @@
 				C0460EB825AF113300E4A15D /* Color.swift in Sources */,
 				C09C4F9525B9CDCC00F03F5A /* LennuAkadeemiaRaka.swift in Sources */,
 				C0460E8025AF0EAF00E4A15D /* ResultsView.swift in Sources */,
+				C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */,
 				C09C505125BA590900F03F5A /* TTÜDoktor.swift in Sources */,
 				C0460EA525AF0F1400E4A15D /* Sisekaitseakadeemia.swift in Sources */,
 				C0460E1725AF0C2700E4A15D /* ContentView.swift in Sources */,
@@ -1036,6 +1087,7 @@
 				C01B643E25C89426004D144F /* MajorNavigationLink.swift in Sources */,
 				C09C4FE125B9D55F00F03F5A /* MuusikaAkadeemiaDoktor.swift in Sources */,
 				C07D370D25BDF5C6004A7058 /* TartuÜlikoolRaka.swift in Sources */,
+				C0B93FBF2652803F00CE9130 /* CourseDomain.swift in Sources */,
 				C0460E3B25AF0D8A00E4A15D /* SchoolCell.swift in Sources */,
 				C032996025CC187100EB7862 /* MajorDomain.swift in Sources */,
 				C09C4FDC25B9D52600F03F5A /* MuusikaAkadeemiaMaka.swift in Sources */,
@@ -1239,7 +1291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1249,10 +1301,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				"SYSTEM_FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1263,7 +1316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1273,10 +1326,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				"SYSTEM_FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1405,6 +1459,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0244EE2265DA485009C909A /* CoreData.xcdatamodel */,
+			);
+			currentVersion = C0244EE2265DA485009C909A /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C0460DC025AF0A8E00E4A15D /* Project object */;
 }

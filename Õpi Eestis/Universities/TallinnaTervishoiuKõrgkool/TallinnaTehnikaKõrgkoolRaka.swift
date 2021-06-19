@@ -15,7 +15,106 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Ehitusfüüsika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe - Ajalugu ja teooria",
+                courses: [
+                    Course(name: "Restaureerimise alused", eapCount: 3),
+                    Course(name: "Arhitektuuri ajalugu", eapCount: 6),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Kultuuriteooria", eapCount: 3),
+                    Course(name: "Moodne arhitektuur", eapCount: 3),
+                    Course(name: "Linnaehituse ajalugu", eapCount: 3),
+                    Course(name: "Kaasaegse arhitektuuri diskursused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe - Inseneeria",
+                courses: [
+                    Course(name: "Tehniline mehaanika", eapCount: 3),
+                    Course(name: "Ehitusstaatika", eapCount: 3),
+                    Course(name: "Kivi- ja raudbetoonkonstruktsioonid", eapCount: 3),
+                    Course(name: "Puit- ja teraskonstruktsioonid", eapCount: 3),
+                    Course(name: "Hoonete tehnosüsteemid ja energiatõhusus", eapCount: 6),
+                    Course(name: "Hoonete osad", eapCount: 6),
+                    Course(name: "Ehitusmaterjalid", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe - Meediumid ja meetodid",
+                courses: [
+                    Course(name: "Arhitektuuri alused - Kompositsioon, värviõpetus", eapCount: 6),
+                    Course(name: "Meediumid ja meetodid I - Joonistamine", eapCount: 3),
+                    Course(name: "Meediumid ja meetodid II - Joonistamine, graafika, CAD", eapCount: 6),
+                    Course(name: "Meediumid ja meetodid IV - BIM", eapCount: 3),
+                    Course(name: "Meediumid ja meetodid V - BIM, representatsioon", eapCount: 6),
+                    Course(name: "Meediumid ja meetodid VI - Representatsioon", eapCount: 3),
+                    Course(name: "Meedium ja meetodid III - Graafika, BIM", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe - Arhitektuurne projekt",
+                courses: [
+                    Course(name: "Projekteerimine VI - Korterelamu ja hoonete tüpoloogia", eapCount: 6),
+                    Course(name: "Projekteerimine VII - Avalik ruum ja esteetika", eapCount: 6),
+                    Course(name: "Planeerimine II - Linnaehituse analüüs ja planeering", eapCount: 6),
+                    Course(name: "Projekteerimine I - Suvemaja", eapCount: 6),
+                    Course(name: "Projekteerimine II - Ühiskondlik hoone", eapCount: 6),
+                    Course(name: "Projekteerimine III - Eramu", eapCount: 6),
+                    Course(name: "Projekteerimine IV - Interjöörid", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Projekteerimine V - Hoone Ehitusprojekt I", eapCount: 3),
+                    Course(name: "Projekteerimine V - Hoone ehitusprojekt II", eapCount: 3),
+                    Course(name: "Planeerimine I - Maastik ja planeering", eapCount: 9)
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Eesti kunsti ajalugu", eapCount: 3),
+                    Course(name: "Kujutav geomeetria ja joonestamine", eapCount: 3),
+                    Course(name: "Joonistamine", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Maalimine", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Kunstiajalugu", eapCount: 3),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Saksa keel I (erialane)", eapCount: 3),
+                    Course(name: "Saksa keel II (erialane)", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [Course(name: "Lõputöö", eapCount: 12)]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Joonistamise praktika", eapCount: 3),
+                    Course(name: "Vaatluspraktika", eapCount: 3),
+                    Course(name: "Maketipraktika", eapCount: 3),
+                    Course(name: "Mõõdistamine ja inventariseerimispraktika", eapCount: 3),
+                    Course(name: "Büroopraktika I", eapCount: 15),
+                    Course(name: "Büroopraktika II", eapCount: 6),
+                    Course(name: "Ehituspraktika", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Hoonete Ehitus",
@@ -33,7 +132,112 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Hoonete ehituse alusained",
+                courses: [
+                    Course(name: "Tehniline mehaanika II", eapCount: 6),
+                    Course(name: "Insenerigraafika I", eapCount: 3),
+                    Course(name: "Arvutigraafika II", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Insenerigraafika II", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika II", eapCount: 6),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Tehniline mehaanika I", eapCount: 3),
+                    Course(name: "Arvutigraafika I", eapCount: 3
+                    )
+                ]
+            ),
+            Module(
+                module: "Hoonete ehituse erialaained",
+                courses: [
+                    Course(name: "Ehitusmaterjalid", eapCount: 6),
+                    Course(name: "Ehitusfüüsika ja energiatõhususe alused", eapCount: 6),
+                    Course(name: "Ehitusstaatika", eapCount: 6),
+                    Course(name: "Hoone osad", eapCount: 3),
+                    Course(name: "Ehitusinfo modelleerimine (BIM)", eapCount: 3),
+                    Course(name: "Tehnoloogia I", eapCount: 3),
+                    Course(name: "Ehituskonstruktsioonide projekt", eapCount: 3),
+                    Course(name: "Hoonete tehnosüsteemid - projekt", eapCount: 3),
+                    Course(name: "Ehituskonstruktsioonide projekteerimise alused", eapCount: 3),
+                    Course(name: "Raudbetoonkonstruktsioonid", eapCount: 3),
+                    Course(name: "Hoone kavandamine + projekt", eapCount: 6),
+                    Course(name: "Ehitusalane õigusõpe", eapCount: 3),
+                    Course(name: "Kivikonstruktsioonid", eapCount: 3),
+                    Course(name: "Teraskonstruktsioonid", eapCount: 3),
+                    Course(name: "Pinnasemehaanika ja vundamendid", eapCount: 3),
+                    Course(name: "Inseneriprogrammid", eapCount: 3),
+                    Course(name: "Hoonete tehnosüsteemid I", eapCount: 3),
+                    Course(name: "Ehituskorraldus ja juhtimine", eapCount: 3),
+                    Course(name: "Puitkonstruktsioonid", eapCount: 3),
+                    Course(name: "Üldgeodeesia", eapCount: 3),
+                    Course(name: "Hoonete tehnosüsteemid II", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Eelarvestamine ja ehitusökonoomika + projekt", eapCount: 6),
+                    Course(name: "Tehnoloogia II", eapCount: 6),
+                    Course(name: "Ehituse organiseerimine + projekt", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Hoonete ehituse valikained",
+                courses: [
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Betoonikursus", eapCount: 3),
+                    Course(name: "Ehitiste 3D laserskaneerimine", eapCount: 3),
+                    Course(name: "Ettevõtte majandusanalüüs", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Ehitusgeoloogia", eapCount: 3),
+                    Course(name: "Geosünteedid", eapCount: 3),
+                    Course(name: "Sillakonstruktsioonide üldkursus", eapCount: 6),
+                    Course(name: "Rööbasteed", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Inglise keel - suuline ja kirjalik kommunikatsioon", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Eesti keele kirjalik väljendusoskus", eapCount: 3),
+                    Course(name: "Eesti keele üldkursus", eapCount: 6),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Ehitustehnoloogia erikursus", eapCount: 3),
+                    Course(name: "Remont- ja rekonstrueerimistööd", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Insenerieetika", eapCount: 3),
+                    Course(name: "Projektijuhtimine ja tootmise planeerimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Tehnoloogiapraktika I", eapCount: 3),
+                    Course(name: "Tehnoloogiapraktika II", eapCount: 3),
+                    Course(name: "Inseneripraktika I", eapCount: 15),
+                    Course(name: "Inseneripraktika II", eapCount: 15),
+                    Course(name: "Üldgeodeesia praktika", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Teedeehitus",
@@ -48,7 +252,105 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Teedeehituse õppekava alusained",
+                courses: [
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Insenerigraafika II", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika II", eapCount: 6),
+                    Course(name: "Tehniline mehaanika I", eapCount: 3),
+                    Course(name: "Tehniline mehaanika II", eapCount: 6),
+                    Course(name: "Insenerigraafika I", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Arvutigraafika I", eapCount: 3),
+                    Course(name: "Arvutigraafika II", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Teedeehituse õppekava erialaained",
+                courses: [
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Ehitusstaatika", eapCount: 6),
+                    Course(name: "Tee-ehitustööde korraldus + projekt", eapCount: 6),
+                    Course(name: "Teede hooldus ja korrashoid", eapCount: 3),
+                    Course(name: "Üldgeodeesia", eapCount: 3),
+                    Course(name: "Ehitusinfo modelleerimine (BIM)", eapCount: 3),
+                    Course(name: "Liikluskorraldus ja -ohutus", eapCount: 3),
+                    Course(name: "Ehitusalane õigusõpe", eapCount: 3),
+                    Course(name: "Ehitusgeoloogia", eapCount: 3),
+                    Course(name: "Tee projekt", eapCount: 3),
+                    Course(name: "Tee-ehitusmaterjalid", eapCount: 6),
+                    Course(name: "Pinnasemehaanika ja teekonstruktsioonid", eapCount: 6),
+                    Course(name: "Tee-ehitustööd I", eapCount: 6),
+                    Course(name: "Tee-ehitusökonoomika", eapCount: 3),
+                    Course(name: "Teeprojekteerimine", eapCount: 6),
+                    Course(name: "Tee-ehitusmasinad", eapCount: 3),
+                    Course(name: "Sillakonstruktsioonide üldkursus", eapCount: 6),
+                    Course(name: "Rööbasteed", eapCount: 3),
+                    Course(name: "Tee-ehitustööd II", eapCount: 6),
+                    Course(name: "Inseneriprogrammid", eapCount: 3),
+                    Course(name: "Eelarvestamine teedeehituses", eapCount: 3),
+                    Course(name: "Tee-ehitustööde järelevalve", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Teedeehituse õppekava valikained",
+                courses: [
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Eesti keele kirjalik väljendusoskus", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Ettevõtte majandusanalüüs", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Tehnoloogiapraktika II", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Geosünteedid", eapCount: 3),
+                    Course(name: "Eesti keele üldkursus", eapCount: 6),
+                    Course(name: "Betoonikursus", eapCount: 3),
+                    Course(name: "Ehitiste 3D laserskaneerimine", eapCount: 3),
+                    Course(name: "Insenerieetika", eapCount: 3),
+                    Course(name: "Ehitise elukaare hindamine", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Inglise keel - suuline ja kirjalik kommunikatsioon", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Tee-ehituspraktika I", eapCount: 3),
+                    Course(name: "Tee-ehituspraktika II", eapCount: 3),
+                    Course(name: "Inseneripraktika I", eapCount: 15),
+                    Course(name: "Inseneripraktika II", eapCount: 15),
+                    Course(name: "Üld- ja teedegeodeesia praktika ", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Rakendusgeodeesia",
@@ -66,26 +368,106 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Rakendusgeodeesia õppekava alusained",
+                courses: [
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Tehniline mehaanika I", eapCount: 3),
+                    Course(name: "Tehniline mehaanika II", eapCount: 6),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Arvutigraafika I", eapCount: 3),
+                    Course(name: "Arvutigraafika II", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Insenerigraafika I", eapCount: 3),
+                    Course(name: "Insenerigraafika II", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika II", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Rakendusgeodeesia õppekava erialaained",
+                courses: [
+                    Course(name: "Sillakonstruktsioonide üldkursus", eapCount: 6),
+                    Course(name: "Geodeetiliste võrkude tasandamine", eapCount: 3),
+                    Course(name: "Geodeesia I", eapCount: 9),
+                    Course(name: "Geodeesia II", eapCount: 6),
+                    Course(name: "Hoone osad", eapCount: 3),
+                    Course(name: "Ehitusinfo modelleerimine (BIM)", eapCount: 3),
+                    Course(name: "Ehitusalane õigusõpe", eapCount: 3),
+                    Course(name: "Kõrgem geodeesia", eapCount: 3),
+                    Course(name: "Ehitiste mõõdistamine I", eapCount: 6),
+                    Course(name: "Elektrontahhümeetria", eapCount: 3),
+                    Course(name: "Ehitiste mõõdistamine II", eapCount: 6),
+                    Course(name: "Geodeesia III", eapCount: 6),
+                    Course(name: "Teeprojekteerimine", eapCount: 6),
+                    Course(name: "Inseneriprogrammid", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Geodeesia IV", eapCount: 6),
+                    Course(name: "Ehitusgeodeesia", eapCount: 6),
+                    Course(name: "Insenerigeodeesia", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Rakendusgeodeesia õppekava valikained",
+                courses: [
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Eesti keele üldkursus", eapCount: 6),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Tee-ehitustööd II", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Eesti keele kirjalik väljendusoskus", eapCount: 3),
+                    Course(name: "Teedemajanduse juhtimine", eapCount: 3),
+                    Course(name: "Inglise keel - suuline ja kirjalik kommunikatsioon", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Tehnoloogia II", eapCount: 6),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Insenerieetika", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Tehnoloogia I", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Hoone kavandamine + projekt", eapCount: 6),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Rööbasteed", eapCount: 3),
+                    Course(name: "Geodeesia valikpraktika", eapCount: 3),
+                    Course(name: "Tee-ehitusmaterjalid", eapCount: 6),
+                    Course(name: "Tee-ehitustööd I", eapCount: 6),
+                    Course(name: "Ettevõtte majandusanalüüs", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Geodeesia praktika I", eapCount: 3),
+                    Course(name: "Geodeesia praktika II", eapCount: 3),
+                    Course(name: "Inseneripraktika I", eapCount: 15),
+                    Course(name: "Inseneripraktika II", eapCount: 15),
+                    Course(name: "Geodeesia praktika III", eapCount: 3)
+                ]
+            )
+        ]
     ),
-//    majorsMinors(
-//        name: "Kinnisvara Korrashoid",
-//        level: .applied,
-//        type: .ehitus,
-//        requirements: [
-//            Requirements(term: "Keskharidus"),
-//            Requirements(term: "Laia matemaatika riigieksami tulemus vähemalt 40 punkti")
-//        ],
-//        description: ["Uued moodsate lahendustega äri- ja eluhooned on tipptehnoloogiaga varustatud nutikad ja automatiseeritud kompleksid. Nende tõrgeteta toimimiseks ja omaniku/kliendi rahulolu tagamiseks vajatakse andekaid haldus- ja hooldusjuhte, kes tagavad hoonete kasutusperioodi jooksul kvaliteetse haldus-, hooldus- ja heakorrateenuse.", "Haritud kinnisvara korrashoiu spetsialistil on laialdane ehitustehniline pädevus ning üldtehniline taip, oskus lugeda jooniseid ning teadmised kütte-, jahutus- ja ventilatsioonisüsteemidest. Ta on hea suhtleja, oskab juhtida meeskonda ning omab õigus- ja majandusalaseid teadmisi.", "Kinnisvara korrashoiu õppekava tagab 3,5-aastase õppeperioodi jooksul eriala lõpetajale kõik eelloetletud teadmised võimaldamaks tegutseda kinnisvara korrashoiu valdkonnas pädeva ja kutset omava spetsialistina. Samuti on lõpetanutel võimalus jätkata õpinguid Tallinna Tehnikaülikooli magistriõppes.", "Üliõpilaste käsutuses on ehitusinstituudi tipptasemel laborid ja õpetajateks oma ala professionaalid. Spetsiifiliste kinnisvara korrashoiuga seotud õppeainete läbiviimine toimub koostöös Eesti Kinnisvara Korrashoiu Liiduga. Tihedat koostööd tehakse valdkonna mainekate riigi- ja eraettevõtetega nagu Riigi Kinnisvara AS, BPT Real Estate OÜ, Done Haldus OÜ, Cityhaldus OÜ, Reminet OÜ. Koostööpartneriteks on ka Tallinna Linnavalitsus, Haabersti vald ja Viimsi vald."],
-//        outcomes: ["Õppekava täies mahus läbinul on järgmine pädevus:", "Omab süsteemset ülevaadet kinnisvara korrashoiu teostamise enamlevinud vahenditest ja võimalustest ning tunneb hoonete haldamise ja hooldamise aluspõhimõtteid", "Oskab koostada lihtsamaid eelarveid, kalkulatsioone, kinnisvara korrashoiustrateegiaid, -tegevuskavasid ja lepinguid ning on suuteline hindama nende õiguslikku ja majanduslikku sisu", "On omandanud hoonete, rajatiste ja tehnosüsteemide kavandamise, ehitamise, hooldamise ja arendamisega seotud teoreetilised teadmised ning baastasemel praktilised oskused", "Tunneb ehitusmaterjale, ehitusprotsesside tehnoloogiat, ehitustööde vastuvõtmisega seotud nõudeid ja oskab hinnata tööde kvaliteeti", "Tunneb ja järgib valdkonda reguleerivaid õigusakte, standardeid ja tehnilisi norme", "Tunneb majanduse ja ettevõtluse aluseid ning oskab neid erialases töös rakendada", "Suudab õpitut töös rakendada ja ennast pidevalt erialaselt täiendada", "Lähtub oma tegevuses erialasest kutse-eetikast ning oskab arvestada sotsiaalsete, majanduslike, keskkonnahoiu ja eetiliste aspektidega", "Suudab ennast erialaselt väljendada nii suuliselt kui kirjalikult emakeeles ja vähemalt ühes võõrkeeles", "Vldab erialaseks tööks vajalikke suhtlus- ja juhtimisoskusi ning suudab töötada multidistsiplinaarses projektimeeskonnas.","Ettevõtete hinnangul on tööturul suur puudus noorest ja haritud põlvkonnast, kes lisaks spetsiifilistele erialateadmistele omavad häid teadmisi IT, digitaliseerimise ja virtualiseerimise vallast, mistõttu kinnisvara korrashoiu eriala lõpetanud üliõpilastele on pärast lõpetamist kindel töökoht garanteeritud."],
-//        language: .eesti,
-//        majorWebsite: "https://www.tktk.ee/korgkool/instituudid-ja-keskused/ehitusinstituut",
-//        spots: 20,
-//        duration: 4,
-//        studyLocation:  ["Tallinn"],
-//        eap: 240,
-//        cost: "0€"
-//    ),
     majorsMinors(
         name: "Transport ja Logistika",
         level: .applied,
@@ -103,7 +485,100 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3.5,
         studyLocation:  ["Tallinn"],
         eap: 210,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldained",
+                courses: [
+                    Course(name: "Andmetöötlus ja statistika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Transport ja logistika alusained",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 3),
+                    Course(name: "Operatsiooni- ja protsessijuhtimine", eapCount: 3),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Kaubaveo alused ja veoseohutus", eapCount: 3),
+                    Course(name: "E-teenused", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Organisatsiooni juhtimine ja töökorraldus", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Logistikakulude arvestus ja juhtimine", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Turundus", eapCount: 3),
+                    Course(name: "Logistika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Transport ja logistika erialaained",
+                courses: [
+                    Course(name: "Transpordisüsteemide logistika ja ekspedeerimine", eapCount: 3),
+                    Course(name: "Varude juhtimine", eapCount: 6),
+                    Course(name: "Projekt: logistikaseminar", eapCount: 3),
+                    Course(name: "Reisijatevedu", eapCount: 3),
+                    Course(name: "Transpordivahendid ja -tehnoloogiad", eapCount: 6),
+                    Course(name: "Transpordiökonoomika", eapCount: 3),
+                    Course(name: "Transpordiprojekt", eapCount: 3),
+                    Course(name: "Ostmine ja hanked", eapCount: 3),
+                    Course(name: "Mereveod", eapCount: 6),
+                    Course(name: "Lennuveod", eapCount: 6),
+                    Course(name: "Raudteeveod", eapCount: 6),
+                    Course(name: "Ettevõtte logistikasüsteemi juhtimine", eapCount: 6),
+                    Course(name: "Kestlikud ja intelligentsed transpordisüsteemid", eapCount: 3),
+                    Course(name: "Maanteeveod", eapCount: 6),
+                    Course(name: "Tarneahela haldamine ja lepingud", eapCount: 6),
+                    Course(name: "Logistika info- ja kommunikatsioonisüsteemid", eapCount: 3),
+                    Course(name: "Kauba käitlemine ja käitlemise tehnoloogiad", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Transport ja logistika vabaained",
+                courses: [
+                    Course(name: "Aktiivne müük", eapCount: 3),
+                    Course(name: "Protsesside modelleerimine", eapCount: 3),
+                    Course(name: "Tagastuslogistika", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Logistikaettevõtte finantsanalüüs ja finantsjuhtimine", eapCount: 3),
+                    Course(name: "Logistika simulatsioon", eapCount: 3),
+                    Course(name: "Rahvusvaheline majandus", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Kutsealane areng", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Ostuprotsessi korraldamine", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Klienditeenindus ja suhtlemispsühholoogia logistikas", eapCount: 3),
+                    Course(name: "Liiklusohutus - projekt", eapCount: 6),
+                    Course(name: "Humanitaarlogistika", eapCount: 3),
+                    Course(name: "Majandusmatemaatika", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Tutvumispraktika", eapCount: 3),
+                    Course(name: "Inseneripraktika", eapCount: 9),
+                    Course(name: "Diplomipraktika", eapCount: 15),
+                    Course(name: "Ettevõttepraktika", eapCount: 6)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Transpordi- ja Liikluskorraldus",
@@ -122,7 +597,133 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3.5,
         studyLocation:  ["Tallinn"],
         eap: 210,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Inseneriõpingute alused",
+                courses: [
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Transpordi ja liikluskorralduse alusained",
+                courses: [
+                    Course(name: "Organisatsiooni juhtimine ja töökorraldus", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Logistika ja kaubaveo alused. Veoseohutus", eapCount: 9),
+                    Course(name: "Transpordiökonoomika ja -poliitika", eapCount: 6),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                    Course(name: "Inseneri- ja arvutigraafika alused", eapCount: 6),
+                    Course(name: "Ettevõtlus", eapCount: 6),
+                    Course(name: "Uurimistöö meetodid", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Maanteetranspordi tehnoloogia ja liikluskorralduse erialaained",
+                courses: [
+                    Course(name: "Liiklusohutus ja -psühholoogia", eapCount: 6),
+                    Course(name: "Liikluskorraldus", eapCount: 9),
+                    Course(name: "Transpordiuuringud ja andmeanalüüs", eapCount: 6),
+                    Course(name: "Sõiduki infotehnoloogia", eapCount: 6),
+                    Course(name: "Intelligentsed transpordisüsteemid", eapCount: 6),
+                    Course(name: "Tehnotingimused", eapCount: 3),
+                    Course(name: "CAD-projekteerimine", eapCount: 6),
+                    Course(name: "Transpordivahendid ja -tehnoloogiad", eapCount: 9),
+                    Course(name: "Säästva transpordisüsteemi alused", eapCount: 3),
+                    Course(name: "Ühistranspordi korraldus. Linnaliiklus", eapCount: 9),
+                ]
+            ),
+            Module(
+                module: "Raudteetranspordi tehnoloogia ja liikluskorralduse erialaained",
+                courses: [
+                    Course(name: "Veerem, veeremimajandus ja veovahendite ringluse kavandamine", eapCount: 6),
+                    Course(name: "Raudteeautomaatika", eapCount: 3),
+                    Course(name: "Rööbasteed ja teemajandus", eapCount: 3),
+                    Course(name: "Raudteeliiklus", eapCount: 3),
+                    Course(name: "Raudtee seadusandlus. Raudteetransport", eapCount: 6),
+                    Course(name: "Raudteejaamad, transpordisõlmed", eapCount: 6),
+                    Course(name: "Raudteeettevõtte töökorraldus, riski- ja ohutusõpetus", eapCount: 6),
+                    Course(name: "Raudteeveod (kauba- ja reisijatevedu)", eapCount: 6),
+                    Course(name: "Raudteejaamade ja rööbasteede projekteerimise alused", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Raudtee riski- ja ohutusõpetus -projekt", eapCount: 3),
+                    Course(name: "Raudtee telemaatika ja ITS", eapCount: 6),
+                    Course(name: "Elektritehnika, elektroonika ja automatiseerimise alused", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Maanteetranspordi tehnoloogia ja liikluskorralduse valikained",
+                courses: [
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Saksa ärikeel", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Autotehnika", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Liiklusuuringud - projekt", eapCount: 6),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Erialane eesti keel", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Saksa keel I (erialane)", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Auto tehniline ekspertiis", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Autofüüsika", eapCount: 3),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Teeprojekteerimine", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Saksa keel II (erialane)", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                    Course(name: "Liiklusohutus - projekt", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Raudteetranspordi tehnoloogia ja liikluskorralduse valikained",
+                courses: [
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Saksa keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Veerem, veeremimajandus ja veovahendite ringluse kavandamine - projekt", eapCount: 3),
+                    Course(name: "Mere- ja lennuveod", eapCount: 6),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Raudtee rahvusvaheline kontekst ja transpordisüsteemide logistika", eapCount: 6),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Rööbasteed ja teemajandus - projekt", eapCount: 3),
+                    Course(name: "Raudteeliiklus ja raudteetransport - projekt", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Raudteeautomaatika - projekt", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Erialane eesti keel", eapCount: 3),
+                    Course(name: "Saksa ärikeel", eapCount: 3),
+                    Course(name: "Saksa keel II (erialane)", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Inseneripraktika", eapCount: 15),
+                    Course(name: "Diplomieelne praktika", eapCount: 15),
+                    Course(name: "Tutvumispraktika", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 15)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Ostu- ja Hankekorraldus",
@@ -140,7 +741,97 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3.5,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Andmetöötlus ja statistika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Ostu- ja hankekorralduse õppekava alusained",
+                courses: [
+                    Course(name: "Eelarvestamine", eapCount: 3),
+                    Course(name: "Transpordivahendid ja -tehnoloogiad", eapCount: 9),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Turundus", eapCount: 3),
+                    Course(name: "Logistika alused", eapCount: 3),
+                    Course(name: "Kuluarvestus ja kulujuhtimine", eapCount: 3),
+                    Course(name: "Uurimistöö meetodid", eapCount: 3),
+                    Course(name: "Kaubaveo alused ja veoseohutus", eapCount: 3),
+                    Course(name: "Finantsarvestus ja finantsjuhtimine", eapCount: 3),
+                    Course(name: "Organisatsiooni juhtimine ja töökorraldus", eapCount: 3),
+                    Course(name: "Logistika info- ja kommunikatsioonisüsteemid", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Ostu- ja hankekorralduse õppekava erialaained ",
+                courses: [
+                    Course(name: "Riigihangete planeerimine ja menetlus", eapCount: 6),
+                    Course(name: "Kategooria juhtimine", eapCount: 6),
+                    Course(name: "Kauba käitlemine ja käitlemise tehnoloogiad", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Projekt: hankeplaani koostamine", eapCount: 3),
+                    Course(name: "Tarneahela haldamine", eapCount: 3),
+                    Course(name: "Projekt: ostu ja hanke korraldamine", eapCount: 3),
+                    Course(name: "Hankeprotsessi analüüsimine", eapCount: 3),
+                    Course(name: "Ostuprotsessi analüüsimine", eapCount: 3),
+                    Course(name: "Ostu- ja hanketegevuse korraldamine", eapCount: 3),
+                    Course(name: "Varude juhtimine", eapCount: 6),
+                    Course(name: "Ettevõtte logistikasüsteemi juhtimine", eapCount: 6),
+                    Course(name: "Transpordisüsteemide logistika ja ekspedeerimine", eapCount: 6),
+                    Course(name: "Rahvusvaheline majandus", eapCount: 3),
+                    Course(name: "Töötajate juhtimine ja juhendamine", eapCount: 3),
+                    Course(name: "Ostuprotsessi korraldamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ostu- ja hankekorralduse õppekava valikained",
+                courses: [
+                    Course(name: "Humanitaarlogistika", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Aktiivne müük", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Ostu- ja müügitöö korraldus", eapCount: 3),
+                    Course(name: "Strateegiline juhtimine", eapCount: 3),
+                    Course(name: "Personalihaldus ja juhtimispsühholoogia", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Autofüüsika", eapCount: 3),
+                    Course(name: "Tagastuslogistika", eapCount: 3),
+                    Course(name: "Jae- ja hulgikaubandus", eapCount: 6),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Ettevõtluspraktika", eapCount: 3),
+                    Course(name: "Eriala tööpraktika", eapCount: 12),
+                    Course(name: "Tutvumispraktika", eapCount: 3),
+                    Course(name: "Diplomipraktika", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "lõputöö",
+                courses: [
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Lõputöö", eapCount: 15)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Keskkonnatehnoloogia ja -Juhtimine",
@@ -158,7 +849,99 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Toote olelusring ja sotsiaalne innovatsioon", eapCount: 3),
+                    Course(name: "Keskkonnaeetika", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Geodeesia alused", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                    Course(name: "Keskkonnakeemia", eapCount: 3),
+                    Course(name: "Keskkonnafüüsika", eapCount: 3),
+                    Course(name: "Energiatehnika alused", eapCount: 3),
+                    Course(name: "Rakendusmehaanika", eapCount: 3),
+                    Course(name: "Orgaaniline keemia", eapCount: 3),
+                    Course(name: "Materjaliõpetus", eapCount: 3),
+                    Course(name: "Ökoloogia alused", eapCount: 3),
+                    Course(name: "Automatiseerimise alused", eapCount: 3),
+                    Course(name: "Andmeanalüüs ja geoinfosüsteemid", eapCount: 3),
+                    Course(name: "Anorgaaniline ja analüütiline keemia", eapCount: 6),
+                    Course(name: "CAD süsteemide alused", eapCount: 3),
+                    Course(name: "Hüdraulika ja pneumaatika", eapCount: 3),
+                    Course(name: "Eesti kooslused ja looduskaitse", eapCount: 3),
+                    Course(name: "Geoloogia", eapCount: 3),
+                    Course(name: "Insenerigraafika", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Tehnoehitised- ja võrgud", eapCount: 6),
+                    Course(name: "Kvaliteedijuhtimine", eapCount: 3),
+                    Course(name: "Jäätmeliigid", eapCount: 6),
+                    Course(name: "Keskkonnamõjude hindamine", eapCount: 3),
+                    Course(name: "Maa- ja keskkonnaõigus", eapCount: 6),
+                    Course(name: "Keskkonnajuhtimine ja aruandlus ettevõttes", eapCount: 3),
+                    Course(name: "Ruumilise keskkonna planeerimine", eapCount: 3),
+                    Course(name: "Jäätmekäitlus", eapCount: 9),
+                    Course(name: "Taastuvad energiaallikad ja energotehnoloogiad", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Keskkonnainfosüsteemid", eapCount: 3),
+                    Course(name: "Joogi- ja protsessivee töötlemine", eapCount: 6),
+                    Course(name: "Reovee puhastus ja taaskasutamine", eapCount: 6),
+                    Course(name: "Saastunud pinnase tervendamine", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Organisatsiooni juhtimine ja töökorraldus", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Eesti keele kirjalik väljendusoskus", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                    Course(name: "Veebirakenduste loomise alused", eapCount: 3),
+                    Course(name: "Tootmiskorralduse alused", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Programmeerimise algkursus", eapCount: 3),
+                    Course(name: "Kultuurilugu ja muinsuskaitse", eapCount: 3),
+                    Course(name: "Keskkonnaprojektide rahastamine ja juhtimine", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Matemaatika erikursus", eapCount: 3),
+                    Course(name: "Inglise keel - suuline ja kirjalik kommunikatsioon", eapCount: 3),
+                    Course(name: "Reoveepuhastusprotsesside modelleerimine", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Erialapraktika I", eapCount: 12),
+                    Course(name: "Erialapraktika II", eapCount: 21)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 9)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Tootmine ja Tootmiskorraldus",
@@ -176,7 +959,109 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Keskkonnaeetika", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Väärtuspakkumise loomine tootmisprotsessis", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Tugevusõpetus", eapCount: 3),
+                    Course(name: "Keemia ja materjalitehnoloogia alused", eapCount: 3),
+                    Course(name: "Majandusanalüüs", eapCount: 3),
+                    Course(name: "Inseneri- ja arvutigraafika alused", eapCount: 3),
+                    Course(name: "Organisatsiooni juhtimine ja töökorraldus", eapCount: 3),
+                    Course(name: "Kulusäästlikkus (LEAN) ja agiilsus tootmises", eapCount: 6),
+                    Course(name: "Tööstusomand ja selle õiguskaitse", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Projektipõhine tootmiskorraldus ja tellimuse optimeerimine", eapCount: 6),
+                    Course(name: "Uurimistöö meetodid", eapCount: 3),
+                    Course(name: "Tehnomaterjalid", eapCount: 3),
+                    Course(name: "CAD projekteerimine", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Rakenduselektroonika", eapCount: 3),
+                    Course(name: "Tootmisprotsesside väljatöötamine ja arendamine (sh projekt)", eapCount: 6),
+                    Course(name: "Sissejuhatus kaasaegsesse tootmistehnoloogiasse", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimine", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Tööuuringute alused ja tootmisvõimsuste planeerimine", eapCount: 6),
+                    Course(name: "Intelligentsed tootmissüsteemid ja tehnoloogiad", eapCount: 3),
+                    Course(name: "Tööstusdisain", eapCount: 6),
+                    Course(name: "Tolereerimine ja mõõtetehnika", eapCount: 3),
+                    Course(name: "Tootmiskorralduse alused", eapCount: 3),
+                    Course(name: "Standardiseerimine ja sertifitseerimine", eapCount: 3),
+                    Course(name: "Kaasaegsed info- ja kommunikatsioonisüsteemid", eapCount: 3),
+                    Course(name: "Tarneahela strateegiline juhtimine", eapCount: 6),
+                    Course(name: "Tootmistehnika alused", eapCount: 3),
+                    Course(name: "Ettevõtte logistikasüsteemide alused", eapCount: 3),
+                    Course(name: "Varude haldamine ja optimeerimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Aktiivne müük", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Tekstiilitööstuse tehnoloogia", eapCount: 6),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Personalihaldus ja juhtimispsühholoogia", eapCount: 3),
+                    Course(name: "Turundus", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Rahvusvaheline majandus", eapCount: 3),
+                    Course(name: "Puidu- ja mööblitööstuse tehnoloogia", eapCount: 6),
+                    Course(name: "Protsesside simulatsiooni süsteemid", eapCount: 3),
+                    Course(name: "Metallide survetöötlemine ja valutehnoloogia", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Tarbijakaitse ja tsiviilõiguse alused", eapCount: 3),
+                    Course(name: "Keskkonnajuhtimine ja aruandlus ettevõttes", eapCount: 3),
+                    Course(name: "Elektroonikatööstuse tehnoloogia", eapCount: 6),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Metallitööstuse tehnoloogia", eapCount: 6),
+                    Course(name: "Plastitööstuse tehnoloogia", eapCount: 6),
+                    Course(name: "Toiduainetetööstuse tehnoloogia", eapCount: 6),
+                    Course(name: "E-kaubandus ja e-turundus", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Välisturu regulatsioonid", eapCount: 3),
+                    Course(name: "CAD süsteemide alused", eapCount: 3),
+                    Course(name: "Programmeerimise algkursus", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Tutvumispraktika", eapCount: 6),
+                    Course(name: "Diplomipraktika", eapCount: 6),
+                    Course(name: "Ettevõtluspraktika II", eapCount: 9),
+                    Course(name: "Inseneripraktika", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 9)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Kinnisvara Korrashoid",
@@ -194,7 +1079,98 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3.5,
         studyLocation:  ["Tallinn"],
         eap: 210,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Kinnisvara korrashoiu alusained",
+                courses: [
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Insenerigraafika I", eapCount: 3),
+                    Course(name: "Insenerigraafika II", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika II", eapCount: 6),
+                    Course(name: "Tehniline mehaanika I", eapCount: 3),
+                    Course(name: "Arvutigraafika I", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Kinnisvara korrashoiu erialaained",
+                courses: [
+                    Course(name: "Kinnisvarakeskkonna korrashoiu alused", eapCount: 6),
+                    Course(name: "Hoone kavandamine + projekt", eapCount: 6),
+                    Course(name: "Erialane õigusõpe", eapCount: 6),
+                    Course(name: "Hoone elektripaigaldised, automaatika ja erisüsteemid", eapCount: 6),
+                    Course(name: "Kinnistu ja hoone tehnohooldus ja heakord", eapCount: 6),
+                    Course(name: "Kinnisvarakeskkonna juhtimise alused", eapCount: 6),
+                    Course(name: "Remont- ja rekonstrueerimistööd", eapCount: 3),
+                    Course(name: "Hoone osad", eapCount: 3),
+                    Course(name: "Kinnisvara haldamine", eapCount: 6),
+                    Course(name: "Kinnisvarakeskkonda toetavad teenused", eapCount: 3),
+                    Course(name: "Üldgeodeesia", eapCount: 3),
+                    Course(name: "Hoonete tehnosüsteemid + projekt", eapCount: 9),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Eelarvestamine ja ehitusökonoomika + projekt", eapCount: 6),
+                    Course(name: "Ehitusfüüsika ja energiatõhususe alused", eapCount: 6),
+                    Course(name: "Ehitusmaterjalid", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Kinnisvara korrashoiu valikained",
+                courses: [
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Tehnoloogia I", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Ehituskonstruktsioonide projekteerimise alused", eapCount: 3),
+                    Course(name: "Ettevõtte majandusanalüüs", eapCount: 3),
+                    Course(name: "Tehnoloogia II", eapCount: 6),
+                    Course(name: "Ehituskorraldus ja juhtimine", eapCount: 3),
+                    Course(name: "Inglise keel - suuline ja kirjalik kommunikatsioon", eapCount: 3),
+                    Course(name: "Projektijuhtimine ja tootmise planeerimine", eapCount: 3),
+                    Course(name: "Eesti keele kirjalik väljendusoskus", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Eesti keele üldkursus", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Ehitiste 3D laserskaneerimine", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Tehniline mehaanika II", eapCount: 6),
+                    Course(name: "Arvutigraafika II", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Ehitusinfo modelleerimine (BIM)", eapCount: 3),
+                    Course(name: "Insenerieetika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Hoolduspraktika", eapCount: 3),
+                    Course(name: "Praktika kinnisvara haldus- ja arendusettevõttes", eapCount: 15),
+                    Course(name: "Praktika kinnisvara hooldus- ja heakorraettevõttes", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Moetööstus",
@@ -212,7 +1188,127 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Toote olelusring ja sotsiaalne innovatsioon", eapCount: 3),
+                    Course(name: "Keskkonnaeetika", eapCount: 3),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Insenerigraafika", eapCount: 3),
+                    Course(name: "Majandusõpetus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Kvaliteedijuhtimine", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Juurdelõikuse ja õmblustootmise töökorraldus", eapCount: 3),
+                    Course(name: "Tekstiilmaterjalide testimine", eapCount: 6),
+                    Course(name: "Tööstusdisain", eapCount: 6),
+                    Course(name: "Seadmed", eapCount: 3),
+                    Course(name: "Õmblustehnoloogia I", eapCount: 6),
+                    Course(name: "Rõivakompositsioon", eapCount: 3),
+                    Course(name: "Lõikeõpetus I", eapCount: 6),
+                    Course(name: "Digitaalse kujundamise tehnoloogiad I", eapCount: 3),
+                    Course(name: "Antropomeetria", eapCount: 3),
+                    Course(name: "Materjaliõpetus I", eapCount: 6),
+                    Course(name: "Väärtuspakkumise loomine tootmisprotsessis", eapCount: 3),
+                    Course(name: "Materjaliõpetus III", eapCount: 3),
+                    Course(name: "Üld- ja tekstiilikeemia", eapCount: 3),
+                    Course(name: "Projektipõhine tootmiskorraldus ja tellimuse optimeerimine", eapCount: 6),
+                    Course(name: "Materjaliõpetus II", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Organisatsiooni juhtimine ja töökorraldus", eapCount: 3),
+                    Course(name: "Integreeritud tehnoloogiad", eapCount: 3),
+                    Course(name: "Tootmiseelne tootearendus", eapCount: 3),
+                    Course(name: "Integreeritud tehnoloogiad - projekt", eapCount: 3),
+                    Course(name: "Digiprintimise tehnoloogiad", eapCount: 3),
+                    Course(name: "IKT oskused töökorralduses", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                    Course(name: "Tootekollektsioonide koostamine", eapCount: 6),
+                    Course(name: "Ergonoomika ja tööuuringud", eapCount: 3),
+                    Course(name: "Välisturu regulatsioonid", eapCount: 3),
+                    Course(name: "Digiprintimise tehnoloogiad - projekt", eapCount: 6),
+                    Course(name: "E-kaubandus ja e-turundus", eapCount: 3),
+                    Course(name: "Tarbijakaitse ja tsiviilõiguse alused", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Kaasaegsed info- ja kommunikatsioonisüsteemid", eapCount: 3),
+                    Course(name: "Digitaalse kujundamise tehnoloogiad II", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Rõivaste visuaalne kujutamine", eapCount: 3),
+                    Course(name: "Õmblustehnoloogia II", eapCount: 3),
+                    Course(name: "Lõikeõpetus II", eapCount: 6),
+                    Course(name: "Kerged rõivad - projekt", eapCount: 6),
+                    Course(name: "Mulaaž", eapCount: 3),
+                    Course(name: "Õmblustehnoloogia III", eapCount: 3),
+                    Course(name: "Lõikeõpetus III", eapCount: 6),
+                    Course(name: "Ülerõivad - projekt", eapCount: 6),
+                    Course(name: "Meesterõivad - projekt", eapCount: 6),
+                    Course(name: "Korsetilised ja pesu - projekt", eapCount: 3),
+                    Course(name: "CAD/CAM õmblustööstuses", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Teabehalduse alused", eapCount: 3),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Joonistamine ja maalimine", eapCount: 3),
+                    Course(name: "Protsesside simulatsiooni süsteemid", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Robootika alused", eapCount: 3),
+                    Course(name: "Rahvarõivad", eapCount: 3),
+                    Course(name: "Tarneahela strateegiline juhtimine", eapCount: 6),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Automatiseerimise alused", eapCount: 3),
+                    Course(name: "Matemaatika erikursus", eapCount: 3),
+                    Course(name: "Rõivastilistika ja -etikett", eapCount: 3),
+                    Course(name: "Läbirääkimised ja mõjutamispsühholoogia", eapCount: 3),
+                    Course(name: "Rõiva- ja tekstiilitoodete ajalugu", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Erialased arvutiprogrammid 3D", eapCount: 3),
+                    Course(name: "Veebirakenduste loomise alused", eapCount: 3),
+                    Course(name: "Disainiprojekt", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Uurimistöö meetodid", eapCount: 3),
+                    Course(name: "Tootmiskorralduse alused", eapCount: 3),
+                    Course(name: "Digitaalse kujundamise tehnoloogiad III", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Ettevõttepraktika I", eapCount: 6),
+                    Course(name: "Ettevõttepraktika II", eapCount: 6),
+                    Course(name: "Vaatluspraktika", eapCount: 3),
+                    Course(name: "Diplomipraktika", eapCount: 6),
+                    Course(name: "Inseneripraktika I", eapCount: 6),
+                    Course(name: "Inseneripraktika II", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Autotehnika",
@@ -231,7 +1327,103 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Tehniline mehaanika", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Tolereerimine ja mõõtetehnika", eapCount: 3),
+                    Course(name: "Hüdraulika ja pneumaatika", eapCount: 3),
+                    Course(name: "Tehnomaterjalid", eapCount: 3),
+                    Course(name: "CAD tehniline joonestamine", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Auto konstrueerimine + projekt", eapCount: 6),
+                    Course(name: "Auto hübriid- ja elektriajam", eapCount: 6),
+                    Course(name: "Auto elektroonika ja programmeerimine", eapCount: 6),
+                    Course(name: "Auto elektriseadmed ja -süsteemid", eapCount: 6),
+                    Course(name: "Auto integreeritud süsteemid", eapCount: 6),
+                    Course(name: "Auto liikurmasinad, eritranspordi- ja militaartehnika", eapCount: 6),
+                    Course(name: "Auto sisepõlemismootor", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Auto töökoja seadmed ja tööprotsessid", eapCount: 3),
+                    Course(name: "Mootorikütused ja määrdeained", eapCount: 3),
+                    Course(name: "Auto müügi- ja teeninduse juhtimine", eapCount: 6),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 3),
+                    Course(name: "Auto - jõuülekanne", eapCount: 6),
+                    Course(name: "Auto - kere ja veermik", eapCount: 6),
+                    Course(name: "Liiklusohutus", eapCount: 3),
+                    Course(name: "Auto tehniline ekspertiis", eapCount: 3),
+                    Course(name: "Auto dünaamika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "valikained",
+                courses: [
+                    Course(name: "Insenerieetika", eapCount: 3),
+                    Course(name: "Õppimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Metallide survetöötlemine ja valutehnoloogia", eapCount: 3),
+                    Course(name: "Turundus", eapCount: 3),
+                    Course(name: "Seadmete internet ja turvalisus", eapCount: 3),
+                    Course(name: "Metallide lõiketöötlustehnoloogia", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                    Course(name: "Keevitustehnoloogia praktikum", eapCount: 3),
+                    Course(name: "FEM arvutused", eapCount: 3),
+                    Course(name: "Hüdroajamite arvutuse alused", eapCount: 3),
+                    Course(name: "Kvaliteediõpetus", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Keevitustehnika", eapCount: 3),
+                    Course(name: "Aktiivne müük", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 6),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Paindtootmismoodulid", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Diplomipraktika", eapCount:   15),
+                    Course(name: "Autotehnikupraktika", eapCount: 9),
+                    Course(name: "Inseneripraktika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Elektritehnika",
@@ -249,7 +1441,102 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Õppimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Sissejuhatus elektroenergeetikasse", eapCount: 3),
+                    Course(name: "Elektrimaterjalid", eapCount: 3),
+                    Course(name: "Elektrotehnika alused", eapCount: 6),
+                    Course(name: "Digitaaltehnika", eapCount: 3),
+                    Course(name: "Tehniline mehaanika", eapCount: 6),
+                    Course(name: "Elektroonika alused", eapCount: 3),
+                    Course(name: "Programmeerimise alused", eapCount: 3),
+                    Course(name: "Elektri- ja automaatikapaigaldiste projekteerimistarkvarad", eapCount: 6),
+                    Course(name: "CAD süsteemid", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Elektriseadmete paigaldus ja käit", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Elektriajamid, elektriajamite juhtimine", eapCount: 6),
+                    Course(name: "Kõrgepingetehnika", eapCount: 3),
+                    Course(name: "Rakenduselektroonika", eapCount: 3),
+                    Course(name: "Tööstuslikud elektriseadmed ja paigaldised", eapCount: 6),
+                    Course(name: "Automaatika, automaatjuhtimine", eapCount: 6),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Elektriliste ja mitteelektriliste suuruste mõõtmine", eapCount: 3),
+                    Course(name: "Elektriaparaadid", eapCount: 3),
+                    Course(name: "Elektervalgustus", eapCount: 3),
+                    Course(name: "Projekteerimine - madalpingepaigaldised", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Elektrimasinad", eapCount: 6),
+                    Course(name: "Tarbijate elektrivarustus", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Elektrimasinate projekteerimine", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Taastuvenergeetika", eapCount: 3),
+                    Course(name: "Keevitustehnika", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Elektripaigaldiste eelarvestamine + projekt", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Tööstusrobotid", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Metallide lõiketöötlustehnoloogia", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 6),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Mikrokontrollerid", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Kvaliteediõpetus", eapCount: 3),
+                    Course(name: "Hüdro- ja pneumoseadmed", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Tööstuslikud infovõrgud", eapCount: 3),
+                    Course(name: "Hooneautomaatika", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Ehitusmaterjalid", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Diplomipraktika", eapCount:   15),
+                    Course(name: "Ettevõtluspraktika", eapCount: 12),
+                    Course(name: "Inseneripraktika", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Masinaehitus",
@@ -267,7 +1554,114 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Inseneri- ja arvutigraafika alused", eapCount: 3),
+                    Course(name: "Masinaehitustehnoloogia alused", eapCount: 6),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "Tolereerimine ja mõõtetehnika", eapCount: 6),
+                    Course(name: "Hüdro- ja pneumoseadmed", eapCount: 3),
+                    Course(name: "Elektrotehnika ja elektriseadmed", eapCount: 6),
+                    Course(name: "Programmeerimise alused", eapCount: 3),
+                    Course(name: "Andur- ja täiturmehhanismid", eapCount: 3),
+                    Course(name: "Tugevusõpetus", eapCount: 3),
+                    Course(name: "Ettevõtte informaatika", eapCount: 3),
+                    Course(name: "CAD süsteemid", eapCount: 6),
+                    Course(name: "Teoreetiline mehaanika", eapCount: 3),
+                    Course(name: "Tehnomaterjalid", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Keevitustehnoloogia praktikum", eapCount: 3),
+                    Course(name: "Keevitustehnika", eapCount: 6),
+                    Course(name: "Masinaelemendid", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "FEM arvutused", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Universaalsed seadmed ja rakised", eapCount: 3),
+                    Course(name: "Metallide lõiketöötlemise alused", eapCount: 6),
+                    Course(name: "Lõiketöötlemine ja lõikeriistad", eapCount: 3),
+                    Course(name: "Tööstusrobotite programmeerimine", eapCount: 6),
+                    Course(name: "APJ-seadmete programmeerimine", eapCount: 3),
+                    Course(name: "Metallkonstruktsioonide tehnoloogia kursuseprojekt", eapCount: 6),
+                    Course(name: "Kvaliteediõpetus", eapCount: 3),
+                    Course(name: "Pneumaatikasüsteemide projekteerimine", eapCount: 3),
+                    Course(name: "Rakiste projekteerimine", eapCount: 3),
+                    Course(name: "Tootmiskorralduse alused", eapCount: 3),
+                    Course(name: "Metallkonstruktsioonide tehnoloogia", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Paindtootmismoodulid", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Saksa keel II (erialane)", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Geomeetria inseneerias", eapCount: 3),
+                    Course(name: "Tööstuskontrollerite programmeerimine", eapCount: 6),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 6),
+                    Course(name: "Tööstusomand ja selle õiguskaitse", eapCount: 3),
+                    Course(name: "Statistika", eapCount: 3),
+                    Course(name: "Tööstusdisain", eapCount: 6),
+                    Course(name: "Robotisüsteemide projekteerimine", eapCount: 6),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Tööstuslikud infovõrgud", eapCount: 3),
+                    Course(name: "Masinaehitustehnoloogia erikursus", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "CAM süsteemid", eapCount: 6),
+                    Course(name: "Hüdroajamite arvutuse alused", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Mikrokontrollerid", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 3),
+                    Course(name: "Väljendus- ja väitlusõpetus", eapCount: 3),
+                    Course(name: "Metallide survetöötlemine ja valutehnoloogia", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Saksa keel I (erialane)", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Ettevõtluspraktika I", eapCount: 6),
+                    Course(name: "Ettevõtluspraktika II", eapCount: 6),
+                    Course(name: "Inseneripraktika I", eapCount: 6),
+                    Course(name: "Inseneripraktika II", eapCount: 6),
+                    Course(name: "Diplomipraktika", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Robotitehnika",
@@ -285,7 +1679,107 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 4,
         studyLocation:  ["Tallinn"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldained",
+                courses: [
+                    Course(name: "Lepinguõigus ja töökeskkond", eapCount: 6),
+                    Course(name: "Majandusõpetus", eapCount: 6),
+                    Course(name: "Kommunikatsioon, koostöö ja kriitiline mõtlemine", eapCount: 6),
+                    Course(name: "Rakendusmatemaatika", eapCount: 6),
+                    Course(name: "Rakendusfüüsika", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Eriala alusained",
+                courses: [
+                    Course(name: "Materjaliõpetus", eapCount: 3),
+                    Course(name: "Hüdro- ja pneumoseadmed", eapCount: 3),
+                    Course(name: "Automatiseerimise alused", eapCount: 3),
+                    Course(name: "Elektrotehnika ja elektriseadmed", eapCount: 6),
+                    Course(name: "Programmeerimise alused", eapCount: 3),
+                    Course(name: "Elektroonika alused", eapCount: 3),
+                    Course(name: "Tolereerimine ja mõõtetehnika", eapCount: 3),
+                    Course(name: "CAD süsteemid", eapCount: 6),
+                    Course(name: "Inseneri- ja arvutigraafika alused", eapCount: 3),
+                    Course(name: "Tehniline mehaanika", eapCount: 6),
+                    Course(name: "Robootika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaained",
+                courses: [
+                    Course(name: "Anduritehnika", eapCount: 3),
+                    Course(name: "Mobiilrobootika - projekt", eapCount: 6),
+                    Course(name: "Mikrokontrollerid", eapCount: 3),
+                    Course(name: "Robotite konstrueerimine - projekt I", eapCount: 6),
+                    Course(name: "Robotite konstrueerimine - projekt II", eapCount: 6),
+                    Course(name: "Tööstuskontrollerite programmeerimine", eapCount: 6),
+                    Course(name: "Tööstusrobotite programmeerimine", eapCount: 6),
+                    Course(name: "Elektriliste ja mitteelektriliste suuruste mõõtmine", eapCount: 3),
+                    Course(name: "Tööstuslikud infovõrgud", eapCount: 3),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Robotisüsteemide projekteerimine", eapCount: 6),
+                    Course(name: "Andmeanalüüs", eapCount: 3),
+                    Course(name: "Elektriajamid, elektriajamite juhtimine", eapCount: 6),
+                    Course(name: "Tootmistehnoloogiate alused ja rakised", eapCount: 6),
+                    Course(name: "Kvaliteediõpetus", eapCount: 3),
+                    Course(name: "Pneumaatikasüsteemide projekteerimine", eapCount: 3),
+                    Course(name: "Masinnägemine", eapCount: 3),
+                    Course(name: "Seadmete internet ja turvalisus", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Saksa keel algajatele", eapCount: 3),
+                    Course(name: "Saksa keel edasijõudnutele", eapCount: 3),
+                    Course(name: "Saksa keel I (erialane)", eapCount: 3),
+                    Course(name: "Masinmõõtmine", eapCount: 3),
+                    Course(name: "Hooneautomaatika", eapCount: 3),
+                    Course(name: "Komposiidid, pinded ja tehnoplastid", eapCount: 3),
+                    Course(name: "Inglise ärikeel", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Saksa keel II (erialane)", eapCount: 3),
+                    Course(name: "Külalislektorite loengud", eapCount: 3),
+                    Course(name: "Inglise keel II (erialane)", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 6),
+                    Course(name: "Tekstiilitootmise tehnoloogia", eapCount: 3),
+                    Course(name: "Ökoloogia ja keskkonnakaitse", eapCount: 3),
+                    Course(name: "FEM arvutused", eapCount: 3),
+                    Course(name: "Ehitusmaterjalid ja tehnoloogia", eapCount: 3),
+                    Course(name: "Materjaliõpetus", eapCount: 3),
+                    Course(name: "Rakendusuuringute metoodika", eapCount: 3),
+                    Course(name: "Tootmiskorralduse alused", eapCount: 3),
+                    Course(name: "Projektitöö", eapCount: 3),
+                    Course(name: "Kehakultuur", eapCount: 3),
+                    Course(name: "Ettevõtte majandusanalüüs", eapCount: 3),
+                    Course(name: "Inglise keel I (erialane)", eapCount: 3),
+                    Course(name: "Keevitustehnika", eapCount: 3),
+                    Course(name: "Metallide lõiketöötlustehnoloogia", eapCount: 3),
+                    Course(name: "Vene ärikeel", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Praktika",
+                courses: [
+                    Course(name: "Ettevõtluspraktika I", eapCount: 6),
+                    Course(name: "Ettevõtluspraktika II", eapCount: 6),
+                    Course(name: "Inseneripraktika", eapCount: 12),
+                    Course(name: "Diplomipraktika", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Lõputöö",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 12)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Ärijuhtimine",
@@ -303,7 +1797,142 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3.5,
         studyLocation:  ["Mõdriku"],
         eap: 210,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Akadeemiline suhtlus inglise keeles", eapCount: 3),
+                    Course(name: "Akadeemiline enesejuhtimine", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 6),
+                    Course(name: "Suuline ja kirjalik eneseväljendus", eapCount: 3),
+                    Course(name: "Ametialane suhtlemine", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Makroökonoomika", eapCount: 3),
+                    Course(name: "Äriplaan", eapCount: 3),
+                    Course(name: "Äritarkvara", eapCount: 3),
+                    Course(name: "Erialane inglise keel", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimine", eapCount: 3),
+                    Course(name: "Tootmise korraldamine", eapCount: 3),
+                    Course(name: "Organisatsioonikäitumine", eapCount: 3),
+                    Course(name: "Ettevõtlus", eapCount: 3),
+                    Course(name: "Juhtimine", eapCount: 6),
+                    Course(name: "Tarneahela juhtimine", eapCount: 3),
+                    Course(name: "Äri-, võla- ja lepinguõigus", eapCount: 6),
+                    Course(name: "Andmeanalüüs", eapCount: 3),
+                    Course(name: "Finantsarvestus ja maksundus", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Finantsarvestus", eapCount: 3),
+                    Course(name: "Äristatistika", eapCount: 3),
+                    Course(name: "Strateegiline juhtimine", eapCount: 6),
+                    Course(name: "Majandusmatemaatika", eapCount: 3),
+                    Course(name: "Majanduspoliitika", eapCount: 3),
+                    Course(name: "Raha, finantsinstitutsioonid ja turud", eapCount: 3),
+                    Course(name: "Turundus", eapCount: 6),
+                    Course(name: "Ettevõtte rahandus", eapCount: 3),
+                    Course(name: "Mikroökonoomika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe: Finantsjuhtimine",
+                courses: [
+                    Course(name: "Finantsanalüüs", eapCount: 6),
+                    Course(name: "Finantsjuhtimine", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Finantskavandamine", eapCount: 3),
+                    Course(name: "Investeeringute analüüs", eapCount: 3),
+                    Course(name: "Kulu- ja juhtimisarvestus", eapCount: 3),
+                    Course(name: "Auditi alused", eapCount: 3),
+                    Course(name: "Uurimistöö", eapCount: 3),
+                    Course(name: "Uurimistöö metoodika", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Erialaõpe: Personalijuhtimine",
+                courses: [
+                    Course(name: "Töö analüüs", eapCount: 3),
+                    Course(name: "Töökohtade hindamine", eapCount: 3),
+                    Course(name: "Uurimistöö", eapCount: 3),
+                    Course(name: "Töö- ja palgakorraldus", eapCount: 6),
+                    Course(name: "Uurimistöö metoodika", eapCount: 3),
+                    Course(name: "Personali värbamine ja valik", eapCount: 3),
+                    Course(name: "Personali koolitus ja arendamine", eapCount: 3),
+                    Course(name: "Inimressursi juhtimine", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Ärimudeli arendamine", eapCount: 3),
+                    Course(name: "Karjääriplaneerimine", eapCount: 3),
+                    Course(name: "Finantsaruandlus", eapCount: 3),
+                    Course(name: "Eraisiku rahandus", eapCount: 3),
+                    Course(name: "E-kaubandus", eapCount: 3),
+                    Course(name: "Projektipõhine arvestus", eapCount: 3),
+                    Course(name: "Erialane saksa keel", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Internetiturundus", eapCount: 3),
+                    Course(name: "Kultuurilised ja poliitilised erinevused", eapCount: 3),
+                    Course(name: "Loogika", eapCount: 3),
+                    Course(name: "Vene keel", eapCount: 3),
+                    Course(name: "Konfliktijuhtimine", eapCount: 3),
+                    Course(name: "FIE raamatupidamine ja maksuarvestus", eapCount: 3),
+                    Course(name: "Tööaja ja töötasuarvestus", eapCount: 3),
+                    Course(name: "MTÜ raamatupidamine ja maksuarvestus", eapCount: 3),
+                    Course(name: "Küsimustike ja andmestike koostamine", eapCount: 3),
+                    Course(name: "Andmekaitse", eapCount: 3),
+                    Course(name: "Start-up ettevõtlus", eapCount: 3),
+                    Course(name: "Ärieetika", eapCount: 3),
+                    Course(name: "Akadeemiline suhtlus saksa keeles", eapCount: 3),
+                    Course(name: "Hinnakujundus", eapCount: 3),
+                    Course(name: "Turunduskommunikatsioon ja sisuturundus", eapCount: 3),
+                    Course(name: "Protokoll ja etikett", eapCount: 3),
+                    Course(name: "Isiklik müük ja müügitehnikad", eapCount: 3),
+                    Course(name: "Innovatsioon", eapCount: 3),
+                    Course(name: "Konkurentsiõigus", eapCount: 3),
+                    Course(name: "Meeskonnatöö", eapCount: 3),
+                    Course(name: "Läbirääkimised", eapCount: 3),
+                    Course(name: "Kodulehe haldus", eapCount: 3),
+                    Course(name: "Tarbija ostukäitumine ja turu-uuringud", eapCount: 3),
+                    Course(name: "Euroopa Liidu üldkursus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "lõputöö",
+                courses: [Course(name: "Lõputöö", eapCount: 9)]
+            ),
+            Module(
+                module: "Praktika: Finantsjuhtimine",
+                courses: [
+                    Course(name: "Ettevõtluse praktika I", eapCount: 3),
+                    Course(name: "Ettevõtluse praktika II", eapCount: 3),
+                    Course(name: "Juhtimise praktika", eapCount: 6),
+                    Course(name: "Finantsaruandluse ja -analüüsi praktika", eapCount: 9),
+                    Course(name: "Juhtimisarvestuse praktika", eapCount: 6),
+                    Course(name: "Finantsjuhtimise praktika", eapCount: 9),
+                    Course(name: "Strateegilise juhtimise praktika", eapCount: 6),
+                ]
+            ),
+            Module(
+                module: "Praktika: Personalijuhtimine",
+                courses: [
+                    Course(name: "Ettevõtluse praktika I", eapCount: 3),
+                    Course(name: "Ettevõtluse praktika II", eapCount: 3),
+                    Course(name: "Juhtimise praktika", eapCount: 6),
+                    Course(name: "Strateegilise juhtimise praktika", eapCount: 6),
+                    Course(name: "Töökorralduse praktika", eapCount: 9),
+                    Course(name: "Personalitöö praktika", eapCount: 6),
+                    Course(name: "Personalijuhtimise praktika", eapCount: 9),
+                ]
+            ),
+            
+        ]
     ),
     majorsMinors(
         name: "Majandusarvestus",
@@ -322,7 +1951,95 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3,
         studyLocation:  ["Mõdriku"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 6),
+                    Course(name: "Akadeemiline suhtlus inglise keeles", eapCount: 3),
+                    Course(name: "Suuline ja kirjalik eneseväljendus", eapCount: 3),
+                    Course(name: "Ametialane suhtlemine", eapCount: 3),
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Akadeemiline enesejuhtimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Ettevõtlus ja turundus", eapCount: 3),
+                    Course(name: "Äri- ja võlaõigus", eapCount: 3),
+                    Course(name: "Äristatistika ja andmeanalüüs", eapCount: 6),
+                    Course(name: "Mikroökonoomika", eapCount: 3),
+                    Course(name: "Makroökonoomika", eapCount: 3),
+                    Course(name: "Organisatsioonikäitumine ja juhtimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Finantsanalüüs", eapCount: 6),
+                    Course(name: "Äriühenduste raamatupidamine", eapCount: 3),
+                    Course(name: "Finantsjuhtimine", eapCount: 6),
+                    Course(name: "Uurimistöö metoodika", eapCount: 3),
+                    Course(name: "Finantsarvestus I", eapCount: 9),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Finantsarvestus II", eapCount: 6),
+                    Course(name: "Finantsarvestus III", eapCount: 6),
+                    Course(name: "Auditi alused", eapCount: 3),
+                    Course(name: "Uurimistöö", eapCount: 3),
+                    Course(name: "Ettevõtte rahandus", eapCount: 3),
+                    Course(name: "Maksundus", eapCount: 6),
+                    Course(name: "Tööaja ja töötasuarvestus", eapCount: 3),
+                    Course(name: "Finantsaruandlus", eapCount: 6),
+                    Course(name: "Eelarvestamine", eapCount: 3),
+                    Course(name: "Kulu- ja juhtimisarvestus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Arvestus finantsteenuskeskuses", eapCount: 3),
+                    Course(name: "Äriplaan", eapCount: 3),
+                    Course(name: "Äritarkvara", eapCount: 3),
+                    Course(name: "Bioloogilise vara arvestus", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Aktuaalne maksundus", eapCount: 3),
+                    Course(name: "MTÜ raamatupidamine ja maksuarvestus", eapCount: 3),
+                    Course(name: "Rahvusvahelised finantsaruandluse standardid", eapCount: 3),
+                    Course(name: "FIE raamatupidamine ja maksuarvestus", eapCount: 3),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Raha, finantsinstitutsioonid ja turud", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Akadeemiline suhtlus saksa keeles", eapCount: 3),
+                    Course(name: "Protokoll ja etikett", eapCount: 3),
+                    Course(name: "Küsimustike ja andmestike koostamine", eapCount: 3),
+                    Course(name: "Riskijuhtimine", eapCount: 3),
+                    Course(name: "Andmekaitse", eapCount: 3),
+                    Course(name: "Meeskonnatöö", eapCount: 3),
+                    Course(name: "Arvestus eelarvelises asutuses", eapCount: 3),
+                    Course(name: "Personalitöö", eapCount: 3),
+                    Course(name: "Karjääriplaneerimine", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimine", eapCount: 3),
+                    Course(name: "Arvestusalane nõustamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "lõputöö",
+                courses: [Course(name: "Lõputöö", eapCount: 9)]
+            ),
+            Module(
+                module: "Praktika: Finantsjuhtimine",
+                courses: [
+                    Course(name: "Finantsarvestuse praktika I", eapCount: 3),
+                    Course(name: "Finantsarvestuse praktika II", eapCount: 6),
+                    Course(name: "Finantsarvestuse praktika III", eapCount: 6),
+                    Course(name: "Aruandluse praktika", eapCount: 6),
+                    Course(name: "Finantsanalüüsi ja juhtimisarvestuse praktika", eapCount: 9),
+                    Course(name: "Finantsjuhtimise praktika", eapCount: 6)
+                ]
+            ),
+        ]
         
     ),
     majorsMinors(
@@ -342,7 +2059,101 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3,
         studyLocation:  ["Mõdriku"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Suuline ja kirjalik eneseväljendus", eapCount: 3),
+                    Course(name: "Ametialane suhtlemine", eapCount: 3),
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Akadeemiline enesejuhtimine", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Sotsiaaltöö õiguslikud alused", eapCount: 3),
+                    Course(name: "Sotsiaaltöötaja isiklik jätkusuutlikus", eapCount: 3),
+                    Course(name: "Isiksuse- ja sotsiaalpsühholoogia", eapCount: 3),
+                    Course(name: "Projektitöö sotsiaalvaldkonnas", eapCount: 3),
+                    Course(name: "Rahvastik ja keskkond", eapCount: 6),
+                    Course(name: "Konfliktijuhtimine", eapCount: 3),
+                    Course(name: "Organisatsioonikäitumine", eapCount: 3),
+                    Course(name: "Arengupsühholoogia", eapCount: 3),
+                    Course(name: "Rahvatervis", eapCount: 3),
+                    Course(name: "Nõustamistehnikad", eapCount: 3),
+                    Course(name: "Majanduse ja ettevõtluse alused", eapCount: 3),
+                    Course(name: "Karjääriplaneerimine", eapCount: 3),
+                    Course(name: "Suhtlusõpe", eapCount: 3),
+                    Course(name: "Erialane vene keel", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Innovaatilised tehnoloogiad sotsiaaltöös ja hoolekandes", eapCount: 3),
+                    Course(name: "Uurimistöö", eapCount: 3),
+                    Course(name: "Vaatluspraktika", eapCount: 3),
+                    Course(name: "Gerontoloogia ja sotsiaaltöö eakatega", eapCount: 6),
+                    Course(name: "Peresotsiaaltöö ja kriisisekkumine", eapCount: 3),
+                    Course(name: "Sotsiaaltöö erivajadustega inimestega", eapCount: 3),
+                    Course(name: "Kodanikuühiskond ja kogukonna aktiveerimine", eapCount: 3),
+                    Course(name: "Sotsiaalhoolekande korraldus", eapCount: 3),
+                    Course(name: "Sotsiaaltöö alused, väärtused ja eetika", eapCount: 6),
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Uurimistöö metoodika", eapCount: 3),
+                    Course(name: "Sotsiaalpedagoogika", eapCount: 3),
+                    Course(name: "Sotsiaalpoliitika", eapCount: 3),
+                    Course(name: "Sotsiaaltöö teooria ja meetodid", eapCount: 3),
+                    Course(name: "Praktika erivajadustega inimestega", eapCount: 6),
+                    Course(name: "Eripedagoogika", eapCount: 3),
+                    Course(name: "Ametnikupraktika sotsiaalvaldkonnas", eapCount: 6),
+                    Course(name: "Õigusrikkujate resotsialiseerimine", eapCount: 3),
+                    Course(name: "Praktika laste ja peredega", eapCount: 6),
+                    Course(name: "Praktika eakatega", eapCount: 6),
+                    Course(name: "Juhtumikorraldus ja võrgustikutöö", eapCount: 3),
+                    Course(name: "Sotsiaalpsühhiaatria alused", eapCount: 3),
+                    Course(name: "Lastekaitse", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "lõputöö",
+                courses: [Course(name: "Lõputöö", eapCount: 9)]
+            ),
+            Module(
+                module: "Valikained",
+                courses: [
+                    Course(name: "Tööalane vene keel taasalustajale", eapCount: 3),
+                    Course(name: "Akadeemiline suhtlus inglise keeles", eapCount: 3),
+                    Course(name: "Akadeemiline suhtlus saksa keeles", eapCount: 3),
+                    Course(name: "Sotsiaalne ettevõtlus", eapCount: 3),
+                    Course(name: "Kasvatusteaduste alused", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Supervisioon", eapCount: 3),
+                    Course(name: "Filosoofia", eapCount: 3),
+                    Course(name: "Loovus ja loovad tegevused", eapCount: 3),
+                    Course(name: "Võlanõustamine", eapCount: 3),
+                    Course(name: "Vägivald lähisuhetes ja ohvriabi", eapCount: 3),
+                    Course(name: "Ergonoomika", eapCount: 3),
+                    Course(name: "Äriplaan", eapCount: 3),
+                    Course(name: "Psühhosotsiaalsed riskid sotsiaaltöös", eapCount: 3),
+                    Course(name: "Sotsiaaltöö mitmekultuurilises ühiskonnas", eapCount: 3),
+                    Course(name: "Personalitöö", eapCount: 3),
+                    Course(name: "Mängude ja eneseväljenduslike tegevuste läbiviimine lastegrupis", eapCount: 3),
+                    Course(name: "Sõltuvuskäitumine, ennetus ja sekkumine", eapCount: 3),
+                    Course(name: "Protokoll ja etikett", eapCount: 3),
+                    Course(name: "Diakoonia alused ja hingehoid", eapCount: 3),
+                    Course(name: "Sotsiaaltöö kohalikus omavalitsuses", eapCount: 3),
+                    Course(name: "Avalike teenuste korraldamine ja juhtimine", eapCount: 3),
+                    Course(name: "Psüühiliste häiretega inimeste rehabiliteerimine", eapCount: 3),
+                    Course(name: "Efektiivne suhtlemine lastega", eapCount: 3),
+                    Course(name: "Vaimse tervise ja heaolu edendamine", eapCount: 3),
+                    Course(name: "Majandusarvestuse alused", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Teabehalduse ja infosüsteemide korraldus",
@@ -361,6 +2172,140 @@ let tallinnatehnikaKõrgkoolRaka = [
         duration: 3,
         studyLocation:  ["Mõdriku"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldõpe",
+                courses: [
+                    Course(name: "Ametialane suhtlemine", eapCount: 3),
+                    Course(name: "Tööõigus, tööohutus ja töötervishoid", eapCount: 3),
+                    Course(name: "Akadeemiline enesejuhtimine", eapCount: 3),
+                    Course(name: "Andme- ja tekstitöötlus", eapCount: 6),
+                    Course(name: "Akadeemiline suhtlus inglise keeles", eapCount: 3),
+                    Course(name: "Suuline ja kirjalik eneseväljendus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Põhiõpe",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine ja juhtimine", eapCount: 3),
+                    Course(name: "Infojuhtimine ja -süsteemid", eapCount: 6),
+                    Course(name: "Ettevõtlus ja turundus", eapCount: 3),
+                    Course(name: "Infosüsteemide turvalisus ja andmekaitse", eapCount: 6),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Finantsjuhtimise alused", eapCount: 3),
+                    Course(name: "Tutvumispraktika", eapCount: 3),
+                    Course(name: "Mikroökonoomika", eapCount: 3),
+                    Course(name: "Kliendisuhete juhtimine", eapCount: 3),
+                    Course(name: "Majandusmatemaatika ja statistika", eapCount: 6),
+                    Course(name: "Veebilehtede sisuhaldus", eapCount: 3),
+                    Course(name: "Finantsarvestuse alused", eapCount: 3),
+                    Course(name: "Võla- ja lepinguõigus", eapCount: 3),
+                    Course(name: "Makroökonoomika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe",
+                courses: [
+                    Course(name: "Lõputöö seminar", eapCount: 3),
+                    Course(name: "Uurimistöö", eapCount: 3),
+                    Course(name: "Uurimistöö metoodika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe: Infosüsteemide korraldamine",
+                courses: [
+                    Course(name: "Veebiprogrammeerimine", eapCount: 6),
+                    Course(name: "IT juhtimine", eapCount: 3),
+                    Course(name: "Infosüsteemi arendusprotsess", eapCount: 3),
+                    Course(name: "Juhtimisarvestus", eapCount: 3),
+                    Course(name: "Arvutivõrgud ja -riistvara", eapCount: 9),
+                    Course(name: "Majandustarkvara kasutamine ja juurutamine", eapCount: 6),
+                    Course(name: "Infosüsteemi arhitektuur ja liidestamine", eapCount: 3),
+                    Course(name: "Andmebaaside projekteerimine ja programmeerimine", eapCount: 6),
+                    Course(name: "IT projektide juhtimine", eapCount: 3),
+                    Course(name: "Programmeerimine I", eapCount: 3),
+                    Course(name: "Infosüsteemide korraldamise praktika", eapCount: 9),
+                    Course(name: "Tarkvaraarenduse praktika", eapCount: 9),
+                    Course(name: "IT taristu praktika", eapCount: 9)
+                ]
+            ),
+            Module(
+                module: "Erialaõpe: Juhiabi töö",
+                courses: [
+                    Course(name: "Juhiabi praktika", eapCount: 9),
+                    Course(name: "Teabehalduse praktika", eapCount: 9),
+                    Course(name: "Arhiivitöö korraldamine", eapCount: 3),
+                    Course(name: "Juhiabi töö", eapCount: 6),
+                    Course(name: "Eestvedamine ja muudatuste juhtimine", eapCount: 6),
+                    Course(name: "Kommunikatsioonipraktika", eapCount: 9),
+                    Course(name: "Erialane vene keel", eapCount: 3),
+                    Course(name: "Organisatsiooni sise- ja väliskommunikatsioon", eapCount: 6),
+                    Course(name: "Dokumenteerimine", eapCount: 6),
+                    Course(name: "Teabehalduse korraldamine I", eapCount: 3),
+                    Course(name: "Teabehalduse korraldamine II", eapCount: 3),
+                    Course(name: "Personalitöö tehniline korraldamine II", eapCount: 3),
+                    Course(name: "Personalitöö tehniline korraldamine I", eapCount: 3),
+                    Course(name: "Erialane inglise keel", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Valikained: Infosüsteemide korraldamine",
+                courses: [
+                    Course(name: "Loogika", eapCount: 3),
+                    Course(name: "Internetiturundus", eapCount: 3),
+                    Course(name: "Maksundus", eapCount: 3),
+                    Course(name: "Karjääriplaneerimine", eapCount: 3),
+                    Course(name: "Läbirääkimised", eapCount: 3),
+                    Course(name: "Meeskonnatöö", eapCount: 3),
+                    Course(name: "Programmeerimine II", eapCount: 3),
+                    Course(name: "Strateegiline juhtimine", eapCount: 3),
+                    Course(name: "Andmekaeve ja suurandmete analüüs", eapCount: 6),
+                    Course(name: "Personalitöö tehniline korraldamine", eapCount: 6),
+                    Course(name: "Kvaliteedijuhtimine", eapCount: 3),
+                    Course(name: "Projekteerimistarkvara alused", eapCount: 3),
+                    Course(name: "Programmeerimise alused", eapCount: 3),
+                    Course(name: "Euroopa Liidu üldkursus", eapCount: 3),
+                    Course(name: "Ärimudeli arendamine", eapCount: 3),
+                    Course(name: "Tarneahela juhtimine ja logistikasüsteemid", eapCount: 6),
+                    Course(name: "E-kaubandus", eapCount: 3),
+                    Course(name: "Veebidisain ja multimeedia vahendid", eapCount: 3),
+                    Course(name: "Innovatsioon", eapCount: 3),
+                    Course(name: "Küsimustike ja andmestike koostamine", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Valikained: Juhiabi töö",
+                courses: [
+                    Course(name: "Maksundus", eapCount: 3),
+                    Course(name: "E-kaubandus", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 3),
+                    Course(name: "Euroopa Liidu üldkursus", eapCount: 3),
+                    Course(name: "Ärimudeli arendamine", eapCount: 3),
+                    Course(name: "Tööaja ja töötasuarvestus", eapCount: 3),
+                    Course(name: "Vabaõpingud", eapCount: 3),
+                    Course(name: "Loogika", eapCount: 3),
+                    Course(name: "Innovatsioon", eapCount: 3),
+                    Course(name: "Strateegiline juhtimine", eapCount: 3),
+                    Course(name: "Läbirääkimised", eapCount: 3),
+                    Course(name: "Prantsuse keel", eapCount: 6),
+                    Course(name: "Küsimustike ja andmestike koostamine", eapCount: 3),
+                    Course(name: "Soome keel", eapCount: 6),
+                    Course(name: "Veebidisain ja multimeedia vahendid", eapCount: 3),
+                    Course(name: "Tarneahela juhtimine ja logistikasüsteemid", eapCount: 6),
+                    Course(name: "Karjääriplaneerimine", eapCount: 3),
+                    Course(name: "Arenguvestluste korraldamine", eapCount: 3),
+                    Course(name: "Andmekaeve ja suurandmete analüüs", eapCount: 6),
+                    Course(name: "Internetiturundus", eapCount: 3),
+                    Course(name: "Kultuurilised ja poliitilised erinevused", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "lõputöö",
+                courses: [Course(name: "Lõputöö", eapCount: 9)]
+            ),
+        ]
     )
 ]

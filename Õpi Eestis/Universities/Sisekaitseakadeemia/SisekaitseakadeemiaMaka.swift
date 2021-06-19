@@ -20,6 +20,78 @@ let sisekaitseakadeemiaMaka = [
         duration: 2,
         studyLocation:  ["Tallinn"],
         eap: 120,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Kohustuslike ainete moodul",
+                courses: [
+                    Course(name: "Strateegiline juhtimine", eapCount: 8),
+                    Course(name: "Teadusmetodoloogia ja uurimisseminar 1 ", eapCount: 8),
+                    Course(name: "Akadeemiline kirjutamine ja uurimisseminar 2", eapCount: 6),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Sisejulgeoleku õiguslik regulatsioon", eapCount: 5),
+                    Course(name: "Küberjulgeolek, privaatsus ja andmekaitse ", eapCount: 5),
+                    Course(name: "Sisejulgeoleku poliitika kujundamine ja koostöö", eapCount: 5),
+                    Course(name: "Vaenulik mõjutustegevus, psühholoogiline kaitse ja meediasuhtlus", eapCount: 4),
+                    Course(name: "Julgeolekuteooriad ja nende uurimuslik rakendamine", eapCount: 5),
+                    Course(name: "Julgeoleku- ja hübriidohud ning riigikaitse lai käsitlus", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Valikainete moodul",
+                courses: [
+                    Course(name: "Kogukondliku korrakaitsetöö juhtimine", eapCount: 2),
+                    Course(name: "Külalisloengud", eapCount: 1),
+                    Course(name: "Külalisloengud", eapCount: 2),
+                    Course(name: "Innovatsiooni ja arendusprojektide juhtimine sisejulgeoleku süsteemis", eapCount: 2),
+                    Course(name: "Kaugseire drooni- ja satelliidiandmestike põhjal ", eapCount: 3),
+                    Course(name: "Kvalitatiivse andmeanalüüsi praktikum ", eapCount: 2),
+                    Course(name: "Kvantitatiivse andmeanalüüsi praktikum", eapCount: 2),
+                    Course(name: "Siseturvalisuse praktiline tegevus", eapCount: 3),
+                    Course(name: "Tsiviil-militaarkoostöö hädaolukorras", eapCount: 4),
+                    Course(name: "E-kursus", eapCount: 1),
+                    Course(name: "E-kursus", eapCount: 2),
+                    Course(name: "E-kursus", eapCount: 3),
+                    Course(name: "Kaugseire drooni- ja satellliidiandmestike põhjal II", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Süvaõppesuunad",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Kriisireguleerimise suund",
+                        courses: [
+                            Course(name: "Kriisikommunikatsioon ja -psühholoogia", eapCount: 5),
+                            Course(name: "Kriisireguleerimine ja -juhtimine", eapCount: 7),
+                            Course(name: "Riskihaldus ja elutähtsa teenuse toimepidevus", eapCount: 5),
+                            Course(name: "Hädaolukorraks valmistumine", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Sisejulgeoleku suund",
+                        courses: [
+                            Course(name: "Teadmushaldus turvalisuses", eapCount: 2),
+                            Course(name: "Organiseeritud kuritegevus ja rahapesu", eapCount: 4),
+                            Course(name: "Piiri julgeolek ja rände haldamine", eapCount: 5),
+                            Course(name: "Mereõigus konfliktides", eapCount: 4),
+                            Course(name: "Terrorism ja rahvusvahelised missioonid", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Politsei suund",
+                        courses: [
+                            Course(name: "Teadmushaldus turvalisuses", eapCount: 2),
+                            Course(name: "Kriminaalanalüüs", eapCount: 2),
+                            Course(name: "Organiseeritud kuritegevus ja rahapesu ", eapCount: 4),
+                            Course(name: "Piiri julgeolek ja rände haldamine", eapCount: 5),
+                            Course(name: "Kriminaal- ja karistuspoliitika aktuaalsed probleemid", eapCount: 3),
+                            Course(name: "Politsei juhtimine ja paiknemine valitsemissüsteemis", eapCount: 5)
+                        ]
+                    )
+                ]
+            ),
+            Module(module: "Magistritöö", courses: [Course(name: "Mabgistritöö", eapCount: 30)])
+        ]
     )
 ]

@@ -2,6 +2,7 @@ import SwiftUI
 
 public extension Image {
     static let infoCircle = Image(systemName: "info.circle")
+    static let info = Image(systemName: "info")
     static let flip = Image(systemName: "arrow.up.arrow.down")
     static let chevronRight = Image(systemName: "chevron.right")
     static let chevronLight = Image(systemName: "chevron.left")
@@ -9,6 +10,7 @@ public extension Image {
     static let magnifyingGlass = Image(systemName: "magnifyingglass")
     static let multiply = Image(systemName: "multiply")
     static let appLogo = Image("Õpi Eestis logo")
+    static let appLogo2 = Image("estonia2")
     static let mappinEclipse = Image(systemName: "mappin.and.ellipse")
     static let person3 = Image(systemName: "person.3")
     static let person2 = Image(systemName: "person.2")
@@ -34,6 +36,8 @@ public extension Image {
     static let doc = Image(systemName: "doc.text")
     static let requirements = Image(systemName: "person.crop.circle.badge.checkmark")
     static let outcomes = Image(systemName: "briefcase")
-    static let graduation = Image(systemName: "graduationcap.fill")
+    static let graduationFill = Image(systemName: "graduationcap.fill")
+    static let graduation = Image(systemName: "graduate")
     static let link = Image(systemName: "link")
+    static let stack = Image(systemName: "square.3.stack.3d")
 }

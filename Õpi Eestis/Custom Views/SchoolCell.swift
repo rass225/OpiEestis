@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct SchoolCell: View {
-    let school: School
+    let school: SchoolOverview
     let index: Int
     let colors1 = Gradient(colors: [Color.white, Color.white])
     let colors2 = Gradient(colors: [Color.white, Color.whiteDim2])
@@ -16,16 +16,17 @@ struct SchoolCell: View {
                         .padding(2)
                         .padding(.leading, 5)
                     VStack{
-                        Text(school.name)
+                        Text(school.name.rawValue)
                             .font(Font.callout.weight(.medium))
                             .frame(maxWidth: .infinity, alignment: .leading)
                         Spacer()
-                        Text(school.location.city + ", Eesti")
+                        Text(school.city + ", Eesti")
                             .font(.lightCaption)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .foregroundColor(.black)
                         
-                    }.padding(.bottom, 10)
+                    }
+                    .padding(.bottom, 10)
                     .padding(.top, 20)
                     .padding(.leading, 10)
                     Spacer()

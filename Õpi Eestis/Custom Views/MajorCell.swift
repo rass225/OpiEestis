@@ -25,17 +25,22 @@ struct MajorCell: View {
                                 "\(item.duration, specifier: "%.1f")a")
                     }
                     HStack(spacing: 2){
-                        Image.graduation
+                        Image.graduationFill
                         Text(item.level.rawValue.capitalizingFirstLetter())
                     }
-                }.font(.lightCaption)
+                }.font(.regularCaption)
+                .padding(.bottom, 2)
             }
         }
-        .frame(height: 48, alignment: .leading)
-        .padding(.leading, 16)
-        .padding(.trailing, 10)
-        .padding(.bottom, 2)
+        .frame(height: 50, alignment: .leading)
+        .padding(.horizontal, 10)
+        .padding(.bottom, 5)
         .padding(.top, 10)
         .foregroundColor(.black)
+        .background(Color.white)
+        .cornerRadius(6)
+        .padding(.horizontal)
+        .padding(.top, 8)
+        
     }
 }
