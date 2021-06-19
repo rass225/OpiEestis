@@ -8,13 +8,13 @@ extension View {
     }
     
     func ignoreEdges(edge: Edge.Set) -> some View {
-            return self
-                .edgesIgnoringSafeArea(edge)
+        return self
+            .edgesIgnoringSafeArea(edge)
     }
     
     func defaultShadow(color: Color, radius: CGFloat) -> some View {
-            return self
-                .shadow(color: color, radius: radius, x: 0.0, y: 0.0)
+        return self
+            .shadow(color: color, radius: radius, x: 0.0, y: 0.0)
     }
     
     func cornerRadiusCustom(_ radius: CGFloat, corners: UIRectCorner) -> some View {

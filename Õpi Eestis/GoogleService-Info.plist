@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>494649401558-ofg3he78fssdrmsnsiv7hobf942sj41d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.494649401558-ofg3he78fssdrmsnsiv7hobf942sj41d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCwxLb0Agb5ykRQlf51nx7efYvoT9Dvvig</string>
+	<key>GCM_SENDER_ID</key>
+	<string>494649401558</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MARYVILLE.Estonian-Universities</string>
+	<key>PROJECT_ID</key>
+	<string>opi-eestis-database</string>
+	<key>STORAGE_BUCKET</key>
+	<string>opi-eestis-database.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:494649401558:ios:0bed4dce78704bb110a977</string>
+	<key>DATABASE_URL</key>
+	<string>https://opi-eestis-database-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

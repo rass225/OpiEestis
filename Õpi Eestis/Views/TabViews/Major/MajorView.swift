@@ -5,16 +5,18 @@ struct MajorView: View {
     let major: majorsMinors
     let school: School
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var theme: Theme
     
     var body: some View {
         ZStack{
-            WhiteBackground()
+            Color.whiteDim1.edgesIgnoringSafeArea(.bottom)
             VStack(spacing: 0){
                 MajorStats(major: major, school: school)
                 MajorButtonsView(major: major)
                 Spacer()
+                Spacer()
             }.padding(.top, -40)
-            .ignoreEdges(edge: .bottom)
+//            .ignoreEdges(edge: .bottom)
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(

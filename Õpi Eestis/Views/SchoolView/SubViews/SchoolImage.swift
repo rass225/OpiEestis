@@ -2,21 +2,24 @@ import SwiftUI
 
 struct SchoolImage: View {
     
+    @ObservedObject var presenter = SchoolViewPresenter()
     let school: School
-    let size = SizeObject()
+    
     
     var body: some View {
         ZStack{
             Image(school.image)
                 .resizable()
                 .overlay(drawOverlay(school: school), alignment: .bottomTrailing)
-        }.frame(width: size.width, height: size.thirdHeight)
+        }.frame(width: presenter.size.width, height: presenter.size.thirdHeight)
+        
         .cornerRadiusCustom(90, corners: .bottomLeft)
+        .background(Color.white)
     }
     
     @ViewBuilder private func drawOverlay(school: School) -> some View {
         VStack(alignment: .trailing, spacing: 10){
-            Text(school.name)
+            Text(school.name.rawValue)
                 .defaultShadow(color: .black, radius: 5)
                 .font(.mediumTitle2)
             HStack{

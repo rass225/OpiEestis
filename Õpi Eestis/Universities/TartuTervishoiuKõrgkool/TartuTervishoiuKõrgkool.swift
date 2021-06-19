@@ -1,5 +1,5 @@
 var tartuTervishoiuKõrgkool = School(
-    name: "Tartu Tervishoiu Kõrgkool",
+    name: .tartuTervishoiuKõrgkool,
     description: ["Tartu Tervishoiu Kõrgkool on nii Eestis kui ka rahvusvaheliselt tunnustatud tänapäevase õpikeskkonnaga tervishoiu-, teenindus- ja sotsiaalalast koolitust pakkuv kõrgkool, mis asutati Tartus aastal 1811. See on ainus kõrgkool Eestis, kus õpetatakse radioloogiatehnikuid, bioanalüütikuid ja tervisekaitse spetsialiste."],
     location: Location(
         city: "Tartu",

@@ -8,7 +8,10 @@ struct CustomTextField: View {
 
     var body: some View {
         ZStack(alignment: .leading) {
-            if text.isEmpty { placeholder }
+            if text.isEmpty {
+                placeholder
+                    .font(.lightCallout)
+            }
             TextField("", text: $text, onEditingChanged: editingChanged, onCommit: commit)
         }
     }

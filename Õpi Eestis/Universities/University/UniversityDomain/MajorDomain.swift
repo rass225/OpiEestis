@@ -1,5 +1,5 @@
 import Foundation
-import SwiftUI
+
 struct majorsMinors: Hashable, Codable, Identifiable {
     var id = UUID()
     var name: String
@@ -16,4 +16,5 @@ struct majorsMinors: Hashable, Codable, Identifiable {
     var eap: Int?
     var ekap: Int?
     var cost: String
+    var modules: [Module]?
 }

@@ -1,5 +1,5 @@
 var Kaitseakadeemia = School(
-    name: "Kaitseväe Akadeemia",
+    name: .kaitsevägi,
     description: ["Kaitseväe Akadeemia on sõjandusega seotud teadusvaldkondi ühendav riigikaitseline rakenduskõrgkool. Kõrgkool tegutseb kaitseministeeriumi valitsemisalas ja kaitseväe juhataja alluvuses. Õppeasutuste eesmärk on ette valmistada professionaalseid allohvitsere ja ohvitsere kaitseväele ja Kaitseliidule. Õppekava võimaldab spetsialiseeruda maaväe, õhuväe, mereväe erialale ja saada vastava väeliigi nooremohvitseri ettevalmistus. Õppeasutused on sõjalise teadus- ja arendustegevuse edendajaks Eesti Vabariigis, teostades oma eesmärke koostöös partneritega nii kodumaal kui ka NATO-s."],
     location: Location(
         city: "Tartu",

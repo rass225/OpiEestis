@@ -16,7 +16,113 @@ let lennuAkadeemiaRaka = [
         duration: 4,
         studyLocation:  ["Reola"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Sissejuhatus lennundusse", eapCount: 3),
+                    Course(name: "Sissejuhatus majandusteooriasse", eapCount: 6),
+                    Course(name: "Matemaatika alused", eapCount: 3),
+                    Course(name: "Kõrgem matemaatika I", eapCount: 6),
+                    Course(name: "Informaatika", eapCount: 3),
+                    Course(name: "Insenerigraafika I*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Ettevõtluse alused", eapCount: 6),
+                    Course(name: "Sissejuhatus lennuliikluse korraldusse*", eapCount: 1),
+                    Course(name: "Lennujaama maapealne teenindus*", eapCount: 6),
+                    Course(name: "Statistika ja ökonomeetria alused", eapCount: 6),
+                    Course(name: "Õhusõiduk ja selle sooritusvõimed", eapCount: 6),
+                    Course(name: "Elektrotehnika*", eapCount: 6),
+                    Course(name: "Eesti õigekeelsus ja väljendusõpetus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Kehaliste võimete arendamine", eapCount: 3),
+                    Course(name: "Projekti- ja tulemusjuhtimine lennutranspordis", eapCount: 3),
+                    Course(name: "Ettevõtte juhtimise üldkursus", eapCount: 6),
+                    Course(name: "Kvaliteedijuhtimise alused", eapCount: 3),
+                    Course(name: "Lennuliikluse korraldamine*", eapCount: 6),
+                    Course(name: "Militaar- ja üldlennundus*", eapCount: 3),
+                    Course(name: "Logistika*", eapCount: 3),
+                    Course(name: "Lennundusõigus", eapCount: 3),
+                    Course(name: "Aerodünaamika", eapCount: 3),
+                    Course(name: "Raadiotehnika alused", eapCount: 3),
+                    Course(name: "Programmeerimise alused*", eapCount: 6),
+                    Course(name: "Avioonika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Psühholoogia alused", eapCount: 3),
+                    Course(name: "Ärieetika ja kommunikatsioon", eapCount: 3),
+                    Course(name: "Lennundusettevõtte töö korraldamine", eapCount: 6),
+                    Course(name: "Lennutranspordi ökonoomika*", eapCount: 6),
+                    Course(name: "Avaliku sektori majandus*", eapCount: 3),
+                    Course(name: "Rahvusvaheline majandus ja lennundus*", eapCount: 3),
+                    Course(name: "Turundus*", eapCount: 3),
+                    Course(name: "Lendude planeerimine ja monitooring*", eapCount: 3),
+                    Course(name: "Lennundusohutus", eapCount: 2),
+                    Course(name: "Lennundusjulgestus", eapCount: 1),
+                    Course(name: "Katsetehnika raadioelektroonikas*", eapCount: 3),
+                    Course(name: "Remotely Piloted Aircraft (RPA) Operation and Mission Planning*", eapCount: 2),
+                    Course(name: "Seire I*", eapCount: 3),
+                    Course(name: "Vene keel 0 > A1*", eapCount: 6),
+                    Course(name: "Lennunduse inglise keel", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Majandusarvestus ja lennundusettevõtte rahandus*", eapCount: 6),
+                    Course(name: "Inimtegur lennujuhtimises", eapCount: 3),
+                    Course(name: "Navigatsioon", eapCount: 3),
+                    Course(name: "Lennundusõigus", eapCount: 3.5),
+                    Course(name: "Lennundusmeteoroloogia", eapCount: 3),
+                    Course(name: "Aeronavigatsiooniteabe teenindus", eapCount: 2),
+                    Course(name: "Lennunduse raadioside", eapCount: 2.5),
+                    Course(name: "Lennuliikluse korraldamine", eapCount: 4),
+                    Course(name: "Õhusõidukid", eapCount: 3),
+                    Course(name: "Seadmed ja süsteemid lennuliiklusteeninduses", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialane inglise keel", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 1),
+                    Course(name: "Tutvumislennud", eapCount: 3),
+                    Course(name: "Radariga lähenemislennujuhtimise tutvumispraktika*", eapCount: 6),
+                    Course(name: "Lähenemislennujuhtimine radariga*", eapCount: 22),
+                    Course(name: "Lähenemislennujuhtimise alused*", eapCount: 21)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Lähilennujuhtimine*", eapCount: 22),
+                    Course(name: "Lähilennujuhtimise alused*", eapCount: 21),
+                    Course(name: "Lähilennuliikluse radarjuhtimine*", eapCount: 3),
+                    Course(name: "Lõputööde koostamise seminar", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Suhtlemispsühholoogia ja pedagoogika alused", eapCount: 2),
+                    Course(name: "Lähilennujuhtimise tutvumispraktika*", eapCount: 6),
+                    Course(name: "Lõputöö", eapCount: 9),
+                ]
+            )
+
+        ]
     ),
     majorsMinors(
         name: "Lennundustehnika",
@@ -34,7 +140,133 @@ let lennuAkadeemiaRaka = [
         duration: 4,
         studyLocation:  ["Reola"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Sissejuhatus lennundusse", eapCount: 3),
+                    Course(name: "Lennundusõigus", eapCount: 3),
+                    Course(name: "Kõrgem matemaatika I", eapCount: 6),
+                    Course(name: "MATLAB lennundusinseneridele", eapCount: 3),
+                    Course(name: "Informaatika", eapCount: 3),
+                    Course(name: "Insenerigraafika I", eapCount: 3),
+                    Course(name: "Programmeerimise alused", eapCount: 6),
+                    Course(name: "Matemaatika alused*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Lennundusjulgestus", eapCount: 1),
+                    Course(name: "Lennundusohutus", eapCount: 2),
+                    Course(name: "Tutvumispraktika lennundusettevõtetes", eapCount: 1),
+                    Course(name: "Kõrgem matemaatika II", eapCount: 6),
+                    Course(name: "Lennundusfüüsika", eapCount: 6),
+                    Course(name: "Insenerigraafika II", eapCount: 3),
+                    Course(name: "Elektrotehnika", eapCount: 3),
+                    Course(name: "Lennunduse inglise keel", eapCount: 6),
+                    Course(name: "Eesti õigekeelsus ja väljendusõpetus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Aerodünaamika", eapCount: 3),
+                    Course(name: "Avioonika alused", eapCount: 3),
+                    Course(name: "Elektroonika", eapCount: 6),
+                    Course(name: "Inimfaktor sidetehnikas", eapCount: 2),
+                    Course(name: "Raadiotehnika alused", eapCount: 3),
+                    Course(name: "Lennuliikluse korraldamine", eapCount: 6),
+                    Course(name: "Lennundusalased õigusaktid", eapCount: 3),
+                    Course(name: "Hooldusprotseduurid I", eapCount: 3),
+                    Course(name: "Erialapraktika I", eapCount: 4),
+                    Course(name: "Teoreetiline mehaanika", eapCount: 3),
+                    Course(name: "Materjalid ja detailid", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Mehhatroonikasüsteemid", eapCount: 6),
+                    Course(name: "Vene keel 0 > A1*", eapCount: 6),
+                    Course(name: "Raadioelektroonika montaaži praktika", eapCount: 3),
+                    Course(name: "Seire alused", eapCount: 3),
+                    Course(name: "Katsetehnika raadioelektroonikas", eapCount: 3),
+                    Course(name: "Side ja sidevõrgud", eapCount: 5),
+                    Course(name: "Õhusõiduki ehitus inglise keeles", eapCount: 4),
+                    Course(name: "RPA projekteerimine I", eapCount: 3),
+                    Course(name: "Õhusõiduki digitaalelektroonika", eapCount: 3),
+                    Course(name: "Hooldusprotseduurid II", eapCount: 5),
+                    Course(name: "Õhusõiduki ehitusmehaanika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Inglise keel inseneridele*", eapCount: 3),
+                    Course(name: "Signaalid ja signaalitöötlus", eapCount: 6),
+                    Course(name: "Raadioelektroonika seadmete tehnoloogia praktika", eapCount: 3),
+                    Course(name: "Raadiosageduslik elektroonika", eapCount: 6),
+                    Course(name: "Seire", eapCount: 6),
+                    Course(name: "Tootmistehnoloogia", eapCount: 3),
+                    Course(name: "Erialapraktika II", eapCount: 4),
+                    Course(name: "RPA projekteerimine II", eapCount: 2),
+                    Course(name: "Õhusõidukite aerodünaamika, ehitus ja süsteemid I", eapCount: 5),
+                    Course(name: "Gaasiturbiinmootorid", eapCount: 5),
+                    Course(name: "Sensoorika*", eapCount: 6),
+                    Course(name: "Algoritmid ja andmestruktuurid*", eapCount: 6),
+                    Course(name: "Tarkade asjade võrgud*", eapCount: 6),
+                    Course(name: "Robotite juhtimine ja tarkvara*", eapCount: 6),
+                    Course(name: "Sardsüsteemide alused*", eapCount: 6),
+                    Course(name: "Programmeerimine I*", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Lennundusmeteoroloogia", eapCount: 3),
+                    Course(name: "Inglise keel sideinseneridele*", eapCount: 3),
+                    Course(name: "Arvutivõrgud", eapCount: 3),
+                    Course(name: "Küberturvalisus lennunduses", eapCount: 3),
+                    Course(name: "Raadionavigatsioon", eapCount: 5),
+                    Course(name: "Raadiolainete levi ja antennid", eapCount: 4),
+                    Course(name: "Lennundusside", eapCount: 3),
+                    Course(name: "Õhuseire- ja lennuandmete töötlus", eapCount: 3),
+                    Course(name: "Õhusõidukite aerodünaamika, ehitus ja süsteemid II", eapCount: 5),
+                    Course(name: "RPA konstrueerimine", eapCount: 5),
+                    Course(name: "Inimfaktor õhusõiduki hoolduses", eapCount: 2),
+                    Course(name: "Kolbmootorid", eapCount: 2),
+                    Course(name: "Lennunduse raadioside", eapCount: 2),
+                    Course(name: "Propellerid", eapCount: 1),
+                    Course(name: "Erialapraktika III", eapCount: 6),
+                    Course(name: "Kopterite aerodünaamika, ehitus ja süsteemid*", eapCount: 3),
+                    Course(name: "Teadustöö alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Juhendamise praktika", eapCount: 2),
+                    Course(name: "Raadiomõõtmised lennunduses", eapCount: 6),
+                    Course(name: "Süsteemihaldus", eapCount: 6),
+                    Course(name: "Ettevõttepraktika", eapCount: 27),
+                    Course(name: "Raadionavigatsiooni projekt", eapCount: 2),
+                    Course(name: "Praktika hooldusettevõttes", eapCount: 30),
+                    Course(name: "Lennuliikluse insener-tehnilise personali koolituse eksamid*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Juhendamise praktika", eapCount: 2),
+                    Course(name: "Ettevõttepraktika", eapCount: 27),
+                    Course(name: "Lennuliikluse insener-tehnilise personali koolituse eksamid*", eapCount: 3),
+                    Course(name: "Lõputöö", eapCount: 9)
+                ]
+            )
+            
+        ]
     ),
     majorsMinors(
         name: "Lennunduskorraldus",
@@ -52,7 +284,77 @@ let lennuAkadeemiaRaka = [
         duration: 4,
         studyLocation:  ["Reola"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Lennunduse inglise keel", eapCount: 6),
+                    Course(name: "Sissejuhatus lennundusse", eapCount: 3),
+                    Course(name: "Sissejuhatus majandusteooriasse", eapCount: 6),
+                    Course(name: "Matemaatika alused", eapCount: 3),
+                    Course(name: "Kõrgem matemaatika I", eapCount: 6),
+                    Course(name: "Informaatika", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Ettevõtluse alused", eapCount: 6),
+                    Course(name: "Statistika ja ökonomeetria alused", eapCount: 6),
+                    Course(name: "Lennundusohutus", eapCount: 2),
+                    Course(name: "Lennundusjulgestus", eapCount: 1),
+                    Course(name: "Lennujaama maapealne teenindus", eapCount: 6),
+                    Course(name: "Projekti- ja tulemusjuhtimine lennutranspordis", eapCount: 3),
+                    Course(name: "Logistika", eapCount: 3),
+                    Course(name: "Eesti õigekeelsus ja väljendusõpetus*", eapCount: 3),
+                    Course(name: "Aeronavigatsiooni alused*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Lennundustehnika", eapCount: 6),
+                    Course(name: "Õhusõiduk ja selle sooritusvõimed", eapCount: 6),
+                    Course(name: "Lennuliikluse korraldamine", eapCount: 6),
+                    Course(name: "Militaar- ja üldlennundus", eapCount: 3),
+                    Course(name: "Lennundusõigus", eapCount: 3),
+                    Course(name: "Kvaliteedijuhtimise alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Lendude planeerimine ja monitooring", eapCount: 3),
+                    Course(name: "Lennundusettevõtte töö korraldamine", eapCount: 6),
+                    Course(name: "Rahvusvaheline majandus ja lennundus", eapCount: 3),
+                    Course(name: "Lennutranspordi ökonoomika", eapCount: 6),
+                    Course(name: "Teadustöö alused", eapCount: 3),
+                    Course(name: "Turundus*", eapCount: 3),
+                    Course(name: "Lennundusmeteoroloogia*", eapCount: 3),
+                    Course(name: "Andmete analüüs ja visualiseerimine MS Excelis ja Power BI-s*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Ärieetika ja kommunikatsioon", eapCount: 3),
+                    Course(name: "Ettevõtte juhtimise üldkursus", eapCount: 6),
+                    Course(name: "Majandusarvestus ja lennundusettevõtte rahandus", eapCount: 6),
+                    Course(name: "Lennundussektori normatiivdokumentatsiooniga töötamise praktika", eapCount: 3),
+                    Course(name: "Balti riikide majanduskeskkond*", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialapraktika", eapCount: 24),
+                    Course(name: "Lõputöö", eapCount: 6),
+                    Course(name: "Digitaalsed arengud lennunduses*", eapCount: 3),
+                    Course(name: "Avaliku sektori majandus*", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Õhusõiduki Juhtimine",
@@ -72,6 +374,103 @@ let lennuAkadeemiaRaka = [
         duration: 4,
         studyLocation:  ["Reola"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Sissejuhatus majandusteooriasse", eapCount: 6),
+                    Course(name: "Sissejuhatus lennundusse", eapCount: 3),
+                    Course(name: "Kõrgem matemaatika I", eapCount: 6),
+                    Course(name: "Informaatika", eapCount: 3),
+                    Course(name: "Materjaliõpetus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Lennundusohutus", eapCount: 2),
+                    Course(name: "Lennundusjulgestus", eapCount: 1),
+                    Course(name: "Ettevõtluse alused", eapCount: 6),
+                    Course(name: "Lennundusfüüsika", eapCount: 6),
+                    Course(name: "Kõrgem matemaatika II", eapCount: 6),
+                    Course(name: "Elektrotehnika", eapCount: 3),
+                    Course(name: "Lennunduse inglise keel", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Lennundusõigus", eapCount: 3),
+                    Course(name: "Aerodünaamika", eapCount: 3),
+                    Course(name: "Elektroonika", eapCount: 6),
+                    Course(name: "Avioonika alused", eapCount: 3),
+                    Course(name: "Raadiotehnika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialane inglise keel I", eapCount: 6),
+                    Course(name: "Lennundusõigusaktid I", eapCount: 2),
+                    Course(name: "Lend ja plaan I", eapCount: 3),
+                    Course(name: "Õhusõiduki ehitus I", eapCount: 4.5),
+                    Course(name: "Käitamisprotseduurid I", eapCount: 1.5),
+                    Course(name: "Navigatsioon I", eapCount: 5.5),
+                    Course(name: "Lennundusraadioside I", eapCount: 6),
+                    Course(name: "Aerodünaamika I", eapCount: 2.5),
+                    Course(name: "Meteoroloogia I", eapCount: 3),
+                    Course(name: "Kopterite aerodünaamika", eapCount: 3.5)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Aerodünaamika II", eapCount: 2),
+                    Course(name: "Käitamisprotseduurid II", eapCount: 2),
+                    Course(name: "Navigatsioon II", eapCount: 5),
+                    Course(name: "Lennundusõigusaktid II", eapCount: 1.5),
+                    Course(name: "Õhusõiduki ehitus II", eapCount: 5),
+                    Course(name: "Meteoroloogia II", eapCount: 3.5),
+                    Course(name: "Lend ja plaan II", eapCount: 3.5),
+                    Course(name: "Kopteri ehitus", eapCount: 4.5)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Lend ja plaan III", eapCount: 3.5),
+                    Course(name: "Meteoroloogia III", eapCount: 3),
+                    Course(name: "Navigatsioon III", eapCount: 5),
+                    Course(name: "Lennundusõigusaktid III", eapCount: 1.5),
+                    Course(name: "Lennundusraadioside II", eapCount: 2),
+                    Course(name: "Inimfaktor I", eapCount: 3.5),
+                    Course(name: "Kopterite käitamisprotseduurid", eapCount: 3),
+                    Course(name: "Käitamisprotseduurid III", eapCount: 1.5),
+                    Course(name: "Aerodünaamika III", eapCount: 1.5)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Erialane inglise keel III", eapCount: 3),
+                    Course(name: "Inimfaktor II", eapCount: 2.5),
+                    Course(name: "Kopteri ametpiloodi teooriaeksamid", eapCount: 3),
+                    Course(name: "Õhusõiduki ehitus III", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Kopteri lennumeeskonna koostöö", eapCount: 5),
+                    Course(name: "Kopteri lennupraktika", eapCount: 39),
+                    Course(name: "Kopteri liinipiloodi teooriaeksamid", eapCount: 5),
+                    Course(name: "Lennuki lennumeeskonna koostöö", eapCount: 5),
+                    Course(name: "Lennuki lennupraktika", eapCount: 48),
+                    Course(name: "Lennuki liinipiloodi teooriaeksamid", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
 ]

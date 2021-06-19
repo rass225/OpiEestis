@@ -122,6 +122,7 @@ let tartuÜlikoolRaka = [
         spots: 26,
         duration: 4,
         studyLocation:  ["Viljandi"],
+        eap: 180,
         cost: "0€"
     ),
     majorsMinors(

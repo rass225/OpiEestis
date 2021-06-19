@@ -14,7 +14,64 @@ let tartuTervishoiuKõrgkoolMaka = [
         duration: 1.5,
         studyLocation:  ["Tartu"],
         eap: 90,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Kutseala arendamine ja kvaliteedijuhtimine",
+                courses: [
+                    Course(name: "Kvaliteedijuhtimine ja eestvedamine", eapCount: 12),
+                    Course(name: "Multidistsiplinaarsus terviseteadustes", eapCount: 6),
+                    Course(name: "Teadusmetodoloogia", eapCount: 6),
+                    Course(name: "Arendusprojekt", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Erialamoodul - intensiivõendus",
+                courses: [
+                    Course(name: "Kliiniline farmakoloogia", eapCount: 6),
+                    Course(name: "Erakorraline meditsiin", eapCount: 9),
+                    Course(name: "Intensiivõendus", eapCount: 6),
+                    Course(name: "Anesteesia", eapCount: 6),
+                    Course(name: "Laps intensiivõenduses", eapCount: 3),
+                    Course(name: "Erialapraktika intensiivõenduses", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Erialamoodul - kliiniline õendus",
+                courses: [
+                    Course(name: "Nõustamismeetodid ja -tehnikad", eapCount: 6),
+                    Course(name: "Kliiniline farmakoloogia", eapCount: 6),
+                    Course(name: "Õendusabi ravi osana", eapCount: 12),
+                    Course(name: "Erakorralised seisundid", eapCount: 6),
+                    Course(name: "Erialapraktika kliinilises õenduses", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Erialamoodul - terviseõendus",
+                courses: [
+                    Course(name: "Perekonna elukvaliteet, elustiili- ja tervisenõustamine", eapCount: 12),
+                    Course(name: "Nõustamismeetodid ja -tehnikad", eapCount: 6),
+                    Course(name: "Keskkonnast tulenevad terviseriskid ja kogukonnatöö", eapCount: 6),
+                    Course(name: "Kliiniline farmakoloogia", eapCount: 6),
+                    Course(name: "Erialapraktika terviseõenduses", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Erialamoodul - vaimse tervise õendus",
+                courses: [
+                    Course(name: "Kliiniline farmakoloogia", eapCount: 6),
+                    Course(name: "Psühhiaatria", eapCount: 15),
+                    Course(name: "Psühhoterapeutilised meetodid vaimse tervise õenduses", eapCount: 9),
+                    Course(name: "Erialapraktika vaimse tervise õenduses", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Magistrieksam",
+                courses: [
+                    Course(name: "Magistrieksam", eapCount: 15)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Radiograafia",
@@ -33,6 +90,44 @@ let tartuTervishoiuKõrgkoolMaka = [
         duration: 2,
         studyLocation:  ["Tartu"],
         eap: 120,
-        cost: "3300€/year"
+        cost: "3300€/year",
+        modules: [
+            Module(
+                module: "Alusainete moodul",
+                courses: [
+                    Course(name: "Kiiritusravi ja radioloogiatehniku kutseala arendamine rahvusvahelises koostöös", eapCount: 4),
+                    Course(name: "Juhtimine", eapCount: 6),
+                    Course(name: "Pedagoogika", eapCount: 6),
+                    Course(name: "Pedagoogiline praktika", eapCount: 8)
+                ]
+            ),
+            Module(
+                module: "Magistritöö moodul",
+                courses: [
+                    Course(name: "Magistritöö I", eapCount: 10),
+                    Course(name: "Magistritöö II", eapCount: 4),
+                    Course(name: "Magistritöö III", eapCount: 3),
+                    Course(name: "Magistritöö IV", eapCount: 12)
+                ]
+            ),
+            Module(
+                module: "Erialaainete moodul: kiiritusravi",
+                courses: [
+                    Course(name: "Sissejuhatus - kasvajad ja kasvajate ravi", eapCount: 5),
+                    Course(name: "Kiiritusravi füüsika ja radiobioloogia", eapCount: 5),
+                    Course(name: "Sissejuhatus kiiritusravisse, ravieelsete protseduuride põhimõtted ja läbiviimine", eapCount: 5),
+                    Course(name: "Sissejuhatus - kiiritusravi planeerimine", eapCount: 5),
+                    Course(name: "Patiendi hoolduse põhimõtted kiiritusravis ja kiiritusravi läbiviimine", eapCount: 10)
+                ]
+            ),
+            Module(
+                module: "Õppepraktika moodul: kiiritusravi",
+                courses: [
+                    Course(name: "Õppepraktika kiiritusravis I", eapCount: 10),
+                    Course(name: "Õppepraktika kiiritusravis II", eapCount: 16),
+                    Course(name: "Õppepraktika kiiritusravis III", eapCount: 4)
+                ]
+            ),
+        ]
     ),
 ]

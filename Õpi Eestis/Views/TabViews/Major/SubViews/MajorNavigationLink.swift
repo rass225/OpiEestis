@@ -12,17 +12,19 @@ struct MajorNavigationLink<Destination: View>: View  {
                 ZStack{
                     HStack{
                         image
-                            .font(.lightTitle)
+                            .font(.regularTitle3)
                             .frame(width: 35)
-                            .padding(.trailing, 25)
                         Spacer()
-                        Image.chevronRight
                     }
                     Text(label).font(.regularCallout)
                 }.foregroundColor(.black)
-                .padding(.horizontal, 25)
-                .frame(minHeight: 0, maxHeight: .infinity)
-                .background(Color.whiteDim)
+                .padding(.leading, 25)
+                .padding(.trailing, 10)
+                .frame(minHeight: 0, maxHeight: 60)
+                .background(Color.white)
+                .cornerRadius(7)
+                .padding(.top, 8)
+                .padding(.horizontal, 20)
             }
         }
     }

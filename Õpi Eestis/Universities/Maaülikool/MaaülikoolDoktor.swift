@@ -16,7 +16,55 @@ let maaülikoolDoktor = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Teadus",
+                        courses: [
+                            Course(name: "Intellektuaalomandi kaitse ja autoriõigus", eapCount: 1),
+                            Course(name: "Teaduseetika", eapCount: 2),
+                            Course(name: "Teadstöö metodoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Õpetamine kõrgkoolis",
+                        courses: [
+                            Course(name: "Kõrgkooli pedagoogiline praktika", eapCount: 2),
+                            Course(name: "Kõrgkoolididaktika", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ettevõtlus- või juhtimisalane praktika", eapCount: 2),
+                            Course(name: "Juhtimine ja ettevõtlus", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [
+                    Course(name: "Erialaained", eapCount: 21),
+                    Course(name: "Matemaatiline statistika ja modelleerimine", eapCount: 3),
+                    Course(name: "Teaduskommunikatsioon", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: []
+            ),
+            Module(
+                module: "Doktoritöö",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 200)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Põllumajandus",
@@ -35,7 +83,55 @@ let maaülikoolDoktor = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Teadus",
+                        courses: [
+                            Course(name: "Intellektuaalomandi kaitse ja autoriõigus", eapCount: 1),
+                            Course(name: "Teaduseetika", eapCount: 2),
+                            Course(name: "Teadstöö metodoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Õpetamine kõrgkoolis",
+                        courses: [
+                            Course(name: "Kõrgkooli pedagoogiline praktika", eapCount: 2),
+                            Course(name: "Kõrgkoolididaktika", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ettevõtlus- või juhtimisalane praktika", eapCount: 2),
+                            Course(name: "Juhtimine ja ettevõtlus", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [
+                    Course(name: "Erialaained", eapCount: 21),
+                    Course(name: "Matemaatiline statistika ja modelleerimine", eapCount: 3),
+                    Course(name: "Teaduskommunikatsioon", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: []
+            ),
+            Module(
+                module: "Doktoritöö",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 200)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Tehnikateadus",
@@ -54,7 +150,71 @@ let maaülikoolDoktor = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Teadus",
+                        courses: [
+                            Course(name: "Intellektuaalomandi kaitse ja autoriõigus", eapCount: 1),
+                            Course(name: "Teaduseetika", eapCount: 2),
+                            Course(name: "Teadstöö metodoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Õpetamine kõrgkoolis",
+                        courses: [
+                            Course(name: "Kõrgkooli pedagoogiline praktika", eapCount: 2),
+                            Course(name: "Kõrgkoolididaktika", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ettevõtlus- või juhtimisalane praktika", eapCount: 2),
+                            Course(name: "Juhtimine ja ettevõtlus", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [
+                    Course(name: "Erialaained", eapCount: 21),
+                  
+                    Course(name: "Teaduskommunikatsioon", eapCount: 4)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Matemaatiline statistika ja modelleerimine",
+                        courses: [
+                            Course(name: "Matemaatiline statistika 1. Klassikalised meetodid", eapCount: 3),
+                            Course(name: "Matemaatiline statistika 2. Mudelid ja mustrid", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Teaduskommunikatsioon",
+                        courses: [
+                            Course(name: "Uurimistöö esitlemine rahvusvahelisel teaduskonverentsil", eapCount: 2),
+                            Course(name: "Uurimistöö esitlemine teaduslik-praktilisel konverentsil", eapCount: 2)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: []
+            ),
+            Module(
+                module: "Doktoritöö",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 200)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Veterinaarmeditsiin ja Toiduteadus",
@@ -73,7 +233,71 @@ let maaülikoolDoktor = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Teadus",
+                        courses: [
+                            Course(name: "Intellektuaalomandi kaitse ja autoriõigus", eapCount: 1),
+                            Course(name: "Teaduseetika", eapCount: 2),
+                            Course(name: "Teadstöö metodoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Õpetamine kõrgkoolis",
+                        courses: [
+                            Course(name: "Kõrgkooli pedagoogiline praktika", eapCount: 2),
+                            Course(name: "Kõrgkoolididaktika", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ettevõtlus- või juhtimisalane praktika", eapCount: 2),
+                            Course(name: "Juhtimine ja ettevõtlus", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [
+                    Course(name: "Erialaained", eapCount: 21),
+                  
+                    Course(name: "Teaduskommunikatsioon", eapCount: 4)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Matemaatiline statistika ja modelleerimine",
+                        courses: [
+                            Course(name: "Matemaatiline statistika 1. Klassikalised meetodid", eapCount: 3),
+                            Course(name: "Matemaatiline statistika 2. Mudelid ja mustrid", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Teaduskommunikatsioon",
+                        courses: [
+                            Course(name: "Uurimistöö esitlemine rahvusvahelisel teaduskonverentsil", eapCount: 2),
+                            Course(name: "Uurimistöö esitlemine teaduslik-praktilisel konverentsil", eapCount: 2)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: []
+            ),
+            Module(
+                module: "Doktoritöö",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 200)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Metsandus",
@@ -92,6 +316,70 @@ let maaülikoolDoktor = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Teadus",
+                        courses: [
+                            Course(name: "Intellektuaalomandi kaitse ja autoriõigus", eapCount: 1),
+                            Course(name: "Teaduseetika", eapCount: 2),
+                            Course(name: "Teadstöö metodoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Õpetamine kõrgkoolis",
+                        courses: [
+                            Course(name: "Kõrgkooli pedagoogiline praktika", eapCount: 2),
+                            Course(name: "Kõrgkoolididaktika", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ettevõtlus- või juhtimisalane praktika", eapCount: 2),
+                            Course(name: "Juhtimine ja ettevõtlus", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [
+                    Course(name: "Erialaained", eapCount: 21),
+                  
+                    Course(name: "Teaduskommunikatsioon", eapCount: 4)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Matemaatiline statistika ja modelleerimine",
+                        courses: [
+                            Course(name: "Matemaatiline statistika 1. Klassikalised meetodid", eapCount: 3),
+                            Course(name: "Matemaatiline statistika 2. Mudelid ja mustrid", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Teaduskommunikatsioon",
+                        courses: [
+                            Course(name: "Uurimistöö esitlemine rahvusvahelisel teaduskonverentsil", eapCount: 2),
+                            Course(name: "Uurimistöö esitlemine teaduslik-praktilisel konverentsil", eapCount: 2)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: []
+            ),
+            Module(
+                module: "Doktoritöö",
+                courses: [
+                    Course(name: "Doktoritöö", eapCount: 200)
+                ]
+            )
+        ]
     )
 ]

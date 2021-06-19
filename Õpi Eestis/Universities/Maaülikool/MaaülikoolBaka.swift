@@ -16,7 +16,149 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Filosoofia", eapCount: 3),
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Kõrgem matemaatika", eapCount: 7),
+                    Course(name: "Maasotsioloogia üldkursus", eapCount: 4),
+                    Course(name: "Majandusinformaatika", eapCount: 4),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Teadustöö alused", eapCount: 3),
+                    Course(name: "Õigusõpetus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Majandusteaduse alused",
+                        courses: [
+                            Course(name: "Makroökonoomika", eapCount: 5),
+                            Course(name: "Mikroekonoomika", eapCount: 5),
+                            Course(name: "Rahvusvaheline majandus", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Põlluimajandusökonoomika",
+                        courses: [
+                            Course(name: "Loomakasvatuse alused", eapCount: 4),
+                            Course(name: "Põllumajandusökonoomika põhikursus", eapCount: 5),
+                            Course(name: "Põllumajandusökonoomika üldkursus", eapCount: 5),
+                            Course(name: "Taimekasvatus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Statistika ja ökonomeetria",
+                        courses: [
+                            Course(name: "Operatsioonianalüüs", eapCount: 5),
+                            Course(name: "Tõenäosusteooria ja statistika", eapCount: 5),
+                            Course(name: "Ökonomeetria", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Majandusarvestus",
+                        courses: [
+                            Course(name: "Finantsraamatupidamine üldkursus", eapCount: 6),
+                            Course(name: "Füüsilisest isikust ettevõtja arvestus", eapCount: 2),
+                            Course(name: "Juhtimisraamatupidamine", eapCount: 6),
+                            Course(name: "Raamatupidamise alused", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maksud ja rahandus",
+                        courses: [
+                            Course(name: "Euroopa Liidu rahandus ja poliitika", eapCount: 3),
+                            Course(name: "Maksud", eapCount: 3),
+                            Course(name: "Rahandus", eapCount: 4),
+                            Course(name: "Ärirahandus ja finantseerimine", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Logistika maamajanduses", eapCount: 3),
+                            Course(name: "Maaettevõtluse põhikursus", eapCount: 3),
+                            Course(name: "Maaettevõtluse üldkursus", eapCount: 2),
+                            Course(name: "Ühistegevuse alused", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Turundus ja juhtimine",
+                        courses: [
+                            Course(name: "Ettevõtte juhtimise üldkursus", eapCount: 3),
+                            Course(name: "Hinnapoliitika ja -streteegia", eapCount: 3),
+                            Course(name: "Turundus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõttepraktika",
+                        courses: [
+                            Course(name: "Ettevõttepraktika", eapCount: 6)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Valikmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Tarbija ja põllumajandustootja",
+                        courses: [
+                            Course(name: "Põllumajandus- ja toidusüsteemiturundus", eapCount: 3),
+                            Course(name: "Põllumajandusturundus", eapCount: 3),
+                            Course(name: "Tarbijakäitumine", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtluse õiguslikud ja eetilised alused",
+                        courses: [
+                            Course(name: "Majandusõigus", eapCount: 4),
+                            Course(name: "Ärieetika", eapCount: 2)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Bioloogilise vara ja avaliku sektori arvestus",
+                        courses: [
+                            Course(name: "Avaliku sektori arvestus ja finantsjuhtimine", eapCount: 3),
+                            Course(name: "Bioloogilise vara arvestus ja hindamine", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maaelu juhtimine",
+                        courses: [
+                            Course(name: "Avalik esinemine", eapCount: 3),
+                            Course(name: "Maaelu arendamine ja juhtimine", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Vabaained",
+                courses: [
+                    Course(name: "Vabaainete valiku teeb üliõpilane vastavalt oma huvidele Eesti Maaülikooli või teiste kõrgkoolide õppeainete hulgast, soovituslikult erialamoodulis antavate teadmiste täienduseks.", eapCount: 8)
+                ]
+            ),
+            Module(
+                module: "Bakalaureusetöö/eksam",
+                courses: [
+                    Course(name: "Bakalraureuseeksam", eapCount: 10),
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Geodeesia, Kinnisvara- ja Maakorraldus",
@@ -35,7 +177,119 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Keskkonnafüüsika", eapCount: 3),
+                    Course(name: "Korrektne eesti keel", eapCount: 2),
+                    Course(name: "Kõrgem matemaatika geomaatika erialale", eapCount: 8),
+                    Course(name: "Riskianalüüs ja töökeskonna ohutus", eapCount: 3),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Sissejuhatus erialasse",
+                        courses: [
+                            Course(name: "Erialapraktika", eapCount: 6),
+                            Course(name: "Matemaatiline statistika", eapCount: 2),
+                            Course(name: "Sissejuhatus erialasse", eapCount: 1),
+                            Course(name: "Uurimistöö", eapCount: 2),
+                            Course(name: "Uurimistöö alused", eapCount: 2)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Juriidika",
+                        courses: [
+                            Course(name: "Kinnisvaraõigus I", eapCount: 4),
+                            Course(name: "Tsiviilõigus", eapCount: 3),
+                            Course(name: "Õigusõpetus", eapCount: 3),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Infotehnoloogia",
+                        courses: [
+                            Course(name: "CAD-süsteemid geomaatikas", eapCount: 4),
+                            Course(name: "Geoinformaatika alused", eapCount: 5),
+                            Course(name: "Infotehnoloogia geodeesias", eapCount: 3),
+                            Course(name: "Insenerigraafika ja CAD", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Rakendusgeodeesia ja kaugseire",
+                        courses: [
+                            Course(name: "Droonimõõdistus ja laserskanneerimine", eapCount: 4),
+                            Course(name: "Elektrontahhümeetria", eapCount: 4),
+                            Course(name: "Fotogramm-meetria ja kugseire alused", eapCount: 7),
+                            Course(name: "Geodeesia I", eapCount: 9),
+                            Course(name: "Satelliitmõõdistamine", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maakorraldus ja maakataster",
+                        courses: [
+                            Course(name: "Maakasutuse planeerimise põhikursus", eapCount: 3),
+                            Course(name: "Maakataster ja maainfosüsteemid I", eapCount: 4),
+                            Course(name: "Maakorraldus- ja katastritoimingud", eapCount: 4),
+                            Course(name: "Maakorralduse põhikursus", eapCount: 5),
+                            Course(name: "Mullateadus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Kinnisvarakorraldus ja hindamine",
+                        courses: [
+                            Course(name: "Ehitusõpetus", eapCount: 4),
+                            Course(name: "Kinnisvara arendus", eapCount: 2),
+                            Course(name: "Kinnisvara hindamine I", eapCount: 4),
+                            Course(name: "Kinnisvara ökonoomika I", eapCount: 2),
+                            Course(name: "Metsanduse alused insenerierialadele", eapCount: 4),
+                            Course(name: "Sissejuhatus hinnisvaraõpetusse", eapCount: 2),
+                            Course(name: "Veevarustus ja kanalisatsioon", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Eriala valikainete moodul",
+                courses: [
+                    Course(name: "Digitaalsed instrumendid geodeesias", eapCount: 4),
+                    Course(name: "Ehitiste tehnilise seisukorra hindamine", eapCount: 4),
+                    Course(name: "Ehitusgeodeesia alused", eapCount: 3),
+                    Course(name: "Ehituskonstruktsioonide lühikursus", eapCount: 3),
+                    Course(name: "Füüsika ja elektrotehnika alused", eapCount: 5),
+                    Course(name: "Geodeesia II", eapCount: 5),
+                    Course(name: "Kinnisvara haldamine", eapCount: 2),
+                    Course(name: "Maakorralduse projekt", eapCount: 3),
+                    Course(name: "Metsade väärtuse hindamine", eapCount: 2),
+                    Course(name: "Planeerimise meetodid", eapCount: 2),
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: "Üliõpilane valib vabaaineid nii oma ülikoolist kui ka teistest (välis)kõrgkoolidest.", eapCount: 8)]
+            ),
+            Module(module: "Bakalaureusetöö", courses: [Course(name: "Bakalaureusetöö", eapCount: 10)])
+        ]
     ),
     majorsMinors(
         name: "Metsandus",
@@ -54,7 +308,150 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Insenerigraafika ja CAD (2D)", eapCount: 3),
+                    Course(name: "Maamõõtmise alused", eapCount: 2),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Sissejuhatus õpingutesse", eapCount: 1),
+                    Course(name: "Uurimistöö alused", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Metsa ja puidu mõõtmine",
+                        courses: [
+                            Course(name: "Metsa mõõtmine ja hindamine", eapCount: 5),
+                            Course(name: "Puidu mõõtmine ja hindamine", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsade haldamine ja korraldamine",
+                        courses: [
+                            Course(name: "Geograafilised informatsioonisüsteemid", eapCount: 4),
+                            Course(name: "Metsakorraldus", eapCount: 4),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsaökoloogia",
+                        courses: [
+                            Course(name: "Metsabotaanika", eapCount: 3),
+                            Course(name: "Metsamullateadus", eapCount: 5),
+                            Course(name: "Metsaökoloogia", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsanduslik andmebaasid ja andmetöötlus",
+                        courses: [
+                            Course(name: "Loodusressursside andmebaasid", eapCount: 3),
+                            Course(name: "Metsanduslik andmetöötlus", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsa- ja puidukaitse",
+                        courses: [
+                            Course(name: "Metsa- ja puidu patogeenid", eapCount: 4),
+                            Course(name: "Metsaentomoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsanduslik taristu ja puidu varumine",
+                        courses: [
+                            Course(name: "Metsakuivendus ja -teed", eapCount: 4),
+                            Course(name: "Puiduvarumine ja logistika", eapCount: 7)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Puidu töötlemine",
+                        courses: [
+                            Course(name: "Puidu keemiline töötlemine", eapCount: 4),
+                            Course(name: "Puidu mehhaaniline töötlemine", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Puiduteadus ja puidutehnoloogiad",
+                        courses: [
+                            Course(name: "Puiduteadus", eapCount: 4),
+                            Course(name: "Saetööstuse tehnoloogia", eapCount: 4),
+                            Course(name: "Spooni, vineeri ja puitplaatide tehnoloogia", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsade elurikkus ja mitmekülgne kasutamine",
+                        courses: [
+                            Course(name: "Metsa funktsioonid ja mittepuidulised väärtused", eapCount: 2),
+                            Course(name: "Metsade elurikkus", eapCount: 3),
+                            Course(name: "Ulukite bioloogia ja majandus", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsapoliitika ja metsaökonoomika",
+                        courses: [
+                            Course(name: "Metsandusökonoomika", eapCount: 5),
+                            Course(name: "Metsapoliitika", eapCount: 3),
+                            Course(name: "Sissejuhatus metsamajandusse ja puidutööstusesse", eapCount: 2)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõttepraktika",
+                        courses: [
+                            Course(name: "Sissejuhatav ettevõttepraktika", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Eriala valkiainete moodul",
+                courses: [
+                    Course(name: "Dendrokronoloogia", eapCount: 3),
+                    Course(name: "Erametsandus Eestis", eapCount: 3),
+                    Course(name: "Ettevalmistus metsakorraldaja eksamiks", eapCount: 4),
+                    Course(name: "Haljastus ja linnametsandus", eapCount: 4),
+                    Course(name: "Ideest äriplaanini", eapCount: 4),
+                    Course(name: "Innovatsioon ja totearendus", eapCount: 2),
+                    Course(name: "Keskkonnaprojektide juhtimine", eapCount: 3),
+                    Course(name: "Keskkonnaseire", eapCount: 4),
+                    Course(name: "Keskkonnaõigus ja avalik haldus", eapCount: 3),
+                    Course(name: "Looduse kaugseire", eapCount: 4),
+                    Course(name: "Metsamarjakasvatus", eapCount: 2),
+                    Course(name: "Metsasertifitseerimine", eapCount: 3),
+                    Course(name: "Puidu ja puidupõhiste materjalide katsetamine", eapCount: 4),
+                    Course(name: "Puidu modifitseerimine", eapCount: 4),
+                    Course(name: "Puidutööstus Eestis", eapCount: 3),
+                    Course(name: "Raietöö alused", eapCount: 4),
+                    Course(name: "Raietööde õppepraktika", eapCount: 4),
+                    Course(name: "Riigimetsandus Eestis", eapCount: 3),
+                    Course(name: "Seenekasvatus", eapCount: 3),
+                    Course(name: "Tisleritöö alused", eapCount: 4)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: " Üliõpilased valivad vabaaineid nii oma ülikoolist kui ka teistest kõrgkoolidest. Õppeainete sisule piiranguid ei seata.", eapCount: 8)]
+            ),
+            Module(module: "Bakalaureusetöö", courses: [Course(name: "Bakalaureusetöö", eapCount: 10)])
+        ]
     ),
     majorsMinors(
         name: "Aiandus",
@@ -73,7 +470,113 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Informaatika ja biomeetria", eapCount: 4),
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse ja teadustöö alused", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Muld ja väetamine",
+                        courses: [
+                            Course(name: "Agrokeemia", eapCount: 6),
+                            Course(name: "Eesti mullastik", eapCount: 4),
+                            Course(name: "Muldade väliuurimine", eapCount: 3),
+                            Course(name: "Mullateaduse alused", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Haljastus",
+                        courses: [
+                            Course(name: "Haljasalade kujundamine", eapCount: 5),
+                            Course(name: "Maastikuehitus", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Aia- ja põllukultuurid ning kasvutingimused",
+                        courses: [
+                            Course(name: "Geneetika", eapCount: 4),
+                            Course(name: "Ilutaimed", eapCount: 6),
+                            Course(name: "Kvaliteetne saak ja põllumajandustaimede areng", eapCount: 3),
+                            Course(name: "Põllumajandustaimed", eapCount: 4),
+                            Course(name: "Taimefüsioloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Aia- ja põllukultuuride kasvatustehnoloogiad",
+                        courses: [
+                            Course(name: "Aiakultuuride paljundamine", eapCount: 7),
+                            Course(name: "Aianduse tehnoloogiad", eapCount: 7),
+                            Course(name: "Katmikaiandus", eapCount: 7),
+                            Course(name: "Köögiviljandus", eapCount: 7),
+                            Course(name: "Maaviljelus", eapCount: 5),
+                            Course(name: "Puuviljandus", eapCount: 7),
+                            Course(name: "Taimekasvatus II", eapCount: 7)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Taimetervis",
+                        courses: [
+                            Course(name: "Taimekahjustajad ja nende tõrje", eapCount: 13)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Praktika",
+                        courses: [
+                            Course(name: "Praktika ettevõttes", eapCount: 10)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Eriala valikained",
+                courses: [
+                    Course(name: "Agrometeoroloogia", eapCount: 2),
+                    Course(name: "Maitsetaimed ja metsamarjad", eapCount: 4),
+                    Course(name: "Põllumajandusökonoomika", eapCount: 4),
+                    Course(name: "Raamatupidamine mittemajanduserialadele", eapCount: 3),
+                    Course(name: "Rohumaaviljelus", eapCount: 7),
+                    Course(name: "Taimede stressibioloogia", eapCount: 7),
+                    Course(name: "Taimekasvatuse masintehnoogiad", eapCount: 3),
+                    Course(name: "Viinamarjakasvatus", eapCount: 5),
+                    Course(name: "Üldmikrobioloogia", eapCount: 3)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: " Üliõpilased valivad vabaaineid nii oma ülikoolist kui ka teistest kõrgkoolidest. Õppeainete sisule piiranguid ei seata.", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10),
+                    Course(name: "Bakalaureuseeksam", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Kalandus ja Rakendusökoloogia",
@@ -92,7 +595,182 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Akadeemiline edukas ja õpioskused", eapCount: 2),
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Teadustöö metodoloogia", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Ökoloogia, evolutsioon ja elustiku kaitse",
+                        courses: [
+                            Course(name: "Evolutsiooni mehhanismid", eapCount: 3),
+                            Course(name: "Looduskaitsebioloogia", eapCount: 5),
+                            Course(name: "Loomade ökofüsioloogia", eapCount: 4),
+                            Course(name: "Loomaökoloogia", eapCount: 4),
+                            Course(name: "Produktsiooniökoloogia", eapCount: 4),
+                            Course(name: "Sisevete ökoloogia", eapCount: 4),
+                            Course(name: "Sissejuhatus biosüstemaatikasse", eapCount: 3),
+                            Course(name: "Ökoloogia", eapCount: 4),
+                            Course(name: "Ökoloogiline taastamine", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Elustiku tundmine",
+                        courses: [
+                            Course(name: "Eesti imetajad", eapCount: 3),
+                            Course(name: "Eesti kalad, kahepaiksed ja roomajad", eapCount: 4),
+                            Course(name: "Eesti taimestik, taimkate ja selle kaitse", eapCount: 5),
+                            Course(name: "Eesti veekogude floora", eapCount: 2)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Kalandus ja hüdrobioloogia",
+                        courses: [
+                            Course(name: "Kalade bioloogia", eapCount: 4),
+                            Course(name: "Kalade geneetika, biotehnoloogia ja aretus", eapCount: 4),
+                            Course(name: "Kalade toitumine", eapCount: 3),
+                            Course(name: "Kalade ökoloogia", eapCount: 2),
+                            Course(name: "Rakendushüdrobioloogia I ", eapCount: 5),
+                            Course(name: "Vee mikrobioloogia I", eapCount: 2),
+                            Course(name: "Veekogude ökotoksikoloogia ja kalade füsioloogia", eapCount: 5),
+                            Course(name: "Vesiviljeluse alused", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maateadus ja geokeemia",
+                        courses: [
+                            Course(name: "Geoinformaatika I", eapCount: 4),
+                            Course(name: "Geoloogia ja hüdrogeoloogia", eapCount: 4),
+                            Course(name: "Hüdrokeemia", eapCount: 4),
+                            Course(name: "Keskkonnakeemia", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metoodika",
+                        courses: [
+                            Course(name: "Biomeetria", eapCount: 6),
+                            Course(name: "Eluslooduse mitmekesisuse andmebaasid", eapCount: 2),
+                            Course(name: "Kalanduse ja rakendusökoloogia uurimise meetodid", eapCount: 4),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Praktika",
+                        courses: [
+                            Course(name: "Ettevõtluspraktika", eapCount: 7)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Eriala valikmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "kalandus ja vähimajandus",
+                        courses: [
+                            Course(name: "Kalade käitlemine ja turustamine", eapCount: 2),
+                            Course(name: "Kalapüük", eapCount: 3),
+                            Course(name: "Vähimajandus", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Vesiviljelus",
+                        courses: [
+                            Course(name: "Kalade paljunemine", eapCount: 3),
+                            Course(name: "Mikro- ja makrovetikate kasvatamine masskultuuris", eapCount: 2),
+                            Course(name: "Vesiviljeluse tehnoloogiad I", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Kalade tervis ja heaolu",
+                        courses: [
+                            Course(name: "Ihtüopatoloogia", eapCount: 3),
+                            Course(name: "Kalade heaolu", eapCount: 3),
+                            Course(name: "Kalade söötmine", eapCount: 2)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Limnoloogia ja okeanograafia",
+                        courses: [
+                            Course(name: "Limnoloogia", eapCount: 4),
+                            Course(name: "Mereteadus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Hüdrobioloogia",
+                        courses: [
+                            Course(name: "Hüdrobioloogia suvepraktika", eapCount: 3),
+                            Course(name: "Üldine hüdrobioloogia", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Veekogude elustik ja eutrofeerumine",
+                        courses: [
+                            Course(name: "Veekogude elustik", eapCount: 4),
+                            Course(name: "Veekogude eutrofeerumine", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Metsad ja pärandkooslused",
+                        courses: [
+                            Course(name: "Metsaökoloogia ja majandamine", eapCount: 5),
+                            Course(name: "Pärandkooslused", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Taimed ja taimestik",
+                        courses: [
+                            Course(name: "Eesti taimestik - praktika", eapCount: 3),
+                            Course(name: "Taimede ökofüsioloogia", eapCount: 3),
+                            Course(name: "Taimeökoloogia", eapCount: 2)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maismaa elustik",
+                        courses: [
+                            Course(name: "Eesti linnud", eapCount: 6),
+                            Course(name: "Eesti putukad", eapCount: 5),
+                            Course(name: "Mükoloogia ja seenetundmise praktikum", eapCount: 5)
+                        ]
+                    ),
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: " Üliõpilased valivad vabaaineid oma ülikoolist või ka teistest kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10),
+                    Course(name: "Bakalaureuseeksam", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Keskkonnakaitse",
@@ -111,7 +789,109 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Andmetöötluse alused", eapCount: 4),
+                    Course(name: "Biomajanduse alused", eapCount: 4),
+                    Course(name: "Geoinformaatika I", eapCount: 4),
+                    Course(name: "Keskkonnafilosoofia ja -eetika", eapCount: 3),
+                    Course(name: "Maamõõtmine ja kartograafia", eapCount: 4),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Teadustöö metodoloogia", eapCount: 3),
+                    Course(name: "Inglise erialakeel", eapCount: 4)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Eesti elurikkus ja maastikud",
+                        courses: [
+                            Course(name: "Eesti biotoobid ja nende elustik", eapCount: 3),
+                            Course(name: "Eesti kultuurmaastike ja asutuse kujunemine", eapCount: 4),
+                            Course(name: "Eesti loomastik", eapCount: 4),
+                            Course(name: "Eesti taimestik, taimekate ja selle kaitse", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Keskkonnakaitse",
+                        courses: [
+                            Course(name: "Jäätmekäitlus", eapCount: 3),
+                            Course(name: "Keskkonnafüüsika", eapCount: 3),
+                            Course(name: "Keskkonnakaitse ja maastikuhoiu erialapraktika", eapCount: 6),
+                            Course(name: "Keskkonnakaitse üldkursus", eapCount: 4),
+                            Course(name: "Keskkonnakorralduse meetmed", eapCount: 3),
+                            Course(name: "Keskkonnapoliitika ja -korraldus", eapCount: 5),
+                            Course(name: "Keskkonnaökoloogia", eapCount: 3),
+                            Course(name: "Keskkonnaökonoomika üldkursus", eapCount: 3),
+                            Course(name: "Saasteained keskkonnas", eapCount: 3),
+                            Course(name: "Sissejuhatus keskkonnaõigusesse", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Loodusressurside säästlik kasutamine ja planeerimine",
+                        courses: [
+                            Course(name: "Eesti majandusgeograafia", eapCount: 4),
+                            Course(name: "Linnaökoloogia ja planeerimine", eapCount: 4),
+                            Course(name: "Maastikuhooldus", eapCount: 6),
+                            Course(name: "Metsaökoloogia ja majandamine", eapCount: 5),
+                            Course(name: "Rakendushüdroloogia ja hüdromeetria", eapCount: 4),
+                            Course(name: "Ruumiline planeerimine", eapCount: 4),
+                            Course(name: "Ökoloogiline taastamine", eapCount: 3),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Üldine ökoloogia",
+                        courses: [
+                            Course(name: "Eesti loodusgeograafia", eapCount: 4),
+                            Course(name: "Geoloogia ja hüdrogeoloogia", eapCount: 4),
+                            Course(name: "Looduskaitse alused", eapCount: 3),
+                            Course(name: "Maastikuökollogia ja -analüüs", eapCount: 5),
+                            Course(name: "Maateaduse alused", eapCount: 4),
+                            Course(name: "Mullateadus", eapCount: 5),
+                            Course(name: "Ökoloogia", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Eriala valikainete moodul",
+                courses: [
+                    Course(name: "Akadeemiline edukus ja õpioskused", eapCount: 2),
+                    Course(name: "Keskkonnanäidikud ja andmebaasid", eapCount: 2),
+                    Course(name: "Keskkonnasotsioloogia", eapCount: 3),
+                    Course(name: "Looduse kaugseire", eapCount: 4),
+                    Course(name: "Looduse vahendamise metoodika", eapCount: 4),
+                    Course(name: "Loodusturismi alused", eapCount: 4),
+                    Course(name: "Projektide koostamine ja juhtimine", eapCount: 3),
+                    Course(name: "Ruraalgeograafika", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 3),
+                    Course(name: "Veevarustus ja veekaitse alused", eapCount: 4)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: " Üliõpilased valivad vabaaineid oma ülikoolist või ka teistest kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10),
+                    Course(name: "Bakalaureuseeksam", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Keskkonnaplaneerimine",
@@ -131,7 +911,119 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Looduskeskkond ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajandus ja looduspõhised lahendused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse üldkursus", eapCount: 4),
+                            Course(name: "Maateaduse alused", eapCount: 4),
+                            Course(name: "Mullateadus", eapCount: 5),
+                            Course(name: "Ökoloogia", eapCount: 4),
+                            Course(name: "Üldmetsakasvatus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus ja töökeskkond",
+                        courses: [
+                            Course(name: "Ettevõtlus maastikuarhitektuuris", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4),
+                            Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Loovtöö alused ja graafiline kommunikatsioon",
+                        courses: [
+                            Course(name: "Digitaalne projektgraafika", eapCount: 3),
+                            Course(name: "Joonistamine", eapCount: 6),
+                            Course(name: "Vormi-, kompositsiooni- ja värviõpetus", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maastikuarhitektuuri ajalugu ja maastikupärand",
+                        courses: [
+                            Course(name: "Eesti kultuurmaastike ja asutuse kujunemine", eapCount: 4),
+                            Course(name: "Maastikuarhitektuuri ajalugu I", eapCount: 3),
+                            Course(name: "Maastikuarhitektuuri ajalugu II", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Kartograafia ja GIS",
+                        courses: [
+                            Course(name: "Geoinformaatika I", eapCount: 4),
+                            Course(name: "Maamõõtmine ja kartograafia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Välisruumi kujundamine ja projekteerimine",
+                        courses: [
+                            Course(name: "Avalikke alade kujundamine", eapCount: 5),
+                            Course(name: "Linnaruumi kujundamine", eapCount: 5),
+                            Course(name: "Maastikuarhitetuuri üldkursus", eapCount: 6),
+                            Course(name: "Maastikuehitus", eapCount: 4),
+                            Course(name: "Projekteerimis- ja planeerimisõigus", eapCount: 2),
+                            Course(name: "Uurimistöö alused ja linnaruumi analüüs", eapCount: 3),
+                            Course(name: "Väikeste välialade kujundamine", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Taimed ja nende kasutamine",
+                        courses: [
+                            Course(name: "Eesti taimestik, taimekate ja selle kaitse", eapCount: 5),
+                            Course(name: "Ilutaimede kasutamine", eapCount: 6),
+                            Course(name: "Kujundamine taimedega", eapCount: 3),
+                            Course(name: "Puittaimed ja haljastuses", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ruumiline planeerimine ja maastik",
+                        courses: [
+                            Course(name: "Eesti loodusgeograafia", eapCount: 4),
+                            Course(name: "Elukeskkonna detailplaneerimine", eapCount: 9),
+                            Course(name: "Maastikuökoloogia ja -analüüs", eapCount: 5),
+                            Course(name: "Ruumiline planeerimine", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Praktika",
+                        courses: [
+                            Course(name: "Maastikuarhitektuuri erialapraktika", eapCount: 6)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Eriala valikained",
+                courses: [
+                    Course(name: "Aiakujundus", eapCount: 6),
+                    Course(name: "Keskkonnafilosoofia ja -eetika", eapCount: 3),
+                    Course(name: "Maastikuhooldus", eapCount: 6),
+                    Course(name: "Rohealade haldamine ja hooldamine", eapCount: 3),
+                    Course(name: "Tehnogeensete maastike kujundamine I", eapCount: 3),
+                    Course(name: "Tehnogeensete maastike kujundamine II", eapCount: 3),
+                    Course(name: "Ökoloogiline taastamine", eapCount: 3)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: "Üliõpilane valib vabaaineid nii oma ülikoolist kui ka teistest (välis)kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Loodusturism",
@@ -143,14 +1035,124 @@ let maaülikoolBaka = [
             Requirements(term: "Gümnaasiumi tunnistuse keskmine hinne")
         ],
         description: ["Eesti on tuntud oma eripärase ja mitmekesise looduse poolest – siis võivad loodushuvilised näha nii haruldasi taimi ja loomi, puutumata rabamaastikke kui ka puisniite. Loodusturismi pärusmaa on looduse mitmekesisuse tutvustamine keskkonda säästval moel. Kasvav turistide arv on oht meie üsna puutumata loodusele, mistõttu vajab turismikorraldus ja planeerimine arukaid spetsialiste.", "Meil õpid:", "• Loodusturismi aluseid, toimimispõhimõtteid ja korraldust nii Eestis kui ka välismaal, jahi- ja kalaturismi, turismiettevõtlust, projektijuhtimist ja -kirjutamist", "• Turismivaldkonna mõistmist akadeemilises kontekstis, teaduskirjanduse analüüsimise, lugemise ja esitlemise oskust ning seostamist teooria ja praktikaga turunduse aluseid", "• Loodusgiidi tööks vajalikke oskusi: võõrkeeli, suhtlemispsühholoogiat, riske ja tööohutust loodusturismis, fotograafiat, looduse vahendamise metoodikat, klienditeekonna kujundamist, külastajate sihtgruppide ja eripärade tundmist", "• Keskkonnafilosoofiat ja -eetikat, keskkonnasotsioloogiat, ökoloogiat, üldbioloogiat, geoinfosüsteeme", "Looduskaitset ja keskkonnakorralduse põhimõtteid", "Õpingud on huvitavad ja mitmekesised, sisaldades nii loenguid, seminare kui ka hulgaliselt välipraktikume. Samuti on Sul võimalus oma praktika sooritada eriala parimate ettevõjate juures, nagu 360 kraadi või Soomaa.com.", "Õpe toimub päevases õppevormis ja kestab kokku kolm aastat. Õppejõud on oma eriala tippspetsialistid, lisaks kaasatakse õppetöösse ka praktikuid era- ja avalik-õiguslikust sektorist."],
-        outcomes: ["Bakalaureuseastmes omandatud teadmised ja oskused võimaldavad tööle asuda riigimetsamajandamise keskuses, keskkonnaametis, keskkonnaagentuuris, keskkonnainspektsioonis, omavalitsustes, turismiorganisatsioonides, turismiettevõtetes, turismitaludes, loodushariduskeskustes ja mujal. Lisaks on Sul suurepärane ettevalmistus iseendale töökoha loomiseks.", "Õppekava edukalt läbinu:", "Oskab kirjeldada loodusteaduste ja sotsiaalmajanduse põhimõisteid, selgitada teoreetilisi printsiipe ja rakendada uurimismeetodeid", "Tunneb keskkonnakaitse rakendusalasid ja interdistsiplinaarseid seoseid", "Orienteerub loodusturismi arengusuundades ja aktuaalsetes probleemides", "Oskab analüüsida turismi ja ettevõtluse arenguga seotud probleeme ja hinnata erinevaid lahendusi", "Oskab iseseisvalt erialaste ülesannete lahendamiseks informatsiooni koguda, analüüsida ja hinnata, kasutades kohaseid meetodeid, tehnoloogiaid ja vahendeid", "Oskab kasutada tööks vajalikke info-, esitlus- ja kommunikatsioonitehnoloogiaid ning omab head suhtlusoskust", "Oskab erialaga seonduvaid probleeme suuliselt ja kirjalikult selgitada eesti keeles ning kahes võõrkeeles", "Omab valmisolekut töötamaks nii era- (turismiettevõtted, turismiarendus-organisatsioonid jt.) kui riigi ja kohaliku omavalitsuse sektoris", "Suudab rakendada omandatud teadmisi ja oskusi töös ning jätkata õpinguid magistritasemel ning mõistab elukestva õppe vajadust", "On valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse", "Vastutab oma erialase tegevuse tagajärgede eest ühiskonnas", "Omab valmisolekut meeskonnatööks ja ühistegevuseks."],
+        outcomes: ["Bakalaureuseastmes omandatud teadmised ja oskused võimaldavad tööle asuda riigimetsamajandamise keskuses, keskkonnaametis, keskkonnaagentuuris, keskkonnainspektsioonis, omavalitsustes, turismiorganisatsioonides, turismiettevõtetes, turismitaludes, loodushariduskeskustes ja mujal. Lisaks on Sul suurepärane ettevalmistus iseendale töökoha loomiseks.", "Oskab kirjeldada loodusteaduste ja sotsiaalmajanduse põhimõisteid, selgitada teoreetilisi printsiipe ja rakendada uurimismeetodeid", "Tunneb keskkonnakaitse rakendusalasid ja interdistsiplinaarseid seoseid", "Orienteerub loodusturismi arengusuundades ja aktuaalsetes probleemides", "Oskab analüüsida turismi ja ettevõtluse arenguga seotud probleeme ja hinnata erinevaid lahendusi", "Oskab iseseisvalt erialaste ülesannete lahendamiseks informatsiooni koguda, analüüsida ja hinnata, kasutades kohaseid meetodeid, tehnoloogiaid ja vahendeid", "Oskab kasutada tööks vajalikke info-, esitlus- ja kommunikatsioonitehnoloogiaid ning omab head suhtlusoskust", "Oskab erialaga seonduvaid probleeme suuliselt ja kirjalikult selgitada eesti keeles ning kahes võõrkeeles", "Omab valmisolekut töötamaks nii era- (turismiettevõtted, turismiarendus-organisatsioonid jt.) kui riigi ja kohaliku omavalitsuse sektoris", "Suudab rakendada omandatud teadmisi ja oskusi töös ning jätkata õpinguid magistritasemel ning mõistab elukestva õppe vajadust", "On valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse", "Vastutab oma erialase tegevuse tagajärgede eest ühiskonnas", "Omab valmisolekut meeskonnatööks ja ühistegevuseks."],
         language: .eesti,
         majorWebsite: "http://pk.emu.ee/",
         spots: 20,
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Geoinformaatika I", eapCount: 4),
+                    Course(name: "Infootsingud ja andmebaaside kasutamine", eapCount: 3),
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Loodusturismi alused", eapCount: 4),
+                    Course(name: "Loodusturismi uurijaseminar", eapCount: 2),
+                    Course(name: "Põllumajandus Eestis", eapCount: 3),
+                    Course(name: "Teadustöö metodoloogia", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Arendusprojektide koostamine ja juhtimine", eapCount: 2),
+                            Course(name: "Turismiettevõtlus", eapCount: 5),
+                            Course(name: "Turunuduse alused", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Eluslooduse mitmekesisuse andmebaasid", eapCount: 2),
+                            Course(name: "Keskkonnafilosoofia ja -eetika", eapCount: 3),
+                            Course(name: "Keskkonnakaitse üldkursus", eapCount: 4),
+                            Course(name: "Keskkonnasotsioloogia", eapCount: 3),
+                            Course(name: "Sissejuhatus keskkonnaõigusesse", eapCount: 3)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Üldine ökoloogia",
+                        courses: [
+                            Course(name: "Eesti loodusgeograafia", eapCount: 4),
+                            Course(name: "Geoloogia ja hüdrogeoloogia", eapCount: 4),
+                            Course(name: "Looduskaitse alused", eapCount: 3),
+                            Course(name: "Maastikuökoloogia ja -analüüs", eapCount: 5),
+                            Course(name: "Mullateadus", eapCount: 5),
+                            Course(name: "Ökoloogia", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Elurikkus",
+                        courses: [
+                            Course(name: "Eesti imetajad", eapCount: 3),
+                            Course(name: "Eesti kalad, kahepaiksed ja roomajad", eapCount: 4),
+                            Course(name: "Eesti linnud", eapCount: 6),
+                            Course(name: "Eesti putukad", eapCount: 5),
+                            Course(name: "Eesti taimestik - praktika", eapCount: 3),
+                            Course(name: "Eesti taimestik, taimkate ja selle kaitse", eapCount: 5),
+                            Course(name: "Mükoloogia ja Eesti seenestik", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Koosluste majandamine",
+                        courses: [
+                            Course(name: "Eesti kultuurimaastike ja asustuse kujundamine", eapCount: 4),
+                            Course(name: "Metsaökoloogia ja majandamine", eapCount: 5),
+                            Course(name: "Pärandkooslused", eapCount: 3),
+                            Course(name: "Rakendushüdrobioloogia I", eapCount: 5),
+                            Course(name: "Sooteadus", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Turismi ja loodusharidus",
+                        courses: [
+                            Course(name: "Ettevõttepraktika", eapCount: 6),
+                            Course(name: "Giiditeenus ja tööohutus loodusturismis", eapCount: 5),
+                            Course(name: "Jahi- ja kalaturism", eapCount: 3),
+                            Course(name: "Looduse vahendamise metoodika", eapCount: 4),
+                            Course(name: "Loodusturism maailmas", eapCount: 4)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Eriala valikainete moodul",
+                courses: [
+                    Course(name: "Akadeemiline edukus ja õpioskused", eapCount: 2),
+                    Course(name: "Ettevõtte juhtimise üldkursus", eapCount: 3),
+                    Course(name: "Fotograafia", eapCount: 2),
+                    Course(name: "Keskkonnapoliitika ja -korraldus", eapCount: 5),
+                    Course(name: "Maateaduse alused", eapCount: 4),
+                    Course(name: "Mereteadus", eapCount: 5),
+                    Course(name: "Pärimuskultuur ja loodusturism", eapCount: 3),
+                    Course(name: "Ruraalgeograafia", eapCount: 4),
+                    Course(name: "Seene- ja metsamarjakasvatus, metade kõrvalkasutus", eapCount: 5),
+                    Course(name: "Seenepraktikum", eapCount: 2),
+                    Course(name: "Turismi väikeprojektide elluviimine", eapCount: 2),
+                    Course(name: "Veekogude eutrofeerumine", eapCount: 4),
+                    Course(name: "Ökoloogiline taastamine", eapCount: 3)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: "Üliõpilane valib vabaaineid nii oma ülikoolist kui ka teistest (välis)kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Põllumajandussaaduste Tootmine/Turundus",
@@ -169,7 +1171,118 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Informaatika ja biomeetria", eapCount: 4),
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse ja teadustöö alused", eapCount: 3)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Muld ja väetamine",
+                        courses: [
+                            Course(name: "Agrokeemia", eapCount: 6),
+                            Course(name: "Eesti mullastik", eapCount: 4),
+                            Course(name: "Muldade väliuurimine", eapCount: 3),
+                            Course(name: "Mullateaduse alused", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maaviljelus ja masintehnoloogiad",
+                        courses: [
+                            Course(name: "Aianduse tehnoloogiad", eapCount: 7),
+                            Course(name: "Maaviljelus", eapCount: 5),
+                            Course(name: "Taimekasvatuse masintehnoloogiad", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Taimekasvatus",
+                        courses: [
+                            Course(name: "Geneetika", eapCount: 4),
+                            Course(name: "Kvaliteetne saak ja põllumajandustaimede areng", eapCount: 3),
+                            Course(name: "Põllumajandustaimed", eapCount: 4),
+                            Course(name: "Rohumaaviljelus", eapCount: 7),
+                            Course(name: "Sordiarendus ja seemnekasvatus", eapCount: 4),
+                            Course(name: "Taimefüsioloogia", eapCount: 4),
+                            Course(name: "Tamekasvatus I", eapCount: 3),
+                            Course(name: "Tamekasvatus II", eapCount: 7),
+                            Course(name: "Tamekasvatus III", eapCount: 6),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Taimetervis",
+                        courses: [
+                            Course(name: "Taimekahjustajad ja nende tõrje", eapCount: 13)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Loomakasvatus",
+                        courses: [
+                            Course(name: "Eriloomakasvatus", eapCount: 6),
+                            Course(name: "Söötmisõpetus toitumise alustega", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Majandus ja turundus",
+                        courses: [
+                            Course(name: "Põllumajandusökonoomika", eapCount: 4),
+                            Course(name: "Turundus põllumajandusturunduse alused", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Praktika",
+                        courses: [
+                            Course(name: "Praktika ettevõttes", eapCount: 10)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Eriala valikained",
+                courses: [
+                    Course(name: "Agrometeoroloogia", eapCount: 2),
+                    Course(name: "Aretusõpetus", eapCount: 4),
+                    Course(name: "Kuivenduse ja niisutuse alused", eapCount: 3),
+                    Course(name: "Raamatupidamine mittemajanduserialadele", eapCount: 3),
+                    Course(name: "Taimede stressibioloogia", eapCount: 7),
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Ühistegevuse alused", eapCount: 3),
+                    Course(name: "Üldmikrobioloogia", eapCount: 3)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: "Üliõpilane valib vabaaineid nii oma ülikoolist kui ka teistest (välis)kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Tehnika ja Tehnoloogia",
@@ -189,7 +1302,146 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Maaettevõtluse alused", eapCount: 4),
+                            Course(name: "Startup-ettevõtlus biomajandustehnoloogiates", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4),
+                            Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Matemaatika ja füüsika",
+                        courses: [
+                            Course(name: "Füüsika", eapCount: 10),
+                            Course(name: "Kõrgem matemaatika I", eapCount: 5),
+                            Course(name: "Kõrgem matemaatika II", eapCount: 5),
+                            Course(name: "Statistika", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Uurimistöö ja õiguse alused",
+                        courses: [
+                            Course(name: "Filosoofia", eapCount: 3),
+                            Course(name: "Inglise erialakeel", eapCount: 4),
+                            Course(name: "Uurimistöö metodoloogia ja inseneritarkvara", eapCount: 4),
+                            Course(name: "Õigusõpetus", eapCount: 3)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Elektroonika ja elektrotehnika",
+                        courses: [
+                            Course(name: "Elektroonika", eapCount: 5),
+                            Course(name: "Nõrkvoolusüsteemid", eapCount: 3),
+                            Course(name: "Teoreetiline elektrotehnika", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Infotehnoloogia",
+                        courses: [
+                            Course(name: "Programmeerimine I", eapCount: 3),
+                            Course(name: "Programmeerimine II", eapCount: 3),
+                            Course(name: "Sissejuhatus digitehnoloogiatesse", eapCount: 2),
+                            Course(name: "Visuaalprogrammeerimine", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Mehaanika",
+                        courses: [
+                            Course(name: "Insenerimehaanika", eapCount: 5),
+                            Course(name: "Masinamehaanika", eapCount: 5),
+                            Course(name: "Materjaliõpetus", eapCount: 5),
+                            Course(name: "Tugevusõpetus", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Tehnika",
+                        courses: [
+                            Course(name: "Automaatika", eapCount: 3),
+                            Course(name: "Mootorikütused ja määrdeained", eapCount: 3),
+                            Course(name: "Pneumo- ja hüdrosüsteemid", eapCount: 5),
+                            Course(name: "Soojustehnika", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Tehnoloogia projekteerimise alused",
+                        courses: [
+                            Course(name: "Insenerigraafika ja kujundustehnoloogia", eapCount: 6),
+                            Course(name: "Sissejuhatus erialasse", eapCount: 2),
+                            Course(name: "Standardiseerimise põhikursus", eapCount: 3),
+                            Course(name: "Tehnoloogia projekteerimine", eapCount: 3)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Spetsialiseerumine",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Energiakasutus",
+                        courses: [
+                            Course(name: "Elektri ja automaatikaseadmete montaaž", eapCount: 3),
+                            Course(name: "Elektrimasinad ja -ajamid", eapCount: 6),
+                            Course(name: "Elektriseadmete kasutamine ja ohutus", eapCount: 6),
+                            Course(name: "Energia kasutamine ja asjade internet", eapCount: 3),
+                            Course(name: "Energiakasutuse tehnoloogiapraktika", eapCount: 6),
+                            Course(name: "Soojusgeneraatorid", eapCount: 3),
+                            Course(name: "Valgustusseadised", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Tootmistehnika",
+                        courses: [
+                            Course(name: "Autod-traktorid", eapCount: 5),
+                            Course(name: "Materjalide töötlemistehnoloogia", eapCount: 6),
+                            Course(name: "Materjalide töötlemistehnoloogia õppepraktika", eapCount: 4),
+                            Course(name: "Põllundusmasinad", eapCount: 6),
+                            Course(name: "Sissejuhatus biokütustesse", eapCount: 3),
+                            Course(name: "Tehnoloogiapraktika", eapCount: 6)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ergonoomika",
+                        courses: [
+                            Course(name: "Inimkeskne tootedisain", eapCount: 5),
+                            Course(name: "Mõõteseadmete kursuseprojekt", eapCount: 2),
+                            Course(name: "Tehnika ja ohutushoid", eapCount: 6),
+                            Course(name: "Tootmisergonoomika", eapCount: 5),
+                            Course(name: "Töökeskkond tööstuses ja põllumajanduses", eapCount: 6),
+                            Course(name: "Tööohutustehnoloogia praktika", eapCount: 6)
+                        ]
+                    ),
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: "Üliõpilane valib vabaaineid nii oma ülikoolist kui ka teistest (välis)kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Loomakasvatus",
@@ -208,7 +1460,113 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Sissejuhatus loomakasvatuse õpingutesse", eapCount: 1),
+                    Course(name: "Teadustöö alused", eapCount: 2),
+                    Course(name: "Üldkeemia", eapCount: 5)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Loomade kehaehitus ja talitus",
+                        courses: [
+                            Course(name: "Biokeemia ja olekulaarbioloogia alused", eapCount: 7),
+                            Course(name: "Koduloomade morfoloogia", eapCount: 3),
+                            Course(name: "Loomafüsioloogia alused", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Tõuaretus",
+                        courses: [
+                            Course(name: "Aretusõpetus", eapCount: 7),
+                            Course(name: "Informaatika ja biomeetria", eapCount: 4),
+                            Course(name: "Loomageneetika", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Söödatootmine ja söötmisteadus",
+                        courses: [
+                            Course(name: "Agronoomia alused ja söödatootmine", eapCount: 6),
+                            Course(name: "Põllumajandustaimed", eapCount: 3),
+                            Course(name: "Söötmisõpetus", eapCount: 7)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Loomade heaolu, tervis ja sigimine",
+                        courses: [
+                            Course(name: "Loomade käitumine, heaolu ja kaitse", eapCount: 3),
+                            Course(name: "Loomatervishoid ja veterinaaria alused", eapCount: 5),
+                            Course(name: "Mikrobioloogia ja immunoloogia", eapCount: 3),
+                            Course(name: "Sigimisõpetus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Loomakasvatussaaduste tootmine",
+                        courses: [
+                            Course(name: "Hobusekasvatus", eapCount: 5),
+                            Course(name: "Küülikukasvatus", eapCount: 2),
+                            Course(name: "Lamba- ja kitsekasvatus", eapCount: 5),
+                            Course(name: "Lihatehnoloogia alused", eapCount: 2),
+                            Course(name: "Linnukasvatus", eapCount: 5),
+                            Course(name: "Loomakasvatuse õppepraktika", eapCount: 2),
+                            Course(name: "Loomakasvatusettevõtte praktika", eapCount: 8),
+                            Course(name: "Loomapidamise mehhaniseerimise alused", eapCount: 4),
+                            Course(name: "Maheloomakasvatus", eapCount: 4),
+                            Course(name: "Piimatehnoloogia alused", eapCount: 2),
+                            Course(name: "Seakasvatus", eapCount: 6),
+                            Course(name: "Veisekasvatus", eapCount: 6),
+                            Course(name: "Üldloomakasvatus", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Maaettevõtlus",
+                        courses: [
+                            Course(name: "Ideest äriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4),
+                            Course(name: "Põllumajandusökonoomika", eapCount: 4)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Eriala valikainete moodul",
+                courses: [
+                    Course(name: "Inimese toitumisõpetus", eapCount: 4),
+                    Course(name: "Karusloomakasvatus", eapCount: 2),
+                    Course(name: "Koerakasvatus", eapCount: 4),
+                    Course(name: "Maailma loomakasvatus", eapCount: 2),
+                    Course(name: "Mesindus", eapCount: 4),
+                    Course(name: "Toiduohutuse juhtimissüsteem toiduainete töötlemisel", eapCount: 4),
+                    Course(name: "Veiste kunstlik seemendamine", eapCount: 3)
+                ]
+            ),
+            Module(module: "Vabaained", courses: [Course(name: "Üliõpilane valib vabaaineid nii oma ülikoolist kui ka teistest (välis)kõrgkoolidest", eapCount: 8)]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Toiduainete Tehnoloogia",
@@ -227,6 +1585,121 @@ let maaülikoolBaka = [
         duration: 3,
         studyLocation:  ["Tartu"],
         eap: 180,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "Üldmoodul",
+                courses: [
+                    Course(name: "Informaatika ja biomeetria", eapCount: 4),
+                    Course(name: "Inglise erialakeel", eapCount: 4),
+                    Course(name: "Kõrgema matemaatika alused", eapCount: 3),
+                    Course(name: "Riskianalüüs ja töökeskkonna ohutus", eapCount: 3),
+                    Course(name: "Üldkeemia", eapCount: 5)
+                ],
+                submodules: [
+                    Submodule(
+                        name: "Keskkonnakorraldus ja biomajandus",
+                        courses: [
+                            Course(name: "Biomajanduse alused", eapCount: 4),
+                            Course(name: "Keskkonnakaitse ja -korraldus", eapCount: 4),
+                        ]
+                    ),
+                    Submodule(
+                        name: "Ettevõtlus",
+                        courses: [
+                            Course(name: "Ideest õriplaanini", eapCount: 4),
+                            Course(name: "Maaettevõtluse alused", eapCount: 4)
+                        ]
+                    )
+                ]
+            ),
+            Module(
+                module: "Erialamoodul",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Toiduteaduse alused",
+                        courses: [
+                            Course(name: "Biokeemia ja olekulaarbioloogia alused", eapCount: 7),
+                            Course(name: "Füüsikaline ja kolloidkeemia", eapCount: 3),
+                            Course(name: "Sissejuhatus toiduainete tehnoloogiasse", eapCount: 4),
+                            Course(name: "Uurmistöö alused toiduainete tehnoloogias", eapCount: 3),
+                            Course(name: "Üldmikrobioloogia", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Toidutoore",
+                        courses: [
+                            Course(name: "Toiduainete loomne toore", eapCount: 5),
+                            Course(name: "Toiduainete taimne toore", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Toidutöötlemise protsessid ja seadmed",
+                        courses: [
+                            Course(name: "Füüsika ja elektrotehnika alused", eapCount: 5),
+                            Course(name: "Insenerigraafika I", eapCount: 3),
+                            Course(name: "Toiduainetööstuse protsessid ja üldseadmed", eapCount: 7),
+                            Course(name: "Toiduainetööstuse tehnoloogiliste liinide projekteerimise alused", eapCount: 3)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Toiduainete tehnoloogia",
+                        courses: [
+                            Course(name: "Jookide tehnoloogia alused", eapCount: 6),
+                            Course(name: "Kalatoodete tehnoloogia alused", eapCount: 3),
+                            Course(name: "Pagari- ja kondiitritoodete tehnoloogia alused", eapCount: 6),
+                            Course(name: "Piimatoodete tehnoloogia alused", eapCount: 9),
+                            Course(name: "Taimsete toiduainete tehnoloogia alused", eapCount: 5),
+                            Course(name: "Tapa- ja lihasaaduste tehnoloogia alused", eapCount: 9),
+                            Course(name: "Toiduainete tehnoloogia erialapraktika", eapCount: 12),
+                            Course(name: "Tööstuslikud mikroobid ja juuretised", eapCount: 4)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Toiduainete kvaliteet ja ohutus",
+                        courses: [
+                            Course(name: "Toiduainete pakendamine", eapCount: 3),
+                            Course(name: "Toiduainete sensoorse hindamise alused", eapCount: 3),
+                            Course(name: "Toiduainete säilitamine ja konserveerimise alused", eapCount: 4),
+                            Course(name: "Toiduohutuse juhtiissüsteem toiduainete töötlemisel", eapCount: 4)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Eriala valikained ja vabaained",
+                courses: [],
+                submodules: [
+                    Submodule(
+                        name: "Eriala valikained",
+                        courses: [
+                            Course(name: "Eesti traditsioonilised kääritatud joogid", eapCount: 3),
+                            Course(name: "Mikroobigeneetika", eapCount: 2),
+                            Course(name: "Toiduainetööstuse tootearenduse alused", eapCount: 2),
+                            Course(name: "Toitumise ja kulinaaria alused", eapCount: 4),
+                            Course(name: "Uurimistöö jookide tehnoloogias", eapCount: 5),
+                            Course(name: "Uurimistöö lihatehnoloogias", eapCount: 5),
+                            Course(name: "Uurimistöö pagari- ja kondiitritoodete tehnoloogias", eapCount: 5),
+                            Course(name: "Uurimistöö piimatehnoloogias", eapCount: 5),
+                            Course(name: "Uurimistöö taimsete toiduainete tehnoloogias", eapCount: 5),
+                            Course(name: "uurimistöö toiduainete mikrobioloogias", eapCount: 5)
+                        ]
+                    ),
+                    Submodule(
+                        name: "Vabaained",
+                        courses: [
+                            Course(name: "Üliõpilased võivad valida vähemalt 8 EAP mahus vabaaineid nii oma ülikoolist kui ka teistest kõrgkoolidest. Õppeainete sisule mingit piirangut ei seata.", eapCount: 8)
+                        ]
+                    ),
+                ]
+            ),
+            Module(
+                module: "Bakalaureusetöö",
+                courses: [
+                    Course(name: "Bakalaureusetöö", eapCount: 10)
+                ]
+            )
+        ]
     ),
 ]

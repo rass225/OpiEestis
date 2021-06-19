@@ -22,7 +22,7 @@ struct DiscoveryView: View {
                     }
                 }
                 Section(header: Text("Õppeaste")) {
-                    DisclosureGroup(degree.isEmpty ? "Vali õppeaste..." : degree, isExpanded: $didSelectCity) {
+                    DisclosureGroup(degree.isEmpty ? "Vali õppeaste..." : degree, isExpanded: $didSelectLevel) {
                         ForEach(fetchAllCities(), id: \.self) { item in
                             Button(action: { cityAction(selectedCity: item) }) {
                                 Text(item).foregroundColor(Color.black)

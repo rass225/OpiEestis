@@ -17,7 +17,69 @@ let mainorBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "3700€/aastas"
+        cost: "3700€/aastas",
+        modules: [
+            Module(module: "Ettevõtlusmoodul", courses: [Course(name: "Ettevõtlusmoodul", eapCount: 15)]),
+            Module(
+                module: "Alusmoodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Äriõigus ja loomemajanduse õigusaktid", eapCount: 3),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Reklaamipsühholoogia", eapCount: 2),
+                    Course(name: "Avalik esinemine", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Uurimistöö meetodid", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Veebidisaini ja digitaalgraafika põhiõppe moodul",
+                courses: [
+                    Course(name: "Kasutajaliidese ja -kogemuse disain (UI/UX)", eapCount: 5),
+                    Course(name: "Fototöötlus", eapCount: 5),
+                    Course(name: "Arvutigraafika ja animatsioon", eapCount: 5),
+                    Course(name: "HTML 5", eapCount: 5),
+                    Course(name: "Vektorgraafika", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Graafilise disaini moodul",
+                courses: [
+                    Course(name: "Infograafika", eapCount: 3),
+                    Course(name: "Märgigraafika", eapCount: 3),
+                    Course(name: "Fotograafia", eapCount: 3),
+                    Course(name: "Kompositsioon ja värvusõpetus", eapCount: 5),
+                    Course(name: "Wordpress", eapCount: 3),
+                    Course(name: "Fotomanipulatsioon reklaamis", eapCount: 3),
+                    Course(name: "Reklaamigraafika", eapCount: 3),
+                    Course(name: "Firmagraafika", eapCount: 3),
+                    Course(name: "Trükitehnoloogia", eapCount: 3),
+                    Course(name: "Pakendigraafika", eapCount: 3),
+                    Course(name: "Keskkonnadisain", eapCount: 2),
+                    Course(name: "Tüpograafia", eapCount: 3),
+                    Course(name: "Plakatigraafika", eapCount: 3),
+                    Course(name: "Illustratsioon", eapCount: 3),
+                    Course(name: "Graafilise disaini ajalugu", eapCount: 3),
+                    Course(name: "Ajalehe ja ajakirja kujundus ning küljendamine (InDesign)", eapCount: 5),
+                    Course(name: "Kujundusgraafika", eapCount: 3),
+                    Course(name: "Interaktiivne veebimeedia", eapCount: 3),
+                    Course(name: "Joonistamine I", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Portfoolio", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10),
+                    Course(name: "Erialase meeskonnatöö praktika", eapCount: 10),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Loominguline praktika", eapCount: 5)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Start-up Ettevõtlus",
@@ -37,7 +99,70 @@ let mainorBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "4720€/aastas"
+        cost: "4720€/aastas",
+        modules: [
+            Module(
+                module: "Start-up ettevõtluse eriala moodul",
+                courses: [
+                    Course(name: "Praktika II", eapCount: 12),
+                    Course(name: "Strateegia", eapCount: 4),
+                    Course(name: "Tooteturundus", eapCount: 5),
+                    Course(name: "Tootearendus", eapCount: 6),
+                    Course(name: "Ettevõtte kasvu juhtimine", eapCount: 5),
+                    Course(name: "Kapitali kaasamine", eapCount: 6),
+                    Course(name: "Ärimudeli hüpoteesi valideerimine", eapCount: 6),
+                    Course(name: "Kaasasutajaga pühendumine", eapCount: 4),
+                    Course(name: "Äriideede raamistamine", eapCount: 5),
+                    Course(name: "Äriideede tuletamine", eapCount: 6),
+                    Course(name: "Sissejuhatus start-up ettevõtlusesse", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Ettevõtluse alused", eapCount: 3),
+                    Course(name: "Personalijuhtimine", eapCount: 5),
+                    Course(name: "Juhtimine", eapCount: 5),
+                    Course(name: "Meeskonnatöö", eapCount: 5),
+                    Course(name: "Õigusõpetuse alused ja dokumentatsioon", eapCount: 3),
+                    Course(name: "Majanduse alused", eapCount: 4),
+                    Course(name: "Äri-eetika", eapCount: 4),
+                    Course(name: "Ettevõtete sotsiaalne vastutus", eapCount: 4),
+                    Course(name: "Müük ja turundus", eapCount: 10),
+                    Course(name: "Ärianalüüs", eapCount: 5),
+                    Course(name: "Ettevõtte finantsjuhtimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Lõputöö seminar", eapCount: 5),
+                    Course(name: "Praktika I", eapCount: 15),
+                    Course(name: "Lõputöö", eapCount: 10)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Eesti keel I", eapCount: 3),
+                    Course(name: "Eesti keel II", eapCount: 3),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Eesti keel III", eapCount: 3),
+                    Course(name: "Eesti keel IV", eapCount: 3),
+                    Course(name: "Organisatsioonikäitumine", eapCount: 2),
+                    Course(name: "Avalik esinemine", eapCount: 2),
+                    Course(name: "Kommunikatsioon", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 4),
+                    Course(name: "Andmeanalüüs", eapCount: 4)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Finantsjuhtimine",
@@ -57,7 +182,75 @@ let mainorBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
-        cost: "3640€/aastas"
+        cost: "3640€/aastas",
+        modules: [
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Äriprotesside moodul", eapCount: 15),
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Äri- ja juhtimiseetika", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Tööõigus ja lepingud", eapCount: 4),
+                    Course(name: "Majandusteooria", eapCount: 5),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Tervisepsühholoogia ja töökeskkond", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Finantsjuhtimise erialaõppe moodul",
+                courses: [
+                    Course(name: "Rahvusvaheline äri", eapCount: 3),
+                    Course(name: "Ettevõtte IT süsteemide kavandamine", eapCount: 4),
+                    Course(name: "Riskianalüüs ja andmekaitse", eapCount: 3),
+                    Course(name: "Audiitorkontroll", eapCount: 3),
+                    Course(name: "Maksundus", eapCount: 5),
+                    Course(name: "Rahvusvaheline finantsjuhtimine", eapCount: 5),
+                    Course(name: "Investeeringute juhtimine ja analüüs", eapCount: 5),
+                    Course(name: "Kuluarvestus", eapCount: 5),
+                    Course(name: "Controlling", eapCount: 4),
+                    Course(name: "Finantsarvestus", eapCount: 5),
+                    Course(name: "Majandusmatemaatika", eapCount: 2),
+                    Course(name: "Finantsjuhtimine", eapCount: 3),
+                    Course(name: "Rahvusvahelised teenuskeskused", eapCount: 2),
+                    Course(name: "Majandusarvestuse arvutiprogrammid", eapCount: 3),
+                    Course(name: "Excel majandusarvestuses", eapCount: 5),
+                    Course(name: "Logistika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Ettevõttepraktika", eapCount: 12),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Ainetöö", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10 )
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Logistika",
@@ -77,7 +270,76 @@ let mainorBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
-        cost: "3640€/aastas"
+        cost: "3640€/aastas",
+        modules: [
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Äriprotesside moodul", eapCount: 15),
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Äri- ja juhtimiseetika", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Tööõigus ja lepingud", eapCount: 4),
+                    Course(name: "Majandusteooria", eapCount: 5),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Tervisepsühholoogia ja töökeskkond", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Logistika erialaõppe moodul",
+                courses: [
+                    Course(name: "Lennutransport", eapCount: 4),
+                    Course(name: "Reisijatevedu", eapCount: 3),
+                    Course(name: "Tootmislogistika ja materjalijuhtimine", eapCount: 4),
+                    Course(name: "Ettevõtte logistikasüsteemide ja -kulude juhtimine", eapCount: 5),
+                    Course(name: "Riskianalüüs logistikas", eapCount: 3),
+                    Course(name: "Kultuurikeskkond", eapCount: 3),
+                    Course(name: "Ostmine ja varude juhtimine", eapCount: 4),
+                    Course(name: "Kaupade käsitlemine ja hoiustamine", eapCount: 5),
+                    Course(name: "Multimodaalne transport", eapCount: 3),
+                    Course(name: "Finantsjuhtimine", eapCount: 3),
+                    Course(name: "Vetelvedu", eapCount: 3),
+                    Course(name: "Raudteetransport", eapCount: 4),
+                    Course(name: "Maanteetransport", eapCount: 3),
+                    Course(name: "Ekspedeerimise alused", eapCount: 5),
+                    Course(name: "Tollinduse protseduurid", eapCount: 3),
+                    Course(name: "Majandusmatemaatika", eapCount: 2),
+                    Course(name: "Logistika alused", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Ettevõttepraktika", eapCount: 12),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Ainetöö", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10 )
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Arvutimängude Disain ja Arendus",
@@ -97,7 +359,73 @@ let mainorBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "4720€/aastas"
+        cost: "4720€/aastas",
+        modules: [
+            Module(
+                module: "Arvutimängude disaini ja arenduse erialaõpe",
+                courses: [
+                    Course(name: "Programmeerimise alused mängude arendajatele", eapCount: 7),
+                    Course(name: "OO analüüs, disain ja programmeerimine", eapCount: 5),
+                    Course(name: "Mängugraafika analüüs ja tehnilised spetsifikatsioonid", eapCount: 3),
+                    Course(name: "Sissejuhatus mängutööstusesse", eapCount: 4),
+                    Course(name: "3D mängugraafika", eapCount: 6),
+                    Course(name: "Mobiilimängu projekt", eapCount: 5),
+                    Course(name: "Mängumootorid ja prototüüpimine", eapCount: 6),
+                    Course(name: "Mänguprojekti arendamine ja viimistlemine", eapCount: 6),
+                    Course(name: "Mängudisain, leveldisain ja dokumentatsioon", eapCount: 6),
+                    Course(name: "Mängu publitseerimine ja turundamine", eapCount: 5),
+                    Course(name: "Helitöötlus", eapCount: 2),
+                    Course(name: "Pikselgraafika", eapCount: 6),
+                    Course(name: "Kompositsioon, värvusõpetus ja vektorgraafika", eapCount: 6)
+                ]
+            ),
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Eesti keel I", eapCount: 3),
+                    Course(name: "Eesti keel II", eapCount: 3),
+                    Course(name: "Eesti keel III", eapCount: 3),
+                    Course(name: "Eesti keel IV", eapCount: 3),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Organisatsioonikäitumine", eapCount: 2),
+                    Course(name: "Meeskonnatöö", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Akadeemiline kirjutamine ja eneseväljendus", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Arvutimängude disaini ja arenduse põhiõppe moodul",
+                courses: [
+                    Course(name: "Narratiiv", eapCount: 5),
+                    Course(name: "HTML 5", eapCount: 3),
+                    Course(name: "Arvutigraafika ja animatsioon", eapCount: 4),
+                    Course(name: "Õigusõpetuse alused ja dokumentatsioon", eapCount: 3),
+                    Course(name: "Kasutajaliidese ja -kogemuse disain (UI/UX)", eapCount: 5),
+                    Course(name: "Turunduspsühholoogia", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Erialase meeskonnatöö praktika", eapCount: 15),
+                    Course(name: "Portfoolio", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10),
+                    Course(name: "Erialapraktika", eapCount: 15)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Turundus",
@@ -117,7 +445,80 @@ let mainorBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
-        cost: "3640€/aastas"
+        cost: "3640€/aastas",
+        modules: [
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Äriprotesside moodul", eapCount: 15),
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Äri- ja juhtimiseetika", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Tööõigus ja lepingud", eapCount: 4),
+                    Course(name: "Majandusteooria", eapCount: 5),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Tervisepsühholoogia ja töökeskkond", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Turunduse erialaõppe moodul",
+                courses: [
+                    Course(name: "Bränding", eapCount: 2),
+                    Course(name: "Müügijuhtimine", eapCount: 3),
+                    Course(name: "Finantsjuhtimine", eapCount: 3),
+                    Course(name: "Logistika alused", eapCount: 2),
+                    Course(name: "Turundusuuringud", eapCount: 3),
+                    Course(name: "Rahvusvaheline turundus", eapCount: 3),
+                    Course(name: "Toote- ja hinnapoliitika", eapCount: 3),
+                    Course(name: "Tarbijakäitumine", eapCount: 3),
+                    Course(name: "Internetiturundus ja sotsiaalmeedia", eapCount: 4),
+                    Course(name: "Suhtekorraldus", eapCount: 3),
+                    Course(name: "Reklaamipsühholoogia", eapCount: 2),
+                    Course(name: "Foto- ja videograafia", eapCount: 3),
+                    Course(name: "Müük ja kommunikatsioon", eapCount: 3),
+                    Course(name: "Teenuste disain", eapCount: 3),
+                    Course(name: "Sündmusturundus", eapCount: 2),
+                    Course(name: "Kultuurikeskkond", eapCount: 3),
+                    Course(name: "Teenuste ja organisatsiooni turundus", eapCount: 4),
+                    Course(name: "Turunduskommunikatsiooni juhtimine ja planeerimine", eapCount: 3),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Kommunikatsiooni visualiseerimine", eapCount: 3),
+                    Course(name: "Ettevõtte IT süsteemide kavandamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Ettevõttepraktika", eapCount: 12),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Ainetöö", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10 )
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Veebitehnoloogiad",
@@ -137,7 +538,63 @@ let mainorBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "3760€/aastas"
+        cost: "3760€/aastas",
+        modules: [
+            Module(module: "Ettevõtlusmoodul", courses: [Course(name: "Ettevõtlusmoodul", eapCount: 15)]),
+            Module(
+                module: "Alusmoodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Äriõigus ja loomemajanduse õigusaktid", eapCount: 3),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Reklaamipsühholoogia", eapCount: 2),
+                    Course(name: "Avalik esinemine", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Uurimistöö meetodid", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Veebidisaini ja digitaalgraafika põhiõppe moodul",
+                courses: [
+                    Course(name: "Kasutajaliidese ja -kogemuse disain (UI/UX)", eapCount: 5),
+                    Course(name: "Fototöötlus", eapCount: 5),
+                    Course(name: "Arvutigraafika ja animatsioon", eapCount: 5),
+                    Course(name: "HTML 5", eapCount: 5),
+                    Course(name: "Vektorgraafika", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Veebitehnoloogiate erialaõppe moodul",
+                courses: [
+                    Course(name: "Arvutiehitus ja arvutivõrgud", eapCount: 5),
+                    Course(name: "Programmeerimise alused", eapCount: 5),
+                    Course(name: "Andmebaasid ja SQL", eapCount: 5),
+                    Course(name: "OO analüüs, disain ja porgrammeerimine", eapCount: 5),
+                    Course(name: "Andmeturve", eapCount: 5),
+                    Course(name: "Veebiprogrammeerimine", eapCount: 5),
+                    Course(name: "IT infrastruktuuride kavandamine", eapCount: 5),
+                    Course(name: "Mobiilirakenduste programmeerimine", eapCount: 5),
+                    Course(name: "Veebitehnoloogiad", eapCount: 5),
+                    Course(name: "IT matemaatilised ja füüsikalised alused", eapCount: 5),
+                    Course(name: "Prototüüpimine", eapCount: 5),
+                    Course(name: "Veebilehtede analüüs ja disain", eapCount: 5),
+                    Course(name: "Testimine", eapCount: 2  )
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Portfoolio", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10),
+                    Course(name: "Erialase meeskonnatöö praktika", eapCount: 10),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Loominguline praktika", eapCount: 5)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Tarkvaraarendus ja Ettevõtlus",
@@ -157,7 +614,73 @@ let mainorBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "4660€/aasta"
+        cost: "4660€/aasta",
+        modules: [
+            Module(module: "Ettevõtlusmoodul", courses: [Course(name: "Ettevõtlusmoodul", eapCount: 15)]),
+            Module(
+                module: "IT projekteerimise moodul",
+                courses: [
+                    Course(name: "Tarkvarapõhise toote  ja teenuse arendamine", eapCount: 4),
+                    Course(name: "Kuluarvestus ja eelarvestamine", eapCount: 4),
+                    Course(name: "IT rakenduste tootejuhtimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Matemaatika ja uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "IT sotsiaalsed ja eetilised alused", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine ja ensesväljendus", eapCount: 3),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Algoritmid ja andmestruktuurid", eapCount: 5),
+                    Course(name: "Lineaaralgebra", eapCount: 5),
+                    Course(name: "Diskreetne matemaatika ja loogika", eapCount: 5),
+                    Course(name: "Uurimistöö meetodid", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Eesti keel I", eapCount: 5),
+                    Course(name: "Koostöömudelid", eapCount: 2),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Eesti keel II", eapCount: 3),
+                    Course(name: "Eesti keel III", eapCount: 3),
+                    Course(name: "Eesti keel IV", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "Tarkvaraarenduse erialaõppe moodul",
+                courses: [
+                    Course(name: "Tarkvarasüsteemide monitoorimine", eapCount: 2),
+                    Course(name: "Programmeerimine keeles Python", eapCount: 4),
+                    Course(name: "Tarkvaratestimine", eapCount: 5),
+                    Course(name: "Mobiilirakendused", eapCount: 5),
+                    Course(name: "Veebirakendused", eapCount: 5),
+                    Course(name: "Andmebaasid", eapCount: 4),
+                    Course(name: "Kasutajaliidese prototüüpimine", eapCount: 4),
+                    Course(name: "Infosüsteemide analüüs ja projekteerimine", eapCount: 4),
+                    Course(name: "Andmeturve", eapCount: 4),
+                    Course(name: "Objektorienteeritud programmeerimine", eapCount: 5),
+                    Course(name: "Programmeerimise alused", eapCount: 5),
+                    Course(name: "Tarkvara arendusprotsessid", eapCount: 4),
+                    Course(name: "Operatsioonisüsteemid ja nende haldus", eapCount: 3),
+                    Course(name: "Arvutid ja arvutivõrgud", eapCount: 2),
+                    Course(name: "Valikained", eapCount: 3),
+                    Course(name: "Äriprotsesside modelleerimine ja automatiseerimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Prakitikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Tarkvaraarenduse meeskonnaprojekt", eapCount: 5),
+                    Course(name: "Tarkvaraarenduse projekt", eapCount: 10),
+                    Course(name: "Lõputöö", eapCount: 10),
+                    Course(name: "Erialapraktika", eapCount: 15)
+                ]
+            )
+            
+        ]
     ),
     majorsMinors(
         name: "Kvaliteedijuhtimine",
@@ -177,7 +700,69 @@ let mainorBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
-        cost: "3640€/aastas"
+        cost: "3640€/aastas",
+        modules: [
+            Module(
+                module: "Kvaliteedijuhtimise erialaõppe moodul",
+                courses: [
+                    Course(name: "Kliendisuhete juhtimine", eapCount: 5),
+                    Course(name: "Protessijuhtimine", eapCount: 8),
+                    Course(name: "Kvaliteedijuhtimissüsteemi loomine organisatsioonis", eapCount: 10),
+                    Course(name: "Kommunikatsioonijuhtimine", eapCount: 4),
+                    Course(name: "Muudatuste juhtimine", eapCount: 7),
+                    Course(name: "Juhtimissüsteemi hindamine", eapCount: 7),
+                    Course(name: "Andmekogumine ja -analüüs", eapCount: 4),
+                    Course(name: "Projektijuhtimine", eapCount: 8),
+                    Course(name: "Meeskonna juhtimine", eapCount: 6),
+                    Course(name: "Riskijuhtimine", eapCount: 3),
+                    Course(name: "Kvaliteet erinevates valdkondades", eapCount: 2),
+                    Course(name: "Auditeerimine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Ettevõttepraktika", eapCount: 12),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Ainetöö", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10 )
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Äri- ja juhtimiseetika", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Äriprotesside moodul", eapCount: 15),
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Majandusteooria", eapCount: 5),
+                    Course(name: "Tervisepsühholoogia ja töökeskkond", eapCount: 3)
+                ]
+            ),
+        ]
     ),
     majorsMinors(
         name: "Personalijutimine",
@@ -197,10 +782,79 @@ let mainorBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Tartu"],
         eap: 180,
-        cost: "3640€/aastat"
+        cost: "3640€/aastat",
+        modules: [
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Äriprotesside moodul", eapCount: 15),
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Äri- ja juhtimiseetika", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Tööõigus ja lepingud", eapCount: 4),
+                    Course(name: "Majandusteooria", eapCount: 5),
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Tervisepsühholoogia ja töökeskkond", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Personalijuhtimise erialaõppe moodul",
+                courses: [
+                    Course(name: "Personaliarvestus ja personalidokumendid", eapCount: 5),
+                    Course(name: "Isiksuse- ja sotsiaalpsühholoogia", eapCount: 4),
+                    Course(name: "Strateegiline personalijuhtimine", eapCount: 5),
+                    Course(name: "Tööturg ja personaliplaneerimine", eapCount: 5),
+                    Course(name: "Finantsjuhtimine", eapCount: 3),
+                    Course(name: "Hindamine ja palgakorraldus", eapCount: 4),
+                    Course(name: "E-lahendused personalitöös", eapCount: 2),
+                    Course(name: "Mitmekesisus", eapCount: 3),
+                    Course(name: "Töötajate arendamine", eapCount: 5),
+                    Course(name: "Tööõiguse praktikum", eapCount: 2),
+                    Course(name: "Positiivne psühholoogia", eapCount: 2),
+                    Course(name: "Teenuste disain", eapCount: 3),
+                    Course(name: "Müük ja kommunikatsioon", eapCount: 3),
+                    Course(name: "Personali värbamine ja karjäärijuhtimine", eapCount: 5),
+                    Course(name: "Kultuurikeskkond", eapCount: 3),
+                    Course(name: "Sündmusturundus", eapCount: 2),
+                    Course(name: "Töökorraldus ja koostöö organisatsioonis", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Ettevõttepraktika", eapCount: 12),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Ainetöö", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10 )
+                ]
+            ),
+        ]
     ),
     majorsMinors(
-        name: "Restoraniettevõtlus",
+        name: "Turismi- ja Restoraniettevõtlus",
         level: .bachelor,
         type: .sotsiaal,
         requirements: [
@@ -217,7 +871,80 @@ let mainorBaka = [
         duration: 3,
         studyLocation: ["Tallinn", "Tartu"],
         eap: 195,
-        cost: "3640€/aastas"
+        cost: "3640€/aastas",
+        modules: [
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Organisatsioonikäitumine", eapCount: 4),
+                    Course(name: "Suhtlemispsühholoogia", eapCount: 4),
+                    Course(name: "Eraisiku rahandus", eapCount: 2),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Avalik esinemine", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "Ettevõtlusõppe moodul",
+                courses: [
+                    Course(name: "Äriprotesside moodul", eapCount: 15),
+                    Course(name: "Ettevõtlusmoodul", eapCount: 15)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Andmeanalüüs", eapCount: 5),
+                    Course(name: "Äri- ja juhtimiseetika", eapCount: 2),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Projektijuhtimine", eapCount: 3),
+                    Course(name: "Õigusõpetus", eapCount: 3),
+                    Course(name: "Finantsjuhtimine ja hinnakujundus", eapCount: 4),
+                    Course(name: "Personalijuhtimine", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Teenusedisaini ja turnuduse õppe moodul",
+                courses: [
+                    Course(name: "Teenuste ja organisatsiooni turundus turismi- ja restoraniettevõtluses", eapCount: 5),
+                    Course(name: "Foto- ja videograafia", eapCount: 3),
+                    Course(name: "Sündmuskorraldus ja -turundus", eapCount: 3),
+                    Course(name: "Teenusettevõtte IT-lahendused", eapCount: 4),
+                    Course(name: "Teenusedisain", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Turismi- ja restoraniettevõtluse erialaõppe moodul",
+                courses: [
+                    Course(name: "Joogiõpetus", eapCount: 2),
+                    Course(name: "Toiduõpetus ja toidukultuurid", eapCount: 3),
+                    Course(name: "Turismisihtkoha ja -toote arendus", eapCount: 5),
+                    Course(name: "Toitlustusettevõtte töökorraldus", eapCount: 5),
+                    Course(name: "Protsessijuhtimine", eapCount: 3),
+                    Course(name: "Maailma turismigeograafia", eapCount: 3),
+                    Course(name: "Sissejuhatus turismi- ja toitlustusvaldkonda", eapCount: 6),
+                    Course(name: "Teenindusjuhtimine", eapCount: 5),
+                    Course(name: "Majutuskorraldus", eapCount: 2),
+                    Course(name: "Protokoll ja etikett", eapCount: 2),
+                    Course(name: "Kultuuridevaheline kommunikatsioon ärikeskkonnas", eapCount: 4),
+                    Course(name: "Kvaliteedijuhtimine turismi- ja restoraniettevõtluses", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Ettevõttepraktika", eapCount: 12),
+                    Course(name: "Erialapraktika", eapCount: 15),
+                    Course(name: "Ainetöö", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 10 )
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Loovus ja Äriinnovatsioon",
@@ -237,26 +964,86 @@ let mainorBaka = [
         duration: 3,
         studyLocation:  ["Tallinn"],
         eap: 180,
-        cost: "4720€/aastas"
+        cost: "4720€/aastas",
+        modules: [
+            Module(
+                module: "Ettevõtte juhtimise põhiõppe moodul",
+                courses: [
+                    Course(name: "Ettevõtluse alused", eapCount: 3),
+                    Course(name: "Personalijuhtimine", eapCount: 5),
+                    Course(name: "Juhtimine", eapCount: 5),
+                    Course(name: "Meeskonnatöö", eapCount: 5),
+                    Course(name: "Õigusõpetuse alused ja dokumentatsioon", eapCount: 3),
+                    Course(name: "Majanduse alused", eapCount: 4),
+                    Course(name: "Äri-eetika", eapCount: 4),
+                    Course(name: "Ettevõtete sotsiaalne vastutus", eapCount: 4),
+                    Course(name: "Müük ja turundus", eapCount: 10),
+                    Course(name: "Ärianalüüs", eapCount: 5),
+                    Course(name: "Ettevõtte finantsjuhtimine", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Praktikate ja kirjalike tööde moodul",
+                courses: [
+                    Course(name: "Lõputöö seminar", eapCount: 5),
+                    Course(name: "Praktika I", eapCount: 15),
+                    Course(name: "Lõputöö", eapCount: 10)
+                ]
+            ),
+            Module(
+                module: "Alusõppe moodul",
+                courses: [
+                    Course(name: "Eesti keel I", eapCount: 3),
+                    Course(name: "Eesti keel II", eapCount: 3),
+                    Course(name: "Enesejuhtimine kõrgkoolis", eapCount: 3),
+                    Course(name: "Eesti keel III", eapCount: 3),
+                    Course(name: "Eesti keel IV", eapCount: 3),
+                    Course(name: "Organisatsioonikäitumine", eapCount: 2),
+                    Course(name: "Avalik esinemine", eapCount: 2),
+                    Course(name: "Kommunikatsioon", eapCount: 5)
+                ]
+            ),
+            Module(
+                module: "Uurimistöö metoodika moodul",
+                courses: [
+                    Course(name: "Uurimistöö meetodid", eapCount: 5),
+                    Course(name: "Akadeemiline kirjutamine", eapCount: 4),
+                    Course(name: "Andmeanalüüs", eapCount: 4)
+                ]
+            ),
+            Module(
+                module: "Loovuse ja äriinnovatsiooni erialaõppe moodul",
+                courses: [
+                    Course(name: "Praktika II", eapCount: 20),
+                    Course(name: "Teadmine ja teadusfilosoofia", eapCount: 5),
+                    Course(name: "Ettevõtlikkus", eapCount: 6),
+                    Course(name: "Innovatsiooni strateegia", eapCount: 5),
+                    Course(name: "Ärimudelid ja strateegiline juhtimine", eapCount: 10),
+                    Course(name: "Loovus teadusliku uurimise objektina", eapCount: 5),
+                    Course(name: "Loomingulisus", eapCount: 5),
+                    Course(name: "Individuaalne loovus", eapCount: 5)
+                ]
+            ),
+        ]
     ),
-    majorsMinors(
-        name: "Turismiettevõtlus",
-        level: .bachelor,
-        type: .sotsiaal,
-        requirements: [
-            Requirements(term: "Keskharidus"),
-            Requirements(term: "Essee", percentage: 30),
-            Requirements(term: "Vestlus", percentage: 50),
-            Requirements(term: "Õpimotivatsioon ja ettevõtlik eluhoiak", percentage: 20)
-        ],
-        description: ["Turismiettevõtluse erialal õpid looma unikaalset elamust pakkuvaid turismi-, toitlustus- ja elamusteenuseid. Teenuste disain on oskus, mida saab õppida. Õpid olema uue põlvkonna ettevõtja, kes on samavõrd kodus nii kliendikogemuse kujundamises kui ka äriplaneerimises ja turunduses.", "See on eriala Sulle, kui soovid luua omaenda turismi- või toitlustusettevõtte, kus rõhk on elamusel ja emotsioonil. Samuti on see eriala Sulle, kui Sa juba töötad turismi-, majutus- või toitlustusvaldkonnas ja soovid värskeid teadmisi või areneda spetsialistist juhiks. "],
-        outcomes: ["Omab vajalikke pädevusi, et edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama", "Oskab arendada turismitooteid ja -teenuseid arvestades muutuva keskkonna, ettevõtte eesmärkide ning turuvajadusega", "Lahendab tulemuslikult erialaseid probleeme, toimides paindlikult ja loominguliselt vastavalt olukorrale, ettevõtte vajadustele ja väärtustele", "On iseseseisev, vastutustundlik ning eetiline töötaja või tööandja ning korraldab tegevusi lähtuvalt jätkusuutlikku ettevõtluse põhimõtetest", "Valdab tööks vajalikke suhtlus- ja koostööoskusi ning omab infotehnoloogilisi pädevusi."],
-        language: .eesti,
-        majorWebsite: "https://www.eek.ee/rakendusk%C3%B5rgharidus%C3%B5pe/eriala/turismiettev%C3%B5tlus",
-        spots: 30,
-        duration: 3,
-        studyLocation: ["Tallinn", "Tartu"],
-        eap: 180,
-        cost: "3640€/aastas"
-    )
+//    majorsMinors(
+//        name: "Turismiettevõtlus",
+//        level: .bachelor,
+//        type: .sotsiaal,
+//        requirements: [
+//            Requirements(term: "Keskharidus"),
+//            Requirements(term: "Essee", percentage: 30),
+//            Requirements(term: "Vestlus", percentage: 50),
+//            Requirements(term: "Õpimotivatsioon ja ettevõtlik eluhoiak", percentage: 20)
+//        ],
+//        description: ["Turismiettevõtluse erialal õpid looma unikaalset elamust pakkuvaid turismi-, toitlustus- ja elamusteenuseid. Teenuste disain on oskus, mida saab õppida. Õpid olema uue põlvkonna ettevõtja, kes on samavõrd kodus nii kliendikogemuse kujundamises kui ka äriplaneerimises ja turunduses.", "See on eriala Sulle, kui soovid luua omaenda turismi- või toitlustusettevõtte, kus rõhk on elamusel ja emotsioonil. Samuti on see eriala Sulle, kui Sa juba töötad turismi-, majutus- või toitlustusvaldkonnas ja soovid värskeid teadmisi või areneda spetsialistist juhiks. "],
+//        outcomes: ["Omab vajalikke pädevusi, et edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama", "Oskab arendada turismitooteid ja -teenuseid arvestades muutuva keskkonna, ettevõtte eesmärkide ning turuvajadusega", "Lahendab tulemuslikult erialaseid probleeme, toimides paindlikult ja loominguliselt vastavalt olukorrale, ettevõtte vajadustele ja väärtustele", "On iseseseisev, vastutustundlik ning eetiline töötaja või tööandja ning korraldab tegevusi lähtuvalt jätkusuutlikku ettevõtluse põhimõtetest", "Valdab tööks vajalikke suhtlus- ja koostööoskusi ning omab infotehnoloogilisi pädevusi."],
+//        language: .eesti,
+//        majorWebsite: "https://www.eek.ee/rakendusk%C3%B5rgharidus%C3%B5pe/eriala/turismiettev%C3%B5tlus",
+//        spots: 30,
+//        duration: 3,
+//        studyLocation: ["Tallinn", "Tartu"],
+//        eap: 180,
+//        cost: "3640€/aastas"
+//    )
 ]

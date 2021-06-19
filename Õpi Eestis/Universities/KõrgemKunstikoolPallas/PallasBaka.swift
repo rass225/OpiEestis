@@ -14,7 +14,149 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Adobe Illustrator", eapCount: 3),
+                    Course(name: "Fotograafia väljendusvahendid.Perspektiiv fotograafias", eapCount: 2),
+                    Course(name: "Fotograafia väljendusvahendid. Valgus fotograafias", eapCount: 2),
+                    Course(name: "Fototehnika ja tehnoloogia. Pinhole", eapCount: 1),
+                    Course(name: "Fototehnika ja -tehnoloogia. Kaamerad", eapCount: 2),
+                    Course(name: "Fototehnika ja tehnoloogia. Digitaalfotograafia", eapCount: 2),
+                    Course(name: "Fototehnika ja tehnoloogia. Adobe Photoshop (baaskursus). Lightroom", eapCount: 2),
+                    Course(name: "Fotograafia ajalugu I", eapCount: 1),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Fotograafia alused I", eapCount: 1),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1),
+                    Course(name: "Kunstiajalugu I", eapCount: 2),
+                    Course(name: "Üldkompositsioon", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Vektor- ja pikselgraafika", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Fotograafia väljendusvahendid. Värvus fotograafias", eapCount: 2),
+                    Course(name: "Fotograafia väljendusvahendid.Fotokompositsioon", eapCount: 3),
+                    Course(name: "Fototehnika ja tehnoloogia. Digitaalne fotolabor", eapCount: 2),
+                    Course(name: "Individuaalne praktika", eapCount: 2),
+                    Course(name: "Fotograafia ajalugu II", eapCount: 2),
+                    Course(name: "Fotograafia alused II", eapCount: 1),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Erialane inglise keel I", eapCount: 2),
+                    Course(name: "Vormiõpetus", eapCount: 2),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Värvihaldus", eapCount: 2),
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Adobe Photoshop I", eapCount: 3),
+                    Course(name: "Fototehnika ja tehnoloogia. Stuudiotehnika", eapCount: 2),
+                    Course(name: "Arhitektuurifotograafia", eapCount: 2),
+                    Course(name: "Loodusfotograafia", eapCount: 2),
+                    Course(name: "Interjöörifotograafia", eapCount: 2),
+                    Course(name: "Erialane inglise keel", eapCount: 2),
+                    Course(name: "Semiootika ja kommunikatsiooniteooria", eapCount: 2),
+                    Course(name: "Fotograafia ajalugu III", eapCount: 1),
+                    Course(name: "Kunstiajalugu III", eapCount: 2),
+                    Course(name: "Filosoofia I", eapCount: 2),
+                    Course(name: "Joonistamine III", eapCount: 3),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2),
+                    Course(name: "Maalimine II", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Adobe Photoshop II", eapCount: 2),
+                    Course(name: "Fotograafiline ruumikunst", eapCount: 2),
+                    Course(name: "Erialane joonistamine", eapCount: 3),
+                    Course(name: "Stuudiofotograafia", eapCount: 2),
+                    Course(name: "Portree ja grupi pildistamine", eapCount: 2),
+                    Course(name: "Fotodokumentalistika", eapCount: 2),
+                    Course(name: "Moefotograafia", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 2),
+                    Course(name: "Visuaalkultuur ja visuaalsemiootika", eapCount: 2),
+                    Course(name: "Fotograafia ajalugu IV", eapCount: 2),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2),
+                    Course(name: "Kaasaegne kunst", eapCount: 2),
+                    Course(name: "Joonistamine IV", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Adobe Photoshop III", eapCount: 2),
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Adobe InDesign", eapCount: 3),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Fotokooslused ja -narratiiv", eapCount: 3),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Fotograafiline morfoloogia I", eapCount: 1),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus.Maastikufotograafia", eapCount: 3),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Pilt ja tekst fotograafias", eapCount: 3),
+                    Course(name: "Kunstiteooriad ja -kriitika I", eapCount: 2),
+                    Course(name: "Esseistika", eapCount: 3),
+                    Course(name: "Sotsioloogia", eapCount: 2),
+                    Course(name: "Visuaalkultuur ja visuaalsemiootika", eapCount: 1),
+                    Course(name: "Kunstipedagoogika*", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses*", eapCount: 3),
+                    Course(name: "Interdistsiplinaarne kunst*", eapCount: 3),
+                    Course(name: "Filosoofia II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Portree ja grupi pildistamine", eapCount: 3),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Fotograafia sotsiaalmeedias", eapCount: 1),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Fotograafiline morfoloogia II", eapCount: 2),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Kehaline identiteet", eapCount: 3),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Lavastusfoto", eapCount: 2),
+                    Course(name: "Fotograafiline representatsioon ja -väljendus. Riietumise identiteet", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 10),
+                    Course(name: "Kunstiteooriad ja -kriitika II", eapCount: 2),
+                    Course(name: "Kinematograafia ajalugu", eapCount: 2),
+                    Course(name: "Valikplokk pedagoogika II*", eapCount: 3),
+                    Course(name: "Valikplokk Kaasaegne kunst II*", eapCount: 3),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Operaatorimeisterlikkus", eapCount: 2),
+                    Course(name: "Digitaalne videomontaaz", eapCount: 2),
+                    Course(name: "Filmirežii alused", eapCount: 2),
+                    Course(name: "Filmiprojekt", eapCount: 3),
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Multimeedia rakendused I", eapCount: 1),
+                    Course(name: "Eksperimentaalne loominguline fotoprojekt I", eapCount: 3),
+                    Course(name: "Vaatluspraktika", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas III", eapCount: 3),
+                    Course(name: "Fotograafia teooriad ja -kriitika", eapCount: 4),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Arvutigraafika ja digitaalne fototöötlus. Multimeedia rakendused II", eapCount: 2),
+                    Course(name: "Eksperimentaalne loominguline fotoprojekt II", eapCount: 6),
+                    Course(name: "Portfoolioõpetus", eapCount: 2),
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Lõputöö praktika", eapCount: 3),
+                    Course(name: "Projektiõpe", eapCount: 1)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Maal ja Restaureerimine",
@@ -31,7 +173,169 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Disaini alused", eapCount: 2),
+                    Course(name: "Konserveerimise ja restaureerimise alused", eapCount: 2),
+                    Course(name: "Monumentaaltehnikad I", eapCount: 3),
+                    Course(name: "Kompositsioon I", eapCount: 2),
+                    Course(name: "Stuudiomaal I", eapCount: 3),
+                    Course(name: "Materjaliõpetus", eapCount: 2),
+                    Course(name: "Esitlustehnikad I", eapCount: 2),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Fotograafia alused", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Vektor- ja pikselgraafika", eapCount: 2),
+                    Course(name: "Üldkompositsioon", eapCount: 2),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1),
+                    Course(name: "Kunstiajalugu I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Toote/projekti esitlus", eapCount: 2),
+                    Course(name: "Konserveerimiskeemia", eapCount: 2),
+                    Course(name: "Interjööri dekoreerimisvõtted", eapCount: 2),
+                    Course(name: "Erialane inglise keel II", eapCount: 1),
+                    Course(name: "Skulptuur II", eapCount: 2),
+                    Course(name: "Esitlustehnikad II", eapCount: 1),
+                    Course(name: "Arvutigraafika", eapCount: 2),
+                    Course(name: "Maalipraktika. Akvarell", eapCount: 2),
+                    Course(name: "Vormiõpetus", eapCount: 2),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Erialane inglise keel I", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Semiootika ja kommunikatsiooniteooria", eapCount: 2),
+                    Course(name: "Ruum ja keskkond", eapCount: 2),
+                    Course(name: "Dekoratiivtehnikad", eapCount: 3),
+                    Course(name: "Interjööri ajalugu", eapCount: 4),
+                    Course(name: "Dekoratiivtehnikad", eapCount: 3),
+                    Course(name: "Konserveerimisbioloogia", eapCount: 2),
+                    Course(name: "Interjööri ajalugu", eapCount: 4),
+                    Course(name: "Dokumenteerimine. Objektide dokumenteerimise, säilitamise ja eksponeerimise alused", eapCount: 2),
+                    Course(name: "Esitlustehnikad III", eapCount: 3),
+                    Course(name: "Kompositsioon II", eapCount: 3),
+                    Course(name: "Erialane inglise keel III", eapCount: 1),
+                    Course(name: "Erialapraktika. Restaureerimisprojekt I", eapCount: 2),
+                    Course(name: "Joonistamine III", eapCount: 3),
+                    Course(name: "Maalimine II", eapCount: 3),
+                    Course(name: "Kunstiajalugu III", eapCount: 2),
+                    Course(name: "Filosoofia I", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Visuaalkultuur ja visuaalsemiootika", eapCount: 2),
+                    Course(name: "Materjalide identifitseerimise alused", eapCount: 2),
+                    Course(name: "Monumentaaltehnikad II", eapCount: 3),
+                    Course(name: "Stuudiomaal IV", eapCount: 3),
+                    Course(name: "Erialane ajalugu", eapCount: 1),
+                    Course(name: "Esitlustehnikad IV", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 5),
+                    Course(name: "Maalipraktika. Akrüül", eapCount: 2),
+                    Course(name: "Vaatluspraktika", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 5),
+                    Course(name: "Joonistamine IV", eapCount: 3),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2),
+                    Course(name: "Kaasaegne kunst", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Projekti esitlusgraafika I", eapCount: 2),
+                    Course(name: "Kunstiteooriad ja -kriitika I", eapCount: 2),
+                    Course(name: "Kunst ja ruum I", eapCount: 5),
+                    Course(name: "Eksperimentaalgraafika I", eapCount: 3),
+                    Course(name: "Meistriklass I", eapCount: 1),
+                    Course(name: "Projekti esitlusgraafika I", eapCount: 2),
+                    Course(name: "Seinamaalingute konserveerimine I", eapCount: 5),
+                    Course(name: "Ajalooline interjöör I", eapCount: 2),
+                    Course(name: "Tapeedi konserveerimine", eapCount: 2),
+                    Course(name: "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika", eapCount: 2),
+                    Course(name: "Visandid I", eapCount: 1),
+                    Course(name: "Stuudiomaal V", eapCount: 3),
+                    Course(name: "Joonistamine V", eapCount: 3),
+                    Course(name: "Koopiamaal I", eapCount: 3),
+                    Course(name: "Erialapraktika. Monumentaalkunst I", eapCount: 2),
+                    Course(name: "Filosoofia II", eapCount: 2),
+                    Course(name: "Kunstipedagoogika", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses", eapCount: 3),
+                    Course(name: "Interdistsiplinaarne kunst", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Portfoolio. Interjöörifoto", eapCount: 3),
+                    Course(name: "Meistriklass II", eapCount: 2),
+                    Course(name: "Seinaviimistlusuuringud I", eapCount: 2),
+                    Course(name: "Portfoolio. Interjöörifoto", eapCount: 3),
+                    Course(name: "Koopiamaal II", eapCount: 3),
+                    Course(name: "Monumentaaltehnikad III", eapCount: 3),
+                    Course(name: "Joonistamine VI", eapCount: 3),
+                    Course(name: "Stuudiomaal VI", eapCount: 3),
+                    Course(name: "Erialapraktika. Maalipraktika", eapCount: 3),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 5),
+                    Course(name: "Projektipraktika", eapCount: 2),
+                    Course(name: "Erialapraktika. Restaureerimisprojekt II", eapCount: 3),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 5),
+                    Course(name: "Valikplokk pedagoogika II*", eapCount: 3),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3),
+                    Course(name: "Valikplokk Kaasaegne kunst II", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Eksperimentaalgraafika II", eapCount: 3),
+                    Course(name: "Maalikompositsioon", eapCount: 2),
+                    Course(name: "Kunst ja ruum II", eapCount: 5),
+                    Course(name: "Projekti esitlusgraafika II", eapCount: 2),
+                    Course(name: "Meistriklass III", eapCount: 1),
+                    Course(name: "Laboratroorsed uuringud", eapCount: 2),
+                    Course(name: "Projekti esitlusgraafika II", eapCount: 2),
+                    Course(name: "Tapeedi konserveerimine", eapCount: 2),
+                    Course(name: "Seinamaalingute konserveerimine II", eapCount: 5),
+                    Course(name: "Ajalooline interjöör II", eapCount: 2),
+                    Course(name: "Joonistamine VII", eapCount: 3),
+                    Course(name: "Stuudiomaal VII", eapCount: 3),
+                    Course(name: "Visandid II", eapCount: 1),
+                    Course(name: "Erialapraktika. Monumentaalkunst II", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas III", eapCount: 5),
+                    Course(name: "Erialapraktika. Restaureerimisprojekt III", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas III", eapCount: 5),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Meistriklass IV", eapCount: 2),
+                    Course(name: "Seinaviimistlusuuringud II", eapCount: 2),
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Individuaalne praktika", eapCount: 3),
+                    Course(name: "Lõputöö praktika", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Meedia ja Reklaamidisain",
@@ -48,7 +352,150 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Vektorgraafika", eapCount: 2),
+                    Course(name: "Loovmõtlemine", eapCount: 2),
+                    Course(name: "Trükitehnoloogia.Fleksograafia", eapCount: 2),
+                    Course(name: "Trükitehnoloogia.Serigraafia", eapCount: 2),
+                    Course(name: "Digitaalse tehnika aluskursus", eapCount: 2),
+                    Course(name: "Stilistika", eapCount: 2),
+                    Course(name: "Disaini alused", eapCount: 2),
+                    Course(name: "Kunstiajalugu I", eapCount: 2),
+                    Course(name: "Fotograafia alused", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Pikselgraafika", eapCount: 2),
+                    Course(name: "Üldkompositsioon", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialane kompositsioon", eapCount: 2),
+                    Course(name: "Trükitehnoloogia. Kõrgtrükk", eapCount: 2),
+                    Course(name: "Digitaalse tehnika põhikursus", eapCount: 2),
+                    Course(name: "Toote/projekti esitlus", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 2),
+                    Course(name: "Erialane inglise keel I", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2),
+                    Course(name: "Vormiõpetus", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Trükitehnoloogia.Ofort", eapCount: 2),
+                    Course(name: "Erialane joonistamine.Illustratsioon.Koomiks", eapCount: 3),
+                    Course(name: "Digimaal", eapCount: 3),
+                    Course(name: "Semiootika ja kommunikatsiooniteooria", eapCount: 2),
+                    Course(name: "Helidisain. Helidisaini rakendused", eapCount: 2),
+                    Course(name: "Animatsioon. Animatsiooni tehnikad", eapCount: 2),
+                    Course(name: "Animatsioon. Animatsiooni printsiibid ja teooria", eapCount: 2),
+                    Course(name: "Filosoofia I", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2),
+                    Course(name: "Kunstiajalugu III", eapCount: 2),
+                    Course(name: "Maalimine II", eapCount: 3),
+                    Course(name: "Joonistamine III", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Trükitehnoloogia. Litograafia", eapCount: 2),
+                    Course(name: "Küljendamine", eapCount: 3),
+                    Course(name: "Tüpograafia algkursus", eapCount: 2),
+                    Course(name: "Visuaalkultuur ja visuaalsemiootika", eapCount: 2),
+                    Course(name: "Liikuv graafika", eapCount: 2),
+                    Course(name: "Praktiline projekt I", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 2),
+                    Course(name: "Ideekirjutamine", eapCount: 2),
+                    Course(name: "Erialane inglise keel", eapCount: 2),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2),
+                    Course(name: "Kaasaegne kunst", eapCount: 2),
+                    Course(name: "Joonistamine IV", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Trükitehnoloogia.Ofsettrükk", eapCount: 3),
+                    Course(name: "Erialane fotograafia. Tootefoto", eapCount: 2),
+                    Course(name: "Kasutajaliidese disain", eapCount: 2),
+                    Course(name: "Kunstiteooriad ja -kriitika I", eapCount: 2),
+                    Course(name: "Turundus", eapCount: 2),
+                    Course(name: "Video.Videomontaaž", eapCount: 2),
+                    Course(name: "Animatsioon. Animatsiooni praktiline projekt", eapCount: 2),
+                    Course(name: "3D-graafika.Modelleerimine", eapCount: 2),
+                    Course(name: "Video.Videorežii algõpe", eapCount: 2),
+                    Course(name: "Reklaamiõpetus", eapCount: 2),
+                    Course(name: "Stsenaristika", eapCount: 2),
+                    Course(name: "Kunstipedagoogika*", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses*", eapCount: 3),
+                    Course(name: "Interdistsiplinaarne kunst*", eapCount: 3),
+                    Course(name: "Filosoofia II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialane fotograafia. Stuudiofoto", eapCount: 2),
+                    Course(name: "Korporatiiv- ja infograafika.Märgiõpetus", eapCount: 2),
+                    Course(name: "Korporatiiv- ja infograafika.Korporatiivtoode", eapCount: 2),
+                    Course(name: "Tüpograafia põhikursus", eapCount: 2),
+                    Course(name: "Interaktiivse meedia rakendused", eapCount: 2),
+                    Course(name: "Multimeedia rakendused", eapCount: 2),
+                    Course(name: "Video.Videorežii žanrid", eapCount: 2),
+                    Course(name: "3D-graafika.Keskkond", eapCount: 2),
+                    Course(name: "Praktiline projekt II", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas III", eapCount: 4),
+                    Course(name: "Reklaamipsühholoogia", eapCount: 2),
+                    Course(name: "Valikplokk pedagoogika II*", eapCount: 3),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3),
+                    Course(name: "Valikplokk Kaasaegne kunst II*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Korporatiiv- ja infograafika.Plakat", eapCount: 2),
+                    Course(name: "Pakendi disain", eapCount: 2),
+                    Course(name: "Pakendiprojekt", eapCount: 2),
+                    Course(name: "Veebidisain", eapCount: 2),
+                    Course(name: "Virtuaalne ruum", eapCount: 2),
+                    Course(name: "Helidisain. Heli töötlused", eapCount: 2),
+                    Course(name: "Video praktiline projekt", eapCount: 4),
+                    Course(name: "Praktiline projekt III", eapCount: 3),
+                    Course(name: "Praktika töökeskkonnas IV", eapCount: 2),
+                    Course(name: "Näituseprojekt", eapCount: 3),
+                    Course(name: "Erialane ajalugu. Graafiline disain. Meediakunst", eapCount: 3),
+                    Course(name: "Bränd", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Lõputöö praktika", eapCount: 3),
+                    Course(name: "Praktiline projekt IV", eapCount: 2),
+                    Course(name: "Individuaalne praktika", eapCount: 4),
+                    Course(name: "Praktika töökeskkonnas V", eapCount: 5),
+                    Course(name: "Vaatluspraktika", eapCount: 2)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Mööblidisain ja Restaureerimine",
@@ -65,7 +512,160 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Disaini alused", eapCount: 2),
+                    Course(name: "Konserveerimise ja restaureerimise alused", eapCount: 2),
+                    Course(name: "Eriala Praktika I. Tapid", eapCount: 3),
+                    Course(name: "Sissejuhatus erialasse", eapCount: 2),
+                    Course(name: "Materjaliõpetus I. Puit ja viimistlus", eapCount: 3),
+                    Course(name: "Esitlustehnikad. Joonestamine", eapCount: 2),
+                    Course(name: "Masinaõpetus I. Käsitööriistad", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Vektor- ja pikselgraafika", eapCount: 2),
+                    Course(name: "Fotograafia alused", eapCount: 2),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1),
+                    Course(name: "Üldkompositsioon", eapCount: 2),
+                    Course(name: "Kunstiajalugu I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Toote/projekti esitlus", eapCount: 2),
+                    Course(name: "Konserveerimiskeemia", eapCount: 2),
+                    Course(name: "Joonistamine. Mööblikrokii", eapCount: 2),
+                    Course(name: "Sissejuhatus erialasse. Väikevorm", eapCount: 2),
+                    Course(name: "Eriala praktika II. Eseme valmistamine", eapCount: 4),
+                    Course(name: "Masinaõpetus II. Tööpingid", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2),
+                    Course(name: "Vormiõpetus", eapCount: 2),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Erialane inglise keel I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Disaini ajalugu", eapCount: 2),
+                    Course(name: "Ruum ja keskkond", eapCount: 2),
+                    Course(name: "Disain ja innovatsioon", eapCount: 2),
+                    Course(name: "Konserveerimisbioloogia", eapCount: 2),
+                    Course(name: "Dokumenteerimine. Objektide dokumenteerimise, säilitamise ja eksponeerimise alused", eapCount: 2),
+                    Course(name: "Erialane inglise keel", eapCount: 2),
+                    Course(name: "Sissejuhatus erialasse. Ettevalmistus praktikaks", eapCount: 2),
+                    Course(name: "Eriala praktika III. Restaureeritav objekt", eapCount: 4),
+                    Course(name: "Masinaõpetus III. Seadmed", eapCount: 2),
+                    Course(name: "Maketeerimine", eapCount: 2),
+                    Course(name: "Esitlustehnikad. Autocad I", eapCount: 2),
+                    Course(name: "Maalimine II", eapCount: 3),
+                    Course(name: "Kunstiajalugu III", eapCount: 2),
+                    Course(name: "Joonistamine III", eapCount: 3),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2),
+                    Course(name: "Filosoofia I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsüsteem",
+                courses: [
+                    Course(name: "Tootefoto", eapCount: 2),
+                    Course(name: "Projekt I. Tool", eapCount: 4),
+                    Course(name: "Erialane projekt I. Pehme mööbel", eapCount: 2),
+                    Course(name: "Eritehnika I. Puidulõige", eapCount: 2),
+                    Course(name: "Dokumenteeriv fotograafia", eapCount: 2),
+                    Course(name: "Restaureerimisprojekt I. Pehme polster", eapCount: 4),
+                    Course(name: "Materjalide identifitseerimise alused", eapCount: 2),
+                    Course(name: "Esitlustehnikad. Autocad II", eapCount: 2),
+                    Course(name: "Esitlustehnikad. Solidworks", eapCount: 3),
+                    Course(name: "Materjaliõpetus II. Konstruktsioon ja polster", eapCount: 3),
+                    Course(name: "Mööbliajalugu I. Antiikaeg ja varased stiiliperioodid", eapCount: 3),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2),
+                    Course(name: "Kaasaegne kunst", eapCount: 2),
+                    Course(name: "Joonistamine IV", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Projekt II. Mööblikomplekt", eapCount: 5),
+                    Course(name: "3D tehnoloogiad", eapCount: 2),
+                    Course(name: "Erialane projekt II. Rütmika", eapCount: 2),
+                    Course(name: "Turundus", eapCount: 2),
+                    Course(name: "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika", eapCount: 2),
+                    Course(name: "Eritehnika II. Aaderdamine", eapCount: 2),
+                    Course(name: "3D tehnoloogiad", eapCount: 2),
+                    Course(name: "Restaureerimisprojekt II. Korpusmööbel", eapCount: 5),
+                    Course(name: "Maalimise jätkukursus I. Serigraafia", eapCount: 2),
+                    Course(name: "Mööbliajalugu II. XVIII sajandist kuni kaasajani", eapCount: 3),
+                    Course(name: "Praktika osakonnas I", eapCount: 3),
+                    Course(name: "Ülesmõõtmispraktika", eapCount: 3),
+                    Course(name: "Eriprojekt", eapCount: 3),
+                    Course(name: "Kunstipedagoogika*", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses*", eapCount: 3),
+                    Course(name: "Interdistsiplinaarne kunst*", eapCount: 3),
+                    Course(name: "Filosoofia II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialane projekt III. Arhitektoonika", eapCount: 2),
+                    Course(name: "Projekt III. Ruum ja ese", eapCount: 3),
+                    Course(name: "Eritehnika III. Intarsia", eapCount: 2),
+                    Course(name: "Restaureerimisprojekt III. Rekonstruktsioon", eapCount: 3),
+                    Course(name: "Maalimise jätkukursus II. Loominguline projekt", eapCount: 2),
+                    Course(name: "Materjaliõpetus III. Sepis", eapCount: 3),
+                    Course(name: "Ühiskondlik projekt", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 10),
+                    Course(name: "Praktika osakonnas II", eapCount: 2),
+                    Course(name: "Valikplokk Kaasaegne kunst II*", eapCount: 3),
+                    Course(name: "Valikplokk pedagoogika II*", eapCount: 3),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Erialane projekt IV. Välimööbel", eapCount: 2),
+                    Course(name: "Disainiprojekt", eapCount: 2),
+                    Course(name: "Disainiprotsessi dokumenteerimine", eapCount: 2),
+                    Course(name: "Projekt IV. Koostööprojekt", eapCount: 5),
+                    Course(name: "Konserveerimis/restaureerimisprojekt", eapCount: 2),
+                    Course(name: "Eritehnika IV. Poleerimine", eapCount: 2),
+                    Course(name: "Restaureerimisprojekt IV. Polükroomne ese", eapCount: 5),
+                    Course(name: "Arhiveerimine", eapCount: 2),
+                    Course(name: "Näituseprojekt", eapCount: 2),
+                    Course(name: "Mööbliajalugu III. 20 sajandi II poole mööbel", eapCount: 2),
+                    Course(name: "Ettevalmistus lõputööks", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 5),
+                    Course(name: "Individuaalne praktika", eapCount: 3),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Erialane projekt V. Uksed, Trepid", eapCount: 2),
+                    Course(name: "Projekt V. Sisekujundus", eapCount: 3),
+                    Course(name: "Eritehnika V. Kuldamine", eapCount: 2),
+                    Course(name: "Restaureerimisprojekt V. Konserveeritav ese", eapCount: 3),
+                    Course(name: "Esitlustehnikad. Portfoolio", eapCount: 2),
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Vaatluspraktika", eapCount: 2),
+                    Course(name: "Lõputöö praktika", eapCount: 3)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Nahadisain ja Restaureerimine",
@@ -83,7 +683,155 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Disaini alused", eapCount: 2),
+                    Course(name: "Konserveerimise ja restaureerimise alused", eapCount: 2),
+                    Course(name: "Materjaliõpetus ja tehnoloogia", eapCount: 2),
+                    Course(name: "Nahakunsti tehnikad I", eapCount: 3),
+                    Course(name: "Kirjaõpetus I", eapCount: 2),
+                    Course(name: "Eriala kompositsioon I", eapCount: 2),
+                    Course(name: "Eriala ajalugu/ köitekunsti ajalugu", eapCount: 2),
+                    Course(name: "Materjaliõpetus. Naha omadused ja kasutusvaldkonnad", eapCount: 1),
+                    Course(name: "Üldkompositsioon", eapCount: 2),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Fotograafia alused", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Vektor- ja pikselgraafika", eapCount: 2),
+                    Course(name: "Kunstiajalugu I", eapCount: 2),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Toote/projekti esitlus", eapCount: 2),
+                    Course(name: "Konserveerimiskeemia", eapCount: 2),
+                    Course(name: "Eriala ajalugu. Paberi ajalugu", eapCount: 1),
+                    Course(name: "Eriala kompositsioon II", eapCount: 2),
+                    Course(name: "Nahakunsti tehnikad II", eapCount: 4),
+                    Course(name: "Eriala praktika", eapCount: 3),
+                    Course(name: "Vormiõpetus", eapCount: 2),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Erialane inglise keel I", eapCount: 2),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Disaini ajalugu", eapCount: 2),
+                    Course(name: "Ruum ja keskkond", eapCount: 2),
+                    Course(name: "Konserveerimisbioloogia", eapCount: 2),
+                    Course(name: "Dokumenteerimine. Objektide dokumenteerimise, säilitamise ja eksponeerimise alused", eapCount: 2),
+                    Course(name: "Materjaliõpetus. Naha märgvormimine", eapCount: 2),
+                    Course(name: "Materjaliõpetus. Õmblustehnoloogia", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Aksessuaaride disain", eapCount: 3),
+                    Course(name: "Eriala valikaine", eapCount: 2),
+                    Course(name: "Moeajalugu", eapCount: 1),
+                    Course(name: "Ajaloolised köitekonstruktsioonid", eapCount: 2),
+                    Course(name: "Maalimine II", eapCount: 3),
+                    Course(name: "Filosoofia I", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2),
+                    Course(name: "Joonistamine III", eapCount: 3),
+                    Course(name: "Kunstiajalugu III", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Aksessuaaride disain. Funktsionaalne aksessuaar", eapCount: 5),
+                    Course(name: "Disain ja innovatsioon", eapCount: 2),
+                    Course(name: "Materjalide identifitseerimise alused", eapCount: 2),
+                    Course(name: "Köidete restaureerimine. Sissejuhatus köidete restaureerimisse", eapCount: 3),
+                    Course(name: "Paberi restuareerimine", eapCount: 2),
+                    Course(name: "Maalimise jätkukursus", eapCount: 2),
+                    Course(name: "Nahklaegaste disain ja teostus", eapCount: 5),
+                    Course(name: "Erialane inglise keel", eapCount: 2),
+                    Course(name: "Kirjaõpetus II", eapCount: 2),
+                    Course(name: "Praktika töökeskonnas I", eapCount: 3),
+                    Course(name: "Praktika töökeskonnas I", eapCount: 3),
+                    Course(name: "Kaasaegne kunst", eapCount: 2),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2),
+                    Course(name: "Joonistamine IV", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Aksessuaaride ajalugu", eapCount: 2),
+                    Course(name: "Aksessuaaride disain. Konkursiprojekt", eapCount: 5),
+                    Course(name: "Disainiõpetus. Disaini portfoolio", eapCount: 2),
+                    Course(name: "Turundus", eapCount: 2),
+                    Course(name: "Köite restaureerimine. Puukaaneliste köidete restaureerimine", eapCount: 5),
+                    Course(name: "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika", eapCount: 2),
+                    Course(name: "Erialane projekt", eapCount: 4),
+                    Course(name: "Raamatuköitmine. Liimita köited", eapCount: 5),
+                    Course(name: "Joonistamise jätkukursus", eapCount: 3),
+                    Course(name: "Eriala ajalugu. Naha- ja köitekunsti ajalugu XX sajandil", eapCount: 2),
+                    Course(name: "Interdistsiplinaarne kunst*", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses*", eapCount: 3),
+                    Course(name: "Kunstipedagoogika*", eapCount: 3),
+                    Course(name: "Filosoofia II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Esitlustehnikad. Stuudiofotograafia", eapCount: 2),
+                    Course(name: "Aksessuaaride disain. Moeprojekt", eapCount: 5),
+                    Course(name: "Esitlustehnikad. 3D modelleerimine", eapCount: 2),
+                    Course(name: "Nahkkinnaste tehnoloogia ja disain", eapCount: 5),
+                    Course(name: "Esitlustehnikad. Stuudiofotograafia", eapCount: 2),
+                    Course(name: "Esitlustehnikad. 3D modelleerimine", eapCount: 2),
+                    Course(name: "Paberi restaureerimine.Trükiste restaureerimine", eapCount: 5),
+                    Course(name: "Erialane projekt", eapCount: 5),
+                    Course(name: "Nahadisain. Nahkobjekt", eapCount: 4),
+                    Course(name: "Erialane projekt I", eapCount: 2),
+                    Course(name: "Praktika töökeskonnas II", eapCount: 5),
+                    Course(name: "Valikplokk pedagoogika II*", eapCount: 3),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3),
+                    Course(name: "Valikplokk Kaasaegne kunst II*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Aksessuaaride disain. Erialaprojekt", eapCount: 5),
+                    Course(name: "Köite restaureerimine. Poolnahk- ja pärgamentköidete restaureerimine", eapCount: 5),
+                    Course(name: "Arvutigraafika. Tüpograafia", eapCount: 2),
+                    Course(name: "Raamatuköitmine. Prantsuse köide", eapCount: 5),
+                    Course(name: "Individuaalne praktika", eapCount: 3),
+                    Course(name: "Erialane projekt II", eapCount: 3),
+                    Course(name: "Vaatluspraktika", eapCount: 2),
+                    Course(name: "Lõputöö praktika", eapCount: 2),
+                    Course(name: "Praktika töökeskonnas III", eapCount: 5),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Nahkrõivaste tehnoloogia ja disain", eapCount: 5),
+                    Course(name: "Paberi restaureerimine. Käsikirjaliste materjalide restaureerimine", eapCount: 5),
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Näituseprojekt", eapCount: 2),
+                    Course(name: "Erialaprojekt- materjalist tooteks", eapCount: 3),
+                    Course(name: "Lõputöö praktika II", eapCount: 1),
+                    Course(name: "Praktika töökeskkonnas IV", eapCount: 2),
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Skulptuur",
@@ -100,7 +848,144 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "3D modelleerimine. Sissejuhatus", eapCount: 3),
+                    Course(name: "Sissejuhatus skulptuuri mõistetesse", eapCount: 2),
+                    Course(name: "Disaini alused", eapCount: 2),
+                    Course(name: "Tehnoloogiline praktikum. Sissejuhatav tehnoloogiline praktikum", eapCount: 2),
+                    Course(name: "Vaatluspraktika", eapCount: 2),
+                    Course(name: "Üldkompositsioon", eapCount: 2),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Vektor- ja pikselgraafika", eapCount: 2),
+                    Course(name: "Fotograafia alused", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt I", eapCount: 3),
+                    Course(name: "Kunstiajalugu I", eapCount: 2),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "3D modelleerimine. Baaskursus", eapCount: 3),
+                    Course(name: "Modelleerimine. Analüütiline anatoomia", eapCount: 2),
+                    Course(name: "Toote/projekti esitlus", eapCount: 2),
+                    Course(name: "Projektipraktika I", eapCount: 2),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Vormiõpetus", eapCount: 2),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt II", eapCount: 3),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2),
+                    Course(name: "Erialane inglise keel I", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Modelleerimine. Portree", eapCount: 2),
+                    Course(name: "3D modelleerimine. Edasijõudnutele I", eapCount: 2),
+                    Course(name: "Skulptuuriajalugu. Figuurikeskne skulptuur ajaloolises geneesis I", eapCount: 1),
+                    Course(name: "Ruum ja keskkond", eapCount: 2),
+                    Course(name: "Semiootika ja kommunikatsiooniteooria", eapCount: 2),
+                    Course(name: "Tehnoloogiline praktikum. Kivi I", eapCount: 2),
+                    Course(name: "Joonistamine III", eapCount: 3),
+                    Course(name: "Maalimine II", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt III", eapCount: 3),
+                    Course(name: "3D printimine ja skanneerimine", eapCount: 2),
+                    Course(name: "Skulptuuritehnoloogiad ja -materjalid. Keraamika", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2),
+                    Course(name: "Kunstiajalugu III", eapCount: 2),
+                    Course(name: "Filosoofia I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "3D modelleerimine. Edasijõudnutele II", eapCount: 2),
+                    Course(name: "Arhitektuuri alused", eapCount: 2),
+                    Course(name: "Erialane inglise keel II", eapCount: 2),
+                    Course(name: "Skulptuuriajalugu. Figuurikeskne skulptuur ajaloolises geneesis II", eapCount: 1),
+                    Course(name: "Modelleerimine. Vaba saviplastika ja reljeef", eapCount: 2),
+                    Course(name: "Materjalide identifitseerimise alused", eapCount: 2),
+                    Course(name: "Visuaalkultuur ja visuaalsemiootika", eapCount: 2),
+                    Course(name: "Projektipraktika II", eapCount: 2),
+                    Course(name: "Joonistamine IV", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt IV", eapCount: 3),
+                    Course(name: "Skulptuuritehnoloogiad ja -materjalid. Puit", eapCount: 1),
+                    Course(name: "Skulptuuritehnoloogiad ja -materjalid. Metallid, keevitus", eapCount: 2),
+                    Course(name: "Kaasaegne kunst", eapCount: 2),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Erialane joonistamine", eapCount: 2),
+                    Course(name: "Skulptuuriajalugu. Muutuv materiaalsus", eapCount: 2),
+                    Course(name: "Modelleerimine. Inimkeha plastika I", eapCount: 2),
+                    Course(name: "Kunstiteooriad ja -kriitika I", eapCount: 2),
+                    Course(name: "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika", eapCount: 2),
+                    Course(name: "Tehnoloogiline praktikum. Kivi II", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt V", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt 3D keskkonnas I", eapCount: 4),
+                    Course(name: "Restaureerimisprojekt I", eapCount: 3),
+                    Course(name: "Filosoofia II", eapCount: 2),
+                    Course(name: "Interdistsiplinaarne kunst*", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses*", eapCount: 3),
+                    Course(name: "Kunstipedagoogika*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Skulptuuriajalugu. Dadast sürrealismini. Abstraktsus ja ruum", eapCount: 3),
+                    Course(name: "Modelleerimine. Inimkeha plastika II", eapCount: 3),
+                    Course(name: "Tehnoloogiline praktikum. Metallide valutehnoloogiad", eapCount: 3),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 6),
+                    Course(name: "Restaureerimisprojekt II", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt VI", eapCount: 3),
+                    Course(name: "Skulptuuriprojekt avalikku ruumi", eapCount: 2),
+                    Course(name: "Skulptuuriprojekt 3D keskkonnas II", eapCount: 4),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3),
+                    Course(name: "Valikplokk Kaasaegne kunst II*", eapCount: 3),
+                    Course(name: "Valikplokk pedagoogika II", eapCount: 3),
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Modelleerimine. Inimkeha plastika III", eapCount: 3),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 9),
+                    Course(name: "Individuaalne praktika", eapCount: 2),
+                    Course(name: "Skulptuuriprojekt VII", eapCount: 3),
+                    Course(name: "Erialane valikaine II", eapCount: 2),
+                    Course(name: "Ettevalmistus lõputööks", eapCount: 1),
+                    Course(name: "Erialane valikaine I", eapCount: 2),
+                    Course(name: "Skulptuuritehnoloogiad ja -materjalid. Polüestervaigud", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Portfoolio", eapCount: 2),
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Lõputöö praktika", eapCount: 3),
+                    Course(name: "Erialane valikaine III", eapCount: 2),
+                    Course(name: "Skulptuuriprojekt VIII", eapCount: 3),
+                    Course(name: "Erialane valikaine IV", eapCount: 2)
+                ]
+            )
+        ]
     ),
     majorsMinors(
         name: "Tekstiil",
@@ -117,6 +1002,139 @@ let pallasBaka = [
         duration: 4,
         studyLocation:  ["Tartu"],
         eap: 240,
-        cost: "0€"
+        cost: "0€",
+        modules: [
+            Module(
+                module: "1. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Eriala alused. Struktuur ja materjal", eapCount: 2),
+                    Course(name: "Eriala alused. Kavandamise tehnikad", eapCount: 2),
+                    Course(name: "Eriala alused. Materjaliõpetus", eapCount: 3),
+                    Course(name: "Eriala alused. Sissejuhatus erialasse", eapCount: 2),
+                    Course(name: "Disaini alused", eapCount: 2),
+                    Course(name: "Eriala alused. Õmblustehnoloogia", eapCount: 3),
+                    Course(name: "Kunstiajalugu IV. Rahvakunsti alused", eapCount: 1),
+                    Course(name: "Üldkompositsioon", eapCount: 2),
+                    Course(name: "Skulptuur", eapCount: 2),
+                    Course(name: "Fotograafia alused", eapCount: 2),
+                    Course(name: "Vektor- ja pikselgraafika", eapCount: 2),
+                    Course(name: "Värvusõpetus", eapCount: 2),
+                    Course(name: "Joonistamine I", eapCount: 3),
+                    Course(name: "Kunstiajalugu I", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "1. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Eriala alused. Esitlustehnikad", eapCount: 2),
+                    Course(name: "Põrandavaip. Kangakudumise tehnoloogia", eapCount: 3),
+                    Course(name: "Eriala alused. Kangakujundustehnikad", eapCount: 2),
+                    Course(name: "Põrandavaip. Eriala projekt", eapCount: 3),
+                    Course(name: "Toote/projekti esitlus", eapCount: 2),
+                    Course(name: "Kunsti geomeetria", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus I", eapCount: 2),
+                    Course(name: "Joonistamine II", eapCount: 3),
+                    Course(name: "Vormiõpetus", eapCount: 2),
+                    Course(name: "Maalimine I", eapCount: 3),
+                    Course(name: "Intellektuaalse omandi kaitse", eapCount: 2),
+                    Course(name: "Erialane inglise keel I", eapCount: 2),
+                    Course(name: "Kunstiajalugu II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Eriala alused. Inglise keel", eapCount: 2),
+                    Course(name: "Disaini ajalugu", eapCount: 2),
+                    Course(name: "Ruum ja keskkond", eapCount: 2),
+                    Course(name: "Autorikanga disain. Käsitafting", eapCount: 2),
+                    Course(name: "Autorikanga disain. Digitikand", eapCount: 2),
+                    Course(name: "Autorikanga disain. Telgedel kootud autorikangas", eapCount: 4),
+                    Course(name: "Eriala alused. Tekstiiliajalugu", eapCount: 2),
+                    Course(name: "Materjalitöötluspraktika", eapCount: 2),
+                    Course(name: "Kunstiajalugu III", eapCount: 2),
+                    Course(name: "Maalimine II", eapCount: 3),
+                    Course(name: "Filosoofia I", eapCount: 2),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus II", eapCount: 2),
+                    Course(name: "Joonistamine III", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "2. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Moeprojekt. Moeajalugu", eapCount: 2),
+                    Course(name: "Moeprojekt. Kollektsiooni planeerimine", eapCount: 3),
+                    Course(name: "Trükitekstiil. Trükitehnoloogia", eapCount: 3),
+                    Course(name: "Trükitekstiil. Erialaprojekt", eapCount: 5),
+                    Course(name: "Disain ja innovatsioon", eapCount: 2),
+                    Course(name: "Visuaalkultuur ja visuaalsemiootika", eapCount: 2),
+                    Course(name: "Joonistamise jätkukursus. Moeillustratsioon", eapCount: 1),
+                    Course(name: "Moeprojekt. Moetoote tehnoloogia", eapCount: 3),
+                    Course(name: "Ettevõtluse alused", eapCount: 2),
+                    Course(name: "Pedagoogika alused", eapCount: 2),
+                    Course(name: "Kaasaegne kunst", eapCount: 2),
+                    Course(name: "Joonistamine IV", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Joonistamise jätkukursus. Vabajoonistus", eapCount: 2),
+                    Course(name: "Turundus", eapCount: 2),
+                    Course(name: "Kollektsiooni loomine. Silmuskudumine masinal", eapCount: 3),
+                    Course(name: "Kollektsiooni loomine. Erialaprojekt", eapCount: 5),
+                    Course(name: "Sisustusprojekt. Erialased arvutiprogrammid", eapCount: 2),
+                    Course(name: "Sisustusprojekt. Tekstiil ruumis", eapCount: 2),
+                    Course(name: "Kaasaegse tekstiilikunsti väljendusvahendid. Kaasaegne tekstiilikunst", eapCount: 2),
+                    Course(name: "Maalimise jätkukursus", eapCount: 2),
+                    Course(name: "Kaasaegse tekstiilikunsti väljendusvahendid. Erialaprojekt", eapCount: 2),
+                    Course(name: "Messi/näitusepraktika", eapCount: 3),
+                    Course(name: "Interdistsiplinaarne kunst", eapCount: 3),
+                    Course(name: "Kunstipedagoogika", eapCount: 3),
+                    Course(name: "Ettevõtlus 21.sajandi majanduses", eapCount: 3),
+                    Course(name: "Filosoofia II", eapCount: 2)
+                ]
+            ),
+            Module(
+                module: "3. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Piltvaip. Kudumistehnikad", eapCount: 2),
+                    Course(name: "Tootearendus. Tootefoto stilistika", eapCount: 2),
+                    Course(name: "Autorikursus.Digitaalne žakaartelg", eapCount: 2),
+                    Course(name: "Piltvaip. Erialaprojekt", eapCount: 5),
+                    Course(name: "Praktika töökeskkonnas I", eapCount: 9),
+                    Course(name: "Valikplokk pedagoogika II*", eapCount: 3),
+                    Course(name: "Valikplokk ettevõtlus II*", eapCount: 3),
+                    Course(name: "Valikplokk Kaasaegne kunst II*", eapCount: 3)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta sügissemester",
+                courses: [
+                    Course(name: "Autorikursus. Tikand", eapCount: 2),
+                    Course(name: "Tootearendus. Kestlikud materjalid", eapCount: 2),
+                    Course(name: "Ettevalmistus lõputööks. Projekti planeerimine", eapCount: 2),
+                    Course(name: "Tootearendus. Erialaprojekt", eapCount: 3),
+                    Course(name: "Autorikursus. Eriprojekt", eapCount: 2),
+                    Course(name: "Praktika töökeskkonnas II", eapCount: 6),
+                    Course(name: "Projektipraktika", eapCount: 4),
+                    Course(name: "Koopiapraktika", eapCount: 4),
+                    Course(name: "Eesti keel. Suuline ja kirjalik eneseväljendus III", eapCount: 1)
+                ]
+            ),
+            Module(
+                module: "4. õppeaasta kevadsemester",
+                courses: [
+                    Course(name: "Ettevalmistus lõputööks. Eesti kaasaegne tekstiil", eapCount: 2),
+                    Course(name: "Erialane valikaine", eapCount: 2),
+                    Course(name: "Erialane valikaine", eapCount: 2),
+                    Course(name: "Ettevalmistus lõputööks. Portfoolio", eapCount: 2),
+                    Course(name: "Lõputöö", eapCount: 14),
+                    Course(name: "Lõputöö praktika", eapCount: 3),
+                    Course(name: "Vaatluspraktika", eapCount: 2),
+                    Course(name: "Individuaalne praktika", eapCount: 3)
+                ]
+            )
+        ]
     )
 ]
