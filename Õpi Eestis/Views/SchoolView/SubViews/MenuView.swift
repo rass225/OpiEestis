@@ -1,24 +1,20 @@
 import SwiftUI
 
 struct drawMenuItem: View {
-    @EnvironmentObject var theme: Theme
     let image: Image
+    let primaryColor: Color
+    let secondaryColor: Color
     var body: some View {
         ZStack{
             Circle()
-                .frame(height: 40)
-                .frame(width: 40)
-                .padding(.vertical, 5)
-                .padding(.horizontal, 5)
-                .foregroundColor(theme.colorTheme)
+                .frame(width: 40, height: 40)
+                .padding(5)
+                .foregroundColor(primaryColor)
                         
             image
-                .frame(height: 35)
-                .frame(width: 35)
+                .frame(width: 35, height: 35)
                 .font(.regularTitle3)
-                .foregroundColor(Color.white)
-        }
-        
-            
+                .foregroundColor(secondaryColor)
+        }       
     }
 }

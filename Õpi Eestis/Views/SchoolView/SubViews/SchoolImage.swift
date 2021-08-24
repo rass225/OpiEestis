@@ -2,35 +2,37 @@ import SwiftUI
 
 struct SchoolImage: View {
     
-    @ObservedObject var presenter = SchoolViewPresenter()
     let school: School
-    
     
     var body: some View {
         ZStack{
-            Image(school.image)
+            Image(school.image.rawValue)
                 .resizable()
-                .overlay(drawOverlay(school: school), alignment: .bottomTrailing)
-        }.frame(width: presenter.size.width, height: presenter.size.thirdHeight)
-        
+                .overlay(drawOverlay(name: school.name.rawValue, city: school.location.city.rawValue), alignment: .bottomTrailing)
+        }
+        .frame(width: Size.width, height: Size.thirdHeight)
         .cornerRadiusCustom(90, corners: .bottomLeft)
+        .padding(.bottom, 10)
         .background(Color.white)
     }
-    
-    @ViewBuilder private func drawOverlay(school: School) -> some View {
+}
+
+private struct drawOverlay: View {
+    let name: String
+    let city: String
+    var body : some View {
         VStack(alignment: .trailing, spacing: 10){
-            Text(school.name.rawValue)
+            Text(name)
                 .defaultShadow(color: .black, radius: 5)
                 .font(.mediumTitle2)
-            HStack{
+            HStack(spacing: 2){
                 Image.locationFill
-                Text(school.location.city).font(.regularBody)
+                    .font(.regularTitle3)
+                Text(city).font(.semiBoldBody)
             }.defaultShadow(color: .black, radius: 5)
         }
-        .defaultShadow(color: .black, radius: 15)
         .foregroundColor(.white)
-        .padding(.bottom, 20)
+        .padding(.bottom, 25)
         .padding(.trailing, 20)
-        
     }
 }

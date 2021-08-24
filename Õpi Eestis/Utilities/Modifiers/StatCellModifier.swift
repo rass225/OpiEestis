@@ -3,8 +3,10 @@ import SwiftUI
 struct statCellModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .foregroundColor(.black)
+            .foregroundColor(Color.black.opacity(0.5))
             .font(.regularCaption)
-            .padding(.horizontal, 8)
+            .padding(.leading, 5)
     }
 }
+
+

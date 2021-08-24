@@ -3,10 +3,6 @@ import SwiftUI
 
 extension View {
     
-    func keyboardResponsive() -> ModifiedContent<Self, KeyboardResponsiveModifier> {
-        return modifier(KeyboardResponsiveModifier())
-    }
-    
     func ignoreEdges(edge: Edge.Set) -> some View {
         return self
             .edgesIgnoringSafeArea(edge)
@@ -19,8 +15,11 @@ extension View {
     
     func cornerRadiusCustom(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape( RoundedCorner(radius: radius, corners: corners) )
-        
-        
+    }
+    
+    func miniShadow() -> some View {
+        self
+            .shadow(color: .dimBlack, radius: 1, x: 0, y: 2)
     }
 }
 

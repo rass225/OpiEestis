@@ -5,5 +5,5 @@ extension LinearGradient {
         self.init(gradient: Gradient(colors: colors), startPoint: .leading, endPoint: .trailing)
     }
     
-    static let dimToWhiteGradient = LinearGradient(gradient: .dimToWhite, startPoint: .center, endPoint: .bottom)
+    static let dimToWhiteGradient = LinearGradient(gradient: Gradient(colors: [Color.whiteDim, Color.white]), startPoint: .center, endPoint: .bottom)
 }
