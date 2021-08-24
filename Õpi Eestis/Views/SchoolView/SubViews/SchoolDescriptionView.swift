@@ -4,143 +4,93 @@ import MessageUI
 
 struct SchoolDescriptionView: View {
     @EnvironmentObject var theme: Theme
+    
     let school: School
-    @State var foreignStudentsToggle = false
-    @ObservedObject var presenter = SchoolViewPresenter()
-    @State var result: Result<MFMailComposeResult, Error>? = nil
-    @State var isShowingMailView = false
-    @State private var showingAlert = false
+    @Binding var education: [majorsMinors]
+    
+    
     
     var body: some View {
         ZStack{
             VStack{
-                LabelledDivider(label: school.logo).padding(.horizontal, 20)
-                HStack(spacing: 10){
-                    VStack{
-                        Text(school.students != 0 ? "\(school.students)" : "N/A").font(.boldCallout)
-                        HStack(alignment: .center, spacing: 5){
-                            StatImage(image: .person3)
-                            Text("Üliõpilast")
-                        }
-                    }.modifier(statCellModifier())
-                    
-                    VStack{
-                        Text(school.name.rawValue.contains("Business")
-                                ? foreignStudentsToggle ? "\(foreignStudents())%": "42. riigist"
-                                : foreignStudentsToggle ? "\(foreignStudents())%": "\(school.internationalStudents)"
-                        ).font(.boldCallout)
-                        HStack(alignment: .center, spacing: 5){
-                            StatImage(image: .person2)
-                            Text(foreignStudentsToggle ? "Välisüliõpilasi" : "Välisüliõpilast")
-                                .animation(.default)
-                        }
-                    }.modifier(statCellModifier())
-                    .onTapGesture { foreignStudentsToggle.toggle() }
-                    
-                    VStack{
-                        Text("\(locationCount())").font(.boldCallout)
-                        HStack(alignment: .center, spacing: 5){
-                            StatImage(image: .mappinCircle)
-                            Text("Linnas")
-                        }
-                    }.modifier(statCellModifier())
-                }
-                
-                HStack(alignment: .center, spacing: 20){
-                    Spacer()
-                    Button(action: {isShowingMailView.toggle()}) {
-                        drawMenuItem(image: .envelope)
-//                        Text("s")
-                    }
-                    .contextMenu(menuItems: {
-                        Button(action: { copy(string: school.contact.email)}) {
-                            Text.copy
-                        }
-                    })
-                    Button(action: {
-                        phoneAction()
-                    }) {
-                        drawMenuItem(image: .phone)
-//                        Text("s")
-                    }
-                    .contextMenu(menuItems: {
-                        Button(action: { copy(string: school.contact.phonenumber)}) {
-                            Text.copy
-                        }
-                    })
-                    Button(action: {
-                        mapsAction()
-                    }) {
-                        drawMenuItem(image: .map)
-//                        Text("s")
-                    }
-                    .contextMenu(menuItems: {
-                        Button(action: { copy(string: school.contact.address + ", " + school.location.city)}) {
-                            Text.copy
-                        }
-                    })
-                    Button(action: {
-                        websiteAction()
-                    }) {
-                        drawMenuItem(image: .house)
-//                        Text("s")
-                    }
-                    .contextMenu(menuItems: {
-                        Button(action: { copy(string: school.website) }) {
-                            Text.copy
-                        }
-                    })
-                    NavigationLink(
-                        destination: SchoolAboutView(school: school),
-                        label: {
-                            drawMenuItem(image: .info)
-                        }
-                    )
-                    Spacer()
-                }.padding(.vertical)
-                .alert(isPresented: $showingAlert) { Alert(title: Text.copied) }
-                .disabled(!MFMailComposeViewController.canSendMail())
-                .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name.rawValue)}
-                
-            }.padding(.top, 20)
+                SchoolLogo(image: school.logo.rawValue)
+                SchoolStatistics(school: school, color: theme.colorTheme, education: $education)
+                MenuItems(color: theme.colorTheme, school: school)
+            }.padding(.vertical, 10)
             .background(Color.white)
             .cornerRadiusCustom(50, corners: [.bottomLeft, .bottomRight])
-            .shadow(color: Color.black.opacity(0.05), radius: 1, x: 0, y: 2)
+            .miniShadow()
         }
     }
 }
 
-extension SchoolDescriptionView {
+private struct MenuItems: View {
     
-    func locationCount() -> Int {
-        let majors = school.education
-        let studyLocations = majors.map{ ($0.studyLocation) }
-        var differentStudyLocations: [String] = []
-        for major in studyLocations {
-            for item in major {
-                differentStudyLocations.append(item)
+    let color: Color
+    let school: School
+    @State var result: Result<MFMailComposeResult, Error>? = nil
+    @State var isShowingMailView = false
+    @State private var showingAlert = false
+    
+    var body : some View {
+        HStack(spacing: 20){
+            Spacer()
+            HStack(alignment: .center, spacing: 20){
+                
+                Group{
+                    Button(action: {isShowingMailView.toggle()}) {
+                        drawMenuItem(image: .envelopeFill, primaryColor: color, secondaryColor: .white)
+                    }
+                    .contextMenu(menuItems: {
+                        Button(action: { copy(string: school.contact.email)}) { Text.copy }
+                    })
+                }
+                Group{
+                    Button(action: { phoneAction() }) {
+                        drawMenuItem(image: .phoneFill, primaryColor: color, secondaryColor: .white)
+                    }
+                    .contextMenu(menuItems: {
+                        Button(action: { copy(string: school.contact.phonenumber)}) { Text.copy }
+                    })
+                }
+                Group{
+                    Button(action: { mapsAction() }) {
+                        drawMenuItem(image: .locationFill, primaryColor: color, secondaryColor: .white)
+                    }
+                    .contextMenu(menuItems: {
+                        Button(action: { copy(string: school.contact.address + ", " + school.location.city.rawValue)}) {
+                            Text.copy
+                        }
+                    })
+                }
+                Group{
+                    Button(action: { websiteAction() }) {
+                        drawMenuItem(image: .houseFill, primaryColor: color, secondaryColor: .white)
+                    }
+                    .contextMenu(menuItems: {
+                        Button(action: { copy(string: school.website) }) { Text.copy }
+                    })
+                }
             }
-        }
-        var count: [String: Int] = [:]
-        differentStudyLocations.forEach { count[$0, default: 0] += 1 }
-        return count.count
+            .alert(isPresented: $showingAlert) { Alert(title: Text.copied) }
+            .disabled(!MFMailComposeViewController.canSendMail())
+            .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name.rawValue)}
+            NavigationLink(
+                destination: SchoolAboutView(school: school),
+                label: {
+                    drawMenuItem(image: .info, primaryColor: color, secondaryColor: .white)
+                }
+            )
+            Spacer()
+        }.padding(.vertical)
     }
-    
-    func foreignStudents() -> Int {
-        if school.students != 0 {
-            return school.internationalStudents * 100 / school.students
-        } else {
-            return 0
-        }
-    }
-    
     func websiteAction() {
         guard let url = URL(string: school.website) else { return }
         UIApplication.shared.open(url)
     }
     
     func mapsAction() {
-        guard let url = URL(string: school.location.coordinates) else { return }
+        guard let url = URL(string: school.location.coordinates.rawValue) else { return }
         UIApplication.shared.open(url)
     }
     
@@ -151,9 +101,112 @@ extension SchoolDescriptionView {
     }
     
     func phoneAction() {
-        let tel = "tel://"
-        let formattedString = tel + school.contact.phonenumber
+        let formattedString = Locale.network.telHttps + school.contact.phonenumber
         let url: NSURL = URL(string: formattedString)! as NSURL
         UIApplication.shared.open(url as URL)
+    }
+}
+private struct SchoolStatistic: View {
+    let image: Image
+    let color: Color
+    let topText: String
+    let bottomText: String
+    var body: some View {
+        HStack(alignment: .center, spacing: 5){
+            MajorStatImage(image: image)
+            VStack(alignment: .leading, spacing: 0){
+                Text(topText)
+                    .font(.boldTitle3)
+                    .foregroundColor(.black)
+                Text(bottomText)
+                    .padding(.top, -3)
+                    .foregroundColor(.halfBlack)
+                    .font(.regularCaption)
+            }
+        }
+    }
+}
+private struct SchoolLogo: View {
+    let image: String
+    var body : some View {
+        Image(image)
+            .resizable()
+            .scaledToFit()
+            .frame(height: Size.fifthWidth)
+            .frame(maxWidth: Size.fifthWidth)
+            .padding(.horizontal, 20)
+    }
+}
+private struct SchoolStatistics: View {
+    
+    let school: School
+    let color: Color
+    @State var foreignStudentsToggle = false
+    @Binding var education: [majorsMinors]
+    
+    var body : some View {
+        HStack(alignment: .center, spacing: 0){
+            Spacer()
+            SchoolStatistic(image: .person2Fill, color: color, topText: makeStudentsTop(), bottomText: makeStudentBottom())
+            Spacer()
+            SchoolStatistic(image: .personFill, color: color, topText: makeForeignStudentTop(), bottomText: makeForeignStudentBottom())
+                .animation(.default).onTapGesture { foreignStudentsToggle.toggle() }
+            Spacer()
+            SchoolStatistic(image: .mappinCircleFill, color: color, topText: makeLocationTop(), bottomText: makeLocationBottom())
+            Spacer()
+        }.padding(.vertical, 10)
+        NavigationLink(destination: Text("fix")) {} //Annomaly, without it, schoolAboutView causes strange behavior
+    }
+    
+    func makeLocationTop() -> String {
+        return "\(getLocationCount())"
+    }
+    
+    func makeLocationBottom() -> String {
+        return Locale.cities
+    }
+    
+    func makeForeignStudentTop() -> String {
+        switch school.name {
+        case .ebs:
+            return foreignStudentsToggle ? "\(foreignStudents())%": Locale.ebsForeignStudents
+        default:
+            return foreignStudentsToggle ? "\(foreignStudents())%": "\(school.internationalStudents)"
+        }
+    }
+    
+    func makeForeignStudentBottom() -> String {
+        return foreignStudentsToggle ? Locale.foreignStudents2 : Locale.foreignStudents1
+    }
+    
+    func makeStudentsTop() -> String {
+        return school.students != 0 ? "\(school.students)" : Locale.none
+    }
+    
+    func makeStudentBottom() -> String {
+        return Locale.students
+    }
+    
+    
+    func getLocationCount() -> Int {
+        let studyLocations = education.map{ ($0.studyLocation) }
+        var differentStudyLocations: [String] = []
+        for major in studyLocations {
+            for item in major {
+                differentStudyLocations.append(item.rawValue)
+            }
+        }
+        var count: [String: Int] = [:]
+        differentStudyLocations.forEach { count[$0, default: 0] += 1 }
+        
+        return count.count
+    }
+    
+    func foreignStudents() -> Int {
+        if school.students != 0 {
+            return school.internationalStudents * 100 / school.students
+        } else {
+            return 0
+        }
     }
 }

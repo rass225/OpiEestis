@@ -15,8 +15,8 @@ class Universities: ObservableObject {
         ebs,
         tartuTervishoiuKõrgkool,
         tartuÜlikool,
-        Kaitseakadeemia,
-        //    tallinnaTervishoiuKõrgkool ////Korras - Leping?
+        Kaitseakadeemia
+//            tallinnaTervishoiuKõrgkool ////Korras - Leping?
     ].sorted(by: { $0.name.rawValue < $1.name.rawValue })
 
     let universities: [SchoolOverview] = [
@@ -33,7 +33,7 @@ class Universities: ObservableObject {
         SchoolOverview(name: .ebs, databaseId: 10, logo: "EBSlogo", city: "Tallinn"),
         SchoolOverview(name: .tartuTervishoiuKõrgkool, databaseId: 11, logo: "TTKlogo2", city: "Tartu"),
         SchoolOverview(name: .tartuÜlikool, databaseId: 12, logo: "Tartu Ülikool", city: "Tartu"),
-        SchoolOverview(name: .kaitsevägi, databaseId: 13, logo: "KAlogo", city: "Tartu"),
+        SchoolOverview(name: .kaitsevägi, databaseId: 13, logo: "KAlogo", city: "Tartu")
     ].sorted(by: { $0.name.rawValue < $1.name.rawValue })
 }
 

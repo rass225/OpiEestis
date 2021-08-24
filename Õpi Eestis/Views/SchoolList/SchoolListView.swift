@@ -2,12 +2,9 @@ import SwiftUI
 
 struct SchoolListView: View {
     @EnvironmentObject var theme: Theme
-    let navBar = NavigationBarTitles()
     let schools = Universities()
    
-    @State var pickedSchool = School(name: .ebs, description: [], location: Location(city: "", aadress: "", coordinates: ""), website: "", students: 0, contact: ContactInfo(phonenumber: "", address: "", email: ""), socialMedia: [], logo: "", image: "", internationalStudents: 0, worldRanking: 0, vastuvõtt: [], education: [])
- 
-    @ObservedObject var networkManager = NetworkManager()
+    @State var pickedSchool = School(name: .ebs, description: [], location: Location(city: .undefined, aadress: "", coordinates: .undefined), website: "", students: 0, contact: ContactInfo(phonenumber: "", address: "", email: ""), socialMedia: [], logo: .undefined, image: .undefined, internationalStudents: 0, worldRanking: 0, vastuvõtt: [])
     @State var selection: Int?
     
     var body: some View {
@@ -33,32 +30,35 @@ struct SchoolListView: View {
                     }
                 }
             }
-//            .navigationBarTitle(presenter.navBar.schoolListTitle, displayMode: .automatic)
-            .navigationBarTitle("Õpi Eestis", displayMode: .automatic)
-            .navigationBarItems(
-                leading: HStack{
-                    Image.appLogo2
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 40, height: 40)
-                        .foregroundColor(Color.oeBlue)
-//                    Text("Õpi Eestis")
-                },
-                trailing:
-                    NavigationLink(destination: AboutView()) {
-                        Image.info
-                            .frame(height: 30)
-                            .frame(width: 30)
-                            .font(.regularTitle3)
-                            .background(Color.oeBlue)
-                            .cornerRadius(50)
-                            .foregroundColor(Color.white)
-                    })
+            .navigationBarTitle(Text(Locale.app), displayMode: .automatic)
+            .navigationBarItems(leading: Logo(), trailing: NavigationLink(destination: AboutView()) { Info() } )
         }
     }
 }
 
 extension SchoolListView {
+    
+    private struct Logo: View {
+        var body : some View {
+            Image.appLogo2
+                .resizable()
+                .scaledToFit()
+                .frame(width: 40, height: 40)
+                .foregroundColor(Color.oeBlue)
+        }
+    }
+    
+    private struct  Info: View {
+        var body : some View {
+            Image.info
+                .frame(height: 30)
+                .frame(width: 30)
+                .font(.regularTitle3)
+                .background(Color.oeBlue)
+                .cornerRadius(50)
+                .foregroundColor(.white)
+        }
+    }
     func pickedSchool(name: SchoolName, completion: @escaping () -> Void ) {
         let themes = Color.SchoolThemes.self
         let result: School

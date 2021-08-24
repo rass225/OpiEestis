@@ -2,73 +2,94 @@ import SwiftUI
 
 struct SchoolMajor: View {
     @EnvironmentObject var theme : Theme
-    @ObservedObject var presenter = SchoolViewPresenter()
+    
     let school: School
+    
+    @Binding var education: [majorsMinors]
+    @Binding var majorsCount: Int
+    
     @State var majors = [StatEntity]()
    
     var body: some View {
         ZStack{
-            NavigationLink(destination: DegreeView(school: school)) {
+            NavigationLink(destination: DegreeView(school: school, education: education)) {
                 VStack{
                     ZStack{
-                        HStack(spacing: 20){
-                            ZStack {
-                                ForEach(majors.indices, id: \.self) { index in
-                                    Circle()
-                                        .trim(from: index == 0 ? 0.0 : majors[index-1].value/100, to: majors[index].value/100)
-                                        .stroke(majors[index].color, lineWidth: 10)
-                                }
-                                VStack{
-                                    Text("\(school.education.count)").font(.boldCallout)
-                                    Text("Eriala").font(.regularCaption)
-                                }
-                            }
-                            .padding(.leading)
-                            .frame(width: 90, height: 90)
-                            .padding(.trailing)
-                            VStack(alignment: .leading, spacing: 5){
-                                ForEach(majors, id: \.self) { item in
-                                    if item.count != 0 {
-                                        HStack(alignment: .center, spacing: 10){
-                                            RoundedRectangle(cornerRadius: 25)
-                                                .fill(item.color)
-                                                .frame(width: 10, height: 10, alignment: .center)
-                                            Text("\(item.count)")
-                                                .font(.boldCallout)
-                                                .frame(width: 25, alignment: .leading)
-                                            Text(item.name.rawValue)
-                                                .font(.regularCaption)
-                                                .frame(maxWidth: .infinity, alignment: .leading)
-                                        }.foregroundColor(Color.black)
-                                    }
-                                }
-                            }
+                        HStack(spacing: 0){
+                            ChartView(majors: $majors, majorsCount: $majorsCount)
+                            StatsView(majors: $majors)
                         }
                         HStack{
                             Spacer()
-                            Image.chevronRight.foregroundColor(theme.colorTheme)
-                                .padding(.trailing, 10)
+                            CustomChevron(color: theme.colorTheme)
                         }
                     }
                 }.padding(.vertical, 20)
             }
-            .padding(.leading)
             .frame(maxWidth: .infinity)
-            .foregroundColor(.black)
             .background(Color.white)
-            .cornerRadius(6)
+            .cornerRadius(12)
+            .miniShadow()
             .padding(.horizontal)
             .padding(.top)
         }
         .onAppear {
             DispatchQueue.main.async {
-                getLevelStats(school: school)
+               majors = getLevelStats(school: school)
             }
         }
     }
 }
 
 extension SchoolMajor {
+    
+    private struct ChartView: View {
+        @Binding var majors: [StatEntity]
+        @Binding var majorsCount: Int
+        var body : some View {
+            ZStack {
+                ForEach(majors.indices, id: \.self) { index in
+                    Circle()
+                        .trim(from: index == 0 ? 0.0 : majors[index-1].value/100, to: majors[index].value/100)
+                        .stroke(majors[index].color, lineWidth: 13)
+                        .frame(width: 80, height: 80)
+                }
+                VStack(spacing: 0){
+                    Text("\(majorsCount)")
+                        .font(.boldTitle3)
+                        .foregroundColor(.black)
+                    Text(Locale.major)
+                        .padding(.top, -3)
+                        .font(.regularCaption)
+                        .foregroundColor(.halfBlack)
+                }
+            }.padding(.horizontal, 30)
+        }
+    }
+    
+    private struct StatsView: View {
+        @Binding var majors: [StatEntity]
+        var body : some View {
+            VStack(alignment: .leading, spacing: 7){
+                ForEach(majors, id: \.self) { item in
+                    if item.count != 0 {
+                        HStack(alignment: .center, spacing: 10){
+                            RoundedRectangle(cornerRadius: 25)
+                                .fill(item.color)
+                                .frame(width: 13, height: 13, alignment: .center)
+                            Text("\(item.count)")
+                                .font(.boldCallout)
+                                .frame(width: 25, alignment: .leading)
+                            Text(item.name.rawValue.capitalizingFirstLetter())
+                                .font(.regularCaption)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }.foregroundColor(.black)
+                    }
+                }
+            }
+        }
+    }
+    
     struct LevelData {
         var bachelor: StatEntity
         var master: StatEntity
@@ -99,12 +120,12 @@ extension SchoolMajor {
         var kutse: CGFloat
     }
     
-    func getLevelStats(school: School){
+    func getLevelStats(school: School) -> [StatEntity] {
         var levels: [StatEntity] = [StatEntity]()
         let levelStats: LevelData
         
-        let counts = levelCount(majors: school.education)
-        let percentages = percentace(levelCounts: counts, total: school.education.count)
+        let counts = levelCount(majors: education)
+        let percentages = percentace(levelCounts: counts, total: majorsCount)
         
         
         levelStats = LevelData(
@@ -138,10 +159,10 @@ extension SchoolMajor {
             value += levels[i].percentage
             levels[i].value = value
         }
-        DispatchQueue.main.async {
-            majors = levels
-            print("done")
-        }
+//        DispatchQueue.main.async {
+//            majors = levels
+//        }
+        return levels
     }
     func levelCount(majors: [majorsMinors]) -> LevelStats {
         let bachelor = majors.filter{$0.level == .bachelor }.count
@@ -150,17 +171,17 @@ extension SchoolMajor {
         let doctor = majors.filter{$0.level == .doctor }.count
         let kutse = majors.filter{$0.level == .kutseharidus }.count
         let applied = majors.filter{$0.level == .applied }.count
-        print(LevelStats(bachelor: bachelor, master: master + intergrated, doctor: doctor, applied: applied, kutse: kutse))
         return LevelStats(bachelor: bachelor, master: master + intergrated, doctor: doctor, applied: applied, kutse: kutse)
     }
     
     func percentace(levelCounts: LevelStats, total: Int) -> LevelPercents {
-        let bachelor: CGFloat = CGFloat(levelCounts.bachelor) * 100 / CGFloat(total)
-        let master: CGFloat = CGFloat(levelCounts.master) * 100 / CGFloat(total)
-        let doctor: CGFloat = CGFloat(levelCounts.doctor) * 100 / CGFloat(total)
-        let applied: CGFloat = CGFloat(levelCounts.applied) * 100 / CGFloat(total)
-        let kutse: CGFloat = CGFloat(levelCounts.kutse) * 100 / CGFloat(total)
-        print(LevelPercents(bachelor: bachelor, master: master, doctor: doctor, applied: applied, kutse: kutse))
+        let bachelor: CGFloat = CGFloat(levelCounts.bachelor) * 100 / CGFloat(majorsCount)
+        let master: CGFloat = CGFloat(levelCounts.master) * 100 / CGFloat(majorsCount)
+        let doctor: CGFloat = CGFloat(levelCounts.doctor) * 100 / CGFloat(majorsCount)
+        let applied: CGFloat = CGFloat(levelCounts.applied) * 100 / CGFloat(majorsCount)
+        let kutse: CGFloat = CGFloat(levelCounts.kutse) * 100 / CGFloat(majorsCount)
         return LevelPercents(bachelor: bachelor, master: master, doctor: doctor, applied: applied, kutse: kutse)
     }
 }
+
+

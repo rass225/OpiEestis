@@ -8,6 +8,10 @@ public extension Color {
     static let whiteDim2 = Color.init(red: 232/255, green: 232/255, blue: 232/255)
     static let white = Color.white
     static let black = Color.black
+    static let halfBlack = Color.black.opacity(0.5)
+    static let threeQuarterBlack = Color.black.opacity(0.9)
+    static let dimBlack = Color.black.opacity(0.05)
+    static let dimGray = Color.gray.opacity(0.001)
     
     // ÕE theme
     static let oeBlue = Color.init(red: 0, green: 118/255, blue: 200/255)
