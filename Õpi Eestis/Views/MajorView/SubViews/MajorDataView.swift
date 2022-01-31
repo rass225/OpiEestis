@@ -11,14 +11,13 @@ struct MajorDataView: View {
                         .foregroundColor(.black)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .lineSpacing(5)
-                }.padding(.horizontal, 13)
+                }.padding(.horizontal, 20)
                 .padding(.vertical, 10)
                 .background(Color.white)
-                .cornerRadius(5)
-                .padding(.horizontal)
+                .cornerRadius(7)
+                .padding(.horizontal, 20)
                 .padding(.top, 5)
             }
-        }.padding(.top, 5)
-        
+        }.padding(.top, 5) 
     }
 }

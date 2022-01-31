@@ -1,110 +1,81 @@
 import SwiftUI
+import MessageUI
 
 struct SchoolView: View {
     @Environment(\.presentationMode) var presentationMode
-    @EnvironmentObject var theme: Theme
-    
     let school: School
-    
-    @State var isAboutTapped = false
-    @State var descriptionIsShown = false
     @State var majorsCount = 0
     @State var education: [majorsMinors] = []
-    
     var body: some View {
-        ZStack {
-            Color.whiteDim1
-            VStack(spacing: 0){
-                SchoolImage(school: school)
-                SchoolDescriptionView(school: school, education: $education)
-                SchoolMajor(school: school, education: $education, majorsCount: $majorsCount)
-                SocialMediaView(socialMedia: school.socialMedia)
-                Spacer()
+        VStack{
+            ScrollView{
+                VStack(spacing: 0){
+                    SchoolImage(school: school)
+                    SchoolStatistics(school: school, education: $education)
+                    SchoolSummaryView(school: school)
+                    SchoolMajor(school: school, education: $education, majorsCount: $majorsCount)
+                    SchoolMapView(school: school)
+                    SchoolWebsiteView(school: school)
+                    SchoolContact(school: school)
+                    SchoolAdmissionView(school: school)
+                    SocialMediaView(school: school)
+                }.padding(.bottom,60)
             }
+            .background(Color.white)
+            .padding(.top, 10)
         }
-        .ignoreEdges(edge: .vertical)
-        .onAppear{
-            getMajorsCount(schoolName: school.name)
-            getEducation(schoolName: school.name)
+        .background(Color.white)
+        .ignoreEdges(edge: .bottom)
+        .onAppear{ getEducation(schoolName: school.name) }
+        .toolbar{
+            AppToolbarItem(.dismiss, color: school.color)
+            AppToolbarItem(.logo(school: school), color: school.color)
         }
-    }
-    
-    func dismiss() { self.presentationMode.wrappedValue.dismiss() }
-    
-    func toAbout() { descriptionIsShown.toggle() }
-    
-    func getMajorsCount(schoolName: SchoolName) {
-        let result: Int
-        switch schoolName {
-        case .ebs:
-            result = ebsEducation.count
-        case .kaitsevägi:
-            result = kaitseväeAkadeemiaEducation.count
-        case .kunstiakadeemia:
-            result = kunstiAkadeemiaEducation.count
-        case .lennuakadeemia:
-            result = lennuakadeemiaEducation.count
-        case .maaülikool:
-            result = maaülikoolEducation.count
-        case .mainor:
-            result = mainorEducation.count
-        case .pallas:
-            result = pallasEducation.count
-        case .sisekaitseakadeemia:
-            result = sisekaitseakadeemiaEducation.count
-        case .tallinnaTervishoiuKõrgkool:
-            result = 0
-        case .tallinnaÜlikool:
-            result = tallinnaÜlikoolEducation.count
-        case .taltech:
-            result = ttüEducation.count
-        case .tartuTervishoiuKõrgkool:
-            result = tartuTervishoiuKõrgkoolEducation.count
-        case .tartuÜlikool:
-            result = tartuÜlikoolEducation.count
-        case .teatriakadeemia:
-            result = muusikaAkadeemiaEducation.count
-        case .ttk:
-            result = TTKEducation.count
-        }
-        
-       majorsCount = result
+        .navigationBarBackButtonHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
     }
     
     func getEducation(schoolName: SchoolName) {
         let result: [majorsMinors]
         switch schoolName {
-        case .ebs:
-            result = ebsEducation
-        case .kaitsevägi:
-            result = kaitseväeAkadeemiaEducation
-        case .kunstiakadeemia:
-            result = kunstiAkadeemiaEducation
-        case .lennuakadeemia:
-            result = lennuakadeemiaEducation
-        case .maaülikool:
-            result = maaülikoolEducation
-        case .mainor:
-            result = mainorEducation
-        case .pallas:
-            result = pallasEducation
-        case .sisekaitseakadeemia:
-            result = sisekaitseakadeemiaEducation
-        case .tallinnaTervishoiuKõrgkool:
-            result = tartuTervishoiuKõrgkoolEducation
-        case .tallinnaÜlikool:
-            result = tallinnaÜlikoolEducation
-        case .taltech:
-            result = ttüEducation
-        case .tartuTervishoiuKõrgkool:
-            result = tartuTervishoiuKõrgkoolEducation
-        case .tartuÜlikool:
-            result = tartuÜlikoolEducation
-        case .teatriakadeemia:
-            result = muusikaAkadeemiaEducation
-        case .ttk:
-            result = TTKEducation
+        case .ebs: result = loadJson("EBS")!
+        case .kaitsevägi:result = loadJson("Kaitsevägi")!
+        case .kunstiakadeemia: result = loadJson("Kunstiakadeemia")!
+        case .lennuakadeemia: result = loadJson("Lennuakadeemia")!
+        case .maaülikool:  result = loadJson("EMU")!
+        case .mainor:  result = loadJson("Mainor")!
+        case .pallas: result = loadJson("Pallas")!
+        case .sisekaitseakadeemia: result = loadJson("Sisekaitseakadeemia")!
+        case .tallinnaTervishoiuKõrgkool: result = loadJson("TartuTervishoid")!
+        case .tallinnaÜlikool:  result = loadJson("TLÜ")!
+        case .taltech: result = loadJson("TTÜ")!
+        case .tartuTervishoiuKõrgkool: result = loadJson("TartuTervishoid")!
+        case .tartuÜlikool: result = loadJson("TÜ")!
+        case .teatriakadeemia: result = loadJson("Muusikaakadeemia")!
+        case .ttk: result = loadJson("TTK")!
         }
         education = result
+        majorsCount = result.count
+//        printJSON(data: result)
+    }
+    
+    func loadJson(_ filename: String) -> [majorsMinors]? {
+        if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode([majorsMinors].self, from: data)
+                return jsonData
+            } catch {
+                print("error:\(error)")
+            }
+        }
+        return nil
+    }
+    
+    func printJSON(data: [majorsMinors]) {
+        let jsonData = try! JSONEncoder().encode(data)
+        let jsonString = String(data: jsonData, encoding: .utf8)!
+        print(jsonString)
     }
 }

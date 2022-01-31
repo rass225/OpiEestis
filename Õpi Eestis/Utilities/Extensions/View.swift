@@ -19,7 +19,12 @@ extension View {
     
     func miniShadow() -> some View {
         self
-            .shadow(color: .dimBlack, radius: 1, x: 0, y: 2)
+            .shadow(color: Color.black.opacity(0.09), radius: 1, x: 0, y: 2)
+    }
+    
+    func defaultShadow() -> some View {
+        self
+            .shadow(color: Color.black.opacity(0.3), radius: 4, x: 0, y: 2)
     }
 }
 

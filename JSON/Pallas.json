@@ -1,0 +1,4751 @@
+[
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "DDC10A07-A31B-49ED-9EBD-03D10C412485",
+    "description": [
+      "Fotograafia osakond loodi 1997. aastal Vallo Kalamehe juhtimisel, alates 2001 juhib osakonda professor Peeter Linnap (PhD). Osakonna eesmärk on anda üliõpilastele rahvusvaheliselt pädev erialane kunstiharidus.",
+      "Õppekava keskendub kolmele suunale:",
+      "• Vabaloominguline tegevus",
+      "• Professionaalne fotograafia ja uurimuslik dokumentalistika",
+      "• Internetipõhised projektid, fotograafiaga seonduva loomingu kureerimine, uurimine ja korraldustöö.",
+      "Osakond teadvustab ennast rahvusvahelises kultuuriruumis. Üliõpilased osalevad aktiivselt vahetusprogrammides, sage on välisüliõpilaste õppima tulek fotograafiaosakonda. Osakonnas on publitseeritud üle kümne erialase raamatu ja kataloogi."
+    ],
+    "eap": 240,
+    "spots": 12,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/fotograafia/",
+    "personnel": [
+      {
+        "email": "peeter@linnap.com",
+        "id": "18CB72A8-6AF4-411A-9194-95515984AC30",
+        "title": "Osakonna juhataja",
+        "phone": "+3727309820",
+        "name": "Peeter Linnap"
+      },
+      {
+        "email": "vallo.kalamees@pallasart.ee",
+        "id": "29377578-6DC7-48F2-AB30-86E4E6F335FF",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727309820",
+        "name": "Vallo Kalamees"
+      },
+      {
+        "email": "toomas.kalve@pallasart.ee",
+        "id": "8121D0B8-86B3-4BE9-9B1B-D5671F96C9E4",
+        "title": "Meister",
+        "name": "Toomas Kalve"
+      },
+      {
+        "email": "andrus.kannel@pallasart.ee",
+        "id": "81B8F340-EDDA-44F6-A290-013F84B60105",
+        "title": "Meister",
+        "name": "Andrus Kannel"
+      },
+      {
+        "id": "6013F0A5-FE1C-4F79-A946-C8B90331FF9C",
+        "name": "Tiit Lepp",
+        "title": "Vanemõpetaja"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "D5055C6C-6668-443D-AB67-466243887D4B",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "5D6B9AD8-174D-4809-8294-C01F1CA3BD7E",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Adobe Illustrator",
+            "eapCount": 3
+          },
+          {
+            "id": "2CF0944F-CF48-44DF-BF0B-586EA0D28DFD",
+            "name": "Fotograafia väljendusvahendid.Perspektiiv fotograafias",
+            "eapCount": 2
+          },
+          {
+            "id": "CFECA6D4-21C8-4A58-B665-7B1FADE5D934",
+            "name": "Fotograafia väljendusvahendid. Valgus fotograafias",
+            "eapCount": 2
+          },
+          {
+            "id": "24C9EF20-C628-4A91-ADA8-089592184AC9",
+            "name": "Fototehnika ja tehnoloogia. Pinhole",
+            "eapCount": 1
+          },
+          {
+            "id": "B584FFB9-1486-4399-B3CC-1A992FBABAC6",
+            "name": "Fototehnika ja -tehnoloogia. Kaamerad",
+            "eapCount": 2
+          },
+          {
+            "id": "85ED5ED7-1E89-40F6-938E-F77AD438051B",
+            "name": "Fototehnika ja tehnoloogia. Digitaalfotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "E7FA2F3D-B6F0-4A21-9967-DEEA38EC9F04",
+            "name": "Fototehnika ja tehnoloogia. Adobe Photoshop (baaskursus). Lightroom",
+            "eapCount": 2
+          },
+          {
+            "id": "368D1B3B-10C6-420F-81AE-BB412F1FBB1A",
+            "name": "Fotograafia ajalugu I",
+            "eapCount": 1
+          },
+          {
+            "id": "B76DF948-8867-42F8-8ED9-C5363BF0E3DE",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "BFABCB67-ED1F-439F-A5B0-B936BFA4F6A1",
+            "name": "Fotograafia alused I",
+            "eapCount": 1
+          },
+          {
+            "id": "F669AAB9-4199-4903-87B4-7421C4DE1E60",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "4DEB64C2-B612-4814-982C-400AD4792842",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          },
+          {
+            "id": "0089DDEC-66B4-47BE-9B05-8FAEC50D25D4",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          },
+          {
+            "id": "C85A1784-AA9B-4C48-B29F-A0A15D2873F4",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "69A7EA56-8AE3-4409-BDA5-4D582647F1BE",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "F2275EED-B24E-48C4-A952-EDC5FEEB296E",
+            "name": "Vektor- ja pikselgraafika",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "C8CFD697-F635-4E9E-948E-1433BDBB646A",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "1D5280E4-FEF5-43C3-8D75-11122F14E388",
+            "name": "Fotograafia väljendusvahendid. Värvus fotograafias",
+            "eapCount": 2
+          },
+          {
+            "id": "49569F7C-5201-4AF3-8ADE-60EBD6C0812F",
+            "name": "Fotograafia väljendusvahendid.Fotokompositsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "45B09B8C-F72F-453D-9F81-1A989CDD1669",
+            "name": "Fototehnika ja tehnoloogia. Digitaalne fotolabor",
+            "eapCount": 2
+          },
+          {
+            "id": "EBE13B91-2F69-4F6B-B392-2508A6462F15",
+            "name": "Individuaalne praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "22B62A93-179B-449C-8872-03940839C637",
+            "name": "Fotograafia ajalugu II",
+            "eapCount": 2
+          },
+          {
+            "id": "AA042A23-87E8-483D-9E0B-DD8EC82AF9D2",
+            "name": "Fotograafia alused II",
+            "eapCount": 1
+          },
+          {
+            "id": "1A3D22D2-FF77-4154-A8AB-401A990EB1A8",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "B760F3F6-684F-4694-B6CD-78AA0796D681",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          },
+          {
+            "id": "EDC0D28C-9364-4EF5-A451-F9553497C5A6",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "6F49364D-A464-41BD-A18A-B2EFE5190526",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "EAFE8C2A-E689-429D-9A3A-2039EE7521E4",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "1C7716AD-A9DA-4B8F-9B30-B82469BC02EB",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "69AB5C4D-D8D7-4FCB-AAFB-0BCE525B41EC",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          },
+          {
+            "id": "F39F6B35-ED88-4622-9AEB-450E91ECFDD7",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "4BEDB4CE-A525-4C7E-B69E-8ED3574E8681",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "7C851200-750D-4975-A4E6-1FBDC7221450",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Värvihaldus",
+            "eapCount": 2
+          },
+          {
+            "id": "F202FA6A-2C8E-4984-828A-C53D1569CC5E",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Adobe Photoshop I",
+            "eapCount": 3
+          },
+          {
+            "id": "605BB7CE-26C3-4C54-94CC-413CACE9F475",
+            "name": "Fototehnika ja tehnoloogia. Stuudiotehnika",
+            "eapCount": 2
+          },
+          {
+            "id": "9ECD31A1-AA97-4975-9A26-4255A614BAF4",
+            "name": "Arhitektuurifotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "729D2C99-6739-427D-A34E-9E7D2AD4D046",
+            "name": "Loodusfotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "33AF2341-AC7B-44F9-BE1C-665A206DB366",
+            "name": "Interjöörifotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "20174C1B-4A50-48E8-9ADD-BD3594B0E332",
+            "name": "Erialane inglise keel",
+            "eapCount": 2
+          },
+          {
+            "id": "3ADB205A-934C-44F7-BBFC-685350242226",
+            "name": "Semiootika ja kommunikatsiooniteooria",
+            "eapCount": 2
+          },
+          {
+            "id": "A6AA74BD-F2E5-4B83-8714-92918EE888C4",
+            "name": "Fotograafia ajalugu III",
+            "eapCount": 1
+          },
+          {
+            "id": "920212EC-8D6A-4E31-9CE1-446E665421CD",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          },
+          {
+            "id": "BE45A6B3-928E-4668-9C0B-78F217E6B782",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          },
+          {
+            "id": "FB9862D8-810D-4FE3-8FF2-C9018BF67BD2",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          },
+          {
+            "id": "302E1768-9F73-4E65-A00C-D034400CA3AF",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          },
+          {
+            "id": "1DE7BE32-55E7-4A39-B9DD-9F99C5E0470C",
+            "name": "Maalimine II",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "B59881E1-5A53-4DE2-A19E-6194C9DE70C0",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "EF38C78C-6FD8-43CD-B337-65301A53BFFA",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Adobe Photoshop II",
+            "eapCount": 2
+          },
+          {
+            "id": "F6C9641A-0577-42FD-A69F-B4E05847C365",
+            "name": "Fotograafiline ruumikunst",
+            "eapCount": 2
+          },
+          {
+            "id": "789EE3CA-EE47-4C75-8CB2-A32CA2117744",
+            "name": "Erialane joonistamine",
+            "eapCount": 3
+          },
+          {
+            "id": "7BA85D5E-A69B-46F5-BD90-148B33BE7D35",
+            "name": "Stuudiofotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "6B2CA43B-E1E7-45CD-A852-8F5E8788B4D7",
+            "name": "Portree ja grupi pildistamine",
+            "eapCount": 2
+          },
+          {
+            "id": "B59A7B31-7B3B-4E0C-B032-80DE8E6B348D",
+            "name": "Fotodokumentalistika",
+            "eapCount": 2
+          },
+          {
+            "id": "72AA8B5F-E71F-4F6B-912B-D99A3AC5E33E",
+            "name": "Moefotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "611F4465-8FD2-4D96-B798-FA6F5E74C223",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 2
+          },
+          {
+            "id": "6C989382-9507-44EC-AADC-452DDA01DF68",
+            "name": "Visuaalkultuur ja visuaalsemiootika",
+            "eapCount": 2
+          },
+          {
+            "id": "4D9F14E2-7ACF-4B80-A823-72F25D5F5A82",
+            "name": "Fotograafia ajalugu IV",
+            "eapCount": 2
+          },
+          {
+            "id": "3FB6A331-17BA-482E-9790-6CFDD402F410",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "00571E69-3CED-4881-B830-4F0B6CEA9AC8",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "6B295B07-1806-49FD-969A-DDB89CAF83DB",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          },
+          {
+            "id": "A028C851-228C-44EB-AF35-8B722BB88D2D",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "203A0206-3E2D-4340-A826-72A395D9E318",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "7A18D3D2-428B-4F1E-BB99-F169A866A798",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Adobe Photoshop III",
+            "eapCount": 2
+          },
+          {
+            "id": "3D672A39-4A75-4012-96D7-229FC5F02AAD",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Adobe InDesign",
+            "eapCount": 3
+          },
+          {
+            "id": "1F5A09B3-BA3A-4DB1-B6CA-25D0CB3ACC69",
+            "name": "Fotograafiline representatsioon ja -väljendus. Fotokooslused ja -narratiiv",
+            "eapCount": 3
+          },
+          {
+            "id": "97CCFD20-FAA8-498D-B63E-89E79A34BD0D",
+            "name": "Fotograafiline representatsioon ja -väljendus. Fotograafiline morfoloogia I",
+            "eapCount": 1
+          },
+          {
+            "id": "FE566111-FB54-489E-83C7-6D818D695853",
+            "name": "Fotograafiline representatsioon ja -väljendus.Maastikufotograafia",
+            "eapCount": 3
+          },
+          {
+            "id": "C865D83F-1448-48F9-B0F4-47F3F37C1023",
+            "name": "Fotograafiline representatsioon ja -väljendus. Pilt ja tekst fotograafias",
+            "eapCount": 3
+          },
+          {
+            "id": "AED5F19A-C85C-4600-81F0-96246480A445",
+            "name": "Kunstiteooriad ja -kriitika I",
+            "eapCount": 2
+          },
+          {
+            "id": "8A1C1EC5-A3C0-4E6A-AB5F-8DEC9482A9C2",
+            "name": "Esseistika",
+            "eapCount": 3
+          },
+          {
+            "id": "B4266028-5874-43D6-973B-FCC29EFB1FDB",
+            "name": "Sotsioloogia",
+            "eapCount": 2
+          },
+          {
+            "id": "F6D567AC-A7CD-4AFC-81E0-E1D087AC361E",
+            "name": "Visuaalkultuur ja visuaalsemiootika",
+            "eapCount": 1
+          },
+          {
+            "id": "7E572AC8-3A7E-4D21-AF51-CA5EF83AE7F1",
+            "name": "Kunstipedagoogika*",
+            "eapCount": 3
+          },
+          {
+            "id": "4BECF7BC-1589-4D29-AFEE-7A10BD0D91AC",
+            "name": "Ettevõtlus 21.sajandi majanduses*",
+            "eapCount": 3
+          },
+          {
+            "id": "70476D05-709A-4567-84C9-A01250100FDB",
+            "name": "Interdistsiplinaarne kunst*",
+            "eapCount": 3
+          },
+          {
+            "id": "6A08EEB6-3870-492C-B1A7-BA98362FC239",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "787A24EC-0ECB-417B-B2FE-D7F44AF971DF",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "3033327A-F79C-4222-AF78-521319E06210",
+            "name": "Fotograafiline representatsioon ja -väljendus. Portree ja grupi pildistamine",
+            "eapCount": 3
+          },
+          {
+            "id": "D45AE472-4B65-48AE-930B-10AB580D2DAE",
+            "name": "Fotograafiline representatsioon ja -väljendus. Fotograafia sotsiaalmeedias",
+            "eapCount": 1
+          },
+          {
+            "id": "3F2DEF5F-996E-486D-8E3F-3C5CBD431317",
+            "name": "Fotograafiline representatsioon ja -väljendus. Fotograafiline morfoloogia II",
+            "eapCount": 2
+          },
+          {
+            "id": "F35C640B-DDF6-474D-AED6-91FD206BE731",
+            "name": "Fotograafiline representatsioon ja -väljendus. Kehaline identiteet",
+            "eapCount": 3
+          },
+          {
+            "id": "86ABBE3B-41C3-4019-B3E1-5B3B89077655",
+            "name": "Fotograafiline representatsioon ja -väljendus. Lavastusfoto",
+            "eapCount": 2
+          },
+          {
+            "id": "6BBE90BD-6C35-4152-89A1-884B092969A8",
+            "name": "Fotograafiline representatsioon ja -väljendus. Riietumise identiteet",
+            "eapCount": 2
+          },
+          {
+            "id": "97C7BD74-647C-41D6-A32B-14BFD1FB5D16",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 10
+          },
+          {
+            "id": "163252B3-02B4-4588-9086-6AC6B4F48CEA",
+            "name": "Kunstiteooriad ja -kriitika II",
+            "eapCount": 2
+          },
+          {
+            "id": "2F8C691D-E555-4CE8-B7AB-3FAE9FFB3B0E",
+            "name": "Kinematograafia ajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "AFA65428-1D35-434B-9B90-21FEE9F00A1F",
+            "name": "Valikplokk pedagoogika II*",
+            "eapCount": 3
+          },
+          {
+            "id": "88DE2340-001C-4D08-A848-2DD404128D8E",
+            "name": "Valikplokk Kaasaegne kunst II*",
+            "eapCount": 3
+          },
+          {
+            "id": "5D7F4FED-FE1B-4477-BF63-BAA1DC04BAC9",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "DE1BA0B8-7C18-4908-8023-DDD730D0BBE5",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "5F61FAD8-A71D-4705-9A44-6FFD51ABE760",
+            "name": "Operaatorimeisterlikkus",
+            "eapCount": 2
+          },
+          {
+            "id": "9325B17E-C92B-4E44-B3CB-EFCC68B3CE3B",
+            "name": "Digitaalne videomontaaz",
+            "eapCount": 2
+          },
+          {
+            "id": "E39470C9-B07C-4174-AB38-37C25FADFC9C",
+            "name": "Filmirežii alused",
+            "eapCount": 2
+          },
+          {
+            "id": "F1706E88-0ABB-4F2B-BAA1-5DDDFBEE467F",
+            "name": "Filmiprojekt",
+            "eapCount": 3
+          },
+          {
+            "id": "14515613-BBAE-4BF4-AEBA-02ED2FBE8A57",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Multimeedia rakendused I",
+            "eapCount": 1
+          },
+          {
+            "id": "01C698D6-69F5-4459-AB7E-059C1DBAD4A4",
+            "name": "Eksperimentaalne loominguline fotoprojekt I",
+            "eapCount": 3
+          },
+          {
+            "id": "377B2A66-A46B-41F0-806C-E188BF8C54A5",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "BBBB1587-9F14-4BBB-B46E-4762530E89AD",
+            "name": "Praktika töökeskkonnas III",
+            "eapCount": 3
+          },
+          {
+            "id": "7B63F60A-476E-4D20-B8E3-CE6062CA93B2",
+            "name": "Fotograafia teooriad ja -kriitika",
+            "eapCount": 4
+          },
+          {
+            "id": "83C669A1-3FAF-4035-8B50-84BA78A1672B",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "DD05825F-E4F5-4C18-B699-CE027918F23D",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "DDAD4454-649A-4CB1-9A1D-464F49DA0B4B",
+            "name": "Arvutigraafika ja digitaalne fototöötlus. Multimeedia rakendused II",
+            "eapCount": 2
+          },
+          {
+            "id": "75C664F9-BB9A-4EED-8276-7D0627BB7BA9",
+            "name": "Eksperimentaalne loominguline fotoprojekt II",
+            "eapCount": 6
+          },
+          {
+            "id": "039641A6-BD6E-4BF3-BB86-24D56A6955D4",
+            "name": "Portfoolioõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "2EBE13D0-6425-425E-BFEA-11065A8C2ADD",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "FC22CCBA-859E-4160-A712-BEA198E97649",
+            "name": "Lõputöö praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "7251B343-2B4F-40BF-BA95-348C0DFDB71E",
+            "name": "Projektiõpe",
+            "eapCount": 1
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Mõistab süsteemselt fotograafia ja visuaalsete kunstide arengusuundumusi, funktsioone ja toimimise viise ühiskonnas",
+      "Mõistab kultuuri kui terviku toime- ja rakendusloogikaid sootsiumis",
+      "On võimeline tegelema fotograafia ja selle erinevate rakendusvormidega professionaalses praktikas",
+      "On võimeline genereerima loomingulisi ideid uuenduslike tulemuste saavutamiseks",
+      "Oskab valikuliselt koguda erialast teavet, seda kriitiliselt analüüsida ja tulemuslikult rakendada",
+      "Teab töövõtteid ja -vahendeid ja oskab valida sobivaid erialaste ülesannete lahendamiseks",
+      "On algatus-, organiseerimis- ja planeerimisvõimeline, hea suhtleja ning ettevõtlik, tegutsedes nii üksi kui ka meeskonnas",
+      "Mõistab ja juhib kunstniku ja tellija vahelist suhtlusprotsessi",
+      "Oskab end väljendada nii suuliselt kui ka kirjalikult eesti keeles ja vähemalt ühes võõrkeeles",
+      "On aktiivse eluhoiakuga ja suhtub sallivalt sotsiaalsetesse eripäradesse",
+      "On kriitiline, tundlik ja analüüsiv nii enese kui ka ühiskonna suhtes ning eetiliselt valmis erialaste vahenditega sekkuma",
+      "On pädev tegutsema nii oma ala spetsialisti kui ka ettevõtjana",
+      "On valmis loovaks ja pidevaks enesetäiendamiseks nii teoorias kui ka praktikas."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "FF8A235C-D88C-4A7B-A1A0-BF2E6BAC4E89",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "1487D7F4-6401-44A3-B320-D9D329E594C8",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Fotograafia",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "4432073E-05AC-4AA5-A421-0D39ACC15993",
+    "description": [
+      "Pallase maali ja restaureerimise õppekava tugevus on terviklikkus. Õppekava vastutav õppejõud on osakonnajuhataja Kaspar Tamsalu. Õppekava võimaldab spetsialiseerumist kahel suunal: maalikunst ja maalingute restaureerimine. Valik tuleb teha enne õppima asumist.",
+      "KUNSTI SUUND:",
+      "• Kunsti suunal on Pallase maaliosakonnas õppetöö keskmes maalikunst rõhuasetusega sõnal “maal”. Meil peetakse lugu maalikunsti traditsioonidest ja kunstisuuna läbinud üliõpilane saab põhjapanevad teadmised ajaloolistest tehnikatest ja töövõtetest. Oluline fookus on materjali ja natuuriga töötamisel, palju kasutatakse elavat modelli. Seome elementaarse tehnilise võimekuse ning nüüdiskunsti ambitsioonikuse analüütilise ja kriitilise meelega. Õppekava läbinud tudeng valdab nii tahvelmaali kui oskab luua monumentaalseid teoseid interjööri ja linnaruumi. Õppesuuna juht on osakonnajuhataja Kaspar Tamsalu.",
+      "KONSERVEERIMISE/RESTAUREERIMISE SUUND:",
+      "• Konserveerimise/restaureerimise suuna fookuses on seina- ja laemaalingute konserveerimine ja restaureerimine ning ajalooliste interjööride stiilitundega käsitlemine. Rakendusliku kõrgkoolina võimaldab Pallase maalingute restaureerimise suund häid praktilisi töökogemusi reaalsetel objektidel mitmel pool Eestis. Osakonna hästi varustatud laboratoorium tagab valmisoleku uurimistööks. Suunamooduli läbinud üliõpilane saab koos bakalaureuse diplomiga ka konservaatori tase 6 esmase kutse. Õppesuuna vastutavaks õppejõuks on professor Heli Tuksam.",
+      "Kunsti ja konserveerimise/restaureerimise suunamooduleid liidavad tervikuks ühised praktilised ja teoreetilised baasained ning kahel esimesel õppeaastal õpitakse üksikute eranditega sama õppekava alusel. Stuudiomaal, joonistamine, tänapäeval unikaalsed fresko-, sgrafiito-, mosaiigi- ja vitraažitehnikad, marmoreerimine, aaderdamine ja ornamentika kuuluvad võrdses mahus mõlema suuna õppekavasse. Esimesel kahe aastal sõidetakse maalipraktikale kaunitesse Eestimaa paikadesse, kus üliõpilastel on võimalik saada maik suhu rikkast Eesti maastikumaali traditsioonist.",
+      "Oleme loonud töökeskkonna, mis on inspireeriv ja üliõpilasi kaasav. Õppetöös on olulisel kohal dialoog: arutelud juhendajatega ning isekeskis. Kord kuus toimub osakonnas nn Pallase Arvamusfestival, kus arutletakse osakonda ja õppetööd puudutavate küsimuste üle.",
+      "Osakonnal on rohkelt pikaajalisi kontakte Euroopa erinevate kunstikõrgkoolidega, kus meie tudengid käivad end aktiivselt Erasmus+ programmi raames täiendamas."
+    ],
+    "eap": 240,
+    "spots": 12,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/maaliosakond/",
+    "personnel": [
+      {
+        "email": "margus.meinart@pallasart.ee",
+        "id": "FDF989D1-772F-4592-B317-C32475399200",
+        "title": "Osakonna juhataja",
+        "phone": "+3727309818",
+        "name": "Margus Meinart"
+      },
+      {
+        "email": "pille.johanson@pallasart.ee",
+        "id": "D367B830-7788-4CEF-BED1-2369B012981F",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727309818",
+        "name": "Pille Johanson"
+      },
+      {
+        "email": "indrek.aavik@pallasart.ee",
+        "id": "524A3624-F7C7-40D2-8C66-AB95F06EFEEC",
+        "title": "Meister, lektor",
+        "phone": "+3727309818",
+        "name": "Indrek Aavik"
+      },
+      {
+        "email": "heli.tuksam@pallasart.ee",
+        "id": "CF1A7A69-FAA2-4CF7-B4C0-9C5867F8941D",
+        "title": "Professor",
+        "name": "Heli Tuksam"
+      },
+      {
+        "email": "sirje.petersen@pallasart.ee",
+        "id": "00D9999C-DECB-4DF9-A632-F149B59A3298",
+        "title": "Kaasprofessor",
+        "name": "Sirje Petersen"
+      },
+      {
+        "email": "tuuli.puhvel@pallasart.ee",
+        "id": "A56FAB42-A065-4E3E-B701-7EB1B832A924",
+        "title": "Lektor",
+        "name": "Tuuli Puhvel"
+      },
+      {
+        "id": "0DBCAC9F-5832-4238-9AA1-569B79052AEE",
+        "name": "Madis Liplap",
+        "title": "Lektor"
+      },
+      {
+        "id": "C5F2AD5C-1B04-43D2-BD06-5CCF2D00E9CF",
+        "name": "Piret Veski",
+        "title": "Lektor"
+      },
+      {
+        "id": "9B8F6A70-C124-43B3-8E95-F652EAFD01A6",
+        "name": "Katrin Maask",
+        "title": "Lektor"
+      },
+      {
+        "id": "6A53E429-67BD-4027-893D-CAC54AACAE55",
+        "name": "Veiko Klemmer",
+        "title": "Lektor"
+      },
+      {
+        "id": "AE037D2D-56DA-4B7B-9B48-5A98698CFED8",
+        "name": "Joanna Hoffmann",
+        "title": "Lektor"
+      },
+      {
+        "id": "3E625B4A-E512-4F32-8DBB-360EB9C2D175",
+        "name": "Kadri Toom",
+        "title": "Lektor"
+      },
+      {
+        "id": "EE7C4881-60AC-4673-8B7D-698BC65D3B0B",
+        "name": "Ardo Sägi",
+        "title": "Lektor"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "7FB4C51F-30C4-4506-B4E4-84826C348948",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "88B61F5D-AB18-404B-9EF4-B7E6407B12AE",
+            "name": "Disaini alused",
+            "eapCount": 2
+          },
+          {
+            "id": "29F24556-1167-4943-B93F-737330147310",
+            "name": "Konserveerimise ja restaureerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "62F734E5-AB95-459D-8BF8-3F183242C189",
+            "name": "Monumentaaltehnikad I",
+            "eapCount": 3
+          },
+          {
+            "id": "A546020C-4FC4-422A-810E-AD0062EBB6D9",
+            "name": "Kompositsioon I",
+            "eapCount": 2
+          },
+          {
+            "id": "B4501467-01BD-4AA2-9693-7502B7F5ED70",
+            "name": "Stuudiomaal I",
+            "eapCount": 3
+          },
+          {
+            "id": "9170BA03-54E2-4C7B-87F8-82ED47791D0B",
+            "name": "Materjaliõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "8E484B9B-E2FC-4FC5-BC26-A4C12B7B21A6",
+            "name": "Esitlustehnikad I",
+            "eapCount": 2
+          },
+          {
+            "id": "A46FA0F8-B0D7-4A7C-9F06-EAC43D6740E3",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "3CA7CC93-28B0-4CB5-81D7-195CCEF9BB1B",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "06B9BE26-9E29-4ABD-858F-B9D65123594D",
+            "name": "Fotograafia alused",
+            "eapCount": 2
+          },
+          {
+            "id": "76E95219-825E-4865-A784-1E7138765590",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "D962D3FB-AA12-4A94-AC58-51D908FB658E",
+            "name": "Vektor- ja pikselgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "FA44A6CE-B580-471F-9CC8-E3181E46A710",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "F5BE9ACA-23A7-465D-B915-17E0FBFC2B56",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          },
+          {
+            "id": "FA1CD7BE-2817-40AD-BE33-888ABA487B6C",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "9AE3B33E-30FC-467E-941B-BED025B25DA3",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "58049236-7E53-4B0D-93F7-16BEE21D7AA1",
+            "name": "Toote/projekti esitlus",
+            "eapCount": 2
+          },
+          {
+            "id": "8686F156-6AE3-46CC-B75A-99B1F587BFDF",
+            "name": "Konserveerimiskeemia",
+            "eapCount": 2
+          },
+          {
+            "id": "4AA43F9F-1AF4-4020-8DD4-C4B02F3A6D93",
+            "name": "Interjööri dekoreerimisvõtted",
+            "eapCount": 2
+          },
+          {
+            "id": "2D888010-657F-44AA-BCA6-443AFA55855B",
+            "name": "Erialane inglise keel II",
+            "eapCount": 1
+          },
+          {
+            "id": "BBF8C6AA-2D83-41D0-95A0-29EBD3893922",
+            "name": "Skulptuur II",
+            "eapCount": 2
+          },
+          {
+            "id": "081F5FDC-C7B7-44A1-94D6-22B4AD2D57DB",
+            "name": "Esitlustehnikad II",
+            "eapCount": 1
+          },
+          {
+            "id": "F98007FC-57A1-46C2-8200-0BAA71D3DEF0",
+            "name": "Arvutigraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "A88E9115-090C-4DD8-8373-A4E658230AE1",
+            "name": "Maalipraktika. Akvarell",
+            "eapCount": 2
+          },
+          {
+            "id": "C6EB0E58-4AFB-4477-882E-7A55BA11F6D8",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "07E505A5-27A3-4D9A-9121-C10D75192701",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "3F343FD4-0501-4051-88A4-C519FCC0E34E",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "176FC9F2-2311-423E-817E-5CB16B667209",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "B6F3A934-8823-43CA-890A-1054C3DE7408",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          },
+          {
+            "id": "DC81E360-6D76-4197-8D53-FD2F1AD3E035",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          },
+          {
+            "id": "E82DF0A8-AC44-4EFB-AB0D-F49F70134EAF",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "56874397-7B72-478C-B3C3-AF5FF8151E27",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "06CB866F-74AB-42D4-8C1D-831BEF9D5426",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "48DD6200-61F1-49D0-8425-AE3D0641CD71",
+            "name": "Semiootika ja kommunikatsiooniteooria",
+            "eapCount": 2
+          },
+          {
+            "id": "DC8B9ED1-6B09-4C87-B14F-A8566D79A0C7",
+            "name": "Ruum ja keskkond",
+            "eapCount": 2
+          },
+          {
+            "id": "596C45D7-5ED0-4DFD-A81D-38ADDF2740B6",
+            "name": "Dekoratiivtehnikad",
+            "eapCount": 3
+          },
+          {
+            "id": "FC39554C-1BBC-4EFD-8E6C-B4AFDFB85DC4",
+            "name": "Interjööri ajalugu",
+            "eapCount": 4
+          },
+          {
+            "id": "BF28B59D-79CA-4052-88F0-6702476CCBCA",
+            "name": "Dekoratiivtehnikad",
+            "eapCount": 3
+          },
+          {
+            "id": "71E2DB6D-8D6C-4659-8437-C2AC79019712",
+            "name": "Konserveerimisbioloogia",
+            "eapCount": 2
+          },
+          {
+            "id": "BC7F5A77-B65A-4E90-B246-8771C9859B7C",
+            "name": "Interjööri ajalugu",
+            "eapCount": 4
+          },
+          {
+            "id": "DC832F59-1C2C-4409-9F63-2C3F9F7842CE",
+            "name": "Dokumenteerimine. Objektide dokumenteerimise, säilitamise ja eksponeerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "1BE22203-EB24-4140-9AEB-5EB4A9D54911",
+            "name": "Esitlustehnikad III",
+            "eapCount": 3
+          },
+          {
+            "id": "2A69B3E2-31A2-496A-BB29-909F69194908",
+            "name": "Kompositsioon II",
+            "eapCount": 3
+          },
+          {
+            "id": "9455DC41-3DAB-46C6-B819-ED8727A25096",
+            "name": "Erialane inglise keel III",
+            "eapCount": 1
+          },
+          {
+            "id": "A903D839-71CC-4BF9-9FD0-692D346BD7CF",
+            "name": "Erialapraktika. Restaureerimisprojekt I",
+            "eapCount": 2
+          },
+          {
+            "id": "8370A049-47CF-41D6-8D55-54F522E587AD",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          },
+          {
+            "id": "DD039743-D369-4A9E-AA42-948C976E4F3F",
+            "name": "Maalimine II",
+            "eapCount": 3
+          },
+          {
+            "id": "3545E70F-9124-42C6-B91A-643D228444CB",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          },
+          {
+            "id": "73DC24E9-9C8D-46E0-96C8-19F876B8D31C",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          },
+          {
+            "id": "EDE9F262-F675-4ADC-AEBF-BA01CEAA7F45",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "287ECEA3-C696-4984-8985-8787CB850813",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "260E7601-200E-41B0-BA65-743467494BF0",
+            "name": "Visuaalkultuur ja visuaalsemiootika",
+            "eapCount": 2
+          },
+          {
+            "id": "2858A86D-DDC7-481B-A8DD-67D40C2CB4D6",
+            "name": "Materjalide identifitseerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "F72C6B75-F723-419B-9AAF-1DA5FB6CCC82",
+            "name": "Monumentaaltehnikad II",
+            "eapCount": 3
+          },
+          {
+            "id": "F46252A5-97DB-418F-9CCA-5299D2DA07D1",
+            "name": "Stuudiomaal IV",
+            "eapCount": 3
+          },
+          {
+            "id": "A7DA4986-3992-4E8F-84B6-5320911C7F3A",
+            "name": "Erialane ajalugu",
+            "eapCount": 1
+          },
+          {
+            "id": "2CC4049F-62B2-4389-A932-DE52A2CFE0AF",
+            "name": "Esitlustehnikad IV",
+            "eapCount": 2
+          },
+          {
+            "id": "670E0EBB-B7F5-43B8-9100-5A97381A23DC",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 5
+          },
+          {
+            "id": "BCAE611C-42DC-4A95-B741-C68A1E874BB0",
+            "name": "Maalipraktika. Akrüül",
+            "eapCount": 2
+          },
+          {
+            "id": "E31EC4AD-F558-4A3A-952E-DD55797AA8EA",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "B665099A-6906-4E69-922D-B94217102EF1",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 5
+          },
+          {
+            "id": "86B619BC-4718-4647-8E30-52C7ADA1B51A",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          },
+          {
+            "id": "8E050F77-B8E5-407D-854C-4005AB8EDD07",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "19272023-067A-4F2D-859A-3FAD769BA6A3",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "CF4FE97D-9FC0-4CBE-A4A6-C0176C4DF85E",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "1D1E2B43-FBD6-4DC8-AD19-012E8D1EA2F0",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "E9013022-AFCF-4829-B2AE-5167D9122BD7",
+            "name": "Projekti esitlusgraafika I",
+            "eapCount": 2
+          },
+          {
+            "id": "0507A387-D465-4A5E-A66E-3BC5A10F2539",
+            "name": "Kunstiteooriad ja -kriitika I",
+            "eapCount": 2
+          },
+          {
+            "id": "84D8E670-BBED-436C-96C7-78EB5E854133",
+            "name": "Kunst ja ruum I",
+            "eapCount": 5
+          },
+          {
+            "id": "8F3B78C3-B76A-479F-A7E3-AF49912B3CC7",
+            "name": "Eksperimentaalgraafika I",
+            "eapCount": 3
+          },
+          {
+            "id": "9BDE8F63-92C2-4001-88B7-516027AFF9B5",
+            "name": "Meistriklass I",
+            "eapCount": 1
+          },
+          {
+            "id": "B4DF0BAD-7BAE-4546-9E27-94A3198D0C90",
+            "name": "Projekti esitlusgraafika I",
+            "eapCount": 2
+          },
+          {
+            "id": "7D35BFD3-08EF-4713-AF93-24DB09E412B9",
+            "name": "Seinamaalingute konserveerimine I",
+            "eapCount": 5
+          },
+          {
+            "id": "2FB2B8B7-9C9F-4FC2-A39E-67B2CA3A42A3",
+            "name": "Ajalooline interjöör I",
+            "eapCount": 2
+          },
+          {
+            "id": "1AE97198-D343-4E26-B9E8-ED7F6227EF42",
+            "name": "Tapeedi konserveerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "7404DC40-44F8-4464-8547-789828D3CE43",
+            "name": "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika",
+            "eapCount": 2
+          },
+          {
+            "id": "65D7DC42-591F-46F1-A389-F60769F7ADC3",
+            "name": "Visandid I",
+            "eapCount": 1
+          },
+          {
+            "id": "D5966FFE-E977-4622-9BED-40D5EEB3023E",
+            "name": "Stuudiomaal V",
+            "eapCount": 3
+          },
+          {
+            "id": "B4B6C91D-9C99-4E97-A5DC-4F80A4C85910",
+            "name": "Joonistamine V",
+            "eapCount": 3
+          },
+          {
+            "id": "90DE2226-5F90-40F1-9AA2-4B26EAD6FD43",
+            "name": "Koopiamaal I",
+            "eapCount": 3
+          },
+          {
+            "id": "5523FDE9-1B47-4839-B421-9835F77C7A25",
+            "name": "Erialapraktika. Monumentaalkunst I",
+            "eapCount": 2
+          },
+          {
+            "id": "EA8F88C7-AB5D-4961-BF80-E584E81185C3",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          },
+          {
+            "id": "8082D19B-C06D-4A61-A66E-61D0321C2DBD",
+            "name": "Kunstipedagoogika",
+            "eapCount": 3
+          },
+          {
+            "id": "F299CBBC-3B3F-4D34-8F56-BD84DA8D5A8A",
+            "name": "Ettevõtlus 21.sajandi majanduses",
+            "eapCount": 3
+          },
+          {
+            "id": "5F8ECC6D-21B9-42AA-AA8D-3640178183F1",
+            "name": "Interdistsiplinaarne kunst",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "65EDF47C-0A5F-426E-9A5C-3F5FA5C0613E",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "D3D2475D-04D3-4FDA-901B-C33F39F3B72B",
+            "name": "Portfoolio. Interjöörifoto",
+            "eapCount": 3
+          },
+          {
+            "id": "651DC4B8-0CDC-40AC-A65F-01CCF42F6995",
+            "name": "Meistriklass II",
+            "eapCount": 2
+          },
+          {
+            "id": "7975F67C-052E-4CBD-A922-BB502A92CE5B",
+            "name": "Seinaviimistlusuuringud I",
+            "eapCount": 2
+          },
+          {
+            "id": "4C3503EA-26A1-4F74-BF02-2A7F5C33E571",
+            "name": "Portfoolio. Interjöörifoto",
+            "eapCount": 3
+          },
+          {
+            "id": "CF3E1632-B1AE-4B1E-94E6-EB99C5DA1E6E",
+            "name": "Koopiamaal II",
+            "eapCount": 3
+          },
+          {
+            "id": "16E93B47-DBB8-441F-BA9D-04AC489E64FE",
+            "name": "Monumentaaltehnikad III",
+            "eapCount": 3
+          },
+          {
+            "id": "177BC79F-C24B-4325-A2EC-0C737B1601A9",
+            "name": "Joonistamine VI",
+            "eapCount": 3
+          },
+          {
+            "id": "DD3BFE5A-C08F-4EB0-AAE1-6D7D1191A5DA",
+            "name": "Stuudiomaal VI",
+            "eapCount": 3
+          },
+          {
+            "id": "6810385C-FA6D-4F6E-94FF-60CB7B1783ED",
+            "name": "Erialapraktika. Maalipraktika",
+            "eapCount": 3
+          },
+          {
+            "id": "91E04ED2-518E-48E5-89B9-E28F0AE88C2D",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 5
+          },
+          {
+            "id": "A4BA8147-CBBA-42DF-A372-6A2559570C95",
+            "name": "Projektipraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "260E2A7C-445E-4522-96B1-6EB536CD8DB7",
+            "name": "Erialapraktika. Restaureerimisprojekt II",
+            "eapCount": 3
+          },
+          {
+            "id": "35713BBA-D537-42E7-B405-BCD798224EA4",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 5
+          },
+          {
+            "id": "03C4A043-5B75-414C-ABD0-64382BF98C70",
+            "name": "Valikplokk pedagoogika II*",
+            "eapCount": 3
+          },
+          {
+            "id": "EF5A7694-C226-4367-83DA-7426F0045522",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          },
+          {
+            "id": "CBD2AD66-123F-4012-8701-8599DB056794",
+            "name": "Valikplokk Kaasaegne kunst II",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "0B6E836E-040B-4661-A05D-F9649D6B86D8",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "90AC801D-91C0-4CEB-9B19-31144804F0BE",
+            "name": "Eksperimentaalgraafika II",
+            "eapCount": 3
+          },
+          {
+            "id": "AFA238E1-892C-4956-853F-6AEA3C492290",
+            "name": "Maalikompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "54E2B447-87C8-4610-8D93-50E8E1FAD575",
+            "name": "Kunst ja ruum II",
+            "eapCount": 5
+          },
+          {
+            "id": "F73DB731-D56B-4D6F-A88B-C41D6C141012",
+            "name": "Projekti esitlusgraafika II",
+            "eapCount": 2
+          },
+          {
+            "id": "8B38759D-B8A3-47BA-BF18-682EB0BDBDF4",
+            "name": "Meistriklass III",
+            "eapCount": 1
+          },
+          {
+            "id": "9FAD0145-2B1F-4342-86C8-56F6BA83C7F9",
+            "name": "Laboratroorsed uuringud",
+            "eapCount": 2
+          },
+          {
+            "id": "0B731CA9-1CAA-4339-B92E-D93E8D555BD2",
+            "name": "Projekti esitlusgraafika II",
+            "eapCount": 2
+          },
+          {
+            "id": "B612D0D6-8F3C-4131-888F-7FA1270DBE34",
+            "name": "Tapeedi konserveerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "1CF2353E-E971-47BC-8C3B-96577D0030DF",
+            "name": "Seinamaalingute konserveerimine II",
+            "eapCount": 5
+          },
+          {
+            "id": "6CE71A3E-DDAC-4D01-9954-76F349B4C513",
+            "name": "Ajalooline interjöör II",
+            "eapCount": 2
+          },
+          {
+            "id": "256ECA8A-D4A4-4D4A-9D72-A8CDA6B23589",
+            "name": "Joonistamine VII",
+            "eapCount": 3
+          },
+          {
+            "id": "E3FA4669-EBB9-42D5-AC43-053DC7498004",
+            "name": "Stuudiomaal VII",
+            "eapCount": 3
+          },
+          {
+            "id": "0B84D71F-04D0-4F04-8BBC-C5277FB729BE",
+            "name": "Visandid II",
+            "eapCount": 1
+          },
+          {
+            "id": "129F0D7A-A520-4D04-993E-17CF770D7ECF",
+            "name": "Erialapraktika. Monumentaalkunst II",
+            "eapCount": 2
+          },
+          {
+            "id": "6FE48482-CD78-4972-B5E6-B6985283CC4E",
+            "name": "Praktika töökeskkonnas III",
+            "eapCount": 5
+          },
+          {
+            "id": "7BBDA3EF-920C-411B-9905-F713DF3904E4",
+            "name": "Erialapraktika. Restaureerimisprojekt III",
+            "eapCount": 2
+          },
+          {
+            "id": "FB51CC24-0A52-4D9F-A18C-D6AF5DCFEB17",
+            "name": "Praktika töökeskkonnas III",
+            "eapCount": 5
+          },
+          {
+            "id": "03EF77CD-46F4-487D-B5D4-DC7BB4A39257",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "B00700E5-F032-4CAE-8756-182A76D96CB0",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "AAC755B6-8DD3-4460-B093-0FF8F3B39418",
+            "name": "Meistriklass IV",
+            "eapCount": 2
+          },
+          {
+            "id": "37C7EC5D-5F7D-4658-8EDF-389808CF068B",
+            "name": "Seinaviimistlusuuringud II",
+            "eapCount": 2
+          },
+          {
+            "id": "FA30458F-08F6-4A7B-83EB-F42614B0E83E",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "92D861E1-A81C-4FBD-8AE3-C24C4ECE4B43",
+            "name": "Individuaalne praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "F2226F67-BA8D-4FCF-B991-D2288120DC26",
+            "name": "Lõputöö praktika",
+            "eapCount": 3
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Mõistab maali- ja monumentaalkunsti arengusuundumusi, toimemehhanisme ja funktsioone ühiskonnas",
+      "Mõistab kultuuri valdkonna rakendusmehhanisme",
+      "Suudab tegelda maali- ja monumentaalkunsti ja/või konserveerimise/ restaureerimisega praktilisel tasandil",
+      "On võimeline genereerima loomingulisi ideid ja julgeb katsetada, et leida uuenduslikke lahendusi",
+      "Kogub, selekteerib, analüüsib ja hindab kriitiliselt erialast teavet",
+      "Oskab erialase ülesande lahendamiseks teadlikult valida sobivaid töövõtteid, materjale ja vahendeid",
+      "Omab algatusvõimet, suhtlusoskust, ettevõtlikkust, organiseerimis- ja planeerimisvõimet ning vastutustunnet, töötades nii üksi kui ka meeskonnas",
+      "Mõistab ja rakendab kunstniku/disaineri või konservaatori/restauraatori ja kliendi vahelist suhtlusprotsessi",
+      "Oskab end väljendada suuliselt ja kirjalikult eesti keeles ja vähemalt ühes võõrkeeles",
+      "On kodanikuühiskonnas aktiivse hoiakuga, suhtub sallivalt erinevatesse kultuuridesse, hoiakutesse ja väärtushinnangutesse",
+      "On eetiliste tõekspidamiste ja kriitilise enesereflektsiooni võimega, tal on tundlik sotsiaalne närv ja kohanemisvõime, ta märkab enda ümber toimuvat ja on valmis erialaste vahenditega sellesse sekkuma",
+      "On pädev tegutsema monumentaalkunstniku/disaineri ja/või konservaatori/restauraatorina",
+      "On valmis loovaks ja pidevaks enesearenduseks teoorias ja praktikas."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "378B3354-BE43-4C7A-9435-418E2F5F89E3",
+        "term": "Keskharidust tõendav dokument"
+      },
+      {
+        "id": "D72BDB37-A1BE-47F4-B718-2FF7BB49AC90",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Maal ja restaureerimine",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "77D5A17C-F511-4BDB-A23D-E6BB91773BA6",
+    "description": [
+      "Meedia- ja reklaamidisaini õppekava tugevus on mitmekülgsus. Õppekava vastutav õppejõud on osakonnajuhataja Jaanus Eensalu. Osakonna õppekava võib jagada kaheks suuremaks plokiks: graafiline disain ja meediadisain.",
+      "GRAAFILINE DISAIN:",
+      "Graafiline disain hõlmab trükimeediat ja sellega seonduvat. Graafilise disainiga tegeletakse peamiselt esimesel kahel õppeaastal, kuid selle valdkonna teadmised on aluseks iga erialase projekti juures. Graafilise disaini alla kuuluvad õppeained nagu kompositsioon ja stilistika, trükitehnoloogiad, tüpograafia, erialane joonistamine, foto manipulatsioonid, küljendamine, pakendidisain, reklaammaterjalide tehnoloogia, korporatiiv- ja infograafika jm. Vastutavaks õppejõuks on professor Marko Kekišev.",
+      "MEEDIADISAIN:",
+      "Meediadisain hõlmab videotöötluse, veebimeedia, interaktiivse multimeedia, animatsiooni ja 3D graafikaga seotud aineid. Meediadisaini alla kuuluvad õppeained nagu videorežii, videomontaaž, video eriefektid ja animatsioon, animatsiooniteooria ja -tehnikad, 3D graafika, Flash, kasutajaliidese disain, veebidisain, helidisain, virtuaalne ruum jpm. Vastutavaks õppejõuks on professor Raivo Kelomees.",
+      "Mõlemas valdkonnas saavad tudengid teemadest nii teoreetilise ülevaate kui praktilise kogemuse. Õppekava oluliseks osaks on praktilised projektid ja koostöö reaalsete klientidega.",
+      "Osakonna üliõpilased on aktiivsed nii kohalikest kui rahvusvahelistest konkurssidest ja festivalidest osa võtmisel, kus jõuavad tihtipeale märkimisväärsete tulemusteni.",
+      "Lõputöödena valmivad graafilise disaini, audiovisuaalse ja interaktiivse meedia tooted: interaktiivsed esitlused, veebilehtede kujundused, videod, filmid, animatsioonid, raamatukujundused, terviklikud reklaamiprojektid, firmagraafika terviklahendused jne."
+    ],
+    "eap": 240,
+    "spots": 12,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/meediaosakond/",
+    "personnel": [
+      {
+        "email": "jaanus.eensalu@pallasart.ee",
+        "id": "90ABDE46-E385-4DE4-9301-538733A2A845",
+        "title": "Osakonna juhataja",
+        "phone": "+3727338992",
+        "name": "Jaanus Eensalu"
+      },
+      {
+        "email": "katrin.ojaots@pallasart.ee",
+        "id": "B242F46F-B814-444E-943E-688BD58514AD",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727338997",
+        "name": "Katrin Ojaots"
+      },
+      {
+        "email": "ardo.sagi@pallasart.ee",
+        "id": "39C70954-0CAD-4027-96DB-20B34E48C4F1",
+        "title": "Trükitehnoloogia meister",
+        "phone": "+3727338974",
+        "name": "Ardo Sägi"
+      },
+      {
+        "email": "mart.mannik@pallasart.ee",
+        "id": "82345FFF-2D3A-4C3B-A324-A6AEAE29DEA5",
+        "title": "Meister",
+        "phone": "+3727338971",
+        "name": "Mart Männik"
+      },
+      {
+        "email": "marko@siirup.eu",
+        "id": "90BE9080-890F-4C67-BEC8-A2EDDDFB0C70",
+        "title": "Professor",
+        "name": "Marko Kekišev"
+      },
+      {
+        "id": "1637CA04-E468-43C9-9A66-FE4782A7DD3B",
+        "name": "Raivo Kelomees",
+        "title": "Professor"
+      },
+      {
+        "email": "mart@font.ee",
+        "id": "55BB55E4-6A29-4E8E-8B98-6DC3C44138A3",
+        "title": "Õppejõud",
+        "name": "Mart Anderson"
+      },
+      {
+        "email": "ardo@play.ee",
+        "id": "3F727F19-7CA4-4796-B3C2-B7A9BD90D435",
+        "title": "Õppejõud",
+        "name": "Ardo Aednik"
+      },
+      {
+        "id": "134D1352-7227-4536-842E-8DD0DB6EC4CD",
+        "name": "Maiken Austin",
+        "title": "Õppejõud"
+      },
+      {
+        "email": "sveta.bogomolova@gmail.com",
+        "id": "2672D6E2-5EB8-4E7A-9DDF-E5104E2BB49F",
+        "title": "Õppejõud",
+        "name": "Svetlana Bogomolova"
+      },
+      {
+        "id": "0406D9D3-F609-4F59-9E75-73B7EC29EF47",
+        "name": "Pärt Erikson",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "6A35F035-3AD4-4F48-AAF4-2599103650CA",
+        "name": "Chris Hales",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "C5ECB73B-D416-4577-9963-B2C4297DA2F0",
+        "name": "Andrus Kannel",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "037E1D61-FC58-43BC-894C-833779F552CC",
+        "name": "Mati Kark",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "BB80F5F3-0504-489A-A3D0-D28674A2B91C",
+        "name": "Nele Erikson",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "F5FB13B0-40CC-4B30-B013-92EF10553D55",
+        "name": "Katri Rannastu",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "8C1FCCB5-0D28-45D7-9E3F-736A2881859E",
+        "name": "Maris Kaskmann",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "BDD6840E-4FFC-4D8A-925D-C1A2EBA83884",
+        "name": "Elari Kingo",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "635B4991-950F-4010-BC51-1C0DA2AB7CD6",
+        "name": "Siim Sokk",
+        "title": "Õppejõud"
+      },
+      {
+        "email": "vilho.meier@gmail.com",
+        "id": "68F84DC8-3B8B-48B3-BDD7-9EBEBC13574E",
+        "title": "Õppejõud",
+        "name": "Vilho Meier"
+      },
+      {
+        "id": "204755D6-ABF3-4621-B689-7C5C11BEACD9",
+        "name": "Silver Rannak",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "6F2357D5-1F45-4A2F-8079-BFDF9B5787FC",
+        "name": "Timo Kähara",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "2672E29E-4E00-4C71-AEF8-21D81A704D64",
+        "name": "Alar Suija",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "BD3A2F28-0EC9-4A01-A824-8A77D87D7D12",
+        "name": "Ave Taavet",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "278C3FDA-8B9C-4947-91C5-8C4C095BF981",
+        "name": "Lauri Tikerpe",
+        "title": "Õppejõud"
+      },
+      {
+        "email": "veiko.vaatmann@tlu.ee",
+        "id": "11502F92-3425-406E-AD27-2EFDF8924B4C",
+        "title": "Õppejõud",
+        "name": "Veiko Vaatmann"
+      },
+      {
+        "id": "65CEE07E-D2AC-4700-9574-5DF024B77EB7",
+        "name": "Stina Leek",
+        "title": "Õppejõud"
+      },
+      {
+        "email": "rasmus.eist@pallasart.ee",
+        "id": "0BF68861-92AE-4074-BE61-54020E078BFD",
+        "title": "Õppejõud",
+        "name": "Rasmus Eist"
+      },
+      {
+        "id": "5839C20B-EEB7-4B09-B2E3-FD9DD21F45F7",
+        "name": "Katrin Kelpman",
+        "title": "Õppejõud"
+      },
+      {
+        "id": "B0B78398-331D-44EF-90C0-863AD191579E",
+        "name": "Emma Eensalu",
+        "title": "Õppejõud"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "19F52B46-6F43-49AA-BDB2-4405D42E0FC0",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "7380BB9B-1365-4AF6-8D5D-F4FF5E97A556",
+            "name": "Vektorgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "3902A37D-CC1C-466D-890D-1368B46884F9",
+            "name": "Loovmõtlemine",
+            "eapCount": 2
+          },
+          {
+            "id": "C570444C-C465-4DED-AB43-441A3D185A9C",
+            "name": "Trükitehnoloogia.Fleksograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "BF32CAF9-14C3-43EA-BD66-C9F176001868",
+            "name": "Trükitehnoloogia.Serigraafia",
+            "eapCount": 2
+          },
+          {
+            "id": "819F211C-F1EA-4DAA-A83A-142B57D9DF61",
+            "name": "Digitaalse tehnika aluskursus",
+            "eapCount": 2
+          },
+          {
+            "id": "C0BF7890-C34D-4036-9A0A-A8D29C6E1567",
+            "name": "Stilistika",
+            "eapCount": 2
+          },
+          {
+            "id": "8BFD99A9-CB87-490E-AB0B-EF7F0159EF2B",
+            "name": "Disaini alused",
+            "eapCount": 2
+          },
+          {
+            "id": "4FCB064B-BF85-4157-B758-E45E483117C6",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          },
+          {
+            "id": "6721EA97-0005-4D9C-B286-B95D01384401",
+            "name": "Fotograafia alused",
+            "eapCount": 2
+          },
+          {
+            "id": "8D8BA79F-016F-47DE-8757-FB3175D54B3F",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "589B8C84-1D16-47A0-AB67-6318EF6DB61F",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          },
+          {
+            "id": "50E242F8-1464-49AA-9A14-C1A864A15E99",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "447AFC78-90DA-40AE-B2AD-E585C6BF367E",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "582A4047-C47C-4EE0-83EC-A473DCC91810",
+            "name": "Pikselgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "572E2450-DB65-40CB-81F4-ACB0300A9634",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "7C377458-B963-455C-B6C4-7EAA31EEB98F",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "1FE7C9FE-8F4A-4E35-8F6F-74CC0BF9F959",
+            "name": "Erialane kompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "83B1EF49-D3B0-4705-B42C-477AE9AED8EE",
+            "name": "Trükitehnoloogia. Kõrgtrükk",
+            "eapCount": 2
+          },
+          {
+            "id": "4723EC4B-D02D-4494-8EBA-4123C2E22E03",
+            "name": "Digitaalse tehnika põhikursus",
+            "eapCount": 2
+          },
+          {
+            "id": "753A7A09-A4D1-43D0-ADF1-529BCB4E44EF",
+            "name": "Toote/projekti esitlus",
+            "eapCount": 2
+          },
+          {
+            "id": "C6F8B1C7-3D4E-4034-BCBA-3EFEF8726E59",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 2
+          },
+          {
+            "id": "C5A6FC3D-7B33-4658-8C8D-64F7C4898A9F",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          },
+          {
+            "id": "7A7A968E-E369-40E2-BA34-57933335C113",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          },
+          {
+            "id": "D5A1A2DA-5DF9-4ADD-9D9A-536656121849",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "BA8374BF-F1AA-4E14-A5AF-E7D9B76E7D00",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "E7764A7E-F05A-44D8-8AF1-68D1A072A9E2",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "E1D9D78D-FAD8-4C62-A08E-5E35A8CE5968",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "1C17CEA1-58E0-4879-94EB-BAF83A60DD99",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          },
+          {
+            "id": "7FE8AB29-7207-4E99-9E06-157A5A326B02",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "2F749B70-603A-4D85-BFBC-205C68E6683F",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "E6157BD6-608C-48FC-BC00-748BFC687B91",
+            "name": "Trükitehnoloogia.Ofort",
+            "eapCount": 2
+          },
+          {
+            "id": "E4949F61-01A6-46E2-B23A-6CD09CD14ED0",
+            "name": "Erialane joonistamine.Illustratsioon.Koomiks",
+            "eapCount": 3
+          },
+          {
+            "id": "97D4DE77-D652-4ABE-9FAA-72137480FD6F",
+            "name": "Digimaal",
+            "eapCount": 3
+          },
+          {
+            "id": "F2C313E3-FC29-44FF-90CB-D0A5354021C9",
+            "name": "Semiootika ja kommunikatsiooniteooria",
+            "eapCount": 2
+          },
+          {
+            "id": "2F57B400-6C98-4D63-997B-E6FCC544F551",
+            "name": "Helidisain. Helidisaini rakendused",
+            "eapCount": 2
+          },
+          {
+            "id": "056DCA27-88C4-4A7D-845F-63ED73F56D52",
+            "name": "Animatsioon. Animatsiooni tehnikad",
+            "eapCount": 2
+          },
+          {
+            "id": "53231178-0409-4F72-A5B9-98440B87E1E2",
+            "name": "Animatsioon. Animatsiooni printsiibid ja teooria",
+            "eapCount": 2
+          },
+          {
+            "id": "CEDE1301-AA07-4669-BF32-E8E528500554",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          },
+          {
+            "id": "1DC3066A-2EC3-4BA0-9CA5-1B796A8B8682",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          },
+          {
+            "id": "AE8D9CA0-6FAD-4009-9816-2DB15C6249C4",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          },
+          {
+            "id": "CEF91F34-06D2-4B36-A1F0-A202FFFFCD9F",
+            "name": "Maalimine II",
+            "eapCount": 3
+          },
+          {
+            "id": "CA7AFA44-8802-4D50-AA62-68C703652822",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "3447E2F2-DD5C-41CA-860D-630D099BAAAA",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "38B7ABBB-76A7-4597-9012-970BF29175A7",
+            "name": "Trükitehnoloogia. Litograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "F2595032-F72A-4C2C-941F-797A65E36000",
+            "name": "Küljendamine",
+            "eapCount": 3
+          },
+          {
+            "id": "41BB3296-70E9-4C9A-A424-956E2DC8155B",
+            "name": "Tüpograafia algkursus",
+            "eapCount": 2
+          },
+          {
+            "id": "D46A839B-236D-4758-852E-A18CB9221790",
+            "name": "Visuaalkultuur ja visuaalsemiootika",
+            "eapCount": 2
+          },
+          {
+            "id": "CC2C544A-F9CD-43F0-B9A8-59CBA1C9ED97",
+            "name": "Liikuv graafika",
+            "eapCount": 2
+          },
+          {
+            "id": "92CF0CB2-41FE-4691-8CC4-46FE4D2B2D78",
+            "name": "Praktiline projekt I",
+            "eapCount": 2
+          },
+          {
+            "id": "AB8A9947-CE76-4DE2-8714-2D5BFC6441D0",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 2
+          },
+          {
+            "id": "613E817E-D180-44AE-BF0A-758289AB3B07",
+            "name": "Ideekirjutamine",
+            "eapCount": 2
+          },
+          {
+            "id": "EEE7C7FB-7D16-4067-8BC7-F30676C1D631",
+            "name": "Erialane inglise keel",
+            "eapCount": 2
+          },
+          {
+            "id": "89EC3D65-BA97-43C4-B33E-6510E1FA3AEA",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "5ACAEDE7-C94F-41B3-BDC0-481DC1E88C08",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "BF5CCF55-6DEF-4991-A6FF-090A0AF853CF",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          },
+          {
+            "id": "21E78646-DA2B-4CA6-BC2B-B66D77DA8D6D",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "C90E4680-EA4C-418A-B8B2-2FD79FFA5360",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "2C8A753D-3979-4E53-881A-860A7D7B1163",
+            "name": "Trükitehnoloogia.Ofsettrükk",
+            "eapCount": 3
+          },
+          {
+            "id": "D9A6F3D1-CDC9-4E7D-AC76-A698D66038D5",
+            "name": "Erialane fotograafia. Tootefoto",
+            "eapCount": 2
+          },
+          {
+            "id": "05CA1E19-02D7-4B25-80DF-E4CB69F5A336",
+            "name": "Kasutajaliidese disain",
+            "eapCount": 2
+          },
+          {
+            "id": "505421FE-2D84-4D98-9BCD-01EEC56EF06B",
+            "name": "Kunstiteooriad ja -kriitika I",
+            "eapCount": 2
+          },
+          {
+            "id": "7ED00FB9-45E6-44B7-A819-84B08AEB0607",
+            "name": "Turundus",
+            "eapCount": 2
+          },
+          {
+            "id": "4FB45ECF-E894-4FE0-AFD0-54D47073CD6B",
+            "name": "Video.Videomontaaž",
+            "eapCount": 2
+          },
+          {
+            "id": "B4F0ADD1-21EF-45BC-ADD6-EC9E7568AC58",
+            "name": "Animatsioon. Animatsiooni praktiline projekt",
+            "eapCount": 2
+          },
+          {
+            "id": "D386E4BB-CBEB-41BE-AC30-DE96CED4F239",
+            "name": "3D-graafika.Modelleerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "BF6EBB6B-13EC-4965-A5A1-BA51A2E4C81F",
+            "name": "Video.Videorežii algõpe",
+            "eapCount": 2
+          },
+          {
+            "id": "4EBCB48B-FA29-4DC2-8CCF-847B468884D2",
+            "name": "Reklaamiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "BF024E13-97B8-4D41-90FB-39A70C1E466F",
+            "name": "Stsenaristika",
+            "eapCount": 2
+          },
+          {
+            "id": "5B06A263-D91E-4C9E-8D73-369B0A73EBEA",
+            "name": "Kunstipedagoogika*",
+            "eapCount": 3
+          },
+          {
+            "id": "258C25D8-03F4-46B4-AA0E-6AEBD370DCD9",
+            "name": "Ettevõtlus 21.sajandi majanduses*",
+            "eapCount": 3
+          },
+          {
+            "id": "514AF11B-0A43-4D9F-B9D3-9DEB0FCBE142",
+            "name": "Interdistsiplinaarne kunst*",
+            "eapCount": 3
+          },
+          {
+            "id": "E86D3F5C-2DEC-4155-9C8B-89FB862DC586",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "A468D56A-13FF-4710-92BB-20AEEF887122",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "1D3C5F78-501E-489A-837D-91E4084BF472",
+            "name": "Erialane fotograafia. Stuudiofoto",
+            "eapCount": 2
+          },
+          {
+            "id": "40E2AF9B-EA1C-4388-AC66-5957AD781F68",
+            "name": "Korporatiiv- ja infograafika.Märgiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "4B5C9D64-16C9-4ED9-9D99-F8A5D84554F7",
+            "name": "Korporatiiv- ja infograafika.Korporatiivtoode",
+            "eapCount": 2
+          },
+          {
+            "id": "D7068AFA-E968-4037-930B-A60B3FA8852D",
+            "name": "Tüpograafia põhikursus",
+            "eapCount": 2
+          },
+          {
+            "id": "69046BA1-E75F-4997-9FD2-1E180F3C4E4C",
+            "name": "Interaktiivse meedia rakendused",
+            "eapCount": 2
+          },
+          {
+            "id": "B605D124-6323-4914-B421-E4D7E3FC9D87",
+            "name": "Multimeedia rakendused",
+            "eapCount": 2
+          },
+          {
+            "id": "9B01147B-0494-4BA8-BC07-0EFE2FE76274",
+            "name": "Video.Videorežii žanrid",
+            "eapCount": 2
+          },
+          {
+            "id": "30E8DB78-648C-4F19-9A0C-BBAAE589BEF2",
+            "name": "3D-graafika.Keskkond",
+            "eapCount": 2
+          },
+          {
+            "id": "369C5177-8653-4EA0-AC8D-C6A4116D2C4E",
+            "name": "Praktiline projekt II",
+            "eapCount": 2
+          },
+          {
+            "id": "F038B9A8-EFE5-4DB1-80DB-1CFEF9F65A3F",
+            "name": "Praktika töökeskkonnas III",
+            "eapCount": 4
+          },
+          {
+            "id": "3A541D5C-5F25-463F-AF2F-2F28B14B3D62",
+            "name": "Reklaamipsühholoogia",
+            "eapCount": 2
+          },
+          {
+            "id": "4D70E13B-59A7-4810-B4AF-CB37B37FA906",
+            "name": "Valikplokk pedagoogika II*",
+            "eapCount": 3
+          },
+          {
+            "id": "EA8E82EF-9A29-4F5C-91C3-FE88A85EDCCA",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          },
+          {
+            "id": "CB7341D5-62BB-4A5A-AB4A-249D0E81922C",
+            "name": "Valikplokk Kaasaegne kunst II*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "E99E16B5-C538-4C6A-9C1A-C99C3A58725F",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "2AC30721-0BB0-41F7-8281-20B0F386B946",
+            "name": "Korporatiiv- ja infograafika.Plakat",
+            "eapCount": 2
+          },
+          {
+            "id": "33C60E74-5647-444E-9C61-4B78212E8CBD",
+            "name": "Pakendi disain",
+            "eapCount": 2
+          },
+          {
+            "id": "FAF5F736-E848-4872-A25F-01A41D6360B1",
+            "name": "Pakendiprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "E43A6BE7-9810-4E8C-ABA7-66615967A670",
+            "name": "Veebidisain",
+            "eapCount": 2
+          },
+          {
+            "id": "AD5C5487-0314-44B5-BAF4-405300545B66",
+            "name": "Virtuaalne ruum",
+            "eapCount": 2
+          },
+          {
+            "id": "D84E3DE8-82F8-4AC0-81B5-70296ABB4FC6",
+            "name": "Helidisain. Heli töötlused",
+            "eapCount": 2
+          },
+          {
+            "id": "EB908B16-68D9-4F19-B1DF-43598DF04737",
+            "name": "Video praktiline projekt",
+            "eapCount": 4
+          },
+          {
+            "id": "3961665C-2174-47EF-953C-FE628336BBDC",
+            "name": "Praktiline projekt III",
+            "eapCount": 3
+          },
+          {
+            "id": "1F3F7253-A62A-46B4-BEA1-F57EDB1B6171",
+            "name": "Praktika töökeskkonnas IV",
+            "eapCount": 2
+          },
+          {
+            "id": "FC8519F6-8D7D-41E2-B77A-D90E80F96743",
+            "name": "Näituseprojekt",
+            "eapCount": 3
+          },
+          {
+            "id": "2835D6A7-395D-4391-8E04-A89813A4E7AA",
+            "name": "Erialane ajalugu. Graafiline disain. Meediakunst",
+            "eapCount": 3
+          },
+          {
+            "id": "EB9C5668-4EC1-42F1-B66A-9CFA9366E42D",
+            "name": "Bränd",
+            "eapCount": 2
+          },
+          {
+            "id": "C20021AB-5EAB-4A9E-9F86-FC88FC695649",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "D7EC1E1C-87DB-4C04-AA79-E5705C56B16E",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "C6B9D76E-9153-4D97-A2AC-9515FD4F4D82",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "EB7A451D-11FE-4258-9496-6EAEE1E97550",
+            "name": "Lõputöö praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "354CEDF3-4F9D-4955-A19C-F0D483093BAC",
+            "name": "Praktiline projekt IV",
+            "eapCount": 2
+          },
+          {
+            "id": "F52535B7-14DA-447F-A282-11DA23564D2C",
+            "name": "Individuaalne praktika",
+            "eapCount": 4
+          },
+          {
+            "id": "2F37B186-9708-4424-9DBF-270B7AF7F9A5",
+            "name": "Praktika töökeskkonnas V",
+            "eapCount": 5
+          },
+          {
+            "id": "E74F764C-94AC-4E83-811E-30F047CCFC3C",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Mõistab meedia- ja reklaamikunsti arengusuundumusi, toimemehhanisme ja funktsioone ühiskonnas",
+      "Mõistab meedia- ja reklaamikunsti seost kultuuri valdkonnaga",
+      "Oskab planeerida, teostada ja hinnata erinevaid loomingulisi projekte, neid analüüsida ja lahendada",
+      "Oskab teadlikult valida meedia- ja reklaamikunsti ülesannete lahendamiseks sobivad töövõtted ja meediumid",
+      "Tunneb ja tajub multimeedia ning graafilise disaini ja reklaami psühholoogilist mõju",
+      "Suudab luua meeskonna ja/või osaleda meeskonnatöös ettevõtliku ja vastutustundliku partnerina",
+      "Oskab juhtida suhtlusprotsessi kliendi ja/või publiku vahel",
+      "Oskab ennast erialaselt väljendada eesti ja inglise keeles",
+      "Suudab olla aktiivne ühiskonna liige, mõistab ja aktsepteerib erinevaid hoiakuid ja väärtushinnanguid",
+      "On võimeline genereerima loomingulisi ideid ja julgeb katsetada, et leida tavapäratuid lahendusi",
+      "Suudab rakendada erialaoskusi meedia- ja reklaamikunsti disainerina nii töövõtja kui ka tööandjana",
+      "Mõistab enesetäienduse tähtsust ja on valmis elukestvaks erialaseks õppeks ning loomeprotsessiks.",
+      "Õppekava läbinud vilistlased töötavad meedia- ja reklaamifirmades disainerite, loovjuhtide, kujundajate ja veebidisaineritena. Paljud on asutanud ka oma ettevõtte või töötavad edukalt vabakutseliste disaineritena. Samuti on mitmed jätkanud õpinguid magistriõppes."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "61C25AA3-7E0A-43E4-9F3C-648437B9784E",
+        "term": "Keskharidust tõendav dokument"
+      },
+      {
+        "id": "286D32D3-52C7-471D-BA84-46B402F603EF",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Meedia ja reklaamidisain",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "D5B745FF-E723-42FB-B3A4-915728875054",
+    "description": [
+      "Mööbliosakonnas saab õppida mööbli disainimist või vana mööbli restaureerimist/konserveerimist. Mõlemas valdkonnas saadakse kvaliteetsed erialased teadmised, kuid suunavalik peaks olema tehtud enne õppima asumist.",
+      "MÖÖBLIDISAIN:",
+      "Viimase kümne aasta jooksul hea taseme saavutanud perspektiivikate tulevikuväljavaadetega eriala. Praktilise suunitlusega õpe, mille läbimise jooksul saavad õppurid kogemusi töötades reaalsete esemetega ja tehes koostööprojekte. Mööbliosakond on üks kahest osakonnast Pallases, mille lõpetajat on pärjatud rahvusvahelise disainiauhinnaga Red Dot.",
+      "MÖÖBLI RESTAUREERIMINE/KONSERVEERIMINE:",
+      "Mööbli restaureerimine/konserveerimine keskendub mööblipärandi taastamisele või säilitamisele. Praktiline, erialaselt süvitsi õpetatav suund tagab teadmised mööbliajaloost, klassikalistest polstritest, kuldamisest, jpm vajalikust ja huvitavast. Konserveerimise/restaureerimise valdkonnas tehakse koostööd Eesti Muinsuskaitseameti, ERM’i ja paljude teiste muuseumidega, kuhu on nüüdseks tööle asunud ka kooli lõpetanuid.",
+      "Laiahaardeline õpe pakub suurt vaheldusrikkust ja kaasaegset lähenemist ning tööriistu. Käiakse messidel: näiteks Stockholmis, Helsinkis, Londonis, ja erialastel väljasõitudel. Õppekava läbimine loob eeldused töötamiseks mööbli valdkonnas disainerina või konservaatorina/restauraatorina nii riigi- kui erasektoris, andes samas põhjaliku hariduse, millega on hea jätkata ka magistriõppes."
+    ],
+    "eap": 240,
+    "spots": 12,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/moobliosakond/",
+    "personnel": [
+      {
+        "email": "aivar.habakukk@pallasart.ee",
+        "id": "988882C3-2952-4731-9968-5F0B7F635CA9",
+        "title": "Osakonna juhataja",
+        "phone": "+3727338996",
+        "name": "Aivar Habakukk"
+      },
+      {
+        "email": "kristina.allik@pallasart.ee",
+        "id": "DB6CBA26-85FE-4E24-8302-98A77CA2F02A",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727338996",
+        "name": "Kristina Allik"
+      },
+      {
+        "email": "kristjan.bachman@pallasart.ee",
+        "id": "C76FD994-2D3C-486E-9011-4E06645CDCC0",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727338996",
+        "name": "Kristjan Bachman"
+      },
+      {
+        "email": "jaak.roosi@pallasart.ee",
+        "id": "533F3739-6AF1-42D9-AAA9-D8B93A6E33C7",
+        "title": "Lektor",
+        "name": "Jaak Roosi"
+      },
+      {
+        "email": "annes.hermann@pallasart.ee",
+        "id": "9360F6EA-473D-414F-9E52-4679BF1B9987",
+        "title": "Meister",
+        "phone": "+3727309819",
+        "name": "Annes Hermann"
+      },
+      {
+        "email": "teet.papson@pallasart.ee",
+        "id": "43ADED15-D403-4640-B12D-0DD463E85ACB",
+        "title": "Õpetaja",
+        "name": "Teet Papson"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "2D2EB62B-225D-4969-94AD-034BE090B134",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "BD48A732-1892-4837-8D9A-E8D30C318728",
+            "name": "Disaini alused",
+            "eapCount": 2
+          },
+          {
+            "id": "2FBB0588-D1C9-4C1B-8C86-22DAF1C82459",
+            "name": "Konserveerimise ja restaureerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "6ED6E1B4-E9D8-4220-A298-8F5EDDEEAF6E",
+            "name": "Eriala Praktika I. Tapid",
+            "eapCount": 3
+          },
+          {
+            "id": "5577F1F9-6903-4801-9BE8-AFACC0BB9559",
+            "name": "Sissejuhatus erialasse",
+            "eapCount": 2
+          },
+          {
+            "id": "EEAD1A28-991E-4004-8BCC-CE1EB8FCCF45",
+            "name": "Materjaliõpetus I. Puit ja viimistlus",
+            "eapCount": 3
+          },
+          {
+            "id": "E6FD7B9C-8706-4095-B223-63F60928B9F8",
+            "name": "Esitlustehnikad. Joonestamine",
+            "eapCount": 2
+          },
+          {
+            "id": "4B81AE3F-8BC6-404C-AB98-1B1DF097C834",
+            "name": "Masinaõpetus I. Käsitööriistad",
+            "eapCount": 2
+          },
+          {
+            "id": "0BE80541-83C7-4C94-ABA5-6AFE9C261A35",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "FA5416F8-73AC-48BE-8161-F0AC27F66063",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "F4280FBE-B6A5-4E75-8B2A-FCCE1495915E",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "1FF7E0FC-E91A-4B61-BA4A-D246B01CD67A",
+            "name": "Vektor- ja pikselgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "76BDB5F8-6B14-4122-9A99-BFA5FF9CE455",
+            "name": "Fotograafia alused",
+            "eapCount": 2
+          },
+          {
+            "id": "ECDAC64D-C365-4630-B84C-35E495910110",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          },
+          {
+            "id": "34941C8A-F7C0-4B85-83D4-DB0EC4DBCDF0",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "7EA5F669-7267-4EBD-9CA4-D622888E194D",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "F0C1A399-6E24-41B3-8FFE-72475F2CC84D",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "A6CB2408-9F79-4107-8846-B1A0254A3FCA",
+            "name": "Toote/projekti esitlus",
+            "eapCount": 2
+          },
+          {
+            "id": "6294206D-315C-4218-83E2-7CC42A9D4BE5",
+            "name": "Konserveerimiskeemia",
+            "eapCount": 2
+          },
+          {
+            "id": "7AF7F27A-91C3-4DF0-B67A-A5C708710CE3",
+            "name": "Joonistamine. Mööblikrokii",
+            "eapCount": 2
+          },
+          {
+            "id": "BE5D2BF5-4391-46ED-A84B-8EE0363B5901",
+            "name": "Sissejuhatus erialasse. Väikevorm",
+            "eapCount": 2
+          },
+          {
+            "id": "E0C6CCD7-50A6-46BE-893F-AF4A1C228EEA",
+            "name": "Eriala praktika II. Eseme valmistamine",
+            "eapCount": 4
+          },
+          {
+            "id": "93BC543D-83F1-4E89-B7EE-384621EDFC1E",
+            "name": "Masinaõpetus II. Tööpingid",
+            "eapCount": 2
+          },
+          {
+            "id": "048E7486-C0A9-4C3F-B7E1-C2D6C63F016B",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          },
+          {
+            "id": "46E76CDF-52FC-46CF-B51B-DB1E8C0523BF",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "213A2031-33EA-4BEA-8891-6D81615F4E74",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "FC5D7588-A137-468C-8129-09ECAC0CB3C6",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "8CB3C4B5-6DA6-444C-86EC-A920E66B5CCA",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          },
+          {
+            "id": "A9443441-557D-4D85-8959-AFE360455C88",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "A1AC1610-7995-42E2-9095-80F608C6BA33",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "6A1E513D-F8D0-431F-9CFD-91723E18D0CC",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "AF8AD6F5-D22E-496E-AB0C-BFF15F2E59CD",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "112C2D67-B366-473D-81C6-59603374681B",
+            "name": "Disaini ajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "CE2BE527-CC87-47E6-B786-51C00688BC17",
+            "name": "Ruum ja keskkond",
+            "eapCount": 2
+          },
+          {
+            "id": "0608ADAB-3907-425A-99E4-FDCC565D946F",
+            "name": "Disain ja innovatsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "EE65C126-0FB3-4B06-A477-1CABC07B3AD2",
+            "name": "Konserveerimisbioloogia",
+            "eapCount": 2
+          },
+          {
+            "id": "ADB19D6E-3A62-4271-8B82-8E57DFE24F6F",
+            "name": "Dokumenteerimine. Objektide dokumenteerimise, säilitamise ja eksponeerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "9CC7CE36-D493-4138-BADF-31820B8FD7D3",
+            "name": "Erialane inglise keel",
+            "eapCount": 2
+          },
+          {
+            "id": "07C820D6-0FAA-4C0B-AFD3-8E418698D6A4",
+            "name": "Sissejuhatus erialasse. Ettevalmistus praktikaks",
+            "eapCount": 2
+          },
+          {
+            "id": "BA965FA3-C6B7-47B6-8767-7C3E58C8ABFA",
+            "name": "Eriala praktika III. Restaureeritav objekt",
+            "eapCount": 4
+          },
+          {
+            "id": "C254C282-2B9A-42FE-9D3E-BD7999F5C254",
+            "name": "Masinaõpetus III. Seadmed",
+            "eapCount": 2
+          },
+          {
+            "id": "A6D677C6-B4E1-4CB7-9877-7D3C62423BF0",
+            "name": "Maketeerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "8A943CDC-4C3A-41D1-90E0-20D1980B1904",
+            "name": "Esitlustehnikad. Autocad I",
+            "eapCount": 2
+          },
+          {
+            "id": "6F828742-82D3-493C-80FD-7569D7D8289F",
+            "name": "Maalimine II",
+            "eapCount": 3
+          },
+          {
+            "id": "C5FC71DA-332B-41C4-B84A-FC51C58384DC",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          },
+          {
+            "id": "E4E4D544-4EC9-4CCC-98C4-1826568532FA",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          },
+          {
+            "id": "BFCE033C-6C07-4BEC-9067-341F819C8608",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          },
+          {
+            "id": "CC826AD9-3B03-4630-9969-0EBF56CA68D2",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "A1AFCCD9-86CF-4B07-987E-0AE8B5BC69AA",
+        "name": "2. õppeaasta kevadsüsteem",
+        "courses": [
+          {
+            "id": "AA729DAF-FFC6-4389-9DF8-D18CE3F8E62F",
+            "name": "Tootefoto",
+            "eapCount": 2
+          },
+          {
+            "id": "E6BAF7EE-A15D-47E6-93ED-E82D55612C3F",
+            "name": "Projekt I. Tool",
+            "eapCount": 4
+          },
+          {
+            "id": "9C973E46-5094-4D2B-9434-05A21B603A37",
+            "name": "Erialane projekt I. Pehme mööbel",
+            "eapCount": 2
+          },
+          {
+            "id": "8C5DCE9B-92F1-480E-B287-29B9E3417432",
+            "name": "Eritehnika I. Puidulõige",
+            "eapCount": 2
+          },
+          {
+            "id": "DBC7D9F1-0E2C-4E77-B35B-CC270E7D2233",
+            "name": "Dokumenteeriv fotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "538BD41C-D8BB-4E29-8D3E-9AA3AB040882",
+            "name": "Restaureerimisprojekt I. Pehme polster",
+            "eapCount": 4
+          },
+          {
+            "id": "A34B06CC-BD53-4D8D-A540-03E512D16EB2",
+            "name": "Materjalide identifitseerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "68EECD4D-68D0-4D81-916C-FA8E72F0FFB5",
+            "name": "Esitlustehnikad. Autocad II",
+            "eapCount": 2
+          },
+          {
+            "id": "443DC360-2A86-498E-AF5F-B02FBC5859DE",
+            "name": "Esitlustehnikad. Solidworks",
+            "eapCount": 3
+          },
+          {
+            "id": "72FC2077-DF3E-4DD6-B8FB-8F8F579F2A26",
+            "name": "Materjaliõpetus II. Konstruktsioon ja polster",
+            "eapCount": 3
+          },
+          {
+            "id": "4AC1C27D-332F-4DE3-9F4F-3CC1E5C3AF11",
+            "name": "Mööbliajalugu I. Antiikaeg ja varased stiiliperioodid",
+            "eapCount": 3
+          },
+          {
+            "id": "E7B57CCB-30C0-4C70-9A2A-F589020AA206",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "401DBC6B-0F86-4979-A32F-6625C57A0306",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "C9DBF099-7DB3-4931-BACE-86D3ED7F7101",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          },
+          {
+            "id": "80D9FC12-8CFF-4507-898D-45123B8A75FD",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "A362AFDD-0C0C-4A22-8EE6-64C2D60F8895",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "C6A83631-8B55-43CB-BCE0-F1A8D9D4F0D0",
+            "name": "Projekt II. Mööblikomplekt",
+            "eapCount": 5
+          },
+          {
+            "id": "7B69E49F-76D8-4E77-A180-B6ABA8E68D4F",
+            "name": "3D tehnoloogiad",
+            "eapCount": 2
+          },
+          {
+            "id": "35E0C279-EA0E-41DC-8397-6E133E57A8C0",
+            "name": "Erialane projekt II. Rütmika",
+            "eapCount": 2
+          },
+          {
+            "id": "EE4E4F23-06DB-466A-90EE-D9D158C0835D",
+            "name": "Turundus",
+            "eapCount": 2
+          },
+          {
+            "id": "CC7F34C4-CBBC-4AB3-8912-DBA05F26FBAA",
+            "name": "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika",
+            "eapCount": 2
+          },
+          {
+            "id": "0CEED00A-6C4B-46E1-98F0-B6F7C0640E92",
+            "name": "Eritehnika II. Aaderdamine",
+            "eapCount": 2
+          },
+          {
+            "id": "1883798D-4E26-4DC7-9AD3-C85F42F1F5FA",
+            "name": "3D tehnoloogiad",
+            "eapCount": 2
+          },
+          {
+            "id": "6D9ADFE2-F71C-4A8A-A838-45D2325FD054",
+            "name": "Restaureerimisprojekt II. Korpusmööbel",
+            "eapCount": 5
+          },
+          {
+            "id": "879410C3-FE2E-41AC-AF9D-E5C0815F5103",
+            "name": "Maalimise jätkukursus I. Serigraafia",
+            "eapCount": 2
+          },
+          {
+            "id": "F806B9C2-68ED-4165-90DA-B7AC1B2D36DC",
+            "name": "Mööbliajalugu II. XVIII sajandist kuni kaasajani",
+            "eapCount": 3
+          },
+          {
+            "id": "4621315D-C270-42D7-A487-A89C2EA541A8",
+            "name": "Praktika osakonnas I",
+            "eapCount": 3
+          },
+          {
+            "id": "5FB05ED6-8C43-4CEF-B705-354E28638E05",
+            "name": "Ülesmõõtmispraktika",
+            "eapCount": 3
+          },
+          {
+            "id": "BEEBC904-6B74-4D86-822E-5BC57CB67BE2",
+            "name": "Eriprojekt",
+            "eapCount": 3
+          },
+          {
+            "id": "4FD9065C-8577-46C2-BA5D-49D6B9686572",
+            "name": "Kunstipedagoogika*",
+            "eapCount": 3
+          },
+          {
+            "id": "FB16DA2A-8C40-48FC-AC38-1247E226E9EE",
+            "name": "Ettevõtlus 21.sajandi majanduses*",
+            "eapCount": 3
+          },
+          {
+            "id": "71F7BB24-F3B5-4155-8F4C-E1CD763CA105",
+            "name": "Interdistsiplinaarne kunst*",
+            "eapCount": 3
+          },
+          {
+            "id": "3DF78B43-3B92-4502-BC93-255BA97AEB78",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "3699E671-9FAE-44E4-AF05-F751B46356F3",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "C5D2484B-9C52-4A3F-8B46-4C0A478B3B43",
+            "name": "Erialane projekt III. Arhitektoonika",
+            "eapCount": 2
+          },
+          {
+            "id": "5091BBE2-D994-4524-8EAD-93A2B6E21209",
+            "name": "Projekt III. Ruum ja ese",
+            "eapCount": 3
+          },
+          {
+            "id": "F2098222-C70D-4415-B6D7-400AFB46F3AE",
+            "name": "Eritehnika III. Intarsia",
+            "eapCount": 2
+          },
+          {
+            "id": "1AC574FF-9F99-4C47-B69B-6920F64D8449",
+            "name": "Restaureerimisprojekt III. Rekonstruktsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "BD8A8917-6ADC-4FB9-81EA-2326455A2C7D",
+            "name": "Maalimise jätkukursus II. Loominguline projekt",
+            "eapCount": 2
+          },
+          {
+            "id": "9F7E7667-09E3-43D5-BB42-1BB219DDDF65",
+            "name": "Materjaliõpetus III. Sepis",
+            "eapCount": 3
+          },
+          {
+            "id": "3D7C26FD-01A0-44B5-AEEF-D1C55E4BBC67",
+            "name": "Ühiskondlik projekt",
+            "eapCount": 2
+          },
+          {
+            "id": "914BF37B-00BA-4F51-B6A7-2E05145068FE",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 10
+          },
+          {
+            "id": "65BE89DB-2B84-4C53-80D0-F63C17C28E34",
+            "name": "Praktika osakonnas II",
+            "eapCount": 2
+          },
+          {
+            "id": "1376D39C-6D8D-42EB-98D3-A7FEA92D60C3",
+            "name": "Valikplokk Kaasaegne kunst II*",
+            "eapCount": 3
+          },
+          {
+            "id": "78E0E08A-FB7F-4E32-842C-2D88B86D24A2",
+            "name": "Valikplokk pedagoogika II*",
+            "eapCount": 3
+          },
+          {
+            "id": "BAB60931-E2DD-47E5-99BB-F80D65B9E51F",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "E500061E-D7D2-45F5-BB58-15D3B1DC6AA6",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "5EB7E804-6182-4350-9EEF-0BC0671EA283",
+            "name": "Erialane projekt IV. Välimööbel",
+            "eapCount": 2
+          },
+          {
+            "id": "0CBD0FDE-A248-4344-B431-EAE28480F0BD",
+            "name": "Disainiprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "6FE60C9F-AD7D-4303-A896-3E4D41A5F3AA",
+            "name": "Disainiprotsessi dokumenteerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "D76D311B-149F-407C-8894-66609C72495D",
+            "name": "Projekt IV. Koostööprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "B2A09E44-86B5-4BFA-8462-2922B38CB25E",
+            "name": "Konserveerimis/restaureerimisprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "FA5BE8A8-5177-41C5-95F2-1DDFF4CF69CF",
+            "name": "Eritehnika IV. Poleerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "FBB365FB-0B76-44BB-A2B1-4BE81A09384F",
+            "name": "Restaureerimisprojekt IV. Polükroomne ese",
+            "eapCount": 5
+          },
+          {
+            "id": "9F48DC7C-4FA5-4858-A19C-7A320B1B2569",
+            "name": "Arhiveerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "AE60CF1D-F983-47A4-B8B1-00B951F4B378",
+            "name": "Näituseprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "D6ACAD95-AC81-4247-8070-FFA0BF0941A8",
+            "name": "Mööbliajalugu III. 20 sajandi II poole mööbel",
+            "eapCount": 2
+          },
+          {
+            "id": "6CD6C66F-F651-4536-8E5C-66A73CF40122",
+            "name": "Ettevalmistus lõputööks",
+            "eapCount": 2
+          },
+          {
+            "id": "7094A82D-3C6A-4431-ABFC-BD3236CDBDD3",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 5
+          },
+          {
+            "id": "DD527EE3-BC35-480F-A2C1-FC5B5E6F4EC9",
+            "name": "Individuaalne praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "20BE5045-8F85-4A93-8BBB-E6091E29B853",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "24609F4C-837B-40CD-97C5-421361B1333C",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "85843E12-979E-4B78-ACF3-DF7BD16108E3",
+            "name": "Erialane projekt V. Uksed, Trepid",
+            "eapCount": 2
+          },
+          {
+            "id": "32260060-DB83-4EF8-823C-41F297C28A2E",
+            "name": "Projekt V. Sisekujundus",
+            "eapCount": 3
+          },
+          {
+            "id": "E0CA573C-10A7-4D28-A2AB-EDB9C1023D62",
+            "name": "Eritehnika V. Kuldamine",
+            "eapCount": 2
+          },
+          {
+            "id": "8884F087-325F-41B6-92F3-EBAD9558DE01",
+            "name": "Restaureerimisprojekt V. Konserveeritav ese",
+            "eapCount": 3
+          },
+          {
+            "id": "C57D60AC-A72F-441E-81D6-269D2EE786AE",
+            "name": "Esitlustehnikad. Portfoolio",
+            "eapCount": 2
+          },
+          {
+            "id": "BD6B0088-BCAE-4D08-AD01-334A29E94558",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "0D7CF7F7-B2E3-411D-90FB-AC75DC8CF6B1",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "A51FF37E-701D-464F-B216-51BC9F520054",
+            "name": "Lõputöö praktika",
+            "eapCount": 3
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Mõistab mööbli disaini ja restaureerimise põhimõisteid, toimemehhanisme ja funktsioone ühiskonnas",
+      "Omab ülevaadet mööbli ajaloost, tunneb nüüdisaegse mööblidisaini suundumusi",
+      "On võimeline jälgima ja analüüsima erialast teavet",
+      "On võimeline loominguliselt katsetama, genereerima ideid ja neid teostama",
+      "Oskab rakendada ülesandest lähtuvalt sobivaid töövõtteid, materjale, tehnoloogiaid ja töövahendeid",
+      "On võimeline sünteesima omandatud teadmisi ja oskusi erialastest eesmärkidest lähtuvalt",
+      "On algatus-, organiseerimis- ja planeerimisvõimeline ning vastutustundlik nii individuaal- kui ka meeskonnatöös",
+      "Lähtub tegevuses seadustest, erialastest normdokumentidest, kutse-eetikast ja ökoloogilistest aspektidest",
+      "Omab aktiivset hoiakut ühiskonnas, suhtub sallivalt erinevatesse kultuuridesse, hoiakutesse ja väärtushinnangutesse",
+      "Oskab erialaselt suhelda nii suuliselt kui ka kirjalikult eesti ja inglise keeles",
+      "On võimeline vastavalt spetsialiseerumisele tegutsema mööblidisaineri või mööbli konservaatori/restauraatorina",
+      "On võimeline loovaks ja pidevaks enesetäiendamiseks teoorias ja praktikas või edasiõpinguteks magistriõppes"
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "C20FA637-2659-43BF-8070-6D88C53FA0D8",
+        "term": "Keskharidust tõendav dokument"
+      },
+      {
+        "id": "E1CD0020-FCAA-4AFE-BF8C-7490E60C3834",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Mööblidisain ja restaureerimine",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "F131A2D9-7F76-45A7-B00E-7006BDFDCE01",
+    "description": [
+      "Nahadisaini õppekava eelkäija nahakunsti eriala loodi 1965. aastal. Aastatel 2000–2013 juhtis osakonda professor Rutt Maantoa, 2013-2019 oli osakonna juhataja Maila Käos ja alates 2019. aasta septembrist juhib osakonda professor Rene Haljasmäe. Nahadisaini osakonnas on võimalik õppida kahel õppesuunal: disain ja restaureerimine/konserveerimine. Valik tuleb teha enne õppima asumist.",
+      "Nahadisaini ja restaureerimise õppekava väärtustab traditsioone, innustades samas otsima uudseid lahendusi nii tehnikas kui ka kujunduses. Käsitletavad teemad annavad erialaoskusi alates naha töötlemise tehnikatest kuni raamatuköitmise ja konserveerimise/restaureerimise ning mitmesuguste nahktoodete disainimiseni. Õppetöös tehakse koostööd tellijatega ja osaletakse aktiivselt näitustel ja konkurssidel, kus üliõpilased on saavutanud auhinnalisi kohti.",
+      "Disaini suund annab süvendatud teadmised nahkehete, -kottide ja -rõivaste disainist ja teostuse viisidest.",
+      "Konserveerimise ja restaureerimise suund lähtub konservaatori kutsestandardi nõuetest. Õpitakse restaureerima erineva kattematerjali ja struktuuriga köiteid, pabermaterjale ja nahkobjekte ning esitama sobivaid säilitusjuhiseid."
+    ],
+    "eap": 240,
+    "spots": 10,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/nahaosakond/",
+    "personnel": [
+      {
+        "email": "rene.haljasmae@pallasart.ee",
+        "id": "A860A162-47AB-4685-A03C-2B16D3C5E545",
+        "title": "Osakonna juhataja",
+        "phone": "+3727309817",
+        "name": "Rene Haljasmäe"
+      },
+      {
+        "email": "kristel.suigussaar@pallasart.ee",
+        "id": "1ED19293-421F-4D9C-A9E4-5981047C5EA9",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727309815",
+        "name": "Kristel Suigussaar"
+      },
+      {
+        "email": "rutt.maantoa@pallasart.ee",
+        "id": "7DC3AF99-D271-4E2D-A58C-71348570BA6F",
+        "title": "Professor",
+        "name": "Rutt Maantoa"
+      },
+      {
+        "id": "BBC84D53-D7CA-41FB-8A46-EF1656E17D09",
+        "name": "Kerli Jõgi",
+        "title": "Vanemõpetaja"
+      },
+      {
+        "id": "2C460128-7D03-456F-A6FC-A1FA7A8E7B14",
+        "name": "Tõnu Ojaperv",
+        "title": "Meister"
+      },
+      {
+        "id": "B2C4DBE4-7DBF-49C9-8405-0E62E56A5144",
+        "name": "Juta Mölder",
+        "title": "Külalisõppejõud"
+      },
+      {
+        "id": "9320054A-CD0F-4260-B45A-2D6C2962F4AB",
+        "name": "Maila Käos",
+        "title": "Lektor"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "03A0AD34-34A9-4D56-877C-DE60C6D2544F",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "4771E62F-F46E-43E4-879F-E9464084F062",
+            "name": "Disaini alused",
+            "eapCount": 2
+          },
+          {
+            "id": "2297061B-11F7-4C3C-BB51-5848CCDA6204",
+            "name": "Konserveerimise ja restaureerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "4B27D6BF-0120-42DA-A334-53C9549C6256",
+            "name": "Materjaliõpetus ja tehnoloogia",
+            "eapCount": 2
+          },
+          {
+            "id": "43A3B917-6790-4CEB-9813-3C32E7F380D7",
+            "name": "Nahakunsti tehnikad I",
+            "eapCount": 3
+          },
+          {
+            "id": "AC793435-97FC-40E4-9B00-42441F002678",
+            "name": "Kirjaõpetus I",
+            "eapCount": 2
+          },
+          {
+            "id": "6D7E4A42-2D10-4495-A301-6815626FFBDE",
+            "name": "Eriala kompositsioon I",
+            "eapCount": 2
+          },
+          {
+            "id": "9C4A5792-7AC8-47AB-8934-5A875147D234",
+            "name": "Eriala ajalugu/ köitekunsti ajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "8D8ABC7E-01EF-41A2-8CEB-0A6A6C7B82EE",
+            "name": "Materjaliõpetus. Naha omadused ja kasutusvaldkonnad",
+            "eapCount": 1
+          },
+          {
+            "id": "655A2155-9509-4BC0-BFBB-FCF1593A6978",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "9E06529C-62BB-43D1-8977-5A3364FF0A2A",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "8E4F4024-0D26-4F8D-A479-3722004996F5",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "55425A11-4A8E-4270-ADAF-940A36D5A3DE",
+            "name": "Fotograafia alused",
+            "eapCount": 2
+          },
+          {
+            "id": "CADEDEBD-7E05-45C8-ACFD-FAA992E32435",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "F3DF27CC-7599-4CF4-9469-10A96A7E2468",
+            "name": "Vektor- ja pikselgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "1950E50A-9926-49D1-BF1D-686BCBD8338C",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          },
+          {
+            "id": "0F95DB86-D0D8-4D78-A96B-2232916F781A",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "3E902159-BA21-4A0C-A161-B5FD82D828BF",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "05313AA0-8585-4DF5-8DAD-EF2F827EACF2",
+            "name": "Toote/projekti esitlus",
+            "eapCount": 2
+          },
+          {
+            "id": "23090C11-3D0B-45B1-B359-45252A38194C",
+            "name": "Konserveerimiskeemia",
+            "eapCount": 2
+          },
+          {
+            "id": "DEB959B6-CAB2-4E06-8294-F4CBACC5DC66",
+            "name": "Eriala ajalugu. Paberi ajalugu",
+            "eapCount": 1
+          },
+          {
+            "id": "513DD93C-5F0C-4456-9C83-6B3B49E2367B",
+            "name": "Eriala kompositsioon II",
+            "eapCount": 2
+          },
+          {
+            "id": "8CFEFF2D-5413-4FEE-8ED8-03A14DAD3ADE",
+            "name": "Nahakunsti tehnikad II",
+            "eapCount": 4
+          },
+          {
+            "id": "740314DA-3744-432A-B78B-97938FDBF273",
+            "name": "Eriala praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "8CC17B6D-F6A3-4507-9C89-433D443B8F73",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "21FAB477-4AFA-42FF-806D-D80B6B73E0DE",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "C49B342E-4673-418D-9FDD-F9B362B59C3B",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "CEC21C1A-B1BE-4A0B-A84A-00F78CE25565",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "63552A05-6E31-4E67-A295-D97D717B8644",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          },
+          {
+            "id": "D5F19358-DBFA-4134-9CE2-96B61DCA95C2",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "0016EAA1-C315-4E01-A787-448678E7C9B1",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          },
+          {
+            "id": "D55FE760-9E50-45F3-9644-A9ADFF0DED89",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "51FE0AE2-AFE6-4908-9A2E-F8FDC7D8E2E1",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "ABAE0B4D-73CF-46BC-A525-EC68BA2DA42E",
+            "name": "Disaini ajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "09DFE1AB-2FEB-400D-A7E9-A87CDDA648C7",
+            "name": "Ruum ja keskkond",
+            "eapCount": 2
+          },
+          {
+            "id": "5CB61B6D-6121-498E-912A-D4D17420D0F0",
+            "name": "Konserveerimisbioloogia",
+            "eapCount": 2
+          },
+          {
+            "id": "792096EB-AC01-48AC-87AA-4BEF68CB13FA",
+            "name": "Dokumenteerimine. Objektide dokumenteerimise, säilitamise ja eksponeerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "AE0609AD-8B45-40F0-8F42-439017177F44",
+            "name": "Materjaliõpetus. Naha märgvormimine",
+            "eapCount": 2
+          },
+          {
+            "id": "8B704A4D-C0C8-467E-9FAB-C24E688F4A60",
+            "name": "Materjaliõpetus. Õmblustehnoloogia",
+            "eapCount": 2
+          },
+          {
+            "id": "02DB8753-C88C-47F9-99D9-9EE14E37EB4E",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "CFE99015-4E8F-4283-BFD5-05F07FF812D5",
+            "name": "Aksessuaaride disain",
+            "eapCount": 3
+          },
+          {
+            "id": "E4962384-590F-4DB0-9953-6F24B234C6B9",
+            "name": "Eriala valikaine",
+            "eapCount": 2
+          },
+          {
+            "id": "EEF4958E-5672-4AF6-A0C2-9C5F6F922403",
+            "name": "Moeajalugu",
+            "eapCount": 1
+          },
+          {
+            "id": "5492F3C4-737D-42EA-9D61-CC0E10AC7516",
+            "name": "Ajaloolised köitekonstruktsioonid",
+            "eapCount": 2
+          },
+          {
+            "id": "874660EA-4694-4543-B025-BC1D6BCBD98E",
+            "name": "Maalimine II",
+            "eapCount": 3
+          },
+          {
+            "id": "19B541B4-983A-4087-8DB0-15357E3CA39E",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          },
+          {
+            "id": "94F93FE2-EB37-4B82-B79A-F1BA31E76F61",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          },
+          {
+            "id": "4DC495F9-245E-49E5-B10C-F3530F16900E",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          },
+          {
+            "id": "59624A57-5197-4645-B5CA-D07FCDB6A971",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "19CE9CD2-9651-4C66-9A45-2D904269BE64",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "556FBE05-ABC9-483C-8F68-F4E66D7DAC2F",
+            "name": "Aksessuaaride disain. Funktsionaalne aksessuaar",
+            "eapCount": 5
+          },
+          {
+            "id": "A5CE135A-0450-48AC-832E-7F69EE637369",
+            "name": "Disain ja innovatsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "9BA339A7-9B66-48D9-A369-C7838B3EC4C5",
+            "name": "Materjalide identifitseerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "AFA3596F-70D6-4051-A8CE-61C738B88B8E",
+            "name": "Köidete restaureerimine. Sissejuhatus köidete restaureerimisse",
+            "eapCount": 3
+          },
+          {
+            "id": "9DDC25B1-1449-4D1A-99F2-BDBA5D4D799F",
+            "name": "Paberi restuareerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "064EC8B2-D373-4312-B8A4-C17190693769",
+            "name": "Maalimise jätkukursus",
+            "eapCount": 2
+          },
+          {
+            "id": "BC01CEEF-3A65-488F-9701-233191C41E20",
+            "name": "Nahklaegaste disain ja teostus",
+            "eapCount": 5
+          },
+          {
+            "id": "0259DB2B-970C-49FB-AB67-12C1B80FBA96",
+            "name": "Erialane inglise keel",
+            "eapCount": 2
+          },
+          {
+            "id": "13199437-E9DE-4449-88A8-2DA2E9403C8E",
+            "name": "Kirjaõpetus II",
+            "eapCount": 2
+          },
+          {
+            "id": "B4DACC5C-5256-4C34-B597-77FB8EDD6D2D",
+            "name": "Praktika töökeskonnas I",
+            "eapCount": 3
+          },
+          {
+            "id": "AF5052DC-91A1-4302-B92E-5E2BACDCAC35",
+            "name": "Praktika töökeskonnas I",
+            "eapCount": 3
+          },
+          {
+            "id": "168BC006-194D-4F67-8DCD-DF174DC0F4C8",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          },
+          {
+            "id": "CB4C319E-DB55-4346-AEA1-C7CE770D639E",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "3BF7726D-350B-42AC-A861-E673477F9CC1",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "26491F67-DA41-45FB-B447-02BBC10DD2EB",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "AF803287-C194-4280-B5BE-2693E934AAFE",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "515D7211-E504-4FFE-93B8-19AA29EAEBAB",
+            "name": "Aksessuaaride ajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "C547F8B6-BE92-476F-B731-54115209201D",
+            "name": "Aksessuaaride disain. Konkursiprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "D0B554ED-4FC9-4C1E-9040-5B3D9A44734D",
+            "name": "Disainiõpetus. Disaini portfoolio",
+            "eapCount": 2
+          },
+          {
+            "id": "940A9535-47EA-4F74-B2AA-994137F026B9",
+            "name": "Turundus",
+            "eapCount": 2
+          },
+          {
+            "id": "7CD30C24-3CE0-4253-B47A-AB007CF4B666",
+            "name": "Köite restaureerimine. Puukaaneliste köidete restaureerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "0FF147F8-CDBD-4539-833D-A7D6174A897A",
+            "name": "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika",
+            "eapCount": 2
+          },
+          {
+            "id": "FF1527FD-B478-4F6D-A71F-B9732EFDD5BD",
+            "name": "Erialane projekt",
+            "eapCount": 4
+          },
+          {
+            "id": "5CF1BFCB-7ADA-49F2-ABEF-5592007CED94",
+            "name": "Raamatuköitmine. Liimita köited",
+            "eapCount": 5
+          },
+          {
+            "id": "44972AA8-FD58-4E95-AC37-0FAFFEDDAEBA",
+            "name": "Joonistamise jätkukursus",
+            "eapCount": 3
+          },
+          {
+            "id": "380822CB-1799-486A-B7F8-E2A848DE4129",
+            "name": "Eriala ajalugu. Naha- ja köitekunsti ajalugu XX sajandil",
+            "eapCount": 2
+          },
+          {
+            "id": "2E15064B-99E1-4E9F-95B4-F10EB5601B88",
+            "name": "Interdistsiplinaarne kunst*",
+            "eapCount": 3
+          },
+          {
+            "id": "0EC0FA15-D547-4B5E-A585-0D5DC64DF222",
+            "name": "Ettevõtlus 21.sajandi majanduses*",
+            "eapCount": 3
+          },
+          {
+            "id": "6409CD65-A195-486E-9AD3-6F92FDF72883",
+            "name": "Kunstipedagoogika*",
+            "eapCount": 3
+          },
+          {
+            "id": "866E202A-E9C0-4182-B720-E03B1FA00821",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "13454D9D-3AF9-473C-A605-80D308452C75",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "B2669B6D-21FA-4B34-9FA6-E7B383054E45",
+            "name": "Esitlustehnikad. Stuudiofotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "AEFCA313-1DAC-4DC0-8087-B875F9C588D2",
+            "name": "Aksessuaaride disain. Moeprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "4F385883-28FE-440F-B896-B20CCB572A86",
+            "name": "Esitlustehnikad. 3D modelleerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "2DA21249-75F6-4A06-B992-8D596E04E3C2",
+            "name": "Nahkkinnaste tehnoloogia ja disain",
+            "eapCount": 5
+          },
+          {
+            "id": "E1F741E9-ECE1-48CA-AD84-A4CD023681F9",
+            "name": "Esitlustehnikad. Stuudiofotograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "F47E26C7-0EF6-41DA-ACE2-C4788FB5A39F",
+            "name": "Esitlustehnikad. 3D modelleerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "90FFE4D9-F40C-4EAC-923A-18229476A975",
+            "name": "Paberi restaureerimine.Trükiste restaureerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "AD3179BD-AF30-4007-A8A1-01C905D36F10",
+            "name": "Erialane projekt",
+            "eapCount": 5
+          },
+          {
+            "id": "6A07E9C8-249C-43B4-B0EC-3B4714ADE780",
+            "name": "Nahadisain. Nahkobjekt",
+            "eapCount": 4
+          },
+          {
+            "id": "EB73B00D-E926-4C99-B1F7-1A48EC52A5EF",
+            "name": "Erialane projekt I",
+            "eapCount": 2
+          },
+          {
+            "id": "E1F109CD-2130-4A40-ADBC-D9636304CFCC",
+            "name": "Praktika töökeskonnas II",
+            "eapCount": 5
+          },
+          {
+            "id": "7B778110-4C50-43F6-9772-870DE197FE79",
+            "name": "Valikplokk pedagoogika II*",
+            "eapCount": 3
+          },
+          {
+            "id": "3A16AB32-8CE0-4F0C-8E21-86450E44563C",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          },
+          {
+            "id": "292896E1-CFBA-4ABE-AB9D-7D7D63499A99",
+            "name": "Valikplokk Kaasaegne kunst II*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "98CB4BAD-22E4-4821-A48E-34C3C9EC8FDE",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "A8D01685-80D8-40E0-BD25-7FDD06BCCCE5",
+            "name": "Aksessuaaride disain. Erialaprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "32BF0054-9502-433F-BC9F-DE82D7C5AA04",
+            "name": "Köite restaureerimine. Poolnahk- ja pärgamentköidete restaureerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "01CAE788-1025-485D-B02D-1516F9FDB3AA",
+            "name": "Arvutigraafika. Tüpograafia",
+            "eapCount": 2
+          },
+          {
+            "id": "F6722DA4-03F3-4188-B5E7-FB151323B30A",
+            "name": "Raamatuköitmine. Prantsuse köide",
+            "eapCount": 5
+          },
+          {
+            "id": "1FCF8444-6390-49E9-8D1B-2ED45F6782D0",
+            "name": "Individuaalne praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "F5D6E82E-DB62-4001-8059-C86643F8FE97",
+            "name": "Erialane projekt II",
+            "eapCount": 3
+          },
+          {
+            "id": "CC2873B5-EBB7-42F4-B6BB-FEDB3BE55D22",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "E36B2627-341F-4C02-89B7-AC511F682D36",
+            "name": "Lõputöö praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "D1338FE2-ED3D-406A-98F4-5310FA601988",
+            "name": "Praktika töökeskonnas III",
+            "eapCount": 5
+          },
+          {
+            "id": "3D2AD7E1-0532-4EF8-86CD-F31A979EF410",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "9C337EE5-E99A-4333-B420-EBA67C18483E",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "9370B72A-D78D-4948-8721-6C6D0C27AD1B",
+            "name": "Nahkrõivaste tehnoloogia ja disain",
+            "eapCount": 5
+          },
+          {
+            "id": "3E2597EB-7247-4CE0-B04C-9CCB28786FC7",
+            "name": "Paberi restaureerimine. Käsikirjaliste materjalide restaureerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "DCE5CBA3-9E75-4A0D-B95A-D44A2594B25E",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "30445D57-8A46-45D1-ADD5-6CB5A42122AC",
+            "name": "Näituseprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "DD8587AE-02F5-425F-940D-755998752620",
+            "name": "Erialaprojekt- materjalist tooteks",
+            "eapCount": 3
+          },
+          {
+            "id": "759EE990-A51E-4D28-9E85-9064F90AA6CD",
+            "name": "Lõputöö praktika II",
+            "eapCount": 1
+          },
+          {
+            "id": "78D3C3AD-81D9-47C2-88F7-9330D97A2CF5",
+            "name": "Praktika töökeskkonnas IV",
+            "eapCount": 2
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Mõistab nahadisaini ja restaureerimise põhimõisteid, toimemehhanisme ja funktsioone ühiskonnas",
+      "Seostab kultuuri valdkonna rakendusmehhanisme",
+      "Suudab ammutada olulisimat eriala ajaloost ning rakendab neid teadmisi uuenduslike ideede teostamiseks",
+      "Oskab koguda, selekteerida, analüüsida ja kriitiliselt hinnata erialast teavet ja kasutab teoreetilisi teadmisi praktikas",
+      "On võimeline genereerima loomingulisi ideid ja julgeb katsetada tehnoloogia ja kontseptsiooni osas",
+      "Oskab erialases töös teadlikult valida ja kasutada sobivaid materjale ja meetodeid",
+      "Mõistab ja rakendab disaineri/restauraatori ja kliendi vahelist suhtlusprotsessi",
+      "Suhtub sallivalt erinevatesse kultuuridesse, hoiakutesse ja väärtushinnangutesse",
+      "On sotsiaalselt ja eetiliselt tundlik ning sekkub vajaduse korral kodanikuühiskonna protsessidesse erialaste vahenditega",
+      "On algatus-, organiseerimis- ja planeerimisvõimeline ning vastutustundlik, töötades üksi või meeskonnas",
+      "Kasutab emakeelt ja vähemalt ühte võõrkeelt erialaga seonduvate probleemide üle arutlemisel kirjalikult ja suuliselt",
+      "On pädev töötama aksessuaari- ja köitedisaineri, stilisti, kunstiadministraatori või köite-, objekti- ja paberirestauraatorina",
+      "On kohanemisvõimeline uutes olukordades ning valmis elukestvaks õppeks"
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "5BA96FA9-FCFC-4F62-930F-0BFB4AAD4709",
+        "term": "Keskharidust tõendav dokument"
+      },
+      {
+        "id": "6D0FBF2A-94CC-4228-BC90-AA07B7204452",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Nahadisain ja restaureerimine",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "DB86D639-D22D-4106-B7AA-2EE7C69C81BA",
+    "description": [
+      "Skulptuuriosakonna eesmärk on skulptuurialase õppekvaliteedi tagamine, mille tulemusena on tagatud rahvusvaheliselt konkurentsivõimeliste skulptorite järelkasv Eestis.",
+      "Skulptuuri õppekavale pandi alus 1952. aastal. Kõrgkooli perioodil on õppekava arendanud osakonna juhatajad Mati Karmin, Jaan Luik ja Anne Rudanovski. Skulptuuri õppekava lõpetanud on visuaalset keskkonda kujundavad iseseisva mõtlemis- ja otsustusvõimega loovisiksused, kes on suutelised sünteesima kiiresti muutuvaid tehnoloogiaid ja vormima need uueks skulptuuriteadmuseks.",
+      "Osakonna õppekava hõlmab nii traditsioonilisi skulptuurihariduse valdkondi (skulptuuriajalugu, objekt ja keskkond, installatsioon, traditsioonilised tehnikad ja modelleerimine, avaliku ruumi projektid, rakenduslikud skulpturaalsed vormid, vormiloome teooria) kui ka eksperimentaalseid praktikaid, ühendades digitaalselt genereeritavad vormiloomevõimalused manuaalsete oskustega."
+    ],
+    "eap": 240,
+    "spots": 10,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/skulptuur/",
+    "personnel": [
+      {
+        "email": "anne.rudanovski@pallasart.ee",
+        "id": "1F17AC64-6816-4EBF-9972-D740A3113450",
+        "title": "Osakonna juhataja",
+        "phone": "+3727338970",
+        "name": "Anne Rudanovski"
+      },
+      {
+        "email": "rasmus.eist@pallasart.ee",
+        "id": "1BD1B6B7-A024-463A-8C02-D512244C97A2",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727338970",
+        "name": "Rasmus Eist"
+      },
+      {
+        "id": "7F778D82-7F01-49EF-A052-D03DED521002",
+        "name": "Dmitry Gorbushin",
+        "title": "Meister"
+      },
+      {
+        "id": "37393AB4-C71E-42D1-9DAB-2D3F4CCB8479",
+        "name": "Tõnis Paberit",
+        "title": "Kaasprofessor"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "C50CBBDE-5D3E-4C9B-A45D-55945E6C55C3",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "6E0CB7EF-C744-43F4-B08B-306A19EC8EA4",
+            "name": "3D modelleerimine. Sissejuhatus",
+            "eapCount": 3
+          },
+          {
+            "id": "E3E67694-E560-4010-A157-58CE629EBA93",
+            "name": "Sissejuhatus skulptuuri mõistetesse",
+            "eapCount": 2
+          },
+          {
+            "id": "8CC31AB1-252B-4925-9736-78556AE73F96",
+            "name": "Disaini alused",
+            "eapCount": 2
+          },
+          {
+            "id": "ADCF2D0F-661B-42D0-A6CB-04E03C5DF02C",
+            "name": "Tehnoloogiline praktikum. Sissejuhatav tehnoloogiline praktikum",
+            "eapCount": 2
+          },
+          {
+            "id": "726F853E-FA09-4DF1-BC6E-28347129D6DE",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "40A3DE49-A5DF-483E-9591-4C2EB608E48D",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "F53FE1DC-21FA-47AA-A3DB-CD9C7EE073BE",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "3920F076-985B-4909-8ADF-915EE830EE4D",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "728445E8-22CC-48BB-89BA-B98967601EB8",
+            "name": "Vektor- ja pikselgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "3BC6C19B-4E09-4432-9909-716FE0416083",
+            "name": "Fotograafia alused",
+            "eapCount": 2
+          },
+          {
+            "id": "77739773-F605-49E8-A1F6-F5021872FB59",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "82A19F7B-7F8B-442D-B3AD-7ED4DDD494BB",
+            "name": "Skulptuuriprojekt I",
+            "eapCount": 3
+          },
+          {
+            "id": "103560B4-D195-47F0-9FB7-2F5CA2809260",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          },
+          {
+            "id": "4A965D42-9BFF-4776-910C-71C02B2EB0CC",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "5D3BF7E1-C8FA-40FA-8FEB-420DACE06BAE",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "BCF74FBC-4182-45E5-8EA1-CF87EE7AED4A",
+            "name": "3D modelleerimine. Baaskursus",
+            "eapCount": 3
+          },
+          {
+            "id": "B986F2AB-5587-453C-A4C4-24A412D23C70",
+            "name": "Modelleerimine. Analüütiline anatoomia",
+            "eapCount": 2
+          },
+          {
+            "id": "02D2E343-2E00-46FC-A08F-A39429033B91",
+            "name": "Toote/projekti esitlus",
+            "eapCount": 2
+          },
+          {
+            "id": "3D66CD24-141D-4D11-8370-750039D3772D",
+            "name": "Projektipraktika I",
+            "eapCount": 2
+          },
+          {
+            "id": "E5578F93-2592-46C3-B352-861374A05AF8",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "A00B7CA1-4D00-4CB3-82B7-32F1FBE1A92B",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "5E90B720-E104-49D1-BB65-AD62E25067FA",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "D37B5054-8861-4BA2-946C-9DAC0FABDCCA",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "1E6960D1-D418-4AD7-BEC9-06CE30E2D22C",
+            "name": "Skulptuuriprojekt II",
+            "eapCount": 3
+          },
+          {
+            "id": "A7ACE16B-C075-41BC-B110-FB879BF16010",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          },
+          {
+            "id": "A8BEDB17-A7D5-4032-BFAE-9675BB05E5B6",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          },
+          {
+            "id": "0060871F-9A78-4400-90E1-ECA999488F16",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          },
+          {
+            "id": "5B8F2D76-3D10-423D-B860-F5F6107CA58A",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "99A569BB-18BF-47E3-BD3E-13EE3921E5B4",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "649CDA14-ECD3-42A5-8222-E01F61BD8863",
+            "name": "Modelleerimine. Portree",
+            "eapCount": 2
+          },
+          {
+            "id": "C7CCE52C-258F-437D-BCD8-952E9A301BF2",
+            "name": "3D modelleerimine. Edasijõudnutele I",
+            "eapCount": 2
+          },
+          {
+            "id": "5F7286EE-54AF-4D4A-A554-93836EFBA74D",
+            "name": "Skulptuuriajalugu. Figuurikeskne skulptuur ajaloolises geneesis I",
+            "eapCount": 1
+          },
+          {
+            "id": "017E2FA0-024D-4152-BA37-1A37330992C3",
+            "name": "Ruum ja keskkond",
+            "eapCount": 2
+          },
+          {
+            "id": "0446B1AF-F769-4E10-88D0-1E6879AA2753",
+            "name": "Semiootika ja kommunikatsiooniteooria",
+            "eapCount": 2
+          },
+          {
+            "id": "B3BDEE37-3E59-43A7-B6D6-A418EC4E8A7D",
+            "name": "Tehnoloogiline praktikum. Kivi I",
+            "eapCount": 2
+          },
+          {
+            "id": "6F1F23C1-5982-42B2-9E8C-0A84FFAFEAD8",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          },
+          {
+            "id": "27845186-DECB-4D8A-B0CA-D721705293DB",
+            "name": "Maalimine II",
+            "eapCount": 3
+          },
+          {
+            "id": "901B8377-7654-4909-AC38-A9CF1BF658CB",
+            "name": "Skulptuuriprojekt III",
+            "eapCount": 3
+          },
+          {
+            "id": "5EB503A7-4B56-4419-AE66-CB6FEC7A5390",
+            "name": "3D printimine ja skanneerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "CCF3B994-72CC-4019-90CC-E0AC14B0ABF0",
+            "name": "Skulptuuritehnoloogiad ja -materjalid. Keraamika",
+            "eapCount": 2
+          },
+          {
+            "id": "B163F25F-E50D-4951-918F-75956480158D",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          },
+          {
+            "id": "60A7D40E-2704-4204-9CE1-D14AE5FC80A1",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          },
+          {
+            "id": "D27CE1DE-36C0-4E48-98E0-7AF699FDEBC7",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "E846A5B7-5A48-471B-A92B-C814F00C6AEC",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "7BFDCAFA-9951-495C-8801-A73431049E84",
+            "name": "3D modelleerimine. Edasijõudnutele II",
+            "eapCount": 2
+          },
+          {
+            "id": "F940260C-8B71-47D1-AE1B-9AB3743904BA",
+            "name": "Arhitektuuri alused",
+            "eapCount": 2
+          },
+          {
+            "id": "E50238DD-8FEA-48D5-A1F8-B143456435A5",
+            "name": "Erialane inglise keel II",
+            "eapCount": 2
+          },
+          {
+            "id": "FE06D39C-3468-4B09-B33A-2BA52BE487D5",
+            "name": "Skulptuuriajalugu. Figuurikeskne skulptuur ajaloolises geneesis II",
+            "eapCount": 1
+          },
+          {
+            "id": "3AC9BE89-2B69-47B7-8BEC-52BDC83288E2",
+            "name": "Modelleerimine. Vaba saviplastika ja reljeef",
+            "eapCount": 2
+          },
+          {
+            "id": "077D5C59-83C5-4972-8E82-825D7EB43424",
+            "name": "Materjalide identifitseerimise alused",
+            "eapCount": 2
+          },
+          {
+            "id": "118AFCD7-4CA8-4AF2-9ED8-EF251AFDDEBE",
+            "name": "Visuaalkultuur ja visuaalsemiootika",
+            "eapCount": 2
+          },
+          {
+            "id": "14A29C65-47C2-418B-AA79-324A72FF6BE1",
+            "name": "Projektipraktika II",
+            "eapCount": 2
+          },
+          {
+            "id": "94206666-094C-4838-B089-A8013A581063",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          },
+          {
+            "id": "51C36B0D-EFCA-4921-9216-CE9CA1C39573",
+            "name": "Skulptuuriprojekt IV",
+            "eapCount": 3
+          },
+          {
+            "id": "8094A5A4-165F-425D-8338-E8B237D16A5B",
+            "name": "Skulptuuritehnoloogiad ja -materjalid. Puit",
+            "eapCount": 1
+          },
+          {
+            "id": "35C9A378-9120-4CE0-853E-9CEEB2A01037",
+            "name": "Skulptuuritehnoloogiad ja -materjalid. Metallid, keevitus",
+            "eapCount": 2
+          },
+          {
+            "id": "8ED19D76-CE2A-4D2C-B995-58016BB66814",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          },
+          {
+            "id": "7EE2C251-3B70-419F-92D4-5D082AE364E9",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "697FEFE2-4F52-4C55-AA1C-631679AFE98E",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "12D089B1-76DE-4C6B-A225-6145BCE82FF1",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "967FFB7B-950F-41D5-8254-8DCD103FC8C7",
+            "name": "Erialane joonistamine",
+            "eapCount": 2
+          },
+          {
+            "id": "74571036-EBA6-4EF2-9DC5-76B30B3F8CCB",
+            "name": "Skulptuuriajalugu. Muutuv materiaalsus",
+            "eapCount": 2
+          },
+          {
+            "id": "5516323F-B87D-4E49-A811-2DFA60C8F016",
+            "name": "Modelleerimine. Inimkeha plastika I",
+            "eapCount": 2
+          },
+          {
+            "id": "1F9C591C-A62C-4F8E-A685-0AA62E7EDE23",
+            "name": "Kunstiteooriad ja -kriitika I",
+            "eapCount": 2
+          },
+          {
+            "id": "97F5AEAE-274C-4809-9DFA-85ACCF5E9A43",
+            "name": "Kultuuriväärtuste kaitse, restaureerimise filosoofia ja kutse-eetika",
+            "eapCount": 2
+          },
+          {
+            "id": "A26927F0-2827-4BA8-9928-C002F96D5777",
+            "name": "Tehnoloogiline praktikum. Kivi II",
+            "eapCount": 3
+          },
+          {
+            "id": "3741D9D5-5832-45DA-AC65-DDC76C454C99",
+            "name": "Skulptuuriprojekt V",
+            "eapCount": 3
+          },
+          {
+            "id": "373E7FF1-9C87-4054-8203-0AB77B00264E",
+            "name": "Skulptuuriprojekt 3D keskkonnas I",
+            "eapCount": 4
+          },
+          {
+            "id": "0BE58798-78F6-44EB-BDB1-535EB5F5D6FA",
+            "name": "Restaureerimisprojekt I",
+            "eapCount": 3
+          },
+          {
+            "id": "1291DFCD-9105-473B-B81D-E1C763BF1341",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          },
+          {
+            "id": "B50E1C91-4FD4-456F-98D3-857ABA082535",
+            "name": "Interdistsiplinaarne kunst*",
+            "eapCount": 3
+          },
+          {
+            "id": "EDE34A55-0429-4DA5-92F4-0867706A88F2",
+            "name": "Ettevõtlus 21.sajandi majanduses*",
+            "eapCount": 3
+          },
+          {
+            "id": "6507F35E-1791-4000-95B5-30B61EBA8D23",
+            "name": "Kunstipedagoogika*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "590121B0-2A23-49AA-8457-A4B5AFE14DE5",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "C95B29B1-FA68-4C54-AE85-44E9689400D3",
+            "name": "Skulptuuriajalugu. Dadast sürrealismini. Abstraktsus ja ruum",
+            "eapCount": 3
+          },
+          {
+            "id": "E0000E2F-DFE1-4820-AD3E-95328B1711FA",
+            "name": "Modelleerimine. Inimkeha plastika II",
+            "eapCount": 3
+          },
+          {
+            "id": "F950B37F-EEB3-4BC0-9759-09968FC0E540",
+            "name": "Tehnoloogiline praktikum. Metallide valutehnoloogiad",
+            "eapCount": 3
+          },
+          {
+            "id": "8179E3DA-0130-4E38-8FF7-3308720A35D5",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 6
+          },
+          {
+            "id": "A31DDE7E-9693-4C05-9D17-BABA9B735ED8",
+            "name": "Restaureerimisprojekt II",
+            "eapCount": 3
+          },
+          {
+            "id": "1C12B785-CBAF-45BD-ADE6-457E454EB8C7",
+            "name": "Skulptuuriprojekt VI",
+            "eapCount": 3
+          },
+          {
+            "id": "AE408A48-BF80-41C8-9272-A9DA7A563646",
+            "name": "Skulptuuriprojekt avalikku ruumi",
+            "eapCount": 2
+          },
+          {
+            "id": "E1A13C63-B3A8-4506-9E39-D157B03FB598",
+            "name": "Skulptuuriprojekt 3D keskkonnas II",
+            "eapCount": 4
+          },
+          {
+            "id": "E5D32CA7-DD3C-4D1D-9CFF-F0D7FA6B5795",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          },
+          {
+            "id": "30A89107-DFFA-4A0B-AB9B-B96709DDB603",
+            "name": "Valikplokk Kaasaegne kunst II*",
+            "eapCount": 3
+          },
+          {
+            "id": "2378DC59-4EB8-403B-A725-3548AF23BCD1",
+            "name": "Valikplokk pedagoogika II",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "087917F4-C9D4-4BF9-B52A-1791F949E6D6",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "D46DBEC4-445C-42E2-ADC6-65CD50D03D46",
+            "name": "Modelleerimine. Inimkeha plastika III",
+            "eapCount": 3
+          },
+          {
+            "id": "FB441C53-25D0-4E75-A9D1-53EB2C9808C7",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 9
+          },
+          {
+            "id": "36342D3D-FE64-461B-900D-DAEA4171CDC9",
+            "name": "Individuaalne praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "4AC4EB08-834A-4AEA-B337-E5090C7CF8B3",
+            "name": "Skulptuuriprojekt VII",
+            "eapCount": 3
+          },
+          {
+            "id": "D6873A7B-A77B-4BF0-AB6D-E5F8172C0F2F",
+            "name": "Erialane valikaine II",
+            "eapCount": 2
+          },
+          {
+            "id": "469F1FB5-801E-46A9-8ADF-E144DD656C74",
+            "name": "Ettevalmistus lõputööks",
+            "eapCount": 1
+          },
+          {
+            "id": "434BD74F-0446-4F87-AD81-6D845367F1FF",
+            "name": "Erialane valikaine I",
+            "eapCount": 2
+          },
+          {
+            "id": "700654B5-D0FA-4194-B9EF-481E4BD8A5B6",
+            "name": "Skulptuuritehnoloogiad ja -materjalid. Polüestervaigud",
+            "eapCount": 2
+          },
+          {
+            "id": "76CF2E16-483C-4C92-A655-C4F6C0A5BAF5",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "4FCF23A0-89C9-4116-9C31-CF5791DA294D",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "F86F95A2-A901-42FC-ABF5-59D941DE523E",
+            "name": "Portfoolio",
+            "eapCount": 2
+          },
+          {
+            "id": "2CFEB08F-203F-4A72-A57B-91961FBA6BF0",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "6581662A-AC2C-41C0-AE48-3418950CA93B",
+            "name": "Lõputöö praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "1B068CAC-1C9F-42C4-87C9-6510FAF3BB9B",
+            "name": "Erialane valikaine III",
+            "eapCount": 2
+          },
+          {
+            "id": "25A8BEA4-46A0-442E-B778-BC7871DB7AC3",
+            "name": "Skulptuuriprojekt VIII",
+            "eapCount": 3
+          },
+          {
+            "id": "186B8CD5-CEFC-49B8-91EC-E6F3A5E14A4D",
+            "name": "Erialane valikaine IV",
+            "eapCount": 2
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Omab ülevaadet skulptuurist, mõistab skulptuuri arengusuundumusi, funktsioone ja mõju ühiskonnas",
+      "Mõistab ümbritsevat kultuurikeskkonda nii Eestis kui rahvusvahelises mastaabis",
+      "On võimeline leidma loomingulisi ideid, kavandab ja loob isikupäraseid ja uuenduslikke lahendusi",
+      "Oskab kujundada ja teostada erialaseid tellimustöid lähtuvalt esteetilisest tervikust ja parimast loomingulisest tavast",
+      "Oskab koguda, selekteerida, analüüsida ja kriitiliselt hinnata erialast teavet ning reageerida ühiskondlikele protsessidele",
+      "Oskab erialase ülesande rakendamiseks leida sobivaid skulpturaalseid lahendusi, töövõtteid ja materjale",
+      "On algatus-, organiseerimis- ja planeerimisvõimeline, hea suhtleja, ettevõtlik, ja vastutustundlik, töötades püstitatud ülesannete täitmiseks nii individuaalselt kui ka meeskonnas",
+      "Mõistab ja rakendab kunstniku/ restauraatori ning tellija vahelist suhtlusprotsessi, suudab leida parima osapooli rahuldava lahenduse",
+      "Oskab end erialaselt väljendada nii suuliselt kui ka kirjalikult eesti keeles ja vähemalt ühes võõrkeeles",
+      "Suhtub sallivalt erinevatesse kultuuridesse, hoiakutesse ja väärtushinnangutesse",
+      "On sotsiaalselt tundlik ja aktiivne sekkuma ühiskonna loovteadvuse kujundamisel ning väärtustab elitaarset kultuuri rahvuskultuuri varamust lähtudes",
+      "Oskab rakendada oma teadmisi ja oskusi töövõtja ja tööandjana",
+      "On valmis loovaks pidevaks enesearenduseks ja elukestvaks õppeks"
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "2749AC2F-C68C-44D8-80B2-8C1A6DD894FD",
+        "term": "Keskharidust tõendav dokument"
+      },
+      {
+        "id": "989E5790-9E93-4CF4-84F4-2F037863B548",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Skulptuur",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tartu"
+    ],
+    "id": "E06AF8A5-E4BB-4766-B3D3-2519610E5A96",
+    "description": [
+      "Osakonna eesmärk on arendada tekstiilikunsti ja -disaini valdkonda Eestis, õppekava on laiapõhjaline ja sisaldab ka moe valdkonna aineid. Tekstiili õppekava on loodud 1993. aastal, osakonna looja ja arendaja on osakonnajuhataja professor Aet Ollisaar.",
+      "Oluliseks peetakse nii individuaalseid oskusi kui ka valdkondadeülest koostööd, üliõpilastele luuakse võimalus osaleda erinevates projektides ja täiendada oma oskusi praktikatel nii Eestis kui välismaal. Tekstiiliosakonna üliõpilaste initsiatiivil toimub järjepidevalt moeprojekt Mood-Performance-Tants, koostöös mööbliosakonnaga osaletakse rahvusvahelistel mööblimessidel Stockholmis ja Londonis."
+    ],
+    "eap": 240,
+    "spots": 10,
+    "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/tekstiil/",
+    "personnel": [
+      {
+        "email": "kadi.pajupuu@pallasart.ee",
+        "id": "A4D3D5AF-6E29-42C2-9F8C-2FAEDA912005",
+        "title": "Professor",
+        "name": "Kadi Pajupuu"
+      },
+      {
+        "email": "kairi.lentsius@pallasart.ee",
+        "id": "551D0C37-4FBE-4024-B079-795DC16EDE56",
+        "title": "Moedisaini lektor",
+        "name": "Kairi Lentsius"
+      },
+      {
+        "email": "liina.kool@pallasart.ee",
+        "id": "204B1F21-6D64-4657-812B-724558A9BE6A",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727309825",
+        "name": "Liina Kool"
+      },
+      {
+        "email": "marju.roos@pallasart.ee",
+        "id": "4D1608FD-D3B7-4017-9376-F4B561D576C1",
+        "title": "Osakonnajuhataja abi",
+        "phone": "+3727309825",
+        "name": "Marju Roos"
+      },
+      {
+        "email": "aet.ollisaar@pallasart.ee",
+        "id": "D3D558A1-6773-45A2-AE09-72DCA20E8E65",
+        "title": "Osakonna juhataja",
+        "phone": "+3727309825",
+        "name": "Aet Ollisaar"
+      }
+    ],
+    "type": "kunstid",
+    "modules": [
+      {
+        "id": "41A2AFE3-CA14-4366-A39B-A112A5BE4EBB",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "8D1084C6-D7E0-4C81-921F-951AA098C2BE",
+            "name": "Eriala alused. Struktuur ja materjal",
+            "eapCount": 2
+          },
+          {
+            "id": "FD8C7E98-67D1-41B0-824F-CB679934A2DE",
+            "name": "Eriala alused. Kavandamise tehnikad",
+            "eapCount": 2
+          },
+          {
+            "id": "FBDA64FF-15DC-4F62-88EF-EB193885D72D",
+            "name": "Eriala alused. Materjaliõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "8CC4C720-A541-418A-8947-3037974FFC81",
+            "name": "Eriala alused. Sissejuhatus erialasse",
+            "eapCount": 2
+          },
+          {
+            "id": "DA893E8C-4FF6-4F28-BBA0-3E62984D1F46",
+            "name": "Disaini alused",
+            "eapCount": 2
+          },
+          {
+            "id": "7C3108AE-1224-4F5D-BDA9-5B420C5FA79E",
+            "name": "Eriala alused. Õmblustehnoloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "B16198E6-B0F6-4782-BC14-139A65D28D21",
+            "name": "Kunstiajalugu IV. Rahvakunsti alused",
+            "eapCount": 1
+          },
+          {
+            "id": "CAA0FED9-2217-4715-88ED-E63F3F26B82B",
+            "name": "Üldkompositsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "21FD455E-9837-48C0-A27F-EE799734107A",
+            "name": "Skulptuur",
+            "eapCount": 2
+          },
+          {
+            "id": "DFAEB828-4CEB-48E4-A7C6-5283883A1E44",
+            "name": "Fotograafia alused",
+            "eapCount": 2
+          },
+          {
+            "id": "AAC1B591-6A11-4CA2-9B64-DB1B2EF3B895",
+            "name": "Vektor- ja pikselgraafika",
+            "eapCount": 2
+          },
+          {
+            "id": "4793FFFE-3284-483E-9D3B-40857BDF405D",
+            "name": "Värvusõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "201D2D32-0DC4-4C73-8129-07A74B9B2D86",
+            "name": "Joonistamine I",
+            "eapCount": 3
+          },
+          {
+            "id": "A2AD700C-D13E-42BC-BE0D-17A2C9897BAE",
+            "name": "Kunstiajalugu I",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "820C0FB7-5872-4D8C-BCF9-B95B95FF6EEA",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "456CB022-7D94-451F-90D9-861D9B070764",
+            "name": "Eriala alused. Esitlustehnikad",
+            "eapCount": 2
+          },
+          {
+            "id": "01F27565-D905-414C-8E6F-6ECB33FDA7D8",
+            "name": "Põrandavaip. Kangakudumise tehnoloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "1F77B3D7-5AC5-4224-988E-C7EB56FE013E",
+            "name": "Eriala alused. Kangakujundustehnikad",
+            "eapCount": 2
+          },
+          {
+            "id": "D5C4B57B-1290-4A08-BC69-19B8CA09E002",
+            "name": "Põrandavaip. Eriala projekt",
+            "eapCount": 3
+          },
+          {
+            "id": "6D515087-D4E9-4163-8252-E1F2B96BAC95",
+            "name": "Toote/projekti esitlus",
+            "eapCount": 2
+          },
+          {
+            "id": "A6A4524B-3F20-4A31-80C3-FD23EE13ECF4",
+            "name": "Kunsti geomeetria",
+            "eapCount": 2
+          },
+          {
+            "id": "72D95B95-B191-4347-8649-8C970395C89B",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus I",
+            "eapCount": 2
+          },
+          {
+            "id": "445B57C8-9A0B-431C-80E0-BC39C81580A7",
+            "name": "Joonistamine II",
+            "eapCount": 3
+          },
+          {
+            "id": "03633E76-E8B3-4FCE-A7F5-9A700053DD9A",
+            "name": "Vormiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "109E0FB3-1462-4566-B76E-F0EB0831BDAC",
+            "name": "Maalimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "87ECBB3F-6F4C-4E7A-A70F-2F344FAD4AE7",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "88512CEB-E177-4179-8CF0-070E0EBECBA8",
+            "name": "Erialane inglise keel I",
+            "eapCount": 2
+          },
+          {
+            "id": "C984E770-132B-43BD-B3EB-43BC046E5535",
+            "name": "Kunstiajalugu II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "D89CB731-01AB-4785-8D25-595A7EB5A7D0",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "CE73CE2C-C980-4475-99AB-FE23C7AC43BA",
+            "name": "Eriala alused. Inglise keel",
+            "eapCount": 2
+          },
+          {
+            "id": "6D9AABFA-D258-431A-9670-B66E4A5F0034",
+            "name": "Disaini ajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "1D88C3A8-4F63-40D4-B26B-6E69883B60E0",
+            "name": "Ruum ja keskkond",
+            "eapCount": 2
+          },
+          {
+            "id": "9FB9E029-008D-4A93-A69E-98D782617D2E",
+            "name": "Autorikanga disain. Käsitafting",
+            "eapCount": 2
+          },
+          {
+            "id": "6225A4D9-1C5F-4EC3-8E45-2241CF5E44C8",
+            "name": "Autorikanga disain. Digitikand",
+            "eapCount": 2
+          },
+          {
+            "id": "ECEC587C-4C5F-49D5-B815-364F77B9EA80",
+            "name": "Autorikanga disain. Telgedel kootud autorikangas",
+            "eapCount": 4
+          },
+          {
+            "id": "9E52FE0F-DC3D-424F-840A-D27959B733E5",
+            "name": "Eriala alused. Tekstiiliajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "E16D2309-0DDF-4E83-A363-47A83A830F7F",
+            "name": "Materjalitöötluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "3138C3CF-5468-48A2-9720-D4F6A4D16330",
+            "name": "Kunstiajalugu III",
+            "eapCount": 2
+          },
+          {
+            "id": "444C7970-565C-4E58-838A-693439BA9598",
+            "name": "Maalimine II",
+            "eapCount": 3
+          },
+          {
+            "id": "7CAC4674-72EC-4211-9297-C4B926C62ADE",
+            "name": "Filosoofia I",
+            "eapCount": 2
+          },
+          {
+            "id": "542FEE71-2818-42A2-9858-88B0DF89358A",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus II",
+            "eapCount": 2
+          },
+          {
+            "id": "08F7EC13-C6CF-45EC-809D-D3E8221B5370",
+            "name": "Joonistamine III",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "BEDD5E3C-EB47-4518-BB12-018522FB002C",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "9C616A60-1836-4D6A-8884-3B3EF45FE680",
+            "name": "Moeprojekt. Moeajalugu",
+            "eapCount": 2
+          },
+          {
+            "id": "4A1F48E0-ED90-4787-A757-C9D800A813CA",
+            "name": "Moeprojekt. Kollektsiooni planeerimine",
+            "eapCount": 3
+          },
+          {
+            "id": "A3217E46-2829-4FCB-8126-22D372CE1EDE",
+            "name": "Trükitekstiil. Trükitehnoloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "4BE5F24F-9D36-413A-B539-D44B407613A5",
+            "name": "Trükitekstiil. Erialaprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "B410B3C4-3390-44A8-8327-8DCC7EF350C9",
+            "name": "Disain ja innovatsioon",
+            "eapCount": 2
+          },
+          {
+            "id": "1F41E4B0-65D9-4719-B24E-BF94173AC8AD",
+            "name": "Visuaalkultuur ja visuaalsemiootika",
+            "eapCount": 2
+          },
+          {
+            "id": "1C1D2357-1DEC-43EF-9593-9B8589C54F0A",
+            "name": "Joonistamise jätkukursus. Moeillustratsioon",
+            "eapCount": 1
+          },
+          {
+            "id": "C39251AA-C2C3-4EE3-9209-C8A3D02A26AB",
+            "name": "Moeprojekt. Moetoote tehnoloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "F6394858-13AF-44AB-9E85-B70C7DB40316",
+            "name": "Ettevõtluse alused",
+            "eapCount": 2
+          },
+          {
+            "id": "67C40F9B-6BE0-458C-BC51-C11950B09A50",
+            "name": "Pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "A0830D23-D920-4D47-8538-C352DE176180",
+            "name": "Kaasaegne kunst",
+            "eapCount": 2
+          },
+          {
+            "id": "008DBC76-F517-484A-8D1F-0CE2DFF580A9",
+            "name": "Joonistamine IV",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "05141027-A5E4-491E-900F-102F4FB76A50",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "BA067771-FD9E-4D89-A0FC-65805D2CB4FE",
+            "name": "Joonistamise jätkukursus. Vabajoonistus",
+            "eapCount": 2
+          },
+          {
+            "id": "DC5931A4-125A-4891-985A-ED1A643BAA05",
+            "name": "Turundus",
+            "eapCount": 2
+          },
+          {
+            "id": "0CF3639D-7D5F-4A43-A7BA-860D9800CCD5",
+            "name": "Kollektsiooni loomine. Silmuskudumine masinal",
+            "eapCount": 3
+          },
+          {
+            "id": "78DB5FFE-EA12-4F05-8C95-FA4FADD7C7FB",
+            "name": "Kollektsiooni loomine. Erialaprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "FB623C3A-D101-4851-887B-7C2B413B0957",
+            "name": "Sisustusprojekt. Erialased arvutiprogrammid",
+            "eapCount": 2
+          },
+          {
+            "id": "8766C8C1-22ED-4598-883C-5355409A1D2D",
+            "name": "Sisustusprojekt. Tekstiil ruumis",
+            "eapCount": 2
+          },
+          {
+            "id": "4F5D8DF6-4449-4D5F-A6DC-3A8D4808F369",
+            "name": "Kaasaegse tekstiilikunsti väljendusvahendid. Kaasaegne tekstiilikunst",
+            "eapCount": 2
+          },
+          {
+            "id": "243C2871-0D80-48E0-A8ED-6FFE7C1090CC",
+            "name": "Maalimise jätkukursus",
+            "eapCount": 2
+          },
+          {
+            "id": "ACF6D7BD-F0D7-418F-8968-F2A2E8FE5C7F",
+            "name": "Kaasaegse tekstiilikunsti väljendusvahendid. Erialaprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "09B542DD-1804-4439-97C1-C3C26ADABFE8",
+            "name": "Messi/näitusepraktika",
+            "eapCount": 3
+          },
+          {
+            "id": "4578FBA3-CBB1-40A4-8695-7EA251B257C5",
+            "name": "Interdistsiplinaarne kunst",
+            "eapCount": 3
+          },
+          {
+            "id": "DE476DF8-9989-4A16-81DA-3DE250949CEF",
+            "name": "Kunstipedagoogika",
+            "eapCount": 3
+          },
+          {
+            "id": "8E6BA9E6-D1AA-43A4-94C7-E460C05D0AC4",
+            "name": "Ettevõtlus 21.sajandi majanduses",
+            "eapCount": 3
+          },
+          {
+            "id": "EC001DEB-998B-4D6D-8B27-9192FF821519",
+            "name": "Filosoofia II",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "8C392567-A800-423F-B2F4-5A4E803960C2",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "4C31E20A-15BC-4031-8F40-6C6BC355CA6D",
+            "name": "Piltvaip. Kudumistehnikad",
+            "eapCount": 2
+          },
+          {
+            "id": "99763E0B-744E-4316-BC0A-4CC5C1C3B4B0",
+            "name": "Tootearendus. Tootefoto stilistika",
+            "eapCount": 2
+          },
+          {
+            "id": "9BC14E7F-D1BD-4856-9732-3734C6B1874E",
+            "name": "Autorikursus.Digitaalne žakaartelg",
+            "eapCount": 2
+          },
+          {
+            "id": "3CC6CED1-AD77-4514-9061-629746161CAE",
+            "name": "Piltvaip. Erialaprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "5EFBC635-2FE5-4094-A05F-1BDE11CA53E4",
+            "name": "Praktika töökeskkonnas I",
+            "eapCount": 9
+          },
+          {
+            "id": "56016D0D-BF29-4D04-95FE-CDD5705127D6",
+            "name": "Valikplokk pedagoogika II*",
+            "eapCount": 3
+          },
+          {
+            "id": "D2BB079C-9B5B-44EA-9314-772C3D7B3829",
+            "name": "Valikplokk ettevõtlus II*",
+            "eapCount": 3
+          },
+          {
+            "id": "2F0938B8-C9BE-4DBB-90D4-6CEDA0172C61",
+            "name": "Valikplokk Kaasaegne kunst II*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "52F4E638-0CB6-4C8A-A8FE-4618E9927930",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "220F8746-A46F-427E-ADE1-5A54E468A81E",
+            "name": "Autorikursus. Tikand",
+            "eapCount": 2
+          },
+          {
+            "id": "F810C0C4-4178-449C-B9CC-CBE1A9B3E183",
+            "name": "Tootearendus. Kestlikud materjalid",
+            "eapCount": 2
+          },
+          {
+            "id": "27814CFB-4E8A-4C0C-80D5-A07EC9F863A4",
+            "name": "Ettevalmistus lõputööks. Projekti planeerimine",
+            "eapCount": 2
+          },
+          {
+            "id": "912BA59A-C991-49AE-8577-B156C5571BFD",
+            "name": "Tootearendus. Erialaprojekt",
+            "eapCount": 3
+          },
+          {
+            "id": "67D1F80B-B23A-4EE4-A269-C1C4182C46EA",
+            "name": "Autorikursus. Eriprojekt",
+            "eapCount": 2
+          },
+          {
+            "id": "6C86F843-6084-40F3-90E0-F7EA6BCF8EA5",
+            "name": "Praktika töökeskkonnas II",
+            "eapCount": 6
+          },
+          {
+            "id": "A2464413-3BB0-4074-88C1-0421FE7BEED5",
+            "name": "Projektipraktika",
+            "eapCount": 4
+          },
+          {
+            "id": "5DA4B8CE-B78C-4829-BE6F-C46BA1134B90",
+            "name": "Koopiapraktika",
+            "eapCount": 4
+          },
+          {
+            "id": "2B0E2EAD-59FC-4F46-933C-30903AA0AEA4",
+            "name": "Eesti keel. Suuline ja kirjalik eneseväljendus III",
+            "eapCount": 1
+          }
+        ]
+      },
+      {
+        "id": "05A795B8-0237-461F-B9BB-64C241FF7C1C",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "9F00AF3A-DB9F-4CF5-8246-92B6B1ED3376",
+            "name": "Ettevalmistus lõputööks. Eesti kaasaegne tekstiil",
+            "eapCount": 2
+          },
+          {
+            "id": "A17DE4E3-2357-4D3E-8E94-B0A270AAB216",
+            "name": "Erialane valikaine",
+            "eapCount": 2
+          },
+          {
+            "id": "66C46A53-695E-4BDF-8BD9-31870169188D",
+            "name": "Erialane valikaine",
+            "eapCount": 2
+          },
+          {
+            "id": "4D29C7C7-6BBA-4EFD-AEF3-EFDE73D783A6",
+            "name": "Ettevalmistus lõputööks. Portfoolio",
+            "eapCount": 2
+          },
+          {
+            "id": "031C0EB7-668B-4911-9F4D-AE527D35284D",
+            "name": "Lõputöö",
+            "eapCount": 14
+          },
+          {
+            "id": "49693D83-840C-4DC2-BBC4-29606B696B22",
+            "name": "Lõputöö praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "3DAC8F52-0D9C-481C-83BE-5851714BC86C",
+            "name": "Vaatluspraktika",
+            "eapCount": 2
+          },
+          {
+            "id": "7F353D2B-251F-43DB-9888-9E4D9B0292AB",
+            "name": "Individuaalne praktika",
+            "eapCount": 3
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On oma eriala professionaalsel tasemel valdav spetsialist, kes orienteerub erialavaldkonna teoreetilistes käsitlustes ja rakendusvõimalustes",
+      "Tunneb valdkonna traditsioone ja mõistab selle arengusuundumusi nüüdisaegses kontekstis",
+      "Omab süsteemseid teadmisi ja oskusi eriala valdkonnas",
+      "Oskab püstitada eesmärke ja valida töömeetodeid disaineri või kunstnikuna töötades, arvestada sihtgrupi ja tellija vajadustega",
+      "Tunneb erialast terminoloogiat ja oskab ennast suuliselt ning kirjalikult väljendada eesti keeles ja ühes võõrkeeles",
+      "Oskab seostada erialaseid probleeme laiemalt kultuurikeskkonnaga ja rakendada uurimistöö põhimõtteid loominguliste projektide taustauuringuteks",
+      "On võimeline planeerima oma tegevust ja viima ellu projekte ideest lõpptulemuseni, tehes vajadusel koostööd teiste valdkondade spetsialistidega",
+      "On algatusvõimeline ja vastutustundlik nii üksi kui ka meeskonnas töötades",
+      "Mõistab ühiskonna arenguprotsesse ja on võimeline seostama oma loomingut aktuaalsete teemadega",
+      "Oskab näha erinevate valdkondade vahelisi seoseid",
+      "On süvendanud oma oskusi erialastes projektides osaledes ning kujundanud välja oma eelistused erialase töö suuna valikul",
+      "Omab vajalikke eeldusi töötamaks kunstniku ja disainerina tekstiili ja moe valdkonnas",
+      "On valmis erialaste õpingute jätkamiseks tasemeõppes ja elukestvaks õppeks"
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "D93E1E1E-23D8-4FE9-9929-31F3AC06CC9D",
+        "term": "Keskharidust tõendav dokument"
+      },
+      {
+        "id": "9B1F9255-99BA-444F-A9C0-68CAA1913691",
+        "term": "Sisseastumiskatse"
+      }
+    ],
+    "name": "Tekstiil",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  }
+]

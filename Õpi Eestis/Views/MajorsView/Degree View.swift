@@ -1,95 +1,101 @@
 import SwiftUI
+import MessageUI
 
 struct DegreeView: View {
-    @EnvironmentObject var theme: Theme
     let school: School
     let education: [majorsMinors]
-    @State var selectedLevel = Locale.degrees.allMajors
-    @State var navBarTitle = Locale.degrees.allMajors
+    @State var selectedLevel = OEAppearance.Locale.degrees.allMajors
     @State var searchText = ""
     @State var isAscending = false
     @State var isSearching = false
+    
+    @ObservedObject var presenter = UserDefaultManager()
+    @State var favorites = [majorsMinors]()
     var body: some View {
         ZStack{
             Color.whiteDim1.ignoreEdges(edge: .bottom)
             VStack(spacing: 0){
                 VStack(spacing: 0){
-                    VStack{
-                        if isSearching {
-                            VStack{
-                                SearchNavBar(text: $searchText, placeholder: Locale.search.searchPlaceholder)
-                            }.frame(height: 40)
-                            .background(Color.gray.opacity(0.2))
-                            .cornerRadius(10)
-                            .padding(.horizontal)
-                            .padding(.bottom, 20)
-                            .background(Color.white)
-                        }
+                    if isSearching {
+                        SearchNavBar(text: $searchText)
                     }
-                    
-                   
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack(spacing: 0){
                             ForEach(levels()) { item in
-                                Button(action: { didSelectLevel(level: item) }) {
-                                    SelectionView(item: item, color: theme.colorTheme, isSearching: $isSearching, selectedLevel: $selectedLevel)
+                                Button(action: {
+                                    didSelectLevel(level: item)
+                                }) {
+                                    SelectionView(school: school, item: item, isSearching: $isSearching, selectedLevel: $selectedLevel)
                                 }
                             }
-                        }.padding(.horizontal, 10)
-                    }.background(Color.white)
-                    Divider().background(Color.dimGray)
-                }
+                        }
+                        .padding(.horizontal)
+                        .padding(.top, 5)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                    }
+                    Divider().background(Color.mediumGray)
+                }.background(Color.white)
+                
                 ScrollView{
                     VStack(spacing: 0){
                         ForEach(selectedMajors()) { item in
-                            NavigationLink(destination: MajorView(major: item, school: school)) {
-                                MajorCell(item: item, color: theme.colorTheme)
-                            }.simultaneousGesture(
-                                TapGesture()
-                                    .onEnded { _ in
-                                        isSearching = false
-                                        searchText = ""
-                                    }
-                            )
+                            let isFavorite: Bool = favorites.contains(item)
+                            NavigationLink(destination: MajorView(isFavorite: isFavorite, major: item, school: school)) {
+                                MajorCell(item: item, school: school, isFavorite: isFavorite)
+                            }
                         }
-                    }
+                    }.padding(.top)
                 }
             }
-        }.background(Color.white)
-        .navigationBarTitle(Text(navBarTitle), displayMode: .automatic)
-        .navigationBarItems(
-            trailing: HStack{
-                Button(action: { isSearching.toggle() }) {
-                    navBarImage(image: .magnifyingGlass, color: theme.colorTheme)
-                }
-                Button(action: { order() }) {
-                    navBarImage(image: .flip, color: theme.colorTheme)
-                }
-            }
-        )
+        }
+        .toolbar{
+            AppToolbarItem(.dismiss, color: school.color)
+            AppToolbarItem(.sort(toggle: $isAscending), color: school.color)
+            AppToolbarItem(.search(toggle: $isSearching), color: school.color)
+            AppToolbarItem(.logo(school: school), color: school.color)
+        }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
+        .onAppear{
+           favorites = presenter.retrieveFavorites(school: school.name)
+        }
+        .onDisappear{
+            isSearching = false
+            searchText = ""
+        }
     }
 }
 
 extension DegreeView {
     
     private struct SelectionView: View {
+        let school: School
         let item: SelectedLevel
-        let color: Color
         @Binding var isSearching: Bool
         @Binding var selectedLevel: String
         
         var body : some View {
-            Text(item.title)
-                .font(.regularCallout)
-                .padding(.horizontal, 12)
-                .padding(.vertical, 8)
-                .foregroundColor(selectedLevel == item.level.rawValue ? .white : .black)
-                .background(selectedLevel == item.level.rawValue ? color : .white)
-                .clipShape(Capsule())
-                .padding(.bottom, 10)
+            VStack(spacing: 3) {
+                Text(item.title)
+                    .font(.mediumBody)
+                    .padding(.horizontal, 12)
+                    .padding(.top, 8)
+                    .foregroundColor(selectedLevel == item.level.rawValue ? school.color : .black)
+                if selectedLevel == item.level.rawValue {
+                    Rectangle()
+                       .frame(width: 65, height: 3)
+                       .foregroundColor(school.color)
+                       .cornerRadiusCustom(50, corners: [.topLeft, .topRight])
+                } else {
+                    VStack{
+                        
+                    } .frame(width: 65, height: 3)
+                       
+                }
+            } 
         }
     }
-
+    
     private struct SelectedLevel: Identifiable {
         var id = UUID()
         var title: String
@@ -130,25 +136,25 @@ extension DegreeView {
             return level.level == levelchoice.kutseharidus
         })
         
-        selectedLevels.append(SelectedLevel(title: Locale.degrees.allMajors, level: .allLevels, majors: education))
+        selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.allMajors, level: .allLevels, majors: education))
         
         if !kutse.isEmpty {
-            selectedLevels.append(SelectedLevel(title: Locale.degrees.kutse, level: .kutseharidus, majors: kutse))
+            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.kutse, level: .kutseharidus, majors: kutse))
         }
         if !applied.isEmpty {
-            selectedLevels.append(SelectedLevel(title: Locale.degrees.applied, level: .applied, majors: applied))
+            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.applied, level: .applied, majors: applied))
         }
         if !bachelor.isEmpty {
-            selectedLevels.append(SelectedLevel(title: Locale.degrees.bachelors, level: .bachelor, majors: bachelor))
+            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.bachelors, level: .bachelor, majors: bachelor))
         }
         if !integrated.isEmpty {
-            selectedLevels.append(SelectedLevel(title: Locale.degrees.integrated, level: .integrated, majors: integrated))
+            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.integrated, level: .integrated, majors: integrated))
         }
         if !masters.isEmpty {
-            selectedLevels.append(SelectedLevel(title: Locale.degrees.masters, level: .masters, majors: masters))
+            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.masters, level: .masters, majors: masters))
         }
         if !doctor.isEmpty {
-            selectedLevels.append(SelectedLevel(title: Locale.degrees.doctor, level: .doctor, majors: doctor))
+            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.doctor, level: .doctor, majors: doctor))
         }
         
         
@@ -157,7 +163,7 @@ extension DegreeView {
     
     func selectedMajors() -> [majorsMinors] {
         var majors: [majorsMinors]
-        if selectedLevel == Locale.degrees.allMajors {
+        if selectedLevel == OEAppearance.Locale.degrees.allMajors {
             majors = education
         } else {
             majors = education.filter({ $0.level.rawValue == selectedLevel.lowercased()})
@@ -175,7 +181,6 @@ extension DegreeView {
     
     private func didSelectLevel(level: SelectedLevel) {
         selectedLevel = level.level.rawValue
-        navBarTitle = level.title
     }
 }
 

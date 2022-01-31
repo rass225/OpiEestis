@@ -1,0 +1,1279 @@
+[
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "518EB8EF-7B90-49F0-AD3F-A8C6527F7890",
+    "description": [
+      "Tolli ja maksunduse eriala eesmärk on anda üliõpilastele vajalikud teadmised ja oskused tulemaks toime finants-, maksu- ja tolliametniku tööga kaasaegsed ühiskonnas ning toetada üliõpilastel lojaalseks, oma eriala väärtustavaks ja kliendikeskseks finants-, maksu- ja/või tolliametnikuks kujunemist. Tolli ja maksunduse eriala lõpetanu saab finantskolledžist kaasa universaalsed ja laialdased teadmised asumaks tööle ametnikuna finantsvaldkonnas nii avalikus kui ka erasektoris."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_toll_maksundus",
+    "type": "Finantskolledž",
+    "modules": [
+      {
+        "id": "F6F87EA1-AE85-4E8E-B782-94C5D02DB660",
+        "name": "Üldõpe",
+        "courses": [
+          {
+            "id": "C250E00B-D6F8-4CAB-9065-CAB8F24FDE20",
+            "name": "Siseturvalisus ja kiirreageerimine",
+            "eapCount": 4
+          },
+          {
+            "id": "8D479573-2461-4F19-B87D-2D4FE48D29C1",
+            "name": "Õiguse õpetus",
+            "eapCount": 8
+          },
+          {
+            "id": "86ACA6C6-C736-4073-9679-97C26DC8BB4E",
+            "name": "Kirjalik ja suuline eneseväljendamine",
+            "eapCount": 4
+          },
+          {
+            "id": "C8A0544B-5078-465E-A4D8-5550BF07E5FC",
+            "name": "Enese ja teiste juhtimine ning sotsiaalne kompetentsus",
+            "eapCount": 4
+          },
+          {
+            "id": "028DEF30-EB55-4D1E-B3E4-C5177D579F77",
+            "name": "Üldõpingute valikmoodul ",
+            "eapCount": 10
+          }
+        ]
+      },
+      {
+        "id": "2164FE0A-6804-45EB-BC30-8FAFD853A8A4",
+        "courses": [
+          {
+            "id": "AA285446-DB4C-4EB8-9837-A5EE84E30799",
+            "name": "Ettevõtluskeskkond",
+            "eapCount": 7
+          },
+          {
+            "id": "F2ED86BD-FA12-4D97-8CE3-22A9889BB807",
+            "name": "Ettevõtlustegevuse nõustamine",
+            "eapCount": 20
+          }
+        ],
+        "name": "Erialaõpingud",
+        "submodules": [
+          {
+            "id": "CD447507-EFDE-4D00-95BE-139CB148C80F",
+            "name": "Keeleõpe",
+            "courses": [
+              {
+                "id": "CAB0B305-46B9-4EBC-A6C8-00BA9C033361",
+                "name": "Erialane eesti keel",
+                "eapCount": 3
+              },
+              {
+                "id": "FC691F20-1046-4D77-80DD-4BF27F088F64",
+                "name": "Erialane vene keel",
+                "eapCount": 3
+              },
+              {
+                "id": "8E239023-8984-4841-9C1E-02014FC8A337",
+                "name": "Erialane inglise keel",
+                "eapCount": 3
+              }
+            ]
+          },
+          {
+            "id": "EA548877-3044-4BBB-955F-3C302EF08478",
+            "name": "Maksu- ja tollinõustamine",
+            "courses": [
+              {
+                "id": "7C6A8B4B-FA5C-4684-BDB7-5F8E9F4E9CBC",
+                "name": "Maksu- ja tollinõustamine I",
+                "eapCount": 10
+              },
+              {
+                "id": "257BF687-E63F-4F50-8CC7-1AF1E68E387E",
+                "name": "Maksu- ja tollinõustamine II",
+                "eapCount": 10
+              }
+            ]
+          },
+          {
+            "id": "9205A862-95F2-45E2-AE2C-0ACC3A5B3736",
+            "name": "Maksud ja maksustamine",
+            "courses": [
+              {
+                "id": "47A3AA71-F89D-4469-A81D-A5BB8E8BA982",
+                "name": "Maksud ja maksustamine I",
+                "eapCount": 11
+              },
+              {
+                "id": "D37C0211-573B-4CB4-841F-733AD1FC4953",
+                "name": "Maksud ja maksustamine II",
+                "eapCount": 10
+              },
+              {
+                "id": "8A267068-AB09-4C95-BA4F-52E944213362",
+                "name": "Maksud ja maksustamine III",
+                "eapCount": 4
+              }
+            ]
+          },
+          {
+            "id": "692BD41D-96B4-42D2-8E36-21B74BFFAE9D",
+            "name": "Praktikad",
+            "courses": [
+              {
+                "id": "769B3036-7AC6-450E-ADD0-8941F5349642",
+                "name": "Tutvumispraktika",
+                "eapCount": 3
+              },
+              {
+                "id": "E9C7BA12-8F3D-4358-A1C7-A5FEE66CCD2C",
+                "name": "Ettevõtluspraktika",
+                "eapCount": 10
+              },
+              {
+                "id": "D7072AE3-E7AC-4096-B54C-DCE5A21F6FF3",
+                "name": "Ametipraktika",
+                "eapCount": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CE56F722-EF99-4BC6-A65D-FF736B53F616",
+        "courses": [
+          {
+            "id": "D0CC520E-EE00-4213-B29D-7BB92E284AE0",
+            "name": "Maksujärelvalve",
+            "eapCount": 23
+          },
+          {
+            "id": "F289650E-72C7-433C-84BE-506D5DFAA9B8",
+            "name": "Tollijärelvalve",
+            "eapCount": 23
+          }
+        ],
+        "name": "Süvaõppesuunad",
+        "submodules": [
+          {
+            "id": "1AA6451A-91D3-446C-83A1-917276CE3A77",
+            "name": "Erialased valikained",
+            "courses": [
+              {
+                "id": "F66B84E9-5D3E-4738-BAC9-F641B980B26E",
+                "name": "Maksuõiguse aktuaalsed probleemid ",
+                "eapCount": 3
+              },
+              {
+                "id": "46318036-41F9-4D54-880C-56DD9166F314",
+                "name": "Tolliõiguse aktuaalsed probleemid (inglise keeles) ",
+                "eapCount": 3
+              },
+              {
+                "id": "0DAA8DA3-1D64-48E8-85EE-C3C9A4B483A9",
+                "name": "Euroopa Liidu rahandus (inglise keeles",
+                "eapCount": 3
+              },
+              {
+                "id": "B755A764-6F55-4135-A951-9989C0E7C2F9",
+                "name": "Rahvusvaheline koostöö ",
+                "eapCount": 3
+              },
+              {
+                "id": "D36954AF-81B6-4AD7-95E7-9D2320DE0E63",
+                "name": "Sissejuhatus erialasesse vene keelde",
+                "eapCount": 2
+              },
+              {
+                "id": "F52E1146-7A96-4056-87DE-B36BCF2764EC",
+                "name": "Maksualaste süütegude menetlemine kohtupraktikas ",
+                "eapCount": 3
+              },
+              {
+                "id": "3113C7EB-A31E-45EE-9B9A-B687BB19F94E",
+                "name": "Praktika välisriigis ",
+                "eapCount": 6
+              }
+            ]
+          },
+          {
+            "id": "E64CFC7B-74AA-4EE0-9E0F-2F769CE1DE00",
+            "name": "Lõputöö",
+            "courses": [
+              {
+                "id": "52265234-4E1B-4470-B0CB-B08BEEA69A79",
+                "name": "Teadustöö metodoloogia",
+                "eapCount": 3
+              },
+              {
+                "id": "9CB71B93-5FE0-49B9-8E5D-045B96966A1A",
+                "name": "Lõputöö",
+                "eapCount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Tolli ja maksunduse õppekava lõpetamisel üliõpilane:",
+      "Mõistab ühiskonna, Euroopa Liidu, riigi ja avaliku halduse toimimise alused",
+      "Teab ametniku õigusi ja talle esitatavaid nõudmisi, kohustusi ja piiranguid, juhindudes oma tegevuses ametniku eetika põhimõtetest",
+      "Suhtleb suuliselt ja kirjalikult eesti keeles vähemalt tasemel C1 (kõrgtase), inglise keeles vähemalt tasemel B2 (edasijõudnu tase) ning vene keeles suuliselt vähemalt B1 (suhtluslävi tase, kolm osaoskust: lugemine, rääkimine, kuulamine)",
+      "Omab klienditeenindajale vajalikke kompetentse ning nõustab ettevõtlustegevuses osalejat tolli ja maksu valdkonnas",
+      "Täidab maksuhalduri põhiülesandeid vastavalt valitud õppesuunale",
+      "Rakendab finants-, maksu- ja tollialaseid teadmisi ja oskusi analüüsides isikute maksukäitumist kooskõlas kehtivate õigusnormidega."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "4630D962-C1D7-4E8B-8F5A-15A6FCE9203A",
+        "term": "Eesti või Euroopa Liidu liikmesriigi kodakondsus"
+      },
+      {
+        "id": "16CC238A-1902-40EC-B740-37179C99FC98",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "9504516A-F9B2-4272-8D7E-7F4C5042F752",
+        "term": "Laitmatu taust"
+      },
+      {
+        "id": "16B3764F-DE82-4A52-94EF-F26DA44D41E7",
+        "term": "Vastuvõtukatse"
+      },
+      {
+        "id": "5BC15644-1BBE-4635-AC4B-B3739959B7E1",
+        "term": "Kutsesobivusestlus"
+      }
+    ],
+    "name": "Toll ja maksundus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "DFBAC7A3-905F-4F3E-8BCD-654C5FCA7A21",
+    "description": [
+      "Korrektsiooni eriala annab tänapäevased teadmised töötamiseks Eesti vanglasüsteemis keskastme ja kõrgema vanglaametnikuna. Õiguse, halduse, juhtimise, sotsiaalteaduslike ainete ja psühholoogia rakenduslik käsitlemine õpetab lahendama keerukaid erialaseid küsimusi ning praktika suur osakaal õppes annab töötegemise oskuse. Korrektsiooni erialale on võimalik kandideerida nii neil, kes juba töötavad vanglateenistuses kui ka kõigil teistel huvilistel."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_korrektsioon",
+    "type": "Justiitskolledž",
+    "modules": [
+      {
+        "id": "D308CC5A-B06E-4754-8ACC-95301E7353B1",
+        "name": "Üldõpingud",
+        "courses": [
+          {
+            "id": "B7ABE980-916A-41CD-8EAC-1E7C78841B45",
+            "name": "Siseturvalisus ja kriisireguleerimine",
+            "eapCount": 4
+          },
+          {
+            "id": "6DB246F1-BAC6-4C87-B51C-880A262DE265",
+            "name": "Õiguse õpetus",
+            "eapCount": 8
+          },
+          {
+            "id": "673EEF21-EE14-42BA-B430-8205D8ED672A",
+            "name": "Kirjalik ja suuline eneseväljendamine",
+            "eapCount": 4
+          },
+          {
+            "id": "8C7E6D04-723C-4732-BED8-5C2BB2AF1C43",
+            "name": "Enese ja teiste juhtimine ning sotsiaalne kompetentsus",
+            "eapCount": 4
+          },
+          {
+            "id": "AA705012-8AD0-40DE-AA9C-4A01D3813ED0",
+            "name": "Üldõpingute valikmoodul ",
+            "eapCount": 10
+          }
+        ]
+      },
+      {
+        "id": "05418C12-17C0-4E95-977A-2FBDF4E745FD",
+        "courses": [
+          {
+            "id": "309EADF4-CEB0-41F7-ABF5-D3F9F7E0D5AC",
+            "name": "Isiku hälbiv käitumine",
+            "eapCount": 10
+          },
+          {
+            "id": "91D6B516-31DA-406F-BD81-1F6114446E6A",
+            "name": "Sotsiaaltöö vanglas",
+            "eapCount": 6
+          },
+          {
+            "id": "CB695733-15A8-4291-850E-366FB168FBFF",
+            "name": "Juhtumikorraldus",
+            "eapCount": 10
+          },
+          {
+            "id": "FDBE63C5-8AD6-46E8-9B03-3045A06A44BA",
+            "name": "Turvalisus vanglas I",
+            "eapCount": 15
+          },
+          {
+            "id": "B743C1AE-973E-48F0-BD8D-6824A67019B3",
+            "name": "Turvalisus vanglas II",
+            "eapCount": 9
+          },
+          {
+            "id": "5E987CE7-96FF-46AE-9CDF-EFC3766BCF52",
+            "name": "Turvalisuse tagamise erikursus I",
+            "eapCount": 8
+          },
+          {
+            "id": "2E671C12-7F46-4F65-9D29-3676B3043E22",
+            "name": "Turvalisuse tagamise erikursus II",
+            "eapCount": 9
+          },
+          {
+            "id": "AD551240-F7D6-4C22-B08D-C88096727A04",
+            "name": "Vanglateenistus",
+            "eapCount": 4
+          },
+          {
+            "id": "4631A9C6-05B8-428F-B355-DCBCB71AB212",
+            "name": "Haldusmenetlus ja karistusõigus vanglas",
+            "eapCount": 8
+          },
+          {
+            "id": "C8F1106B-546F-4513-9F21-F638BB9E5C87",
+            "name": "Haldusmenetluse erikursus ",
+            "eapCount": 10
+          },
+          {
+            "id": "FD3A3BBB-9837-4889-A816-2734FFBA9A01",
+            "name": "Uurimisseminar",
+            "eapCount": 5
+          },
+          {
+            "id": "76446D13-3027-40D1-97D7-A0B6C04F521E",
+            "name": "Järelevalvetoimingute praktika",
+            "eapCount": 8
+          },
+          {
+            "id": "0953CD2C-496D-4B0F-A888-C316850BB84C",
+            "name": "Juhtumikorralduse praktika ",
+            "eapCount": 8
+          },
+          {
+            "id": "E23556EC-179A-495C-9C00-82F926458CD7",
+            "name": "Haldusmenetluse praktika",
+            "eapCount": 8
+          },
+          {
+            "id": "1BA1E6C2-CAB4-423A-AF68-ADB495834E9A",
+            "name": "Lõpupraktika",
+            "eapCount": 4
+          },
+          {
+            "id": "559E816A-2D09-4E4B-94AC-AB35CA4C3AB8",
+            "name": "Lõpueksam",
+            "eapCount": 8
+          }
+        ],
+        "name": "Erialaõpingud",
+        "submodules": [
+          {
+            "id": "830FCFAC-3044-4C9A-AB3B-4E9D38A88766",
+            "name": "Erialased valikained",
+            "courses": [
+              {
+                "id": "E0647CB0-2BC6-4F2F-8FBF-A85B7A315F91",
+                "name": "Rahvusvaheline koostöö",
+                "eapCount": 3
+              },
+              {
+                "id": "47E5E67D-C2ED-4EDA-A40C-BCA6290BD5CD",
+                "name": "Õigusõpetuse jätkukursus",
+                "eapCount": 2
+              },
+              {
+                "id": "7C3E8548-BF34-48C1-958D-50332482D572",
+                "name": "Eneseväljenduse alused (inglise keeles)",
+                "eapCount": 2
+              },
+              {
+                "id": "1548705C-403E-4956-9FB0-7D8382FD5568",
+                "name": "Praktika välisriigis",
+                "eapCount": 3
+              }
+            ]
+          },
+          {
+            "id": "EA71D1D0-8E6B-4107-980C-6DBEFB690840",
+            "name": "keeleõpe",
+            "courses": [
+              {
+                "id": "B59CEDCE-3714-4CCD-88D4-F053ED98A1B5",
+                "name": "Taasühiskonnastamise alane vene kee",
+                "eapCount": 7
+              },
+              {
+                "id": "FE35A43E-C850-419E-B1C1-25900B9AF2CA",
+                "name": "Vangistus- ja haldusõigusalane vene keel",
+                "eapCount": 3
+              },
+              {
+                "id": "0DE453F4-3563-4870-865B-241F82DE57DD",
+                "name": "Haldusmenetluse erikursus (vene keeles)",
+                "eapCount": 2
+              },
+              {
+                "id": "8EF85D2A-3392-4D60-AC0E-BB8620AD885E",
+                "name": "Erialane inglise keel",
+                "eapCount": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Õppekava lõpetamisel üliõpilane on võimeline:",
+      "Töötama vanglateenistuses II klassi vanglainspektori ametiastmel inspektor-kontaktisikuna",
+      "Kasutama eesti keelt vähemalt tasemel C1 (kõrgtase), inglise keelt vähemalt tasemel B2 (edasijõudnu tase) ning vene keelt suuliselt vähemalt tasemel B1 (suhtlusläve taseme kolm osaoskust: lugemine, rääkimine, kuulamine)",
+      "Jätkama õpinguid magistriõppe tasemel või elukestvas õppes."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "F3FAA4D5-2BE6-423E-A57D-32225E1249FA",
+        "term": "Eesti kodakondsus"
+      },
+      {
+        "id": "AEC6B773-086D-4F94-8EEE-ECF6FB1A04C9",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "BB8B5C71-7906-4EB3-A43F-1AF6C7D24D53",
+        "term": "Laitmatu taust"
+      },
+      {
+        "id": "49010D70-3D26-4B96-8865-6670A5C2D40C",
+        "term": "Vastuvõtukatse"
+      },
+      {
+        "id": "29AC4D9C-7356-4F31-A0C4-E2B994972E40",
+        "term": "Vestlus"
+      },
+      {
+        "id": "67BB6990-F1F8-4E63-94E8-9FBDDBB4AE09",
+        "term": "Kehalised katsed"
+      }
+    ],
+    "name": "Korrektsioon",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "150321DC-5BBA-479F-B585-5ECFE08887E3",
+    "description": [
+      "Politseiteenistuse eriala on osalt sarnane politseiametniku erialaga, kuid annab valdkonnast laiemad ja sügavamad teadmised ning annab lõpetajatele edasiseks õppimiseks vajalikud oskused ja teadmised uurimustöö tegemiseks. Politseiteenistuse eriala lõpetajatel on avaramad karjäärivõimalused politseisüsteemis ja nad saavad edaspidi kandideerida ka kõrgharidust nõudvatele ametikohtadele. Enamik politsei- ja piirivalvekolledži kadettidest leiab pärast õpinguid kindla töökoha Politsei- ja Piirivalveametis."
+    ],
+    "eap": 180,
+    "spots": 50,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_politseiteenistus",
+    "type": "Politsei- ja piirivalve",
+    "modules": [
+      {
+        "id": "9E20331A-8FFA-46CB-AC1A-F535271AE284",
+        "name": "Üldõpingud",
+        "courses": [
+          {
+            "id": "E64E043E-8D29-4A3A-B7E2-93E28B7691DD",
+            "name": "Siseturvalisus ja kriisireguleerimine",
+            "eapCount": 4
+          },
+          {
+            "id": "FDC9A30F-DF27-482D-8D18-2FF79A1815F8",
+            "name": "Õiguse õpetus",
+            "eapCount": 8
+          },
+          {
+            "id": "2EA7E0A5-3755-4261-B881-1E49748F98F6",
+            "name": "Kirjalik ja suuline eneseväljendamine",
+            "eapCount": 4
+          },
+          {
+            "id": "E43097A1-F37C-4242-B5A2-64F0535A46F2",
+            "name": "Enese ja teiste juhtimine ning sotsiaalne kompetentsus",
+            "eapCount": 4
+          },
+          {
+            "id": "067F5F00-B02C-4979-847D-C97A85E0CD8C",
+            "name": "Üldõpingute valikmoodul",
+            "eapCount": 10
+          }
+        ]
+      },
+      {
+        "id": "7F74AB95-7F33-4F92-8117-95E4691D085E",
+        "name": "Erialaõpingud",
+        "courses": [
+          {
+            "id": "E19E83F9-0918-4099-BD49-EC623F107F1C",
+            "name": "Vahetu sunni ja turvataktika rakendamine",
+            "eapCount": 9
+          },
+          {
+            "id": "5C6BE0B6-29B6-4376-BCDA-B7C29DE3DCE0",
+            "name": "Avaliku korra kaitsmine",
+            "eapCount": 22
+          },
+          {
+            "id": "B8D8D83B-C22D-4207-8E43-974B733F173A",
+            "name": "Avaliku korra kaitsmise praktika",
+            "eapCount": 8
+          },
+          {
+            "id": "5F3BFBB8-B891-4172-BEC2-3444EED9DFE7",
+            "name": "Väärtegude menetlemine ja kriminaalmenetluse alustamine",
+            "eapCount": 29
+          },
+          {
+            "id": "8DF13D91-7768-46CD-8364-D12E2352DD0D",
+            "name": "Ressursimahuka sündmuse lahendaminen",
+            "eapCount": 4
+          },
+          {
+            "id": "215BB969-023E-4ADA-B684-00F287521841",
+            "name": "Kriminaalmenetluse läbiviimine ",
+            "eapCount": 27
+          },
+          {
+            "id": "B98A954A-2840-4A98-99FC-DC6898645DB0",
+            "name": "Piirikontrolli läbiviimine",
+            "eapCount": 8
+          },
+          {
+            "id": "D15DDFC5-67AA-4D64-A090-62B4F423DA1C",
+            "name": "Piiriülene koostöö (inglise keeles)",
+            "eapCount": 5
+          },
+          {
+            "id": "00BEDAC1-4E8F-4149-B946-0E59EFBE0525",
+            "name": "Politseitöö korraldamine ja juhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "6BDA9981-BE07-49BF-BFE6-25750027A145",
+            "name": "Kogukonnakeskne politseitöö",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "968CC3EA-B929-4316-9649-559FE482E80A",
+        "courses": [],
+        "name": "Süvaõppesuunad",
+        "submodules": [
+          {
+            "id": "97C58FD9-214E-49DE-939F-EB0EA808F74F",
+            "name": "Piirivalve",
+            "courses": [
+              {
+                "id": "6FCBE561-318A-4692-A934-1321AD69847F",
+                "name": "Piirivalve",
+                "eapCount": 16
+              },
+              {
+                "id": "4A9F1CED-9882-4ADC-AFED-DE045B9EABB4",
+                "name": "Lõputöö",
+                "eapCount": 8
+              },
+              {
+                "id": "AB11BA47-0968-4F0F-ADFA-F07483F3CC62",
+                "name": "Lõpueksam",
+                "eapCount": 5
+              }
+            ]
+          },
+          {
+            "id": "768E2F6B-3393-425D-A33F-6960F5CCC736",
+            "name": "Korrakaitsepolitsei",
+            "courses": [
+              {
+                "id": "B9572B96-BA58-4B3E-9BDF-43C8BF481D34",
+                "name": "Kogukonnakeskne ennetustöö",
+                "eapCount": 16
+              },
+              {
+                "id": "CA08395B-2458-47BB-9B87-D1B5B3F03059",
+                "name": "Lõputöö",
+                "eapCount": 8
+              },
+              {
+                "id": "20734944-579E-47BB-8063-BB4CA20F9596",
+                "name": "Lõpueksam",
+                "eapCount": 5
+              }
+            ]
+          },
+          {
+            "id": "DDC47711-5F98-4EF0-B2A3-ABB994899E38",
+            "name": "Kriminaalpolitsei",
+            "courses": [
+              {
+                "id": "6D2AC7D6-9E51-4737-A385-4D3D7B88A5CD",
+                "name": "Raskete kuritegude menetlemine",
+                "eapCount": 16
+              },
+              {
+                "id": "4070AD73-6AFE-4B33-845B-71C62344A70C",
+                "name": "Lõputöö",
+                "eapCount": 8
+              },
+              {
+                "id": "D684E5FC-C304-4F2F-B102-6F7525136B5F",
+                "name": "Lõpueksam",
+                "eapCount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "44D51996-003A-4C9D-A3DB-720F0B8DC3C0",
+        "name": "Erialane valikmoodul",
+        "courses": [
+          {
+            "id": "B1C7CE3E-56A0-4201-90AB-EA24FA2A9CEE",
+            "name": "Politseiteenistuse alusõpingud",
+            "eapCount": 4
+          },
+          {
+            "id": "B723E7B7-F8AE-4D4C-BB79-0A800DB3816D",
+            "name": "B-kategooria sõiduõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "5A5B73D0-1EB4-49E9-AB19-7BCF044AFFCD",
+            "name": "Rahvusvaheline politseitöö",
+            "eapCount": 3
+          },
+          {
+            "id": "9C47E914-B2AB-49C7-9ED0-85464375D02D",
+            "name": "Tegevus ohtliku ründe korral",
+            "eapCount": 1
+          },
+          {
+            "id": "1D44664A-8A15-4F09-83AE-9815CF8A0BC8",
+            "name": "Sissejuhatus erialasesse vene keelde",
+            "eapCount": 2
+          },
+          {
+            "id": "E190B27D-3A7E-4270-A310-70766A193A96",
+            "name": "Ujumise algõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "C3847961-E3DB-4F5F-B3F7-D13480E55FDD",
+            "name": "Kohtuvälise menetleja tegevusele esitatud kaebuste lahendamine ja kohtumenetluses osalemine",
+            "eapCount": 3
+          },
+          {
+            "id": "3E0B859E-7EC9-4A50-88DD-30E08D07634E",
+            "name": "Praktika välisriigis",
+            "eapCount": 7
+          },
+          {
+            "id": "292327DC-9E2D-4364-801E-12D39625EB57",
+            "name": "Dokumentide II astme kontroll",
+            "eapCount": 3
+          },
+          {
+            "id": "7B2CC3A3-5402-4377-A4E4-C65F750C7F72",
+            "name": "Inimsmuugeldamine ja inimkaubandus kui piiriülene organiseeritud kuritegevus (inglise keeles)",
+            "eapCount": 1
+          },
+          {
+            "id": "3ED89C5F-F5FB-4A59-ADE9-627E54758231",
+            "name": "Viisamenetlus",
+            "eapCount": 1
+          },
+          {
+            "id": "F1DE05D1-64ED-45A8-A555-D18E8FFAAE9A",
+            "name": "Politseitöö praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "6AAF612D-981D-4B28-BB5E-3D51E8C9987C",
+            "name": "Alarmsõiduki juhtimine",
+            "eapCount": 2
+          },
+          {
+            "id": "BB2173CE-6265-4BCC-9E8E-64E0311A8F57",
+            "name": "Varjupaigamenetlus",
+            "eapCount": 1
+          },
+          {
+            "id": "FE08A8F5-B1DF-40BF-9FFC-1765A40AFA15",
+            "name": "Elektrišokirelva kasutamine ",
+            "eapCount": 1
+          },
+          {
+            "id": "C39A8590-2BFF-4A55-ADB1-457641F8FAC3",
+            "name": "Siseturvalisuse praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "6C5A1765-ACD2-4879-97E6-32027DF5BDDF",
+            "name": "Vabatahtliku päästja I astme teoreetiline osa",
+            "eapCount": 1
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Mõistab ühiskonna, Euroopa Liidu, riigi ning politseiorganisatsiooni toimimise aluseid",
+      "Juhindub oma tegevuses politseiorganisatsiooni põhiväärtustest ja ametniku eetika normidest",
+      "Juhindub Eesti ja EL õigusnormidest, põhiõigustest ning rakendab neid lähtudes politseiorganisatsiooni ülesannetest",
+      "Täidab politsei põhitegevusi vastavalt valitud õppesuunale",
+      "Tunneb ära õigusrikkumise valdkonna, politsei ning teiste avaliku sektori organisatsioonide ja institutsioonide vastutusala politseitöös ning leiab probleemidele vajaliku lahenduse",
+      "Töötab nii iseseisvalt kui teeb koostööd ning on võimeline töötama multikultuurses keskkonnas",
+      "Suhtleb suuliselt ja kirjalikult eesti keeles tasemel C1 (kõrgtase), inglise keeles tasemel B2 (edasijõudnu tase) ja vene keeles tasemel B1 (suhtluslävi tase)",
+      "Käitub ennastkehtestavalt – mõjudes oma välimuse, hoiaku ja käitumisega autoriteetselt",
+      "Talub füüsilist koormust, stressi, tulles toime enese ja teiste emotsioonidega ning hoolitseb oma tervise eest",
+      "Omab suulist ja kirjalikku kommunikatsiooni oskust, leides politseitööks vajalikku informatsiooni",
+      "Omab analüüsi- ja sünteesivõimet, suudab lahendada politseitöös esile kerkivaid probleeme",
+      "On ennast juhtiv õppija ning on võimeline ennast pidevalt täiendama",
+      "Omab organiseerimise ja planeerimise oskust, on vastutusvõimeline."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "5B7A1625-BBB6-40A9-8219-F4B9A638AD9E",
+        "term": "Eesti kodakondsus"
+      },
+      {
+        "id": "FC598302-A64D-48AA-BF74-FAE065DB71C2",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "527429CA-7A6D-409F-8451-B7DB615B5B5B",
+        "term": "Laitmatu taust"
+      },
+      {
+        "id": "3B889AA0-EA9C-470F-884D-B59E7F89B62C",
+        "term": "Vastuvõtukatse"
+      },
+      {
+        "id": "D415FFEE-70F9-40E0-94B4-9E4A15780B66",
+        "term": "Vestlus"
+      },
+      {
+        "id": "CB045A44-1330-435E-91F2-822AEF37FE24",
+        "term": "Kehalised katsed"
+      }
+    ],
+    "name": "Politseiteenistus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "65C02A77-61AF-423B-9856-791D511C97B8",
+    "description": [
+      "Politseiametniku eriala õppekava on väga praktilise suunitlusega andes õppuritele vajalikud teadmised, oskused ja hoiakud, mis võimaldavad eriala lõpetajal töötada Politsei- ja Piirivalveametis patrullpolitseiniku või piirivalvurina.  Soovijad saavad politseiametniku kutseõppe käigus läbida valikmooduli  Merel ja piiriveekogul otsingu- ja päästetööde läbiviimine ning sooritada piirivalvuri kutsetunnistuse saamiseks kutseeksami."
+    ],
+    "ekap": 100,
+    "spots": 50,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_politseiametnik",
+    "type": "Politsei- ja piirivalve",
+    "level": "kutseharidus",
+    "outcomes": [
+      "Õppekava läbinud õppija:",
+      "Mõistab oma vastutust enesearendamisel, otsib ja kasutab õppimisvõimalusi, lähtudes elukestva õppimise põhimõtetest",
+      "Arvestab tagasisidega, analüüsib ennast ja oma töö tulemusi ning muudab vastavalt oma käitumist",
+      "Tegutseb vastutustundlikult, töötab iseseisvalt ja teeb vajadusel koostööd ning juhindub oma tegevuses politseiorganisatsiooni põhiväärtustest, ametniku eetika normidest ja õigusaktidest",
+      "Tunneb elulises juhtumis ära politsei sekkumist vajava olukorra, kasutab probleemi lahendamisel sobivaid korrakaitselisi meetmeid ning tegutseb turvaliselt ja eesmärgipäraselt, valides sekkumiseks asjakohased meetodid ja vahendid",
+      "Kontrollib isikute ja transpordivahendite liikumist piiripunktis, deklareerimist vajava kauba olemasolu, veesõidukite liiklemist merel ja piiriveekogudel ning reisi ja transpordivahendite dokumente piiripunktis, kasutades asjakohaseid meetodeid ja vahendeid",
+      "Tunneb elulises juhtumis ära süüteo tunnused, alustab väärteomenetluse, viib läbi väärteomenetluse ja määrab vajadusel isikule karistuse või alustab kriminaalmenetluse ja viib läbi esmased menetlustoimingud",
+      "Koostab ja vormistab korrektseid dokumente ja tekste, kasutab tööks vajalikke info ja kommunikatsioonitehnoloogia vahendeid ning erialaseid infosüsteeme, järgides andmekaitse nõudeid",
+      "Valdab multikultuurses keskkonnas töötamiseks vajalikke suhtlemisoskusi, lahendab probleeme iseseisvalt ja meeskonnaliikmena",
+      "Mõtleb süsteemselt ja loovalt ning oskab oma ideid kriitiliselt hinnata ja planeerida oma karjäärivõimalusi Politsei- ja Piirivalveametis",
+      "Kasutab eesti keelt tasemel C1, vene keelt tasemel A2 ja inglise keelt tasemel A2."
+    ],
+    "language": "eesti keel",
+    "duration": 1.5,
+    "requirements": [
+      {
+        "id": "C67C24F5-909A-4C2B-9946-0710D2EFDEA2",
+        "term": "Eesti kodakondsus"
+      },
+      {
+        "id": "C9898B83-9229-4A2D-93D9-6BDEDD22BEE3",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "27173000-C8C3-4599-8919-77C2ADF3F0AD",
+        "term": "Laitmatu taust"
+      },
+      {
+        "id": "B2E2FF9E-0CC2-4B70-BAFF-ECAB21902CB6",
+        "term": "Vastuvõtukatse"
+      },
+      {
+        "id": "CA9228FA-6958-4C3F-A8F2-C8387FCD308F",
+        "term": "Vestlus"
+      },
+      {
+        "id": "69F93D30-10ED-4E5C-A3C8-02665A22180A",
+        "term": "Kehalised katsed"
+      }
+    ],
+    "name": "Politseiametnik",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "B2B9DEC6-62E3-49EC-A42E-4AFDAF57569C",
+    "description": [
+      "Vanglaametniku erialal omandatakse hea ettevalmistus töötamiseks vanglas valvuri või vanemvalvuri ametikohal. Vanglaametnikel on politseinike ja kohtuametnike kõrval tähtis roll riigi õiguskaitsesüsteemis. Vanglateenistus, kuhu eriala lõpetanu tööle asub, väärtustab erialase hariduse saanud isikuid, näiteks suurendades erialase kvalifikatsiooni tõusu alusel töötasu kuni kolmandiku võrra."
+    ],
+    "ekap": 60,
+    "spots": 60,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_vanglaametnik",
+    "type": "Justiitskolledž",
+    "level": "kutseharidus",
+    "outcomes": [
+      "Õppekava läbimisel õpilane:",
+      "Täidab tööülesandeid II klassi valvuri ametiastmel olevatel ametikohtadel",
+      "Väärtustab organisatsiooni traditsioone ja hoiab kõrgel oma ametiau",
+      "Suhtub sallivalt hoiakute ja väärtuste erisustesse",
+      "Mõistab meeskonnatöö vajalikkust ning suhtleb meeskonnakaaslastega korrektselt",
+      "Suhtleb õpitavas võõrkeeles algtasemel",
+      "Kasutab erialaseid teadmisi ja kogemusi oma elukvaliteedi tõstmiseks ja isiksuse arendamiseks",
+      "Ilmutab valmisolekut elukestvaks õppeks."
+    ],
+    "language": "eesti keel",
+    "duration": 1,
+    "requirements": [
+      {
+        "id": "DED0F936-F387-40C8-8BB8-6A9F44378ABD",
+        "term": "Eesti kodakondsus"
+      },
+      {
+        "id": "B984FD9E-55CA-4E55-8F13-FED9D9A64657",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "ED378694-64EF-4172-8E25-1D76EDC86D83",
+        "term": "Laitmatu taust"
+      },
+      {
+        "id": "84D2C44F-C92D-418F-A50C-70751B79F4BD",
+        "term": "Eesti keele oskus vähemalt C1 tasemel"
+      },
+      {
+        "id": "A64A2FB6-BD05-48FF-BE71-A15D508EE742",
+        "term": "Vastuvõtukatse"
+      },
+      {
+        "id": "BEFC7030-1AD7-41B2-985E-C7E204749765",
+        "term": "Vestlus"
+      },
+      {
+        "id": "206891D3-F79D-4830-BBB7-AE2C059755DE",
+        "term": "Kehalised katsed"
+      }
+    ],
+    "name": "Vanglaametnik",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "3D8CC577-809F-4567-B0F8-4ED75C3963BB",
+    "description": [
+      "Päästekorraldaja erialal õpitakse vastu võtma ja menetlema 112 numbrile saabuvaid hädaabikõnesid. Kuna päästekorraldaja tegeleb igapäevaselt erineva emakeelega kõnelejate hädaabiteadetega, on õppekavas oluline roll keeleõppel (eriti vene keelel), suhtlemiseoskuste arendamisel ja kultuuride tundmisel. Eriala edukalt lõpetanud saavad tööd Häirekeskuse piirkondlikes keskustes Tallinnas, Tartus, Jõhvis ja Pärnus."
+    ],
+    "ekap": 60,
+    "spots": 20,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_p22stekorraldaja",
+    "type": "Päästekolledž",
+    "level": "kutseharidus",
+    "outcomes": [
+      "Oskab iseseisvalt vastu võtta ja töödelda hädaabiteateid, täidab uudseid lahendusi eeldavaid tööülesandeid, langetab otsuseid ja vastutab oma tööülesannete täitmise eest",
+      "Oskab kasutada info- ja kommunikatsioonivahendeid ning erialaseid andmebaase",
+      "Väärtustab organisatsiooni traditsioone ja hoiab kõrgel oma ametiau",
+      "Järgib suhtlemise ning klienditeeninduse põhimõtteid",
+      "Suhtub sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "Kasutab riigikeelt tasemel C1, vene keelt osaoskuste mõistmise ja rääkimise osas tasemel B1",
+      "Kasutab arvutit tasemel AO1-AO12."
+    ],
+    "language": "eesti keel",
+    "duration": 1,
+    "requirements": [
+      {
+        "id": "4D5A69B4-FE2C-4152-B780-4E79ABC581C1",
+        "term": "Eesti kodakondsus"
+      },
+      {
+        "id": "00475FBA-EAB7-45A3-909A-21FAD27467B6",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "DEDA44AA-2837-4F91-AB78-560679A6E954",
+        "term": "Vastuvõtukatse"
+      },
+      {
+        "id": "975EC02C-C545-42D2-94D5-83DE543A4A78",
+        "term": "Vestlus"
+      }
+    ],
+    "name": "Päästekorraldaja",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "7B8BA443-9050-4DB8-B6B8-17DEC34BFAC3",
+    "description": [
+      "Kui töötad juba julgeolekusfääris ja soovid anda karjäärile väikest lisatõuget või omad bakalaureusekraadi mõnel muul erialal ja soovid alles praegu sellesse huvitavasse valdkonda siseneda, siis sisejulgeoleku magistriõpe pakub selleks suurepärast võimalust. Üle nädala toimuvad õppesessioonid võimaldavad kraadi omandamist ka töötamise kõrvalt. Sisejulgeoleku õppekava puhul saab kandideerida nii täis- kui ka osakoormusõppesse."
+    ],
+    "eap": 120,
+    "spots": 30,
+    "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_sji",
+    "type": "Sisejulgeoleku Instituut",
+    "modules": [
+      {
+        "id": "B3261591-88D8-429D-B011-6F7BF0DC022C",
+        "name": "Kohustuslike ainete moodul",
+        "courses": [
+          {
+            "id": "85DBCB75-5D60-48C4-80E3-614A5AB25CD4",
+            "name": "Strateegiline juhtimine",
+            "eapCount": 8
+          },
+          {
+            "id": "B2189705-A594-47C7-9B56-D4E360C7BE34",
+            "name": "Teadusmetodoloogia ja uurimisseminar 1 ",
+            "eapCount": 8
+          },
+          {
+            "id": "07870E10-F9DF-44AD-A6DC-279FDB2C25B6",
+            "name": "Akadeemiline kirjutamine ja uurimisseminar 2",
+            "eapCount": 6
+          },
+          {
+            "id": "A14F516A-8BDD-475C-A806-8EAA0780B251",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "E7CC5B1D-6424-49E8-971E-6E3DCFE54766",
+            "name": "Sisejulgeoleku õiguslik regulatsioon",
+            "eapCount": 5
+          },
+          {
+            "id": "72329941-5282-4CE3-93D5-E0390F265FD4",
+            "name": "Küberjulgeolek, privaatsus ja andmekaitse ",
+            "eapCount": 5
+          },
+          {
+            "id": "E88606D7-9969-4987-B48D-29848B571875",
+            "name": "Sisejulgeoleku poliitika kujundamine ja koostöö",
+            "eapCount": 5
+          },
+          {
+            "id": "6D002ED4-0F42-43C1-AA88-D2E29CFA347C",
+            "name": "Vaenulik mõjutustegevus, psühholoogiline kaitse ja meediasuhtlus",
+            "eapCount": 4
+          },
+          {
+            "id": "42E6855C-2C7E-463D-9539-2B7C005607C9",
+            "name": "Julgeolekuteooriad ja nende uurimuslik rakendamine",
+            "eapCount": 5
+          },
+          {
+            "id": "56A25AC0-F8C1-4F69-8492-D7F166F98C49",
+            "name": "Julgeoleku- ja hübriidohud ning riigikaitse lai käsitlus",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "5D682FA1-8DA5-4C66-BF2B-A5A4C417BB80",
+        "name": "Valikainete moodul",
+        "courses": [
+          {
+            "id": "10C132C6-5149-4C80-B7B1-64E4A4A8D987",
+            "name": "Kogukondliku korrakaitsetöö juhtimine",
+            "eapCount": 2
+          },
+          {
+            "id": "48DC965E-32D2-4A20-8A7B-9421D724B4E1",
+            "name": "Külalisloengud",
+            "eapCount": 1
+          },
+          {
+            "id": "00562421-AEAC-4E65-97FA-8A36BE99D722",
+            "name": "Külalisloengud",
+            "eapCount": 2
+          },
+          {
+            "id": "63D5B33B-0A15-4288-942D-22EA27F4B0F1",
+            "name": "Innovatsiooni ja arendusprojektide juhtimine sisejulgeoleku süsteemis",
+            "eapCount": 2
+          },
+          {
+            "id": "9840B6BD-3561-47A0-91F6-D317EE8944F2",
+            "name": "Kaugseire drooni- ja satelliidiandmestike põhjal ",
+            "eapCount": 3
+          },
+          {
+            "id": "E94B297C-35F7-4D1F-A099-ECA744C11975",
+            "name": "Kvalitatiivse andmeanalüüsi praktikum ",
+            "eapCount": 2
+          },
+          {
+            "id": "2C7A4572-1EF1-423E-AC89-2318ADCCD68F",
+            "name": "Kvantitatiivse andmeanalüüsi praktikum",
+            "eapCount": 2
+          },
+          {
+            "id": "5967F7AB-810F-4DC4-874B-92179F47E379",
+            "name": "Siseturvalisuse praktiline tegevus",
+            "eapCount": 3
+          },
+          {
+            "id": "2E8225B4-0B4C-46AD-86A4-E424A9C16CF4",
+            "name": "Tsiviil-militaarkoostöö hädaolukorras",
+            "eapCount": 4
+          },
+          {
+            "id": "BC95FB7B-AAAA-444C-A327-D0FFB7031B29",
+            "name": "E-kursus",
+            "eapCount": 1
+          },
+          {
+            "id": "A147008B-E0F8-4D2C-A025-34FBFF740CAC",
+            "name": "E-kursus",
+            "eapCount": 2
+          },
+          {
+            "id": "EEFD980B-32FB-42B7-BED3-06CBA75E3C98",
+            "name": "E-kursus",
+            "eapCount": 3
+          },
+          {
+            "id": "32C92BEB-7882-4100-BB5B-6C825F49B352",
+            "name": "Kaugseire drooni- ja satellliidiandmestike põhjal II",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "F00105C3-D300-4977-953C-89ED00FF44BB",
+        "courses": [],
+        "name": "Süvaõppesuunad",
+        "submodules": [
+          {
+            "id": "F1E9CCB2-D305-4754-88F5-7A9871716CC0",
+            "name": "Kriisireguleerimise suund",
+            "courses": [
+              {
+                "id": "67FCE992-4B6D-4920-B189-69C62E6E06D3",
+                "name": "Kriisikommunikatsioon ja -psühholoogia",
+                "eapCount": 5
+              },
+              {
+                "id": "8F57EE28-8E6B-4807-95F5-0CC70038194D",
+                "name": "Kriisireguleerimine ja -juhtimine",
+                "eapCount": 7
+              },
+              {
+                "id": "5910EBEE-EB69-47DC-AF75-6B7E7AE7F458",
+                "name": "Riskihaldus ja elutähtsa teenuse toimepidevus",
+                "eapCount": 5
+              },
+              {
+                "id": "A0DBB7DF-A363-44F5-BE2B-444B8A2FB5F0",
+                "name": "Hädaolukorraks valmistumine",
+                "eapCount": 4
+              }
+            ]
+          },
+          {
+            "id": "0EA092E8-2710-4D35-9B86-D6F52DF732D6",
+            "name": "Sisejulgeoleku suund",
+            "courses": [
+              {
+                "id": "B36C0BFC-6893-4D1A-8936-159E60CF6787",
+                "name": "Teadmushaldus turvalisuses",
+                "eapCount": 2
+              },
+              {
+                "id": "5C78860B-A39C-4331-8541-385A787A5205",
+                "name": "Organiseeritud kuritegevus ja rahapesu",
+                "eapCount": 4
+              },
+              {
+                "id": "D83F4816-8CE4-4C17-8FDD-CA2BB657D8AA",
+                "name": "Piiri julgeolek ja rände haldamine",
+                "eapCount": 5
+              },
+              {
+                "id": "36F19FD9-3468-4D3E-8CB5-080BFAF859F4",
+                "name": "Mereõigus konfliktides",
+                "eapCount": 4
+              },
+              {
+                "id": "54CDF01F-AF24-48B9-9BB1-E545354C44EA",
+                "name": "Terrorism ja rahvusvahelised missioonid",
+                "eapCount": 6
+              }
+            ]
+          },
+          {
+            "id": "1AC64F9D-DB25-4C66-B8B9-BF17FF766359",
+            "name": "Politsei suund",
+            "courses": [
+              {
+                "id": "BFF8A6D7-8362-454D-BD76-227E40655260",
+                "name": "Teadmushaldus turvalisuses",
+                "eapCount": 2
+              },
+              {
+                "id": "03AA1C6E-F2CD-4C39-A63D-3025A997DF6B",
+                "name": "Kriminaalanalüüs",
+                "eapCount": 2
+              },
+              {
+                "id": "C6BE61C7-964E-4E6C-B1C8-D6A26C6F0710",
+                "name": "Organiseeritud kuritegevus ja rahapesu ",
+                "eapCount": 4
+              },
+              {
+                "id": "A3090257-1168-4547-BA57-C72B3B661C42",
+                "name": "Piiri julgeolek ja rände haldamine",
+                "eapCount": 5
+              },
+              {
+                "id": "87230E70-769B-42D9-95F9-408525C93BC6",
+                "name": "Kriminaal- ja karistuspoliitika aktuaalsed probleemid",
+                "eapCount": 3
+              },
+              {
+                "id": "BAC3B59A-0FE4-4C68-A842-C344F72ACB7E",
+                "name": "Politsei juhtimine ja paiknemine valitsemissüsteemis",
+                "eapCount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9728100D-4EA1-4A68-87EB-7AA1FC8B59E3",
+        "name": "Magistritöö",
+        "courses": [
+          {
+            "id": "78684767-1B02-4E62-B45B-736B2AA5A86C",
+            "name": "Mabgistritöö",
+            "eapCount": 30
+          }
+        ]
+      }
+    ],
+    "level": "magister",
+    "outcomes": [
+      "Tunneb sisejulgeoleku ja siseturvalisuse organisatsioonide süsteemi, arengusuundi ja valdkonna õigusakte",
+      "Mõistab tänapäevaseid julgeolekuohte ja Eesti julgeolekut tagavate struktuuride toimimist",
+      "Tegutseb loovalt, innovaatiliselt ja paindlikult erinevates situatsioonides",
+      "Analüüsib siseturvalisuse valdkonna vajadusi, planeerib ressursse, juhib inimesi ja tegevusi, sh ametkondade ülest ja rahvusvahelist koostööd",
+      "Viib läbi teadus- ja rakendusuuringuid",
+      "On valmis enese erialaseks täiendamiseks elukestva õppe raames, sh doktoriõppes ja oma teadmiste ning kogemuste edasiandmiseks."
+    ],
+    "language": "eesti keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "65788FFA-A6DC-41EA-BCEA-42AE2C84C4D0",
+        "term": "Eesti või Euroopa liidu liikmesriig kodakondsus"
+      },
+      {
+        "id": "71CDE839-E92B-4E15-9231-BC3C80D83833",
+        "term": "Bakalaureuse kraad"
+      },
+      {
+        "id": "406B38C3-7097-455D-94A5-85B0409520FA",
+        "term": "Inglise keele oskus vähemalt B2 tasemel"
+      },
+      {
+        "id": "7E6D542F-1DD3-46E8-B910-0A1F006F8015",
+        "term": "laitmatu taust"
+      },
+      {
+        "id": "EA3DACD2-CBFD-4938-B553-530D6759C090",
+        "term": "CV"
+      },
+      {
+        "id": "DECFA1B6-B08B-47FE-BC26-94E23FA31A9E",
+        "percentage": 50,
+        "term": "Magistritöö kava"
+      },
+      {
+        "id": "5BB748E6-F293-4E5D-90D3-2AE82A0B007B",
+        "percentage": 25,
+        "term": "Inglise keele test"
+      },
+      {
+        "id": "7E45B4A4-B1CF-4B5F-9392-AA1F53E5B00E",
+        "percentage": 25,
+        "term": "Vestlus"
+      }
+    ],
+    "name": "Sisejulgeolek",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  }
+]

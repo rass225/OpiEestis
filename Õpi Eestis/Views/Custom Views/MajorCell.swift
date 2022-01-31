@@ -1,25 +1,40 @@
 import SwiftUI
 
 struct MajorCell: View {
+    
     let item: majorsMinors
-    let color: Color
+    let school: School
+    let isFavorite: Bool
     var body: some View {
         VStack(alignment: .leading, spacing: 2){
-            Text(item.name)
-                .font(.semiBoldBody)
-                .frame(alignment: .leading)
+            HStack(alignment: .top){
+                Text(item.name)
+                    .font(.mediumBody)
+                    .frame(alignment: .leading)
+                    .multilineTextAlignment(.leading)
+                    .padding(.top, 15)
+                Spacer()
+                if isFavorite {
+                    Image.starFill
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                        .foregroundColor(school.color)
+                        .padding(.top, 8)
+                        .padding(.trailing, 8)
+                }
+            }
             Text(item.level.rawValue.capitalizingFirstLetter())
-                .font(.semiBoldCallout)
-                .foregroundColor(color)
-        } .frame(maxWidth: .infinity, alignment: .leading)
+                .font(.mediumSubHeadline)
+                .foregroundColor(school.color)
+        }.frame(maxWidth: .infinity, alignment: .leading)
         
-        .padding([.leading, .bottom], 20)
-        .padding([.trailing, .top], 15)
+        .padding(.bottom, 20)
+        .padding(.leading, 16)
         .foregroundColor(.black)
         .background(Color.white)
         .cornerRadius(12)
         .padding(.horizontal)
-        .padding(.top, 6)
+        .padding(.top, 8)
     }
     
     func getDuration() -> String {

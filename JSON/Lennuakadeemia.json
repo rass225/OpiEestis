@@ -1,0 +1,1830 @@
+[
+  {
+    "studyLocation": [
+      "Reola"
+    ],
+    "id": "FD9B8A71-D725-4A61-890C-39AF9BF3EB9C",
+    "description": [
+      "Nii nagu autodel on sõitmiseks vaja auto- ja laevadel mereteid, on õhusõidukitele loodud nähtamatud rajad õhuruumis. Selleks, et tagada lennuliikluse ohutu kulgemine mööda õhumarsruute, teevadki oma vastutusrikast tööd lennujuhid.",
+      "Lennujuhi töö on korrapärase, turvalise ja kiire lennuliikluse tagamine Eesti õhuruumis. Pidades sidet pilootidega ning nähes neid radariekraanil, juhib ta neid, et lennukid oleksid alati üksteisest ohutus kauguses ja lennurajad ei ristuks. Lennujuht on piloodi silmad pimedas, udu või tormise ilma korral. Ta aitab pilootidel erinevates ilmastikutingimustes orienteeruda ning ohutult lennuväljal maanduda.",
+      "Esimesel kahel aastal läbitakse alusained, omandatakse teadmisi tehnikaainetest, loodusteadustest, majandusest ja ettevõtlusest. 3. kursusel algab erialaõpe. Erialaõppe käigus saadakse teoreetilisi teadmisi ja praktilisi oskusi lennuliikluse korraldamisest.",
+      "Igapäevase praktilise õppetöö käigus kasutatakse Baltimaades kõige kaasaegsemaid simulaatoreid. Lennujuhid omandavad kogemusi tornisimulaatoris. Sidelaboris õpitakse kasutama lennunduses olevat tehnikat. Koostöös Tartu Lennujaamaga toimub osa õppetööst ka angaaris, kus õpitakse õhusõidukite hoolduse ning ülesehituse kohta."
+    ],
+    "eap": 240,
+    "spots": 8,
+    "majorWebsite": "https://lennuakadeemia.ee/sisseastuja/oppekavad/lennuliiklusteenindus",
+    "personnel": [
+      {
+        "email": "anu.vare@eava.ee",
+        "id": "FB80E45C-605C-496A-B7A8-0CF8A7A3694B",
+        "title": "Osakonna juhataja",
+        "phone": "+3727448124",
+        "name": "Anu Vare"
+      },
+      {
+        "email": "maria.tamm@eava.ee",
+        "id": "BB6DEF15-5962-491B-9DFA-200312CB4BAC",
+        "title": "Mehitamata lennunduse valdkonnajuht",
+        "phone": "744 8123",
+        "name": "Maria Tamm"
+      },
+      {
+        "email": "kristjan.korgesaar@eava.ee",
+        "id": "1B349559-56AF-4FFA-91C4-9EF6B997F1C4",
+        "title": "Lennujuhtimise juhtivinstruktor",
+        "phone": "744 8123",
+        "name": "Kristjan Kõrgesaar"
+      },
+      {
+        "email": "rene.kasik@eava.ee",
+        "id": "40CBAEC5-55E3-4A56-85EE-A0373E71A5AE",
+        "title": "Lennujuhtimise instruktor",
+        "phone": "744 8123",
+        "name": "Rene Käsik"
+      },
+      {
+        "email": "tonis.jurimae@eava.ee",
+        "id": "AE8FA681-8F67-47C6-B8CF-E22E815B59C0",
+        "title": "Spetsialist",
+        "phone": "744 8123",
+        "name": "Tõnis Jürimäe"
+      },
+      {
+        "email": "anett.veski@eava.ee",
+        "id": "A741C184-8A0D-45BF-8BBA-7106583B06D1",
+        "title": "Spetsialist",
+        "phone": "5854 0944",
+        "name": "Anett Veski"
+      }
+    ],
+    "type": "Transporditeenused",
+    "modules": [
+      {
+        "id": "C4D1AF5C-43C2-4AC3-90AA-48D55D4205A7",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "8F0A3991-D3E4-4EE2-9004-596FF4CBA5E0",
+            "name": "Sissejuhatus lennundusse",
+            "eapCount": 3
+          },
+          {
+            "id": "557DFD7E-2AFD-42C7-897B-FAA41EAE06F0",
+            "name": "Sissejuhatus majandusteooriasse",
+            "eapCount": 6
+          },
+          {
+            "id": "E3ABE9B1-708A-41AE-A530-7C44624C6141",
+            "name": "Matemaatika alused",
+            "eapCount": 3
+          },
+          {
+            "id": "A1486C7B-09B2-478C-B689-EEA297C82F40",
+            "name": "Kõrgem matemaatika I",
+            "eapCount": 6
+          },
+          {
+            "id": "984923D9-F07D-4715-B451-C14B23C65A79",
+            "name": "Informaatika",
+            "eapCount": 3
+          },
+          {
+            "id": "08AF57CC-9D7C-4788-85B5-3A0CF849BCB5",
+            "name": "Insenerigraafika I*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "0759FF5C-0ED8-4B12-8712-0D52A63155F7",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "C02E67E7-AF3E-4420-8D0E-EEE8D15D0CF7",
+            "name": "Ettevõtluse alused",
+            "eapCount": 6
+          },
+          {
+            "id": "AA42D8A5-D3F6-4799-BD4E-230FE39D6F62",
+            "name": "Sissejuhatus lennuliikluse korraldusse*",
+            "eapCount": 1
+          },
+          {
+            "id": "2F3155CC-B75F-4D73-8A12-046225C9C585",
+            "name": "Lennujaama maapealne teenindus*",
+            "eapCount": 6
+          },
+          {
+            "id": "20617707-FCEF-45DE-81A5-A3601A52D5C9",
+            "name": "Statistika ja ökonomeetria alused",
+            "eapCount": 6
+          },
+          {
+            "id": "14FA8548-D74A-4E2B-BC26-E1354AD6F1EA",
+            "name": "Õhusõiduk ja selle sooritusvõimed",
+            "eapCount": 6
+          },
+          {
+            "id": "F4F3B536-610E-4F14-9A1F-1A4C7B948159",
+            "name": "Elektrotehnika*",
+            "eapCount": 6
+          },
+          {
+            "id": "17995E21-D1A9-4C7C-BA07-AA3DB4777DEA",
+            "name": "Eesti õigekeelsus ja väljendusõpetus",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "4104C4B5-5534-4383-8884-8AB6D2330A14",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "336D80E3-869A-438E-90FF-CDCB812D9B0B",
+            "name": "Kehaliste võimete arendamine",
+            "eapCount": 3
+          },
+          {
+            "id": "77B5FF5F-0CE0-49BE-8713-D47E82DF706B",
+            "name": "Projekti- ja tulemusjuhtimine lennutranspordis",
+            "eapCount": 3
+          },
+          {
+            "id": "B74ACEED-FE16-4184-8DB8-C547275F16DA",
+            "name": "Ettevõtte juhtimise üldkursus",
+            "eapCount": 6
+          },
+          {
+            "id": "23394CFF-161D-4725-A6BD-944CC8F5FEC0",
+            "name": "Kvaliteedijuhtimise alused",
+            "eapCount": 3
+          },
+          {
+            "id": "97FE34D3-A619-47F9-A6A6-8CF77EC1772B",
+            "name": "Lennuliikluse korraldamine*",
+            "eapCount": 6
+          },
+          {
+            "id": "3B1EBDAB-9D00-424D-AF84-E90E5E410083",
+            "name": "Militaar- ja üldlennundus*",
+            "eapCount": 3
+          },
+          {
+            "id": "10A85CDF-98C5-4452-9523-21455578B939",
+            "name": "Logistika*",
+            "eapCount": 3
+          },
+          {
+            "id": "2402355A-F7F5-4A3C-B42E-F7FC06790BAE",
+            "name": "Lennundusõigus",
+            "eapCount": 3
+          },
+          {
+            "id": "680CA7A7-F339-4F2A-8071-447597BE1886",
+            "name": "Aerodünaamika",
+            "eapCount": 3
+          },
+          {
+            "id": "8FDD9ECC-3E3E-4E3D-B817-8445DD284FD1",
+            "name": "Raadiotehnika alused",
+            "eapCount": 3
+          },
+          {
+            "id": "73F713FA-8E5E-46BD-85D2-1149E598BEF6",
+            "name": "Programmeerimise alused*",
+            "eapCount": 6
+          },
+          {
+            "id": "AE9770FC-0790-42F6-AF2E-096B3B2272DF",
+            "name": "Avioonika alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "D52FD4A3-C148-4646-A29C-3BB751547E17",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "1BF7441A-7F30-4AA8-9F28-E809F92B1347",
+            "name": "Psühholoogia alused",
+            "eapCount": 3
+          },
+          {
+            "id": "7097393A-6DA3-4C0A-90A3-32684486D94E",
+            "name": "Ärieetika ja kommunikatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "99604107-470B-43BD-B2ED-DD516B095A46",
+            "name": "Lennundusettevõtte töö korraldamine",
+            "eapCount": 6
+          },
+          {
+            "id": "8451D248-1A9E-4996-9658-D5B5830BA117",
+            "name": "Lennutranspordi ökonoomika*",
+            "eapCount": 6
+          },
+          {
+            "id": "581D1B85-17D0-4FCF-B20B-A452E5CBD608",
+            "name": "Avaliku sektori majandus*",
+            "eapCount": 3
+          },
+          {
+            "id": "D5FBDBF7-668F-4870-8629-8804EB221A63",
+            "name": "Rahvusvaheline majandus ja lennundus*",
+            "eapCount": 3
+          },
+          {
+            "id": "9EE168F5-8E16-4E7E-83FE-1D52828F9799",
+            "name": "Turundus*",
+            "eapCount": 3
+          },
+          {
+            "id": "097ECF39-D225-4AE2-AAAE-90C5D88A5C6D",
+            "name": "Lendude planeerimine ja monitooring*",
+            "eapCount": 3
+          },
+          {
+            "id": "B187EDD8-D7CB-4408-92DF-3E628219AAA9",
+            "name": "Lennundusohutus",
+            "eapCount": 2
+          },
+          {
+            "id": "05F168C5-2C18-475C-89F7-7FBC4C2AE717",
+            "name": "Lennundusjulgestus",
+            "eapCount": 1
+          },
+          {
+            "id": "5DC3D2D3-EC3A-4219-8F7A-2085DC16B7AD",
+            "name": "Katsetehnika raadioelektroonikas*",
+            "eapCount": 3
+          },
+          {
+            "id": "EE29A857-507B-49C5-BC6D-2E43D25692C5",
+            "name": "Remotely Piloted Aircraft (RPA) Operation and Mission Planning*",
+            "eapCount": 2
+          },
+          {
+            "id": "06855ADA-A0CA-453C-92E7-5B9EE92DD409",
+            "name": "Seire I*",
+            "eapCount": 3
+          },
+          {
+            "id": "1C0D7949-0C08-494B-BA1F-EEFC448C2851",
+            "name": "Vene keel 0 > A1*",
+            "eapCount": 6
+          },
+          {
+            "id": "04BB6413-077E-4ECB-814D-16D30358A777",
+            "name": "Lennunduse inglise keel",
+            "eapCount": 6
+          }
+        ]
+      },
+      {
+        "id": "15474C17-43B6-4E12-9297-BD3D8CA26F6A",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "605BBBB0-8A35-4D38-AD3E-5840E9237EAC",
+            "name": "Majandusarvestus ja lennundusettevõtte rahandus*",
+            "eapCount": 6
+          },
+          {
+            "id": "9685D0CA-D944-4B1C-A810-30F7595BBCF2",
+            "name": "Inimtegur lennujuhtimises",
+            "eapCount": 3
+          },
+          {
+            "id": "FE15B698-B4F0-437F-A9FB-DEF105806E4B",
+            "name": "Navigatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "16BA889D-1649-40AD-B639-C6609A4D703E",
+            "name": "Lennundusõigus",
+            "eapCount": 3.5
+          },
+          {
+            "id": "6AB0D14A-371C-499C-8E2F-787775EA5DE9",
+            "name": "Lennundusmeteoroloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "380058CA-C1BC-4097-94CD-305E6725CE76",
+            "name": "Aeronavigatsiooniteabe teenindus",
+            "eapCount": 2
+          },
+          {
+            "id": "67123669-068E-4252-A4FF-772C077D032E",
+            "name": "Lennunduse raadioside",
+            "eapCount": 2.5
+          },
+          {
+            "id": "3DF9C44E-E623-4E63-AE23-DBD64B7CA5AD",
+            "name": "Lennuliikluse korraldamine",
+            "eapCount": 4
+          },
+          {
+            "id": "FF01284B-6226-45E9-8712-0D12A7EAEEB3",
+            "name": "Õhusõidukid",
+            "eapCount": 3
+          },
+          {
+            "id": "1E872447-3B74-4FF8-B520-C668C1A775DE",
+            "name": "Seadmed ja süsteemid lennuliiklusteeninduses",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "566F576B-894E-4B4D-B640-FF6341618A78",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "551992F7-1A95-44A9-8D1E-7CA3C29D23E3",
+            "name": "Erialane inglise keel",
+            "eapCount": 3
+          },
+          {
+            "id": "FEBC6C07-3B16-4306-A2C7-195CA835D483",
+            "name": "Sissejuhatus erialasse",
+            "eapCount": 1
+          },
+          {
+            "id": "503CE1D2-2D9E-4A97-A69A-BF3D8631A7CE",
+            "name": "Tutvumislennud",
+            "eapCount": 3
+          },
+          {
+            "id": "25D18CEA-E936-4F87-B2AC-32DEA31D745B",
+            "name": "Radariga lähenemislennujuhtimise tutvumispraktika*",
+            "eapCount": 6
+          },
+          {
+            "id": "81D06978-C145-4BC1-8584-31BAE8661087",
+            "name": "Lähenemislennujuhtimine radariga*",
+            "eapCount": 22
+          },
+          {
+            "id": "19683E79-AD22-4F60-828B-364B5DD4FF26",
+            "name": "Lähenemislennujuhtimise alused*",
+            "eapCount": 21
+          }
+        ]
+      },
+      {
+        "id": "70E49B23-6F5D-4668-AAC0-8399A4071F02",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "E7A1C5C2-D8A6-4E71-8074-91A8EE28AB3C",
+            "name": "Lähilennujuhtimine*",
+            "eapCount": 22
+          },
+          {
+            "id": "AB0CD412-E4D7-4539-BBA0-28D22E5654F8",
+            "name": "Lähilennujuhtimise alused*",
+            "eapCount": 21
+          },
+          {
+            "id": "D45AC095-E7F1-4FC6-94B9-4E9DB5891B8A",
+            "name": "Lähilennuliikluse radarjuhtimine*",
+            "eapCount": 3
+          },
+          {
+            "id": "684B9FDD-B933-4160-848B-762B952AC6EE",
+            "name": "Lõputööde koostamise seminar",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "6F7E16BD-F626-4749-8062-8408A3CA6BA7",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "735BC697-EEAC-41B7-BCFF-639E7BF1F060",
+            "name": "Suhtlemispsühholoogia ja pedagoogika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "3806ED2E-1AF1-4F51-B26C-12DC47A0FBC9",
+            "name": "Lähilennujuhtimise tutvumispraktika*",
+            "eapCount": 6
+          },
+          {
+            "id": "7B63256F-DB56-4D50-A5B3-8103F4E3D62F",
+            "name": "Lõputöö",
+            "eapCount": 9
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Suhtub oma erialasesse tegevusse kõrgendatud vastutustundega, mis on suunatud lennuohutuse tagamisele",
+      "Selgitab suuliselt ja kirjalikult eesti ja/või inglise keeles erialaga seonduvaid probleeme ning osaleb erialastes aruteludes",
+      "Kasutab analüüsi- ja sünteesioskust oma valdkonnas",
+      "Omab eeldusi õpingute jätkamiseks",
+      "Omab rakenduskõrgharidusele ning rahvusvahelistele",
+      "Lennundusstandarditele vastavaid pädevusi, mis võimaldavad töötada lennujuhiõpilasena radariga lähenemislennujuhtimise või seirega piirkondliku lennujuhtimise või lähilennujuhtimise üksustes ning lennuliiklusteeninduse valdkonna spetsialistina nii Eestis kui ka välismaal",
+      "Tunneb meeskonnatöö iseärasusi ja tähtsust, töötades meeskonnas seostab erinevaid mõjusid keskkonna, ressursside, standardite ja inimese võimete vahel",
+      "Omab süsteemset ülevaadet aeronavigatsiooniteeninduse süsteemist ja mõistab selle seoseid erinevate lennundustegevuse valdkondadega",
+      "Rakendab omandatud erialaseid teadmisi ja oskusi mitmesugustes tööolukordades vastutades lennuohutuse nõuete täitmise eest."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "E972E056-F8D7-476D-ABB9-126CD3873DCC",
+        "term": "FEAST Test"
+      },
+      {
+        "id": "FBF768AB-64ED-4E43-81F8-F36F28FD7932",
+        "term": "Intervjuu"
+      },
+      {
+        "id": "1E8D3FF3-A021-496B-B8D4-33769FC35B35",
+        "term": "Tervisliku sobivuse kontroll"
+      }
+    ],
+    "name": "Lennuliiklusteenindus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Reola"
+    ],
+    "id": "46BFF7D7-F461-4EB5-AE7F-6393FB2010E3",
+    "description": [
+      "Lennundusvaldkond kasvab ja areneb just lennundustehnika arengu kaudu. Lennundustehnika õppekava all on lennunduse jaoks kaks väga olulist eriala – side- ja navigatsioonisüsteemid ning õhusõiduki ehitus ja hooldus. Spetsialiseerumine toimub esimese õppeaasta lõpus.",
+      "Õhusõiduki ehituse ja hoolduse erialal koolitatakse lennundustehnilisi töötajaid, kellel on võimalik spetsialiseeruda:",
+      "•tehnik-avioonikuks, kes tegeleb avioonika- ja elektrisüsteemide hooldustöödega. Avioonikutelt eeldatakse elektriskeemide tundmist, mõõteriistade käsitsemise ning elektroonikasüsteemide tundmise ja hooldamise oskust.",
+      "• lennukitehnikuks, kes tegeleb lennukite konstruktsiooni, jõuseadmete ning mehaaniliste ja lihtsamate elektrisüsteemide hooldustöödega.",
+      "• helikopteritehnikuks, kes tegeleb helikopterite konstruktsiooni, jõuseadmete ning mehaaniliste ja lihtsamate elektrisüsteemide hooldustöödega.",
+      "Omandatakse teadmisi kõige kohta, mis õhusõiduki tehnilist poolt puudutab. Õpitakse tundma näiteks õhusõidukite juhtimis- ning pardasüsteeme, mootoreid, pilotaaži- ja navigatsiooniaparatuuri ja nende kontrollimist ning hooldamist. Õppekava edukalt läbinud üliõpilane saab rahvusvaheliselt tunnustatud lennutehnilise töötaja baashariduse ning kõrgharidustunnistuse õhusõiduki ehituse ja hoolduse erialal tagades võimaluse töötada õhusõidukite hooldusorganisatsioonides üle maailma.",
+      "Eriala kuulub lennundustehnika õppekava alla. Erialakoolitus toimub lennuakadeemia õpperuumides sh simuleeritud õhusõidukite hooldusangaaris ning erinevates Eesti ja Euroopa õhusõidukite hooldusorganisatsioonides.",
+      "Poole erialakoolituse mahust moodustab praktika. Praktiliste ülesannete kaudu tutvutakse õhusõidukite ehituse, inspekteerimise, hooldamise, samuti mõõteriistade ja eriseadmete kasutamisega. Muuhulgas saad enda käel proovida valmistada komposiitmaterjalidest detaile, neetida, tutvuda metallitööga, aga ka ise droone ehitada.",
+      "Lennundustehnika õppekava all on lennunduse jaoks kaks väga olulist eriala – side- ja navigatsioonisüsteemid ning õhusõiduki ehitus ja hooldus. Spetsialiseerumine toimub esimese õppeaasta lõpus. Nüüdisaegne lennundus eeldab spetsiifiliste side-, navigatsiooni- ja seiresüsteemide täpset ja tõrgeteta koostööd, et tagada lennuohutus. Sidesüsteeme kasutavad piloodid ja lennujuhid vajaliku info vahetamiseks, navigatsiooni-süsteemide abil leiavad piloodid õige tee sihtpunkti ning seiresüsteemidega jälgitakse õhusõidukite paiknemist õhuruumis ja lennuvälja pinnal.",
+      "Omandatakse teadmisi ja oskusi reaalainetest, erinevatest lennundusdistsipliinidest, süvendatult õpitakse erialaseid teadmisi side, navigatsiooni, seire ja infotehnoloogia kiirelt arenevatest valdkondadest.",
+      "Õppekava edukalt läbinud üliõpilane saab lennuliikluse insener-tehnilise personali (ATSEP) tõendi ning kõrgharidustunnistuse side- ja navigatsioonisüsteemide erialal.",
+      "Eriala kuulub lennundustehnika õppekava alla. Õpinguid alustatakse reaal-, tehnika- ja lennundusvaldkonna alusainetega. Jätkatakse lennunduse side-, navigatsiooni- ja seiresüsteemide õppimisega. Kolmanda õppeaasta sügissemestri õpe viiakse läbi koostöös Tallinna Tehnikaülikooliga, kus omandatakse süvendatud teadmisi raadiotehnikast ja signaalitöötlusest. Neljandal kursusel on suur rõhk praktiliste oskuste omandamisel nii akadeemia õppeklassides kui ka praktikabaasis.",
+      "Lennuakadeemia sidelaboris õpitakse kasutama mõõteriistu ja -seadmeid ning tarkvara, millega insener puutub kokku oma tulevases töös. Õppepraktika toimub nii lennundusettevõtetes ja -organisatsioonides kui ka side- ja elektroonikafirmades."
+    ],
+    "eap": 240,
+    "spots": 27,
+    "majorWebsite": "https://lennuakadeemia.ee/sisseastuja/oppekavad/lennundustehnika/ohusoiduki-ehitus-ja-hooldus",
+    "personnel": [
+      {
+        "email": "karl-eerik.unt@eava.ee",
+        "id": "3A7BC283-EA7B-4D3D-A695-05EE271FA182",
+        "title": "Osakonna juhataja",
+        "phone": "+37256560283",
+        "name": "Karl-Eerik Unt"
+      },
+      {
+        "email": "mati.tarlap@eava.ee",
+        "id": "5F67AFAB-A14B-4798-8EA7-722D26EAE910",
+        "title": "CNS koolitusjuht",
+        "phone": "+3725066502",
+        "name": "Mati Tarlap"
+      },
+      {
+        "email": "madis.parv@eava.ee",
+        "id": "6055EFF8-9F5F-492B-9C58-D443C2DF1893",
+        "title": "Praktikajuht",
+        "phone": "+37253936351",
+        "name": "Madis Parv"
+      },
+      {
+        "email": "veiko.leps@eava.ee",
+        "id": "881ED10B-A5C5-460C-BAB4-A630726E1246",
+        "title": "Insener",
+        "name": "Veiko Leps"
+      },
+      {
+        "email": "mart.vanamb@eava.ee",
+        "id": "24351BE1-75FB-402C-B63D-7E69129227CF",
+        "title": "Insener",
+        "phone": "+3727448104",
+        "name": "Märt Vanamb"
+      },
+      {
+        "email": "taavi.adamberg@eava.ee",
+        "id": "6A2E8C34-EFAF-4EF6-B2DC-45D9E33694C1",
+        "title": "Lennundustehnika lektor",
+        "name": "Taavi Adamberg"
+      },
+      {
+        "email": "valeri.kravets@eava.ee",
+        "id": "E686525A-26CC-41B5-8E9F-6861013F7F7A",
+        "title": "Navigatsioonisüsteemide lektor",
+        "phone": "+3727448107",
+        "name": "Valeri Kravets"
+      },
+      {
+        "email": "matti.silla@eava.ee",
+        "id": "62E34136-2AC7-43BA-9F9A-F3CEA7A7AB4A",
+        "title": "Lennundustehnika lektor",
+        "phone": "+3727448107",
+        "name": "Matti Silla"
+      },
+      {
+        "email": "neethu.akkara@eava.ee",
+        "id": "4DA60B9B-0FBC-47A3-8AD1-79AEB4C7F7A6",
+        "title": "Avioonika lektor",
+        "phone": "+37253314980",
+        "name": "Neethu Xavier Akkara"
+      },
+      {
+        "email": "sikandar.khan@eava.ee",
+        "id": "DCD23B0A-D702-419F-A5C8-43D9F5AF9984",
+        "title": "Elektroonika lektor",
+        "phone": "+3725350 3352",
+        "name": "Sikandar Khan"
+      },
+      {
+        "email": "taavi.kippak@eava.ee",
+        "id": "B9B3E774-2157-4599-8A48-DCB4656EA68E",
+        "title": "Seiresüsteemide vanemõpetaja",
+        "name": "Taavi Kippak"
+      },
+      {
+        "email": "oskar.saarepera@eava.ee",
+        "id": "00777885-731D-449E-9A2F-494876E25404",
+        "title": "UAS valdkonna õpetaja",
+        "name": "Oskar Saarepera"
+      },
+      {
+        "email": "kadri.maeots@eava.ee",
+        "id": "408F2BEC-214E-468E-A806-201F3B9468EF",
+        "title": "Koordinaator",
+        "phone": "+3727448107",
+        "name": "Kadri Mäeots"
+      },
+      {
+        "email": "eva.lastik@eava.ee",
+        "id": "751A47B7-066E-49F2-8448-6E87A89FB49B",
+        "title": "Kutseõppe koordinaator",
+        "phone": "+37259194744",
+        "name": "Eva Lastik"
+      }
+    ],
+    "type": "Tehnik, tootmine ja tehnoloogoia",
+    "modules": [
+      {
+        "id": "F4F61949-908C-4835-89A2-45F0E45A27CC",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "DAA229D9-4FF4-454B-A2C5-358306D31FB7",
+            "name": "Sissejuhatus lennundusse",
+            "eapCount": 3
+          },
+          {
+            "id": "563CCC30-E342-4887-8EAC-88CD22CA75AA",
+            "name": "Lennundusõigus",
+            "eapCount": 3
+          },
+          {
+            "id": "ADF406A0-551A-46CD-A67D-839816519494",
+            "name": "Kõrgem matemaatika I",
+            "eapCount": 6
+          },
+          {
+            "id": "A9DF7B31-0300-42A3-8085-3BCE1B4827BF",
+            "name": "MATLAB lennundusinseneridele",
+            "eapCount": 3
+          },
+          {
+            "id": "88BA61EC-80B9-4685-B10A-52CF0830FC8C",
+            "name": "Informaatika",
+            "eapCount": 3
+          },
+          {
+            "id": "2BE80182-B1F6-43EC-B055-1E69DB690F0A",
+            "name": "Insenerigraafika I",
+            "eapCount": 3
+          },
+          {
+            "id": "13EA1ABE-3384-47E5-AB9B-A5C2B34BCC14",
+            "name": "Programmeerimise alused",
+            "eapCount": 6
+          },
+          {
+            "id": "8881D62F-F4EA-4ECB-A5E8-B31D2F579340",
+            "name": "Matemaatika alused*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "3304A5B5-89E6-4D7D-9437-CCE6A93BB60A",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "242F995C-5589-4DBB-9EF2-707870407EE9",
+            "name": "Lennundusjulgestus",
+            "eapCount": 1
+          },
+          {
+            "id": "9C4C5498-CD4C-4712-88DE-E92431509C56",
+            "name": "Lennundusohutus",
+            "eapCount": 2
+          },
+          {
+            "id": "F156BF73-3D52-4A98-A3EC-3B492EE39527",
+            "name": "Tutvumispraktika lennundusettevõtetes",
+            "eapCount": 1
+          },
+          {
+            "id": "EBEBA77D-76BD-49FC-B3C6-B3923DB068D1",
+            "name": "Kõrgem matemaatika II",
+            "eapCount": 6
+          },
+          {
+            "id": "DCF9DF6A-712E-412F-86CB-4900BC1B42ED",
+            "name": "Lennundusfüüsika",
+            "eapCount": 6
+          },
+          {
+            "id": "803E427D-2E08-4092-B001-5E92F530AD6A",
+            "name": "Insenerigraafika II",
+            "eapCount": 3
+          },
+          {
+            "id": "FA8C307C-760E-4C40-A630-059271CE80ED",
+            "name": "Elektrotehnika",
+            "eapCount": 3
+          },
+          {
+            "id": "E8399EBD-CC37-49CA-8C62-22FF240405A4",
+            "name": "Lennunduse inglise keel",
+            "eapCount": 6
+          },
+          {
+            "id": "A70930A2-2900-4B92-8901-5200F76E7630",
+            "name": "Eesti õigekeelsus ja väljendusõpetus",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "B6BB7D32-5EB8-4564-8609-AA4156A0668B",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "5D2CE454-87E2-4542-82C4-CC5E89C40903",
+            "name": "Aerodünaamika",
+            "eapCount": 3
+          },
+          {
+            "id": "0514749E-2308-4956-A66F-3322927749A5",
+            "name": "Avioonika alused",
+            "eapCount": 3
+          },
+          {
+            "id": "09FEF0EB-AF64-492A-BA83-C75851E3256D",
+            "name": "Elektroonika",
+            "eapCount": 6
+          },
+          {
+            "id": "6A0856B7-6D96-4D2E-9AD9-981F3E3905D7",
+            "name": "Inimfaktor sidetehnikas",
+            "eapCount": 2
+          },
+          {
+            "id": "70E583AC-1AD1-419B-A121-8A4B5C017F9D",
+            "name": "Raadiotehnika alused",
+            "eapCount": 3
+          },
+          {
+            "id": "BFDE1543-4735-4D1C-8354-EE7E20A315A9",
+            "name": "Lennuliikluse korraldamine",
+            "eapCount": 6
+          },
+          {
+            "id": "1126822A-1A4F-47F9-A322-FF186920AA10",
+            "name": "Lennundusalased õigusaktid",
+            "eapCount": 3
+          },
+          {
+            "id": "C4E9C51A-5436-4901-8EDF-41BF02EED4EE",
+            "name": "Hooldusprotseduurid I",
+            "eapCount": 3
+          },
+          {
+            "id": "11B46A33-2129-458E-AE7C-5DFEC9480E71",
+            "name": "Erialapraktika I",
+            "eapCount": 4
+          },
+          {
+            "id": "CCD4A7B4-7748-4DB3-A700-1DE90283EC11",
+            "name": "Teoreetiline mehaanika",
+            "eapCount": 3
+          },
+          {
+            "id": "846D2D6F-61B2-49C7-B94B-85AE15CDF57A",
+            "name": "Materjalid ja detailid",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "D222A98C-4B65-44B8-95D5-3CA8C53767E2",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "71677735-E230-441E-B379-FD3CE6025BC4",
+            "name": "Mehhatroonikasüsteemid",
+            "eapCount": 6
+          },
+          {
+            "id": "2A7967D6-C31E-456C-A791-535950AE4D24",
+            "name": "Vene keel 0 > A1*",
+            "eapCount": 6
+          },
+          {
+            "id": "59987EDF-A082-4B82-AE31-7026BC36FB47",
+            "name": "Raadioelektroonika montaaži praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "839AD750-5973-4391-B3F3-A4528DBDF361",
+            "name": "Seire alused",
+            "eapCount": 3
+          },
+          {
+            "id": "A8DE4BA1-8618-4C39-A0D3-BD79F84FED47",
+            "name": "Katsetehnika raadioelektroonikas",
+            "eapCount": 3
+          },
+          {
+            "id": "68BF2081-F5F9-4106-8936-13C727B87143",
+            "name": "Side ja sidevõrgud",
+            "eapCount": 5
+          },
+          {
+            "id": "365DE4B3-AA40-4D4F-BDB0-E5808EABD810",
+            "name": "Õhusõiduki ehitus inglise keeles",
+            "eapCount": 4
+          },
+          {
+            "id": "EEC20449-515F-48BF-8AAE-90671F0C9B8F",
+            "name": "RPA projekteerimine I",
+            "eapCount": 3
+          },
+          {
+            "id": "D5C358C3-35C5-4FA6-A842-5AACB1B1639A",
+            "name": "Õhusõiduki digitaalelektroonika",
+            "eapCount": 3
+          },
+          {
+            "id": "CB16FEE7-CC11-42A9-AB3B-8EA74E04D2DA",
+            "name": "Hooldusprotseduurid II",
+            "eapCount": 5
+          },
+          {
+            "id": "C5332E7F-6DAA-4E3A-9579-677CE91DDD52",
+            "name": "Õhusõiduki ehitusmehaanika alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "4417604B-CF53-4FBD-9784-78A3A1A47AC0",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "03B4D26B-0F14-486B-9CC4-78577E38EBD5",
+            "name": "Inglise keel inseneridele*",
+            "eapCount": 3
+          },
+          {
+            "id": "C39DAB1E-3CE7-4A29-8001-77710FEF85E9",
+            "name": "Signaalid ja signaalitöötlus",
+            "eapCount": 6
+          },
+          {
+            "id": "5D3EF4DE-ECF8-415D-8730-6AF9E144FF79",
+            "name": "Raadioelektroonika seadmete tehnoloogia praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "86E93977-83CA-4269-9725-8EF126B84AD3",
+            "name": "Raadiosageduslik elektroonika",
+            "eapCount": 6
+          },
+          {
+            "id": "DA5DBD1E-3A01-480C-B852-4AE29A7EA6D0",
+            "name": "Seire",
+            "eapCount": 6
+          },
+          {
+            "id": "342B068E-9580-46F6-AF3B-5A016BF9CC10",
+            "name": "Tootmistehnoloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "C052FFFD-E594-491C-8CF4-C62351AE2568",
+            "name": "Erialapraktika II",
+            "eapCount": 4
+          },
+          {
+            "id": "2559EAFA-5D28-44BD-B069-961B08BC9F7C",
+            "name": "RPA projekteerimine II",
+            "eapCount": 2
+          },
+          {
+            "id": "335C50FC-1C96-41F8-950C-4F63A924AE26",
+            "name": "Õhusõidukite aerodünaamika, ehitus ja süsteemid I",
+            "eapCount": 5
+          },
+          {
+            "id": "E750C475-BC86-438D-A1F7-9BEAA71B559A",
+            "name": "Gaasiturbiinmootorid",
+            "eapCount": 5
+          },
+          {
+            "id": "0E4CEF7D-1734-4436-B635-9F0BACD362F5",
+            "name": "Sensoorika*",
+            "eapCount": 6
+          },
+          {
+            "id": "009F5041-C8F5-4F89-A06B-FE3A54CA4A69",
+            "name": "Algoritmid ja andmestruktuurid*",
+            "eapCount": 6
+          },
+          {
+            "id": "1EBCAFC9-B4BC-4BD1-A772-D5AF347252EC",
+            "name": "Tarkade asjade võrgud*",
+            "eapCount": 6
+          },
+          {
+            "id": "49CC1CBD-6083-401E-BE2B-4D9D6F47CB39",
+            "name": "Robotite juhtimine ja tarkvara*",
+            "eapCount": 6
+          },
+          {
+            "id": "E10B5BDC-A7C4-4FD9-8909-5539506AA5A5",
+            "name": "Sardsüsteemide alused*",
+            "eapCount": 6
+          },
+          {
+            "id": "FD1C5351-8221-43A2-8233-73AA04DDA9C9",
+            "name": "Programmeerimine I*",
+            "eapCount": 6
+          }
+        ]
+      },
+      {
+        "id": "15AC0E8F-7505-48E8-BAFF-AEC1499E3955",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "A8044E06-AFC9-4A60-855E-ADA3E1E85542",
+            "name": "Lennundusmeteoroloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "91EB7139-9405-48C2-B4F6-DF3A135A8E10",
+            "name": "Inglise keel sideinseneridele*",
+            "eapCount": 3
+          },
+          {
+            "id": "05B446F6-9FE3-47AA-9062-1D0A092313E7",
+            "name": "Arvutivõrgud",
+            "eapCount": 3
+          },
+          {
+            "id": "244DF6CC-C303-44EA-91B6-A59DFD80F407",
+            "name": "Küberturvalisus lennunduses",
+            "eapCount": 3
+          },
+          {
+            "id": "69BCDB0D-C7E3-4D47-9FFE-5CFA142D3E74",
+            "name": "Raadionavigatsioon",
+            "eapCount": 5
+          },
+          {
+            "id": "B60937B5-001B-43F7-BD82-AA5C29E201CA",
+            "name": "Raadiolainete levi ja antennid",
+            "eapCount": 4
+          },
+          {
+            "id": "4B5697AF-0448-4B44-A890-29EB834B75E5",
+            "name": "Lennundusside",
+            "eapCount": 3
+          },
+          {
+            "id": "9813E6B1-12BA-4579-AD16-4D7AFAB9BE06",
+            "name": "Õhuseire- ja lennuandmete töötlus",
+            "eapCount": 3
+          },
+          {
+            "id": "4603BAEE-1BF2-4329-8F52-D2BFA0D44F99",
+            "name": "Õhusõidukite aerodünaamika, ehitus ja süsteemid II",
+            "eapCount": 5
+          },
+          {
+            "id": "BEE1E093-38C0-4FF2-95C8-8E665AF6B31C",
+            "name": "RPA konstrueerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "A2B41EBC-F5F7-45B9-AC1C-95CD1B6D4561",
+            "name": "Inimfaktor õhusõiduki hoolduses",
+            "eapCount": 2
+          },
+          {
+            "id": "78EF97D7-66B3-4CD4-8CE6-76B939D15E66",
+            "name": "Kolbmootorid",
+            "eapCount": 2
+          },
+          {
+            "id": "FC98114F-5252-476E-A708-895EE4E0D5B8",
+            "name": "Lennunduse raadioside",
+            "eapCount": 2
+          },
+          {
+            "id": "E95F10CA-755A-4975-A920-2665B50AD266",
+            "name": "Propellerid",
+            "eapCount": 1
+          },
+          {
+            "id": "8AF0E9C7-AA0B-43FE-882D-8EE7CF0724BE",
+            "name": "Erialapraktika III",
+            "eapCount": 6
+          },
+          {
+            "id": "901370E3-3E0C-4545-B19E-7CE8CE089B1C",
+            "name": "Kopterite aerodünaamika, ehitus ja süsteemid*",
+            "eapCount": 3
+          },
+          {
+            "id": "E1470820-9522-48E1-B187-53ACE42C2B77",
+            "name": "Teadustöö alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "0F806C52-124A-42DD-A611-C2A0882A1FCF",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "4AF78A9F-208B-4D91-A479-484C4584766C",
+            "name": "Juhendamise praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "C37A3792-ABF1-43FE-B32E-9328B2AB8EA8",
+            "name": "Raadiomõõtmised lennunduses",
+            "eapCount": 6
+          },
+          {
+            "id": "EB514CEB-CE88-4279-908F-27A91BC437B7",
+            "name": "Süsteemihaldus",
+            "eapCount": 6
+          },
+          {
+            "id": "AD5E9CB5-F62E-4043-BB53-68786B4B870A",
+            "name": "Ettevõttepraktika",
+            "eapCount": 27
+          },
+          {
+            "id": "562C9EFA-EFE1-4C09-91F7-9B627EB25AED",
+            "name": "Raadionavigatsiooni projekt",
+            "eapCount": 2
+          },
+          {
+            "id": "A7ADFDB5-49F6-43D2-82FA-CAED235D79C0",
+            "name": "Praktika hooldusettevõttes",
+            "eapCount": 30
+          },
+          {
+            "id": "689115D1-97F3-43BE-93BD-7EE81908C502",
+            "name": "Lennuliikluse insener-tehnilise personali koolituse eksamid*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "C78FA33B-6321-4CC3-843F-32DC4940B056",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "56955BB2-F545-4BD4-BD0F-C4149794DF2D",
+            "name": "Juhendamise praktika",
+            "eapCount": 2
+          },
+          {
+            "id": "9E3FB6A9-823C-4427-8C6B-BDCDB2DBB473",
+            "name": "Ettevõttepraktika",
+            "eapCount": 27
+          },
+          {
+            "id": "AC6D43F2-C167-490E-9E4F-29212A8B4698",
+            "name": "Lennuliikluse insener-tehnilise personali koolituse eksamid*",
+            "eapCount": 3
+          },
+          {
+            "id": "B84EEB74-F00F-4355-9BAB-BD8C8099AE3E",
+            "name": "Lõputöö",
+            "eapCount": 9
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Lõpetanuna on sul võimalik asuda tööle õhusõidukeid tootvasse või hooldavasse ettevõttesse. Peamisteks tööandjateks Eestis on Magnetic MRO, Aerohooldus, Nordic Aircraft Service, Panaviatic Maintenance, Politsei- ja Piirivalveameti lennusalk ja Õhuvägi. Oskused ja kogemused võimaldavad töötada ka teistes valdkondades, näiteks autotööstuses, raudteetranspordis jm.",
+      "Side- ja navigatsioonisüsteemid:",
+      "Lõpetanuna on sul võimalik asuda tööle side-, navigatsiooni- ja seireteenuseid pakkuvatesse organisatsioonidesse. Peamisteks tööandjateks Eestis on Õhuvägi, Lennuliiklusteeninduse AS, Tallinna Lennujaam, Enics Eesti. Oskused ja kogemused võimaldavad sul töötada ka teistes valdkondades, näiteks infotehnoloogias, elektroonikatööstuses, telekommunikatsioonis jm."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "C59528C7-2CD8-47E6-A9DB-2C310EA89D8C",
+        "term": "Lai/kitsas matemaatika või füüsika riigieksam"
+      },
+      {
+        "id": "8F16B30A-7A26-42FB-8C27-929F5A4EC54F",
+        "term": "Sisseastumiseksam"
+      }
+    ],
+    "name": "Lennundustehnika",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Reola"
+    ],
+    "id": "8AD8EFB0-3DC0-4C52-9D58-8C6D302A17E7",
+    "description": [
+      "Selleks et lennundusettevõte kui tervik töötaks ilma tõrgeteta, on vaja tagada kõikide üksuste koordineeritud tegevus. Lennunduskorralduse eriala lõpetaja on laialdaste lennundusvaldkonna majandus- ja juhtimisalaste teadmistega spetsialist, kes vastutab lennundusettevõtte igapäevase juhtimis- ning arendustegevuse eest.",
+      "Lennunduskorralduse erialal õpitakse tundma erinevate lennundusettevõtete töökorraldust. Teoreetilise õppetöö käigus omandatakse lennunduse baasteadmised,  ärivaldkonna üldised õppeained ning erialaained (broneerimissüsteemide kasutamine, lennujaama tehnika, lennundusettevõtte töö korraldamine jt).",
+      "Saad teadmised sellest, kuidas lennundusettevõtted toimivad, omandad juhtimisalased oskused ning suudad juhtida protsesse klienditeenindusest logistikani, majandusarvestusest turunduseni ning lennundusjärelvalvest turuanalüüsini.",
+      "Õppetöös kasutatakse kaasaegset ning Eestis ainulaadset lennundusalast kirjandust ja kaasatakse oma eriala tippspetsialiste, kellest paljud teevad oma igapäevast tööd just lennundusettevõtete juhtivatel positsioonidel.",
+      "Rohkete erialapraktikate raames näevad üliõpilased lisaks teoreetiliste teadmiste rakendamisele reaalses töökeskkonnas lennundust seestpoolt, mis omakorda loob eelduse edukaks spetsialiseerumiseks. Valikuid spetsialiseerumiseks on mitmeid: klienditeenindusest lennundusteabe vahetuse korralduseni, tulude juhtimisest lennuohutuse juhtimiseni, lennundusvaldkonna järelevalvest turuanalüüsini.",
+      "Lõpetajana võid sa tööd leida lennundusettevõttes aga ka riigiasutuses. Peamised tööandjad on Tallinna Lennujaam ja Tallinn Airport GH, aga regionaallennujaamad, erinevad lennundusettevõtted, sh Nordica, Panaviatic, Õhuvägi, Lennuliiklusteeninduse AS, Politsei- ja Piirivalveameti lennusalk, Magnetic MRO, Majandus- ja Kommunikatsiooniministeerium, Lennuamet jt."
+    ],
+    "eap": 240,
+    "spots": 15,
+    "majorWebsite": "https://lennuakadeemia.ee/sisseastuja/oppekavad/lennunduskorraldus",
+    "personnel": [
+      {
+        "email": "kristjan.roosipold@eava.ee",
+        "id": "6B9CB1C3-7B43-4193-841C-BFEB6CAE4A83",
+        "title": "Lennunduskorralduse osakonna juhataja",
+        "phone": "+37256484626",
+        "name": "Kristjan Roosipõld"
+      },
+      {
+        "email": "heliise.unt@eava.ee",
+        "id": "AE8A3276-C463-472C-82C3-2109BAF70647",
+        "title": "Koolitusjuht",
+        "phone": "+3725103194",
+        "name": "Heliise Unt"
+      },
+      {
+        "email": "faiza.summer@eava.ee",
+        "id": "C15BB7BF-C07D-4A6A-961D-235946E0BF1A",
+        "title": "Simulatsioonide arendaja",
+        "phone": "+37256739409",
+        "name": "Faiza Summer"
+      },
+      {
+        "email": "viktor.trasberg@eava.ee",
+        "id": "D73B7C65-5D64-43D9-BBBB-8F3D3AA5B34A",
+        "title": "Juhtimise ja ettevõtluse dotsent",
+        "phone": "+3727448114",
+        "name": "Viktor Trasberg"
+      },
+      {
+        "email": "allan.nommik@eava.ee",
+        "id": "C6B166FB-0A53-4632-A5F6-E2529D047358",
+        "title": "Lennutranspordi planeerimise lektor",
+        "phone": "+3727448114",
+        "name": "Allan Nõmmik"
+      }
+    ],
+    "type": "Transporditeenused",
+    "modules": [
+      {
+        "id": "CE044CB6-AD44-4DA3-838D-83A4B7255879",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "D4686C67-CF3A-4A95-8852-C51B21DC7627",
+            "name": "Lennunduse inglise keel",
+            "eapCount": 6
+          },
+          {
+            "id": "68F21BE5-4086-4A9A-B9EB-7F86BE8D2872",
+            "name": "Sissejuhatus lennundusse",
+            "eapCount": 3
+          },
+          {
+            "id": "ED29B251-75E7-4CF3-9080-F65DDFDF8808",
+            "name": "Sissejuhatus majandusteooriasse",
+            "eapCount": 6
+          },
+          {
+            "id": "5906AADF-042B-4C6E-A2AC-F5B473DD306B",
+            "name": "Matemaatika alused",
+            "eapCount": 3
+          },
+          {
+            "id": "839A9335-3D9D-419E-A978-5E429F40E328",
+            "name": "Kõrgem matemaatika I",
+            "eapCount": 6
+          },
+          {
+            "id": "9FF802D1-6F57-4F30-983D-2CE932B069F3",
+            "name": "Informaatika",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "0056D681-E83B-4C65-B8C4-8C3F08672F10",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "656F284C-DD9C-4F24-9F95-B9D24288455E",
+            "name": "Ettevõtluse alused",
+            "eapCount": 6
+          },
+          {
+            "id": "D083A605-9ACE-47C7-96F0-6A379669541C",
+            "name": "Statistika ja ökonomeetria alused",
+            "eapCount": 6
+          },
+          {
+            "id": "03471515-FE74-4D63-A6A6-0435764B4DDF",
+            "name": "Lennundusohutus",
+            "eapCount": 2
+          },
+          {
+            "id": "7A1B4855-BA89-46CB-8E00-6F1C60E4812D",
+            "name": "Lennundusjulgestus",
+            "eapCount": 1
+          },
+          {
+            "id": "51631A74-E5C0-4FF5-8570-523F2EA43357",
+            "name": "Lennujaama maapealne teenindus",
+            "eapCount": 6
+          },
+          {
+            "id": "986CE7E3-854E-4E42-B781-C3ED7D0584AF",
+            "name": "Projekti- ja tulemusjuhtimine lennutranspordis",
+            "eapCount": 3
+          },
+          {
+            "id": "41014400-5C2C-4FD4-AC63-508464E72C43",
+            "name": "Logistika",
+            "eapCount": 3
+          },
+          {
+            "id": "238111DE-EE66-4067-A050-6F1D2EE66211",
+            "name": "Eesti õigekeelsus ja väljendusõpetus*",
+            "eapCount": 3
+          },
+          {
+            "id": "8AF7C0FF-520F-4C6B-84C4-A510BF07B44F",
+            "name": "Aeronavigatsiooni alused*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "B8557963-7585-47BA-AB6E-43559E7F3136",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "65AEBA25-6ECE-48D4-BFDE-2AF27AD1EBB2",
+            "name": "Lennundustehnika",
+            "eapCount": 6
+          },
+          {
+            "id": "04EB53E5-5561-4675-B40D-4AA17F521EAB",
+            "name": "Õhusõiduk ja selle sooritusvõimed",
+            "eapCount": 6
+          },
+          {
+            "id": "ECD0C6E8-00EA-464D-AF88-6F692064C89A",
+            "name": "Lennuliikluse korraldamine",
+            "eapCount": 6
+          },
+          {
+            "id": "582CB1AA-BF49-4975-93C8-B8791FACD53E",
+            "name": "Militaar- ja üldlennundus",
+            "eapCount": 3
+          },
+          {
+            "id": "3BAE4AD6-1052-4946-89A1-46FD312CA233",
+            "name": "Lennundusõigus",
+            "eapCount": 3
+          },
+          {
+            "id": "2DE1DAF1-F3C8-4865-854B-9E58A64A3B29",
+            "name": "Kvaliteedijuhtimise alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "535A2C3C-4FD9-471E-A2CB-18022BC41D2C",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "3F676166-2A78-4AA8-8DFB-2EFC0FCFBD03",
+            "name": "Lendude planeerimine ja monitooring",
+            "eapCount": 3
+          },
+          {
+            "id": "43B911DB-8F5A-46EF-95A1-E32E0B63B9A4",
+            "name": "Lennundusettevõtte töö korraldamine",
+            "eapCount": 6
+          },
+          {
+            "id": "3237241A-ABCB-4681-987F-5E93A10EFBC2",
+            "name": "Rahvusvaheline majandus ja lennundus",
+            "eapCount": 3
+          },
+          {
+            "id": "3B6C2517-AAB7-4BC5-B91C-95B9D692ED53",
+            "name": "Lennutranspordi ökonoomika",
+            "eapCount": 6
+          },
+          {
+            "id": "6AA6310A-FEBB-46C0-ADA7-8B6A71669D5E",
+            "name": "Teadustöö alused",
+            "eapCount": 3
+          },
+          {
+            "id": "710A8C7A-CEAD-4045-8384-E8224628780E",
+            "name": "Turundus*",
+            "eapCount": 3
+          },
+          {
+            "id": "FE8A301E-AEF4-438D-B177-948231CC42FE",
+            "name": "Lennundusmeteoroloogia*",
+            "eapCount": 3
+          },
+          {
+            "id": "CCAAE7F0-9A8C-4AA1-8701-97BB4B59F0FA",
+            "name": "Andmete analüüs ja visualiseerimine MS Excelis ja Power BI-s*",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "CA2B950B-CB88-47AB-8F09-7D114B088AB3",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "071A6033-8F0D-4B19-9B75-CFC7B28BF3C1",
+            "name": "Ärieetika ja kommunikatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "E82F2DB5-4803-469E-B760-74B26A767233",
+            "name": "Ettevõtte juhtimise üldkursus",
+            "eapCount": 6
+          },
+          {
+            "id": "7F06B9D4-A4F2-46D1-98AC-02F14BF2DC9C",
+            "name": "Majandusarvestus ja lennundusettevõtte rahandus",
+            "eapCount": 6
+          },
+          {
+            "id": "2CFD0EEE-D4B1-431B-99FE-72EC1CC6E22A",
+            "name": "Lennundussektori normatiivdokumentatsiooniga töötamise praktika",
+            "eapCount": 3
+          },
+          {
+            "id": "9121EA3A-0923-4D16-9378-E8014A5378BC",
+            "name": "Balti riikide majanduskeskkond*",
+            "eapCount": 6
+          }
+        ]
+      },
+      {
+        "id": "9F4E73D0-7FCB-4E93-8C2C-639B3D9EDAB3",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "782FCF02-7849-4A5F-8E84-A282323AA1B4",
+            "name": "Erialapraktika",
+            "eapCount": 24
+          },
+          {
+            "id": "62BE5B1C-D015-444D-BF65-C36220D0BB52",
+            "name": "Lõputöö",
+            "eapCount": 6
+          },
+          {
+            "id": "320F59F4-C589-4C32-839A-09BF6CD3B7F1",
+            "name": "Digitaalsed arengud lennunduses*",
+            "eapCount": 3
+          },
+          {
+            "id": "B32C2A30-9C1E-49C4-8A51-863B1017146A",
+            "name": "Avaliku sektori majandus*",
+            "eapCount": 3
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Suhtub oma erialasesse tegevusse kõrgendatud vastutustundega, mis on suunatud lennuohutuse tagamisele",
+      "Selgitab suuliselt ja kirjalikult eesti ja/või inglise keeles erialaga seonduvaid probleeme ning osaleb erialastes aruteludes",
+      "Kasutab analüüsi- ja sünteesioskust oma valdkonnas",
+      "Loob eeldused õpingute jätkamiseks magistriõppes",
+      "Omab rakenduskõrgharidusele ning rahvusvahelistele lennundusstandarditele vastavaid pädevusi, mis võimaldavad töötada lennundusvaldkonnas nii Eestis kui ka välismaal",
+      "Tunneb meeskonnatöö iseärasusi ja tähtsust ning oskab töötada meeskonnas, seostades erinevaid mõjusid keskkonna, ressursside, standardite ja inimese võimete vahel",
+      "Arvestab lennundusettevõtte juhtimisel rahvusvahelisi nõudeid",
+      "Omab teadmisi lennundusettevõtte allüksuste tööde juhtimisest ja koordineerimisest",
+      "Omab teadmisi lennundusettevõtte finantsmajandusliku ja strateegilise tegevuse planeerimisest ja analüüsimisest",
+      "Tunneb personalipoliitika ja klienditeeninduse põhiprintsiipe ning rakendab neid lennundusettevõttes",
+      "Orienteerub erinevate lennundusettevõtete töökorralduse praktikas ja on suuteline osalema lennundusettevõtte tegevuse planeerimisel.",
+      "Lennunduskorralduse eriala lõpetanuna oled sa laialdaste lennundusvaldkonna majandus- ja juhtimisalaste teadmistega spetsialist, kes vastutab lennundusettevõtte juhtimis- ning arendustegevuse eest."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "E957636E-9C8F-4AA3-B74B-195F2ECB4C09",
+        "term": "Lai/kitsas matemaatika või füüsika riigieksam"
+      },
+      {
+        "id": "93E6DC26-9C6E-48F8-9B3D-B84A62D55670",
+        "term": "Sisseastumiseksam"
+      }
+    ],
+    "name": "Lennunduskorraldus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Reola"
+    ],
+    "id": "C67D5819-5897-4ABF-9589-260F45F97FE4",
+    "description": [
+      "Piloodi eriala on maailmas ainulaadne, kus ka taevas pole piiriks. Seda kinnitavad nii lennuki- kui ka kopteripiloodi tudengid, kes Eesti Lennuakadeemias õhusõiduki juhtimise erialal õpivad ning lendamist naudivad. Kõik lennuakadeemia üliõpilased peavad teadma lennunduse põhitõdesid, eriti aga just tulevased piloodid.",
+      "Sellel erialal saad õppida lennuki- või kopteripiloodiks, kes:",
+      "• Peab tundma hästi õhusõiduki pardal asuvaid instrumente ja navigatsioonivahendeid, sest sageli pole silma järgi orienteerumine võimalik",
+      "• On ka raadiooperaator, kuna õhusõiduki õhus navigeerimisel, õhkutõusmisel ja maandumisel peab piloot sidet maapeal asuvate lennujuhtidega, kes annavad vajalikku informatsiooni",
+      "• Teeb enne ja pärast lendu arvestused kütuse, ajakulu jm kohta, samuti haldab erinevaid pardasüsteeme",
+      "Oskab teha meeskonnatööd, kuna lisaks lennukile juhib piloot ka lennuki meeskonda.",
+      "Esimesel kolmel semestril õpitakse alusaineid, 4. semestril algab erialaõpe. Erialaõpingud sisaldavad nii teooriat kui ka lennupraktikat.",
+      "Lennupraktika käigus õpitakse tundma põhilisi lennuetappe (õhkutõus, horisontaallend, pöörangud, maandumine jne), omandatakse marsruutlennu oskused, õpitakse orienteeruma ja maanduma piiratud nähtavuse tingimustes. Lisaks sooritatakse õppelende teistele lennuväljadele. Eksamite eduka sooritamise järel väljastab Lennuamet sulle ametlenduri lennundusloa koos liinilenduri teooriapädevusega.",
+      "Õppelendudeks kasutatakse ühemootorilist lennukit Cessna 172 ning kahemootorilist lennukit Piper PA-31 Navajo, kopteri õppelendudeks kahekohalist kopterit Robinson R22. Meeskonnatöö koolituseks, samuti erinevate ohtlike olukordade läbiharjutamiseks kasutatakse lennuki- ja kopterisimulaatorit. Kopteri juhtimise erialal läbitakse 155 tundi (sellest 25 tundi simulaatoril) ning lennuki juhtimise erialal 215 tundi (sellest 55 tundi simulaatoril) lennupraktikat.  ",
+      "Piloodina võivad sinu tööandjaks olla Nordica, Airest, Fort Aero, Pakker Avio, Panaviatic, Politsei- ja Piirivalveameti lennusalk, Õhuvägi, aga ka välismaised lennufirmad nagu airBaltic, Smartlynx, WizzAir jt."
+    ],
+    "eap": 240,
+    "spots": 10,
+    "majorWebsite": "https://lennuakadeemia.ee/sisseastuja/oppekavad/ohusoiduki-juhtimine",
+    "personnel": [
+      {
+        "email": "meelis.koovit@eava.ee",
+        "id": "849DE298-1175-44BB-8D91-D87D0CFF2DF3",
+        "title": "Osakonna juhataja",
+        "phone": "+3725280184",
+        "name": "Meelis Koovit"
+      },
+      {
+        "email": "jaan.annus@eava.ee",
+        "id": "75962887-7F23-409E-BE30-D0214A689C5F",
+        "title": "Teooriakoolituse juht",
+        "name": "Jaan Annus"
+      },
+      {
+        "email": "ivar.mathisen@eava.ee",
+        "id": "491F7BE0-BCFC-4197-9DED-8B596DA78351",
+        "title": "Lennupraktika juht",
+        "phone": "+3727448102",
+        "name": "Ivar Mathisen"
+      },
+      {
+        "email": "Aerodünaamika lektor",
+        "id": "746A9D26-7122-48D2-83BB-6758C33D7212",
+        "title": "Aerodünaamika lektor",
+        "phone": "+3727448117",
+        "name": "Jaan Susi"
+      },
+      {
+        "email": "kert.kotkas@eava.ee",
+        "id": "A6C7890C-409C-4A6C-A86F-7591ECF13847",
+        "title": "Õigusõpetuse lektor",
+        "name": "Kert Kotkas"
+      },
+      {
+        "email": "ivar.viilup@eava.ee",
+        "id": "61FB9D76-F786-4AD4-A9B0-16F02B5E587B",
+        "title": "Spetsialist",
+        "phone": "+37256671862",
+        "name": "Ivar Viilup"
+      },
+      {
+        "email": "juri.luha@eava.ee",
+        "id": "92FE240B-A480-4D5D-A894-912FEF9A1FD8",
+        "title": "Koordinaator",
+        "phone": "+3727448118",
+        "name": "Jüri Luha"
+      },
+      {
+        "email": "alisa.lepik@eava.ee",
+        "id": "6B8D2864-1D59-4DB9-83B2-CEF236B4AB26",
+        "title": "Meteoroloogia õpetaja",
+        "name": "Alisa Lepik"
+      }
+    ],
+    "type": "Transporditeenused",
+    "modules": [
+      {
+        "id": "A401C178-37B6-4F22-B0F4-85F649FB8991",
+        "name": "1. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "C999BFAD-0E3B-4FE4-B5A8-458B8AB14802",
+            "name": "Sissejuhatus majandusteooriasse",
+            "eapCount": 6
+          },
+          {
+            "id": "5F1B67E5-5C5B-438C-AA39-EE761B3BBF8D",
+            "name": "Sissejuhatus lennundusse",
+            "eapCount": 3
+          },
+          {
+            "id": "58A6450C-575A-498F-93C3-DCFF3BD6B709",
+            "name": "Kõrgem matemaatika I",
+            "eapCount": 6
+          },
+          {
+            "id": "F74211FE-B8D0-4E4D-A22D-13D025872814",
+            "name": "Informaatika",
+            "eapCount": 3
+          },
+          {
+            "id": "302B8B46-0E47-4C06-89DD-10A84DD4D963",
+            "name": "Materjaliõpetus",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "6451672A-C443-4B2C-8290-B6EB3F9A25CD",
+        "name": "1. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "C0CA3A06-0D6E-410D-95CA-9F764EE24C9C",
+            "name": "Lennundusohutus",
+            "eapCount": 2
+          },
+          {
+            "id": "AB1DDDBD-75B5-433C-A5C4-8C83C5EB58AD",
+            "name": "Lennundusjulgestus",
+            "eapCount": 1
+          },
+          {
+            "id": "F4FA210D-8A48-4669-99CA-BAB0EAFA0794",
+            "name": "Ettevõtluse alused",
+            "eapCount": 6
+          },
+          {
+            "id": "29986F4A-351F-472B-A9C8-B5CC7DA5CC74",
+            "name": "Lennundusfüüsika",
+            "eapCount": 6
+          },
+          {
+            "id": "A944AAB5-90B0-44C4-91A8-58D7061161E2",
+            "name": "Kõrgem matemaatika II",
+            "eapCount": 6
+          },
+          {
+            "id": "AC486661-56FD-43CB-9155-8A0B2ACA9E74",
+            "name": "Elektrotehnika",
+            "eapCount": 3
+          },
+          {
+            "id": "26B33071-0E53-40DD-860E-7D790A871CE7",
+            "name": "Lennunduse inglise keel",
+            "eapCount": 6
+          }
+        ]
+      },
+      {
+        "id": "71219062-FA4D-42E1-AA24-306E228E48A7",
+        "name": "2. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "DA8DA2BF-8577-422A-91E0-22CE56C37F5B",
+            "name": "Lennundusõigus",
+            "eapCount": 3
+          },
+          {
+            "id": "660A60F0-2AB8-4E7B-B25B-872AC1AC5530",
+            "name": "Aerodünaamika",
+            "eapCount": 3
+          },
+          {
+            "id": "6CF63F14-C2FC-4E5B-8E03-96D64224F0BC",
+            "name": "Elektroonika",
+            "eapCount": 6
+          },
+          {
+            "id": "A178D8B5-7A59-4515-884C-51C5B6DCCED0",
+            "name": "Avioonika alused",
+            "eapCount": 3
+          },
+          {
+            "id": "58B52C2E-FACD-487F-93D5-C432F7CEC248",
+            "name": "Raadiotehnika alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "7EFCCBF6-87CA-4C1E-86EB-9A2ED15E7644",
+        "name": "2. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "02965FF5-155C-42AB-9BCE-DFDA5D4B59B0",
+            "name": "Erialane inglise keel I",
+            "eapCount": 6
+          },
+          {
+            "id": "5826DB33-3BED-473B-BDE0-D9A7F1098066",
+            "name": "Lennundusõigusaktid I",
+            "eapCount": 2
+          },
+          {
+            "id": "F77F44EC-713E-4D4B-A136-44D5DF721B0B",
+            "name": "Lend ja plaan I",
+            "eapCount": 3
+          },
+          {
+            "id": "BFBE8C22-87A5-4E6A-8DA2-92AD5137BCBB",
+            "name": "Õhusõiduki ehitus I",
+            "eapCount": 4.5
+          },
+          {
+            "id": "8340815C-0B99-4E6F-9E41-C2666BDB231C",
+            "name": "Käitamisprotseduurid I",
+            "eapCount": 1.5
+          },
+          {
+            "id": "91955C8E-220F-46A4-84B8-2551A1110D2C",
+            "name": "Navigatsioon I",
+            "eapCount": 5.5
+          },
+          {
+            "id": "FCE587B6-D92B-4250-AD17-4B8EB606A337",
+            "name": "Lennundusraadioside I",
+            "eapCount": 6
+          },
+          {
+            "id": "B4EA1F0B-8609-4F7B-891F-8283701A1041",
+            "name": "Aerodünaamika I",
+            "eapCount": 2.5
+          },
+          {
+            "id": "9EF67E3C-4A8C-4DA4-8903-6EBA370372C6",
+            "name": "Meteoroloogia I",
+            "eapCount": 3
+          },
+          {
+            "id": "CCC6876C-13BB-4601-A82A-5088498D5459",
+            "name": "Kopterite aerodünaamika",
+            "eapCount": 3.5
+          }
+        ]
+      },
+      {
+        "id": "4E71D643-8AF2-4945-85FB-24AB1F6F562E",
+        "name": "3. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "50ECBDDA-2430-477A-A335-9C7FA992CCD4",
+            "name": "Aerodünaamika II",
+            "eapCount": 2
+          },
+          {
+            "id": "02F7144C-6EB4-450D-9809-7B2FA96DBE1B",
+            "name": "Käitamisprotseduurid II",
+            "eapCount": 2
+          },
+          {
+            "id": "A18EDDD8-462F-4CC4-8AB3-0EA5A18AA18E",
+            "name": "Navigatsioon II",
+            "eapCount": 5
+          },
+          {
+            "id": "CFD1DF5D-191E-4C4E-9F61-C128681F19A8",
+            "name": "Lennundusõigusaktid II",
+            "eapCount": 1.5
+          },
+          {
+            "id": "BE36B061-B634-40A6-BDBC-28BDD5F0FB48",
+            "name": "Õhusõiduki ehitus II",
+            "eapCount": 5
+          },
+          {
+            "id": "279C98D3-73C1-4BCC-9A02-429D736C7C1A",
+            "name": "Meteoroloogia II",
+            "eapCount": 3.5
+          },
+          {
+            "id": "F3622185-FF9A-4BA4-B565-AF46B68CBC0F",
+            "name": "Lend ja plaan II",
+            "eapCount": 3.5
+          },
+          {
+            "id": "8CA3EFBE-C432-49D5-B3CB-C8676DFB16F7",
+            "name": "Kopteri ehitus",
+            "eapCount": 4.5
+          }
+        ]
+      },
+      {
+        "id": "46811A32-F878-4E17-9129-72A6D01AD691",
+        "name": "3. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "DA20B6AF-A77B-4821-B3CB-A8F38444EBEF",
+            "name": "Lend ja plaan III",
+            "eapCount": 3.5
+          },
+          {
+            "id": "70B0950C-01C9-4EC4-937B-A5C5EF39832F",
+            "name": "Meteoroloogia III",
+            "eapCount": 3
+          },
+          {
+            "id": "256C4E86-8B99-46F8-940A-38DE58786E1F",
+            "name": "Navigatsioon III",
+            "eapCount": 5
+          },
+          {
+            "id": "C82DFAC2-6C49-4AF8-8ABE-38D0C68582E2",
+            "name": "Lennundusõigusaktid III",
+            "eapCount": 1.5
+          },
+          {
+            "id": "47BBC14B-3E0B-4CB0-BF24-5378B2AF0B85",
+            "name": "Lennundusraadioside II",
+            "eapCount": 2
+          },
+          {
+            "id": "7B022EF8-0822-471D-BA49-375F0C7E4C7C",
+            "name": "Inimfaktor I",
+            "eapCount": 3.5
+          },
+          {
+            "id": "B13832CD-463A-4FB8-BE30-B0B0D721231E",
+            "name": "Kopterite käitamisprotseduurid",
+            "eapCount": 3
+          },
+          {
+            "id": "FDD84B05-FD65-41A7-B4DB-F2AA3BC610C8",
+            "name": "Käitamisprotseduurid III",
+            "eapCount": 1.5
+          },
+          {
+            "id": "1150C668-A6D7-4886-973A-762FF11A4066",
+            "name": "Aerodünaamika III",
+            "eapCount": 1.5
+          }
+        ]
+      },
+      {
+        "id": "E6933539-4CFF-4D98-B1F0-56D3F5CD8169",
+        "name": "4. õppeaasta sügissemester",
+        "courses": [
+          {
+            "id": "25DBCE81-1CEC-43C9-B608-EBB7133D6031",
+            "name": "Erialane inglise keel III",
+            "eapCount": 3
+          },
+          {
+            "id": "551C7A83-81B1-45D9-98A3-0A7EC3046641",
+            "name": "Inimfaktor II",
+            "eapCount": 2.5
+          },
+          {
+            "id": "0D162414-A17D-4731-A055-B12B72BC2D64",
+            "name": "Kopteri ametpiloodi teooriaeksamid",
+            "eapCount": 3
+          },
+          {
+            "id": "FE0DC380-B260-4F7E-B886-B974F3F94BD5",
+            "name": "Õhusõiduki ehitus III",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "8CBC2AFF-297A-4600-A25D-7FE5B05B43AE",
+        "name": "4. õppeaasta kevadsemester",
+        "courses": [
+          {
+            "id": "457C5253-142A-4C54-98EF-BF43FB23D6C6",
+            "name": "Kopteri lennumeeskonna koostöö",
+            "eapCount": 5
+          },
+          {
+            "id": "29D39375-B634-4ACF-9E02-3FB3E04F1972",
+            "name": "Kopteri lennupraktika",
+            "eapCount": 39
+          },
+          {
+            "id": "22EC1B34-DFD5-4DFE-98E7-1D7A114AE420",
+            "name": "Kopteri liinipiloodi teooriaeksamid",
+            "eapCount": 5
+          },
+          {
+            "id": "92631777-AA5C-4C34-A0F4-B6025AF83B46",
+            "name": "Lennuki lennumeeskonna koostöö",
+            "eapCount": 5
+          },
+          {
+            "id": "825F5A4C-8E19-4FA0-B025-B4E3296BD397",
+            "name": "Lennuki lennupraktika",
+            "eapCount": 48
+          },
+          {
+            "id": "146FBE43-9A3D-4CAF-9E4F-C70376542B27",
+            "name": "Lennuki liinipiloodi teooriaeksamid",
+            "eapCount": 5
+          },
+          {
+            "id": "3A40753D-7E6F-4407-A71B-180AFA590699",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      }
+    ],
+    "level": "rakenduskõrgharidus",
+    "outcomes": [
+      "Suhtub oma erialasesse tegevusse kõrgendatud vastutustundega, mis on suunatud lennuohutuse tagamisele",
+      "Selgitab suuliselt ja kirjalikult eesti ja/või inglise keeles erialaga seonduvaid probleeme ning osaleb erialastes aruteludes",
+      "Kasutab analüüsi- ja sünteesioskust oma valdkonnas",
+      "Loob eeldused õpingute jätkamiseks",
+      "Omab rakenduskõrgharidusele ning rahvusvahelistele lennundusstandarditele vastavaid pädevusi, mis võimaldavad töötada lennundusvaldkonnas nii Eestis kui ka välismaal",
+      "Tunneb meeskonnatöö iseärasusi ja tähtsust ning oskab töötada meeskonnas, seostades erinevaid mõjusid keskkonna, ressursside, standardite ja inimese võimete vahel.",
+      ",Õppekava läbimisel lennuki eriala üliõpilane:",
+      "Valdab teoreetilisi teadmisi liinipiloodile (ATP(A)) vajalikul tasemel",
+      "Omab praktilisi algseid lennukogemusi liinipiloodile vajalikul tasemel (komisjoni määrus (EL) nr 1178/2011)",
+      "Õppekava läbimisel kopteri eriala üliõpilane",
+      "Valdab teoreetilisi teadmisi liinipiloodile (ATP(H)) vajalikul tasemel",
+      "Omab praktilisi lennukogemusi ametpiloodile vajalikul tasemel (komisjoni määrus (EL) nr 1178/2011)."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "66E66F75-6864-491D-BFC1-F0D9E20D1FA1",
+        "term": "Lai matemaatika riigieksam"
+      },
+      {
+        "id": "53EA3A27-2503-48FE-BB14-2A59003A64E8",
+        "term": "Kutsesobivustest"
+      },
+      {
+        "id": "2F0F92A0-4AFA-47D5-B0D3-DD5AC4CF7CC1",
+        "term": "Intervjuu"
+      },
+      {
+        "id": "ED8B7B81-27F6-436E-9FD2-00C3F67C9537",
+        "term": "Tervisliku sobivuse kontroll"
+      }
+    ],
+    "name": "Õhusõiduki juhtimine",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  }
+]
