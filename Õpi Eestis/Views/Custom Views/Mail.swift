@@ -8,7 +8,7 @@ struct MailView: UIViewControllerRepresentable {
     @Environment(\.presentationMode) var presentation
     @Binding var result: Result<MFMailComposeResult, Error>?
     let email: ContactInfo
-    let name: String
+    let name: SchoolName
 
     class Coordinator: NSObject, MFMailComposeViewControllerDelegate {
 
@@ -44,7 +44,6 @@ struct MailView: UIViewControllerRepresentable {
         let vc = MFMailComposeViewController()
         vc.mailComposeDelegate = context.coordinator
         vc.setToRecipients([email.email])
-        vc.setMessageBody("<html><body><p>Lugupeetud \(name)!</p><br><br><br><br><br><br><br><br> <p>Saadetud läbi Õpi Eestis rakenduse.</p></body></html>", isHTML: true)
         return vc
     }
 

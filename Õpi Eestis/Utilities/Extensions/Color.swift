@@ -12,6 +12,8 @@ public extension Color {
     static let threeQuarterBlack = Color.black.opacity(0.9)
     static let dimBlack = Color.black.opacity(0.05)
     static let dimGray = Color.gray.opacity(0.001)
+    static let mediumGray = Color.init(red: 150/255, green: 150/255, blue: 150/255)
+    static let darkGray = Color.init(red: 130/255, green: 130/255, blue: 130/255)
     
     // ÕE theme
     static let oeBlue = Color.init(red: 0, green: 118/255, blue: 200/255)

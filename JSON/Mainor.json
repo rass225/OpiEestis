@@ -1,0 +1,4494 @@
+[
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "319CF153-8279-4F70-8DFF-A289D6EFF802",
+    "description": [
+      "Graafilise disaini erialal õpid kujundama visuaalseid lahendusi nii veebis, trükis kui mistahes pindadel. Looma visuaalset identiteeti ja realiseerima oma kunstilisi eeldusi ennekõike digitaalse meedia valdkonnas. Õpid nii professionaalse kunsti aluseid kui ka kasutama laialdaselt kasutatavaid digitaalseid disainitööriistu.",
+      "Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppest suure osa moodustab erialane praktika",
+      "Graafilise disaini eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti graafilise disaini ja teiste kunstierialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus."
+    ],
+    "eap": 180,
+    "spots": 25,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/graafiline_disain",
+    "personnel": [
+      {
+        "email": "ranno.pai@eek.ee",
+        "id": "9127A4E6-B167-43AE-A605-E64E1A322DC1",
+        "title": "Erialajuht",
+        "name": "Ranno Päi"
+      },
+      {
+        "email": "astri.muul@eek.ee",
+        "id": "12C1652B-418C-4EA9-BA18-DB1DA53202F6",
+        "title": "Rõivadisaini lektor",
+        "name": "Astri Müül"
+      },
+      {
+        "email": "maido.parv@eek.ee",
+        "id": "54A36A0F-817E-4C4D-8092-78751E6C7AF9",
+        "title": "Õppejõud",
+        "name": "Maido Parv"
+      },
+      {
+        "email": "siim.sultson@eek.ee",
+        "id": "7A2A92EB-D131-47C5-AF04-D7838E773ED8",
+        "title": "Õppejõud",
+        "name": "Siim Sultson"
+      },
+      {
+        "email": "elari.tamm@eek.ee",
+        "id": "EFF255FF-D175-47D6-B8D5-EA3DA6566BAA",
+        "title": "Õppejõud",
+        "name": "Elari Tamm"
+      }
+    ],
+    "type": "Disainiteadus",
+    "modules": [
+      {
+        "id": "05F8DAEB-2B05-4CF1-9E2F-851D5FBCC693",
+        "name": "Ettevõtlus",
+        "courses": [
+          {
+            "id": "DE9CFFB6-5F0A-4B58-AEE3-A8AC6C0CFFEE",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "83CF64A0-2754-498C-ADAC-819357A73DBC",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "A1D5AC86-3EF8-4921-8E89-57108404C8A7",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "FFE696FE-5260-4795-95B3-FDBAFA44A1F2",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "BC75AB78-0A1D-4E2B-8BFD-A851DD231660",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "1AE00551-2D7B-4FD0-BBB1-BCDD702B6E08",
+            "name": "Äriõigus ja loomemajanduse õigusaktid",
+            "eapCount": 3
+          },
+          {
+            "id": "F3DB6209-E8E4-4E77-95B8-3CC468E0E50E",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "8FB14B9B-047E-486D-98B0-9A35FEFDEF63",
+            "name": "Reklaamipsühholoogia",
+            "eapCount": 2
+          },
+          {
+            "id": "7F8BC063-0581-49D2-85AD-80431FBC0CC1",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          },
+          {
+            "id": "A2416DCC-5F1E-444C-A124-F0E36758119B",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          },
+          {
+            "id": "F1EA6B03-749E-4636-A708-932738FF091E",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "83567172-2997-4AFC-BE9E-C11BFED477FB",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "6C815D49-B74F-486D-8BCD-CB604EA30EFD",
+        "name": "Veebidisain ja digitaalgraafika",
+        "courses": [
+          {
+            "id": "78639B42-F25C-460B-9101-D36688CF2AAA",
+            "name": "Kasutajaliidese ja -kogemuse disain (UI/UX)",
+            "eapCount": 5
+          },
+          {
+            "id": "2FF33CA2-BFF1-4CD0-A354-6981485D61F9",
+            "name": "Fototöötlus",
+            "eapCount": 5
+          },
+          {
+            "id": "B9234AFA-FAF2-4245-A06B-30039659453E",
+            "name": "Arvutigraafika ja animatsioon",
+            "eapCount": 5
+          },
+          {
+            "id": "AF092246-3F3D-4938-B67C-744145709F4E",
+            "name": "HTML 5",
+            "eapCount": 5
+          },
+          {
+            "id": "4FD05164-68C3-4D2E-B915-F2ED9FD3EDA4",
+            "name": "Vektorgraafika",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "D4A5E7E8-B7D0-49B0-9E19-8F0FF8BAD44D",
+        "name": "Graafilise disaini moodul",
+        "courses": [
+          {
+            "id": "C38932F9-6826-496A-96A7-E92717F7D271",
+            "name": "Infograafika",
+            "eapCount": 3
+          },
+          {
+            "id": "A3FCA421-1AF8-40A0-A6F3-68C3BB114657",
+            "name": "Märgigraafika",
+            "eapCount": 3
+          },
+          {
+            "id": "487DAA9A-A367-4968-A72C-2BD65B449F98",
+            "name": "Fotograafia",
+            "eapCount": 3
+          },
+          {
+            "id": "31D8C695-EB7D-40BD-BDE3-240D0B82AEAB",
+            "name": "Kompositsioon ja värvusõpetus",
+            "eapCount": 5
+          },
+          {
+            "id": "1B95EAC6-E1C6-46E1-998A-9F67A8E1F407",
+            "name": "Wordpress",
+            "eapCount": 3
+          },
+          {
+            "id": "747F032D-343D-45EC-92FC-CA9466B646E0",
+            "name": "Fotomanipulatsioon reklaamis",
+            "eapCount": 3
+          },
+          {
+            "id": "B958E72F-DA47-4B2F-8008-7B4D2C4FA02B",
+            "name": "Reklaamigraafika",
+            "eapCount": 3
+          },
+          {
+            "id": "D263E252-938E-4DAC-A8E2-94628CF46595",
+            "name": "Firmagraafika",
+            "eapCount": 3
+          },
+          {
+            "id": "A18C7857-54F6-4880-8415-59E25F52062D",
+            "name": "Trükitehnoloogia",
+            "eapCount": 3
+          },
+          {
+            "id": "6765C431-DCF5-479D-B073-BFB59C2A06E5",
+            "name": "Pakendigraafika",
+            "eapCount": 3
+          },
+          {
+            "id": "DCEFF9DA-E941-4E89-AC76-9DCEB402EA1C",
+            "name": "Keskkonnadisain",
+            "eapCount": 2
+          },
+          {
+            "id": "B69864DF-17E6-43AE-9038-7AC7AE410CA4",
+            "name": "Tüpograafia",
+            "eapCount": 3
+          },
+          {
+            "id": "5054354D-98D6-4754-A501-4AEDF4437FFC",
+            "name": "Plakatigraafika",
+            "eapCount": 3
+          },
+          {
+            "id": "7FDE84FE-BF58-4CD5-B2A4-2EC7907F866E",
+            "name": "Illustratsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "32419C9B-D7BB-48F1-98D1-F21EA798B12A",
+            "name": "Graafilise disaini ajalugu",
+            "eapCount": 3
+          },
+          {
+            "id": "E0125C7B-57E6-4883-B3B6-1BFADB1960E0",
+            "name": "Ajalehe ja ajakirja kujundus ning küljendamine (InDesign)",
+            "eapCount": 5
+          },
+          {
+            "id": "F921A670-EA78-4F9F-91F2-8C2281A831BD",
+            "name": "Kujundusgraafika",
+            "eapCount": 3
+          },
+          {
+            "id": "3CD52E6A-A4FD-4767-AF8C-2A5738153463",
+            "name": "Interaktiivne veebimeedia",
+            "eapCount": 3
+          },
+          {
+            "id": "71015167-AC04-4FED-A508-66DEEF91B659",
+            "name": "Joonistamine I",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "FF3EDDD3-D959-467F-B9FA-EE7E9FE99D37",
+        "name": "Praktikad ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "784E0E3E-0AFD-4E73-86B0-EEC6E8EE1CDA",
+            "name": "Portfoolio",
+            "eapCount": 5
+          },
+          {
+            "id": "EF3AD15F-C9AE-4182-99BB-82B992B0D4C4",
+            "name": "Lõputöö",
+            "eapCount": 10
+          },
+          {
+            "id": "E181D0AB-4DE8-45EF-864F-3A1EB8492035",
+            "name": "Erialase meeskonnatöö praktika",
+            "eapCount": 10
+          },
+          {
+            "id": "3C0FEE52-FCA1-4B15-BD10-50FA7BEF99D5",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "42D31A91-F90C-4F8B-A75A-B5B01B713467",
+            "name": "Loominguline praktika",
+            "eapCount": 5
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või jätkata õpinguid magistriõppes",
+      "Orienteerub disaini ja disainiga liituval infotehnoloogia maastikul",
+      "On kompetentne graafilise disaini, veebikeskkonnapõhise graafilise disaini, digitaalmeedia, veebiarenduse valdkonnas",
+      "Rakendab omandatud teadmisi ja oskusi disainialases tegevuses",
+      "On valmis tegutsema muutuvas keskkonnas, suudab toimida paindlikult ja loominguliselt vastavalt olukorrale ning organisatsiooni vajadustele",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab  tööks vajalikke suhtlusoskusi",
+      "Valmis disainialaseks tööks meeskonnas ja üksikettevõtjana",
+      "On omandanud vajalikud kompetentsid tegutsemiseks loovettevõtluses, sh loovettevõtte asutamiseks",
+      "On suuteline ennast pidevalt iseseisvalt erialaselt ja tööalaselt täiendama",
+      "On kursis oma eriala kodumaise ja rahvusvahelise arenguga ning kohandab oma tegevust vastavalt turu nõuetele."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "FE97DCE4-12D6-4880-A7E3-3C15E8BC9C0F",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "2547F8FB-556C-48ED-8BF9-9F3766FAC9D0",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "FC353BF4-FB9A-4C90-81E5-0150C2A21579",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "FF357DDF-592F-4B2A-BA09-38E06CC7B071",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Graafiline disain",
+    "cost": {
+      "amount": 3700,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "5841B5CB-DF01-4D09-892A-B661805984E2",
+    "description": [
+      "Traditsiooniline ettevõte ja start-up ettevõte erinevad teineteise poolest palju. See programm sobib Sulle, kui oled proaktiivne inimene, kes on valmis tegema rasket tööd enda start-up ettevõtte asutamise nimel.",
+      "Startup ettevõtlus on intentsiivne programm, kus on võimalik õppida äri, luues enda innovaatilise ettevõtte juba õpingute ajal.",
+      "Erinevalt teistest kiirenditest ja lühiprogrammidest pakub start-up ettevõtlus kolm aastat kestvat programmi, mis käib läbi kõik start-upi arengu faasid. Varasemalt oleme koostööd teinud ettevõtetega nagu TransferWise, Bolt, Pipedrive, Goworkabit, Fortumo, Like A Local, Toggl.",
+      "Parim on ideede olemasolu enne sisseastumist, mille kallal soovitakse töötada õpingute ajal või leida äriidee Eestis toimuvate start-up ürituste ajal esimese semestri jooksul. Läbi idee tuletamise ja ärimudeli disaini kuni töötajate värbamiseni ja ettevõtte kasvu juhtimiseni julgustatakse tudengit töötama enda ideede kallal läbi erinevate ainete.",
+      "Õpingute ajal läbitakse mõned ained Loovuse ja Äriinoovatsiooni tudengitega ning mõned ainult Start-up Ettevõtluse tudengitega. Tudengilt oodatakse, et ta paneb kogu õpitu praktikasse ja registreerib vähemalt ühe enda ettevõtte, millel on kliendibaas ja rahavood. Võimalik on olla ka kaasasutaja koos teise inimesega.",
+      "Motiveeritud tudengil on võimalus kohtuda mitmete kaugele jõudnud inimestega üle terve Euroopa ja maailma ning ehitada professionaalne kontaktvõrgustik juba õpingute ajal.",
+      "Õpingute lõpetamise ajaks on tudengil tagapõhi koos mitmete ettevõtlike algatustega, mis eristab selgelt teda teistest tudengitest, kellel praktilised kogemused puuduvad. Ettevõtlikul tudengil on võimalik jätkata ettevõtjana või saada suurema ettevõtte projekti- või tootejuhiks - nn ettevõttesiseseks ettevõtjaks ehk intrapreneur'iks."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/start-up_ettev%C3%B5tlus",
+    "personnel": [
+      {
+        "email": "vanessa.vorteil@eek.ee",
+        "id": "C1F2FDA3-8C92-4891-9488-A04CA842A906",
+        "title": "Erialajuht",
+        "name": "Vanessa Vorteil"
+      },
+      {
+        "email": "johannes.kanter@eek.ee",
+        "id": "6DEACAEF-5A37-4B00-BB2B-9F1681D9E680",
+        "title": "Õppejõud",
+        "name": "Johannes Kanter"
+      },
+      {
+        "email": "ming.jia.liew@eek.ee",
+        "id": "90302E23-BD46-4782-879E-1BE60878A236",
+        "title": "Õppejõud",
+        "name": "Ming Jia Liew"
+      },
+      {
+        "email": "hilary.rose.torn@eek.ee",
+        "id": "73193236-71FF-4207-A4AF-1722E92DD08F",
+        "title": "Õppejõud",
+        "name": "Hilary Rose Torn"
+      },
+      {
+        "email": "yiyang.yang@eek.ee",
+        "id": "D0575AA4-376D-42D9-ADCC-9058E75582DB",
+        "title": "Õppejõud",
+        "name": "Yiyang Yang"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "C5AFC024-D10D-43E3-B09B-8003233D11EA",
+        "name": "Start-up ettevõtlus",
+        "courses": [
+          {
+            "id": "B200698D-9786-4850-8457-6E07C5E75B70",
+            "name": "Praktika II",
+            "eapCount": 12
+          },
+          {
+            "id": "BFFE8252-BE6D-4A42-B8DE-F704D48F84FE",
+            "name": "Strateegia",
+            "eapCount": 4
+          },
+          {
+            "id": "D59F2A9B-C200-4E40-A550-D2DB2D729B7C",
+            "name": "Tooteturundus",
+            "eapCount": 5
+          },
+          {
+            "id": "DA39E8D8-051F-436C-B9FB-A6AFD426314E",
+            "name": "Tootearendus",
+            "eapCount": 6
+          },
+          {
+            "id": "4078D85B-DCF8-4BA8-9968-0C331E6B0B35",
+            "name": "Ettevõtte kasvu juhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "87D4887D-7117-4E74-85E1-88C83049F866",
+            "name": "Kapitali kaasamine",
+            "eapCount": 6
+          },
+          {
+            "id": "33CDE07C-B938-4BD7-8880-2E5C0AC957D0",
+            "name": "Ärimudeli hüpoteesi valideerimine",
+            "eapCount": 6
+          },
+          {
+            "id": "D8AB82E8-D78D-4B94-9316-F04E4BD2DE28",
+            "name": "Kaasasutajaga pühendumine",
+            "eapCount": 4
+          },
+          {
+            "id": "47ADDB13-F9F5-43F9-8FDC-261B0DE70CBC",
+            "name": "Äriideede raamistamine",
+            "eapCount": 5
+          },
+          {
+            "id": "BD534F91-11D1-410A-BF89-9DB57A66EEC5",
+            "name": "Äriideede tuletamine",
+            "eapCount": 6
+          },
+          {
+            "id": "1C10911B-E709-439D-9DB9-87BD56DB77E9",
+            "name": "Sissejuhatus start-up ettevõtlusesse",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "CDA08150-C0AF-4F6D-BFE3-AAF728EECD4A",
+        "name": "Ettevõtte juhtimine",
+        "courses": [
+          {
+            "id": "BA0C33A1-6F2D-43C6-8A40-6F6CB5DA5E2A",
+            "name": "Ettevõtluse alused",
+            "eapCount": 3
+          },
+          {
+            "id": "302FD3BE-D147-466C-82AE-BD11A8A94FD9",
+            "name": "Personalijuhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "DFF44076-70F9-4CD1-94EC-658480A1FB33",
+            "name": "Juhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "6270F847-FC8E-4806-AC08-B20486A8015F",
+            "name": "Meeskonnatöö",
+            "eapCount": 5
+          },
+          {
+            "id": "4424183D-2F4A-4543-8718-8BE394048D42",
+            "name": "Õigusõpetuse alused ja dokumentatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "98DD3F27-B122-4596-9254-0DA0E140E719",
+            "name": "Majanduse alused",
+            "eapCount": 4
+          },
+          {
+            "id": "4175BFF6-7742-4952-BE8C-19F7AFF8D148",
+            "name": "Äri-eetika",
+            "eapCount": 4
+          },
+          {
+            "id": "5D88F0CC-5A58-43C2-ACA5-9749426B3A16",
+            "name": "Ettevõtete sotsiaalne vastutus",
+            "eapCount": 4
+          },
+          {
+            "id": "D75F8CBA-22AE-43E3-B56B-25B6837A1996",
+            "name": "Müük ja turundus",
+            "eapCount": 10
+          },
+          {
+            "id": "CC54149B-2F5A-4C9B-8E3F-639BEB0B40AB",
+            "name": "Ärianalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "6363CAEA-5B58-4CB1-8656-7AFFF4CD6791",
+            "name": "Ettevõtte finantsjuhtimine",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "40E7FC15-7041-4F34-9434-33C4F71ACA6F",
+        "name": "Praktikad ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "A497A6A4-9BCD-48DA-B1F5-20A1AC6F5340",
+            "name": "Lõputöö seminar",
+            "eapCount": 5
+          },
+          {
+            "id": "2B0FE620-D106-4A71-8A2D-3785119AD996",
+            "name": "Praktika I",
+            "eapCount": 15
+          },
+          {
+            "id": "1CCDC17C-7C2F-45CA-9A31-B88E7348C142",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      },
+      {
+        "id": "1EDB02AC-4FFF-477F-987C-8685036C3291",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "3440A931-A057-459F-8A61-D96EA0433806",
+            "name": "Eesti keel I",
+            "eapCount": 3
+          },
+          {
+            "id": "BE897F58-AAF1-4FFD-BFFE-7F0E68F7B5B9",
+            "name": "Eesti keel II",
+            "eapCount": 3
+          },
+          {
+            "id": "E6A47743-1B4C-4C3E-8361-CA8F6D7E5B44",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "75DF752B-2A0C-45D5-A517-437F9836FF90",
+            "name": "Eesti keel III",
+            "eapCount": 3
+          },
+          {
+            "id": "0282DB56-8FC5-4600-B107-B76DF1B9EAA2",
+            "name": "Eesti keel IV",
+            "eapCount": 3
+          },
+          {
+            "id": "17EAB520-31F3-4698-BCF9-CC33325F9AE5",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 2
+          },
+          {
+            "id": "F60E8951-CEFC-45B0-BFBD-91005CEBF0B3",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          },
+          {
+            "id": "CA99F05B-EFAC-4D87-B2E0-50B0074F8A55",
+            "name": "Kommunikatsioon",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "F604CA1A-1ACB-4D67-BE13-488CE98FC95F",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "CE160849-CE54-43BF-ADF8-3EEF10C3B9CE",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "556E4BB9-F71E-4170-ABCC-7698111E4B32",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 4
+          },
+          {
+            "id": "FD6F95FB-5E09-4D65-9885-8B3479B98E17",
+            "name": "Andmeanalüüs",
+            "eapCount": 4
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava läbinu:",
+      "On valmis tegutsema muutuvas keskkonnas, oskab toimida paindlikult ja loominguliselt vastavalt olukorrale ja organisatsiooni vajadustele",
+      "On valmis erialaselt töötama omandatud pea- ja kõrvaleriala valdkonnas nii individuaalselt kui meeskonnas, nii tööandja kui töövõtjana",
+      "Näitab initsiatiivi ja loovust projektide/tegevuste algatamisel ning vastutustunnet, juhtimis- ja meeskonnatööoskusi nende elluviimisel",
+      "Tunneb ära kasutamata turuvõimalused ning töötab välja lahendused nii uue toote, teenuse kui muu taolise näol",
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab tööks vajalikke suhtlusoskusi ning infotehnoloogilisi teadmisi."
+    ],
+    "language": "inglise keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "CE38D789-5019-4199-8CF5-376B22D5B672",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "98E8AFC2-BC6E-45F6-8E2B-9541398ACEC8",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "61083953-FB90-4CDB-817D-F26B80B987B0",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "D64E515C-4376-4522-ADC3-1C48BFBA218A",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Start-up ettevõtlus",
+    "cost": {
+      "amount": 4720,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn",
+      "Tartu"
+    ],
+    "id": "AB0831F1-829D-4A1A-913F-5707DB30D46C",
+    "description": [
+      "Finantsjuhtimise erialal õpid analüüsima ja suunama kapitalipaigutusi, hindama investeeringute tootlikkust ja nägema ettevõtte majandusnäitajate taga suuremat pilti. Finantsjuhid on sageli need, kellest järgmisena saavad ettevõtte tippjuhid.",
+      "Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppest suure osa moodustab erialane praktika.",
+      "Finantsjuhtimise eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti finantsjuhtimise ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Finantsjuhtimise erialal on erialaspetsiifiline õppeprogramm koostatud ja õpetamine toimub koostöös ekspertidega LHV Pangast, KredExist ning suurettevõtete ABB, Eesti Energia ja Eesti Raudtee juhtimisarvestus- ja finantsüksustest.",
+      "Oma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka järelmaksuvõimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+      "Finantsjuhtimise eriala on võimalik õppida täismahus Tallinna õppekeskuses. Tartu õppekeskuses on võimalik kogu õppekava läbida, kui finantsjuhtimise eriala valinuid on Tartus vähemalt 15. Muul juhul on Tartu õppekeskuses võimalik läbida õppest kaks kolmandikku. Erialaõppe moodul toimub sel juhul Tallinnas.",
+      "Õpe toimub mõlemas linnas kaugõppena, mis võimaldab käia neljapäevast pühapäevani toimuval sessioonil õppimas ka teises linnas. Tartust saabunud üliõpilastel on võimalik leida soodsat majutust EEK tudengite hostelis, mis asub Ülemiste rongipeatusest viie- ja Tallinna õppekeskusest kaheminutilise jalutustee kaugusel.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/finantsjuhtimine",
+    "personnel": [
+      {
+        "email": "anu.olvik@eek.ee",
+        "id": "E72470A6-742D-4786-9D2C-9E0B0BD6D269",
+        "title": "Erialajuht",
+        "name": "Anu Olvik"
+      },
+      {
+        "email": "kalle.ahi@eek.ee",
+        "id": "844F7DD1-63D7-403D-91A5-7EE9D03299E0",
+        "title": "Rahanduse ja panganduse lektor",
+        "name": "Kalle Ahi"
+      },
+      {
+        "email": "mare.kurvits@eek.ee",
+        "id": "8D90009B-236D-49AF-91E5-6D9CBDB00E8C",
+        "title": "Juhtimise professor",
+        "name": "Mare Kurvits"
+      },
+      {
+        "email": "janus.paurman@eek.ee",
+        "id": "C7D4C8B5-09C7-431A-8312-96806E0B57BE",
+        "title": "Magistriõppe juht",
+        "name": "Janus Paurman"
+      },
+      {
+        "email": "rita.sikk@eek.ee",
+        "id": "79E2EB05-22F5-4F42-A3EF-891283BA1847",
+        "title": "Õppejõud",
+        "name": "Rita Sikk"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "441D6AA6-F98B-4090-96F2-456B71781A3B",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "B6A9EA5F-1C3A-4576-8F32-71387FDF53DE",
+            "name": "Äriprotesside moodul",
+            "eapCount": 15
+          },
+          {
+            "id": "D2103109-0875-4B9A-9E98-19EFD6C7163C",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "38CB0A83-997F-4372-BF93-7C6E9C20A031",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "DCCEEDCA-F06F-45A1-B93F-E1DDC75485E5",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "A73BE14A-463A-4664-8FF7-6197D8CF641D",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "F6A67004-3EB3-4C3F-8BA0-1B542AAF5774",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "9DB1F8C9-B2CA-4830-8230-13CEFAA794D2",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "07201914-C21A-4505-AE23-75886F3922AF",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "8B669C27-9939-4E2E-8581-910944EFB8E8",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "43C5651B-AA5D-4354-9BB8-406B48B75CE9",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "FFD17F95-57B5-4960-A1ED-C8DB89FAEFC3",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "697851FA-7FD5-47FF-B99D-CD61CF8FDC6A",
+            "name": "Äri- ja juhtimiseetika",
+            "eapCount": 2
+          },
+          {
+            "id": "22A6A330-2F5E-4FF5-A71D-3E03302614FE",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "A289EE38-2760-4E17-B34E-65F289C91BA2",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "0C4CF8D4-B12A-4965-B6C2-3DA7666FCE40",
+            "name": "Õigusõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "98336A09-AB9B-4E69-B6E3-ACF7D11A4418",
+            "name": "Tööõigus ja lepingud",
+            "eapCount": 4
+          },
+          {
+            "id": "F3B29DD8-479D-417F-A29F-D8D47F42CE58",
+            "name": "Majandusteooria",
+            "eapCount": 5
+          },
+          {
+            "id": "9644F95A-20D1-44E5-AFC0-701EF5E9E7B6",
+            "name": "Projektijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "ED179E19-84F0-444B-B3B0-5883DC11A588",
+            "name": "Tervisepsühholoogia ja töökeskkond",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "20AB0908-9812-47D8-A19B-F2F79E5F43A5",
+        "name": "Finantsjuhtimise erialaõpe",
+        "courses": [
+          {
+            "id": "1C3C49E8-BE94-45E5-A970-57F2C8C05C2E",
+            "name": "Rahvusvaheline äri",
+            "eapCount": 3
+          },
+          {
+            "id": "0A31B363-8CFF-43F6-B86F-1E81CCC866F2",
+            "name": "Ettevõtte IT süsteemide kavandamine",
+            "eapCount": 4
+          },
+          {
+            "id": "F63C0CDA-EFB1-413E-9C77-BDBCD97FED8B",
+            "name": "Riskianalüüs ja andmekaitse",
+            "eapCount": 3
+          },
+          {
+            "id": "0159DB48-E849-4F63-9BBB-0F6E170EF3F1",
+            "name": "Audiitorkontroll",
+            "eapCount": 3
+          },
+          {
+            "id": "2C45BBB6-6FCD-4BDC-8525-227A7A564346",
+            "name": "Maksundus",
+            "eapCount": 5
+          },
+          {
+            "id": "6549F316-E37B-4517-9FBB-8228DFD19676",
+            "name": "Rahvusvaheline finantsjuhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "DE199F68-C35C-4F63-A4CC-D2175D9FD8E4",
+            "name": "Investeeringute juhtimine ja analüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "9C642F64-78A2-4165-BE10-8C87EE40FA90",
+            "name": "Kuluarvestus",
+            "eapCount": 5
+          },
+          {
+            "id": "D63008C3-3B3B-40F5-9894-F1928B1A4B4F",
+            "name": "Controlling",
+            "eapCount": 4
+          },
+          {
+            "id": "C43B20A8-846E-413F-8821-420EDCC14D2B",
+            "name": "Finantsarvestus",
+            "eapCount": 5
+          },
+          {
+            "id": "889FEA93-07B9-4C27-A9DD-067B3D815C2F",
+            "name": "Majandusmatemaatika",
+            "eapCount": 2
+          },
+          {
+            "id": "B3D48116-C801-4B41-B519-DF6658B3E3AA",
+            "name": "Finantsjuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "AA96C5F5-AFAF-47F9-B070-9E8F94A0F019",
+            "name": "Rahvusvahelised teenuskeskused",
+            "eapCount": 2
+          },
+          {
+            "id": "A112952D-7C09-4544-804A-D5581619B175",
+            "name": "Majandusarvestuse arvutiprogrammid",
+            "eapCount": 3
+          },
+          {
+            "id": "0F0170CB-C46C-49BB-B9F0-16A7BB973FC8",
+            "name": "Excel majandusarvestuses",
+            "eapCount": 5
+          },
+          {
+            "id": "4025A6BC-2420-4DAC-AF3E-6CEDFB93B275",
+            "name": "Logistika alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "0F144ACB-DAF8-4684-927F-3C64B7AF3624",
+        "name": "Praktikad ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "77725DB4-9E01-4C60-9CC0-402256A2234D",
+            "name": "Ettevõttepraktika",
+            "eapCount": 12
+          },
+          {
+            "id": "4C9629F8-B88B-41BE-AB41-D8866A9AF6BC",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "1134AFB3-F098-46AC-9377-2E28285FC2B2",
+            "name": "Ainetöö",
+            "eapCount": 5
+          },
+          {
+            "id": "E48A8716-9FBB-4EC9-8DB9-2A30D1B2102E",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On valmis tegutsema muutuvas keskkonnas, oskab toimida paindlikult ja loominguliselt vastavalt olukorrale ja organisatsiooni vajadustele",
+      "On valmis erialaselt töötama omandatud pea- ja kõrvaleriala valdkonnas nii individuaalselt kui meeskonnas, nii tööandja kui töövõtjana",
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab tööks vajalikke suhtlusoskusi ning infotehnoloogilisi teadmisi.",
+      "Finantsjuhtimise eriala lõpetajana oled omandanud vajalikud teadmised ja oskused, et tegutseda näiteks finantsjuhi, -spetsialisti või -analüütikuna, juhtida investeeringuid või omaenda ettevõtet."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "26E33A5F-1A1A-4CD0-8A07-A4F42E5CC2C7",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "84B1BA6C-E2F3-4FEB-ACB8-A75FA5FAF4BD",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "C57E54EC-52AE-465F-9390-5EE1EA82F691",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "54AC3D91-9670-4682-B1F6-F5D623C5A622",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Finantsjuhtimine",
+    "cost": {
+      "amount": 3640,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn",
+      "Tartu"
+    ],
+    "id": "48907532-57A7-42F0-897A-B48920A6B619",
+    "description": [
+      "Logistika erialal õpid korraldama kaupade ja info liikumist, juhtima varude käitlemist, reageerima adekvaatselt kriisiolukordades ning haldama partnersuhteid ja äriprotsesse. Koos üha uute üleeuroopaliste transpordikanalite väljaarendamisega kasvab vajadus logistikaspetsialistide järele Eestis aasta-aastalt.",
+      "Lisaks erialaoskustele omandad edasiseks karjääriks vajalikke juhtimis-, suhtlemis-, analüüsi-, õigus- ja majandusalaseid teadmisi. Sinu õppejõudude seas on oma valdkonna kogenud praktikud, paljusid ettevõtteid nõustanud koolitajad ning Eesti tuntud majandus- ja ettevõtlusalased arvamusliidrid.",
+      "Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppest suure osa moodustab erialane praktika",
+      "Logistika eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti logistika ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Logistika erialal on erialaspetsiifiline õppeprogramm koostatud ja õpetamine toimub toimub koostöös Eesti Logistika ja Ekspedeerimise Assotsiatsiooni ja Eesti Ostu- ja Tarneahelate Juhtimise Ühinguga PROLOG.",
+      "Oma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka järelmaksuvõimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+      "Logistika eriala on võimalik õppida täismahus Tallinna õppekeskuses. Tartu õppekeskuses on võimalik kogu õppekava läbida, kui logistika eriala valinuid on Tartus vähemalt 15. Muul juhul on Tartu õppekeskuses võimalik läbida õppest kaks kolmandikku. Erialaõppe moodul toimub sel juhul Tallinnas.",
+      "Õpe toimub mõlemas linnas kaugõppena, mis võimaldab käia neljapäevast pühapäevani toimuval sessioonil õppimas ka teises linnas. Tartust saabunud üliõpilastel on võimalik leida soodsat majutust EEK ühiselamus, mis asub Ülemiste rongipeatusest viie- ja Tallinna õppekeskusest kaheminutilise jalutustee kaugusel.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus.",
+      "Logistika erialale vastuvõetud üliõpilastel on võimalus omandada koos kõrgharidusdiplomiga ka ülemaailmselt tunnustatud rahvusvahelise ekspedeerija FIATA diplom. Rahvusvahelise logistikaassotsiatsioonide ühenduse FIATA poolt väljastatav diplom on tunnustatud rohkem kui 150 riigis ja tagab professionaalse usaldusväärsuse üle maailma.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/logistika",
+    "personnel": [
+      {
+        "email": "tatjana.baldonjuk@eek.ee",
+        "id": "647D017D-F511-4C3B-BC8A-D301A23489E1",
+        "title": "Erialajuht",
+        "name": "Tatjana Baldõnjuk"
+      },
+      {
+        "email": "roger.allas@eek.ee",
+        "id": "99B2EE2A-B282-48CB-96D1-B81082BD7D38",
+        "title": "Ettevõtte logistikasüsteemide ja -kulude juhtimine",
+        "name": "Roger Allas"
+      },
+      {
+        "email": "mihails.luckins@eek.ee",
+        "id": "C8C33F68-AFD3-4513-997B-92E3A9EC842D",
+        "title": "Ostmine ja varude juhtimine",
+        "name": "Mihails Luckins"
+      },
+      {
+        "email": "janek.popell@eek.ee",
+        "id": "5150FA3F-C58A-4A4E-BF33-FC17C316D886",
+        "title": "Ettevõtlusõppe moodulijuht",
+        "name": "Janek Popell"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "A4F248E5-7BA9-467D-BCC1-FCBEC1C6158D",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "521D1A2F-654F-415C-9E73-3ECC10D5518E",
+            "name": "Äriprotesside moodul",
+            "eapCount": 15
+          },
+          {
+            "id": "6DA54B76-61F8-4DE9-9D0A-6606F4C7E6CD",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "B4F9DA5F-F0B7-411F-AC5B-D7253B3427A6",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "3988B6E8-23A8-4211-B7D0-3EA5826900A6",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "C00ED7AF-33A6-479F-9E81-E8B26DE67A3B",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "62EA6CDF-C884-4E7A-A16A-86F0B1580DF1",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "F546C089-F366-4F1B-A86B-239F387D3458",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "4B129BBA-7215-434D-B053-62E16FBE84AB",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "896AF0A5-DA19-4EF6-9032-0160A575E4E8",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "0C87E782-228C-4DAB-B034-DDF881FA4A4E",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "C2AB1895-AE64-4232-85FB-4CD44E664B9C",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "EAE8BEFB-760F-4B3F-8C08-FE0FC586E6AA",
+            "name": "Äri- ja juhtimiseetika",
+            "eapCount": 2
+          },
+          {
+            "id": "3B352F16-DD5B-428F-B659-EDC909D0C189",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "90A7123D-4987-4911-A8DA-9447C600109D",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "311DB011-827E-4EA7-8943-3C39D5FD89D2",
+            "name": "Õigusõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "5176A109-601A-4217-8AC2-78F4D2C3F310",
+            "name": "Tööõigus ja lepingud",
+            "eapCount": 4
+          },
+          {
+            "id": "2A3C79BA-83C4-4439-85A2-748B1587A97C",
+            "name": "Majandusteooria",
+            "eapCount": 5
+          },
+          {
+            "id": "BFFB4752-E773-4BAB-8101-969E0011175C",
+            "name": "Projektijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "07414BDC-37BF-4421-9197-8E1100311D18",
+            "name": "Tervisepsühholoogia ja töökeskkond",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "6F6C57CF-D807-4C1C-A961-A0A1A2D7F0F7",
+        "name": "Logistika erialaõpe",
+        "courses": [
+          {
+            "id": "BFCC1224-BF2C-4486-9B42-1667AC2DDCBC",
+            "name": "Lennutransport",
+            "eapCount": 4
+          },
+          {
+            "id": "EB1314A7-B627-4810-9CF5-89C884943BA1",
+            "name": "Reisijatevedu",
+            "eapCount": 3
+          },
+          {
+            "id": "465BD89E-17C5-44D8-85B6-A42C08424879",
+            "name": "Tootmislogistika ja materjalijuhtimine",
+            "eapCount": 4
+          },
+          {
+            "id": "2B88291A-5244-4812-A6C5-3B0CA26B764E",
+            "name": "Ettevõtte logistikasüsteemide ja -kulude juhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "A7F305CF-5FC9-4764-9EA3-7E976B548E7C",
+            "name": "Riskianalüüs logistikas",
+            "eapCount": 3
+          },
+          {
+            "id": "79582A3B-1112-4E20-9A3C-AAA19446953D",
+            "name": "Kultuurikeskkond",
+            "eapCount": 3
+          },
+          {
+            "id": "9014567F-CEAD-4BB9-90B7-46A53185004D",
+            "name": "Ostmine ja varude juhtimine",
+            "eapCount": 4
+          },
+          {
+            "id": "214764E6-2964-4B43-9A5C-054BF228C4CA",
+            "name": "Kaupade käsitlemine ja hoiustamine",
+            "eapCount": 5
+          },
+          {
+            "id": "C2FA399C-BBD6-47CD-AEEE-93B6ADFBB019",
+            "name": "Multimodaalne transport",
+            "eapCount": 3
+          },
+          {
+            "id": "EAE4BA76-FF75-486C-8EDF-436C41C0B2ED",
+            "name": "Finantsjuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "90A89154-ABAE-4B03-9E62-44D806CA7C73",
+            "name": "Vetelvedu",
+            "eapCount": 3
+          },
+          {
+            "id": "29E3DCA3-171F-40D4-AAA6-14D13A18C64B",
+            "name": "Raudteetransport",
+            "eapCount": 4
+          },
+          {
+            "id": "BFDB705D-5B15-4DB1-AEB5-448478D1ED00",
+            "name": "Maanteetransport",
+            "eapCount": 3
+          },
+          {
+            "id": "AF916135-E22F-4FE5-91C6-A60E23DEC093",
+            "name": "Ekspedeerimise alused",
+            "eapCount": 5
+          },
+          {
+            "id": "9BAD6608-33CB-4E3D-9425-7178B0C23103",
+            "name": "Tollinduse protseduurid",
+            "eapCount": 3
+          },
+          {
+            "id": "3D03ACFF-288A-4DFB-8871-75A79565080A",
+            "name": "Majandusmatemaatika",
+            "eapCount": 2
+          },
+          {
+            "id": "7C63C448-4659-40ED-8E2F-AE5E2E827898",
+            "name": "Logistika alused",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "5AB7353E-DB18-4EBF-86CA-D03BCB6541EF",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "F264A980-52C8-4A69-9CEE-BA2F89EDA369",
+            "name": "Ettevõttepraktika",
+            "eapCount": 12
+          },
+          {
+            "id": "6C315B6F-17E3-41C8-AB0F-6CF6A1D2F44A",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "48D66ABE-C78E-4386-B760-E522A197276D",
+            "name": "Ainetöö",
+            "eapCount": 5
+          },
+          {
+            "id": "4BDADDFB-9102-40C5-9A2F-C830A47E2FCA",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On valmis tegutsema muutuvas keskkonnas, oskab toimida paindlikult ja loominguliselt vastavalt olukorrale ja organisatsiooni vajadustele",
+      "On valmis erialaselt töötama omandatud pea- ja kõrvaleriala valdkonnas nii individuaalselt kui meeskonnas, nii tööandja kui töövõtjana",
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab tööks vajalikke suhtlusoskusi ning infotehnoloogilisi teadmisi."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "3A2F41B5-36DD-4E5F-8E11-EB58697C79C6",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "663163D9-4A4D-45FC-9A6D-F0987A25FC00",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "8EC9578C-64F8-4736-A806-FD09A16D0E21",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "1D51622D-AA80-4973-9DE8-CF5BF0A6FA0E",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Logistika",
+    "cost": {
+      "amount": 3640,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "02E1C5F4-622F-47E3-86E5-324776FFDEDF",
+    "description": [
+      "Arvutimängude disain ja arendus on eriala, kus õpid looma esimesi haaravaid mänge enda loodud mänguettevõttes kui ka töötama ettevõttes mänguarendajana. Õppekava rõhk on praktilisel tööl, mängijate kogemuse kujundamisel ja mänguettevõtlusel. Edukas mängulooja valdab peale mängu disaini ka programmeerimist ning mängu graafikat.",
+      "Arvutimängude disaini ja arenduse eriala õppeprogramm on koostatud ja õpetamine toimub koostöös valdkonna juhtivate ettevõtete ja ühendustega nagu Creative Mobile, Derivco Estonia,  GameLab, IGDA Estonia, Level1 ja teised.",
+      "Arvutimängude disain ja arendus eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti arvutimängude disain ja arendus ja teiste kunstierialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang.",
+      "Üheks vastuvõtutingimuseks ootame arvutimängude disaini ja arenduse erialale kandideerijalt motivatsioonikirja (lühiessee kuni üks lehekülg), mille saad esitada pärast avalduse esitamist õppeinfosüsteemis. Motivatsioonikirjas palume kirjeldada, kuidas oled varasemalt mängude arendamisega kokku puutunud ning miks soovid asuda õppima arvutimängude disaini erialale. Kui neid on, lisa kindlasti ka viited oma varasematele töödele - mängud, mängitavad demod, valmimisjärgus oleva mängu failid või muud teema kohased tööd. Lisaks ootame kandidaadilt IT ja programmeerimise vastu huvi ning head koostööoskust.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/arvutim%C3%A4ngude_disain_ja_arendus",
+    "personnel": [
+      {
+        "email": "marianna.krjakvina@eek.ee",
+        "id": "280C8153-D555-4AE5-85CB-A4CCEAC9A852",
+        "title": "Erialajuht",
+        "name": "Marianna Krjakvina"
+      },
+      {
+        "email": "georgios.karangioules@eek.ee",
+        "id": "149902E9-E6A0-4B9D-98A8-B12C6522AC61",
+        "title": "Õppejõud",
+        "name": "Georgios Karangioules"
+      },
+      {
+        "email": "filipp.keks@eek.ee",
+        "id": "A3EF6D6B-964F-4ADC-AA25-AFA02BE64EEB",
+        "title": "Õppejõud",
+        "name": "Filipp Keks"
+      },
+      {
+        "email": "erik.kesa@eek.ee",
+        "id": "A5A3AB9E-5A96-4EF8-AAAF-B21A6A2E6EF7",
+        "title": "Õppejõud",
+        "name": "Erik Kesa"
+      },
+      {
+        "email": "adam.mayes@eek.ee",
+        "id": "162755BE-5E0F-4299-9B99-89343735A050",
+        "title": "Õppejõud",
+        "name": "Adam Mayes"
+      },
+      {
+        "email": "keron.sepp@eek.ee",
+        "id": "BCEDEF36-1A2B-4F3D-8E34-BAB9CF9CE993",
+        "title": "Õppejõud",
+        "name": "Keron Sepp"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "DCBC6073-F7B2-462F-B441-D97477B0CC0E",
+        "name": "Arvutimängude disaini ja arenduse erialaõpe",
+        "courses": [
+          {
+            "id": "A16C46A2-1103-427B-8D06-E735AE2AC94A",
+            "name": "Programmeerimise alused mängude arendajatele",
+            "eapCount": 7
+          },
+          {
+            "id": "6734495A-1068-415C-B6FA-50C511BE6C19",
+            "name": "OO analüüs, disain ja programmeerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "A58BE6CC-0888-4D0B-A5A9-6E082D7C402F",
+            "name": "Mängugraafika analüüs ja tehnilised spetsifikatsioonid",
+            "eapCount": 3
+          },
+          {
+            "id": "F98C1937-7CAB-4A9B-A8DE-C7BAEBED062B",
+            "name": "Sissejuhatus mängutööstusesse",
+            "eapCount": 4
+          },
+          {
+            "id": "189B8690-020F-45A5-BA03-AB410ACF2536",
+            "name": "3D mängugraafika",
+            "eapCount": 6
+          },
+          {
+            "id": "C69B886B-7F46-4489-B625-AF6AFFC2A8A6",
+            "name": "Mobiilimängu projekt",
+            "eapCount": 5
+          },
+          {
+            "id": "06E1872F-3690-4BC5-B07D-940948FED4C0",
+            "name": "Mängumootorid ja prototüüpimine",
+            "eapCount": 6
+          },
+          {
+            "id": "4113D912-87C8-4D5D-8802-0C45309D5626",
+            "name": "Mänguprojekti arendamine ja viimistlemine",
+            "eapCount": 6
+          },
+          {
+            "id": "32B12EB3-D784-4EAF-896E-673B7259CA28",
+            "name": "Mängudisain, leveldisain ja dokumentatsioon",
+            "eapCount": 6
+          },
+          {
+            "id": "FAE5DA55-0F90-4FF3-9B19-FA3249ABEA8F",
+            "name": "Mängu publitseerimine ja turundamine",
+            "eapCount": 5
+          },
+          {
+            "id": "C1F53C84-A11A-4964-84BA-0E56E8D04B9A",
+            "name": "Helitöötlus",
+            "eapCount": 2
+          },
+          {
+            "id": "C45BFB2F-2B1D-4D02-8883-5411E3D24280",
+            "name": "Pikselgraafika",
+            "eapCount": 6
+          },
+          {
+            "id": "29055072-AA2C-44C8-8E47-C0A77D6CB3C0",
+            "name": "Kompositsioon, värvusõpetus ja vektorgraafika",
+            "eapCount": 6
+          }
+        ]
+      },
+      {
+        "id": "B32B00A5-D5F7-4A07-881F-E7F7CBB12824",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "1508F0C1-AA35-4448-9EAD-96EAF8BFE9D8",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "137E798C-D7E7-4861-A17F-264571C132B9",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "AB05063D-51D8-4F96-9F6D-15348A92466A",
+            "name": "Eesti keel I",
+            "eapCount": 3
+          },
+          {
+            "id": "91E92910-9DFE-4F42-B02D-BBE615D6138F",
+            "name": "Eesti keel II",
+            "eapCount": 3
+          },
+          {
+            "id": "BD8E2092-E46F-4531-AC12-214E6B471A51",
+            "name": "Eesti keel III",
+            "eapCount": 3
+          },
+          {
+            "id": "9A099759-DB5A-4B05-8848-833A8E7F2965",
+            "name": "Eesti keel IV",
+            "eapCount": 3
+          },
+          {
+            "id": "DC55A4CF-0695-4F3D-9A8F-9585E22E4EAA",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "982DE117-1E63-4505-82C8-9194DF52A2E4",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "AFE32F92-AA28-4DC4-903D-AA5E1A53DD6D",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 2
+          },
+          {
+            "id": "0EBE8FD1-94A7-488F-A0BD-DB44DCC646AC",
+            "name": "Meeskonnatöö",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "13B59DA5-0969-47CC-A614-2EE2C1E7C138",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "73B3D0EB-B60E-4343-85B0-0CAE8EF43C67",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "3205E704-BDF5-49EB-8011-9E21BBCFF2AC",
+            "name": "Akadeemiline kirjutamine ja eneseväljendus",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "C56FAD07-4B29-4072-A11D-E40084510120",
+        "name": "Arvutimängude disaini ja arenduse põhiõpe",
+        "courses": [
+          {
+            "id": "696DC946-08FC-4D50-A4D4-2933E7C918FB",
+            "name": "Narratiiv",
+            "eapCount": 5
+          },
+          {
+            "id": "B756A09B-6F04-4EC5-8125-87C4B3CA52AB",
+            "name": "HTML 5",
+            "eapCount": 3
+          },
+          {
+            "id": "1E4E1D7E-27FC-4B00-9119-C6D56D92BA10",
+            "name": "Arvutigraafika ja animatsioon",
+            "eapCount": 4
+          },
+          {
+            "id": "1AFF0866-B705-42D9-942A-18638A1A9E7E",
+            "name": "Õigusõpetuse alused ja dokumentatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "35F8EA80-4535-45FE-97F6-416F8F7ED20F",
+            "name": "Kasutajaliidese ja -kogemuse disain (UI/UX)",
+            "eapCount": 5
+          },
+          {
+            "id": "5BA7F982-29AB-4DFA-81D1-A11E538BA4E6",
+            "name": "Turunduspsühholoogia",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "668B9151-F17E-4A86-946C-B808EC32523A",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "38B7AADB-D059-4E7B-846E-0504CE0CFD05",
+            "name": "Erialase meeskonnatöö praktika",
+            "eapCount": 15
+          },
+          {
+            "id": "876E0BE3-D5D1-4F4A-8375-9A67818A44EE",
+            "name": "Portfoolio",
+            "eapCount": 5
+          },
+          {
+            "id": "AFFC6955-DA49-480B-882D-40D4E615DED3",
+            "name": "Lõputöö",
+            "eapCount": 10
+          },
+          {
+            "id": "7D129A52-E70D-46AC-A39E-0F494E9FADCE",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava läbinu:",
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või jätkata õpinguid magistriõppes",
+      "Orienteerub disaini ja disainiga liituval infotehnoloogia maastikul",
+      "On kompetentne graafilise disaini, veebikeskkonnapõhise graafilise disaini, digitaalmeedia, veebiarenduse valdkonnas",
+      "Rakendab omandatud teadmisi ja oskusi disainialases tegevuses",
+      "On valmis tegutsema muutuvas keskkonnas, suudab toimida paindlikult ja loominguliselt vastavalt olukorrale ning organisatsiooni vajadustele",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab  tööks vajalikke suhtlusoskusi",
+      "Valmis disainialaseks tööks meeskonnas ja üksikettevõtjana",
+      "On omandanud vajalikud kompetentsid tegutsemiseks loovettevõtluses, sh loovettevõtte asutamiseks",
+      "On suuteline ennast pidevalt iseseisvalt erialaselt ja tööalaselt täiendama",
+      "On kursis oma eriala kodumaise ja rahvusvahelise arenguga ning kohandab oma tegevust vastavalt turu nõuetele."
+    ],
+    "language": "inglise keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "A0E02166-AA9B-4165-9591-C3923EA933B5",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "926E1C32-B106-4358-BB1E-A0DA7198C9CC",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "BA2EE566-5304-4997-9D8D-8F48F25DD08D",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "61581BB0-6311-40B6-9EDC-FA9FAC2EF3AA",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Arvutimängude disain ja arendus",
+    "cost": {
+      "amount": 4720,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn",
+      "Tartu"
+    ],
+    "id": "4396DE53-1052-4F2A-BCE2-2A4C4E817818",
+    "description": [
+      "Turunduse erialal õpid mõistma ja mõjutama inimkäitumist, kujundama sõnumeid, looma brände ning suunama ostuotsuseid. Turundus, müük ja kommunikatsioon on iga ettevõtte üks kõige enam väärtust loovaid tegevusi. Edukates ettevõtetes kuulub turundusjuht kesksesse otsustajate ringi.",
+      "Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine",
+      "Turunduse eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti turunduse ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Turunduse erialal on erialaspetsiifiline õppeprogramm koostatud ja õpetamine toimub koostöös turundusagentuuriga Creative Union, Innove, ENUT, Turundajate Liidu ja Eesti Suhtekorraldajate Liiduga.",
+      "Oma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka järelmaksuvõimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+      "Turunduse eriala on võimalik õppida täismahus Tallinna õppekeskuses. Tartu õppekeskuses on võimalik kogu õppekava läbida, kui turunduse eriala valinuid on Tartus vähemalt 15. Muul juhul on Tartu õppekeskuses võimalik läbida õppest kaks kolmandikku. Erialaõppe moodul toimub sel juhul Tallinnas.",
+      "Õpe toimub mõlemas linnas kaugõppena, mis võimaldab käia neljapäevast pühapäevani toimuval sessioonil õppimas ka teises linnas. Tartust saabunud üliõpilastel on võimalik leida soodsat majutust EEK tudengite hostelis, mis asub Ülemiste rongipeatusest viie- ja Tallinna õppekeskusest kaheminutilise jalutustee kaugusel.",
+      "Praktiline ettevõtluskõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame turunduse erialale kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse turundusalast haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on ettevõtluskõrgharidus  professionaalsete osapoolte vaheline võrdne partnerlus.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/turundus",
+    "personnel": [
+      {
+        "email": "aet.kull@eek.ee",
+        "id": "3F3BB4D6-45A0-4A51-AF4B-16FB6A9B9AB7",
+        "title": "Erialajuht",
+        "name": "Aet Kull"
+      },
+      {
+        "email": "kadi.elmeste@eek.ee",
+        "id": "EE53CA0E-95D3-4112-906C-43C5F0D97E31",
+        "title": "Müük ja kommunikatsioon",
+        "name": "Kadi Elmeste"
+      },
+      {
+        "email": "ivo.kallasmaa@eek.ee",
+        "id": "BA468D35-8A7D-4D8C-B086-ED65F4E8B6DA",
+        "title": "Turunduskommunikatsiooni juhtimine ja planeerimine",
+        "name": "Ivo Kallasmaa"
+      },
+      {
+        "email": "rode.luhaaar@eek.ee",
+        "id": "96B1E0F2-828B-4C91-A4E8-8A37ACDF2DDF",
+        "title": "Internetiturundus ja sotsiaalmeedia",
+        "name": "Rode Luhaäär"
+      },
+      {
+        "email": "olavi.ruhno@eek.ee",
+        "id": "34BBE42D-BF29-4909-9B9B-0D54D55F7BE7",
+        "title": "Sündmusturundus",
+        "name": "Olavi Ruhno"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "986CC095-E92E-4B93-BFC3-7EC70C8A17FF",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "75226F98-F4BE-40C0-A7D5-25518D066BD1",
+            "name": "Äriprotesside moodul",
+            "eapCount": 15
+          },
+          {
+            "id": "EF7CFFF0-3860-4B8E-8547-51F73B2DCEFC",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "461E8977-7D78-4948-BC40-A0C5F2FD88DA",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "10651DD4-0306-4674-8EA7-D97DEA506878",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "8107532C-D916-41C1-B245-DE0BCE5B3085",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "586805C6-696B-4C6E-99AF-7FB008C1FB2E",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "47CA1AFC-802B-4FF1-946C-DE2F1E443427",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "5654BD36-A7B4-404D-9E00-C58EABF2D831",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "B6BD8CDC-C3D4-44B5-BCFB-20DE325D8145",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "B632FCB4-BF8E-440E-9085-028B4909E9C0",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "6F3D622C-1B1D-4F28-B93A-8F81EE468533",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "4806D8A4-2BC7-44A2-B0B3-9558DA6D5B5C",
+            "name": "Äri- ja juhtimiseetika",
+            "eapCount": 2
+          },
+          {
+            "id": "4A9E9A36-C81B-41D8-951D-790C29881467",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "3A930981-05E3-40A8-96E1-6F68738852BF",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "093A6369-AC26-4DEC-BF08-B489F7A4E727",
+            "name": "Õigusõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "106D7752-ECA0-420C-9971-73B42C949308",
+            "name": "Tööõigus ja lepingud",
+            "eapCount": 4
+          },
+          {
+            "id": "0FA8D134-D6F6-4950-8790-A4105D254573",
+            "name": "Majandusteooria",
+            "eapCount": 5
+          },
+          {
+            "id": "7C146849-0628-4AB0-AC68-8C7B4DEA18CB",
+            "name": "Projektijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "0BB75FD5-3074-43A8-BE9C-59D657ABA2EF",
+            "name": "Tervisepsühholoogia ja töökeskkond",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "027E5583-8958-4E9F-AFDB-CF38014FDB35",
+        "name": "Turunduse erialaõpe",
+        "courses": [
+          {
+            "id": "60BF528C-58C1-4B5A-B390-FBB081E8932D",
+            "name": "Bränding",
+            "eapCount": 2
+          },
+          {
+            "id": "49AC1863-F221-43CD-9E98-427243B3BED6",
+            "name": "Müügijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "7EB991C3-B9DF-4E08-88C1-2ED7AA5F9798",
+            "name": "Finantsjuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "7B7BAD1A-C45F-4002-8506-8100A8E3ED78",
+            "name": "Logistika alused",
+            "eapCount": 2
+          },
+          {
+            "id": "00BE70DE-4066-4D9E-918D-A0D44B2EB2AB",
+            "name": "Turundusuuringud",
+            "eapCount": 3
+          },
+          {
+            "id": "42B66060-3EAC-4431-B1D1-D75C24AAAD4F",
+            "name": "Rahvusvaheline turundus",
+            "eapCount": 3
+          },
+          {
+            "id": "1AE14CE0-6BF1-4022-AE89-328FC080ADB9",
+            "name": "Toote- ja hinnapoliitika",
+            "eapCount": 3
+          },
+          {
+            "id": "24442731-6B68-4A4C-9334-DF796442CF5D",
+            "name": "Tarbijakäitumine",
+            "eapCount": 3
+          },
+          {
+            "id": "71A9FF4E-64B7-46C9-BEAF-623C748CDE07",
+            "name": "Internetiturundus ja sotsiaalmeedia",
+            "eapCount": 4
+          },
+          {
+            "id": "5452462F-8657-4ECC-B031-79E0BDC7FFA6",
+            "name": "Suhtekorraldus",
+            "eapCount": 3
+          },
+          {
+            "id": "5E22364F-F606-42C7-98D0-0E7159FA4B46",
+            "name": "Reklaamipsühholoogia",
+            "eapCount": 2
+          },
+          {
+            "id": "6ACB107B-F476-4E22-877E-830B0CF89B49",
+            "name": "Foto- ja videograafia",
+            "eapCount": 3
+          },
+          {
+            "id": "0A8E2251-675B-4740-B8F3-37D6BC3C3F79",
+            "name": "Müük ja kommunikatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "B5B4E36D-78B1-43F7-B7CF-32153B98DD0E",
+            "name": "Teenuste disain",
+            "eapCount": 3
+          },
+          {
+            "id": "4953D4C9-2E10-49ED-8234-B4F1B53B92A2",
+            "name": "Sündmusturundus",
+            "eapCount": 2
+          },
+          {
+            "id": "1F65629B-BA35-45CB-8443-80B289981B11",
+            "name": "Kultuurikeskkond",
+            "eapCount": 3
+          },
+          {
+            "id": "58006DE3-00F3-4452-8151-D79FCB67E0B9",
+            "name": "Teenuste ja organisatsiooni turundus",
+            "eapCount": 4
+          },
+          {
+            "id": "B26FD549-9B76-4CC2-B818-B2A107419D00",
+            "name": "Turunduskommunikatsiooni juhtimine ja planeerimine",
+            "eapCount": 3
+          },
+          {
+            "id": "78616650-9DF6-4B83-8EFA-FBEC2AAE3165",
+            "name": "Intellektuaalse omandi kaitse",
+            "eapCount": 2
+          },
+          {
+            "id": "BCE65325-86EF-4DBC-903F-36E09143407C",
+            "name": "Kommunikatsiooni visualiseerimine",
+            "eapCount": 3
+          },
+          {
+            "id": "4F8BD7EB-A3CB-42EC-B545-40426B2A659E",
+            "name": "Ettevõtte IT süsteemide kavandamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "BED5807B-D3BC-49DB-9D49-754850272054",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "20A8A1E6-B4C7-4B66-B6EE-4E4BABAD208B",
+            "name": "Ettevõttepraktika",
+            "eapCount": 12
+          },
+          {
+            "id": "691D35C1-5693-46FB-95C3-09C7E876FC9F",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "124BBA2C-F05C-4EBD-B67B-6B651F36CDFA",
+            "name": "Ainetöö",
+            "eapCount": 5
+          },
+          {
+            "id": "B4F12919-CFBD-48B6-AD62-04D80ABAD492",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On valmis tegutsema muutuvas keskkonnas, oskab toimida paindlikult ja loominguliselt vastavalt olukorrale ja organisatsiooni vajadustele",
+      "On valmis erialaselt töötama omandatud pea- ja kõrvaleriala valdkonnas nii individuaalselt kui meeskonnas, nii tööandja kui töövõtjana",
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab tööks vajalikke suhtlusoskusi ning infotehnoloogilisi teadmisi."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "990C7F7B-C892-45B7-BCFF-EA13E6DF5077",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "0B771665-AC8D-4983-AA99-8EAAAE7F1E49",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "D5D461B7-C7B4-4A87-A907-DC39EBB1A6F8",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "1AA59CEA-3EA2-472E-A719-AF8909D2A9E1",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Turundus",
+    "cost": {
+      "amount": 3760,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "3DD10D64-B5E9-464E-AF00-4E8203985B7A",
+    "description": [
+      "Veebitehnoloogiate erialal õpid, kuidas luuakse digitaalseid keskkondi ja rakendusi, kujundatakse kasutajaliideseid ja -kogemust. Saad ka ideid, kuidas neid teadmisi siduda ettevõtlusega. Infotehnoloogia loov- ja ärioskustega spetsialistid - smart creatives - on tehnoloogiaettevõtetes enim otsitud töötajaid.",
+      "Sobid veebitehnoloogiks, kui lisaks koodikirjutamisoskusele tahad rohkem teada, miks ja kellele veebirakendusi tegelikult tehakse ning tunned huvi IT-valdkonna vastu laiemalt. Kasuks tuleb soov end ise kujutleda veebirakenduste kasutaja või tellija rollis. Õppekava sisaldab olulises mahus ka disaini- ja ettevõtlusoskuste omandamist.",
+      "Veebitehnoloogi haridus võimaldab jõuda selliste keskmisest kõrgemalt tasustatud ametikohtadeni nagu UI/UX disainer, süsteemianalüütik, IT-teenuste projektijuht, arendusspetsialist või mobiilirakenduste arendaja.",
+      "Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppest suure osa moodustab erialane praktika.",
+      "Veebitehnoloogiate eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti veebitehnoloogiate ja teiste kunstierialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Veebitehnoloogiate eriala õppeprogramm on koostatud ja õpetamine ning praktikakohtade valik toimub koostöös Ülemiste City suuremate IT-tööandjatega nagu Telia Eesti, Helmes ja teised.",
+      "Oma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka järelmaksuvõimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 25,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/veebitehnoloogiad",
+    "personnel": [
+      {
+        "email": "inna.svartsman@eek.ee",
+        "id": "D0220C6A-3291-4A9B-B0FB-FF53C445FE36",
+        "title": "Erialajuht",
+        "name": "Inna Švartsman"
+      },
+      {
+        "email": "hurmi.jurjens@eek.ee",
+        "id": "1F0A2606-15A1-47E4-A474-50BDE06B739B",
+        "title": "Infotehnoloogia lektor",
+        "name": "Hurmi Jürjens"
+      },
+      {
+        "email": "hillar.poldmaa@eek.ee",
+        "id": "298A6861-6C89-46E0-B8CE-E5F027BEBEFC",
+        "title": "Õppejõud",
+        "name": "Hillar Põldmaa"
+      },
+      {
+        "email": "jelena.svartsman@eek.ee",
+        "id": "670352A5-7EE8-4753-ACEC-AB28C3618E41",
+        "title": "Infotehnoloogia lektor",
+        "name": "Jelena Švartsman"
+      },
+      {
+        "email": "vladimir.tomberg@eek.ee",
+        "id": "657B8715-1785-40DE-9914-FCA567B4E78C",
+        "title": "Õppejõud",
+        "name": "Vladimir Tomberg"
+      }
+    ],
+    "type": "Disainiteadus",
+    "modules": [
+      {
+        "id": "2943CD8D-6C4F-484A-8D43-4DDCA2645695",
+        "name": "Ettevõtlusmoodul",
+        "courses": [
+          {
+            "id": "79D73A7B-FD1C-4269-A930-2D3E87ECEC0E",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "48045B4A-B6BE-44DD-B0CC-9D20BFDB62FE",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "B56BA0BE-4B67-4A6D-9596-188DA7604523",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "E1CE699D-E9FD-4326-89B5-5695CC95FD60",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "CAAB4B83-8699-44A8-86A0-8A1D5DF69C8A",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "518D1852-127D-4CCA-8A21-F82BED4F0841",
+            "name": "Äriõigus ja loomemajanduse õigusaktid",
+            "eapCount": 3
+          },
+          {
+            "id": "5C2FD6AE-0F97-498B-A3E5-F66B27DB3C04",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "90800808-F05B-485C-B9FC-CE5A383A103D",
+            "name": "Reklaamipsühholoogia",
+            "eapCount": 2
+          },
+          {
+            "id": "06F541E7-3AE1-4E9B-A545-8BFBA7819AD8",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          },
+          {
+            "id": "BCAC4789-3CA3-4099-A84D-96AD7C00A02C",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          },
+          {
+            "id": "5F6D0364-80EA-4F56-8F15-5E14560E1735",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "916ED545-DF24-43E5-A41E-5180B2D18BF1",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "F18F5869-C518-4B79-A2F2-2617A1836656",
+        "name": "Veebidisaini ja digitaalgraafika põhiõpe",
+        "courses": [
+          {
+            "id": "460D9B34-3E30-4935-A946-9FE44B34E9AA",
+            "name": "Kasutajaliidese ja -kogemuse disain (UI/UX)",
+            "eapCount": 5
+          },
+          {
+            "id": "AE0806AF-5709-4D80-80A8-DB92C13C9E4A",
+            "name": "Fototöötlus",
+            "eapCount": 5
+          },
+          {
+            "id": "94BC293E-13C2-4C2F-9C32-A385F7A2D8A5",
+            "name": "Arvutigraafika ja animatsioon",
+            "eapCount": 5
+          },
+          {
+            "id": "7EA77D82-F71C-48E6-AABB-817CBD62B67F",
+            "name": "HTML 5",
+            "eapCount": 5
+          },
+          {
+            "id": "BC270A8A-65DC-49BD-9ED3-3F3425C31C64",
+            "name": "Vektorgraafika",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "DD27B7D2-827A-43C8-B377-7A7D41DA693C",
+        "name": "Veebitehnoloogiate erialaõpe",
+        "courses": [
+          {
+            "id": "EC142A7E-E7AA-4FEF-BC54-D90C38BE1DE5",
+            "name": "Arvutiehitus ja arvutivõrgud",
+            "eapCount": 5
+          },
+          {
+            "id": "191ADD4E-2C42-42ED-BE93-C50B30F528B7",
+            "name": "Programmeerimise alused",
+            "eapCount": 5
+          },
+          {
+            "id": "5FCFD65E-81A1-4BA7-93BE-FD00EF4DB76A",
+            "name": "Andmebaasid ja SQL",
+            "eapCount": 5
+          },
+          {
+            "id": "B564AF08-F734-43F0-9F90-9F0AC2579D87",
+            "name": "OO analüüs, disain ja porgrammeerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "1C9A069F-8AF0-40C6-82FD-CA355A418123",
+            "name": "Andmeturve",
+            "eapCount": 5
+          },
+          {
+            "id": "18844F96-F8B0-49F2-A045-7F5A584A95FD",
+            "name": "Veebiprogrammeerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "C44A97AE-7A1D-4FFF-A7F2-C86DB814BA3D",
+            "name": "IT infrastruktuuride kavandamine",
+            "eapCount": 5
+          },
+          {
+            "id": "0D7485B7-3D15-4E0D-AAC9-1DFCBEAA44AC",
+            "name": "Mobiilirakenduste programmeerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "0CE36C2B-A3D7-40D8-B64F-B3BFD320A581",
+            "name": "Veebitehnoloogiad",
+            "eapCount": 5
+          },
+          {
+            "id": "7E349A3B-894E-4C86-BB2E-35F89D0332C2",
+            "name": "IT matemaatilised ja füüsikalised alused",
+            "eapCount": 5
+          },
+          {
+            "id": "0430F7CF-E440-434E-BB0E-8E8BAF94331D",
+            "name": "Prototüüpimine",
+            "eapCount": 5
+          },
+          {
+            "id": "59611D41-E97C-4756-95CB-692BD8B38A62",
+            "name": "Veebilehtede analüüs ja disain",
+            "eapCount": 5
+          },
+          {
+            "id": "BDDB34A8-B6BD-4052-B824-CF8E4D0E810F",
+            "name": "Testimine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "E75D3C7C-D00F-4B57-BF22-A4DF11BE6C69",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "A1355F9D-1703-4EC6-BD3B-9624443A610C",
+            "name": "Portfoolio",
+            "eapCount": 5
+          },
+          {
+            "id": "F130BE32-89CD-4FFD-AB90-F99E6B233AB0",
+            "name": "Lõputöö",
+            "eapCount": 10
+          },
+          {
+            "id": "6F1AC9FF-294F-4FF5-8EA9-1E91AD24BE08",
+            "name": "Erialase meeskonnatöö praktika",
+            "eapCount": 10
+          },
+          {
+            "id": "8DBD0AF9-6590-4991-9025-99065EA6217D",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "9437D0C8-F4AE-434E-8719-607230AD9A22",
+            "name": "Loominguline praktika",
+            "eapCount": 5
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või jätkata õpinguid magistriõppes",
+      "Orienteerub disaini ja disainiga liituval infotehnoloogia maastikul",
+      "On kompetentne graafilise disaini, veebikeskkonnapõhise graafilise disaini, digitaalmeedia, veebiarenduse valdkonnas",
+      "Rakendab omandatud teadmisi ja oskusi disainialases tegevuses",
+      "On valmis tegutsema muutuvas keskkonnas, suudab toimida paindlikult ja loominguliselt vastavalt olukorrale ning organisatsiooni vajadustele",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab  tööks vajalikke suhtlusoskusi",
+      "Valmis disainialaseks tööks meeskonnas ja üksikettevõtjana",
+      "On omandanud vajalikud kompetentsid tegutsemiseks loovettevõtluses, sh loovettevõtte asutamiseks",
+      "On suuteline ennast pidevalt iseseisvalt erialaselt ja tööalaselt täiendama",
+      "On kursis oma eriala kodumaise ja rahvusvahelise arenguga ning kohandab oma tegevust vastavalt turu nõuetele."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "310CAB14-EEED-4206-9CFD-3475BC5FE249",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "4B7573A4-FB48-4C85-8092-6E66571C4901",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "AABED18D-A3C1-449B-9987-42859FA30CFD",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "053ED47E-A52E-4848-B138-975F19851C72",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Veebitehnoloogiad",
+    "cost": {
+      "amount": 3760,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "97C9A307-EF6D-4976-841B-12D6CFEC257A",
+    "description": [
+      "Tarkvaraarenduse ja ettevõtluse eriala on mõeldud neile, kes tahavad vajalikke programmeerimise, tarkvara kujundamise ja tiimitööoskusi, et teha karjääri tarkvaraarendajana juhtivates IT-ettevõtetes Eestis või mujal. Aga ka neile, kes tahavad tugevat IT-vundamenti ja samuti äriteadmisi, millele ehitada omaenda tarkvaraettevõte.",
+      "Tarkvaraarenduse ja ettevõtluse õppekava keskendub teemadele:",
+      "• programmeerimine (Java, HTML, CSS, SQL)",
+      "• infosüsteemide analüüs ja kavandamine",
+      "• tarkvaraarenduse protsessid",
+      "• tarkvaratestimine",
+      "• äriprotsesside automatiseerimine",
+      "• veebi- ja mobiilirakenduste loomine",
+      "• ettevõtlus ja suhtlemispsühholoogia",
+      "• projektid ja praktikad, portfoolio loomine",
+      "Tarkvaraarenduse ja ettevõtluse eriala õppeprogramm on koostatud ja õpetamine toimub koos Eesti juhtivate tarkvaraloojatega nagu Columbus Eesti, Ericsson ja Playtech.",
+      "Tarkvaraarenduse ja ettevõtlus, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2018 anti tarkvaraarenduse ja ettevõtluse õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/tarkvaraarendus_ja_ettev%C3%B5tlus",
+    "personnel": [
+      {
+        "email": "inna.svartsman@eek.ee",
+        "id": "8102C85D-0A26-421A-B93E-D48F3FE5AACB",
+        "title": "Erialajuht",
+        "name": "Inna Švartsman"
+      },
+      {
+        "email": "hurmi.jurjens@eek.ee",
+        "id": "86C6D744-F7C7-404A-A103-597999F4FC12",
+        "title": "Infotehnoloogia lektor",
+        "name": "Hurmi Jürjens"
+      },
+      {
+        "email": "juri.majak@eek.ee",
+        "id": "78E070B6-F19D-4273-B0C5-CB634AC6403B",
+        "title": "Õppejõud",
+        "name": "Jüri Majak"
+      },
+      {
+        "email": "hegle.sarapuu.johanson@eek.ee",
+        "id": "A1931CB4-C425-4E0F-AE42-410F466352E2",
+        "title": "Õppejõud",
+        "name": "Hegle Sarapuu-Johanson"
+      },
+      {
+        "email": "vladimir.tomberg@eek.ee",
+        "id": "1E8F9F40-6DAD-4F55-A2D3-ED67AE72493A",
+        "title": "Õppejõud",
+        "name": "Vladimir Tomberg"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "304516E0-A01D-4D86-B0B7-B842D921AA0A",
+        "name": "Ettevõtlusmoodul",
+        "courses": [
+          {
+            "id": "B8AF35D6-F8CB-463E-85E3-BEF19E2CD661",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "B990C6BA-1D26-4E06-B517-1F63DFA9DB85",
+        "name": "IT projekteerimine",
+        "courses": [
+          {
+            "id": "6A78CEB8-C603-405F-9102-D49FF7F7944A",
+            "name": "Tarkvarapõhise toote  ja teenuse arendamine",
+            "eapCount": 4
+          },
+          {
+            "id": "178AA012-9F58-4436-89F6-5B43AFB45E0D",
+            "name": "Kuluarvestus ja eelarvestamine",
+            "eapCount": 4
+          },
+          {
+            "id": "ED776BDE-B8B5-4EB9-A4ED-627A91A40300",
+            "name": "IT rakenduste tootejuhtimine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "870F76E9-A987-425A-B092-ED8B0B5167A4",
+        "name": "Matemaatika ja Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "A247A9FC-689B-43BB-B5D3-467A827000D1",
+            "name": "IT sotsiaalsed ja eetilised alused",
+            "eapCount": 2
+          },
+          {
+            "id": "26862AC7-94FA-41CA-8EF8-891ECB68F508",
+            "name": "Akadeemiline kirjutamine ja ensesväljendus",
+            "eapCount": 3
+          },
+          {
+            "id": "F6544E9F-E0BF-4FE9-B9A4-7EC50B40BA79",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "574F3286-BD19-4BE8-B380-42A38EAFE879",
+            "name": "Algoritmid ja andmestruktuurid",
+            "eapCount": 5
+          },
+          {
+            "id": "1D44A572-C43C-47D9-9D42-4715E99C1EA1",
+            "name": "Lineaaralgebra",
+            "eapCount": 5
+          },
+          {
+            "id": "81C6CF79-391E-4CC8-9A5A-7DB5950AB8A6",
+            "name": "Diskreetne matemaatika ja loogika",
+            "eapCount": 5
+          },
+          {
+            "id": "5EEEF565-225C-46DD-B86C-6C7D6418A7B1",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "58A7B0DF-1640-40D4-98B4-FB3CF8C9DB06",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "5D5B1479-494C-42DC-89FF-60F1FC677F81",
+            "name": "Eesti keel I",
+            "eapCount": 5
+          },
+          {
+            "id": "8C855A5B-03FB-4E71-B8AD-F2F3CCDDAFEA",
+            "name": "Koostöömudelid",
+            "eapCount": 2
+          },
+          {
+            "id": "86B4A437-F93A-481F-A383-6F19286F5CB1",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "E11E70F5-4CD9-4A0F-A2A6-04FA1CCCCE8F",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "73A7EB0D-8CAF-4EC9-8028-ECE5952A7286",
+            "name": "Eesti keel II",
+            "eapCount": 3
+          },
+          {
+            "id": "958A92EA-ED42-4785-AE71-0B6E2FB7DAD5",
+            "name": "Eesti keel III",
+            "eapCount": 3
+          },
+          {
+            "id": "18695932-5490-434A-A414-1994F2EF470D",
+            "name": "Eesti keel IV",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "2B4B15A5-13A9-4B13-B0E2-F2D2D8CF8A27",
+        "name": "Tarkvaraarenduse erialaõpe",
+        "courses": [
+          {
+            "id": "348909F4-FCFC-4491-BE07-05A9759983F9",
+            "name": "Tarkvarasüsteemide monitoorimine",
+            "eapCount": 2
+          },
+          {
+            "id": "FB7275AE-54FE-4EEA-9C7F-AE3FC4E4D261",
+            "name": "Programmeerimine keeles Python",
+            "eapCount": 4
+          },
+          {
+            "id": "CB16F057-FA16-4FF2-AEFD-3EFC041793CA",
+            "name": "Tarkvaratestimine",
+            "eapCount": 5
+          },
+          {
+            "id": "EFBBC95F-37C4-41B5-BBC1-68733B97875D",
+            "name": "Mobiilirakendused",
+            "eapCount": 5
+          },
+          {
+            "id": "F1DD3B99-C607-49F4-BE76-F9558B93D472",
+            "name": "Veebirakendused",
+            "eapCount": 5
+          },
+          {
+            "id": "5E556FE6-6417-433E-B28D-B5974462DAE3",
+            "name": "Andmebaasid",
+            "eapCount": 4
+          },
+          {
+            "id": "C66F9BE9-9B8E-4166-8531-F87DCFB62E2D",
+            "name": "Kasutajaliidese prototüüpimine",
+            "eapCount": 4
+          },
+          {
+            "id": "2F0A5A99-0284-46F3-B464-5F09BD458925",
+            "name": "Infosüsteemide analüüs ja projekteerimine",
+            "eapCount": 4
+          },
+          {
+            "id": "EF68D89F-6BF1-40FF-8AB7-E51F6587566E",
+            "name": "Andmeturve",
+            "eapCount": 4
+          },
+          {
+            "id": "B87DBC80-D778-4692-B9A5-AA92973A68C3",
+            "name": "Objektorienteeritud programmeerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "CA1AC2AB-2CD6-4E68-B9C7-4DEC77C44E00",
+            "name": "Programmeerimise alused",
+            "eapCount": 5
+          },
+          {
+            "id": "5F7EE5F2-076B-42C4-86FC-561D89BB6274",
+            "name": "Tarkvara arendusprotsessid",
+            "eapCount": 4
+          },
+          {
+            "id": "5F24D63C-5252-447B-BD66-78000A7340C2",
+            "name": "Operatsioonisüsteemid ja nende haldus",
+            "eapCount": 3
+          },
+          {
+            "id": "2DDB3D80-E4C8-4658-AB4C-41B6C55DE304",
+            "name": "Arvutid ja arvutivõrgud",
+            "eapCount": 2
+          },
+          {
+            "id": "B39739DF-81DA-4D35-AFF1-7E8DF685C752",
+            "name": "Valikained",
+            "eapCount": 3
+          },
+          {
+            "id": "75C07532-0796-40E0-8987-F9B969CD2358",
+            "name": "Äriprotsesside modelleerimine ja automatiseerimine",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "241F2C62-27CB-4A24-968D-2AC5D4E21B8C",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "8BF9D0D8-E353-4D7F-9506-BD40CDB29E50",
+            "name": "Tarkvaraarenduse meeskonnaprojekt",
+            "eapCount": 5
+          },
+          {
+            "id": "21E616EB-A73B-417F-A74C-FFEB8D6E938E",
+            "name": "Tarkvaraarenduse projekt",
+            "eapCount": 10
+          },
+          {
+            "id": "6D1AD8E2-4875-419E-A274-965A4C23195B",
+            "name": "Lõputöö",
+            "eapCount": 10
+          },
+          {
+            "id": "45FFF425-E909-4039-924D-0026858D90D6",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On omandanud erialased pädevused valdkonnas  töötamiseks",
+      "Lähtub omandatud pädevuste rakendamisel valdkondlikest uuendustest ja olemasolevatest praktilistest lahendustest.",
+      "Püstitab eesmärke ning lahendab erialaseid probleeme nii individuaalselt kui meeskonnas, kasutades selleks tänapäevaseid ja kohaseid meetodeid ning tehnoloogiaid",
+      "On omandanud teadusliku käsitluse põhimõtted ja konstruktiivse mõtlemise oskuse ning rakendab neid eesmärkide saavutamiseks ja tööalaste otsuste tegemisel",
+      "Arvestab oma töös valdkonna kutse-eetika, ühiskonna normide ja kehtiva hea tavaga",
+      "On motiveeritud ja valmis pidevaks enesearenduseks ja magistriõppeks."
+    ],
+    "language": "inglise keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "288683FB-CF28-4350-8946-FDB26608247A",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "C1646D7A-BD08-44F2-907F-8E8238B1E8DA",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "5E959EA6-85C1-427B-AA3B-C43911FC1365",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "E34D1508-81C4-40DF-A2E3-D47FDFD91EF1",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Tarkvaraarendus ja ettevõtlus",
+    "cost": {
+      "amount": 4660,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn",
+      "Tartu"
+    ],
+    "id": "7CABFBF6-93C5-49CD-973B-5C2A8ADE71E1",
+    "description": [
+      "Kvaliteedijuhtimise erialal õpid muutma suure ettevõtte tegevusi ja info liikumist selgemaks, tõhusamaks ja mugavamaks. Vajadust kvaliteedijuhi järele tunnevad aina rohkemate ettevõtete tippjuhid.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Väärtustame õppijate koolis veedetud aega, pannes erilist rõhku efektiivsetele õppemeetoditele. Õppest suure osa moodustab erialane praktika",
+      "Kvaliteedijuhtimise eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti kvaliteedijuhtimise ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Kvaliteedijuhtimise õppekava Eesti Ettevõtluskõrgkoolis Mainor on koostatud koostöös Eesti Kvaliteediühinguga ja lähtub kvaliteedispetsialisti VI taseme kutsestandardist. Lõpetajatel on võimalik taotleda kutsetunnistust.",
+      "Kvaliteedijuhtimise eriala on võimalik õppida täismahus Tallinna õppekeskuses. Tartu õppekeskuses on võimalik kogu õppekava läbida, kui kvaliteedijuhtimise eriala valinuid on Tartus vähemalt 15. Muul juhul on Tartu õppekeskuses võimalik läbida õppest ligi kaks kolmandikku. Erialaõppe moodul toimub sel juhul Tallinnas.",
+      "Õpe toimub mõlemas linnas kaugõppena, mis võimaldab käia neljapäevast pühapäevani toimuval sessioonil õppimas ka teises linnas. Tartust saabunud üliõpilastel on võimalik leida soodsat majutust EEK tudengite hostelis, mis asub Ülemiste rongipeatusest viie- ja Tallinna õppekeskusest kaheminutilise jalutustee kaugusel.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/kvaliteedijuhtimine",
+    "personnel": [
+      {
+        "email": "katriin.visnapuu@eek.ee",
+        "id": "B881D131-21AC-4DA6-A665-854DE9E8E9DD",
+        "title": "Erialajuht",
+        "name": "Katriin Visnapuu"
+      },
+      {
+        "email": "karin.kuimet@eek.ee",
+        "id": "C80FCC98-54DB-4CA1-974A-FCEAAD9855EB",
+        "title": "Personalijuhtimise lektor",
+        "name": "Karin Kuimet"
+      },
+      {
+        "email": "doris.pold@eek.ee",
+        "id": "B65D15E1-BE51-4C9A-8610-15AB992B6E25",
+        "title": "Õppejõud",
+        "name": "Doris Põld"
+      },
+      {
+        "email": "kersti.parn@eek.ee",
+        "id": "9ECE7DBA-0791-4013-989F-720E38BE0FDA",
+        "title": "Õppejõud",
+        "name": "Kersti Pärn"
+      },
+      {
+        "email": "alar.sistok@eek.ee",
+        "id": "CD786B11-08B2-4936-B9AB-0F9E80EF3A0C",
+        "title": "Õppejõud",
+        "name": "Alar Sistok"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "8CE5F515-E6E3-45CA-8629-E49153880E06",
+        "name": "Kvaliteedijuhtimise erialaõpe",
+        "courses": [
+          {
+            "id": "1F420786-E008-4D15-9BF7-E215827ADFE8",
+            "name": "Kliendisuhete juhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "9873F131-E501-4C85-A96C-6D44DD08C676",
+            "name": "Protessijuhtimine",
+            "eapCount": 8
+          },
+          {
+            "id": "074DAD3C-B0C2-40B1-B42E-2CFEDC0707F4",
+            "name": "Kvaliteedijuhtimissüsteemi loomine organisatsioonis",
+            "eapCount": 10
+          },
+          {
+            "id": "3BB8D81F-4AE8-45D4-A740-0389E5DA972B",
+            "name": "Kommunikatsioonijuhtimine",
+            "eapCount": 4
+          },
+          {
+            "id": "026B004D-3560-4833-BD7A-C452088D2750",
+            "name": "Muudatuste juhtimine",
+            "eapCount": 7
+          },
+          {
+            "id": "618D1E52-2598-47B7-8258-90968470E08F",
+            "name": "Juhtimissüsteemi hindamine",
+            "eapCount": 7
+          },
+          {
+            "id": "9C7B6F85-4FD5-4D31-8864-F265FC360070",
+            "name": "Andmekogumine ja -analüüs",
+            "eapCount": 4
+          },
+          {
+            "id": "BFB271FB-6A7B-4FB4-A4D1-BDD33DF7F93D",
+            "name": "Projektijuhtimine",
+            "eapCount": 8
+          },
+          {
+            "id": "7B443E34-2682-40C4-9B92-622D86F4B95D",
+            "name": "Meeskonna juhtimine",
+            "eapCount": 6
+          },
+          {
+            "id": "035FCBD0-0B2D-4B18-967D-AF94B16B1A5C",
+            "name": "Riskijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "6C97DD82-D0A9-4B59-825D-E38ABB040276",
+            "name": "Kvaliteet erinevates valdkondades",
+            "eapCount": 2
+          },
+          {
+            "id": "EFF174FE-06AD-4DE6-BD56-614EBDC81BE2",
+            "name": "Auditeerimine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "4A03D002-CD39-41B3-8CA7-53F3B9212B42",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "D6CD4409-347E-41E1-B302-F0481390C258",
+            "name": "Ettevõttepraktika",
+            "eapCount": 12
+          },
+          {
+            "id": "F5B1F03D-F699-4DAC-86F9-D99FB389C20E",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "ACE0B238-4DCE-4C8D-A286-4052B6539794",
+            "name": "Ainetöö",
+            "eapCount": 5
+          },
+          {
+            "id": "1C2BD266-B293-49E5-87A7-5EF48C6D5CB4",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      },
+      {
+        "id": "1327F0C6-1ABD-472A-AD64-D12104E0AE30",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "72547B3F-319C-43D4-936A-BED80C3A3CC9",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "625E2979-DE48-4C4E-8A83-F9F7FAD9E4A8",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "E54896B0-00C2-4952-878C-30808E89E835",
+            "name": "Äri- ja juhtimiseetika",
+            "eapCount": 2
+          },
+          {
+            "id": "3C571278-CC06-4EF3-8235-C70C7974AC2E",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "35D3B7FF-7033-49CC-9D4D-B22E7E830BEF",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "2BCC511B-F36E-4B6E-8D47-FC9788011C24",
+            "name": "Äriprotesside moodul",
+            "eapCount": 15
+          },
+          {
+            "id": "86FA48AE-A2DD-4092-8583-9AFCE2BDCCA6",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "5FF5AF6A-AB8E-48A9-B995-4AF35F867C53",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "5871D91D-5CBD-4916-8CA5-D6DC53E4E5A5",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "9A223C8C-AFFF-4DC7-9E74-33A05E931BD4",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "E433DEF1-55F2-4CF3-80BD-322BEEA7E13E",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "27CA4E25-30A2-4B34-B9FA-1A7E87D3811C",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "080466A1-C5F7-4F0E-8300-C255E90504A8",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "737C26BF-3B73-40FB-9BE7-BF8D97F7A24E",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "6B6E69A5-707C-4F64-ADDF-314ACF6D9A92",
+            "name": "Õigusõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "5BD05B40-3987-43C3-B5E5-DB82675770AA",
+            "name": "Majandusteooria",
+            "eapCount": 5
+          },
+          {
+            "id": "76D1F21A-60D9-4F8D-A5B5-8D073F2C86E4",
+            "name": "Tervisepsühholoogia ja töökeskkond",
+            "eapCount": 3
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle kvaliteedispetsialistina või sarnaseid tööülesandeid sisaldaval ametikohal",
+      "Omab vajalikke kompetentse, et edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "On valmis tegutsema muutuvas keskkonnas, oskab toimida paindlikult ja loominguliselt vastavalt olukorrale ja organisatsiooni vajadustele",
+      "Loob, haldab ja hindab organisatsiooni kvaliteedijuhtimissüsteemi, lähtudes organisatsiooni spetsiifikast, eesmärkidest ning kvaliteedipoliitikast",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab tööks vajalikke suhtlus- ning koostööoskusi ning infotehnoloogilisi pädevusi."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "406A8314-F73F-4072-AA76-08219C09DF50",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "60675495-1991-4D68-AE77-EF2D5656CE24",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "FAC8E61E-695D-41E6-97E1-247059217CA2",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "352A8077-C6E0-44D7-852D-F695A97FE38E",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Kvaliteedijuhtimine",
+    "cost": {
+      "amount": 3640,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn",
+      "Tartu"
+    ],
+    "id": "2B59C22D-05E9-43B2-9208-66D0D3E1458B",
+    "description": [
+      "Personalijuhtimise erialal omandad vajalikud teadmised ja oskused inimvara hoidmiseks ja arendamiseks. Õpiväljundite saavutamisel omad head arusaama kõikidest personalijuhtimise töövaldkondadest ja nende seostest. Õppekava toetab oskust koostada personali- või oma valdkonna eelarvet, juhtida protsesse ja projekte.",
+      "Personal on organisatsiooni suurim vara ja selle oskuslik juhtimine organisatsiooni edu võti. Personalijuhtimise eriala eripäraks Ettevõtluskõrgkoolis Mainor on indiviidikeskse lähenemise väärtustamine ja tuginemine psühholoogiaalastele teadmistele.",
+      "• Kas soovid luua väärtust organisatsioonile ja teha tähendusrikast tööd?",
+      "• Kas tunned huvi psühholoogia ja selle rakendusvõimaluste vastu?",
+      "• Kas tahad olla juhtkonna partneriks personaliga seonduvates küsimustes ning olla tööõnne kujundaja?",
+      "• Kas soovid töötada personalijuhina, HR-partnerina, osakonnajuhina, personalispetsialistina, personaliassistendina, büroojuhatajana, personaliadministraatorina või personalikonsultandina?",
+      "• Kui vastasid vähemalt ühele küsimusele jaatavalt, on personalijuhtimise eriala mõeldud Sulle.",
+      "Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+      "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal julgeme arvata, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppest suure osa moodustab erialane praktika",
+      "Personalijuhtimise eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti personalijuhtimise ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+      "Personalijuhtimise eriala õppeprogramm on koostatud ja õpetamine toimub koostöös personalispetsialistidega rahvusvahelise meeskonnaga suurettevõtetest nagu G4S, Grant Thornton, Abc Grupp, Indoor Group AS, Eesti Teed AS, ABB AS ja teised.",
+      "Oma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka järelmaksuvõimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+      "Personalijuhtimise eriala on võimalik õppida täismahus Tallinna õppekeskuses. Tartu õppekeskuses on võimalik kogu õppekava läbida, kui personalijuhtimise eriala valinuid on Tartus vähemalt 15. Muul juhul on Tartu õppekeskuses võimalik läbida õppest kaks kolmandikku. Erialaõppe moodul toimub sel juhul Tallinnas.",
+      "Õpe toimub mõlemas linnas kaugõppena, mis võimaldab käia neljapäevast pühapäevani toimuval sessioonil õppimas ka teises linnas. Tartust saabunud üliõpilastel on võimalik leida soodsat majutust EEK tudengite hostelis, mis asub Ülemiste rongipeatusest viie- ja Tallinna õppekeskusest kaheminutilise jalutustee kaugusel.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/personalijuhtimine",
+    "personnel": [
+      {
+        "email": "karin.kuimet@eek.ee",
+        "id": "27EFA4C4-F345-46A8-866E-59C2CEBA7F2A",
+        "title": "Erialajuht",
+        "name": "Karin Kuimet"
+      },
+      {
+        "email": "taimi.elenurm@eek.ee",
+        "id": "87FC371D-1210-46E9-9265-08EEACDF009C",
+        "title": "Organisatsioonipsühholoogia lektor",
+        "name": "Taimi Elenurm"
+      },
+      {
+        "email": "kart.kinnas@eek.ee",
+        "id": "7633EFF2-5114-4EB3-A4FB-E9FAE58A6818",
+        "title": "Personalijuhtimine ja nõustamine",
+        "name": "Kärt Kinnas"
+      },
+      {
+        "email": "indrek.sarjas@eek.ee",
+        "id": "B1D71921-6048-49C7-A684-7C0E3DD56EF0",
+        "title": "Personali värbamine ja talendijuhtimine",
+        "name": "Indrek Sarjas"
+      },
+      {
+        "email": "ulane.vilumets@eek.ee",
+        "id": "DF079960-D7CF-41FC-9204-9062241C80B0",
+        "title": "Ettevõtluse lektor",
+        "name": "Ülane Vilumets"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "F6CB0FF0-A895-48FA-AB6B-25398E2D8629",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "0A1315FE-0C73-433E-864F-C4AB7ADE9E0D",
+            "name": "Äriprotesside moodul",
+            "eapCount": 15
+          },
+          {
+            "id": "192B3919-76E3-420C-A9A0-FEF37DCD5431",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "EB89666C-459A-4B55-88BC-BE1D8DB3DD2B",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "9A5BB031-7A91-4F4C-A17A-2A7D43830B74",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "0D0645D9-A275-48CF-9E81-C21FF851AF12",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "6B710C1B-60AA-4BD1-A174-ED21DA8CF93C",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "82049824-38FC-4A77-BC78-215FB1E272D2",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "808DA005-D445-4A45-AC2A-B8C0CA99A631",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "6501EA1E-537D-45A3-AAAF-E1C474A93A69",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "9CE6E040-F864-4170-9E4C-BF573A969113",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "CFF03AC8-C459-4070-B7AF-5E898EB04A0F",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "2F42F6B9-0C24-4078-B31E-AB12D0849302",
+            "name": "Äri- ja juhtimiseetika",
+            "eapCount": 2
+          },
+          {
+            "id": "DC9CB7E9-DDA9-4987-B6C8-082D621D4638",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "E47D8CCC-447C-4CF6-BC67-1A50E56233E5",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "B41FE9DE-7C07-4823-B52B-8481E0E0E5DC",
+            "name": "Õigusõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "17227863-DB6F-48FE-9E7F-F25191C5CED2",
+            "name": "Tööõigus ja lepingud",
+            "eapCount": 4
+          },
+          {
+            "id": "6D37D416-65B4-4522-887B-A3770843A5A3",
+            "name": "Majandusteooria",
+            "eapCount": 5
+          },
+          {
+            "id": "C1AFE28F-A61E-4E4C-9BF8-41A81359CC58",
+            "name": "Projektijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "FE2ABC22-76E9-482F-A124-7FE85FDB07C0",
+            "name": "Tervisepsühholoogia ja töökeskkond",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "46852881-CF05-4876-878B-FBA815EA44A6",
+        "name": "Personalijuhtimise erialaõpe",
+        "courses": [
+          {
+            "id": "BED1301D-B8BE-49D1-BD22-E470202A6173",
+            "name": "Personaliarvestus ja personalidokumendid",
+            "eapCount": 5
+          },
+          {
+            "id": "BFC6B63D-1C88-4E78-B946-7C987B28F3B2",
+            "name": "Isiksuse- ja sotsiaalpsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "9CF63C09-2F1D-45AD-925A-8D3A37AE18F8",
+            "name": "Strateegiline personalijuhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "77F4AF9D-84F2-4FE5-93B2-94475F8E05F5",
+            "name": "Tööturg ja personaliplaneerimine",
+            "eapCount": 5
+          },
+          {
+            "id": "D034A052-3838-41CC-8D30-0D57C8A465A3",
+            "name": "Finantsjuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "4611E22E-9DDC-49CC-AAC7-3B2FE4E43ED1",
+            "name": "Hindamine ja palgakorraldus",
+            "eapCount": 4
+          },
+          {
+            "id": "DDF3B1A2-6C50-4001-B651-77E3DD52C763",
+            "name": "E-lahendused personalitöös",
+            "eapCount": 2
+          },
+          {
+            "id": "111A8B28-5E90-4AE4-BEA6-1AF86252A06A",
+            "name": "Mitmekesisus",
+            "eapCount": 3
+          },
+          {
+            "id": "0874774A-7449-4E63-B5F1-A00B293A05B8",
+            "name": "Töötajate arendamine",
+            "eapCount": 5
+          },
+          {
+            "id": "58BBBB9B-F4E5-4546-9BE2-E79800B13510",
+            "name": "Tööõiguse praktikum",
+            "eapCount": 2
+          },
+          {
+            "id": "BA2B6DB8-38C3-4077-8270-52898F372341",
+            "name": "Positiivne psühholoogia",
+            "eapCount": 2
+          },
+          {
+            "id": "553AF217-A724-4A87-B513-0C3D6C0A66F8",
+            "name": "Teenuste disain",
+            "eapCount": 3
+          },
+          {
+            "id": "952C64DA-0EE6-4C2E-87E6-E6050CF774E5",
+            "name": "Müük ja kommunikatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "F0AF9F2F-DEC1-4651-BF7C-A96871AF2E92",
+            "name": "Personali värbamine ja karjäärijuhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "91BB5379-BB64-48BC-8095-51F2D01EFEAC",
+            "name": "Kultuurikeskkond",
+            "eapCount": 3
+          },
+          {
+            "id": "F2E05FA9-7001-40B2-97D7-FEB61544EDD0",
+            "name": "Sündmusturundus",
+            "eapCount": 2
+          },
+          {
+            "id": "816A23FD-A4E8-4183-96DC-D0273A69E419",
+            "name": "Töökorraldus ja koostöö organisatsioonis",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "57ED9C2B-F505-446F-9F41-AEFDEB328EC0",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "9BC87409-4930-40EB-BE28-D0FB2BD87AF9",
+            "name": "Ettevõttepraktika",
+            "eapCount": 12
+          },
+          {
+            "id": "BB4A73AE-7A63-43BF-BFFE-3BEA5C72EDC8",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "F97D74C5-78DA-4A20-BF26-F0C9FD131753",
+            "name": "Ainetöö",
+            "eapCount": 5
+          },
+          {
+            "id": "0439426D-C379-4204-BBE2-679BFC55310B",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Meie vilistlased on leidnud rakendust personalijuhi või -spetsialistina, HR partnerina, talendi- või värbamisjuhina, personali arendamise ja koolituse valdkonnas ning juhtkonna partneritena personaliga seonduvas. Omandatud oskused ja teadmised toetavad toimetulekut mistahes meeskonna kujundamisel ja juhtimisel ning samuti väike- või startup-ettevõtte juhina. Nominaalajaga lõpetamise korral on võimalik koos diplomiga taotleda PARE kutsetunnistust tasemel personalijuht 6."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "DB884062-549D-47AD-BA52-383E9402FC66",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "45082301-6D84-4D28-BFF8-39D97A627C41",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "4E584F1D-47C5-4A5C-9852-933A4CF831B2",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "0E98C1B0-1AD2-4F02-8DC9-1A98CED737FD",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Personalijuhtimine",
+    "cost": {
+      "amount": 3640,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn",
+      "Tartu"
+    ],
+    "id": "32793B4F-42B4-4113-95ED-4F778F2C656D",
+    "description": [
+      "Restoraniettevõtluse erialal õpid looma unikaalset elamust pakkuvaid toitlustus-, turismi- ja elamusteenuseid. Teenuste disain on oskus, mida saab õppida. Õpid olema uue põlvkonna ettevõtja, kes on samavõrd kodus nii kliendikogemuse kujundamises kui ka äriplaneerimises ja turunduses.See on eriala Sulle, kui soovid luua omaenda toitlustus- või turismiettevõtte, kus rõhk on elamusel ja emotsioonil. Samuti on see eriala Sulle, kui Sa juba töötad turismi-, majutus- või toitlustusvaldkonnas ja soovid värskeid teadmisi või areneda spetsialistist juhiks.",
+      "Õpe toimub kaugõppes ja töökohapõhise õppena. See tähendab, et pool õppest toimub koolis, teine pool aga praktilise tegevusena erialasel töökohal. Töökohapõhine õpe on laialt levinud Skandinaavias ja kogub populaarsust ka Eestis. Sel moel õppimine on efektiivsem kui tavaõpe ning annab lisaks teadmistele ka palju praktilisi kogemusi. Seetõttu eeldame, et iga üliõpilane asub hiljemalt esimese õppeaasta keskpaigaks tööle turismi- või toitlustusvaldkonna ettevõttesse. Vajadusel aitame igal üliõpilasel leida talle sobiva töökoha koos õppekava partneritega.",
+      "Lisaks erialaoskustele omandad restoraniettevõtluse erialal ka edasiseks karjääriks vajalikke juhtimis-, suhtlemis-, analüüsi-, õigus- ja majandusalaseid teadmisi. Sinu õppejõudude seas on oma valdkonna kogenud praktikud, paljusid ettevõtteid nõustanud koolitajad ning Eesti tuntud majandus- ja ettevõtlusalased arvamusliidrid.",
+      "Oma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka järelmaksuvõimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+      "Restoraniettevõtluse eriala on võimalik õppida täismahus Tallinna õppekeskuses. Tartu õppekeskuses on võimalik läbida esimene õppeaasta. Alates teisest aastast toimub õpe erialasel töökohal (mis võib asuda ka Tartus või mujal) ja auditoorne õpe Tallinnas.",
+      "Auditoorne õpe toimub mõlemas linnas kaugõppena, mis võimaldab käia neljapäevast pühapäevani toimuval sessioonil õppimas ka teises linnas. Tartust saabunud üliõpilastel on võimalik leida soodsat majutust EEK tudengite hostelis, mis asub Ülemiste rongipeatusest viie- ja Tallinna õppekeskusest minutilise jalutustee kaugusel.",
+      "Praktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus"
+    ],
+    "eap": 195,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/rakendusk%C3%B5rgharidus%C3%B5pe/eriala/restoraniettev%C3%B5tlus",
+    "personnel": [
+      {
+        "email": "maris.nogu@eek.ee",
+        "id": "F5074F63-1804-4F88-BDD0-9FAECF17BE2F",
+        "title": "Erialajuht",
+        "name": "Maris Nõgu"
+      },
+      {
+        "email": "katrin.henno@eek.ee",
+        "id": "AC822B20-39A5-4222-955E-F517997767BE",
+        "title": "Õppejõud",
+        "name": "Katrin Henno"
+      },
+      {
+        "email": "janne.kallakmaa@eek.ee",
+        "id": "30AE42AF-9BE8-4B4C-82B4-80171E7173F6",
+        "title": "Õppejõud",
+        "name": "Janne Kallakmaa"
+      },
+      {
+        "email": "karin.kuimet@eek.ee",
+        "id": "58434A2D-9A42-41C7-988E-52129F6D416A",
+        "title": "Personalijuhtimise lektor",
+        "name": "Karin Kuimet"
+      },
+      {
+        "email": "elari.tamm@eek.ee",
+        "id": "BA9E65DF-F699-437E-9149-57BD6A8BC8EC",
+        "title": "Õppejõud",
+        "name": "Elari Tamm"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "CD2C2073-FC6E-43FD-9BF8-81DFD4668CB8",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "508B8B76-34A0-4685-AAB9-C616B39F3E72",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 4
+          },
+          {
+            "id": "031BA5B1-32C0-4DE4-9707-B88D6648EE50",
+            "name": "Suhtlemispsühholoogia",
+            "eapCount": 4
+          },
+          {
+            "id": "D83D9059-B709-478E-8416-173D4382C0D4",
+            "name": "Eraisiku rahandus",
+            "eapCount": 2
+          },
+          {
+            "id": "506ABC57-6B89-4556-BEAA-67DE28CE1AA1",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "7BC0ED43-FF68-4A3F-AEC5-A45F8C75BDB9",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          }
+        ]
+      },
+      {
+        "id": "59E6A3EF-366B-441A-BC64-F4DDE45D2513",
+        "name": "Ettevõtlusõpe",
+        "courses": [
+          {
+            "id": "75C7AE3C-60AF-4DAB-AF07-3FF17CDB256E",
+            "name": "Äriprotesside moodul",
+            "eapCount": 15
+          },
+          {
+            "id": "771959E2-9DE2-475D-AF66-BAA18507DEB1",
+            "name": "Ettevõtlusmoodul",
+            "eapCount": 15
+          }
+        ]
+      },
+      {
+        "id": "20D480B1-20ED-4011-A9E6-C590E3C4594A",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "0131A391-555A-4D63-B344-C14DF3559927",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "19F40BE2-D37F-43C1-94CF-C95A46015C9C",
+            "name": "Andmeanalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "E878AA44-D780-4810-B600-351B88DBBAD4",
+            "name": "Äri- ja juhtimiseetika",
+            "eapCount": 2
+          },
+          {
+            "id": "9977BBD8-8ADA-4884-AB90-11FE7C29EED3",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "69ADB86F-3E86-459B-8DAE-0A24932351B9",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "6822A916-8E9D-4CE9-B3CA-CAB7E7839B2F",
+            "name": "Projektijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "DB04D777-0DDE-4C91-B1F1-6CABB986C735",
+            "name": "Õigusõpetus",
+            "eapCount": 3
+          },
+          {
+            "id": "4D02D6A9-67B4-42FB-8D4C-0C0D8D9DB2EB",
+            "name": "Finantsjuhtimine ja hinnakujundus",
+            "eapCount": 4
+          },
+          {
+            "id": "EA58631E-041D-4CF2-B428-AF481D459520",
+            "name": "Personalijuhtimine",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "D5A3DC85-A122-4B84-92F0-DA1A36EC64D9",
+        "name": "Teenusedisaini ja turnuduse õpe",
+        "courses": [
+          {
+            "id": "BC5ADAE2-ABCA-49F4-9340-7DE80287CB0D",
+            "name": "Teenuste ja organisatsiooni turundus turismi- ja restoraniettevõtluses",
+            "eapCount": 5
+          },
+          {
+            "id": "069671B5-5D7F-4AB1-9D22-BF7F9204B420",
+            "name": "Foto- ja videograafia",
+            "eapCount": 3
+          },
+          {
+            "id": "F2CA7E3D-9FE5-4FDD-9B7F-674C79CC59BF",
+            "name": "Sündmuskorraldus ja -turundus",
+            "eapCount": 3
+          },
+          {
+            "id": "44B750EE-858E-4AA8-B650-780F6BE2202C",
+            "name": "Teenusettevõtte IT-lahendused",
+            "eapCount": 4
+          },
+          {
+            "id": "E4D63782-E2D0-4574-BB49-9BB9AE0DC73B",
+            "name": "Teenusedisain",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "5AAD7093-FAD5-4330-BD5A-EC35D4622239",
+        "name": "Turismi- ja restoraniettevõtluse erialaõpe",
+        "courses": [
+          {
+            "id": "D4075A18-6890-44D1-9FB7-28DA6892EC98",
+            "name": "Joogiõpetus",
+            "eapCount": 2
+          },
+          {
+            "id": "A13C3013-D6D2-4831-9C80-3ADAA7D5D1FF",
+            "name": "Toiduõpetus ja toidukultuurid",
+            "eapCount": 3
+          },
+          {
+            "id": "863395F9-ED4A-4248-BCF3-7616A348CA6E",
+            "name": "Turismisihtkoha ja -toote arendus",
+            "eapCount": 5
+          },
+          {
+            "id": "CAC4C665-7AD4-46FB-B45D-583EAC7A0AEC",
+            "name": "Toitlustusettevõtte töökorraldus",
+            "eapCount": 5
+          },
+          {
+            "id": "10F25C08-6B20-4F57-A7FF-42A970460742",
+            "name": "Protsessijuhtimine",
+            "eapCount": 3
+          },
+          {
+            "id": "9DDC158A-F846-4A24-BD1D-9F884C16045B",
+            "name": "Maailma turismigeograafia",
+            "eapCount": 3
+          },
+          {
+            "id": "7673AADB-09BD-433E-BF3D-979B36DE470B",
+            "name": "Sissejuhatus turismi- ja toitlustusvaldkonda",
+            "eapCount": 6
+          },
+          {
+            "id": "71F64230-D27A-4077-B17A-7A5F394BE12E",
+            "name": "Teenindusjuhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "ABAF2CF6-68B7-4B18-9FE1-58BA900C1F9A",
+            "name": "Majutuskorraldus",
+            "eapCount": 2
+          },
+          {
+            "id": "EF1650B4-EA7E-46F4-9512-1A47E5F1A654",
+            "name": "Protokoll ja etikett",
+            "eapCount": 2
+          },
+          {
+            "id": "1C35B993-1F5B-4C57-BA76-905B77E93CE1",
+            "name": "Kultuuridevaheline kommunikatsioon ärikeskkonnas",
+            "eapCount": 4
+          },
+          {
+            "id": "789F0F9B-37DA-4CC8-B727-F9A04002CAC4",
+            "name": "Kvaliteedijuhtimine turismi- ja restoraniettevõtluses",
+            "eapCount": 3
+          }
+        ]
+      },
+      {
+        "id": "14CA03D4-E02D-4793-AD10-550BFEF44065",
+        "name": "Praktika ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "63C734AF-58A3-4197-94A7-D0F35DF29E05",
+            "name": "Ettevõttepraktika",
+            "eapCount": 12
+          },
+          {
+            "id": "D217E75F-2619-4E62-ADBD-A4CF6543CA64",
+            "name": "Erialapraktika",
+            "eapCount": 15
+          },
+          {
+            "id": "5144D006-B01D-4455-896E-2061B6423A41",
+            "name": "Ainetöö",
+            "eapCount": 5
+          },
+          {
+            "id": "611FA313-C3F3-4C21-8C42-C053A012569B",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "Omab vajalikke pädevusi, et edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "Oskab arendada turismitooteid ja -teenuseid arvestades muutuva keskkonna, ettevõtte eesmärkide ning turuvajadusega",
+      "Lahendab tulemuslikult erialaseid probleeme, toimides paindlikult ja loominguliselt vastavalt olukorrale, ettevõtte vajadustele ja väärtustele",
+      "On iseseseisev, vastutustundlik ning eetiline töötaja või tööandja ning korraldab tegevusi lähtuvalt jätkusuutlikku ettevõtluse põhimõtetest",
+      "Valdab tööks vajalikke suhtlus- ja koostööoskusi ning omab infotehnoloogilisi pädevusi."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "6EF70BED-227B-4731-8388-D923348C7580",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "0B5A2321-4E32-4E0C-8B60-362F85F1BD2C",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "0C57D8C8-239F-4679-A8AD-912316813169",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "BCB172E4-DDE3-4906-A5C6-3E98ABDAFD39",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Turismi- ja restoraniettevõtlus",
+    "cost": {
+      "amount": 3640,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "DA50B2BD-6B70-4FDE-AF69-EECDCB01DC66",
+    "description": [
+      "Loovuse ja äriinnovatsiooni erialal õpid kuidas saada ettevõtjaks, toote- ja teenusejuhiks või ettevõtte juhiks. Parimatele äritavadele toetuv õppekava annab teadmised kuidas uuenduslikke ärimudeleid avastada ja arendada, kaasasutajaid ja töötajaid inspireerida ning kasvavat organisatsiooni juhtida. Peaaegu veerand õppekavast koosneb tõsieluliste probleemide lahendamisest osana praktikast eri Euroopa turgudel tegutsevates ettevõtetes.",
+      "Programm pakub Eestis ainulaadset võimalust õppida ühe semestri jooksul Eesti Ettevõtluskõrgkooli Mainor partnerülikoolides:",
+      "• Vilniuse Rakenduskõrgkoolis Leedus",
+      "• Porto Polütehnilises Instituudis Portugalis",
+      "Erinevalt Erasmuse vahetusprogrammist õpid välismaal olles samu aineid, mida oleksid ka Eesti Ettevõtluskõrgkoolis Mainor õppinud. See tähendab, et saad programmi ikka kolme aastaga lõpetada– reisimine ja akadeemiline seiklus on õppe osa, mitte miski, mida pead õpingute kõrvalt tegema.",
+      "Loovus ja äriinnovatsioon, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2018 anti loovus ja äriinnovatsioon õppekava õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang.",
+      "Ülemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%."
+    ],
+    "eap": 180,
+    "spots": 30,
+    "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/loovus_ja_%C3%A4riinnovatsioon",
+    "personnel": [
+      {
+        "email": "marleen.kedars@eek.ee",
+        "id": "FD45F2B0-AC10-4E07-8695-D22798E1653B",
+        "title": "Erialajuht",
+        "name": "Marleen Kedar"
+      },
+      {
+        "email": "karin.kuimet@eek.ee",
+        "id": "B4068F4A-599E-4BC7-BF96-63C364EEEFED",
+        "title": "Personalijuhtimise lektor",
+        "name": "Karin Kuimet"
+      },
+      {
+        "email": "aiki.parle@eek.ee",
+        "id": "8CDF283E-8F9B-4B5E-8275-085A49DD8D76",
+        "title": "Organisatsioonikäitumine",
+        "name": "Aiki Pärle"
+      },
+      {
+        "email": "elari.tamm@eek.ee",
+        "id": "118325E5-77C0-4AF8-AA26-3C843269F588",
+        "title": "Õppejõud",
+        "name": "Elari Tamm"
+      }
+    ],
+    "type": "sotsiaalteadused",
+    "modules": [
+      {
+        "id": "36D75F5E-9327-4E23-9960-47114AC5F6E4",
+        "name": "Ettevõtte juhtimise põhiõpe",
+        "courses": [
+          {
+            "id": "5391C0E6-D32C-4195-B3F8-BA83AE920A77",
+            "name": "Ettevõtluse alused",
+            "eapCount": 3
+          },
+          {
+            "id": "CA39804F-009B-409D-9E7F-FC9304267F43",
+            "name": "Personalijuhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "9F6BCB6D-B189-487C-9E31-1553C93D6F4B",
+            "name": "Juhtimine",
+            "eapCount": 5
+          },
+          {
+            "id": "FE48D7D7-035A-47E0-8711-EE6EE7D3849A",
+            "name": "Meeskonnatöö",
+            "eapCount": 5
+          },
+          {
+            "id": "A8AB2BB3-2445-49E0-9362-21DD40CAC51E",
+            "name": "Õigusõpetuse alused ja dokumentatsioon",
+            "eapCount": 3
+          },
+          {
+            "id": "4A611B44-EF86-4C17-9BDF-FADB9D0006B2",
+            "name": "Majanduse alused",
+            "eapCount": 4
+          },
+          {
+            "id": "9CAB5B23-C4DF-45C8-B3CE-DAA4C3A1CA6A",
+            "name": "Äri-eetika",
+            "eapCount": 4
+          },
+          {
+            "id": "E0C081B8-2914-4449-A71F-4CEED4E923A9",
+            "name": "Ettevõtete sotsiaalne vastutus",
+            "eapCount": 4
+          },
+          {
+            "id": "E0630070-F424-4B46-AA83-7819C307C069",
+            "name": "Müük ja turundus",
+            "eapCount": 10
+          },
+          {
+            "id": "F5B6F158-5CAC-4B97-831B-6C7D98B64249",
+            "name": "Ärianalüüs",
+            "eapCount": 5
+          },
+          {
+            "id": "6827F93C-EDF7-4303-9F54-BBF119A6D4BD",
+            "name": "Ettevõtte finantsjuhtimine",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "3509894A-CD49-484C-94ED-23BD13894E36",
+        "name": "Praktikad ja kirjalikud tööd",
+        "courses": [
+          {
+            "id": "363F5139-7F03-4B81-BB46-8BFC84FAA2F7",
+            "name": "Lõputöö seminar",
+            "eapCount": 5
+          },
+          {
+            "id": "CB9F3982-D703-403F-A10D-07A850809663",
+            "name": "Praktika I",
+            "eapCount": 15
+          },
+          {
+            "id": "8BA45F3C-0AB9-4F87-A174-E9217A597DF3",
+            "name": "Lõputöö",
+            "eapCount": 10
+          }
+        ]
+      },
+      {
+        "id": "2AFD2F2D-31DD-4327-B393-C3ADEB2D795F",
+        "name": "Alusõpe",
+        "courses": [
+          {
+            "id": "E1E52813-00D9-4454-B802-66874323CE3C",
+            "name": "Eesti keel I",
+            "eapCount": 3
+          },
+          {
+            "id": "54387579-A07D-4A9D-92A2-E5A2C443F910",
+            "name": "Eesti keel II",
+            "eapCount": 3
+          },
+          {
+            "id": "DD45E2EF-2EA4-4AA6-B2A0-872048EEA939",
+            "name": "Enesejuhtimine kõrgkoolis",
+            "eapCount": 3
+          },
+          {
+            "id": "A40A0E74-845C-49FA-904B-294511365713",
+            "name": "Eesti keel III",
+            "eapCount": 3
+          },
+          {
+            "id": "9C643001-A6FB-4560-A194-9BAC8D6F5E3C",
+            "name": "Eesti keel IV",
+            "eapCount": 3
+          },
+          {
+            "id": "7AE50BF6-5540-44DF-935D-224F151BD54F",
+            "name": "Organisatsioonikäitumine",
+            "eapCount": 2
+          },
+          {
+            "id": "CAE1D114-3534-4BFD-9EBC-886122267899",
+            "name": "Avalik esinemine",
+            "eapCount": 2
+          },
+          {
+            "id": "FDFEFDCB-F303-4AE5-BD2D-34E58C9DCDBB",
+            "name": "Kommunikatsioon",
+            "eapCount": 5
+          }
+        ]
+      },
+      {
+        "id": "A57D4B28-F02C-425D-96A2-3FE361CF5981",
+        "name": "Uurimistöö metoodika",
+        "courses": [
+          {
+            "id": "BB821CE6-F5D4-4553-84DC-4D1CBDAA704E",
+            "name": "Uurimistöö meetodid",
+            "eapCount": 5
+          },
+          {
+            "id": "57AF5FE5-7C73-486C-96D2-542FC271B75C",
+            "name": "Akadeemiline kirjutamine",
+            "eapCount": 4
+          },
+          {
+            "id": "A6D5CED0-A796-4683-9C91-548BD0B01942",
+            "name": "Andmeanalüüs",
+            "eapCount": 4
+          }
+        ]
+      },
+      {
+        "id": "CF896F9B-9B14-467A-A2A4-9E179CEA114A",
+        "name": "Loovuse ja äriinnovatsiooni erialaõpe",
+        "courses": [
+          {
+            "id": "983E3F2A-D55F-4E7F-9430-A985C6388658",
+            "name": "Praktika II",
+            "eapCount": 20
+          },
+          {
+            "id": "5F76C972-3D38-47D9-A149-749558BA82C7",
+            "name": "Teadmine ja teadusfilosoofia",
+            "eapCount": 5
+          },
+          {
+            "id": "CDAC3F41-B095-4E4D-8B4F-C62152FF09BB",
+            "name": "Ettevõtlikkus",
+            "eapCount": 6
+          },
+          {
+            "id": "795F58A1-84DC-4CD1-BF9B-65D2B7B6DD43",
+            "name": "Innovatsiooni strateegia",
+            "eapCount": 5
+          },
+          {
+            "id": "F0EDEF06-E8D9-4CB8-88BB-DAE733C21058",
+            "name": "Ärimudelid ja strateegiline juhtimine",
+            "eapCount": 10
+          },
+          {
+            "id": "059ED4B8-C7A3-42CD-9331-440DD0D74919",
+            "name": "Loovus teadusliku uurimise objektina",
+            "eapCount": 5
+          },
+          {
+            "id": "31CD9436-1A4F-42B8-AD80-4C6E3A2552CD",
+            "name": "Loomingulisus",
+            "eapCount": 5
+          },
+          {
+            "id": "005E7262-D298-42FA-AC91-2A5690F944AD",
+            "name": "Individuaalne loovus",
+            "eapCount": 5
+          }
+        ]
+      }
+    ],
+    "level": "bakalaureus",
+    "outcomes": [
+      "On valmis tegutsema muutuvas keskkonnas, oskab toimida paindlikult ja loominguliselt vastavalt olukorrale ja organisatsiooni vajadustele",
+      "On valmis erialaselt töötama omandatud pea- ja kõrvaleriala valdkonnas nii individuaalselt kui meeskonnas, nii tööandja kui töövõtjana",
+      "Näitab initsiatiivi ja loovust projektide/tegevuste algatamisel ning vastutustunnet, juhtimis- ja meeskonnatööoskusi nende elluviimisel",
+      "Tunneb ära kasutamata turuvõimalused ning töötab välja lahendused nii uue toote, teenuse kui muu taolise näol",
+      "On omandanud erialased kompetentsid, mis võimaldavad asuda erialasele tööle või edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
+      "Käitub tööalaselt iseseisvalt, vastutustundlikult ja eetiliselt",
+      "Valdab tööks vajalikke suhtlusoskusi ning infotehnoloogilisi teadmisi."
+    ],
+    "language": "inglise keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "9114F8CE-1CEA-4441-9492-DB8ACA929610",
+        "term": "Keskharidus"
+      },
+      {
+        "id": "E95C5BBF-F5EE-4AB5-AE8C-025541B6402A",
+        "percentage": 30,
+        "term": "Essee"
+      },
+      {
+        "id": "3CDC60FD-4686-4FE0-AFD4-046351622F81",
+        "percentage": 50,
+        "term": "Vestlus"
+      },
+      {
+        "id": "71BCC379-7CAE-4AAD-9083-D4AC557D0CC8",
+        "percentage": 20,
+        "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+      }
+    ],
+    "name": "Loovus ja äriinnovatsioon",
+    "cost": {
+      "amount": 4720,
+      "currency": "€",
+      "interval": "year"
+    }
+  },
+  {
+      "studyLocation": [
+        "Tallinn"
+      ],
+      "id": "F8A9FFDE-F8A5-4C65-AB5C-75942ED166EB",
+      "description": [
+        "Inimressursside juhtimise magistriprogramm on Sulle, kui soovid kujuneda vajalike oskustega liidriks. Tunnustatud õppejõudude ja edukate praktikute juhendamisel õpid koos kogenud spetsialistidest ja edukate kursusekaaslastega juhtima muutusi, mõtlema igal ametikohal nagu ettevõtja ja ehitama üles tervet organisatsiooni. Eriala annab ka vajaliku vundamendi, et teha karjääri spetsialistist juhiks või luua oma ettevõte.",
+        "Lisaks Eestis ainulaadsele psühholoogiapõhisele tuumprogrammile omandad ka arusaama tänapäevastest ärimudelitest, juhtimise infosüsteemidest, andmetöötlusest ja loovuse rollist juhtimises. Uue aja juhile kohaselt arendad nii oskusi kui laiendad silmaringi. Õpid saavutama organisatsioonis mõõdetavaid tulemusi, tuues välja inimestes parima.",
+        "Sinu õppejõudude seas on oma valdkonna kogenud praktikud, paljusid ettevõtteid nõustanud koolitajad ning Eesti tuntud majandus- ja ettevõtlusalased arvamusliidrid. Õppemeetodite valikul lähtume põhimõttest, et teoreetilised teadmised peavad saama ka praktikas läbi proovitud. Õppes kasutatakse palju interaktiivseid õppemeetodeid ning probleemi- ja projektipõhist õpet.",
+        "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat praktilist väärtust oma ettevõttele või tööandjale.",
+        "Inimressursside juhtimise eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti inimressursside juhtimise ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+        "Inimressursside juhtimise õppeprogramm on koostatud koostöös laia partnerite ringiga. Õppeaineid viivad läbi juhid ja tippspetsialistid erineva mastaabi ja profiiliga ettevõtetest nagu Telia, Technopolis Ülemiste﻿, GoWorkaBit, Valio ja teised."
+      ],
+      "eap": 120,
+      "spots": 25,
+      "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/inimressursside_juhtimine",
+      "personnel": [
+        {
+          "email": "janus.paurman@eek.ee",
+          "id": "A2AAC423-C805-454D-8F6F-2634DACBB40F",
+          "title": "Magistriõppe juht",
+          "name": "Janus Paurman"
+        },
+        {
+          "email": "elar.killumets@eek.ee",
+          "id": "25AADC7A-7389-47C1-A69C-82D22F2B4CFF",
+          "title": "Organisatsiooni arengu juhtimine",
+          "name": "Elar Killumets"
+        },
+        {
+          "email": "kadi.parnits@eek.ee",
+          "id": "D4899611-AC16-4AC1-B448-27EC509FBFAA",
+          "title": "Õigusteaduste professor",
+          "name": "Kadi Pärnits"
+        },
+        {
+          "email": "elari.tamm@eek.ee",
+          "id": "33B705C2-6EDD-4930-BA1A-678B39A527C3",
+          "title": "Õppejõud",
+          "name": "Elari Tamm"
+        },
+        {
+          "email": "eneken.titov@eek.ee",
+          "id": "D2171B4E-2E46-48CE-8E8E-A1C8DCE2CECA",
+          "title": "Juhtimise professor",
+          "name": "Eneken Titov"
+        }
+      ],
+      "type": "sotsiaalteadused",
+      "modules": [
+        {
+          "id": "5A8A2A7F-4B41-49FE-AFB4-1F49A38C34CA",
+          "name": "Uurimistöö metoodika",
+          "courses": [
+            {
+              "id": "BE66F22D-31FB-4007-B18B-322F077326D8",
+              "name": "Andmetöötlus ja visualiseerimine",
+              "eapCount": 5
+            },
+            {
+              "id": "8CBA05BD-37BE-43D7-9693-66C92C5A662B",
+              "name": "Uurimistöö meetodid",
+              "eapCount": 5
+            },
+            {
+              "id": "285B46D1-8362-4C1F-91C7-CFED8C457627",
+              "name": "Äriprotsesside analüüs ja juhtimine",
+              "eapCount": 4
+            }
+          ]
+        },
+        {
+          "id": "A82B606C-C62E-4F35-B240-1A08B50F166A",
+          "name": "Juhtimine",
+          "courses": [
+            {
+              "id": "5586902D-6B61-4DF4-BF09-18DA830D47BA",
+              "name": "Ettevõtlik juhtimine",
+              "eapCount": 6
+            },
+            {
+              "id": "CC998F85-DE34-4282-BBCE-E84EC3ACE037",
+              "name": "Sotsiaalne vastutus ja eetika",
+              "eapCount": 3
+            },
+            {
+              "id": "5A0C5C37-D496-4049-9E5F-1574AC36BEE5",
+              "name": "Terve organisatsioon",
+              "eapCount": 3
+            },
+            {
+              "id": "77683C5C-3CE7-4538-ACE5-25DA1093FEB6",
+              "name": "Individuaalse arengu juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "0F91E130-12A6-4442-97CA-ACE355BE7495",
+              "name": "Talendijuhtimine ja hoidmine",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "367E8886-EABC-4767-99A6-6D75DC97683B",
+          "name": "Majandus",
+          "courses": [
+            {
+              "id": "3F3A2AFF-032E-4810-9162-4B9D5B4D4C4C",
+              "name": "Majanduskeskkonda kujundav õigusruum",
+              "eapCount": 3
+            },
+            {
+              "id": "073A5DEE-9687-456F-8216-4C643BE98AE1",
+              "name": "Globaalne majandus ja finantsturud",
+              "eapCount": 4
+            },
+            {
+              "id": "717ED9D8-A786-4761-85A0-A5C662B34D4C",
+              "name": "Finantsanalüüs ja ärirahandus",
+              "eapCount": 4
+            },
+            {
+              "id": "42C0377E-9227-47A2-9143-392DE763D72B",
+              "name": "Juhtimisökonoomika",
+              "eapCount": 4
+            },
+            {
+              "id": "4AE9AAA4-FFAB-45E6-BDFE-BB5B0719F9F9",
+              "name": "Finantsjuhtimine",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "16E3CDDA-766C-4253-895B-4EF30FB9B8D4",
+          "name": "Äriprotsesside juhtimine",
+          "courses": [
+            {
+              "id": "BE485B17-9B23-4B66-A451-CADEEBEEE6C7",
+              "name": "Strateegiline juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "9D859337-5DCD-4672-BA89-53BE513263AA",
+              "name": "Juhtimise infosüsteemid",
+              "eapCount": 3
+            },
+            {
+              "id": "74BF23BF-2744-44A3-9453-F2FDC156CBC9",
+              "name": "Infopõhine juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "222106E4-0EF7-48B6-A138-8DDCA1736FB6",
+              "name": "Kvaliteedijuhtimissüsteemid",
+              "eapCount": 3
+            },
+            {
+              "id": "98F9EEF9-007E-41A7-BD54-B0543C3D2AA4",
+              "name": "Modernsed ärimudelid",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "05EABE85-7D9D-4BA4-9478-6E49DE899CEF",
+          "name": "Inimressursside juhtimise erialaõpe",
+          "courses": [
+            {
+              "id": "C0EC5843-0F8F-47CC-BF11-6082E3A7A3C6",
+              "name": "Paindlikud ja turvalised töösuhted",
+              "eapCount": 3
+            },
+            {
+              "id": "4E4BBE24-3F84-4BAC-9702-051CA7D375D2",
+              "name": "Loovus ja juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "0C81A41B-60FA-4322-B660-D2D522BC9DC9",
+              "name": "Suhete juhtimine",
+              "eapCount": 4
+            },
+            {
+              "id": "F5A5904B-27D6-4767-B443-999FC616EF3F",
+              "name": "Organisatsiooni arengu juhtimine",
+              "eapCount": 4
+            },
+            {
+              "id": "BA342960-6B9A-43F3-B8A8-4A7FC3010056",
+              "name": "HRM strateegiad ja poliitikad",
+              "eapCount": 4
+            },
+            {
+              "id": "321E7184-DD1B-4B69-B578-FB72F6E43172",
+              "name": "Juhtimise konsulteerimine",
+              "eapCount": 3
+            },
+            {
+              "id": "52DE4E70-6F2E-492D-9300-29B03CB0899E",
+              "name": "Isiksuse psühholoogia",
+              "eapCount": 4
+            }
+          ]
+        },
+        {
+          "id": "AE00DA3D-B8DA-47CD-939D-6E78D9EC8340",
+          "name": "Magistritöö",
+          "courses": [
+            {
+              "id": "4EFA73FB-5CD4-476A-B684-24289AB7367F",
+              "name": "Magistriseminar",
+              "eapCount": 5
+            },
+            {
+              "id": "328B4984-5284-43F4-992F-D9E14CF6339E",
+              "name": "Magistritöö",
+              "eapCount": 25
+            }
+          ]
+        }
+      ],
+      "level": "magister",
+      "outcomes": [
+        "Lähtub omandatud pädevuste rakendamisel teostatud mõjuanalüüsist, valdkondlikest uuendustest ja praktilistest lahendustest.",
+        "Püstitab eesmärke ja lahendab erialaseid probleeme ning uurimisülesandeid nii individuaalselt, meeskonnaliikmena kui meeskonna juhina, kasutades selleks tänapäevaseid ja kohaseid meetodeid ning tehnoloogiaid",
+        "On omandanud teadusliku käsitluse põhimõtted ja konstruktiivse mõtlemise oskuse ning rakendab neid eesmärkide saavutamiseks ja tööalaste otsuste tegemiseks",
+        "Loob sobiva keskkonna protsesside ja inimeste juhtimiseks organisatsioonis",
+        "Arvestab oma töös valdkonna kutse-eetika, ühiskonna normide ja kehtiva hea tavaga",
+        "On omandanud pädevused valdkonnas töötamiseks, organisatsioonis vajalike uuringute läbiviimiseks ning organisatsiooni juhtimiseks ja arendamiseks",
+        "Omab ettevalmistust töötamiseks valitud erialal spetsialistina ja/või keskastmejuhina ning on motiveeritud ja valmis pidevaks enesearenduseks ja doktoriõppeks."
+      ],
+      "language": "eesti keel",
+      "duration": 2,
+      "requirements": [
+        {
+          "id": "306997E0-F630-42E3-8AB2-A5174A1853A0",
+          "term": "Kõrgharidus"
+        },
+        {
+          "id": "7FF08C7C-F39B-489A-8218-DB79E05DE0C5",
+          "percentage": 20,
+          "term": "Eelmise õppeastme tulemused"
+        },
+        {
+          "id": "DF29BA45-8670-492A-9A2B-ABB99BD012EF",
+          "percentage": 30,
+          "term": "Motivatsioonikiri"
+        },
+        {
+          "id": "DDCF13F4-C553-4875-A0C2-248E71DE2CA0",
+          "percentage": 50,
+          "term": "Vestlus"
+        },
+        {
+          "id": "B347679B-DA73-4104-AFBF-EE39C31C059A",
+          "term": "Õppemaks 4240€ aastas"
+        }
+      ],
+      "name": "Inimressursside juhtimine",
+      "cost": {
+        "amount": 4240,
+        "currency": "€",
+        "interval": "year"
+      }
+    },
+    {
+      "studyLocation": [
+        "Tallinn"
+      ],
+      "id": "E238523F-0819-4433-9A61-1FEBEB3CF0B1",
+      "description": [
+        "Finantslahenduste juhtimise magistriprogramm on Sulle, kui soovid kujuneda tänapäevaste oskustega liidriks. Tunnustatud õppejõudude ja edukate praktikute juhendamisel õpid koos kogenud kaaslastega juhtima finantslahendusi kogu tarneahelas, korraldama investorsuhtlust, juhtima mõõdikute- ja infopõhiselt ning ehitama üles tervet organisatsiooni. Eriala annab ka vajaliku vundamendi, et teha karjääri spetsialistist juhiks või luua oma ettevõte.",
+        "Lisaks Eestis ainulaadsele ettevõtliku juhtimise tuumprogrammile omandad ka arusaama tänapäevastest ärimudelitest, juhtimise infosüsteemidest ja isikliku arengu tähtsusest juhtimises. Uue aja juhile kohaselt arendad nii oskusi kui laiendad silmaringi. Õpid saavutama kuluefektiivseid tulemusi ja tegema analüüsipõhiseid juhtimisotsuseid.",
+        "Õpe toimub kaugõppes, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Õpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale.",
+        "Finantslahenduste juhtimise eriala, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti finantslahenduste juhtimise ja teiste ärinduserialade õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang. Eriliste tugevustena nägi ekspertide komisjon, keda juhtis London School of Economics esindaja, õppe elulähedust, õppekavade pidevat arendamist, üliõpilaste ja kooli lähedast suhtlust ning tihedat koostööd tööandjatega.",
+        "Finantslahenduste juhtimise eriala õppejõudude seas on liidrid ja tippspetsialistid oma valdkonna juhtivatest ettevõtetest nagu Ernst & Young, Eesti Energia, Swedbank, KredEx ja teised."
+      ],
+      "eap": 120,
+      "spots": 25,
+      "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/finantslahenduste_juhtimine",
+      "personnel": [
+        {
+          "email": "janus.paurman@eek.ee",
+          "id": "6024E071-1B91-4D9D-9640-6785265D133F",
+          "title": "Magistriõppe juht",
+          "name": "Janus Paurman"
+        },
+        {
+          "email": "siret.kegel@eek.ee",
+          "id": "45867281-2136-40E1-B03B-703E5FF1223B",
+          "title": "Äriprotsesside analüüs ja juhtimine",
+          "name": "Siret Kegel"
+        },
+        {
+          "email": "kristjan.liivamagi@eek.ee",
+          "id": "F3FBFFBD-ADD0-492F-818D-DB68C586CF5D",
+          "title": "Globaalne majandus ja finantsturud",
+          "name": "Kristjan Liivamägi"
+        },
+        {
+          "email": "tonn.talpsepp@eek.ee",
+          "id": "FDAE576D-F27A-41EF-B2B1-7BE3DF7E1F17",
+          "title": "Finantsanalüüs ja ärirahandus",
+          "name": "Tõnn Talpsepp"
+        },
+        {
+          "email": "eneken.titov@eek.ee",
+          "id": "39779C2F-6716-485F-8063-156B4D930B6A",
+          "title": "Juhtimise professor",
+          "name": "Eneken Titov"
+        }
+      ],
+      "type": "sotsiaalteadused",
+      "modules": [
+        {
+          "id": "14896E95-C6BA-43AB-83E2-97B3A34FDAC4",
+          "name": "Uurimistöö metoodika",
+          "courses": [
+            {
+              "id": "30832F76-F861-40BB-B8A6-1B7A85CBDA94",
+              "name": "Andmetöötlus ja visualiseerimine",
+              "eapCount": 5
+            },
+            {
+              "id": "CEDFC7DA-30A0-4245-A18C-43C98DBD024C",
+              "name": "Uurimistöö meetodid",
+              "eapCount": 5
+            },
+            {
+              "id": "9D6E888C-648F-42DE-BDAF-6D6764758F59",
+              "name": "Äriprotsesside analüüs ja juhtimine",
+              "eapCount": 4
+            }
+          ]
+        },
+        {
+          "id": "1D3222D0-DB3D-4644-B967-4F86D130E4E8",
+          "name": "Juhtimine",
+          "courses": [
+            {
+              "id": "7DA88925-4F61-4BC1-BCD4-7EED602AD29C",
+              "name": "Ettevõtlik juhtimine",
+              "eapCount": 6
+            },
+            {
+              "id": "B4AE0C14-0847-428F-A4CE-19B78999EC50",
+              "name": "Sotsiaalne vastutus ja eetika",
+              "eapCount": 3
+            },
+            {
+              "id": "8C6BA90F-CBAC-45DC-BB2C-2E5A5BA4AF43",
+              "name": "Terve organisatsioon",
+              "eapCount": 3
+            },
+            {
+              "id": "4C9F38DF-0B45-44D3-A0A9-0DBC77B49167",
+              "name": "Individuaalse arengu juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "1C399C34-3415-4D91-BE94-04BE980ED4D2",
+              "name": "Talendijuhtimine ja hoidmine",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "F67EA954-199E-47AE-8391-3467C8DF791E",
+          "name": "Majandus",
+          "courses": [
+            {
+              "id": "C993AE4D-821D-48EC-922D-9734DD3E3ADC",
+              "name": "Majanduskeskkonda kujundav õigusruum",
+              "eapCount": 3
+            },
+            {
+              "id": "71E7A1B6-8319-4BCD-A122-C9EA49546651",
+              "name": "Globaalne majandus ja finantsturud",
+              "eapCount": 4
+            },
+            {
+              "id": "7FD62838-0932-4A73-8386-B15AFCA0B8F4",
+              "name": "Finantsanalüüs ja ärirahandus",
+              "eapCount": 4
+            },
+            {
+              "id": "8A76CB59-BFD9-4DAF-957A-D5465830D410",
+              "name": "Juhtimisökonoomika",
+              "eapCount": 4
+            },
+            {
+              "id": "FA1E19ED-DBC6-4DC8-AAEA-581FA0D88BF3",
+              "name": "Finantsjuhtimine",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "7921C878-6B87-49E2-B450-E47BDC0C6607",
+          "name": "Äriprotsesside juhtimine",
+          "courses": [
+            {
+              "id": "89BE2769-A9C4-4A92-9433-379679DA71F0",
+              "name": "Strateegiline juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "0957CC0F-E59D-4378-8E5B-45C1935AED02",
+              "name": "Juhtimise infosüsteemid",
+              "eapCount": 3
+            },
+            {
+              "id": "722D1057-84A1-4354-92E4-77C500167E1D",
+              "name": "Infopõhine juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "771D2872-CAEB-4C2E-A590-EE878D4E98BD",
+              "name": "Kvaliteedijuhtimissüsteemid",
+              "eapCount": 3
+            },
+            {
+              "id": "8ECE1B02-88AF-4FE5-BFBA-D5A25DC4F20D",
+              "name": "Modernsed ärimudelid",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "97840C4D-7D75-4671-A953-2E22393F8CAA",
+          "name": "Finantslahenduste juhtimise erialaõpe",
+          "courses": [
+            {
+              "id": "5238C50F-2408-4E54-BA26-6F9F4B35FF9F",
+              "name": "Finantslahenduste juhtimine",
+              "eapCount": 4
+            },
+            {
+              "id": "84B2F1B2-C802-4503-AC5E-33ADDF85EB4C",
+              "name": "Ettevõtte riskijuhtimine ja sisekontroll",
+              "eapCount": 3
+            },
+            {
+              "id": "323349A3-EE83-412D-A8CE-6EDB7F3E1870",
+              "name": "Ettevõtte väärtuse hindamine",
+              "eapCount": 3
+            },
+            {
+              "id": "B4521373-4FFE-4B4A-A940-C8863AED0B84",
+              "name": "Ettevõtte rahandus",
+              "eapCount": 4
+            },
+            {
+              "id": "3D27FC0A-9F39-4E0E-9054-18AA19036E0B",
+              "name": "IT lahendused finantsjuhtimises",
+              "eapCount": 3
+            },
+            {
+              "id": "A6769CDA-EF5C-4C20-BEF0-89965715DE27",
+              "name": "Finantsturud, -institutsioonid ja investorsuhtlus",
+              "eapCount": 4
+            },
+            {
+              "id": "C40E7E7D-EE75-490D-9B95-1C44660655C5",
+              "name": "Tarneahela finantseerimine",
+              "eapCount": 4
+            }
+          ]
+        },
+        {
+          "id": "208AA768-CAF9-424D-B1FF-2124BFB24B35",
+          "name": "Magistritöö",
+          "courses": [
+            {
+              "id": "30ECBE13-21CF-47F2-ADE5-39AA6DC1A1F4",
+              "name": "Magistriseminar",
+              "eapCount": 5
+            },
+            {
+              "id": "F19AA8A2-8DE5-4DCB-9CE4-49FAE7452D6E",
+              "name": "Magistritöö",
+              "eapCount": 25
+            }
+          ]
+        }
+      ],
+      "level": "magister",
+      "outcomes": [
+        "Lähtub omandatud pädevuste rakendamisel teostatud mõjuanalüüsist, valdkondlikest uuendustest ja praktilistest lahendustest.",
+        "Püstitab eesmärke ja lahendab erialaseid probleeme ning uurimisülesandeid nii individuaalselt, meeskonnaliikmena kui meeskonna juhina, kasutades selleks tänapäevaseid ja kohaseid meetodeid ning tehnoloogiaid",
+        "On omandanud teadusliku käsitluse põhimõtted ja konstruktiivse mõtlemise oskuse ning rakendab neid eesmärkide saavutamiseks ja tööalaste otsuste tegemiseks",
+        "Loob sobiva keskkonna protsesside ja inimeste juhtimiseks organisatsioonis",
+        "Arvestab oma töös valdkonna kutse-eetika, ühiskonna normide ja kehtiva hea tavaga",
+        "On omandanud pädevused valdkonnas töötamiseks, organisatsioonis vajalike uuringute läbiviimiseks ning organisatsiooni juhtimiseks ja arendamiseks",
+        "Omab ettevalmistust töötamiseks valitud erialal spetsialistina ja/või keskastmejuhina ning on motiveeritud ja valmis pidevaks enesearenduseks ja doktoriõppeks."
+      ],
+      "language": "eesti keel",
+      "duration": 2,
+      "requirements": [
+        {
+          "id": "641DC853-EE2E-4E9E-8075-CC0FB7147DC3",
+          "term": "Kõrgharidus"
+        },
+        {
+          "id": "9517E5A9-8A07-4770-85B6-840830F0F24A",
+          "percentage": 20,
+          "term": "Eelmise õppeastme tulemused"
+        },
+        {
+          "id": "5FCE8B28-0C3A-40B6-95F3-7949A8ECF41F",
+          "percentage": 30,
+          "term": "Motivatsioonikiri"
+        },
+        {
+          "id": "DC937726-6CBA-4B95-8C1E-9119F6D05280",
+          "percentage": 50,
+          "term": "Vestlus"
+        },
+        {
+          "id": "22DE8349-D207-4C17-A5D4-028A90438DA3",
+          "term": "Õppemaks 4240€ aastas"
+        }
+      ],
+      "name": "Finantslahenduste juhtimine",
+      "cost": {
+        "amount": 4240,
+        "currency": "€",
+        "interval": "year"
+      }
+    },
+    {
+      "studyLocation": [
+        "Tallinn"
+      ],
+      "id": "FEB0F98B-3BA2-42E8-9A0C-C9006BD251CA",
+      "description": [
+        "Rahvusvaheline ärijuhtimise magistriprogramm aitab tänastel ja homsetel juhtidel mõista rahvusvahelise äri olemust. Piiriülesed ettevõtted ning tehingud on saanud meie ärimaailma lahutamatuks osaks ning ärimaastik ootab just selliseid juhte. See kõik nõuab visiooniga tarku ja kompetentseid juhte, kellel oleksid teadmised ja julgus suuri ning strateegilisi otsuseid vastu võtta. Seetõttu on õpe fokuseeritud tänapäevaste juhtimisomaduste arendamisele, ettevõtluse juhtimisele ja arendamisele ning terve ja tänapäevase organisatsiooni ülesehitusele.",
+        "Magistriprogrammi väljatöötamises oleme kasutanud mitmete rahvusvaheliste ekspertide tuge ja soovitusi, arvamusi ning kaasanud Eesti tipp- ja keskastmejuhte. Meie õppejõududeks on Eesti ühed tunnustatuimad ning parimad juhid ja spetsialistid, kes jagavad enda kogemusi ning teadmisi elulähedasel ning praktilisel viisil.",
+        "Meie magistriprogrammi eesmärgiks on:",
+        "• arendada õppijast analüütiline ning meeskonnarolle tundev keskastme- või tippjuht, kes vastab tänapäevastele professionaalsele standardile",
+        "• anda ettevõtlusest süsteemne ning lai ülevaade, toetades seda akadeemiliste teadmiste ja meetoditega",
+        "• julgustada tudengeid märkama ja looma inter-distsiplinaarseid seoseid",
+        "• õpetada tudengeid tuvastama ja märkama probleeme ning leidma neile sobivaid lahendusi etteantud aja- ja inforessursiga",
+        "• valmistada tudengeid ette tööks, mis nõuavad kutsealast professionaalsust, iseseisvat algatusvõimet, juhiomadusi ning meeskonnatöö oskusi.",
+        "Rahvusvahelise ärijuhtimise magistriprogramm viiakse läbi tugevas ning strateegilises koostöös Ülemiste City`ga﻿, mis on Baltikumi suurim ning kiiremini kasvav ärilinnak.",
+        "Rahvusvaheline ärijuhtimine, nagu kõik meie õppekavad, on hinnatud ja akrediteeritud rahvusvahelise hindamiskomisjoni poolt. Viimati toimunud hindamisel aastal 2017 anti rahvusvahelise ärijuhtimise õpetamisele Eesti kõrghariduse kõrgeim võimalik hinnang."
+      ],
+      "eap": 120,
+      "spots": 25,
+      "majorWebsite": "https://www.eek.ee/bakalaureuse%C3%B5pe/eriala/rahvusvaheline_%C3%A4rijuhtimine",
+      "personnel": [
+        {
+          "email": "janus.paurman@eek.ee",
+          "id": "289E1CDB-84E9-495F-98A6-E32968CA713D",
+          "title": "Magistriõppe juht",
+          "name": "Janus Paurman"
+        },
+        {
+          "email": "andrei.hrustaljov@eek.ee",
+          "id": "3AC2A4B1-31A1-4CD1-A983-2F6820DD2C5E",
+          "title": "Individuaalse arengu juhtimine",
+          "name": "Andrei Hrustaljov"
+        },
+        {
+          "email": "aminul.islam@eek.ee",
+          "id": "51750B42-2ADE-4B18-A0ED-99D38B3198D0",
+          "title": "Jätkusuutliku arengu lektor",
+          "name": "Aminul Islam"
+        },
+        {
+          "email": "karin.kuimet@eek.ee",
+          "id": "D32D854C-4352-4350-AC72-12816B558A2B",
+          "title": "Personalijuhtimise lektor",
+          "name": "Karin Kuimet"
+        },
+        {
+          "email": "eneken.titov@eek.ee",
+          "id": "CDDBFADB-4824-40D6-A7DF-D354E7878F66",
+          "title": "Juhtimise professor",
+          "name": "Eneken Titov"
+        }
+      ],
+      "type": "sotsiaalteadused",
+      "modules": [
+        {
+          "id": "4C6C0D47-774F-4F56-8709-E51ED448A521",
+          "name": "Juhtimine",
+          "courses": [
+            {
+              "id": "AD7085FD-FA2D-434D-983D-C6C2154AD440",
+              "name": "Ettevõtlik juhtimine",
+              "eapCount": 6
+            },
+            {
+              "id": "B8D5BADD-CBB3-4073-BAB0-047F5557A546",
+              "name": "Sotsiaalne vastutus ja eetika",
+              "eapCount": 3
+            },
+            {
+              "id": "0BE5EDF4-F003-41D6-ABDC-678004744D9D",
+              "name": "Terve organisatsioon",
+              "eapCount": 3
+            },
+            {
+              "id": "9F78EB7B-A2B1-4328-9C62-1A4924B081EC",
+              "name": "Individuaalse arengu juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "A4FD93BA-70A0-4F52-AB81-3E1191D6D31D",
+              "name": "Talendijuhtimine ja hoidmine",
+              "eapCount": 3
+            }
+          ]
+        },
+        {
+          "id": "DEA861E7-A1FA-416B-B62F-4F56B550B2DF",
+          "name": "Uurimistöö",
+          "courses": [
+            {
+              "id": "95D08FAA-F23D-412B-8986-722FC9963576",
+              "name": "Magistriseminar",
+              "eapCount": 6
+            },
+            {
+              "id": "4FB3B30D-8EA4-4541-B0AB-CE2FA78A8ABE",
+              "name": "Uurimistöö meetodid",
+              "eapCount": 5
+            },
+            {
+              "id": "B291D6B3-1E26-4D35-BF1E-672EBEDAFDCF",
+              "name": "Magistritöö",
+              "eapCount": 30
+            }
+          ]
+        },
+        {
+          "id": "1F91D436-42A2-4282-81A1-B31B16CFA128",
+          "name": "Äriprotsesside juhtimine",
+          "courses": [
+            {
+              "id": "600BC770-0180-4769-8915-5F8285137FFC",
+              "name": "Strateegiline juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "68521892-C8F3-4A4F-92B2-4E1603E8CF79",
+              "name": "Juhtimise infosüsteemid",
+              "eapCount": 3
+            },
+            {
+              "id": "574C0955-0BEE-47E9-9C57-851F35CBA9B2",
+              "name": "Tarneahela juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "C0BD65A4-157E-4A38-BCB2-CF2341A3ACCE",
+              "name": "Kvaliteedijuhtimissüsteemid",
+              "eapCount": 3
+            },
+            {
+              "id": "797604E7-E3FF-491C-88FD-423B0F422932",
+              "name": "Modernsed ärimudelid",
+              "eapCount": 3
+            },
+            {
+              "id": "3065835B-524B-4CD5-9D3D-A82BB1B83C13",
+              "name": "Äriprotsesside analüüs ja juhtimine",
+              "eapCount": 4
+            }
+          ]
+        },
+        {
+          "id": "7D1639DC-9122-4AEF-9325-33D8DCDD5B28",
+          "name": "Majandus",
+          "courses": [
+            {
+              "id": "658735D0-FF12-4D5A-A07F-E7BC6D37A3B8",
+              "name": "Majanduskeskkonda kujundav õigusruum",
+              "eapCount": 3
+            },
+            {
+              "id": "5BC5D58F-D003-48B2-A193-B7139746114C",
+              "name": "Rahvusvaheline majandus ja finantsturud",
+              "eapCount": 4
+            },
+            {
+              "id": "3FC1971E-95AC-4B17-B8F7-8A9D008FCEDE",
+              "name": "Finantsanalüüs ja ärirahandus",
+              "eapCount": 4
+            },
+            {
+              "id": "3EC0EAB6-197C-444A-82FE-5339F1B1F0EE",
+              "name": "Juhtimisökonoomika",
+              "eapCount": 4
+            }
+          ]
+        },
+        {
+          "id": "86063032-8F23-402C-8723-EA3CB095CE9B",
+          "name": "Rahvusvahelise ärijuhtimise erialaõpe",
+          "courses": [
+            {
+              "id": "2DB83051-D6C0-43D7-9477-DB81E0A39620",
+              "name": "Erialased valikained",
+              "eapCount": 4
+            },
+            {
+              "id": "07690CBB-C8A4-4789-B12C-78531C02817A",
+              "name": "Rahvusvaheline õigus",
+              "eapCount": 3
+            },
+            {
+              "id": "C57229C4-4F7A-416C-B94F-B4321F926580",
+              "name": "Ettevõtte rahandus",
+              "eapCount": 3
+            },
+            {
+              "id": "22F0BC56-17E3-44E2-929C-53DC6654671F",
+              "name": "Rahvusvaheline turundus",
+              "eapCount": 3
+            },
+            {
+              "id": "ABC8EE26-8865-4B98-AAD1-B30730057BF9",
+              "name": "Rahvusvaheline organisatsiooni arengu juhtimine",
+              "eapCount": 3
+            },
+            {
+              "id": "BE19C6CA-1B14-48DA-94C8-854F4C8F2BBC",
+              "name": "HRM strateegiad ja poliitikad",
+              "eapCount": 3
+            },
+            {
+              "id": "2F8692C0-2A42-46E5-8C0B-54F663DCBC32",
+              "name": "Eesti keel I",
+              "eapCount": 3
+            },
+            {
+              "id": "D7963BD6-8D9F-475E-A647-F7333397D5E3",
+              "name": "Eesti keel II",
+              "eapCount": 3
+            }
+          ]
+        }
+      ],
+      "level": "magister",
+      "outcomes": [
+        "Lähtub omandatud pädevuste rakendamisel teostatud mõjuanalüüsist, valdkondlikest uuendustest ja praktilistest lahendustest.",
+        "Püstitab eesmärke ja lahendab erialaseid probleeme ning uurimisülesandeid nii individuaalselt, meeskonnaliikmena kui meeskonna juhina, kasutades selleks tänapäevaseid ja kohaseid meetodeid ning tehnoloogiaid",
+        "On omandanud teadusliku käsitluse põhimõtted ja konstruktiivse mõtlemise oskuse ning rakendab neid eesmärkide saavutamiseks ja tööalaste otsuste tegemiseks",
+        "Loob sobiva keskkonna protsesside ja inimeste juhtimiseks organisatsioonis",
+        "Arvestab oma töös valdkonna kutse-eetika, ühiskonna normide ja kehtiva hea tavaga",
+        "On omandanud pädevused valdkonnas töötamiseks, organisatsioonis vajalike uuringute läbiviimiseks ning organisatsiooni juhtimiseks ja arendamiseks",
+        "Omab ettevalmistust töötamiseks valitud erialal spetsialistina ja/või keskastmejuhina ning on motiveeritud ja valmis pidevaks enesearenduseks ja doktoriõppeks."
+      ],
+      "language": "inglise keel",
+      "duration": 2,
+      "requirements": [
+        {
+          "id": "CF7A24EB-8592-4F70-BB30-642B3EAFD49A",
+          "term": "Kõrgharidus"
+        },
+        {
+          "id": "8D72C3F8-E8EA-4743-90AB-17C5EB043145",
+          "percentage": 20,
+          "term": "Eelmise õppeastme tulemused"
+        },
+        {
+          "id": "F431E024-B2FD-46C1-BBB1-7D388038516E",
+          "percentage": 30,
+          "term": "Motivatsioonikiri"
+        },
+        {
+          "id": "ED2B9EAF-1555-41DD-953C-B8F423334A90",
+          "percentage": 50,
+          "term": "Vestlus"
+        },
+        {
+          "id": "AB9969B8-BC84-4CFE-B620-736422D45AB7",
+          "term": "Õppemaks 4960€ aastas"
+        }
+      ],
+      "name": "Rahvusvaheline ärijuhtimine",
+      "cost": {
+        "amount": 4960,
+        "currency": "€",
+        "interval": "year"
+      }
+    }
+]

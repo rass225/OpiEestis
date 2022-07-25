@@ -1,0 +1,804 @@
+[
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "570B4F56-7894-412C-A802-0CC481BAEB12",
+    "description": [
+      "Heliloomingu ja muusikatehnoloogia õppe eesmärgiks on pakkuda klassikalise heliloomingu, elektroakustilise loomingu, audiovisuaalse loomingu ja helirežii alast haridust. Need iseseisvad, kuid teineteisega tihedalt integreeritud erialad loovad loomingulise sünergia, mis toetab iga eriala individuaalseid loomingulisi püüdlusi.",
+      "Kõik kompositsiooni õppesuunad k.a. helirežii suund moodustavad ühtse ning teineteist täiendava terviku ja seda mitte üksnes õppekava ülesehitusest tulenevalt. Enamike õppejõudude koormus pole piiritletud vaid kitsalt ühe õppesuuna tudengite juhendamisega: klassikalisele kompositsioonile spetsialiseerunud õppejõudude juures täiendavad ennast lisaks tavakomponistidele sagedasti ka teiste suundade esindajad. Samuti võimaldatakse klassikalise kompositsiooni tudengitele meie hästivarustatud stuudios juhendamist elektroakustilise muusika spetsialistide poolt.",
+      "Lisaks võimalusele valida nelja erineva õppesuuna vahel, on üliõpilastel võimalik erialati otsustada ka väga erineva esteetika ja loominguliste tõekspidamistega loominguliste juhendajate vahel. Tudengitel pole kohustust õppida vaid kord juba valitud õppejõu juhendamisel, mistõttu saavad nad soovi korral osa erinevaist loomingulistest nägemustest ja seda ka sama õppeastme piires.",
+      "Heliloomingu ja muusikatehnoloogia erialale pürgijail pole põhjust muretseda rangete akadeemiliste stiilipiirangute pärast. Seda tõendavad kujukalt ka läbi kogu õppeaasta toimuvad mitmed väga erinevaid stiilieelistusi pakkuvad kontserdid kammer- ja elektroonilisest muusikast kuni sümfooniakontsertideni välja."
+    ],
+    "eap": 180,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava täies mahus läbinud üliõpilane:",
+      "Suudab iseseisvalt luua muusikat ja teostada oma loomingulisi ideid tasemel, mis on iseloomulik professionaalsuse künnisele jõudnud muusikule",
+      "Oskab heliloomingu, elektroakustililse ja audiovisuaalse loomingu ning helitehnoloogiaga seotud ülesannete ja probleemide lahendamisel kasutada sobivaid tehnikaid ja meetodeid",
+      "Omab süsteemset ülevaadet muusikaloost, muusikateooriast ning nüüdismuusika esteetikast ja aktuaalsetest probleemidest",
+      "Suudab orienteeruda humanitaaria valdkonnas ning näha muusikat laiemas kultuurikontekstis",
+      "Omab esmaseid pedagoogilisi pädevusi",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme suuliselt ja kirjalikult selgitama ning osalema erialastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "10CD88C3-8F0E-43E8-AABB-6C6505AAF1C5",
+        "term": "Gümnaasiumi Lõputunnistus"
+      },
+      {
+        "id": "2B23855D-E829-4382-B1F1-2F87FA3E71D2",
+        "percentage": 50,
+        "term": "Erialakatse"
+      },
+      {
+        "id": "A4644104-1996-42E6-9BAE-51254259365E",
+        "percentage": 50,
+        "term": "Muusikateooria test"
+      }
+    ],
+    "name": "Helilooming ja muusikatehnoloogia",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "9CCDC39F-29F0-4A3D-8D62-B510C7AB4864",
+    "description": [
+      "Interpretatsioonipedagoogika õppe missiooniks on koolitada muusikakoolidele väga häid pilliõpetajaid ning hoolitseda juba töötavate õpetajate ametioskuste pideva arendus- ja täiendusvõimaluse eest. Õpe toimub nii bakalaureuse- kui ka magistriastmes. Õpingute käigus omandavad üliõpilased teoreetilisi teadmisi ja praktilisi pedagoogilisi oskusi, et olla valmis edukaks tegutsemiseks instrumendiõpetajana muusikakoolides ja keskastme muusikaõppeasutustes. Pakutav ainevalik annab õppijale head eeldused tulemaks toime tänapäeva töömaailma mitmekesiste ja keerukate pedagoogiliste väljakutsetega. Kuna hea õpetaja vältimatuks eelduseks on ka oma erialainstrumendi meisterlik valdamine, on õppekavades tähtsal kohal interpreedikoolituse ained. Magistriastme lõpetajad saavad Kutseõpetaja tase 7 kutsetunnistuse.",
+      "Interpretatsioonipedagoogika õppe juurde kuulub ka erialadidaktiliste ainete õpetamine muusika interpretatsiooni erialade üliõpilastele toetamaks noorte interpreetide mänguoskusi vajalike teoreetiliste teadmistega ja tutvustamaks neile praktilist pedagoogitööd. Regulaarselt korraldatakse ka rahvusvahelisi konverentse, kus lisaks EMTA õppejõududele esinevad tunnustatud spetsialistid teistest kodu- ja välismaistest õppeasutustest. Samuti toimuvad üliõpilaste konverentsid, kus esitletakse parimaid pedagoogilisi lõputöid.",
+      "Paljud üritused toimuvad koostöös partneritega nagu Eesti Muusikakoolide Liit, Eesti Keelpilliõpetajate Ühing, Eesti Klaveriõpetajate Ühing, Eesti Akordioniliit jt. Ühisüritustena toimuvad erialakonverentsid, külalisõppejõudude eriseminarid ja koolitused, üliõpilaste praktika erialakonkursside žüriides jpm.",
+      " Teadustegevuse üheks väljundiks on kirjastatud publikatsioonid: näiteks artiklikogumik „Interpretatsioonipedagoogika”, O. Silla loengute kogumik „Arutlusi keelpillimängu radadel” ning V. Alumäe, M. Pätsi jt retrospektiivsed väljaanded.",
+      "Interpretatsioonipedagoogika alal tegutsevad väljapaistvad õppejõud. Regulaarne koostöö seob veel paljude teiste EMTA erialadega ning mitmete välisõppejõududega nagu näiteks Mira Martšenko (Moskva keskmuusikakool), Niklas Pokki (Sibeliuse Akadeemia) jt."
+    ],
+    "eap": 180,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava täies mahus läbinud üliõpilane:",
+      "Suudab oma erialainstrumendil esitada erinevate ajastute muusikat, sealhulgas keskmise raskusastmega pedagoogilist repertuaari",
+      "Omab pilliõpetaja tööks vajalikku esmast pedagoogilist pädevust",
+      "Suudab suunata ja reflekteerida nii iseenda kui ka õpilaste muusikalist arengut ja muusika vahendusel inimese kui terviku arengut",
+      "Omab süsteemset ülevaadet muusikaloost, muusikalistest struktuuridest ja mõistetest ning aktuaalsetest probleemidest",
+      "Suudab orienteeruda humanitaaria valdkonnas ning näha muusikat laiemas kultuurikontekstis",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme suuliselt ja kirjalikult selgitama ning osalema erialastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "1BA95BEC-19E0-445A-954C-74C1C0A9C42B",
+        "term": "Gümnaasiumi Lõputunnistus"
+      },
+      {
+        "id": "56810625-71FE-4BBA-BF22-642CA9EE2AD8",
+        "percentage": 50,
+        "term": "Erialakatse"
+      },
+      {
+        "id": "0F415C11-5E06-4216-AB23-E25F2B8CA65A",
+        "percentage": 50,
+        "term": "Muusikateooria test"
+      }
+    ],
+    "name": "Interpretatsioonipedagoogika",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "0857C2AD-B691-4588-84F4-CE8D9555E119",
+    "description": [
+      "Interpretatsioonipedagoogika õppe missiooniks on koolitada muusikakoolidele väga häid pilliõpetajaid ning hoolitseda juba töötavate õpetajate ametioskuste pideva arendus- ja täiendusvõimaluse eest. Õpe toimub nii bakalaureuse- kui ka magistriastmes. Õpingute käigus omandavad üliõpilased teoreetilisi teadmisi ja praktilisi pedagoogilisi oskusi, et olla valmis edukaks tegutsemiseks instrumendiõpetajana muusikakoolides ja keskastme muusikaõppeasutustes. Pakutav ainevalik annab õppijale head eeldused tulemaks toime tänapäeva töömaailma mitmekesiste ja keerukate pedagoogiliste väljakutsetega. Kuna hea õpetaja vältimatuks eelduseks on ka oma erialainstrumendi meisterlik valdamine, on õppekavades tähtsal kohal interpreedikoolituse ained. Magistriastme lõpetajad saavad Kutseõpetaja tase 7 kutsetunnistuse.",
+      "Interpretatsioonipedagoogika õppe juurde kuulub ka erialadidaktiliste ainete õpetamine muusika interpretatsiooni erialade üliõpilastele toetamaks noorte interpreetide mänguoskusi vajalike teoreetiliste teadmistega ja tutvustamaks neile praktilist pedagoogitööd. Regulaarselt korraldatakse ka rahvusvahelisi konverentse, kus lisaks EMTA õppejõududele esinevad tunnustatud spetsialistid teistest kodu- ja välismaistest õppeasutustest. Samuti toimuvad üliõpilaste konverentsid, kus esitletakse parimaid pedagoogilisi lõputöid.",
+      "Paljud üritused toimuvad koostöös partneritega nagu Eesti Muusikakoolide Liit, Eesti Keelpilliõpetajate Ühing, Eesti Klaveriõpetajate Ühing, Eesti Akordioniliit jt. Ühisüritustena toimuvad erialakonverentsid, külalisõppejõudude eriseminarid ja koolitused, üliõpilaste praktika erialakonkursside žüriides jpm.",
+      "Teadustegevuse üheks väljundiks on kirjastatud publikatsioonid: näiteks artiklikogumik „Interpretatsioonipedagoogika”, O. Silla loengute kogumik „Arutlusi keelpillimängu radadel” ning V. Alumäe, M. Pätsi jt retrospektiivsed väljaanded.",
+      "Interpretatsioonipedagoogika alal tegutsevad väljapaistvad õppejõud. Regulaarne koostöö seob veel paljude teiste EMTA erialadega ning mitmete välisõppejõududega nagu näiteks Mira Martšenko (Moskva keskmuusikakool), Niklas Pokki (Sibeliuse Akadeemia) jt."
+    ],
+    "eap": 180,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava täies mahus läbinud üliõpilane:",
+      "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid tasemel, mis on iseloomulik professionaalsuse künnisele jõudnud interpreedile vastavalt eriale",
+      "Oskab muusika interpretatsiooniga seotud ülesannete ja probleemide lahendamisel kasutada sobivaid tehnikaid ja meetodeid, suudab kohaneda erinevate esinemisolukordadega ning musitseerida erinevates koosseisudes",
+      "Omab süsteemset ülevaadet muusikaloost, muusikalistest struktuuridest ja mõistetest ning interpretatsioonikunsti ajaloost ja aktuaalsetest probleemidest",
+      "Omab esmaseid pedagoogilisi pädevusi",
+      "Suudab orienteeruda humanitaaria valdkonnas ning näha muusikat laiemas kultuurikontekstis",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme suuliselt ja kirjalikult selgitama ning osalema erialastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "306AC6E2-F290-4646-B489-C805FBA655E1",
+        "term": "Gümnaasiumi Lõputunnistus"
+      },
+      {
+        "id": "5ED79D78-0808-4806-B6BF-C81B1AC2D330",
+        "percentage": 50,
+        "term": "Erialakatse"
+      },
+      {
+        "id": "3CC0335D-59E1-472A-B1B3-98848D012787",
+        "percentage": 50,
+        "term": "Muusikateooria test"
+      }
+    ],
+    "name": "Muusika interpretatsioon",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "031AA8EE-9F55-4922-91B1-ED1F9A0B669C",
+    "description": [
+      "Muusikapedagoogika eriala õppekava pakub mitmekülgseid muusikaõpinguid: klassikast popini, instrumentaalist vokaalini, interpretatsioonist pedagoogikani. Bakalaureuseõppekava sisaldab pilliõpet (klaver, plokkflööt, väikekannel, rütmimuusika instrumendid), dirigeerimist, hääleseadet ja hääle improvisatsiooni, samuti arranžeerimist, solfedžot ja pop-jazz solfedžot ning pakub mitmesuguseid võimalusi (koos)musitseerimiseks. Käsitlemist leiavad üld- ja muusikapedagoogika erinevad metoodikad (sh Orff, Kodaly, Dalcroze). Loetletu kõrval on eriala tugevuseks aktiivne ja ühtehoidev tudengite kogukond, kelle eestvõttel toimuvad mitmesugused üritused.",
+      "Bakalaureuseõppesse ootame õppima Otsa- ja Ellerikooli vilistlasi, aga ka gümnaasiumide lõpetanuid, kes on õppinud ja mängivad mõnda pilli, kelle jaoks elu muusikata oleks igav ja tühi, ning kes sooviksid osata rõõmu muusikast teadlikult ka teistes äratada. EMTAs omandatud muusikapedagoogika eriala loob väga head võimalused just neile, kel on soov mõjutada tulevast ühiskonda muusikaõpetuse kaudu."
+    ],
+    "eap": 180,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava täies mahus läbinud üliõpilane:",
+      "Omab muusikaõpetaja tööks vajalikke esmaseid kasvatusteaduslikke ja ainedidaktilisi teadmisi ning ning omab eeldusi pedagoogiliseks tööks",
+      "On võimeline ise musitseerima tasemel, mis on kohane professionaalsuse künnisele jõudnud muusikaõpetajale",
+      "Oskab hinnata ja analüüsida muusika osa inimese kui terviku arengus",
+      "Oskab erialaste ülesannete ja esilekerkivate probleemide lahendamisel kasutada erinevaid mõtlemisstrateegiaid, tegevusmeetodeid ja -tehnikaid",
+      "Suudab orienteeruda muusikaloos, muusikateoorias ja erinevates muusikastiilides ning näha muusikat laiemas kultuurikontekstis",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvatel teemadel diskuteerima",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "43223D58-6EE9-4171-935B-16EE48D888BE",
+        "term": "Gümnaasiumi Lõputunnistus"
+      },
+      {
+        "id": "D0AE7117-08BD-4CD9-B1CE-90C3E44756A4",
+        "percentage": 50,
+        "term": "Erialakatse"
+      },
+      {
+        "id": "2986DA1D-B9AF-4AC4-BF6F-02BB6E216D82",
+        "percentage": 50,
+        "term": "Muusikateooria test"
+      }
+    ],
+    "name": "Muusikapedagoogika",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "EEE742AB-D98D-4313-AA7F-D09EE621E0B2",
+    "description": [
+      "Muusikateadus tegeleb muusika ja muusikaelu uurimisega kogu selle mitmekesisuses. Kuidas ja kellele muusikat luuakse, kuidas see inimesele mõjub, mis on oluline muusika kuulajale ning milline on muusika seos ümbritseva maailmaga? Need on vaid mõned küsimused paljudest, millega muusikateadlased oma töös kokku puutuvad.",
+      "EMTA on Eesti olulisim muusika valdkonna kompetentsikeskus ja ainus kõrgkool, kus õpetatakse muusikateadust. Meie õppejõudude ja teadurite hulgas on Eesti silmapaistvamad ja kõrge rahvusvahelise mainega muusikateadlased. Igal semestril toimub ka vähemalt üks intensiivseminar mõne tunnustatud välisõppejõu või teadlase juhendamisel, milles käsitletakse süvitsi mõnd muusikateaduse aktuaalsemat ja põnevamat uurimissuunda. Tudengitele pakutakse ka pidevat individuaalset juhendamist, samuti on neil võimalik ERASMUSe vahetusprogrammi toel läbida osa oma õppeajast mõnes meie paljudest partnerülikoolidest.",
+      "Õppekavas on esindatud kõik tänapäeva muusikateaduse olulisemad suunad: muusika ajalugu, muusikateooria, etnomusikoloogia ja kognitiivne muusikateadus. Uuritakse nii kaasaegset kui ka ajaloolist muusikat ning klassikalise muusikaloo kõrval loetakse erinevaid rahva-, populaar- ja filmimuusika kursusi. Eesti muusikakultuuri vaadeldakse osana laiemast kultuuripraktikast ning võrdluses mujal maailmas toimuvaga.",
+      "Bakalaureuse astme õppekava sisaldab lisaks uurimistöö alustele ka praktilise suunitlusega kursusi, näiteks raadio-, muuseumi- ja toimetuspraktikat. Samuti võimaldab see uurija suuna kõrval valida ka muusikakorralduse suuna ning jätkata EMTA kultuurikorralduse magistriprogrammis. Muusikateaduse magistri- ja doktoriprogrammi läbinuid ootab töö õpetajate, õppejõudude või teaduritena haridus- ja teadusasutustes, toimetajatena erinevates meediaväljaannetes ja kontserdiorganisatsioonides ning mitmel pool mujal. Õppima on oodatud kõik, kellel on kirge muusikast mõelda ja seda süstemaatiliselt tundma õppida ning oma leide ja avastusi teistega jagada."
+    ],
+    "eap": 180,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava täies mahus läbinud üliõpilane:",
+      "Omab süsteemset ülevaadet muusikaloost ja muusikateooriast ning muusikateaduse erinevate harude põhimõistetest, teoreetilistest alustest, uurimismeetoditest ja aktuaalsetest suundumustest",
+      "Oskab rakendada korralduslikke, eelarvelisi, juriidilisi ning turunduslikke teadmisi ja oskusi muusikasündmuste läbiviimisel",
+      "Oskab kohaseid vahendeid kasutades iseseisvalt informatsiooni koguda ning seda kriitiliselt ja loovalt tõlgendada",
+      "Suudab orienteeruda humanitaaria valdkonnas ning näha muusikat laiemas kultuurikontekstis",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline muusikaga seonduvaid probleeme oma õppekeeles ja vähemalt ühes võõrkeeles suuliselt ja kirjalikult selgitama ning osalema erialastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama.",
+      "On võimeline lihtsamaid muusikateaduslikke probleeme püstitama ning kasutama nende lahendamisel sobivaid meetodeid.",
+      "Orienteerub Eesti kultuurivaldkonna õiguslikes regulatsioonides ja loomemajanduse toimepõhimõtetes",
+      "Oskab mõtestada oma kultuurikorralduslikku tegevust loometegevuse vahendamisel ja muusikaelu korraldamisel."
+    ],
+    "language": "eesti keel",
+    "duration": 3,
+    "requirements": [
+      {
+        "id": "76604D85-65BE-4AAB-8707-04D679F1A544",
+        "term": "Gümnaasiumi Lõputunnistus"
+      },
+      {
+        "id": "67BFCD74-B551-4BFA-804B-8413930583A9",
+        "percentage": 50,
+        "term": "Erialakatse"
+      },
+      {
+        "id": "FA734004-3624-46B4-A238-67C9580F083E",
+        "percentage": 50,
+        "term": "Muusikateooria test"
+      }
+    ],
+    "name": "Muusikateadus ja Muusikakorraldus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "1F6DB5F5-11AE-4A47-9AE6-56FF7753A219",
+    "description": [
+      "Õppekava eesmärgid on:",
+      "• Pakkuda näitleja-, lavastaja- ja/või dramaturgieeldustega üliõpilastele erialast koolitust, mis põhineb kooli parimatel traditsioonidel ning samas jälgib ja arvestab teiste Euroopa ja kogu maailma vastavate koolide kogemusi",
+      "Õppekava pidevalt täiustades, õpetusse oma ala juhtivaid spetsialiste kaasates, erialast raamatukogu rikastades luua koolis loominguline õhkkond, mis soodustab üliõpilaste loomingulist arengut, oskust mõtestada ühiskonda, mõista teatrikunsti ajaloolises muutumises."
+    ],
+    "eap": 240,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "bakalaureus",
+    "outcomes": [
+      "Õppekava täies mahus läbinud üliõpilane:",
+      "Oskab analüüsida üksikisikute ja inimgruppide käitumist, motivatsioone, oskab mõista ja mõtestada ühiskonnas toimuvaid protsesse",
+      "Orienteerub filosoofias, psühholoogias, kirjanduses ja kujutavas kunstis ning oskab näha teatrit laiemas kultuurikontekstis",
+      "Omab süsteemset ülevaadet teatriloost, erinevatest etendamisstiilidest",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi analüüsima, loominguliselt integreerima ning rakendama erialases tegevuses",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles selgitama teatriga seonduvaid probleeme ning osalema erialastes aruteludes",
+      "Oskab töötada nii individuaalselt kui ka kollektiivis, arvestada teiste osalejate töö ja tõekspidamistega",
+      "Omab teadmisi ruumiteooriast, lavakujundusest, muusika kasutamisest lavastuse loomisel, ohutustehnikast, teatritöö organiseerimisest ja majandusest",
+      "Omab algteadmisi tööst televisioonis, filmis, raadios."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "4609E2E0-8A9E-460A-B14F-D24121EF0C17",
+        "term": "Gümnaasiumi lõputunnistus"
+      },
+      {
+        "id": "ACF30A68-BF65-47D8-93E6-30C388D8B292",
+        "term": "Eksam näitlejameisterlikkuses"
+      },
+      {
+        "id": "40D7D2E3-C56C-4F1F-B6A4-F30A9FABAC3B",
+        "term": "Essee"
+      },
+      {
+        "id": "BC9C3363-154A-48E8-92F8-4BBDC84954ED",
+        "term": "Kollokvium"
+      }
+    ],
+    "name": "Lavakunst",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "306FFAFA-3A25-4CB4-BC8E-E71CB3A6F76D",
+    "description": [
+      "2019. aastal alustas seni ainulaadne kaasaegsete etenduskunstide magistriprogramm, mille õppetööd viivad läbi rahvusvaheliselt hinnatud etenduskunstnikud, lavastajad, koreograafid ja teatritrupid. Rahvusvahelise magistriõppekava Contemporary Physical Performance Making (CPPM) algataja, Eesti Muusika- ja Teatriakadeemia professori Jüri Naela sõnul on programm eksperimentaalse mõtlemisega noorte etenduskunstnike kohtumispaik. „Selle magistriprogrammiga soovime inspireerida noori kunstnikke leidma nende enda loomingulist käekirja, võimaldades neil kohtuda ja töötada väga erinevate etenduskunstnikega üle terve maailma. Kõik külalised on erineva maailmavaate ja töömeetodiga ning just seepärast on nad ka siia õpetama kutsutud,” ütles Nael.",
+      "Õppetööd viiakse läbi koostöös hinnatud teatritruppidega, näiteks osalevad programmis Jan Fabre Troubleyn (Belgia), Wuppertal Tanztheater Pina Bausch (Saksamaa), Rimini Protokoll (Saksamaa), La Pocha Nostra (USA), Attis Theatre (Kreeka), Gecko Theatre (Suurbritannia), Jasmin Vardimon Company (Suurbritannia), Complicite (Suurbritannia), SITI Company (USA), Ultima Vez (Belgia), Physical Lab (Suurbritannia) ja paljud teised.",
+      "Magistriprogrammi Contemporary Physical Performance Making esimene kursus alustas 2019. aasta sügisel. Sisseastumiskatsed toimusid kevade jooksul Londonis, Tallinnas, Seoulis ja New Yorgis. Õppeprogramm kestab kaks aastat ja õppetegevus on ingliskeelne."
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "https://eamt.ee/erialad/helilooming-improvisatsiooniline-muusika-ja-kaasaegsed-etenduskunstid/kaasaegsed-etenduskunstid/",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "magister",
+    "outcomes": [
+      "Omab süsteemset ülevaadet ja laiapõhjalisi teadmisi kaasaegsete etenduskunstide valdkonna ajaloost, terminitest, mõistetest, teooriatest ning uurimis- ja loomemeetoditest",
+      "Tunneb kaasaegsete etenduskunstide teoreetilisi ja loomingulisi arengusuundi, aktuaalseid probleeme ja rakendusvõimalusi",
+      "Oskab ära tunda ja luua valdkondadevahelisi seoseid ning rakendada neid oma loomingulises tegevuses",
+      "On võimeline iseseisvalt algatama ja läbi viima rahvusvahelisi loomingulisi koostööprojekte, näidates seejuures algatusvõimet, vastutustunnet, juhtimis- ja meeskonnatööoskusi ning kõrget professionaalset loomingulist taset",
+      "Oskab oma loomingulist tegevust ja enesearengut etenduskunstnikuna kriitiliselt analüüsida",
+      "Suudab hinnata enda vajadust jätkuõppeks, erialaseks ja tööalaseks arenguks ning valdab iseseisvaks õppimiseks vajalikke tõhusaid meetodeid",
+      "On valmis tööks erialast kutseoskust nõudvatel tegevusaladel",
+      "On oma ala spetsialist, uuenduslike projektide algataja ja uute suundade looja."
+    ],
+    "language": "inglise keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "A7C55806-8391-456F-847F-FF7629DBAD51",
+        "term": "Erialakatse"
+      }
+    ],
+    "name": "Kaasaegsed Etenduskunstid",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "76311BA5-D644-4BE9-985C-BBAE8269A976",
+    "description": [
+      "Heliloomingu ja muusikatehnoloogia õppe eesmärgiks on pakkuda klassikalise heliloomingu, elektroakustilise loomingu, audiovisuaalse loomingu ja helirežii alast haridust. Need iseseisvad, kuid teineteisega tihedalt integreeritud erialad loovad loomingulise sünergia, mis toetab iga eriala individuaalseid loomingulisi püüdlusi.",
+      "Kõik kompositsiooni õppesuunad k.a. helirežii suund moodustavad ühtse ning teineteist täiendava terviku ja seda mitte üksnes õppekava ülesehitusest tulenevalt. Enamike õppejõudude koormus pole piiritletud vaid kitsalt ühe õppesuuna tudengite juhendamisega: klassikalisele kompositsioonile spetsialiseerunud õppejõudude juures täiendavad ennast lisaks tavakomponistidele sagedasti ka teiste suundade esindajad. Samuti võimaldatakse klassikalise kompositsiooni tudengitele meie hästivarustatud stuudios juhendamist elektroakustilise muusika spetsialistide poolt.",
+      "Lisaks võimalusele valida nelja erineva õppesuuna vahel, on üliõpilastel võimalik erialati otsustada ka väga erineva esteetika ja loominguliste tõekspidamistega loominguliste juhendajate vahel. Tudengitel pole kohustust õppida vaid kord juba valitud õppejõu juhendamisel, mistõttu saavad nad soovi korral osa erinevaist loomingulistest nägemustest ja seda ka sama õppeastme piires.",
+      "Heliloomingu ja muusikatehnoloogia erialale pürgijail pole põhjust muretseda rangete akadeemiliste stiilipiirangute pärast. Seda tõendavad kujukalt ka läbi kogu õppeaasta toimuvad mitmed väga erinevaid stiilieelistusi pakkuvad kontserdid kammer- ja elektroonilisest muusikast kuni sümfooniakontsertideni välja."
+    ],
+    "eap": 180,
+    "spots": 0,
+    "majorWebsite": "https://eamt.ee/erialad/helilooming-improvisatsiooniline-muusika-ja-kaasaegsed-etenduskunstid/helilooming-ja-muusikatehnoloogia/",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "magister",
+    "outcomes": [
+      "Suudab, vastavalt oma erialasele spetsialiseerumisele:",
+      "• Luua muusikat ja teostada oma loomingulisi ideid tasemel, mis on iseloomulik professionaalsele heliloojale",
+      "• Heliloomingu ja helitehnoloogiaga seotud ülesannete ja probleemide lahendamisel kasutada avarat spektrit heliloomingu tehnilistest vahenditest",
+      "• Iseseisvalt ära tunda helisalvestusega seotud tehnilisi ja esteetilisi probleeme ja neid kohaste meetoditega lahendada, suudab kohaneda erinevate salvestuse olukordadega ning juhtida helisalvestusprotsessi",
+      "On valmis iseseisvaks erialaseks tööks, sh rahvusvahelises keskkonnas, näidates seejuures algatusvõimet, vastutustunnet, juhtimis- ja meeskonnatööoskusi",
+      "On võimeline pädevalt edasi andma oma teadmisi õpetamise, juhendamise või muul teel",
+      "Omab süvendatud teadmisi mõnes muusika või kultuuriettevõtlusega seotud valdkonnas",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid suuliselt ja kirjalikult esitama ja argumenteerima ning osalema nii erialaspetsialistide kui ka erialaväliste inimeste sellekohastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "Oskab tegutseda eetiliselt keerulistes olukordades, on teadlik oma tegevuse eetilistest aspektidest, võimalustest, piirangutest ja ühiskondlikust rollist ning oskab anda põhjendatud hinnanguid muusikat ja kultuurielu puudutavates küsimustes",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "eesti keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "F41F4281-3606-472A-ADA1-6BCC4A8A7509",
+        "term": "Bakalaureuse kraad"
+      },
+      {
+        "id": "721F4095-1F02-4A36-A4CF-363AC60FEAAA",
+        "term": "Erialakatse"
+      }
+    ],
+    "name": "Helilooming ja helirežii",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "50B9F24A-1E24-4A5A-92D4-AADDEBF79BDB",
+    "description": [
+      "Tänapäeva maailmas vajame inimesi,  kes suudavad töötada erinevates valdkondades ja mõtestada eri distsipliine, maailmavaated ning teemasid. Tänase päeva väljakutsed vajavad interdistsiplinaarset lähenemist. Programmis on rõhutatud loovuse, kunsti ning koosloome võimekust.",
+      "Me vajame professionaale, kes on võimelised looma seoseid (fasilitaator) erinevate ühiskonnagruppide vahel; kunstis ja kultuuris on suur potentsiaal selliste sidemete loomiseks. Kunstil on võime ühendada erinevaid inimesi, valdkondi ja väärtusi. Magistriprogramm toetab tudengeid selliste teadmiste ja võimekuste omandamisel, mis aitavad neil kasvada professionaaliks kiiresti muutuvas ühiskonnas.",
+      "Käesolev uuendatud kaheaastane kultuurikorralduse magistriprogramm keskendub ennekõike ülaltoodud oskusi, teadmisi ja hoiakuid kandvatele korraldajatele (fasilitaatoritele).",
+      "Kaheaastane ingliskeelne magistriprogramm on ühine ettevõtmine Estonian Business Schooliga. Programm on rahvusvaheline, erialadevaheline ja tudengikeskne ning fookuses on kultuuriväljadesiseste ja -üleste vahendajate ja seostajate (mediaatorid ja fasiliataatorid) koolitamine.",
+      "Me pakume oskusi kunsti ja kultuuri mõtestamiseks, mõistmiseks ning koosloome võimaldamise oskusi. Uuendatud õppekava on üles ehitatud probleemipõhise õppena. Iga tudeng võib kaasa tuua oma probleemi või projekti. Neile, kel pole huvipakkuvat projekti või probleemi, võimaldab akadeemia selle omalt poolt. Probleemipõhisel õppel on mitmeid eeliseid, näiteks aktiivõpe ning muud õppimispraktikad, mis on kooskõlas töö- ja elukeskkonnaga. Seega antakse tudengile nii akadeemilised kui ka praktilised oskused ja kompetentsid, rakendades teooriaid, mooduleid ja vahendeid otseselt reaalelulistele muutustele. Need õppekogemused lubavad tudengil harmooniliselt kogeda, arutada, uurida ja luua sidemeid mudelite ja vahendite ning reaaleluliste probleemide vahel.",
+      "See tagab tudengitele stimuleeriva õppekeskkonna ning ligipääsu loomevõrgustikele. Tudengid võivad ühendada oma probleemi/projekti otseselt lõputööga ning muuta ülemineku sügavama akadeemilise teadmise juurde sujuvamaks. Programm rõhutab akadeemilist silmapaistvust ning toetub teaduslikule maailmavaatele ja uurimustele. Tugev akadeemiline baas annab analüüsioskused ning holistilise mõtlemise.",
+      "Kultuurikorralduse magistriprogramm pakub tudengile uudseid sissevaateid ja viise, mis võimaldavad üles ehitada paremaid praktilisi kompetentse ja oskusi akadeemilise teadmuse kaudu, seda kõigile, kes on huvitatud uudsetest tööviisidest nii kultuurivaldkonnas kui ka valdkondades, mis ühendavad kunsti ja kultuuri teiste elualadega. See on ideaalne õppekava neile, kel on iseseisev tahe, avatud meel ja valmidus õppida.",
+      "Kui sul juba on välja valitud projekt või väljakutse, näiteks praegusest töökohast, annab programm sulle võimaluse viimaks ometi keskenduda selle lahendamisele nii õpetajate, ekspertide kui ka tudengikogukonna toetuse najal. Meil on rahvusvahelised õppejõud Eestist, Soomest, UKst, Prantsusmaalt, Saksamaalt ja mujalt. Meie vilistlaste aktiivne kogukond on soodne keskkond uutele kultuurikorraldajetele. 2019. aastaks on programmil üle 70 vilistlase: juhid, korraldajad, ettevõtjad ja administraatorid, aga ka doktorandid, kes on aktiivselt kaasatud kultuurikorralduse kui akadeemilise valdkonna arengusse rahvusvahelisel areenil."
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Ärindus ja Haldusteadus",
+    "level": "magister",
+    "outcomes": [
+      "Omab süsteemseid ja laiapõhjalisi teadmisi kultuurikorraldusest, selle põhisuundadest, mõistetest ja uurismeetoditest",
+      "Tunneb kultuurikorralduse, kultuuripoliitika ja loomemajanduse arengusuundi ja aktuaalseid probleeme",
+      "Oskab ära tunda ja luua interdistsiplinaarseid seoseid",
+      "Oskab kultuurikorralduse valdkonna probleeme ja kitsas kohti iseseisvalt ära tunda ja sõnastada ning neid seejärel loovalt, etteantud ajaraamides, asjakohaste meetoditega lahendada, kasutades selleks vajadusel laiemaid humanitaar- ja sotsiaalteaduslikke lähenemisviise",
+      "On võimeline arutlema kultuuriorganisatsioonide ja loovjuhtimise teemadel, rakendama uusi teoreetilisi teadmisi praktikas ning kasutama analüütilist mõtlemist laiemas kontekstis",
+      "On valmis võtma vastutust ning töötama kultuurijuhi, korraldaja või ametnikuna kas kohalikul või riiklikul tasandil, loomeettevõtjana või teadustöötajana, kasutades selleks asjakohaseid juhtimis- ja meeskonnatööoskusi",
+      "Suudab oma teadmust, professionaalsust ja erialateadmisi edasi anda õpetaja või juhendajana, sh heal tasemel esinemisoskuste kaudu; on võimeline kultuurikorraldusega seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid suuliselt ja kirjalikult esitama ja argumenteerima",
+      "On võimeline efektiivselt meeskonnatöös osalema nii töö- kui igapäevaelu situatsioonides, olema sotsiaalselt vastutustundlik ning tolerantne erinevate väärtuste ning hoiakute suhtes",
+      "Oskab õiglaselt tegutseda eetiliselt keerulistes olukordades, on teadlik oma tegevuse moraalsetest ning eetilistest aspektidest, aga ka oma professionaalse tegevusega seotud võimalustest, piirangutest ja selle laiemast mõjust; diskuteerima ning argumenteerima erinevatel kultuurikorralduse, loomemajanduse ja kultuurieluga seotud teemadel",
+      "On võimeline saadud teadmust ja oskusi kriitiliselt hindama, jätkama erialaõpingutega ning osalema uurimistegevuses, nii Eestis kui mujal."
+    ],
+    "language": "inglise keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "7A108ED0-428C-4E4A-B513-0AD1ADE180C2",
+        "term": "Bakalaureuse kraad"
+      },
+      {
+        "id": "CBEA0B95-BD37-4A62-9F13-35D621C46F5E",
+        "term": "Vesltus"
+      },
+      {
+        "id": "8E67D2BE-E954-43F9-9FA9-31A835E4332C",
+        "term": "CV"
+      },
+      {
+        "id": "9A9DA2C6-7FEA-4A0C-9B78-91FBF116154C",
+        "term": "Essee"
+      }
+    ],
+    "name": "Kultuurikorraldus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "5A1B0C2D-D1B1-4F4F-B7C2-DFD3446F2E66",
+    "description": [
+      "Magistriõppekava Contemporary Performance & Composition (CoPeCo) hõlmab nelja muusikakõrgkooli: Eesti Muusika- ja Teatriakadeemia, Stockholmi Kuninglik Muusikakõrgkool (Rootsi), Lyoni konservatoorium (Prantsusmaa), Hamburgi Muusika- ja Teatrikõrgkool (Saksamaa).  Muusikamagistritest on see ainus rahvusvaheline õpe Eestis. Juba vormiliselt on CoPeCo näol tegemist eristuva programmiga – iga õppesemester toimub erinevas ülikoolis. Üliõpilaste seisukohalt on tegemist unikaalse võimalusega õppida sisuliselt neljas ülikoolis korraga ja saada neist parim!",
+      "CoPeCo on suunatud nii heliloojatele kui nüüdismuusika esitajatele, elektronmuusikutele, helikunstnikele,  aga ka neile, kes ei oska ennast sellel skaalal nii täpselt defineerida. Üheks programmi eeliseks ongi see, et püüame ennast paindlikult vormida konkreetsete üliõpilaste vajaduste ja soovide järgi. Suurt tähelepanu pöörame improvisatsioonile, muusikatehnoloogiale,  anname algteadmisi kultuurikorralduses, samuti muusikaanalüüsi osas. Proovime tänapäeva kultuuripilti hoida avara väljana lahti, seetõttu toimuvad erinevad workshopid koostöös teatri-, tantsu- või filmiala professionaalidega. Programmi käigus  püüame tudengitele tutvustada Euroopa nüüdismuusika võrgustikke ja aidata õppijaid end nendesse sobituda."
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "magister",
+    "outcomes": [
+      "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
+      "Oskab muusika interpretatsiooniga seotud probleeme iseseisvalt ära tunda ja neid kohaste meetoditega lahendada, suudab kohaneda erinevate esinemisolukordadega ning musitseerida, vajadusel liidrina, erinevates koosseisudes",
+      "On valmis iseseisvaks erialaseks tööks, sh rahvusvahelises keskkonnas, näidates seejuures algatusvõimet, vastutustunnet, juhtimis- ja meeskonnatööoskusi",
+      "On võimeline pädevalt edasi andma oma teadmisi õpetamise, juhendamise või muul teel",
+      "Omab süvendatud teadmisi mõnes muusika või kultuuriettevõtlusega seotud valdkonnas",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid suuliselt ja kirjalikult esitama ja argumenteerima ning osalema nii erialaspetsialistide kui ka erialaväliste inimeste sellekohastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "Oskab tegutseda eetiliselt keerulistes olukordades, on teadlik oma tegevuse eetilistest aspektidest, võimalustest, piirangutest ja ühiskondlikust rollist ning oskab anda põhjendatud hinnanguid muusikat ja kultuurielu puudutavates küsimustes",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "inglise keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "6792EAFF-28D8-4060-9D35-54CE6354B50F",
+        "term": "Bakalaureuse Kraad"
+      },
+      {
+        "id": "2A990AB2-11F4-447E-B82D-CF4AECD5B46A",
+        "term": "Erialakatse"
+      }
+    ],
+    "name": "Muusika interpretatsioon",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "96583FB9-F8A4-4CDE-8070-1AC3744EDC69",
+    "description": [
+      "Muusikapedagoogika eriala õppekava pakub mitmekülgseid muusikaõpinguid: klassikast popini, instrumentaalist vokaalini, interpretatsioonist pedagoogikani. Bakalaureuseõppekava sisaldab pilliõpet (klaver, plokkflööt, väikekannel, rütmimuusika instrumendid), dirigeerimist, hääleseadet ja hääle improvisatsiooni, samuti arranžeerimist, solfedžot ja pop-jazz solfedžot ning pakub mitmesuguseid võimalusi (koos)musitseerimiseks. Käsitlemist leiavad üld- ja muusikapedagoogika erinevad metoodikad (sh Orff, Kodaly, Dalcroze). Loetletu kõrval on eriala tugevuseks aktiivne ja ühtehoidev tudengite kogukond, kelle eestvõttel toimuvad mitmesugused üritused.",
+      "Magistriõppe tasemel saab õppida Tallinna Ülikooli ja Eesti Muusika- ja Teatriakadeemia muusikaõpetaja õppekaval. Ühisõppekava ühendab mõlema ülikooli tugevused ning võimaldab tööle siirduda väga heade muusikaliste ning muusika- ja ülddidaktiliste oskustega noorel õpetajal. Ühisõppekava lõpetajad on oodatud tööle nii lasteaia kui üldhariduskooli muusikaõpetajaks."
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "koolitus ja Kasvatusteadus",
+    "level": "magister",
+    "outcomes": [
+      "Teab ja mõistab muusikahariduse eesmärke, põhimõtteid ja suunitlusi ning väärtustab muusikat laiemas sotsiaalkultuurilises kontekstis",
+      "Omab süsteemseid ja laiapõhjalisi üldkasvatusteaduslikke ning ainedidaktilisi lasteaia, põhikooli ja gümnaasiumi muusikaõpetaja tööks vajalikke teadmisi ja rakenduslikke oskusi",
+      "Oskab läbi viia muusikalisi tegevusi ja muusikatunde kasutades erinevates metoodilistes käsitlustes sisalduvaid didaktilisi võimalusi",
+      "Oskab reflekteerida oma tegevust muusikaõpetajana ja kavandada õpilase arengut ning enda edasist täiendamist üldkasvatusliku ja interdistsiplinaarse kompetentsuse suunas",
+      "Orienteerub muusikaloos, muusikateoorias, erinevates muusikastiilides rakendades neid teadmisi praktilises tegevuses ning on võimeline musitseerima muusikaõpetajale kohasel tasemel",
+      "On omandanud teadmised ja oskused erialalise teadusliku uurimustöö läbiviimiseks",
+      "Suudab teha koostööd erinevate sihtgruppidega ja käsitleda spetsiifilisi erialateadmisi laiemas kultuuri ja ühiskonna kontekstis ning väljendada end erialaliselt vähemalt ühes võõrkeeles"
+    ],
+    "language": "eesti keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "729920AA-2904-49D5-B7E6-CF0679E2E1A2",
+        "term": "Bakalaureuse Kraad"
+      }
+    ],
+    "name": "Muusikaõpetaja",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "C27C4D3E-2EDE-4634-A7AC-347F1FA5F28F",
+    "description": [
+      "Jazzmuusika eriala pakub kaasaegse jazzi ja improvisatsiooni keskkonnas edumeelset haridust, milles on olulisel kohal nii jazzmuusika traditsiooni omandamine kui innovatiivsuse arendamine. Õppetöö keskmes on tudengi individuaalsus, mille arendamiseks pakub osakond mitmekülgseid võimalusi. On oluline, et iga tudeng oskab leida enda jaoks sobiva tee, omades samas laia silmaringi jazzmuusika minevikust ja olevikust. Igapäevases õppetöös on suur osa ansamblitel, sest koos mängimine ja kommunikatsioon on jazzmuusikas eriti olulised.",
+      "2004. aastal avatud jazzmuusika õppes on olnud väga oluline roll rahvusvahelistel projektidel. Pea iga aasta on osakond korraldanud mõne suure rahvusvahelise kursuse (“Crossing Borders” 2005–2010, “Nomazz Meets the Baltics” 2011–2012, “Girl Power in Jazz” 2014), samuti toimub igal aastal arvukalt õppejõudude ja tudengite vahetusi. 2011. aastal tegid kultuuripealinna jazzresidentuuride projekti raames EMTAs meistriklasse maailmakuulsad muusikud Dave Liebman (saksofon, USA) ja Django Bates (klahvpillid, Inglismaa). EMTA on ka aktiivne IASJ’i (International Association of Schools of Jazz) liige.",
+      "Õppejõudude erinäolisus annab tudengitele võimaluse tutvuda õpingute jooksul jazzi eri tahkudega. Võib-olla just tänu sellele on tudengid viimastel aastatel olnud võidukad ka mitmetel rahvusvahelistel konkurssidel"
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "magister",
+    "outcomes": [
+      "Valdab oma erialainstrumenti, improvisatsiooni, erinevaid stiile ja repertuaari kõrgel rahvusvahelisel tasemel ning suudab oma tehnilisi oskusi rakendada ansamblimängus nii liikme kui juhina, kohaneda erinevate esinemis- ja salvestamisolukordadega, olla koostöövõimeline ja väljendada oma loomingulisi ideid efektiivselt",
+      "Omab süsteemset ülevaadet jazzmuusika või kaasaegse improvisatsiooni arenguloost kuni tänapäevani, tunneb vastavaid struktuure ja põhimõisteid ning on kursis selle kultuurilise ja sotsiaalse taustaga",
+      "on valmis iseseisvaks erialaseks tööks, sh rahvusvahelises keskkonnas, näidates seejuures algatusvõimet, vastutustunnet, juhtimis- ja meeskonnatööoskusi",
+      "On võimeline pädevalt edasi andma oma teadmisi õpetamise, juhendamise või muul teel",
+      "Omab süvendatud teadmisi mõnes muusika või kultuuriettevõtlusega seotud valdkonnas",
+      "On suuteline omandatud teadmisi, oskusi ja kogemusi loominguliselt integreerima ning rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid suuliselt ja kirjalikult esitama ja argumenteerima ning osalema nii erialaspetsialistide kui ka erialaväliste inimeste sellekohastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "Oskab tegutseda eetiliselt keerulistes olukordades, on teadlik oma tegevuse eetilistest aspektidest, võimalustest, piirangutest ja ühiskondlikust rollist ning oskab anda põhjendatud hinnanguid muusikat ja kultuurielu puudutavates küsimustes",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "inglise keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "950CFD8B-39A6-4997-A2E4-51C5A34C2093",
+        "term": "Bakalaureuse kraad"
+      },
+      {
+        "id": "889AE020-F906-4366-9DBE-D9794D4CAFA2",
+        "term": "Sisseastumiseksam"
+      },
+      {
+        "id": "12B61B4B-A122-46C5-BFD9-77EC137C66E1",
+        "term": "kollokvium"
+      }
+    ],
+    "name": "Jazzmuusika",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "C57E17EA-8D45-4423-AE04-837A83DA5F2B",
+    "description": [
+      "Muusikateadus tegeleb muusika ja muusikaelu uurimisega kogu selle mitmekesisuses. Kuidas ja kellele muusikat luuakse, kuidas see inimesele mõjub, mis on oluline muusika kuulajale ning milline on muusika seos ümbritseva maailmaga? Need on vaid mõned küsimused paljudest, millega muusikateadlased oma töös kokku puutuvad.",
+      "EMTA on Eesti olulisim muusika valdkonna kompetentsikeskus ja ainus kõrgkool, kus õpetatakse muusikateadust. Meie õppejõudude ja teadurite hulgas on Eesti silmapaistvamad ja kõrge rahvusvahelise mainega muusikateadlased. Igal semestril toimub ka vähemalt üks intensiivseminar mõne tunnustatud välisõppejõu või teadlase juhendamisel, milles käsitletakse süvitsi mõnd muusikateaduse aktuaalsemat ja põnevamat uurimissuunda. Tudengitele pakutakse ka pidevat individuaalset juhendamist, samuti on neil võimalik ERASMUSe vahetusprogrammi toel läbida osa oma õppeajast mõnes meie paljudest partnerülikoolidest.",
+      "Õppekavas on esindatud kõik tänapäeva muusikateaduse olulisemad suunad: muusika ajalugu, muusikateooria, etnomusikoloogia ja kognitiivne muusikateadus. Uuritakse nii kaasaegset kui ka ajaloolist muusikat ning klassikalise muusikaloo kõrval loetakse erinevaid rahva-, populaar- ja filmimuusika kursusi. Eesti muusikakultuuri vaadeldakse osana laiemast kultuuripraktikast ning võrdluses mujal maailmas toimuvaga."
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "https://eamt.ee/erialad/muusikateadus/muusikateadus/",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "magister",
+    "outcomes": [
+      "Omab süsteemset ülevaadet muusikateaduse erinevatest valdkondadest, uurimismeetoditest ja aktuaalsetest suundumustest, omab põhjalikumat ettekujutust ja uurimistöö kogemust ühes muusikateaduse valdkonnas",
+      "On võimeline nägema ja püstitama muusikateaduslikke uurimisprobleeme nii varasemas kui teda ümbritsevas muusikaelus ning leidma nende lahendamiseks sobivaid meetodeid",
+      "On valmis iseseisvaks erialaseks tööks, sh rahvusvahelises keskkonnas, näidates seejuures algatusvõimet, vastutustunnet, juhtumis- ja meeskonnatööoskusi",
+      "On võimeline pädevalt edasi andma oma teadmisi õpetamise, juhendamise või muul teel",
+      "On võimeline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt integreerima ja rakendama iseseisvas erialases tegevuses",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusikaga seonduvaid probleeme suuliselt ja kirjalikult esitama ja argumenteerima, osalema nii erialaspetsialistide kui ka erialaväliste inimeste sellekohastes aruteludes",
+      "Suudab teha meeskonnatööd nii erialaselt kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "On teadlik oma tegevuse eetilistest aspektidest, võimalustest, piirangutest ja ühiskondlikust rollist ning oskab anda põhjendatud hinnanguid muusikat ja kultuurielu puudutavates küsimustes",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama."
+    ],
+    "language": "eesti keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "9DB956BC-E71A-4360-9C0D-7732FF063858",
+        "term": "Bakalaureuse Kraad"
+      },
+      {
+        "id": "DFBBA7FE-5ED4-47A0-9E2E-F3087B92B5CB",
+        "term": "Essee"
+      },
+      {
+        "id": "26442138-86C8-4F73-959B-B2DE38AE7E7B",
+        "term": "Sisseastumiseksam"
+      },
+      {
+        "id": "B5CF6288-50C6-46EF-B687-F9C19BC0F146",
+        "term": "Kollokvium"
+      }
+    ],
+    "name": "Muusikateadus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "A8454A0B-C033-49B0-9336-63AE6D5C93E1",
+    "description": [
+      "Interpretatsioonipedagoogika õppe missiooniks on koolitada muusikakoolidele väga häid pilliõpetajaid ning hoolitseda juba töötavate õpetajate ametioskuste pideva arendus- ja täiendusvõimaluse eest. Õpe toimub nii bakalaureuse- kui ka magistriastmes. Õpingute käigus omandavad üliõpilased teoreetilisi teadmisi ja praktilisi pedagoogilisi oskusi, et olla valmis edukaks tegutsemiseks instrumendiõpetajana muusikakoolides ja keskastme muusikaõppeasutustes. Pakutav ainevalik annab õppijale head eeldused tulemaks toime tänapäeva töömaailma mitmekesiste ja keerukate pedagoogiliste väljakutsetega. Kuna hea õpetaja vältimatuks eelduseks on ka oma erialainstrumendi meisterlik valdamine, on õppekavades tähtsal kohal interpreedikoolituse ained. Magistriastme lõpetajad saavad Kutseõpetaja tase 7 kutsetunnistuse.",
+      "Interpretatsioonipedagoogika õppe juurde kuulub ka erialadidaktiliste ainete õpetamine muusika interpretatsiooni erialade üliõpilastele toetamaks noorte interpreetide mänguoskusi vajalike teoreetiliste teadmistega ja tutvustamaks neile praktilist pedagoogitööd. Regulaarselt korraldatakse ka rahvusvahelisi konverentse, kus lisaks EMTA õppejõududele esinevad tunnustatud spetsialistid teistest kodu- ja välismaistest õppeasutustest. Samuti toimuvad üliõpilaste konverentsid, kus esitletakse parimaid pedagoogilisi lõputöid.",
+      "Paljud üritused toimuvad koostöös partneritega nagu Eesti Muusikakoolide Liit, Eesti Keelpilliõpetajate Ühing, Eesti Klaveriõpetajate Ühing, Eesti Akordioniliit jt. Ühisüritustena toimuvad erialakonverentsid, külalisõppejõudude eriseminarid ja koolitused, üliõpilaste praktika erialakonkursside žüriides jpm.",
+      "Teadustegevuse üheks väljundiks on kirjastatud publikatsioonid: näiteks artiklikogumik „Interpretatsioonipedagoogika”, O. Silla loengute kogumik „Arutlusi keelpillimängu radadel” ning V. Alumäe, M. Pätsi jt retrospektiivsed väljaanded.",
+      "Interpretatsioonipedagoogika alal tegutsevad väljapaistvad õppejõud. Regulaarne koostöö seob veel paljude teiste EMTA erialadega ning mitmete välisõppejõududega nagu näiteks Mira Martšenko (Moskva keskmuusikakool), Niklas Pokki (Sibeliuse Akadeemia) jt."
+    ],
+    "eap": 120,
+    "spots": 0,
+    "majorWebsite": "https://eamt.ee/erialad/muusikateadus/interpretatsioonipedagoogika/",
+    "type": "koolitus ja Kasvatusteadus",
+    "level": "magister",
+    "outcomes": [
+      "Omab süsteemseid ja laiapõhjalisi üldkasvatusteaduslikke ning ainedidaktilisi teadmisi ja rakenduslikke oskusi tööks instrumendiõpetajana muusikakoolis ja muusikakutseõppeasutuses",
+      "Suudab oma erialainstrumendil kunstiküpselt ja mängutehnilise üleolekuga avalikkuse ees esitada erinevate ajastute muusikat, sealhulgas erineva raskusastmega pedagoogilist repertuaari",
+      "Suudab kavandada, suunata ja reflekteerida nii iseenda kui ka oma õpilaste muusikalist arengut ja muusika vahendusel inimese kui terviku arengut luues selleks sobiliku õpikeskkonna",
+      "On valmis iseseisvaks erialaseks kutsetööks, sh rahvusvahelises keskkonnas, näidates seejuures algatusvõimet, vastutustunnet, juhtimis- ja meeskonnatööoskusi",
+      "Omab süvendatud teadmisi mõnes muusika või kultuuriettevõtlusega seotud valdkonnas, suudab algatada ja läbi viia avalikkusele suunatud erialaseid üritusi",
+      "On suuteline omandatud teadmisi, oskusi ja saadud kogemusi loominguliselt rakendama iseseisvas eri- ja kutsealases tegevuses luues interdistsiplinaarseid seoseid",
+      "On võimeline oma õppekeeles ja vähemalt ühes võõrkeeles muusika- ning instrumendiõpetusega seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid suuliselt ja kirjalikult esitama ja kriitiliselt argumenteerima ning osalema nii erialaspetsialistide kui ka erialaväliste inimeste sellekohastes aruteludes",
+      "Suudab teha meeskonnatööd ja toetada kolleege nii erialases kutsetöös kui ka igapäevaelus, on valmis aktiivselt osalema kodanikuühiskonnas ning suhtuma sallivalt hoiakute ja väärtuste mitmekesisusse",
+      "Oskab tegutseda eetiliselt keerulistes olukordades, on teadlik oma tegevuse eetilistest aspektidest, võimalustest, piirangutest ja ühiskondlikust rollist kutseõpetajana ning oskab anda põhjendatud hinnanguid muusikat, pedagoogikat ja kultuurielu puudutavates küsimustes",
+      "On suuteline omandatud teadmiste ja oskuste taset kriitiliselt hindama, õpinguid jätkama ning ennast pidevalt iseseisvalt nii erialaselt kui üldkultuuriliselt täiendama sh uusimate õppemeetodite, -tehnoloogiate ja õigusaktide valdkondades."
+    ],
+    "language": "eesti keel",
+    "duration": 2,
+    "requirements": [
+      {
+        "id": "46727CFC-E9A8-4403-BD1D-CB20D2FCB867",
+        "term": "Bakalaureuse kraad"
+      },
+      {
+        "id": "28561EEE-7C07-4986-B1C7-A16583A9D6DD",
+        "term": "Sisseastumiseksam"
+      },
+      {
+        "id": "CB2DFF25-C4F2-465B-AE40-D580EB513C2B",
+        "term": "Kutsesobivus katse"
+      }
+    ],
+    "name": "Interpretatsioonipedagoogika",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "7F55AD75-6E56-4991-ACF8-4EFF49429026",
+    "description": [
+      "Doktoriõppe eesmärgiks muusika ja teatrikunsti loomingulistel erialadel on anda võimalus süvendada ja laiendada oma teadmisi ja oskusi ning kujundada magistriõppe lõpetanud muusikust või lavakunsti loominguliste alade esindajast oma ala kõrgprofessionaal ja luua võimalused loome- ja uurimistööd seostades spetsialiseeruda mingis kitsamas interpretatsioonikunsti, teatrikunsti või heliloomingu valdkonnas."
+    ],
+    "eap": 240,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "doktor",
+    "outcomes": [
+      "Doktorikraadi kaitsnud lõpetaja:",
+      "On kõrgprofessionaalne muusik või teatriga seotud loovisik, kes suudab kavandada ja teostada uudseid ja kõrge kunstilise väärtusega loometöid ning iseseisvalt analüüsida ja kriitiliselt hinnata oma eriala arengu jaoks olulisi ja aktuaalseid küsimusi",
+      "On võimeline juhendama üliõpilasi nii loominguliselt kui ka erialaga seotud uurimistöös",
+      "Omab laiapõhjalisi teadmisi ja süsteemset ülevaadet muusikast või teatrikunstist üldiselt ja ajakohaseid teadmisi oma kitsamas interpretatsiooni-, teatrikunsti või heliloomingu valdkonnas",
+      "Mõistab loomingulist tegevust toetava uurimistöö tähendust ning tunneb selle võimalusi ja põhilisi uurimismeetodeid, olles suuteline neid vajadusel edasi arendama ja oma loomingulise või uurimistöö tarbeks kohandama",
+      "Oskab iseseisvalt tegutseda ka rahvusvahelises töö- ja õpikeskkonnas ning osaleda loomingulistes projektides, mis nõuavad juhtimis- ja meeskonnatööoskusi, innovaatilist mõtlemist ning strateegiliste otsuste tegemise võimet",
+      "Mõistab oma loomingulise tegevuse ühiskondlikku rolli ning suudab analüüsida sotsiaalseid norme ja suhteid, neile vastata ning tegutseda vajadusel nende muutmiseks",
+      "On võimeline suuliselt ja kirjalikult esitama muusika või teatri üldisi, oma kitsama eriala ja konkreetse loomingulis-uurimusliku projektiga seonduvaid probleeme nii spetsialistidest auditooriumile kui ka avalikkusega suhtlemisel, argumenteerima ning osalema sellekohastes aruteludes oma õppekeeles ja oma erialal olulises võõrkeeles",
+      "On võimeline arendama rahvusvahelist loomingulist koostööd ning esinema, lavastama või looma muusikat rahvusvahelisele auditooriumile",
+      "Oskab leida vajakajäämisi teadmistes või oskustes ning iseseisvalt korraldada enesetäiendamist."
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "C54F48E2-99C4-4013-B67F-846B86E04334",
+        "term": "Magistri kraad"
+      },
+      {
+        "id": "62754828-EF8A-42D9-A839-633178AA9CC0",
+        "term": "Sisseastumiseksam"
+      },
+      {
+        "id": "AC940471-A4E8-48A1-AEFB-2791763E8F91",
+        "term": "Doktoritöö kavand"
+      }
+    ],
+    "name": "Muusika ja Teatrikunst",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  },
+  {
+    "studyLocation": [
+      "Tallinn"
+    ],
+    "id": "82DD02D2-8B0E-4EFB-B97B-E62F2E4834B8",
+    "description": [
+      "Muusikateaduse eriala doktoriõppe eesmärgiks on kujundada magistriõppe lõpetanud muusikateadlasest iseseisev uurija ning anda võimalus spetsialiseeruda mingis kitsamas muusikateaduse valdkonnas. Doktorikraadiga ametlik haridustee lõpeb, kuid võimalus on osaleda mitmesugustes rahvusvaheliste järeldoktori programmides, mis pakuvad uurimisstipendiume tööks maailma teaduskeskustes."
+    ],
+    "eap": 240,
+    "spots": 0,
+    "majorWebsite": "",
+    "type": "Muusika ja Teatrikunstid",
+    "level": "doktor",
+    "outcomes": [
+      "On võimeline iseseisvalt planeerima teadustööd, püstitama probleeme ja leidma nende lahendamiseks vajalikke meetodeid ja materjali",
+      "On võimeline juhendama üliõpilaste uurimistööd ja on kursis eesti teaduselu korraldamise ja rahastamise põhimõtetega",
+      "Omab laiapõhjalisi teadmisi ja süsteemset ülevaadet muusikateadusest üldiselt ja ajakohaseid teadmisi oma kitsamas uurimisvaldkonnas",
+      "Mõistab valitud muusikateaduse valdkonna ja selle naaberteaduste seoseid ja põhilisi uurimismeetodeid, et neid vajadusel edasi arendada ja oma uurimistöö tarbeks kohandada",
+      "Oskab iseseisvalt tegutseda ka rahvusvahelises töö- ja õpikeskkonnas ning osaleda uurimistöös, mis nõuab juhtimis- ja meeskonnatööoskusi, innovaatilist mõtlemist ning strateegiliste otsuste tegemise võimet",
+      "Suudab analüüsida sotsiaalseid norme ja suhteid, neile vastata ning tegutseda vajadusel nende muutmiseks",
+      "On võimeline suuliselt ja kirjalikult esitama muusikateaduse üldisi, oma kitsama uurimisvaldkonna ja konkreetse uurimistööga seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid nii spetsialistidest auditooriumile kui ka avalikkusega suhtlemisel, argumenteerima ning osalema sellekohastes aruteludes oma õppekeeles ja oma erialal olulises võõrkeeles",
+      "On võimeline avaldama oma uurimistöö tulemusi rahvusvaheliselt eelretsenseeritavates muusikateaduslikes või ka naaberteaduste väljaannetes",
+      "Oskab leida vajakajäämisi teadmistes või oskustes ning iseseisvalt korralda enesetäiendamist, samuti juhendada teiste õppimist nii hariduse ja teaduse kontekstis kui ka laiemal ühiskondlikul tasandil;"
+    ],
+    "language": "eesti keel",
+    "duration": 4,
+    "requirements": [
+      {
+        "id": "D46C24C0-95A8-4E90-9080-2390A7DDA83D",
+        "term": "Magistrikraad"
+      },
+      {
+        "id": "7C425ACA-77B0-41BD-A12C-E53C21AA5611",
+        "term": "Vastuvõtueksam"
+      },
+      {
+        "id": "91CA16EC-5CA7-44BD-B8D7-FC7B60AB0ACA",
+        "term": "Vestlus"
+      }
+    ],
+    "name": "Muusikateadus",
+    "cost": {
+      "amount": 0,
+      "currency": "€",
+      "interval": "full"
+    }
+  }
+]

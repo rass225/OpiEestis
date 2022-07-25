@@ -2,15 +2,15 @@ import SwiftUI
 
 struct SearchNavBar: View {
     @Binding var text: String
-    var placeholder: String
+    let placeholder = OEAppearance.Locale.search.searchPlaceholder
     var body: some View {
         ZStack{
             HStack(spacing: 0){
                 Image.magnifyingGlass
-                    .font(.regularTitle3)
+                    .font(.regularBody)
                     .padding(.leading, 10)
                 CustomTextField(
-                    placeholder: Text(placeholder).foregroundColor(.black),
+                    placeholder: Text(placeholder).foregroundColor(Color.black.opacity(0.5)),
                     text: $text
                 )
                 .frame(maxWidth: .infinity)
@@ -19,31 +19,14 @@ struct SearchNavBar: View {
                     Button(action: { text = "" }) {
                         Image.multiply
                             .padding(8)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(.black)
                     }
                     .padding(.trailing, 6)
                 }
             }.frame(height: 40)
-            .font(.system(size: CustomCellFontSize(), weight: .regular))
-            .foregroundColor(.black)
+            .font(.regularBody)
+            .foregroundColor(text.isEmpty ? Color.black.opacity(0.6) : Color.black)
             
-        }
-//        .frame(height: 40)
-//        .background(Color.gray.opacity(0.2))
-//        .cornerRadius(10)
-//        .padding(.horizontal)
-//        .padding(.bottom, 15)
-//        .background(Color.white)
-    }
-    func CustomCellFontSize() -> CGFloat {
-        var customHeight: CGFloat = 0
-        if Size.height > 900 {
-            customHeight = Size.height / 70
-        }
-        else {
-            customHeight = Size.width / 25
-        }
-        
-        return customHeight
+        }.modifier(SearchBarModifier())
     }
 }

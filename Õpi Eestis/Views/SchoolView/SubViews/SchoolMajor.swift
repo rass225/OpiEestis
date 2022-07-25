@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct SchoolMajor: View {
-    @EnvironmentObject var theme : Theme
+    
     
     let school: School
     
@@ -9,35 +9,28 @@ struct SchoolMajor: View {
     @Binding var majorsCount: Int
     
     @State var majors = [StatEntity]()
-   
+    
     var body: some View {
-        ZStack{
-            NavigationLink(destination: DegreeView(school: school, education: education)) {
-                VStack{
-                    ZStack{
-                        HStack(spacing: 0){
-                            ChartView(majors: $majors, majorsCount: $majorsCount)
-                            StatsView(majors: $majors)
-                        }
-                        HStack{
-                            Spacer()
-                            CustomChevron(color: theme.colorTheme)
-                        }
+        NavigationLink(destination: DegreeView(school: school, education: education)) {
+            VStack(alignment: .leading, spacing: 0){
+                HStack{
+                    VStack(alignment: .leading, spacing: 0){
+                        Header(type: .majors, school: school)
+                        SubHeader(type: .majors(count: majorsCount))
                     }
-                }.padding(.vertical, 20)
+                    Spacer()
+                    Chevron(type: .normal)
+                }
+                StatsView(majors: $majors)
+                ChartView(majors: $majors, majorsCount: $majorsCount)
+                Divider().padding(.top, 20)
             }
-            .frame(maxWidth: .infinity)
-            .background(Color.white)
-            .cornerRadius(12)
-            .miniShadow()
-            .padding(.horizontal)
-            .padding(.top)
-        }
-        .onAppear {
-            DispatchQueue.main.async {
-               majors = getLevelStats(school: school)
+        }.padding(.horizontal, 25)
+            .onAppear {
+                DispatchQueue.main.async {
+                    majors = getLevelStats(school: school)
+                }
             }
-        }
     }
 }
 
@@ -46,24 +39,40 @@ extension SchoolMajor {
     private struct ChartView: View {
         @Binding var majors: [StatEntity]
         @Binding var majorsCount: Int
+        let maxWidth = UIScreen.main.bounds.width - 50
         var body : some View {
             ZStack {
-                ForEach(majors.indices, id: \.self) { index in
-                    Circle()
-                        .trim(from: index == 0 ? 0.0 : majors[index-1].value/100, to: majors[index].value/100)
-                        .stroke(majors[index].color, lineWidth: 13)
-                        .frame(width: 80, height: 80)
+                //                ForEach(majors.indices, id: \.self) { index in
+                //                    Circle()
+                //                        .trim(from: index == 0 ? 0.0 : majors[index-1].value/100, to: majors[index].value/100)
+                //                        .stroke(majors[index].color, lineWidth: 13)
+                //                        .frame(width: 80, height: 80)
+                //                }
+                HStack(spacing: 0){
+                    ForEach(majors.indices, id: \.self) { index in
+                        if index == 0 {
+                            Rectangle()
+                                .frame(width: maxWidth / 100 * majors[index].percentage)
+                                .frame(height: 13)
+                                .foregroundColor(majors[index].color)
+                                .cornerRadiusCustom(10, corners: majors.count == 1 ? .allCorners : [.topLeft, .bottomLeft])
+                        } else if index == majors.count - 1 {
+                            Rectangle()
+                                .frame(width: maxWidth / 100 * majors[index].percentage)
+                                .frame(height: 13)
+                                .foregroundColor(majors[index].color)
+                                .cornerRadiusCustom(10, corners: [.topRight, .bottomRight])
+                        } else {
+                            Rectangle()
+                                .frame(width: maxWidth / 100 * majors[index].percentage)
+                                .frame(height: 13)
+                                .foregroundColor(majors[index].color)
+                            
+                        }
+                        
+                    }
                 }
-                VStack(spacing: 0){
-                    Text("\(majorsCount)")
-                        .font(.boldTitle3)
-                        .foregroundColor(.black)
-                    Text(Locale.major)
-                        .padding(.top, -3)
-                        .font(.regularCaption)
-                        .foregroundColor(.halfBlack)
-                }
-            }.padding(.horizontal, 30)
+            }
         }
     }
     
@@ -78,7 +87,7 @@ extension SchoolMajor {
                                 .fill(item.color)
                                 .frame(width: 13, height: 13, alignment: .center)
                             Text("\(item.count)")
-                                .font(.boldCallout)
+                                .font(.semiBoldCallout)
                                 .frame(width: 25, alignment: .leading)
                             Text(item.name.rawValue.capitalizingFirstLetter())
                                 .font(.regularCaption)
@@ -86,7 +95,7 @@ extension SchoolMajor {
                         }.foregroundColor(.black)
                     }
                 }
-            }
+            }.padding(.bottom)
         }
     }
     
@@ -129,11 +138,11 @@ extension SchoolMajor {
         
         
         levelStats = LevelData(
-            bachelor: StatEntity(name: .bachelor, count: counts.bachelor, color: theme.levelColors.bachelor, percentage: percentages.bachelor, value: 0),
-            master: StatEntity(name: .masters, count: counts.master, color: theme.levelColors.master, percentage: percentages.master, value: 0),
-            doctor: StatEntity(name: .doctor, count: counts.doctor, color: theme.levelColors.doctor, percentage: percentages.doctor, value: 0),
-            applied: StatEntity(name: .applied, count: counts.applied, color: theme.levelColors.applied, percentage: percentages.applied, value: 0),
-            kutse: StatEntity(name: .kutseharidus, count: counts.kutse, color: theme.levelColors.kutse, percentage: percentages.kutse, value: 0)
+            bachelor: StatEntity(name: .bachelor, count: counts.bachelor, color: school.levels.bachelor, percentage: percentages.bachelor, value: 0),
+            master: StatEntity(name: .masters, count: counts.master, color:  school.levels.master, percentage: percentages.master, value: 0),
+            doctor: StatEntity(name: .doctor, count: counts.doctor, color:  school.levels.doctor, percentage: percentages.doctor, value: 0),
+            applied: StatEntity(name: .applied, count: counts.applied, color:  school.levels.applied, percentage: percentages.applied, value: 0),
+            kutse: StatEntity(name: .kutseharidus, count: counts.kutse, color:  school.levels.kutse, percentage: percentages.kutse, value: 0)
         )
         
         
@@ -154,14 +163,12 @@ extension SchoolMajor {
         }
         
         var value : CGFloat = 0
-            
+        
         for i in 0..<levels.count {
             value += levels[i].percentage
             levels[i].value = value
         }
-//        DispatchQueue.main.async {
-//            majors = levels
-//        }
+        
         return levels
     }
     func levelCount(majors: [majorsMinors]) -> LevelStats {
