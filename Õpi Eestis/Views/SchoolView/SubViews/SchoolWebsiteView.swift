@@ -16,7 +16,7 @@ struct SchoolWebsiteView: View {
                     Chevron(type: .link)
                 }
                 Divider()
-            }.padding(.horizontal, 25)
+            }.padding(.horizontal, 24)
         }
     }
 }

@@ -27,7 +27,7 @@ struct SchoolImage: View {
         .frame(maxWidth: .infinity)
         .cornerRadiusCustom(25, corners: [.allCorners])
         .defaultShadow()
-        .padding(.horizontal)
-        .padding(.top, 5)
+        .padding(.horizontal, 12)
+        .padding(.top, 8)
     }
 }

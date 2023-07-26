@@ -1,3 +1,5 @@
+import SwiftUI
+
 struct Cost: Hashable, Codable {
     var amount: Int
     var currency: currency
@@ -7,6 +9,15 @@ struct Cost: Hashable, Codable {
 enum currency: String, Codable {
     case euro = "€"
     case dollar = "$"
+    
+    var icon: Image {
+        switch self {
+        case .euro:
+            return .euroFill
+        case .dollar:
+            return .dollarSign
+        }
+    }
 }
 
 enum interval: String, Codable {
@@ -14,4 +25,17 @@ enum interval: String, Codable {
     case year
     case full
     case eap
+    
+    var label: String {
+        switch self {
+        case .semester:
+            return OEAppearance.Locale.semester
+        case .year:
+            return OEAppearance.Locale.year
+        case .full:
+            return OEAppearance.Locale.fullPayment
+        case .eap:
+            return "/" + OEAppearance.Locale.eap
+        }
+    }
 }

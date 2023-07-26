@@ -25,7 +25,7 @@ struct SocialMediaView: View {
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(.horizontal, 25)
+        .padding(.horizontal, 24)
         .foregroundColor(.black)
     }
 }

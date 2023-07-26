@@ -30,8 +30,8 @@ struct SchoolSummaryView: View {
             
             .foregroundColor(.black)
             .font(.regularSubHeadline)
-        }.buttonStyle(PlainButtonStyle())
-        .padding(.horizontal, 25)
+        }.buttonStyle(.plain)
+        .padding(.horizontal, 24)
         
     }
     

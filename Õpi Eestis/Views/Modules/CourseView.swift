@@ -3,28 +3,23 @@ import SwiftUI
 struct CourseView: View {
     let major: majorsMinors
     let school: School
-    @State var eapLabel = ""
+    
     var body: some View {
-        ZStack{
-            Color.whiteDim1.ignoresSafeArea()
-            VStack(spacing: 0){
-                Form{
-                    ForEach(major.modules!) { item in
-                        ModuleCell(item: item, eapLabel: eapLabel, color: school.color)
-                    }.font(.regularSubHeadline)
-                        .accentColor(school.color)
-                }
-            }
-        }.onAppear{
-            eapLabel = major.hasEap() ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
+        Form{
+            ForEach(major.modules!) { item in
+                ModuleCell(item: item, eapLabel: major.eapLocale, color: school.color)
+            }.font(.regularSubHeadline)
+                .accentColor(school.color)
         }
-       
+        .scrollContentBackground(.hidden)
+        .background(Color.whiteDim1)
         .navigationBarBackButtonHidden(true)
         .toolbar{
             AppToolbarItem(.dismiss, color: school.color)
             AppToolbarItem(.title(type: .course), color: school.color)
         }
     }
+    
     struct ModuleCell: View {
         let item: Module
         let eapLabel: String
@@ -93,12 +88,10 @@ struct CourseView: View {
                 HStack(spacing: 3){
                     Text(eap.isInt() ? "\(Int(eap))" : "\(eap, specifier: "%.1f")")
                     Text("\(eapLabel)")
-                }.foregroundColor(color)
+                }
+                .foregroundColor(color)
                 .font(.regularSubHeadline)
             }
         }
     }
 }
-
-
-

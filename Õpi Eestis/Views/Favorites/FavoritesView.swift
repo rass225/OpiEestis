@@ -10,69 +10,31 @@ struct FavoritesView: View {
     let isNavigated: Bool
     
     var body: some View {
-        ZStack{
-            NavigationLink(destination: destination, isActive: $toMajors) { EmptyView() }
-            Color.whiteDim1.ignoreEdges(edge: .all)
+        VStack{
             if favorites.isEmpty {
-                VStack(spacing: 10){
-                    Image(systemName: "exclamationmark.triangle").font(.largeTitle)
-                    Text("Sul ei ole ühtegi lemmikut lisatud").font(.regularSubHeadline)
-                }.foregroundColor(.darkGray)
-                
+                emptyView()
             } else {
-                ScrollView{
-                    ForEach(favorites, id: \.self) { schools in
-                        VStack(alignment: .leading, spacing: 7){
-                            HStack(spacing: 3){
-                                Image(schools.school.logo.rawValue)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 20, height: 20, alignment: .leading)
-                                    .foregroundColor(schools.school.color)
-                                    
-                                Text(schools.school.name.rawValue)
-                                    .font(.semiBoldBody)
-                                    .foregroundColor(.black)
-                               
-                            }
-                            
-                            VStack(alignment: .leading, spacing: 3){
-                                ForEach(schools.majors, id: \.self) { major in
-                                    NavigationLink(destination: MajorView(isFavorite: true, major: major, school: schools.school)) {
-                                        HStack{
-                                            VStack(alignment: .leading, spacing: 3) {
-                                                Text(major.name)
-                                                    .font(.regularCallout)
-                                                    .foregroundColor(.black)
-                                                Text(major.level.rawValue.capitalizingFirstLetter())
-                                                    .font(.regularCaption)
-                                                    .foregroundColor(.darkGray)
-                                            }
-                                            Spacer()
-                                            Chevron(type: .normal)
-                                        }
-                                        .frame(maxWidth: .infinity, alignment: .leading)
-                                        .padding(.vertical, 10)
-                                        .padding(.horizontal, 10)
-                                        .background(Color.white)
-                                        .cornerRadius(10)
-                                    }
-                                }
-                            }
+                List(favorites, id: \.self) { favorite in
+                    Section(content: {
+                        ForEach(favorite.majors, id: \.self) { major in
+                            majorCell(major, schools: favorite)
                         }
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.vertical, 5)
-                        .padding(.top, 10)
-                    }.padding()
-                }.frame(maxWidth: .infinity, alignment: .leading)
+                    }, header: {
+                        schoolHeader(favorite)
+                    })
+                }
             }
         }
+        .background(Color.whiteDim1)
         .onAppear{
             favorites = database.retrieveAllFavorites()
         }
+        .navigationDestination(isPresented: $toMajors) {
+            destination
+        }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
-        .navigationBarHidden(false)
+        .navigationBarHidden(isNavigated ? false : true)
         .toolbar {
             AppToolbarItem(.title(type: .favorites), color: .oeBlue)
             AppToolbarItem(.conditionalDismiss(isAvailable: isNavigated), color: .oeBlue)
@@ -82,5 +44,44 @@ struct FavoritesView: View {
     func goToMajor(school: School, major: majorsMinors) {
         destination = AnyView(MajorView(isFavorite: true, major: major, school: school))
         toMajors.toggle()
+    }
+    
+    @ViewBuilder
+    func emptyView() -> some View {
+        VStack(spacing: 10){
+            Image(systemName: "exclamationmark.triangle").font(.largeTitle)
+            Text("Sul ei ole ühtegi lemmikut lisatud").font(.regularSubHeadline)
+        }.foregroundColor(.darkGray)
+    }
+    
+    @ViewBuilder
+    func majorCell(_ major: majorsMinors, schools: Favorites) -> some View {
+        NavigationLink(destination: MajorView(isFavorite: true, major: major, school: schools.school)) {
+            HStack{
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(major.name)
+                        .font(.regularCallout)
+                        .foregroundColor(.black)
+                    Text(major.level.rawValue.capitalizingFirstLetter())
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .foregroundColor(schools.school.color)
+                }
+            }
+        }
+    }
+    
+    @ViewBuilder
+    func schoolHeader(_ favorite: Favorites) -> some View {
+        HStack(spacing: 3){
+            Image(favorite.school.logo.rawValue)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20, height: 20, alignment: .leading)
+                .foregroundColor(favorite.school.color)
+            Text(favorite.school.name.rawValue)
+                .font(.mediumCallout)
+                .foregroundColor(.black)
+        }
     }
 }

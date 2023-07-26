@@ -4,38 +4,31 @@ import MapKit
 struct SchoolListView: View {
     let schools = Universities()
    
-    @State var pickedSchool = School(name: .ebs, description: [], location: Location(city: .undefined, aadress: "", latitude: 0, longitude: 0, mapLink: .undefined, branches: []), website: "", students: 0, contact: ContactInfo(phonenumber: "", address: "", email: ""), socialMedia: [], logo: .undefined, image: .undefined, imageUrls: [""], internationalStudents: 0, worldRanking: 0, vastuvõtt: [])
+    @State var pickedSchool = School(name: .ebs, description: ["s"], location: Location(city: .undefined, aadress: "", latitude: 0, longitude: 0, mapLink: .undefined, branches: []), website: "", students: 0, contact: ContactInfo(phonenumber: "", address: "", email: ""), socialMedia: [], logo: .undefined, image: .undefined, imageUrls: [""], internationalStudents: 0, worldRanking: 0, vastuvõtt: [])
     @State var toAboutActive = false
     @State var toSchoolActive = false
     
     var body: some View {
-            ZStack{
-                NavigationLink(destination: AboutView(), isActive: $toAboutActive) { EmptyView() }
-                NavigationLink(destination: SchoolView(school: pickedSchool), isActive: $toSchoolActive) { EmptyView() }
-                Color.whiteDim1.edgesIgnoringSafeArea(.all)
-                VStack(spacing: 0){
-                        ScrollView {
-                            VStack(spacing: 0){
-                                ForEach(schools.universities.indices, id: \.self) { index in
-                                    Button(action: {
-                                        pickedSchool(name: schools.universities[index].name) {
-                                            toSchoolActive.toggle()
-                                        }
-                                    }) {
-                                        SchoolCell(school: schools.universities[index])
-                                    }
-                                }
-                            }
-                            .padding(.top, 10)
-                            .padding(.bottom, 20)
-                        }
+        NavigationStack {
+            List(schools.universities.indices, id: \.self) { index in
+                Button(action: {
+                    pickedSchool(name: schools.universities[index].name) {
+                        toSchoolActive.toggle()
+                    }
+                }) {
+                    SchoolCell(school: schools.universities[index])
                 }
-                .navigationBarTitleDisplayMode(.inline)
-                .navigationBarHidden(false)
+                .listRowInsets(.init(top: 8, leading: 0, bottom: 8, trailing: 16))
             }
-            .toolbar{
-                AppToolbarItem(.toAbout(toggle: $toAboutActive), color: .oeBlue)
-            }
+            .scrollContentBackground(.hidden)
+            .background(Color.whiteDim1)
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
+            .navigationDestination(
+                isPresented: $toSchoolActive,
+                destination: { SchoolView(school: pickedSchool) }
+            )
+        }
     }
 }
 

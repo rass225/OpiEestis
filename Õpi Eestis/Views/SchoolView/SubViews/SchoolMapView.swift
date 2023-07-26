@@ -17,7 +17,6 @@ struct SchoolMapView: View {
                     VStack(alignment: .leading, spacing: 0){
                         Header(type: .location, school: school)
                         SubHeader(type: .location(address: school.location.aadress, city: school.location.city))
-                       
                     }
                     Spacer()
                     Chevron(type: .link)
@@ -39,7 +38,7 @@ struct SchoolMapView: View {
             .padding(.bottom, 10)
             Divider().padding(.top)
         }
-        .padding(.horizontal, 25)
+        .padding(.horizontal, 24)
         
        
         .onAppear{

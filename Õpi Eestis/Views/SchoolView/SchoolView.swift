@@ -7,25 +7,31 @@ struct SchoolView: View {
     @State var majorsCount = 0
     @State var education: [majorsMinors] = []
     var body: some View {
-        VStack{
-            ScrollView{
-                VStack(spacing: 0){
-                    SchoolImage(school: school)
-                    SchoolStatistics(school: school, education: $education)
-                    SchoolSummaryView(school: school)
-                    SchoolMajor(school: school, education: $education, majorsCount: $majorsCount)
-                    SchoolMapView(school: school)
-                    SchoolWebsiteView(school: school)
-                    SchoolContact(school: school)
-                    SchoolAdmissionView(school: school)
-                    SocialMediaView(school: school)
-                }.padding(.bottom,60)
-            }
-            .background(Color.white)
-            .padding(.top, 10)
+        ScrollView(showsIndicators: false){
+            VStack(spacing: 0){
+                Text(school.name.rawValue.capitalized)
+                    .font(.body)
+                    .fontWeight(.medium)
+                    .padding(.vertical, 8)
+                SchoolImage(school: school)
+                SchoolStatistics(
+                    school: school,
+                    education: $education
+                )
+                SchoolMajor(
+                    school: school,
+                    education: $education,
+                    majorsCount: $majorsCount
+                )
+                SchoolSummaryView(school: school)
+                SchoolMapView(school: school)
+                SchoolWebsiteView(school: school)
+                SchoolContact(school: school)
+                SchoolAdmissionView(school: school)
+                SocialMediaView(school: school)
+            }.padding(.bottom,60)
         }
         .background(Color.white)
-        .ignoreEdges(edge: .bottom)
         .onAppear{ getEducation(schoolName: school.name) }
         .toolbar{
             AppToolbarItem(.dismiss, color: school.color)

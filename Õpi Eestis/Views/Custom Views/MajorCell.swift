@@ -6,35 +6,19 @@ struct MajorCell: View {
     let school: School
     let isFavorite: Bool
     var body: some View {
-        VStack(alignment: .leading, spacing: 2){
-            HStack(alignment: .top){
-                Text(item.name)
-                    .font(.mediumBody)
-                    .frame(alignment: .leading)
-                    .multilineTextAlignment(.leading)
-                    .padding(.top, 15)
-                Spacer()
-                if isFavorite {
-                    Image.starFill
-                        .resizable()
-                        .frame(width: 16, height: 16)
-                        .foregroundColor(school.color)
-                        .padding(.top, 8)
-                        .padding(.trailing, 8)
-                }
-            }
+        VStack(alignment: .leading, spacing: 2) {
+            Text(item.name)
+                .font(.mediumCallout)
+                .frame(alignment: .leading)
+                .multilineTextAlignment(.leading)
+                .foregroundColor(.black)
             Text(item.level.rawValue.capitalizingFirstLetter())
                 .font(.mediumSubHeadline)
                 .foregroundColor(school.color)
-        }.frame(maxWidth: .infinity, alignment: .leading)
-        
-        .padding(.bottom, 20)
-        .padding(.leading, 16)
-        .foregroundColor(.black)
-        .background(Color.white)
-        .cornerRadius(12)
-        .padding(.horizontal)
-        .padding(.top, 8)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.vertical, 8)
+        .badge(badge())
     }
     
     func getDuration() -> String {
@@ -43,6 +27,15 @@ struct MajorCell: View {
         } else {
             let formatted = String(format: "%.1f", item.duration)
             return formatted
+        }
+    }
+    
+    func badge() -> Text? {
+        if isFavorite {
+            return Text(Image(systemName: "heart.fill"))
+                .foregroundColor(school.color)
+        } else {
+            return nil
         }
     }
 }

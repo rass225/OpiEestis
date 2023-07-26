@@ -10,18 +10,18 @@ struct MarkerView: View {
         ZStack{
             rainDrop()
                 .foregroundColor(color)
-                .offset(x: 6, y: 38)
+                .offset(x: 8, y: 43)
             ZStack{
                 Circle()
-                    .frame(width: 45, height: 45)
+                    .frame(width: 50, height: 50)
                     .foregroundColor(color)
                 Circle()
-                    .frame(width: 40, height: 40)
+                    .frame(width: 45, height: 45)
                     .foregroundColor(Color.white)
                 Image(logo)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 34, height: 34)
+                    .frame(width: 40, height: 40)
             }
         }
     }

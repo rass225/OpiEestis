@@ -43,7 +43,7 @@ struct SchoolStatistic: View {
         HStack(alignment: .center, spacing: 5){
             image
                 .foregroundColor(school.color)
-                .font(.callout)
+                .font(.body)
             VStack(alignment: .leading, spacing: 0){
                 Text(topText)
                     .font(.semiBoldBody)

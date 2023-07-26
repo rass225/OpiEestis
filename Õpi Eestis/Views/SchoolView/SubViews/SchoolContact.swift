@@ -22,7 +22,7 @@ struct SchoolContact: View {
                     Chevron(type: .normal)
                 }
                 
-                .padding(.horizontal, 25)
+                .padding(.horizontal, 24)
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
             .confirmationDialog(Text(school.name.rawValue), isPresented: $isPopoverOpen, titleVisibility: .visible) {
@@ -38,10 +38,7 @@ struct SchoolContact: View {
                 }
             }
             .disabled(!MFMailComposeViewController.canSendMail())
-                .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name)}
-//            .confirmationDialog
-            
-            
+                .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name)} 
         } else {
             // Fallback on earlier versions
         }

@@ -25,12 +25,13 @@ struct SchoolMajor: View {
                 ChartView(majors: $majors, majorsCount: $majorsCount)
                 Divider().padding(.top, 20)
             }
-        }.padding(.horizontal, 25)
-            .onAppear {
-                DispatchQueue.main.async {
-                    majors = getLevelStats(school: school)
-                }
+        }
+        .padding(.horizontal, 24)
+        .onAppear {
+            DispatchQueue.main.async {
+                majors = getLevelStats(school: school)
             }
+        }
     }
 }
 

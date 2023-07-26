@@ -12,8 +12,6 @@ struct OpiEestisApp: App {
     @ObservedObject var appState = AppState()
       
     init(){
-        navigationBarAppearance()
-        tableViewAppearance()
         segmentControlAppearance()
     }
     
@@ -23,32 +21,9 @@ struct OpiEestisApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(appState)
-                .statusBar(hidden: true)
+//                .statusBar(hidden: true)
                 
         }
-    }
-    
-    func navigationBarAppearance() {
-        let navBarAppearance = UINavigationBarAppearance()
-        navBarAppearance.configureWithDefaultBackground()
-        navBarAppearance.backgroundColor = .white.withAlphaComponent(1)
-        navBarAppearance.shadowColor = .clear
-        navBarAppearance.shadowImage = UIImage()
-        navBarAppearance.titleTextAttributes = [.font : UIFont.systemFont(ofSize: customTitleFont(), weight: UIFont.Weight.regular), .foregroundColor : UIColor.black.withAlphaComponent(1)]
-        let buttonAppearance = UIBarButtonItemAppearance(style: .plain )
-        buttonAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.black]
-        navBarAppearance.buttonAppearance = buttonAppearance
-        
-        UINavigationBar.appearance().standardAppearance = navBarAppearance
-        UINavigationBar.appearance().compactAppearance = navBarAppearance
-        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-      UINavigationBar.appearance().tintColor = UIColor.black
-    }
-    
-    func tableViewAppearance() {
-        UITableView.appearance().backgroundColor = .clear
-        UITableViewCell.appearance().backgroundColor = .white
-        UITableView.appearance().separatorStyle = .none
     }
     
     func segmentControlAppearance() {

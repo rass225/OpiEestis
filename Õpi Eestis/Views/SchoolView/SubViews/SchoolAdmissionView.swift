@@ -10,7 +10,7 @@ struct SchoolAdmissionView: View {
             }
             Divider()
         }
-        .padding(.horizontal, 25)
+        .padding(.horizontal, 24)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 }

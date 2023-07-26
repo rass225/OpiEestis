@@ -22,9 +22,11 @@ struct SchoolStatistics: View {
             Spacer()
             SchoolStatistic(label: .location, school: school, majors: education)
             Spacer()
-        }.padding(.top, 30)
+        }
+        .padding(.top, 30)
+        .padding(.vertical, 4)
         Divider()
             .padding(.top, 25)
-            .padding(.horizontal, 25)
+            .padding(.horizontal, 24)
     }
 }

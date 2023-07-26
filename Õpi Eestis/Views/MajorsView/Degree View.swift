@@ -12,43 +12,35 @@ struct DegreeView: View {
     @ObservedObject var presenter = UserDefaultManager()
     @State var favorites = [majorsMinors]()
     var body: some View {
-        ZStack{
-            Color.whiteDim1.ignoreEdges(edge: .bottom)
-            VStack(spacing: 0){
-                VStack(spacing: 0){
-                    if isSearching {
-                        SearchNavBar(text: $searchText)
-                    }
-                    ScrollView(.horizontal, showsIndicators: false){
-                        HStack(spacing: 0){
-                            ForEach(levels()) { item in
-                                Button(action: {
-                                    didSelectLevel(level: item)
-                                }) {
-                                    SelectionView(school: school, item: item, isSearching: $isSearching, selectedLevel: $selectedLevel)
-                                }
-                            }
+        VStack(spacing: 0) {
+            VStack(spacing: 0) {
+                if isSearching {
+                    SearchNavBar(text: $searchText)
+                }
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 0) {
+                        ForEach(levels()) { item in
+                            levelCell(item)
                         }
-                        .padding(.horizontal)
-                        .padding(.top, 5)
-                        .frame(maxWidth: .infinity, alignment: .trailing)
                     }
-                    Divider().background(Color.mediumGray)
-                }.background(Color.white)
-                
-                ScrollView{
-                    VStack(spacing: 0){
-                        ForEach(selectedMajors()) { item in
-                            let isFavorite: Bool = favorites.contains(item)
-                            NavigationLink(destination: MajorView(isFavorite: isFavorite, major: item, school: school)) {
-                                MajorCell(item: item, school: school, isFavorite: isFavorite)
-                            }
-                        }
-                    }.padding(.top)
+                    .padding(.horizontal)
+                    .padding(.top, 5)
+                    .frame(maxWidth: .infinity, alignment: .trailing)
+                }
+                Divider().background(Color.mediumGray)
+            }.background(Color.white)
+            List(selectedMajors()) { item in
+                let isFavorite: Bool = favorites.contains(item)
+                NavigationLink(destination: MajorView(
+                    isFavorite: isFavorite,
+                    major: item,
+                    school: school
+                )) {
+                    MajorCell(item: item, school: school, isFavorite: isFavorite)
                 }
             }
         }
-        .toolbar{
+        .toolbar {
             AppToolbarItem(.dismiss, color: school.color)
             AppToolbarItem(.sort(toggle: $isAscending), color: school.color)
             AppToolbarItem(.search(toggle: $isSearching), color: school.color)
@@ -56,12 +48,28 @@ struct DegreeView: View {
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear{
-           favorites = presenter.retrieveFavorites(school: school.name)
+        .onAppear {
+            favorites = presenter.retrieveFavorites(school: school.name)
         }
-        .onDisappear{
+        .onDisappear {
             isSearching = false
             searchText = ""
+        }
+    }
+}
+
+private extension DegreeView {
+    @ViewBuilder
+    private func levelCell(_ level: SelectedLevel) -> some View {
+        Button(action: {
+            didSelectLevel(level: level)
+        }) {
+            SelectionView(
+                school: school,
+                item: level,
+                isSearching: $isSearching,
+                selectedLevel: $selectedLevel
+            )
         }
     }
 }
@@ -77,22 +85,22 @@ extension DegreeView {
         var body : some View {
             VStack(spacing: 3) {
                 Text(item.title)
-                    .font(.mediumBody)
+                    .font(.mediumCallout)
                     .padding(.horizontal, 12)
                     .padding(.top, 8)
                     .foregroundColor(selectedLevel == item.level.rawValue ? school.color : .black)
                 if selectedLevel == item.level.rawValue {
                     Rectangle()
-                       .frame(width: 65, height: 3)
-                       .foregroundColor(school.color)
-                       .cornerRadiusCustom(50, corners: [.topLeft, .topRight])
+                        .frame(width: 65, height: 3)
+                        .foregroundColor(school.color)
+                        .cornerRadiusCustom(50, corners: [.topLeft, .topRight])
                 } else {
                     VStack{
                         
                     } .frame(width: 65, height: 3)
-                       
+                    
                 }
-            } 
+            }
         }
     }
     
@@ -157,7 +165,6 @@ extension DegreeView {
             selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.doctor, level: .doctor, majors: doctor))
         }
         
-        
         return selectedLevels
     }
     
@@ -183,6 +190,3 @@ extension DegreeView {
         selectedLevel = level.level.rawValue
     }
 }
-
-
-

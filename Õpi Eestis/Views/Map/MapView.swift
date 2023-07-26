@@ -8,35 +8,32 @@ struct MapView: View {
     @State var toAboutActive = false
     @State var toSchoolActive = false
     var body: some View {
-        
-        ZStack(alignment: .top){
-            NavigationLink(destination: SchoolView(school: pickedSchool), isActive: $toSchoolActive) {
-                EmptyView()
-            }
-            Map(coordinateRegion: $region, annotationItems: schools.map) { item in
-                MapAnnotation(
-                    coordinate: item.getCoordinates(),
-                    anchorPoint: CGPoint(x: 0.5, y: 1)
-                ) {
-                    Button(action: {
-                        pickedSchool(name: item.name) {
-                            toSchoolActive.toggle()
-                        }
-                    }) {
-                        if item.isPrimary {
-                            MarkerView(color: item.color, logo: item.logo)
-                        } else {
-                            littleMarker(color: item.color, logo: item.logo)
-                        }
+        Map(coordinateRegion: $region, annotationItems: schools.map) { item in
+            MapAnnotation(
+                coordinate: item.getCoordinates(),
+                anchorPoint: CGPoint(x: 0.5, y: 1)
+            ) {
+                Button(action: {
+                    pickedSchool(name: item.name) {
+                        toSchoolActive.toggle()
+                    }
+                }) {
+                    if item.isPrimary {
+                        MarkerView(color: item.color, logo: item.logo)
+                    } else {
+                        littleMarker(color: item.color, logo: item.logo)
                     }
                 }
             }
-            .frame(maxWidth: .infinity)
-            .frame(maxHeight: .infinity)
-            .ignoreEdges(edge: .top)
-            .navigationBarHidden(true)
-            Logo().padding(.top, 4)
         }
+        .frame(maxWidth: .infinity)
+        .frame(maxHeight: .infinity)
+        .ignoreEdges(edge: .top)
+        .navigationBarHidden(true)
+        .navigationDestination(isPresented: $toSchoolActive) {
+            SchoolView(school: pickedSchool)
+        }
+        
     }
     
     func schoolLocation() {

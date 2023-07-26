@@ -40,6 +40,10 @@ struct majorsMinors: Hashable, Codable, Identifiable {
         return true
     }
     
+    var eapLocale: String {
+        hasEap() ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
+    }
+    
     func isFavorite(school: School) -> Bool {
         
         let decoder = JSONDecoder()

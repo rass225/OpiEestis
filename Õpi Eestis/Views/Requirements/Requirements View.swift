@@ -3,33 +3,46 @@ import SwiftUI
 struct Requirements_View: View {
     let requirements: [Requirements]
     let school: School
-    let header = "Protsendiga tähistatud kriteeriumid on sisseastumisprotsessiga seotud. Ülejäänud vastuvõtutingimused on eelduseks kandideerimisel."
+    let footer = "Protsendiga tähistatud kriteeriumid on sisseastumisprotsessiga seotud. Ülejäänud vastuvõtutingimused on eelduseks kandideerimisel."
     
     var body: some View {
-        ZStack{
-            Color.whiteDim1.edgesIgnoringSafeArea(.all)
-            Form{
-                Section(footer: Text(header)){
-                    ForEach(requirements) { item in
-                        HStack{
-                            Text(item.term)
-                            Spacer()
-                            if item.percentage != nil {
-                                Text("\(item.percentage!)%")
-                            }
-                        }.foregroundColor(.black)
-                            .font(.regularSubHeadline)
-                    }
-                }
-            }
+        Form{
+            Section(
+                content: contentView,
+                footer: footerView
+            )
         }
-        .onAppear{ UIScrollView.appearance().isScrollEnabled = false  }
-        .onDisappear{ UIScrollView.appearance().isScrollEnabled = true }
+        .scrollContentBackground(.hidden)
+        .background(Color.whiteDim1)
         .navigationBarBackButtonHidden(true)
         .toolbar{
             AppToolbarItem(.dismiss, color: school.color)
             AppToolbarItem(.title(type: .requirements), color: school.color)
         }
+    }
+    
+    @ViewBuilder
+    func footerView() -> some View {
+        Text(footer)
+    }
+    
+    @ViewBuilder
+    func contentView() -> some View {
+        ForEach(requirements) { item in
+            requirementCell(item)
+        }
+    }
+    
+    @ViewBuilder
+    func requirementCell(_ requirement: Requirements) -> some View {
+        HStack{
+            Text(requirement.term)
+            Spacer()
+            if requirement.percentage != nil {
+                Text("\(requirement.percentage!)%")
+            }
+        }.foregroundColor(.black)
+            .font(.regularSubHeadline)
     }
 }
 

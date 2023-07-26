@@ -9,11 +9,11 @@ struct SchoolCell: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60, height: 60)
-                .padding(.leading, 7)
-                .padding(.trailing, 10)
+                .padding(.horizontal, 10)
             VStack(alignment: .leading, spacing: 5){
                 Text(school.name.rawValue)
-                    .font(.semiBoldBody)
+                    .font(.callout)
+                    .fontWeight(.medium)
                     .frame(alignment: .leading)
                     .multilineTextAlignment(.leading)
                     .foregroundColor(.black)
@@ -22,12 +22,6 @@ struct SchoolCell: View {
                     .foregroundColor(.darkGray)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.top)
-            .padding(.bottom)
         }
-        .background(Color.white)
-        .cornerRadius(12)
-        .padding(.horizontal)
-        .padding(.top, 10)
     }
 }
