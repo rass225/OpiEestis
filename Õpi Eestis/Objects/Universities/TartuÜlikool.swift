@@ -13,10 +13,10 @@ var tartuÜlikool = School(
             Branch(city: .viljandi, address: "Posti 1", latitude: 58.3664078, longitude: 25.5953052, mapLink: .tartuÜlikool_viljandi),
             Branch(city: .tallinn, address: "Teatri väljak 3-303", latitude: 59.4329636, longitude: 24.7433143, mapLink: .tartuÜlikool_tallinn),
             Branch(city: .pärnu, address: "Ringi 35", latitude: 58.38492, longitude: 24.4864965, mapLink: .tartuÜlikool_pärnu),
-            Branch(city: .tallinn, address: "Ülikooli 18", latitude: 58.381114, longitude: 26.719898, mapLink: .tartuÜlikool_tallinn)
+            Branch(city: .tartu, address: "Ülikooli 18", latitude: 58.381114, longitude: 26.719898, mapLink: .tartuÜlikool_tallinn)
         ]
     ),
-    website: "https://ut.ee/en",
+    website: "https://ut.ee/et",
     students: 13412,
     contact: ContactInfo(phonenumber: "+3727375651", address: "Ülikooli 18", email: "info@ut.ee"),
     socialMedia: [

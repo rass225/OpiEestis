@@ -261,3 +261,52 @@ enum SchoolName: String, Codable, CaseIterable {
     case tartuÜlikool = "Tartu Ülikool"
     case tallinnaTervishoiuKõrgkool = "Tallinna Tervishoiu Kõrgkool"
 }
+
+struct College: Codable, Identifiable {
+    var id = UUID().uuidString
+    
+    let name: String
+    let branches: [CollegeLocation]
+    let contact: CollegeContact
+    let description: String
+    let imageRefs: [String]
+    let internationalStudents: Int
+    let links: [CollegeLink]
+    let location: CollegeLocation
+    let logoRef: String
+    let palette: CollegePalette
+    let admission: [String]
+    let students: Int
+    let website: String
+    let worldRanking: Int
+}
+
+struct CollegeLocation: Codable, Identifiable, Equatable {
+    var id = UUID().uuidString
+    let address: String
+    let appleMapsLink: String
+    let city: String
+    let latitude: Double
+    let longitude: Double
+}
+
+struct CollegeContact: Codable, Equatable {
+    let address: String
+    let phoneNumber: String
+    let email: String
+}
+
+struct CollegeLink: Codable, Identifiable, Equatable {
+    var id = UUID().uuidString
+    let imageRef: String
+    let link: String
+    let name: String
+}
+
+struct CollegePalette: Codable, Equatable {
+    let base: String
+    let bachelors: String
+    let masters: String
+    let doctors: String
+    let applied: String
+}

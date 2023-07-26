@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -96,7 +96,6 @@
 		C07B6E6B2763FAAF000B32F7 /* MajorWebsiteModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B6E6A2763FAAF000B32F7 /* MajorWebsiteModule.swift */; };
 		C07B6E6D2763FD9C000B32F7 /* MajorLocationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B6E6C2763FD9C000B32F7 /* MajorLocationModule.swift */; };
 		C08B56BC276C032E00A38F61 /* EmptySchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B56BB276C032E00A38F61 /* EmptySchool.swift */; };
-		C08E192B2661A6C300FA4E81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C08E192A2661A6C300FA4E81 /* GoogleService-Info.plist */; };
 		C098688B2766DED400C18C44 /* SchoolWebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098688A2766DED400C18C44 /* SchoolWebsiteView.swift */; };
 		C098688D2766E1A500C18C44 /* MajorPersonnelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098688C2766E1A500C18C44 /* MajorPersonnelModule.swift */; };
 		C098688F2766EAAA00C18C44 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098688E2766EAAA00C18C44 /* Header.swift */; };
@@ -129,6 +128,10 @@
 		C0E7F7C426B36AB700AAD132 /* MajorDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7F7C326B36AB700AAD132 /* MajorDataView.swift */; };
 		C0F38A30277ABD6E00D9811B /* SchoolContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F38A2F277ABD6E00D9811B /* SchoolContact.swift */; };
 		C0F476CF25C197140082A20F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F476CE25C197140082A20F /* Array.swift */; };
+		C0F85B332A7195EB007A65F7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B322A7195EB007A65F7 /* FirebaseAuth */; };
+		C0F85B352A7195EB007A65F7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B342A7195EB007A65F7 /* FirebaseFirestore */; };
+		C0F85B372A7195EB007A65F7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B362A7195EB007A65F7 /* FirebaseStorage */; };
+		C0F85B392A719D54007A65F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0F85B382A719D54007A65F7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,7 +247,6 @@
 		C07B6E6A2763FAAF000B32F7 /* MajorWebsiteModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorWebsiteModule.swift; sourceTree = "<group>"; };
 		C07B6E6C2763FD9C000B32F7 /* MajorLocationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorLocationModule.swift; sourceTree = "<group>"; };
 		C08B56BB276C032E00A38F61 /* EmptySchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySchool.swift; sourceTree = "<group>"; };
-		C08E192A2661A6C300FA4E81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C098688A2766DED400C18C44 /* SchoolWebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolWebsiteView.swift; sourceTree = "<group>"; };
 		C098688C2766E1A500C18C44 /* MajorPersonnelModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorPersonnelModule.swift; sourceTree = "<group>"; };
 		C098688E2766EAAA00C18C44 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 		C0E7F7C326B36AB700AAD132 /* MajorDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorDataView.swift; sourceTree = "<group>"; };
 		C0F38A2F277ABD6E00D9811B /* SchoolContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolContact.swift; sourceTree = "<group>"; };
 		C0F476CE25C197140082A20F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		C0F85B382A719D54007A65F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +287,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F85B332A7195EB007A65F7 /* FirebaseAuth in Frameworks */,
+				C0F85B352A7195EB007A65F7 /* FirebaseFirestore in Frameworks */,
+				C0F85B372A7195EB007A65F7 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +495,7 @@
 				C0460E2625AF0D0E00E4A15D /* Views */,
 				C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */,
 				C0460DD425AF0A9200E4A15D /* Info.plist */,
-				C08E192A2661A6C300FA4E81 /* GoogleService-Info.plist */,
+				C0F85B382A719D54007A65F7 /* GoogleService-Info.plist */,
 				C0460DCF25AF0A9200E4A15D /* Assets.xcassets */,
 				C0460DD125AF0A9200E4A15D /* Preview Content */,
 			);
@@ -735,6 +741,11 @@
 			dependencies = (
 			);
 			name = "Õpi Eestis";
+			packageProductDependencies = (
+				C0F85B322A7195EB007A65F7 /* FirebaseAuth */,
+				C0F85B342A7195EB007A65F7 /* FirebaseFirestore */,
+				C0F85B362A7195EB007A65F7 /* FirebaseStorage */,
+			);
 			productName = "Õpi Eestis";
 			productReference = C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */;
 			productType = "com.apple.product-type.application";
@@ -806,6 +817,9 @@
 				Base,
 			);
 			mainGroup = C0460DBF25AF0A8E00E4A15D;
+			packageReferences = (
+				C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C0460DC925AF0A8F00E4A15D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -823,6 +837,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D2144F2715C147000AD3D0 /* TTK.json in Resources */,
+				C0F85B392A719D54007A65F7 /* GoogleService-Info.plist in Resources */,
 				C0D2144D2715C147000AD3D0 /* Lennuakadeemia.json in Resources */,
 				C0D2144E2715C147000AD3D0 /* Mainor.json in Resources */,
 				C0D2144C2715C147000AD3D0 /* Kunstiakadeemia.json in Resources */,
@@ -832,7 +847,6 @@
 				C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */,
 				C0D214572715C939000AD3D0 /* Sisekaitseakadeemia.json in Resources */,
 				C0755B96271793050045F6DC /* TÜ.json in Resources */,
-				C08E192B2661A6C300FA4E81 /* GoogleService-Info.plist in Resources */,
 				C0D2145B2715E773000AD3D0 /* TTÜ.json in Resources */,
 				C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */,
 				C0D214552715C894000AD3D0 /* Muusikaakadeemia.json in Resources */,
@@ -1293,6 +1307,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0F85B322A7195EB007A65F7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C0F85B342A7195EB007A65F7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C0F85B362A7195EB007A65F7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */ = {
