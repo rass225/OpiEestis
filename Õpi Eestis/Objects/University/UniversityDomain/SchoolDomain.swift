@@ -41,7 +41,7 @@ struct School: Hashable, Codable, Identifiable {
     
     var levels: LevelColors {
         let themes = Color.SchoolThemes.self
-      
+        
         switch name {
         case .ebs:
             return LevelColors(
@@ -163,7 +163,7 @@ struct School: Hashable, Codable, Identifiable {
                 applied: themes.TTK.rakendus,
                 kutse: themes.TTK.kutse
             )
-    }
+        }
     }
     
     func phoneCall() {
@@ -184,7 +184,7 @@ struct School: Hashable, Codable, Identifiable {
             return 0
         }
     }
-
+    
     func toSocialMedia(socialMedia: SocialMedia) {
         switch socialMedia.website {
         case .facebook:
@@ -214,7 +214,7 @@ struct School: Hashable, Codable, Identifiable {
         let coordinates = location.getCoordinates()
         print(coordinates)
         let region = MKCoordinateRegion(center: coordinates, span: span)
-       return region
+        return region
     }
 }
 
@@ -262,13 +262,16 @@ enum SchoolName: String, Codable, CaseIterable {
     case tallinnaTervishoiuKõrgkool = "Tallinna Tervishoiu Kõrgkool"
 }
 
-struct College: Codable, Identifiable {
-    var id = UUID().uuidString
+struct College: Codable, Hashable, Identifiable {
+    enum CodingKeys: String, CodingKey {
+        case id, name, branches, contact, description, imageRefs, internationalStudents, links, location, logoRef, palette, admission, students, website, worldRanking, jsonKeys
+    }
     
+    let id: String
     let name: String
     let branches: [CollegeLocation]
     let contact: CollegeContact
-    let description: String
+    var description: String
     let imageRefs: [String]
     let internationalStudents: Int
     let links: [CollegeLink]
@@ -279,34 +282,171 @@ struct College: Codable, Identifiable {
     let students: Int
     let website: String
     let worldRanking: Int
+    let jsonKeys: JSONKeys
+    
+    var jsonString: String {
+        switch name {
+        case "Eesti Ettevõtluskõrgkool Mainor":
+            return "Mainor"
+        case "Eesti Kunstiakadeemia":
+            return "Kunstiakadeemia"
+        case "Eesti Lennuakadeemia":
+            return "Lennuakadeemia"
+        case "Eesti Maaülikool":
+            return "EMU"
+        case "Eesti Muusika- ja Teatriakadeemia":
+            return "Muusikaakadeemia"
+        case "Estonian Business School":
+            return "EBS"
+        case "Kaitseväe Akadeemia":
+            return "Kaitsevägi"
+        case "Kõrgem Kunstikool Pallas":
+            return "Pallas"
+        case "Sisekaitseakadeemia":
+            return "Sisekaitseakadeemia"
+        case "Tallinna Tehnikakõrgkool":
+            return "TTK"
+        case "Tallinna Tehnikaülikool":
+            return "TTÜ"
+        case "Tallinna Ülikool":
+            return "TLÜ"
+        case "Tartu Tervishoiu Kõrgkool":
+            return "TartuTervishoid"
+        case "Tartu Ülikool":
+            return "TÜ"
+        case "Tallinna Tervishoiu Kõrgkool":
+            return "TallinnaTervishoid"
+        default:
+            return ""
+        }
+    }
+    
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        id = try values.decode(String.self, forKey: .id)
+        name = try values.decode(String.self, forKey: .name)
+        branches = try values.decode([CollegeLocation].self, forKey: .branches)
+        contact = try values.decode(CollegeContact.self, forKey: .contact)
+        description = try values.decode(String.self, forKey: .description)
+        description = description.replacingOccurrences(of: "\\n", with: "\n")
+        imageRefs = try values.decode([String].self, forKey: .imageRefs)
+        internationalStudents = try values.decode(Int.self, forKey: .internationalStudents)
+        links = try values.decode([CollegeLink].self, forKey: .links)
+        location = try values.decode(CollegeLocation.self, forKey: .location)
+        logoRef = try values.decode(String.self, forKey: .logoRef)
+        palette = try values.decode(CollegePalette.self, forKey: .palette)
+        admission = try values.decode([String].self, forKey: .admission)
+        students = try values.decode(Int.self, forKey: .students)
+        website = try values.decode(String.self, forKey: .website)
+        worldRanking = try values.decode(Int.self, forKey: .worldRanking)
+        jsonKeys = try values.decode(JSONKeys.self, forKey: .jsonKeys)
+    }
 }
 
-struct CollegeLocation: Codable, Identifiable, Equatable {
-    var id = UUID().uuidString
+
+struct CollegeLocation: Codable, Equatable, Hashable, Identifiable {
+    var id = UUID()
+    
     let address: String
-    let appleMapsLink: String
+    let appleMapLink: String
     let city: String
     let latitude: Double
     let longitude: Double
+    let isPrimary: Bool
+    
+    enum CodingKeys: String, CodingKey {
+        case address
+        case appleMapLink
+        case city
+        case latitude
+        case longitude
+        case isPrimary
+    }
+    
+    var region: MKCoordinateRegion {
+        MKCoordinateRegion(
+            center: CLLocationCoordinate2D(
+                latitude: latitude,
+                longitude: longitude
+            ),
+            span: MKCoordinateSpan(
+                latitudeDelta: 0.05,
+                longitudeDelta: 0.05
+            )
+        )
+    }
+    
+    var coordinates: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+    
+    var longAddress: String {
+        "\(address), \(city)"
+    }
 }
 
-struct CollegeContact: Codable, Equatable {
+struct CollegeContact: Codable, Equatable, Hashable {
     let address: String
     let phoneNumber: String
     let email: String
 }
 
-struct CollegeLink: Codable, Identifiable, Equatable {
-    var id = UUID().uuidString
+struct CollegeLink: Codable, Equatable, Hashable {
     let imageRef: String
     let link: String
     let name: String
 }
 
-struct CollegePalette: Codable, Equatable {
-    let base: String
-    let bachelors: String
-    let masters: String
-    let doctors: String
-    let applied: String
+struct CollegePalette: Codable, Equatable, Hashable {
+    let base: Color
+    let bachelors: Color
+    let masters: Color
+    let doctors: Color
+    let applied: Color
+    let vocational: Color
+    
+    enum CodingKeys: String, CodingKey {
+        case base
+        case bachelors
+        case masters
+        case doctors
+        case applied
+        case vocational
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        let baseHex = try container.decode(String.self, forKey: .base)
+        base = Color(hex: baseHex)
+        
+        let bachelorsHex = try container.decode(String.self, forKey: .bachelors)
+        bachelors = Color(hex: bachelorsHex)
+        
+        let mastersHex = try container.decode(String.self, forKey: .masters)
+        masters = Color(hex: mastersHex)
+        
+        let doctorsHex = try container.decode(String.self, forKey: .doctors)
+        doctors = Color(hex: doctorsHex)
+        
+        let appliedHex = try container.decode(String.self, forKey: .applied)
+        applied = Color(hex: appliedHex)
+        
+        let vocationalHex = try container.decode(String.self, forKey: .vocational)
+        vocational = Color(hex: vocationalHex)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        
+        try container.encode(base.toHex(), forKey: .base)
+        try container.encode(bachelors.toHex(), forKey: .bachelors)
+        try container.encode(masters.toHex(), forKey: .masters)
+        try container.encode(doctors.toHex(), forKey: .doctors)
+        try container.encode(applied.toHex(), forKey: .applied)
+    }
+}
+
+struct JSONKeys: Codable, Equatable, Hashable {
+    let favorites: String
 }

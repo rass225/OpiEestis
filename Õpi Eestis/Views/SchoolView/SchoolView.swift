@@ -62,7 +62,6 @@ struct SchoolView: View {
         }
         education = result
         majorsCount = result.count
-//        printJSON(data: result)
     }
     
     func loadJson(_ filename: String) -> [majorsMinors]? {

@@ -37,7 +37,7 @@ struct SchoolMajor: View {
 
 extension SchoolMajor {
     
-    private struct ChartView: View {
+    struct ChartView: View {
         @Binding var majors: [StatEntity]
         @Binding var majorsCount: Int
         let maxWidth = UIScreen.main.bounds.width - 50
@@ -77,7 +77,7 @@ extension SchoolMajor {
         }
     }
     
-    private struct StatsView: View {
+    struct StatsView: View {
         @Binding var majors: [StatEntity]
         var body : some View {
             VStack(alignment: .leading, spacing: 7){

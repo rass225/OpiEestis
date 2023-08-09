@@ -1,6 +1,6 @@
 var ttü = School(
     name: .taltech,
-    description: ["TalTech on Eestis ainuke tehnika- ja IT-teaduse ning –hariduse lipulaev, kust saab kõrgharidust kõigil astmetel inseneri- ja tehnikateadustes, infotehnoloogias, majanduses, loodusteadustes ja merenduses. Tehnikaülikoolide seas on TalTech maailma 50 parima hulgas.", "TalTechi missioon on olla teaduse, tehnoloogia ja innovatsiooni edendaja ning juhtiv inseneri- ja majandushariduse andja Eestis."],
+    description: ["TalTech on Eestis ainuke tehnika- ja IT-teaduse ning –hariduse lipulaev, kust saab kõrgharidust kõigil astmetel inseneri- ja tehnikateadustes, infotehnoloogias, majanduses, loodusteadustes ja merenduses. Tehnikaülikoolide seas on TalTech maailma 50 parima hulgas.\n\nTalTechi missioon on olla teaduse, tehnoloogia ja innovatsiooni edendaja ning juhtiv inseneri- ja majandushariduse andja Eestis."],
     location: Location(
         city: .tallinn,
         aadress: "Ehitaja tee 5",

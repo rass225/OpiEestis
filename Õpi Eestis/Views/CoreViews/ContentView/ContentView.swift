@@ -1,7 +1,12 @@
 import SwiftUI
+import Foundation
+import UIKit
+import FirebaseAuth
+import FirebaseStorage
+import FirebaseFirestore
 
 struct ContentView: View {
-    @ObservedObject var presenter = ContentViewPresenter()
+    @StateObject var model = Model()
     @EnvironmentObject var appState: AppState
     @State var toAboutActive = false
     @State var selectedTab: TabItem = .list
@@ -14,12 +19,12 @@ struct ContentView: View {
     
     var body: some View {
         TabView(content: {
-            SchoolListView()
+            CollegesListView(schools: model.schools)
                 .tabItem({
                     Label("Koolid", systemImage: "graduationcap.fill")
                 })
             NavigationStack {
-                MapView()
+                MapView(schools: model.schools, locations: model.getAllBranches())
             }
             .tabItem({
                 Label("Kaart", systemImage: "map.fill")
@@ -30,13 +35,9 @@ struct ContentView: View {
             }.tabItem({
                 Label("Lemmikud", systemImage: "star.fill")
             })
-            NavigationStack {
-                Text("TBA")
-                
-            }.tabItem({
-                Label("Sätted", systemImage: "gearshape.2.fill")
-            })
         })
         .tint(Color.oeBlue)
     }
 }
+
+

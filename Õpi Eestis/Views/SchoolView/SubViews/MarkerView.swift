@@ -37,6 +37,44 @@ struct MarkerView: View {
     }
 }
 
+struct CollegePin: View {
+    
+    let college: College
+    private let dependecies: DependencyManager = .shared
+    let image: UIImage
+    
+    var body: some View {
+        ZStack{
+            rainDrop()
+                .foregroundStyle(college.palette.base)
+                .offset(x: 8, y: 43)
+            ZStack{
+                Circle()
+                    .frame(width: 50, height: 50)
+                    .foregroundStyle(college.palette.base.gradient)
+                Circle()
+                    .frame(width: 45, height: 45)
+                    .foregroundColor(Color.white)
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 40, height: 40)
+            }
+        }
+    }
+    
+    @ViewBuilder
+    private func rainDrop() -> some Shape {
+        Path { path in
+            path.addLines([
+                CGPoint(x: 0, y: 0),
+                CGPoint(x: 33, y: 0),
+                CGPoint(x: 16.5, y: 15)
+            ])
+        }
+    }
+}
+
 struct littleMarker: View {
     let color: Color
     let logo: String

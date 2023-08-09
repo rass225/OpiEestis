@@ -4,7 +4,7 @@ public extension Color {
     static let customBlue = Color.init(red: 20/255, green: 200/255, blue: 175/255)
     static let customGreen = Color.init(red: 20/255, green: 175/255, blue: 255/255)
     static let whiteDim = Color.init(red: 247/255, green: 247/255, blue: 247/255)
-    static let whiteDim1 = Color.init(red: 242/255, green: 242/255, blue: 242/255)
+    static let whiteDim1 = Color.init(red: 242/255, green: 242/255, blue: 247/255)
     static let whiteDim2 = Color.init(red: 232/255, green: 232/255, blue: 232/255)
     static let white = Color.white
     static let black = Color.black
@@ -14,6 +14,7 @@ public extension Color {
     static let dimGray = Color.gray.opacity(0.001)
     static let mediumGray = Color.init(red: 150/255, green: 150/255, blue: 150/255)
     static let darkGray = Color.init(red: 130/255, green: 130/255, blue: 130/255)
+    static let systemGray = Color.init(red: 190/255, green: 190/255, blue: 190/255)
     
     // ÕE theme
     static let oeBlue = Color.init(red: 0, green: 118/255, blue: 200/255)
@@ -131,5 +132,33 @@ public extension Color {
             internal static let rakendus = Color.black
             internal static let kutse = Color.black
         }
+    }
+    
+    init(hex: String) {
+        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        let r, g, b: UInt64
+        switch hex.count {
+        case 3: // RGB (12-bit)
+            (r, g, b) = ((int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
+        case 6: // RGB (24-bit)
+            (r, g, b) = (int >> 16, int >> 8 & 0xFF, int & 0xFF)
+        default:
+            (r, g, b) = (0, 0, 0)
+        }
+        self.init(red: Double(r) / 255, green: Double(g) / 255, blue: Double(b) / 255)
+    }
+    
+    func toHex() -> String? {
+        guard let rgbColor = UIColor(self).cgColor.components else {
+            return nil
+        }
+        
+        let r = rgbColor[0]
+        let g = rgbColor[1]
+        let b = rgbColor[2]
+        
+        return String(format:"#%02lX%02lX%02lX", lroundf(Float(r * 255)), lroundf(Float(g * 255)), lroundf(Float(b * 255)))
     }
 }

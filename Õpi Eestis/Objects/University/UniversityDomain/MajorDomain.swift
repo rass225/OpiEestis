@@ -3,9 +3,9 @@ import SwiftUI
 
 struct majorsMinors: Hashable, Codable, Identifiable {
     var id = UUID()
-    var name: String //
-    var level: levelchoice //
-    var type: typechoice //
+    var name: String
+    var level: levelchoice
+    var type: typechoice
     var requirements: [Requirements]
     var description: [String]
     var outcomes: [String]
@@ -17,8 +17,48 @@ struct majorsMinors: Hashable, Codable, Identifiable {
     var eap: Int?
     var ekap: Int?
     var cost: Cost
-    var modules: [Module]?
+    var modules: [Module]
     var personnel: [Personnel]?
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case level
+        case type
+        case requirements
+        case description
+        case outcomes
+        case language
+        case majorWebsite
+        case spots
+        case duration
+        case studyLocation
+        case eap
+        case ekap
+        case cost
+        case modules
+        case personnel
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.level = try container.decode(levelchoice.self, forKey: .level)
+        self.type = try container.decode(typechoice.self, forKey: .type)
+        self.requirements = try container.decode([Requirements].self, forKey: .requirements)
+        self.description = try container.decode([String].self, forKey: .description)
+        description = description.map { $0.replacingOccurrences(of: "\\n", with: "\n") }
+        self.outcomes = try container.decode([String].self, forKey: .outcomes)
+        self.language = try container.decode(languagechoice.self, forKey: .language)
+        self.majorWebsite = try container.decode(String.self, forKey: .majorWebsite)
+        self.spots = try container.decode(Int.self, forKey: .spots)
+        self.duration = try container.decode(Double.self, forKey: .duration)
+        self.studyLocation = try container.decode([city].self, forKey: .studyLocation)
+        self.eap = try container.decodeIfPresent(Int.self, forKey: .eap)
+        self.ekap = try container.decodeIfPresent(Int.self, forKey: .ekap)
+        self.cost = try container.decode(Cost.self, forKey: .cost)
+        self.modules = try container.decode([Module].self, forKey: .modules)
+        self.personnel = try container.decodeIfPresent([Personnel].self, forKey: .personnel)
+    }
     
     func toExtra() {
         guard let url = URL(string: majorWebsite as String) else { return }

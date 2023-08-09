@@ -29,13 +29,13 @@ enum interval: String, Codable {
     var label: String {
         switch self {
         case .semester:
-            return OEAppearance.Locale.semester
+            return " / " + OEAppearance.Locale.semester
         case .year:
-            return OEAppearance.Locale.year
+            return " / " + OEAppearance.Locale.year
         case .full:
-            return OEAppearance.Locale.fullPayment
+            return ""
         case .eap:
-            return "/" + OEAppearance.Locale.eap
+            return " / " + OEAppearance.Locale.eap
         }
     }
 }

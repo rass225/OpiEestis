@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,7 +34,7 @@
 		C032998325CC194600EB7862 /* typeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032998225CC194600EB7862 /* typeData.swift */; };
 		C032998825CC196100EB7862 /* languageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032998725CC196100EB7862 /* languageData.swift */; };
 		C0359656267CA2F90044729B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0359655267CA2F90044729B /* Theme.swift */; };
-		C039486626279BC0004D5F00 /* ContentViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039486526279BC0004D5F00 /* ContentViewPresenter.swift */; };
+		C039486626279BC0004D5F00 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039486526279BC0004D5F00 /* ContentViewModel.swift */; };
 		C03EA88D274453AC00E07782 /* OEAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA88C274453AC00E07782 /* OEAppearance.swift */; };
 		C03EA88F27445C6500E07782 /* SearchBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA88E27445C6500E07782 /* SearchBarModifier.swift */; };
 		C03EA894274593AE00E07782 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA893274593AE00E07782 /* MarkerView.swift */; };
@@ -107,7 +107,7 @@
 		C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBC265271FD00CE9130 /* CourseView.swift */; };
 		C0B93FBF2652803F00CE9130 /* CourseDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBE2652803F00CE9130 /* CourseDomain.swift */; };
 		C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFA255272D40E40025BD1E /* UINavigationController.swift */; };
-		C0D214432715B688000AD3D0 /* EMU.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214422715B688000AD3D0 /* EMU.json */; };
+		C0D214432715B688000AD3D0 /* EMUbachelors.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214422715B688000AD3D0 /* EMUbachelors.json */; };
 		C0D214452715B911000AD3D0 /* Maaülikool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D214442715B911000AD3D0 /* Maaülikool.swift */; };
 		C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214462715C143000AD3D0 /* Pallas.json */; };
 		C0D2144C2715C147000AD3D0 /* Kunstiakadeemia.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */; };
@@ -132,6 +132,25 @@
 		C0F85B352A7195EB007A65F7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B342A7195EB007A65F7 /* FirebaseFirestore */; };
 		C0F85B372A7195EB007A65F7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B362A7195EB007A65F7 /* FirebaseStorage */; };
 		C0F85B392A719D54007A65F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0F85B382A719D54007A65F7 /* GoogleService-Info.plist */; };
+		C0F85B3C2A71B30A007A65F7 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B3B2A71B30A007A65F7 /* FirebaseManager.swift */; };
+		C0F85B3E2A71BBD2007A65F7 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B3D2A71BBD2007A65F7 /* Optional+Extension.swift */; };
+		C0F85B412A71BCDA007A65F7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B402A71BCDA007A65F7 /* FirebaseDatabase */; };
+		C0F85B432A71BCE7007A65F7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C0F85B422A71BCE7007A65F7 /* FirebaseFirestoreSwift */; };
+		C0F85B452A73DA77007A65F7 /* CollegeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B442A73DA77007A65F7 /* CollegeListView.swift */; };
+		C0F85B472A73DADB007A65F7 /* CollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B462A73DADB007A65F7 /* CollegeView.swift */; };
+		C0F85B492A73E243007A65F7 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B482A73E243007A65F7 /* Text+Extension.swift */; };
+		C0F85B4C2A743482007A65F7 /* CollegeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B4B2A743482007A65F7 /* CollegeViewModel.swift */; };
+		C0F85B4E2A74FC17007A65F7 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B4D2A74FC17007A65F7 /* ImageManager.swift */; };
+		C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B4F2A750E96007A65F7 /* DependencyManager.swift */; };
+		C0F85B522A753240007A65F7 /* EdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B512A753240007A65F7 /* EdgeInsets+Extension.swift */; };
+		C0F85B542A77FA93007A65F7 /* MajorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B532A77FA93007A65F7 /* MajorsView.swift */; };
+		C0F85B562A781E3E007A65F7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B552A781E3E007A65F7 /* UserDefaultsManager.swift */; };
+		C0F85B582A782AE2007A65F7 /* MajorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B572A782AE2007A65F7 /* MajorsViewModel.swift */; };
+		C0F85B612A7D0CE0007A65F7 /* EMUapplied.json in Resources */ = {isa = PBXBuildFile; fileRef = C0F85B602A7D0CE0007A65F7 /* EMUapplied.json */; };
+		C0F85B632A7EA73E007A65F7 /* CollegeMajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B622A7EA73E007A65F7 /* CollegeMajorView.swift */; };
+		C0F85B652A8000A3007A65F7 /* CollegeMajorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85B642A8000A3007A65F7 /* CollegeMajorViewModel.swift */; };
+		C0F85B672A81249F007A65F7 /* EMU.json in Resources */ = {isa = PBXBuildFile; fileRef = C0F85B662A81249F007A65F7 /* EMU.json */; };
+		C0F85B692A817853007A65F7 /* EMUintegrated.json in Resources */ = {isa = PBXBuildFile; fileRef = C0F85B682A817853007A65F7 /* EMUintegrated.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,7 +198,7 @@
 		C032998225CC194600EB7862 /* typeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeData.swift; sourceTree = "<group>"; };
 		C032998725CC196100EB7862 /* languageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageData.swift; sourceTree = "<group>"; };
 		C0359655267CA2F90044729B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		C039486526279BC0004D5F00 /* ContentViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPresenter.swift; sourceTree = "<group>"; };
+		C039486526279BC0004D5F00 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		C03EA88C274453AC00E07782 /* OEAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEAppearance.swift; sourceTree = "<group>"; };
 		C03EA88E27445C6500E07782 /* SearchBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarModifier.swift; sourceTree = "<group>"; };
 		C03EA893274593AE00E07782 /* MarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
@@ -258,7 +277,7 @@
 		C0B93FBC265271FD00CE9130 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		C0B93FBE2652803F00CE9130 /* CourseDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDomain.swift; sourceTree = "<group>"; };
 		C0BFA255272D40E40025BD1E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
-		C0D214422715B688000AD3D0 /* EMU.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EMU.json; sourceTree = "<group>"; };
+		C0D214422715B688000AD3D0 /* EMUbachelors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EMUbachelors.json; sourceTree = "<group>"; };
 		C0D214442715B911000AD3D0 /* Maaülikool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Maaülikool.swift"; sourceTree = "<group>"; };
 		C0D214462715C143000AD3D0 /* Pallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pallas.json; sourceTree = "<group>"; };
 		C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kunstiakadeemia.json; sourceTree = "<group>"; };
@@ -280,6 +299,24 @@
 		C0F38A2F277ABD6E00D9811B /* SchoolContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolContact.swift; sourceTree = "<group>"; };
 		C0F476CE25C197140082A20F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		C0F85B382A719D54007A65F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0F85B3B2A71B30A007A65F7 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		C0F85B3D2A71BBD2007A65F7 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		C0F85B442A73DA77007A65F7 /* CollegeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeListView.swift; sourceTree = "<group>"; };
+		C0F85B462A73DADB007A65F7 /* CollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeView.swift; sourceTree = "<group>"; };
+		C0F85B482A73E243007A65F7 /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		C0F85B4B2A743482007A65F7 /* CollegeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeViewModel.swift; sourceTree = "<group>"; };
+		C0F85B4D2A74FC17007A65F7 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		C0F85B4F2A750E96007A65F7 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		C0F85B512A753240007A65F7 /* EdgeInsets+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EdgeInsets+Extension.swift"; sourceTree = "<group>"; };
+		C0F85B532A77FA93007A65F7 /* MajorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorsView.swift; sourceTree = "<group>"; };
+		C0F85B552A781E3E007A65F7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		C0F85B572A782AE2007A65F7 /* MajorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorsViewModel.swift; sourceTree = "<group>"; };
+		C0F85B592A7C61BF007A65F7 /* EMUdoctors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EMUdoctors.json; sourceTree = "<group>"; };
+		C0F85B602A7D0CE0007A65F7 /* EMUapplied.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EMUapplied.json; sourceTree = "<group>"; };
+		C0F85B622A7EA73E007A65F7 /* CollegeMajorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMajorView.swift; sourceTree = "<group>"; };
+		C0F85B642A8000A3007A65F7 /* CollegeMajorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMajorViewModel.swift; sourceTree = "<group>"; };
+		C0F85B662A81249F007A65F7 /* EMU.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EMU.json; sourceTree = "<group>"; };
+		C0F85B682A817853007A65F7 /* EMUintegrated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EMUintegrated.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,8 +324,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F85B432A71BCE7007A65F7 /* FirebaseFirestoreSwift in Frameworks */,
 				C0F85B332A7195EB007A65F7 /* FirebaseAuth in Frameworks */,
 				C0F85B352A7195EB007A65F7 /* FirebaseFirestore in Frameworks */,
+				C0F85B412A71BCDA007A65F7 /* FirebaseDatabase in Frameworks */,
 				C0F85B372A7195EB007A65F7 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +472,7 @@
 		C039486426279BAD004D5F00 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
-				C039486526279BC0004D5F00 /* ContentViewPresenter.swift */,
+				C039486526279BC0004D5F00 /* ContentViewModel.swift */,
 				C0460E0B25AF0C2600E4A15D /* ContentView.swift */,
 			);
 			path = ContentView;
@@ -469,11 +508,13 @@
 		C0460DBF25AF0A8E00E4A15D = {
 			isa = PBXGroup;
 			children = (
+				C0F85B3A2A71B2FE007A65F7 /* Managers */,
 				C0755B9727182B820045F6DC /* JSON */,
 				C0460DCA25AF0A8F00E4A15D /* Õpi Eestis */,
 				C0460DDC25AF0A9200E4A15D /* Õpi EestisTests */,
 				C0460DE725AF0A9200E4A15D /* Õpi EestisUITests */,
 				C0460DC925AF0A8F00E4A15D /* Products */,
+				C0F85B3F2A71BCDA007A65F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -531,6 +572,7 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C0F85B4A2A743469007A65F7 /* CollegeView */,
 				C0460E3125AF0D6200E4A15D /* Custom Views */,
 				C06ED5D326AAB4F800E5812A /* CoreViews */,
 				C007DBAB2773E9B9002F6BD6 /* Map */,
@@ -553,6 +595,7 @@
 			children = (
 				C0460E2825AF0D3700E4A15D /* SchoolListView.swift */,
 				C0460E3225AF0D8900E4A15D /* SchoolCell.swift */,
+				C0F85B442A73DA77007A65F7 /* CollegeListView.swift */,
 			);
 			path = SchoolList;
 			sourceTree = "<group>";
@@ -587,6 +630,9 @@
 				C01B642A25C860B2004D144F /* LinearGradient.swift */,
 				C0BFA255272D40E40025BD1E /* UINavigationController.swift */,
 				C007DB882771918B002F6BD6 /* Environment.swift */,
+				C0F85B3D2A71BBD2007A65F7 /* Optional+Extension.swift */,
+				C0F85B482A73E243007A65F7 /* Text+Extension.swift */,
+				C0F85B512A753240007A65F7 /* EdgeInsets+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -596,6 +642,8 @@
 			children = (
 				C09C4E4A25B1DF2400F03F5A /* SubViews */,
 				C0460E6825AF0E8100E4A15D /* MajorView.swift */,
+				C0F85B622A7EA73E007A65F7 /* CollegeMajorView.swift */,
+				C0F85B642A8000A3007A65F7 /* CollegeMajorViewModel.swift */,
 			);
 			path = MajorView;
 			sourceTree = "<group>";
@@ -644,6 +692,8 @@
 			isa = PBXGroup;
 			children = (
 				C0460E6B25AF0E8100E4A15D /* Degree View.swift */,
+				C0F85B532A77FA93007A65F7 /* MajorsView.swift */,
+				C0F85B572A782AE2007A65F7 /* MajorsViewModel.swift */,
 			);
 			path = MajorsView;
 			sourceTree = "<group>";
@@ -651,7 +701,11 @@
 		C0755B9727182B820045F6DC /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				C0D214422715B688000AD3D0 /* EMU.json */,
+				C0F85B682A817853007A65F7 /* EMUintegrated.json */,
+				C0D214422715B688000AD3D0 /* EMUbachelors.json */,
+				C0F85B592A7C61BF007A65F7 /* EMUdoctors.json */,
+				C0F85B602A7D0CE0007A65F7 /* EMUapplied.json */,
+				C0F85B662A81249F007A65F7 /* EMU.json */,
 				C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */,
 				C0D214502715C74D000AD3D0 /* EBS.json */,
 				C0D214482715C145000AD3D0 /* Lennuakadeemia.json */,
@@ -725,6 +779,33 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		C0F85B3A2A71B2FE007A65F7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C0F85B3B2A71B30A007A65F7 /* FirebaseManager.swift */,
+				C0F85B4D2A74FC17007A65F7 /* ImageManager.swift */,
+				C0F85B4F2A750E96007A65F7 /* DependencyManager.swift */,
+				C0F85B552A781E3E007A65F7 /* UserDefaultsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C0F85B3F2A71BCDA007A65F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F85B4A2A743469007A65F7 /* CollegeView */ = {
+			isa = PBXGroup;
+			children = (
+				C0F85B462A73DADB007A65F7 /* CollegeView.swift */,
+				C0F85B4B2A743482007A65F7 /* CollegeViewModel.swift */,
+			);
+			path = CollegeView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -745,6 +826,8 @@
 				C0F85B322A7195EB007A65F7 /* FirebaseAuth */,
 				C0F85B342A7195EB007A65F7 /* FirebaseFirestore */,
 				C0F85B362A7195EB007A65F7 /* FirebaseStorage */,
+				C0F85B402A71BCDA007A65F7 /* FirebaseDatabase */,
+				C0F85B422A71BCE7007A65F7 /* FirebaseFirestoreSwift */,
 			);
 			productName = "Õpi Eestis";
 			productReference = C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */;
@@ -792,8 +875,9 @@
 		C0460DC025AF0A8E00E4A15D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					C0460DC725AF0A8F00E4A15D = {
 						CreatedOnToolsVersion = 12.3;
@@ -844,13 +928,16 @@
 				C0D214512715C74D000AD3D0 /* EBS.json in Resources */,
 				C0D214532715C7D4000AD3D0 /* Kaitsevägi.json in Resources */,
 				C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */,
+				C0F85B672A81249F007A65F7 /* EMU.json in Resources */,
 				C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */,
+				C0F85B612A7D0CE0007A65F7 /* EMUapplied.json in Resources */,
 				C0D214572715C939000AD3D0 /* Sisekaitseakadeemia.json in Resources */,
+				C0F85B692A817853007A65F7 /* EMUintegrated.json in Resources */,
 				C0755B96271793050045F6DC /* TÜ.json in Resources */,
 				C0D2145B2715E773000AD3D0 /* TTÜ.json in Resources */,
 				C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */,
 				C0D214552715C894000AD3D0 /* Muusikaakadeemia.json in Resources */,
-				C0D214432715B688000AD3D0 /* EMU.json in Resources */,
+				C0D214432715B688000AD3D0 /* EMUbachelors.json in Resources */,
 				C0D214C3271639EF000AD3D0 /* TLÜ.json in Resources */,
 				C0D214592715CA5C000AD3D0 /* TartuTervishoid.json in Resources */,
 			);
@@ -890,6 +977,7 @@
 				C0460EA125AF0F1400E4A15D /* Kunstiakadeemia.swift in Sources */,
 				C01B640925C469C4004D144F /* SocialMediaView.swift in Sources */,
 				C0755B9F2719A6120045F6DC /* SchoolMapView.swift in Sources */,
+				C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */,
 				C03EA894274593AE00E07782 /* MarkerView.swift in Sources */,
 				C0460E5F25AF0E3B00E4A15D /* Outcomes View.swift in Sources */,
 				C0D214452715B911000AD3D0 /* Maaülikool.swift in Sources */,
@@ -900,6 +988,7 @@
 				C0460E7225AF0E8100E4A15D /* SchoolView.swift in Sources */,
 				C0460E1225AF0C2700E4A15D /* AboutView.swift in Sources */,
 				C063CC5A276A96BB00F61826 /* ToolbarContent.swift in Sources */,
+				C0F85B522A753240007A65F7 /* EdgeInsets+Extension.swift in Sources */,
 				C032995B25CC180900EB7862 /* LocationDomain.swift in Sources */,
 				C0460EA925AF0F1400E4A15D /* KaitseväeAkadeemia.swift in Sources */,
 				C0F38A30277ABD6E00D9811B /* SchoolContact.swift in Sources */,
@@ -908,7 +997,9 @@
 				C007DBA42773E50D002F6BD6 /* ToolbarItem.swift in Sources */,
 				C0460E5125AF0DDD00E4A15D /* View.swift in Sources */,
 				C03EA89E2746FAFC00E07782 /* UserDefaultManager.swift in Sources */,
+				C0F85B4E2A74FC17007A65F7 /* ImageManager.swift in Sources */,
 				C07B6E5D276310CB000B32F7 /* BranchDomain.swift in Sources */,
+				C0F85B4C2A743482007A65F7 /* CollegeViewModel.swift in Sources */,
 				C07B6E6B2763FAAF000B32F7 /* MajorWebsiteModule.swift in Sources */,
 				C0460E2925AF0D3700E4A15D /* SchoolListView.swift in Sources */,
 				C032997225CC18CE00EB7862 /* Requirements.swift in Sources */,
@@ -917,10 +1008,12 @@
 				C01B640125C468C5004D144F /* SchoolMajor.swift in Sources */,
 				C0359656267CA2F90044729B /* Theme.swift in Sources */,
 				C032994125CAAFB800EB7862 /* TallinnaTervidhoidMaka.swift in Sources */,
+				C0F85B542A77FA93007A65F7 /* MajorsView.swift in Sources */,
+				C0F85B492A73E243007A65F7 /* Text+Extension.swift in Sources */,
 				C07B6E672763F9D4000B32F7 /* MajorAdmissionModule.swift in Sources */,
 				C0460EA325AF0F1400E4A15D /* TallinnaTervishoiuKõrgkool.swift in Sources */,
 				C0460E7025AF0E8100E4A15D /* MajorView.swift in Sources */,
-				C039486626279BC0004D5F00 /* ContentViewPresenter.swift in Sources */,
+				C039486626279BC0004D5F00 /* ContentViewModel.swift in Sources */,
 				C08B56BC276C032E00A38F61 /* EmptySchool.swift in Sources */,
 				C09C4E4C25B1DF3900F03F5A /* MajorStats.swift in Sources */,
 				C032994625CAB90C00EB7862 /* TallinnaTervishoiuKutse.swift in Sources */,
@@ -929,12 +1022,16 @@
 				C0460EB825AF113300E4A15D /* Color.swift in Sources */,
 				C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */,
 				C0460EA525AF0F1400E4A15D /* Sisekaitseakadeemia.swift in Sources */,
+				C0F85B3C2A71B30A007A65F7 /* FirebaseManager.swift in Sources */,
 				C007DBA127737F9F002F6BD6 /* AppState.swift in Sources */,
+				C0F85B632A7EA73E007A65F7 /* CollegeMajorView.swift in Sources */,
 				C0460E1725AF0C2700E4A15D /* ContentView.swift in Sources */,
 				C0460EA825AF0F1400E4A15D /* KõrgemKunstikoolPallas.swift in Sources */,
+				C0F85B562A781E3E007A65F7 /* UserDefaultsManager.swift in Sources */,
 				C0460EA225AF0F1400E4A15D /* MuusikaAkadeemia.swift in Sources */,
 				C032998825CC196100EB7862 /* languageData.swift in Sources */,
 				C0E7F7C226B04F4F00AAD132 /* ImageData.swift in Sources */,
+				C0F85B652A8000A3007A65F7 /* CollegeMajorViewModel.swift in Sources */,
 				C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */,
 				C07B6E6D2763FD9C000B32F7 /* MajorLocationModule.swift in Sources */,
 				C0460E9D25AF0F1400E4A15D /* Universities.swift in Sources */,
@@ -943,6 +1040,7 @@
 				C0460E9E25AF0F1400E4A15D /* TartuTervishoiuKõrgkool.swift in Sources */,
 				C018107B25C07C5F0026A86F /* SchoolImage.swift in Sources */,
 				C0A47E6C26AB5E5500B1A734 /* MajorsTitleView.swift in Sources */,
+				C0F85B3E2A71BBD2007A65F7 /* Optional+Extension.swift in Sources */,
 				C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */,
 				C09C500525B9D82200F03F5A /* TallinnaÜlikool.swift in Sources */,
 				C0B93FBF2652803F00CE9130 /* CourseDomain.swift in Sources */,
@@ -951,6 +1049,7 @@
 				C09868932766F0DA00C18C44 /* Chevron.swift in Sources */,
 				C007DB892771918B002F6BD6 /* Environment.swift in Sources */,
 				C0460E3B25AF0D8A00E4A15D /* SchoolCell.swift in Sources */,
+				C0F85B452A73DA77007A65F7 /* CollegeListView.swift in Sources */,
 				C032996025CC187100EB7862 /* MajorDomain.swift in Sources */,
 				C0460E4F25AF0DDD00E4A15D /* Button Configure.swift in Sources */,
 				C0460E7325AF0E8100E4A15D /* Degree View.swift in Sources */,
@@ -965,6 +1064,7 @@
 				C0460EAA25AF0F1400E4A15D /* Mainor.swift in Sources */,
 				C032996D25CC18BE00EB7862 /* ContactDomain.swift in Sources */,
 				C0460E4025AF0D8A00E4A15D /* MajorCell.swift in Sources */,
+				C0F85B582A782AE2007A65F7 /* MajorsViewModel.swift in Sources */,
 				C01B63DB25C2FAD1004D144F /* String.swift in Sources */,
 				C032995325CC17A100EB7862 /* SchoolDomain.swift in Sources */,
 				C03EA88F27445C6500E07782 /* SearchBarModifier.swift in Sources */,
@@ -978,6 +1078,7 @@
 				C07B6E652763F805000B32F7 /* MajorCourseModule.swift in Sources */,
 				C03EA89A27459CFD00E07782 /* SchoolStatistic.swift in Sources */,
 				C0E7F7BC26B047BE00AAD132 /* CityData.swift in Sources */,
+				C0F85B472A73DADB007A65F7 /* CollegeView.swift in Sources */,
 				C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */,
 				C0460E5E25AF0E3B00E4A15D /* Requirements View.swift in Sources */,
 			);
@@ -1066,7 +1167,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1121,7 +1222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1142,7 +1243,7 @@
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Õpi Eestis/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1168,7 +1269,7 @@
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Õpi Eestis/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1334,6 +1435,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		C0F85B402A71BCDA007A65F7 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C0F85B422A71BCE7007A65F7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0F85B312A7195EB007A65F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 

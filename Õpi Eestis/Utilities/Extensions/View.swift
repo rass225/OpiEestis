@@ -26,9 +26,73 @@ extension View {
         self
             .shadow(color: Color.black.opacity(0.3), radius: 4, x: 0, y: 2)
     }
+    
+    func snapshot() -> UIImage {
+        let controller = UIHostingController(rootView: self)
+
+        let view = controller.view
+
+        let targetSize = controller.sizeThatFits(in: UIScreen.main.bounds.size)
+        view?.bounds = CGRect(origin: .zero, size: targetSize)
+        view?.backgroundColor = .clear
+
+        let renderer = UIGraphicsImageRenderer(size: targetSize)
+
+        return renderer.image { _ in
+            view?.drawHierarchy(in: controller.view.bounds, afterScreenUpdates: true)
+        }
+    }
+    
+    func setColor(_ color: Color) -> some View {
+        return self
+            .foregroundColor(color)
+    }
+    
+    func setColor<S1, S2, S3>(_ primary: S1, _ secondary: S2, _ tertiary: S3) -> some View where S1 : ShapeStyle, S2 : ShapeStyle, S3 : ShapeStyle {
+        return self
+            .foregroundStyle(primary, secondary, tertiary)
+    }
+    
+    func setColor<S1, S2>(_ primary: S1, _ secondary: S2) -> some View where S1 : ShapeStyle, S2 : ShapeStyle {
+        return self
+            .foregroundStyle(primary, secondary)
+    }
+    
+    func setColor<S1>(_ primary: S1) -> some View where S1 : ShapeStyle {
+        return self
+            .foregroundStyle(primary)
+    }
+    
+    func fit() -> some View {
+        return self
+            .aspectRatio(contentMode: .fit)
+    }
+    
+    func fill() -> some View {
+        return self
+            .aspectRatio(contentMode: .fill)
+    }
+    
+    func maxWidth(alignment: Alignment = .center) -> some View {
+        return self
+            .frame(maxWidth: .infinity, alignment: alignment)
+    }
+    
+    func maxSize(alignment: Alignment = .center) -> some View {
+        return self
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: alignment)
+    }
+    
+    func maxHeight(alignment: Alignment = .center) -> some View {
+        return self
+            .frame(maxHeight: .infinity, alignment: alignment)
+    }
+    
+    func setFont(_ font: Font, _ fontWeight: Font.Weight, _ fontDesign: Font.Design) -> some View {
+        return self
+            .font(font)
+            .fontWeight(fontWeight)
+            .fontDesign(fontDesign)
+    }
+    
 }
-
-
-
-
-

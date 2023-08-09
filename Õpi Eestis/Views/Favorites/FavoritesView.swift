@@ -83,5 +83,6 @@ struct FavoritesView: View {
                 .font(.mediumCallout)
                 .foregroundColor(.black)
         }
+        .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
     }
 }

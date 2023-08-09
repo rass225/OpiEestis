@@ -3,7 +3,6 @@ import MapKit
 
 struct SchoolMapView: View {
     
-   
     @State var region = MKCoordinateRegion()
     let school: School
     
@@ -75,8 +74,3 @@ private struct drawOverlay: View {
         .foregroundColor(Color.black)
     }
 }
-
-
-
-
-

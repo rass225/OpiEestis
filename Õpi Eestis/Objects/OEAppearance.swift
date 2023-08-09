@@ -28,12 +28,13 @@ internal enum OEAppearance {
         internal static let app = "Õpi Eestis"
         internal static let eap = "EAP"
         internal static let ekap = "EKAP"
-        internal static let language = "keeles"
+        internal static let language = "Õppekeel"
         internal static let year = "Aasta"
         internal static let years = "Aastat"
+        internal static let duration = "Kestus"
         internal static let fullPayment = "Maksumus"
         internal static let semester = "Semester"
-        internal static let spots = "Õppekohta"
+        internal static let spots = "Õppekohti"
         internal static let infinity = "∞"
         internal static let admission = "Vastuvõtt"
         internal static let ebsForeignStudents = "42. riigist"
@@ -47,7 +48,7 @@ internal enum OEAppearance {
         
         internal enum title {
             internal static let outcomes = "Õpiväljundid"
-            internal static let description = "Eriala kirjeldus"
+            internal static let description = "Kirjeldus"
             internal static let requirements = "Sisseastumine"
             internal static let about = "Rakendusest"
             internal static let modules = "Moodulid"
@@ -59,12 +60,12 @@ internal enum OEAppearance {
             internal static let telHttps = "tel://"
         }
         internal enum languages {
-            internal static let estonian = "Eesti"
-            internal static let spanish = "Hispaania"
-            internal static let english = "Inglise"
-            internal static let french = "Prantsuse"
-            internal static let german = "Saksa"
-            internal static let russian = "Vene"
+            internal static let estonian = "Eesti keel"
+            internal static let spanish = "Hispaania keel"
+            internal static let english = "Inglise keel"
+            internal static let french = "Prantsuse keel"
+            internal static let german = "Saksa keel"
+            internal static let russian = "Vene keel"
         }
         
         internal enum search {

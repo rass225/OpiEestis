@@ -38,7 +38,7 @@ struct SchoolContact: View {
                 }
             }
             .disabled(!MFMailComposeViewController.canSendMail())
-                .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name)} 
+            .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name)} 
         } else {
             // Fallback on earlier versions
         }
