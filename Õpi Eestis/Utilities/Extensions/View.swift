@@ -95,4 +95,9 @@ extension View {
             .fontDesign(fontDesign)
     }
     
+    func setSymbol(_ variant: SymbolVariants, _ renderMode: SymbolRenderingMode = .monochrome) -> some View {
+        self
+            .symbolVariant(variant)
+            .symbolRenderingMode(renderMode)
+    }
 }

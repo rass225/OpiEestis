@@ -19,6 +19,7 @@ struct CollegesListView: View {
             })
             
         }
+        .navigationSplitViewStyle(.balanced)
         .toolbar(.visible, for: .tabBar)
     }
 }

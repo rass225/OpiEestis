@@ -6,11 +6,17 @@ enum levelchoice: String, CaseIterable, Codable{
     case masters = "magister"
     case doctor = "doktor"
     case kutseharidus = "kutseharidus"
-    case allLevels = "Kõik erialad"
+    case allLevels = "Kõik erialad mine"
     
-    var description: String {
-        get {
-            return self.rawValue
+    var label: String {
+        switch self {
+        case .applied: return "Rakenduskõrgharidus"
+        case .integrated: return "Integreeritud õpe"
+        case .bachelor: return "Bakalaureus"
+        case .masters: return "Magister"
+        case .doctor: return "Doktor"
+        case .kutseharidus: return "Kutseharidus"
+        case .allLevels: return "Kõik erialad"
         }
     }
 }

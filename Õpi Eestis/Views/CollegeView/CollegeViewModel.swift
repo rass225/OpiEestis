@@ -1,10 +1,12 @@
 import SwiftUI
+import MessageUI
 import MapKit
 
 extension CollegeView {
     class Model: ObservableObject {
         let college: College
         let dependencies: DependencyManager
+        let mockImages = ["TaTeKõpicture", "TaTKimage", "TTKimage"]
         @Published var contactSheetIsOpen: Bool
         @Published var foreignStudentsToggle: Bool = false
         @Published var isSmallImageShown: Bool = false
@@ -12,6 +14,7 @@ extension CollegeView {
         @Published var isMailOpen: Bool = false
         @Published var majors: [majorsMinors] = []
         @Published var majorStats: [StatEntity] = []
+        @Published var mailResult: Result<MFMailComposeResult, Error>? = nil
         
         init(
             college: College,

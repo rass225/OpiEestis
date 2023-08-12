@@ -1,8 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct majorsMinors: Hashable, Codable, Identifiable {
-    var id = UUID()
+struct majorsMinors: Hashable, Codable {
     var name: String
     var level: levelchoice
     var type: typechoice
@@ -65,11 +64,6 @@ struct majorsMinors: Hashable, Codable, Identifiable {
         UIApplication.shared.open(url)
     }
     
-    func hasModules() -> Bool {
-        guard modules != nil else { return false }
-        return true
-    }
-    
     func hasPersonnel() -> Bool {
         guard personnel != nil else { return false }
         return true
@@ -84,27 +78,27 @@ struct majorsMinors: Hashable, Codable, Identifiable {
         hasEap() ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
     }
     
-    func isFavorite(school: School) -> Bool {
-        
-        let decoder = JSONDecoder()
-        let defaults = UserDefaults.standard
-        let key = userDefaultKey(school.name)
-        if let favorites = defaults.object(forKey: key) as? Data {
-            if let favorites = try? decoder.decode(Favorites.self, from: favorites) {
-                let schoolFavorites: [majorsMinors]
-                schoolFavorites = favorites.majors
-                if schoolFavorites.contains(self) {
-                    return true
-                } else {
-                    return false
-                }
-            } else {
-                return false
-            }
-        } else {
-            return false
-        }
-    }
+//    func isFavorite(school: School) -> Bool {
+//        
+//        let decoder = JSONDecoder()
+//        let defaults = UserDefaults.standard
+//        let key = userDefaultKey(school.name)
+//        if let favorites = defaults.object(forKey: key) as? Data {
+//            if let favorites = try? decoder.decode(Favorites.self, from: favorites) {
+//                let schoolFavorites: [majorsMinors]
+//                schoolFavorites = favorites.majors
+//                if schoolFavorites.contains(self) {
+//                    return true
+//                } else {
+//                    return false
+//                }
+//            } else {
+//                return false
+//            }
+//        } else {
+//            return false
+//        }
+//    }
     
     private func userDefaultKey(_ name: SchoolName) -> String {
         switch name {

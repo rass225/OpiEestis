@@ -4,13 +4,11 @@ import MessageUI
 struct OEToolBar: View {
     @EnvironmentObject var appState: AppState
     @Environment(\.presentationMode) var presentationMode
-    @ObservedObject var presenter = UserDefaultManager()
+    let presenter = UserDefaultsManager()
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     @State var showActionSheet = false
     
-  
-            
     enum Title: String {
         case favorites = "Lemmikud"
         case course = "Moodulid"
@@ -92,7 +90,6 @@ struct OEToolBar: View {
                     .cancel(Text("Tagasi"))
                 ])
             }.disabled(!MFMailComposeViewController.canSendMail())
-            .sheet(isPresented: $isShowingMailView) {MailView(result: $result, email: school.contact, name: school.name)}
         case .favorites:
             Button(action: {
                 toggle?.wrappedValue.toggle()
@@ -125,11 +122,11 @@ struct OEToolBar: View {
                     
                     favoriteManager(school: school, major: major)
                 }) {
-                    if major.isFavorite(school: school) {
-                        Label("Eemalda", systemImage: "minus")
-                    } else {
-                        Label("Lisa", systemImage: "plus")
-                    }
+//                    if major.isFavorite(school: school) {
+//                        Label("Eemalda", systemImage: "minus")
+//                    } else {
+//                        Label("Lisa", systemImage: "plus")
+//                    }
                 }
                 Button(action: {
                     toggle?.wrappedValue.toggle()
@@ -168,42 +165,15 @@ struct OEToolBar: View {
 }
 
 extension OEToolBar {
-    
-    private struct navBarImage: View {
-        
-        @State var isPrimary = false
-        let color: Color
-        let image: Image
-        var body: some View {
-            if isPrimary {
-                image
-                    .frame(height: 35)
-                    .frame(width: 35)
-                    .font(.semiBoldCallout)
-                    .background(Color.white)
-                    .cornerRadius(35)
-                    .foregroundColor(.oeBlue)
-            } else {
-                image
-                    .frame(height: 35)
-                    .frame(width: 35)
-                    .font(.semiBoldCallout)
-                    .background(Color.white)
-                    .cornerRadius(35)
-                    .foregroundColor(color)
-            }
-        }
-    }
-    
     private func favoriteManager(school: School, major: majorsMinors) {
         if let isFavorite = isFavorite {
             if isFavorite.wrappedValue {
-                presenter.removeFavorite(school: school, majorName: major.name)
-                isFavorite.wrappedValue = false
+//                presenter.removeFavorite(school: school, majorName: major.name)
+//                isFavorite.wrappedValue = false
             } else {
-                let favorite = Favorites(school: school, majors: [major])
-                presenter.addFavorite(favorite: favorite)
-                isFavorite.wrappedValue = true
+//                let favorite = Favorites(school: school, majors: [major])
+//                presenter.addFavorite(favorite: favorite)
+//                isFavorite.wrappedValue = true
             }
         }
     }
@@ -230,4 +200,26 @@ enum Title: String {
     case outcomes = "Õpiväljundid"
     case personnel = "Personal"
     case about = "Rakendusest"
+}
+
+struct navBarImage: View {
+    
+    @State var isPrimary = false
+    let color: Color
+    let image: Image
+    var body: some View {
+        if isPrimary {
+            image
+                .frame(height: 35)
+                .frame(width: 35)
+                .setFont(.callout, .semibold, .rounded)
+                .foregroundColor(.oeBlue)
+        } else {
+            image
+                .frame(height: 35)
+                .frame(width: 35)
+                .setFont(.callout, .black, .rounded)
+                .foregroundStyle(color.gradient)
+        }
+    }
 }

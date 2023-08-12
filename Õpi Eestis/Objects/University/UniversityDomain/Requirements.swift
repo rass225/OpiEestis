@@ -1,7 +1,6 @@
 import Foundation
 
-struct Requirements: Hashable, Codable, Identifiable {
-    var id = UUID()
+struct Requirements: Hashable, Codable {
     var term: String
     var percentage: Int?
     

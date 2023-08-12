@@ -1,7 +1,6 @@
 import Foundation
 
-struct Personnel: Hashable, Codable, Identifiable{
-    var id = UUID()
+struct Personnel: Hashable, Codable {
     var name: String
     var title: String
     var email: String?

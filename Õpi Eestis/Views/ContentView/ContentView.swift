@@ -30,13 +30,12 @@ struct ContentView: View {
                 Label("Kaart", systemImage: "map.fill")
             })
             NavigationStack {
-                FavoritesView(isNavigated: false)
-                
+                FavoritesView(isNavigated: false, colleges: model.schools)
             }.tabItem({
-                Label("Lemmikud", systemImage: "star.fill")
+                Label("Lemmikud", systemImage: "heart.fill")
             })
         })
-        .tint(Color.oeBlue)
+        .tint(Color.oeBlue.gradient)
     }
 }
 

@@ -1,11 +1,10 @@
 import SwiftUI
-import MessageUI
 import MapKit
 
 struct CollegeView: View {
+//    @Environment(\.presentationMode) var dismiss
     @StateObject var model: Model
-    @State private var result: Result<MFMailComposeResult, Error>? = nil
-    let mockImages = ["TaTeKõpicture", "TaTKimage", "TTKimage"]
+    @State var presentMajors = false
     
     var body: some View {
         ScrollViewReader { scrollView in
@@ -24,12 +23,15 @@ struct CollegeView: View {
             }
             .scrollIndicators(.hidden)
         }
-            
+//        .navigationBarBackButtonHidden()
+        .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            AppToolbarItem(.dismiss, color: model.college.palette.base)
             ToolbarItem(placement: .principal, content: smallIconView)
+//            ToolbarItem(placement: .navigationBarLeading, content: backButton)
         }
-        .navigationBarBackButtonHidden(true)
+        .navigationDestination(isPresented: $presentMajors, destination: {
+            MajorsView(model: .init(college: model.college, majors: model.majors))
+        })
         .sheet(isPresented: $model.isMailOpen, content: mailView)
     }
 }
@@ -49,7 +51,7 @@ extension CollegeView {
     @ViewBuilder
     func mailView() -> some View {
         CollegeMailView(
-            result: $result,
+            result: $model.mailResult,
             email: model.college.contact.email
         )
     }
@@ -80,7 +82,7 @@ extension CollegeView {
 
 // MARK: - Content
 
-extension CollegeView {
+private extension CollegeView {
     @ViewBuilder
     func mainDataContent() -> some View {
         VStack(spacing: 0) {
@@ -139,7 +141,7 @@ extension CollegeView {
     @ViewBuilder
     func imageContent() -> some View {
             TabView {
-                ForEach(mockImages, id: \.self) { imageName in
+                ForEach(model.mockImages, id: \.self) { imageName in
                     Image(imageName)
                         .resizable()
                         .fill()
@@ -154,40 +156,43 @@ extension CollegeView {
     
     @ViewBuilder
     func majorsContent() -> some View {
-        NavigationLink(destination: MajorsView(model: .init(college: model.college, majors: model.majors))) {
-            VStack(spacing: 12) {
-                VStack(alignment: .leading, spacing: 12){
-                    ForEach(model.majorStats, id: \.self) { item in
-                        majorContentCell(item)
-                    }
+        VStack(spacing: 12) {
+            VStack(alignment: .leading, spacing: 12){
+                ForEach(model.majorStats, id: \.self) { item in
+                    majorContentCell(item)
                 }
-                GeometryReader { geo in
-                    let maxWidth = geo.size.width
-                    HStack(spacing: 0){
-                        ForEach(model.majorStats.indices, id: \.self) { index in
-                            if index == 0 {
-                                Rectangle()
-                                    .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
-                                    .frame(height: 13)
-                                    .foregroundStyle(model.majorStats[index].color.gradient)
-                                    .cornerRadiusCustom(10, corners: model.majorStats.count == 1 ? .allCorners : [.topLeft, .bottomLeft])
-                            } else if index == model.majorStats.count - 1 {
-                                Rectangle()
-                                    .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
-                                    .frame(height: 13)
-                                    .foregroundStyle(model.majorStats[index].color.gradient)
-                                    .cornerRadiusCustom(10, corners: [.topRight, .bottomRight])
-                            } else {
-                                Rectangle()
-                                    .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
-                                    .frame(height: 13)
-                                    .foregroundStyle(model.majorStats[index].color.gradient)
-                            }
+            }
+            GeometryReader { geo in
+                let maxWidth = geo.size.width
+                HStack(spacing: 0){
+                    ForEach(model.majorStats.indices, id: \.self) { index in
+                        if index == 0 {
+                            Rectangle()
+                                .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
+                                .frame(height: 13)
+                                .foregroundStyle(model.majorStats[index].color.gradient)
+                                .cornerRadiusCustom(10, corners: model.majorStats.count == 1 ? .allCorners : [.topLeft, .bottomLeft])
+                        } else if index == model.majorStats.count - 1 {
+                            Rectangle()
+                                .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
+                                .frame(height: 13)
+                                .foregroundStyle(model.majorStats[index].color.gradient)
+                                .cornerRadiusCustom(10, corners: [.topRight, .bottomRight])
+                        } else {
+                            Rectangle()
+                                .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
+                                .frame(height: 13)
+                                .foregroundStyle(model.majorStats[index].color.gradient)
                         }
                     }
-                }.frame(height: 13)
-            }
+                }
+            }.frame(height: 13)
         }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            presentMajors.toggle()
+        }
+        
     }
     
     @ViewBuilder
@@ -270,7 +275,7 @@ extension CollegeView {
 
 // MARK: - Headers
 
-extension CollegeView {
+private extension CollegeView {
     @ViewBuilder
     func header(
         label: String,
@@ -346,7 +351,7 @@ extension CollegeView {
 
 // MARK: - Cells
 
-extension CollegeView {
+private extension CollegeView {
     @ViewBuilder
     func statisticCell(
         topLabel: String,
@@ -410,7 +415,7 @@ extension CollegeView {
 
 // MARK: - Buttons
 
-extension CollegeView {
+private extension CollegeView {
     @ViewBuilder
     func contactButton(
         label: String,
@@ -439,6 +444,18 @@ extension CollegeView {
                 .padding(8)
                 .background(Circle().fill(Color.white))
         }
+    }
+    
+    @ViewBuilder
+    func backButton() -> some View {
+        Image.chevronLight
+            .frame(height: 35)
+            .frame(width: 35)
+            .setFont(.callout, .bold, .rounded)
+            .foregroundStyle(model.college.palette.base.gradient)
+            .onTapGesture {
+//                dismiss.wrappedValue.dismiss()
+            }
     }
 }
 

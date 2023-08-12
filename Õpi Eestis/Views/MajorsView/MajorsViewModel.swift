@@ -4,10 +4,11 @@ extension MajorsView {
     class Model: ObservableObject {
         let college: College
         let majors: [majorsMinors]
-        @Published var selectedLevel = OEAppearance.Locale.degrees.allMajors
+        @Published var selectedLevel: levelchoice = .allLevels
         @Published var searchText = ""
         @Published var isAscending = false
         @Published var isSearching = false
+        @Published var levels: [levelchoice] = []
         @Published var favorites: [majorsMinors] = []
         let userDefaultsManager = UserDefaultsManager()
         
@@ -17,104 +18,79 @@ extension MajorsView {
         ) {
             self.college = college
             self.majors = majors
+            
+            levels.append(.allLevels)
+            
+            if majors.contains(where: { $0.level == .applied}) {
+                levels.append(.applied)
+            }
+            if majors.contains(where: { $0.level == .bachelor}) {
+                levels.append(.bachelor)
+            }
+            if majors.contains(where: { $0.level == .integrated}) {
+                levels.append(.integrated)
+            }
+            if majors.contains(where: { $0.level == .masters}) {
+                levels.append(.masters)
+            }
+            if majors.contains(where: { $0.level == .doctor}) {
+                levels.append(.doctor)
+            }
+            if majors.contains(where: { $0.level == .kutseharidus}) {
+                levels.append(.kutseharidus)
+            }
+        }
+        
+        enum Level {
+            case applied
+            case bachelors
+            case integrated
+            case masters
+            case doctors
+            case vocational
+            case all
+        }
+        
+        var displayedMajors: [majorsMinors] {
+            if selectedLevel == .allLevels {
+                return majors
+                    .sorted(by: \.name)
+            } else {
+                return majors
+                    .filter({ $0.level == selectedLevel})
+                    .sorted(by: \.name)
+            }
         }
     }
 }
 
 extension MajorsView.Model {
-    func levels() -> [SelectedLevel] {
-        var selectedLevels: [SelectedLevel] = []
-        let majors = self.majors
-        var bachelor: [majorsMinors]
-        var masters: [majorsMinors]
-        var doctor: [majorsMinors]
-        var integrated: [majorsMinors]
-        var applied: [majorsMinors]
-        var kutse: [majorsMinors]
-        
-        bachelor = majors.filter({ (level) -> Bool in
-            return level.level == levelchoice.bachelor
-        })
-        
-        masters = majors.filter({ (level) -> Bool in
-            return level.level == levelchoice.masters
-        })
-        
-        doctor = majors.filter({ (level) -> Bool in
-            return level.level == levelchoice.doctor
-        })
-        
-        integrated = majors.filter({ (level) -> Bool in
-            return level.level == levelchoice.integrated
-        })
-        
-        applied = majors.filter({ (level) -> Bool in
-            return level.level == levelchoice.applied
-        })
-        
-        kutse = majors.filter({ (level) -> Bool in
-            return level.level == levelchoice.kutseharidus
-        })
-        
-        selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.allMajors, level: .allLevels, majors: self.majors))
-        
-        if !kutse.isEmpty {
-            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.kutse, level: .kutseharidus, majors: kutse))
-        }
-        if !applied.isEmpty {
-            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.applied, level: .applied, majors: applied))
-        }
-        if !bachelor.isEmpty {
-            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.bachelors, level: .bachelor, majors: bachelor))
-        }
-        if !integrated.isEmpty {
-            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.integrated, level: .integrated, majors: integrated))
-        }
-        if !masters.isEmpty {
-            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.masters, level: .masters, majors: masters))
-        }
-        if !doctor.isEmpty {
-            selectedLevels.append(SelectedLevel(title: OEAppearance.Locale.degrees.doctor, level: .doctor, majors: doctor))
-        }
-        
-        return selectedLevels
-    }
-    
     func getFavorites() {
-        favorites = userDefaultsManager.retrieveFavorites(college: college)
+        favorites = userDefaultsManager.getFavorites(forUniversity: college)
     }
     
+    func isFavorite() {
+        
+    }
+
     func viewDidDisappear() {
         isSearching = false
         searchText = ""
     }
-    
-    func selectedMajors() -> [majorsMinors] {
-        var majors: [majorsMinors]
-        if selectedLevel == OEAppearance.Locale.degrees.allMajors {
-            majors = self.majors
-        } else {
-            majors = self.majors.filter({ $0.level.rawValue == selectedLevel.lowercased()})
-        }
-        if !searchText.isEmpty {
-            majors = majors.filter({ $0.name.lowercased().contains(searchText.lowercased()) })
-        }
-        majors = isAscending ? majors.sorted(by: { $0.name > $1.name }) : majors.sorted(by: { $0.name < $1.name})
-        return majors
-    }
-    
-    private func order() {
-        isAscending.toggle()
-    }
-    
-    func didSelectLevel(level: SelectedLevel) {
-        selectedLevel = level.level.rawValue
-    }
-    
+
     struct SelectedLevel: Identifiable {
         var id = UUID()
         var title: String
         var level: levelchoice
         var majors: [majorsMinors]
+    }
+}
+
+extension Sequence {
+    func sorted<T: Comparable>(by keyPath: KeyPath<Element, T>, descending: Bool = false) -> [Element] {
+        return sorted { a, b in
+            let comparisonResult = a[keyPath: keyPath] < b[keyPath: keyPath]
+            return descending ? !comparisonResult : comparisonResult
+        }
     }
 }

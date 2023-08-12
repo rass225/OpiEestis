@@ -1,93 +1,53 @@
 import SwiftUI
 
 struct MajorsView: View {
+    @Environment(\.presentationMode) var dismiss
     @StateObject var model: Model
     
     var body: some View {
-        VStack(spacing: 0) {
-            VStack(spacing: 0) {
-                searchView()
-                levelsView()
-                dividerView()
-            }
-            .background(Color.white)
-            majorsList()
+        List {
+            Section(content: {
+                ForEach(model.displayedMajors, id: \.self) { major in
+                    majorCell(major)
+                }
+            }, header: hiddenHeader)
         }
+        .searchable(text: $model.searchText)
         .toolbar {
-            AppToolbarItem(.dismiss, color: model.college.palette.base)
-            AppToolbarItem(.search(toggle: $model.isSearching), color: model.college.palette.base)
+            ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
+            ToolbarItem(placement: .navigationBarTrailing, content: levelsView)
         }
-        .navigationBarBackButtonHidden(true)
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden()
         .onAppear(perform: model.getFavorites)
-        .onDisappear(perform: model.viewDidDisappear)
-    }
-    
-    @ViewBuilder
-    func majorCell(_ major: majorsMinors) -> some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text(major.name)
-                .setFont(.callout, .medium, .rounded)
-                .setColor(.black)
-            Text(major.level.rawValue.capitalized)
-                .setFont(.subheadline, .medium, .rounded)
-                .setColor(model.college.palette.base)
-        }
-        .padding(.vertical, 8)
-        .badge(model.favorites.contains(major) ? Text(Image(systemName: "heart.fill"))
-        .foregroundColor(model.college.palette.base) : nil)
-    }
-    
-    @ViewBuilder
-    private func levelCell(_ level: Model.SelectedLevel) -> some View {
-        VStack(spacing: 5) {
-            Text(level.title)
-                .setFont(.body, .medium, .rounded)
-                .padding(.horizontal, 12)
-                .padding(.top, 8)
-                .setColor(model.selectedLevel == level.level.rawValue ? model.college.palette.base : .black)
-            Rectangle()
-                .frame(width: 65, height: 3)
-                .setColor(model.college.palette.base.gradient)
-                .cornerRadiusCustom(50, corners: [.topLeft, .topRight])
-                .opacity(model.selectedLevel == level.level.rawValue ? 1 : 0)
-        }
-        .padding(.top, 5)
-        .contentShape(Rectangle())
-        .onTapGesture {
-            model.didSelectLevel(level: level)
-        }
-        
     }
 }
 
 extension MajorsView {
     @ViewBuilder
-    func searchView() -> some View {
-        if model.isSearching {
-            SearchNavBar(text: $model.searchText)
-        }
-    }
-    
-    @ViewBuilder
     func levelsView() -> some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 0) {
-                ForEach(model.levels()) { item in
-                    levelCell(item)
+        Menu(content: {
+            Picker("", selection: $model.selectedLevel) {
+                ForEach(model.levels, id: \.self) { item in
+                    Text(item.label)
                 }
             }
-            .padding(.horizontal)
-            .frame(maxWidth: .infinity, alignment: .trailing)
-        }
+        }, label: {
+            HStack {
+                Text("Õppeaste")
+                Image.chevronDown
+                    .fit()
+                    .setFont(.caption, .medium, .rounded)
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 6)
+            .background(Capsule(style: .continuous).fill(model.college.palette.base.opacity(0.15).gradient))
+            .setFont(.subheadline, .medium, .rounded)
+            .setColor(model.college.palette.base)
+        })
     }
-    
-    @ViewBuilder
-    func dividerView() -> some View {
-        Divider().background(Color.mediumGray)
-    }
-    
+
     @ViewBuilder
     func smallIconView() -> some View {
         CollegeView.LogoView(
@@ -96,20 +56,59 @@ extension MajorsView {
     }
     
     @ViewBuilder
-    func majorsList() -> some View {
-        List(model.selectedMajors()) { item in
-            NavigationLink(
-                destination: CollegeMajorView(
+    func hiddenHeader() -> some View {
+        Text("Test")
+            .opacity(0)
+    }
+}
+
+// MARK: - Buttons
+
+extension MajorsView {
+    @ViewBuilder
+    func backButton() -> some View {
+        Button(action: { dismiss.wrappedValue.dismiss() }) {
+            Image.chevronLight
+                .frame(height: 35)
+                .frame(width: 35)
+                .setFont(.callout, .bold, .rounded)
+                .foregroundStyle(model.college.palette.base.gradient)
+        }
+    }
+}
+
+// MARK: - Cells
+
+extension MajorsView {
+    @ViewBuilder
+    func majorCell(_ major: majorsMinors) -> some View {
+        NavigationLink(destination: {
+                CollegeMajorView(
                     model: .init(
-                        major: item,
+                        major: major,
                         college: model.college,
                         tabSelection: .overview
                     )
                 )
-            ) {
-                majorCell(item)
+            }, label: {
+                HStack {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(major.name)
+                            .setFont(.callout, .medium, .rounded)
+                            .setColor(.black)
+                        Text(major.level.rawValue.capitalized)
+                            .setFont(.subheadline, .medium, .rounded)
+                            .setColor(model.college.palette.base)
+                    }
+                    .padding(.vertical, 4)
+                    Spacer()
+                    if model.favorites.contains(major) {
+                        Image(systemName: "heart.fill")
+                            .setColor(model.college.palette.base.gradient)
+                    }
+                }
             }
-        }
+        )
     }
 }
 

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct CollegeMajorView: View {
+    @Environment(\.presentationMode) var dismiss
     @StateObject var model: Model
     @Namespace var animation
     
@@ -32,14 +33,55 @@ struct CollegeMajorView: View {
                 List {
                     Section(content: outcomesContent, header: outcomesHeader)
                 }
+            case .personnel:
+                List {
+                    Section(content: {
+                        if let personnel = model.major.personnel {
+                            ForEach(personnel, id: \.self) { person in
+                                HStack {
+                                    Image.personFill
+                                        .setFont(.title, .regular, .rounded)
+                                        .setColor(model.college.palette.base.gradient)
+                                    VStack(alignment: .leading) {
+                                        Text(person.name)
+                                            .setFont(.subheadline, .regular, .rounded)
+                                        Text(person.title)
+                                            .setColor(.gray)
+                                            .setFont(.footnote, .regular, .rounded)
+                                    }
+                                    
+                                    Spacer()
+                                    if let email = person.email {
+                                        Image.envelopeFill
+                                            .setFont(.title3, .regular, .rounded)
+                                            .setColor(model.college.palette.base.gradient)
+                                            .onTapGesture {
+                                                model.openMail(email)
+                                            }
+                                    }
+                                    if let phone = person.phone {
+                                        Image.phoneFill
+                                            .setFont(.title3, .regular, .rounded)
+                                            .setColor(model.college.palette.base.gradient)
+                                            .onTapGesture {
+                                                model.openPhone(phone)
+                                            }
+                                    }
+                                }
+                                .padding(.vertical, 2)
+                                
+                            }
+                        }
+                    }, header: personnelHeader)
+                }
             }
         }
         .toolbar {
-            AppToolbarItem(.dismiss, color: model.college.palette.base)
+            ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
             ToolbarItem(placement: .navigationBarTrailing, content: favoritesButton)
         }
-        .navigationBarBackButtonHidden(true)
+        .navigationBarBackButtonHidden()
     }
 }
 
@@ -47,39 +89,13 @@ struct CollegeMajorView: View {
 
 extension CollegeMajorView {
     @ViewBuilder
-    func favoritesButton() -> some View {
-        if model.favorites.contains(model.major) {
-            Image.starFill
-                .foregroundStyle(model.college.palette.base.gradient)
-                .onTapGesture {
-                    model.userDefaultsManager.removeFavorite(
-                        college: model.college,
-                        majorName: model.college.name,
-                        key: model.college.jsonKeys.favorites
-                    )
-                }
-        } else {
-            Image.star
-                .foregroundStyle(model.college.palette.base.gradient)
-                .onTapGesture {
-                    model.userDefaultsManager.addFavorite(
-                        favorite: .init(
-                            college: model.college,
-                            majors: [model.major]
-                        ),
-                        key: model.college.jsonKeys.favorites
-                    )
-                }
-        }
-    }
-    @ViewBuilder
     func titleView() -> some View {
         VStack(alignment: .center, spacing: 0){
             Text(model.major.name)
                 .setFont(.title3, .semibold, .rounded)
             Text(model.major.level.rawValue.capitalized)
                 .setFont(.body, .semibold, .rounded)
-                .foregroundColor(model.college.palette.base)
+                .foregroundStyle(model.college.palette.base.gradient)
         }
         .maxWidth(alignment: .center)
         .padding(.horizontal, 16)
@@ -112,7 +128,7 @@ extension CollegeMajorView {
                 Capsule(style: .continuous)
                     .fill(Color.white)
                 Capsule(style: .continuous)
-                    .fill(model.college.palette.base.opacity(0.15).gradient)
+                    .fill(model.college.palette.base.opacity(0.175).gradient)
             }
         )
         .padding(.horizontal, 16)
@@ -194,6 +210,16 @@ extension CollegeMajorView {
     }
     
     @ViewBuilder
+    func personnelHeader() -> some View {
+        header(
+            label: OEAppearance.Locale.personnel,
+            image: .person2Fill,
+            color: model.college.palette.base,
+            isTop: true
+        )
+    }
+    
+    @ViewBuilder
     func header(
         label: String,
         image: Image,
@@ -204,7 +230,7 @@ extension CollegeMajorView {
             image
                 .font(.body)
                 .setColor(color.gradient)
-                .frame(width: 20, alignment: .leading)
+                .frame(width: 24, alignment: .leading)
             Text(label.capitalized)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
@@ -257,7 +283,17 @@ extension CollegeMajorView {
     
     @ViewBuilder
     func modulesContent() -> some View {
-        ForEach(model.major.modules) { item in
+//        ForEach(model.major.modules, id: \.self) { item in
+//            ModuleCell(
+//                item: item,
+//                eapLabel: model.major.eapLocale,
+//                color: model.college.palette.base
+//            )
+//        }
+//        .font(.regularSubHeadline)
+//        .tint(model.college.palette.base)
+        
+        ForEach(model.testModules, id: \.self) { item in
             ModuleCell(
                 item: item,
                 eapLabel: model.major.eapLocale,
@@ -289,7 +325,7 @@ extension CollegeMajorView {
     
     @ViewBuilder
     func requirementContent() -> some View {
-        ForEach(model.major.requirements) { item in
+        ForEach(model.major.requirements, id: \.self) { item in
             requirementCell(item)
         }
     }
@@ -326,5 +362,102 @@ extension CollegeMajorView {
         Text(outcome)
             .setFont(.subheadline, .regular, .rounded)
             .foregroundColor(.black)
+    }
+}
+
+// MARK: - Buttons
+
+extension CollegeMajorView {
+    @ViewBuilder
+    func backButton() -> some View {
+        Button(action: { dismiss.wrappedValue.dismiss() }) {
+            Image.chevronLight
+                .frame(height: 35)
+                .frame(width: 35)
+                .setFont(.callout, .bold, .rounded)
+                .foregroundStyle(model.college.palette.base.gradient)
+        }
+    }
+    
+    @ViewBuilder
+    func favoritesButton() -> some View {
+        if model.isFavorite {
+            Image(systemName: "heart.fill")
+                .setFont(.body, .semibold, .rounded)
+                .foregroundStyle(model.college.palette.base.gradient)
+                .frame(width: 35)
+                .onTapGesture(perform: model.removeFavorite)
+        } else {
+            Image(systemName: "heart")
+                .setFont(.body, .bold, .rounded)
+                .foregroundStyle(model.college.palette.base.gradient)
+                .frame(width: 35)
+                .onTapGesture(perform: model.addFavorite)
+        }
+    }
+}
+
+// MARK: - Objects
+
+extension CollegeMajorView {
+    struct MajorStat: View {
+        let image: Image
+        let topText: String
+        let bottomText: String
+        let color: Color
+        
+        init(type: StatType, color: Color) {
+            self.color = color
+            switch type {
+            case .duration(let duration):
+                image = .clockFill
+                if duration.isInt() {
+                    topText = "\(Int(duration))a"
+                } else {
+                    topText = String(format: "%.1f", duration) + "a"
+                }
+                bottomText = OEAppearance.Locale.duration
+            case .spots(let spots):
+                image = .personFill
+                topText = spots == 0 ? OEAppearance.Locale.infinity : "\(spots)"
+                switch spots {
+                case 1: bottomText = "Õppekohtade arv"
+                default: bottomText = "Õppekohtade arv"
+                }
+            case .cost(let cost):
+                image = cost.currency.icon
+                topText = "\(cost.amount)€ \(cost.interval.label)"
+                bottomText = "Maksumus"
+            case .eap(let eap, let hasEap):
+                image = .squareStack
+                topText = "\(eap)"
+                bottomText = hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
+            case .language(let language):
+                image = .globe
+                topText = language.country
+                bottomText = OEAppearance.Locale.language
+            }
+        }
+        
+        var body: some View {
+            HStack(alignment: .center, spacing: 16) {
+                image
+                    .foregroundStyle(color.gradient)
+                    .font(.body)
+    //                .frame(width: 16, alignment: .leading)
+                Text(topText)
+                    .setFont(.subheadline, .medium, .rounded)
+                    .foregroundColor(.black)
+            }
+            .badge(Text(bottomText).setFont(.footnote, .regular, .rounded))
+        }
+    }
+
+    enum StatType {
+        case duration(duration: Double)
+        case spots(spots: Int)
+        case cost(cost: Cost)
+        case eap(count: Int, hasEAP: Bool)
+        case language(lang: languagechoice)
     }
 }

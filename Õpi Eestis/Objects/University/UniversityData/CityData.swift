@@ -13,6 +13,7 @@ enum city: String, CaseIterable, Codable {
     case mõdriku = "Mõdriku"
     case haapsalu = "Haapsalu"
     case glasgow = "Glasgow"
+    case vaikeMaarja = "Väike-Maarja"
     case undefined = ""
 }
 

@@ -1,76 +1,55 @@
 import Foundation
 
-struct UserDefaultsManager {
-    func addFavorite(favorite: CollegeFavorite, key: String) {
-        let decoder = JSONDecoder()
-        let defaults = UserDefaults.standard
-        if let favorites = defaults.object(forKey: key) as? Data {
-            
-            if var favorites = try? decoder.decode(CollegeFavorite.self, from: favorites) {
-                if !favorites.majors.contains(favorite.majors[0]) {
-                    for item in favorite.majors {
-                        favorites.majors.append(item)
-                    }
-                    addToDatabase(favorites: favorites, key: key)
-                }
-            }
-        } else {
-            addToDatabase(favorites: favorite, key: key)
+class UserDefaultsManager {
+    private let favoritesKey = "userFavorites"
+
+    func addFavorite(university: College, major: majorsMinors) {
+        var favorites = getAllFavorites()
+        
+        var universityFavorites = favorites[university.name] ?? []
+        if !universityFavorites.contains(where: { $0.name == major.name && $0.language == major.language && $0.level == major.level }) {
+            universityFavorites.append(major)
         }
+        
+        favorites[university.name] = universityFavorites
+        saveFavorites(favorites)
     }
-    
-    func removeFavorite(college: College, majorName: String, key: String) {
-        let decoder = JSONDecoder()
-        let defaults = UserDefaults.standard
-        let key = college.jsonKeys.favorites
-        if let favorites = defaults.object(forKey: key) as? Data {
-            if let favorites = try? decoder.decode(CollegeFavorite.self, from: favorites) {
-                let remainingMajors = favorites.majors.filter{ $0.name != majorName }
-                let results = CollegeFavorite(college: college, majors: remainingMajors)
-                if results.majors.isEmpty {
-                    defaults.removeObject(forKey: key)
-                } else {
-                    addToDatabase(favorites: results, key: key)
-                }
-            }
-        } else {
-           print("Failed removing favorite")
+
+    func removeFavorite(university: College, major: majorsMinors) {
+        var favorites = getAllFavorites()
+        
+        if var universityFavorites = favorites[university.name] {
+            universityFavorites.removeAll { $0.name == major.name && $0.language == major.language && $0.level == major.level }
+            favorites[university.name] = universityFavorites.isEmpty ? nil : universityFavorites
         }
+
+        saveFavorites(favorites)
     }
-    
-    func retrieveFavorites(college: College) -> [majorsMinors] {
-        let decoder = JSONDecoder()
+
+    func getAllFavorites() -> [String: [majorsMinors]] {
         let defaults = UserDefaults.standard
-        let key = college.jsonKeys.favorites
-        if let favorites = defaults.object(forKey: key) as? Data {
-            if let favorites = try? decoder.decode(CollegeFavorite.self, from: favorites) {
-                return favorites.majors
-            } else {
-                return []
-            }
-        } else {
-           return []
-        }
-    }
-    
-    func retrieveAllFavorites(colleges: [College]) -> [CollegeFavorite] {
-        let decoder = JSONDecoder()
-        let defaults = UserDefaults.standard
-        var allFavorites = [CollegeFavorite]()
-        for item in colleges {
-            let key = item.jsonKeys.favorites
-            if let favorites = defaults.object(forKey: key) as? Data {
-                if let favorite = try? decoder.decode(CollegeFavorite.self, from: favorites) {
-                    allFavorites.append(favorite)
-                }
+        if let savedFavorites = defaults.object(forKey: favoritesKey) as? Data {
+            let decoder = JSONDecoder()
+            if let favorites = try? decoder.decode([String: [majorsMinors]].self, from: savedFavorites) {
+                return favorites
             }
         }
-        return allFavorites
+        return [:]
+    }
+
+    func getFavorites(forUniversity university: College) -> [majorsMinors] {
+        return getAllFavorites()[university.name] ?? []
     }
     
-    private func addToDatabase(favorites: CollegeFavorite, key: String) {
-        if let encoded = try? JSONEncoder().encode(favorites) {
-            UserDefaults.standard.set(encoded, forKey: key)
+    func isFavorite(university: College, major: majorsMinors) -> Bool {
+        return getFavorites(forUniversity: university).contains(where: { $0.name == major.name && $0.language == major.language && $0.level == major.level })
+    }
+
+    private func saveFavorites(_ favorites: [String: [majorsMinors]]) {
+        let encoder = JSONEncoder()
+        if let encoded = try? encoder.encode(favorites) {
+            let defaults = UserDefaults.standard
+            defaults.set(encoded, forKey: favoritesKey)
         }
     }
 }

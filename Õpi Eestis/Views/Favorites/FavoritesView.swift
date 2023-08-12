@@ -1,33 +1,35 @@
 import SwiftUI
 
 struct FavoritesView: View {
-    @Environment(\.presentationMode) var presentationMode
-    @ObservedObject var database = UserDefaultManager()
-    @State var favorites = [Favorites]()
+    let userDefaults = UserDefaultsManager()
+    @State var favorites: [String: [majorsMinors]] = [:]
     @State var toMajors = false
     @State var toAboutActive = false
-    @State var destination: AnyView = AnyView(SchoolListView())
+    @State var destination: AnyView = AnyView(EmptyView())
     let isNavigated: Bool
+    let colleges: [College]
     
     var body: some View {
         VStack{
             if favorites.isEmpty {
                 emptyView()
             } else {
-                List(favorites, id: \.self) { favorite in
-                    Section(content: {
-                        ForEach(favorite.majors, id: \.self) { major in
-                            majorCell(major, schools: favorite)
-                        }
-                    }, header: {
-                        schoolHeader(favorite)
-                    })
+                List(favorites.keys.sorted(), id: \.self) { key in
+                    if let favoriteMajorsMinors = favorites[key] {
+                        Section(content: {
+                            ForEach(favoriteMajorsMinors, id: \.self) { major in
+                                majorCell(major, schoolName: key)
+                            }
+                        }, header: {
+                            schoolHeader(key)
+                        })
+                    }
                 }
             }
         }
         .background(Color.whiteDim1)
         .onAppear{
-            favorites = database.retrieveAllFavorites()
+            favorites = userDefaults.getAllFavorites()
         }
         .navigationDestination(isPresented: $toMajors) {
             destination
@@ -41,48 +43,56 @@ struct FavoritesView: View {
         }
     }
     
-    func goToMajor(school: School, major: majorsMinors) {
-        destination = AnyView(MajorView(isFavorite: true, major: major, school: school))
-        toMajors.toggle()
-    }
-    
     @ViewBuilder
     func emptyView() -> some View {
         VStack(spacing: 10){
-            Image(systemName: "exclamationmark.triangle").font(.largeTitle)
-            Text("Sul ei ole ühtegi lemmikut lisatud").font(.regularSubHeadline)
-        }.foregroundColor(.darkGray)
+            Image(systemName: "exclamationmark.triangle")
+                .font(.largeTitle)
+            Text("Sul ei ole ühtegi lemmikut lisatud")
+                .setFont(.subheadline, .medium, .rounded)
+        }
+        .foregroundColor(.darkGray)
+        .maxSize()
     }
     
     @ViewBuilder
-    func majorCell(_ major: majorsMinors, schools: Favorites) -> some View {
-        NavigationLink(destination: MajorView(isFavorite: true, major: major, school: schools.school)) {
-            HStack{
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(major.name)
-                        .font(.regularCallout)
-                        .foregroundColor(.black)
-                    Text(major.level.rawValue.capitalizingFirstLetter())
-                        .font(.caption)
-                        .fontWeight(.medium)
-                        .foregroundColor(schools.school.color)
+    func majorCell(_ major: majorsMinors, schoolName: String) -> some View {
+        if let college = colleges.first(where: { $0.name == schoolName}) {
+            NavigationLink(destination: CollegeMajorView(model: .init(major: major, college: college))) {
+                HStack{
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(major.name)
+                            .setFont(.callout, .medium, .rounded)
+                            .setColor(.black)
+                        Text(major.level.rawValue.capitalized)
+                            .setFont(.subheadline, .medium, .rounded)
+                            .setColor(college.palette.base)
+                    }
                 }
             }
         }
     }
     
     @ViewBuilder
-    func schoolHeader(_ favorite: Favorites) -> some View {
-        HStack(spacing: 3){
-            Image(favorite.school.logo.rawValue)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 20, height: 20, alignment: .leading)
-                .foregroundColor(favorite.school.color)
-            Text(favorite.school.name.rawValue)
+    func schoolHeader(_ name: String) -> some View {
+        if let college = colleges.first(where: { $0.name == name}) {
+            HStack(spacing: 3){
+                Image(college.logoRef)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20, height: 20, alignment: .leading)
+                    .foregroundColor(college.palette.base)
+                Text(college.name.capitalized)
+                    .font(.mediumCallout)
+                    .textCase(.none)
+                    .foregroundColor(.black)
+            }
+            .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
+        } else {
+            Text(name)
                 .font(.mediumCallout)
                 .foregroundColor(.black)
+                .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
         }
-        .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
     }
 }

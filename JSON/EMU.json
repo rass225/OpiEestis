@@ -4972,10 +4972,10 @@
       "duration": 2,
       "requirements": [
         {
-          "term": "vastuvõtukatse: portfoolio"
+          "term": "Vastuvõtukatse: portfoolio"
         },
         {
-          "term": "vastuvõtukatse: vestlus"
+          "term": "Vastuvõtukatse: vestlus"
         }
       ],
       "name": "Maastikuarhitektuur",
@@ -6519,7 +6519,7 @@
           "term": "Eelneva õppeastme lõputöö/eksami hinne"
         },
         {
-          "term": "vastuvõtukatse: [vestlus](https://www.emu.ee/userfiles/emu2015/PKI/Loodusturismi_magistrio%CC%83ppe_vestlusteemad.pdf)"
+          "term": "Vastuvõtukatse: [vestlus](https://www.emu.ee/userfiles/emu2015/PKI/Loodusturismi_magistrio%CC%83ppe_vestlusteemad.pdf)"
         }
       ],
       "name": "Loodusturism",
@@ -10897,7 +10897,7 @@
           "term": "BioMedical Admissions Test (BMAT), tulemus arvestatakse konkursipunktideks ümber järgnevalt: \ntesti I osa – maksimaalselt 9 konkursipunkti \ntesti II osa – maksimaalselt 9 konkursipunkti \ntesti III osa – BMAT tulemus alla 2,5 punkti annab 0 konkursipunkti, BMAT tulemus 2,5-4,0 punkti annab 1 konkursipunkti ning BMAT tulemus üle 4,0 annab 2 konkursipunkti \neespooltoodud konkursipunktide summat arvestatakse koefitsiendiga 2,0"
         },
         {
-          "term": "vastuvõtukatse: motivatsioonikiri (esitatakse DreamApplys)"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse DreamApplys)"
         }
       ],
       "name": "Veterinaarmeditsiin (Inglise Keel)",

@@ -35,14 +35,6 @@ extension ContentView {
                 
                 return allBranches
         }
-        
-        func navigateToAbout() -> AnyView {
-            return AnyView(AboutView())
-        }
-        
-        func navigateToSchoolList() -> AnyView {
-            return AnyView(SchoolListView())
-        }
     }
 }
 

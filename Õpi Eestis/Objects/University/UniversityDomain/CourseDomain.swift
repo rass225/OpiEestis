@@ -1,7 +1,6 @@
 import Foundation
 
-struct Module: Hashable, Codable, Identifiable  {
-    var id = UUID()
+struct Module: Hashable, Codable {
     var name: String
     var courses: [Course]
     var submodules: [Submodule]?
@@ -13,8 +12,7 @@ struct Module: Hashable, Codable, Identifiable  {
     }
 }
 
-struct Submodule: Hashable, Codable, Identifiable  {
-    var id = UUID()
+struct Submodule: Hashable, Codable {
     var name: String
     var courses: [Course]
     var submodules: [SubSubmodule]?
@@ -26,8 +24,7 @@ struct Submodule: Hashable, Codable, Identifiable  {
     }
 }
 
-struct SubSubmodule: Hashable, Codable, Identifiable {
-    var id = UUID()
+struct SubSubmodule: Hashable, Codable {
     var name: String
     var courses: [Course]
     
@@ -37,8 +34,7 @@ struct SubSubmodule: Hashable, Codable, Identifiable {
     }
 }
 
-struct Course: Hashable, Codable, Identifiable  {
-    var id = UUID()
+struct Course: Hashable, Codable {
     var name: String
     var eapCount: Double
     

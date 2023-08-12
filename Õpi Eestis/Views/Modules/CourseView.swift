@@ -1,26 +1,5 @@
 import SwiftUI
 
-struct CourseView: View {
-    let major: majorsMinors
-    let school: School
-    
-    var body: some View {
-        Form{
-            ForEach(major.modules) { item in
-                ModuleCell(item: item, eapLabel: major.eapLocale, color: school.color)
-            }.font(.regularSubHeadline)
-                .accentColor(school.color)
-        }
-        .scrollContentBackground(.hidden)
-        .background(Color.whiteDim1)
-        .navigationBarBackButtonHidden(true)
-        .toolbar{
-            AppToolbarItem(.dismiss, color: school.color)
-            AppToolbarItem(.title(type: .course), color: school.color)
-        }
-    }
-}
-
 struct ModuleCell: View {
     let item: Module
     let eapLabel: String
@@ -28,8 +7,8 @@ struct ModuleCell: View {
     var body: some View {
         DisclosureGroup(item.name) {
             CoursesCell(item: item, eapLabel: eapLabel, color: color)
-            if item.submodules != nil {
-                ForEach(item.submodules!) { item in
+            if let items = item.submodules {
+                ForEach(items, id: \.self) { item in
                     DisclosureGroup(item.name) {
                         SubmoduleCell(item: item, eapLabel: eapLabel, color: color)
                         if item.submodules != nil {
@@ -41,12 +20,13 @@ struct ModuleCell: View {
         }
     }
 }
+
 struct CoursesCell: View {
     let item: Module
     let eapLabel: String
     let color: Color
     var body: some View {
-        ForEach(item.courses) { item in
+        ForEach(item.courses, id: \.self) { item in
             CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
         }
     }
@@ -56,7 +36,7 @@ struct SubmoduleCell: View {
     let eapLabel: String
     let color: Color
     var body: some View {
-        ForEach(item.courses) { item in
+        ForEach(item.courses, id: \.self) { item in
             CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
         }
     }
@@ -67,10 +47,12 @@ struct SubSubmoduleView: View {
     let eapLabel: String
     let color: Color
     var body: some View {
-        ForEach(item.submodules!) { item in
-            DisclosureGroup(item.name) {
-                ForEach(item.courses) { item in
-                    CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
+        if let submodules = item.submodules {
+            ForEach(submodules, id: \.self) { item in
+                DisclosureGroup(item.name) {
+                    ForEach(item.courses, id: \.self) { item in
+                        CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
+                    }
                 }
             }
         }
