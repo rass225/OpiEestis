@@ -25,8 +25,6 @@ extension CollegeView {
             self.college = college
             self.contactSheetIsOpen = contactSheetIsOpen
             self.dependencies = dependencies
-            loadEducation()
-            loadSnapshot()
         }
     }
 }
@@ -58,12 +56,12 @@ extension CollegeView.Model {
     }
 }
 
-private extension CollegeView.Model {
+extension CollegeView.Model {
     func loadSnapshot() {
         let options = MKMapSnapshotter.Options()
         options.region = MKCoordinateRegion(center: self.college.location.coordinates, latitudinalMeters: 3000, longitudinalMeters: 3000)
         options.size = CGSize(width: 400, height: 400)
-        options.mapType = .mutedStandard
+        options.mapType = .standard
         
         let snapshotter = MKMapSnapshotter(options: options)
         snapshotter.start { snapshot, error in

@@ -7,8 +7,8 @@ struct majorsMinors: Hashable, Codable {
     var type: typechoice
     var requirements: [Requirements]
     var description: [String]
-    var outcomes: [String]
-    var language: languagechoice
+    var outcomes: [String]?
+    var language: String
     var majorWebsite: String
     var spots: Int
     var duration: Double
@@ -16,8 +16,9 @@ struct majorsMinors: Hashable, Codable {
     var eap: Int?
     var ekap: Int?
     var cost: Cost
-    var modules: [Module]
+    var modules: [Module]?
     var personnel: [Personnel]?
+    var curriculumRef: String?
     
     enum CodingKeys: String, CodingKey {
         case name
@@ -36,6 +37,7 @@ struct majorsMinors: Hashable, Codable {
         case cost
         case modules
         case personnel
+        case curriculumRef
     }
     
     init(from decoder: Decoder) throws {
@@ -46,8 +48,9 @@ struct majorsMinors: Hashable, Codable {
         self.requirements = try container.decode([Requirements].self, forKey: .requirements)
         self.description = try container.decode([String].self, forKey: .description)
         description = description.map { $0.replacingOccurrences(of: "\\n", with: "\n") }
-        self.outcomes = try container.decode([String].self, forKey: .outcomes)
-        self.language = try container.decode(languagechoice.self, forKey: .language)
+        self.outcomes = try container.decodeIfPresent([String].self, forKey: .outcomes)
+//        outcomes = outcomes.map { $0.replacingOccurrences(of: "\r\n-", with: "\n\n**•**") }
+        self.language = try container.decode(String.self, forKey: .language)
         self.majorWebsite = try container.decode(String.self, forKey: .majorWebsite)
         self.spots = try container.decode(Int.self, forKey: .spots)
         self.duration = try container.decode(Double.self, forKey: .duration)
@@ -55,8 +58,9 @@ struct majorsMinors: Hashable, Codable {
         self.eap = try container.decodeIfPresent(Int.self, forKey: .eap)
         self.ekap = try container.decodeIfPresent(Int.self, forKey: .ekap)
         self.cost = try container.decode(Cost.self, forKey: .cost)
-        self.modules = try container.decode([Module].self, forKey: .modules)
+        self.modules = try container.decodeIfPresent([Module].self, forKey: .modules)
         self.personnel = try container.decodeIfPresent([Personnel].self, forKey: .personnel)
+        self.curriculumRef = try container.decodeIfPresent(String.self, forKey: .curriculumRef)
     }
     
     func toExtra() {
@@ -72,6 +76,16 @@ struct majorsMinors: Hashable, Codable {
     func hasEap() -> Bool {
         guard eap != nil else { return false }
         return true
+    }
+    
+    var eapString: String {
+        if let eap = eap {
+            return String(eap)
+        } else if let ekap = ekap {
+            return String(ekap)
+        } else {
+            return ""
+        }
     }
     
     var eapLocale: String {

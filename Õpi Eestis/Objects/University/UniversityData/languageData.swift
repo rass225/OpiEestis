@@ -28,4 +28,12 @@ enum languagechoice: String, CaseIterable, Codable {
             return OEAppearance.Locale.languages.russian
         }
     }
+    
+    init?(_ string: String) {
+        if let match = Self.allCases.first(where: { $0.description == string || $0.country == string }) {
+            self = match
+        } else {
+            return nil
+        }
+    }
 }

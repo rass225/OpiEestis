@@ -565,19 +565,19 @@
 				C0F85B592A7C61BF007A65F7 /* EMUdoctors.json */,
 				C0F85B602A7D0CE0007A65F7 /* EMUapplied.json */,
 				C0F85B662A81249F007A65F7 /* EMU.json */,
-				C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */,
 				C0D214502715C74D000AD3D0 /* EBS.json */,
 				C0D214482715C145000AD3D0 /* Lennuakadeemia.json */,
 				C0D214492715C146000AD3D0 /* Mainor.json */,
-				C0D214462715C143000AD3D0 /* Pallas.json */,
-				C0D2144A2715C147000AD3D0 /* TTK.json */,
 				C0D214522715C7D4000AD3D0 /* Kaitsevägi.json */,
 				C0D214542715C894000AD3D0 /* Muusikaakadeemia.json */,
 				C0D214562715C939000AD3D0 /* Sisekaitseakadeemia.json */,
-				C0D214582715CA5C000AD3D0 /* TartuTervishoid.json */,
 				C0D2145A2715E773000AD3D0 /* TTÜ.json */,
 				C0D214C2271639EE000AD3D0 /* TLÜ.json */,
 				C0755B95271793050045F6DC /* TÜ.json */,
+				C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */,
+				C0D214582715CA5C000AD3D0 /* TartuTervishoid.json */,
+				C0D214462715C143000AD3D0 /* Pallas.json */,
+				C0D2144A2715C147000AD3D0 /* TTK.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -1026,7 +1026,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1036,7 +1036,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.5;
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;
@@ -1052,7 +1052,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1062,7 +1062,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.5;
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;

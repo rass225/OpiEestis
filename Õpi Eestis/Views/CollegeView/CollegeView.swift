@@ -23,11 +23,13 @@ struct CollegeView: View {
             }
             .scrollIndicators(.hidden)
         }
-//        .navigationBarBackButtonHidden()
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .principal, content: smallIconView)
-//            ToolbarItem(placement: .navigationBarLeading, content: backButton)
+        }
+        .onAppear {
+            model.loadSnapshot()
+            model.loadEducation()
         }
         .navigationDestination(isPresented: $presentMajors, destination: {
             MajorsView(model: .init(college: model.college, majors: model.majors))

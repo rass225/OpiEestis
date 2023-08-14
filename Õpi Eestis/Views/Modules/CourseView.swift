@@ -5,7 +5,7 @@ struct ModuleCell: View {
     let eapLabel: String
     let color: Color
     var body: some View {
-        DisclosureGroup(item.name) {
+        DisclosureGroup(item.name.lowercased().capitalized) {
             CoursesCell(item: item, eapLabel: eapLabel, color: color)
             if let items = item.submodules {
                 ForEach(items, id: \.self) { item in

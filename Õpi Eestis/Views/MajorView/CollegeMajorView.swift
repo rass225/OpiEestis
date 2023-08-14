@@ -1,79 +1,56 @@
 import SwiftUI
 
 struct CollegeMajorView: View {
-    @Environment(\.presentationMode) var dismiss
+    @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
     @Namespace var animation
     
     var body: some View {
         VStack(spacing: 0) {
+            Text("Karl error is: \(model.karlerror)")
             titleView()
                 .padding(.top, 8)
-            tabView()
-            switch model.tabSelection {
-            case .overview:
-                List {
-                    Section(content: statsContent, header: statsHeader)
-                    Section(content: descriptionContent, header: descriptionHeader)
-                    Section(content: websiteContent, header: websiteHeader)
+            switch model.viewState {
+            case .success:
+                tabView()
+                    .onAppear() {
+                        model.loadSnapshots()
+                    }
+                switch model.tabSelection {
+                case .overview:
+                    List {
+                        Section(content: statsContent, header: statsHeader)
+                        Section(content: descriptionContent, header: descriptionHeader)
+                        Section(content: websiteContent, header: websiteHeader)
+                        locationsContent()
+                    }
+                case .modules:
+                    List {
+                        Section(content: modulesContent, header: modulesHeader)
+                    }
+                case .requirements:
+                    List {
+                        Section(
+                            content: requirementContent,
+                            header: requirementsHeader,
+                            footer: requirementsFooter
+                        )
+                    }
+                case .outcomes:
+                    List {
+                        Section(content: outcomesContent, header: outcomesHeader)
+                    }
+                case .personnel:
+                    List {
+                        Section(content: personnelContent, header: personnelHeader)
+                    }
                 }
-            case .modules:
-                List {
-                    Section(content: modulesContent, header: modulesHeader)
-                }
-            case .requirements:
-                List {
-                    Section(
-                        content: requirementContent,
-                        header: requirementsHeader,
-                        footer: requirementsFooter
-                    )
-                }
-            case .outcomes:
-                List {
-                    Section(content: outcomesContent, header: outcomesHeader)
-                }
-            case .personnel:
-                List {
-                    Section(content: {
-                        if let personnel = model.major.personnel {
-                            ForEach(personnel, id: \.self) { person in
-                                HStack {
-                                    Image.personFill
-                                        .setFont(.title, .regular, .rounded)
-                                        .setColor(model.college.palette.base.gradient)
-                                    VStack(alignment: .leading) {
-                                        Text(person.name)
-                                            .setFont(.subheadline, .regular, .rounded)
-                                        Text(person.title)
-                                            .setColor(.gray)
-                                            .setFont(.footnote, .regular, .rounded)
-                                    }
-                                    
-                                    Spacer()
-                                    if let email = person.email {
-                                        Image.envelopeFill
-                                            .setFont(.title3, .regular, .rounded)
-                                            .setColor(model.college.palette.base.gradient)
-                                            .onTapGesture {
-                                                model.openMail(email)
-                                            }
-                                    }
-                                    if let phone = person.phone {
-                                        Image.phoneFill
-                                            .setFont(.title3, .regular, .rounded)
-                                            .setColor(model.college.palette.base.gradient)
-                                            .onTapGesture {
-                                                model.openPhone(phone)
-                                            }
-                                    }
-                                }
-                                .padding(.vertical, 2)
-                                
-                            }
-                        }
-                    }, header: personnelHeader)
-                }
+            case .loading:
+                Spacer()
+                ProgressView()
+                    .progressViewStyle(.circular)
+                    .tint(model.college.palette.base)
+                Spacer()
             }
         }
         .toolbar {
@@ -134,7 +111,6 @@ extension CollegeMajorView {
         .padding(.horizontal, 16)
         .offset(x: 0, y: 20)
         .zIndex(100)
-//        .padding(.bottom, 8)
     }
     
     @ViewBuilder
@@ -220,6 +196,16 @@ extension CollegeMajorView {
     }
     
     @ViewBuilder
+    func locationsHeader() -> some View {
+        header(
+            label: "Asukoht",
+            image: .locationFill,
+            color: model.college.palette.base,
+            isTop: false
+        )
+    }
+    
+    @ViewBuilder
     func header(
         label: String,
         image: Image,
@@ -253,7 +239,7 @@ extension CollegeMajorView {
         )
         MajorStat(
             type: .eap(
-                count: model.eapTopLabel,
+                count: model.major.eapString,
                 hasEAP: model.major.hasEap()
             ),
             color: model.college.palette.base
@@ -283,31 +269,25 @@ extension CollegeMajorView {
     
     @ViewBuilder
     func modulesContent() -> some View {
-//        ForEach(model.major.modules, id: \.self) { item in
-//            ModuleCell(
-//                item: item,
-//                eapLabel: model.major.eapLocale,
-//                color: model.college.palette.base
-//            )
-//        }
-//        .font(.regularSubHeadline)
-//        .tint(model.college.palette.base)
-        
-        ForEach(model.testModules, id: \.self) { item in
-            ModuleCell(
-                item: item,
-                eapLabel: model.major.eapLocale,
-                color: model.college.palette.base
-            )
+        if let modules = model.major.modules {
+            ForEach(modules) { item in
+                ModuleCell(
+                    item: item,
+                    eapLabel: model.major.eapLocale,
+                    color: model.college.palette.base
+                )
+            }
+            .font(.regularSubHeadline)
+            .tint(model.college.palette.base)
         }
-        .font(.regularSubHeadline)
-        .tint(model.college.palette.base)
     }
     
     @ViewBuilder
     func outcomesContent() -> some View {
-        ForEach(model.major.outcomes, id: \.self) {
-            outcomeCell($0)
+        if let outcomes = model.major.outcomes {
+            ForEach(outcomes, id: \.self) {
+                outcomeCell($0)
+            }
         }
     }
     
@@ -327,6 +307,58 @@ extension CollegeMajorView {
     func requirementContent() -> some View {
         ForEach(model.major.requirements, id: \.self) { item in
             requirementCell(item)
+        }
+    }
+    
+    @ViewBuilder
+    func personnelContent() -> some View {
+        if let personnel = model.major.personnel {
+            ForEach(personnel, id: \.self) { person in
+                personnelCell(person)
+            }
+        }
+    }
+    
+    @ViewBuilder
+    func locationsContent() -> some View {
+        ForEach(model.mapLocations.indices, id: \.self) { index in
+            if index == 0 {
+                Section(content: {
+                    HStack{
+                        Text(model.mapLocations[index].address)
+                            .setFont(.subheadline, .regular, .rounded)
+                            .setColor(.black)
+                        Spacer()
+                        Chevron(type: .link)
+                    }
+                    .contentShape(Rectangle())
+                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+                    Image(uiImage: model.mapLocations[index].snapshot)
+                        .resizable()
+                        .fit()
+                        .listRowInsets(.zero)
+                        .listRowSeparator(.hidden)
+                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+                }, header: locationsHeader)
+            } else {
+                Section {
+                    HStack{
+                        Text(model.mapLocations[index].address)
+                            .setFont(.subheadline, .regular, .rounded)
+                            .setColor(.black)
+                        Spacer()
+                        Chevron(type: .link)
+                    }
+                    .contentShape(Rectangle())
+                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+                    Image(uiImage: model.mapLocations[index].snapshot)
+                        .resizable()
+                        .fit()
+                        .listRowInsets(.zero)
+                        .listRowSeparator(.hidden)
+                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+                }
+            }
         }
     }
 }
@@ -359,9 +391,71 @@ extension CollegeMajorView {
     
     @ViewBuilder
     func outcomeCell(_ outcome: String) -> some View {
-        Text(outcome)
+        Text(.init(outcome))
             .setFont(.subheadline, .regular, .rounded)
             .foregroundColor(.black)
+    }
+    
+    @ViewBuilder
+    func personnelCell(_ person: Personnel) -> some View {
+        HStack(spacing: 16) {
+            if let photo = person.photo, let url = URL(string: photo) {
+                AsyncImage(
+                    url: url,
+                    content: { image in
+                        image
+                            .resizable()
+                            .fit()
+                            .clipShape(Circle())
+                            .frame(width: 40, height: 40)
+                            
+                    },
+                    placeholder: {
+                        Image.personFill
+                            .setFont(.title, .regular, .rounded)
+                            .setColor(model.college.palette.base.gradient)
+                            .frame(width: 40, height: 40)
+                    })
+            } else {
+                Image.personFill
+                    .setFont(.title, .regular, .rounded)
+                    .setColor(model.college.palette.base.gradient)
+                    .frame(width: 40, height: 40)
+            }
+            VStack(alignment: .leading) {
+                Text(person.name)
+                    .setFont(.subheadline, .regular, .rounded)
+                Text(person.title)
+                    .setColor(.gray)
+                    .setFont(.footnote, .regular, .rounded)
+            }
+            
+            Spacer()
+            HStack(spacing: 6) {
+                if let email = person.email {
+                    Image.envelopeFill
+                        .setFont(.body, .regular, .rounded)
+                        .setColor(model.college.palette.base.gradient)
+                        .padding(10)
+                        .background(Circle().fill(model.college.palette.base.opacity(0.175)))
+                        .onTapGesture {
+                            model.openMail(email)
+                        }
+                }
+                if let phone = person.phone {
+                    Image.phoneFill
+                        .setFont(.body, .regular, .rounded)
+                        .setColor(model.college.palette.base.gradient)
+                        .padding(10)
+                        .background(Circle().fill(model.college.palette.base.opacity(0.175)))
+                        .onTapGesture {
+                            model.openPhone(phone)
+                        }
+                }
+            }
+            
+        }
+        .padding(.vertical, 4)
     }
 }
 
@@ -370,7 +464,7 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: { dismiss.wrappedValue.dismiss() }) {
+        Button(action: { dismiss() }) {
             Image.chevronLight
                 .frame(height: 35)
                 .frame(width: 35)
@@ -434,7 +528,7 @@ extension CollegeMajorView {
                 bottomText = hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
             case .language(let language):
                 image = .globe
-                topText = language.country
+                topText = language
                 bottomText = OEAppearance.Locale.language
             }
         }
@@ -457,7 +551,7 @@ extension CollegeMajorView {
         case duration(duration: Double)
         case spots(spots: Int)
         case cost(cost: Cost)
-        case eap(count: Int, hasEAP: Bool)
-        case language(lang: languagechoice)
+        case eap(count: String, hasEAP: Bool)
+        case language(lang: String)
     }
 }
