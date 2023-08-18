@@ -1,13 +1,14 @@
 import SwiftUI
 
 struct CollegeMajorView: View {
+    @EnvironmentObject var pathManager: PathManager
     @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
     @Namespace var animation
     
     var body: some View {
         VStack(spacing: 0) {
-            Text("Karl error is: \(model.karlerror)")
+//            Text("Karl error is: \(model.karlerror)")
             titleView()
                 .padding(.top, 8)
             switch model.viewState {
@@ -20,7 +21,9 @@ struct CollegeMajorView: View {
                 case .overview:
                     List {
                         Section(content: statsContent, header: statsHeader)
+                            .listRowSeparator(.hidden)
                         Section(content: descriptionContent, header: descriptionHeader)
+                            .listRowSeparator(.hidden)
                         Section(content: websiteContent, header: websiteHeader)
                         locationsContent()
                     }
@@ -72,7 +75,7 @@ extension CollegeMajorView {
                 .setFont(.title3, .semibold, .rounded)
             Text(model.major.level.rawValue.capitalized)
                 .setFont(.body, .semibold, .rounded)
-                .foregroundStyle(model.college.palette.base.gradient)
+                .setColor(model.college.palette.base.gradient)
         }
         .maxWidth(alignment: .center)
         .padding(.horizontal, 16)
@@ -97,7 +100,7 @@ extension CollegeMajorView {
                     }
             }
         }
-        .foregroundStyle(model.college.palette.base.gradient)
+        .setColor(model.college.palette.base.gradient)
         .padding(2)
         .frame(height: 40)
         .background(
@@ -220,11 +223,11 @@ extension CollegeMajorView {
             Text(label.capitalized)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
-                .foregroundColor(.black)
+                .setColor(.black)
             Spacer()
         }
         .padding(.top, isTop ? 32 : 0)
-        .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
+        .listRowInsets(.eight)
     }
 }
 
@@ -245,7 +248,7 @@ extension CollegeMajorView {
             color: model.college.palette.base
         )
         MajorStat(
-            type: .language(lang: model.major.language),
+            type: .language(lang: model.major.language.label),
             color: model.college.palette.base
         )
         MajorStat(
@@ -270,7 +273,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func modulesContent() -> some View {
         if let modules = model.major.modules {
-            ForEach(modules) { item in
+            ForEach(modules, id: \.self) { item in
                 ModuleCell(
                     item: item,
                     eapLabel: model.major.eapLocale,
@@ -385,7 +388,7 @@ extension CollegeMajorView {
                 Text("\(percentage)%")
             }
         }
-        .foregroundColor(.black)
+        .setColor(.black)
         .setFont(.subheadline, .regular, .rounded)
     }
     
@@ -393,21 +396,21 @@ extension CollegeMajorView {
     func outcomeCell(_ outcome: String) -> some View {
         Text(.init(outcome))
             .setFont(.subheadline, .regular, .rounded)
-            .foregroundColor(.black)
+            .setColor(.black)
     }
     
     @ViewBuilder
     func personnelCell(_ person: Personnel) -> some View {
-        HStack(spacing: 16) {
+        HStack(alignment: .top,spacing: 16) {
             if let photo = person.photo, let url = URL(string: photo) {
                 AsyncImage(
                     url: url,
                     content: { image in
                         image
                             .resizable()
-                            .fit()
+                            .fill()
+                            .frame(width: 40, height: 40, alignment: .top)
                             .clipShape(Circle())
-                            .frame(width: 40, height: 40)
                             
                     },
                     placeholder: {
@@ -464,12 +467,21 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: { dismiss() }) {
+        Button(action: { pathManager.path.removeLast() }) {
             Image.chevronLight
-                .frame(height: 35)
-                .frame(width: 35)
+                .frame(width: 35, height: 35)
                 .setFont(.callout, .bold, .rounded)
-                .foregroundStyle(model.college.palette.base.gradient)
+                .setColor(model.college.palette.base.gradient)
+        }
+    }
+    
+    @ViewBuilder
+    func resetButton() -> some View {
+        Button(action: { pathManager.reset() }) {
+            Image.dollarSign
+                .frame(width: 35, height: 35)
+                .setFont(.callout, .bold, .rounded)
+                .setColor(model.college.palette.base.gradient)
         }
     }
     
@@ -478,13 +490,13 @@ extension CollegeMajorView {
         if model.isFavorite {
             Image(systemName: "heart.fill")
                 .setFont(.body, .semibold, .rounded)
-                .foregroundStyle(model.college.palette.base.gradient)
+                .setColor(model.college.palette.base.gradient)
                 .frame(width: 35)
                 .onTapGesture(perform: model.removeFavorite)
         } else {
             Image(systemName: "heart")
                 .setFont(.body, .bold, .rounded)
-                .foregroundStyle(model.college.palette.base.gradient)
+                .setColor(model.college.palette.base.gradient)
                 .frame(width: 35)
                 .onTapGesture(perform: model.addFavorite)
         }
@@ -506,7 +518,7 @@ extension CollegeMajorView {
             case .duration(let duration):
                 image = .clockFill
                 if duration.isInt() {
-                    topText = "\(Int(duration))a"
+                    topText = "\(Int(duration)) aastat"
                 } else {
                     topText = String(format: "%.1f", duration) + "a"
                 }
@@ -524,8 +536,8 @@ extension CollegeMajorView {
                 bottomText = "Maksumus"
             case .eap(let eap, let hasEap):
                 image = .squareStack
-                topText = "\(eap)"
-                bottomText = hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
+                topText = "\(eap) \(hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap)"
+                bottomText = "Maht"
             case .language(let language):
                 image = .globe
                 topText = language
@@ -536,12 +548,11 @@ extension CollegeMajorView {
         var body: some View {
             HStack(alignment: .center, spacing: 16) {
                 image
-                    .foregroundStyle(color.gradient)
-                    .font(.body)
-    //                .frame(width: 16, alignment: .leading)
+                    .setColor(color.gradient)
+                    .setFont(.body, .regular, .rounded)
                 Text(topText)
                     .setFont(.subheadline, .medium, .rounded)
-                    .foregroundColor(.black)
+                    .setColor(.black)
             }
             .badge(Text(bottomText).setFont(.footnote, .regular, .rounded))
         }

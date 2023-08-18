@@ -16,7 +16,7 @@ enum levelchoice: String, CaseIterable, Codable{
         case .masters: return "Magister"
         case .doctor: return "Doktor"
         case .kutseharidus: return "Kutseharidus"
-        case .allLevels: return "Kõik erialad"
+        case .allLevels: return "Kõik"
         }
     }
 }

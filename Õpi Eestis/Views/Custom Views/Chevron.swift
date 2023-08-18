@@ -21,13 +21,13 @@ struct Chevron: View {
         HStack(spacing: 0) {
             if isLink {
                 Image.link
-                    .foregroundColor(.systemGray)
+                    .setColor(.systemGray)
                     .font(.caption)
                     .fontWeight(.bold)
                     .fontDesign(.rounded)
             }
             Image.chevronRight
-                .foregroundColor(.systemGray)
+                .setColor(.systemGray)
                 .font(.footnote)
                 .fontWeight(.semibold)
                 .fontDesign(.rounded)

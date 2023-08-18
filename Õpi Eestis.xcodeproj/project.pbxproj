@@ -73,6 +73,9 @@
 		C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBC265271FD00CE9130 /* CourseView.swift */; };
 		C0B93FBF2652803F00CE9130 /* CourseDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBE2652803F00CE9130 /* CourseDomain.swift */; };
 		C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFA255272D40E40025BD1E /* UINavigationController.swift */; };
+		C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E132A8A5CC800423948 /* PathManager.swift */; };
+		C0C59E162A8A5DC100423948 /* CollegeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E152A8A5DC100423948 /* CollegeListViewModel.swift */; };
+		C0C59E182A8D4FD600423948 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E172A8D4FD600423948 /* FavoritesViewModel.swift */; };
 		C0D214432715B688000AD3D0 /* EMUbachelors.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214422715B688000AD3D0 /* EMUbachelors.json */; };
 		C0D214452715B911000AD3D0 /* Maaülikool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D214442715B911000AD3D0 /* Maaülikool.swift */; };
 		C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214462715C143000AD3D0 /* Pallas.json */; };
@@ -208,6 +211,9 @@
 		C0B93FBC265271FD00CE9130 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		C0B93FBE2652803F00CE9130 /* CourseDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDomain.swift; sourceTree = "<group>"; };
 		C0BFA255272D40E40025BD1E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		C0C59E132A8A5CC800423948 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
+		C0C59E152A8A5DC100423948 /* CollegeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeListViewModel.swift; sourceTree = "<group>"; };
+		C0C59E172A8D4FD600423948 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		C0D214422715B688000AD3D0 /* EMUbachelors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EMUbachelors.json; sourceTree = "<group>"; };
 		C0D214442715B911000AD3D0 /* Maaülikool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Maaülikool.swift"; sourceTree = "<group>"; };
 		C0D214462715C143000AD3D0 /* Pallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pallas.json; sourceTree = "<group>"; };
@@ -300,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				C03EA8AB2747FC6D00E07782 /* FavoritesView.swift */,
+				C0C59E172A8D4FD600423948 /* FavoritesViewModel.swift */,
 			);
 			path = Favorites;
 			sourceTree = "<group>";
@@ -460,17 +467,18 @@
 				C0460E6525AF0E6700E4A15D /* MajorView */,
 				C007DBAB2773E9B9002F6BD6 /* Map */,
 				C007DBA82773E8B8002F6BD6 /* Modules */,
-				C0460E2725AF0D2200E4A15D /* SchoolList */,
+				C0460E2725AF0D2200E4A15D /* CollegeListView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		C0460E2725AF0D2200E4A15D /* SchoolList */ = {
+		C0460E2725AF0D2200E4A15D /* CollegeListView */ = {
 			isa = PBXGroup;
 			children = (
 				C0F85B442A73DA77007A65F7 /* CollegeListView.swift */,
+				C0C59E152A8A5DC100423948 /* CollegeListViewModel.swift */,
 			);
-			path = SchoolList;
+			path = CollegeListView;
 			sourceTree = "<group>";
 		};
 		C0460E3125AF0D6200E4A15D /* Custom Views */ = {
@@ -609,6 +617,7 @@
 				C0F85B4D2A74FC17007A65F7 /* ImageManager.swift */,
 				C0F85B4F2A750E96007A65F7 /* DependencyManager.swift */,
 				C0F85B552A781E3E007A65F7 /* UserDefaultsManager.swift */,
+				C0C59E132A8A5CC800423948 /* PathManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -791,6 +800,7 @@
 				C0460EA625AF0F1400E4A15D /* TTÜ.swift in Sources */,
 				C0518904274BE5AD00C4F352 /* PersonnelDomain.swift in Sources */,
 				C02B29C126BAAEBB00FE54FA /* MapLinkData.swift in Sources */,
+				C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */,
 				C0460EA125AF0F1400E4A15D /* Kunstiakadeemia.swift in Sources */,
 				C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */,
 				C0D214452715B911000AD3D0 /* Maaülikool.swift in Sources */,
@@ -861,11 +871,13 @@
 				C032996D25CC18BE00EB7862 /* ContactDomain.swift in Sources */,
 				C0F85B582A782AE2007A65F7 /* MajorsViewModel.swift in Sources */,
 				C032995325CC17A100EB7862 /* SchoolDomain.swift in Sources */,
+				C0C59E182A8D4FD600423948 /* FavoritesViewModel.swift in Sources */,
 				C0460E4125AF0D8A00E4A15D /* SearchNavBar.swift in Sources */,
 				C0460EA425AF0F1400E4A15D /* Lennuakadeemia.swift in Sources */,
 				C032996825CC189E00EB7862 /* SocialMediaDomain.swift in Sources */,
 				C06ED5D826AAEDED00E5812A /* CostDomain.swift in Sources */,
 				C0460E9B25AF0F1400E4A15D /* TallinnaTehnikaKõrgkool.swift in Sources */,
+				C0C59E162A8A5DC100423948 /* CollegeListViewModel.swift in Sources */,
 				C0E7F7BC26B047BE00AAD132 /* CityData.swift in Sources */,
 				C0F85B472A73DADB007A65F7 /* CollegeView.swift in Sources */,
 				C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */,
@@ -1026,7 +1038,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1052,7 +1064,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

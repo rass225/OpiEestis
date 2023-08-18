@@ -146,8 +146,8 @@ struct OEToolBar: View {
             }
         case .title(let type):
             Text(type.rawValue)
-                .font(.semiBoldBody)
-                .foregroundColor(.black)
+                .setFont(.body, .semibold, .rounded)
+                .setColor(.black)
         case .map:
             Image.mapFill
         case .none:
@@ -213,13 +213,13 @@ struct navBarImage: View {
                 .frame(height: 35)
                 .frame(width: 35)
                 .setFont(.callout, .semibold, .rounded)
-                .foregroundColor(.oeBlue)
+                .setColor(.oeBlue)
         } else {
             image
                 .frame(height: 35)
                 .frame(width: 35)
                 .setFont(.callout, .black, .rounded)
-                .foregroundStyle(color.gradient)
+                .setColor(color.gradient)
         }
     }
 }

@@ -7,7 +7,7 @@ struct Logo: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 35, height: 35)
-                .foregroundColor(Color.oeBlue)
+                .setColor(Color.oeBlue)
             Text("Õpi Eestis").font(.semiBoldTitle3)
         }
     }

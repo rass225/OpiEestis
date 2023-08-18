@@ -8,7 +8,7 @@ struct majorsMinors: Hashable, Codable {
     var requirements: [Requirements]
     var description: [String]
     var outcomes: [String]?
-    var language: String
+    var language: Language
     var majorWebsite: String
     var spots: Int
     var duration: Double
@@ -50,7 +50,7 @@ struct majorsMinors: Hashable, Codable {
         description = description.map { $0.replacingOccurrences(of: "\\n", with: "\n") }
         self.outcomes = try container.decodeIfPresent([String].self, forKey: .outcomes)
 //        outcomes = outcomes.map { $0.replacingOccurrences(of: "\r\n-", with: "\n\n**•**") }
-        self.language = try container.decode(String.self, forKey: .language)
+        self.language = try container.decode(Language.self, forKey: .language)
         self.majorWebsite = try container.decode(String.self, forKey: .majorWebsite)
         self.spots = try container.decode(Int.self, forKey: .spots)
         self.duration = try container.decode(Double.self, forKey: .duration)
@@ -92,28 +92,6 @@ struct majorsMinors: Hashable, Codable {
         hasEap() ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
     }
     
-//    func isFavorite(school: School) -> Bool {
-//        
-//        let decoder = JSONDecoder()
-//        let defaults = UserDefaults.standard
-//        let key = userDefaultKey(school.name)
-//        if let favorites = defaults.object(forKey: key) as? Data {
-//            if let favorites = try? decoder.decode(Favorites.self, from: favorites) {
-//                let schoolFavorites: [majorsMinors]
-//                schoolFavorites = favorites.majors
-//                if schoolFavorites.contains(self) {
-//                    return true
-//                } else {
-//                    return false
-//                }
-//            } else {
-//                return false
-//            }
-//        } else {
-//            return false
-//        }
-//    }
-    
     private func userDefaultKey(_ name: SchoolName) -> String {
         switch name {
         case .mainor: return "mainor.favorites"
@@ -135,3 +113,38 @@ struct majorsMinors: Hashable, Codable {
     }
 }
 
+enum Language: String, Codable, CaseIterable {
+    case estonian = "eesti keel"
+    case english = "inglise keel"
+    case spanish = "hispaania keel"
+    case french = "prantsuse keel"
+    case german = "saksa keel"
+    case russian = "vene keel"
+    
+    var symbol: String {
+        switch self {
+        case .estonian: return "🇪🇪"
+        case .english: return "🇬🇧"
+        case .spanish: return "🇪🇸"
+        case .french: return "🇫🇷"
+        case .german: return "🇩🇪"
+        case .russian: return "🇷🇺"
+        }
+    }
+    
+    var label: String {
+        switch self {
+        case .estonian: return "Eesti keel"
+        case .english: return "Inglise Keel"
+        case .spanish: return "Hispaania kell"
+        case .french: return "Prantsuse keel"
+        case .german: return "Saksa keel"
+        case .russian: return "Vene keel"
+        }
+    }
+    
+    init?(from string: String) {
+        guard let value = Language(rawValue: string) else { return nil }
+        self = value
+    }
+}

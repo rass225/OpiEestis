@@ -19,13 +19,13 @@ struct SearchNavBar: View {
                     Button(action: { text = "" }) {
                         Image.multiply
                             .padding(8)
-                            .foregroundColor(.black)
+                            .setColor(.black)
                     }
                     .padding(.trailing, 6)
                 }
             }.frame(height: 40)
             .font(.regularBody)
-            .foregroundColor(text.isEmpty ? Color.black.opacity(0.6) : Color.black)
+            .setColor(text.isEmpty ? Color.black.opacity(0.6) : Color.black)
             
         }.modifier(SearchBarModifier())
     }

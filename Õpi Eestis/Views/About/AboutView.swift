@@ -22,7 +22,7 @@ struct AboutView: View {
                 }.font(.lightCaption)
                 .padding(.bottom, 5)
             }
-            .foregroundColor(.black)
+            .setColor(.black)
             .navigationBarTitle(OEAppearance.Locale.title.about, displayMode: .inline)
             .navigationBarBackButtonHidden(true)
             .toolbar{

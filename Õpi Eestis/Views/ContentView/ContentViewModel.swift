@@ -4,31 +4,36 @@ import SwiftUI
 
 extension ContentView {
     class Model: ObservableObject {
-        private let firebase: FirebaseManager
+        private let dependencies: DependencyManager
         @Published var schools: [College] = []
         
-        init() {
-            firebase = .init()
+        
+        init(
+            dependencies: DependencyManager = .shared
+        ) {
+            self.dependencies = dependencies
             fetchSchools()
         }
         
         func fetchSchools() {
-            firebase.fetchSchools {
+            dependencies.firebase.fetchSchools {
                 switch $0 {
                 case let .success(schools):
-                    self.schools = schools.sorted(by: { $0.name < $1.name })
+                    self.schools = schools.sorted(by: \.name)
                 case let .failure(error):
                     print(error)
                 }
             }
         }
         
-        func getAllBranches() -> [MapView.CollegeBranch] {
-            var allBranches: [MapView.CollegeBranch] = []
-
+        func getAllBranches() -> [CollegeBranch] {
+            var allBranches: [CollegeBranch] = []
                 for college in schools {
                     for branch in college.branches {
-                        let collegeBranch = MapView.CollegeBranch(location: branch, parentCollege: college)
+                        let collegeBranch = CollegeBranch(
+                            location: branch,
+                            parentCollege: college
+                        )
                         allBranches.append(collegeBranch)
                     }
                 }
@@ -38,3 +43,10 @@ extension ContentView {
     }
 }
 
+extension ContentView {
+    enum Tabs {
+        case colleges
+        case map
+        case favorites
+    }
+}

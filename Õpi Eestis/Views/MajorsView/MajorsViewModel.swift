@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 extension MajorsView {
     class Model: ObservableObject {
@@ -6,11 +7,10 @@ extension MajorsView {
         let majors: [majorsMinors]
         @Published var selectedLevel: levelchoice = .allLevels
         @Published var searchText = ""
-        @Published var isAscending = false
-        @Published var isSearching = false
         @Published var levels: [levelchoice] = []
         @Published var favorites: [majorsMinors] = []
         let userDefaultsManager = UserDefaultsManager()
+        private var cancellables = Set<AnyCancellable>()
         
         init(
             college: College,
@@ -39,6 +39,14 @@ extension MajorsView {
             if majors.contains(where: { $0.level == .kutseharidus}) {
                 levels.append(.kutseharidus)
             }
+            
+            NotificationCenter.default.publisher(for: UserDefaults.didChangeNotification)
+                .sink { [weak self] _ in
+                    self?.getFavorites()
+                }
+                .store(in: &cancellables)
+            
+            getFavorites()
         }
         
         enum Level {
@@ -53,13 +61,33 @@ extension MajorsView {
         
         var displayedMajors: [majorsMinors] {
             if selectedLevel == .allLevels {
-                return majors
-                    .sorted(by: \.name)
+                if searchText.isEmpty {
+                    return majors
+                } else {
+                    return majors
+                        .sorted(by: \.name)
+                        .filter { $0.name.contains(searchText) }
+                }
             } else {
-                return majors
-                    .filter({ $0.level == selectedLevel})
-                    .sorted(by: \.name)
+                if searchText.isEmpty {
+                    return majors
+                        .filter({ $0.level == selectedLevel})
+                        .sorted(by: \.name)
+                } else {
+                    return majors
+                        .filter({ $0.level == selectedLevel})
+                        .filter { $0.name.contains(searchText) }
+                        .sorted(by: \.name)
+                }
             }
+        }
+        
+        func addFavorite(major: majorsMinors) {
+            userDefaultsManager.addFavorite(university: college, major: major)
+        }
+                                            
+        func removeFavorite(major: majorsMinors) {
+            userDefaultsManager.removeFavorite(university: college, major: major)
         }
     }
 }
@@ -69,15 +97,6 @@ extension MajorsView.Model {
         favorites = userDefaultsManager.getFavorites(forUniversity: college)
     }
     
-    func isFavorite() {
-        
-    }
-
-    func viewDidDisappear() {
-        isSearching = false
-        searchText = ""
-    }
-
     struct SelectedLevel: Identifiable {
         var id = UUID()
         var title: String

@@ -1,21 +1,16 @@
 import SwiftUI
 
 struct FavoritesView: View {
-    let userDefaults = UserDefaultsManager()
-    @State var favorites: [String: [majorsMinors]] = [:]
-    @State var toMajors = false
-    @State var toAboutActive = false
-    @State var destination: AnyView = AnyView(EmptyView())
-    let isNavigated: Bool
-    let colleges: [College]
+    @EnvironmentObject private var pathManager: PathManager
+    @StateObject var model: Model
     
     var body: some View {
         VStack{
-            if favorites.isEmpty {
+            if model.favorites.isEmpty {
                 emptyView()
             } else {
-                List(favorites.keys.sorted(), id: \.self) { key in
-                    if let favoriteMajorsMinors = favorites[key] {
+                List(model.favorites.keys.sorted(), id: \.self) { key in
+                    if let favoriteMajorsMinors = model.favorites[key] {
                         Section(content: {
                             ForEach(favoriteMajorsMinors, id: \.self) { major in
                                 majorCell(major, schoolName: key)
@@ -27,19 +22,13 @@ struct FavoritesView: View {
                 }
             }
         }
-        .background(Color.whiteDim1)
-        .onAppear{
-            favorites = userDefaults.getAllFavorites()
-        }
-        .navigationDestination(isPresented: $toMajors) {
-            destination
-        }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarBackButtonHidden(true)
-        .navigationBarHidden(isNavigated ? false : true)
-        .toolbar {
-            AppToolbarItem(.title(type: .favorites), color: .oeBlue)
-            AppToolbarItem(.conditionalDismiss(isAvailable: isNavigated), color: .oeBlue)
+        .navigationDestination(for: Model.Favorite.self) { favorite in
+            CollegeMajorView(
+                model: .init(
+                    major: favorite.major,
+                    college: favorite.college
+                )
+            )
         }
     }
     
@@ -51,48 +40,69 @@ struct FavoritesView: View {
             Text("Sul ei ole ühtegi lemmikut lisatud")
                 .setFont(.subheadline, .medium, .rounded)
         }
-        .foregroundColor(.darkGray)
+        .setColor(.darkGray)
         .maxSize()
+        .background(Color.whiteDim1)
     }
     
     @ViewBuilder
     func majorCell(_ major: majorsMinors, schoolName: String) -> some View {
-        if let college = colleges.first(where: { $0.name == schoolName}) {
-            NavigationLink(destination: CollegeMajorView(model: .init(major: major, college: college))) {
-                HStack{
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text(major.name)
-                            .setFont(.callout, .medium, .rounded)
-                            .setColor(.black)
-                        Text(major.level.rawValue.capitalized)
-                            .setFont(.subheadline, .medium, .rounded)
-                            .setColor(college.palette.base)
-                    }
+        if let college = model.colleges.first(where: { $0.name == schoolName}) {
+            HStack{
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(major.name)
+                        .setFont(.callout, .medium, .rounded)
+                        .setColor(.black)
+                    Text("\(major.level.rawValue.capitalized) \(major.language.symbol)")
+                        .setFont(.subheadline, .medium, .rounded)
+                        .setColor(college.palette.base)
                 }
+            }
+            .swipeActions {
+                Button(role: .destructive) {
+                    model.removeFavorite(major: major, college: college)
+                } label: {
+                    Image(systemName: "heart.slash")
+                }
+                .tint(.red)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .contentShape(Rectangle())
+            .onTapGesture {
+                navigateToMajor(college: college, major: major)
             }
         }
     }
     
     @ViewBuilder
     func schoolHeader(_ name: String) -> some View {
-        if let college = colleges.first(where: { $0.name == name}) {
+        if let college = model.colleges.first(where: { $0.name == name}) {
             HStack(spacing: 3){
                 Image(college.logoRef)
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 20, height: 20, alignment: .leading)
-                    .foregroundColor(college.palette.base)
+                    .fit()
+                    .frame(height: 24, alignment: .leading)
+                    .setColor(college.palette.base)
                 Text(college.name.capitalized)
-                    .font(.mediumCallout)
+                    .setFont(.body, .medium, .rounded)
                     .textCase(.none)
-                    .foregroundColor(.black)
+                    .setColor(.black)
             }
-            .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
+            .padding(.top)
+            .listRowInsets(.eight)
         } else {
             Text(name)
-                .font(.mediumCallout)
-                .foregroundColor(.black)
-                .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
+                .setFont(.callout, .medium, .rounded)
+                .setColor(.black)
+                .listRowInsets(.eight)
         }
+    }
+    
+    func navigateToMajor(college: College, major: majorsMinors) {
+        let favorite: Model.Favorite = .init(
+            college: college,
+            major: major
+        )
+        pathManager.path.append(favorite)
     }
 }

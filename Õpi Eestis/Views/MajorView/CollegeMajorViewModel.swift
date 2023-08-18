@@ -12,7 +12,7 @@ extension CollegeMajorView {
         @Published var viewState: ViewState = .loading
         @Published var karlerror: String = ""
         let college: College
-        
+        private let majorInternal: majorsMinors
         private let userDefaultsManager = UserDefaultsManager()
         private var cancellables = Set<AnyCancellable>()
         
@@ -22,6 +22,7 @@ extension CollegeMajorView {
             tabSelection: Tabs = .overview
         ) {
             self.major = major
+            self.majorInternal = major
             self.college = college
             self.tabSelection = tabSelection
             
@@ -77,11 +78,11 @@ extension CollegeMajorView.Model {
     }
 
     func addFavorite() {
-        userDefaultsManager.addFavorite(university: college, major: major)
+        userDefaultsManager.addFavorite(university: college, major: majorInternal)
     }
                                         
     func removeFavorite() {
-        userDefaultsManager.removeFavorite(university: college, major: major)
+        userDefaultsManager.removeFavorite(university: college, major: majorInternal)
     }
     
     func loadSnapshots() {
@@ -91,9 +92,10 @@ extension CollegeMajorView.Model {
             }
         }
         for location in mentionedCollegeLocations {
-            loadSnapshot(location: location)
+            if !mapLocations.contains(where: { $0.address == location.address }) {
+                loadSnapshot(location: location)
+            }
         }
-        
     }
 }
 
@@ -102,10 +104,14 @@ extension CollegeMajorView.Model {
 extension CollegeMajorView.Model {
     func fetchCurriculum2() async {
         if let models = major.modules, !models.isEmpty {
-            tabPool.append(.modules)
+            DispatchQueue.main.async {
+                self.tabPool.append(.modules)
+            }
         }
         if let outcomes = major.outcomes, !outcomes.isEmpty {
-            tabPool.append(.outcomes)
+            DispatchQueue.main.async {
+                self.tabPool.append(.outcomes)
+            }
         }
         
         guard let urlString = major.curriculumRef else {
@@ -149,8 +155,8 @@ extension CollegeMajorView.Model {
             // Update UI on the main thread
             DispatchQueue.main.async {
                 self.major.eap = Int(decodedResponse.credits)
-                if let primaryLanguage = decodedResponse.studyLanguages.first {
-                    self.major.language = primaryLanguage
+                if let primaryLanguage = decodedResponse.studyLanguages.first, let language =  Language(from: primaryLanguage) {
+                    self.major.language = language
                 }
                 self.major.outcomes = [decodedResponse.outcomesEt]
                 if !self.tabPool.contains(.outcomes) {
@@ -200,8 +206,8 @@ extension CollegeMajorView.Model {
                     let decodedResponse = try JSONDecoder().decode(Curriculum.self, from: data)
                     DispatchQueue.main.async {
                         self.major.eap = Int(decodedResponse.credits)
-                        if let primaryLanguage = decodedResponse.studyLanguages.first {
-                            self.major.language = primaryLanguage
+                        if let primaryLanguage = decodedResponse.studyLanguages.first, let language = Language(from: primaryLanguage) {
+                            self.major.language = language
                         }
                         self.major.outcomes = [decodedResponse.outcomesEt]
                         if !self.tabPool.contains(.outcomes) {
@@ -279,7 +285,7 @@ extension CollegeMajorView.Model {
     }
     
     func updateIsFavorite() {
-        isFavorite = userDefaultsManager.isFavorite(university: college, major: major)
+        isFavorite = userDefaultsManager.isFavorite(university: college, major: majorInternal)
     }
 }
 

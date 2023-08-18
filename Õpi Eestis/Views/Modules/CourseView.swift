@@ -75,8 +75,7 @@ struct CourseCell: View {
                 Text("\(eapLabel)")
                     .setFont(.subheadline, .medium, .rounded)
             }
-            .foregroundColor(color)
-            
+            .setColor(color)
         }
     }
 }

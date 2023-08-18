@@ -2,7 +2,7 @@ import SwiftUI
 import MapKit
 
 struct CollegeView: View {
-//    @Environment(\.presentationMode) var dismiss
+    @EnvironmentObject var pathManager: PathManager
     @StateObject var model: Model
     @State var presentMajors = false
     
@@ -23,7 +23,6 @@ struct CollegeView: View {
             }
             .scrollIndicators(.hidden)
         }
-        .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .principal, content: smallIconView)
         }
@@ -31,9 +30,11 @@ struct CollegeView: View {
             model.loadSnapshot()
             model.loadEducation()
         }
-        .navigationDestination(isPresented: $presentMajors, destination: {
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationDestination(for: Int.self) { _ in
             MajorsView(model: .init(college: model.college, majors: model.majors))
-        })
+                .environmentObject(pathManager)
+        }
         .sheet(isPresented: $model.isMailOpen, content: mailView)
     }
 }
@@ -101,11 +102,13 @@ private extension CollegeView {
                     })
             }
             .frame(height: 80)
+            
             Text(model.college.name)
                 .setFont(.title2, .semibold, .rounded)
                 .padding(.bottom, 8)
                 .maxWidth()
                 .padding(.top, 8)
+            
             HStack(spacing: 10) {
                 ForEach(model.college.links, id: \.self) { item in
                     linkCell(link: item)
@@ -113,7 +116,8 @@ private extension CollegeView {
             }
             .listRowInsets(.zero)
             .listRowBackground(Color.clear)
-            .padding(.vertical, 16)
+            .padding(.vertical, 24)
+            
             HStack(alignment: .center, spacing: 0) {
                 Spacer()
                 statisticCell(
@@ -172,19 +176,19 @@ private extension CollegeView {
                             Rectangle()
                                 .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
                                 .frame(height: 13)
-                                .foregroundStyle(model.majorStats[index].color.gradient)
+                                .setColor(model.majorStats[index].color.gradient)
                                 .cornerRadiusCustom(10, corners: model.majorStats.count == 1 ? .allCorners : [.topLeft, .bottomLeft])
                         } else if index == model.majorStats.count - 1 {
                             Rectangle()
                                 .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
                                 .frame(height: 13)
-                                .foregroundStyle(model.majorStats[index].color.gradient)
+                                .setColor(model.majorStats[index].color.gradient)
                                 .cornerRadiusCustom(10, corners: [.topRight, .bottomRight])
                         } else {
                             Rectangle()
                                 .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
                                 .frame(height: 13)
-                                .foregroundStyle(model.majorStats[index].color.gradient)
+                                .setColor(model.majorStats[index].color.gradient)
                         }
                     }
                 }
@@ -192,9 +196,8 @@ private extension CollegeView {
         }
         .contentShape(Rectangle())
         .onTapGesture {
-            presentMajors.toggle()
+            pathManager.path.append(1)
         }
-        
     }
     
     @ViewBuilder
@@ -292,10 +295,10 @@ private extension CollegeView {
             Text(label.capitalized)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
-                .foregroundColor(.black)
+                .setColor(.black)
             Spacer()
         }
-        .listRowInsets(.init(top: 8, leading: 8, bottom: 8, trailing: 8))
+        .listRowInsets(.eight)
     }
     
     @ViewBuilder
@@ -383,7 +386,7 @@ private extension CollegeView {
                 .renderingMode(.template)
                 .fit()
                 .frame(height: 24)
-                .foregroundStyle(model.college.palette.base.gradient)
+                .setColor(model.college.palette.base.gradient)
                 .padding(8)
                 .background(
                     RoundedRectangle(
@@ -454,7 +457,7 @@ private extension CollegeView {
             .frame(height: 35)
             .frame(width: 35)
             .setFont(.callout, .bold, .rounded)
-            .foregroundStyle(model.college.palette.base.gradient)
+            .setColor(model.college.palette.base.gradient)
             .onTapGesture {
 //                dismiss.wrappedValue.dismiss()
             }

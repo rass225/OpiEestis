@@ -1,7 +1,6 @@
 import Foundation
 
-struct Module: Hashable, Codable, Identifiable {
-    var id = UUID()
+struct Module: Hashable, Codable {
     var name: String
     var courses: [Course]
     var submodules: [Submodule]?
