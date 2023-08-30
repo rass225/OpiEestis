@@ -311,16 +311,16 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele riigieksam"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st (4-20 konkursipunkti)"
         },
         {
-          "term": "Matemaatika riigieksam"
-        },
-        {
-          "term": "Gümnaasiumi tunnistuse keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
           "term": "Konkursil saab riigieksamite eest 4­˗20 konkursipunkti ja keskmise hinde eest 3-5 konkursipunkti. Kokku: 7-25 konkursipunkti. 3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus"
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Maamajanduslik ettevõtlus ja finantsjuhtimine",
@@ -634,10 +634,13 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4­˗20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Geodeesia, kinnisvara- ja maakorraldus",
@@ -996,16 +999,19 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4­˗20 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse: test (sooritatakse Moodle keskkonnas)"
+          "term": "keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "vastuvõtukatse: test (3-5 konkursipunkti)"
         },
         {
           "term": "Väljaspool konkurssi võetakse vastu: kuni 3 Luua Metsanduskooli lõpetanut keskmise hindega vähemalt 4,0"
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Metsandus",
@@ -1273,14 +1279,14 @@
       "language": "eesti keel",
       "duration": 3,
       "requirements": [
+          {
+            "term": "eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4­˗20 konkursipunkti)"
+          },
+          {
+            "term": "keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
+          },
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
-        },
-        {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
-        },
-        {
-          "term": "Gümnaasiumi tunnistuse keskmine hinne"
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Aiandus",
@@ -1685,13 +1691,16 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
           "term": "Väljaspool konkurssi võetakse vastu: kutsekeskharidusasutuse kalakasvatuse eriala lõpetanud keskmise hindega vähemalt 4,0"
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Kalandus ja rakendusökoloogia",
@@ -1992,13 +2001,13 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis)"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (3-5 konkursipunkti)"
         }
       ],
       "name": "Keskkonnakaitse",
@@ -2271,16 +2280,19 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)e"
         },
         {
-          "term": "Vastuvõtukatse: joonistuskatse (sooritatakse Maaülikoolis)"
+          "term": "Vastuvõtukatse: joonistuskatse vähemalt 3 punkti 10-st (3-10 konkursipunkti)"
         },
         {
-          "term": "Väljaspool konkurssi võetakse vastu: kutsekeskharidusasutuse aianduse, arboristi, linnaaedniku või maastikuehitaja eriala lõpetanud keskmise hindega vähemalt 4,0"
+          "term": "Väljaspool konkurssi võetakse vastu kutsekeskharidusasutuse aianduse, arboristi, linnaaedniku või maastikuehitaja eriala lõpetanud keskmise hindega vähemalt 4,0."
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Keskkonnaplaneerimine ja maastikukujundus",
@@ -2597,10 +2609,10 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         }
       ],
       "name": "Loodusturism",
@@ -2873,19 +2885,22 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne  "
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis)"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (3-5 konkursipunkti)"
         },
         {
-          "term": "Väljaspool konkurssi võetakse vastu: kutsekeskharidusasutuse põllumajanduslike erialade lõpetanud keskmise hindega vähemalt 4,0"
+          "term": "Väljaspool konkurssi võetakse vastu kutsekeskharidusasutuse põllumajanduslike erialade lõpetanud keskmise hindega vähemalt 4,0"
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)."
         }
       ],
-      "name": "Põllumajandussaaduste tootmine/turundus",
+      "name": "Põllumajandussaaduste tootmine ja turundamine",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -3224,19 +3239,22 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti 100-st"
+          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti (2-10 konkursipunkti)"
         },
         {
-          "term": "Laia matemaatika riigieksam vähemalt 20 punkti 100-st või kitsa matemaatika riigieksam vähemalt 80 punkti 100-st või vastuvõtukatse matemaatikas vähemalt 20 punkti 100-st"
+          "term": "Laia matemaatika riigieksam vähemalt 20 punkti (2-10 konkursipunkti) või kitsa matemaatika riigieksam vähemalt 80 punkti (8-10 konkursipunkti) või vastuvõtukatse matemaatikas vähemalt 20 punkti (2-10 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne "
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis)"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (3-5 konkursipunkti)"
         },
         {
-          "term": "Väljaspool konkurssi võetakse vastu: kutsekeskharidusasutuse tehnika erialade  lõpetanud keskmise hindega vähemalt 4,5"
+          "term": "Väljaspool konkurssi võetakse vastu kutsekeskharidusasutuse tehnika erialade lõpetanud keskmise hindega vähemalt 4,5.5"
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)."
         }
       ],
       "name": "Tehnika ja tehnoloogia",
@@ -3524,13 +3542,16 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Väljaspool konkurssi võetakse vastu: kutsekeskharidusasutuse põllumajanduslike erialade lõpetanud keskmise hindega vähemalt 4,0"
+          "term": "Väljaspool konkurssi võetakse vastu kutsekeskharidusasutuse põllumajanduslike erialade lõpetanud keskmise hindega vähemalt 4,0."
+        },
+        {
+            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)."
         }
       ],
       "name": "Loomakasvatus",
@@ -3814,19 +3835,19 @@
       "duration": 3,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Lõputunnistuse hinne õppeaines: keemia"
+          "term": "Lõputunnistuse hinne õppeaines: keemia (3-5 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis)"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (4-20 konkursipunkti)"
         },
         {
-          "term": "Väljaspool konkurssi võetakse vastu: kuni 3 kutsekeskharidusasutuse toiduainete töötlemise erialade lõpetanut keskmise hindega vähemalt 4,5"
+          "term": "Väljaspool konkurssi võetakse vastu kuni 3 kutsekeskharidusasutuse toiduainete töötlemise erialade lõpetanut keskmise hindega vähemalt 4,5."
         }
       ],
       "name": "Toiduainete tehnoloogia",
@@ -5391,6 +5412,9 @@
         },
         {
           "term": "1 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
+        },
+        {
+            "term": "1 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
         }
       ],
       "name": "Majandusarvestus ja finantsjuhtimine",
@@ -7599,13 +7623,31 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Magistri kraad"
+          "term": "Avaldus"
         },
         {
-          "term": "CV"
+          "term": "Doktoritöö kavand 1–2 leheküljel, millel on soovitavalt juhendaja nõusolek doktoritöö juhendamiseks"
         },
         {
-          "term": "Doktoritöö kavand"
+          "term": "Akadeemiline elulugu (CV)"
+        },
+        {
+          "term": "Isikut tõendav dokument, kui avaldus esitatakse paberkandjal"
+        },
+        {
+          "term": "Vajadusel nime muutmist tõendav dokument"
+        },
+        {
+          "term": "Eelmise õppeastme diplom ja akadeemiline õiend"
+        },
+        {
+          "term": "Euroopa Liidus magistrikraadi omandanud üliõpilaskandidaadil kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Väljaspool Euroopa Liitu magistrikraadi omandanud (v.a Eestis keskhariduse omandanud) üliõpilaskandidaadil keskharidust tõendav lõputunnistus ja kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Vvälismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
         }
       ],
       "name": "Keskkonnateadus ja rakendusbioloogia",
@@ -7726,13 +7768,31 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Magistri kraad"
+          "term": "Avaldus"
         },
         {
-          "term": "CV"
+          "term": "Doktoritöö kavand 1–2 leheküljel, millel on soovitavalt juhendaja nõusolek doktoritöö juhendamiseks"
         },
         {
-          "term": "Doktoritöö kavand"
+          "term": "Akadeemiline elulugu (CV)"
+        },
+        {
+          "term": "Isikut tõendav dokument, kui avaldus esitatakse paberkandjal"
+        },
+        {
+          "term": "Vajadusel nime muutmist tõendav dokument"
+        },
+        {
+          "term": "Eelmise õppeastme diplom ja akadeemiline õiend"
+        },
+        {
+          "term": "Euroopa Liidus magistrikraadi omandanud üliõpilaskandidaadil kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Väljaspool Euroopa Liitu magistrikraadi omandanud (v.a Eestis keskhariduse omandanud) üliõpilaskandidaadil keskharidust tõendav lõputunnistus ja kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Vvälismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
         }
       ],
       "name": "Põllumajandus",
@@ -7878,13 +7938,31 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Magistri kraad"
+          "term": "Avaldus"
         },
         {
-          "term": "CV"
+          "term": "Doktoritöö kavand 1–2 leheküljel, millel on soovitavalt juhendaja nõusolek doktoritöö juhendamiseks"
         },
         {
-          "term": "Doktoritöö kavand"
+          "term": "Akadeemiline elulugu (CV)"
+        },
+        {
+          "term": "Isikut tõendav dokument, kui avaldus esitatakse paberkandjal"
+        },
+        {
+          "term": "Vajadusel nime muutmist tõendav dokument"
+        },
+        {
+          "term": "Eelmise õppeastme diplom ja akadeemiline õiend"
+        },
+        {
+          "term": "Euroopa Liidus magistrikraadi omandanud üliõpilaskandidaadil kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Väljaspool Euroopa Liitu magistrikraadi omandanud (v.a Eestis keskhariduse omandanud) üliõpilaskandidaadil keskharidust tõendav lõputunnistus ja kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Vvälismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
         }
       ],
       "name": "Tehnikateadus",
@@ -8028,13 +8106,31 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Magistri kraad"
+          "term": "Avaldus"
         },
         {
-          "term": "CV"
+          "term": "Doktoritöö kavand 1–2 leheküljel, millel on soovitavalt juhendaja nõusolek doktoritöö juhendamiseks"
         },
         {
-          "term": "Doktoritöö kavand"
+          "term": "Akadeemiline elulugu (CV)"
+        },
+        {
+          "term": "Isikut tõendav dokument, kui avaldus esitatakse paberkandjal"
+        },
+        {
+          "term": "Vajadusel nime muutmist tõendav dokument"
+        },
+        {
+          "term": "Eelmise õppeastme diplom ja akadeemiline õiend"
+        },
+        {
+          "term": "Euroopa Liidus magistrikraadi omandanud üliõpilaskandidaadil kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Väljaspool Euroopa Liitu magistrikraadi omandanud (v.a Eestis keskhariduse omandanud) üliõpilaskandidaadil keskharidust tõendav lõputunnistus ja kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Vvälismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
         }
       ],
       "name": "Veterinaarmeditsiin ja toiduteadus",
@@ -8174,13 +8270,31 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Magistri kraad"
+          "term": "Avaldus"
         },
         {
-          "term": "CV"
+          "term": "Doktoritöö kavand 1–2 leheküljel, millel on soovitavalt juhendaja nõusolek doktoritöö juhendamiseks"
         },
         {
-          "term": "Doktoritöö kavand"
+          "term": "Akadeemiline elulugu (CV)"
+        },
+        {
+          "term": "Isikut tõendav dokument, kui avaldus esitatakse paberkandjal"
+        },
+        {
+          "term": "Vajadusel nime muutmist tõendav dokument"
+        },
+        {
+          "term": "Eelmise õppeastme diplom ja akadeemiline õiend"
+        },
+        {
+          "term": "Euroopa Liidus magistrikraadi omandanud üliõpilaskandidaadil kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Väljaspool Euroopa Liitu magistrikraadi omandanud (v.a Eestis keskhariduse omandanud) üliõpilaskandidaadil keskharidust tõendav lõputunnistus ja kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
+        },
+        {
+          "term": "Vvälismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
         }
       ],
       "name": "Metsandus",
@@ -8554,13 +8668,19 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Eesti keele riigieksam"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4­˗20 konkursipunkti)"
         },
         {
-          "term": "Matemaatika riigieksam"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3­˗5 konkursipunkti)"
         },
         {
-          "term": "Gümnaasiumi tunnistuse keskmine hinne"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (3-5 konkursipunkti)"
+        },
+        {
+          "term": "Väljaspool konkurssi võetakse vastu kuni 5 keskmise hindega vähemalt 4,0 kutsekeskharidusasutuse puidutöötlemise tehnoloogia või tisleri eriala lõpetanut."
+        },
+        {
+          "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)."
         }
       ],
       "name": "Puidutöötlemise tehnoloogia",
@@ -9007,16 +9127,22 @@
       "duration": 4,
       "requirements": [
         {
-          "term": "Eesti keele riigieksam"
+          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti (2-10 konkursipunkti)"
         },
         {
-          "term": "Matemaatika riigieksam"
+          "term": "Laia matemaatika riigieksam vähemalt 20 punkti (2-10 konkursipunkti) või kitsa matemaatika riigieksam vähemalt 80 punkti (8-10 konkursipunkti) või vastuvõtukatse matemaatikas vähemalt 20 punkti (2-10 konkursipunkti)"
         },
         {
-          "term": "Gümnaasiumi tunnistuse keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (3-5 konkursipunkti)"
+        },
+        {
+          "term": "Väljaspool konkurssi võetakse vastu kutsekeskharidusasutuse tehnika erialade lõpetanud keskmise hindega vähemalt 4,5."
+        },
+        {
+          "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)."
         }
       ],
       "name": "Tehnotroonika",
@@ -9447,16 +9573,16 @@
       "duration": 5,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti 100-st"
+          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti (2­˗10 konkursipunkti)"
         },
         {
-          "term": "Laia matemaatika riigieksam vähemalt 30 punkti 100-st või kitsa matemaatika riigieksam vähemalt 80 punkti 100-st või vastuvõtukatse matemaatikas vähemalt 30 punkti 100-st"
+          "term": "Laia matemaatika riigieksam vähemalt 30 punkti (3­˗10 konkursipunkti) või kitsa matemaatika riigieksam vähemalt 80 punkti (8-10 konkursipunkti) või vastuvõtukatse matemaatikas vähemalt 30 punkti (3-10 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne"
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         },
         {
-          "term": "Väljaspool konkurssi võetakse vastu: kuni 3 keskmise hindega vähemalt 4,5 kutseharidusasutuse ehituslike erialade lõpetanut"
+          "term": "Väljaspool konkurssi võetakse vastu kuni 3 keskmise hindega vähemalt 4,5 kutsekeskharidusasutuse ehituslike erialade lõpetanut"
         }
       ],
       "name": "Maaehitus",
@@ -9866,13 +9992,13 @@
       "duration": 5,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti 100-st"
+          "term": "Eesti keele / eesti keele kui teise keele riigieksam vähemalt 20 punkti (2­˗10 konkursipunkti)"
         },
         {
-          "term": "Laia matemaatika riigieksam vähemalt 20 punkti 100-st või kitsa matemaatika riigieksam vähemalt 80 punkti 100-st või vastuvõtukatse matemaatikas vähemalt 20 punkti 100-st"
+          "term": "Laia matemaatika riigieksam vähemalt 20 punkti (2­˗10 konkursipunkti) või kitsa matemaatika riigieksam vähemalt 80 punkti (8-10 konkursipunkti) või vastuvõtukatse matemaatikas vähemalt 20 punkti (2-10 konkursipunkti)"
         },
         {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne "
+          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
         }
       ],
       "name": "Vesiehitus ja veekaitse",
@@ -10375,22 +10501,22 @@
       "duration": 6,
       "requirements": [
         {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st!"
+          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti (4-20 konkursipunkti)"
         },
         {
-          "term": "Lõputunnistuse hinne õppeaines: bioloogia"
+          "term": "Lõputunnistuse hinne õppeaines: bioloogia (3-5 konkursipunkti)"
         },
         {
-          "term": "Lõputunnistuse hinne õppeaines: keemia"
+          "term": "Lõputunnistuse hinne õppeaines: keemia (3-5 konkursipunkti)"
         },
         {
-          "term": "Lõputunnistuse hinne õppeaines: matemaatika"
+          "term": "Lõputunnistuse hinne õppeaines: matemaatika (3-5 konkursipunkti)"
         },
         {
-          "term": "Lõputunnistuse hinne õppeaines: eesti keel"
+          "term": "Lõputunnistuse hinne õppeaines: eesti keel (3-5 konkursipunkti)"
         },
         {
-          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis)"
+          "term": "Vastuvõtukatse: motivatsioonikiri (esitatakse digiallkirjastatult SAISis) (1-20 konkursipunkti)"
         }
       ],
       "name": "Veterinaarmeditsiin",
@@ -10902,9 +11028,9 @@
       ],
       "name": "Veterinaarmeditsiin",
       "cost": {
-        "amount": 0,
+        "amount": 9400,
         "currency": "€",
-        "interval": "full"
+        "interval": "year"
       }
     },
 ]

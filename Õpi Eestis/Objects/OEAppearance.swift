@@ -22,7 +22,7 @@ internal enum OEAppearance {
         internal static let major = "Eriala"
         internal static let foreignStudents1 = "Välisüliõpilast"
         internal static let foreignStudents2 = "Välisüliõpilasi"
-        internal static let students = "Üliõpilast"
+        internal static let students = "Õpilast"
         internal static let none = "N/A"
         internal static let cities = "Linnas"
         internal static let app = "Õpi Eestis"

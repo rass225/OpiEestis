@@ -8,7 +8,10 @@ struct CollegesListView: View {
         List(schools) { college in
             collegeCell(college)
         }
+        
+        
         .toolbar(.visible, for: .tabBar)
+        .toolbarBackground(.white, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: College.self) { college in
             CollegeView(model: .init(college: college))
@@ -38,7 +41,7 @@ private extension CollegesListView {
     func collegeImage(_ ref: String) -> some View {
         Image(ref)
             .resizable()
-            .scaledToFit()
+            .fit()
             .frame(width: 60, height: 60)
     }
     

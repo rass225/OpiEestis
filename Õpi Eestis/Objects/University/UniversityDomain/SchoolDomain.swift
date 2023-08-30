@@ -370,8 +370,8 @@ struct CollegeLocation: Codable, Equatable, Hashable, Identifiable {
                 longitude: longitude
             ),
             span: MKCoordinateSpan(
-                latitudeDelta: 0.05,
-                longitudeDelta: 0.05
+                latitudeDelta: 0.01,
+                longitudeDelta: 0.01
             )
         )
     }

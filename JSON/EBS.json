@@ -3,7 +3,6 @@
     "studyLocation": [
       "Tallinn"
     ],
-    "id": "42CDAE0A-EA3D-4FA8-A719-A575EE4FE5FF",
     "description": [
       "Kui soovid luua oma ettevõtte või täiendada ettevõtlusteadmisi siis on see õppekava loodud just Sinule. Õppekava läbides saad ettevõtjana tegutsemise kogemuse ning õpid ärimaailmas orienteeruma ja ettevõtet targalt arendama. Päevaõppes on Sul võimalus spetsialiseeruda tehnoloogiaettevõtluse, loomeettevõtluse või professionaalse müügi suunal. Valides sessioonõppe, saad spetsialiseerumissuundade aineid õppida valikainetena. Semester või aasta EBSi partnerülikoolis avardab Sinu maailmapilti ning pakub Sulle rahvusvahelise õpikogemuse.",
       "Miks ettevõtluse ja ärijuhtimise õppekava?",
@@ -42,266 +41,214 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "03EB0D15-01D5-45A8-B8F7-CBE2415BA84F",
         "name": "Semester I",
         "courses": [
           {
-            "id": "9745091C-28FA-4288-9E8A-4D995250EB39",
             "name": "Ettevõtluse alused",
             "eapCount": 3
           },
           {
-            "id": "18D27BC6-4935-4081-B5AF-9BB2151D4765",
             "name": "Majandusteaduste alused",
             "eapCount": 3
           },
           {
-            "id": "F4B053E0-7826-4190-8DA0-70194F154CBE",
             "name": "Inglise ärikeele keskastme kursus I",
             "eapCount": 3
           },
           {
-            "id": "11FF0613-3B81-46E8-90F0-95AD75308C78",
             "name": "Liidri professionaalne identiteet",
             "eapCount": 3
           },
           {
-            "id": "5F647375-C7F3-42B1-96EC-ABA72315CE02",
             "name": "Turundus ja müük",
             "eapCount": 6
           },
           {
-            "id": "6EDB5914-6711-472A-82E2-FE9EFAF0C1E9",
             "name": "Majandusmatemaatika ja statistika",
             "eapCount": 6
           },
           {
-            "id": "15EE935E-165D-45AA-971B-B4CA11C94298",
             "name": "Informaatika",
             "eapCount": 3
           },
           {
-            "id": "949D8295-096F-410B-AE3B-443FA871D460",
             "name": "Spetsialiseerumisplokk: müük",
             "eapCount": 6
           },
           {
-            "id": "4C8B504C-11CB-44A8-81CE-2C881E73A372",
             "name": "Spetsialiseerumisplokk: tehnoloogiaettevõtlus",
             "eapCount": 6
           },
           {
-            "id": "CD7ABFA3-01EB-4E25-9CE1-66336F5CBB05",
             "name": "Spetsialiseerumisplokk: loomeettevõtlus",
             "eapCount": 6
           }
         ]
       },
       {
-        "id": "D60D4EA8-2646-4E32-981F-B1FF37547ED3",
         "name": "Semester II",
         "courses": [
           {
-            "id": "2238D4F7-9E3D-426C-A4B4-DAC67ED2FDEE",
             "name": "Tudengiettevõtted",
             "eapCount": 3
           },
           {
-            "id": "0A9AAAFB-C568-4885-9D06-48FFD18C8203",
             "name": "Mikroökonoomika",
             "eapCount": 6
           },
           {
-            "id": "4477C874-8A81-4757-901D-DF1E66458CF0",
             "name": "Fintantsarvestus",
             "eapCount": 6
           },
           {
-            "id": "BD84A6BD-849B-49F6-9B26-226A345C6113",
             "name": "Inglise ärikeele keskastme kursus II",
             "eapCount": 3
           },
           {
-            "id": "58694338-9E49-4588-B820-121C81A6C28B",
             "name": "Õiguse entsüklopeedia",
             "eapCount": 3
           },
           {
-            "id": "D26A2DBC-9243-4C7C-AEDF-EAFE84E25A89",
             "name": "Juhtimise alused",
             "eapCount": 3
           },
           {
-            "id": "3BA8EC1F-E7F2-47E0-A72B-5C09919C6A0A",
             "name": "Praktika: Kärjääriväljakutse 1",
             "eapCount": 2
           },
           {
-            "id": "681CBA04-F960-453A-AAA3-7A9D7AC6E900",
             "name": "Spetsialiseerumisplokk: müük II",
             "eapCount": 6
           },
           {
-            "id": "458E45E8-8F1C-45F0-9909-9B603EDF6FB0",
             "name": "Spetsialiseerumisplokk: tehnoloogiaettevõtlus II",
             "eapCount": 6
           },
           {
-            "id": "93280CF8-B096-42B6-9831-C09CA772EC34",
             "name": "Spetsialiseerumisplokk: loomeettevõtlus II",
             "eapCount": 6
           }
         ]
       },
       {
-        "id": "8BA3B419-A960-4AF2-B167-31354FEC9989",
         "name": "Semester III",
         "courses": [
           {
-            "id": "1AC18830-F006-4079-9728-4327B2541458",
             "name": "Valikained",
             "eapCount": 24
           }
         ]
       },
       {
-        "id": "2597740B-BE7E-4946-8564-95F398178ADB",
         "name": "Semester IV",
         "courses": [
           {
-            "id": "B4863AB1-E230-4C2A-A8FB-A52CB88F7EE2",
             "name": "Makroökonoomika",
             "eapCount": 6
           },
           {
-            "id": "D6AD2AD7-EAB0-497A-9DFD-03ADC3792564",
             "name": "Juhtimisarvestus",
             "eapCount": 3
           },
           {
-            "id": "972BF4D0-8579-4919-87C8-14D04938CFF0",
             "name": "Inglise ärikeele kursus edeasijõudnutele I",
             "eapCount": 3
           },
           {
-            "id": "CBAFA5BE-D9E3-4C3E-A34F-BD04439D2409",
             "name": "Designing Managerial Intervention",
             "eapCount": 3
           },
           {
-            "id": "3FBE17A6-64B5-4540-A305-1F1F04EDB4B7",
             "name": "Digitaalne turundus",
             "eapCount": 3
           },
           {
-            "id": "75895D83-6F89-4C35-8BCF-A71D7317F01C",
             "name": "uurimistöö disain",
             "eapCount": 3
           },
           {
-            "id": "631439B8-7275-4896-BEF4-C5A4779879E4",
             "name": "Kvalitatiivsed uurimismeetodid",
             "eapCount": 3
           },
           {
-            "id": "E62FF7A1-4841-4923-9A7A-1226AC41CDE1",
             "name": "Ärialane suhtlemine",
             "eapCount": 3
           },
           {
-            "id": "33F40AE9-0533-491E-B607-2FBD38A6FA3C",
             "name": "Filosoofia",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "68AD4D14-922C-407C-A208-51AD3AE431ED",
         "name": "Semester V",
         "courses": [
           {
-            "id": "72A2E855-6F7F-4703-B207-67F46B040B5B",
             "name": "Rahvusvaheline äri",
             "eapCount": 3
           },
           {
-            "id": "998BC2D3-1B54-4118-B9B6-EB0FF65990D5",
             "name": "Äritegevus Aasia riikides",
             "eapCount": 3
           },
           {
-            "id": "901A4339-AFCF-467B-B40E-E171F01F0C8F",
             "name": "Inglise ärikeele kursus edasijõudnutele",
             "eapCount": 3
           },
           {
-            "id": "CB2EC0AA-5C10-4907-9DDF-50BEC7CA5E71",
             "name": "Äriõigus",
             "eapCount": 6
           },
           {
-            "id": "A8891621-C35F-4AD6-8D12-AAF2D513D0C2",
             "name": "Maksunduse alused",
             "eapCount": 3
           },
           {
-            "id": "D5C536C8-5DA2-4D0E-842D-9FAC8C1F87E2",
             "name": "Eestvedamine",
             "eapCount": 3
           },
           {
-            "id": "1E7D66D0-4B7C-40F8-9E6E-4F7A62E962F0",
             "name": "Kvantitatiivsed uurimismeetodid",
             "eapCount": 3
           },
           {
-            "id": "D9BD9EDE-7E22-477F-8DE3-A62884874703",
             "name": "Sotsiaalpsühholoogia",
             "eapCount": 3
           },
           {
-            "id": "CC0564D3-177A-41CE-8506-378F146C4582",
             "name": "Sotsioloogia",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "FCB20D7B-5269-4535-BAB0-F0042818A4A2",
         "name": "Semester VI",
         "courses": [
           {
-            "id": "8EE00A79-CE0C-41BD-953F-E8298BBA984E",
             "name": "Äriplaan",
             "eapCount": 3
           },
           {
-            "id": "33CDD5F1-882C-46F4-8C19-33A75516DE6E",
             "name": "E-äri",
             "eapCount": 6
           },
           {
-            "id": "71900D79-CB75-44EE-AACF-865AF068DE55",
             "name": "Juhtimissimulatsioon DYNAMA",
             "eapCount": 5
           },
           {
-            "id": "B56C8689-30BF-4003-9393-B028B5FC5095",
             "name": "Ärieetika",
             "eapCount": 3
           },
           {
-            "id": "92FDB558-4ED3-46E7-96FA-390A1E3CC086",
             "name": "Lõpueksam",
             "eapCount": 6
           },
           {
-            "id": "FCE1E907-0AB5-4F1F-88FC-B7180D45A2B8",
             "name": "Bakalaureusetöö",
             "eapCount": 6
           },
           {
-            "id": "B54D5DCB-3DA3-41E0-8F4D-C78834F905B7",
             "name": "Valikaine",
             "eapCount": 3
           }
@@ -322,15 +269,12 @@
     "duration": 3,
     "requirements": [
       {
-        "id": "4A0D397B-3386-4BBA-BCDA-B359989F19D5",
         "term": "Vestlus"
       },
       {
-        "id": "C3BEE247-F1E6-43F9-994E-50F87E97D77D",
         "term": "Eesti keele riigieksam vähemalt 30 punkti"
       },
       {
-        "id": "C73545A0-C976-4E86-A65F-B762DA4CFBA1",
         "term": "Inglise keele oskus vähemalt B1 tasemel"
       }
     ],
@@ -346,7 +290,6 @@
       "Tallinn",
       "Helsingi"
     ],
-    "id": "AA7FF428-DACD-4EB6-8719-08EAB58CB6DA",
     "description": [
       "See maailma 122 parima ärikorralduse õppekava hulka kuuluv programm valmistab Sind ette töötama juhi või tippspetsialisina rahvusvahelises ettevõttes või avaliku sektori organisatsioonis. Õppejõud ja üliõpilased paljudest eri riikidest aitavad luua tõeliselt rahvusvahelise õpikeskkonna. Sul on võimalus spetsialiseeruda rahanduse ja majandusarvestuse või turunduse ja kommunikatsiooni suunal. Semester või aasta EBSi partnerülikoolis avardab Sinu maailmapilti ning annab hindamatu õpikogemuse  teises kultuuriruumis",
       "Miks rahvusvahelise ärijuhtimise õppekava?",
@@ -381,231 +324,186 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "025EA908-88AB-46D0-8D4B-300606C38C8B",
         "name": "Semester I",
         "courses": [
           {
-            "id": "0FBCBE16-50F1-4638-87D6-7BD012D88A7E",
             "name": "Principles of Economics",
             "eapCount": 3
           },
           {
-            "id": "6650FE6A-3FF6-4265-A966-56527E6C085B",
             "name": "English for Management and Marketing",
             "eapCount": 3
           },
           {
-            "id": "860DF6F4-8596-40B4-959C-911129E06442",
             "name": "Principles of Management",
             "eapCount": 3
           },
           {
-            "id": "BC155D09-F848-4E19-9E83-1ABF0CD1CCB0",
             "name": "Principles of Marketing",
             "eapCount": 6
           },
           {
-            "id": "1DB8B32A-A785-449A-B69C-3E9986E14CEE",
             "name": "Mathematics for Business",
             "eapCount": 6
           },
           {
-            "id": "FE5D9972-686C-4E20-B4F4-79E408F87059",
             "name": "Computer Fundamentals for Business I",
             "eapCount": 3
           },
           {
-            "id": "859C3139-AB2D-4DF4-A659-03561D347FA4",
             "name": "Development of Study Skills",
             "eapCount": 2
           },
           {
-            "id": "5E156B88-DA5D-4273-B896-94179186BB07",
             "name": "Philosophy",
             "eapCount": 3
           },
           {
-            "id": "F3FB71E3-D0A4-4B85-A70E-009545C35D54",
             "name": "Sociology",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "D91AABDD-5E79-4F21-9FBC-84EE8394C25E",
         "name": "Semester II",
         "courses": [
           {
-            "id": "073D7828-2D16-49D7-8A4B-40BE2570DC71",
             "name": "Microeconomics",
             "eapCount": 6
           },
           {
-            "id": "82790823-BEA1-4FE4-8B19-69A4DAD8FF9D",
             "name": "Financial Accounting",
             "eapCount": 6
           },
           {
-            "id": "0E2F264F-64AD-4E89-AA85-F38F2A64297E",
             "name": "Human Resource Management",
             "eapCount": 3
           },
           {
-            "id": "45A606B3-7727-4574-83CE-222090E11CAE",
             "name": "English for Finance and Accounting",
             "eapCount": 3
           },
           {
-            "id": "221B320D-25C0-41ED-8C1F-5309C9428B2E",
             "name": "Introduction to Statistics",
             "eapCount": 3
           },
           {
-            "id": "7F19F7CE-6D94-41BE-8EA5-E6D1144CB6AA",
             "name": "Communication and Presentation Skills",
             "eapCount": 3
           },
           {
-            "id": "2453902C-A1D3-49A1-855B-C9AB346C0999",
             "name": "Social Psychology",
             "eapCount": 3
           },
           {
-            "id": "1D684F35-53B6-4765-8649-56B7F7CD1959",
             "name": "Optional",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "1702C727-C5A8-4801-9B67-BA8CCEC450F0",
         "name": "Semester III",
         "courses": [
           {
-            "id": "83D71952-9271-4E8F-8075-61DB7DDE326A",
             "name": "Mobility window",
             "eapCount": 30
           }
         ]
       },
       {
-        "id": "3F16E813-ED83-449A-9BB0-25771162877B",
         "name": "Semester IV",
         "courses": [
           {
-            "id": "FD1FD61D-3B77-43EB-B14A-A06D8074484C",
             "name": "Business Planning",
             "eapCount": 3
           },
           {
-            "id": "6CE4F0EF-735E-4162-AF8B-7011DC9BBE89",
             "name": "Macroeconomics",
             "eapCount": 6
           },
           {
-            "id": "A157673B-7960-42C5-B862-40053BD52F13",
             "name": "Managerial Accounting",
             "eapCount": 3
           },
           {
-            "id": "3D4360E0-0D86-4FCE-80EE-02F83397D280",
             "name": "English for Economics and Law",
             "eapCount": 3
           },
           {
-            "id": "80C5DB84-F526-49AB-8D77-10B20C2DB402",
             "name": "Law Encyclopedia",
             "eapCount": 3
           },
           {
-            "id": "21471520-C023-4519-9370-124DAAAD4297",
             "name": "Project Management",
             "eapCount": 3
           },
           {
-            "id": "BF0C64F0-DD01-467B-A531-7863BB14947A",
             "name": "Research Design",
             "eapCount": 3
           },
           {
-            "id": "B0C328B7-8016-4A8F-93AA-9E4522CC5E7D",
             "name": "Qualitative Research Methods",
             "eapCount": 3
           },
           {
-            "id": "FA561BD8-6C6E-4466-9B8B-3E195D0717B4",
             "name": "Internship",
             "eapCount": 6
           }
         ]
       },
       {
-        "id": "23BD5DDF-4FD4-4814-9C16-15B3ADD5BCE8",
         "name": "Semester V",
         "courses": [
           {
-            "id": "C7FB8882-15F1-46D8-BE50-33E9D477B420",
             "name": "International Business",
             "eapCount": 3
           },
           {
-            "id": "9771E5AA-12F0-47FF-9EE3-C64E867BE6BE",
             "name": "Corporate Finance",
             "eapCount": 6
           },
           {
-            "id": "FA608F63-68F2-4024-AD4C-85D2692E9AEA",
             "name": "Academic and Business Writing",
             "eapCount": 3
           },
           {
-            "id": "525F6055-0A3B-4D82-A3DE-8F9D7562D439",
             "name": "Business Law",
             "eapCount": 6
           },
           {
-            "id": "C815E5AF-09F6-4B6A-81B1-DEA720DD9B30",
             "name": "Quantitative Research Methods",
             "eapCount": 3
           },
           {
-            "id": "252C5B0F-4775-4F67-8F87-670CE0D641FC",
             "name": "Optional",
             "eapCount": 9
           }
         ]
       },
       {
-        "id": "3D2C4070-6503-4DF0-BCE9-82712A2A198A",
         "name": "Semester VI",
         "courses": [
           {
-            "id": "E6C65C65-9950-469D-95AE-9673E15FCDDD",
             "name": "Strategic Management",
             "eapCount": 3
           },
           {
-            "id": "953D0F1D-00B9-4F49-A8F7-F7546D87CFC3",
             "name": "Business Simulation DYNAMA",
             "eapCount": 5
           },
           {
-            "id": "C767D95C-F983-40F4-B1E7-AA84D7F863EC",
             "name": "Business Ethics",
             "eapCount": 3
           },
           {
-            "id": "82AC76DE-0090-44CE-A0F3-2A74BDDC948B",
             "name": "Public Relations and Media Communication",
             "eapCount": 6
           },
           {
-            "id": "62D0D4CD-AE77-4752-B7D1-4F857ACD9B7B",
             "name": "Optional",
             "eapCount": 3
           },
           {
-            "id": "3B36C4FE-8D33-43A8-95DC-06618A213A27",
             "name": "Bachelor Thesis or Final Exam",
             "eapCount": 6
           }
@@ -626,15 +524,12 @@
     "duration": 3,
     "requirements": [
       {
-        "id": "3445FA11-5BC1-4779-9C4D-7285E6AF181C",
         "term": "Inglise keele oskus vähemalt B2 tasemel"
       },
       {
-        "id": "5EE50CA7-E2DA-45D3-85E6-0C0BB3D03EFF",
         "term": "Matemaatika riigieksami tulemus"
       },
       {
-        "id": "D6291AE3-2FDC-4358-8E23-7C479DCC7FD3",
         "term": "Vestlus"
       }
     ],
@@ -649,7 +544,6 @@
     "studyLocation": [
       "Tallinn"
     ],
-    "id": "46E8B38F-1F78-4DE5-A76F-33AB223C605C",
     "description": [
       "Uuenduslik ingliskeelne õppekava ''Ettevõtlus digiajastul'' on välja töötatud tuginedes ühiskonna vajadustele, parimatele praktikatele ja EBSi 30-aastasele kogemusele ettevõtlusõppe rakendamisel. Õppeprotsessi loogika järgib reaalseid ettevõtlusprotsessi etappe ja valmistab Sind ette tegutsemiseks globaalsetel turgudel ning rahvusvahelises keskkonnas. Õppekava moodulid läbitakse meeskonnatööde formaadis ning lisaks lektoritele on õppeprotsessi käigus toeks ettevõtjad, mentorid ja coachid. Õppetöö käigus õpid looma seoseid ettevõtlusteooriate, praktikate ja ettevõtlusmeeskonnas töötamise kogemuste vahel digitaalajastul ning lahendama saadud teadmistele tuginedes loovalt probleeme, mis tekivad ettevõtte erinevates arenguetappides.",
       "Miks valida õppekava Ettevõtlus digiajastul?",
@@ -669,246 +563,198 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "0B19D7DD-610A-436A-8AD7-972172FC2822",
         "name": "Ettevõtlusega alustmine",
         "courses": [
           {
-            "id": "8AD72EA8-5724-4DE0-8BA1-E30816700508",
             "name": "Ettevõtlusmaastiku ja võimaluste avastamine",
             "eapCount": 12
           },
           {
-            "id": "A035FDDC-2A0C-4F58-91A1-E603BF7D5C7A",
             "name": "Ärimudeli koostamine",
             "eapCount": 12
           },
           {
-            "id": "E68B0CE9-B0AF-4333-9582-1188FB01D125",
             "name": "Valikaine",
             "eapCount": 3
           },
           {
-            "id": "CF631D27-93DC-4D7C-A42D-008582C330EC",
             "name": "Valikaine",
             "eapCount": 3
           },
           {
-            "id": "FF593BF9-B91C-4F87-BFA0-41ACB65D0C59",
             "name": "Entrepreneurial Practices*",
             "eapCount": 3
           },
           {
-            "id": "45621787-F3D1-40F7-BBCC-E72AC57F1E0F",
             "name": "Ringmajandus*",
             "eapCount": 3
           },
           {
-            "id": "6C53155C-6F7B-4652-89AD-F52F817BCA51",
             "name": "English for Entrepreneurs*",
             "eapCount": 3
           },
           {
-            "id": "92B0BAD4-C3F3-4B16-A49A-8EA4EB5A9DF4",
             "name": "Maksunduse alused*",
             "eapCount": 3
           },
           {
-            "id": "3BA2FBFB-0C93-428E-86E5-0D7371DC8697",
             "name": "Liidri professionaalne identiteet*",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "8AD5CC2E-DDAC-4572-9357-0757BF0F4A90",
         "name": "Ettevõtte strateegia rakendamine",
         "courses": [
           {
-            "id": "2A2A3AA9-0D1E-49BC-8613-FEAA66A7FBE1",
             "name": "Ettevõtte käivitamine",
             "eapCount": 12
           },
           {
-            "id": "045FEF00-FDC6-4AFF-9B5C-DB8FB7ADCFBB",
             "name": "Efektiivse äriorganisatsiooni disainimine",
             "eapCount": 12
           },
           {
-            "id": "8A03EAB5-34FC-4DCF-8B00-AB8B0B49C0BC",
             "name": "Observation Internship",
             "eapCount": 2
           },
           {
-            "id": "6F39A6DD-81EC-4847-9DBF-7D236C2253BA",
             "name": "Valikaine",
             "eapCount": 3
           },
           {
-            "id": "E33C2B19-1408-437B-AB9E-0A723B4969F7",
             "name": "Valikaine",
             "eapCount": 3
           },
           {
-            "id": "F22C5923-8965-4E5E-859C-63D94DD01D48",
             "name": "Entrepreneurial Practices II*",
             "eapCount": 3
           },
           {
-            "id": "ABBDBD8E-2128-4213-8BE7-E8229473E26D",
             "name": "Basic Digital Literacy*",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "D23FE256-EE8E-45BB-9761-C3C66AA27E54",
         "name": "Ettevõtte tegevuse tõhustamine",
         "courses": [
           {
-            "id": "90D39EC8-CB27-4622-B58B-56F2BCDB7191",
             "name": "Ettevõtte ettevalmistamine rahvusvahelistumiseks",
             "eapCount": 6
           },
           {
-            "id": "59BDA46F-87A2-402C-AC58-B184921B0175",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "B72FD9C5-C25F-4B56-8FAF-F86BE9672536",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "48B6C96D-2A0A-4CED-B28E-2AECC5B87A98",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "5B0D9825-60DC-4557-902E-3579F5493ABD",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "4CD779BC-F505-4C85-87C9-5B29317ABCDF",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "903E9DC4-63A7-4994-B464-221F644E96A0",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "C5301C54-9761-4F19-9FC1-493E4428B6CD",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "E1302451-F608-4C7A-B358-C9455B297426",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "97913F8E-8435-4346-9B9F-BE4055538FED",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "63E7598A-6020-4836-9374-343BCC4F12E8",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "000808A7-54D4-473A-8135-793406EC347D",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "6EB0308B-199A-48B2-98A6-E13F7C53731D",
             "name": "Vabaaine",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "24940187-7E3B-4D87-A285-60C461983095",
         "name": "Ettevõtte laiendamine ja rahvusvahelistumine",
         "courses": [
           {
-            "id": "04FB72BF-3A69-4D08-8110-0BA971186E27",
             "name": "Ettevõtte kasvu finantseerimine ja juhtimine",
             "eapCount": 12
           },
           {
-            "id": "E51DCA99-8EF1-4F4C-A32B-5DD322EFFE45",
             "name": "Muutuste juhtimine ettevõttes",
             "eapCount": 12
           },
           {
-            "id": "42A1711D-7131-4A58-93FA-03C75C98DA3A",
             "name": "Analysis Internship",
             "eapCount": 2
           },
           {
-            "id": "55DE6538-633D-4546-B881-960A67C6273A",
             "name": "Valikaine",
             "eapCount": 3
           },
           {
-            "id": "3C415FA8-1DB6-4A96-A577-6F7511859BD1",
             "name": "Valikaine",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "ECB45977-58F9-4391-B780-F33DE9B449F3",
         "name": " Ettevõtte ümberkujundamine",
         "courses": [
           {
-            "id": "5E5437BA-D957-40BE-AE7E-F0F15E5DC3DF",
             "name": "Ettevõtte hindamine",
             "eapCount": 12
           },
           {
-            "id": "256925D1-8747-4B41-8DD9-FCA2180D9ED7",
             "name": "Ettevõttest väljumise strateegia loomine ja rakendamine",
             "eapCount": 12
           },
           {
-            "id": "1FD20CCE-6C67-4F0E-8BCF-6DA5AA06EFA8",
             "name": "Valikaine",
             "eapCount": 3
           },
           {
-            "id": "8F664727-8EB9-4627-A494-019D7CF78D5E",
             "name": "Valikaine",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "70DB5781-0FE2-4263-BBCA-8073537BF107",
         "name": "Ettevõtte tulevikustrateegia loomine",
         "courses": [
           {
-            "id": "83A2D530-9AFD-40CC-B712-823AAD17712F",
             "name": "Bakalaureusetöö",
             "eapCount": 6
           },
           {
-            "id": "C865AAE3-BDA8-4475-BA15-599BA968755D",
             "name": "Õppekava lõpetamine ja tulevikusihtide seadmine",
             "eapCount": 9
           },
           {
-            "id": "1E9432A7-EE22-4C87-8072-531485140135",
             "name": "Alustava ettevõtte nõustamine",
             "eapCount": 9
           },
           {
-            "id": "A085BEDA-BB7F-4590-A942-4DCE3BBAD31B",
             "name": "Counceling Internship",
             "eapCount": 2
           }
@@ -930,11 +776,9 @@
     "duration": 3,
     "requirements": [
       {
-        "id": "4791A253-629C-4761-8297-225D2ED05588",
         "term": "Inglise keele oskus vähemalt B2 tasemel"
       },
       {
-        "id": "87BC46DC-73AD-4168-BF43-A1E4E232D8E2",
         "term": "Vestlus"
       }
     ],
@@ -949,7 +793,6 @@
     "studyLocation": [
       "Tallinn"
     ],
-    "id": "8AF9667F-B25B-4A90-9412-0BE887705658",
     "description": [
       "Meie üheaastane MBA programm on Sulle kui Sul juba on mistahes erialal magistrikraad ja soovid oma juhtimisoskusi ja ettevõtlusalaseid teadmisi täiustada. Meie uuenduslik MBA programm arendab Sind juhiks, kes suudab olla kiiresti muutuvas keskkonnas püsiva kasvu algatajaks.",
       "Meie innovaatiline üheaastane MBA programm aitab Sul omandada magistrikraadi oma praegust karjääri katkestamata. Me aitame Sul kujundada võimalikult mugava õppekava, mis arvestab ühelt poolt Sinu võimalusi õppetöösse panustada ning teiselt poolt soovib täita Su ootused ja eesmärgid, arvestades Sinu isiklikku ja professionaalset arengut.",
@@ -970,77 +813,62 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "E1A40B8C-1C36-407B-A6AC-D21B5818DEBC",
         "name": "Semester I",
         "courses": [
           {
-            "id": "BE657FCF-BE6F-48A9-A245-A346496B12BE",
             "name": "Ettevõtte rahandus",
             "eapCount": 6
           },
           {
-            "id": "42FEBA4B-061E-4A5B-9B7B-8BD6B8D0053E",
             "name": "Finants- ja juhtimisarvestus",
             "eapCount": 6
           },
           {
-            "id": "00719AA4-4DF2-4FBF-95DC-59569425F2FE",
             "name": "Strateegiline juhtimine ja innovatsioon",
             "eapCount": 6
           },
           {
-            "id": "D53D6DB9-0A6C-4556-A8B7-A58B73CD2F6B",
             "name": "Inimeste juhtimine ja organisatsioonid",
             "eapCount": 6
           },
           {
-            "id": "CD279479-EA9B-4098-88EB-4FFEC843007A",
             "name": "Juhtimine je eetika",
             "eapCount": 3
           },
           {
-            "id": "DCF487B2-6807-4356-8593-B59C6D646B10",
             "name": "Turndus ja müük",
             "eapCount": 3
           },
           {
-            "id": "0B4CC25F-C778-4C3D-8E26-4C71F532AC66",
             "name": "Koondeksam I: Coaching",
             "eapCount": 4
           }
         ]
       },
       {
-        "id": "BD38CE11-40EE-4851-A36E-783C4C617E1A",
         "name": "Semester II",
         "courses": [
           {
-            "id": "229F778C-8F10-4154-8E53-1F97685E7BEC",
             "name": "Juhtimisökonoomika",
             "eapCount": 3
           },
           {
-            "id": "3B92EDEA-776C-4A76-8E1D-E0D3159C3FFB",
             "name": "Uued tehnoloogiad äris",
             "eapCount": 6
           },
           {
-            "id": "3396043E-302D-4A57-978A-3661E5C6429F",
             "name": "Operatsioonide ja projektijuhtimine",
             "eapCount": 6
           },
           {
-            "id": "F710C7E7-CB53-4079-8BBD-BFF0F3D88BEF",
             "name": "Koondeksam II: Juhtimismäng",
             "eapCount": 5
           },
           {
-            "id": "2707722A-C758-4458-898B-88326F06CAD9",
             "name": "Koondeksam III: Teoreetiline põhiõppe test",
             "eapCount": 3
           },
           {
-            "id": "BC1483D9-6981-4FB6-940D-B097674AE754",
             "name": "Koondeksam IV: Kaasusepõhine lõpueksam",
             "eapCount": 3
           }
@@ -1066,19 +894,15 @@
     "duration": 1,
     "requirements": [
       {
-        "id": "06AB0C1D-C574-4AF0-B57C-551F778DFA18",
         "term": "Magistrikraadi või 240 EAP-d bakalaureusekraadi ärijuhtimisega mitteseotud erialal"
       },
       {
-        "id": "D7925FDD-AA58-496D-8DA7-F6EDF1FB2DE7",
         "term": "Inglise keele oskus vähemalt B12 tasemel"
       },
       {
-        "id": "AD747EF7-6A5D-4C5A-AF06-C925B96E6C50",
         "term": "Vestlus"
       },
       {
-        "id": "B7354E18-435E-4E4E-97C4-2AAA654D1A34",
         "term": "3 aastane juhimise kogemus"
       }
     ],
@@ -1093,7 +917,6 @@
     "studyLocation": [
       "Tallinn"
     ],
-    "id": "5FC65CE2-7AB1-44D5-B156-92BA461F249E",
     "description": [
       "EBSi 2-aastane MBA programm on mõeldud juhtidele, kes soovivad end üha kiiremini muutuvas ja arenevas keskkonnas pidevalt täiendada. Meie õpetamise põhimõtted ja fookusalad võimaldavad Sulle erakordsel tasemel väljaõpet pidevas koostöös oma ala parimate lektorite ja juhtimistreeneritega.",
       "• Omandad tugevad alused ettevõtluse põhivaldkondades",
@@ -1111,83 +934,67 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "D9872D4D-A37C-491C-AADC-7CEFADAD2516",
         "name": "Semester I",
         "courses": [
           {
-            "id": "43B1B07B-46E6-4E4D-86E0-C54A4814FB6D",
             "name": "Ettevõtte rahandus",
             "eapCount": 6
           },
           {
-            "id": "40669FDD-2F28-4289-A85D-60BAB9C5324C",
             "name": "Finants- ja juhtimisarvestus",
             "eapCount": 6
           },
           {
-            "id": "339E8D82-DEFA-4F5B-8691-49753A2DC616",
             "name": "Strateegiline juhtimine ja innovatsioon",
             "eapCount": 6
           },
           {
-            "id": "ECB530A4-C31F-4BF7-83C1-4BBB953CBE5F",
             "name": "Inimeste juhtimine ja organisatsioonid",
             "eapCount": 6
           },
           {
-            "id": "4D6D7708-9367-4E19-805D-A4FF7FE1C6A6",
             "name": "Juhtimine je eetika",
             "eapCount": 3
           },
           {
-            "id": "A2CDA432-E7E8-4917-879C-08D03951BA5E",
             "name": "Turndus ja müük",
             "eapCount": 3
           },
           {
-            "id": "EDD67A08-123E-44F4-B757-340BAA5CB831",
             "name": "Koondeksam I: Coaching",
             "eapCount": 4
           }
         ]
       },
       {
-        "id": "17C2467A-C0DF-4C87-A141-8AE3553AAA3E",
         "name": "Semester II",
         "courses": [
           {
-            "id": "7D565C1E-629C-4AD8-973E-F362415E1A1C",
             "name": "Juhtimisökonoomika",
             "eapCount": 3
           },
           {
-            "id": "B2299126-3502-4F35-AA68-688AFCFC7179",
             "name": "Uued tehnoloogiad äris",
             "eapCount": 6
           },
           {
-            "id": "FC33E56C-CB0D-4E90-94C6-D84EA3D33F6A",
             "name": "Operatsioonide ja projektijuhtimine",
             "eapCount": 6
           }
         ]
       },
       {
-        "id": "879A239F-0896-4599-9E96-0B7D298CE3A1",
         "name": "Semester III",
         "courses": [
           {
-            "id": "2A751278-B344-4B82-8575-35771EC4E148",
             "name": "Koondeksam II: Juhtimismäng",
             "eapCount": 5
           },
           {
-            "id": "E4DFE29F-2E72-4D70-8F75-C04C0B2D2783",
             "name": "Koondeksam III: Teoreetiline põhiõppe test",
             "eapCount": 3
           },
           {
-            "id": "784FC2FB-1116-441E-991C-F0B5BF619A31",
             "name": "Koondeksam IV: Kaasusepõhine lõpueksam",
             "eapCount": 3
           }
@@ -1213,15 +1020,12 @@
     "duration": 2,
     "requirements": [
       {
-        "id": "BDE63A90-EEC6-4DC6-97D1-B3F9BEF58F04",
         "term": "Bakalauruese krrad"
       },
       {
-        "id": "CD4E49C1-E531-46DC-9D0E-882FC860172B",
         "term": "CV"
       },
       {
-        "id": "ADD4A31F-4FC0-4C41-AA00-A576B6F51AC4",
         "term": "Inglise keele oskus vähemalt B2 tasemel"
       }
     ],
@@ -1237,7 +1041,6 @@
       "Tallinn",
       "Helsingi"
     ],
-    "id": "37EF483C-A2F5-480C-AB3E-1D568509437E",
     "description": [
       "Globaliseerumine ja kultuuridevahelised konfliktid, digirevolutsioon ja asendustöö ning väärtuse loomise uued paradigmad on väljakutsed, millega seisame silmitsi praegu ja edaspidi. Meie magistriõppekavad on mõeldud juhtidele tulevikus tekkivate probleemide tundmaõppimiseks, mõistmiseks ja lahendamiseks ning isiklike ja erialaste oskuste arendamiseks järgmise karjäärihüppe jaoks.",
       "Rahvusvahelise ärijuhtimise magistriprogramm annab Sulle ainulaadse võimaluse kombineerida üldised ettevõtlus-ja ärivaldkonna teadmised valitud spetsialiseerumisvaldkonna pädevustega (rahandus ja majandusarvestus, turundus ning juhtimine ja eestvedamine). Usume, et kõigi ettevõtluse ja ärikorralduse funktsioonide aluste tundmine annab Sulle parema ettevalmistuse asuda tööle juhi või tippspetsialistina. Selle programmi lõpetajana oled oma valdkonna ekspert kuid samas ka võimeline panustama strateegiliste teemade arutellu organisatsioonis laiemalt.",
@@ -1250,25 +1053,20 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "EA79E33C-371C-47AF-AF00-493991EF69DE",
         "courses": [
           {
-            "id": "B0F31918-55CF-4CD1-ADCA-0FA302F5605B",
             "name": "Globaalne majandus ja poliitika",
             "eapCount": 6
           },
           {
-            "id": "78C47D4A-3744-4937-80BA-6A34BE3FA8A7",
             "name": "Juhtimisotsuste tegemine ja finantsid",
             "eapCount": 6
           },
           {
-            "id": "356F3A68-6BF8-4452-856E-5953CC6BB60A",
             "name": "Coaching",
             "eapCount": 3
           },
           {
-            "id": "7241BDC0-0C22-48DA-B215-1917E2E9A4EE",
             "name": "Strateegiline juhtimine",
             "eapCount": 3
           }
@@ -1276,62 +1074,50 @@
         "name": "Semester I",
         "submodules": [
           {
-            "id": "B2C39C99-7DFB-44E4-8F3B-AA7E783DA582",
             "name": "Valikmoodul: Digitaalne turundus Google lahendustega",
             "courses": [
               {
-                "id": "AC7EEAAE-BE81-4673-AA8B-E2FDED9E5176",
                 "name": "Sissejuhatus digiturundusse, trendid & Google tööriistad ja tooted",
                 "eapCount": 3
               },
               {
-                "id": "91CA5CFE-423C-4981-BE7C-D51ADAC0A909",
                 "name": "Otsingumootoriturundus",
                 "eapCount": 3
               },
               {
-                "id": "8B38D5F8-A3F0-4037-8A47-F107E69CB9D0",
                 "name": "Digitaalse turunduse mõõtmine ja aruandlus",
                 "eapCount": 3
               },
               {
-                "id": "BE3FAD64-0672-4508-B7F3-CDCE93427C88",
                 "name": "Bänner- ja videoreklaami turundus. Mobiil & äpid",
                 "eapCount": 3
               },
               {
-                "id": "F8A68656-FD1F-4B22-9F08-B2BEF70CFDA4",
                 "name": "Digitaalse turnuduse strateegia",
                 "eapCount": 3
               }
             ]
           },
           {
-            "id": "149D8E9B-16E4-45D9-A6BA-75AF3680A5A3",
             "name": "Valikmoodul: Data-Driven Sustainability in Business with Focus on Finance",
             "courses": [
               {
-                "id": "70A94BF8-42B2-4ED9-B8D4-37EB131DB374",
                 "name": "Estonian Private Equity & Venture Capital",
                 "eapCount": 3
               },
               {
-                "id": "74539CD1-A4A3-4D27-BF80-6AA1EFF7556F",
                 "name": "Sustainable and Circular Business Models",
                 "eapCount": 3
               },
               {
-                "id": "219131D2-C286-4171-9EE7-666AECA81687",
                 "name": "Introduction into Green Finance",
                 "eapCount": 3
               },
               {
-                "id": "466556DA-E961-49A3-8AD3-AB6F2232D8C5",
                 "name": "Enablers and Barriers to Sustainable and Circular Business Transition",
                 "eapCount": 3
               },
               {
-                "id": "03749466-61B6-43FE-A564-48FE2DDA17A4",
                 "name": "Artificial Intelligence in Energy and Environmental Applications",
                 "eapCount": 3
               }
@@ -1340,129 +1126,104 @@
         ]
       },
       {
-        "id": "C6678CFF-E04F-4F5C-9406-21E893E3CFA1",
         "name": "Semester II",
         "courses": [
           {
-            "id": "45BE7BE7-A72C-4EF9-B804-DE2A1DBC4B6B",
             "name": "Uurimistöö disain",
             "eapCount": 3
           },
           {
-            "id": "E3A8EF69-87B7-4F5B-9F1B-C20A83E70644",
             "name": "Akadeemiline kirjutamine",
             "eapCount": 3
           },
           {
-            "id": "CFF837F5-9F43-46AB-90E8-090D812D0D65",
             "name": "Kvalitatiivsed ja kvantitatiivsed andmeanalüüsi meetodid",
             "eapCount": 6
           }
         ]
       },
       {
-        "id": "C7B4FBCF-BDD4-477E-8B26-F5E2D99EAD21",
         "name": "Semester III",
         "courses": [
           {
-            "id": "E8108857-772D-4EAD-822C-8EF0C2A8F4E1",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "82486470-E58D-4E26-ACF0-42831411CFDC",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "821A2D81-879C-40D7-AC10-725384067C78",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "4E575F7A-A25D-4C56-92DD-82A1000B393B",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "3B26B23E-4368-4DD2-AC0E-605FB2A99485",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "F8B1D2C5-16C7-433A-9A12-6FF63F702DDE",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "3F74F150-DE86-4F84-8E4E-7DD2C940278F",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "0B448A72-37C6-43EF-9A07-448CD835DEFC",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "669A81A0-2AFD-4EB9-9953-DCCB716FE5C1",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "2527A776-20AC-404C-B848-752EB3067676",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "2EAD261F-25CE-427C-AF74-5AB047E74E79",
             "name": "Vabaaine",
             "eapCount": 3
           },
           {
-            "id": "6895996A-9CBC-41B9-AAE1-3C577A1222B3",
             "name": "Vabaaine",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "B9425E93-1314-4A3A-A178-CD51E0496B41",
         "name": "Semester IV",
         "courses": [
           {
-            "id": "4394DE77-3989-4E14-AA31-135E09A964E7",
             "name": "Magistritöö",
             "eapCount": 15
           }
         ]
       },
       {
-        "id": "3605C484-0C35-4BC4-825B-4EA8F2BC3250",
         "name": "Valikmoodul: Eestvedamine digiajastul",
         "courses": [
           {
-            "id": "3C6410F6-3D2E-441E-8DC7-AB762AC385C3",
             "name": "Eestvedamise ja juhtimise kontseptsioonid",
             "eapCount": 3
           },
           {
-            "id": "87CB4CF6-397B-4F47-A7C5-66093B6A02A7",
             "name": "Loov ja mänguline juhtimine",
             "eapCount": 3
           },
           {
-            "id": "F62B4882-012A-4BF3-821F-03DE4846643C",
             "name": "Mõjuv suhtumine ja esitlemine",
             "eapCount": 3
           },
           {
-            "id": "F7CCFAD4-A67B-4FA9-954B-BC1C1593DF8D",
             "name": "Mitmekülgsete ja globaalsete meeskondade juhtimine",
             "eapCount": 3
           },
           {
-            "id": "68EC6210-204D-43C0-95A4-7603E8FC26EF",
             "name": "Mooduli projekt",
             "eapCount": 3
           }
@@ -1483,15 +1244,12 @@
     "duration": 2,
     "requirements": [
       {
-        "id": "12F3E9BB-9A83-4E8A-803A-749CE8745802",
         "term": "Eelnev majandus-, äri- või juhtimisalane bakalaureusekraad, rakenduskõrgharidus, diplomiõppe diplom või kutsekõrgharidus."
       },
       {
-        "id": "5E294DD8-8972-40CC-AF28-F9D604470EE9",
         "term": "Vestlus"
       },
       {
-        "id": "830A5823-F12E-4197-B111-D0C113FCF66E",
         "term": "Inglise keele test"
       }
     ],
@@ -1506,7 +1264,6 @@
     "studyLocation": [
       "Tallinn"
     ],
-    "id": "3D343654-B9AC-4AAA-A98B-A2DDB256EDDE",
     "description": [
       "EBS doctoral programme in Management aims to broaden our understanding of the world by giving deep knowledge of organisational theories and society while developing critical and analytical thinking and research skills. Upon the successful competition of the programme, one has developed the ability to make continuous and logical arguments and synthesise new ideas. PhD degree in Management offers challenges and career opportunities in the academia as well as raises one’s value on the labour market.",
       "EBS PhD programme that focuses on the research of business, public and civil society organisations is the only doctoral programme in Management in Estonia and offers a comprehensive perspective on management and organisation studies. The programme is taught in English and has an international student body. On-going development activities and quality assurance of the programme is managed by the EBS Research and Development Council.",
@@ -1520,252 +1277,203 @@
     "type": "sotsiaalteadused",
     "modules": [
       {
-        "id": "63DA2455-4F13-4302-A2B3-10D95DBA7949",
         "name": "Semester I",
         "courses": [
           {
-            "id": "5D771693-238F-4705-AD5D-43A9A3879AC8",
             "name": "Doktoriseminar I",
             "eapCount": 1.5
           },
           {
-            "id": "40920ADB-F877-4EAB-A358-FA82D711317B",
             "name": "Juhtimisteooriad",
             "eapCount": 3
           },
           {
-            "id": "B32386E1-2120-4ADB-952C-ABACC89A69BF",
             "name": "Teadusuuringu kavandamine",
             "eapCount": 3
           },
           {
-            "id": "74C86256-9D18-4448-8D1B-91A50CFC574A",
             "name": "Teadusfilosoofia ja teadustöö metodoloogia",
             "eapCount": 3
           },
           {
-            "id": "7BA795B1-F8F2-4332-9EF3-A41D902A12A1",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "07E7FAED-780C-4228-8012-D1FF8A99EA4A",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "491EDA3A-6A63-4A2C-AC62-CF0117449486",
             "name": "Teadustöö strateegias ja innovatsioonis*",
             "eapCount": 3
           },
           {
-            "id": "521B2062-BA00-4025-BDA4-877334381507",
             "name": "Eetika ja vastutustundlikkus juhtimises*",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "5C54E967-51CD-48D9-A290-3AD211D2ABCE",
         "name": "Semester II",
         "courses": [
           {
-            "id": "E6195766-06B6-409A-8198-98DF3EAD48DF",
             "name": "Doktoriseminar II",
             "eapCount": 1.5
           },
           {
-            "id": "39DC59F9-8B23-47C9-A84C-97E1AA5297A7",
             "name": "Institutsiooniökonoomika",
             "eapCount": 6
           },
           {
-            "id": "9EA9F6A3-C0BD-420B-9CD4-CA7A4371AFCD",
             "name": "Kvalitatiivsed uurimismeetodid",
             "eapCount": 3
           },
           {
-            "id": "3FE1F211-FFC9-47E8-B550-83B4531E2AAD",
             "name": "Kvantitatiivsed uurimismeetodid",
             "eapCount": 3
           },
           {
-            "id": "A42D7B7C-5A78-4E2D-B0CD-638F63697371",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "0AC93966-5F53-4A15-957D-2A99CBBCA34F",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "9B6EE1BD-CB74-4A17-84A4-A026EC40F928",
             "name": "Research Design with Idea Puzzle*",
             "eapCount": 3
           }
         ]
       },
       {
-        "id": "566E56BD-55F3-4435-9158-D5A654EA9826",
         "name": "Semester III",
         "courses": [
           {
-            "id": "E1ED8216-E3E2-47E6-9C2F-02FFB207302D",
             "name": "Doktoriseminar III",
             "eapCount": 1.5
           },
           {
-            "id": "43213E92-A380-4D41-8231-69240098C8D4",
             "name": "Organisatsiooniteooriad: traditsiooniliste teooriate meta-teoreetiline vaade ning alternatiivsed lähenemised",
             "eapCount": 6
           },
           {
-            "id": "BA0097CF-AD9C-41EB-B585-A79298BF64B0",
             "name": "Õppimise olemus ja alused",
             "eapCount": 3
           },
           {
-            "id": "6884C82C-2CFF-4058-A11E-B8D02D5214B8",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "DEB2355B-3D92-4ED3-A264-F03581CE9064",
             "name": "vabaaine",
             "eapCount": 1.5
           }
         ]
       },
       {
-        "id": "6F6AA686-88D4-496C-ABA3-A756C4B5B310",
         "name": "Semester IV",
         "courses": [
           {
-            "id": "F4B18419-6E2B-4B1B-BB55-E6ADD7A3163D",
             "name": "Doktoriseminar IV",
             "eapCount": 1.5
           },
           {
-            "id": "234F6BBF-28FC-4D79-A533-4847C7514718",
             "name": "Kõrgkoolipedagoogika ja õpetamise planeerimine",
             "eapCount": 3
           },
           {
-            "id": "F2B88234-0D7C-4E46-9FDB-12EA31F852F0",
             "name": "Sotsiaalteaduse kaasaegsed paradigmad",
             "eapCount": 3
           },
           {
-            "id": "F6C214CD-D662-4801-9B89-DDA4586FF6D5",
             "name": "Vabaaine",
             "eapCount": 1.5
           },
           {
-            "id": "C3156362-967F-40A4-90F8-9610CC661ED0",
             "name": "Vabaaine",
             "eapCount": 1.5
           }
         ]
       },
       {
-        "id": "9B3EC2D0-64B1-464D-93F3-3A5B9749CBE5",
         "name": "Semester V",
         "courses": [
           {
-            "id": "C29B38A1-7AF4-4C41-86F7-FEB86756E9B5",
             "name": "Doktoriseminar V",
             "eapCount": 1.5
           }
         ]
       },
       {
-        "id": "3BD8C230-ACEE-4E75-BF41-C9D6C12DE073",
         "name": "Semester VI",
         "courses": [
           {
-            "id": "D0BC20BD-7B6B-45F8-B3FA-3886ED234D30",
             "name": "Doktoriseminar VI",
             "eapCount": 1.5
           }
         ]
       },
       {
-        "id": "CD3CFA88-1DC7-4101-8245-0D8085D142E2",
         "name": "Määratlemata semester",
         "courses": [
           {
-            "id": "00D06CEF-684B-4205-8E87-69F6DE85F22A",
             "name": "Tasuvusanalüüs*",
             "eapCount": 3
           },
           {
-            "id": "86B43B1B-81BD-4820-821D-1D5A5250EEE5",
             "name": "Süsteemiteooria*",
             "eapCount": 3
           },
           {
-            "id": "458EE79D-307D-4E7D-B33B-022E8206BB11",
             "name": "Loogika*",
             "eapCount": 3
           },
           {
-            "id": "4D2C393B-418B-43E9-BE83-BF08235192E8",
             "name": "Mitmekriteeriumilised otsuste tegemise meetodid*",
             "eapCount": 3
           },
           {
-            "id": "881B9AC5-946A-41EB-A07B-B165D7835565",
             "name": "Teadmusjuhtimine ja intellektuaalne kapital*",
             "eapCount": 3
           },
           {
-            "id": "D0743948-27AB-458F-86EC-B528EC0E8BAF",
             "name": "Organisatsiooniliste muudatuste juhtimisteooriad*",
             "eapCount": 3
           },
           {
-            "id": "C1A282D3-6477-4E37-A99D-7E880F3B85D8",
             "name": "Häguskogumimeetodil tuginev võrdlev analüüs*",
             "eapCount": 3
           },
           {
-            "id": "117AF184-9E96-4C7E-AA66-277B02D946EE",
             "name": "Struktuurivõrrandite mudelid*",
             "eapCount": 3
           },
           {
-            "id": "450CA0F7-69BF-420A-B0FB-CFB0B94F0CE7",
             "name": "Kultuuripsühholoogia*",
             "eapCount": 3
           },
           {
-            "id": "4B37AA67-1FD8-4E59-879D-75C5D2424069",
             "name": "Doktoriväitekiri",
             "eapCount": 180
           },
           {
-            "id": "E35F2B5A-7733-4D86-A53B-208130C337A8",
             "name": "Erikursus erialakirjanduse baasil",
             "eapCount": 1.5
           },
           {
-            "id": "09D75D6D-070B-499A-ADC9-31BAEDF90E5C",
             "name": "Erikursus erialakirjanduse baasil",
             "eapCount": 3
           },
           {
-            "id": "542AF5D7-C859-44E5-822C-16F5918627E8",
             "name": "Erikursus erialakirjanduse baasil",
             "eapCount": 4.5
           },
           {
-            "id": "D0EF7DB3-E760-4AC2-A16D-AC84AC8B7A6D",
             "name": "Erikursus erialakirjanduse baasil",
             "eapCount": 6
           },
           {
-            "id": "5C711468-6A59-418B-8D56-5FD5B64E1B71",
             "name": "Pedagoogiline praktika",
             "eapCount": 3
           }
@@ -1791,19 +1499,15 @@
     "duration": 4,
     "requirements": [
       {
-        "id": "E4442ADA-4E97-4BF5-98EE-F68C615CCF34",
         "term": "CV"
       },
       {
-        "id": "2EBF28DA-07EF-4927-B7D2-48E24A140D98",
         "term": "Magistrikraad"
       },
       {
-        "id": "DADC9916-FEBE-4DBF-B17E-1B490E7C56C6",
         "term": "Doktoritöö kavand"
       },
       {
-        "id": "490BCD96-28AE-43EA-98D3-31D9E4DE12A8",
         "term": "Motivatsioonikiri"
       }
     ],

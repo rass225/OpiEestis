@@ -6,25 +6,32 @@ extension CollegeMajorView {
     class Model: ObservableObject {
         @Published var major: majorsMinors
         @Published var tabPool: [Tabs]
-        @Published var tabSelection: Tabs = .outcomes
-        @Published var isFavorite: Bool = false
-        @Published var mapLocations: [MapLocation] = []
-        @Published var viewState: ViewState = .loading
+        @Published var tabSelection: Tabs
+        @Published var isFavorite: Bool
+        @Published var mapLocations: [MapLocation]
+        @Published var viewState: ViewState
         @Published var karlerror: String = ""
+        
         let college: College
+        
         private let majorInternal: majorsMinors
-        private let userDefaultsManager = UserDefaultsManager()
         private var cancellables = Set<AnyCancellable>()
+        private let dependencies: DependencyManager
         
         init(
             major: majorsMinors,
             college: College,
-            tabSelection: Tabs = .overview
+            tabSelection: Tabs = .overview,
+            dependencies: DependencyManager = .shared
         ) {
             self.major = major
             self.majorInternal = major
             self.college = college
             self.tabSelection = tabSelection
+            self.isFavorite = false
+            self.mapLocations = []
+            self.viewState = .loading
+            self.dependencies = dependencies
             
             var tabs: [Tabs] = []
             tabs.append(.overview)
@@ -37,12 +44,8 @@ extension CollegeMajorView {
             
             self.tabPool = tabs
             
-            NotificationCenter.default.publisher(for: UserDefaults.didChangeNotification)
-                .sink { [weak self] _ in
-                    self?.updateIsFavorite()
-                }
-                .store(in: &cancellables)
             
+            observeUserDefaults()
             updateIsFavorite()
             Task {
                 await withTaskGroup(of: Void.self) { group in
@@ -78,11 +81,11 @@ extension CollegeMajorView.Model {
     }
 
     func addFavorite() {
-        userDefaultsManager.addFavorite(university: college, major: majorInternal)
+        dependencies.userDefaults.addFavorite(university: college, major: majorInternal)
     }
                                         
     func removeFavorite() {
-        userDefaultsManager.removeFavorite(university: college, major: majorInternal)
+        dependencies.userDefaults.removeFavorite(university: college, major: majorInternal)
     }
     
     func loadSnapshots() {
@@ -101,7 +104,7 @@ extension CollegeMajorView.Model {
 
 // MARK: - Private Methods
 
-extension CollegeMajorView.Model {
+private extension CollegeMajorView.Model {
     func fetchCurriculum2() async {
         if let models = major.modules, !models.isEmpty {
             DispatchQueue.main.async {
@@ -145,7 +148,6 @@ extension CollegeMajorView.Model {
             print("Error fetching curriculum: \(error)")
             self.karlerror = "Error fetching curriculum: \(error)"
         }
-
     }
     
     func processCurriculumData(_ data: Data) {
@@ -158,13 +160,18 @@ extension CollegeMajorView.Model {
                 if let primaryLanguage = decodedResponse.studyLanguages.first, let language =  Language(from: primaryLanguage) {
                     self.major.language = language
                 }
-                self.major.outcomes = [decodedResponse.outcomesEt]
+                if let isEnglishOnly = self.major.isEnglishOnly, isEnglishOnly == true, let outcomesEn = decodedResponse.outcomesEn {
+                    self.major.outcomes = [outcomesEn]
+                } else {
+                    self.major.outcomes = [decodedResponse.outcomesEt]
+                }
+                
                 if !self.tabPool.contains(.outcomes) {
                     self.tabPool.append(.outcomes)
                 }
                 let nonNilVersions = decodedResponse.versions.filter({ $0.admissionYear != nil })
                 if let latestVersion = nonNilVersions.max(by: { $0.admissionYear! < $1.admissionYear! }) {
-                    let modules = latestVersion.convertCurriculumModulesToModules()
+                    let modules = latestVersion.convertCurriculumModulesToModules(isEnglishOnly: self.major.isEnglishOnly ?? false)
                     if modules.isEmpty {
                         self.major.modules = latestVersion.convertCurriculumOccupationalModulesToModules()
                     } else {
@@ -178,65 +185,14 @@ extension CollegeMajorView.Model {
                 }
             }
         } catch {
-            self.karlerror = "Decoding error: \(error)"
-            print("Decoding error: \(error)")
-            viewState = .success
-        }
-    }
-    
-    func fetchCurriculum() {
-        if let models = major.modules, !models.isEmpty {
-            tabPool.append(.modules)
-        }
-        if let outcomes = major.outcomes, !outcomes.isEmpty {
-            tabPool.append(.outcomes)
-        }
-        guard let urlString = major.curriculumRef else {
-            print("ModuleRef not present")
-            return
-        }
-        guard let url = URL(string: urlString) else {
-            print("Invalid URL.")
-            return
-        }
-        
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            if let data = data {
-                do {
-                    let decodedResponse = try JSONDecoder().decode(Curriculum.self, from: data)
-                    DispatchQueue.main.async {
-                        self.major.eap = Int(decodedResponse.credits)
-                        if let primaryLanguage = decodedResponse.studyLanguages.first, let language = Language(from: primaryLanguage) {
-                            self.major.language = language
-                        }
-                        self.major.outcomes = [decodedResponse.outcomesEt]
-                        if !self.tabPool.contains(.outcomes) {
-                            self.tabPool.append(.outcomes)
-                        }
-                        let nonNilVersions = decodedResponse.versions.filter({ $0.admissionYear != nil })
-                        if let latestVersion = nonNilVersions.max(by: { $0.admissionYear! < $1.admissionYear! }) {
-                            let modules = latestVersion.convertCurriculumModulesToModules()
-                            if modules.isEmpty {
-                                self.major.modules = latestVersion.convertCurriculumOccupationalModulesToModules()
-                            } else {
-                                self.major.modules = modules
-                            }
-                            
-                            if !self.tabPool.contains(.modules) {
-                                self.tabPool.append(.modules)
-                            }
-                        }
-                    }
-                } catch {
-                    print("Decoding error: \(error)")
-                }
-            } else if let error = error {
-                print("Error fetching posts: \(error)")
+            DispatchQueue.main.async {
+                self.karlerror = "Decoding error: \(error)"
+                print("Decoding error: \(error)")
+                self.viewState = .success
             }
         }
-        task.resume()
     }
-    
+
     func loadSnapshot(location: CollegeLocation) {
         let options = MKMapSnapshotter.Options()
 
@@ -285,7 +241,15 @@ extension CollegeMajorView.Model {
     }
     
     func updateIsFavorite() {
-        isFavorite = userDefaultsManager.isFavorite(university: college, major: majorInternal)
+        isFavorite = dependencies.userDefaults.isFavorite(university: college, major: majorInternal)
+    }
+    
+    func observeUserDefaults() {
+        NotificationCenter.default.publisher(for: UserDefaults.didChangeNotification)
+            .sink { [weak self] _ in
+                self?.updateIsFavorite()
+            }
+            .store(in: &cancellables)
     }
 }
 
@@ -318,7 +282,7 @@ extension CollegeMajorView.Model {
     
     struct Curriculum: Codable {
         var outcomesEt: String
-        let outcomesEn: String?
+        var outcomesEn: String?
         let credits: Double
         let studyLanguages: [String]
         let versions: [CurriculumVersion]
@@ -334,6 +298,9 @@ extension CollegeMajorView.Model {
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
             self.outcomesEt = try container.decode(String.self, forKey: .outcomesEt)
+            outcomesEt = outcomesEt.replacingOccurrences(of: "\n•\t", with: "\n\n**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: "\r\n-\t", with: "\n\n**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: "-\t", with: "**•** ")
             outcomesEt = outcomesEt.replacingOccurrences(of: "\n\n1) ", with: "\n\n**•** ")
             outcomesEt = outcomesEt.replacingOccurrences(of: "\r\n-", with: "\n\n**•**")
             outcomesEt = outcomesEt.replacingOccurrences(of: "\r\n• ", with: "\n\n**•** ")
@@ -380,6 +347,15 @@ extension CollegeMajorView.Model {
             outcomesEt = outcomesEt.replacingOccurrences(of: "\n7.", with: "\n\n**•** ")
             
             self.outcomesEn = try container.decodeIfPresent(String.self, forKey: .outcomesEn)
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n1) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n2) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n3) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n4) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n5) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n6) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n7) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n8) ", with: "\n\n**•** ")
+            outcomesEn = outcomesEn?.replacingOccurrences(of: "\n9) ", with: "\n\n**•** ")
             self.credits = try container.decode(Double.self, forKey: .credits)
             self.studyLanguages = try container.decode([String].self, forKey: .studyLanguages)
             self.versions = try container.decode([CurriculumVersion].self, forKey: .versions)
@@ -391,19 +367,32 @@ extension CollegeMajorView.Model {
         let modules: [CurriculumModule]
         let occupationModules: [CurriculumOccupationalModule]
         
-        func convertCurriculumModulesToModules() -> [Module] {
+        func convertCurriculumModulesToModules(isEnglishOnly: Bool) -> [Module] {
             var newModules: [Module] = []
             modules.forEach { module in
-                var newCourses: [Course] = []
-                module.subjects.forEach { courses in
-                    let course: Course = .init(
-                        name: courses.subject.nameEt,
-                        eapCount: courses.subject.credits
-                    )
-                    newCourses.append(course)
+                if isEnglishOnly {
+                    var newCourses: [Course] = []
+                    module.subjects.forEach { courses in
+                        let course: Course = .init(
+                            name: courses.subject.nameEn,
+                            eapCount: courses.subject.credits
+                        )
+                        newCourses.append(course)
+                    }
+                    let module: Module = .init(name: module.nameEn, courses: newCourses)
+                    newModules.append(module)
+                } else {
+                    var newCourses: [Course] = []
+                    module.subjects.forEach { courses in
+                        let course: Course = .init(
+                            name: courses.subject.nameEt,
+                            eapCount: courses.subject.credits
+                        )
+                        newCourses.append(course)
+                    }
+                    let module: Module = .init(name: module.nameEt, courses: newCourses)
+                    newModules.append(module)
                 }
-                let module: Module = .init(name: module.nameEt, courses: newCourses)
-                newModules.append(module)
             }
             
             return newModules
@@ -446,6 +435,7 @@ extension CollegeMajorView.Model {
     
     struct CurriculumTheme: Codable {
         let nameEt: String
+        let nameEn: String?
         let credits: Double
     }
     

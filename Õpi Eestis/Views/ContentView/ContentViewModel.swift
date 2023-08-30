@@ -5,13 +5,13 @@ import SwiftUI
 extension ContentView {
     class Model: ObservableObject {
         private let dependencies: DependencyManager
-        @Published var schools: [College] = []
-        
+        @Published var schools: [College]
         
         init(
             dependencies: DependencyManager = .shared
         ) {
             self.dependencies = dependencies
+            self.schools = []
             fetchSchools()
         }
         

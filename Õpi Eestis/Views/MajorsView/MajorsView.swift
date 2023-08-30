@@ -9,7 +9,14 @@ struct MajorsView: View {
         List {
             Section(content: majorsContent, header: hiddenHeader)
         }
-        .searchable(text: $model.searchText)
+        .searchable(
+            text: $model.searchText,
+            placement: .navigationBarDrawer(displayMode: .automatic),
+            prompt: Text("Otsi eriala")
+        )
+        .onAppear {
+            UISearchBar.appearance().tintColor = UIColor(model.college.palette.base)
+        }
         .onAppear(perform: model.getFavorites)
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
@@ -48,27 +55,26 @@ private extension MajorsView {
     
     @ViewBuilder
     func levelsButtonLabel() -> some View {
-        HStack(spacing: 4) {
-            Text("Õppeaste")
-            Image.chevronDown
-                .fit()
-                .setFont(.footnote, .semibold, .rounded)
-        }
-//        .padding(.vertical, 6)
-//        .background(
-//            Capsule(style: .continuous)
-//                .fill(model.college.palette.base.opacity(0.15).gradient)
-//        )
-        .setFont(.body, .medium, .rounded)
-        .setColor(model.college.palette.base)
-        .padding(.trailing, 8)
+        Image(systemName: "slider.horizontal.3")
+            .setFont(.body, .bold, .rounded)
+            .setColor(model.college.palette.base.gradient)
+            .padding(.trailing, 4)
     }
     
     @ViewBuilder
     func levelsContent() -> some View {
-        Picker("", selection: $model.selectedLevel) {
-            ForEach(model.levels, id: \.self) { item in
-                Text(item.label)
+        Section {
+            Picker("", selection: $model.selectedLevel) {
+                ForEach(model.levels, id: \.self) { item in
+                    Text(item.label)
+                }
+            }
+        }
+        Section {
+            Picker("", selection: $model.detailLevel) {
+                ForEach(Model.DetailLevel.allCases, id: \.self) { level in
+                    Label(level.label, systemImage: level.icon)
+                }
             }
         }
     }
@@ -118,21 +124,34 @@ private extension MajorsView {
 extension MajorsView {
     @ViewBuilder
     func majorCell(_ major: majorsMinors) -> some View {
-        HStack {
+        HStack(alignment: .center) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
                     .setFont(.callout, .medium, .rounded)
                     .setColor(.black)
-                Text("\(major.level.rawValue.capitalized) \(major.language.symbol)")
-                    .setFont(.subheadline, .medium, .rounded)
-                    .setColor(model.college.palette.base)
-                
+                VStack(alignment: .leading, spacing: 24) {
+                    Text(major.level.rawValue.capitalized)
+                        .setFont(.subheadline, .medium, .rounded)
+                        .setColor(model.college.palette.base)
+                    if model.detailLevel == .detailed {
+                        HStack(spacing: 8) {
+                            Text("\(major.language.secondaryLabel)")
+                            Text("•")
+                            Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? "aasta" : "aastat")")
+                            Text("•")
+                            Text(major.cost.amount == 0 ? "Tasuta" : "€€€")
+                        }
+                        .setColor(.gray)
+                        .setFont(.footnote, .medium, .rounded)
+                    }
+                }
             }
             .padding(.vertical, 4)
             Spacer()
             if model.favorites.contains(major) {
                 Image(systemName: "heart.fill")
                     .setColor(model.college.palette.base.gradient)
+//                    .padding(.vertical, 6)
             }
         }
         .swipeActions {

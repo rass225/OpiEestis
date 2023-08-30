@@ -4,27 +4,34 @@ import MapKit
 
 extension CollegeView {
     class Model: ObservableObject {
+        @Published var isSmallImageShown: Bool
+        @Published var isMailOpen: Bool
+        @Published var mapSnapshot: UIImage
+        @Published var majors: [majorsMinors]
+        @Published var majorStats: [StatEntity]
+        @Published var mailResult: Result<MFMailComposeResult, Error>?
+        
+        private let dependencies: DependencyManager
+        
         let college: College
-        let dependencies: DependencyManager
-        let mockImages = ["TaTeKõpicture", "TaTKimage", "TTKimage"]
-        @Published var contactSheetIsOpen: Bool
-        @Published var foreignStudentsToggle: Bool = false
-        @Published var isSmallImageShown: Bool = false
-        @Published var mapSnapshot: UIImage = UIImage()
-        @Published var isMailOpen: Bool = false
-        @Published var majors: [majorsMinors] = []
-        @Published var majorStats: [StatEntity] = []
-        @Published var mailResult: Result<MFMailComposeResult, Error>? = nil
+        let mockImages: [String]
         
         init(
             college: College,
-            contactSheetIsOpen: Bool = false,
-            dependencies: DependencyManager = .shared
+            dependencies: DependencyManager = .shared,
+            isSmallImageShown: Bool = false,
+            mapSnapshot: UIImage = UIImage(),
+            isMailOpen: Bool = false
             
         ) {
+            self.isSmallImageShown = isSmallImageShown
+            self.isMailOpen = isMailOpen
+            self.mapSnapshot = mapSnapshot
+            self.majors = []
+            self.majorStats = []
             self.college = college
-            self.contactSheetIsOpen = contactSheetIsOpen
             self.dependencies = dependencies
+            self.mockImages = ["TaTeKõpicture", "TaTKimage", "TTKimage"]
         }
     }
 }
@@ -57,19 +64,17 @@ extension CollegeView.Model {
 }
 
 extension CollegeView.Model {
-    func loadSnapshot() {
+    func loadSnapshot() async {
         let options = MKMapSnapshotter.Options()
         options.region = MKCoordinateRegion(center: self.college.location.coordinates, latitudinalMeters: 3000, longitudinalMeters: 3000)
         options.size = CGSize(width: 400, height: 400)
         options.mapType = .standard
         
         let snapshotter = MKMapSnapshotter(options: options)
-        snapshotter.start { snapshot, error in
-            guard let snapshot = snapshot else {
-                print("Snapshot error: \(String(describing: error))")
-                return
-            }
-            
+
+        do {
+            let snapshot = try await snapshotter.startAsync()
+
             let image = snapshot.image
             let pin = Image("pin")
             let pinView = CollegeView.SnapshotPin(image: pin, color: self.college.palette.base)
@@ -95,10 +100,13 @@ extension CollegeView.Model {
             DispatchQueue.main.async {
                 self.mapSnapshot = finalImage
             }
+        } catch {
+            print("Snapshot error: \(error.localizedDescription)")
         }
     }
+
     
-    func loadJson(_ filename: String) -> [majorsMinors]? {
+    func loadJson(_ filename: String) async -> [majorsMinors]? {
         if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
@@ -114,11 +122,66 @@ extension CollegeView.Model {
         return nil
     }
     
-    func loadEducation() {
-        if let majors = loadJson(college.jsonString) {
-            self.majors = majors
-            self.majorStats = getLevelStats()
+    func loadEducation() async {
+        if let majors = await loadJson(college.jsonString) {
+            
+            DispatchQueue.main.async {
+                self.majors = majors
+                let levelStats = self.getLevelStats()
+                self.majorStats = levelStats
+            }
         }
+    }
+    
+    func getLevelStats() -> [StatEntity] {
+        var levels: [StatEntity] = []
+        
+        let counts = levelCount(majors: majors)
+        let percentages = percentace(levelCounts: counts, total: majors.count)
+        
+        let levelStats: [(levelchoice, Color, Int, CGFloat)] = [
+            (.bachelor, college.palette.bachelors, counts.bachelor, percentages.bachelor),
+            (.masters, college.palette.masters, counts.master, percentages.master),
+            (.doctor, college.palette.doctors, counts.doctor, percentages.doctor),
+            (.applied, college.palette.applied, counts.applied, percentages.applied),
+            (.kutseharidus, college.palette.vocational, counts.kutse, percentages.kutse)
+        ]
+        
+        var value: CGFloat = 0
+        for levelStat in levelStats {
+            let (level, color, count, percentage) = levelStat
+            if percentage > 0 {
+                value += percentage
+                levels.append(StatEntity(name: level, count: count, color: color, percentage: percentage, value: value))
+            }
+        }
+        
+        return levels
+    }
+    
+    func levelCount(majors: [majorsMinors]) -> LevelStats {
+        let counts = majors.reduce(into: LevelStats(bachelor: 0, master: 0, doctor: 0, applied: 0, kutse: 0)) { counts, major in
+            switch major.level {
+            case .bachelor: counts.bachelor += 1
+            case .masters, .integrated: counts.master += 1
+            case .doctor: counts.doctor += 1
+            case .applied: counts.applied += 1
+            case .kutseharidus: counts.kutse += 1
+            case .allLevels: break
+            }
+        }
+        return counts
+    }
+    
+    func percentace(levelCounts: LevelStats, total: Int) -> LevelPercents {
+        let totalCGF = CGFloat(total)
+        return LevelPercents(
+            bachelor: CGFloat(levelCounts.bachelor) * 100 / totalCGF,
+            master: CGFloat(levelCounts.master) * 100 / totalCGF,
+            doctor: CGFloat(levelCounts.doctor) * 100 / totalCGF,
+            applied: CGFloat(levelCounts.applied) * 100 / totalCGF,
+            kutse: CGFloat(levelCounts.kutse) * 100 / totalCGF
+        )
     }
 }
 
@@ -152,113 +215,20 @@ extension CollegeView.Model {
         var applied: CGFloat
         var kutse: CGFloat
     }
-    
-    func getLevelStats() -> [StatEntity] {
-        var levels: [StatEntity] = [StatEntity]()
-        let levelStats: LevelData
-        
-        let counts = levelCount(majors: majors)
-        let percentages = percentace(levelCounts: counts, total: majors.count)
-        
-        
-        levelStats = LevelData(
-            bachelor: StatEntity(
-                name: .bachelor,
-                count: counts.bachelor,
-                color: college.palette.bachelors,
-                percentage: percentages.bachelor,
-                value: 0
-            ),
-            master: StatEntity(
-                name: .masters,
-                count: counts.master,
-                color: college.palette.masters,
-                percentage: percentages.master,
-                value: 0
-            ),
-            doctor: StatEntity(
-                name: .doctor,
-                count: counts.doctor,
-                color:  college.palette.doctors,
-                percentage: percentages.doctor,
-                value: 0
-            ),
-            applied: StatEntity(
-                name: .applied,
-                count: counts.applied,
-                color:  college.palette.applied,
-                percentage: percentages.applied,
-                value: 0
-            ),
-            kutse: StatEntity(
-                name: .kutseharidus,
-                count: counts.kutse,
-                color: college.palette.vocational,
-                percentage: percentages.kutse,
-                value: 0
-            )
-        )
-        
-        if levelStats.applied.percentage > 0 {
-            levels.append(levelStats.applied)
+}
+
+extension MKMapSnapshotter {
+    func startAsync() async throws -> MKMapSnapshotter.Snapshot {
+        return try await withCheckedThrowingContinuation { continuation in
+            self.start { snapshot, error in
+                if let error = error {
+                    continuation.resume(throwing: error)
+                } else if let snapshot = snapshot {
+                    continuation.resume(returning: snapshot)
+                } else {
+                    continuation.resume(throwing: NSError(domain: "MKMapSnapshotterError", code: -1, userInfo: nil))
+                }
+            }
         }
-        if levelStats.kutse.percentage > 0 {
-            levels.append(levelStats.kutse)
-        }
-        if levelStats.bachelor.percentage > 0 {
-            levels.append(levelStats.bachelor)
-        }
-        if levelStats.master.percentage > 0 {
-            levels.append(levelStats.master)
-        }
-        if levelStats.doctor.percentage > 0 {
-            levels.append(levelStats.doctor)
-        }
-        
-        var value : CGFloat = 0
-        
-        for i in 0..<levels.count {
-            value += levels[i].percentage
-            levels[i].value = value
-        }
-        
-        return levels
-    }
-    func levelCount(majors: [majorsMinors]) -> LevelStats {
-        let bachelor = majors
-            .filter{$0.level == .bachelor }
-            .count
-        let master = majors
-            .filter{$0.level == .masters }
-            .count
-        let intergrated = majors
-            .filter{$0.level == .integrated }
-            .count
-        let doctor = majors
-            .filter{$0.level == .doctor }
-            .count
-        let kutse = majors
-            .filter{$0.level == .kutseharidus }
-            .count
-        let applied = majors
-            .filter{$0.level == .applied }
-            .count
-        
-        return LevelStats(
-            bachelor: bachelor,
-            master: master + intergrated,
-            doctor: doctor,
-            applied: applied,
-            kutse: kutse
-        )
-    }
-    
-    func percentace(levelCounts: LevelStats, total: Int) -> LevelPercents {
-        let bachelor: CGFloat = CGFloat(levelCounts.bachelor) * 100 / CGFloat(majors.count)
-        let master: CGFloat = CGFloat(levelCounts.master) * 100 / CGFloat(majors.count)
-        let doctor: CGFloat = CGFloat(levelCounts.doctor) * 100 / CGFloat(majors.count)
-        let applied: CGFloat = CGFloat(levelCounts.applied) * 100 / CGFloat(majors.count)
-        let kutse: CGFloat = CGFloat(levelCounts.kutse) * 100 / CGFloat(majors.count)
-        return LevelPercents(bachelor: bachelor, master: master, doctor: doctor, applied: applied, kutse: kutse)
     }
 }

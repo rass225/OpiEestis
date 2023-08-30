@@ -9,7 +9,7 @@ struct CollegeView: View {
     var body: some View {
         ScrollViewReader { scrollView in
             List {
-                Section(content: mainDataContent)
+                Section(content: mainDataContent, header: mainDataHeader)
                 Section(content: imageContent)
                 Section(content: majorsContent, header: majorsHeader)
                 Section(content: summaryContent, header: summaryHeader)
@@ -27,8 +27,10 @@ struct CollegeView: View {
             ToolbarItem(placement: .principal, content: smallIconView)
         }
         .onAppear {
-            model.loadSnapshot()
-            model.loadEducation()
+            Task {
+//                await model.loadSnapshot()
+                await model.loadEducation()
+            }
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Int.self) { _ in
@@ -89,59 +91,29 @@ private extension CollegeView {
     @ViewBuilder
     func mainDataContent() -> some View {
         VStack(spacing: 0) {
-            GeometryReader { geo in
-                Image(model.college.logoRef)
-                    .resizable()
-                    .fit()
-                    .maxWidth()
-                    .background(GeometryReader {
-                        Color.clear.preference(
-                            key: ViewOffsetKey.self,
-                            value: -$0.frame(in: .named("scroll")).origin.y
-                        )
-                    })
-            }
-            .frame(height: 80)
-            
-            Text(model.college.name)
-                .setFont(.title2, .semibold, .rounded)
-                .padding(.bottom, 8)
+            Text(model.college.name.capitalized)
+                .setFont(.title3, .semibold, .rounded)
+                .setColor(.black)
+                .textCase(.none)
                 .maxWidth()
-                .padding(.top, 8)
-            
-            HStack(spacing: 10) {
-                ForEach(model.college.links, id: \.self) { item in
-                    linkCell(link: item)
-                }
-            }
-            .listRowInsets(.zero)
-            .listRowBackground(Color.clear)
-            .padding(.vertical, 24)
-            
-            HStack(alignment: .center, spacing: 0) {
-                Spacer()
-                statisticCell(
-                    topLabel: String(model.college.students),
-                    bottomLabel: OEAppearance.Locale.students,
-                    image: .person2Fill
-                )
-                Spacer()
-                statisticCell(
-                    topLabel: String(model.majors.count),
-                    bottomLabel: OEAppearance.Locale.major,
-                    image: .mappinCircleFill
-                )
-                Spacer()
-                statisticCell(
-                    topLabel: String(model.college.branches.count),
-                    bottomLabel: OEAppearance.Locale.cities,
-                    image: .personFill
-                )
-                Spacer()
-            }.padding(.top, 8)
+                .padding(.top, 16)
+            linksContent()
+            statisticsContent()
         }
         .listRowInsets(.zero)
         .listRowBackground(Color.clear)
+    }
+    
+    @ViewBuilder
+    func linksContent() -> some View {
+        HStack(spacing: 10) {
+            ForEach(model.college.links, id: \.self) { item in
+                linkCell(link: item)
+            }
+        }
+        .listRowInsets(.zero)
+        .listRowBackground(Color.clear)
+        .padding(.top, 20)
     }
     
     @ViewBuilder
@@ -162,7 +134,7 @@ private extension CollegeView {
     
     @ViewBuilder
     func majorsContent() -> some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 16) {
             VStack(alignment: .leading, spacing: 12){
                 ForEach(model.majorStats, id: \.self) { item in
                     majorContentCell(item)
@@ -194,6 +166,7 @@ private extension CollegeView {
                 }
             }.frame(height: 13)
         }
+        .padding(.vertical, 4)
         .contentShape(Rectangle())
         .onTapGesture {
             pathManager.path.append(1)
@@ -246,12 +219,28 @@ private extension CollegeView {
         }
         .contentShape(Rectangle())
         .onTapGesture(perform: model.openMap)
-        Image(uiImage: model.mapSnapshot)
-            .resizable()
-            .fit()
-            .onTapGesture(perform: model.openMap)
-            .listRowInsets(.zero)
-            .listRowSeparator(.hidden)
+        Group {
+            Map(
+                coordinateRegion: .constant(model.college.location.region),
+                showsUserLocation: false,
+                userTrackingMode: .none,
+                annotationItems: [model.college.location]
+            ) { location in
+                MapAnnotation(coordinate: location.coordinates) {
+                    MarkerView(
+                        color: model.college.palette.base,
+                        logo: model.college.logoRef)
+                        .offset(x: 0, y: -45)
+                }
+//                MapMarker(coordinate: location.coordinates, tint: model.college.palette.base)
+            }
+            .disabled(true)
+            .frame(height: 400)
+        }
+        .contentShape(Rectangle())
+        .onTapGesture(perform: model.openMap)
+        .listRowInsets(.zero)
+        .listRowSeparator(.hidden)
     }
     
     @ViewBuilder
@@ -275,6 +264,32 @@ private extension CollegeView {
         }
         .listRowInsets(.zero)
         .listRowBackground(Color.clear)
+    }
+    
+    @ViewBuilder
+    func statisticsContent() -> some View {
+        HStack(alignment: .center, spacing: 0) {
+            Spacer()
+            statisticCell(
+                topLabel: String(model.college.students),
+                bottomLabel: OEAppearance.Locale.students,
+                image: .person2Fill
+            )
+            Spacer()
+            statisticCell(
+                topLabel: String(model.majors.count),
+                bottomLabel: OEAppearance.Locale.major,
+                image: .textBook
+            )
+            Spacer()
+            statisticCell(
+                topLabel: String(model.college.branches.count),
+                bottomLabel: OEAppearance.Locale.cities,
+                image: .mappinCircleFill
+            )
+            Spacer()
+        }
+        .padding(.top, 24)
     }
 }
 
@@ -352,6 +367,24 @@ private extension CollegeView {
             color: model.college.palette.base
         )
     }
+    
+    @ViewBuilder
+    func mainDataHeader() -> some View {
+        GeometryReader { geo in
+                Image(model.college.logoRef)
+                    .resizable()
+                    .fit()
+                    .maxWidth()
+                    .background(GeometryReader {
+                        Color.clear.preference(
+                            key: ViewOffsetKey.self,
+                            value: -$0.frame(in: .named("scroll")).origin.y
+                        )
+                    })
+        }
+        .frame(height: 100, alignment: .top)
+        .listRowInsets(.zero)
+    }
 }
 
 // MARK: - Cells
@@ -366,13 +399,13 @@ private extension CollegeView {
         HStack(alignment: .center, spacing: 5){
             image
                 .setColor(model.college.palette.base.gradient)
-                .font(.title2)
+                .font(.title3)
             VStack(alignment: .leading, spacing: 0){
                 Text(topLabel)
-                    .setFont(.body, .semibold, .rounded)
+                    .setFont(.subheadline, .semibold, .rounded)
                     .setColor(.black)
                 Text(bottomLabel)
-                    .setFont(.subheadline, .regular, .rounded)
+                    .setFont(.footnote, .regular, .rounded)
                     .setColor(.darkGray)
             }
         }
@@ -407,12 +440,12 @@ private extension CollegeView {
                 Circle()
                     .fill(item.color.gradient)
                     .frame(width: 13, height: 13, alignment: .center)
-                Text("\(item.count)")
-                    .setFont(.subheadline, .bold, .rounded)
-                    .frame(width: 25, alignment: .leading)
+                
                 Text(item.name.rawValue.capitalized)
                     .setFont(.subheadline, .regular, .rounded)
                     .frame(maxWidth: .infinity, alignment: .leading)
+                Text("\(item.count)")
+                    .setFont(.subheadline, .semibold, .rounded)
             }.setColor(.black)
         }
     }

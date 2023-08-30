@@ -48,16 +48,26 @@ struct FavoritesView: View {
     @ViewBuilder
     func majorCell(_ major: majorsMinors, schoolName: String) -> some View {
         if let college = model.colleges.first(where: { $0.name == schoolName}) {
-            HStack{
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(major.name)
-                        .setFont(.callout, .medium, .rounded)
-                        .setColor(.black)
-                    Text("\(major.level.rawValue.capitalized) \(major.language.symbol)")
+            VStack(alignment: .leading, spacing: 2) {
+                Text(major.name)
+                    .setFont(.callout, .medium, .rounded)
+                    .setColor(.black)
+                VStack(alignment: .leading, spacing: 24) {
+                    Text(major.level.rawValue.capitalized)
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(college.palette.base)
+                    HStack(spacing: 8) {
+                        Text("\(major.language.secondaryLabel)")
+                        Text("•")
+                        Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? "aasta" : "aastat")")
+                        Text("•")
+                        Text(major.cost.amount == 0 ? "Tasuta" : "€€€")
+                    }
+                    .setColor(.gray)
+                    .setFont(.footnote, .medium, .rounded)
                 }
             }
+            .padding(.vertical, 4)
             .swipeActions {
                 Button(role: .destructive) {
                     model.removeFavorite(major: major, college: college)

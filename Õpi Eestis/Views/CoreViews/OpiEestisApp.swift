@@ -19,6 +19,7 @@ struct OpiEestisApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(appState)
+                .statusBarHidden()
         }
     }
 }

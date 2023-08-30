@@ -19,6 +19,7 @@ struct majorsMinors: Hashable, Codable {
     var modules: [Module]?
     var personnel: [Personnel]?
     var curriculumRef: String?
+    var isEnglishOnly: Bool?
     
     enum CodingKeys: String, CodingKey {
         case name
@@ -38,6 +39,7 @@ struct majorsMinors: Hashable, Codable {
         case modules
         case personnel
         case curriculumRef
+        case isEnglishOnly
     }
     
     init(from decoder: Decoder) throws {
@@ -61,6 +63,7 @@ struct majorsMinors: Hashable, Codable {
         self.modules = try container.decodeIfPresent([Module].self, forKey: .modules)
         self.personnel = try container.decodeIfPresent([Personnel].self, forKey: .personnel)
         self.curriculumRef = try container.decodeIfPresent(String.self, forKey: .curriculumRef)
+        self.isEnglishOnly = try container.decodeIfPresent(Bool.self, forKey: .isEnglishOnly)
     }
     
     func toExtra() {
@@ -135,12 +138,16 @@ enum Language: String, Codable, CaseIterable {
     var label: String {
         switch self {
         case .estonian: return "Eesti keel"
-        case .english: return "Inglise Keel"
-        case .spanish: return "Hispaania kell"
+        case .english: return "Inglise keel"
+        case .spanish: return "Hispaania keel"
         case .french: return "Prantsuse keel"
         case .german: return "Saksa keel"
         case .russian: return "Vene keel"
         }
+    }
+    
+    var secondaryLabel: String {
+        return label + "es"
     }
     
     init?(from string: String) {
