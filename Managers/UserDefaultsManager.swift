@@ -3,7 +3,7 @@ import Foundation
 class UserDefaultsManager {
     private let favoritesKey = "userFavorites"
 
-    func addFavorite(university: College, major: majorsMinors) {
+    func addFavorite(university: College, major: Major) {
         var favorites = getAllFavorites()
         
         var universityFavorites = favorites[university.name] ?? []
@@ -15,7 +15,7 @@ class UserDefaultsManager {
         saveFavorites(favorites)
     }
 
-    func removeFavorite(university: College, major: majorsMinors) {
+    func removeFavorite(university: College, major: Major) {
         var favorites = getAllFavorites()
         
         if var universityFavorites = favorites[university.name] {
@@ -26,26 +26,26 @@ class UserDefaultsManager {
         saveFavorites(favorites)
     }
 
-    func getAllFavorites() -> [String: [majorsMinors]] {
+    func getAllFavorites() -> [String: [Major]] {
         let defaults = UserDefaults.standard
         if let savedFavorites = defaults.object(forKey: favoritesKey) as? Data {
             let decoder = JSONDecoder()
-            if let favorites = try? decoder.decode([String: [majorsMinors]].self, from: savedFavorites) {
+            if let favorites = try? decoder.decode([String: [Major]].self, from: savedFavorites) {
                 return favorites
             }
         }
         return [:]
     }
 
-    func getFavorites(forUniversity university: College) -> [majorsMinors] {
+    func getFavorites(forUniversity university: College) -> [Major] {
         return getAllFavorites()[university.name] ?? []
     }
     
-    func isFavorite(university: College, major: majorsMinors) -> Bool {
+    func isFavorite(university: College, major: Major) -> Bool {
         return getFavorites(forUniversity: university).contains(where: { $0.name == major.name && $0.language == major.language && $0.level == major.level })
     }
 
-    private func saveFavorites(_ favorites: [String: [majorsMinors]]) {
+    private func saveFavorites(_ favorites: [String: [Major]]) {
         let encoder = JSONEncoder()
         if let encoded = try? encoder.encode(favorites) {
             let defaults = UserDefaults.standard

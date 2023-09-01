@@ -5,11 +5,13 @@ struct CollegesListView: View {
     let schools: [College]
     
     var body: some View {
-        List(schools) { college in
-            collegeCell(college)
+        List {
+            Section {
+                ForEach(schools) { college in
+                    collegeCell(college)
+                }
+            }
         }
-        
-        
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.white, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
@@ -25,10 +27,11 @@ private extension CollegesListView {
     func collegeCell(_ college: College) -> some View {
         HStack(alignment: .center, spacing: 10){
             collegeImage(college.logoRef)
-            collegeTitle(
-                name: college.name,
-                city: college.location.city
-            )
+            VStack(alignment: .leading, spacing: 5){
+                collegeName(college.name)
+                collegeLocation(college.location.city)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
         .contentShape(Rectangle())
         .listRowInsets(.collegeListInsets)
@@ -38,27 +41,25 @@ private extension CollegesListView {
     }
     
     @ViewBuilder
-    func collegeImage(_ ref: String) -> some View {
-        Image(ref)
+    func collegeImage(_ reference: String) -> some View {
+        Image(reference)
             .resizable()
             .fit()
             .frame(width: 60, height: 60)
     }
     
     @ViewBuilder
-    func collegeTitle(
-        name: String,
-        city: String
-    ) -> some View {
-        VStack(alignment: .leading, spacing: 5){
-            Text(name)
-                .setFont(.callout, .medium, .rounded)
-                .frame(alignment: .leading)
-                .multilineTextAlignment(.leading)
-            Text(city)
-                .setFont(.caption, .medium, .rounded)
-                .setColor(.darkGray)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
+    func collegeName(_ name: String) -> some View {
+        Text(name)
+            .setFont(.callout, .medium, .rounded)
+            .frame(alignment: .leading)
+            .multilineTextAlignment(.leading)
+    }
+    
+    @ViewBuilder
+    func collegeLocation(_ city: String) -> some View {
+        Text(city)
+            .setFont(.subheadline, .medium, .rounded)
+            .setColor(.gray)
     }
 }

@@ -25,10 +25,10 @@ struct AboutView: View {
             .setColor(.black)
             .navigationBarTitle(OEAppearance.Locale.title.about, displayMode: .inline)
             .navigationBarBackButtonHidden(true)
-            .toolbar{
-                AppToolbarItem(.dismiss, color: .oeBlue)
-                AppToolbarItem(.title(type: .about), color: .oeBlue)
-            }
+//            .toolbar{
+//                AppTouserDefaultKeyolbarItem(.dismiss, color: .oeBlue)
+//                AppToolbarItem(.title(type: .about), color: .oeBlue)
+//            }
         }
     }
 }

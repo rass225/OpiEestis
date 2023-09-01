@@ -46,7 +46,7 @@ struct FavoritesView: View {
     }
     
     @ViewBuilder
-    func majorCell(_ major: majorsMinors, schoolName: String) -> some View {
+    func majorCell(_ major: Major, schoolName: String) -> some View {
         if let college = model.colleges.first(where: { $0.name == schoolName}) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
@@ -108,7 +108,7 @@ struct FavoritesView: View {
         }
     }
     
-    func navigateToMajor(college: College, major: majorsMinors) {
+    func navigateToMajor(college: College, major: Major) {
         let favorite: Model.Favorite = .init(
             college: college,
             major: major

@@ -100,4 +100,10 @@ extension View {
             .symbolVariant(variant)
             .symbolRenderingMode(renderMode)
     }
+    
+    func smoothCorners(radius: CGFloat = 8, color: Color = .clear) -> some View {
+        return self
+            .background(color)
+            .clipShape(RoundedRectangle(cornerRadius: radius, style: .continuous))
+    }
 }

@@ -3,22 +3,22 @@ import Combine
 
 extension MajorsView {
     class Model: ObservableObject {
-        @Published var selectedLevel: levelchoice
+        @Published var selectedLevel: Level
         @Published var searchText: String
-        @Published var levels: [levelchoice]
-        @Published var favorites: [majorsMinors]
+        @Published var levels: [Level]
+        @Published var favorites: [Major]
         @Published var detailLevel: DetailLevel
         private let dependencies: DependencyManager
         private var cancellables = Set<AnyCancellable>()
         
         let college: College
-        let majors: [majorsMinors]
+        let majors: [Major]
         
         init(
             college: College,
-            majors: [majorsMinors],
+            majors: [Major],
             dependencies: DependencyManager = .shared,
-            selectedLevel: levelchoice = .allLevels
+            selectedLevel: Level = .all
         ) {
             self.selectedLevel = selectedLevel
             self.searchText = ""
@@ -32,8 +32,8 @@ extension MajorsView {
             start()
         }
         
-        var displayedMajors: [majorsMinors] {
-            if selectedLevel == .allLevels {
+        var displayedMajors: [Major] {
+            if selectedLevel == .all {
                 if searchText.isEmpty {
                     return majors
                         .sorted(by: \.name)
@@ -67,7 +67,9 @@ private extension MajorsView.Model {
     }
     
     func observeUserDefaults() {
-        NotificationCenter.default.publisher(for: UserDefaults.didChangeNotification)
+        NotificationCenter
+            .default
+            .publisher(for: UserDefaults.didChangeNotification)
             .sink { [weak self] _ in
                 self?.getFavorites()
             }
@@ -75,7 +77,7 @@ private extension MajorsView.Model {
     }
     
     func configureLevels() {
-        levels.append(.allLevels)
+        levels.append(.all)
         
         if majors.contains(where: { $0.level == .applied}) {
             levels.append(.applied)
@@ -92,8 +94,8 @@ private extension MajorsView.Model {
         if majors.contains(where: { $0.level == .doctor}) {
             levels.append(.doctor)
         }
-        if majors.contains(where: { $0.level == .kutseharidus}) {
-            levels.append(.kutseharidus)
+        if majors.contains(where: { $0.level == .vocational}) {
+            levels.append(.vocational)
         }
     }
 }
@@ -101,14 +103,14 @@ private extension MajorsView.Model {
 // MARK: - Public Methods
 
 extension MajorsView.Model {
-    func addFavorite(major: majorsMinors) {
+    func addFavorite(major: Major) {
         dependencies.userDefaults.addFavorite(
             university: college,
             major: major
         )
     }
                                         
-    func removeFavorite(major: majorsMinors) {
+    func removeFavorite(major: Major) {
         dependencies.userDefaults.removeFavorite(
             university: college,
             major: major
@@ -118,6 +120,12 @@ extension MajorsView.Model {
     func getFavorites() {
         favorites = dependencies.userDefaults.getFavorites(forUniversity: college)
     }
+    
+    func setSearchBarColor() {
+        UISearchBar.appearance().tintColor = UIColor(college.palette.base)
+    }
+    
+    
 }
 
 // MARK: - Objects
@@ -126,20 +134,11 @@ extension MajorsView.Model {
     struct SelectedLevel: Identifiable {
         var id = UUID()
         var title: String
-        var level: levelchoice
-        var majors: [majorsMinors]
+        var level: Level
+        var majors: [Major]
     }
     
-    enum Level {
-        case applied
-        case bachelors
-        case integrated
-        case masters
-        case doctors
-        case vocational
-        case all
-    }
-    
+   
     enum DetailLevel: CaseIterable {
         case minimal
         case detailed

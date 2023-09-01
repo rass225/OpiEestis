@@ -3,7 +3,7 @@ import SwiftUI
 
 extension FavoritesView {
     class Model: ObservableObject {
-        @Published var favorites: [String: [majorsMinors]]
+        @Published var favorites: [String: [Major]]
         let colleges: [College]
         private let dependencies: DependencyManager
         private var cancellables = Set<AnyCancellable>()
@@ -11,7 +11,7 @@ extension FavoritesView {
         init(
             colleges: [College],
             dependencies: DependencyManager = .shared,
-            favorites: [String: [majorsMinors]] = [:]
+            favorites: [String: [Major]] = [:]
         ) {
             self.favorites = favorites
             self.colleges = colleges
@@ -26,7 +26,7 @@ extension FavoritesView {
 // MARK: - Public Methods
 
 extension FavoritesView.Model {
-    func removeFavorite(major: majorsMinors, college: College) {
+    func removeFavorite(major: Major, college: College) {
         dependencies.userDefaults.removeFavorite(university: college, major: major)
     }
 }
@@ -54,6 +54,6 @@ private extension FavoritesView.Model {
 extension FavoritesView.Model {
     struct Favorite: Hashable {
         let college: College
-        let major: majorsMinors
+        let major: Major
     }
 }

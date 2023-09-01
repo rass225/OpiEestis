@@ -26,11 +26,9 @@ struct CollegeView: View {
         .toolbar {
             ToolbarItem(placement: .principal, content: smallIconView)
         }
-        .onAppear {
-            Task {
-//                await model.loadSnapshot()
-                await model.loadEducation()
-            }
+        .task {
+            await model.loadEducation()
+            await model.loadSnapshot()
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Int.self) { _ in
@@ -64,23 +62,10 @@ extension CollegeView {
     @ViewBuilder
     func smallIconView() -> some View {
         if model.isSmallImageShown {
-            LogoView(
-                school: model.college,
-                image: model.college.logoRef
-            )
-        }
-    }
-    
-    struct SnapshotPin: View {
-        let image: Image
-        let color: Color
-        
-        var body: some View {
-            image
+            Image(model.college.logoRef)
                 .resizable()
-                .fit()
-                .frame(width: 50, height: 110, alignment: .center)
-                .setColor(color.gradient)
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 45)
         }
     }
 }
@@ -219,28 +204,25 @@ private extension CollegeView {
         }
         .contentShape(Rectangle())
         .onTapGesture(perform: model.openMap)
-        Group {
-            Map(
-                coordinateRegion: .constant(model.college.location.region),
-                showsUserLocation: false,
-                userTrackingMode: .none,
-                annotationItems: [model.college.location]
-            ) { location in
-                MapAnnotation(coordinate: location.coordinates) {
-                    MarkerView(
-                        color: model.college.palette.base,
-                        logo: model.college.logoRef)
-                        .offset(x: 0, y: -45)
-                }
-//                MapMarker(coordinate: location.coordinates, tint: model.college.palette.base)
+        Image(uiImage: model.mapSnapshot)
+            .resizable()
+            .fill()
+            .listRowInsets(.zero)
+            .listRowSeparator(.hidden)
+            .overlay {
+                Image("pin")
+                    .resizable()
+                    .fit()
+                    .frame(width: 50, height: 60)
+                    .setColor(model.college.palette.base.gradient)
+                    .offset(x: 0, y: -24)
             }
-            .disabled(true)
             .frame(height: 400)
-        }
-        .contentShape(Rectangle())
-        .onTapGesture(perform: model.openMap)
-        .listRowInsets(.zero)
-        .listRowSeparator(.hidden)
+        
+            .contentShape(Rectangle())
+            .onTapGesture(perform: model.openMap)
+            .listRowInsets(.zero)
+            .listRowSeparator(.hidden)
     }
     
     @ViewBuilder
@@ -293,209 +275,7 @@ private extension CollegeView {
     }
 }
 
-// MARK: - Headers
 
-private extension CollegeView {
-    @ViewBuilder
-    func header(
-        label: String,
-        image: Image,
-        color: Color
-    ) -> some View {
-        HStack(spacing: 8){
-            image
-                .font(.body)
-                .setColor(color.gradient)
-                .frame(width: 20, alignment: .leading)
-            Text(label.capitalized)
-                .setFont(.body, .semibold, .rounded)
-                .textCase(.none)
-                .setColor(.black)
-            Spacer()
-        }
-        .listRowInsets(.eight)
-    }
-    
-    @ViewBuilder
-    func subHeader(label: String) -> some View {
-        Text(label)
-            .setFont(.subheadline, .regular, .rounded)
-            .setColor(.darkGray)
-    }
-    
-    @ViewBuilder
-    func contactHeader() -> some View {
-        header(
-            label: "Kontakt",
-            image: .phoneFill,
-            color: model.college.palette.base
-        )
-    }
-    
-    @ViewBuilder
-    func admissionHeader() -> some View {
-        header(
-            label: "Vastuvõtt",
-            image: .requirementsFill,
-            color: model.college.palette.base
-        )
-    }
-    
-    @ViewBuilder
-    func summaryHeader() -> some View {
-        header(
-            label: "Koolist",
-            image: .graduationFill,
-            color: model.college.palette.base
-        )
-    }
-    
-    @ViewBuilder
-    func locationHeader() -> some View {
-        header(
-            label: "Asukoht",
-            image: .locationFill,
-            color: model.college.palette.base
-        )
-    }
-    
-    @ViewBuilder
-    func majorsHeader() -> some View {
-        header(
-            label: "Erialad",
-            image: .textBook,
-            color: model.college.palette.base
-        )
-    }
-    
-    @ViewBuilder
-    func mainDataHeader() -> some View {
-        GeometryReader { geo in
-                Image(model.college.logoRef)
-                    .resizable()
-                    .fit()
-                    .maxWidth()
-                    .background(GeometryReader {
-                        Color.clear.preference(
-                            key: ViewOffsetKey.self,
-                            value: -$0.frame(in: .named("scroll")).origin.y
-                        )
-                    })
-        }
-        .frame(height: 100, alignment: .top)
-        .listRowInsets(.zero)
-    }
-}
-
-// MARK: - Cells
-
-private extension CollegeView {
-    @ViewBuilder
-    func statisticCell(
-        topLabel: String,
-        bottomLabel: String,
-        image: Image
-    ) -> some View {
-        HStack(alignment: .center, spacing: 5){
-            image
-                .setColor(model.college.palette.base.gradient)
-                .font(.title3)
-            VStack(alignment: .leading, spacing: 0){
-                Text(topLabel)
-                    .setFont(.subheadline, .semibold, .rounded)
-                    .setColor(.black)
-                Text(bottomLabel)
-                    .setFont(.footnote, .regular, .rounded)
-                    .setColor(.darkGray)
-            }
-        }
-    }
-    
-    @ViewBuilder
-    func linkCell(link: CollegeLink) -> some View {
-        if let validLink = URL(string: link.link) {
-            Image(link.name)
-                .resizable()
-                .renderingMode(.template)
-                .fit()
-                .frame(height: 24)
-                .setColor(model.college.palette.base.gradient)
-                .padding(8)
-                .background(
-                    RoundedRectangle(
-                        cornerRadius: 10,
-                        style: .continuous
-                    ).fill(Color.white)
-                )
-                .onTapGesture {
-                    UIApplication.shared.open(validLink)
-                }
-        }
-    }
-    
-    @ViewBuilder
-    func majorContentCell(_ item: Model.StatEntity) -> some View {
-        if item.count != 0 {
-            HStack(alignment: .center, spacing: 10){
-                Circle()
-                    .fill(item.color.gradient)
-                    .frame(width: 13, height: 13, alignment: .center)
-                
-                Text(item.name.rawValue.capitalized)
-                    .setFont(.subheadline, .regular, .rounded)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                Text("\(item.count)")
-                    .setFont(.subheadline, .semibold, .rounded)
-            }.setColor(.black)
-        }
-    }
-}
-
-// MARK: - Buttons
-
-private extension CollegeView {
-    @ViewBuilder
-    func contactButton(
-        label: String,
-        image: Image,
-        action: @escaping () -> ()
-    ) -> some View {
-        image
-            .setFont(.title2, .regular, .rounded)
-            .setColor(model.college.palette.base.gradient)
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .padding(.vertical, 12)
-            .background(Color.white)
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .onTapGesture(perform: action)
-    }
-    
-    @ViewBuilder
-    func copyButton(text: String) -> some View {
-        Button(action: {
-            UIPasteboard.general.string = text
-        }) {
-            Image(systemName: "doc.on.doc.fill")
-                .font(.callout)
-                .fontWeight(.light)
-                .setColor(model.college.palette.base.gradient)
-                .padding(8)
-                .background(Circle().fill(Color.white))
-        }
-    }
-    
-    @ViewBuilder
-    func backButton() -> some View {
-        Image.chevronLight
-            .frame(height: 35)
-            .frame(width: 35)
-            .setFont(.callout, .bold, .rounded)
-            .setColor(model.college.palette.base.gradient)
-            .onTapGesture {
-//                dismiss.wrappedValue.dismiss()
-            }
-    }
-}
 
 struct ViewOffsetKey: PreferenceKey {
     static var defaultValue: CGFloat = 0

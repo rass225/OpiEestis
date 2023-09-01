@@ -8,14 +8,13 @@ struct CollegeMajorView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-//            Text("Karl error is: \(model.karlerror)")
             titleView()
                 .padding(.top, 8)
             switch model.viewState {
             case .success:
                 tabView()
-                    .onAppear() {
-                        model.loadSnapshots()
+                    .task {
+                        await model.loadSnapshots()
                     }
                 switch model.tabSelection {
                 case .overview:
@@ -341,6 +340,14 @@ extension CollegeMajorView {
                         .fit()
                         .listRowInsets(.zero)
                         .listRowSeparator(.hidden)
+                        .overlay {
+                            Image("pin")
+                                .resizable()
+                                .fit()
+                                .frame(width: 50, height: 60)
+                                .setColor(model.college.palette.base.gradient)
+                                .offset(x: 0, y: -24)
+                        }
                         .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
                 }, header: locationsHeader)
             } else {

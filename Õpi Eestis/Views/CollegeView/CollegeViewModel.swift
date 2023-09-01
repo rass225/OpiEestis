@@ -7,7 +7,7 @@ extension CollegeView {
         @Published var isSmallImageShown: Bool
         @Published var isMailOpen: Bool
         @Published var mapSnapshot: UIImage
-        @Published var majors: [majorsMinors]
+        @Published var majors: [Major]
         @Published var majorStats: [StatEntity]
         @Published var mailResult: Result<MFMailComposeResult, Error>?
         
@@ -61,76 +61,68 @@ extension CollegeView.Model {
             UIApplication.shared.open(validLink)
         }
     }
+    
+    func openLink(_ url: URL) {
+        UIApplication.shared.open(url)
+    }
 }
 
 extension CollegeView.Model {
     func loadSnapshot() async {
         let options = MKMapSnapshotter.Options()
-        options.region = MKCoordinateRegion(center: self.college.location.coordinates, latitudinalMeters: 3000, longitudinalMeters: 3000)
+        options.region = MKCoordinateRegion(
+            center: college.location.coordinates,
+            latitudinalMeters: 3000,
+            longitudinalMeters: 3000
+        )
         options.size = CGSize(width: 400, height: 400)
         options.mapType = .standard
         
-        let snapshotter = MKMapSnapshotter(options: options)
-
         do {
-            let snapshot = try await snapshotter.startAsync()
-
+            let snapshotter = MKMapSnapshotter(options: options)
+            let snapshot = try await snapshotter.snapshot()
             let image = snapshot.image
-            let pin = Image("pin")
-            let pinView = CollegeView.SnapshotPin(image: pin, color: self.college.palette.base)
-                
-            let pinImage = pinView.snapshot() // Convert your custom SwiftUI view into UIImage
+            defer { UIGraphicsEndImageContext() }
             
             UIGraphicsBeginImageContextWithOptions(image.size, true, image.scale)
-            defer { UIGraphicsEndImageContext() }
             image.draw(at: CGPoint.zero)
             
-            let visibleRect = CGRect(origin: CGPoint.zero, size: image.size)
-            let point = snapshot.point(for: self.college.location.coordinates)
-            if visibleRect.contains(point) {
-                let rect = CGRect(x: point.x - pinImage.size.width / 2,
-                                  y: point.y - pinImage.size.height,
-                                  width: pinImage.size.width,
-                                  height: pinImage.size.height)
-                pinImage.draw(in: rect)
-            }
-            
-            guard let finalImage = UIGraphicsGetImageFromCurrentImageContext() else { return }
-            
-            DispatchQueue.main.async {
-                self.mapSnapshot = finalImage
+            if let finalImage = UIGraphicsGetImageFromCurrentImageContext() {
+                DispatchQueue.main.async {
+                    self.mapSnapshot = finalImage
+                }
             }
         } catch {
-            print("Snapshot error: \(error.localizedDescription)")
+            print("Snapshot error: \(error)")
         }
-    }
-
-    
-    func loadJson(_ filename: String) async -> [majorsMinors]? {
-        if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: url)
-                let decoder = JSONDecoder()
-                let jsonData = try decoder.decode([majorsMinors].self, from: data)
-                return jsonData
-            } catch {
-                print("error:\(error)")
-            }
-        } else {
-            print(filename, "XXX----XXX---XXX---XXX")
-        }
-        return nil
     }
     
     func loadEducation() async {
         if let majors = await loadJson(college.jsonString) {
-            
             DispatchQueue.main.async {
                 self.majors = majors
                 let levelStats = self.getLevelStats()
                 self.majorStats = levelStats
             }
         }
+    }
+}
+
+private extension CollegeView.Model {
+    func loadJson(_ filename: String) async -> [Major]? {
+        if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode([Major].self, from: data)
+                return jsonData
+            } catch {
+                print("Error loading file:", error)
+            }
+        } else {
+            print("Error loading file:", filename)
+        }
+        return nil
     }
     
     func getLevelStats() -> [StatEntity] {
@@ -139,12 +131,12 @@ extension CollegeView.Model {
         let counts = levelCount(majors: majors)
         let percentages = percentace(levelCounts: counts, total: majors.count)
         
-        let levelStats: [(levelchoice, Color, Int, CGFloat)] = [
+        let levelStats: [(Level, Color, Int, CGFloat)] = [
             (.bachelor, college.palette.bachelors, counts.bachelor, percentages.bachelor),
             (.masters, college.palette.masters, counts.master, percentages.master),
             (.doctor, college.palette.doctors, counts.doctor, percentages.doctor),
             (.applied, college.palette.applied, counts.applied, percentages.applied),
-            (.kutseharidus, college.palette.vocational, counts.kutse, percentages.kutse)
+            (.vocational, college.palette.vocational, counts.kutse, percentages.kutse)
         ]
         
         var value: CGFloat = 0
@@ -159,15 +151,15 @@ extension CollegeView.Model {
         return levels
     }
     
-    func levelCount(majors: [majorsMinors]) -> LevelStats {
+    func levelCount(majors: [Major]) -> LevelStats {
         let counts = majors.reduce(into: LevelStats(bachelor: 0, master: 0, doctor: 0, applied: 0, kutse: 0)) { counts, major in
             switch major.level {
             case .bachelor: counts.bachelor += 1
             case .masters, .integrated: counts.master += 1
             case .doctor: counts.doctor += 1
             case .applied: counts.applied += 1
-            case .kutseharidus: counts.kutse += 1
-            case .allLevels: break
+            case .vocational: counts.kutse += 1
+            case .all: break
             }
         }
         return counts
@@ -195,7 +187,7 @@ extension CollegeView.Model {
     }
     struct StatEntity: Identifiable, Hashable {
         var id = UUID()
-        var name: levelchoice
+        var name: Level
         var count: Int
         var color: Color
         var percentage: CGFloat
@@ -214,21 +206,5 @@ extension CollegeView.Model {
         var doctor: CGFloat
         var applied: CGFloat
         var kutse: CGFloat
-    }
-}
-
-extension MKMapSnapshotter {
-    func startAsync() async throws -> MKMapSnapshotter.Snapshot {
-        return try await withCheckedThrowingContinuation { continuation in
-            self.start { snapshot, error in
-                if let error = error {
-                    continuation.resume(throwing: error)
-                } else if let snapshot = snapshot {
-                    continuation.resume(returning: snapshot)
-                } else {
-                    continuation.resume(throwing: NSError(domain: "MKMapSnapshotterError", code: -1, userInfo: nil))
-                }
-            }
-        }
     }
 }

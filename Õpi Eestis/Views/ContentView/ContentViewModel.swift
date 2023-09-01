@@ -4,8 +4,8 @@ import SwiftUI
 
 extension ContentView {
     class Model: ObservableObject {
-        private let dependencies: DependencyManager
         @Published var schools: [College]
+        private let dependencies: DependencyManager
         
         init(
             dependencies: DependencyManager = .shared
@@ -14,34 +14,39 @@ extension ContentView {
             self.schools = []
             fetchSchools()
         }
-        
-        func fetchSchools() {
-            dependencies.firebase.fetchSchools {
-                switch $0 {
-                case let .success(schools):
-                    self.schools = schools.sorted(by: \.name)
-                case let .failure(error):
-                    print(error)
+    }
+}
+
+extension ContentView.Model {
+    func getAllBranches() -> [CollegeBranch] {
+        var allBranches: [CollegeBranch] = []
+            for college in schools {
+                for branch in college.branches {
+                    let collegeBranch = CollegeBranch(
+                        location: branch,
+                        parentCollege: college
+                    )
+                    allBranches.append(collegeBranch)
                 }
             }
-        }
-        
-        func getAllBranches() -> [CollegeBranch] {
-            var allBranches: [CollegeBranch] = []
-                for college in schools {
-                    for branch in college.branches {
-                        let collegeBranch = CollegeBranch(
-                            location: branch,
-                            parentCollege: college
-                        )
-                        allBranches.append(collegeBranch)
-                    }
-                }
-                
-                return allBranches
+            
+            return allBranches
+    }
+}
+
+private extension ContentView.Model {
+    func fetchSchools() {
+        dependencies.firebase.fetchSchools {
+            switch $0 {
+            case let .success(schools):
+                self.schools = schools.sorted(by: \.name)
+            case let .failure(error):
+                print(error)
+            }
         }
     }
 }
+
 
 extension ContentView {
     enum Tabs {

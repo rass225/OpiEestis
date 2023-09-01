@@ -4,22 +4,21 @@ import MapKit
 
 extension CollegeMajorView {
     class Model: ObservableObject {
-        @Published var major: majorsMinors
+        @Published var major: Major
         @Published var tabPool: [Tabs]
         @Published var tabSelection: Tabs
         @Published var isFavorite: Bool
         @Published var mapLocations: [MapLocation]
         @Published var viewState: ViewState
-        @Published var karlerror: String = ""
         
         let college: College
         
-        private let majorInternal: majorsMinors
+        private let majorInternal: Major
         private var cancellables = Set<AnyCancellable>()
         private let dependencies: DependencyManager
         
         init(
-            major: majorsMinors,
+            major: Major,
             college: College,
             tabSelection: Tabs = .overview,
             dependencies: DependencyManager = .shared
@@ -88,15 +87,16 @@ extension CollegeMajorView.Model {
         dependencies.userDefaults.removeFavorite(university: college, major: majorInternal)
     }
     
-    func loadSnapshots() {
+    func loadSnapshots() async {
         let mentionedCollegeLocations = college.branches.filter { branch in
             major.studyLocation.contains { string in
                 string.rawValue.contains(branch.city)
             }
         }
+        
         for location in mentionedCollegeLocations {
             if !mapLocations.contains(where: { $0.address == location.address }) {
-                loadSnapshot(location: location)
+                await loadSnapshot(location: location)
             }
         }
     }
@@ -120,14 +120,12 @@ private extension CollegeMajorView.Model {
         guard let urlString = major.curriculumRef else {
             print("ModuleRef not present")
             DispatchQueue.main.async {
-                self.karlerror = "ModuleRef not present"
                 self.viewState = .success
             }
             return
         }
         guard let url = URL(string: urlString) else {
             print("Invalid URL.")
-            self.karlerror = "Invalid URL."
             return
         }
 
@@ -139,14 +137,11 @@ private extension CollegeMajorView.Model {
             } else if let httpResponse = response as? HTTPURLResponse {
                 // This means the response was not within the 200-299 range.
                 print("Invalid HTTP response: \(httpResponse.statusCode)")
-                self.karlerror = "Invalid HTTP response: \(httpResponse.statusCode)"
             } else {
                 print("Received non-HTTP response.")
-                self.karlerror = "Received non-HTTP response."
             }
         } catch {
             print("Error fetching curriculum: \(error)")
-            self.karlerror = "Error fetching curriculum: \(error)"
         }
     }
     
@@ -186,57 +181,39 @@ private extension CollegeMajorView.Model {
             }
         } catch {
             DispatchQueue.main.async {
-                self.karlerror = "Decoding error: \(error)"
                 print("Decoding error: \(error)")
                 self.viewState = .success
             }
         }
     }
-
-    func loadSnapshot(location: CollegeLocation) {
+    
+    func loadSnapshot(location: CollegeLocation) async {
         let options = MKMapSnapshotter.Options()
-
         options.region = MKCoordinateRegion(center: location.coordinates, latitudinalMeters: 3000, longitudinalMeters: 3000)
         options.size = CGSize(width: 400, height: 400)
         options.mapType = .standard
-
-        let snapshotter = MKMapSnapshotter(options: options)
-        snapshotter.start { snapshot, error in
-            guard let snapshot = snapshot else {
-                print("Snapshot error: \(String(describing: error))")
-                return
-            }
-
+        
+        do {
+            let snapshotter = MKMapSnapshotter(options: options)
+            let snapshot = try await snapshotter.snapshot()
             let image = snapshot.image
-            let pin = Image("pin")
-            let pinView = CollegeView.SnapshotPin(image: pin, color: self.college.palette.base)
-
-            let pinImage = pinView.snapshot()
-
+            
             UIGraphicsBeginImageContextWithOptions(image.size, true, image.scale)
             defer { UIGraphicsEndImageContext() }
             image.draw(at: CGPoint.zero)
-
-            let visibleRect = CGRect(origin: CGPoint.zero, size: image.size)
-            let point = snapshot.point(for: location.coordinates)
-            if visibleRect.contains(point) {
-                let rect = CGRect(x: point.x - pinImage.size.width / 2,
-                                  y: point.y - pinImage.size.height,
-                                  width: pinImage.size.width,
-                                  height: pinImage.size.height)
-                pinImage.draw(in: rect)
-            }
-
+            
             guard let finalImage = UIGraphicsGetImageFromCurrentImageContext() else { return }
             let mapLocation: MapLocation = .init(
                 address: location.address,
                 appleMapLink: location.appleMapLink,
                 snapshot: finalImage
             )
-
+            
             DispatchQueue.main.async {
                 self.mapLocations.append(mapLocation)
             }
+        } catch {
+            print("Snapshot error: \(error)")
         }
     }
     
@@ -256,24 +233,6 @@ private extension CollegeMajorView.Model {
 // MARK: - Objects
 
 extension CollegeMajorView.Model {
-    enum Tabs: CaseIterable {
-        case overview
-        case requirements
-        case modules
-        case outcomes
-        case personnel
-        
-        var image: Image {
-            switch self {
-            case .overview: return .docFill
-            case .requirements: return .requirementsFill
-            case .modules: return .stackFill
-            case .outcomes: return .outcomesFill
-            case .personnel: return .person2Fill
-            }
-        }
-    }
-    
     struct MapLocation: Hashable {
         let address: String
         let appleMapLink: String
@@ -443,6 +402,24 @@ extension CollegeMajorView.Model {
         let nameEt: String
         let nameEn: String
         let credits: Double
+    }
+    
+    enum Tabs: CaseIterable {
+        case overview
+        case requirements
+        case modules
+        case outcomes
+        case personnel
+        
+        var image: Image {
+            switch self {
+            case .overview: return .docFill
+            case .requirements: return .requirementsFill
+            case .modules: return .stackFill
+            case .outcomes: return .outcomesFill
+            case .personnel: return .person2Fill
+            }
+        }
     }
     
     enum ViewState {
