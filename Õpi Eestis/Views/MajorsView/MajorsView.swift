@@ -4,23 +4,21 @@ struct MajorsView: View {
     @EnvironmentObject var pathManager: PathManager
     @Environment(\.presentationMode) var dismiss
     @StateObject var model: Model
+    @State var test = false
     
     var body: some View {
         List {
             Section(content: majorsContent, header: hiddenHeader)
-                .id(UUID())
         }
-        .searchable(
-            text: $model.searchText,
-            placement: .navigationBarDrawer(displayMode: .automatic),
-            prompt: Text("Otsi eriala")
-        )
+        .searchable(text: $model.searchText, placement: .navigationBarDrawer, prompt: Text("Otsi eriala"))
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
-            ToolbarItem(placement: .navigationBarTrailing, content: levelsButton)
+            ToolbarItem(placement: .navigationBarTrailing, content: filterButton)
         }
+        .sheet(isPresented: $test, content: filterView)
         .onAppear(perform: model.setSearchBarColor)
+        .onAppear(perform: model.setSegmentControlColor)
         .onAppear(perform: model.getFavorites)
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden()
@@ -29,6 +27,7 @@ struct MajorsView: View {
                 model: .init(
                     major: major,
                     college: model.college,
+                    isFavorite: model.favorites.contains(major),
                     tabSelection: .overview
                 )
             )
@@ -80,17 +79,55 @@ private extension MajorsView {
     }
     
     @ViewBuilder
-    func levelsButtonLabel() -> some View {
-        Image(systemName: "slider.horizontal.3")
-            .setFont(.body, .bold, .rounded)
-            .setColor(model.college.palette.base.gradient)
-            .padding(.trailing, 4)
-    }
-    
-    @ViewBuilder
     func heartImage() -> some View {
         Image(systemName: "heart.fill")
             .setColor(model.college.palette.base.gradient)
+    }
+    
+    @ViewBuilder
+    func filterView() -> some View {
+        NavigationStack {
+            VStack(spacing: 0) {
+                HStack {
+                    if model.filtersAmount > 0 {
+                        resetButton()
+                            .padding(.leading, 16)
+                    }
+                    Spacer()
+                    Image(systemName: model.detailLevel.reverseIcon)
+                        .setColor(model.college.palette.base.gradient)
+                        .setFont(.title3, .semibold, .rounded)
+                        .padding(.vertical, 12)
+                        .padding(.trailing, 16)
+                        .onTapGesture {
+                            if model.detailLevel == .detailed {
+                                model.detailLevel = .minimal
+                            } else {
+                                model.detailLevel = .detailed
+                            }
+                        }
+                }
+                .overlay {
+                    Text("Filtrid")
+                        .setFont(.body, .medium, .rounded)
+                }
+                
+                List {
+                    levelPicker()
+                    languagePicker()
+                    locationPicker()
+                    durationPicker()
+                    costPicker()
+                }
+                .scrollIndicators(.hidden)
+            }
+            
+            .setFont(.subheadline, .medium, .rounded)
+            .navigationBarTitleDisplayMode(.inline)
+        }
+        .presentationDetents([.medium])
+        .presentationCornerRadius(16)
+//        .presentationDragIndicator(.visible)
     }
 }
 
@@ -184,7 +221,104 @@ private extension MajorsView {
     }
     
     @ViewBuilder
-    func levelsButton() -> some View {
-        Menu(content: levelsContent, label: levelsButtonLabel)
+    func filterButton() -> some View {
+        Image(systemName: "slider.horizontal.3")
+            .setFont(.body, .bold, .rounded)
+            .setColor(model.college.palette.base.gradient)
+            .padding(.trailing, 4)
+            .overlay(alignment: .topTrailing) {
+                if model.filtersAmount > 0 {
+                    Text(String(model.filtersAmount))
+                        .setFont(.footnote, .semibold, .rounded)
+                        .setColor(.white)
+                        .padding(5)
+                        .background(Circle().fill(Color.red))
+                        .offset(x: 0, y: -10)
+                }
+            }
+            .onTapGesture {
+                test.toggle()
+            }
+    }
+    
+    @ViewBuilder
+    func resetButton() -> some View {
+        Button(action: model.resetFilters, label: {
+            if model.filtersAmount > 0 {
+                Image(systemName: "xmark")
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .bold, .rounded)
+            }
+        })
+    }
+}
+
+// MARK: - Pickers
+
+private extension MajorsView {
+    @ViewBuilder
+    func levelPicker() -> some View {
+        Picker("Õppeaste", selection: $model.selectedLevel) {
+            ForEach(model.levels, id: \.self) { item in
+                Text(item.label)
+            }
+        }
+        .padding(.vertical, 2)
+    }
+    
+    @ViewBuilder
+    func languagePicker() -> some View {
+        Picker("Õppekeel", selection: $model.selectedLanguage) {
+            ForEach(model.languages, id: \.self) { item in
+                Text(item.label)
+            }
+        }
+        .padding(.vertical, 2)
+    }
+    
+    @ViewBuilder
+    func locationPicker() -> some View {
+        Picker("Linn", selection: $model.selectedLocation) {
+            Text("Kõik")
+                .tag(Model.LocationSelection.all)
+            ForEach(model.locations, id: \.self) { item in
+                Text(item.rawValue)
+                    .tag(Model.LocationSelection.specific(item))
+               
+            }
+        }
+        .padding(.vertical, 2)
+    }
+    
+    @ViewBuilder
+    func durationPicker() -> some View {
+        Picker("Kestus", selection: $model.selectedDuration) {
+            Text("Kõik")
+                .tag(Model.DurationSelection.all)
+            ForEach(model.durations, id: \.self) { item in
+                if item.isInt() {
+                    Text("\(Int(item)) aastat")
+                        .tag(Model.DurationSelection.specific(item))
+                } else {
+                    Text(String(format: "%.1f", item) + " aastat")
+                        .tag(Model.DurationSelection.specific(item))
+                }
+            }
+        }
+        .padding(.vertical, 2)
+    }
+    
+    @ViewBuilder
+    func costPicker() -> some View {
+        HStack(spacing: 24) {
+            Text("Maksumus")
+            Picker("Maksumus", selection: $model.selectedCost) {
+                ForEach(Model.CostSelection.allCases, id: \.self) { item in
+                    Text(item.label)
+                }
+            }.pickerStyle(.segmented)
+                .padding(.vertical, 4)
+        }
+        
     }
 }

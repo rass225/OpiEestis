@@ -10,11 +10,11 @@ extension CollegeView {
         @Published var majors: [Major]
         @Published var majorStats: [StatEntity]
         @Published var mailResult: Result<MFMailComposeResult, Error>?
+        @Published var imageCache: [URL: UIImage] = [:]
         
         private let dependencies: DependencyManager
         
         let college: College
-        let mockImages: [String]
         
         init(
             college: College,
@@ -31,25 +31,26 @@ extension CollegeView {
             self.majorStats = []
             self.college = college
             self.dependencies = dependencies
-            self.mockImages = ["TaTeKõpicture", "TaTKimage", "TTKimage"]
+            
+            Task {
+                await withTaskGroup(of: Void.self) { group in
+                    group.addTask { self.prefetchImages() }
+                    group.addTask { await self.loadEducation() }
+                    group.addTask { self.loadMapSnapshot() }
+                    for await _ in group { }
+                }
+            }
         }
     }
 }
 
 extension CollegeView.Model {
     func openHomePage() {
-        if let validLink = URL(string: college.website) {
-            UIApplication.shared.open(validLink)
-        }
+        dependencies.network.openLink(with: college.website)
     }
     
     func callCollege() {
-        let baseUrl = OEAppearance.Locale.network.telHttps
-        let phoneNr = college.contact.phoneNumber
-        let urlString = baseUrl + phoneNr
-        if let validLink = URL(string: urlString) {
-            UIApplication.shared.open(validLink)
-        }
+        dependencies.network.callNumber(with: college.contact.phoneNumber)
     }
     
     func openEmail() {
@@ -57,48 +58,28 @@ extension CollegeView.Model {
     }
     
     func openMap() {
-        if let validLink = URL(string: college.location.appleMapLink) {
-            UIApplication.shared.open(validLink)
-        }
+        dependencies.network.openLink(with: college.location.appleMapLink)
     }
     
     func openLink(_ url: URL) {
-        UIApplication.shared.open(url)
+        dependencies.network.openLink(with: url)
     }
 }
 
 extension CollegeView.Model {
-    func loadSnapshot() async {
-        let options = MKMapSnapshotter.Options()
-        options.region = MKCoordinateRegion(
-            center: college.location.coordinates,
-            latitudinalMeters: 3000,
-            longitudinalMeters: 3000
-        )
-        options.size = CGSize(width: 400, height: 400)
-        options.mapType = .standard
-        
-        do {
-            let snapshotter = MKMapSnapshotter(options: options)
-            let snapshot = try await snapshotter.snapshot()
-            let image = snapshot.image
-            defer { UIGraphicsEndImageContext() }
-            
-            UIGraphicsBeginImageContextWithOptions(image.size, true, image.scale)
-            image.draw(at: CGPoint.zero)
-            
-            if let finalImage = UIGraphicsGetImageFromCurrentImageContext() {
+    func loadMapSnapshot() {
+        let mapService = MapServiceManager()
+        Task {
+            if let finalImage = await mapService.loadSnapshot(for: college.location.coordinates) {
                 DispatchQueue.main.async {
                     self.mapSnapshot = finalImage
                 }
             }
-        } catch {
-            print("Snapshot error: \(error)")
         }
     }
     
     func loadEducation() async {
-        if let majors = await loadJson(college.jsonString) {
+        if let majors = await dependencies.network.fetchMajors(college.jsonString) {
             DispatchQueue.main.async {
                 self.majors = majors
                 let levelStats = self.getLevelStats()
@@ -106,25 +87,21 @@ extension CollegeView.Model {
             }
         }
     }
+    
+    func prefetchImages() {
+        let urls = college.imageRefs.compactMap { URL(string: $0) }
+
+        Task {
+            let fetchedImages = await dependencies.network.fetchImages(urls: urls)
+            let nonNilImages = fetchedImages.compactMapValues { $0 }
+            DispatchQueue.main.async {
+                self.imageCache.merge(nonNilImages) { (_, new) in new }
+            }
+        }
+    }
 }
 
 private extension CollegeView.Model {
-    func loadJson(_ filename: String) async -> [Major]? {
-        if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
-            do {
-                let data = try Data(contentsOf: url)
-                let decoder = JSONDecoder()
-                let jsonData = try decoder.decode([Major].self, from: data)
-                return jsonData
-            } catch {
-                print("Error loading file:", error)
-            }
-        } else {
-            print("Error loading file:", filename)
-        }
-        return nil
-    }
-    
     func getLevelStats() -> [StatEntity] {
         var levels: [StatEntity] = []
         

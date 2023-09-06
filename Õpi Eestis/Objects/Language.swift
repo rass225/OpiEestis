@@ -7,6 +7,7 @@ enum Language: String, Codable, CaseIterable {
     case french = "prantsuse keel"
     case german = "saksa keel"
     case russian = "vene keel"
+    case all = "aaa"
     
     var symbol: String {
         switch self {
@@ -16,6 +17,7 @@ enum Language: String, Codable, CaseIterable {
         case .french: return "🇫🇷"
         case .german: return "🇩🇪"
         case .russian: return "🇷🇺"
+        case .all: return ""
         }
     }
     
@@ -27,6 +29,7 @@ enum Language: String, Codable, CaseIterable {
         case .french: return "Prantsuse keel"
         case .german: return "Saksa keel"
         case .russian: return "Vene keel"
+        case .all: return "Kõik"
         }
     }
     

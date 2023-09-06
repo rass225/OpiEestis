@@ -39,6 +39,16 @@ struct FirebaseManager {
                 imageResonse(data: $0, error: $1, completion: completion)
             }
     }
+    
+    func fetchImage(
+        ref: String,
+        completion: @escaping (Result<UIImage, Error>) -> ()
+    ) {
+        query(for: .fetchImage(ref: ref))
+            .getData(maxSize: maxSize) {
+                imageResonse(data: $0, error: $1, completion: completion)
+            }
+    }
 }
 
 private extension FirebaseManager {
@@ -56,6 +66,8 @@ private extension FirebaseManager {
             return storage.reference(forURL: "\(baseUrl)/Logos/\(ref)")
         case let .fetchLinkImage(ref):
             return storage.reference(forURL: "\(baseUrl)/Links/\(ref)")
+        case .fetchImage(ref: let ref):
+            return storage.reference(forURL: "\(baseUrl)/Images/\(ref)")
         }
     }
     
@@ -122,5 +134,6 @@ extension FirebaseManager {
     enum StoreReference {
         case fetchLogo(ref: String)
         case fetchLinkImage(ref: String)
+        case fetchImage(ref: String)
     }
 }

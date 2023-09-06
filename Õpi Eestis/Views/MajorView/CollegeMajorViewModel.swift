@@ -10,6 +10,7 @@ extension CollegeMajorView {
         @Published var isFavorite: Bool
         @Published var mapLocations: [MapLocation]
         @Published var viewState: ViewState
+        @Published var imageCache: [URL: UIImage] = [:]
         
         let college: College
         
@@ -20,6 +21,7 @@ extension CollegeMajorView {
         init(
             major: Major,
             college: College,
+            isFavorite: Bool = false,
             tabSelection: Tabs = .overview,
             dependencies: DependencyManager = .shared
         ) {
@@ -27,7 +29,7 @@ extension CollegeMajorView {
             self.majorInternal = major
             self.college = college
             self.tabSelection = tabSelection
-            self.isFavorite = false
+            self.isFavorite = isFavorite
             self.mapLocations = []
             self.viewState = .loading
             self.dependencies = dependencies
@@ -45,10 +47,12 @@ extension CollegeMajorView {
             
             
             observeUserDefaults()
-            updateIsFavorite()
+            
             Task {
                 await withTaskGroup(of: Void.self) { group in
                     group.addTask { await self.fetchCurriculum2() }
+                    group.addTask { self.prefetchImages() }
+                    group.addTask { await self.loadSnapshots() }
                     for await _ in group { }
                 }
             }
@@ -58,25 +62,19 @@ extension CollegeMajorView {
 
 extension CollegeMajorView.Model {
     func openWebsite() {
-        guard let url = URL(string: major.majorWebsite) else { return }
-        UIApplication.shared.open(url)
+        dependencies.network.openLink(with: major.majorWebsite)
     }
     
     func openPhone(_ urlString: String) {
-        let prefix = "tel:"
-        guard let url = URL(string: prefix + urlString) else { return }
-        UIApplication.shared.open(url)
+        dependencies.network.callNumber(with: urlString)
     }
     
     func openMail(_ urlString: String) {
-        let prefix = "mailto:"
-        guard let url = URL(string: prefix + urlString) else { return }
-        UIApplication.shared.open(url)
+        dependencies.network.openMail(with: urlString)
     }
     
     func openMap(_ link: String) {
-        guard let url = URL(string: link) else { return }
-        UIApplication.shared.open(url)
+        dependencies.network.openLink(with: link)
     }
 
     func addFavorite() {
@@ -96,7 +94,7 @@ extension CollegeMajorView.Model {
         
         for location in mentionedCollegeLocations {
             if !mapLocations.contains(where: { $0.address == location.address }) {
-                await loadSnapshot(location: location)
+                loadMapSnapshot(location: location)
             }
         }
     }
@@ -105,6 +103,24 @@ extension CollegeMajorView.Model {
 // MARK: - Private Methods
 
 private extension CollegeMajorView.Model {
+    func prefetchImages() {
+        let networkManager = NetworkManager()
+        let urls = major.personnel?.compactMap { person -> URL? in
+            if let photoURL = person.photo {
+                return URL(string: photoURL)
+            }
+            return nil
+        } ?? []
+
+        Task {
+            let fetchedImages = await networkManager.fetchImages(urls: urls)
+            let nonNilImages = fetchedImages.compactMapValues { $0 }
+            DispatchQueue.main.async {
+                self.imageCache.merge(nonNilImages) { (_, new) in new }
+            }
+        }
+    }
+    
     func fetchCurriculum2() async {
         if let models = major.modules, !models.isEmpty {
             DispatchQueue.main.async {
@@ -124,22 +140,10 @@ private extension CollegeMajorView.Model {
             }
             return
         }
-        guard let url = URL(string: urlString) else {
-            print("Invalid URL.")
-            return
-        }
-
+        
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
-            
-            if let httpResponse = response as? HTTPURLResponse, (200..<300).contains(httpResponse.statusCode) {
-                processCurriculumData(data)
-            } else if let httpResponse = response as? HTTPURLResponse {
-                // This means the response was not within the 200-299 range.
-                print("Invalid HTTP response: \(httpResponse.statusCode)")
-            } else {
-                print("Received non-HTTP response.")
-            }
+            let data = try await dependencies.network.fetchCurriculumData(from: urlString)
+            processCurriculumData(data)
         } catch {
             print("Error fetching curriculum: \(error)")
         }
@@ -187,38 +191,23 @@ private extension CollegeMajorView.Model {
         }
     }
     
-    func loadSnapshot(location: CollegeLocation) async {
-        let options = MKMapSnapshotter.Options()
-        options.region = MKCoordinateRegion(center: location.coordinates, latitudinalMeters: 3000, longitudinalMeters: 3000)
-        options.size = CGSize(width: 400, height: 400)
-        options.mapType = .standard
-        
-        do {
-            let snapshotter = MKMapSnapshotter(options: options)
-            let snapshot = try await snapshotter.snapshot()
-            let image = snapshot.image
-            
-            UIGraphicsBeginImageContextWithOptions(image.size, true, image.scale)
-            defer { UIGraphicsEndImageContext() }
-            image.draw(at: CGPoint.zero)
-            
-            guard let finalImage = UIGraphicsGetImageFromCurrentImageContext() else { return }
-            let mapLocation: MapLocation = .init(
-                address: location.address,
-                appleMapLink: location.appleMapLink,
-                snapshot: finalImage
-            )
-            
-            DispatchQueue.main.async {
-                self.mapLocations.append(mapLocation)
+    func loadMapSnapshot(location: CollegeLocation) {
+        let mapService = MapServiceManager()
+
+        Task {
+            if let mapLocation = await mapService.fetchMapSnapshot(for: location) {
+                DispatchQueue.main.async {
+                    self.mapLocations.append(mapLocation)
+                }
             }
-        } catch {
-            print("Snapshot error: \(error)")
         }
     }
     
     func updateIsFavorite() {
-        isFavorite = dependencies.userDefaults.isFavorite(university: college, major: majorInternal)
+        let isFavorite = dependencies.userDefaults.isFavorite(university: college, major: majorInternal)
+        DispatchQueue.main.async {
+            self.isFavorite = isFavorite
+        }
     }
     
     func observeUserDefaults() {
@@ -233,12 +222,6 @@ private extension CollegeMajorView.Model {
 // MARK: - Objects
 
 extension CollegeMajorView.Model {
-    struct MapLocation: Hashable {
-        let address: String
-        let appleMapLink: String
-        let snapshot: UIImage
-    }
-    
     struct Curriculum: Codable {
         var outcomesEt: String
         var outcomesEn: String?

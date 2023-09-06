@@ -26,10 +26,8 @@ struct CollegeView: View {
         .toolbar {
             ToolbarItem(placement: .principal, content: smallIconView)
         }
-        .task {
-            await model.loadEducation()
-            await model.loadSnapshot()
-        }
+        .toolbar(.visible, for: .tabBar)
+        .toolbarBackground(.visible, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Int.self) { _ in
             MajorsView(model: .init(college: model.college, majors: model.majors))
@@ -104,11 +102,8 @@ private extension CollegeView {
     @ViewBuilder
     func imageContent() -> some View {
             TabView {
-                ForEach(model.mockImages, id: \.self) { imageName in
-                    Image(imageName)
-                        .resizable()
-                        .fill()
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                ForEach(model.college.imageRefs, id: \.self) { ref in
+                   imageCell(ref)
                 }
             }
             .frame(height: 250)

@@ -57,4 +57,26 @@ extension CollegeView {
             }.setColor(.black)
         }
     }
+    
+    @ViewBuilder
+    func imageCell(_ ref: String) -> some View {
+        if let url = URL(string: ref) {
+            if let cachedImage = model.imageCache[url] {
+                Image(uiImage: cachedImage)
+                    .resizable()
+                    .fill()
+            } else {
+                AsyncImage(
+                    url: url,
+                    content: { image in
+                        image
+                            .resizable()
+                            .fill()
+                    },
+                    placeholder: {
+                        ProgressView()
+                    })
+            }
+        }
+    }
 }

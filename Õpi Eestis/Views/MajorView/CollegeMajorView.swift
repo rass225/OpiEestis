@@ -13,9 +13,6 @@ struct CollegeMajorView: View {
             switch model.viewState {
             case .success:
                 tabView()
-                    .task {
-                        await model.loadSnapshots()
-                    }
                 switch model.tabSelection {
                 case .overview:
                     List {
@@ -60,6 +57,8 @@ struct CollegeMajorView: View {
             ToolbarItem(placement: .principal, content: smallIconView)
             ToolbarItem(placement: .navigationBarTrailing, content: favoritesButton)
         }
+        .toolbar(.visible, for: .tabBar)
+        .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
     }
 }
@@ -387,12 +386,13 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func requirementCell(_ requirement: Requirements) -> some View {
-        HStack{
+        HStack(alignment: .top, spacing: 4){
             Text(.init(requirement.term))
                 .tint(model.college.palette.base)
             Spacer()
             if let percentage = requirement.percentage {
                 Text("\(percentage)%")
+                    .setFont(.subheadline, .medium, .rounded)
             }
         }
         .setColor(.black)
@@ -410,28 +410,40 @@ extension CollegeMajorView {
     func personnelCell(_ person: Personnel) -> some View {
         HStack(alignment: .top,spacing: 16) {
             if let photo = person.photo, let url = URL(string: photo) {
-                AsyncImage(
-                    url: url,
-                    content: { image in
-                        image
-                            .resizable()
-                            .fill()
-                            .frame(width: 40, height: 40, alignment: .top)
-                            .clipShape(Circle())
-                            
-                    },
-                    placeholder: {
-                        Image.personFill
-                            .setFont(.title, .regular, .rounded)
-                            .setColor(model.college.palette.base.gradient)
-                            .frame(width: 40, height: 40)
-                    })
+                if let cachedImage = model.imageCache[url] {
+                    Image(uiImage: cachedImage)
+                        .resizable()
+                        .fill()
+                        .frame(width: 40, height: 40, alignment: .top)
+                        .clipShape(Circle())
+                } else {
+                    AsyncImage(
+                        url: url,
+                        content: { image in
+                            image
+                                .resizable()
+                                .fill()
+                                .frame(width: 40, height: 40, alignment: .top)
+                                .clipShape(Circle())
+                        },
+                        placeholder: {
+                            Image.personFill
+                                .setFont(.title2, .regular, .rounded)
+                                .setColor(model.college.palette.base.gradient)
+                                .frame(width: 40, height: 40)
+                                .background(model.college.palette.base.opacity(0.175))
+                                .clipShape(Circle())
+                        })
+                }
             } else {
                 Image.personFill
-                    .setFont(.title, .regular, .rounded)
+                    .setFont(.title2, .regular, .rounded)
                     .setColor(model.college.palette.base.gradient)
                     .frame(width: 40, height: 40)
+                    .background(model.college.palette.base.opacity(0.175))
+                    .clipShape(Circle())
             }
+
             VStack(alignment: .leading) {
                 Text(person.name)
                     .setFont(.subheadline, .regular, .rounded)
@@ -444,26 +456,19 @@ extension CollegeMajorView {
             HStack(spacing: 6) {
                 if let email = person.email {
                     Image.envelopeFill
-                        .setFont(.body, .regular, .rounded)
-                        .setColor(model.college.palette.base.gradient)
-                        .padding(10)
-                        .background(Circle().fill(model.college.palette.base.opacity(0.175)))
+                        .modifier(ContactButtonModifier(color: model.college.palette.base))
                         .onTapGesture {
                             model.openMail(email)
                         }
                 }
                 if let phone = person.phone {
                     Image.phoneFill
-                        .setFont(.body, .regular, .rounded)
-                        .setColor(model.college.palette.base.gradient)
-                        .padding(10)
-                        .background(Circle().fill(model.college.palette.base.opacity(0.175)))
+                        .modifier(ContactButtonModifier(color: model.college.palette.base))
                         .onTapGesture {
                             model.openPhone(phone)
                         }
                 }
             }
-            
         }
         .padding(.vertical, 4)
     }
@@ -476,9 +481,9 @@ extension CollegeMajorView {
     func backButton() -> some View {
         Button(action: { pathManager.path.removeLast() }) {
             Image.chevronLight
-                .frame(width: 35, height: 35)
                 .setFont(.callout, .bold, .rounded)
                 .setColor(model.college.palette.base.gradient)
+                .padding(.leading, 8)
         }
     }
     
@@ -498,13 +503,13 @@ extension CollegeMajorView {
             Image(systemName: "heart.fill")
                 .setFont(.body, .semibold, .rounded)
                 .setColor(model.college.palette.base.gradient)
-                .frame(width: 35)
+                .padding(.trailing, 4)
                 .onTapGesture(perform: model.removeFavorite)
         } else {
             Image(systemName: "heart")
                 .setFont(.body, .bold, .rounded)
                 .setColor(model.college.palette.base.gradient)
-                .frame(width: 35)
+                .padding(.trailing, 4)
                 .onTapGesture(perform: model.addFavorite)
         }
     }
@@ -527,7 +532,7 @@ extension CollegeMajorView {
                 if duration.isInt() {
                     topText = "\(Int(duration)) aastat"
                 } else {
-                    topText = String(format: "%.1f", duration) + "a"
+                    topText = String(format: "%.1f", duration) + " aastat"
                 }
                 bottomText = OEAppearance.Locale.duration
             case .spots(let spots):
@@ -571,5 +576,23 @@ extension CollegeMajorView {
         case cost(cost: Cost)
         case eap(count: String, hasEAP: Bool)
         case language(lang: String)
+    }
+}
+
+// MARK: - Modifiers
+
+private extension CollegeMajorView {
+    struct ContactButtonModifier: ViewModifier {
+        let color: Color
+        func body(content: Content) -> some View {
+            content
+                .setFont(.body, .regular, .rounded)
+                .setColor(color.gradient)
+                .padding(10)
+                .background(
+                    Circle()
+                        .fill(color.opacity(0.175))
+                )
+        }
     }
 }

@@ -55,6 +55,27 @@ class ImageManager: ObservableObject {
         }
     }
     
+    public func loadImage(ref: String, completion: @escaping (UIImage) -> Void) {
+        if let currentImage = checkSession(imageRef: ref) {
+            completion(currentImage)
+        } else if let localStorage = checkLocalStorage(imageRef: ref) {
+            addToSession(imageRef: ref, image: localStorage)
+            completion(localStorage)
+        } else {
+            firebase.fetchImage(ref: ref) { [weak self] result in
+                guard let self else { return }
+                switch result {
+                case .success(let success):
+                    addToSession(imageRef: ref, image: success)
+                    addToLocalStorage(imageRef: ref, image: success)
+                    completion(success)
+                case .failure:
+                    completion(UIImage())
+                }
+            }
+        }
+    }
+    
 //    public func loadCompanyImage(link: CollegeLink, completion: @escaping (UIImage) -> Void) {
 //        if let currentImage = checkSession(imageRef: link.imageRef) {
 //            completion(currentImage)
