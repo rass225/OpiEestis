@@ -223,6 +223,15 @@ extension MajorsView.Model {
         setSearchBarColor()
         setSegmentControlColor()
     }
+    
+    func flipDetailLevel() {
+        switch detailLevel {
+        case .detailed:
+            detailLevel = .minimal
+        case .minimal:
+            detailLevel = .detailed
+        }
+    }
 }
 
 // MARK: - Objects

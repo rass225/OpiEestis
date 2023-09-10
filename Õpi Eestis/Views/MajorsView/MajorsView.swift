@@ -27,8 +27,8 @@ struct MajorsView: View {
 private extension MajorsView {
     @ViewBuilder
     func majorsContent() -> some View {
-        ForEach(model.displayedMajors, id: \.self) { major in
-            majorCell(major)
+        ForEach(model.displayedMajors, id: \.self) {
+            majorCell($0)
         }
     }
     
@@ -36,15 +36,15 @@ private extension MajorsView {
     func levelsContent() -> some View {
         Section {
             Picker("", selection: $model.selectedLevel) {
-                ForEach(model.levels, id: \.self) { item in
-                    Text(item.label)
+                ForEach(model.levels, id: \.self) {
+                    Text($0.label)
                 }
             }
         }
         Section {
             Picker("", selection: $model.detailLevel) {
-                ForEach(Model.DetailLevel.allCases, id: \.self) { level in
-                    Label(level.label, systemImage: level.icon)
+                ForEach(Model.DetailLevel.allCases, id: \.self) {
+                    Label($0.label, systemImage: $0.icon)
                 }
             }
         }
@@ -85,19 +85,12 @@ private extension MajorsView {
                         .setFont(.title3, .semibold, .rounded)
                         .padding(.vertical, 12)
                         .padding(.trailing, 16)
-                        .onTapGesture {
-                            if model.detailLevel == .detailed {
-                                model.detailLevel = .minimal
-                            } else {
-                                model.detailLevel = .detailed
-                            }
-                        }
+                        .onTapGesture(perform: model.flipDetailLevel)
                 }
                 .overlay {
                     Text("Filtrid")
                         .setFont(.body, .medium, .rounded)
                 }
-                
                 List {
                     levelPicker()
                     languagePicker()
@@ -238,8 +231,8 @@ private extension MajorsView {
     @ViewBuilder
     func levelPicker() -> some View {
         Picker("Õppeaste", selection: $model.selectedLevel) {
-            ForEach(model.levels, id: \.self) { item in
-                Text(item.label)
+            ForEach(model.levels, id: \.self) {
+                Text($0.label)
             }
         }
         .padding(.vertical, 2)
@@ -248,8 +241,8 @@ private extension MajorsView {
     @ViewBuilder
     func languagePicker() -> some View {
         Picker("Õppekeel", selection: $model.selectedLanguage) {
-            ForEach(model.languages, id: \.self) { item in
-                Text(item.label)
+            ForEach(model.languages, id: \.self) {
+                Text($0.label)
             }
         }
         .padding(.vertical, 2)
@@ -260,9 +253,9 @@ private extension MajorsView {
         Picker("Linn", selection: $model.selectedLocation) {
             Text("Kõik")
                 .tag(Model.LocationSelection.all)
-            ForEach(model.locations, id: \.self) { item in
-                Text(item.rawValue)
-                    .tag(Model.LocationSelection.specific(item))
+            ForEach(model.locations, id: \.self) {
+                Text($0.rawValue)
+                    .tag(Model.LocationSelection.specific($0))
                
             }
         }
@@ -274,13 +267,13 @@ private extension MajorsView {
         Picker("Kestus", selection: $model.selectedDuration) {
             Text("Kõik")
                 .tag(Model.DurationSelection.all)
-            ForEach(model.durations, id: \.self) { item in
-                if item.isInt() {
-                    Text("\(Int(item)) aastat")
-                        .tag(Model.DurationSelection.specific(item))
+            ForEach(model.durations, id: \.self) {
+                if $0.isInt() {
+                    Text("\(Int($0)) aastat")
+                        .tag(Model.DurationSelection.specific($0))
                 } else {
-                    Text(String(format: "%.1f", item) + " aastat")
-                        .tag(Model.DurationSelection.specific(item))
+                    Text(String(format: "%.1f", $0) + " aastat")
+                        .tag(Model.DurationSelection.specific($0))
                 }
             }
         }
@@ -292,8 +285,8 @@ private extension MajorsView {
         HStack(spacing: 24) {
             Text("Maksumus")
             Picker("Maksumus", selection: $model.selectedCost) {
-                ForEach(Model.CostSelection.allCases, id: \.self) { item in
-                    Text(item.label)
+                ForEach(Model.CostSelection.allCases, id: \.self) {
+                    Text($0.label)
                 }
             }
             .pickerStyle(.segmented)

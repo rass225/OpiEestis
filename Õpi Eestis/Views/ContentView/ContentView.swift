@@ -9,8 +9,8 @@ struct ContentView: View {
         TabView(selection: appState.tabSelection) {
             NavigationStack(path: $appState.collegeNavigation) {
                 CollegesListView(schools: model.schools)
-                    .navigationDestination(for: CollegeDestination.self) { destination in
-                        switch destination {
+                    .navigationDestination(for: CollegeDestination.self) {
+                        switch $0 {
                         case let .college(college):
                             CollegeView(model: .init(college: college))
                         case let .majors(college, majors):
@@ -25,8 +25,8 @@ struct ContentView: View {
            
             NavigationStack(path: $appState.mapNavigation) {
                 MapView(locations: model.getAllBranches())
-                    .navigationDestination(for: CollegeDestination.self) { destination in
-                        switch destination {
+                    .navigationDestination(for: CollegeDestination.self) {
+                        switch $0 {
                         case let .college(college):
                             CollegeView(model: .init(college: college))
                         case let .majors(college, majors):
@@ -41,8 +41,8 @@ struct ContentView: View {
             
             NavigationStack(path: $appState.favoritesNavigation) {
                 FavoritesView(model: .init(colleges: model.schools))
-                    .navigationDestination(for: CollegeDestination.self) { destination in
-                        switch destination {
+                    .navigationDestination(for: CollegeDestination.self) {
+                        switch $0 {
                         case let .college(college):
                             CollegeView(model: .init(college: college))
                         case let .majors(college, majors):
