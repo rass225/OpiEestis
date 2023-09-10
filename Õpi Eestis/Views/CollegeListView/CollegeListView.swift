@@ -1,24 +1,18 @@
 import SwiftUI
 
 struct CollegesListView: View {
-    @EnvironmentObject var pathManager: PathManager
+    @EnvironmentObject var appState: AppState
     let schools: [College]
     
     var body: some View {
         List {
-            Section {
-                ForEach(schools) { college in
-                    collegeCell(college)
-                }
+            ForEach(schools) { college in
+                collegeCell(college)
             }
         }
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.white, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
-        .navigationDestination(for: College.self) { college in
-            CollegeView(model: .init(college: college))
-                .environmentObject(pathManager)
-        }
     }
 }
 
@@ -36,7 +30,7 @@ private extension CollegesListView {
         .contentShape(Rectangle())
         .listRowInsets(.collegeListInsets)
         .onTapGesture {
-            pathManager.path.append(college)
+            appState.route(to: CollegeDestination.college(college))
         }
     }
     

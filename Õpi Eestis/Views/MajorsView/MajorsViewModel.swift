@@ -11,12 +11,12 @@ extension MajorsView {
         @Published var searchText: String
         @Published var favorites: [Major]
         @Published var detailLevel: DetailLevel
-        
+        @Published var isFilterPresented: Bool
         @Published var levels: [Level]
         @Published var languages: [Language]
         @Published var durations: [Double]
         @Published var locations: [City]
-        private let dependencies: DependencyManager
+        private let dependencies: DependencyManager = .shared
         private var cancellables = Set<AnyCancellable>()
         
         let college: College
@@ -25,14 +25,15 @@ extension MajorsView {
         init(
             college: College,
             majors: [Major],
-            dependencies: DependencyManager = .shared,
             selectedLevel: Level = .all
         ) {
+            print("✅ Majors View Model initialized")
             self.selectedLevel = selectedLevel
             self.selectedLanguage = .all
             self.selectedCost = .all
             self.selectedDuration = .all
             self.selectedLocation = .all
+            self.isFilterPresented = false
             self.searchText = ""
             self.levels = []
             self.favorites = []
@@ -42,9 +43,12 @@ extension MajorsView {
             self.college = college
             self.majors = majors
             self.detailLevel = .detailed
-            self.dependencies = dependencies
             
             start()
+        }
+        
+        deinit {
+            print("Majors View Model deinitialized")
         }
         
         var filtersAmount: Int {
@@ -111,13 +115,6 @@ extension MajorsView {
 // MARK: - Private Methods
 
 private extension MajorsView.Model {
-    func start() {
-        configureDurations()
-        configureLevels()
-        configureLanguages()
-        configureLocations()
-        observeUserDefaults()
-    }
     
     func observeUserDefaults() {
         NotificationCenter
@@ -170,11 +167,29 @@ private extension MajorsView.Model {
         let uniqueLocations = Set(allLocations)
         locations = Array(uniqueLocations).sorted(by: \.rawValue)
     }
+    
+    func setSearchBarColor() {
+        UISearchBar.appearance().tintColor = UIColor(college.palette.base)
+    }
+    
+    func setSegmentControlColor() {
+        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor(college.palette.base)
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor(college.palette.base)], for: .normal)
+    }
 }
 
 // MARK: - Public Methods
 
 extension MajorsView.Model {
+    func start() {
+        configureDurations()
+        configureLevels()
+        configureLanguages()
+        configureLocations()
+//        observeUserDefaults()
+    }
+    
     func addFavorite(major: Major) {
         dependencies.userDefaults.addFavorite(
             university: college,
@@ -196,22 +211,17 @@ extension MajorsView.Model {
         }
     }
     
-    func setSearchBarColor() {
-        UISearchBar.appearance().tintColor = UIColor(college.palette.base)
-    }
-    
-    func setSegmentControlColor() {
-        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor(college.palette.base)
-        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
-        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor(college.palette.base)], for: .normal)
-    }
-    
     func resetFilters() {
         selectedCost = .all
         selectedLevel = .all
         selectedDuration = .all
         selectedLanguage = .all
         selectedLocation = .all
+    }
+    
+    func setTheme() {
+        setSearchBarColor()
+        setSegmentControlColor()
     }
 }
 

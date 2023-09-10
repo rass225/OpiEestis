@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct FavoritesView: View {
-    @EnvironmentObject private var pathManager: PathManager
+    @EnvironmentObject private var appState: AppState
     @StateObject var model: Model
     
     var body: some View {
@@ -21,14 +21,6 @@ struct FavoritesView: View {
                     }
                 }
             }
-        }
-        .navigationDestination(for: Model.Favorite.self) { favorite in
-            CollegeMajorView(
-                model: .init(
-                    major: favorite.major,
-                    college: favorite.college
-                )
-            )
         }
     }
     
@@ -109,10 +101,6 @@ struct FavoritesView: View {
     }
     
     func navigateToMajor(college: College, major: Major) {
-        let favorite: Model.Favorite = .init(
-            college: college,
-            major: major
-        )
-        pathManager.path.append(favorite)
+        appState.route(to: .major(college: college, major: major, isFavorite: true))
     }
 }

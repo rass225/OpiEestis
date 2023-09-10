@@ -35,13 +35,11 @@ extension CollegeView {
     
     @ViewBuilder
     func backButton() -> some View {
-        Image.chevronLight
-            .frame(height: 35)
-            .frame(width: 35)
-            .setFont(.callout, .bold, .rounded)
-            .setColor(model.college.palette.base.gradient)
-            .onTapGesture {
-//                dismiss.wrappedValue.dismiss()
-            }
+        Button(action: dismiss.callAsFunction) {
+            Image.chevronLight
+                .setFont(.callout, .bold, .rounded)
+                .setColor(model.college.palette.base.gradient)
+                .padding(.leading, 8)
+        }
     }
 }

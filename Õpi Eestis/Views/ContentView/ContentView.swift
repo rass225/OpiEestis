@@ -3,35 +3,64 @@ import CoreLocation
 import MapKit
 struct ContentView: View {
     @StateObject private var model = Model()
-    @StateObject private var collegesPathManager = PathManager()
-    @StateObject private var mapPathManager = PathManager()
-    @StateObject private var favoritesPathManager = PathManager()
-    @State var tabSelection: Tabs = .colleges
+    @StateObject private var appState = AppState()
     
     var body: some View {
-        TabView(selection: $tabSelection) {
-            NavigationStack(path: $collegesPathManager.path) {
+        TabView(selection: appState.tabSelection) {
+            NavigationStack(path: $appState.collegeNavigation) {
                 CollegesListView(schools: model.schools)
+                    .navigationDestination(for: CollegeDestination.self) { destination in
+                        switch destination {
+                        case let .college(college):
+                            CollegeView(model: .init(college: college))
+                        case let .majors(college, majors):
+                            MajorsView(model: .init(college: college, majors: majors))
+                        case let .major(college, major, isFavorite):
+                            CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+                        }
+                    }
             }
-            .environmentObject(collegesPathManager)
             .tabItem(collegesTabItem)
             .tag(Tabs.colleges)
-            
-            NavigationStack(path: $mapPathManager.path) {
+           
+            NavigationStack(path: $appState.mapNavigation) {
                 MapView(locations: model.getAllBranches())
+                    .navigationDestination(for: CollegeDestination.self) { destination in
+                        switch destination {
+                        case let .college(college):
+                            CollegeView(model: .init(college: college))
+                        case let .majors(college, majors):
+                            MajorsView(model: .init(college: college, majors: majors))
+                        case let .major(college, major, isFavorite):
+                            CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+                        }
+                    }
             }
-            .environmentObject(mapPathManager)
             .tabItem(mapTabItem)
             .tag(Tabs.map)
             
-            NavigationStack(path: $favoritesPathManager.path) {
+            NavigationStack(path: $appState.favoritesNavigation) {
                 FavoritesView(model: .init(colleges: model.schools))
+                    .navigationDestination(for: CollegeDestination.self) { destination in
+                        switch destination {
+                        case let .college(college):
+                            CollegeView(model: .init(college: college))
+                        case let .majors(college, majors):
+                            MajorsView(model: .init(college: college, majors: majors))
+                        case let .major(college, major, isFavorite):
+                            CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+                        }
+                    }
+                    
             }
-            .environmentObject(favoritesPathManager)
             .tabItem(favoritesTabItem)
             .tag(Tabs.favorites)
+            ProfileView()
+                .tabItem(profileTabItem)
+                .tag(Tabs.profile)
         }
         .tint(Color.oeBlue.gradient)
+        .environmentObject(appState)
     }
 }
 
@@ -49,6 +78,11 @@ extension ContentView {
     @ViewBuilder
     func favoritesTabItem() -> some View {
         Label("Lemmikud", systemImage: "heart.fill")
+    }
+    
+    @ViewBuilder
+    func profileTabItem() -> some View {
+        Label("Profiil", systemImage: "person.fill")
     }
 }
 

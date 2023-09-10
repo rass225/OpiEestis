@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct CollegeMajorView: View {
-    @EnvironmentObject var pathManager: PathManager
+    @EnvironmentObject var appState: AppState
     @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
     @Namespace var animation
@@ -9,47 +9,18 @@ struct CollegeMajorView: View {
     var body: some View {
         VStack(spacing: 0) {
             titleView()
-                .padding(.top, 8)
             switch model.viewState {
             case .success:
                 tabView()
                 switch model.tabSelection {
-                case .overview:
-                    List {
-                        Section(content: statsContent, header: statsHeader)
-                            .listRowSeparator(.hidden)
-                        Section(content: descriptionContent, header: descriptionHeader)
-                            .listRowSeparator(.hidden)
-                        Section(content: websiteContent, header: websiteHeader)
-                        locationsContent()
-                    }
-                case .modules:
-                    List {
-                        Section(content: modulesContent, header: modulesHeader)
-                    }
-                case .requirements:
-                    List {
-                        Section(
-                            content: requirementContent,
-                            header: requirementsHeader,
-                            footer: requirementsFooter
-                        )
-                    }
-                case .outcomes:
-                    List {
-                        Section(content: outcomesContent, header: outcomesHeader)
-                    }
-                case .personnel:
-                    List {
-                        Section(content: personnelContent, header: personnelHeader)
-                    }
+                case .overview: overviewView()
+                case .modules: modulesView()
+                case .requirements: requirementsView()
+                case .outcomes: outcomesView()
+                case .personnel: personnelView()
                 }
             case .loading:
-                Spacer()
-                ProgressView()
-                    .progressViewStyle(.circular)
-                    .tint(model.college.palette.base)
-                Spacer()
+                loadingView()
             }
         }
         .toolbar {
@@ -60,6 +31,62 @@ struct CollegeMajorView: View {
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
+        .task {
+            model.start()
+        }
+    }
+}
+
+// MARK: - Tabs
+
+private extension CollegeMajorView {
+    @ViewBuilder
+    func overviewView() -> some View {
+        List {
+            Section(content: statsContent, header: statsHeader)
+                .listRowSeparator(.hidden)
+            Section(content: descriptionContent, header: descriptionHeader)
+                .listRowSeparator(.hidden)
+            Section(content: websiteContent, header: websiteHeader)
+            locationsContent()
+        }
+    }
+    
+    @ViewBuilder
+    func modulesView() -> some View {
+        List {
+            Section(content: modulesContent, header: modulesHeader)
+        }
+    }
+    
+    @ViewBuilder
+    func requirementsView() -> some View {
+        List {
+            Section(
+                content: requirementContent,
+                header: requirementsHeader,
+                footer: requirementsFooter
+            )
+        }
+    }
+    
+    @ViewBuilder
+    func outcomesView() -> some View {
+        List {
+            Section(content: outcomesContent, header: outcomesHeader)
+        }
+    }
+    
+    @ViewBuilder
+    func personnelView() -> some View {
+        List {
+            Section(content: personnelContent, header: personnelHeader)
+        }
+    }
+    
+    @ViewBuilder
+    func loadingView() -> some View {
+        
     }
 }
 
@@ -77,6 +104,7 @@ extension CollegeMajorView {
         }
         .maxWidth(alignment: .center)
         .padding(.horizontal, 16)
+        .padding(.top, 8)
     }
     
     @ViewBuilder
@@ -479,21 +507,11 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: { pathManager.path.removeLast() }) {
+        Button(action: dismiss.callAsFunction) {
             Image.chevronLight
                 .setFont(.callout, .bold, .rounded)
                 .setColor(model.college.palette.base.gradient)
                 .padding(.leading, 8)
-        }
-    }
-    
-    @ViewBuilder
-    func resetButton() -> some View {
-        Button(action: { pathManager.reset() }) {
-            Image.dollarSign
-                .frame(width: 35, height: 35)
-                .setFont(.callout, .bold, .rounded)
-                .setColor(model.college.palette.base.gradient)
         }
     }
     

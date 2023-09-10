@@ -10,6 +10,7 @@ extension ContentView {
         init(
             dependencies: DependencyManager = .shared
         ) {
+            print("✅ Content View Model initialized")
             self.dependencies = dependencies
             self.schools = []
             fetchSchools()
@@ -36,22 +37,13 @@ extension ContentView.Model {
 
 private extension ContentView.Model {
     func fetchSchools() {
-        dependencies.firebase.fetchSchools {
-            switch $0 {
+        dependencies.firebase.fetchSchools { [weak self] result in
+            switch result {
             case let .success(schools):
-                self.schools = schools.sorted(by: \.name)
+                self?.schools = schools.sorted(by: \.name)
             case let .failure(error):
                 print(error)
             }
         }
-    }
-}
-
-
-extension ContentView {
-    enum Tabs {
-        case colleges
-        case map
-        case favorites
     }
 }

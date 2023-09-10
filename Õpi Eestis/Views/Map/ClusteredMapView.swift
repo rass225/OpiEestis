@@ -2,7 +2,7 @@ import SwiftUI
 import MapKit
 
 struct ClusteredMapView: UIViewRepresentable {
-    @EnvironmentObject var pathManager: PathManager
+    @EnvironmentObject var appState: AppState
     var locations: [CollegeBranch]
     let region: MKCoordinateRegion = MKCoordinateRegion(
         center: .init(
@@ -84,9 +84,8 @@ struct ClusteredMapView: UIViewRepresentable {
                 // Deselect the annotation so that it can be re-selected and zoomed in again
                 mapView.deselectAnnotation(clusterAnnotation, animated: false)
             } else if let collegeAnnotation = view.annotation as? CollegeAnnotation {
-                parent.pathManager.path.append(collegeAnnotation.branch.parentCollege)
+                parent.appState.route(to: CollegeDestination.college(collegeAnnotation.branch.parentCollege))
             }
         }
-
     }
 }

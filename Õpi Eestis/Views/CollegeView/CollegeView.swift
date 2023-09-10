@@ -2,9 +2,9 @@ import SwiftUI
 import MapKit
 
 struct CollegeView: View {
-    @EnvironmentObject var pathManager: PathManager
+    @EnvironmentObject var appState: AppState
+    @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
-    @State var presentMajors = false
     
     var body: some View {
         ScrollViewReader { scrollView in
@@ -24,16 +24,13 @@ struct CollegeView: View {
             .scrollIndicators(.hidden)
         }
         .toolbar {
+            ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
         }
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationDestination(for: Int.self) { _ in
-            MajorsView(model: .init(college: model.college, majors: model.majors))
-                .environmentObject(pathManager)
-        }
-        .sheet(isPresented: $model.isMailOpen, content: mailView)
+        .navigationBarBackButtonHidden()
+        
     }
 }
 
@@ -149,7 +146,10 @@ private extension CollegeView {
         .padding(.vertical, 4)
         .contentShape(Rectangle())
         .onTapGesture {
-            pathManager.path.append(1)
+            appState.route(to: CollegeDestination.majors(
+                college: model.college,
+                majors: model.majors
+            ))
         }
     }
     
@@ -199,7 +199,7 @@ private extension CollegeView {
         }
         .contentShape(Rectangle())
         .onTapGesture(perform: model.openMap)
-        Image(uiImage: model.mapSnapshot)
+        Image(uiImage: model.bigMap)
             .resizable()
             .fill()
             .listRowInsets(.zero)
@@ -208,14 +208,29 @@ private extension CollegeView {
                 Image("pin")
                     .resizable()
                     .fit()
-                    .frame(width: 50, height: 60)
+                    .frame(width: 32, height: 40)
                     .setColor(model.college.palette.base.gradient)
-                    .offset(x: 0, y: -24)
+                    .offset(x: 0, y: -16)
             }
             .frame(height: 400)
-        
-            .contentShape(Rectangle())
-            .onTapGesture(perform: model.openMap)
+            .overlay(alignment: .bottomTrailing) {
+                Image(uiImage: model.smallMap)
+                    .resizable()
+                    .fill()
+                    .frame(width: 56, height: 56)
+                    .smoothCorners(radius: 4)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 6)
+                            .stroke(.white, lineWidth: 2)
+                        )
+                    .padding(2)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(model.college.palette.base, lineWidth: 2)
+                        )
+                    .offset(x: -32, y: -16)
+                    .onTapGesture(perform: model.flipMap)
+            }
             .listRowInsets(.zero)
             .listRowSeparator(.hidden)
     }
@@ -269,8 +284,6 @@ private extension CollegeView {
         .padding(.top, 24)
     }
 }
-
-
 
 struct ViewOffsetKey: PreferenceKey {
     static var defaultValue: CGFloat = 0

@@ -6,40 +6,57 @@ extension CollegeView {
     class Model: ObservableObject {
         @Published var isSmallImageShown: Bool
         @Published var isMailOpen: Bool
-        @Published var mapSnapshot: UIImage
         @Published var majors: [Major]
         @Published var majorStats: [StatEntity]
         @Published var mailResult: Result<MFMailComposeResult, Error>?
         @Published var imageCache: [URL: UIImage] = [:]
+        @Published var mapState: MapState
         
         private let dependencies: DependencyManager
-        
+        private var standardMapSnapshot: UIImage
+        private var hybridMapSnapshot: UIImage
         let college: College
+        
+        var bigMap: UIImage {
+            switch mapState {
+            case .hybrid: return hybridMapSnapshot
+            case .standard: return standardMapSnapshot
+            }
+        }
+        
+        var smallMap: UIImage {
+            switch mapState {
+            case .hybrid: return standardMapSnapshot
+            case .standard: return hybridMapSnapshot
+            }
+        }
         
         init(
             college: College,
             dependencies: DependencyManager = .shared,
             isSmallImageShown: Bool = false,
-            mapSnapshot: UIImage = UIImage(),
+            standardMapSnapshot: UIImage = UIImage(),
+            hybridMapSnapshot: UIImage = UIImage(),
+            mapState: MapState = .hybrid,
             isMailOpen: Bool = false
             
         ) {
+            print("✅ College View Model initialized")
             self.isSmallImageShown = isSmallImageShown
             self.isMailOpen = isMailOpen
-            self.mapSnapshot = mapSnapshot
+            self.standardMapSnapshot = standardMapSnapshot
+            self.hybridMapSnapshot = hybridMapSnapshot
             self.majors = []
             self.majorStats = []
             self.college = college
             self.dependencies = dependencies
+            self.mapState = .standard
             
-            Task {
-                await withTaskGroup(of: Void.self) { group in
-                    group.addTask { self.prefetchImages() }
-                    group.addTask { await self.loadEducation() }
-                    group.addTask { self.loadMapSnapshot() }
-                    for await _ in group { }
-                }
-            }
+            start()
+        }
+        
+        deinit {
+            print("✅ College View Model deinitialized")
         }
     }
 }
@@ -54,7 +71,7 @@ extension CollegeView.Model {
     }
     
     func openEmail() {
-        isMailOpen.toggle()
+        dependencies.network.openMail(with: college.contact.email)
     }
     
     func openMap() {
@@ -64,15 +81,24 @@ extension CollegeView.Model {
     func openLink(_ url: URL) {
         dependencies.network.openLink(with: url)
     }
+    
+    func flipMap() {
+        switch mapState {
+        case .hybrid: mapState = .standard
+        case .standard: mapState = .hybrid
+        }
+    }
 }
 
 extension CollegeView.Model {
     func loadMapSnapshot() {
         let mapService = MapServiceManager()
         Task {
-            if let finalImage = await mapService.loadSnapshot(for: college.location.coordinates) {
+            let (standardImage, hybridImage) = await mapService.loadSnapshots(for: college.location.coordinates)
+            if let standardImage, let hybridImage {
                 DispatchQueue.main.async {
-                    self.mapSnapshot = finalImage
+                    self.standardMapSnapshot = standardImage
+                    self.hybridMapSnapshot = hybridImage
                 }
             }
         }
@@ -102,6 +128,17 @@ extension CollegeView.Model {
 }
 
 private extension CollegeView.Model {
+    func start() {
+        Task {
+            await withTaskGroup(of: Void.self) { group in
+                group.addTask { self.prefetchImages() }
+                group.addTask { await self.loadEducation() }
+                group.addTask { self.loadMapSnapshot() }
+                for await _ in group { }
+            }
+        }
+    }
+    
     func getLevelStats() -> [StatEntity] {
         var levels: [StatEntity] = []
         
@@ -183,5 +220,10 @@ extension CollegeView.Model {
         var doctor: CGFloat
         var applied: CGFloat
         var kutse: CGFloat
+    }
+    
+    enum MapState {
+        case standard
+        case hybrid
     }
 }

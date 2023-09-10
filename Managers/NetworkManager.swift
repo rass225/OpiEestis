@@ -35,7 +35,6 @@ extension NetworkManager {
         guard let url = URL(string: urlString) else {
             throw URLError(.badURL)
         }
-        
         let (data, response) = try await URLSession.shared.data(from: url)
         if let httpResponse = response as? HTTPURLResponse, (200..<300).contains(httpResponse.statusCode) {
             return data
@@ -65,6 +64,26 @@ extension NetworkManager {
         }
         
         return imageCache
+    }
+    
+    func fetchOisCourses(with uuids: [String]) async throws -> Data {
+        // Endpoint URL
+        let url = URL(string: "https://ois2.ut.ee/api/courses")! // Replace with your API endpoint
+        
+        // Setup the request
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("application/json", forHTTPHeaderField: "Accept")
+        
+        // Create the body
+        let requestBody = RequestBody(uuids: uuids)
+        request.httpBody = try JSONEncoder().encode(requestBody)
+        
+        // Send the request
+        let (data, _) = try await URLSession.shared.data(for: request)
+        
+        return data
     }
     
     func openLink(with url: URL) {
@@ -109,5 +128,11 @@ private extension NetworkManager {
             print("Error fetching image async: \(error)")
             return nil
         }
+    }
+}
+
+private extension NetworkManager {
+    struct RequestBody: Codable {
+        let uuids: [String]
     }
 }

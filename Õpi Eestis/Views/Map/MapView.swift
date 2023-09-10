@@ -2,16 +2,12 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    
-    @EnvironmentObject var pathManager: PathManager
+    @EnvironmentObject var appState: AppState
     let locations: [CollegeBranch]
     
     var body: some View {
         ClusteredMapView(locations: locations)
             .ignoresSafeArea(edges: .top)
-            .navigationDestination(for: College.self) {
-                CollegeView(model: .init(college: $0))
-            }
     }
 }
 

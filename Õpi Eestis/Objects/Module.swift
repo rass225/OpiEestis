@@ -1,6 +1,6 @@
 import Foundation
 
-struct Module: Hashable, Codable {
+struct Module: Hashable, Codable, Equatable {
     var name: String
     var courses: [Course]
     var submodules: [Submodule]?

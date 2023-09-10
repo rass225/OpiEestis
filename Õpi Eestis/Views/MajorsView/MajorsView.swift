@@ -1,10 +1,9 @@
 import SwiftUI
 
 struct MajorsView: View {
-    @EnvironmentObject var pathManager: PathManager
-    @Environment(\.presentationMode) var dismiss
+    @EnvironmentObject var appState: AppState
+    @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
-    @State var test = false
     
     var body: some View {
         List {
@@ -16,23 +15,10 @@ struct MajorsView: View {
             ToolbarItem(placement: .principal, content: smallIconView)
             ToolbarItem(placement: .navigationBarTrailing, content: filterButton)
         }
-        .sheet(isPresented: $test, content: filterView)
-        .onAppear(perform: model.setSearchBarColor)
-        .onAppear(perform: model.setSegmentControlColor)
+        .sheet(isPresented: $model.isFilterPresented, content: filterView)
+        .onAppear(perform: model.setTheme)
         .onAppear(perform: model.getFavorites)
-        .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden()
-        .navigationDestination(for: Major.self) { major in
-            CollegeMajorView(
-                model: .init(
-                    major: major,
-                    college: model.college,
-                    isFavorite: model.favorites.contains(major),
-                    tabSelection: .overview
-                )
-            )
-            .environmentObject(pathManager)
-        }
     }
 }
 
@@ -121,13 +107,11 @@ private extension MajorsView {
                 }
                 .scrollIndicators(.hidden)
             }
-            
             .setFont(.subheadline, .medium, .rounded)
             .navigationBarTitleDisplayMode(.inline)
         }
         .presentationDetents([.medium])
         .presentationCornerRadius(16)
-//        .presentationDragIndicator(.visible)
     }
 }
 
@@ -173,7 +157,11 @@ extension MajorsView {
         }
         .contentShape(Rectangle())
         .onTapGesture {
-            pathManager.path.append(major)
+            appState.route(to: CollegeDestination.major(
+                college: model.college,
+                major: major,
+                isFavorite: model.favorites.contains(major)
+            ))
         }
     }
 }
@@ -203,20 +191,11 @@ private extension MajorsView {
     
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: { dismiss.wrappedValue.dismiss() }) {
+        Button(action: dismiss.callAsFunction) {
             Image.chevronLight
                 .setFont(.callout, .bold, .rounded)
                 .setColor(model.college.palette.base.gradient)
                 .padding(.leading, 8)
-        }
-    }
-    
-    @ViewBuilder
-    func homeButton() -> some View {
-        Button(action: { pathManager.path = NavigationPath() }) {
-            Image(systemName: "chevron.backward.2")
-                .setFont(.callout, .bold, .rounded)
-                .setColor(model.college.palette.base.gradient)
         }
     }
     
@@ -237,7 +216,7 @@ private extension MajorsView {
                 }
             }
             .onTapGesture {
-                test.toggle()
+                model.isFilterPresented.toggle()
             }
     }
     
@@ -316,9 +295,9 @@ private extension MajorsView {
                 ForEach(Model.CostSelection.allCases, id: \.self) { item in
                     Text(item.label)
                 }
-            }.pickerStyle(.segmented)
-                .padding(.vertical, 4)
+            }
+            .pickerStyle(.segmented)
+            .padding(.vertical, 4)
         }
-        
     }
 }
