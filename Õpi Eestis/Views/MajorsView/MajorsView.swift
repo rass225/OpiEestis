@@ -9,7 +9,7 @@ struct MajorsView: View {
         List {
             Section(content: majorsContent, header: hiddenHeader)
         }
-        .searchable(text: $model.searchText, placement: .navigationBarDrawer, prompt: Text("Otsi eriala"))
+        .searchable(text: $model.debouncedSearchText, placement: .navigationBarDrawer, prompt: Text("Otsi eriala"))
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)

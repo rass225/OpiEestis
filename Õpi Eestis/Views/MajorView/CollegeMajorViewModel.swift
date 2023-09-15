@@ -11,7 +11,7 @@ extension CollegeMajorView {
         @Published var mapLocations: [MapLocation]
         @Published var viewState: ViewState
         @Published var imageCache: [URL: UIImage] = [:]
-        
+        @Published var didLoad = false
         @Published var oisCourses: [OisDetailedCourse] = []
         
         let college: College
@@ -47,11 +47,7 @@ extension CollegeMajorView {
             }
             
             self.tabPool = tabs
-            
-            
             observeUserDefaults()
-            
-            
         }
         
         deinit {
@@ -162,12 +158,16 @@ private extension CollegeMajorView.Model {
     func fetchCurriculum2() async {
         if let models = major.modules, !models.isEmpty {
             DispatchQueue.main.async {
-                self.tabPool.append(.modules)
+                if !self.tabPool.contains(.modules) {
+                    self.tabPool.append(.modules)
+                }
             }
         }
         if let outcomes = major.outcomes, !outcomes.isEmpty {
             DispatchQueue.main.async {
-                self.tabPool.append(.outcomes)
+                if !self.tabPool.contains(.outcomes) {
+                    self.tabPool.append(.outcomes)
+                }
             }
         }
         
@@ -318,41 +318,43 @@ private extension CollegeMajorView.Model {
     }
     
     func convertOisDataToModule(blocks: [OisBlock], detailedCourses: [OisDetailedCourse]) -> [Module] {
-        var modules: [Module] = []
-
-        for block in blocks {
-            for oisSubmodule in block.submodules {
+        return blocks.map { block -> Module in
+            let submodules = block.submodules.compactMap { oisSubmodule -> Submodule in
                 let courses = oisSubmodule.courses?
                     .compactMap { convertOisCourseToCourse($0, detailedCourses: detailedCourses) }
                     .sorted(by: \.name) ?? []
-                let subModules = oisSubmodule.submodules?
+                
+                let subSubmodules = oisSubmodule.submodules?
                     .compactMap { convertOisSubsubmoduleToSubmodule($0, detailedCourses: detailedCourses) }
                     .sorted(by: \.name)
 
-                if courses.isEmpty && subModules == nil {
+                if courses.isEmpty && subSubmodules == nil {
                     let singleCourse = Course(
-                        name: oisSubmodule.title.et,
+                        name: oisSubmodule.title.et.capitalizedSentence,
                         eapCount: oisSubmodule.credits
                     )
-                    let module = Module(
-                        name: oisSubmodule.title.et,
+                    return Submodule(
+                        name: oisSubmodule.title.et.capitalizedSentence,
                         courses: [singleCourse],
                         submodules: nil
                     )
-                    modules.append(module)
                 } else {
-                    let module = Module(
-                        name: oisSubmodule.title.et,
+                    return Submodule(
+                        name: oisSubmodule.title.et.capitalizedSentence,
                         courses: courses,
-                        submodules: subModules
+                        submodules: subSubmodules
                     )
-                    modules.append(module)
                 }
             }
+            return Module(
+                name: block.title.et.capitalizedSentence,
+                courses: [],
+                submodules: submodules
+            )
         }
-
-        return modules
     }
+
+
     
     func convertOisCourseToCourse(
         _ oisCourse: OisCourse,
@@ -368,27 +370,44 @@ private extension CollegeMajorView.Model {
     func convertOisSubsubmoduleToSubmodule(
         _ oisSubsubmodule: OisSubSubmodule,
         detailedCourses: [OisDetailedCourse]
-    ) -> Submodule? {
+    ) -> SubSubmodule? {
         let subsubmoduleCourses = oisSubsubmodule.courses?
             .compactMap { convertOisCourseToCourse($0, detailedCourses: detailedCourses) }
             .sorted(by: \.name) ?? []
 
-        if subsubmoduleCourses.isEmpty {
+        let subsubsubmodules = oisSubsubmodule.submodules?
+            .compactMap { convertOisSubsubsubmoduleToSubsubsubmodule($0, detailedCourses: detailedCourses) }
+            .sorted(by: \.name)
+
+        if subsubmoduleCourses.isEmpty && subsubsubmodules == nil {
             let singleCourse = Course(
-                name: oisSubsubmodule.title.et,
+                name: oisSubsubmodule.title.et.capitalizedSentence,
                 eapCount: oisSubsubmodule.credits
             )
-            return Submodule(
-                name: oisSubsubmodule.title.et,
+            return SubSubmodule(
+                name: oisSubsubmodule.title.et.capitalizedSentence,
                 courses: [singleCourse],
-                submodules: nil
+                submodule: []
             )
         } else {
-            return Submodule(
-                name: oisSubsubmodule.title.et,
+            return SubSubmodule(
+                name: oisSubsubmodule.title.et.capitalizedSentence,
                 courses: subsubmoduleCourses,
-                submodules: nil
+                submodule: subsubsubmodules ?? []
             )
         }
+    }
+
+    func convertOisSubsubsubmoduleToSubsubsubmodule(
+        _ oisSubsubsubmodule: OisSubSubSubmodule,
+        detailedCourses: [OisDetailedCourse]
+    ) -> SubSubSubmodule {
+        let courses = oisSubsubsubmodule.courses?
+            .compactMap { convertOisCourseToCourse($0, detailedCourses: detailedCourses) }
+            .sorted(by: \.name) ?? []
+        return SubSubSubmodule(
+            name: oisSubsubsubmodule.title.et.capitalizedSentence,
+            courses: courses
+        )
     }
 }

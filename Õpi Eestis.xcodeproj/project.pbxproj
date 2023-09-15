@@ -65,6 +65,7 @@
 		C0C59E402AA8D5BE00423948 /* MapServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E3F2AA8D5BE00423948 /* MapServiceManager.swift */; };
 		C0C59E432AA8E23100423948 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E422AA8E23100423948 /* ProfileView.swift */; };
 		C0C59E452AAA083900423948 /* CollegeMajorView+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E442AAA083900423948 /* CollegeMajorView+Objects.swift */; };
+		C0C59E472AB4A45400423948 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E462AB4A45400423948 /* String+Extensions.swift */; };
 		C0D214432715B688000AD3D0 /* TallinnaTervishoid.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */; };
 		C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214462715C143000AD3D0 /* Pallas.json */; };
 		C0D2144C2715C147000AD3D0 /* Kunstiakadeemia.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */; };
@@ -186,6 +187,7 @@
 		C0C59E3F2AA8D5BE00423948 /* MapServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapServiceManager.swift; sourceTree = "<group>"; };
 		C0C59E422AA8E23100423948 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C0C59E442AAA083900423948 /* CollegeMajorView+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollegeMajorView+Objects.swift"; sourceTree = "<group>"; };
+		C0C59E462AB4A45400423948 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TallinnaTervishoid.json; sourceTree = "<group>"; };
 		C0D214462715C143000AD3D0 /* Pallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pallas.json; sourceTree = "<group>"; };
 		C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kunstiakadeemia.json; sourceTree = "<group>"; };
@@ -431,6 +433,7 @@
 				C0F85B512A753240007A65F7 /* EdgeInsets+Extension.swift */,
 				C0C59E192A90C69500423948 /* Sequence+Extension.swift */,
 				C0C59E1D2AA1268900423948 /* MKMapSnapshotter+Extension.swift */,
+				C0C59E462AB4A45400423948 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -729,6 +732,7 @@
 				C0F85B452A73DA77007A65F7 /* CollegeListView.swift in Sources */,
 				C032996025CC187100EB7862 /* Major.swift in Sources */,
 				C0C59E242AA1289100423948 /* CollegeView.Buttons.swift in Sources */,
+				C0C59E472AB4A45400423948 /* String+Extensions.swift in Sources */,
 				C0460E4F25AF0DDD00E4A15D /* Button Configure.swift in Sources */,
 				C0460EDA25B04CEE00E4A15D /* Font.swift in Sources */,
 				C03EA8AC2747FC6D00E07782 /* FavoritesView.swift in Sources */,

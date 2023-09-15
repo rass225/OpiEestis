@@ -32,7 +32,9 @@ struct CollegeMajorView: View {
         .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
         .task {
-            model.start()
+            if !model.didLoad {
+                model.start()
+            }
         }
     }
 }
@@ -86,7 +88,10 @@ private extension CollegeMajorView {
     
     @ViewBuilder
     func loadingView() -> some View {
-        
+        Spacer()
+        ProgressView()
+            .progressViewStyle(.circular)
+        Spacer()
     }
 }
 
@@ -414,17 +419,39 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func requirementCell(_ requirement: Requirements) -> some View {
-        HStack(alignment: .top, spacing: 4){
-            Text(.init(requirement.term))
-                .tint(model.college.palette.base)
-            Spacer()
-            if let percentage = requirement.percentage {
-                Text("\(percentage)%")
-                    .setFont(.subheadline, .medium, .rounded)
+        if let header = requirement.header {
+            DisclosureGroup(content: {
+                HStack(alignment: .top, spacing: 4){
+                    Text(.init(requirement.term))
+                        .tint(model.college.palette.base)
+                    Spacer()
+                    if let percentage = requirement.percentage {
+                        Text("\(percentage)%")
+                            .setFont(.subheadline, .medium, .rounded)
+                    }
+                }
+                .setColor(.black)
+                .setFont(.subheadline, .regular, .rounded)
+                .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
+            }, label: {
+                Text(.init(header))
+                    .setColor(.black)
+                    .setFont(.subheadline, .regular, .rounded)
+            })
+        } else {
+            HStack(alignment: .top, spacing: 4){
+                Text(.init(requirement.term))
+                    .tint(model.college.palette.base)
+                Spacer()
+                if let percentage = requirement.percentage {
+                    Text("\(percentage)%")
+                        .setFont(.subheadline, .medium, .rounded)
+                }
             }
+            .setColor(.black)
+            .setFont(.subheadline, .regular, .rounded)
         }
-        .setColor(.black)
-        .setFont(.subheadline, .regular, .rounded)
+        
     }
     
     @ViewBuilder
@@ -436,7 +463,7 @@ extension CollegeMajorView {
     
     @ViewBuilder
     func personnelCell(_ person: Personnel) -> some View {
-        HStack(alignment: .top,spacing: 16) {
+        HStack(alignment: .top, spacing: 8) {
             if let photo = person.photo, let url = URL(string: photo) {
                 if let cachedImage = model.imageCache[url] {
                     Image(uiImage: cachedImage)
@@ -444,6 +471,7 @@ extension CollegeMajorView {
                         .fill()
                         .frame(width: 40, height: 40, alignment: .top)
                         .clipShape(Circle())
+                        .padding(.trailing, 8)
                 } else {
                     AsyncImage(
                         url: url,
@@ -453,6 +481,7 @@ extension CollegeMajorView {
                                 .fill()
                                 .frame(width: 40, height: 40, alignment: .top)
                                 .clipShape(Circle())
+                                .padding(.trailing, 8)
                         },
                         placeholder: {
                             Image.personFill
@@ -461,6 +490,7 @@ extension CollegeMajorView {
                                 .frame(width: 40, height: 40)
                                 .background(model.college.palette.base.opacity(0.175))
                                 .clipShape(Circle())
+                                .padding(.trailing, 8)
                         })
                 }
             } else {
@@ -470,6 +500,7 @@ extension CollegeMajorView {
                     .frame(width: 40, height: 40)
                     .background(model.college.palette.base.opacity(0.175))
                     .clipShape(Circle())
+                    .padding(.trailing, 8)
             }
 
             VStack(alignment: .leading) {
@@ -479,8 +510,8 @@ extension CollegeMajorView {
                     .setColor(.gray)
                     .setFont(.footnote, .regular, .rounded)
             }
+            .maxWidth(alignment: .leading)
             
-            Spacer()
             HStack(spacing: 6) {
                 if let email = person.email {
                     Image.envelopeFill

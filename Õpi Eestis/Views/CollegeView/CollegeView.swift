@@ -212,7 +212,6 @@ private extension CollegeView {
                     .setColor(model.college.palette.base.gradient)
                     .offset(x: 0, y: -16)
             }
-            .frame(height: 400)
             .overlay(alignment: .bottomTrailing) {
                 Image(uiImage: model.smallMap)
                     .resizable()
@@ -228,7 +227,7 @@ private extension CollegeView {
                         RoundedRectangle(cornerRadius: 8)
                             .stroke(model.college.palette.base, lineWidth: 2)
                         )
-                    .offset(x: -32, y: -16)
+                    .offset(x: -16, y: -16)
                     .onTapGesture(perform: model.flipMap)
             }
             .listRowInsets(.zero)

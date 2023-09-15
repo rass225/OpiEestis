@@ -241,6 +241,20 @@ extension CollegeMajorView.Model {
         let title: OisModuleTitle
         let credits: Double
         let courses: [OisCourse]?
+        let submodules: [OisSubSubSubmodule]?
+        
+        enum CodingKeys: String, CodingKey {
+            case title
+            case credits = "max_credits"
+            case courses
+            case submodules
+        }
+    }
+    
+    struct OisSubSubSubmodule: Codable {
+        let title: OisModuleTitle
+        let credits: Double
+        let courses: [OisCourse]?
         
         enum CodingKeys: String, CodingKey {
             case title
@@ -248,6 +262,7 @@ extension CollegeMajorView.Model {
             case courses
         }
     }
+
     
     struct OisCourse: Codable {
         let mainUuid: String
@@ -264,7 +279,7 @@ extension CollegeMajorView.Model {
     }
     
     struct OisModuleTitle: Codable {
-        let en: String
+        let en: String?
         var et: String
         
         enum CodingKeys: String, CodingKey {
@@ -278,7 +293,7 @@ extension CollegeMajorView.Model {
             if et.hasPrefix(" ") {
                 et = String(et.dropFirst(1))
             }
-            self.en = try container.decode(String.self, forKey: .en)
+            self.en = try container.decodeIfPresent(String.self, forKey: .en)
         }
     }
     
@@ -308,6 +323,23 @@ extension CollegeMajorView.Model {
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
             self.et = try container.decode(String.self, forKey: .et)
+            et = et.replacingOccurrences(of: "\r\n1.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n2.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n3.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n4.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n5.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n6.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n7.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n8.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n9.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n10.\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.1. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.2. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.3. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.4. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.5. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.6. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11.7. ", with: "\n\n**•** ")
             et = et.replacingOccurrences(of: "\r", with: "")
             if et.hasPrefix("- ") {
                 et = "• " + et.dropFirst(2)

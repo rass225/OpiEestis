@@ -9,6 +9,7 @@ extension MajorsView {
         @Published var selectedDuration: DurationSelection
         @Published var selectedLocation: LocationSelection
         @Published var searchText: String
+        @Published var debouncedSearchText: String
         @Published var favorites: [Major]
         @Published var detailLevel: DetailLevel
         @Published var isFilterPresented: Bool
@@ -43,8 +44,15 @@ extension MajorsView {
             self.college = college
             self.majors = majors
             self.detailLevel = .detailed
-            
+            self.debouncedSearchText = ""
             start()
+            
+            $debouncedSearchText
+                .debounce(for: .seconds(0.2), scheduler: DispatchQueue.main)
+                .sink { [weak self] term in
+                    self?.searchText = term
+                }
+                .store(in: &cancellables)
         }
         
         deinit {
@@ -102,7 +110,7 @@ extension MajorsView {
             }
             
             if !searchText.isEmpty {
-                filteredMajors = filteredMajors.filter { $0.name.contains(searchText) }
+                filteredMajors = filteredMajors.filter { $0.name.lowercased().contains(searchText.lowercased()) }
             }
             
             filteredMajors = filteredMajors.sorted(by: \.name)
