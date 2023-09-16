@@ -252,6 +252,7 @@ private extension CollegeMajorView.Model {
             // Update UI on the main thread
             DispatchQueue.main.async {
                 self.major.eap = Int(coreDataResponse.credits)
+                self.major.curriculumDate = modulesDataResponse.general.year.et
                 if let primaryLanguage = coreDataResponse.general.inputLanguages.first, let language =  Language(from: primaryLanguage.et) {
                     self.major.language = language
                 }

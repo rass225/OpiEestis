@@ -32,7 +32,7 @@ class AppState: ObservableObject {
         },
         set: {
             if $0 == self.selectedIndex {
-                print("Pop to root view for first tab!!")
+                print("Pop to root view for \($0)!")
                 switch $0 {
                 case .map:
                     self.mapNavigation = .init()

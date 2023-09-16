@@ -17,7 +17,7 @@ extension CollegeView {
             Text(label.capitalized)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
-                .setColor(.black)
+                .setColor(Theme.Colors.black)
             Spacer()
         }
         .listRowInsets(.eight)

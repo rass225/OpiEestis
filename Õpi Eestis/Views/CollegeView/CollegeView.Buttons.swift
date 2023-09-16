@@ -24,7 +24,8 @@ extension CollegeView {
         Button(action: {
             UIPasteboard.general.string = text
         }) {
-            Image(systemName: "doc.on.doc.fill")
+            Image.docs
+                .setSymbol(.fill)
                 .font(.callout)
                 .fontWeight(.light)
                 .setColor(model.college.palette.base.gradient)

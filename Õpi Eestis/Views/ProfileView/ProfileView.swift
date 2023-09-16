@@ -25,7 +25,10 @@ struct ProfileView: View {
                 .onTapGesture {
                     isDonationsPresented.toggle()
                 }
-                .listRowBackground(Rectangle().fill(Color.oeBlue.gradient))
+                .listRowBackground(
+                    Rectangle()
+                        .fill(Theme.Colors.primary.gradient)
+                )
                 .foregroundColor(.white)
             }
             Section {

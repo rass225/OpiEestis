@@ -191,94 +191,14 @@ extension CollegeMajorView.Model {
         case success
     }
     
-    struct OisVersion: Codable {
-        let modules: OisModules
-        
-        func convertOisModulesToModules(isEnglishOnly: Bool) -> [Module] {
-            var newModules: [Module] = []
-            modules.blocks.forEach { module in
-                var newCourses: [Course] = []
-                module.submodules.forEach { courses in
-                    let course: Course = .init(
-                        name: courses.title.et,
-                        eapCount: courses.credits
-                    )
-                    newCourses.append(course)
-                }
-                let module: Module = .init(name: module.title.et, courses: newCourses)
-                newModules.append(module)
-                
-            }
-            
-            return newModules
-        }
-    }
-    
-    struct OisModules: Codable {
-        let blocks: [OisBlock]
-    }
-    
-    struct OisBlock: Codable {
-        let submodules: [OisSubmodule]
-        let title: OisModuleTitle
-    }
-    
-    struct OisSubmodule: Codable {
-        let title: OisModuleTitle
-        let credits: Double
-        let courses: [OisCourse]?
-        let submodules: [OisSubSubmodule]?
-        
-        enum CodingKeys: String, CodingKey {
-            case title
-            case credits = "max_credits"
-            case courses
-            case submodules
-        }
-    }
-    
-    struct OisSubSubmodule: Codable {
-        let title: OisModuleTitle
-        let credits: Double
-        let courses: [OisCourse]?
-        let submodules: [OisSubSubSubmodule]?
-        
-        enum CodingKeys: String, CodingKey {
-            case title
-            case credits = "max_credits"
-            case courses
-            case submodules
-        }
-    }
-    
-    struct OisSubSubSubmodule: Codable {
-        let title: OisModuleTitle
-        let credits: Double
-        let courses: [OisCourse]?
-        
-        enum CodingKeys: String, CodingKey {
-            case title
-            case credits = "max_credits"
-            case courses
-        }
-    }
-
-    
-    struct OisCourse: Codable {
-        let mainUuid: String
-        
-        enum CodingKeys: String, CodingKey {
-            case mainUuid = "main_uuid"
-        }
-    }
     
     struct OisDetailedCourse: Codable {
         let uuid: String
-        let title: OisModuleTitle
+        let title: OisText
         let credits: Double
     }
     
-    struct OisModuleTitle: Codable {
+    struct OisText: Codable {
         let en: String?
         var et: String
         
@@ -323,6 +243,7 @@ extension CollegeMajorView.Model {
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
             self.et = try container.decode(String.self, forKey: .et)
+            et = et.replacingOccurrences(of: "\r\n\r\n1)", with: "\n\n**•** ")
             et = et.replacingOccurrences(of: "\r\n1.\t", with: "\n\n**•** ")
             et = et.replacingOccurrences(of: "\r\n2.\t", with: "\n\n**•** ")
             et = et.replacingOccurrences(of: "\r\n3.\t", with: "\n\n**•** ")
@@ -340,7 +261,37 @@ extension CollegeMajorView.Model {
             et = et.replacingOccurrences(of: "\r\n11.5. ", with: "\n\n**•** ")
             et = et.replacingOccurrences(of: "\r\n11.6. ", with: "\n\n**•** ")
             et = et.replacingOccurrences(of: "\r\n11.7. ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n2)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n3)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n4)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n5)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n6)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n7)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n8)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n9)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n10)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n11)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n12)\t", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n1) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n2) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n3) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n4) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n5) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n6) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n7) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n8) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n9) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n1) ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "\r\n- ", with: "\n\n**•** ")
+            et = et.replacingOccurrences(of: "*\t", with: "**•** ")
             et = et.replacingOccurrences(of: "\r", with: "")
+            et = et.replacingOccurrences(of: "1) ", with: "**•** ")
+            et = et.replacingOccurrences(of: "2) ", with: "**•** ")
+            et = et.replacingOccurrences(of: "3) ", with: "**•** ")
+            et = et.replacingOccurrences(of: "4) ", with: "**•** ")
+            et = et.replacingOccurrences(of: "5) ", with: "**•** ")
+            et = et.replacingOccurrences(of: "6) ", with: "**•** ")
+            et = et.replacingOccurrences(of: "7) ", with: "**•** ")
             if et.hasPrefix("- ") {
                 et = "• " + et.dropFirst(2)
             }
@@ -356,7 +307,82 @@ extension CollegeMajorView.Model {
         }
     }
     
+    struct OisVersionGeneralInformation: Codable {
+        let inputLanguages: [OisLanguage]
+        let year: OisText
+        
+        enum CodingKeys: String, CodingKey {
+            case inputLanguages = "input_languages"
+            case year
+        }
+    }
+    
     struct OisLanguage: Codable {
         let et: String
+    }
+}
+
+// MARK: - Õis version related objects
+extension CollegeMajorView.Model {
+    struct OisVersion: Codable {
+        let modules: OisModules
+        let general: OisVersionGeneralInformation
+    }
+    
+    struct OisModules: Codable {
+        let blocks: [OisBlock]
+    }
+    
+    struct OisBlock: Codable {
+        let submodules: [OisSubmodule]
+        let title: OisText
+    }
+    
+    struct OisSubmodule: Codable {
+        let title: OisText
+        let credits: Double
+        let courses: [OisCourse]?
+        let submodules: [OisSubSubmodule]?
+        
+        enum CodingKeys: String, CodingKey {
+            case title
+            case credits = "max_credits"
+            case courses
+            case submodules
+        }
+    }
+    
+    struct OisSubSubmodule: Codable {
+        let title: OisText
+        let credits: Double
+        let courses: [OisCourse]?
+        let submodules: [OisSubSubSubmodule]?
+        
+        enum CodingKeys: String, CodingKey {
+            case title
+            case credits = "max_credits"
+            case courses
+            case submodules
+        }
+    }
+    
+    struct OisSubSubSubmodule: Codable {
+        let title: OisText
+        let credits: Double
+        let courses: [OisCourse]?
+        
+        enum CodingKeys: String, CodingKey {
+            case title
+            case credits = "max_credits"
+            case courses
+        }
+    }
+    
+    struct OisCourse: Codable {
+        let mainUuid: String
+        
+        enum CodingKeys: String, CodingKey {
+            case mainUuid = "main_uuid"
+        }
     }
 }

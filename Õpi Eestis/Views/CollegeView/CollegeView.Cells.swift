@@ -16,7 +16,7 @@ extension CollegeView {
             VStack(alignment: .leading, spacing: 0){
                 Text(topLabel)
                     .setFont(.subheadline, .semibold, .rounded)
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
                 Text(bottomLabel)
                     .setFont(.footnote, .regular, .rounded)
                     .setColor(.darkGray)
@@ -54,7 +54,8 @@ extension CollegeView {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 Text("\(item.count)")
                     .setFont(.subheadline, .semibold, .rounded)
-            }.setColor(.black)
+            }
+            .setColor(Theme.Colors.black)
         }
     }
     

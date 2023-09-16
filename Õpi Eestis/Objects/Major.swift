@@ -19,6 +19,7 @@ struct Major: Hashable, Codable {
     var personnel: [Personnel]?
     var curriculumRef: String?
     var isEnglishOnly: Bool?
+    var curriculumDate: String?
     
     enum CodingKeys: String, CodingKey {
         case name

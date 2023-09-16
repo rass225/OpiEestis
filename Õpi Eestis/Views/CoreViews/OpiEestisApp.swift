@@ -15,10 +15,14 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct OpiEestisApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject private var model: ContentView.Model = .init()
+    @StateObject private var appState = AppState()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(model)
+                .environmentObject(appState)
                 .statusBarHidden()
         }
     }

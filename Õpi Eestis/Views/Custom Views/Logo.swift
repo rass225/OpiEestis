@@ -7,8 +7,9 @@ struct Logo: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 35, height: 35)
-                .setColor(Color.oeBlue)
-            Text("Õpi Eestis").font(.semiBoldTitle3)
+                .setColor(Theme.Colors.primary)
+            Text("Õpi Eestis")
+                .setFont(.title3, .semibold, .rounded)
         }
     }
 }

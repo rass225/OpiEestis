@@ -34,12 +34,12 @@
 		C0460E5125AF0DDD00E4A15D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E4E25AF0DDD00E4A15D /* View.swift */; };
 		C0460E7025AF0E8100E4A15D /* Mariah.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E6825AF0E8100E4A15D /* Mariah.swift */; };
 		C0460EB825AF113300E4A15D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460EB725AF113300E4A15D /* Color.swift */; };
-		C0460EDA25B04CEE00E4A15D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460ED925B04CEE00E4A15D /* Font.swift */; };
 		C0518904274BE5AD00C4F352 /* Personnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0518903274BE5AD00C4F352 /* Personnel.swift */; };
 		C056AFC227704C5C00D4F9CA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C056AFC127704C5C00D4F9CA /* MapView.swift */; };
 		C06ED5D826AAEDED00E5812A /* Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06ED5D726AAEDED00E5812A /* Cost.swift */; };
 		C0755B96271793050045F6DC /* TÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0755B95271793050045F6DC /* TÜ.json */; };
 		C09868932766F0DA00C18C44 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09868922766F0DA00C18C44 /* Chevron.swift */; };
+		C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D1792AB6273E009218FC /* Theme.swift */; };
 		C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBC265271FD00CE9130 /* CourseView.swift */; };
 		C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFA255272D40E40025BD1E /* UINavigationController.swift */; };
 		C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E132A8A5CC800423948 /* PathManager.swift */; };
@@ -156,12 +156,12 @@
 		C0460E4E25AF0DDD00E4A15D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C0460E6825AF0E8100E4A15D /* Mariah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mariah.swift; sourceTree = "<group>"; };
 		C0460EB725AF113300E4A15D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		C0460ED925B04CEE00E4A15D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		C0518903274BE5AD00C4F352 /* Personnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personnel.swift; sourceTree = "<group>"; };
 		C056AFC127704C5C00D4F9CA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C06ED5D726AAEDED00E5812A /* Cost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost.swift; sourceTree = "<group>"; };
 		C0755B95271793050045F6DC /* TÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TÜ.json"; sourceTree = "<group>"; };
 		C09868922766F0DA00C18C44 /* Chevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
+		C0B6D1792AB6273E009218FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C0B93FBC265271FD00CE9130 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		C0BFA255272D40E40025BD1E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C0C59E132A8A5CC800423948 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
@@ -421,7 +421,6 @@
 				C0460E4C25AF0DDD00E4A15D /* Button Configure.swift */,
 				C0460E4E25AF0DDD00E4A15D /* View.swift */,
 				C0460EB725AF113300E4A15D /* Color.swift */,
-				C0460ED925B04CEE00E4A15D /* Font.swift */,
 				C018106E25C049530026A86F /* Double.swift */,
 				C0F476CE25C197140082A20F /* Array.swift */,
 				C01B63E725C30412004D144F /* Image.swift */,
@@ -507,6 +506,7 @@
 				C0F85B552A781E3E007A65F7 /* UserDefaultsManager.swift */,
 				C0C59E132A8A5CC800423948 /* PathManager.swift */,
 				C0C59E3D2AA8D59600423948 /* NetworkManager.swift */,
+				C0B6D1792AB6273E009218FC /* Theme.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -716,6 +716,7 @@
 				C0F85B632A7EA73E007A65F7 /* CollegeMajorView.swift in Sources */,
 				C0460E1725AF0C2700E4A15D /* ContentView.swift in Sources */,
 				C0C59E1A2A90C69500423948 /* Sequence+Extension.swift in Sources */,
+				C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */,
 				C0F85B562A781E3E007A65F7 /* UserDefaultsManager.swift in Sources */,
 				C032998825CC196100EB7862 /* Language.swift in Sources */,
 				C0F85B652A8000A3007A65F7 /* CollegeMajorViewModel.swift in Sources */,
@@ -734,7 +735,6 @@
 				C0C59E242AA1289100423948 /* CollegeView.Buttons.swift in Sources */,
 				C0C59E472AB4A45400423948 /* String+Extensions.swift in Sources */,
 				C0460E4F25AF0DDD00E4A15D /* Button Configure.swift in Sources */,
-				C0460EDA25B04CEE00E4A15D /* Font.swift in Sources */,
 				C03EA8AC2747FC6D00E07782 /* FavoritesView.swift in Sources */,
 				C0C59E362AA2616E00423948 /* Course.swift in Sources */,
 				C0C59E202AA1280000423948 /* CollegeView.Headers.swift in Sources */,

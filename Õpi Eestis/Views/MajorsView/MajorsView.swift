@@ -117,7 +117,7 @@ extension MajorsView {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
                     .setFont(.callout, .medium, .rounded)
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
                 VStack(alignment: .leading, spacing: 24) {
                     Text(major.level.rawValue.capitalized)
                         .setFont(.subheadline, .medium, .rounded)
@@ -202,7 +202,7 @@ private extension MajorsView {
                 if model.filtersAmount > 0 {
                     Text(String(model.filtersAmount))
                         .setFont(.footnote, .semibold, .rounded)
-                        .setColor(.white)
+                        .setColor(Theme.Colors.white)
                         .padding(5)
                         .background(Circle().fill(Color.red))
                         .offset(x: 0, y: -10)

@@ -40,6 +40,7 @@ private extension ContentView.Model {
         dependencies.firebase.fetchSchools { [weak self] result in
             switch result {
             case let .success(schools):
+                print("Colleges fetched")
                 self?.schools = schools.sorted(by: \.name)
             case let .failure(error):
                 print(error)

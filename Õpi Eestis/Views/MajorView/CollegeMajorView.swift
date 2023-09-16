@@ -254,7 +254,7 @@ extension CollegeMajorView {
             Text(label.capitalized)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
-                .setColor(.black)
+                .setColor(Theme.Colors.black)
             Spacer()
         }
         .padding(.top, isTop ? 32 : 0)
@@ -290,6 +290,17 @@ extension CollegeMajorView {
             type: .cost(cost: model.major.cost),
             color: model.college.palette.base
         )
+        if let curriculumDate = model.major.curriculumDate {
+            HStack(alignment: .center, spacing: 16) {
+                Image(systemName: "calendar")
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                Text(curriculumDate)
+                    .setFont(.subheadline, .medium, .rounded)
+                    .setColor(Theme.Colors.black)
+            }
+            .badge(Text("Õppeaasta").setFont(.footnote, .regular, .rounded))
+        }
     }
     
     @ViewBuilder
@@ -311,7 +322,7 @@ extension CollegeMajorView {
                     color: model.college.palette.base
                 )
             }
-            .font(.regularSubHeadline)
+            .setFont(.subheadline, .regular, .rounded)
             .tint(model.college.palette.base)
         }
     }
@@ -361,7 +372,7 @@ extension CollegeMajorView {
                     HStack{
                         Text(model.mapLocations[index].address)
                             .setFont(.subheadline, .regular, .rounded)
-                            .setColor(.black)
+                            .setColor(Theme.Colors.black)
                         Spacer()
                         Chevron(type: .link)
                     }
@@ -376,9 +387,9 @@ extension CollegeMajorView {
                             Image("pin")
                                 .resizable()
                                 .fit()
-                                .frame(width: 50, height: 60)
+                                .frame(width: 32, height: 40)
                                 .setColor(model.college.palette.base.gradient)
-                                .offset(x: 0, y: -24)
+                                .offset(x: 0, y: -16)
                         }
                         .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
                 }, header: locationsHeader)
@@ -387,7 +398,7 @@ extension CollegeMajorView {
                     HStack{
                         Text(model.mapLocations[index].address)
                             .setFont(.subheadline, .regular, .rounded)
-                            .setColor(.black)
+                            .setColor(Theme.Colors.black)
                         Spacer()
                         Chevron(type: .link)
                     }
@@ -430,12 +441,12 @@ extension CollegeMajorView {
                             .setFont(.subheadline, .medium, .rounded)
                     }
                 }
-                .setColor(.black)
+                .setColor(Theme.Colors.black)
                 .setFont(.subheadline, .regular, .rounded)
                 .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
             }, label: {
                 Text(.init(header))
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
                     .setFont(.subheadline, .regular, .rounded)
             })
         } else {
@@ -448,7 +459,7 @@ extension CollegeMajorView {
                         .setFont(.subheadline, .medium, .rounded)
                 }
             }
-            .setColor(.black)
+            .setColor(Theme.Colors.black)
             .setFont(.subheadline, .regular, .rounded)
         }
         
@@ -458,7 +469,7 @@ extension CollegeMajorView {
     func outcomeCell(_ outcome: String) -> some View {
         Text(.init(outcome))
             .setFont(.subheadline, .regular, .rounded)
-            .setColor(.black)
+            .setColor(Theme.Colors.black)
     }
     
     @ViewBuilder
@@ -613,7 +624,7 @@ extension CollegeMajorView {
                     .setFont(.body, .regular, .rounded)
                 Text(topText)
                     .setFont(.subheadline, .medium, .rounded)
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
             }
             .badge(Text(bottomText).setFont(.footnote, .regular, .rounded))
         }

@@ -73,7 +73,7 @@ private extension CollegeView {
         VStack(spacing: 0) {
             Text(model.college.name.capitalized)
                 .setFont(.title3, .semibold, .rounded)
-                .setColor(.black)
+                .setColor(Theme.Colors.black)
                 .textCase(.none)
                 .maxWidth()
                 .padding(.top, 16)
@@ -144,6 +144,7 @@ private extension CollegeView {
             }.frame(height: 13)
         }
         .padding(.vertical, 4)
+        .listRowBackground(Theme.Colors.white)
         .contentShape(Rectangle())
         .onTapGesture {
             appState.route(to: CollegeDestination.majors(
@@ -177,7 +178,7 @@ private extension CollegeView {
                     .setFont(.subheadline, .regular, .rounded)
                     .lineLimit(isExpanded ? nil : 5)
                     .truncationMode(.tail)
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
                 Text(isExpanded ? OEAppearance.Locale.expanded.isExpanded : OEAppearance.Locale.expanded.notExpanded)
                     .setFont(.caption2, .medium, .rounded)
                     .setColor(.gray)
@@ -193,7 +194,7 @@ private extension CollegeView {
         HStack{
             Text(model.college.location.longAddress)
                 .setFont(.subheadline, .regular, .rounded)
-                .setColor(.black)
+                .setColor(Theme.Colors.black)
             Spacer()
             Chevron(type: .link)
         }

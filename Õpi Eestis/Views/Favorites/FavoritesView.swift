@@ -32,9 +32,9 @@ struct FavoritesView: View {
             Text("Sul ei ole ühtegi lemmikut lisatud")
                 .setFont(.subheadline, .medium, .rounded)
         }
-        .setColor(.darkGray)
+        .setColor(.gray)
         .maxSize()
-        .background(Color.whiteDim1)
+        .background(Theme.Colors.systemGray)
     }
     
     @ViewBuilder
@@ -43,7 +43,7 @@ struct FavoritesView: View {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
                     .setFont(.callout, .medium, .rounded)
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
                 VStack(alignment: .leading, spacing: 24) {
                     Text(major.level.rawValue.capitalized)
                         .setFont(.subheadline, .medium, .rounded)
@@ -88,14 +88,14 @@ struct FavoritesView: View {
                 Text(college.name.capitalized)
                     .setFont(.body, .medium, .rounded)
                     .textCase(.none)
-                    .setColor(.black)
+                    .setColor(Theme.Colors.black)
             }
             .padding(.top)
             .listRowInsets(.eight)
         } else {
             Text(name)
                 .setFont(.callout, .medium, .rounded)
-                .setColor(.black)
+                .setColor(Theme.Colors.black)
                 .listRowInsets(.eight)
         }
     }

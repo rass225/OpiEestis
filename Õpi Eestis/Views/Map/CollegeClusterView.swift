@@ -21,7 +21,7 @@ class CollegeClusterView: MKAnnotationView {
 
             // Add the label to a blue circular background
             let backgroundView = UIView()
-            backgroundView.backgroundColor = UIColor(Color.oeBlue)
+            backgroundView.backgroundColor = UIColor(Theme.Colors.primary)
             backgroundView.layer.cornerRadius = 22
             backgroundView.layer.masksToBounds = true
             backgroundView.frame = CGRect(x: 0, y: 0, width: 44, height: 44)

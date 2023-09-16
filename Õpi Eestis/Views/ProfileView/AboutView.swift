@@ -21,7 +21,7 @@ struct AboutView: View {
             .setFont(.footnote, .regular, .rounded)
             .padding(.vertical)
         }
-        .setColor(.black)
+        .setColor(Theme.Colors.black)
         .toolbar {
             ToolbarItem(placement: .principal, content: {
                 Text("Rakendusest")
@@ -38,7 +38,7 @@ struct AboutView: View {
         Button(action: { dismiss() }) {
             Image.chevronLight
                 .setFont(.callout, .bold, .rounded)
-                .setColor(Color.oeBlue.gradient)
+                .setColor(Theme.Colors.primary.gradient)
                 .padding(.leading, 8)
         }
     }
