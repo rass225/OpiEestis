@@ -4,26 +4,6 @@ import SwiftUI
 
 extension CollegeView {
     @ViewBuilder
-    func header(
-        label: String,
-        image: Image,
-        color: Color
-    ) -> some View {
-        HStack(spacing: 8){
-            image
-                .font(.body)
-                .setColor(color.gradient)
-                .frame(width: 20, alignment: .leading)
-            Text(label.capitalized)
-                .setFont(.body, .semibold, .rounded)
-                .textCase(.none)
-                .setColor(Theme.Colors.black)
-            Spacer()
-        }
-        .listRowInsets(.eight)
-    }
-    
-    @ViewBuilder
     func subHeader(label: String) -> some View {
         Text(label)
             .setFont(.subheadline, .regular, .rounded)
@@ -32,45 +12,45 @@ extension CollegeView {
     
     @ViewBuilder
     func contactHeader() -> some View {
-        header(
+        Header(
             label: "Kontakt",
-            image: .phoneFill,
+            image: Theme.Icons.phone,
             color: model.college.palette.base
         )
     }
     
     @ViewBuilder
     func admissionHeader() -> some View {
-        header(
+        Header(
             label: "Vastuvõtt",
-            image: .requirementsFill,
+            image: Theme.Icons.requirements,
             color: model.college.palette.base
         )
     }
     
     @ViewBuilder
     func summaryHeader() -> some View {
-        header(
+        Header(
             label: "Koolist",
-            image: .graduationFill,
+            image: Theme.Icons.graduation,
             color: model.college.palette.base
         )
     }
     
     @ViewBuilder
     func locationHeader() -> some View {
-        header(
+        Header(
             label: "Asukoht",
-            image: .locationFill,
+            image: Theme.Icons.location,
             color: model.college.palette.base
         )
     }
     
     @ViewBuilder
     func majorsHeader() -> some View {
-        header(
+        Header(
             label: "Erialad",
-            image: .textBook,
+            image: Theme.Icons.textBook,
             color: model.college.palette.base
         )
     }

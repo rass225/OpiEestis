@@ -70,52 +70,44 @@ extension MajorsView {
         }
         
         var displayedMajors: [Major] {
-            var filteredMajors = majors
+            let result = majors.filter { major in
+                if case let .specific(city) = selectedLocation, !major.studyLocation.contains(city) {
+                    return false
+                }
+                
+                if selectedLevel != .all, major.level != selectedLevel {
+                    return false
+                }
+                
+                if selectedLanguage != .all, major.language != selectedLanguage {
+                    return false
+                }
+                
+                switch selectedCost {
+                case .all:
+                    break
+                case .paid:
+                    if major.cost.amount <= 0 {
+                        return false
+                    }
+                case .free:
+                    if major.cost.amount > 0 {
+                        return false
+                    }
+                }
+
+                if case let .specific(duration) = selectedDuration, major.duration != duration {
+                    return false
+                }
+                
+                if !searchText.isEmpty, !major.name.lowercased().contains(searchText.lowercased()) {
+                    return false
+                }
+                
+                return true
+            }.sorted(by: \.name)
             
-            switch selectedLocation {
-            case .all:
-                break
-            case let .specific(city):
-                filteredMajors = filteredMajors.filter { $0.studyLocation.contains(city) }
-            }
-            
-            switch selectedLevel {
-            case .all:
-                break
-            default:
-                filteredMajors = filteredMajors.filter { $0.level ==  selectedLevel }
-            }
-            
-            switch selectedLanguage {
-            case .all:
-                break
-            default:
-                filteredMajors = filteredMajors.filter { $0.language ==  selectedLanguage }
-            }
-            
-            switch selectedCost {
-            case .all:
-                break
-            case .paid:
-                filteredMajors = filteredMajors.filter { $0.cost.amount > 0 }
-            case .free:
-                filteredMajors = filteredMajors.filter { $0.cost.amount == 0 }
-            }
-            
-            switch selectedDuration {
-            case .all:
-                break
-            case let .specific(duration):
-                filteredMajors = filteredMajors.filter { $0.duration == duration }
-            }
-            
-            if !searchText.isEmpty {
-                filteredMajors = filteredMajors.filter { $0.name.lowercased().contains(searchText.lowercased()) }
-            }
-            
-            filteredMajors = filteredMajors.sorted(by: \.name)
-            
-            return filteredMajors
+            return result
         }
     }
 }
@@ -195,7 +187,7 @@ extension MajorsView.Model {
         configureLevels()
         configureLanguages()
         configureLocations()
-//        observeUserDefaults()
+        observeUserDefaults()
     }
     
     func addFavorite(major: Major) {

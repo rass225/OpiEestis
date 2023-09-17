@@ -53,10 +53,6 @@ internal enum OEAppearance {
             internal static let russian = "Vene keel"
         }
         
-//        internal enum search {
-//            internal static let searchPlaceholder = "Otsi eriala..."
-//        }
-        
         internal enum degrees {
             internal static let allMajors = "Kõik erialad"
             internal static let bachelors = "Bakalaureuseõpe"

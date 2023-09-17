@@ -1,9 +1,6 @@
 import SwiftUI
 
 struct AboutView: View {
-    
-    @Environment(\.dismiss) var dismiss
-    
     var body: some View {
         VStack(spacing: 0){
             ScrollView {
@@ -35,11 +32,6 @@ struct AboutView: View {
     
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: { dismiss() }) {
-            Image.chevronLight
-                .setFont(.callout, .bold, .rounded)
-                .setColor(Theme.Colors.primary.gradient)
-                .padding(.leading, 8)
-        }
+        BackButton(color: Theme.Colors.primary)
     }
 }

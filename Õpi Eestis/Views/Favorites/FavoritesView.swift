@@ -28,7 +28,7 @@ struct FavoritesView: View {
     func emptyView() -> some View {
         VStack(spacing: 10){
             Image(systemName: "exclamationmark.triangle")
-                .font(.largeTitle)
+                .setFont(.largeTitle, .regular, .rounded)
             Text("Sul ei ole ühtegi lemmikut lisatud")
                 .setFont(.subheadline, .medium, .rounded)
         }

@@ -177,11 +177,11 @@ extension CollegeMajorView.Model {
         
         var image: Image {
             switch self {
-            case .overview: return .docFill
-            case .requirements: return .requirementsFill
-            case .modules: return .stackFill
-            case .outcomes: return .outcomesFill
-            case .personnel: return .person2Fill
+            case .overview: return Theme.Icons.doc
+            case .requirements: return Theme.Icons.requirements
+            case .modules: return Theme.Icons.stack
+            case .outcomes: return Theme.Icons.outcomes
+            case .personnel: return Theme.Icons.person2
             }
         }
     }

@@ -2,7 +2,6 @@ import SwiftUI
 
 struct MajorsView: View {
     @EnvironmentObject var appState: AppState
-    @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
     
     var body: some View {
@@ -177,24 +176,19 @@ private extension MajorsView {
         Button {
             model.addFavorite(major: major)
         } label: {
-            Image(systemName: "heart.fill")
+            Theme.Icons.heart
         }
         .tint(model.college.palette.base)
     }
     
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: dismiss.callAsFunction) {
-            Image.chevronLight
-                .setFont(.callout, .bold, .rounded)
-                .setColor(model.college.palette.base.gradient)
-                .padding(.leading, 8)
-        }
+        BackButton(color: model.college.palette.base)
     }
     
     @ViewBuilder
     func filterButton() -> some View {
-        Image(systemName: "slider.horizontal.3")
+        Theme.Icons.slider
             .setFont(.body, .bold, .rounded)
             .setColor(model.college.palette.base.gradient)
             .padding(.trailing, 4)

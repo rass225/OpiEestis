@@ -20,17 +20,13 @@ struct Chevron: View {
     var body: some View {
         HStack(spacing: 0) {
             if isLink {
-                Image.link
+                Theme.Icons.link
                     .setColor(.gray)
-                    .font(.caption)
-                    .fontWeight(.bold)
-                    .fontDesign(.rounded)
+                    .setFont(.caption, .bold, .rounded)
             }
-            Image.chevronRight
+            Theme.Icons.chevronRight
                 .setColor(.gray)
-                .font(.footnote)
-                .fontWeight(.semibold)
-                .fontDesign(.rounded)
+                .setFont(.footnote, .semibold, .rounded)
         }
     }
 }

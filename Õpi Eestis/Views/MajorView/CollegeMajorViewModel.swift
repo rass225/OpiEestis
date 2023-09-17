@@ -221,6 +221,10 @@ private extension CollegeMajorView.Model {
                 }
                 let nonNilVersions = decodedResponse.versions.filter({ $0.admissionYear != nil })
                 if let latestVersion = nonNilVersions.max(by: { $0.admissionYear! < $1.admissionYear! }) {
+                    if let admissionYear = latestVersion.admissionYear {
+                        self.major.curriculumDate = "\(admissionYear)/\(admissionYear + 1)"
+                    }
+                    
                     let modules = latestVersion.convertCurriculumModulesToModules(isEnglishOnly: self.major.isEnglishOnly ?? false)
                     if modules.isEmpty {
                         self.major.modules = latestVersion.convertCurriculumOccupationalModulesToModules()

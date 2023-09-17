@@ -7,9 +7,9 @@ enum Currency: String, Codable {
     var icon: Image {
         switch self {
         case .euro:
-            return .euroFill
+            return Theme.Icons.euro
         case .dollar:
-            return .dollarSign
+            return Theme.Icons.dollar
         }
     }
 }

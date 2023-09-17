@@ -24,10 +24,9 @@ extension CollegeView {
         Button(action: {
             UIPasteboard.general.string = text
         }) {
-            Image.docs
+            Theme.Icons.docs
                 .setSymbol(.fill)
-                .font(.callout)
-                .fontWeight(.light)
+                .setFont(.callout, .light, .rounded)
                 .setColor(model.college.palette.base.gradient)
                 .padding(8)
                 .background(Circle().fill(Color.white))
@@ -36,11 +35,6 @@ extension CollegeView {
     
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: dismiss.callAsFunction) {
-            Image.chevronLight
-                .setFont(.callout, .bold, .rounded)
-                .setColor(model.college.palette.base.gradient)
-                .padding(.leading, 8)
-        }
+        BackButton(color: model.college.palette.base)
     }
 }

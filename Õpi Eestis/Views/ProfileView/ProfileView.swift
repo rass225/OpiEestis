@@ -13,8 +13,7 @@ struct ProfileView: View {
             Section {
                 HStack(spacing: 16) {
                     Image(systemName: "gift")
-                        .font(.title3)
-                        .fontWeight(.medium)
+                        .setFont(.title3, .medium, .rounded)
                         .frame(width: 25, height: 30)
                     Text("Meeldib app? Aita arendajat")
                         .setFont(.subheadline, .medium, .rounded)
@@ -35,8 +34,7 @@ struct ProfileView: View {
                 Button(action: { print("Log out") }) {
                     HStack(spacing: 16) {
                         Image(systemName: "rectangle.portrait.and.arrow.forward")
-                            .font(.title3)
-                            .fontWeight(.medium)
+                            .setFont(.title3, .medium, .rounded)
                             .frame(width: 25, height: 30)
                         Text("Logi välja")
                             .setFont(.subheadline, .medium, .rounded)

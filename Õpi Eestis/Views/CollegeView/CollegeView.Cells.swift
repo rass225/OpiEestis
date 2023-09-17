@@ -12,7 +12,7 @@ extension CollegeView {
         HStack(alignment: .center, spacing: 5){
             image
                 .setColor(model.college.palette.base.gradient)
-                .font(.title3)
+                .setFont(.title3, .regular, .rounded)
             VStack(alignment: .leading, spacing: 0){
                 Text(topLabel)
                     .setFont(.subheadline, .semibold, .rounded)

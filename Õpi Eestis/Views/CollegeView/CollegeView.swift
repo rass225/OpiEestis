@@ -3,7 +3,6 @@ import MapKit
 
 struct CollegeView: View {
     @EnvironmentObject var appState: AppState
-    @Environment(\.dismiss) var dismiss
     @StateObject var model: Model
     
     var body: some View {
@@ -240,17 +239,17 @@ private extension CollegeView {
         HStack(spacing: 16) {
             contactButton(
                 label: "Koduleht",
-                image: .houseFill,
+                image: Theme.Icons.house,
                 action: model.openHomePage
             )
             contactButton(
                 label: "Helista",
-                image: .phoneFill,
+                image: Theme.Icons.phone,
                 action: model.callCollege
             )
             contactButton(
                 label: "Email",
-                image: .envelopeFill,
+                image: Theme.Icons.envelope,
                 action: model.openEmail
             )
         }
@@ -265,19 +264,19 @@ private extension CollegeView {
             statisticCell(
                 topLabel: String(model.college.students),
                 bottomLabel: OEAppearance.Locale.students,
-                image: .person2Fill
+                image: Theme.Icons.person2
             )
             Spacer()
             statisticCell(
                 topLabel: String(model.majors.count),
                 bottomLabel: OEAppearance.Locale.major,
-                image: .textBook
+                image: Theme.Icons.textBook
             )
             Spacer()
             statisticCell(
                 topLabel: String(model.college.branches.count),
                 bottomLabel: OEAppearance.Locale.cities,
-                image: .mappinCircleFill
+                image: Theme.Icons.mappinCircle
             )
             Spacer()
         }

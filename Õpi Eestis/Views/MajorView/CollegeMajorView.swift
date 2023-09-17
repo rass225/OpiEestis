@@ -1,8 +1,7 @@
 import SwiftUI
 
 struct CollegeMajorView: View {
-    @EnvironmentObject var appState: AppState
-    @Environment(\.dismiss) var dismiss
+//    @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     @Namespace var animation
     
@@ -160,105 +159,83 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func statsHeader() -> some View {
-        header(
+        Header(
             label: "Üldandmed",
-            image: .requirementsFill,
+            image: Theme.Icons.requirements,
             color: model.college.palette.base,
-            isTop: true
+            withTopPadding: true,
+            isHidden: true
         )
-        .opacity(0)
     }
     
     @ViewBuilder
     func descriptionHeader() -> some View {
-        header(
+        Header(
             label: OEAppearance.Locale.title.description,
-            image: .docFill,
+            image: Theme.Icons.docs,
             color: model.college.palette.base,
-            isTop: false
+            withTopPadding: false
         )
     }
     
     @ViewBuilder
     func modulesHeader() -> some View {
-        header(
+        Header(
             label: OEAppearance.Locale.title.modules,
-            image: .stackFill,
+            image: Theme.Icons.stack,
             color: model.college.palette.base,
-            isTop: true
+            withTopPadding: true
         )
     }
     
     @ViewBuilder
     func requirementsHeader() -> some View {
-        header(
+        Header(
             label: OEAppearance.Locale.acceptance,
-            image: .requirementsFill,
+            image: Theme.Icons.requirements,
             color: model.college.palette.base,
-            isTop: true
+            withTopPadding: true
         )
     }
     
     @ViewBuilder
     func outcomesHeader() -> some View {
-        header(
+        Header(
             label: OEAppearance.Locale.title.outcomes,
-            image: .outcomesFill,
+            image: Theme.Icons.outcomes,
             color: model.college.palette.base,
-            isTop: true
+            withTopPadding: true
         )
     }
     
     @ViewBuilder
     func websiteHeader() -> some View {
-        header(
+        Header(
             label: OEAppearance.Locale.homepage,
-            image: .houseFill,
+            image: Theme.Icons.house,
             color: model.college.palette.base,
-            isTop: false
+            withTopPadding: false
         )
     }
     
     @ViewBuilder
     func personnelHeader() -> some View {
-        header(
+        Header(
             label: OEAppearance.Locale.personnel,
-            image: .person2Fill,
+            image: Theme.Icons.person2,
             color: model.college.palette.base,
-            isTop: true
+            withTopPadding: true
         )
     }
     
     @ViewBuilder
     func locationsHeader() -> some View {
-        header(
+        Header(
             label: "Asukoht",
-            image: .locationFill,
+            image: Theme.Icons.location,
             color: model.college.palette.base,
-            isTop: false
+            withTopPadding: false
         )
-    }
-    
-    @ViewBuilder
-    func header(
-        label: String,
-        image: Image,
-        color: Color,
-        isTop: Bool
-    ) -> some View {
-        HStack(spacing: 8){
-            image
-                .font(.body)
-                .setColor(color.gradient)
-                .frame(width: 24, alignment: .leading)
-            Text(label.capitalized)
-                .setFont(.body, .semibold, .rounded)
-                .textCase(.none)
-                .setColor(Theme.Colors.black)
-            Spacer()
-        }
-        .padding(.top, isTop ? 32 : 0)
-        .listRowInsets(.eight)
     }
 }
 
@@ -495,7 +472,7 @@ extension CollegeMajorView {
                                 .padding(.trailing, 8)
                         },
                         placeholder: {
-                            Image.personFill
+                            Theme.Icons.person
                                 .setFont(.title2, .regular, .rounded)
                                 .setColor(model.college.palette.base.gradient)
                                 .frame(width: 40, height: 40)
@@ -505,7 +482,7 @@ extension CollegeMajorView {
                         })
                 }
             } else {
-                Image.personFill
+                Theme.Icons.person
                     .setFont(.title2, .regular, .rounded)
                     .setColor(model.college.palette.base.gradient)
                     .frame(width: 40, height: 40)
@@ -525,14 +502,14 @@ extension CollegeMajorView {
             
             HStack(spacing: 6) {
                 if let email = person.email {
-                    Image.envelopeFill
+                    Theme.Icons.envelope
                         .modifier(ContactButtonModifier(color: model.college.palette.base))
                         .onTapGesture {
                             model.openMail(email)
                         }
                 }
                 if let phone = person.phone {
-                    Image.phoneFill
+                    Theme.Icons.phone
                         .modifier(ContactButtonModifier(color: model.college.palette.base))
                         .onTapGesture {
                             model.openPhone(phone)
@@ -549,12 +526,7 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func backButton() -> some View {
-        Button(action: dismiss.callAsFunction) {
-            Image.chevronLight
-                .setFont(.callout, .bold, .rounded)
-                .setColor(model.college.palette.base.gradient)
-                .padding(.leading, 8)
-        }
+        BackButton(color: model.college.palette.base)
     }
     
     @ViewBuilder
@@ -588,7 +560,7 @@ extension CollegeMajorView {
             self.color = color
             switch type {
             case .duration(let duration):
-                image = .clockFill
+                image = Theme.Icons.clock
                 if duration.isInt() {
                     topText = "\(Int(duration)) aastat"
                 } else {
@@ -596,7 +568,7 @@ extension CollegeMajorView {
                 }
                 bottomText = OEAppearance.Locale.duration
             case .spots(let spots):
-                image = .personFill
+                image = Theme.Icons.person
                 topText = spots == 0 ? OEAppearance.Locale.infinity : "\(spots)"
                 switch spots {
                 case 1: bottomText = "Õppekohtade arv"
@@ -607,11 +579,11 @@ extension CollegeMajorView {
                 topText = "\(cost.amount)€ \(cost.interval.label)"
                 bottomText = "Maksumus"
             case .eap(let eap, let hasEap):
-                image = .squareStack
+                image = Theme.Icons.squareStack
                 topText = "\(eap) \(hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap)"
                 bottomText = "Maht"
             case .language(let language):
-                image = .globe
+                image = Theme.Icons.globe
                 topText = language
                 bottomText = OEAppearance.Locale.language
             }

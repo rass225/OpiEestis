@@ -10,7 +10,6 @@
 		C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB8627718EF9002F6BD6 /* Logo.swift */; };
 		C007DB892771918B002F6BD6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB882771918B002F6BD6 /* Environment.swift */; };
 		C018106F25C049530026A86F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018106E25C049530026A86F /* Double.swift */; };
-		C01B63E825C30412004D144F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B63E725C30412004D144F /* Image.swift */; };
 		C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B642A25C860B2004D144F /* LinearGradient.swift */; };
 		C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */; };
 		C032995325CC17A100EB7862 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032995225CC17A100EB7862 /* College.swift */; };
@@ -40,6 +39,8 @@
 		C0755B96271793050045F6DC /* TÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0755B95271793050045F6DC /* TÜ.json */; };
 		C09868932766F0DA00C18C44 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09868922766F0DA00C18C44 /* Chevron.swift */; };
 		C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D1792AB6273E009218FC /* Theme.swift */; };
+		C0B6D17C2AB639CB009218FC /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17B2AB639CB009218FC /* BackButton.swift */; };
+		C0B6D17E2AB64838009218FC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17D2AB64838009218FC /* Header.swift */; };
 		C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBC265271FD00CE9130 /* CourseView.swift */; };
 		C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFA255272D40E40025BD1E /* UINavigationController.swift */; };
 		C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E132A8A5CC800423948 /* PathManager.swift */; };
@@ -126,7 +127,6 @@
 		C007DB8627718EF9002F6BD6 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		C007DB882771918B002F6BD6 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		C018106E25C049530026A86F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
-		C01B63E725C30412004D144F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		C01B642A25C860B2004D144F /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		C0244EE2265DA485009C909A /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		C032995225CC17A100EB7862 /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
@@ -162,6 +162,8 @@
 		C0755B95271793050045F6DC /* TÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TÜ.json"; sourceTree = "<group>"; };
 		C09868922766F0DA00C18C44 /* Chevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
 		C0B6D1792AB6273E009218FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C0B6D17B2AB639CB009218FC /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		C0B6D17D2AB64838009218FC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		C0B93FBC265271FD00CE9130 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		C0BFA255272D40E40025BD1E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C0C59E132A8A5CC800423948 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
@@ -411,6 +413,8 @@
 				C09868922766F0DA00C18C44 /* Chevron.swift */,
 				C0460E6825AF0E8100E4A15D /* Mariah.swift */,
 				C007DB8627718EF9002F6BD6 /* Logo.swift */,
+				C0B6D17B2AB639CB009218FC /* BackButton.swift */,
+				C0B6D17D2AB64838009218FC /* Header.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -423,7 +427,6 @@
 				C0460EB725AF113300E4A15D /* Color.swift */,
 				C018106E25C049530026A86F /* Double.swift */,
 				C0F476CE25C197140082A20F /* Array.swift */,
-				C01B63E725C30412004D144F /* Image.swift */,
 				C01B642A25C860B2004D144F /* LinearGradient.swift */,
 				C0BFA255272D40E40025BD1E /* UINavigationController.swift */,
 				C007DB882771918B002F6BD6 /* Environment.swift */,
@@ -679,7 +682,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01B63E825C30412004D144F /* Image.swift in Sources */,
 				C0518904274BE5AD00C4F352 /* Personnel.swift in Sources */,
 				C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */,
 				C0C59E222AA1284400423948 /* CollegeView.Cells.swift in Sources */,
@@ -743,6 +745,8 @@
 				C0C59E302AA2613900423948 /* Module.swift in Sources */,
 				C0C59E452AAA083900423948 /* CollegeMajorView+Objects.swift in Sources */,
 				C0C59E2A2AA247C600423948 /* ClusteredMapView.swift in Sources */,
+				C0B6D17C2AB639CB009218FC /* BackButton.swift in Sources */,
+				C0B6D17E2AB64838009218FC /* Header.swift in Sources */,
 				C032995325CC17A100EB7862 /* College.swift in Sources */,
 				C0C59E182A8D4FD600423948 /* FavoritesViewModel.swift in Sources */,
 				C06ED5D826AAEDED00E5812A /* Cost.swift in Sources */,
