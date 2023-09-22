@@ -94,11 +94,18 @@ extension CollegeView.Model {
     func loadMapSnapshot() {
         let mapService = MapServiceManager()
         Task {
-            let (standardImage, hybridImage) = await mapService.loadSnapshots(for: college.location.coordinates)
-            if let standardImage, let hybridImage {
+            let standardImage = await mapService.loadSnapshots(
+                for: college.location.coordinates,
+                mapType: .standard
+            )
+//            let satelliteImage = await mapService.loadSnapshots(
+//                for: college.location.coordinates,
+//                mapType: .hybridFlyover
+//            )
+            if let standardImage {
                 DispatchQueue.main.async {
                     self.standardMapSnapshot = standardImage
-                    self.hybridMapSnapshot = hybridImage
+//                    self.hybridMapSnapshot = satelliteImage
                 }
             }
         }

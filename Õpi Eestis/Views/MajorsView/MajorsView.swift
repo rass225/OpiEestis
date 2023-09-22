@@ -8,7 +8,11 @@ struct MajorsView: View {
         List {
             Section(content: majorsContent, header: hiddenHeader)
         }
-        .searchable(text: $model.debouncedSearchText, placement: .navigationBarDrawer, prompt: Text("Otsi eriala"))
+        .searchable(
+            text: $model.debouncedSearchText,
+            placement: .navigationBarDrawer(displayMode: .always),
+            prompt: Text("Otsi eriala")
+        )
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
@@ -230,6 +234,7 @@ private extension MajorsView {
             }
         }
         .padding(.vertical, 2)
+        .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
@@ -240,6 +245,7 @@ private extension MajorsView {
             }
         }
         .padding(.vertical, 2)
+        .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
@@ -254,6 +260,7 @@ private extension MajorsView {
             }
         }
         .padding(.vertical, 2)
+        .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
@@ -272,6 +279,7 @@ private extension MajorsView {
             }
         }
         .padding(.vertical, 2)
+        .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
@@ -283,6 +291,7 @@ private extension MajorsView {
                     Text($0.label)
                 }
             }
+            .tint(model.college.palette.base.gradient)
             .pickerStyle(.segmented)
             .padding(.vertical, 4)
         }

@@ -53,7 +53,7 @@ private extension CollegesListView {
     @ViewBuilder
     func collegeLocation(_ city: String) -> some View {
         Text(city)
-            .setFont(.subheadline, .medium, .rounded)
+            .setFont(.footnote, .medium, .rounded)
             .setColor(.gray)
     }
 }

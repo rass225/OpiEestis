@@ -48,8 +48,8 @@ private extension CollegeMajorView {
                 .listRowSeparator(.hidden)
             Section(content: descriptionContent, header: descriptionHeader)
                 .listRowSeparator(.hidden)
-            Section(content: websiteContent, header: websiteHeader)
             locationsContent()
+            Section(content: websiteContent, header: websiteHeader)
         }
     }
     

@@ -232,8 +232,8 @@ extension CollegeMajorView.Model {
     }
     
     struct OisOutcomes: Codable {
-        let en: String
-        var et: String
+        let en: String?
+        var et: String?
         
         enum CodingKeys: String, CodingKey {
             case en
@@ -242,60 +242,170 @@ extension CollegeMajorView.Model {
         
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
-            self.et = try container.decode(String.self, forKey: .et)
-            et = et.replacingOccurrences(of: "\r\n\r\n1)", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n1.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n2.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n3.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n4.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n5.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n6.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n7.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n8.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n9.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n10.\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.1. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.2. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.3. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.4. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.5. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.6. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11.7. ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n2)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n3)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n4)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n5)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n6)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n7)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n8)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n9)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n10)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n11)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n12)\t", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n1) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n2) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n3) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n4) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n5) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n6) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n7) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n8) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n9) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n1) ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "\r\n- ", with: "\n\n**•** ")
-            et = et.replacingOccurrences(of: "*\t", with: "**•** ")
-            et = et.replacingOccurrences(of: "\r", with: "")
-            et = et.replacingOccurrences(of: "1) ", with: "**•** ")
-            et = et.replacingOccurrences(of: "2) ", with: "**•** ")
-            et = et.replacingOccurrences(of: "3) ", with: "**•** ")
-            et = et.replacingOccurrences(of: "4) ", with: "**•** ")
-            et = et.replacingOccurrences(of: "5) ", with: "**•** ")
-            et = et.replacingOccurrences(of: "6) ", with: "**•** ")
-            et = et.replacingOccurrences(of: "7) ", with: "**•** ")
-            if et.hasPrefix("- ") {
-                et = "• " + et.dropFirst(2)
+            self.et = try container.decodeIfPresent(String.self, forKey: .et)
+            et = et?.replacingOccurrences(of: "\r\n\r\n1)", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n1.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n2.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n3.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n4.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n5.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n6.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n7.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n8.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n9.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n10.\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.1. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.2. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.3. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.4. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.5. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.6. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11.7. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n2)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n3)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n4)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n5)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n6)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n7)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n8)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n9)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n10)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n12)\t", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n10) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n11) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n1) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n2) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n3) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n4) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n5) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n6) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n7) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n8) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n9) ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n- ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n1. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n2. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n3. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n4. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n5. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n6. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n7. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "1.\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "2.\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "3.\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "4.\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "5.\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "6.\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "*\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "\r", with: "")
+            et = et?.replacingOccurrences(of: "-\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "10)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "11)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "12)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "13)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "14)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "15)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "16)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "17)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "1)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "2)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "3)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "4)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "5)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "6)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "7)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "8)\t", with: "**•** ")
+            et = et?.replacingOccurrences(of: "9)\t", with: "**•** ")
+            
+            if let etPresent = et, etPresent.hasPrefix("- ") {
+                et = "• " + etPresent.dropFirst(2)
             }
-            self.en = try container.decode(String.self, forKey: .en)
+            if let etPresent = et, etPresent.hasPrefix("1. ") {
+                et = "•" + etPresent.dropFirst(2)
+            }
+            if let etPresent = et, etPresent.hasPrefix("2. ") {
+                et = "•" + etPresent.dropFirst(2)
+            }
+            if let etPresent = et, etPresent.hasPrefix("3. ") {
+                et = "•" + etPresent.dropFirst(2)
+            }
+            if let etPresent = et, etPresent.hasPrefix("4. ") {
+                et = "•" + etPresent.dropFirst(2)
+            }
+            if let etPresent = et, etPresent.hasPrefix("5. ") {
+                et = "•" + etPresent.dropFirst(2)
+            }
+            if let etPresent = et, etPresent.hasPrefix("6. ") {
+                et = "•" + etPresent.dropFirst(2)
+            }
+            if let etPresent = et, etPresent.hasPrefix("12)  ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("1)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("2)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("3)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("4)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("5)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("6)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("7)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("8)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("9)      ") {
+                let newEt = etPresent.dropFirst(8)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("10)  ") {
+                let newEt = etPresent.dropFirst(5)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("11)  ") {
+                let newEt = etPresent.dropFirst(5)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("13)  ") {
+                let newEt = etPresent.dropFirst(5)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            if let etPresent = et, etPresent.hasPrefix("14)  ") {
+                let newEt = etPresent.dropFirst(5)
+                et = "• " + String(newEt).capitalizedSentence
+            }
+            self.en = try container.decodeIfPresent(String.self, forKey: .en)
+            et = et?.replacingOccurrences(of: "1) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "2) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "3) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "4) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "5) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "5)", with: "**•** ")
+            et = et?.replacingOccurrences(of: "6) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "7) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "8) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "9) ", with: "**•** ")
         }
     }
     
@@ -308,7 +418,7 @@ extension CollegeMajorView.Model {
     }
     
     struct OisVersionGeneralInformation: Codable {
-        let inputLanguages: [OisLanguage]
+        let inputLanguages: [OisLanguage]?
         let year: OisText
         
         enum CodingKeys: String, CodingKey {

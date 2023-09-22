@@ -17,7 +17,6 @@ struct ProfileView: View {
                         .frame(width: 25, height: 30)
                     Text("Meeldib app? Aita arendajat")
                         .setFont(.subheadline, .medium, .rounded)
-                        
                 }
                 .maxWidth(alignment: .leading)
                 .contentShape(Rectangle())

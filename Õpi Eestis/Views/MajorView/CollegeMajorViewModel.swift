@@ -261,10 +261,14 @@ private extension CollegeMajorView.Model {
                     self.major.language = language
                 }
                 if let isEnglishOnly = self.major.isEnglishOnly, isEnglishOnly == true {
-                    let outcomeStrings = coreDataResponse.overview.learningOutcomes.map(\.en)
+                    let outcomeStrings = coreDataResponse.overview.learningOutcomes
+                        .map(\.en)
+                        .compactMap { $0 }
                     self.major.outcomes = outcomeStrings
                 } else {
-                    let outcomeStrings = coreDataResponse.overview.learningOutcomes.map(\.et)
+                    let outcomeStrings = coreDataResponse.overview.learningOutcomes
+                        .map(\.et)
+                        .compactMap { $0 }
                     self.major.outcomes = outcomeStrings
                 }
 
