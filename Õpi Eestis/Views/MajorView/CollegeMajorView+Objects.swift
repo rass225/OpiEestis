@@ -291,6 +291,7 @@ extension CollegeMajorView.Model {
             et = et?.replacingOccurrences(of: "\r\n5. ", with: "\n\n**•** ")
             et = et?.replacingOccurrences(of: "\r\n6. ", with: "\n\n**•** ")
             et = et?.replacingOccurrences(of: "\r\n7. ", with: "\n\n**•** ")
+            et = et?.replacingOccurrences(of: "\r\n", with: "\n\n**•** ")
             et = et?.replacingOccurrences(of: "1.\t", with: "**•** ")
             et = et?.replacingOccurrences(of: "2.\t", with: "**•** ")
             et = et?.replacingOccurrences(of: "3.\t", with: "**•** ")
@@ -406,6 +407,7 @@ extension CollegeMajorView.Model {
             et = et?.replacingOccurrences(of: "7) ", with: "**•** ")
             et = et?.replacingOccurrences(of: "8) ", with: "**•** ")
             et = et?.replacingOccurrences(of: "9) ", with: "**•** ")
+            et = et?.replacingOccurrences(of: "10) ", with: "**•** ")
         }
     }
     
