@@ -41,7 +41,7 @@ extension CollegeView {
     func locationHeader() -> some View {
         Header(
             label: "Asukoht",
-            image: Theme.Icons.location,
+            image: Image(systemName: "map.fill"),
             color: model.college.palette.base
         )
     }
@@ -58,16 +58,16 @@ extension CollegeView {
     @ViewBuilder
     func mainDataHeader() -> some View {
         GeometryReader { geo in
-                Image(model.college.logoRef)
-                    .resizable()
-                    .fit()
-                    .maxWidth()
-                    .background(GeometryReader {
-                        Color.clear.preference(
-                            key: ViewOffsetKey.self,
-                            value: -$0.frame(in: .named("scroll")).origin.y
-                        )
-                    })
+            Image(model.college.logoRef)
+                .resizable()
+                .fit()
+                .maxWidth()
+                .background(GeometryReader {
+                    Color.clear.preference(
+                        key: ViewOffsetKey.self,
+                        value: -$0.frame(in: .named("scroll")).origin.y
+                    )
+                })
         }
         .frame(height: 100, alignment: .top)
         .listRowInsets(.zero)

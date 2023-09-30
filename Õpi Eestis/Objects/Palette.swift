@@ -7,6 +7,7 @@ struct CollegePalette: Codable, Equatable, Hashable {
     let doctors: Color
     let applied: Color
     let vocational: Color
+    let secondary: Color
     
     enum CodingKeys: String, CodingKey {
         case base
@@ -15,6 +16,7 @@ struct CollegePalette: Codable, Equatable, Hashable {
         case doctors
         case applied
         case vocational
+        case secondary
     }
     
     init(from decoder: Decoder) throws {
@@ -37,6 +39,9 @@ struct CollegePalette: Codable, Equatable, Hashable {
         
         let vocationalHex = try container.decode(String.self, forKey: .vocational)
         vocational = Color(hex: vocationalHex)
+        
+        let secondaryHex = try container.decode(String.self, forKey: .secondary)
+        secondary = Color(hex: secondaryHex)
     }
     
     func encode(to encoder: Encoder) throws {

@@ -102,6 +102,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Eriala",
@@ -923,6 +924,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Eriala",
@@ -1817,6 +1819,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Erialased Õpingud",
@@ -2452,6 +2455,7 @@
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/muusikapedagoogika/",
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "personnel": [
             {
                 "name": "Kristi Kiilu",
@@ -3257,6 +3261,7 @@
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/interpretatsioonipedagoogika/",
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "personnel": [
             {
                 "name": "Lembit Orgse",
@@ -4409,6 +4414,7 @@
             },
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -5427,6 +5433,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -6480,6 +6487,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -7525,6 +7533,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -8576,6 +8585,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -9601,6 +9611,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -9631,7 +9642,6 @@
             "interval": "full"
         }
     },
-    
     {
         "studyLocation": [
             "Tallinn"
@@ -9646,6 +9656,7 @@
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/helilooming-improvisatsiooniline-muusika-ja-kaasaegsed-etenduskunstid/helilooming-ja-muusikatehnoloogia/",
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "personnel": [
             {
                 "name": "Paolo Girol",
@@ -11201,6 +11212,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Valdab oma erialainstrumenti, improvisatsiooni, erinevaid stiile ja repertuaari kõrgel rahvusvahelisel tasemel ning suudab oma tehnilisi oskusi rakendada ansamblimängus nii liikme kui juhina, kohaneda erinevate esinemis- ja salvestamisolukordadega, olla koostöövõimeline ja väljendada oma loomingulisi ideid efektiivselt",
@@ -11974,6 +11986,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Omab süsteemseid ja laiapõhjalisi teadmisi kultuurikorraldusest, selle põhisuundadest, mõistetest ja uurismeetoditest",
@@ -12170,6 +12183,7 @@
             }
         ],
         "type": "Ärindus ja Haldusteadus",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "omab teadmisi ja orienteerub uuendusliku heliloome ja interpretatsiooni valdkonnas, sealhulgas osaleb nüüdismuusikaelu uute suundumuste kujundamises ning tunneb põhjalikult üldisi loomeprotsesse ja iseenda töömeetodeid",
@@ -12905,6 +12919,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Omab süsteemset ülevaadet muusikateaduse erinevatest valdkondadest, uurimismeetoditest ja aktuaalsetest suundumustest, omab põhjalikumat ettekujutust ja uurimistöö kogemust ühes muusikateaduse valdkonnas",
@@ -13219,6 +13234,7 @@
             }
         ],
         "type": "koolitus ja Kasvatusteadus",
+        "studyType": "sessioonõpe",
         "level": "magister",
         "outcomes": [
             "Teab ja mõistab muusikahariduse eesmärke, põhimõtteid ja suunitlusi ning väärtustab muusikat laiemas sotsiaalkultuurilises kontekstis",
@@ -14094,6 +14110,7 @@
             },
         ],
         "type": "koolitus ja Kasvatusteadus",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Omab süsteemseid ja laiapõhjalisi üldkasvatusteaduslikke ning ainedidaktilisi teadmisi ja rakenduslikke oskusi tööks instrumendiõpetajana muusikakoolis ja muusikakutseõppeasutuses",
@@ -14268,6 +14285,7 @@
             }
         ],
         "type": "Ärindus ja Haldusteadus",
+        "studyType": "sessioonõpe",
         "level": "magister",
         "outcomes": [
             "Omab süsteemseid ja laiapõhjalisi teadmisi kultuurikorraldusest, selle põhisuundadest, mõistetest ja uurismeetoditest",
@@ -15269,6 +15287,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -16301,6 +16320,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -17319,6 +17339,7 @@
             },
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -18343,6 +18364,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -19341,6 +19363,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -20343,6 +20366,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -21268,6 +21292,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -22181,6 +22206,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -23113,6 +23139,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
             "Suudab esitada erinevate ajastute ja stiilide muusikat ja teostada oma loomingulisi ideid professionaalsele muusikule omase tehnilise üleoleku, veenvuse ja väljendusjõuga",
@@ -23416,6 +23443,7 @@
             }
         ],
         "type": "Muusika ja Teatrikunstid",
+        "studyType": "päevaõpe",
         "level": "doktor",
         "outcomes": [
             "Doktorikraadi kaitsnud lõpetaja:",

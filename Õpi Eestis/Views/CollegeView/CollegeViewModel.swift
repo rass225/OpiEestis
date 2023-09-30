@@ -11,47 +11,32 @@ extension CollegeView {
         @Published var mailResult: Result<MFMailComposeResult, Error>?
         @Published var imageCache: [URL: UIImage] = [:]
         @Published var mapState: MapState
+        @Published var isMapViewPresented: Bool
+        @Published var standardMapSnapshot: UIImage
         
         private let dependencies: DependencyManager
-        private var standardMapSnapshot: UIImage
-        private var hybridMapSnapshot: UIImage
+        
         let college: College
-        
-        var bigMap: UIImage {
-            switch mapState {
-            case .hybrid: return hybridMapSnapshot
-            case .standard: return standardMapSnapshot
-            }
-        }
-        
-        var smallMap: UIImage {
-            switch mapState {
-            case .hybrid: return standardMapSnapshot
-            case .standard: return hybridMapSnapshot
-            }
-        }
-        
+
         init(
             college: College,
             dependencies: DependencyManager = .shared,
             isSmallImageShown: Bool = false,
             standardMapSnapshot: UIImage = UIImage(),
-            hybridMapSnapshot: UIImage = UIImage(),
             mapState: MapState = .hybrid,
-            isMailOpen: Bool = false
-            
+            isMailOpen: Bool = false,
+            isMapViewPresented: Bool = false
         ) {
             print("✅ College View Model initialized")
             self.isSmallImageShown = isSmallImageShown
             self.isMailOpen = isMailOpen
             self.standardMapSnapshot = standardMapSnapshot
-            self.hybridMapSnapshot = hybridMapSnapshot
             self.majors = []
             self.majorStats = []
             self.college = college
             self.dependencies = dependencies
             self.mapState = .standard
-            
+            self.isMapViewPresented = isMapViewPresented
             start()
         }
         
@@ -74,19 +59,16 @@ extension CollegeView.Model {
         dependencies.network.openMail(with: college.contact.email)
     }
     
-    func openMap() {
-        dependencies.network.openLink(with: college.location.appleMapLink)
-    }
-    
     func openLink(_ url: URL) {
         dependencies.network.openLink(with: url)
     }
     
-    func flipMap() {
-        switch mapState {
-        case .hybrid: mapState = .standard
-        case .standard: mapState = .hybrid
-        }
+    func presentMapView() {
+        isMapViewPresented.toggle()
+    }
+    
+    func createCollegeMapViewModel() -> CollegeMapView.Model {
+        .init(college: college, region: mapBoundsRegion())
     }
 }
 
@@ -94,18 +76,15 @@ extension CollegeView.Model {
     func loadMapSnapshot() {
         let mapService = MapServiceManager()
         Task {
-            let standardImage = await mapService.loadSnapshots(
-                for: college.location.coordinates,
-                mapType: .standard
+            let standardImage = await mapService.mapSnapshot(
+                with: college.branches, 
+                coordinateRegion: mapBoundsRegion(),
+                baseColor: college.palette.base,
+                secondaryColor: college.palette.secondary
             )
-//            let satelliteImage = await mapService.loadSnapshots(
-//                for: college.location.coordinates,
-//                mapType: .hybridFlyover
-//            )
             if let standardImage {
                 DispatchQueue.main.async {
                     self.standardMapSnapshot = standardImage
-//                    self.hybridMapSnapshot = satelliteImage
                 }
             }
         }
@@ -195,6 +174,47 @@ private extension CollegeView.Model {
             applied: CGFloat(levelCounts.applied) * 100 / totalCGF,
             kutse: CGFloat(levelCounts.kutse) * 100 / totalCGF
         )
+    }
+    
+    func mapBoundsRegion() -> MKCoordinateRegion {
+        let padding: Double = 0.3
+        var minLatitude: Double = 90.0
+        var maxLatitude: Double = -90.0
+        var minLongitude: Double = 180.0
+        var maxLongitude: Double = -180.0
+        
+        let locations = college.branches.map(\.coordinates)
+
+        for location in locations {
+            let latitude = location.latitude
+            let longitude = location.longitude
+            minLatitude = min(minLatitude, latitude)
+            maxLatitude = max(maxLatitude, latitude)
+            minLongitude = min(minLongitude, longitude)
+            maxLongitude = max(maxLongitude, longitude)
+        }
+        
+        let center = CLLocationCoordinate2D(
+            latitude: (minLatitude + maxLatitude) / 2,
+            longitude: (minLongitude + maxLongitude) / 2
+        )
+        
+        if locations.count == 1 {
+            let span = MKCoordinateSpan(
+                latitudeDelta: 0.05,
+                longitudeDelta: 0.05
+            )
+            return MKCoordinateRegion(center: center, span: span)
+        } else {
+            let latitudeDelta = (maxLatitude - minLatitude) * (1.6 + padding)
+            let longitudeDelta = (maxLongitude - minLongitude) * (1.0 + padding)
+            
+            let span = MKCoordinateSpan(
+                latitudeDelta: latitudeDelta,
+                longitudeDelta: longitudeDelta
+            )
+            return MKCoordinateRegion(center: center, span: span)
+        }
     }
 }
 

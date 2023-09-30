@@ -13,8 +13,6 @@ struct CollegeView: View {
                 Section(content: majorsContent, header: majorsHeader)
                 Section(content: summaryContent, header: summaryHeader)
                 Section(content: locationContent, header: locationHeader)
-//                Section(content: admissionContent, header: admissionHeader)
-                Section(content: contactContent, header: contactHeader)
             }
             .coordinateSpace(name: "scroll")
             .onPreferenceChange(ViewOffsetKey.self) { offset in
@@ -23,13 +21,13 @@ struct CollegeView: View {
             .scrollIndicators(.hidden)
         }
         .toolbar {
-            ToolbarItem(placement: .navigationBarLeading, content: backButton)
+            ToolbarItem(placement: .topBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
+            ToolbarItem(placement: .topBarTrailing, content: helpButton)
         }
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
-        
     }
 }
 
@@ -66,7 +64,7 @@ extension CollegeView {
 
 // MARK: - Content
 
-private extension CollegeView {
+extension CollegeView {
     @ViewBuilder
     func mainDataContent() -> some View {
         VStack(spacing: 0) {
@@ -97,15 +95,15 @@ private extension CollegeView {
     
     @ViewBuilder
     func imageContent() -> some View {
-            TabView {
-                ForEach(model.college.imageRefs, id: \.self) { ref in
-                   imageCell(ref)
-                }
+        TabView {
+            ForEach(model.college.imageRefs, id: \.self) { ref in
+                imageCell(ref)
             }
-            .frame(height: 250)
-            .tabViewStyle(.page(indexDisplayMode: .always))
-            .indexViewStyle(.page(backgroundDisplayMode: .always))
-            .listRowInsets(.zero)
+        }
+        .frame(height: 250)
+        .tabViewStyle(.page(indexDisplayMode: .always))
+        .indexViewStyle(.page(backgroundDisplayMode: .always))
+        .listRowInsets(.zero)
     }
     
     @ViewBuilder
@@ -115,41 +113,36 @@ private extension CollegeView {
                 ForEach(model.majorStats, id: \.self) { item in
                     majorContentCell(item)
                 }
-            }
-            GeometryReader { geo in
-                let maxWidth = geo.size.width
-                HStack(spacing: 0){
-                    ForEach(model.majorStats.indices, id: \.self) { index in
-                        if index == 0 {
-                            Rectangle()
-                                .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
-                                .frame(height: 13)
-                                .setColor(model.majorStats[index].color.gradient)
-                                .cornerRadiusCustom(10, corners: model.majorStats.count == 1 ? .allCorners : [.topLeft, .bottomLeft])
-                        } else if index == model.majorStats.count - 1 {
-                            Rectangle()
-                                .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
-                                .frame(height: 13)
-                                .setColor(model.majorStats[index].color.gradient)
-                                .cornerRadiusCustom(10, corners: [.topRight, .bottomRight])
-                        } else {
-                            Rectangle()
-                                .frame(width: maxWidth / 100 * model.majorStats[index].percentage)
-                                .frame(height: 13)
-                                .setColor(model.majorStats[index].color.gradient)
-                        }
-                    }
-                }
-            }.frame(height: 13)
+            }.padding(.vertical, majorContentPadding())
         }
         .padding(.vertical, 4)
-        .listRowBackground(Theme.Colors.white)
+        .background(content: {
+            Image(model.college.logoRef)
+                .renderingMode(model.college.logoModifiable ? .template : .original)
+                .resizable()
+                .fit()
+                .setColor(model.college.palette.secondary)
+                .opacity(model.college.logoModifiable ? 0.2 : 0.35)
+                .maxWidth(alignment: .trailing)
+                .padding(.trailing, 24)
+        })
+        .listRowBackground(Rectangle().fill(model.college.palette.base.gradient))
         .contentShape(Rectangle())
         .onTapGesture {
             appState.route(to: CollegeDestination.majors(
                 college: model.college,
                 majors: model.majors
             ))
+        }
+    }
+    
+    func majorContentPadding() -> CGFloat {
+        if model.majorStats.count == 1 {
+            return 16
+        } else if model.majorStats.count == 2 {
+            return 8
+        } else {
+            return 0
         }
     }
     
@@ -173,7 +166,7 @@ private extension CollegeView {
  
         var body: some View {
             VStack(alignment: .center, spacing: 16){
-                Text(school.description)
+                Text(.init(school.description))
                     .setFont(.subheadline, .regular, .rounded)
                     .lineLimit(isExpanded ? nil : 5)
                     .truncationMode(.tail)
@@ -190,71 +183,46 @@ private extension CollegeView {
     
     @ViewBuilder
     func locationContent() -> some View {
-        HStack{
-            Text(model.college.location.longAddress)
-                .setFont(.subheadline, .regular, .rounded)
-                .setColor(Theme.Colors.black)
-            Spacer()
-            Chevron(type: .link)
-        }
-        .contentShape(Rectangle())
-        .onTapGesture(perform: model.openMap)
-        Image(uiImage: model.bigMap)
+        mapView
+    }
+
+    var mapView: some View {
+        Image(uiImage: model.standardMapSnapshot)
             .resizable()
             .fill()
             .listRowInsets(.zero)
             .listRowSeparator(.hidden)
-            .overlay {
-                Image("pin")
-                    .resizable()
-                    .fit()
-                    .frame(width: 32, height: 40)
+            .overlay(alignment: .topTrailing) {
+                Image(systemName: "location.fill.viewfinder")
+                    .setFont(.title, .medium, .rounded)
                     .setColor(model.college.palette.base.gradient)
-                    .offset(x: 0, y: -16)
+                    .padding(4)
+                    .background(.regularMaterial)
+                    .clipShape(.rect(cornerRadius: 6, style: .continuous))
+                    .padding(16)
+                    .onTapGesture(perform: model.presentMapView)
             }
-            .overlay(alignment: .bottomTrailing) {
-                Image(uiImage: model.smallMap)
-                    .resizable()
-                    .fill()
-                    .frame(width: 56, height: 56)
-                    .smoothCorners(radius: 4)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 6)
-                            .stroke(.white, lineWidth: 2)
-                        )
-                    .padding(2)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 8)
-                            .stroke(model.college.palette.base, lineWidth: 2)
-                        )
-                    .offset(x: -16, y: -16)
-                    .onTapGesture(perform: model.flipMap)
-            }
-            .listRowInsets(.zero)
-            .listRowSeparator(.hidden)
+            .sheet(isPresented: $model.isMapViewPresented, content: {
+                CollegeMapView(model: model.createCollegeMapViewModel())
+            })
     }
     
     @ViewBuilder
     func contactContent() -> some View {
-        HStack(spacing: 16) {
-            contactButton(
-                label: "Koduleht",
-                image: Theme.Icons.house,
-                action: model.openHomePage
-            )
-            contactButton(
-                label: "Helista",
-                image: Theme.Icons.phone,
-                action: model.callCollege
-            )
-            contactButton(
-                label: "Email",
-                image: Theme.Icons.envelope,
-                action: model.openEmail
-            )
+        ControlGroup {
+            Button(action: model.callCollege) {
+                Text("Helista")
+                Theme.Icons.phone
+            }
+            Button(action: model.openEmail) {
+                Text("Email")
+                Theme.Icons.envelope
+            }
+            Button(action: model.openHomePage) {
+                Text("Koduleht")
+                Theme.Icons.house
+            }
         }
-        .listRowInsets(.zero)
-        .listRowBackground(Color.clear)
     }
     
     @ViewBuilder

@@ -19,6 +19,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtlusõpe",
@@ -246,6 +247,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Kvaliteedijuhtimise erialaõpe",
@@ -450,6 +452,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtlusõpe",
@@ -679,6 +682,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Organisatsioonikeskkond",
@@ -898,6 +902,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtlusõpe",
@@ -1126,6 +1131,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtlusõpe",
@@ -1372,6 +1378,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtluse moodul",
@@ -1600,6 +1607,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Ettevõtlusmoodul",
@@ -1846,6 +1854,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "level": "bakalaureus",
         "outcomes": [
             "Omab vajalikke pädevusi, et edasi õppida magistriõppes ning on valmis ennast pidevalt täiendama",
@@ -1893,6 +1902,7 @@
             }
         ],
         "type": "Disainiteadus",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtlusmoodul",
@@ -2115,6 +2125,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Arvutimängude disaini ja arenduse erialaõpe",
@@ -2354,6 +2365,7 @@
             }
         ],
         "type": "Disainiteadus",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Ettevõtlusõppe moodul",
@@ -2610,6 +2622,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Jätkusuutlikuse moodul",
@@ -2802,6 +2815,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Juhtimise moodul",
@@ -2981,6 +2995,7 @@
             }
         ],
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Juhtimise moodul",

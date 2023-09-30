@@ -1,0 +1,1884 @@
+[
+    {
+        "studyLocation": [
+            "Sillamäe"
+        ],
+        "description": [
+            "Abikokk käitleb toidutooret, abistab kokka toitude valmistamisel ja serveerimisel ning töötab koka juhendamisel. Töö iseloom eeldab oskust enda tööd korraldada ning aega planeerida. Vajalik oskus töötada meeskonnas. Eriala õppimiseks vajalikud eeldused: käeline osavus, hea maitsemeel, kiire reaktsioon, oskus jaotada tähelepanu üheaegselt mitmele tööle, väga hea füüsiline ja vaimne vastupidavus, puhtusearmastus. \n\nNB! Erialale on oodatud õppima õppijad, kes pole lõpetanud põhikooli või on lõpetanud põhikooli lihtsustatud õppekava järgi (LÕK)."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/abikokk%2C-2-aasta-2#abikokk_1_aasta",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi ja loogilist mõtlemist. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 10p \n**2.** vestlus - max 20p \n\nLävend - min 12p."
+            }
+        ],
+        "name": "Abikokk",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2971?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Abipagar töötab erinevates kondiitri- ning pagariettevõtetes, ta aitab kaasa leibade, saiade, kookide, pirukate jms küpsetamisel.  Sarnaselt pagarile tuleb valmis olla varaseks ärkamiseks ja öötööks. Hea abipagar on koostöövalmis, kiire ning suudab teha mitut tööd korraga. Töö on füüsiliselt raske ning eeldab head tervist ja vastupidavust. \n\n**NB!** Erialale on oodatud õppima õppijad, kes pole lõpetanud põhikooli või on lõpetanud põhikooli lihtsustatud õppekava järgi (LÕK)."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/abipagar%2C-2-aasta-2#abipagar_1_aasta",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi ja loogilist mõtlemist. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 10p \n**2.** vestlus - max 20p \n\nLävend - min 12p."
+            }
+        ],
+        "name": "Abipagar",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2235?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Automaatikud on oskustöötajad, kelle põhitegevus on automaatikasüsteemide, -komponentide ja –seadmete paigaldamine ja käitamine. Tootmisautomaatika ettevõtetes kasutavad nad elektro-, pneumo- ja/või hüdroautomaatika vahendeid, ehitusautomaatika ettevõtetes spetsiifilist seadmestikku ja aparatuuri."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/automaatik%2C-3-aastat-2#automaatik_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatika-, füüsuka-, elektrotehnikaoskuste valdamist. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, füüsika) - max 20p \n**2.** test - max 10p \n**3.** vestlus- max 20p \n\nLävend - min 20p."
+            }
+        ],
+        "name": "Automaatik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2769?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "CNC puidutöötlemiskeskuse operaator, tase 4 on oskustöötaja, kes töötab mööblitööstuse või puidutöötlemise ettevõttes. Tema tööks on puidust või puidupõhisest materjalist toorikute töötlemine CNC puidutöötlemiskeskusel. Ta tunneb oma töös kasutatava puidutöötlemiskeskuse ehitust ja tööpõhimõtteid, kasutatavate puit- ja puidupõhiste materjalide omadusi ning järgib toodete kvaliteedile kehtestatud nõudeid. \n\nKutsealal töötamine eeldab analüüsioskust, ruumilist kujutlusvõimet, tehnilist taiplikkust, täpsust, vastutustunnet ja füüsilist vastupidavust. Töö protsesside jälgimine eeldab vaimset pingetaluvust."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/cnc-puidutootlemiskeskuse-operaator%2C-6-kuud-2#cnc_puidutootlemiskeskuse_operaator_6_kuud",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 0.5,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 15 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.**test - max 10p \nvestlus - max 20p \n\nLävend - min 12p"
+            }
+        ],
+        "name": "CNC puidutöötlemiskeskuse operaator",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3107?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Ehitusviimistleja põhilised tööülesanded on maalri-, krohvimis- ja plaatimistööd ning põranda-, seina- ja laematerjalide katmistööd. Ehitusviimistleja võib spetsialiseeruda erinevatele töövaldkondadele või omandada kõik viimistleja kutseoskused. Väga vajalikud on hea tervis ja vastupidavus, sest suurem osa tööpäevast möödub püstijalu. Ehitusviimistleja oskusi saab omandada põhi- ja keskhariduse järel kutsekoolides ehitusviimistleja erialal. Ehitusviimistlejad tegelevad ehituspindade lõppviimistlemisega. Nad krohvivad, pahteldavad, värvivad, tapeedivad ja plaadivad hoonete sise- ning välispindu."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/ehitusviimistlus%2C-3-aastat#ehitusviimistlus_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 4 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne - max 5p \n**2.** test - max 4p \n**3.** vestlus - max 6p \n\nLävend - min 6p."
+            }
+        ],
+        "name": "Ehitusviimistlus",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3018?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Sillamäe"
+        ],
+        "description": [
+            "Õppe eesmärk on, et õpilane omandab kompetentsid, mis on vajalikud töötamiseks meeskonna liikmena IT-tugisikuna, kasutajatoe tehnikuna või sellele lähedasel ametikohal, lahendades standardseid infotehnoloogia probleeme."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/it-kasutajatoe-tehnik%2C-2-aasta-2#it_kasutajatoe_tehnik_1_aasta",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb motivatsiooni kirjast ja vestlusest. \n\nMotivatsiooni kirja fail laadige meie kodulehelt alla ja lisage oma avalduse juurde. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** vestlus - max 20p \n**2.** motivatsioonikiri - max 10p \n\nLävend - min 12p"
+            }
+        ],
+        "name": "IT kasutajatoe tehnik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2735?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi", "Narva"
+        ],
+        "description": [
+            "IT-süsteemide nooremspetsialist vastutab standardsete IT-probleemide lahendamise eest ja esitab keerulisemad vanemspetsialistidele. \n\nIT-süsteemide nooremspetsialisti põhiline tööülesanne on IT-süsteemide toote või projekti väljatöötamine. Näiteks kohtvõrgu arhitektuuriprojekt. Ettevõtte jaoks seadmete leidmine, paigutamine ja seadistamine, tarkvara installeerimine ja konfigureerimine jne. Lisaks ettevõtte infrastruktuuri hooldamise igapäevased ülesanded: lahenduste juurutamine, dokumentatsiooni koostamine, kasutajatugi, diagnostika ja seadmete väljavahetamine, muutmiste tugi, müügikanalite haldamine ja infoturbe tagamine. \n\nIT-süsteemide nooremspetsialist suudab oma suhtlemisstiili kohandada mitmesugustele olukordadele ja inimestele. Oskab kontrollida oma emotsioone ka keerulistes olukordades. Tema töös on vajalik tahe ja oskus töötada meeskonnas. Lõpetaja saab sooritada kutseeksami, et saada kutsestandardi tunnistus (EUCIP)."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/it-susteemide-nooremspetsialist%2C-2-aastat-2#it-susteemide_nooremspetsialist_2_aastat",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese arvuti ja loogilise mõtlemise oskuseid. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** vestlus - max 20p \n**2.** test - max 20p \n\nLävend - min 16p"
+            }
+        ],
+        "name": "IT-süsteemide nooremspetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/742?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "IT-süsteemide spetsialist töötab iseseisvalt etteantud töölõigus, järgides protseduurireegleid ja parimaid praktikaid. IT-süsteemide spetsialist võib töötada klienditoes, IT-tugiisikuna, monitooringuspetsialistina, süsteemi administraatorina jne. Ta omab piiratud tegevusvabadust väljakujunenud praktika ja meetodite piires. IT-süsteemide spetsialisti ülesandeks on standardsete IT- probleemide lahendamine, edastades nende hulgast keerulisemad vanemspetsialistidele. \n\nIT-süsteemide spetsialisti põhilised tööülesanded on IT-süsteemide toote või projekti väljatöötamine ja kavandamine, rakenduste projekteerimine, lahenduste juurutamine, dokumentatsiooni koostamine, kasutajatugi, muutmiste tugi, probleemide lahendamine, teenuste osutamine, hanked, müügikanalite haldamine ja infoturbe tagamine. \n\nIT-süsteemide spetsialist suudab oma suhtlemisstiili kohandada mitmesugustele olukordadele ja inimestele. Avaldab selgelt oma arvamust, ei varja informatsiooni ning oskab välja tuua olulisemaid seisukohti. Oskab kontrollida oma emotsioone ka keerulistes olukordades. Tema töös on vajalik tahe ja oskus töötada meeskonnas. \n\n**Võimalikud töökohad:** \n\nTa võib töötada näiteks IT-süsteemide spetsialistina, klienditoe spetsialistina, monitooringuspetsiaistina, võrgutehnikuna, IT-tehnikuna või süsteemiadministraatorina. \n\nTöötada näiteks klienditeenindajana arvuti- või telekommunikatsioonifirmas, ta võib olla tehnilise toe spetsialist, kelle tööülesandeks on uute IT-süsteemide lahenduste katsetamine ja kasutusele võtmisel abistamine."
+        ],
+        "eap": 240,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/it-susteemide-spetsialist-%28it-akadeemia%29%2C-4-aastat-2#it_susteemide_spetsialist_it_akadeemia_4_aastat",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 4,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nKompleks test sisaldab küsimusi matemaatikast, eesti ja inglise keelest. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, füüsika) - max 20p \n**2.** Test - max 20p \n**3.** Vestlus - max 20p \n\nLävend - min 24p"
+            }
+        ],
+        "name": "IT süsteemide spetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/741?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "IT-turvaspetsialist haldab IT-süsteeme turvalisel viisil ja osaleb nende süsteemide kujundamisel ning arendamisel. IT-turvaspetsialisti töövahendid on operatsioonisüsteemid, turbetarkvara, protsesside kirjelduse ja projekteerimise ning tarkvara arendamise tööriistad, tunnustatud infoturbe raamistikud ja standardid."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/it-turvaspetsialist%2C-2-aasta-2#it-turvaspetsialist_1_aasta",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Õppima võivad asuda isikud, kellel on vähemalt keskharidus ning varasemalt (IKT kutseõppe tasemeõppes, IKT-alasel täiendkoolitusel või töökohal) omandatud 4. taseme IT-süsteemide spetsialisti kompetentsid."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb motivatsiooni kirjast ja vestlusest. \n\nMotivatsiooni kirja fail laadige meie kodulehelt alla ja lisage oma avalduse juurde. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** Vestlus - max 20p \n**2.** motivatsioonikiri - max 10p \n\nLävend - min 12p."
+            }
+        ],
+        "name": "IT-turvaspetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1927?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Juuksuri amet on nii töö kui hobi inimesele, kes oma tööd armastab. Juuksur on loov isik, kelle töö on luua uusi trende juuste lõikamises, värvimises ning soengute kujundamise kaudu. Juuksur tunneb juuksekosmeetikavahendeid ja nende mõju erinevatele juuksetüüpidele ning on kursis moesuundadega. Juuksur nõustab klienti ja oskab müüa kliendile sobivaimaid juuksehooldus- ja viimistlusvahendeid. \n\nTulevane juuksur õpib tegema kõiki vajalikke töid, mida see amet eeldab: head suhtlust, enesekindlust ja soovi töötada klientidega. \n\nPeale kooli lõpetamist võib juuksur asuda tööle salongi või hakata ettevõtjaks ja luua oma salong."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/juuksur%2C-2-aastat-2#juuksur_2_aastat",
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb praktilisest ülesandest ja vestlusest. \n\nPraktilise ülesandena kujundab kandidaat lihtsa soengu punutustehnikas. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Vestlus - max 25p \n**2.** praktiline ülesanne - max 25p \n\nLävend - min 20p"
+            }
+        ],
+        "name": "Juuksur",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1947?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Juuksuri amet on nii töö kui hobi inimesele, kes oma tööd armastab. Juuksur on loov isik, kelle töö on luua uusi trende juuste lõikamises, värvimises ning soengute kujundamise kaudu. Juuksur tunneb juuksekosmeetikavahendeid ja nende mõju erinevatele juuksetüüpidele ning on kursis moesuundadega. Juuksur nõustab klienti ja oskab müüa kliendile sobivaimaid juuksehooldus- ja viimistlusvahendeid. \n\nTulevane juuksur õpib tegema kõiki vajalikke töid, mida see amet eeldab: head suhtlust, enesekindlust ja soovi töötada klientidega. \n\nPeale kooli lõpetamist võib juuksur asuda tööle salongi või hakata ettevõtjaks ja luua oma salong."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/juuksur%2C-3-aastat-2#juuksur_3_aastat",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb praktilisest ülesandest ja vestlusest. \n\nPraktilise ülesandena kujundab kandidaat lihtsa soengu punutustehnikas. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne - max 5p (40%) \n**2.** vestlus - max 15p (20%) \n**3.** praktiline ülesanne - max 25p (40%). \n\nLävend - min 24p (40%)."
+            }
+        ],
+        "name": "Juuksur",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1947?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Keevitaja on tänapäeval üsna nõudlik elukutse. Keevitamine - toodete ühendamine ilma kinnitusvahenditeta. Keevitustööd viiakse läbi kõikides tööstusharudes: masinaehituses, tööpinkide ehituses, metallurgias, eluaseme- ja kommunaalteenustes, autotööstuses, laevaehituses ja põllumajanduses. Erinevate seadmete tööiga sõltub keevitaja töö kvaliteedist. \n\nKeevitaja valmistab detaile/kooste, kasutades erinevaid keevitusseadmeid, lähtudes tööjoonisest, detaili/koostu töötlemistehnoloogiatest, tööprotsessidest, töövahenditest ja töödeldavatest materjalidest."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/keevitaja-%28poolautomaatkeevitaja%29%2C-1-aasta#keevitaja_poolautomaatkeevitaja_1_aasta",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 10p \n**2.** vestlus - max 20p \n\nLävend - min 12p"
+            }
+        ],
+        "name": "Keevitaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2606?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Esimesel kursusel omandatakse keevitus- ja metallitööde alusteadmised ning teisel kursusel spetsialiseerutakse keevitaja või koostelukksepa või CNC metallilõikepingi operaatori eriala omandamiseks. \n\nKeevitaja valmistab detaile/kooste, kasutades erinevaid keevitusseadmeid, lähtudes tööjoonisest, detaili/koostu töötlemistehnoloogiatest, tööprotsessidest, töövahenditest ja töödeldavatest materjalidest \n\nKoostelukksepp koostab erineva keerukusastmega koostusid. Koostelukksepa põhilised tööülesanded on toorikute ettevalmistamine, detailide mõõtmine, märkimine, töötlemine, puhastamine ning koostude koostamine ja reguleerimine. Koostelukksepa töö eeldab jooniste lugemise oskust, masinaehitustehnoloogia ja kasutatavate materjalide tundmist. \n\nCNC metallilõikepinkide operaator töötleb reeglina treipingis pöörlevaid detaile paigal olevate lõikeriistadega ja freespingis paigal olevaid detaile pöörlevate lõikeriistadega. Ta tunneb trei- ja freespinkide töö põhimõtteid, kasutamist ning erinevatel pinkidel töötamise eripära. Ta oskab koostada juhtprogramme, seadistada pinke ja valmistada CNC trei- ja freespinkidel detaile."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/keevitus--ja-metallitood%2C-3-aastat-2#keevitus-_ja_metallitood_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** \n\nPõhikooli lõputunnistuse keskmine hinne - max 5p \n**2.** test - max 10p \n**3.** vestlus - max 20p. \n\nLävend - min 14p"
+            }
+        ],
+        "name": "Keevitus- ja metallitööd",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3182?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Kergete rõivaste rätsep valmistab individuaaltellimuse alusel kergeid rätseparõivaid (seelikuid, särkpluuse, pluuse, pükse, jakke, kleite, rõivalisandeid) lähtudes kliendi mõõtudest ja vajadustest. \n\nKergete rõivaste rätsepad töötavad väikestes meeskondades, rõiva tootmisettevõtte arendusosakondades või iseseisvalt eratellimuste täitjatena. Kergete rõivaste rätsep võib töötada pärast täiendava eriväljaõppe läbimist laste- ja spordirõivaste, tele-, filmi- ja teatrikostüümide, pesu ja pidulike riiete ning nahkrõivaste valmistajana.Tellijatega suhtlemine eeldab avatust ja teenindusvalmidust ning taktitunnet. Edukaks tööks on oluline pidev erialane enesetäiendamine. \n\nRätsepale on oluline käeline osavus, huvi tekstiilide ja moe vastu, ruumiline kujutlusvõime, hea värvi- ja proportsioonitunnetus, ilumeel, hea koordinatsioon, püsivus, loovus ja õpivalmidus, pingetaluvus, füüsiline vastupidavus ja empaatiavõime. \n\nRätsep on loominguline ja üha populaarsemaks muutuv amet."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kergete-roivaste-ratsep%2C-2-aastat-2#kergete_roivaste_ratsep_2_aastat",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest sisaldab küsimusi ja ülesandeid teemadel: materjaliõpetus, matemaatika, joonistamine, moesuunad. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** Test - max 20p \n**2.** vestlus - max 25 p \n\nLävend - min 18p."
+            }
+        ],
+        "name": "Kergete rõivaste rätsep",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2727?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Kinnisvarahooldaja töötab ehitiste konstruktsioonide ja/või tehnosüsteemide ja/või krundi hoolduse alal, peamiselt kinnisvara korrashoiu valdkonnas tegutsevas ettevõttes. Põhilised tööülesanded on seotud ehitise krundi, ehituskonstruktsioonide, tehnosüsteemide ja siseruumide korrashoiutööde tegemisega. \n\nKinnisvarahooldaja, tase 3 töö seisneb ehitiste, tehnosüsteemide ja krundi vahetus hooldamises ja sellega seonduvate tööülesannete täitmises ning ehitise ja selle juurde kuuluva krundi heakorraga seotud tööde tegemises, mida tehakse vastavalt heakorratööde kavale ja tööandja antud juhistele. Keerulisemate tööde puhul informeerib selle taseme kinnisvarahooldaja oma tööandjat või kutsub vastavalt juhistele kohale eritööde spetsialisti. \n\nKinnisvarahooldaja vastutab oma töö õigeaegse valmimise ja kvaliteetse tulemuse eest. Töö eeldab kohanemisvõimet mitmesuguste keskkonnatingimustega, vajalik on hea koordinatsioon ja füüsiline vastupidavus ning koostöö- ja meeskonnatöö valmidus, keskendumisvõime ja hoolikus. Paljudes olukordades tuleb kasuks pinge- ja stressitaluvus. Olulised märksõnad on veel usaldatavus, kohusetunne ja enesedistsipliin. \n\nEnamlevinud ametinimetused on – kinnisvarahooldaja, majahoidja, heakorratöötaja, üldremondimees, hooldustöötaja."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kinnisvarahooldaja%2C-1-aasta#kinnisvarahooldaja_1_aasta",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 4 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test max - 4p \n**2.** vestlus - max 6p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Kinnisvarahooldaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2943?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Kaubanduse klienditeenindaja tööks on klientide teenindamine ja kaupade käitlemine, pakkumine, müümine ja arveldamine. Üks peamisi oskusi on oskus klientidega korrektselt suhelda, järgides 'müügisammude' jada ja lähtudes põhiülesandest - nõustamisest ja kliendi vajaduste rahuldamisest. \n\nKlienditeenindaja kaubanduses annab klientidele nõu parimate toodete ostmiseks, vastab küsimustele ja aitab teha õige kaubavaliku. Klienditeenindaja osaleb müügitöö korraldamisel ja meeskonnatöös, täidab oma tööülesandeid erinevates olukordades, on valmis juhendama teisi töötajaid oma vastutusala piires. \n\nArvestades, et  praegu on interneti kaudu kaupade tellimine üha nõutavam teenus, omandab õppija ka tellimustega ja pakenditega töötamise oskused."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/klienditeenindaja-kaubanduses%2C-2-aasta-2#klienditeenindaja_kaubanduses_1_aasta",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 0,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb vestlusest. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust ning eesti keele oskust. Vestluse kestvus on 5-10 minutit. \n\nVestlus - max 25p \nLävend - min 10p"
+            }
+        ],
+        "name": "Klienditeenindaja kaubanduses",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1955?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Kokk valmistab erinevaid roogasid ja jooke, kasutades uusi kulinaarseid tehnikaid ja kaasaegseid seadmeid. Korraldab enda tööd ratsionaalselt. Oskab töötada nii individuaalselt kui ka meeskonnas. Serveerib toite vastavalt klientide vajadustele ja soovidele. Samuti nõuab koka amet pideva seismise ja liikumise tõttu head füüsilist vormi."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kokk%2C-2-aastat-2#kokk_2_aastat",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi, matemaatilisi teadmisi (teisendamist) ja loogilist mõtlemist. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 10p \n**2.** vestlus - max 20p \n\nLävend - min 12p."
+            }
+        ],
+        "name": "Kokk",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2968?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Kokk valmistab erinevaid roogasid ja jooke, kasutades uusi kulinaarseid tehnikaid ja kaasaegseid seadmeid. Korraldab enda tööd ratsionaalselt. Oskab töötada nii individuaalselt kui ka meeskonnas. Serveerib toite vastavalt klientide vajadustele ja soovidele. Samuti nõuab koka amet pideva seismise ja liikumise tõttu head füüsilist vormi."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kokk%2C-3-aastat-2#kokk_3_aastat",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi, matemaatilisi teadmisi (teisendamist) ja loogilist mõtlemist. Test sooritatakse eesti keeles. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles.  Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, keemia, füüsika, kehaline kasvatus) - max 5p \n**1.** test - max 10p \n**3.** vestlus - max 20p \n\nLävend - min 14p."
+            }
+        ],
+        "name": "Kokk",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2969?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Kondiiter töötab ettevõttes, kus valmistatakse pagari- ja/või kondiitritooteid. Kondiitri tööülesanded on: toorainete vastuvõtmine, kontrollimine, ladustamine ja ettevalmistamine; retsepti järgi taigna valmistamine, küpsetamine, täidiste, katete ja kaunistuste valmistamine; toodete kokkupanemine, kaunistamine ja viimistlemine; valmistoodete pakendamine, ladustamine ja väljastamine. Kondiiter peab oskama kasutada tööks vajalikke seadmeid ja töövahendeid. Ta peab oskama iseseisvalt oma tööd organiseerida ning olema võimeline meeskonnatööks. Kondiiter töötab seistes või liikudes, mis nõuab head tervist ja füüsilist vastupidavust. Oma igapäevatöös puutub kondiiter kokku toorainetega, mis võivad ülitundlikel inimestel põhjustada allergiat. Töö eripära nõuab valmisolekut töötada ka öisel ajal, samuti nädalavahetustel ja riiklikel pühadel. Kondiitri töö on suures osas käsitöö, mis eeldab käte osavust, loovust ja ilumeelt. Vajalik on pidev erialane enesetäiendus."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kondiiter%2C-2-aasta-2#kondiiter_1_aasta",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi, matemaatilisi teadmisi (teisendamist) ja loogilist mõtlemist. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust.  Vestluse kestvus on 5-10 minutit. \n\n**1.** Test - max 10p \n**2.** Vestlus - max 20p \nLävend - min 12p."
+            }
+        ],
+        "name": "Kondiiter",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/972?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Köögiabiline abistab kokka toitude valmistamisel, käitleb toiduaineid, teeb puhastus- ja koristustöid ning järgib ettevõtte enesekontrolliplaani. Köögiabiline töötab meeskonnas juhendamisel."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/koogiabiline%2C-2-aastat-2#koogiabiline_2_aastat",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist praktilisest ülesandest ja vestlusest. \n\nPraktilise erialase ülesande puhul hinnatakse käelist tegevust, emotsionaalset stabiilsust, valmisolekut eriala õpinguteks. Aega praktilise ülesande sooritamiseks on 15 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 15 minutit. \n\n**1.** Vestlus - max 25p \n**2.** praktiline ülesanne - max 15p \n\nLävend - min 16p"
+            }
+        ],
+        "name": "Köögiabiline",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2970?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Koostelukksepp koostab erineva keerukusastmega koostusid. Koostelukksepa põhilised tööülesanded on toorikute ettevalmistamine, detailide mõõtmine, märkimine, töötlemine, puhastamine ning koostude koostamine ja reguleerimine. Koostelukksepa töö eeldab jooniste lugemise oskust, masinaehitustehnoloogia ja kasutatavate materjalide tundmist. \n\nNB! Erialale on oodatud õppima õppijad, kes pole lõpetanud põhikooli või on lõpetanud põhikooli lihtsustatud õppekava järgi (LÕK)."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/koostelukksepp%2C-2-aasta-2#koostelukksepp_1_aasta",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** Test - max 10p \n**2.** Vestlus - max 20p \n\nLävend - min 12p"
+            }
+        ],
+        "name": "Koostelukksepp",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1964?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Kütte- ja jahutussüsteemide lukksepad töötavad peamiselt ehituse või kinnisvara korrashoiuga tegelevates ettevõtetes. Nende peamine tööülesanne on kütte- ja jahutussüsteemide ning -seadmete paigaldamine. Põhilised tegevused on torude lõikamine, ühendamine ja painutamine, monteerimine, isoleerimine, torude läbipesu, mõõtmine ja katsetamine. Välistrasside ja rajatiste ehitamisel lisanduvad torustike aluste rajamine ja kraavkaeviku tagasitäitmine."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kutte--ja-jahutussusteemide-lukksepp%2C-2-aasta-2#kutte-_ja_jahutussusteemide_lukksepp_1_aasta",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 4 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** Test max - 4p \n**2.** Vestlus - max 6p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Kütte- ja jahutussüsteemide lukksepp",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2603?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Laborant analüüsib ainete ja segude koostist ning omadusi keemiliste, füüsikaliste ja füüsikalis-keemiliste analüüsi meetodite abil, kontrollib toorainete, reagentide, vaheproduktide, valmistoodangu, jäätmete, vee, õhu, mulla kvaliteeti,  töötab rangelt vastavalt metoodikatele ja juhenditele ning vastutab analüüside tulemuste usaldusväärsuse ja andmete täpse sissekandmise eest. Laborandi töö nõuab täpsust, korrektsust, iseseisvust, meeskonnatöö oskust ja vastutustunnet."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/laborant%2C-3-aastat-2#laborant_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatika-, füüsuka-, keemiaoskuste valdamist. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, keemia) - max 20p \n**2.** Test - max 10p \n**3.** vestlus- max 20p \n\nLävend - min 20p"
+            }
+        ],
+        "name": "Laborant",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2761?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Sillamäe", "Jõhvi"
+        ],
+        "description": [
+            "Laotöötajate töö eesmärk on tagada logistilises ahelas materjalide ja kaupade optimaalsete koguste ajutine hoiustamine ning lisaväärtusteenuste osutamine 4. taseme laotöötaja ülesandeks on: \n\n**•** kaupade vastuvõtmine, hoiustamine, väljastamine \n**•** väljastustellimuse komplekteerimine \n**•** markeerimine jm lisaväärtustoimingute tegemine \n**•** kaupade inventeerimine \n**•** klientide teenindamine laos \n**•** töö laoinfosüsteemis (laotarkvara kasutamine, töö skänneritega, kontoritehnikaga) \n\nKaupade teisaldamiseks on vajalik läbida laotõstukite ja muude laoseadmete kasutamise väljaõpe. Laotöötaja töötab iseseisvalt ja meeskonnas. Laotöötaja vastutab laoga seotud varade säilimise ja heaperemeheliku kasutamise eest. Laotöötaja tervikkutse sisaldab 'Kauba käitleja' osakutset, mis seondub terminalitöö ning jaotus- ja korjevedudega ja hõlmab kauba käitlemist saadetiste tasemel."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/laotootaja%2C-3-aastat-2#laotootaja_3_aastat",
+        "personnel": [
+            {
+                "name": "Natalja Redean",
+                "title": "Erialade juht (majandus)",
+                "email": "natalja.redean@ivkhk.ee",
+                "phone": "+37256265709"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, eesti keele ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne - max 5p \n**2.** Test - max 5p \n**3.** Vestlus - max 5p \n\nLävend - min 6p."
+            }
+        ],
+        "name": "Laotöötaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2745?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Mäetöölised on oskustöötajad, kes kaevandavad (väljavad), transpordivad ja töötlevad rikastusvabrikutes ja laadimiskompleksides liikuvmehhanismide, tehnilise varustuse ja mäemasinate abil maavara, kaevist, pinnast jm. Mäetööliste tööülesanded hõlmavad mäemassiivi puurimist, maavara katvate katendi eemaldamist, lõhketööde ettevalmistamist, kombainväljamist, kaevandusala toestamist ning valgustusseadmete, toitekaablite, vee kõrvaldamise pumpade ja vajadusel tuulutustorude ja/või tõkete paigaldamist. Mäetöölise täpsemad tööülesanded sõltuvad ettevõttes kasutatavast tehnoloogiast."
+        ],
+        "eap": 90,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/maetooline%2C-2-aasta-6-kuud-2#maetooline_1_aasta_6_kuud",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1.5,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb vestlusest. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\nVestlus - max 20p. \nKokku - max 20p. \nLävend - min 8p."
+            }
+        ],
+        "name": "Mäetööline",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1939?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Mehhatroonika on mehaanika-, elektroonika- ja infotehnoloogiasüsteemide samasuunalist koostoimet käsitlev tehnikavaldkond. \n\nMehhatroonik on oskustööline, tema peamine tööülesanne on mehhatrooniliste seadmete, süsteemide ja alamsüsteemide koostamine, kasutamine ja testimine, kindlustamaks nende tõrgeteta toimimise. Ta häälestab tööjuhendi alusel mehhatroonilisi süsteeme, kasutades selleks sobivaid kontroll- ja mõõtevahendeid. Oma tööülesannete täitmisel juhindub mehhatroonik etteantud tööjuhendist, tehnilistest ja normdokumentidest ning kvaliteedinõuetest."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/mehhatroonik%2C-2-aastat-2#mehhatroonik_2_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": ""
+            }
+        ],
+        "name": "Mehhatroonik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1936?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Mehhatroonika on mehaanika-, elektroonika- ja infotehnoloogiasüsteemide samasuunalist koostoimet käsitlev tehnikavaldkond. \n\nMehhatroonik on oskustööline, tema peamine tööülesanne on mehhatrooniliste seadmete, süsteemide ja alamsüsteemide koostamine, kasutamine ja testimine, kindlustamaks nende tõrgeteta toimimise. Ta häälestab tööjuhendi alusel mehhatroonilisi süsteeme, kasutades selleks sobivaid kontroll- ja mõõtevahendeid. Oma tööülesannete täitmisel juhindub mehhatroonik etteantud tööjuhendist, tehnilistest ja normdokumentidest ning kvaliteedinõuetest."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/mehhatroonik%2C-3-aastat-2#mehhatroonik_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatika-, füüsuka-, elektrotehnikaoskuste valdamist. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, füüsika) - max 20p \n**2.** test - max 10p \n**3.** vestlus- max 20p \n\nLävend - min 20p."
+            }
+        ],
+        "name": "Mehhatroonik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2758?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Mootorsõidukitehnik (spetsialiseerumine: sõiduautotehnik) diagnoosib, hooldab ja remondib erinevaid mootorsõidukeid vastavalt remondi- ja hooldusjuhistele ning tehnilistele joonistele, vastutab oma töö tulemuste eest. Töötamisel järgib keskkonnasäästlikke töövõtteid, tööohutuse  ja  töötervishoiu nõudeid ning kasutab materjale säästlikult.  Töös on olulised koostöö ja osalemine  meeskonnatöös  ning oma pädevuse piires teiste töötajate juhendamine.  Mootorsõidukitehnik käitub  vastastikust suhtlemist toetaval viisil, kasutab infotehnoloogilisi vahendeid. Mootorsõidukitehniku töö eeldab tehniliste jooniste ja skeemide lugemise oskust ning kataloogide jt. juhendmaterjalide kasutamist. Seoses kiiresti uueneva tehnoloogiaga on vajalik pidev enesetäiendamine. \n\nKutseõppe valikained laiendavad erialaseid kompetentse ja suurendavad kutseõppe lõpetaja konkurentsivõimet tööturul. Valikainete kaudu on võimalik arendada  võõrkeeleoskust, IKT alaseid kompetentse, omandada keevituse- ja tuletöö teadmised jne."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/mootorsoidukitehnik-%28spetsialiseerumine%3A-soiduautotehnik%29%2C-2-aastat#mootorsoidukitehnik_spetsialiseerumine_soiduautotehnik_2_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 45 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** \n\ntest - max 10p \n**2.** vestlus - max 20p \n\nLävend - min 12p"
+            }
+        ],
+        "name": "Mootorsõidukitehnik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2625?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Mootorsõidukitehnik diagnoosib, hooldab ja remondib erinevaid mootorsõidukeid vastavalt remondi- ja hooldusjuhistele ning tehnilistele joonistele, vastutab oma töö tulemuste eest. Töötamisel järgib keskkonnasäästlikke töövõtteid, tööohutuse  ja  töötervishoiu nõudeid ning kasutab materjale säästlikult.  Töös on olulised koostöö ja osalemine  meeskonnatöös  ning oma pädevuse piires teiste töötajate juhendamine.  Mootorsõidukitehnik käitub  vastastikust suhtlemist toetaval viisil, kasutab infotehnoloogilisi vahendeid. Mootorsõidukitehniku töö eeldab tehniliste jooniste ja skeemide lugemise oskust ning kataloogide jt. juhendmaterjalide kasutamist. Seoses kiiresti uueneva tehnoloogiaga on vajalik pidev enesetäiendamine. \n\nKutseõppe valikained laiendavad erialaseid kompetentse ja suurendavad kutseõppe lõpetaja konkurentsivõimet tööturul. Valikainete kaudu on võimalik arendada  võõrkeeleoskust, IKT alaseid kompetentse, omandada keevituse- ja tuletöö teadmised jne."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/mootorsoidukitehnik%2C-3-aastat-2#mootorsoidukitehnik_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 45 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne - max 5p \n**2.** test - max 10p \n**3.** vestlus - max 20p \n\nLävend - min 14p"
+            }
+        ],
+        "name": "Mootorsõidukitehnik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2743?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Multimeediaspetsialistide töövaldkond on väga lai ja mitmekesine ning sisaldab kõiki sisu loomise või kujundamisega seotud töid. Multimeediumi sisu võib omakorda hõlmata erinevat tüüpi teavet - tekste, pilte, fotosid, videot, animatsiooni, 3D-mudeleid ja heli. Eeltoodust lähtudes võib multimeediaspetsialisti töö tulemuseks olla väga suur loetelu erinevatest toodetest: ettevõtte identiteedi elemendid (logod, visiitkaardid, flaierid, plakatid jne), veebisaitide paigutused, kunstiobjektid, pakendi kujundus, arvutimängude 2d ja 3d graafika, rakenduste kasutajaliideste kujundamine ja palju muud."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/multimeedia-nooremspetsialist%2C-2-aastat-2#multimeedia_nooremspetsialist_2_aastat",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe, õhtuõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese arvuti, disaini, kunsti oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** vestlus - max 20p \n**2.** test - max 20p \n\nLävend - min 16p."
+            }
+        ],
+        "name": "Multimeedia nooremspetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1928?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Multimeediaspetsialistide töövaldkond on väga lai ja mitmekesine ning sisaldab kõiki sisu loomise või kujundamisega seotud töid. Multimeediumi sisu võib omakorda hõlmata erinevat tüüpi teavet - tekste, pilte, fotosid, videot, animatsiooni, 3D-mudeleid ja heli. Eeltoodust lähtudes võib multimeediaspetsialisti töö tulemuseks olla väga suur loetelu erinevatest toodetest: ettevõtte identiteedi elemendid (logod, visiitkaardid, flaierid, plakatid jne), veebisaitide paigutused, kunstiobjektid, pakendi kujundus, arvutimängude 2d ja 3d graafika, rakenduste kasutajaliideste kujundamine ja palju muud."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/multimeedia-nooremspetsialist%2C-3-aastat-2#multimeedia_nooremspetsialist_3_aastat",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese arvuti, disaini, kunsti oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, kunst) - max 20p \n**2.** test - max 20p \n**3.** vestlus - max 20p \n\nLävend - min 24p"
+            }
+        ],
+        "name": "Multimeedia nooremspetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2739?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Tarkvaraarendaja põhiliseks tööks on tarkvara lähtekoodi kirjutamine vastavalt kokkulepitud disainile. Ta osaleb tarkvara lahenduse väljatöötamisel, vastutab kirjutatud koodi tehnilise kasutamise eest ja pakub erinevaid lahendusi, arvestades süsteemi kui tervikut. Tarkvaraarendaja suudab oma tööd iseseisvalt organiseerida, aega planeerida ning vastutust võtta. Ta täidab tööülesandeid muutuvates olukordades nõuetekohaselt, on hea kaasamõtleja ning lahenduste otsija. Tarkvaraarendaja on hea meeskonnaliige, mõistab ja rakendab meeskonnas kasutatavat tarkvara arenduse metoodikat."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/noorem-tarkvaraarendaja%2C-2-aastat-2#noorem_tarkvaraarendaja_2_aastat",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese arvuti ja loogilise mõtlemise oskuseid. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** vestlus - max 20p \n**2.** test - max 20p \n\nLävend - min 16p."
+            }
+        ],
+        "name": "Noorem tarkvaraarendaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1930?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Pagari töö on huvitav ja mitmekülgne. Pagari õpe hõlmab endas pirukate, väikesaiade, kringlite, küpsiste, leiva ja saia valmistamist, pagaritoodete tootearendust ning esteetilisamat poolt toodete kujundamisel ja kaunistamisel."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/pagar%2C-2-aasta-2#pagar_1_aasta",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi, matemaatilisi teadmisi (teisendamist) ja loogilist mõtlemist. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit."
+            }
+        ],
+        "name": "Pagar",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/973?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Kõige magusam eriala! Õppeaja jooksul saab selgeks nii pagari- kui kondiitritehnoloogia. Õpitakse nii kujundust, voolimist kui ka tootmistöö korraldust. Viimasel kursusel on võimalik omandada ka teadmisi toiduvalmistamisest. \n\nPeale lõpetamist on võimalik asuda tööle toiduainetööstuse ettevõtetes või väiksemates pagari-kondiitri töökodades."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/pagari--ja-kondiitritoodete-tehnoloogia%2C-3-aastat-2#pagari-_ja_kondiitritoodete_tehnoloogia_3_aastat",
+        "personnel": [
+            {
+                "name": "Ene Valgemäe",
+                "title": "Erialade juht (toitlustus)",
+                "email": "ene.valgemae@ivkhk.ee",
+                "phone": "+37258553230",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/enevalgemae.jpg?itok=taVYGcOj"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 valikvastustustega küsimusest, mille lahendamisel hinnatakse õpilaskandidaadi erialaseid algteadmisi, matemaatilisi teadmisi (teisendamist) ja loogilist mõtlemist. Test sooritatakse eesti keeles. Aega testi lahendamiseks on 10 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles.  Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, keemia, füüsika, kehaline kasvatus) - max 5p \n**2.** test - max 10p \n**3.** vestlus - max 20p \n\nLävend - min 14p"
+            }
+        ],
+        "name": "Pagari- ja kondiitritoodete tehnoloogia",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1960?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Puhastusteenindaja hoolitseb kontorite ja kodude puhtuse ja korra eest. Ta tunneb mustuse põhjuseid, kattematerjale ning oskab tervist ja keskkonda säästvalt kasutada puhastusaineid, töövahendeid, seadmeid. \n\nKoristusvaldkonnas töötavad inimesed peavad olema täpsed, vastutustundlikud, keskendunud, kannatlikud ja visad. \n\nNB! Erialale on oodatud õppima õppijad, kes pole lõpetanud põhikooli või on lõpetanud põhikooli lihtsustatud õppekava järgi (LÕK)."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/puhastusteenindaja%2C-2-aasta-2#puhastusteenindaja_1_aasta",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb vestlusest. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\nVestlus - max 25 p \nLävend - min 10p"
+            }
+        ],
+        "name": "Puhastusteenindaja",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Puidupingioperaator on oskustöötaja, kes töötab mööblitööstuse või puidutöötlemise ettevõtetes. Tema töö eesmärgiks on puidust või puidupõhistest materjalidest toorikute töötlemine, mida ta teeb sõltuvalt tasemest kas erinevatel üheoperatsioonilistel puidutöötlemise tööpinkidel või mitmeoperatsioonilistel puidutöötlemisseadmetel või CNC puidutöötlemiskeskustel. Ta tunneb oma töös kasutatavate puidutöötlemise tööpinkide ja seadmete ehitust ja tööpõhimõtteid, kasutatavate puit- ja puidupõhiste materjalide omadusi ning toodete kvaliteedile kehtestatud nõudeid. \n\nNB! Erialale on oodatud õppima õppijad, kes pole lõpetanud põhikooli või on lõpetanud põhikooli lihtsustatud õppekava järgi (LÕK)."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/puidupingioperaator%2C-2-aasta-2#puidupingioperaator_1_aasta",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe, õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 4 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test max - 4p \n**2.** vestlus - max 6p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Puidupingioperaator",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Õppekava läbimisel sooritab õppija 4. taseme kutseeksami (kutsestandard: Ehituspuusepp, tase 4 esmane kutse). \n\nJuhul, kui kutseeksami sooritamine ebaõnnestub, on õpilasel õigus sooritada õpingute lõpetamiseks erialane kooli lõpueksam. \n\nÕpingute lõppemisel omandatakse kutsekeskharidus (keskharidus 12.klassi ja eriala). \n\nÕppekava koostamise aluseks on ehituserialade riiklik õppekava, mille läbimisel õpilane väärtustab valitud kutset ja eriala; on kursis omandatud kutse arengusuundadega; ehitab ja paigaldab kvaliteedinõuete kohaselt puitmaterjalist kande- ja kattekonstruktsioone ning sise- ja väliselemente (uksed, aknad, trepid jne); ehitab ja püstitab juhendamisel tööstuslikult valmistatud detailidest ja/või moodulitest puitmaju; järgib töö kavandamisel, ettevalmistamisel, kestel ja töökoha korrastamisel energiatõhusa ehitamise põhimõtteid ning töötervishoiu, töö- ja keskkonnaohutusnõudeid. \n\nÕppekavale võib õppima asuda põhiharidusega või vähemalt 22-aastane põhihariduseta isik, kellel on põhihariduse tasemele vastavad kompetentsid. \n\nÕpingud loetakse lõpetatuks, kui õpilane on omandanud puitkonstruktsioonide ehituse eriala õppekava õpiväljundid vähemalt lävendi tasemel ja sooritanud kutseeksamid."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/puitkonstruktsioonide-ehitus%2C-3-aastat#puitkonstruktsioonide_ehitus_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 4 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** Põhikooli lõputunnistuse keskmine hinne - max 5p \n**2.** test - max 4p \n**3.** vestlus - max 6p \n\nLävend - min 6p"
+            }
+        ],
+        "name": "Puitkonstruktsioonide ehitus",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1235?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Raamatupidaja põhilised tööülesanded on seotud igapäevase raamatupidamisega, sh aruandluse koostamisega, maksudeklaratsioonide täitmisega, statistiliste aruannete koostamisega jne. \n\nIda-Virumaa Kutsehariduskeskuse õpetajate juhendamisel avastad, kui põnev võib olla numbritemaailm igapäevaselt rutiinsena näivas töös. \n\n**Peamised moodulid:** \n\n**•** Finantsarvestus \n**•** Maksuarvestus \n**•** Juhtimisarvestus \n\nRaamatupidaja põhiliseks töövahendiks on raamatupidamisprogramm ning Maksu- ja Tolliameti e-keskkond. \n\nRaamatupidajal on tänapäeval suurem roll ettevõtte juhatuse nõustamise osas finantsotsuste tegemisel. \n\nRaamatupidaja korraldab raamatupidamist nii, et oleks tagatud aktuaalse, olulise, objektiivse ja võrreldava info saamine majandusüksuse finantsseisundist ja tegevustulemusest. \n\nRaamatupidaja juhindub Eesti finantsaruandluse standardist ja/või rahvusvahelistest EL-s tunnustatud standarditest, arvestuse ja aruandluse põhimõtetest ning järgib raamatupidaja kutse-eetika nõudeid. \n\nSoovitatavad isikuomadused: peab oskama planeerida oma tööd ja aega, olema täpne ja kohusetundlik ning hea suhtleja. \n\nRaamatupidaja tööd toetavateks iseloomuomadusteks on hoolikus, kannatlikkus, õppimisvõime, iseseisvus, hea enesevalitsemisoskus, koostöövõime, analüütiline (matemaatiline) võimekus ja loogiline mõtlemine, analüüsioskus. \n\nEttevõte võib oma töötajate erialase tasemeõppe arve tasuda ilma maksustamiseta, juhul kui: \n\n**1.** töötaja töötab töölepingu alusel või on juhatuse liige; \n**2.** tegemist on tööalaste ülesannetega seotud tasemeõppega."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/raamatupidaja%2C-2-aastat-2#raamatupidaja_2_aastat",
+        "personnel": [
+            {
+                "name": "Natalja Redean",
+                "title": "Erialade juht (majandus)",
+                "email": "natalja.redean@ivkhk.ee",
+                "phone": "+37256265709"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 25 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, eesti keele ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 5p \n**2.** vestlus - max 5p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Raamatupidaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2725?format=json",
+        "cost": {
+            "amount": 1380,
+            "currency": "€",
+            "interval": "year"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Reisikonsultandid töötavad reisibüroodes ja reise korraldavates ettevõtetes. Nad on reisikorraldaja esindajad, kes tegelevad valmisreiside müümisega ja klienditeenindusega. \n\nNende tööülesannete hulka kuulub reisiteenuste pakkumise koostamine, turismiteenuste müümine klientidele, klientide nõudmiste ja soovide väljaselgitamine, klientidele teabe edastamine ning konsulteerimine sihtriigi teenuste, kaupade ja eritingimuste osas. Konsultandid annavad soovitusi ohutuseeskirjade järgimise osas sihtkohas ning koostavad ka kõik reisimiseks vajalikud dokumendid. \n\nSelle eriala töötajad peavad olema head suhtlejad, viisakad, taktitundelised. Hea suhtlemisoskus on oluline nii suuliselt kui ka kirjalikult."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/reisikonsultant%2C-2-aastat-2#reisikonsultant_2_aastat",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTestis on 15  valikvastustega küsimust vene, eesti ja inglise keeltes. Test arvutil sisaldab küsimusi geograafiast, silmaringi teadmistest ja reisimisest. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust ning eesti keele oskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** Test - max 15p \n**2.** vestlus - max 25p \n\nLävend - min 16p"
+            }
+        ],
+        "name": "Reisikonsultant",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1944?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Kergete rõivaste õmblemise spetsialist valmistab erinevatest kangastest tooteid (seelikuid, särke, pluuse, pükse, jakke, kleite, rõivalisandeid), mis vastavad tänapäevase õmblustehnoloogia nõuetele. Edukaks tööks on olulised pidev enesetäiendamine, loov eneseteostus, suhtlemisvalmidus ja taktitunne. \n\nKergete rõivaste õmblemise spetsialistid töötavad õmblusettevõtetes, samuti ateljeedes või iseseisvalt, täites eratellimusi. Eriala omandamiseks on teretulnud: huvi tekstiili ja moe vastu, ilumeel, ruumiline kujutlusvõime, hea värvi- ja proportsioonitaju, hea koordinatsioon, loovus ja arenguvalmidus, visadus."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/roivaomblemine-%28osaoskus-kergete-roivaste-omblemine%29%2C-2-aasta-2#roivaomblemine_osaoskus_kergete_roivaste_omblemine_1_aasta",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb küsimustikust ja vestlusest. \n\nKüsimustik sisaldab küsimusi rõivaõmblemise valdkonnast, varasemast kokkupuutest õmblemisega ja üldistest silmaringi küsimusi. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\nKüsimustik ja vestlus - max 30p. \nLävend - min 12p"
+            }
+        ],
+        "name": "Rõivaõmblemine",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1951?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Elektrik on spetsialist tööstus- ja olmeenergeetika valdkonnas. Sisetööde elektrikud paigaldavad ja hooldavad kuni 1000 V vahelduvpingelisi ja kuni 1500 V alalisepingelisi elektrijuhistike süsteeme, masinaid ja seadmeid mitmesugustes elamutes, hoonetes, tehnilistes rajatistes ning kuni 1000 V välisvõrkudes (alates liitumispunktist)."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/sisetoode-elektrik%2C-2-aastat-2#sisetoode_elektrik_2_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatika-, füüsuka-, elektrotehnikaoskuste valdamist. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 20p \n**2.** vestlus- max 20p \n\nLävend - min 16p"
+            }
+        ],
+        "name": "Sisetööde elektrik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1933?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Elektrik on spetsialist tööstus- ja olmeenergeetika valdkonnas. Sisetööde elektrikud paigaldavad ja hooldavad kuni 1000 V vahelduvpingelisi ja kuni 1500 V alalisepingelisi elektrijuhistike süsteeme, masinaid ja seadmeid mitmesugustes elamutes, hoonetes, tehnilistes rajatistes ning kuni 1000 V välisvõrkudes (alates liitumispunktist)."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/sisetoode-elektrik%2C-3-aastat-2#sisetoode_elektrik_3_aastat",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 10 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatika-, füüsuka-, elektrotehnikaoskuste valdamist. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, füüsika) - max 20p \n**2.** test - max 10p \n**3.** vestlus- max 20p \n\nLävend - min 20p"
+            }
+        ],
+        "name": "Sisetööde elektrik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2765?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva", "Jõhvi"
+        ],
+        "description": [
+            "Tarkvaraarendaja põhiliseks tööks on tarkvara lähtekoodi kirjutamine vastavalt kokkulepitud disainile. Ta osaleb tarkvara lahenduse väljatöötamisel, vastutab kirjutatud koodi tehnilise kasutamise eest ja pakub erinevaid lahendusi, arvestades süsteemi kui tervikut. \n\nTarkvaraarendaja suudab oma tööd iseseisvalt organiseerida, aega planeerida ning vastutust võtta. Ta täidab tööülesandeid muutuvates olukordades nõuetekohaselt, on hea kaasamõtleja ning lahenduste otsija. Tarkvaraarendaja on hea meeskonnaliige, mõistab ja rakendab meeskonnas kasutatavat tarkvara arenduse metoodikat."
+        ],
+        "eap": 240,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/tarkvaraarendaja-%28it-akadeemia%29%2C-4-aastat-2#tarkvaraarendaja_it_akadeemia_4_aastat",
+        "personnel": [
+            {
+                "name": "Natella Mihhailova",
+                "title": "Erialade juht (IT ja multimeedia)",
+                "email": "natella.mihhailova@ivkhk.ee",
+                "phone": "+37253479870"
+            }
+        ],
+        "type": "",
+        "studyType": "päevaõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 4,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nKompleks test sisaldab küsimusi matemaatikast, eesti ja inglise keelest. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestlus toimub eesti-vene keeles. Vestluse kestvus on 5-10 minutit. \n\n**1.** põhikooli lõputunnistuse hinnete summa (eesti keel / eesti keel teise keelena, A-võõrkeel, matemaatika, füüsika) - max 20p \n**2.** test - max 20p \n**3.** vestlus - max 20p \n\nLävend - min 24p"
+            }
+        ],
+        "name": "Tarkvaraarendaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1931?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Väikeettevõtja omandab teadmised ja oskused ettevõtluse ja äriplaani koostamisest, algteadmised raamatupidamisest, õigusõpetusest, majandusest ja ettevõtlusest. Õppekava läbimise järel koostab õppija äriplaani."
+        ],
+        "eap": 90,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/vaikeettevotja%2C-2-aasta-6-kuud--2#vaikeettevotja_1_aasta_6_kuud_",
+        "personnel": [
+            {
+                "name": "Natalja Redean",
+                "title": "Erialade juht (majandus)",
+                "email": "natalja.redean@ivkhk.ee",
+                "phone": "+37256265709"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 1.5,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb vestlusest. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\nvestlus - max 10p \nLävend - min 4p"
+            }
+        ],
+        "name": "Väikeettevõtja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2685?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Jõhvi"
+        ],
+        "description": [
+            "Ventilatsioonilukksepad töötavad peamiselt ehituse või kinnisvara korrashoiuga tegelevates ettevõtetes. Nende peamine tööülesanne on ventilatsioonisüsteemide ning -seadmete paigaldamine. Põhilised tegevused on ventilatsioonikanalite ja -torude lõikamine, ühendamine, monteerimine, isoleerimine, mõõtmine ja katsetamine. Ventilatsioonisüsteemide lukksepad tegelevad ka ventilatsioonisüsteemide hooldamise ja remondiga. Nad lokaliseerivad ja likvideerivad avariisid ning teostavad torude ja süsteemide hooldustöid (sh torusüsteemide ja kanalite puhastamine, survemõõtmised jne)."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/ventilatsioonisusteemide-lukksepp%2C-1-aasta#ventilatsioonisusteemide_lukksepp_1_aasta",
+        "personnel": [
+            {
+                "name": "Ander Sile",
+                "title": "osakonnajuht (tehnika ja tehnoloogia)",
+                "email": "ander.sile@ivkhk.ee",
+                "phone": "+3725220807",
+                "photo": "https://kutsehariduskeskus.ee/sites/kutsehariduskeskus.ee/files/styles/hitsa_contacts_page_image/public/kontaktid/andersile.jpg?itok=AZ4gV4QK"
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 4 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, ruumilise mõtlemise oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 30 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test max - 4p \n**2.** vestlus - max 6p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Ventilatsioonisüsteemide lukksepp",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3027?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Sillamäe"
+        ],
+        "description": [
+            "Veokorraldaja-logistik korraldab siseriiklikke ja rahvusvahelisi maanteevedusid, sooritab kaubavarude täiendamist abistavaid toiminguid ning teenindab ettevõtte siseriiklikke- ja väliskliente. \n\nVeokorraldaja-logistiku töö on vaheldusrikas ja kiiresti muutuv. Töö on seotud teenindamisega, eeldades suhtlemisvalmidust, oskust tulla toime erinevate inimestega, sõbralikkust. Selles ametis on vaja kiiret otsustusvõimet, orienteeritust tulemusele, paindlikkust, loogilist mõtlemist, emotsionaalset stabiilsust, analüüsioskust ning pinge- ja stressitaluvust. \n\nVeokorraldaja-logistiku töö eeldab nii iseseisvust kui ka koostöövõimet meeskonnaga. Ta peab suutma lahendada operatiivselt ja iseseisvalt töös ettetulevaid probleeme ning leidma alternatiivseid lahendusi."
+        ],
+        "eap": 90,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/veokorraldaja-logistik%2C-2-aasta-6-kuud-2#veokorraldaja-logistik_1_aasta_6_kuud",
+        "personnel": [
+            {
+                "name": "Natalja Redean",
+                "title": "Erialade juht (majandus)",
+                "email": "natalja.redean@ivkhk.ee",
+                "phone": "+37256265709"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 1.5,
+        "requirements": [
+            {
+                "term": "Põhiharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest sisaldab 20 küsimusi eriala terminoloogiast, varasemast kokkupuutest ja baasteadmistest arvutiga ning logistika valdkonnaga, üldistest silmaringi küsimustest. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 4p \n**2.** vestlus - max 6p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Veokorraldaja-logistik",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/686?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Narva"
+        ],
+        "description": [
+            "Ärikorralduse spetsialist osaleb ettevõtte juhtimistegevuses, töötab põhiliselt äriettevõtetes ning täidab majandus- ja ettevõtlusalast kompetentsust nõudvaid ülesandeid valdkondade esmatasandi juhina või spetsialistina. \n\nTema põhilised tööülesanded tulenevad ettevõtte tegevusvaldkonnast ja vajadustest ning eesmärkidest, näiteks tegevuste ja ressursside kasutamise korraldamine, turundustegevuse planeerimine ja rakendamine, müügitöö korraldamine, majandusarvestus, klientide teenindamine jm. "
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/arikorralduse-spetsialist%2C-2-aastat-2#arikorralduse_spetsialist_2_aastat",
+        "personnel": [
+            {
+                "name": "Natalja Redean",
+                "title": "Erialade juht (majandus)",
+                "email": "natalja.redean@ivkhk.ee",
+                "phone": "+37256265709"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "vene keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumiskatse koosneb testist ja vestlusest. \n\nTest koosneb 20 erialaga seotud küsimusest, mille lahendamisel hinnatakse õppima asuva inimese matemaatiliseid oskuseid, eesti ja inglise keelte oskuseid ja loogilise mõtlemise oskust. Aega testi lahendamiseks on 60 minutit. \n\nVestluse käigus selgitakse välja kandidaadi õppe jaoks vajalike oskusi ja võimet, õppemotiveeritust, suhtlemis- ja eneseväljendusoskust. Vestluse kestvus on 5-10 minutit. \n\n**1.** test - max 4p \n**2.** vestlus - max 6p \n\nLävend - min 4p"
+            }
+        ],
+        "name": "Ärikorralduse spetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1235?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+]

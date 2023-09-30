@@ -10,6 +10,7 @@
     "spots": 0,
     "majorWebsite": "",
     "type": "Riigikaitse",
+    "studyType": "päevaõpe",
     "modules": [
       {
         "name": "Üldjuhtimine",
@@ -340,6 +341,7 @@
     "spots": 0,
     "majorWebsite": "",
     "type": "Riigikaitse",
+    "studyType": "päevaõpe",
     "modules": [
       {
         "name": "Sõjaväeline juhtimine",
@@ -693,6 +695,7 @@
     "spots": 0,
     "majorWebsite": "",
     "type": "Riigikaitse",
+    "studyType": "päevaõpe",
     "modules": [
       {
         "name": "Logistika eriala",
@@ -1183,6 +1186,7 @@
     "spots": 0,
     "majorWebsite": "https://www.kvak.ee/files/2023/01/20221221_A_KVA_magistri_ppe_S_jav_eline_juhtimine_kaitsev_es_MUUDETUD__ppekava.pdf",
     "type": "Riigikaitse",
+    "studyType": "päevaõpe",
     "modules": [
       {
         "name": "Üldjuhtimismoodul",
@@ -1495,6 +1499,7 @@
     "spots": 0,
     "majorWebsite": "https://www.kvak.ee/files/2019/07/S%C3%B5jav%C3%A4eline-juhtimine-vanemallohvitseridele-kutse%C3%B5ppe-%C3%B5ppekava.pdf",
     "type": "Riigikaitse",
+    "studyType": "päevaõpe",
     "modules": [
       {
         "name": "Üldjuhtimismoodul",

@@ -31,6 +31,7 @@
             }
         ],
         "type": "Ehitusinstituut",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -82,6 +83,7 @@
             }
         ],
         "type": "Ehitusinstituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -130,6 +132,7 @@
             }
         ],
         "type": "Ehitusinstituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -225,6 +228,7 @@
             }
         ],
         "type": "Logistikainstituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -272,6 +276,7 @@
             }
         ],
         "type": "Logistikainstituut",
+        "studyType": "sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -322,6 +327,7 @@
             }
         ],
         "type": "Logistikainstituut",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -369,6 +375,7 @@
             }
         ],
         "type": "Riigimajanduse Instituut",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -420,6 +427,7 @@
             }
         ],
         "type": "Riigimajanduse Instituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -471,6 +479,7 @@
             }
         ],
         "type": "Ehitusinstituut",
+        "studyType": "sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -524,6 +533,7 @@
             }
         ],
         "type": "Rõiva ja Tekstiili Instituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -575,6 +585,7 @@
             }
         ],
         "type": "Tehnikainstituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -626,6 +637,7 @@
             }
         ],
         "type": "Tehnikainstituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -674,6 +686,7 @@
             }
         ],
         "type": "Tehnikainstituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -721,6 +734,7 @@
             }
         ],
         "type": "Tehnikainstituut",
+        "studyType": "päevaõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -768,6 +782,7 @@
             }
         ],
         "type": "Teenusmajanduse Instutuut",
+        "studyType": "sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -818,6 +833,7 @@
             }
         ],
         "type": "Teenusmajanduse Instutuut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3,
@@ -865,6 +881,7 @@
             }
         ],
         "type": "Teenusmajanduse Instutuut",
+        "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3,
@@ -912,6 +929,7 @@
             }
         ],
         "type": "Teenusmajanduse Instutuut",
+        "studyType": "sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3,

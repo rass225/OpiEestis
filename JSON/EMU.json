@@ -10,6 +10,7 @@
       "spots": 48,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maamajanduslik-ettevotlus-ja-finantsjuhtimine/",
       "type": "sotsiaalteadused",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "name": "Üldmoodul",
@@ -341,6 +342,7 @@
       "spots": 30,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/geomaatika/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -661,6 +663,7 @@
       "spots": 50,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/metsamajandus/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [
@@ -1032,6 +1035,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/aiandus/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -1307,6 +1311,7 @@
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/kalandus-ja-rakendusokoloogia/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -1721,6 +1726,7 @@
       "spots": 34,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/keskkonnakaitse/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -2028,6 +2034,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maastikukujundus/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -2313,6 +2320,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/loodusturism/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -2633,6 +2641,7 @@
       "spots": 45,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/pollumajandussaaduste-tootmine-ja-turustamine/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -2918,6 +2927,7 @@
       "spots": 75,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/tehnika-ja-tehnoloogia/",
       "type": "Tehnik, tootmine ja tehnoloogoia",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -3275,6 +3285,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/loomakasvatus/",
       "type": "Veterinaaria",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -3572,6 +3583,7 @@
       "spots": 25,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/toiduainete-tehnoloogia/",
       "type": "Veterinaaria",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -3868,6 +3880,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/en/admissions/planning-and-analysis-in-multifunctional-forestry/",
       "type": "sotsiaalteadused",
+      "studyType": "päevaõpe",
       "modules": [
           {
             "courses": [],
@@ -4047,6 +4060,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/keskkonnajuhtimine-kliimamuutuste-tingimustes/",
       "type": "sotsiaalteadused",
+      "studyType": "päevaõpe",
       "modules": [
           {
             "courses": [],
@@ -4312,6 +4326,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/metsamajandus/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -4478,6 +4493,7 @@
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/keskkonnakorraldus-ja-poliitika/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -4691,6 +4707,7 @@
       "spots": 16,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/maastikuarhitektuur/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -4852,6 +4869,7 @@
       "spots": 13,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/maastikuarhitektuur/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -5017,6 +5035,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/tootmistehnika/",
       "type": "Tehnik, tootmine ja tehnoloogoia",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -5258,6 +5277,7 @@
       "spots": 40,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/majandusarvestus-ja-finantsjuhtimine/",
       "type": "sotsiaalteadused",
+      "studyType": "sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -5436,6 +5456,7 @@
       "spots": 30,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/okonoomika-ja-ettevotlus/",
       "type": "sotsiaalteadused",
+      "studyType": "sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -5627,6 +5648,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/geodeesia-kinnisvara-ja-maakorraldus/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -5841,6 +5863,7 @@
       "spots": 20,
       "majorWebsite": "http://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/metsatoostus/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -6028,6 +6051,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/aiandus/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -6221,6 +6245,7 @@
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/keskkonnakorraldus-ja-poliitika/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -6457,6 +6482,7 @@
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/loodusturism/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "sessioonõpe",
       "modules": [
         {
           "name": "Erialamoodul",
@@ -6564,6 +6590,7 @@
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/loomakasvatus/",
       "type": "Veterinaaria",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -6755,6 +6782,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/toiduainete-tehnolooga/",
       "type": "Veterinaaria",
+      "studyType": "sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -6970,6 +6998,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/pollumajandussaaduste-tootmine-ja-turustamine/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -7160,6 +7189,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/energiakasutus/",
       "type": "Tehnik, tootmine ja tehnoloogoia",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -7345,6 +7375,7 @@
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/ergonoomika/",
       "type": "Tehnik, tootmine ja tehnoloogoia",
+      "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
           "courses": [],
@@ -7524,6 +7555,7 @@
       "spots": 2,
       "majorWebsite": "http://pk.emu.ee/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -7669,6 +7701,7 @@
       "spots": 4,
       "majorWebsite": "http://pk.emu.ee/",
       "type": "Põllumajandus- ja keskkonnateadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -7814,6 +7847,7 @@
       "spots": 2,
       "majorWebsite": "http://te.emu.ee/",
       "type": "Tehnik, tootmine ja tehnoloogoia",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -7984,6 +8018,7 @@
       "spots": 2,
       "majorWebsite": "http://vl.emu.ee/",
       "type": "Veterinaaria",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -8152,6 +8187,7 @@
       "spots": 2,
       "majorWebsite": "http://mi.emu.ee/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -8315,6 +8351,7 @@
       "spots": 25,
       "majorWebsite": "http://mi.emu.ee/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -8702,6 +8739,7 @@
       "spots": 35,
       "majorWebsite": "http://te.emu.ee/",
       "type": "Tehnik, tootmine ja tehnoloogoia",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [],
@@ -9163,6 +9201,7 @@
       "spots": 35,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maaehitus/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -9603,6 +9642,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/veemajandus/",
       "type": "Metsandus- ja Maaehitusteadus",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "courses": [
@@ -10019,6 +10059,7 @@
       "spots": 34,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/veterinaarmeditsiin/",
       "type": "Veterinaaria",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "name": "Üldmoodul",
@@ -10537,6 +10578,7 @@
       "spots": 38,
       "majorWebsite": "https://www.emu.ee/en/admissions/veterinary-medicine/",
       "type": "Veterinaaria",
+      "studyType": "päevaõpe",
       "modules": [
         {
           "name": "Üldmoodul",

@@ -5,7 +5,7 @@ import MapKit
 extension CollegeMajorView {
     class Model: ObservableObject {
         @Published var major: Major
-        @Published var tabPool: [Tabs]
+//        @Published var tabPool: [Tabs]
         @Published var tabSelection: Tabs
         @Published var isFavorite: Bool
         @Published var mapLocations: [MapLocation]
@@ -38,22 +38,60 @@ extension CollegeMajorView {
             self.dependencies = dependencies
             
             var tabs: [Tabs] = []
-            tabs.append(.overview)
-            if !major.requirements.isEmpty {
-                tabs.append(.requirements)
-            }
-            if major.personnel != nil {
-                tabs.append(.personnel)
-            }
-            
-            self.tabPool = tabs
+//            tabs.append(.overview)
+//            if !major.requirements.isEmpty {
+//                tabs.append(.requirements)
+//            }
+//            if major.personnel != nil {
+//                tabs.append(.personnel)
+//            }
+//            
+//            self.tabPool = tabs
             observeUserDefaults()
         }
         
         deinit {
             print("Major View Model deinitialized")
         }
-    }
+        
+        var availableTabs: [Tabs] {
+                var tabs: [Tabs] = []
+
+                // Always append the .overview tab first
+                tabs.append(.overview)
+
+                // Then check for the presence of .requirements
+                if !major.requirements.isEmpty {
+                    tabs.append(.requirements)
+                }
+
+                // Append .personnel if it exists and is not empty
+                if let personnel = major.personnel, !personnel.isEmpty {
+                    tabs.append(.personnel)
+                }
+
+                // Finally, if you have a valid curriculumRef, append .outcomes and .modules if they exist and are not empty
+                if hasValidCurriculumRef {
+                    if let outcomes = major.outcomes, !outcomes.isEmpty {
+                        tabs.append(.outcomes)
+                    }
+
+                    if let modules = major.modules, !modules.isEmpty {
+                        tabs.append(.modules)
+                    }
+                }
+
+                return tabs
+            }
+
+            var hasValidCurriculumRef: Bool {
+                // Implement your logic to check if the network request for the curriculumRef was successful
+                return major.curriculumRef != nil
+            }
+            
+            // ... Rest of your ViewModel code ...
+        }
+    
 }
 
 extension CollegeMajorView.Model {
@@ -156,21 +194,6 @@ private extension CollegeMajorView.Model {
     }
     
     func fetchCurriculum2() async {
-        if let models = major.modules, !models.isEmpty {
-            DispatchQueue.main.async {
-                if !self.tabPool.contains(.modules) {
-                    self.tabPool.append(.modules)
-                }
-            }
-        }
-        if let outcomes = major.outcomes, !outcomes.isEmpty {
-            DispatchQueue.main.async {
-                if !self.tabPool.contains(.outcomes) {
-                    self.tabPool.append(.outcomes)
-                }
-            }
-        }
-        
         guard let urlString = major.curriculumRef else {
             print("ModuleRef not present")
             DispatchQueue.main.async {
@@ -191,6 +214,7 @@ private extension CollegeMajorView.Model {
             }
         } else {
             do {
+                print("\(urlString) is being fetched")
                 let data = try await dependencies.network.fetchCurriculumData(from: urlString)
                 processCurriculumData(data)
             } catch {
@@ -215,10 +239,6 @@ private extension CollegeMajorView.Model {
                 } else {
                     self.major.outcomes = [decodedResponse.outcomesEt]
                 }
-                
-                if !self.tabPool.contains(.outcomes) {
-                    self.tabPool.append(.outcomes)
-                }
                 let nonNilVersions = decodedResponse.versions.filter({ $0.admissionYear != nil })
                 if let latestVersion = nonNilVersions.max(by: { $0.admissionYear! < $1.admissionYear! }) {
                     if let admissionYear = latestVersion.admissionYear {
@@ -231,10 +251,8 @@ private extension CollegeMajorView.Model {
                     } else {
                         self.major.modules = modules
                     }
-                    
-                    if !self.tabPool.contains(.modules) {
-                        self.tabPool.append(.modules)
-                    }
+                    self.viewState = .success
+                } else {
                     self.viewState = .success
                 }
             }
@@ -256,6 +274,7 @@ private extension CollegeMajorView.Model {
             // Update UI on the main thread
             DispatchQueue.main.async {
                 self.major.eap = Int(coreDataResponse.credits)
+                self.major.studyType = coreDataResponse.classification.studyType.et
                 self.major.curriculumDate = modulesDataResponse.general.year.et
                 if let primaryLanguage = coreDataResponse.general.inputLanguages.first, let language =  Language(from: primaryLanguage.et) {
                     self.major.language = language
@@ -272,9 +291,9 @@ private extension CollegeMajorView.Model {
                     self.major.outcomes = outcomeStrings
                 }
 
-                if !self.tabPool.contains(.outcomes) {
-                    self.tabPool.append(.outcomes)
-                }
+//                if !self.tabPool.contains(.outcomes) {
+//                    self.tabPool.append(.outcomes)
+//                }
                 
                 self.viewState = .success
 
@@ -297,9 +316,9 @@ private extension CollegeMajorView.Model {
                 let convertedModules = convertOisDataToModule(blocks: blocks, detailedCourses: courseResponse)
                 DispatchQueue.main.async {
                     self.major.modules = convertedModules.unique.sorted(by: \.name)
-                    if !self.tabPool.contains(.modules) {
-                        self.tabPool.append(.modules)
-                    }
+//                    if !self.tabPool.contains(.modules) {
+//                        self.tabPool.append(.modules)
+//                    }
                 }
             } catch {
                 print("Error getting ois courses")

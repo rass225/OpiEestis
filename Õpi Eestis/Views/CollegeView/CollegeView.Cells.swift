@@ -44,18 +44,18 @@ extension CollegeView {
     @ViewBuilder
     func majorContentCell(_ item: Model.StatEntity) -> some View {
         if item.count != 0 {
-            HStack(alignment: .center, spacing: 10){
+            HStack(alignment: .center, spacing: 16){
                 Circle()
-                    .fill(item.color.gradient)
-                    .frame(width: 13, height: 13, alignment: .center)
+                    .fill(model.college.palette.secondary.gradient)
+                    .frame(width: 10, height: 10, alignment: .center)
                 
                 Text(item.name.rawValue.capitalized)
-                    .setFont(.subheadline, .regular, .rounded)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .setFont(.subheadline, .medium, .rounded)
+                    .maxWidth(alignment: .leading)
                 Text("\(item.count)")
-                    .setFont(.subheadline, .semibold, .rounded)
+                    .setFont(.body, .semibold, .rounded)
             }
-            .setColor(Theme.Colors.black)
+            .setColor(Theme.Colors.white)
         }
     }
     

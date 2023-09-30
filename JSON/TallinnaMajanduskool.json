@@ -1,0 +1,491 @@
+[
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Majanduskoolis õpid aru saama äriprotsessidest erinevates ettevõtetes. Sinust saab täpne ja analüütiline spetsialist, kes oskab näha parendamiskohti. \n\nPeale kooli lõpetamist oled kaasatud ettevõtte juhtimisprotsessidesse ning toetad neid – olenemata, millega täpselt ettevõtte tegeleb. Sinust saab spetsialist või esmatasandi juht. Sa oled tuttav ettevõtte erinevate tegevusvaldkondadega: turundustegevus, müügitöö, tootmis- või teenindusprotsess, klienditeenindus või ostuprotsess. Sinu igapäevatööks saab olema tegevuste ja ressursside kasutamise korraldamine, turundustegevuse planeerimine ja rakendamine, müügitöö korraldamine, majandusarvestus, klientide teenindamine, tootmis-, teenindus- või ostuprotsessi korraldamine jm. Sinu töös on olulised suhtlemis-, meeskonnatöö- ja juhtimisoskus."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/arikorralduse-spetsialist/",
+        "personnel": [
+            {
+                "name": "Indrek Jänes",
+                "title": "Ärinduse õppetooli juhataja",
+                "email": "indrek.janes@tmk.edu.ee",
+                "phone": "+3726507872"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Ärikorralduse spetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2790?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Väikeettevõtjana saad olla iseenda ülemus ning töökohtade looja. \n\nMajanduskoolis õpid Sa looma ettevõtet, mis kestab ja tulu sisse toob. Alustame algusest ja loome üheskoos äriplaani, millele toetudes paneme paika Sinu ettevõtte tegevusplaanid. Sa õpid strateegiliselt planeerima ja tead arvestada nii seadusandluse, maksusüsteemide kui personaliga. Koolis õpid tundma ettevõtlusega seotud riske ning nägema uusi võimalusi. \n\nPeale kooli lõpetamist saad iseseisvalt viia oma ettevõtte uutesse kõrgustesse – Sa mõistad eksporti ning suudad edukalt turustada oma tooteid ja teenused nii koduses Eestis kui välismaal. \n\nSa tead, kuidas arendada oma tooteid ja protsesse ning sead endale aina kõrgemaid eesmärke."
+        ],
+        "eap": 90,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/vaikeettevotja/",
+        "personnel": [
+            {
+                "name": "Indrek Jänes",
+                "title": "Ärinduse õppetooli juhataja",
+                "email": "indrek.janes@tmk.edu.ee",
+                "phone": "+3726507872"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 1.5,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Väikeettevõtja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2789?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Personalispetsialistina meeldib Sulle inimestega tegeleda, nende arengule ning karjäärile kaasa aidata. \n\nMajanduskoolis õpid Sa iseseisvalt töötama nii numbrite kui dokumentidega. Sa õpid tundma tööturgu, selle alusel koostama personalistrateegiaid ning neid ellu viima, sh ametikohti hindama, töötajaid värbama, hindama ja arendama. Koolis omandad vajalikud majandus- ja maksuarvestuse põhimõtted ning personaliuuringute läbiviimise oskused. \n\nPeale kooli lõpetamist saad Sa töötada eripalgelistes ettevõtetes, kuna omad üldist arusaama kõikidest personalijuhtimise töövaldkondadest ja nende omavahelistest seostest, seejuures tunned hästi vähemalt ühte kitsamat personalitöö valdkonda. Olenevalt ettevõttest töötad kas iseseivalt või personaliosakonnas. Sa aitad siduda organisatsioonis töötavad inimesed ühtseks hästitöötavaks kolleegiumiks."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/personalispetsialist/",
+        "personnel": [
+            {
+                "name": "Helen Raid",
+                "title": "Õppedirektor",
+                "email": "helen.raid@tmk.edu.ee",
+                "phone": "+3726507866",
+                "photo": ""
+            }
+        ],
+        "type": "",
+        "studyType": "õhtuõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Personalispetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2714?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Ostu- ja hankespetsialistina oskad läbi viia korrektseid hanketoiminguid ja leida parimaid pakkumisi. \n\nOstu- ja hankespetsialistiks saad õppida kui oled saanud kutsehariduse transpordi ja logistika või ärinduse, halduse kutsealal. Samuti saad õppima tulla, kui oled vastavad kompetentsid saanud töö käigus. \n\nMajanduskoolis õpid korraldama ostu- ja hanketoiminguid arvestades ettevõtte olemust. Teeme Sulle selgeks kõiksugu olulised regulatsioonid. Kuna oled meeskonnas oluline, siis aitame Sul saada paremaks meeskonnamängijaks ja õpid meiega koos kasutama vajalikke tehnoloogilisi vahendeid. \n\nKooli lõpetanuna oskad juhtida töörühmasid ning võtta vastutust hangete läbiviimise eest. Oled suurepärane enda suulises- ja kirjalikus väljendusoskuses. Loomulikult oled ka väga täpne, sest seda ju ostu- ja hankespetsialistilt oodatakse."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/ostujahankespetsialist/",
+        "personnel": [
+            {
+                "name": "Indrek Jänes",
+                "title": "Ärinduse õppetooli juhataja",
+                "email": "indrek.janes@tmk.edu.ee",
+                "phone": "+3726507872"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Ostu-ja hankespetsialisti erialale saavad õppima asuda need, kellel on vähemalt 4. kvalifikatsioonitaseme kutse järgmistel kutsealade: transport ja logistika ning ärindus, haldus või vastavate kompetentside olemasolu. Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning [portfoolio](https://docs.google.com/document/d/1Q3aHunuUntXMpVxCw8FUpsVm4d__dIky/edit?usp=sharing&ouid=101574084989071337799&rtpof=true&sd=true), mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11)."
+            }
+        ],
+        "name": "Ostu- ja hankespetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2275?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Nooremprojektijuhina oled Sa tõeline meeskonnamängija, kes oskab probleemidele metoodiliselt läheneda. \n\nMajanduskoolis õpid Sa planeerima projektide ajakavasid ja eelarveid. Enne projektiga alustamist kogud Sa kõikvõimalikku vajalikku informatsiooni ning haldad riske ja võimalusi. Muidugi õpid projekte ellu viima ning analüüsima, et siis lõpptulemust hinnata järgmiste projektide tarbeks. \n\nPeale kooli lõpetamist ootavad Sind ettevõtted väga erinevatest sektoritest. Sa töötad projektigrupi liikmena või juhid ise väikeprojekte."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/nooremprojektijuht/",
+        "personnel": [
+            {
+                "name": "Indrek Jänes",
+                "title": "Ärinduse õppetooli juhataja",
+                "email": "indrek.janes@tmk.edu.ee",
+                "phone": "+3726507872"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Nooremprojektijuht",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1608?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Meeskonnajuhina suudad Sa hallata meeskondi, motiveerida inimesi ja ohjata protsesse. \n\nÕppekava läbinuna on Sulle selgeks saanud põhilised meeskonnatöö juhtimisega seotud oskused ning organisatsioonikultuuri toimemehhanismid, oskad juhtida projekte ja neid eelarveridadesse paigutada. Kooli lõpetanud meeskonnajuhina kasutad IKT vahendeid, et ühendada meeskondi. Meeskonnajuhi õppekaval saad õppida ning täiendada teadmisi nii teeninduse kui ka tootmise korraldamise valdkonnas. Õppeprotsess hõlmab palju rühmatööd ja aktiivõppe meetodeid."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/meeskonnajuht/",
+        "personnel": [
+            {
+                "name": "Indrek Jänes",
+                "title": "Ärinduse õppetooli juhataja",
+                "email": "indrek.janes@tmk.edu.ee",
+                "phone": "+3726507872"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning portfoolio, mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11). \n\nÕppima saavad asuda need, kellel on vähemalt 5. taseme kutse järgmistel kutsealadel: põllumajandus, kalandus, metsandus, toiduainetööstus, teenindus, tehnika, tootmine ja töötlemine või vastavate kompetentside olemasolu."
+            }
+        ],
+        "name": "Meeskonnajuht",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1714?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Kvaliteedispetsialistina hoolitsed Sa organisatsiooni tõhususe ja tulemuslikkuse eest. \n\nÜhiskonnas toimuvad sotsiaal-majanduslikud muutused ning kõikidel organisatsioonidel nii era- kui avalikus sektoris on vaja pidevalt muutustega kohaneda. \n\nOrganisatsioonid vajavad üha enam kvaliteedijuhtimist ning kvaliteedispetsialiste, kelle ülesandeks on tunda ning hallata organisatsiooni töökorraldust ning oskust seda analüüsida ja arendada. \n\nKvaliteedispetsialistina oled Sa ettevõttes nõuandja-selgitaja ning juhi konsultant. Klientidele aga oled firma esindaja, kelle poole pöörduda teenuste või toodetega seotud probleemide ja ettepanekutega. Kvaliteedispetsialist koos kvaliteedijuhiga panustavad organisatsiooni liikmete koostöö parendusse, et kliendid saaksid oma vajadustele ja ootustele vastavaid tooteid või teenuseid. \n\nMajanduskoolis õpid Sa juhtima muutusi ning suunama väga erinevat juhtimisinfot, püstitama ja mõõtma eesmärke, analüüsima ja süstematiseerima tegevusi tulemuslikkuse arendamiseks. Saad tuttavaks erinevate õigusaktide, standardite ja hindamismeetoditega. Oskad korraldada koolitusi ja siduda organisatsiooni erinevad osad tervikuks, et organisatsioon suudaks pidevalt pakkuda konkurentsivõimelist teenust või toodet. Oled meeskonnamängija, kes tunneb kutseetikat ja on nutikas juht. \n\nKvaliteedispetsialistina saad töötada väga erinevates valdkondades ja organisatsioonides nii era- kui avalikus sektoris. Sa töötad koos juhtkonnaga, analüüsid toimuvat ning otsid pidevalt uusi võimalusi organisatsiooni protsesside, toodete ja teenuste arendamiseks. Olenevalt organisatsioonist, võid töötada ka arendus- või turundusosakondades. \n\nMajanduskoolist saadud kutsetunnistus kinnitab Sinu teadmisi ja oskusi kvaliteedispetsialistina!"
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/kvaliteedispetsialist/",
+        "personnel": [
+            {
+                "name": "Indrek Jänes",
+                "title": "Ärinduse õppetooli juhataja",
+                "email": "indrek.janes@tmk.edu.ee",
+                "phone": "+3726507872"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            },
+            {
+                "term": "Õpingute alustamiseks on vajalik inglise keele oskus vähemalt algtasemel A2."
+            }
+        ],
+        "name": "Kvaliteedispetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1603?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Turundusspetsialistina oled julgete ideedega loomeinimene, kes tunneb ennast ka mugavalt numbrite maailmas. \n\nMajanduskoolis valmistame Sind ette, et saaksid särada nii turunduse, müügi, juhtimise kui ka projektijuhtimisega seotud valdkondades. Õpetame Sulle konkurentidest eristumist ja koolitame Sinust osava kliendisuhete juhtija. Õpid tundma internetiturunduse tagamaid ning hakkad peagi orienteeruma ROI, BTL, B2B lühendite rägastikus. Sinust saab osav läbirääkija ja esineja. \n\nPeale kooli lõpetamist võid leida tööd nii avalikus, era- ja kolmandas sektoris kui ka rahvusvahelistes organisatsioonides. Sinu tööks saab olema turunduseelarvete koostamine, kampaaniate juhtimine, turu-uuringute koostamine ja nendest saadud andmete analüüsimine. Saad muretult hakkama iseseivalt töötades, ent oskad olla ka osav meeskonnamängija."
+        ],
+        "eap": 150,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/turundusspetsialist/",
+        "personnel": [
+            {
+                "name": "Triin Rum",
+                "title": "Turunduse õppetooli juhataja",
+                "email": "triin.rum@tmk.edu.ee",
+                "phone": "+37256281690"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2.5,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Turundusspetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1611?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Sotsiaalmeedia spetsialistina meeldib Sulle jutustada lugusid, mis loevad. \n\nMajanduskoolis õpid Sa nägema sotsiaalmeediaplatvorme kui turunduskanaleid, mis lisaks like’idele ka reaalselt raha sisse toob. Õpid kirjutama lugusid, mis köidavad inimesi, ja tead, mida tahavad näha ettevõtte sihtrühmad. Õpetame Sulle, kuidas meeletutest infokogumitest selekteerida välja oluline, ja seda oma tarbeks ära kasutada. Peagi oskad kasutada Photoshopi, et kujundada pilkupüüdvaid postitusi ning töötled ise videoklippe. \n\nPeale kooli leiad tööd erinevates sektorites tegutsevates organisatsioonides. Sinu tööks on erinevate sotsiaalmeediakanalite juhtimine ja strateegiline arendamine. Sotsiaalmeedia spetsialistina oskad koguda andmeid ning nende põhjal koostada analüüse ja suunata tegevusi. Sa oskad mõelda väljaspool kasti ning tegutseda kiiremalt kui konkurendid."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/sotsiaalmeedia-spetsialist/",
+        "personnel": [
+            {
+                "name": "Triin Rum",
+                "title": "Turunduse õppetooli juhataja",
+                "email": "triin.rum@tmk.edu.ee",
+                "phone": "+37256281690"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Sotsiaalmeedia spetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1610?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Õigusassistendi kutse omandamisega lood Sa endale võimaluse töötada õigusspetsialisti abilisena õigusvaldkondade kireval skaalal õigus-, advokaadi-, notari-, kohtutäituri jm büroodes ning kohtus. \n\nMajanduskoolis õpid Sa tundma õigusmaastikku – s.o õiguse põhimõisteid ja nende rakendamise baasväljundeid selleks, et õigusspetsialistide abilisena sellel põneval maastikul ladusalt orienteeruda. Majanduskool avab Sulle võimaluse omandada täiesti uus kutsetaseme tööalane kompetents või integreerida õigusassistendi kutsekompetents oma olemasolevate oskuste portfelli näiteks sotsiaalvaldkonnas või töötukassa nõustajana töötades ning õigusspetsialisti õigusbüroodes assisteerides. \n\nÕpingud, sh praktikad, annavad ülevaate õigusvaldkondade rikkalikest tööväljunditest nii avalikus kui erasektoris. Õigusassistendi amet eeldab uudishimu ühiskonnas toimuva vastu, soovi panustada probleemide lahendamisse või nende ennetamisse. Õigusassistendiks sobid Sa, kui oled hea suhtleja, paindlik, tuled toime pingeliste olukordadega, tunned ennast hästi meeskonnas töötades ning austad kutse-eetikat. \n\nUsaldame Sinu kätte õiguse baasteadmiste kompassi ja õigusnormide rakendamise põhioskused. Õpingute järel sobid Sa abistama õigusspetsialiste laial valdkondade skaalal. Õpingud lõppevad kutseeksamiga. \n\nOotame Sind õppima eriala, mida on majanduskoolis õpetatud juba 40 väärikat aastat!"
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/oigusassistent/",
+        "personnel": [
+            {
+                "name": "Kristel Bankier",
+                "title": "Administratiivtöö õppetooli juht",
+                "email": "kristel.bankier@tmk.edu.ee",
+                "phone": "+37256495159"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "header": "Sisseastumiskatse",
+                "term": "Sisseastumisel arvestatakse sisseastumistesti, õppepäeval loengutest osavõttu ja vestluse tulemust."
+            }
+        ],
+        "name": "Õigusassistent",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1607?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Sekretärina saab Sinust organisatsiooni süda – Sa tunned organisatsiooni ja selle toimimispõhimõtteid suurepäraselt. \n\nSekretärina oled esimene kontaktisik, kellega ettevõttes suheldakse, ja seetõttu on Sinu stiil, hoiakud, oskused ning teadmised ka asutuse visiitkaardiks. Sekretärina tegeled organisatsioonis teabevahetuse, dokumenditöö ja sise- ning välisklientide teenindamisega. \n\nMajanduskoolis õpid dokumendi- ja teabehaldust ning arhiivitöö korraldust, andmekaitsenõuete rakendamist, infosüsteemide kasutamist dokumendihalduse protsessides, organisatsiooni suhte- ja reisikorraldust, etiketti, personalitööd, raamatupidamise aluseid ning keeli. Omandatud teadmised ja oskused võimaldavad Sul pakkuda väärtuslikku tuge personalispetsialistidele ja raamatupidajatele. \n\nSekretärina valdad mitut rolli – juhile parem käsi, sisekliendile asendamatu abimees ja väliskliendile asjatundlik ettevõtte esindaja. Sekretäri tööülesanded sõltuvad konkreetse organisatsiooni eripärast ja eeldavad kliendisõbralikkust suhtlemisel, kiiret ja asjakohast tegutsemist ning teabe konfidentsiaalsuse tagamist, samuti toimetulekut erinevate inimeste ja olukordadega. \n\nTallinna Majanduskooli lõpetanuna on Sul kõrgeimal tasemel ettevalmistus töötamiseks sekretärina, büroo assistendina, personalijuhi ja raamatupidaja assistendina nii avalik-õiguslikus kui erasektoris."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/sekretar/",
+        "personnel": [
+            {
+                "name": "Kristel Bankier",
+                "title": "Administratiivtöö õppetooli juht",
+                "email": "kristel.bankier@tmk.edu.ee",
+                "phone": "+37256495159"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Sekretär",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2717?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Majanduskoolis õpid Sa tundma ettevõtluskeskkonda. Siin õpid tundma finantsarvestust, maksuarvestust ning täiendad neid juhtimisarvestusega. Siin õpid korraldama raamatupidamist nii, et oleks tagatud täpne info majandusüksuse finantsseisundust ja tulemustest. Sa juhindud Euroopa Liidu standarditest, kutse-eetikast ja aruandluse põhimõtetest. Õpetame Sulle, kuidas saada ka iseenda ülemuseks alustades oma ettevõttes raamatupidamisteenuse pakkumisega. \n\nPeale kooli lõpetamist on Sul võimalik töötada erinevates ettevõttetes, pakkuda raamatupidamise teenust või asutada enda ettevõte. Pakkudes raamatupidamise teenust on Sul võimalus olla oma aja peremees ning valida endale meelepärased kliendid. Sinu põhilised tööülesanded on seotud maksudeklaratsioonide täitmisega ja statistiliste aruannetega (nt majandusaasta aruannetega). Sinu töö on vastutusrikas ning oskad töötada nii iseseisvalt kui meeskonnas. Oskad planeerida oma tööd ja aega ning oled saanud suurepäraseks suhtlejaks. \n\nLisaks on Sul võimalik minna edasi õppima majandusarvestust või finantsarvestust kõrg- ja ülikoolidesse või jätkata Tallinna Majanduskoolis maksuspetsialisti jätkuõppekaval."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/raamatupidaja/",
+        "personnel": [
+            {
+                "name": "Kristel Bankier",
+                "title": "Administratiivtöö õppetooli juht",
+                "email": "kristel.bankier@tmk.edu.ee",
+                "phone": "+37256495159"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Vestlus"
+            },
+            {
+                "term": "Sisseastumistest"
+            }
+        ],
+        "name": "Raamatupidaja",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2784?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Maksuspetsialistina tunned end hästi nii valdkonna õiguslikus kui ka majanduslikus raamistikus. \n\nMaksuspetsialistiks saad õppida, kui oled eelnevalt omandanud raamatupidamise või maksuarvestuse eriala või Sul on vähemalt raamatupidaja 5. taseme kutsetunnistus või on Sul raamatupidajana töötamise kogemus. Sinu eelnevale haridusele ja kogemusele lisanduvad koolist teadmised maksuõigusest ja -menetlusest laiemalt. Nii on näiteks kaudsed ja otsesed maksud, rahvusvahelise maksustamise põhimõtted, maksumenetlus ja ka tollinduse alused need teemad, millega meie juures igapäevaselt tegeled. Üheskoos uurime maksualaseid aktuaalseid küsimusi ning kõrvale ei jää ka maksualaste süütegude menetlemine. \n\nPeale maksuspetsialisti jätkuõppe lõpetamist on Sul võimalus jätkata rakenduskõrghariduse tasemel õpinguid Sisekaitseakadeemias, töötada nii avalikus kui ka erasektoris, alustada oma karjääri Maksu- ja Tolliametis, nõustada ettevõtjaid nii tööandja kui ka töövõtjana või olla veelgi parem oma senisel töökohal."
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://tmk.edu.ee/sisseastumine/erialad/maksuspetsialist-jatkuope/",
+        "personnel": [
+            {
+                "name": "Fredy Bogomolov",
+                "title": "Administratiivtöö õppetooli juhataja",
+                "email": "fredy.bogomolov@tmk.edu.ee",
+                "phone": "+3726507868",
+                "photo": "https://tmk.edu.ee/wp-content/uploads/fredy-bogomolov-lugu-768x927.jpg"
+            }
+        ],
+        "type": "",
+        "studyType": "sessioonõpe",
+        "level": "kutseharidus",
+        "language": "eesti keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Maksuspetsialisti õppekaval võib õppima asuda isik, kes on lõpetanud majandusarvestuse või raamatupidaja eriala või sooritanud Raamatupidaja 5. taseme või Raamatupidaja assistendi 1. kutseeksami."
+            },
+            {
+                "header": "Vestlus",
+                "term": "Sisseastumiskatseteks on vestlus, mille käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+            }
+        ],
+        "name": "Maksuspetsialist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1716?format=json",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    }
+]

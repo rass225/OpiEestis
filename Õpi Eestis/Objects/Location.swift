@@ -4,6 +4,7 @@ import MapKit
 struct CollegeLocation: Codable, Equatable, Hashable, Identifiable {
     var id = UUID()
     
+//    let name: String?
     let address: String
     let appleMapLink: String
     let city: String
@@ -18,6 +19,7 @@ struct CollegeLocation: Codable, Equatable, Hashable, Identifiable {
         case latitude
         case longitude
         case isPrimary
+//        case name
     }
     
     var region: MKCoordinateRegion {

@@ -68,6 +68,11 @@ extension CollegeMajorView.Model {
             outcomesEt = outcomesEt.replacingOccurrences(of: "\n5.", with: "\n\n**•** ")
             outcomesEt = outcomesEt.replacingOccurrences(of: "\n6.", with: "\n\n**•** ")
             outcomesEt = outcomesEt.replacingOccurrences(of: "\n7.", with: "\n\n**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: "\n8.", with: "\n\n**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: ";\n• ", with: "\n\n**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: "\n●\t", with: "\n\n**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: "●\t", with: "**•** ")
+            outcomesEt = outcomesEt.replacingOccurrences(of: "•\t", with: "**•** ")
             
             self.outcomesEn = try container.decodeIfPresent(String.self, forKey: .outcomesEn)
             outcomesEn = outcomesEn?.replacingOccurrences(of: "\n1) ", with: "\n\n**•** ")
@@ -79,6 +84,8 @@ extension CollegeMajorView.Model {
             outcomesEn = outcomesEn?.replacingOccurrences(of: "\n7) ", with: "\n\n**•** ")
             outcomesEn = outcomesEn?.replacingOccurrences(of: "\n8) ", with: "\n\n**•** ")
             outcomesEn = outcomesEn?.replacingOccurrences(of: "\n9) ", with: "\n\n**•** ")
+            
+           
             self.credits = try container.decode(Double.self, forKey: .credits)
             self.studyLanguages = try container.decode([String].self, forKey: .studyLanguages)
             self.versions = try container.decode([CurriculumVersion].self, forKey: .versions)
@@ -191,7 +198,6 @@ extension CollegeMajorView.Model {
         case success
     }
     
-    
     struct OisDetailedCourse: Codable {
         let uuid: String
         let title: OisText
@@ -221,6 +227,7 @@ extension CollegeMajorView.Model {
         let overview: OisOverview
         let credits: Double
         let general: OisGeneralInformation
+        let classification: OisClassification
     }
     
     struct OisOverview: Codable {
@@ -439,6 +446,14 @@ extension CollegeMajorView.Model {
     struct OisVersion: Codable {
         let modules: OisModules
         let general: OisVersionGeneralInformation
+    }
+    
+    struct OisClassification: Codable {
+        let studyType: OisText
+        
+        enum CodingKeys: String, CodingKey {
+            case studyType = "study_type"
+        }
     }
     
     struct OisModules: Codable {

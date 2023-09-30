@@ -12,11 +12,11 @@ struct CollegeMajorView: View {
             case .success:
                 tabView()
                 switch model.tabSelection {
-                case .overview: overviewView()
-                case .modules: modulesView()
-                case .requirements: requirementsView()
-                case .outcomes: outcomesView()
-                case .personnel: personnelView()
+                case .overview: overviewView
+                case .modules: modulesView
+                case .requirements: requirementsView
+                case .outcomes: outcomesView
+                case .personnel: personnelView
                 }
             case .loading:
                 loadingView()
@@ -29,6 +29,7 @@ struct CollegeMajorView: View {
         }
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
+        .toolbarBackground(.hidden, for: .navigationBar)
         .navigationBarBackButtonHidden()
         .task {
             if !model.didLoad {
@@ -41,8 +42,7 @@ struct CollegeMajorView: View {
 // MARK: - Tabs
 
 private extension CollegeMajorView {
-    @ViewBuilder
-    func overviewView() -> some View {
+    var overviewView: some View {
         List {
             Section(content: statsContent, header: statsHeader)
                 .listRowSeparator(.hidden)
@@ -53,15 +53,13 @@ private extension CollegeMajorView {
         }
     }
     
-    @ViewBuilder
-    func modulesView() -> some View {
+    var modulesView: some View {
         List {
             Section(content: modulesContent, header: modulesHeader)
         }
     }
     
-    @ViewBuilder
-    func requirementsView() -> some View {
+    var requirementsView: some View {
         List {
             Section(
                 content: requirementContent,
@@ -71,15 +69,13 @@ private extension CollegeMajorView {
         }
     }
     
-    @ViewBuilder
-    func outcomesView() -> some View {
+    var outcomesView: some View {
         List {
             Section(content: outcomesContent, header: outcomesHeader)
         }
     }
     
-    @ViewBuilder
-    func personnelView() -> some View {
+    var personnelView: some View {
         List {
             Section(content: personnelContent, header: personnelHeader)
         }
@@ -114,7 +110,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func tabView() -> some View {
         HStack {
-            ForEach(model.tabPool, id: \.self) { tab in
+            ForEach(model.availableTabs, id: \.self) { tab in
                 tab.image
                     .maxSize()
                     .background {
@@ -268,15 +264,28 @@ extension CollegeMajorView {
             color: model.college.palette.base
         )
         if let curriculumDate = model.major.curriculumDate {
-            HStack(alignment: .center, spacing: 16) {
+            HStack(alignment: .center, spacing: 0) {
                 Image(systemName: "calendar")
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
                 Text(curriculumDate)
                     .setFont(.subheadline, .medium, .rounded)
                     .setColor(Theme.Colors.black)
             }
             .badge(Text("Õppeaasta").setFont(.footnote, .regular, .rounded))
+        }
+        if let studyType = model.major.studyType {
+            HStack(alignment: .center, spacing: 0) {
+                Image(systemName: "door.left.hand.closed")
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text(studyType.capitalizedSentence)
+                    .setFont(.subheadline, .medium, .rounded)
+                    .setColor(Theme.Colors.black)
+            }
+            .badge(Text("Õppevorm").setFont(.footnote, .regular, .rounded))
         }
     }
     
@@ -299,7 +308,7 @@ extension CollegeMajorView {
                     color: model.college.palette.base
                 )
             }
-            .setFont(.subheadline, .regular, .rounded)
+            .setFont(.subheadline, .semibold, .rounded)
             .tint(model.college.palette.base)
         }
     }
@@ -426,6 +435,8 @@ extension CollegeMajorView {
                     .setColor(Theme.Colors.black)
                     .setFont(.subheadline, .regular, .rounded)
             })
+            .setFont(.subheadline, .semibold, .rounded)
+            .tint(model.college.palette.base)
         } else {
             HStack(alignment: .top, spacing: 4){
                 Text(.init(requirement.term))
@@ -439,7 +450,6 @@ extension CollegeMajorView {
             .setColor(Theme.Colors.black)
             .setFont(.subheadline, .regular, .rounded)
         }
-        
     }
     
     @ViewBuilder
@@ -576,7 +586,7 @@ extension CollegeMajorView {
                 }
             case .cost(let cost):
                 image = cost.currency.icon
-                topText = "\(cost.amount)€ \(cost.interval.label)"
+                topText = "\(cost.amount)€\(cost.interval.label.lowercased())"
                 bottomText = "Maksumus"
             case .eap(let eap, let hasEap):
                 image = Theme.Icons.squareStack
@@ -590,10 +600,11 @@ extension CollegeMajorView {
         }
         
         var body: some View {
-            HStack(alignment: .center, spacing: 16) {
+            HStack(alignment: .center, spacing: 0) {
                 image
                     .setColor(color.gradient)
                     .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
                 Text(topText)
                     .setFont(.subheadline, .medium, .rounded)
                     .setColor(Theme.Colors.black)

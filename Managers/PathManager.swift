@@ -67,6 +67,7 @@ enum CollegeDestination: Hashable {
     case college(College)
     case majors(college: College, majors: [Major])
     case major(college: College, major: Major, isFavorite: Bool)
+    case collegeMap(College)
 }
 
 enum Tabs {

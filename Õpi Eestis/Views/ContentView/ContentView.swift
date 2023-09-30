@@ -21,6 +21,8 @@ struct ContentView: View {
                                 MajorsView(model: .init(college: college, majors: majors))
                             case let .major(college, major, isFavorite):
                                 CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+                            case let .collegeMap(college):
+                                CollegeMapView(model: .init(college: college, region: .init()))
                             }
                         }
                 }
@@ -37,6 +39,8 @@ struct ContentView: View {
                                 MajorsView(model: .init(college: college, majors: majors))
                             case let .major(college, major, isFavorite):
                                 CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+                            case let .collegeMap(college):
+                                CollegeMapView(model: .init(college: college, region: .init()))
                             }
                         }
                 }
@@ -53,15 +57,16 @@ struct ContentView: View {
                                 MajorsView(model: .init(college: college, majors: majors))
                             case let .major(college, major, isFavorite):
                                 CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+                            case let .collegeMap(college):
+                                CollegeMapView(model: .init(college: college, region: .init()))
                             }
                         }
-                        
                 }
                 .tabItem(favoritesTabItem)
                 .tag(Tabs.favorites)
-                ProfileView()
-                    .tabItem(profileTabItem)
-                    .tag(Tabs.profile)
+//                ProfileView()
+//                    .tabItem(profileTabItem)
+//                    .tag(Tabs.profile)
             }
             .tint(Theme.Colors.primary.gradient)
         }

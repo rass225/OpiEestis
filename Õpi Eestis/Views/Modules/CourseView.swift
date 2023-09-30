@@ -4,57 +4,76 @@ struct ModuleCell: View {
     let item: Module
     let eapLabel: String
     let color: Color
+
     var body: some View {
-        DisclosureGroup(item.name.lowercased().capitalized) {
-            CoursesCell(item: item, eapLabel: eapLabel, color: color)
-            if let items = item.submodules {
-                ForEach(items, id: \.self) { item in
-                    DisclosureGroup(item.name) {
-                        SubmoduleCell(item: item, eapLabel: eapLabel, color: color)
-                        if item.submodules != nil {
-                            SubSubmoduleView(item: item, eapLabel: eapLabel, color: color)
-                        }
-                    }
+        DisclosureGroup(content: {
+            CoursesCell(courses: item.courses, eapLabel: eapLabel, color: color)
+            if let submodules = item.submodules {
+                ForEach(submodules, id: \.self) { submodule in
+                    DisclosureGroup(content: {
+                        SubmoduleCell(item: submodule, eapLabel: eapLabel, color: color)
+                    }, label: {
+                        Text(submodule.name)
+                            .setFont(.subheadline, .regular, .rounded)
+                    })
                 }
+            }
+        }, label: {
+            Text(item.name)
+                .setFont(.subheadline, .regular, .rounded)
+        })
+        .setFont(.subheadline, .semibold, .rounded)
+    }
+}
+
+struct SubmoduleCell: View {
+    let item: Submodule
+    let eapLabel: String
+    let color: Color
+
+    var body: some View {
+        CoursesCell(courses: item.courses, eapLabel: eapLabel, color: color)
+        if let subsubmodules = item.submodules {
+            ForEach(subsubmodules, id: \.self) { subsubmodule in
+                DisclosureGroup(content: {
+                    SubSubmoduleCell(item: subsubmodule, eapLabel: eapLabel, color: color)
+                }, label: {
+                    Text(subsubmodule.name)
+                        .setFont(.subheadline, .regular, .rounded)
+                })
+            }
+        }
+    }
+}
+
+struct SubSubmoduleCell: View {
+    let item: SubSubmodule
+    let eapLabel: String
+    let color: Color
+
+    var body: some View {
+        CoursesCell(courses: item.courses, eapLabel: eapLabel, color: color)
+        if let subsubsubmodules = item.submodule {
+            ForEach(subsubsubmodules, id: \.self) { subsubsubmodule in
+                DisclosureGroup(content: {
+                    CoursesCell(courses: subsubsubmodule.courses, eapLabel: eapLabel, color: color)
+                }, label: {
+                    Text(subsubsubmodule.name)
+                        .setFont(.subheadline, .regular, .rounded)
+                })
             }
         }
     }
 }
 
 struct CoursesCell: View {
-    let item: Module
+    let courses: [Course]
     let eapLabel: String
     let color: Color
-    var body: some View {
-        ForEach(item.courses, id: \.self) { item in
-            CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
-        }
-    }
-}
-struct SubmoduleCell: View {
-    let item: Submodule
-    let eapLabel: String
-    let color: Color
-    var body: some View {
-        ForEach(item.courses, id: \.self) { item in
-            CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
-        }
-    }
-}
 
-struct SubSubmoduleView: View {
-    let item: Submodule
-    let eapLabel: String
-    let color: Color
     var body: some View {
-        if let submodules = item.submodules {
-            ForEach(submodules, id: \.self) { item in
-                DisclosureGroup(item.name) {
-                    ForEach(item.courses, id: \.self) { item in
-                        CourseCell(name: item.name, eap: item.eapCount, eapLabel: eapLabel, color: color)
-                    }
-                }
-            }
+        ForEach(courses, id: \.self) { course in
+            CourseCell(name: course.name, eap: course.eapCount, eapLabel: eapLabel, color: color)
         }
     }
 }

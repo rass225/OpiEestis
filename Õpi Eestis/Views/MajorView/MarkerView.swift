@@ -5,26 +5,43 @@ struct MarkerView: View {
     
     let color: Color
     let logo: String
+    let pinHeight: CGFloat
+    let pinWidth: CGFloat
+    let iconSize: CGSize
+    
+    init(
+        color: Color,
+        logo: String,
+        pinHeight: CGFloat = 60,
+        pinWidth: CGFloat = 50,
+        iconSize: CGSize = .init(width: 40, height: 40)
+    ) {
+        self.color = color
+        self.logo = logo
+        self.pinHeight = pinHeight
+        self.pinWidth = pinWidth
+        self.iconSize = iconSize
+    }
     
     var body: some View {
         ZStack(alignment: .top) {
-            pinShape()
+            pinShape(width: pinWidth, height: pinHeight)
                 .fill(color.gradient)
             Image(logo)
                 .resizable()
                 .fit()
                 .padding(4)
-                .frame(width: 40, height: 40)
+                .frame(maxWidth: iconSize.width, maxHeight: iconSize.height)
                 .background(Color.white)
                 .clipShape(Circle())
                 .padding(5)
         }
     }
     
-    @ViewBuilder private func pinShape() -> some Shape {
+    @ViewBuilder private func pinShape(width: CGFloat, height: CGFloat) -> some Shape {
         Path { path in
-            let bodyWidth: CGFloat = 50
-            let bodyHeight: CGFloat = 60
+            let bodyWidth: CGFloat = width
+            let bodyHeight: CGFloat = height
             let tipHeight: CGFloat = 10
             let cornerRadius: CGFloat = 15
             
@@ -115,6 +132,17 @@ struct LittleMarkerView: View {
     
     let color: Color
     let logo: String
+    let height: CGFloat
+    
+    init(
+        color: Color,
+        logo: String,
+        height: CGFloat = 23
+    ) {
+        self.color = color
+        self.logo = logo
+        self.height = height
+    }
     
     var body: some View {
         ZStack(alignment: .top) {

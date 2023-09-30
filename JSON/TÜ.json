@@ -3407,12 +3407,15 @@
         "duration": 2,
         "requirements": [
             {
-                "percentage": 50,
-                "term": "Eelmise õppeaste keskmine hinne"
+                "term": "bakalaureusekraad või sellele vastav haridustase (eeldusaineid ei ole õppekavale kehtestatud)."
             },
             {
-                "percentage": 50,
-                "term": "Erialakatse"
+                "header": "Eesti keele oskus vähemalt B2-tasemel",
+                "term": "Vaata [eesti keele oskuse tõendamiseks sobivaid dokumente ja eksamitulemusi](https://ut.ee/et/sisu/sisseastumine-magistrioppesse#keeleoskus)."
+            },
+            {
+                "header": "Erialakatse",
+                "term": "Erialakatse koosneb motivatsioonikirjast ja lühiintervjuust. \n\nErialakatse eesmärgiks on välja selgitada üliõpilaskandidaadi varasem õppimiskogemus, tema motiveeritus ja sobivus erialasteks õpinguteks. \n\n**Motivatsioonikirjas** tuleb vastata järgmistele küsimustele: \n\n**1.** Kirjelda oma senist õpiteed. Too sellest positiivseid näiteid, mis toetavad õpingute jätkamist ajaloo magistriõppes. Kui Sa pole lõpetanud kõrgkoolis ajaloo õppekava, siis selgita palun oma senist ajaloo, kunstiajaloo või arheoloogiaga  seotud tausta (õpingud, lugemus, töökogemus). \n**2.** Palun põhjenda, miks soovid ajaloo magistriõppes õppida. \n**3.** Millised väärtushinnangud on sinu valitud erialal (arheoloogia, arhiivindus, Eesti ajalugu, kunstiajalugu, uusim aeg, üldajalugu, ajaloo ja ühiskonnaõpetuse õpetaja) olulised? \n\n**Lühiintervjuu** motivatsioonikirja põhjal \n\n**Hindamine** \n\n**Hindamine** \n\nErialakatset hinnatakse 100 punkti süsteemis ja positiivne tulemus on vähemalt 51 punkti. Erialakatsel hinnatakse kandidaadi kutsesobivust ning oskust oma seisukohti selgitada ja põhjendada."
             }
         ],
         "name": "Ajalugu",

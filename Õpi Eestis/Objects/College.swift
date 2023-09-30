@@ -13,6 +13,7 @@ struct College: Codable, Hashable, Identifiable {
     let links: [CollegeLink]
     let location: CollegeLocation
     let logoRef: String
+    let logoModifiable: Bool
     let palette: CollegePalette
     let admission: [String]
     let students: Int
@@ -52,6 +53,10 @@ struct College: Codable, Hashable, Identifiable {
             return "TÜ"
         case "Tallinna Tervishoiu Kõrgkool":
             return "TallinnaTervishoid"
+        case "Tallinna Majanduskool":
+            return "TallinnaMajanduskool"
+        case "Ida-Virumaa Kutsehariduskeskus":
+            return "IdaVirumaaKutsehariduskeskus"
         default:
             return ""
         }
@@ -73,7 +78,8 @@ struct College: Codable, Hashable, Identifiable {
              students,
              website,
              worldRanking,
-             jsonKeys
+             jsonKeys,
+             logoModifiable
     }
     
     init(from decoder: Decoder) throws {
@@ -95,6 +101,7 @@ struct College: Codable, Hashable, Identifiable {
         website = try values.decode(String.self, forKey: .website)
         worldRanking = try values.decode(Int.self, forKey: .worldRanking)
         jsonKeys = try values.decode(JSONKeys.self, forKey: .jsonKeys)
+        logoModifiable = try values.decode(Bool.self, forKey: .logoModifiable)
     }
 }
 

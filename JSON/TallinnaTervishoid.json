@@ -428,6 +428,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -533,6 +534,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 4.5,
@@ -589,6 +591,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -638,6 +641,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 3.5,
@@ -665,7 +669,7 @@
     },
     {
         "studyLocation": [
-            "Tallinn"
+            "Haapsalu"
         ],
         "description": [
             "Tegevusteraapia tegeleb inimese tegevusvõimet mõjutavate tegurite väljaselgitamise ning igapäevategevustes osaluse parandamisega ning inimese füüsilise ja psüühilise seisundi mõjutamisega eesmärgipäraselt valitud tegevuste kaudu. Tegevusteraapia eriala on väga laiahaardeline, õpitakse aineid, mis aitavad inimest ja tema olemust terviklikumalt mõista. Õppetöös vahelduvad loengud, seminarid ja praktikumid ning iga õppeaasta lõpus on praktika väljaspool kooli praktikabaasides. Kui Sulle meeldib inimestega tegeleda ja aidata edendada nende igapäevaelus vajalike tegemistega toimetulekut, siis on tegevusteraapia eriala kindlasti sobiv valik."
@@ -709,6 +713,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 4,
@@ -776,6 +781,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 3,
@@ -825,6 +831,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
         "duration": 3,
@@ -877,6 +884,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "rakenduskõrgharidus",
         "language": "inglise keel",
         "duration": 3,
@@ -921,6 +929,7 @@
             }
         ],
         "type": "",
+        "studyType": "sessioonõpe",
         "level": "magister",
         "language": "eesti keel",
         "duration": 1.5,
@@ -953,7 +962,7 @@
         ],
         "eap": 90,
         "spots": 0,
-        "majorWebsite": "Hooldustöötaja",
+        "majorWebsite": "https://www.ttk.ee/et/hooldust%C3%B6%C3%B6taja",
         "personnel": [
             {
                 "name": "Piret Tamme",
@@ -971,6 +980,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "kutseharidus",
         "language": "eesti keel",
         "duration": 2,
@@ -1014,6 +1024,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "kutseharidus",
         "language": "eesti keel",
         "duration": 1,
@@ -1060,6 +1071,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "kutseharidus",
         "language": "eesti keel",
         "duration": 1,
@@ -1103,6 +1115,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "kutseharidus",
         "language": "eesti keel",
         "duration": 1,
@@ -1146,6 +1159,7 @@
             }
         ],
         "type": "",
+        "studyType": "päevaõpe",
         "level": "kutseharidus",
         "language": "eesti keel",
         "duration": 2,

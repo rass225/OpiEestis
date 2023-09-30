@@ -10,6 +10,7 @@
         "spots": 30,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_toll_maksundus",
         "type": "Finantskolledž",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Üldõpe",
@@ -227,6 +228,7 @@
         "spots": 20,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_korrektsioon",
         "type": "Justiitskolledž",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Üldõpingud",
@@ -414,6 +416,7 @@
         "spots": 75,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_politseiteenistus",
         "type": "Politsei- ja piirivalve",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "name": "Üldõpingud",
@@ -672,6 +675,7 @@
         "spots": 25,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_politseiametnik",
         "type": "Politsei- ja piirivalve",
+        "studyType": "päevaõpe",
         "modules": [],
         "level": "kutseharidus",
         "outcomes": [
@@ -727,6 +731,7 @@
         "spots": 60,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_vanglaametnik",
         "type": "Justiitskolledž",
+        "studyType": "päevaõpe",
         "modules": [],
         "level": "kutseharidus",
         "outcomes": [
@@ -779,6 +784,7 @@
         "spots": 20,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_p22stekorraldaja",
         "type": "Päästekolledž",
+        "studyType": "päevaõpe",
         "modules": [],
         "level": "kutseharidus",
         "outcomes": [
@@ -833,6 +839,7 @@
         "spots": 30,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_sji",
         "type": "Sisejulgeoleku Instituut",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Kohustuslike ainete moodul",
@@ -1082,6 +1089,7 @@
         "spots": 30,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_p22steteenistus",
         "type": "",
+        "studyType": "sessioonõpe",
         "modules": [],
         "level": "rakenduskõrgharidus",
         "outcomes": [
@@ -1132,6 +1140,7 @@
         "spots": 0,
         "majorWebsite": "https://www.sisekaitse.ee/et/vastuv6tt_p22stja",
         "type": "",
+        "studyType": "päevaõpe",
         "modules": [],
         "level": "kutseharidus",
         "outcomes": [],
