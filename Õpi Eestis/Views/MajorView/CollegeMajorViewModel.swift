@@ -13,6 +13,8 @@ extension CollegeMajorView {
         @Published var imageCache: [URL: UIImage] = [:]
         @Published var didLoad = false
         @Published var oisCourses: [OisDetailedCourse] = []
+        @Published var standardMapSnapshot: UIImage
+        @Published var isMapViewPresented: Bool
         
         let college: College
         
@@ -25,7 +27,8 @@ extension CollegeMajorView {
             college: College,
             isFavorite: Bool = false,
             tabSelection: Tabs = .overview,
-            dependencies: DependencyManager = .shared
+            dependencies: DependencyManager = .shared,
+            standardMapSnapshot: UIImage = UIImage()
         ) {
             print("✅ College Major View Model initialized")
             self.major = major
@@ -36,17 +39,9 @@ extension CollegeMajorView {
             self.mapLocations = []
             self.viewState = .loading
             self.dependencies = dependencies
-            
+            self.standardMapSnapshot = standardMapSnapshot
+            self.isMapViewPresented = false
             var tabs: [Tabs] = []
-//            tabs.append(.overview)
-//            if !major.requirements.isEmpty {
-//                tabs.append(.requirements)
-//            }
-//            if major.personnel != nil {
-//                tabs.append(.personnel)
-//            }
-//            
-//            self.tabPool = tabs
             observeUserDefaults()
         }
         
@@ -55,42 +50,31 @@ extension CollegeMajorView {
         }
         
         var availableTabs: [Tabs] {
-                var tabs: [Tabs] = []
-
-                // Always append the .overview tab first
-                tabs.append(.overview)
-
-                // Then check for the presence of .requirements
-                if !major.requirements.isEmpty {
-                    tabs.append(.requirements)
-                }
-
-                // Append .personnel if it exists and is not empty
-                if let personnel = major.personnel, !personnel.isEmpty {
-                    tabs.append(.personnel)
-                }
-
-                // Finally, if you have a valid curriculumRef, append .outcomes and .modules if they exist and are not empty
-                if hasValidCurriculumRef {
-                    if let outcomes = major.outcomes, !outcomes.isEmpty {
-                        tabs.append(.outcomes)
-                    }
-
-                    if let modules = major.modules, !modules.isEmpty {
-                        tabs.append(.modules)
-                    }
-                }
-
-                return tabs
-            }
-
-            var hasValidCurriculumRef: Bool {
-                // Implement your logic to check if the network request for the curriculumRef was successful
-                return major.curriculumRef != nil
+            var tabs: [Tabs] = []
+            tabs.append(.overview)
+            
+            if !major.requirements.isEmpty {
+                tabs.append(.requirements)
             }
             
-            // ... Rest of your ViewModel code ...
+            if let personnel = major.personnel, !personnel.isEmpty {
+                tabs.append(.personnel)
+            }
+            
+            if let outcomes = major.outcomes, !outcomes.isEmpty {
+                tabs.append(.outcomes)
+            }
+            
+            if let modules = major.modules, !modules.isEmpty {
+                tabs.append(.modules)
+            }
+            return tabs
         }
+        
+        var hasValidCurriculumRef: Bool {
+            return major.curriculumRef != nil
+        }
+    }
     
 }
 
@@ -119,6 +103,10 @@ extension CollegeMajorView.Model {
         dependencies.userDefaults.removeFavorite(university: college, major: majorInternal)
     }
     
+    func presentMapView() {
+        isMapViewPresented.toggle()
+    }
+    
     func loadSnapshots() async {
         let mentionedCollegeLocations = college.branches.filter { branch in
             major.studyLocation.contains { string in
@@ -133,15 +121,38 @@ extension CollegeMajorView.Model {
         }
     }
     
+    func loadMapSnapshot() {
+        let mapService = MapServiceManager()
+        Task {
+            let standardImage = await mapService.mapSnapshot(
+                with: availableBranches(),
+                coordinateRegion: mapBoundsRegion(),
+                baseColor: college.palette.base,
+                secondaryColor: college.palette.secondary
+            )
+            if let standardImage {
+                DispatchQueue.main.async {
+                    self.standardMapSnapshot = standardImage
+                }
+            }
+        }
+    }
+    
     func start() {
         Task {
             await withTaskGroup(of: Void.self) { group in
                 group.addTask { await self.fetchCurriculum2() }
                 group.addTask { self.prefetchImages() }
-                group.addTask { await self.loadSnapshots() }
+                group.addTask { self.loadMapSnapshot() }
                 for await _ in group { }
             }
         }
+    }
+    
+    func createCollegeMapViewModel() -> CollegeMapView.Model {
+        var collegeWithFilteredLocations = college
+        collegeWithFilteredLocations.branches = availableBranches()
+        return .init(college: collegeWithFilteredLocations, region: mapBoundsRegion())
     }
 }
 
@@ -190,6 +201,56 @@ private extension CollegeMajorView.Model {
             DispatchQueue.main.async {
                 self.imageCache.merge(nonNilImages) { (_, new) in new }
             }
+        }
+    }
+    
+    func availableBranches() -> [CollegeLocation] {
+        college.branches
+            .filter {
+                major.studyLocation
+                    .map(\.rawValue)
+                    .contains($0.city)
+            }
+    }
+    
+    func mapBoundsRegion() -> MKCoordinateRegion {
+        let padding: Double = 0.3
+        var minLatitude: Double = 90.0
+        var maxLatitude: Double = -90.0
+        var minLongitude: Double = 180.0
+        var maxLongitude: Double = -180.0
+        
+        let locations = availableBranches().map(\.coordinates)
+
+        for location in locations {
+            let latitude = location.latitude
+            let longitude = location.longitude
+            minLatitude = min(minLatitude, latitude)
+            maxLatitude = max(maxLatitude, latitude)
+            minLongitude = min(minLongitude, longitude)
+            maxLongitude = max(maxLongitude, longitude)
+        }
+        
+        let center = CLLocationCoordinate2D(
+            latitude: (minLatitude + maxLatitude) / 2,
+            longitude: (minLongitude + maxLongitude) / 2
+        )
+        
+        if locations.count == 1 {
+            let span = MKCoordinateSpan(
+                latitudeDelta: 0.05,
+                longitudeDelta: 0.05
+            )
+            return MKCoordinateRegion(center: center, span: span)
+        } else {
+            let latitudeDelta = (maxLatitude - minLatitude) * (1.6 + padding)
+            let longitudeDelta = (maxLongitude - minLongitude) * (1.0 + padding)
+            
+            let span = MKCoordinateSpan(
+                latitudeDelta: latitudeDelta,
+                longitudeDelta: longitudeDelta
+            )
+            return MKCoordinateRegion(center: center, span: span)
         }
     }
     

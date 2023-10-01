@@ -31,6 +31,9 @@ struct CollegeMajorView: View {
         .toolbarBackground(.visible, for: .tabBar)
         .toolbarBackground(.hidden, for: .navigationBar)
         .navigationBarBackButtonHidden()
+        .sheet(isPresented: $model.isMapViewPresented, content: {
+            CollegeMapView(model: model.createCollegeMapViewModel())
+        })
         .task {
             if !model.didLoad {
                 model.start()
@@ -352,53 +355,73 @@ extension CollegeMajorView {
     
     @ViewBuilder
     func locationsContent() -> some View {
-        ForEach(model.mapLocations.indices, id: \.self) { index in
-            if index == 0 {
-                Section(content: {
-                    HStack{
-                        Text(model.mapLocations[index].address)
-                            .setFont(.subheadline, .regular, .rounded)
-                            .setColor(Theme.Colors.black)
-                        Spacer()
-                        Chevron(type: .link)
-                    }
-                    .contentShape(Rectangle())
-                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-                    Image(uiImage: model.mapLocations[index].snapshot)
-                        .resizable()
-                        .fit()
-                        .listRowInsets(.zero)
-                        .listRowSeparator(.hidden)
-                        .overlay {
-                            Image("pin")
-                                .resizable()
-                                .fit()
-                                .frame(width: 32, height: 40)
-                                .setColor(model.college.palette.base.gradient)
-                                .offset(x: 0, y: -16)
-                        }
-                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-                }, header: locationsHeader)
-            } else {
-                Section {
-                    HStack{
-                        Text(model.mapLocations[index].address)
-                            .setFont(.subheadline, .regular, .rounded)
-                            .setColor(Theme.Colors.black)
-                        Spacer()
-                        Chevron(type: .link)
-                    }
-                    .contentShape(Rectangle())
-                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-                    Image(uiImage: model.mapLocations[index].snapshot)
-                        .resizable()
-                        .fit()
-                        .listRowInsets(.zero)
-                        .listRowSeparator(.hidden)
-                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+        Section(content: {
+            Image(uiImage: model.standardMapSnapshot)
+                .resizable()
+                .fill()
+                .listRowInsets(.zero)
+                .listRowSeparator(.hidden)
+                .overlay(alignment: .topTrailing) {
+                    Image(systemName: "location.fill.viewfinder")
+                        .setFont(.title, .medium, .rounded)
+                        .setColor(model.college.palette.base.gradient)
+                        .padding(4)
+                        .background(.regularMaterial)
+                        .clipShape(.rect(cornerRadius: 6, style: .continuous))
+                        .padding(16)
+                        .padding([.leading, .bottom])
+                        .contentShape(Rectangle())
+                        .onTapGesture(perform: model.presentMapView)
                 }
-            }
-        }
+        })
+            
+//        ForEach(model.mapLocations.indices, id: \.self) { index in
+//            if index == 0 {
+//                Section(content: {
+//                    HStack{
+//                        Text(model.mapLocations[index].address)
+//                            .setFont(.subheadline, .regular, .rounded)
+//                            .setColor(Theme.Colors.black)
+//                        Spacer()
+//                        Chevron(type: .link)
+//                    }
+//                    .contentShape(Rectangle())
+//                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+//                    Image(uiImage: model.mapLocations[index].snapshot)
+//                        .resizable()
+//                        .fit()
+//                        .listRowInsets(.zero)
+//                        .listRowSeparator(.hidden)
+//                        .overlay {
+//                            Image("pin")
+//                                .resizable()
+//                                .fit()
+//                                .frame(width: 32, height: 40)
+//                                .setColor(model.college.palette.base.gradient)
+//                                .offset(x: 0, y: -16)
+//                        }
+//                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+//                }, header: locationsHeader)
+//            } else {
+//                Section {
+//                    HStack{
+//                        Text(model.mapLocations[index].address)
+//                            .setFont(.subheadline, .regular, .rounded)
+//                            .setColor(Theme.Colors.black)
+//                        Spacer()
+//                        Chevron(type: .link)
+//                    }
+//                    .contentShape(Rectangle())
+//                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+//                    Image(uiImage: model.mapLocations[index].snapshot)
+//                        .resizable()
+//                        .fit()
+//                        .listRowInsets(.zero)
+//                        .listRowSeparator(.hidden)
+//                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
+//                }
+//            }
+//        }
     }
 }
 

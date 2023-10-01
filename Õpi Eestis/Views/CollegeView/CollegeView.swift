@@ -200,6 +200,8 @@ extension CollegeView {
                     .background(.regularMaterial)
                     .clipShape(.rect(cornerRadius: 6, style: .continuous))
                     .padding(16)
+                    .padding([.leading, .bottom])
+                    .contentShape(Rectangle())
                     .onTapGesture(perform: model.presentMapView)
             }
             .sheet(isPresented: $model.isMapViewPresented, content: {

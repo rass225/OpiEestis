@@ -5,7 +5,7 @@ import MapKit
 struct College: Codable, Hashable, Identifiable {
     let id: String
     let name: String
-    let branches: [CollegeLocation]
+    var branches: [CollegeLocation]
     let contact: CollegeContact
     var description: String
     let imageRefs: [String]
