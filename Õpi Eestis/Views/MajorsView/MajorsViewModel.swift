@@ -8,6 +8,7 @@ extension MajorsView {
         @Published var selectedCost: CostSelection
         @Published var selectedDuration: DurationSelection
         @Published var selectedLocation: LocationSelection
+        @Published var selectedStudyType: StudyTypeSelection
         @Published var searchText: String
         @Published var debouncedSearchText: String
         @Published var favorites: [Major]
@@ -17,6 +18,7 @@ extension MajorsView {
         @Published var languages: [Language]
         @Published var durations: [Double]
         @Published var locations: [City]
+        @Published var studyTypes: [String]
         private let dependencies: DependencyManager = .shared
         private var cancellables = Set<AnyCancellable>()
         
@@ -34,6 +36,7 @@ extension MajorsView {
             self.selectedCost = .all
             self.selectedDuration = .all
             self.selectedLocation = .all
+            self.selectedStudyType = .all
             self.isFilterPresented = false
             self.searchText = ""
             self.levels = []
@@ -41,6 +44,7 @@ extension MajorsView {
             self.languages = []
             self.durations = []
             self.locations = []
+            self.studyTypes = []
             self.college = college
             self.majors = majors
             self.detailLevel = .detailed
@@ -66,6 +70,7 @@ extension MajorsView {
             if selectedCost != .all { count += 1 }
             if selectedLocation != .all { count += 1 }
             if selectedDuration != .all { count += 1 }
+            if selectedStudyType != .all { count += 1 }
             return count
         }
         
@@ -93,6 +98,14 @@ extension MajorsView {
                 case .free:
                     if major.cost.amount > 0 {
                         return false
+                    }
+                }
+                
+                if case let .specific(specificStudyType) = selectedStudyType {
+                    if let studyType = major.studyType {
+                        if !studyType.contains(specificStudyType) {
+                            return false
+                        }
                     }
                 }
 
@@ -168,6 +181,19 @@ private extension MajorsView.Model {
         locations = Array(uniqueLocations).sorted(by: \.rawValue)
     }
     
+    func configureStudyTypes() {
+        let studyTypes = majors
+            .map(\.studyType)
+            .map {
+                $0?.split(separator: ",")
+                    .map { String($0).trimmingCharacters(in: .whitespacesAndNewlines) }
+            }
+            .compactMap { $0 }
+            .flatMap { $0 }
+        let uniquestudyTypes = Set(studyTypes)
+        self.studyTypes = Array(uniquestudyTypes)
+    }
+    
     func setSearchBarColor() {
         UISearchBar.appearance().tintColor = UIColor(college.palette.base)
     }
@@ -187,6 +213,7 @@ extension MajorsView.Model {
         configureLevels()
         configureLanguages()
         configureLocations()
+        configureStudyTypes()
         observeUserDefaults()
     }
     
@@ -293,5 +320,10 @@ extension MajorsView.Model {
     enum LocationSelection: Equatable, Hashable {
         case all
         case specific(City)
+    }
+    
+    enum StudyTypeSelection: Equatable, Hashable {
+        case all
+        case specific(String)
     }
 }

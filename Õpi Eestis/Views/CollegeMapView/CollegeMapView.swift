@@ -100,7 +100,7 @@ extension CollegeMapView {
     @ViewBuilder
     func closeButton() -> some View {
         Image(systemName: "xmark")
-            .setFont(.title3, .semibold, .rounded)
+            .setFont(.title2, .semibold, .rounded)
             .setColor(model.college.palette.base.gradient)
             .padding(8)
             .background(.regularMaterial)

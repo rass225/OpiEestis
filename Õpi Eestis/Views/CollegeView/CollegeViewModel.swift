@@ -70,9 +70,28 @@ extension CollegeView.Model {
     func createCollegeMapViewModel() -> CollegeMapView.Model {
         .init(college: college, region: mapBoundsRegion())
     }
+    
+    func majorContentPadding() -> CGFloat {
+        switch majorStats.count {
+        case 1: return 16
+        case 2: return 8
+        default: return 0
+        }
+    }
 }
 
-extension CollegeView.Model {
+private extension CollegeView.Model {
+    func start() {
+        Task {
+            await withTaskGroup(of: Void.self) { group in
+                group.addTask { self.prefetchImages() }
+                group.addTask { await self.loadEducation() }
+                group.addTask { self.loadMapSnapshot() }
+                for await _ in group { }
+            }
+        }
+    }
+    
     func loadMapSnapshot() {
         let mapService = MapServiceManager()
         Task {
@@ -114,17 +133,6 @@ extension CollegeView.Model {
 }
 
 private extension CollegeView.Model {
-    func start() {
-        Task {
-            await withTaskGroup(of: Void.self) { group in
-                group.addTask { self.prefetchImages() }
-                group.addTask { await self.loadEducation() }
-                group.addTask { self.loadMapSnapshot() }
-                for await _ in group { }
-            }
-        }
-    }
-    
     func getLevelStats() -> [StatEntity] {
         var levels: [StatEntity] = []
         

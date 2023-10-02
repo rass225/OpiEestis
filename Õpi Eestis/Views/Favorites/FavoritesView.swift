@@ -5,20 +5,18 @@ struct FavoritesView: View {
     @StateObject var model: Model
     
     var body: some View {
-        VStack{
-            if model.favorites.isEmpty {
-                emptyView()
-            } else {
-                List(model.favorites.keys.sorted(), id: \.self) { key in
-                    if let favoriteMajorsMinors = model.favorites[key] {
-                        Section(content: {
-                            ForEach(favoriteMajorsMinors, id: \.self) { major in
-                                majorCell(major, schoolName: key)
-                            }
-                        }, header: {
-                            schoolHeader(key)
-                        })
-                    }
+        if model.favorites.isEmpty {
+            emptyView()
+        } else {
+            List(model.favorites.keys.sorted(), id: \.self) { key in
+                if let favoriteMajorsMinors = model.favorites[key] {
+                    Section(content: {
+                        ForEach(favoriteMajorsMinors, id: \.self) { major in
+                            majorCell(major, schoolName: key)
+                        }
+                    }, header: {
+                        schoolHeader(key)
+                    })
                 }
             }
         }
@@ -61,12 +59,9 @@ struct FavoritesView: View {
             }
             .padding(.vertical, 4)
             .swipeActions {
-                Button(role: .destructive) {
+                Button("", systemImage: "heart.slash", role: .destructive) {
                     model.removeFavorite(major: major, college: college)
-                } label: {
-                    Image(systemName: "heart.slash")
-                }
-                .tint(.red)
+                }.tint(.red)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(Rectangle())

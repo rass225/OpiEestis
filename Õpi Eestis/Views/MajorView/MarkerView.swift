@@ -7,35 +7,36 @@ struct MarkerView: View {
     let logo: String
     let pinHeight: CGFloat
     let pinWidth: CGFloat
-    let iconSize: CGSize
     
     init(
         color: Color,
         logo: String,
         pinHeight: CGFloat = 60,
-        pinWidth: CGFloat = 50,
-        iconSize: CGSize = .init(width: 40, height: 40)
+        pinWidth: CGFloat = 50
     ) {
         self.color = color
         self.logo = logo
         self.pinHeight = pinHeight
         self.pinWidth = pinWidth
-        self.iconSize = iconSize
     }
     
     var body: some View {
-        ZStack(alignment: .top) {
-            pinShape(width: pinWidth, height: pinHeight)
-                .fill(color.gradient)
-            Image(logo)
-                .resizable()
-                .fit()
-                .padding(4)
-                .frame(maxWidth: iconSize.width, maxHeight: iconSize.height)
-                .background(Color.white)
-                .clipShape(Circle())
-                .padding(5)
-        }
+        pinShape(width: pinWidth, height: pinHeight)
+            .fill(color.gradient)
+            .frame(width: pinWidth, height: pinHeight)
+            .overlay(alignment: .top) {
+                Circle()
+                    .fill(Color.white)
+                    .overlay {
+                        Image(logo)
+                            .resizable()
+                            .fit()
+                            .padding(4)
+                    }
+                    .clipShape(Circle())
+                    .padding(5)
+            }
+            .contentShape(Rectangle())
     }
     
     @ViewBuilder private func pinShape(width: CGFloat, height: CGFloat) -> some Shape {
@@ -148,16 +149,19 @@ struct LittleMarkerView: View {
         ZStack(alignment: .top) {
             pinShape()
                 .fill(color.gradient)
-            Image(logo)
-                .resizable()
-                .fit()
-                .frame(width: 23, height: 23)
-//                .padding(1)
-                .background(Color.white)
-                .clipShape(Circle())
-                .padding(3)
-                .padding(.top, 0.5)
-                .padding(.leading, 0.5)
+                .frame(width: 30, height: 36)
+                .overlay(alignment: .top) {
+                    Circle()
+                        .fill(Color.white)
+                        .overlay {
+                            Image(logo)
+                                .resizable()
+                                .fit()
+                                .padding(2)
+                        }
+                        .clipShape(Circle())
+                        .padding(3)
+                }
         }
     }
     
@@ -194,44 +198,6 @@ struct LittleMarkerView: View {
             path.addArc(center: CGPoint(x: cornerRadius, y: bodyHeight - cornerRadius), radius: cornerRadius, startAngle: .degrees(90), endAngle: .degrees(180), clockwise: false)
             
             path.closeSubpath()
-        }
-    }
-}
-
-struct CollegePin: View {
-    
-    let college: College
-    private let dependecies: DependencyManager = .shared
-    let image: UIImage
-    
-    var body: some View {
-        ZStack{
-            rainDrop()
-                .setColor(college.palette.base)
-                .offset(x: 8, y: 43)
-            ZStack{
-                Circle()
-                    .frame(width: 50, height: 50)
-                    .setColor(college.palette.base.gradient)
-                Circle()
-                    .frame(width: 45, height: 45)
-                    .setColor(Color.white)
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 40, height: 40)
-            }
-        }
-    }
-    
-    @ViewBuilder
-    private func rainDrop() -> some Shape {
-        Path { path in
-            path.addLines([
-                CGPoint(x: 0, y: 0),
-                CGPoint(x: 33, y: 0),
-                CGPoint(x: 16.5, y: 15)
-            ])
         }
     }
 }

@@ -90,24 +90,30 @@ private extension MajorsView {
                         .padding(.trailing, 16)
                         .onTapGesture(perform: model.flipDetailLevel)
                 }
-                .overlay {
-                    Text("Filtrid")
-                        .setFont(.body, .medium, .rounded)
-                }
+                .overlay(content: filterViewTitle)
                 List {
                     levelPicker()
                     languagePicker()
                     locationPicker()
                     durationPicker()
+                    studyTypePicker()
                     costPicker()
+                    
                 }
+                .listStyle(.plain)
                 .scrollIndicators(.hidden)
             }
             .setFont(.subheadline, .medium, .rounded)
             .navigationBarTitleDisplayMode(.inline)
         }
-        .presentationDetents([.medium])
+        .presentationDetents([.fraction(0.45)])
         .presentationCornerRadius(16)
+    }
+    
+    @ViewBuilder
+    func filterViewTitle() -> some View {
+        Text("Filtrid")
+            .setFont(.body, .medium, .rounded)
     }
 }
 
@@ -233,7 +239,6 @@ private extension MajorsView {
                 Text($0.label)
             }
         }
-        .padding(.vertical, 2)
         .tint(model.college.palette.base.gradient)
     }
     
@@ -244,7 +249,6 @@ private extension MajorsView {
                 Text($0.label)
             }
         }
-        .padding(.vertical, 2)
         .tint(model.college.palette.base.gradient)
     }
     
@@ -259,7 +263,6 @@ private extension MajorsView {
                
             }
         }
-        .padding(.vertical, 2)
         .tint(model.college.palette.base.gradient)
     }
     
@@ -278,7 +281,19 @@ private extension MajorsView {
                 }
             }
         }
-        .padding(.vertical, 2)
+        .tint(model.college.palette.base.gradient)
+    }
+    
+    @ViewBuilder
+    func studyTypePicker() -> some View {
+        Picker("Õppevorm", selection: $model.selectedStudyType) {
+            Text("Kõik")
+                .tag(Model.StudyTypeSelection.all)
+            ForEach(model.studyTypes, id: \.self) {
+                Text($0.capitalized)
+                    .tag(Model.StudyTypeSelection.specific($0))
+            }
+        }
         .tint(model.college.palette.base.gradient)
     }
     
@@ -293,7 +308,7 @@ private extension MajorsView {
             }
             .tint(model.college.palette.base.gradient)
             .pickerStyle(.segmented)
-            .padding(.vertical, 4)
+            .padding(.vertical, 2)
         }
     }
 }

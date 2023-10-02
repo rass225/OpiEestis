@@ -10,6 +10,7 @@
         "spots": 42,
         "majorWebsite": "https://www.tlu.ee/bfm/filmikunst",
         "type": "Balti Filmi ja Meedia Instituut",
+        "studyType": "päevaõpe",
         "modules": [
             {
                 "courses": [
@@ -589,6 +590,7 @@
             {
                 "name": "Peeter Simm",
                 "title": "Režii dotsent",
+                "email": "peeter.simm@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Peeter_Simm_1_foto_Natalja_Larina.jpg"
             },
             {
@@ -600,26 +602,31 @@
             {
                 "name": "Tiina Andreas",
                 "title": "Helisalvestuse ja helirežii dotsent",
+                "email": "tiina.andreas@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Tiina_Andreas_1_foto_Natalja_Larina.jpg"
             },
             {
                 "name": "Anneli Ahven",
                 "title": "Produktsiooni dotsent",
+                "email": "anneli.ahven@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Anneli_Ahven_f_Larina.jpg"
             },
             {
                 "name": "Andris Feldmanis",
                 "title": "Stsenaristika külalislektor",
+                "email": "andris.feldmanis@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Andris_Feldmanis.jpg"
             },
             {
                 "name": "Madli Lääne-Metsalu",
                 "title": "Montaaži lektor",
+                "email": "laane@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/madli_l%C3%A4%C3%A4ne2.jpg"
             },
             {
                 "name": "Eugen Tamberg",
                 "title": "Kunstnike eriala meister",
+                "email": "eugen.tamberg@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Eugen_Tamberg_1_foto_Natalja_Larina.jpg"
             }
         ],
@@ -637,16 +644,19 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "**Essee** \n\nEssee (PDF formaadis) teemal „Miks ma pean filmi tegema”. Stsenaristid võivad soovi korral teemat laiendada ja kirjutada essee teemal „Miks ma pean lugusid jutustama“. Esseele märkida oma nimi ja eriala(de) nimetus, mida soovite õppida."
+                "header": "Essee",
+                "term": "Essee (PDF formaadis) teemal „Miks ma pean filmi tegema”. Stsenaristid võivad soovi korral teemat laiendada ja kirjutada essee teemal „Miks ma pean lugusid jutustama“. Esseele märkida oma nimi ja eriala(de) nimetus, mida soovite õppida."
             },
             {
-                "term": "**CV**"
+                "term": "CV"
             },
             {
-                "term": "**Portfoolio** \n\nPortfoolio (valik oma parimatest töödest) esitamine on kohustuslik režii, operaatoritöö ja stsenaristika erialadel. Muudel erialadel soovituslik. Oma nime juurde märkige kindlasti eriala, millele kandideerite. Filmid ja videod palume esitada ainult YouTube'i või Vimeo linkidena. Kõik kirjatööd palume saata elektrooniliselt. Ka fotod võib saata elektrooniliselt, välja arvatud operaatoritöö erialale kandideerijad. \n\n**Režissööride portfoolio** - fotod, filmid, videod, kirjutised jne. Filmid ja videod esitada YouTube'i või Vimeo linkidena. Video/audio tööde kogupikkus maksimaalselt 10 minutit, fotosid maksimaalselt 20 tükki, kirjalike tööde pikkus kuni 10 lehekülge (reavahe 1,5 ja tähemärkide suurus 12). \n\n**Operaatorite porfoolio** peab sisaldama fotokomplekti (minimaalselt 10 ja maksimaalselt 30 fotot  p a b e r i l) ja võib sisaldada kuni 3 filmitud tööd (YouTube'i või Vimeo linkidena), maksimum kogupikkusega 10 minutit. \n\n**Stsenaristide portfoolios** on kohustuslik esitada 2-6 lugu jutustavat loomingulist tööd. Selleks sobivad stsenaariumid, koomiksid, näidendid, proosatekstid (novellid, jutustused jm). Kõik tööd tuleb esitada pdf-failidena. \n\n**Helioperaatorite/-režissööride portfoolios** võivad olla helindatud videoklipid, igat liiki helisalvestused ja/või töötlused, audiolugu (koos „libretoga“), tuntud filmi heli (mitte ainult muusika) analüüs, muu audiovisuaalteose heliga seotud töö või teos, kokku kuni 5 tööd. \n\n**Montaažirežissööride portfoolios** võivad olla filmid-videod (maksimaalselt 5 YouTube/Vimeo linki, mis esitatud ühes pdf-failis, juurde märgitud kandidaadi panus); fotod-pildid-kollaažid (max 5, esitada ühe pdf-failina) ning ilukirjanduslikud või akadeemilised kirjatööd (max 5, esitada pdf-failidena). Kõikidele dokumentidele märkida oma nimi. \n\n**Kunstnike portfoolios** võivad olla joonistused, sketšid, visandid (sh visandivihikud), maalid, koomiksid, 3d mudelid, kujundustööd, fotod ise meisterdatud makettidest ja mudelitest ning skulptuuridest. Lisaks võib lisada filmid-videod ja animatsioonid (max 5 YouTube/Vimeo linki, mis esitatud ühes pdf failis); fotod (max 30, esitada ühe pdf failina) ja ilukirjanduslikud või akadeemilised kirjatööd (max 5, esitada pdf failidena). Kõikide tööde juurde kindlasti märkida oma nimi."
+                "header": "Portfoolio",
+                "term": "Portfoolio (valik oma parimatest töödest) esitamine on kohustuslik režii, operaatoritöö ja stsenaristika erialadel. Muudel erialadel soovituslik. Oma nime juurde märkige kindlasti eriala, millele kandideerite. Filmid ja videod palume esitada ainult YouTube'i või Vimeo linkidena. Kõik kirjatööd palume saata elektrooniliselt. Ka fotod võib saata elektrooniliselt, välja arvatud operaatoritöö erialale kandideerijad. \n\n**Režissööride portfoolio** - fotod, filmid, videod, kirjutised jne. Filmid ja videod esitada YouTube'i või Vimeo linkidena. Video/audio tööde kogupikkus maksimaalselt 10 minutit, fotosid maksimaalselt 20 tükki, kirjalike tööde pikkus kuni 10 lehekülge (reavahe 1,5 ja tähemärkide suurus 12). \n\n**Operaatorite porfoolio** peab sisaldama fotokomplekti (minimaalselt 10 ja maksimaalselt 30 fotot  p a b e r i l) ja võib sisaldada kuni 3 filmitud tööd (YouTube'i või Vimeo linkidena), maksimum kogupikkusega 10 minutit. \n\n**Stsenaristide portfoolios** on kohustuslik esitada 2-6 lugu jutustavat loomingulist tööd. Selleks sobivad stsenaariumid, koomiksid, näidendid, proosatekstid (novellid, jutustused jm). Kõik tööd tuleb esitada pdf-failidena. \n\n**Helioperaatorite/-režissööride portfoolios** võivad olla helindatud videoklipid, igat liiki helisalvestused ja/või töötlused, audiolugu (koos „libretoga“), tuntud filmi heli (mitte ainult muusika) analüüs, muu audiovisuaalteose heliga seotud töö või teos, kokku kuni 5 tööd. \n\n**Montaažirežissööride portfoolios** võivad olla filmid-videod (maksimaalselt 5 YouTube/Vimeo linki, mis esitatud ühes pdf-failis, juurde märgitud kandidaadi panus); fotod-pildid-kollaažid (max 5, esitada ühe pdf-failina) ning ilukirjanduslikud või akadeemilised kirjatööd (max 5, esitada pdf-failidena). Kõikidele dokumentidele märkida oma nimi. \n\n**Kunstnike portfoolios** võivad olla joonistused, sketšid, visandid (sh visandivihikud), maalid, koomiksid, 3d mudelid, kujundustööd, fotod ise meisterdatud makettidest ja mudelitest ning skulptuuridest. Lisaks võib lisada filmid-videod ja animatsioonid (max 5 YouTube/Vimeo linki, mis esitatud ühes pdf failis); fotod (max 30, esitada ühe pdf failina) ja ilukirjanduslikud või akadeemilised kirjatööd (max 5, esitada pdf failidena). Kõikide tööde juurde kindlasti märkida oma nimi."
             },
             {
-                "term": "**Loomingulised katsed** \n\nNB! Ainult eelkonkursi läbinud pääsevad edasi filmikunsti vastuvõtu loomingulistele katsetele ja saavad esitada avalduse ülikooli astumiseks SAISis. \n\n**Režii:** \n\n**•** Fotojutustus etteantud teemal. Pildistamine fikseeritud ajavahemikus, paberil koopiate välja printimine. Fotojutustuse esitlemine komisjonile. \n**•** Mängufilmi läbivaatus ja filmianalüüsi kirjutamine. \n**•** Lühikese filmiloo kirjutamine (võib ka stsenaariumi vormis). Selle lavastamine kohapeal ja esitlemine komisjonile. \n**•** Vestlus. \n\n**Operaatoritöö:** \n\n**•** Fotojutustuse ülesanne (teema selgub kohapeal). Pildistamine etteantud teemal ja fikseeritud ajavahemikus ning fotodest fotojutustuse koostamine – välja selgitamaks kandidaadi eeldusi jutustada lugu, kasutades filmilähedasi (montaaž jne) visuaalseid väljendusvahendeid. \n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Portfoolio pildistamise ülesanne \n**•** Kollokvium (vestlus kandidaadiga) selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\nNB! Katsetele tulles palume kaasa võtta silmaarsti tõendi, mis kinnitab värvide eristamise võimet. \n\n**Helioperaatoritöö:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Kuulamisülesanne. Helirea koostamine antud pildilõigule \n**•** Kollokvium (vestlus kandidaadiga) – selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\nNB! Katsetele tulles palume kaasa võtta audiogramm kõrvaarstilt. \n**Filmimontaaž:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Oma piltstsenaariumi loomine etteantud materjali põhjal – välja selgitamaks kandidaadi oskust jutustada originaalset lugu \n**•** Oma loo monteerimine etteantud filmimaterjalist \n**•** Kollokvium (vestlus kandidaadiga) selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\n**Filmiproduktsioon:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Filmiprojekti kavandi koostamine \n**•** Kollokvium (vestlus kandidaadiga) – selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\n**Stsenaristika:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Lühifilmi stsenaariumi kirjutamine etteantud teemal \n**•** Eriala kollokvium (vestlus kandidaadiga) \n\n**Kunstnik:** \n\nNB! Kunstnike katsetele tulles palume kaasa võtta oma meelis-kunstitarbed (pliiatsid, markerid või värvid ja arvuti). \n\n**•** Joonistusülesanne seisneb eskiiside tegemises ca 1,5 tunni jooksul. Joonistusvahendiks võib olla vabalt valitud (pliiats, marker, süsi, kriit, tušš, pintsel, kõrs, linnusulg jne). Hinnatakse tabavust, kompositsiooniline tervik, tehnikat ja isikupära. \n**•** Loovtest koosneb kolmest klassikalisest ülesandest ja täidetakse kohapeal. \n**•** Lühifilmi visuaalne kontseptsioon koosneb neljast osast: stsenaariumi valik etteantud sünopsiste alusel, moodboard-i loomine tervele loole, loomaailma visualiseerimine ja kostüümikavandite loomine. \n**•** Portfoolio pildistamise ülesanne (teema selgub kohapeal) ja selle esitlemine komisjonile (järgmisel päeval). \n**•** Kollokvium (vestlus kandidaadiga) selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale."
+                "header": "Loomingulised katsed",
+                "term": "NB! Ainult eelkonkursi läbinud pääsevad edasi filmikunsti vastuvõtu loomingulistele katsetele ja saavad esitada avalduse ülikooli astumiseks SAISis. \n\n**Režii:** \n\n**•** Fotojutustus etteantud teemal. Pildistamine fikseeritud ajavahemikus, paberil koopiate välja printimine. Fotojutustuse esitlemine komisjonile. \n**•** Mängufilmi läbivaatus ja filmianalüüsi kirjutamine. \n**•** Lühikese filmiloo kirjutamine (võib ka stsenaariumi vormis). Selle lavastamine kohapeal ja esitlemine komisjonile. \n**•** Vestlus. \n\n**Operaatoritöö:** \n\n**•** Fotojutustuse ülesanne (teema selgub kohapeal). Pildistamine etteantud teemal ja fikseeritud ajavahemikus ning fotodest fotojutustuse koostamine – välja selgitamaks kandidaadi eeldusi jutustada lugu, kasutades filmilähedasi (montaaž jne) visuaalseid väljendusvahendeid. \n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Portfoolio pildistamise ülesanne \n**•** Kollokvium (vestlus kandidaadiga) selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\nNB! Katsetele tulles palume kaasa võtta silmaarsti tõendi, mis kinnitab värvide eristamise võimet. \n\n**Helioperaatoritöö:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Kuulamisülesanne. Helirea koostamine antud pildilõigule \n**•** Kollokvium (vestlus kandidaadiga) – selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\nNB! Katsetele tulles palume kaasa võtta audiogramm kõrvaarstilt. \n**Filmimontaaž:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Oma piltstsenaariumi loomine etteantud materjali põhjal – välja selgitamaks kandidaadi oskust jutustada originaalset lugu \n**•** Oma loo monteerimine etteantud filmimaterjalist \n**•** Kollokvium (vestlus kandidaadiga) selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\n**Filmiproduktsioon:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Filmiprojekti kavandi koostamine \n**•** Kollokvium (vestlus kandidaadiga) – selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale \n\n**Stsenaristika:** \n\n**•** Filmianalüüsiks valitud filmi vaatamine, filmianalüüsi kirjutamine \n**•** Lühifilmi stsenaariumi kirjutamine etteantud teemal \n**•** Eriala kollokvium (vestlus kandidaadiga) \n\n**Kunstnik:** \n\nNB! Kunstnike katsetele tulles palume kaasa võtta oma meelis-kunstitarbed (pliiatsid, markerid või värvid ja arvuti). \n\n**•** Joonistusülesanne seisneb eskiiside tegemises ca 1,5 tunni jooksul. Joonistusvahendiks võib olla vabalt valitud (pliiats, marker, süsi, kriit, tušš, pintsel, kõrs, linnusulg jne). Hinnatakse tabavust, kompositsiooniline tervik, tehnikat ja isikupära. \n**•** Loovtest koosneb kolmest klassikalisest ülesandest ja täidetakse kohapeal. \n**•** Lühifilmi visuaalne kontseptsioon koosneb neljast osast: stsenaariumi valik etteantud sünopsiste alusel, moodboard-i loomine tervele loole, loomaailma visualiseerimine ja kostüümikavandite loomine. \n**•** Portfoolio pildistamise ülesanne (teema selgub kohapeal) ja selle esitlemine komisjonile (järgmisel päeval). \n**•** Kollokvium (vestlus kandidaadiga) selgitamaks välja tema loomingulisi ja isikulisi eeldusi valitavale erialale."
             }
         ],
         "name": "Filmikunst",
@@ -667,6 +677,7 @@
         "spots": 15,
         "majorWebsite": "https://www.tlu.ee/haapsalu",
         "type": "Humanitaarteaduste Instituut",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Praktika",
@@ -897,6 +908,8 @@
             {
                 "name": "Arvo Pärenson",
                 "title": "Kuraator",
+                "email": "arvo.parenson@hk.tlu.ee",
+                "phone": "+37253493564",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/Arvo-Parenson.jpg"
             },
             {
@@ -917,16 +930,21 @@
             {
                 "name": "Raivo Hein",
                 "title": "Puidutöö lektor",
+                "email": "heinr@hot.ee",
+                "phone": "+3724720354",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/RaivoHein300x300.jpg"
             },
             {
                 "name": "Laura Hein",
                 "title": "Multimeedia ja disaini õppejõud",
+                "email": "lhein@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/LauraHein300x300.jpg"
             },
             {
                 "name": "Liina Viiret",
                 "title": "Akadeemiliste üldpädevuste õpetaja",
+                "email": "liina.viiret@hk.tlu.ee",
+                "phone": "+37253479761",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/Liina%20Viiret%20foto300x300.jpg"
             }
         ],
@@ -944,7 +962,8 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Sisseastumiskatse** \n\nVastuvõtueksam koosneb kahest osast: \n\n**•** Loominguline katse, mille raames kandidaat valmistab etteantud materjalist lihtsustatud tootemaketi. Kandidaadil palume võtta kaasa: joonlaud (max 30 cm), kolmnurkjoonlaud, lõikenuga paberile/papile, liimipulk, harilik pliiats, kustutuskumm, omal valikul värvilised markerid või värvipliiatsid, käärid. \n\n**•** Loomingulise katse esitlus ja vestlus vastuvõtukomisjoniga, kus hinnatakse kandidaadi valmisolekut õpinguteks ja sobivust erialale. Kandidaadi iseseisvate loominguliste tööde/portfoolio esitlemine (kui need on olemas)."
+                "header": "Sisseastumiskatse",
+                "term": "Vastuvõtueksam koosneb kahest osast: \n\n**•** Loominguline katse, mille raames kandidaat valmistab etteantud materjalist lihtsustatud tootemaketi. Kandidaadil palume võtta kaasa: joonlaud (max 30 cm), kolmnurkjoonlaud, lõikenuga paberile/papile, liimipulk, harilik pliiats, kustutuskumm, omal valikul värvilised markerid või värvipliiatsid, käärid. \n\n**•** Loomingulise katse esitlus ja vestlus vastuvõtukomisjoniga, kus hinnatakse kandidaadi valmisolekut õpinguteks ja sobivust erialale. Kandidaadi iseseisvate loominguliste tööde/portfoolio esitlemine (kui need on olemas)."
             }
         ],
         "name": "Käsitöötehnoloogiad ja Disain",
@@ -965,6 +984,7 @@
         "spots": 15,
         "majorWebsite": "https://www.tlu.ee/haapsalu/liiklusohutus",
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Praktika",
@@ -1180,11 +1200,14 @@
             {
                 "name": "Tarmo Vanamõisa",
                 "title": "Liiklusohutuse õppekava kuraator",
+                "email": "tarmo.vanamoisa@tlu.ee",
+                "phone": "+3725078428",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/20180702095144-3bd5492d-me11%20(2).jpg"
             },
             {
                 "name": "Margus Nigol",
                 "title": "Liikluskorralduse ja liiklusuuringute õppejõud",
+                "email": "mnigol@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/margusnigol.jpg"
             },
             {
@@ -1195,11 +1218,14 @@
             {
                 "name": "Ene Hiiepuu",
                 "title": "Liikluskorralduse ja liiklusuuringute õppejõud",
+                "email": "ene.hiiepuu@hk.tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/Ene%20pilt.PNG"
             },
             {
                 "name": "Liina Viiret",
                 "title": "Akadeemiliste üldpädevuste õpetaja",
+                "email": "liina.viiret@hk.tlu.ee",
+                "phone": "+37253479761",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/Liina%20Viiret%20foto300x300.jpg"
             }
         ],
@@ -1220,7 +1246,8 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Vastuvõtueksam** \n\nVastuvõtt toimub vastuvõtueksami alusel, mis koosneb: \n\n**•** arvutipõhine liiklusteooria test, milles on 30 küsimust ja millega hinnatakse kandidaadi teoreetilisi teadmisi liiklusreeglitest. Kandidaadil  tuleb teha lühike kirjalik kokkuvõte ingliskeelsest teadusartiklist. Oluline on tekstist arusaamine, mitte sõnasõnaline tõlge. Lisaks paari lausega kirjeldada oma õppima asumise motivatsiooni. Testi sooritamise aeg orienteeruvalt üks (1) tund. \n\n**•** vestlus vastuvõtukomisjoniga, kus hinnatakse kandidaadi valmisolekut õpinguteks ja sobivust erialale."
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtt toimub vastuvõtueksami alusel, mis koosneb: \n\n**•** arvutipõhine liiklusteooria test, milles on 30 küsimust ja millega hinnatakse kandidaadi teoreetilisi teadmisi liiklusreeglitest. Kandidaadil  tuleb teha lühike kirjalik kokkuvõte ingliskeelsest teadusartiklist. Oluline on tekstist arusaamine, mitte sõnasõnaline tõlge. Lisaks paari lausega kirjeldada oma õppima asumise motivatsiooni. Testi sooritamise aeg orienteeruvalt üks (1) tund. \n\n**•** vestlus vastuvõtukomisjoniga, kus hinnatakse kandidaadi valmisolekut õpinguteks ja sobivust erialale."
             }
         ],
         "name": "Liiklusohtus",
@@ -1241,6 +1268,7 @@
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/hti/noorsootoo",
         "type": "Haridusteaduste Instituut",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Noorsootöö praktika",
@@ -1439,21 +1467,25 @@
             {
                 "name": "Ilona-Evelyn Rannala",
                 "title": "Noorsootöö korralduse lektor",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Ilona-Evelyn%20Rannala.jpg"
+                "email": "ilona-evelyn.rannala@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/6b57ed8bbed41ac4371ae554453026cd.jpg?itok=LTyQHhDs"
             },
             {
                 "name": "Tanja Dibou",
                 "title": "Noorsootöö lektor",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Tanja%20Dibou.jpg"
+                "email": "tanja.dibou@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/42f8396e55deffaf878f024bf7aaa4bc.png?itok=CAt_zHoS"
             },
             {
                 "name": "Lianne Teder",
                 "title": "Noorsootöö- ja mitteformaalõppe õpetaja",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Lianne%20Teder.jpg"
+                "email": "lianne.teder@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/07c9009ffe8d6b08c8cce60a48123265.JPG?itok=gjBhpuqI"
             },
             {
                 "name": "Kristi Jüristo",
                 "title": "Noorsootöö külalislektor",
+                "email": "kristi.juristo@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Kristi%20J%C3%BCristo.jpg"
             }
         ],
@@ -1470,16 +1502,17 @@
         "duration": 3,
         "requirements": [
             {
-                "percentage": 50,
-                "term": "**Sisseastumistest** \n\nsisaldab 45 ülesannet, mis hindavad eesti keele ja loetu mõistmise oskust, matemaatilis-loogilisi võimeid, üldist informeeritust, ruumilist mõtlemist ja ingliskeelse teksti mõistmise oskust. Testiga ei hinnata kutsesobivust, vaid akadeemilise õppe jaoks vajalikke oskusi ja võimed. Test sooritatakse ülikooli arvutiklassis Moodle keskkonnas (vajalik konto olemasolu), testi täitmiseks on aega 45 minutit, iga õige vastus annab ühe punkti, valed vastused miinuspunkte ei anna. Tutvu näidistestiga [siin](https://moodle.edu.ee/course/view.php?id=38652);"
+                "header": "Sisseastumistest",
+                "term": "Sisaldab 45 ülesannet, mis hindavad eesti keele ja loetu mõistmise oskust, matemaatilis-loogilisi võimeid, üldist informeeritust, ruumilist mõtlemist ja ingliskeelse teksti mõistmise oskust. Testiga ei hinnata kutsesobivust, vaid akadeemilise õppe jaoks vajalikke oskusi ja võimed. Test sooritatakse ülikooli arvutiklassis Moodle keskkonnas (vajalik konto olemasolu), testi täitmiseks on aega 45 minutit, iga õige vastus annab ühe punkti, valed vastused miinuspunkte ei anna. Tutvu näidistestiga [siin](https://moodle.edu.ee/course/view.php?id=38652);"
             },
             {
-                "percentage": 5,
-                "term": "**CV ja motivatsioonikiri** \n\nlisatakse SAISis avaldusele. CV-s tuuakse välja haridus, töökogemus, oskused ja seosed noorsootööga ([vt CV vorm](https://drive.google.com/file/d/1w6u4r8m8ncxlvOuJNhO2WrXd6e3h7NAw/view?usp=sharing)). Motivatsioonikirjas põhjendab üliõpilaskandidaat soovi õppida noorsootöö erialal ja näitab kirjalikku väljendusoskust. CV ja motivatsioonikirja maksimaalne tulemus on 5 punkti"
+                "header": "CV ja motivatsioonikiri",
+                "term": "Lisatakse SAISis avaldusele. CV-s tuuakse välja haridus, töökogemus, oskused ja seosed noorsootööga ([vt CV vorm](https://drive.google.com/file/d/1w6u4r8m8ncxlvOuJNhO2WrXd6e3h7NAw/view?usp=sharing)). Motivatsioonikirjas põhjendab üliõpilaskandidaat soovi õppida noorsootöö erialal ja näitab kirjalikku väljendusoskust. CV ja motivatsioonikirja maksimaalne tulemus on 5 punkti"
             },
             {
-                "percentage": 45,
-                "term": "**Kutsesobivusvestluse** \n\nkäigus hinnatakse kandidaadi huvi noorsootöö vastu, eriala valiku põhjendamist, tulevikuvisiooni noorsootöö valdkonnas töötamisest, motivatsiooni, valdkonnaga kursis olemist, suhtlemist (sealhulgas grupis suhtlemist/arutelu), ajaplaneerimise oskust, samuti hinnatakse üliõpilaskandidaadi üldist oskust arutleda ja enda seisukohti argumenteeritult väljendada. Kutsesobivusvestluse maksimaalne tulemus on 45 punkti. Enne kutsesobivusvestlust palume kandidaatidel tutvuda: \n\n**•** Noorsootöö õppekava \n**•** Dibou, T., Rannala, I., Teder, L. (2018) Noorsootööharidus – kust sa tuled, kuhu lähed ja kellega koos? Mihus: Noorsootöö muutuvas maailmas, 23, 35−40. \n**•** Rannala, I (2018). Aga mina olen noorsootöötaja. Noortegija ajakiri aprill 2018, lk 5. \n**•** Sada kakskümmend viis põhjust valida noorsootöö. Mihus. \n**•** Rannala, I-E. (2019). Noorsootöö on eetiline praktika ja see väljendub noorsootöötaja kaudu. MIHUS. \n**•** Kõnnusaar, T. (2019). Iga otsuse taga on väärtused. MIHUS."
+                
+                "header": "Kutsesobivusvestlus",
+                "term": "Kutsesobivusvestluse käigus hinnatakse kandidaadi huvi noorsootöö vastu, eriala valiku põhjendamist, tulevikuvisiooni noorsootöö valdkonnas töötamisest, motivatsiooni, valdkonnaga kursis olemist, suhtlemist (sealhulgas grupis suhtlemist/arutelu), ajaplaneerimise oskust, samuti hinnatakse üliõpilaskandidaadi üldist oskust arutleda ja enda seisukohti argumenteeritult väljendada. Kutsesobivusvestluse maksimaalne tulemus on 45 punkti. Enne kutsesobivusvestlust palume kandidaatidel tutvuda: \n\n**•** Noorsootöö õppekava \n**•** Dibou, T., Rannala, I., Teder, L. (2018) Noorsootööharidus – kust sa tuled, kuhu lähed ja kellega koos? Mihus: Noorsootöö muutuvas maailmas, 23, 35−40. \n**•** Rannala, I (2018). Aga mina olen noorsootöötaja. Noortegija ajakiri aprill 2018, lk 5. \n**•** Sada kakskümmend viis põhjust valida noorsootöö. Mihus. \n**•** Rannala, I-E. (2019). Noorsootöö on eetiline praktika ja see väljendub noorsootöötaja kaudu. MIHUS. \n**•** Kõnnusaar, T. (2019). Iga otsuse taga on väärtused. MIHUS."
             }
         ],
         "name": "Noorsootöö",
@@ -1491,7 +1524,7 @@
     },
     {
         "studyLocation": [
-            "Tallinn"
+            "Haapsalu"
         ],
         "description": [
             "Õpingud rakendusinformaatika õppekaval loovad eeldused infotehnoloogia olulisemate rakendusvaldkondade ning arengusuundade tundmaõppimiseks; toetavad tarkvaraarenduse ja disaini alaste pädevuste kujunemist; annavad baasteadmised ja oskused multimeediumi­vahenditel põhineva tarkvara loomiseks; loovad eeldused elukestvaks õppeks ning professionaalseks enesetäiendamiseks ning toetavad IT valdkonna arengut regioonis. \n\n**Keda ootame õppima?** \n\nTarkvaraarenduse ja -disaini suundumusega informaatika õpe sobib eelkõige neile, kes soovivad arendada oma loovust ja loogikat läbi infotehnoloogia erinevate tahkude. Kandidaadilt eeldame erialast huvi, aktiivset hoiakut, head analüüsivõimet, meeskonnatöö oskust (suur rõhk on rühmatöödel) ning pühendumist ülesannete lahendamisel. Kindlasti on olulisel kohal inglise keele oskus ja tuleb arvestada, et ka disainihuvilistel tuleb tegeleda programmeerimisega. \n\n**Miks tulla meile õppima?** \n\nTallinna Ülikooli Haapsalu kolledži rakendusinformaatika eriala puhul on tegemist praktilise suunitlusega õppekavaga. Õpitakse tarkvaraarenduse meetodeid, kasutajakeskse disaini põhimõtteid ning oskust luua veebi- ja mobiilirakendusi (nii front-end, kui ka back-end) ning videomänge. Õppekavas on oluline koht erinevate meedialiikide töötlemisel (kujundamine, 3D, heli- ja videotöötlus) ja kasutamisel tarkvararakendustes. \n\n**Õppekava- ja ained** \n\nRakendusinformaatika õppimine on üks universaalsemaid valikuid, kuna IT ja selle keskmes oleva tarkvara tähtsus suureneb pidevalt kõikides eluvaldkondades. Tundes informaatikat, võid edasi liikuda mistahes elualale meditsiinist panganduseni. \n\nRakendusinformaatika õppekava erinevate moodulite eemärgid on järgmised: \n\n**•** Erialaainete mooduli eesmärgiks on luua eeldused süstemaatilise arusaamise tekkimiseks infotehnoloogia erinevate rakendusvaldkondade ja mõistete kohta ning anda ülevaade eelkõige veebiarendusest ja disainist, kuid ka riistvarast, operatsioonisüsteemidest, andmesidevõrkude ehitusest, erinevatest võrgutehnoloogiatest, andmeturbest jpm. \n\n**•** Praktika mooduli eesmärgiks on luua võimalused erialaste kogemuste omandamiseks läbi praktilise tegevuse ning arendada meeskonnatöö oskusi. \n\n**Õppevormi kirjeldus** \n\nRakenduskõrgharidus on kõrghariduse esimese astme õpe, mille kestel üliõpilane omandab kindlal kutsealal töötamiseks või magistriõppes edasiõppimiseks vajalikud pädevused. Rakendusinformaatika õppekava kestus on 3 aastat. Õppe maht on 180 Euroopa ainepunkti (EAP). Rakendusinformaatika õppekava läbimiseks peab üliõpilane läbima õppekava etteantud mahus, sh. sooritama kõik kohustuslikud õppeained ning koostama ja kaitsma lõputöö. \n\n**Erialane praktika** \n\nRakendusinformaatika erialane praktika on jaotatud kolmeks. Esimesel praktikal (multimeediumi praktika) saab rühmades rakendada pea kõike õpitut programmeerimise ja meedia valdkonnas. Teisena toimuva valikpraktika raames on võimalik meeskonnana teha rakendusi koostöös erinevate asutustega. Näiteks on Maanteeametiga koostöös valminud alkokalkulaator. Kolmas praktika (ettevõttepraktika) on individuaalne ja annab üliõpilasele võimaluse saada reaalne IT-valdkonnas töötamise kogemus mõnes ettevõttes. \n\n**Kuhu edasi?** \n\nTööd leiavad rakendusinformaatika eriala lõpetanud nii programmeerijate ja tarkvaraarendajatena kui ka kujundajate ja disaineritena reklaami- ja disainibüroodes ning tarkvara arendavates firmades. Lisaks võimaldavad õpingute käigus omandatud erialased baasteadmised töötada IT-spetsialistidena väga erinevates ettevõtetes. Üks on kindel: informaatika eriala lõpetanutel on tööturul suur konkurentsieelis! \n\nÕpinguid on võimalik jätkata kõikidel Eesti ja välisülikoolide poolt pakutavatel magistriõppekavadel, mis annab võimaluse kitsamalt spetsialiseeruda soovitud suunal. Taas on avatud Digitehnoloogiate instituudis  informaatikaõpetaja, kooli infojuhi magistriõppekava."
@@ -1500,6 +1533,7 @@
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/haapsalu/rakendusinformaatika",
         "type": "Digitehnoloogiate Instituut",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Praktika",
@@ -1713,16 +1747,20 @@
             {
                 "name": "Martti Raavel",
                 "title": "Rakendusinformaatika õppekava kuraator",
+                "email": "martti.raavel@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/marti.jpg"
             },
             {
                 "name": "Andrus Rinde",
                 "title": "Lektor",
-                "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/AndrusRinde.jpg"
+                "email": "andrus.rinde@tlu.ee",
+                "phone": "+3726409421",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/022de517fc7b27d4f3104d0b81928284.jpg?itok=FR4JhoYj"
             },
             {
                 "name": "Laura Hein",
                 "title": "Õppejõud",
+                "email": "lhein@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/LauraHein300x300.jpg"
             },
             {
@@ -1738,6 +1776,8 @@
             {
                 "name": "Liina Viiret",
                 "title": "Akadeemiliste üldpädevuste õpetaja",
+                "email": "liina.viiret@hk.tlu.ee",
+                "phone": "+37253479761",
                 "photo": "https://www.tlu.ee/sites/default/files/%2BUudiste%20ja%20s%C3%BCndmuste%20pildid%20(k%C3%B5igile%20kasutamiseks)/Liina%20Viiret%20foto300x300.jpg"
             }
         ],
@@ -1761,12 +1801,12 @@
         "duration": 3,
         "requirements": [
             {
-                "percentage": 50,
-                "term": "**Arvutipõhine test** \n\nmillega hinnatakse kandidaadi eelteadmisi ja baasoskusi informaatika valdkonnast. Testi kestus 1 tund"
+                "header": "Arvutipõhine test",
+                "term": "Hinnatakse kandidaadi eelteadmisi ja baasoskusi informaatika valdkonnast. Testi kestus 1 tund"
             },
             {
-                "percentage": 50,
-                "term": "**Vestlus vastuvõtukomisjoniga** \n\nkus hinnatakse kandidaadi valmisolekut õpinguteks ja sobivust erialale. Vestlusele pääsevad 50 kandidaati vastavalt testi tulemuste pingereale. Testi tulemuste pingerida antakse teada hiljemalt 1,5 tundi peale testi. Vestlus toimub samal päeval. "
+                "header": "Vestlus vastuvõtukomisjoniga",
+                "term": "Hinnatakse kandidaadi valmisolekut õpinguteks ja sobivust erialale. Vestlusele pääsevad 50 kandidaati vastavalt testi tulemuste pingereale. Testi tulemuste pingerida antakse teada hiljemalt 1,5 tundi peale testi. Vestlus toimub samal päeval. "
             }
         ],
         "name": "Rakendusinformaatika",
@@ -1778,7 +1818,7 @@
     },
     {
         "studyLocation": [
-            "Tallinn"
+            "Haapsalu"
         ],
         "description": [
             "Tallinna Ülikooli Haapsalu kolledži tervisejuhi õppekaval õppijal on võimalus omandada rakenduskõrgharidus, mille tulemusel saavutatakse head teoreetilised lähtekohad ja praktilised oskused ning kogemused rahvatervise valdkonnas. Praktika osakaal õppekavas on 30 EAP mahus, mis enamasti viiakse ellu kolledži praktika partnerite juures (näiteks Tervise Arengu Instituut, Sotsiaalministeerium, omavalitsused, terviseklubid, tervise ettevõtted jne). Õppekava eesmärk on pakkuda  haridust, mis võimaldaks edukalt täita ülesandeid tervisedenduse valdkonnas. \n\n**Keda ootame õppima?** \n\nTervisejuhi õppekavale ootame kandideerima kõiki, kel on huvi toitumisnõustamise, üksikisiku, organisatsiooni, paikkonna või riigi tasemel tervisedenduse korraldamise ja juhtimise vastu. Tänu sessioonõppe vormile, on õppimine Haapsalu kolledži tervisejuhi õppekaval sobilik töötavale täiskasvanule - üldjuhul toimub õppetöö neljapäevast laupäevani üle nädala ning paindlik lähenemine toetab praktika läbimist. \n\n**Miks tulla meile õppima?** \n\nEesti tervisedenduse valdkonna areng eeldab positiivseid muutusi keskkonnas, et tervislikud valikud oleksid lihtsamini kättesaadavad. Muutusi on võimalik suunata nii enda isikliku kui organisatsioonide tervisekäitumise ja terviseprogrammide juhtimise kaudu. Õppeprotsess on tihedalt seotud kolledži allüksusena tegutseva Tervisedenduse ja Rehabilitatsiooni Kompetentsikeskusega, olles üheks praktikabaasiks. Lisaks saab praktikat läbida erinevates tervisedendusega tegelevates riiklikes või erasektori asutustes. Soovijatel on võimalus sooritada osa õppetööst ja/või praktikast välisriikide kõrgkoolide juures. \n\nRakenduskõrgharidusega tervisedenduse spetsialistidel on võimalus suunduda tööle avalike või erasektori organisatsioonidesse. Muuhulgas on mitmed tervisejuhi õppekava vilistlased loonud eraettevõtteid, pakkudes tervisedenduslikke teenuseid, sh toitumise ja liikumise alast nõustamist. \n\n**Õppekava- ja ained** \n\nTervisedendamine on protsess, mis võimaldab inimestel suurendada kontrolli oma tervise üle ning seeläbi seda ka tugevdada. Tervisejuhi õppekava annab sisseastujale üldteadmised tervisedenduse alustest, tervist mõjutavatest protsessidest ning õpetab oskusi töötamaks rahvatervise valdkonnas. \n\nProfessionaalse arengu mooduli peamiseks eesmärgiks on luua üliõpilasele võimalused professionaalseks arenguks, uurimistööde kavandamiseks, läbiviimiseks ja analüüsi oskuste kujundamiseks. \n\nTervisedendaja kompetentsuse mooduli peamiseks eesmärgiks on luua üliõpilasele võimalused tervisedenduse kontseptsioonide, alusteooriate, ja spetsialisti rolli mõistmiseks ning seda kõike läbi tervist toetava keskkonna loomise põhimõtete. \n\nToitumisnõustamise mooduli peamiseks eesmärgiks on luua üliõpilasele võimalused toitumisnõustaja kutsealase pädevuse arenguks. \n\nTervisejuhi õppekava praktilise poole eesmärgiks on luua eeldused erialaste teadmiste ja oskuste omandamiseks ning kogemuste saamiseks terviseprogrammide läbiviimisel, organisatsioonide ja ettevõtete terviseprotsesside juhtimisel ja ennetustegevuste korraldamisel. \n\n**Õppevormi kirjeldus** \n\nRakenduskõrgharidus on kõrghariduse esimese astme õpe, mille kestel üliõpilane omandab kindlal kutsealal töötamiseks või magistriõppes edasiõppimiseks vajalikud pädevused. Tervisejuhi õppekava kestus on 3 aastat. Õppe maht on 180 Euroopa ainepunkti (EAP). Tervisejuhi õppekava läbimiseks peab üliõpilane läbima õppekava etteantud mahus, sh. sooritama kõik kohustuslikud õppeained ning koostama ja kaitsma lõputöö. \n\n**Kuhu edasi?** \n\nTervisejuhi õppekaval pööratakse erilist tähelepanu toitumisvaldkonna pädevustele, mis annab lõpetanule võimaluse jätkata toitumis- või liikumisnõustajana. Oluliseks omandatavate teadmiste ja oskuste alustalaks on ka tervisedenduse üldteadmisted ja valdkondliku silmaringi laiendamine, mis annab lõpetajatele valmiduse töötada nii kaudselt kui otseselt tervisedendusega seotud valdkondades. \n\nRakenduskõrgharidusega tervisejuhi eriala spetsialisti või projektijuhina on võimalus suunduda tööle nii kohalike omavalitsuste juurde, MTÜ-desse, kui ka teistesse tervisedenduslikesse avaliku (näiteks Tervise Arengu Instituut, Eesti Haigekassa; Sotsiaalministeerium) või erasektori organisatsioonidesse. Mitmed tervisejuhi õppekava vilistlased on loonud oma eraettevõtte, pakkudes tervisedenduslikke teenuseid, sh toitumise ja liikumise alast nõustamist. \n\nÕpinguid on võimalik jätkata magistriõppes Tallinna Ülikooli Haapsalu kolledžis: [Kogukonnatöö vananevas ühiskonnas](https://www.tlu.ee/haapsalu/kogukonnatoo-vananevas-uhiskonnas). Samuti Tallinna Ülikooli või teiste ülikoolide avatud magistriõppe programmides nii Eestis, kui ka välismaal. "
@@ -1787,6 +1827,7 @@
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/haapsalu/tervisejuht",
         "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
         "modules": [
             {
                 "name": "Praktika",
@@ -1990,6 +2031,8 @@
             {
                 "name": "Hele Leek-Ambur",
                 "title": "Tervisejuhi õppekava kuraator",
+                "email": "hele.leek@tlu.ee",
+                "phone": "+3726199856",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/HeleLeekAmbur.JPG"
             },
             {
@@ -2000,16 +2043,20 @@
             {
                 "name": "Kädi Lepp",
                 "title": "Lektor",
+                "email": "kadi.lepp@hk.tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/K%C3%A4di%20Lepp.JPG"
             },
             {
                 "name": "Ene Hiiepuu",
                 "title": "Õppejõud",
+                "email": "ene.hiiepuu@hk.tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/Ene%20pilt.PNG"
             },
             {
                 "name": "Liina Viiret",
                 "title": "Akadeemiliste üldpädevuste õpetaja",
+                "email": "liina.viiret@hk.tlu.ee",
+                "phone": "+37253479761",
                 "photo": "https://www.tlu.ee/sites/default/files/Haapsalu%20kolled%C5%BE/Pildid/Portreed/Liina%20Viiret%20foto300x300.jpg"
             }
         ],
@@ -2028,10 +2075,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Arvutipõhine test** \n\nHinnatakse kandidaadi üldteadmisi tervise valdkonnast. Test on valikvastustega ja vastata tuleb 30 minuti jooksul"
+                "header": "Arvutipõhine test",
+                "term": "Hinnatakse kandidaadi üldteadmisi tervise valdkonnast. Test on valikvastustega ja vastata tuleb 30 minuti jooksul"
             },
             {
-                "term": "**Vestlus vastuvõtukomisjon** \n\nHinnatakse kandidaadi motivatsiooni õpinguteks ja sobivust erialale. Vestlusele pääsevad 44 kandidaati vastavalt testi tulemuste pingereale. Testi tulemuste pingerida antakse teada hiljemalt 1,5 tundi peale testi. Vestlus toimub samal päeval."
+                "header": "Vestlus vastuvõtukomisjoniga",
+                "term": "Hinnatakse kandidaadi motivatsiooni õpinguteks ja sobivust erialale. Vestlusele pääsevad 44 kandidaati vastavalt testi tulemuste pingereale. Testi tulemuste pingerida antakse teada hiljemalt 1,5 tundi peale testi. Vestlus toimub samal päeval."
             }
         ],
         "name": "Tervisejuht",
@@ -2052,6 +2101,7 @@
         "spots": 50,
         "majorWebsite": "https://www.tlu.ee/hti/klassiopetaja",
         "type": "Haridusteaduste Instituut",
+        "studyType": "päevaõpe, sessioonõpe",
         "modules": [
             {
                 "name": "Üleülikoolilised ained",
@@ -2422,27 +2472,32 @@
             {
                 "name": "Anne Uusen",
                 "title": "Emakeeledidaktika dotsent",
+                "email": "anne.uusen@tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/Anne%20Uusen.JPG"
             },
             {
                 "name": "Ene Hiiepuu",
                 "title": "Ülddidaktika lektor",
+                "email": "ene.hiiepuu@hk.tlu.ee",
                 "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Ene%20Hiiepuu.JPG"
             },
             {
                 "name": "Inge Timoštšuk",
                 "title": "Algõpetuse professor",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Inge%20Timo%C5%A1t%C5%A1uk.jpg"
+                "email": "inge.timostsuk@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/a657d2baa56b161a806006ef64a7a5cb.jpg?itok=56igDwJV"
             },
             {
                 "name": "Heddi Reinsalu",
                 "title": "Muusikadidaktika nooremlektor",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/heddi%20reinsalu.jpeg"
+                "email": "heddi.reinsalu@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/33392b1d0e186992072adf51128d2c63.jpeg?itok=w9pDdpAG"
             },
             {
                 "name": "Maile Käsper",
                 "title": "Alg- ja alushariduse külalislektor",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/HTI/%C3%95ppej%C3%B5udude%20ja%20t%C3%B6%C3%B6tajate%20pildid/Maile%20K%C3%A4sper.JPG"
+                "email": "maile.kasper@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/83017047daf54326f9b5ce93e5bf7c37.JPG?itok=mVz8nrpG"
             }
         ],
         "level": "integreeritud õpe",
@@ -2460,16 +2515,16 @@
         "duration": 5,
         "requirements": [
             {
-                "percentage": 25,
-                "term": "**Sisseastumistest** \n\nsisaldab 45 ülesannet, mis hindavad eesti keele ja loetu mõistmise oskust, matemaatilis-loogilisi võimeid, üldist informeeritust, ruumilist mõtlemist ja ingliskeelse teksti mõistmise oskust. Testiga ei hinnata kutsesobivust, vaid akadeemilise õppe jaoks vajalikke oskusi ja võimed. Test sooritatakse ülikooli arvutiklassis Moodle keskkonnas (vajalik konto olemasolu), testi täitmiseks on aega 45 minutit, iga õige vastus annab ühe punkti, valed vastused miinuspunkte ei anna. Tutvu näidistestiga [siin](https://moodle.edu.ee/course/view.php?id=38652)"
+                "header": "Sisseastumistest",
+                "term": "Sisaldab 45 ülesannet, mis hindavad eesti keele ja loetu mõistmise oskust, matemaatilis-loogilisi võimeid, üldist informeeritust, ruumilist mõtlemist ja ingliskeelse teksti mõistmise oskust. Testiga ei hinnata kutsesobivust, vaid akadeemilise õppe jaoks vajalikke oskusi ja võimed. Test sooritatakse ülikooli arvutiklassis Moodle keskkonnas (vajalik konto olemasolu), testi täitmiseks on aega 45 minutit, iga õige vastus annab ühe punkti, valed vastused miinuspunkte ei anna. Tutvu näidistestiga [siin](https://moodle.edu.ee/course/view.php?id=38652)"
             },
             {
-                "percentage": 25,
-                "term": "**Kirjalik lühiarutlus** \n\nmille teema antakse kohapeal ning see kirjutatakse enne kutsesobivusvestlust. Lühiarutluses peab kasutama argumente, mis toetuvad etteantud allikatele Eesti Haridusteaduste ajakirjast. Kirjaliku lühiarutluse maksimaalne tulemus on 30 punkti. Hinnatakse keelekasutus- ja õigekirjaoskust, argumenteerimisoskust ning allikate tundmist."
+                "header": "Kirjalik lühiarutlus",
+                "term": "Teema antakse kohapeal ning see kirjutatakse enne kutsesobivusvestlust. Lühiarutluses peab kasutama argumente, mis toetuvad etteantud allikatele Eesti Haridusteaduste ajakirjast. Kirjaliku lühiarutluse maksimaalne tulemus on 30 punkti. Hinnatakse keelekasutus- ja õigekirjaoskust, argumenteerimisoskust ning allikate tundmist."
             },
             {
-                "percentage": 50,
-                "term": "**Kutsesobivusvestlus** \n\nHinnatakse kandidaadi motivatsiooni, orienteerumist haridus- ja kasvatusküsimustes, oma seisukohtade avaldamise ja põhjendamise oskust, sobivust õpetajatööks, üldist silmaringi, eneseväljendusoskust ning seniseid võimalikke kogemusi lastega/noortega tegelemisel. Kutsesobivusvestluse maksimaalne tulemus on 40 punkti."
+                "header": "Kutsesobivusvestlus",
+                "term": "Hinnatakse kandidaadi motivatsiooni, orienteerumist haridus- ja kasvatusküsimustes, oma seisukohtade avaldamise ja põhjendamise oskust, sobivust õpetajatööks, üldist silmaringi, eneseväljendusoskust ning seniseid võimalikke kogemusi lastega/noortega tegelemisel. Kutsesobivusvestluse maksimaalne tulemus on 40 punkti."
             }
         ],
         "name": "Klassiõpetaja",
@@ -2595,17 +2650,23 @@
             {
                 "name": "Karsten Brüggemann",
                 "title": "Eesti ja üldajaloo professor, õppekava kuraator",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/T%C3%9CHI/T%C3%9CHI%20inimesed/Karsten%20Br%C3%BCggemann_ajalugu.jpg"
+                "email": "karsten.bruggemann@tlu.ee",
+                "phone": "+3726199534",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/730f978d7e89434ac4f58254d6c1b130.jpg?itok=6im5UB3N"
             },
             {
                 "name": "Ulrike Plath",
                 "title": "Baltisaksa uuringute ja keskkonnaajaloo professor",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/T%C3%9CHI/T%C3%9CHI%20inimesed/Ulrike%20Plath_ajalugu.jpg"
+                "email": "ulrike.plath@tlu.ee",
+                "phone": "+3726199525",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/476d574bc90171a216746469536f9219.jpg?itok=pQEuUzoS"
             },
             {
                 "name": "Kersti Markus",
                 "title": "Kunstiajaloo professor, vanemteadur",
-                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/T%C3%9CHI/T%C3%9CHI%20inimesed/KERSTI%20MARKUS%20IMG_9522_siseveeb.jpg"
+                "email": "kersti.markus@tlu.ee",
+                "phone": "+3726199556",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/a1140e49af99077a0f2d3d35c7c2762f.jpg?itok=FPMbflGT"
             }
         ],
         "level": "doktor",
@@ -2621,19 +2682,23 @@
         "duration": 4,
         "requirements": [
             {
+                "header": "Doktoritöö kavand",
                 "term": "Koostöös juhendajaga täiendatud (ja tema poolt allkirjastatud) doktoritöö kavand (pikkus u 5 lk/2500 sõna ilma kirjanduse nimekirjata) sisaldab vähemalt järgmisi komponente: \n\n**•** kavandatava uurimistöö teema \n**•** uurimistöö eesmärgid ja peamised uurimisküsimus(ed) \n**•** ülevaade kasutatavatest meetoditest ja/või põhimõistetest \n**•** senise uurimisseisu ülevaade \n**•** ülevaade, millist teemakohast uurimistööd on kandidaat juba varem teinud \n**•** ülevaade plaanitava uurimistöö sisust \n**•** visioon uurimistöö esmaste võimalike tulemuste kohta (mida loodetakse teada saada) \n**•** esmane nimekiri töös kasutatavatest allikatest ja kirjandusest \n**•** uurimistöö ajaline graafik (sh info välisõpingute kohta nt Erasmus, arhiivide ja raamatukogude külastus jms). \n\nJuhul kui kavandatav doktoritöö sisaldab välitöid, lisada info nende ulatuse, kestuse ja finantseerimise kohta (nii eelarve kui ka kavandatavad finantseerimisallikad) \n\nPõhjendus, miks seda uurimistööd peab tegema just Tallinna Ülikooli humanitaarteaduste instituudis. Projektiteemade puhul selgitus projektiga haakumise ja projekti raames tehtavate tegevuste kohta."
             },
             {
                 "term": "Täpsustatud ja juhendajaga kooskõlastatud korraldatava õppetöö visioon õppekavade ja ainete lõikes ning info doktorandi rollist neis ainetes (doktorantidelt oodatakse 4 aasta doktorantuuri jooksul assisteerimist loengute ja seminaride korraldamisel vähemalt kolmel kursusel ja vähemalt ühe kursuse iseseisvat / kaasvastutusel läbi viimist)."
             },
             {
-                "term": "**CV** \n\nsisaldab infot kandidaadi publikatsioonide ja IT alaste pädevuste kohta"
+                "header": "CV",
+                "term": "Sisaldab infot kandidaadi publikatsioonide ja IT alaste pädevuste kohta"
             },
             {
-                "term": "**Tõend keeleoskuse taseme kohta (inglise keel C1-tasemel)** \n\nTõendi puudumisel tuleb kandidaadil osaleda keeletestil."
+                "header": "Tõend keeleoskuse taseme kohta (inglise keel C1-tasemel)",
+                "term": "Tõendi puudumisel tuleb kandidaadil osaleda keeletestil."
             },
             {
-                "term": "**Vastuvõtueksam** \n\nVastuvõtueksam toimub intervjuu vormis kandideerimiseks esitatud ja potentsiaalse juhendajaga kooskõlastatud doktoritöö kava (doktoritöö projekti) teemadel. Doktorant-nooremteadurilt eeldatakse selget visiooni oma doktoriõpingute kestuse kohta."
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam toimub intervjuu vormis kandideerimiseks esitatud ja potentsiaalse juhendajaga kooskõlastatud doktoritöö kava (doktoritöö projekti) teemadel. Doktorant-nooremteadurilt eeldatakse selget visiooni oma doktoriõpingute kestuse kohta."
             }
         ],
         "name": "Ajalugu",
@@ -2648,16 +2713,11 @@
             "Tallinn"
         ],
         "description": [
-            "Õppekava võimaldab doktoriastmel õpinguid kahe suunal - loovpraktika põhised audiovisuaalkunstide uuringud ning empiirilised meediauuringud. Õppekava fookuses on kaasaegsemad meedia- ja audiovisuaalkunstide vormid ja nähtused, ennekõike meedia tootmise ja sisuuuringud. Erilise tähelepanu all on meedia ja kunstide muutumisprotsessid. Võimalik on uurida meedia muutumist ja audiovisuaalkunste ka teistel ajastutel.",
-            "Audiovisuaalkultuuri ja –tööstuse roll kaasaegses ühiskonnas on tõusuteel ning BFM on Eestis audiovisuaalkultuuri arendamise osas erivastutusega institutsioon. Sestap, kuigi õppekava on kavandatud distsiplinaarsete lähenemiste osas mitmekesisena, paneme eraldi rõhu audiovisuaalkultuuri ja kaasegse digikultuuri teemadele ning käsitleme seda ennekõike humanitaarteaduslikest perspektiividest, kuid edendades samas interdisplinaarset dialoogi ka teiste lähemistega, eriti majandusteaduslike lähenemistega meediale ja audivisuaalsektorile. Olulise tähelepanu all saab olema ka kaasaegse meedia roll õppimises ja õpetamises ning ka meedia ja audiovisuaakultuuri kirjaoskuse ja didaktika küsimused.",
-            "Õppekaval on kaks paralleelset põhieesmärki:",
-            "• toetada akadeemilisele teadustööle orienteeritud doktorantide iseseisvate doktoriuuringute teostamist nüüdismeedia ja -kultuuri suunal, ennekõike digi- ja audiovisuaalmeedia valdkondades ning selleks vajalike teadmiste ja oskuste arenemist tipptasemele",
-            "• toetada otsinguliste meedia- ja filmikunstiprojektide teostamist praktilist laadi doktoriuurimustena ning selleks vajalike teadmiste ja oskuste arengut tipptasemele.",
-            "Mõlemat tüüpi doktoriuurimuste puhul toetab õppekava doktorantide ettevalmistust edasiseks karjääriks õppejõu ja teadurina arendades selleks pedagoogilise töö ning teaduskorralduse pädevusi. Loomepõhise doktoritöö keskseks ideeks on, et ka loovtöö on uuringuline, vaid teiste vahendite ja modaalsustega teostatav uuring ja/või eksperiment. Antud õppekava kontekstis võivad uurimistöö sisuks olla kas vormiarendused, loome- või tootmismeetodite uuringud või ka kultuurilise või ühiskondliku reaalsuse avamine teiste (ennekõike audiovisuaalsete) representatiivsete vahenditega kui kirjalik argumentatsioon."
+            "Õppekava võimaldab doktoriastmel õpinguid kahel suunal - loovpraktika põhised audiovisuaalkunstide uuringud ning empiirilised meediauuringud. Õppekava fookuses on kaasaegsemad meedia- ja audiovisuaalkunstide, sh filmikunsti ja televisioonikultuuri vormid ja nähtused, ennekõike tootmise ja sisuuuringud. Võimalik on uurida meedia muutumist ja audiovisuaalkunste ka teistel ajastutel. \n\nAudiovisuaalkultuuri ja –tööstuse roll kaasaegses ühiskonnas on tõusuteel ning BFM on Eestis audiovisuaalkultuuri arendamise osas erivastutusega institutsioon. Sestap, kuigi õppekava on kavandatud distsiplinaarsete lähenemiste osas mitmekesisena, paneme eraldi rõhu audiovisuaalkultuuri ja kaasegse digikultuuri teemadele ning käsitleme seda ennekõike humanitaarteaduslikest perspektiividest, kuid edendades samas interdisplinaarset dialoogi ka teiste lähemistega, eriti majandusteaduslike lähenemistega meediale ja audivisuaalsektorile. Lisaks kaasaegsetele vormidele on meil eritähelepanu ka väljakujunenud audiovisuaalkultuuri vormid - filmikunst ja televisioon. Toetame eriti Eesti filmi- ja telekultuuri uuringuid. Lisaks on tähelepanu all ka filmi ja meedia roll õppimises ja õpetamises ning ka meedia ja audiovisuaakultuuri kirjaoskuse ja didaktika küsimused. \n\n**Õppekaval on kaks paralleelset põhieesmärki:** \n\n**•** toetada akadeemilisele teadustööle orienteeritud doktorantide iseseisvate doktoriuuringute teostamist nüüdismeedia ja -kultuuri suunal, ennekõike digi- ja audiovisuaalkultuuri valdkondades ning selleks vajalike teadmiste ja oskuste arenemist tipptasemele \n**•** toetada otsinguliste meedia- ja filmikunstiprojektide teostamist praktilist laadi doktoriuurimustena ning selleks vajalike teadmiste ja oskuste arengut tipptasemele. \n\nMõlemat tüüpi doktoriuurimuste puhul toetab õppekava doktorantide ettevalmistust edasiseks karjääriks õppejõu ja teadurina arendades selleks pedagoogilise töö ning teaduskorralduse pädevusi. \n\nLoomepõhise doktoritöö keskseks ideeks on, et ka loovtöö on uuringuline, vaid teiste vahendite ja modaalsustega teostatav uuring ja/või eksperiment. Antud õppekava kontekstis võivad uurimistöö sisuks olla kas vormiarendused, loome- või tootmismeetodite uuringud või ka kultuurilise või ühiskondliku reaalsuse avamine teiste (ennekõike audiovisuaalsete) representatiivsete vahenditega kui kirjalik argumentatsioon. \n\n**Õppekeskkond** \n\nBFM tervikuna on orienteeritud tudengite ettevalmistamisele tööks kaasaegses, dünaamiselt arenevas meediasüsteemis. Selle tõendiks on lisaks traditsioonilisematele filmi- ja televisioonierialadele ka näiteks ristmeedia või videomängutootmisele keskenduvad õppekavad ning hiljuti käivitunud Nüüdismeedia magistriõppekava. Kõik need õppekavad on doktoriõppekavale sisendiks ning sestap on ka selle fookuses suurel määral just uusimad meedia ja audiovisuaalkunstide vormid, küsimused meedia uuenemisest, meediaturgude kaasegsetest arengutest ning meediapoliitika reageerimisvõimalustest. \n\nÕppekava on ka orgaaniliselt sidestatud TLÜ Meediainnovatsiooni ja digikultuuri tippkeskusega (MEDIT), mille fookuses on sarnaselt nüüdismeedia uuenemisprotsessid ja kaasaegne digikultuur. Nii MEDIT kui ka doktriõppekava on aga mõlemad otseselt Tallinna Ülikooli uue fookusvaldkonna “digi- ja meediakultuur” arendamise väljenduseks."
         ],
         "eap": 240,
         "spots": 2,
-        "majorWebsite": "https://www.tlu.ee/bfm",
+        "majorWebsite": "https://www.tlu.ee/bfm/audiovisuaalkunstid-ja-meediauuringud#oppekeskkond",
         "type": "Balti Filmi ja Meedia Instituut",
         "modules": [
             {
@@ -2819,6 +2879,61 @@
                 ]
             }
         ],
+        "personnel": [
+            {
+                "name": "Indrek Ibrus",
+                "title": "Meediainnovatsiooni professor",
+                "email": "indrek.ibrus@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/3d3bd40beeb279a3199ac2214296e6b9.png?itok=__pgLFu9"
+            },
+            {
+                "name": "Katrin Tiidenberg",
+                "title": "Osaluskultuuri professor",
+                "email": "katrin.tiidenberg@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Katrin%20Tiidenberg%201.jpg"
+            },
+            {
+                "name": "Ulrike Rohn",
+                "title": "Meediamajanduse ja -juhtimise professor",
+                "email": "ulrike.rohn@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Ulrike%20Rohn.png"
+            },
+            {
+                "name": "Pia Tikka",
+                "title": "Vanemteadur",
+                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Pia%20Tikka.png"
+            },
+            {
+                "name": "Riho Västrik",
+                "title": "Dokumentaalfilmi professor",
+                "email": "vastrik@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/2a26614ff8f3d41095b0c9f4d548283b.png?itok=q72xoq8j"
+            },
+            {
+                "name": "Dirk Hoyer",
+                "title": "Audiovisuaalkunsti dotsent",
+                "email": "dirk.hoyer@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Dirk%20Hoyer.png"
+            },
+            {
+                "name": "Andres Jõesaar",
+                "title": "Meediapoliitika dotsent",
+                "email": "andres.joesaar@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/andres%20j%C3%B5esaar.png"
+            },
+            {
+                "name": "Teet Teinemaa",
+                "title": "Külalislektor",
+                "email": "teinemaa@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/styles/image_120x120/public/employee_images/59fedbf9c4db3c1150b6d65b3db2781b.jpg?itok=xTEMjlxq"
+            },
+            {
+                "name": "Elen Lotman",
+                "title": "Filmikunsti dotsent",
+                "email": "elen.lotman@tlu.ee",
+                "photo": "https://www.tlu.ee/sites/default/files/Instituudid/BFM/Inimesed/Elen_Lotman_0.jpg"
+            }
+        ],
         "level": "doktor",
         "outcomes": [
             "Omab laiapõhjalisi teadmisi ja süsteemset ülevaadet audiovisuaalkunstide ja meediauuringute valdkonnast ning sügavaid ja ajakohaseid teadmisi oma kitsamas uurimisvaldkonnas",
@@ -2836,22 +2951,25 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Magistrikraad"
+                "term": "Magistrikraad või sellega võrdusustatud kvalifikatsioon"
             },
             {
-                "term": "Inglise keel oskus vähemalt B2 tasemel"
+                "term": "Ette näidata eesmärk ja plaan tulevasteks õpinguteks"
             },
             {
-                "term": "Doktoritöö kavand"
+                "term": "Inglise keele oskus iseseisva kasutaja (B2) tasemel"
             },
             {
-                "term": "CV"
+                "header": "CV",
+                "term": "Kui kandidaadil on portfoolio või koduleht varasemalt tehtud töödega, siis tuleks see CVga siduda"
             },
             {
-                "term": "Motivatsioonikiri"
+                "header": "Motivatsioonikiri",
+                "term": "Motivatsioonikiri, milles selgitus selle kohta, miks doktoriuurimustöö kohaks on valitud just Tallinna Ülikool ja antud doktoriõppe õppekava."
             },
             {
-                "term": "Vestlus"
+                "header": "Intervjuu",
+                "term": "Intervjuu kandidaatidega toimub eelnevalt esitatud ning potentsiaalse juhendajaga kooskõlastatud doktoritöö kava (doktoritöö projekti) teemadel. Intervjuu toimub individuaalselt iga doktorandiga eelnevalt kokku lepitud ajal. Komisjon hindab kandidaati individuaalselt, andes intervjuu lõppedes konsensusliku hinnangu."
             }
         ],
         "name": "Audiovisuaalkunstid ja Meediauuringud",
@@ -2866,13 +2984,11 @@
             "Tallinn"
         ],
         "description": [
-            "Ühiskonnateaduste instituut pakub ainsana Eestis võimalust demograafiaalaseks doktoriõppeks. Meie uurimissuunad hõlmavad kõiki peamisi rahvastikuarengu alusprotsesse nii tänapäevases kui ajaloolises vaates.",
-            "Ootame õppima magistrikraadi või sellele vastavat haridustaset omavaid inimesi, kellel on selge huvi rahvastikuteaduse vastu ja valmisolek tegeleda süvendatult kvantitatiivsete andmestikega. Olulise eelise annab iseseisva uurimistöö kogemus ja (rahvastiku-) teaduslike publikatsioonide olemasolu, soovitav on rahvusvahelistes projektides osalemise kogemus. Eeldame valmisolekut seostada oma uurimisteema Eesti rahvastikulooga.",
-            "Instituut pakub ainsana Eestis võimalust demograafiaalaseks doktoriõppeks. Instituudi uurimissuunad hõlmavad kõiki peamisi rahvastikuarengu alusprotsesse nii tänapäevases kui ajaloolises vaates (sh sündimus ja perekond, suremus ja tervis, rahvastiku vananemine, välispäritolu rahvastik, ajaloodemograafia). Tähtsal kohal on rahvusvaheliselt võrreldavate rahvastikuandmestike alane arendustegevus, kuhu on kaasatud ka doktorandid. Toetatakse osalust rahvusvahelistel erialakonverentsidel ja teaduskoostöös. Õppe- ja teadustöö on paindlik ja vajaduspõhine. Soovitav on nominaalse õppeaja jooksul osaleda Euroopa demograafia doktorikoolis (EDSD), mis on Euroopa juhtivate demograafiakeskuste vahelises koostöös toimuv 1-aastane roteeruv õppeprogramm."
+            "Ühiskonnateaduste instituut pakub ainsana Eestis võimalust demograafiaalaseks doktoriõppeks. Meie uurimissuunad hõlmavad kõiki peamisi rahvastikuarengu alusprotsesse nii tänapäevases kui ajaloolises vaates. \n\n**Keda ootame õppima?** \n\nOotame õppima magistrikraadi või sellele vastavat haridustaset omavaid inimesi, kellel on selge huvi rahvastikuteaduse vastu ja valmisolek tegeleda süvendatult kvantitatiivsete andmestikega. Olulise eelise annab iseseisva uurimistöö kogemus ja (rahvastiku-) teaduslike publikatsioonide olemasolu, soovitav on rahvusvahelistes projektides osalemise kogemus. Eeldame valmisolekut seostada oma uurimisteema Eesti rahvastikulooga. \n\n**Miks tulla meile õppima?** \n\nInstituut pakub ainsana Eestis võimalust demograafiaalaseks doktoriõppeks. Instituudi uurimissuunad hõlmavad kõiki peamisi rahvastikuarengu alusprotsesse nii tänapäevases kui ajaloolises vaates (sh sündimus ja perekond, suremus ja tervis, rahvastiku vananemine, välispäritolu rahvastik, ajaloodemograafia). Tähtsal kohal on rahvusvaheliselt võrreldavate rahvastikuandmestike alane arendustegevus, kuhu on kaasatud ka doktorandid. Toetatakse osalust rahvusvahelistel erialakonverentsidel ja teaduskoostöös. Õppe- ja teadustöö on paindlik ja vajaduspõhine. Soovitav on nominaalse õppeaja jooksul osaleda Euroopa demograafia doktorikoolis (EDSD), mis on Euroopa juhtivate demograafiakeskuste vahelises koostöös toimuv 1-aastane roteeruv õppeprogramm. \n\n**Karjäärivõimalused** \n\nDoktorikraad demograafia erialal võimaldab töötada: \n\n**1)** teadlasena või teadus- ja arendusprojektide juhina; \n**2)** eelkõige avalikus sektoris rahvastiku alast kompetentsi nõudvatel ametikohtadel tipp-spetsialistina (sh tervishoid, haridus, sostsiaalvaldkond, kindlustus, pensionisüsteemid, regionaalne planeerimine)."
         ],
         "eap": 240,
         "spots": 1,
-        "majorWebsite": "https://www.tlu.ee/yti",
+        "majorWebsite": "https://www.tlu.ee/node/2467",
         "type": "Ühiskonnateaduste Instituut",
         "modules": [
             {
@@ -3018,6 +3134,14 @@
                 ]
             }
         ],
+        "personnel": [
+            {
+                "name": "Triin Vendik",
+                "title": "Õppenõustaja ja -spetsialist",
+                "email": "triin.vendik@tlu.ee",
+                "phone": "+3726409452"
+            }
+        ],
         "level": "doktor",
         "outcomes": [
             "Oskab püstitada ja lahendada ühiskonnas esilekerkivaid probleeme rahvastikuarengulises kontekstis",
@@ -3033,13 +3157,12 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Doktoritöö kava"
+                "header": "Doktoritöö kavand",
+                "term": "Doktoritöö kavandi struktuur (5-10 lk + kirjandusallikate loetelu): \n\n(1) doktoritöö teema, sh lühikokkuvõte uurimisprobleemist, mida doktoritööga püütakse lahendada \n(2) töö eesmärgid, peamised uurimisküsimused ja -ülesanded või tööhüpoteesid \n(3) lühiülevaade olulisematest teemakohastest varasematest uuringutest ja teoreetilisest seisukohtadest koos kirjanduse viidetega \n(4) andmed ja uurimismeetodid, mida on plaanis kasutada uurimisprobleemi lahendamiseks, sh valimi koostamise põhimõtted \n(5) tööplaan, doktoritöö valmimiseks vajalikud ressursid ja võimalikud riskid"
             },
             {
-                "term": "CV"
-            },
-            {
-                "term": "Vestlus"
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam koosneb: \n\n**1)** vestlus doktoritöö kavandi teemal (pööratakse tähelepanu teema seostatusele rahvastikuteaduse teoreetiliste lähtekohtadega ning instituudi uurimisprioriteetidega); \n**2)** doktoriõppe kandidaadi akadeemiliste saavutuste hindamine (CV, ilmunud publikatsioonid, varasem andmetöö kogemus)."
             }
         ],
         "name": "Demograafia",
@@ -3054,14 +3177,20 @@
             "Tallinn"
         ],
         "description": [
-            "TLÜ digitehnoloogiate instituut on ainus õppeasutus Eestis, mille fookuseks on nn “pehme” infotehnoloogia, hõlmates sotsiaalmeedia rakendusi, digitaalseid õpiökosüsteeme, interaktsioonidisaini, töökohapõhist õpet ja muid seonduvaid valdkondi. Instituudi kiire areng toetub laialdasele partnerite võrgustikule, EL fondide kasutamisele, oma töötajatele eneseteostusvõimaluste loomisele, aga samuti õppe-, teadus- ning arendustegevuse integreeritud edendamisele. Doktoriõppe üliõpilased on kaasatud kohalike ja rahvusvaheliste teadusalaste koostööprojektide täitmisele; neil on võimalus osaleda erialakonverentside, seminaride ja suvekoolide töös ning viia osa oma õpinguid Erasmus-programmi toel läbi välisülikoolides. Instituut asub ülikooli uhiuues hoones, võimaldades suurepäraseid töötingimusi.",
-            "Ootame õppima IKT või sellega seonduvas valdkonnas magistritaseme haridust omavaid võimekaid üliõpilasi, kel on huvi ja motivatsioon omandada kõrgtaseme kvalifikatsioon digitehnoloogiate instituudi viljeldavast teadustemaatikast.",
-            "Doktoriõpe Tallinna Ülikoolis on interdistsiplinaarne ja rahvusvaheline. Eesti oma tippteadlaste ja õppejõudude kõrval õpetavad ja juhendavad meie doktorante mitmed rahvusvaheliselt tunnustatud välisprofessorid. Välisjuhendajate kõrge osakaal on üks näitajatest, mis eristab meid positiivselt teistest Eesti avalik-õiguslikest ülikoolidest."
+            "Tallinna Ülikooli digitehnoloogiate instituut on ainus õppeasutus Eestis, mille fookuseks on nn “pehme” infotehnoloogia, hõlmates sotsiaalmeedia rakendusi, digitaalseid õpiökosüsteeme, interaktsioonidisaini, töökohapõhist õpet ja muid seonduvaid valdkondi. Instituudi kiire areng toetub laialdasele partnerite võrgustikule, EL fondide kasutamisele, oma töötajatele eneseteostusvõimaluste loomisele, aga samuti õppe-, teadus- ning arendustegevuse integreeritud edendamisele. Doktoriõppe üliõpilased on kaasatud kohalike ja rahvusvaheliste teadusalaste koostööprojektide täitmisele; neil on võimalus osaleda erialakonverentside, seminaride ja suvekoolide töös ning viia osa oma õpinguid Erasmus-programmi toel läbi välisülikoolides. Instituut asub ülikooli uhiuues hoones, võimaldades suurepäraseid töötingimusi. \n\n**Keda ootame õppima?** \n\nOotame õppima IKT või sellega seonduvas valdkonnas magistritaseme haridust omavaid võimekaid üliõpilasi, kel on huvi ja motivatsioon omandada kõrgtaseme kvalifikatsioon digitehnoloogiate instituudi viljeldavast teadustemaatikast. \n\nDoktoriõpe Tallinna Ülikoolis on interdistsiplinaarne ja rahvusvaheline. Eesti oma tippteadlaste ja õppejõudude kõrval õpetavad ja juhendavad meie doktorante mitmed rahvusvaheliselt tunnustatud välisprofessorid. Välisjuhendajate kõrge osakaal on üks näitajatest, mis eristab meid positiivselt teistest Eesti avalik-õiguslikest ülikoolidest. \n\n**Kuhu edasi?** \n\nÕppekava läbinul on sõltuvalt tema personaalsetest huvidest väga erinevad karjäärivõimalused. Näiteks võib ta töötada teadurina, ülikooliõppejõuna või valdkonnaeksperdina erinevates asutustes ja organisatsioonides. Lõpetanu on võimeline arendama IT-strateegiaid ja juhtima nende elluviimist, juhtima väikest uurimisrühma või teadus- ja arendusprojekti. Ta on võimeline kujundama oma professionaalset karjääri, tuginedes kriitilisele mõtlemisele ja visioonile."
         ],
         "eap": 240,
         "spots": 0,
-        "majorWebsite": "https://www.tlu.ee/dt",
+        "majorWebsite": "https://www.tlu.ee/dt/infouhiskonna-tehnoloogiad",
         "type": "Digitehnoloogiate Instituut",
+        "personnel": [
+            {
+                "name": "Maria Saar",
+                "title": "Doktoriõppe ja rahvusvahelistumise spetsialist",
+                "email": "maria.saar@tlu.ee",
+                "phone": "+3726409354"
+            }
+        ],
         "modules": [
             {
                 "courses": [
@@ -3198,10 +3327,11 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Vestlus"
+                "term": "Üldised vastuvõtunõuded leiate [siit](https://www.tlu.ee/doktoriope)."
             },
             {
-                "term": "Magistrikraad"
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam toimub intervjuu vormis eelnevalt esitatud ning potentsiaalse juhendajaga kooskõlastatud doktoritöö kava (doktoritöö projekti) teemadel. Intervjuu toimub individuaalselt iga doktorandiga eelnevalt kokku lepitud ajal."
             }
         ],
         "name": "Infoühiskonna Tehnoloogiad",
@@ -3216,12 +3346,11 @@
             "Tallinn"
         ],
         "description": [
-            "Kasvatusteaduste doktoriõppekava loob tingimused professionaalsuse saavutamiseks kasvatusteaduste valdkonnas ning iseseisvaks teadustöö tegemiseks rahvusvaheliselt tunnustatud tasemel. Meie doktorantidest kujunevad kõrgelt kvalifitseeritud õppejõud, teadurid ja haridusvaldkonna asjatundjad.",
-            "Ootame õppima kasvatusteaduste või sellega seonduvas valdkonnas magistritaseme (või sellega võrdsustatud) haridust omavaid võimekaid üliõpilasi, kel on huvi ja motivatsioon omandada kõrgtaseme kvalifikatsioon haridusteaduste instituudi viljeldavast teadustemaatikast. Meie lõpetajad on võimalised juhtima haridusasutust, uurimisrühma või teadusprojekti, töötama teadurina, arendama haridusteooriaid või tegutsema õpetajakoolituses, tuginedes oma professionaalse karjääri kujundamisel kriitilisele mõtlemisele ja visioonile."
+            "Kasvatusteaduste doktoriõppekava loob tingimused professionaalsuse saavutamiseks kasvatusteaduste valdkonnas ning iseseisvaks teadustöö tegemiseks rahvusvaheliselt tunnustatud tasemel. Meie doktorantidest kujunevad kõrgelt kvalifitseeritud õppejõud, teadurid ja haridusvaldkonna asjatundjad. \n\notame õppima kasvatusteaduste või sellega seonduvas valdkonnas magistritaseme (või sellega võrdsustatud) haridust omavaid võimekaid üliõpilasi, kel on huvi omandada kõrgtaseme kvalifikatsioon haridusteaduste instituudi teadusvaldkonnas (vt nt projekte ja teemasid). Meie lõpetajad on võimelised juhtima haridusasutust, uurimisrühma või teadusprojekti, töötama teadurina, arendama haridusteooriaid või tegutsema õpetajakoolituses. \n\n**Avatud teemaga õppekoht** \n\nAvatud teemaga doktorant-nooremteaduri õppekohale saab kandideerida oma teemaga, pöördudes koostöö algatamiseks ja kinnituse saamiseks potentsiaalse juhendaja poole. Juhendajaid leiab instituudi akadeemiliste suundade järgi. \n\nTeema valimiseks palume tutvuda meie instituudi professorite ja dotsentide teadustöö põhisuundadega ETISes. \n\nKui juhendaja uurimissuund ühtib teie eelistatud uurimishuviga, palun saatke potentsiaalsele juhendajale oma esialgne doktoritöö kavand tutvumiseks. Ärge jätke esimest kontakti võtmist viimasele hetkele, esialgne doktoritöö kava võiks olla saadetud juhendajale paar kuud enne dokumentide esitamise tähtaega. Siis on võimalik kava sisu juhendajaga läbi rääkida ning kooskõlastada. Kandideerida saab ainult juhendaja poolt kinnitatud kavandiga."
         ],
         "eap": 240,
-        "spots": 5,
-        "majorWebsite": "https://www.tlu.ee/hti",
+        "spots": 1,
+        "majorWebsite": "https://www.tlu.ee/hti/kasvatusteadused",
         "type": "Haridusteaduste Instituut",
         "modules": [
             {
@@ -3386,13 +3515,15 @@
                 "term": "Avaldus"
             },
             {
-                "term": "CV"
+                "term": "Elulookirjeldus"
             },
             {
-                "term": "Doktoritöö kava"
+                "header": "Doktoritöö kava",
+                "term": "Doktoritöö kava, mis on heaks kiidetud doktoritöö juhendaja kvalifikatsioonile vastava akadeemilise soovitaja poolt. "
             },
             {
-                "term": "Vestlus"
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam toimub intervjuu vormis eelnevalt esitatud ning potentsiaalse juhendajaga kooskõlastatud doktoritöö kava teemadel. Lisaks doktoritöö kava kvaliteedile ja selle kaitsmise edukusele on olulisteks kandidaadi hindamise kriteeriumiteks ka inglise keele oskus, varasem edukas teadusartiklite publitseerimise ja/või konverentsidel esinemise kogemus ning lugemus uurimishuviga seotud valdkondades. Intervjuu hinne kujuneb kõigi komisjoni liikmete hinnete tulemusel."
             }
         ],
         "name": "Kasvatusteadused",
@@ -3407,15 +3538,167 @@
             "Tallinn"
         ],
         "description": [
-            "Kultuuride uuringud on doktoriõppekava, kus on võimalik spetsialiseeruda mitmele kultuuride eri aspekte käsitlevale suunale, nagu kultuuriteooria, eesti kirjandus ja kultuur, ingliskeelsed kirjandused ja kultuurid, saksakeelsed kirjandused ja kultuurid, romanistika, vene kirjandus ja kultuur, Lähis-Ida ja Aasia kirjandus ja kultuur, kultuurigeograafia, sotsiaal- ja kultuurantropoloogia ning filosoofia.",
-            "Õppekava on suunatud kõigile kultuuriteooriast, eesti kirjandusest ja kultuurist, ingliskeelsetest kirjandustest ja kultuuridest, saksakeelsetest kirjandustest ja kultuuridest, romanistikast, vene kirjandusest ja kultuurist, Lähis-Ida ja Aasia kirjandustest ja kultuuridest, kunstiteadustest, kultuurigeograafiast, sotsiaal- ja kultuurantropoloogiast ning filosoofiast huvitatutele.",
-            "Sobid meie doktorandiks, kui soovid teha eelmainitud suundades teaduskoostööd meie ekspertidega ning kirjutada doktoritööd meie juhendajatega neis kompetentsivaldkondades.",
-            "Õppekava on paindlik ja võimaldab igal doktorandil koostöös juhendajaga korraldada oma õpinguid ja valida uurimistemaatikaga sobiv ettevalmistus. Lisaks soodustab õppekava interdistsiplinaarsust ning pidevat dialoogi juhendaja ja õppejõududega.",
-            "Rahvusvaheliste kogemuste omandamiseks on võimalik osaleda konverentsidel, seminaridel, suvekoolides ning õppida Erasmuse programmi toel välisülikoolis."
+            "Õppekava eesmärk on luua doktorantidele tingimused laiapõhjalise ja süsteemse süvahariduse saamiseks loodus- ja täppisteaduste valdkonnas ja iseseisvaks teaduslikuks uurimistööks rahvusvaheliselt tunnustatud tasemel; toetada doktorantide kujunemist kõrge kvalifikatsiooniga õppejõududeks, teadustöötajateks ja spetsialistideks tagamaks eriala jätkusuutlikku arengut ning viia doktorantide teadmised ja oskused rahvusvahelises teadusruumis tunnustatud kõrgprofessionaali tasemele.",
+            "Tallinna Ülikool on positiivselt evalveeritud loodusteaduste- ja tehnika ning bio- ja keskkonnateaduste valdkonnas, doktorandid on kaasatud hulgaliste teadusgrantide ja rahvusvaheliste projektide täitmisse. Valdkonna teadlastel on laialdased rahvusvahelised sidemed, teadustöö kogemuste omandamiseks on võimalik osaleda konverentsidel, seminaridel, suvekoolides ning õppida doktorantide mobiilsusprogrammide raames välisülikoolides. Doktoriõppekava alusel koostatakse igale doktorandile individuaalplaan, mis arvestab tema doktoritöö temaatikat. Individuaalplaani on õppeaineid võimalik valida nii Tallinna Ülikoolist kui ka teistes Eesti või võimalusel, välismaa ülikoolidest.",
+            "Meie laborites saavad üliõpilased praktikas tundma õppida tänapäevastes teadusuuringutes rakendatavat kõrgetasemelist teadusaparatuuri. Nad saavad osaleda uurimisrühmade töös, lüüa ise kaasa suuremate teadusprojektide läbiviimisel ning planeeritavates uuringutes tööplaanide ja suundade valikus. Õppekava võimaldab osaleda teiste suundade seminarides ning soovituslikult osaleda interdistsiplinaarsete töörühmade töös.",
+            "Doktoriõppekava komplekssed süsteemid loodusteadustes kujundamisel on lähtutud loodusteadusliku doktoriõppe korraldamise rahvusvahelistest tavadest ja eesmärkidest ning see on loodud analüütilise biokeemia, füüsika ja ökoloogia doktoriõppekavade ühendamisel üritades suurendada erinevate suundade kokkupuutepunkte.",
+            "Õppekava komplekssed süsteemid loodusteadustes vastuvõtt 2021 teemad:",
+            "• Polysaccharide degrading bacteria from freshwater environments: Novel applications in microbial technology. Juhendaja: PhD Rando Tuvikene",
+            "• Polysaccharide based biomaterials from marine sources: Synergistic combinations between seaweed derived biomolecules. Juhendaja: PhD Rando Tuvikene",
+            "• Water browning in groundwater dependent water ecosystems under the impact of climate change. Juhendaja: PhD Jaanus Terasmaa"
+        ],
+        "eap": 240,
+        "spots": 2,
+        "majorWebsite": "https://www.tlu.ee/lti",
+        "type": "loodus- ja terviseteaduste Instituut",
+        "modules": [
+            {
+                "courses": [
+                    {
+                        "name": "Loodusteadusliku uurimistöö meetodid",
+                        "eapCount": 6
+                    }
+                ],
+                "name": "Üldained",
+                "submodules": [
+                    {
+                        "name": "Valikained",
+                        "courses": [
+                            {
+                                "name": "Teadus- ja arendusprojektide kavandamine ja täitmine",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Õppimine ja õpetamine ülikoolis",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Teadustulemuste vormistamine ja esitamine",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Ülikoolis õpetamise praktika",
+                                "eapCount": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Eriala üldmoodul",
+                "courses": [
+                    {
+                        "name": "Loodusteaduste doktoriseminar",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Loodusteaduslike protsesside analüüs ja modelleerimine",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Peaeriala: Keskkonnaökoloogia",
+                "courses": [
+                    {
+                        "name": "Keskkonnaökoloogia erialaseminar",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Uued arengusuunad geoökoloogias ja ökohüdroloogias",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Keskkonnaökoloogia rakendused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Geoinformaatika ja andmete visualiseerimine",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Aegruumilised muutused loodussüsteemides",
+                        "eapCount": 4
+                    }
+                ]
+            },
+            {
+                "name": "Peaeriala: Funktsionaalsed biomolekulid ja süsteemid",
+                "courses": [
+                    {
+                        "name": "Molekulaarteaduste erialaseminar",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Biomolekulaarse keemia süvakursus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Eksperimentaalsed meetodid biopolümeeride keemias",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Funktsionaalsed biopolümeerid ja biosüsteemid",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Neuroteaduste erikursus",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Doktoritöö",
+                "courses": [
+                    {
+                        "name": "Doktoritöö",
+                        "eapCount": 180
+                    }
+                ]
+            }
+        ],
+        "level": "doktor",
+        "outcomes": [
+            "Omab laiapõhjalisi teadmisi ja süsteemset ülevaadet keskkonnaökoloogiast, analüütilisest biokeemiast või loodusteaduslike komplekssüsteemide matemaatilisest modelleerimisest ning süvendatud teadmisi oma uurimisvaldkonna kitsamas osas",
+            "Suudab iseseisvalt ja kriitiliselt analüüsida erialaspetsiifilisi probleeme ning teadusliku täpsusega formuleerida uurimisküsimusi",
+            "Oskab oma valdkonnas eksperdina hinnata enda ja teiste tegevust teaduseetilises kontekstis, saab aru teaduse võimalustest ja piirangutest ja ühiskondlikust rollist ning oskab seda ühiskonnas laiemalt väljendada",
+            "Õppekava läbinu on võimeline kõrgkoolis üliõpilasi juhendama ja õpetama ning oma õpitulemusi juhendamise ja õpetamise teel edasi andma",
+            "Oskab töötada töörühmas erinevates rollides, püstitama ning kontrollima hüpoteese ja hindama nii enda kui ka teiste uurimistöö tulemuste sisu ja õigsust.",
+            "Antav kraad: filosoofiadoktor (komplekssed süsteemid loodusteadustes)."
+        ],
+        "language": "eesti keel",
+        "duration": 4,
+        "requirements": [
+            {
+                "term": "Doktoritöö kavand"
+            },
+            {
+                "term": "CV"
+            },
+            {
+                "term": "Vastuvõtueksam"
+            },
+            {
+                "term": "Inglise keele oskus vähemalt B2 tasemel"
+            }
+        ],
+        "name": "Komplekssed süsteemid loodusteadustes",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Kultuuride uuringud on doktoriõppekava, kus on võimalik spetsialiseeruda mitmele kultuuride eri aspekte käsitlevale suunale, nagu kultuuriteooria, eesti kirjandus ja kultuur, ingliskeelsed kirjandused ja kultuurid, saksakeelsed kirjandused ja kultuurid, romanistika, vene kirjandus ja kultuur, Lähis-Ida ja Aasia kirjandus ja kultuur, kultuurigeograafia, sotsiaal- ja kultuurantropoloogia ning filosoofia. \n\noktorandid saavad oma uurimisvaldkonnale läheneda interdistsiplinaarselt, põimides võrdlevat kirjandusteadust, kultuuri toimemehhanismide praktilist ja teoreetilist uurimist ning mitmeid muid uurimissuundi ja meetodeid. \n\nÕpingute käigus on doktorantidel võimalus süveneda humanitaarteaduste ja kultuuride uuringute tänapäevastesse uurimismeetoditesse. \n\n**Miks tulla meile õppima?** \n\n**•** Õppekava on suunatud kõigile kultuuriteooriast, eesti kirjandusest ja kultuurist, ingliskeelsetest kirjandustest ja kultuuridest, saksakeelsetest kirjandustest ja kultuuridest, romanistikast, vene kirjandusest ja kultuurist, Lähis-Ida ja Aasia kirjandustest ja kultuuridest, kunstiteadustest, kultuurigeograafiast, sotsiaal- ja kultuurantropoloogiast ning filosoofiast huvitatutele. \n\n**•** Sobid meie doktorandiks, kui soovid teha eelmainitud suundades teaduskoostööd meie ekspertidega ning kirjutada doktoritööd meie juhendajatega neis kompetentsivaldkondades. \n\n**•** Õppekava on paindlik ja võimaldab igal doktorandil koostöös juhendajaga korraldada oma õpinguid ja valida uurimistemaatikaga sobiv ettevalmistus. Lisaks soodustab õppekava interdistsiplinaarsust ning pidevat dialoogi juhendaja ja õppejõududega. \n\n**•** Rahvusvaheliste kogemuste omandamiseks on võimalik osaleda konverentsidel, seminaridel, suvekoolides ning õppida Erasmuse programmi toel välisülikoolis. \n\n**Õppekava ja -ained** \n\nDoktoriõppes on kesksel kohal interdistsiplinaarsed teadusseminarid, mille käigus doktorandid saavad esineda ettekannetega oma doktoritöö teemal. Kohustuslik on esineda vähemalt kahel korral. Doktorandid saavad tagasisidet nii kaasdoktorantidelt kui ka seminari korraldajatelt. \n\nMetodoloogilise baasi loomiseks on oluline õppeaine humanitaaria aktuaalsed meetodid. Doktorantidele pakutakse võimalust arendada nii akadeemilist kirjaoskust inglise keeles kui ka eesti teaduskeelt. Pakutakse ka võimalust arendada avaliku esinemise oskust. Olulisel kohal on koostöös juhendajaga planeeritavad eriala- ja individuaalained. \n\n**Õppekeskkond** \n\n**•** Kultuuride uuringud koondavad endas meie suundade - kultuuriteooria, eesti kirjanduse ja kultuuri, ingliskeelsete kirjanduste ja kultuuride, saksakeelsete kirjanduste ja kultuuride, romanistika, vene kirjanduse ja kultuuri, Lähis-Ida ja Aasia kirjanduste ja kultuuride, kultuurigeograafia, sotsiaal- ja kultuurantropoloogia ning filosoofia -  kompetentse ning nende valdkondade teadlasi ja õppejõude. Olulised on TLÜ kultuuridevaheliste uuringute tippkeskus ja maastiku ja kultuuri keskus. \n\n**•** Doktorantidel on võimalik kasutada nii TLÜ akadeemilise raamatukogu kui ka rahvusraamatukogu inforessursse. \n\n**•** TLÜs paikneb Eesti Semiootikavaramu. \n\n**•** Doktorandi õpinguid toetab kultuuriteaduste ja kunstide doktorikool. \n\n**•** Doktorandid on väga oodatud akadeemilistele üritustele: TÜHI teadusseminar, TÜHI pop-up seminar, TÜHI saal jm. \n\n**Teematilised kohad 2023** \n\n**Üks doktorant-nooremteaduri koht Hiina uuringutes** \n\nÜks doktorant-nooremteaduri koht uurimistöö tegemiseks Hiina uuringutes. Doktorandilt eekdatakse uurimistöö tegemist Hiina intellektuaalse ajaloo, filosoofia, kirjanduse ja /või kultuuri teemal. Võrdlevad ja kultuurideülesed perspektiivid on samati teretulnud. Eelnev uurimistöö kogemus hiina poliitilise mõtte teemal on eelistatud. Sobival kandidaadil on eelnev haridus sinoloogia või aasia uuringute alal. Kandidaat peab valdama heal tasemel inglise ja hiina keelt, eesti keele oskus tuleb kasuks. Klassikalise hiina keele ja/või teise aasia keele oskus on suuresti kasuks. Vastu võetud doktorant immatrikuleeritakse kultuuride uuringute õppekavale. \n\nÜks doktorant-nooremteaduri koht uurimistöö tegemiseks Ida-Slaavi kultuuriloos. \n\nÜks finantseeritav doktorant-nooremteaduri slaavi uuringute alal fookusega vene või ukraina kultuuridele. Vastu võetud doktorant tegeleb uurimistööga ühel või kombineeritult järgnevatest teemadest: idaslaavi uuringud ajaloolises perspektiivis (eelistades mikroajalugu); slaavi kultuurid võrdlevas perspektiivis; diasporaa uuringud; idaslaavi keelte kõnelejate migratsiooni uuringud; idaslaavikeelsed kirjandused Balti riikides (eelistades Eestit); multikultuursus slaavi maailmas. Sobival kandidaadil on eelnev kogemus nende uurimisvaldkondadega. Eeldatakse vene ja inglise või urkaina ja inglise keele oskust väga heal tasemel, eesti keele oskus ning varasemad teaduspublikatsioonid valdkonnas tulevad kasuks. Vastu võetud doktorant immatrikuleeritakse kultuuride uuringute õppekavale. \n\nVõimalik Eesti kultuuriloo koha uurimisvaldkond \n\nEeldatakse uurimistöö tegemist Eesti kultuuri teemal, sobivad eri aspektid Eesti kultuuri analüüsimise, mõtestamise või õpetamise ja laiemalt tutvustamise vallas. Võrdlevad ja kultuurideülesed perspektiivid on samuti teretulnud. Eelnev uurimistöö kogemus Eesti kultuuri uuringute teemal on eelistatud. Sobival kandidaadil on eelnev haridus soovitavalt kultuuriteaduse, kultuuriloo, Eesti uuringute, kirjandusteaduse või eesti keele kui teise keele ja eesti kultuuri õpetamise alal. Kandidaat peab valdama kõrgtasemel eesti ja heal tasemel inglise keelt. Oodatakse panustamist eesti keele keskuse kultuurialastesse tegevustesse. \n\n**Millistel erialadel võib tööd leida?** \n\nRahvusvaheliselt akrediteeritud doktoridiplom võimaldab töötada doktorikraadi nõudvatel ametikohtadel, näiteks Tallinna ülikoolis või Tartu ülikoolis. \n\n**Edasiõppimisvõimalused** \n\nPärast doktoriõpingute lõpetamist on võimalik kandideerida järeldoktorantuuri või jätkata iseseisvalt akadeemilise enesetäiendamisega."
         ],
         "eap": 240,
         "spots": 0,
-        "majorWebsite": "https://www.tlu.ee/ht",
+        "majorWebsite": "https://www.tlu.ee/ht/kultuuride-uuringud",
         "type": "Humanitaarteaduste Instituut",
         "modules": [
             {
@@ -3770,19 +4053,23 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Doktoritöö kavand"
+                "header": "Doktoritöö kavand",
+                "term": "Koostöös juhendajaga täiendatud (ja tema poolt allkirjastatud) doktoritöö kavand (pikkus u 5 lk/2500 sõna ilma kirjanduse nimekirjata) sisaldab vähemalt järgmisi komponente: \n\n**•** kavandatava uurimistöö teema \n**•** uurimistöö eesmärgid ja peamised uurimisküsimus(ed) \n**•** ülevaade kasutatavatest meetoditest ja/või põhimõistetest \n**•** senise uurimisseisu ülevaade \n**•** ülevaade, millist teemakohast uurimistööd on kandidaat juba varem teinud \n**•** ülevaade plaanitava uurimistöö sisust; \n**•** visioon uurimistöö esmaste võimalike tulemuste kohta (mida loodetakse teada saada) \n**•** esmane nimekiri töös kasutatavatest allikatest ja kirjandusest \n**•** uurimistöö ajaline graafik (sh info välisõpingute kohta nt Erasmus, arhiivide ja raamatukogude külastus jms). \n\nJuhul kui kavandatav doktoritöö sisaldab välitöid, lisada info nende ulatuse, kestuse ja finantseerimise kohta (nii eelarve kui ka kavandatavad finantseerimisallikad) \n\nProjektiteemade puhul selgitus projektiga haakumise ja projekti raames tehtavate tegevuste kohta. Projektiga mitte seotud teemadel põhjendus, miks seda uurimistööd peab tegema just Tallinna Ülikooli humanitaarteaduste instituudis"
             },
             {
-                "term": "Vabas vormis sõnastatud senine õpetamisalane kogemus ja nägemus doktoriõppe ajal tehtavast õppetööst"
+                "term": "Täpsustatud ja juhendajaga kooskõlastatud korraldatava õppetöö visioon õppekavade ja ainete lõikes ning info doktorandi rollist neis ainetes (doktorantidelt oodatakse 4 aasta doktorantuuri jooksul assisteerimist loengute ja seminaride korraldamisel vähemalt kolmel kursusel ja vähemalt ühe kursuse iseseisvat / kaasvastutusel läbi viimist)."
             },
             {
-                "term": "CV"
+                "header": "CV",
+                "term": "Sisaldab infot kandidaadi publikatsioonide ning IT alaste pädevuste kohta"
             },
             {
-                "term": "Inglise keele oskus vähemalt C1 tasemel"
+                "header": "Tõend keeleoskustaseme kohta",
+                "term": "Inglise keel C1-tasemel. Tõendi puudumisel tuleb osaleda keeletestil."
             },
             {
-                "term": "Vestlus"
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam toimub intervjuu vormis kandideerimiseks esitatud ja potentsiaalse juhendajaga kooskõlastatud doktoritöö kava (doktoritöö projekti) teemadel. Doktorant-nooremteadurilt eeldatakse selget visiooni oma doktoriõpingute kestuse kohta."
             }
         ],
         "name": "Kultuuride Uuringud",
@@ -3797,13 +4084,11 @@
             "Tallinn"
         ],
         "description": [
-            "Lingvistika doktoriõppe eesmärk on valmistada ette teadlasi ja õppejõude lingvistika alal. Üldisem eesmärk on anda oskused ja teadmised iseseisvaks süvauurimistööks valitud erialal. Õppijad suudavad läbi viia iseseisvat rahvusvahelisel tasemel keeleteaduslikku uurimistööd oma doktoriteema valdkonnas, publitseerida oma töö tulemusi kõrgetasemelistes ajakirjades ja esineda teadusettekannetega rahvusvahelistel konverentsidel.",
-            "Õppekava on suunatud neile, kellel on magistrikraad mõnel lingvistilisel või filoloogilisel erialal ja kes tunnevad huvi lingvistiliste teooriate rakendamise vastu praktilises uurimistöös.",
-            "Õppetöö toimub humanitaarteaduste instituudi lingvistika õppekaval korraldatavate seminaride, loengute ja iseseisva töö vormis. Doktorant töötab nelja aasta jooksul pidevalt kaasa teoreetilistel seminaridel, muus osas korraldatakse auditoorset õppetööd peamiselt tsükliõppena. Õppekava on paindlik ja võimaldab igal doktorandil koostöös juhendajaga korraldada oma õpinguid ja valida uurimistemaatikaga sobiv ettevalmistus. Õpingute sooritamise aeg ja vastuvõttev õppejõud määratakse iga doktorandi puhul individuaalselt. Rahvusvaheliste kogemuste omandamiseks on võimalik osaleda konverentsidel, seminaridel, suvekoolides ning õppida Erasmuse programmi toel välisülikoolis. Iga doktorant koostab koostöös juhendajaga individuaalplaani, mis arvestab doktorandi uurimisteemat."
+            "Lingvistika doktoriõppe eesmärk on valmistada ette teadlasi ja õppejõude lingvistika alal. Üldisem eesmärk on anda oskused ja teadmised iseseisvaks süvauurimistööks valitud erialal. Õppijad suudavad läbi viia iseseisvat rahvusvahelisel tasemel keeleteaduslikku uurimistööd oma doktoriteema valdkonnas, publitseerida oma töö tulemusi kõrgetasemelistes ajakirjades ja esineda teadusettekannetega rahvusvahelistel konverentsidel. \n\nÕppekava on suunatud neile, kellel on magistrikraad mõnel lingvistilisel või filoloogilisel erialal ja kes tunnevad huvi lingvistiliste teooriate rakendamise vastu praktilises uurimistöös. \n\n**Miks tulla meile õppima?** \n\n**•** Õppetöö toimub humanitaarteaduste instituudi lingvistika õppekaval korraldatavate seminaride, loengute ja iseseisva töö vormis. \n\n**•** Doktorant töötab nelja aasta jooksul pidevalt kaasa teoreetilistel seminaridel, muus osas korraldatakse auditoorset õppetööd peamiselt tsükliõppena. \n\n**•** Õppekava on paindlik ja võimaldab igal doktorandil koostöös juhendajaga korraldada oma õpinguid ja valida uurimistemaatikaga sobiv ettevalmistus. \n\n**•** Õpingute sooritamise aeg ja vastuvõttev õppejõud määratakse iga doktorandi puhul individuaalselt. \n\n**•** Rahvusvaheliste kogemuste omandamiseks on võimalik osaleda konverentsidel, seminaridel, suvekoolides ning õppida Erasmuse programmi toel välisülikoolis. \n\n**•** Iga doktorant koostab koostöös juhendajaga individuaalplaani, mis arvestab doktorandi uurimisteemat. \n\n**Õppekeskkond** \n\n**•** Meie keeleteadlased keskenduvad eelkõige keele omandamisele, tekstilingvistikale, keele õpetamisele, sotsiolingvistikale ja psühholingvistikale ning grammatika uurimisele. \n\n**•** Doktorantidel on võimalik kasutada nii TLÜ akadeemilise raamatukogu kui ka rahvusraamatukogu inforessursse. \n\n**•** Koostöös Tartu ülikooli, Eesti kirjandusmuuseumi ja Eesti Keele Instituudiga toimub [keeleteaduse, filosoofia ja semiootika doktorikool](http://doktorikool.humanitaarteadused.ut.ee/keeleteaduse-filosoofia-ja-semiootika-doktorikool?lang=et). \n\n**•** Huvilistel on võimalik osaleda [Eesti Rakenduslingvistika Ühingu](https://www.rakenduslingvistika.ee/) konverentsidel ning muudel kohalikel ja rahvusvahelistel konverentsidel. \n\nVälja antakse [toimetiste sarja](https://www.tlu.ee/ht/philologia-estonica-tallinnensis). \n\n**Profileeritud kohtade lisainfo** \n\nÜks doktorant-nooremteaduri koht uurimistöö tegemiseks teemal 'Eesti keele kui teise keele oskuse grammatiline areng esimeses ja teises kooliastmes'. Rakenduslingvistiline uurimistöö põhineks eesti keele kui teise keele omandamise korpusandmestikul ning uurimistöö fookuses oleks eelkõige grammatika ja/või konstruktsioonide tasandi areng. Sobival kandidaadil on eelnev haridus lingvistikas, tal on teadmised erinevatest lingvistika valdkondadest. Eeldatakse eesti ja inglise keele oskust väga kõrgel tasemel. Eelnev uurimis- ja /või töökogemus keelekorpusega töötamisel tuleb kasuks. \n\nVastu võetud doktorant immatrikuleeritakse Lingvistika õppekavale. \n\n**Kuhu edasi?** \n\nRahvusvaheliselt akrediteeritud doktoridiplom võimaldab töötada doktorikraadi nõudvatel ametikohtadel, näiteks Tallinna ülikoolis, Eesti Keele Instituudis või Tartu ülikoolis. Pärast doktoriõpingute lõpetamist on võimalik kandideerida järeldoktorantuuri või jätkata iseseisvalt akadeemilise enesetäiendamisega."
         ],
         "eap": 240,
-        "spots": 0,
-        "majorWebsite": "https://www.tlu.ee/ht",
+        "spots": 1,
+        "majorWebsite": "https://www.tlu.ee/ht/lingvistika",
         "type": "Humanitaarteaduste Instituut",
         "modules": [
             {
@@ -3908,16 +4193,23 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Doktoritöö kavand"
+                "header": "Doktoritöö kavand",
+                "term": "Koostöös juhendajaga täiendatud (ja tema poolt allkirjastatud) doktoritöö kavand (pikkus u 5 lk/2500 sõna ilma kirjanduse nimekirjata) sisaldab vähemalt järgmisi komponente: \n\n**•** kavandatava uurimistöö teema \n**•** uurimistöö eesmärgid ja peamised uurimisküsimus(ed) \n**•** ülevaade kasutatavatest meetoditest ja/või põhimõistetest \n**•** senise uurimisseisu ülevaade \n**•** ülevaade, millist teemakohast uurimistööd on kandidaat juba varem teinud \n**•** ülevaade plaanitava uurimistöö sisust; \n**•** visioon uurimistöö esmaste võimalike tulemuste kohta (mida loodetakse teada saada) \n**•** esmane nimekiri töös kasutatavatest allikatest ja kirjandusest \n**•** uurimistöö ajaline graafik (sh info välisõpingute kohta nt Erasmus, arhiivide ja raamatukogude külastus jms). \n\nJuhul kui kavandatav doktoritöö sisaldab välitöid, lisada info nende ulatuse, kestuse ja finantseerimise kohta (nii eelarve kui ka kavandatavad finantseerimisallikad) \n\nProjektiteemade puhul selgitus projektiga haakumise ja projekti raames tehtavate tegevuste kohta. Projektiga mitte seotud teemadel põhjendus, miks seda uurimistööd peab tegema just Tallinna Ülikooli humanitaarteaduste instituudis"
             },
             {
-                "term": "Vabas vormis sõnastatud senine õpetamisalane kogemus ja nägemus doktoriõppe ajal tehtavast õppetööst"
+                "term": "Täpsustatud ja juhendajaga kooskõlastatud korraldatava õppetöö visioon õppekavade ja ainete lõikes ning info doktorandi rollist neis ainetes (doktorantidelt oodatakse 4 aasta doktorantuuri jooksul assisteerimist loengute ja seminaride korraldamisel vähemalt kolmel kursusel ja vähemalt ühe kursuse iseseisvat / kaasvastutusel läbi viimist)."
             },
             {
-                "term": "CV"
+                "header": "CV",
+                "term": "Sisaldab infot kandidaadi publikatsioonide kohta"
             },
             {
-                "term": "Inglise keele oskus vähemalt C1 tasemel"
+                "header": "Tõend keeleoskustaseme kohta",
+                "term": "Inglise keel C1-tasemel. Tõendi puudumisel tuleb osaleda keeletestil."
+            },
+            {
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam toimub intervjuu vormis kandideerimiseks esitatud ja potentsiaalse juhendajaga kooskõlastatud doktoritöö kava (doktoritöö projekti) teemadel. Doktorant-nooremteadurilt eeldatakse selget visiooni oma doktoriõpingute kestuse kohta."
             }
         ],
         "name": "Lingvistika",
@@ -3932,14 +4224,12 @@
             "Tallinn"
         ],
         "description": [
-            "Loodus- ja terviseteaduste instituudi psühholoogia suunal tegutsevad teadurid ja õppejõud, kes töötavad rahvusvahelisel tasemel arengu-,  kultuuri- ja koolipsühholoogias  ning uues psühholoogia paradigmas - idiograafilises psühholoogias.",
-            "Ootame õppima psühholoogia magistrikraadi või sellele vastava haridustasemega inimesi, kes omavad kogemust teadusprojektides osalemises, kellel on selge huvi psühholoogia teadusuuringute vastu ja kes on autorid vähemalt ühel publikatsioonil  psühholoogia valdkonnas. Eeldame, et kandidaat on demonstreerinud magistriõpingutes suurepäraseid akadeemilisi tulemusi.",
-            "Loodus- ja terviseteaduste instituudi psühholoogia suunal tegutsevad teadurid ja õppejõud, kes töötavad rahvusvahelisel tasemel arengu-,  kultuuri- ja koolipsühholoogias  ning uues psühholoogia paradigmas - idiograafilises psühholoogias. Samas lähtub TLÜ psühholoogia suund akadeemilise vabaduse põhimõttest ja toetab doktorandi akadeemilist arengut rahvusvahelisel tasemel välisjuhendajate olemasolul ka valdkondades, mis ei ole seotud instituudi prioriteetsete teadusvaldkondadega."
+            "Loodus- ja terviseteaduste instituudi psühholoogia suunal tegutsevad teadurid ja õppejõud, kes töötavad rahvusvahelisel tasemel arengu-,  kultuuri- ja koolipsühholoogias  ning uues psühholoogia paradigmas - idiograafilises psühholoogias. \n\n**Keda ootame õppima?** \n\nOotame õppima psühholoogia magistrikraadi või sellele vastava haridustasemega inimesi, kes omavad kogemust teadusprojektides osalemises, kellel on selge huvi psühholoogia teadusuuringute vastu ja kes on autorid vähemalt ühel publikatsioonil  psühholoogia valdkonnas. Eeldame, et kandidaat on demonstreerinud magistriõpingutes suurepäraseid akadeemilisi tulemusi. \n\n**Miks tulla meile õppima?** \n\nLoodus- ja terviseteaduste instituudi psühholoogia suunal tegutsevad teadurid ja õppejõud, kes töötavad rahvusvahelisel tasemel arengu-,  kultuuri- ja koolipsühholoogias  ning uues psühholoogia paradigmas - idiograafilises psühholoogias. Samas lähtub TLÜ psühholoogia suund akadeemilise vabaduse põhimõttest ja toetab doktorandi akadeemilist arengut rahvusvahelisel tasemel välisjuhendajate olemasolul ka valdkondades, mis ei ole seotud instituudi prioriteetsete teadusvaldkondadega. \n\nÕppimist toetab ka laiem keskkond. Näiteks asub ülikooli peahoones uus raamatukogu-õpikeskus, kus on võimalik segamatult koolitööle pühenduda hiliste öötundideni välja. Lapsevanematest tudengitel on aga võimalus jätta oma võsukesed päevaste loengute ajaks lastetuppa. \n\n**Õppekava eesmärgid** \n\n**1.** Luua eeldused kõrgeima teadusliku kvalifikatsiooni omandamiseks psühholoogias. \n**2.** Toetada pädevuste kujunemist psühholoogia erialal töötamiseks iseseisva spetsialistina psühholoogia erialaseid süvateadmisi nõudvatel ametikohtadel. \n**3.** Toetada iseseisva uurimisoskusega teadlaste, õppejõudude ja tippspetsialistide järelkasvu kujunemist. \n**4.** Luua eeldused kõrgetasemelise kvalifikatsiooni omandamiseks psühholoogias, mis lubab koostada psühholoogilisi ekspertiise, nõustada ning osutada muid psühholoogia alaseid teenuseid oma spetsialiseerumisvaldkonnas. \n\n**Karjäärivõimalused** \n\nPsühholoogia doktorikraad võimaldab lõpetajatel töötada eelkõige kolmes valdkonnas: a) erinevates organisatsioonides tipp-spetsialistide ametikohtadel, kus on vajalikud analüütilised oskused, originaalsete lahenduste väljatöötamine ja teaduspõhiste argumentide kasutamine; b) ülikooli õppejõuna; c) teadus- ja arendusprojektide juhina või teadurina projektidel."
         ],
         "eap": 240,
-        "spots": 1,
-        "majorWebsite": "https://www.tlu.ee/lti",
-        "type": "loodus- ja terviseteaduste Instituut",
+        "spots": 2,
+        "majorWebsite": "https://www.tlu.ee/lti/phd/psyhholoogia",
+        "type": "",
         "modules": [
             {
                 "courses": [
@@ -4094,16 +4384,12 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Doktoritöö kavand"
+                "header": "Doktoritöö kavand",
+                "term": "doktoritöö teemad, mis on seotud rahastatava projekti või tegevusega Tallinna Ülikoolis."
             },
             {
-                "term": "Inglise keele oskus vähemalt B2 tasemel"
-            },
-            {
-                "term": "CV"
-            },
-            {
-                "term": "Intervjuu"
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksam koosneb: \n\n**1.** intervjuust doktoritöö kavandi teemadel; \n**2.** doktoriõppe kandidaadi akadeemiliste saavutuste taseme hindamisest (CV ja ilmunud publikatsioonid). \n**3.** Minimaalne nõutud inglise keele tase on B2. \n\nDokumendid võivad olla esitatud kas eesti või inglise keeles."
             }
         ],
         "name": "Psühholoogia",
@@ -4118,12 +4404,10 @@
             "Tallinn"
         ],
         "description": [
-            "Õppekava on avatud riigi- ja poliitikateadustes kõrgkvalifikatsiooni omandamisest huvitatuile. Rahvusvaheliselt akrediteeritud doktoridiplom võimaldab töötada doktorikraadi nõudvatel ametikohtadel, juhtide ja tippekspertidena Eesti, Euroopa Liidu ja rahvusvahelistes institutsioonides.",
-            "Õppekava on avatud riigi- ja poliitikateadustes kõrgkvalifikatsiooni omandamisest huvitatuile. Doktoriõpe eeldab sotsiaal- või riigiteaduslikku alusharidust. Erialaharidus hõlbustab õppimist, vastuvõtu teiseks eelduseks on ka õppija selge huvi ja doktoritöö idee. Sobiva teema sõnastamisel on soovitav konsulteerida potentsiaalse(te) juhendaja(te)ga. Riigi- või sotsiaalteadusliku ettevalmistuse puudumisel on soovitav esmalt läbida vastav magistriõpe. Taoline valik on individuaalne sõltudes doktoritöö ideest, õppija motivatsioonist, ajalistest võimalustest aga ka juhendaja nõustamisest.",
-            "Rahvusvaheliste kogemuste omandamiseks toetatakse osalemist konverentsidel, seminaridel, suvekoolides ning õppimist ERASMUS programmi raames välisülikoolis. Instituut aitab võimaluste piires kaasa doktorantide artiklite avaldamise võimalustele, sh ajakirjas Acta Politica Estica ja koostöös Rahvusvaheliste- ja sotsiaaluuringute instituudiga ilmuvas ajakirjas Studies of Transitionsition States and Societies. Instituut arvestab individuaalseid ootusi ja töölkäimise vajadust. Tallinna Ülikooli doktoriõppes õppijad on vabastatud õppekulude hüvitamisest. Lisaks on võimalik taotleda õppetoetust üleülikoolisest rahastusest."
+            "Õppekava on avatud riigi- ja poliitikateadustes kõrgkvalifikatsiooni omandamisest huvitatuile. Rahvusvaheliselt akrediteeritud doktoridiplom võimaldab töötada doktorikraadi nõudvatel ametikohtadel, juhtide ja tippekspertidena Eesti, Euroopa Liidu ja rahvusvahelistes institutsioonides. \n\n**Keda ootame õppima?** \n\nÕppekava on avatud riigi- ja poliitikateadustes kõrgkvalifikatsiooni omandamisest huvitatuile. Doktoriõpe eeldab sotsiaal- või riigiteaduslikku alusharidust. Erialaharidus hõlbustab õppimist, vastuvõtu teiseks eelduseks on ka õppija selge huvi ja doktoritöö idee. Sobiva teema sõnastamisel on soovitav konsulteerida potentsiaalse(te) juhendaja(te)ga. Riigi- või sotsiaalteadusliku ettevalmistuse puudumisel on soovitav esmalt läbida vastav magistriõpe. Taoline valik on individuaalne sõltudes doktoritöö ideest, õppija motivatsioonist, ajalistest võimalustest aga ka juhendaja nõustamisest. \n\n**Miks tulla meile õppima?** \n\n**•** Riigiteaduste Instituudi teadussuund (Politics and Government - poliitika ja valitsemine) on rahvusvaheliselt evalveeritud ning riiklikult akrediteeritud; \n**•** õpetavad Eesti juhtivad asjatundjad, sh 8 professorit (R. Ruutsoo, G. Sootla, R. Vetik, L. Kalev, M. Aaltola, E.Terk, P. Selg); \n**•** riigi- ja poliitikateaduste doktoriseminarid, mis võimaldavad tagasisidet professoritelt ning kaasdoktorantidelt toimuvad vähemalt kord kuus; \n**•** rahvusvaheliste kogemuste omandamiseks toetatakse osalemist konverentsidel, seminaridel, suvekoolides ning õppimist ERASMUS programmi raames välisülikoolis; \n**•** Instituut aitab võimaluste piires kaasa doktorantide artiklite avaldamise võimalustele, sh ajakirjas Acta Politica Estica ja koostöös Rahvusvaheliste- ja sotsiaaluuringute instituudiga ilmuvas ajakirjas Studies of Transitionsition States and Societies; \n**•** Instituut arvestab individuaalseid ootusi ja töölkäimise vajadust; \n**•** Tallinna Ülikooli doktoriõppes õppijad on vabastatud õppekulude hüvitamisest. Lisaks on võimalik taotleda õppetoetust üleülikoolisest rahastusest. \n\n**Karjäärivõimalused** \n\nRahvusvaheliselt akrediteeritud doktoridiplom võimaldab töötada doktorikraadi nõudvatel ametikohtadel, juhtide ja tippekspertidena Eesti, Euroopa Liidu ja rahvusvahelistes institutsioonides."
         ],
         "eap": 240,
-        "spots": 1,
+        "spots": 2,
         "majorWebsite": "https://www.tlu.ee/yti",
         "type": "Ühiskonnateaduste Instituut",
         "modules": [
@@ -4308,10 +4592,15 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Doktoritöö kavand"
+                "header": "Vastuvõtueksam",
+                "term": "Vastuvõtueksamile eelnevalt tuleb esitada potentsiaalse juhendajaga kooskõlastatud ja juhendaja poolt allkirjastatud doktoritöö kava (doktoritöö projekt), mille alusel toimub valikuliste kandidaatidega vastuvõtueksam intervjuu vormis."
             },
             {
-                "term": "Vestlus"
+                "header": "Doktoritöö kavand",
+                "term": "Doktoritöö kavandi struktuur (5-10 lk + kirjandusallikate loetelu): \n\n**1.** doktoritöö teema, sh lühikokkuvõte uurimisprobleemist, mida doktoritööga püütakse lahendada \n**2.** töö eesmärgid, peamised uurimisküsimused ja -ülesanded või tööhüpoteesid \n**3.** lühiülevaade olulisematest teemakohastest varasematest uuringutest ja teoreetilisest seisukohtadest koos kirjanduse viidetega \n**4.** andmed ja uurimismeetodid, mida on plaanis kasutada uurimisprobleemi lahendamiseks, sh valimi koostamise põhimõtted \n**5.** tööplaan, doktoritöö valmimiseks vajalikud ressursid ja võimalikud riskid"
+            },
+            {
+                "term": "Intervjuu"
             }
         ],
         "name": "Riigi- ja Poliitikateadused",
@@ -4904,162 +5193,6 @@
             }
         ],
         "name": "Tervisekäitumine ja Heaolu",
-        "cost": {
-            "amount": 0,
-            "currency": "€",
-            "interval": "full"
-        }
-    },
-    {
-        "studyLocation": [
-            "Tallinn"
-        ],
-        "description": [
-            "Õppekava eesmärk on luua doktorantidele tingimused laiapõhjalise ja süsteemse süvahariduse saamiseks loodus- ja täppisteaduste valdkonnas ja iseseisvaks teaduslikuks uurimistööks rahvusvaheliselt tunnustatud tasemel; toetada doktorantide kujunemist kõrge kvalifikatsiooniga õppejõududeks, teadustöötajateks ja spetsialistideks tagamaks eriala jätkusuutlikku arengut ning viia doktorantide teadmised ja oskused rahvusvahelises teadusruumis tunnustatud kõrgprofessionaali tasemele.",
-            "Tallinna Ülikool on positiivselt evalveeritud loodusteaduste- ja tehnika ning bio- ja keskkonnateaduste valdkonnas, doktorandid on kaasatud hulgaliste teadusgrantide ja rahvusvaheliste projektide täitmisse. Valdkonna teadlastel on laialdased rahvusvahelised sidemed, teadustöö kogemuste omandamiseks on võimalik osaleda konverentsidel, seminaridel, suvekoolides ning õppida doktorantide mobiilsusprogrammide raames välisülikoolides. Doktoriõppekava alusel koostatakse igale doktorandile individuaalplaan, mis arvestab tema doktoritöö temaatikat. Individuaalplaani on õppeaineid võimalik valida nii Tallinna Ülikoolist kui ka teistes Eesti või võimalusel, välismaa ülikoolidest.",
-            "Meie laborites saavad üliõpilased praktikas tundma õppida tänapäevastes teadusuuringutes rakendatavat kõrgetasemelist teadusaparatuuri. Nad saavad osaleda uurimisrühmade töös, lüüa ise kaasa suuremate teadusprojektide läbiviimisel ning planeeritavates uuringutes tööplaanide ja suundade valikus. Õppekava võimaldab osaleda teiste suundade seminarides ning soovituslikult osaleda interdistsiplinaarsete töörühmade töös.",
-            "Doktoriõppekava komplekssed süsteemid loodusteadustes kujundamisel on lähtutud loodusteadusliku doktoriõppe korraldamise rahvusvahelistest tavadest ja eesmärkidest ning see on loodud analüütilise biokeemia, füüsika ja ökoloogia doktoriõppekavade ühendamisel üritades suurendada erinevate suundade kokkupuutepunkte.",
-            "Õppekava komplekssed süsteemid loodusteadustes vastuvõtt 2021 teemad:",
-            "• Polysaccharide degrading bacteria from freshwater environments: Novel applications in microbial technology. Juhendaja: PhD Rando Tuvikene",
-            "• Polysaccharide based biomaterials from marine sources: Synergistic combinations between seaweed derived biomolecules. Juhendaja: PhD Rando Tuvikene",
-            "• Water browning in groundwater dependent water ecosystems under the impact of climate change. Juhendaja: PhD Jaanus Terasmaa"
-        ],
-        "eap": 240,
-        "spots": 2,
-        "majorWebsite": "https://www.tlu.ee/lti",
-        "type": "loodus- ja terviseteaduste Instituut",
-        "modules": [
-            {
-                "courses": [
-                    {
-                        "name": "Loodusteadusliku uurimistöö meetodid",
-                        "eapCount": 6
-                    }
-                ],
-                "name": "Üldained",
-                "submodules": [
-                    {
-                        "name": "Valikained",
-                        "courses": [
-                            {
-                                "name": "Teadus- ja arendusprojektide kavandamine ja täitmine",
-                                "eapCount": 4
-                            },
-                            {
-                                "name": "Õppimine ja õpetamine ülikoolis",
-                                "eapCount": 4
-                            },
-                            {
-                                "name": "Teadustulemuste vormistamine ja esitamine",
-                                "eapCount": 4
-                            },
-                            {
-                                "name": "Ülikoolis õpetamise praktika",
-                                "eapCount": 6
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Eriala üldmoodul",
-                "courses": [
-                    {
-                        "name": "Loodusteaduste doktoriseminar",
-                        "eapCount": 4
-                    },
-                    {
-                        "name": "Loodusteaduslike protsesside analüüs ja modelleerimine",
-                        "eapCount": 6
-                    }
-                ]
-            },
-            {
-                "name": "Peaeriala: Keskkonnaökoloogia",
-                "courses": [
-                    {
-                        "name": "Keskkonnaökoloogia erialaseminar",
-                        "eapCount": 4
-                    },
-                    {
-                        "name": "Uued arengusuunad geoökoloogias ja ökohüdroloogias",
-                        "eapCount": 4
-                    },
-                    {
-                        "name": "Keskkonnaökoloogia rakendused",
-                        "eapCount": 4
-                    },
-                    {
-                        "name": "Geoinformaatika ja andmete visualiseerimine",
-                        "eapCount": 4
-                    },
-                    {
-                        "name": "Aegruumilised muutused loodussüsteemides",
-                        "eapCount": 4
-                    }
-                ]
-            },
-            {
-                "name": "Peaeriala: Funktsionaalsed biomolekulid ja süsteemid",
-                "courses": [
-                    {
-                        "name": "Molekulaarteaduste erialaseminar",
-                        "eapCount": 4
-                    },
-                    {
-                        "name": "Biomolekulaarse keemia süvakursus",
-                        "eapCount": 6
-                    },
-                    {
-                        "name": "Eksperimentaalsed meetodid biopolümeeride keemias",
-                        "eapCount": 6
-                    },
-                    {
-                        "name": "Funktsionaalsed biopolümeerid ja biosüsteemid",
-                        "eapCount": 6
-                    },
-                    {
-                        "name": "Neuroteaduste erikursus",
-                        "eapCount": 6
-                    }
-                ]
-            },
-            {
-                "name": "Doktoritöö",
-                "courses": [
-                    {
-                        "name": "Doktoritöö",
-                        "eapCount": 180
-                    }
-                ]
-            }
-        ],
-        "level": "doktor",
-        "outcomes": [
-            "Omab laiapõhjalisi teadmisi ja süsteemset ülevaadet keskkonnaökoloogiast, analüütilisest biokeemiast või loodusteaduslike komplekssüsteemide matemaatilisest modelleerimisest ning süvendatud teadmisi oma uurimisvaldkonna kitsamas osas",
-            "Suudab iseseisvalt ja kriitiliselt analüüsida erialaspetsiifilisi probleeme ning teadusliku täpsusega formuleerida uurimisküsimusi",
-            "Oskab oma valdkonnas eksperdina hinnata enda ja teiste tegevust teaduseetilises kontekstis, saab aru teaduse võimalustest ja piirangutest ja ühiskondlikust rollist ning oskab seda ühiskonnas laiemalt väljendada",
-            "Õppekava läbinu on võimeline kõrgkoolis üliõpilasi juhendama ja õpetama ning oma õpitulemusi juhendamise ja õpetamise teel edasi andma",
-            "Oskab töötada töörühmas erinevates rollides, püstitama ning kontrollima hüpoteese ja hindama nii enda kui ka teiste uurimistöö tulemuste sisu ja õigsust.",
-            "Antav kraad: filosoofiadoktor (komplekssed süsteemid loodusteadustes)."
-        ],
-        "language": "eesti keel",
-        "duration": 4,
-        "requirements": [
-            {
-                "term": "Doktoritöö kavand"
-            },
-            {
-                "term": "CV"
-            },
-            {
-                "term": "Vastuvõtueksam"
-            },
-            {
-                "term": "Inglise keele oskus vähemalt B2 tasemel"
-            }
-        ],
-        "name": "Komplekssed süsteemid loodusteadustes",
         "cost": {
             "amount": 0,
             "currency": "€",

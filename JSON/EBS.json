@@ -1,1521 +1,1322 @@
 [
-  {
-    "studyLocation": [
-      "Tallinn"
-    ],
-    "description": [
-      "Kui soovid luua oma ettevõtte või täiendada ettevõtlusteadmisi siis on see õppekava loodud just Sinule. Õppekava läbides saad ettevõtjana tegutsemise kogemuse ning õpid ärimaailmas orienteeruma ja ettevõtet targalt arendama. Päevaõppes on Sul võimalus spetsialiseeruda tehnoloogiaettevõtluse, loomeettevõtluse või professionaalse müügi suunal. Valides sessioonõppe, saad spetsialiseerumissuundade aineid õppida valikainetena. Semester või aasta EBSi partnerülikoolis avardab Sinu maailmapilti ning pakub Sulle rahvusvahelise õpikogemuse.",
-      "Miks ettevõtluse ja ärijuhtimise õppekava?",
-      "• Teise õppeaasta sügissemestril (mobiilsusaken) saad õppida meelepäraseid valikaineid ühes 60st EBSi partnerülikoolist. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid (EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt).  EBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi.",
-      "• Päevaõppes lood koos õpingukaaslastega juba esimesel kursusel tudengiettevõtte. Sessioonõppes keskendud oma ettevõtte ning tööalaste kompetentside arendamisele.",
-      "• Õpid tundma start-up ettevõtlust ja e-äri ning digitaalse turunduse eripärasid.",
-      "• Lood suhtevõrgustiku inimestest, kellega koos õpitut rakendada ja unistusi ellu viia.",
-      "• Sind juhendavad praktikutest õppejõud, kes jagavad isiklikke ettevõtluskogemusi ja aitavad Sul omandada laiapõhjalised teadmised äritegevusest. Kaasaegseid õppemeetodeid toetab pilvepõhine e-õppe platvorm Canvas, mida kasutavad paljud maailma tippülikoolid.",
-      "• Õppetöö toimub rühmades, mille suurus sõltub tunnile seatud eesmärgist ja jääb üldreeglina vahemikku 25-50 tudengit. Õppekorralduslikes küsimustes nõustab Sind personaalne õppekonsultant.",
-      "Spetsialiseeruda saab kolmel suunal: tehnoloogiaettevõtlus, loomeettevõtlus, professionaalne müük",
-      "Tehnoloogiaettevõtlus",
-      "Sulle sobib tehnoloogiaettevõtluse õppesuund kui soovid viia ellu innovaatilisi äriideid ja Sind köidab startup ettevõtete kiire edu võti. Õpingute käigus kohtud paljude startup-ettevõtjatega ning innustud nende edulugudest.",
-      "Tehnoloogiaettevõtluse spetsialiseerumissuunal õpid:",
-      "• Tundma tehnoloogiatrende ja startup-ettevõtete ärimudeleid",
-      "• Piiratud ressurssidega startup-ettevõtet käivitama ja juhtima",
-      "• Kiiresti kasvava ettevõtte tegevust targalt rahastama",
-      "• Maandama startup-ettevõtlusega seonduvaid riske.",
-      "• Tehnoloogiaettevõtluse valikmoodul töötati välja koostöös SA Tallinna Teaduspark Tehnopoliga.",
-      "Loomeettevõtlus",
-      "Sulle sobib loomeettevõtluse õppesuund kui tunned huvi disaini, moe või muusika vastu ning näed ennast tulevikus ettevõtjana. See suund annab Sulle vajalikud teadmised, oskused ja pädevused, kuidas arendada loometegevusest kasumlik äri.",
-      "Loomeettevõtluse spetsialiseerumissuunal õpid:",
-      "• Tundma disaini, moe, muusika ja teiste loomemajanduse valdkondade ettevõtlusvõimalusi",
-      "• Loomeettevõtet juhtima ja mõistma disaini rolli tootearenduses ning turunduses",
-      "• Korraldama loomemajanduse projekte, arvestades nende ärilisi ja esteetilisi kriteeriumeid",
-      "• Loovisikutega koostööd tegema.",
-      "Professionaalne müük",
-      "Sulle sobib professionaalse müügi õppesuund kui soovid ärimaailmas läbilöömiseks eekõige arendada enda veenmis- ja müügioskusi. Saad teada, kuidas juhtida müügimeeskonda ning müügitegevust professionaalselt korraldada.",
-      "Professionaalse müügi spetsialiseerumissuunal õpid:",
-      "• Tundma ja praktikas rakendama nõuandliku müügi põhimõtteid",
-      "• Planeerima müügitsüklit ja määratlema müügiprotsessi edutegureid",
-      "• Leidma enesemotivatsiooni ka keeruliste müügiläbirääkimiste pidamiseks."
-    ],
-    "eap": 180,
-    "spots": 0,
-    "majorWebsite": "https://www.ebs.ee/oppekava/ettevotlus-ja-arijuhtimine-tallinnas",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "name": "Semester I",
-        "courses": [
-          {
-            "name": "Ettevõtluse alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Majandusteaduste alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise ärikeele keskastme kursus I",
-            "eapCount": 3
-          },
-          {
-            "name": "Liidri professionaalne identiteet",
-            "eapCount": 3
-          },
-          {
-            "name": "Turundus ja müük",
-            "eapCount": 6
-          },
-          {
-            "name": "Majandusmatemaatika ja statistika",
-            "eapCount": 6
-          },
-          {
-            "name": "Informaatika",
-            "eapCount": 3
-          },
-          {
-            "name": "Spetsialiseerumisplokk: müük",
-            "eapCount": 6
-          },
-          {
-            "name": "Spetsialiseerumisplokk: tehnoloogiaettevõtlus",
-            "eapCount": 6
-          },
-          {
-            "name": "Spetsialiseerumisplokk: loomeettevõtlus",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Semester II",
-        "courses": [
-          {
-            "name": "Tudengiettevõtted",
-            "eapCount": 3
-          },
-          {
-            "name": "Mikroökonoomika",
-            "eapCount": 6
-          },
-          {
-            "name": "Fintantsarvestus",
-            "eapCount": 6
-          },
-          {
-            "name": "Inglise ärikeele keskastme kursus II",
-            "eapCount": 3
-          },
-          {
-            "name": "Õiguse entsüklopeedia",
-            "eapCount": 3
-          },
-          {
-            "name": "Juhtimise alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Praktika: Kärjääriväljakutse 1",
-            "eapCount": 2
-          },
-          {
-            "name": "Spetsialiseerumisplokk: müük II",
-            "eapCount": 6
-          },
-          {
-            "name": "Spetsialiseerumisplokk: tehnoloogiaettevõtlus II",
-            "eapCount": 6
-          },
-          {
-            "name": "Spetsialiseerumisplokk: loomeettevõtlus II",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Semester III",
-        "courses": [
-          {
-            "name": "Valikained",
-            "eapCount": 24
-          }
-        ]
-      },
-      {
-        "name": "Semester IV",
-        "courses": [
-          {
-            "name": "Makroökonoomika",
-            "eapCount": 6
-          },
-          {
-            "name": "Juhtimisarvestus",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise ärikeele kursus edeasijõudnutele I",
-            "eapCount": 3
-          },
-          {
-            "name": "Designing Managerial Intervention",
-            "eapCount": 3
-          },
-          {
-            "name": "Digitaalne turundus",
-            "eapCount": 3
-          },
-          {
-            "name": "uurimistöö disain",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvalitatiivsed uurimismeetodid",
-            "eapCount": 3
-          },
-          {
-            "name": "Ärialane suhtlemine",
-            "eapCount": 3
-          },
-          {
-            "name": "Filosoofia",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester V",
-        "courses": [
-          {
-            "name": "Rahvusvaheline äri",
-            "eapCount": 3
-          },
-          {
-            "name": "Äritegevus Aasia riikides",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise ärikeele kursus edasijõudnutele",
-            "eapCount": 3
-          },
-          {
-            "name": "Äriõigus",
-            "eapCount": 6
-          },
-          {
-            "name": "Maksunduse alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Eestvedamine",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvantitatiivsed uurimismeetodid",
-            "eapCount": 3
-          },
-          {
-            "name": "Sotsiaalpsühholoogia",
-            "eapCount": 3
-          },
-          {
-            "name": "Sotsioloogia",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester VI",
-        "courses": [
-          {
-            "name": "Äriplaan",
-            "eapCount": 3
-          },
-          {
-            "name": "E-äri",
-            "eapCount": 6
-          },
-          {
-            "name": "Juhtimissimulatsioon DYNAMA",
-            "eapCount": 5
-          },
-          {
-            "name": "Ärieetika",
-            "eapCount": 3
-          },
-          {
-            "name": "Lõpueksam",
-            "eapCount": 6
-          },
-          {
-            "name": "Bakalaureusetöö",
-            "eapCount": 6
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          }
-        ]
-      }
-    ],
-    "level": "bakalaureus",
-    "outcomes": [
-      "On võimeline omandama, analüüsima ja tõlgenda-ma informatsiooni, mis on vajalik konteksti arvestavate tõendipõhiste otsuste langetamiseks tüüpilistes ettevõtlussituatsioonides",
-      "On võimeline kriitiliselt rakendama laiapõhjalisi ja süsteemseid teadmisi ärivaldkonna alusteooriatest, kontseptsioonidest, praktilistest printsiipidest ja protsessidest",
-      "Oskab kasutada analüüsi- ja otsustusvõimet selleks, et rakendada konteksti arvestavaid sobivaid lahendusi ettevõtlusega seonduvate ülesannete lahendamiseks",
-      "Oskab luua visiooni ning sõnastada ja edastada ideesid ja tegevuskavasid hästi põhjendatud ning efektiivsel viisil",
-      "On võimeline töötama efektiivselt nii juhi kui ka meeskonnamängija rollis erinevates kultuurilistes kontekstides",
-      "Omab süsteemset ülevaadet ettevõtluse ja ärijuhtimise põhimõistetest, teoreetilistest printsiipidest ja uurimismeetoditest.",
-      "Programmi lõpetajad tegutsevad ettevõtjatena või väikeettevõtte juhtidena, samuti äriprojektide arendajate ning spetsialistidena ettevõtlikkust ja majandusteadmisi eeldavatel ametikohtadel. EBSi vilistlaste sissetulek äri- ja juhtimisvaldkonnas on võrreldes teiste ülikoolide lõpetanutega kõrgeim."
-    ],
-    "language": "eesti keel",
-    "duration": 3,
-    "requirements": [
-      {
-        "term": "Vestlus"
-      },
-      {
-        "term": "Eesti keele riigieksam vähemalt 30 punkti"
-      },
-      {
-        "term": "Inglise keele oskus vähemalt B1 tasemel"
-      }
-    ],
-    "name": "Ettevõtlus ja ärijuhtimine",
-    "cost": {
-      "amount": 2300,
-      "currency": "€",
-      "interval": "semester"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tallinn",
-      "Helsingi"
-    ],
-    "description": [
-      "See maailma 122 parima ärikorralduse õppekava hulka kuuluv programm valmistab Sind ette töötama juhi või tippspetsialisina rahvusvahelises ettevõttes või avaliku sektori organisatsioonis. Õppejõud ja üliõpilased paljudest eri riikidest aitavad luua tõeliselt rahvusvahelise õpikeskkonna. Sul on võimalus spetsialiseeruda rahanduse ja majandusarvestuse või turunduse ja kommunikatsiooni suunal. Semester või aasta EBSi partnerülikoolis avardab Sinu maailmapilti ning annab hindamatu õpikogemuse  teises kultuuriruumis",
-      "Miks rahvusvahelise ärijuhtimise õppekava?",
-      "• Õppekaval on kõrgeima taseme rahvusvaheline tunnustus ehk EPAS akrediteering.",
-      "• Teise õppeaasta sügissemestril (mobiilsusaken) saad õppida meelepäraseid valikaineid ühes 60st EBSi partnerülikoolist. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid (EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt).  EBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi.",
-      "• Sul on võimalus omandada topeltdiplomi Suurbritannia 2018. aasta ülikooliks valitud Lancaster School of Management'ist (The Times ja Sunday Times University of the Year 2018).",
-      "• Sind juhendavad õppejõud eri riikidest, kes aitavad Sul omandada laiapõhjalised teadmised rahvusvahelisest ärijuhtimisest. Kaasaegseid õppemeetodeid toetab pilvepõhine e-õppe platvorm Canvas, mida kasutavad paljud maailma tippülikoolid.",
-      "• Lood rahvusvahelise suhtevõrgustiku, kellega koos õpitut rakendada ja unistusi ellu viia.",
-      "• Õppetöö toimub enamasti väikestes õpperühmades (mitte rohkem kui 35 tudengit) ja Sind nõustab õppekorralduslikes küsimustes personaalne õppekonsultant.",
-      "Spetsialiseeruda saab 3 erineval suunal: rahandus ja majandusarvestus, turundus ja kommunikatsioon või topletdiplom Inglismaalt",
-      "Rahandus ja majandusarvestus",
-      "Sulle sobib rahanduse ja majandusarvestuse õppesuund kui soovid omandada fintantsspetsialistile vajalikud baasteadmised. Õppekava on tunnustatud CFA Instituudi poolt ja rahanduse valdkonna kursuseid õpetatakse lähtudes CFA esimese taseme nõuetest. Majandusarvestuse valdkonna kursustel käsitletavad teemad ühtivad suures osas ACCA vastavate eksamiteemadega. ACC eksameid on võimalik sooritada EBSis",
-      "Rahanduse ja majandusarvestuse  spetsialiseerumissuunal õpid:",
-      "• Tundma finantsalast oskussõnavara ja seda korrektselt kasutama",
-      "• Hindama ettevõtte väärtust ja investeeringute tasuvust  ning analüüsima finantsdokumentides sisalduvat informatsiooni",
-      "• Haldama isiklikku investeerimisportfelli ja oma vara väärtust kasvatama",
-      "Turundus ja kommunikatsioon",
-      "Sulle sobib turunduse ja komminikatsiooni õppesuund, kui Sinu kireks on luua silmapaistvaid tulevikubrände ning plaanid asuda tööle ettevõtte turundusosakonnas või reklaamiagentuuris.",
-      "Turunduse ja kommunikatsiooni spetsialiseerumissuunal õpid:",
-      "• koguma ja analüüsima turundustegevuste kavandamiseks vajalikku informatsiooni",
-      "• viima ellu ettevõtte eesmärke toetavaid  turundusplaane",
-      "• oma turundusalaseid ideid veenvalt esitama ning kommunikeerima.",
-      "Kõikidel rahvusvahelise ärijuhtimise tudengitel on võimalik omandada EBSi ja Lancaster University Management School topeltdiplom. Topeltdiplomi programmis osalevad tudengid õpivad kaks esimest õppeaastat EBSis ning kaks järgmist aastat Lancaster University's Inglismaal. Lõpetamise eelduseks on lõputöö kaitsmine. Välisülikooli diplom kehtib koos EBSi diplomiga. Topeltdiplomiprogrammis osalemise eelduseks on kaalutud keskmine hinne vähemalt 4,0.",
-      "LUMSist:",
-      "• The Times ja Sunday Times nimetasid Lancaster University Suurbritannia 2018. aasta ülikooliks (University of the Year 2018) ning Lancaster Unversity Management School (LUMS) omab kõiki olulisemaid rahvusvahelisi akrediteeringuid (AACSB, EQUIS, AMBA).",
-      "• LUMSi õppetöö on tihedalt seotud ülikooli kõrgetasemelise teadustegevusega.",
-      "• Ülikoolil on tugev vilistlasliikumine ja kõrgelt hinnatud ülikoolilinnak."
-    ],
-    "eap": 180,
-    "spots": 0,
-    "majorWebsite": "https://www.ebs.ee/oppekava/rahvusvaheline-arijuhtimine",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "name": "Semester I",
-        "courses": [
-          {
-            "name": "Principles of Economics",
-            "eapCount": 3
-          },
-          {
-            "name": "English for Management and Marketing",
-            "eapCount": 3
-          },
-          {
-            "name": "Principles of Management",
-            "eapCount": 3
-          },
-          {
-            "name": "Principles of Marketing",
-            "eapCount": 6
-          },
-          {
-            "name": "Mathematics for Business",
-            "eapCount": 6
-          },
-          {
-            "name": "Computer Fundamentals for Business I",
-            "eapCount": 3
-          },
-          {
-            "name": "Development of Study Skills",
-            "eapCount": 2
-          },
-          {
-            "name": "Philosophy",
-            "eapCount": 3
-          },
-          {
-            "name": "Sociology",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester II",
-        "courses": [
-          {
-            "name": "Microeconomics",
-            "eapCount": 6
-          },
-          {
-            "name": "Financial Accounting",
-            "eapCount": 6
-          },
-          {
-            "name": "Human Resource Management",
-            "eapCount": 3
-          },
-          {
-            "name": "English for Finance and Accounting",
-            "eapCount": 3
-          },
-          {
-            "name": "Introduction to Statistics",
-            "eapCount": 3
-          },
-          {
-            "name": "Communication and Presentation Skills",
-            "eapCount": 3
-          },
-          {
-            "name": "Social Psychology",
-            "eapCount": 3
-          },
-          {
-            "name": "Optional",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester III",
-        "courses": [
-          {
-            "name": "Mobility window",
-            "eapCount": 30
-          }
-        ]
-      },
-      {
-        "name": "Semester IV",
-        "courses": [
-          {
-            "name": "Business Planning",
-            "eapCount": 3
-          },
-          {
-            "name": "Macroeconomics",
-            "eapCount": 6
-          },
-          {
-            "name": "Managerial Accounting",
-            "eapCount": 3
-          },
-          {
-            "name": "English for Economics and Law",
-            "eapCount": 3
-          },
-          {
-            "name": "Law Encyclopedia",
-            "eapCount": 3
-          },
-          {
-            "name": "Project Management",
-            "eapCount": 3
-          },
-          {
-            "name": "Research Design",
-            "eapCount": 3
-          },
-          {
-            "name": "Qualitative Research Methods",
-            "eapCount": 3
-          },
-          {
-            "name": "Internship",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Semester V",
-        "courses": [
-          {
-            "name": "International Business",
-            "eapCount": 3
-          },
-          {
-            "name": "Corporate Finance",
-            "eapCount": 6
-          },
-          {
-            "name": "Academic and Business Writing",
-            "eapCount": 3
-          },
-          {
-            "name": "Business Law",
-            "eapCount": 6
-          },
-          {
-            "name": "Quantitative Research Methods",
-            "eapCount": 3
-          },
-          {
-            "name": "Optional",
-            "eapCount": 9
-          }
-        ]
-      },
-      {
-        "name": "Semester VI",
-        "courses": [
-          {
-            "name": "Strategic Management",
-            "eapCount": 3
-          },
-          {
-            "name": "Business Simulation DYNAMA",
-            "eapCount": 5
-          },
-          {
-            "name": "Business Ethics",
-            "eapCount": 3
-          },
-          {
-            "name": "Public Relations and Media Communication",
-            "eapCount": 6
-          },
-          {
-            "name": "Optional",
-            "eapCount": 3
-          },
-          {
-            "name": "Bachelor Thesis or Final Exam",
-            "eapCount": 6
-          }
-        ]
-      }
-    ],
-    "level": "bakalaureus",
-    "outcomes": [
-      "Oskab objektiivselt analüüsida tüüpiliste äritegevusega seonduvate ülesannete eetilisi ning juriidilisi aspekte",
-      "On võimeline omandama, analüüsima ja tõlgendama informatsiooni, mis on vajalik konteksti arvestavate tõendipõhiste otsuste langetamiseks tüüpilistes äritegevuse situatsioonides",
-      "On võimeline kriitiliselt rakendama laiapõhjalisi ja süsteemseid teadmisi ärivaldkonna alusteooriatest, kontseptsioonidest, praktilistest printsiipidest ja protsessidest",
-      "Oskab kasutada analüüsi- ja otsustusvõimet selleks, et soovitada konteksti arvestavaid sobivaid lahendusi tüüpiliste äritegevusega seonduvate ülesannete lahendamiseks",
-      "Oskab kommunikeerida ideesid ja tegevuskavasid hästi põhjendatud ning efektiivsel viisil nii üksikisiku kui grupi tasandil",
-      "On võimeline töötama efektiivselt nii juhi kui ka meeskonnamängija rollis erinevates kultuurilistes kontekstides.",
-      "Programmi lõpetajad töötavad turundus- ja finantsspetsialistide ning esmatasandi juhtidena rahvusvahelistes ettevõtetes või avaliku sektori asutustes. EBSi vilistlaste sissetulek äri- ja juhtimisvaldkonnas on võrreldes teiste ülikoolide lõpetanutega kõrgeim"
-    ],
-    "language": "inglise keel",
-    "duration": 3,
-    "requirements": [
-      {
-        "term": "Inglise keele oskus vähemalt B2 tasemel"
-      },
-      {
-        "term": "Matemaatika riigieksami tulemus"
-      },
-      {
-        "term": "Vestlus"
-      }
-    ],
-    "name": "Rahvusvaheline ärijuhtimine",
-    "cost": {
-      "amount": 2300,
-      "currency": "€",
-      "interval": "semester"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tallinn"
-    ],
-    "description": [
-      "Uuenduslik ingliskeelne õppekava ''Ettevõtlus digiajastul'' on välja töötatud tuginedes ühiskonna vajadustele, parimatele praktikatele ja EBSi 30-aastasele kogemusele ettevõtlusõppe rakendamisel. Õppeprotsessi loogika järgib reaalseid ettevõtlusprotsessi etappe ja valmistab Sind ette tegutsemiseks globaalsetel turgudel ning rahvusvahelises keskkonnas. Õppekava moodulid läbitakse meeskonnatööde formaadis ning lisaks lektoritele on õppeprotsessi käigus toeks ettevõtjad, mentorid ja coachid. Õppetöö käigus õpid looma seoseid ettevõtlusteooriate, praktikate ja ettevõtlusmeeskonnas töötamise kogemuste vahel digitaalajastul ning lahendama saadud teadmistele tuginedes loovalt probleeme, mis tekivad ettevõtte erinevates arenguetappides.",
-      "Miks valida õppekava Ettevõtlus digiajastul?",
-      "• Kolme aasta jooksul läbid ettevõtjana kogu elukaare, alustades oma äriidee otsingu ja ettevõtte loomisega ning lõpetades ettevõtte likvideerimisega",
-      "• Õppetöö on üles ehitatud päriseluliste probleemide lahendamisele ja meeskonnatööle",
-      "• Õppetöö käigus lood suhtevõrgustiku inimestest, kellega koos õpitut rakendada ja unistusi ellu viia",
-      "• Kaasaegseid õppemeetodeid toetab pilvepõhine e-õppe platvorm Canvas, mida kasutavad paljud maailma tippülikoolid",
-      "• EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid (EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt). Teise õppeaasta sügissemestril (mobiilsusaken) saad õppida meelepäraseid valikaineid ühes 60st EBSi partnerülikoolist või spetsialiseeruda rahanduse ja majandusarvestuse või turunduse ja kommunikatsiooni suunal.",
-      "Pakume kõigile sisseastujatele võimalust kandideerida stipendiumitele. Kui oled ettevõtlik, Sul on head õpitulemused ja kogemused väljaspool õppetööd, on Sul suurepärased eeldused olla parimate kandidaatide hulgas. Stipendiumile kandideerimiseks kirjuta sooviavaldus EBSi stipendiumikomisjonile, kus kirjeldad oma seniseid tegemisi ning selgitad:",
-      "• miks soovid just EBSis õppida ning millisel õppekaval",
-      "• kuidas plaanid EBSis õpitut rakendada ning milliseid eesmärke oled endale seadnud",
-      "• mida õpingukaaslaste jaoks väärtuslikku ja nende ülikoolikogemust rikastavat tood endaga EBSi kaasa."
-    ],
-    "eap": 180,
-    "spots": 0,
-    "majorWebsite": "https://www.ebs.ee/oppekava/uus-oppekava-ettevotlus-digiajastul",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "name": "Ettevõtlusega alustmine",
-        "courses": [
-          {
-            "name": "Ettevõtlusmaastiku ja võimaluste avastamine",
-            "eapCount": 12
-          },
-          {
-            "name": "Ärimudeli koostamine",
-            "eapCount": 12
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Entrepreneurial Practices*",
-            "eapCount": 3
-          },
-          {
-            "name": "Ringmajandus*",
-            "eapCount": 3
-          },
-          {
-            "name": "English for Entrepreneurs*",
-            "eapCount": 3
-          },
-          {
-            "name": "Maksunduse alused*",
-            "eapCount": 3
-          },
-          {
-            "name": "Liidri professionaalne identiteet*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Ettevõtte strateegia rakendamine",
-        "courses": [
-          {
-            "name": "Ettevõtte käivitamine",
-            "eapCount": 12
-          },
-          {
-            "name": "Efektiivse äriorganisatsiooni disainimine",
-            "eapCount": 12
-          },
-          {
-            "name": "Observation Internship",
-            "eapCount": 2
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Entrepreneurial Practices II*",
-            "eapCount": 3
-          },
-          {
-            "name": "Basic Digital Literacy*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Ettevõtte tegevuse tõhustamine",
-        "courses": [
-          {
-            "name": "Ettevõtte ettevalmistamine rahvusvahelistumiseks",
-            "eapCount": 6
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Ettevõtte laiendamine ja rahvusvahelistumine",
-        "courses": [
-          {
-            "name": "Ettevõtte kasvu finantseerimine ja juhtimine",
-            "eapCount": 12
-          },
-          {
-            "name": "Muutuste juhtimine ettevõttes",
-            "eapCount": 12
-          },
-          {
-            "name": "Analysis Internship",
-            "eapCount": 2
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": " Ettevõtte ümberkujundamine",
-        "courses": [
-          {
-            "name": "Ettevõtte hindamine",
-            "eapCount": 12
-          },
-          {
-            "name": "Ettevõttest väljumise strateegia loomine ja rakendamine",
-            "eapCount": 12
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Valikaine",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Ettevõtte tulevikustrateegia loomine",
-        "courses": [
-          {
-            "name": "Bakalaureusetöö",
-            "eapCount": 6
-          },
-          {
-            "name": "Õppekava lõpetamine ja tulevikusihtide seadmine",
-            "eapCount": 9
-          },
-          {
-            "name": "Alustava ettevõtte nõustamine",
-            "eapCount": 9
-          },
-          {
-            "name": "Counceling Internship",
-            "eapCount": 2
-          }
-        ]
-      }
-    ],
-    "level": "bakalaureus",
-    "outcomes": [
-      "Kasutab digitaalajastule kohaseid ettevõtluse ja juhtimisega seotud info- ja kommunikatsioonitehnoloogiaid",
-      "Seostab ettevõtlusteooriaid ja praktikaid digitaalajastu kontekstis",
-      "Lahendab probleeme, mis tekivad ettevõtte erinevatel arenguetappidel",
-      "Nõustab ettevõtteid nende igapäevaste probleemide lahendamisel",
-      "Parendab ettevõtlikku meeskonna tulemusi nii meeskonna liikmena kui juhina",
-      "Koostab isikliku arengukava arvestades oma tugevusi ja arenguvaldkondi ettevõtjana või ettevõtliku töötajana",
-      "Arendab edaspidiseks karjääriks vajalikke ülekantavaid pädevusi (pädevus on integreeritud kogum teadmistest, oskustest ja hoiakutest).",
-      "Programmi vilistlasena oled omandanud vajalikud teadmised ja oskused oma ettevõtte loomiseks ja arendamiseks rahvusvahelises meeskonnas; samuti saad soovi korral rakendada end äriprojekti arendaja või spetsialistina ettevõtlikust ja majanduslikke teadmisi eeldatavatel ametikohtadel."
-    ],
-    "language": "inglise keel",
-    "duration": 3,
-    "requirements": [
-      {
-        "term": "Inglise keele oskus vähemalt B2 tasemel"
-      },
-      {
-        "term": "Vestlus"
-      }
-    ],
-    "name": "Ettevõtlus digiajastul",
-    "cost": {
-      "amount": 2300,
-      "currency": "€",
-      "interval": "semester"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tallinn"
-    ],
-    "description": [
-      "Meie üheaastane MBA programm on Sulle kui Sul juba on mistahes erialal magistrikraad ja soovid oma juhtimisoskusi ja ettevõtlusalaseid teadmisi täiustada. Meie uuenduslik MBA programm arendab Sind juhiks, kes suudab olla kiiresti muutuvas keskkonnas püsiva kasvu algatajaks.",
-      "Meie innovaatiline üheaastane MBA programm aitab Sul omandada magistrikraadi oma praegust karjääri katkestamata. Me aitame Sul kujundada võimalikult mugava õppekava, mis arvestab ühelt poolt Sinu võimalusi õppetöösse panustada ning teiselt poolt soovib täita Su ootused ja eesmärgid, arvestades Sinu isiklikku ja professionaalset arengut.",
-      "Sobiv kandidaat:",
-      "• omab magistrikraadi või 240 EAP-d bakalaureusekraadi ärijuhtimisega mitteseotud erialal või nendega võrdsustatud kvalifikatsiooni",
-      "• omab vähemalt 3 - aastast juhtimise või tiimijuhtimise kogemust. Hindame nii inimeste kui protsesside juhtimise kogemust. Too see välja oma CV-s.",
-      "• valdab piisaval tasemel inglise keelt (B2)",
-      "• väljendab oma huvi ja entusiasmi silmapaistvas ning meeldejäävas avalduses.",
-      "Õppemaks on 3100€ semestris. Euroopa Liidu kodanikel on võimalik õppemaks tasuda semestri kaupa või jagada see kaheks osamakseks semestris (lisandub 35 eurone menetlustasu). Euroopa Liidu mittekodanikud peavad tasuma õppemaksu täies ulatuses koheselt kogu programmi eest. Kui sa oled Eesti Vabariigi resident või Sul on pikaajalise elaniku elamisluba, siis on võimalik õppemaks tasuda osade kaupa kasutades õppeinvesteeringut.",
-      "Pakume kõigile vastuvõetud tudengitele võimalust kandideerida stipendiumitele. Kui oled ettevõtlik ja omad kogemusi ning saavutusi väljaspool õppetööd, siis on Sul suurepärased eeldused olla parimate kandidaatide hulgas.  Stipendiumile kandideerimiseks kirjuta sooviavaldus EBSi stipendiumikomisjonile, kus kirjeldad oma seniseid tegemisi. Palun märgi kandideerimisavalduses:",
-      "• Miks soovid õppida EBSis just sellel õppekaval?",
-      "• Kuidas plaanid EBSis õpitut rakendada ning milliseid eesmärke oled endale seadnud?",
-      "• Mida õpingukaaslaste jaoks väärtuslikku ja nende ülikoolikogemust rikastavat tood endaga EBSi kaasa?"
-    ],
-    "eap": 60,
-    "spots": 0,
-    "majorWebsite": "https://www.ebs.ee/mba-management-1-year-program",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "name": "Semester I",
-        "courses": [
-          {
-            "name": "Ettevõtte rahandus",
-            "eapCount": 6
-          },
-          {
-            "name": "Finants- ja juhtimisarvestus",
-            "eapCount": 6
-          },
-          {
-            "name": "Strateegiline juhtimine ja innovatsioon",
-            "eapCount": 6
-          },
-          {
-            "name": "Inimeste juhtimine ja organisatsioonid",
-            "eapCount": 6
-          },
-          {
-            "name": "Juhtimine je eetika",
-            "eapCount": 3
-          },
-          {
-            "name": "Turndus ja müük",
-            "eapCount": 3
-          },
-          {
-            "name": "Koondeksam I: Coaching",
-            "eapCount": 4
-          }
-        ]
-      },
-      {
-        "name": "Semester II",
-        "courses": [
-          {
-            "name": "Juhtimisökonoomika",
-            "eapCount": 3
-          },
-          {
-            "name": "Uued tehnoloogiad äris",
-            "eapCount": 6
-          },
-          {
-            "name": "Operatsioonide ja projektijuhtimine",
-            "eapCount": 6
-          },
-          {
-            "name": "Koondeksam II: Juhtimismäng",
-            "eapCount": 5
-          },
-          {
-            "name": "Koondeksam III: Teoreetiline põhiõppe test",
-            "eapCount": 3
-          },
-          {
-            "name": "Koondeksam IV: Kaasusepõhine lõpueksam",
-            "eapCount": 3
-          }
-        ]
-      }
-    ],
-    "level": "magister",
-    "outcomes": [
-      "Teab, kuidas juhtida ning arendada organisatsiooni globaal- ja regionaalmajanduslikus kontekstis",
-      "Tunneb juhtimisega seotud väljakutseid ja mõju, mida avaldavad keskkond, finantssuutlikkus ja organisatsiooni tehnoloogiline areng",
-      "Mõistab piisavalt andmete haldamise olulisust ja rakendatavust selleks, et teha teadlikke ja objektiivseid juhtimisotsuseid",
-      "On tuttav ettevõtte või organisatsiooni strateegilise ja innovatsiooni juhtimise mudelite ja metoodikatega",
-      "Tunneb kõige uuemaid digi- ja äritehnoloogiaid ning on võimeline analüüsima tehnoloogilisi võimalusi ja väljakutseid, mis viivad ettevõtte või organisatsiooni kasvule ja suurema efektiivsuseni",
-      "On võimeline süstemaatiliselt rakendama teadmisi ja arusaamu teooriast praktikasse, lahendama keerulisi probleeme ja tõstma organisatsiooni konkurentsivõimet",
-      "Oskab rakendada probleemipõhist mõtlemist ja otsuste vastuvõtmist, arvestades lahenduste efektiivsust ülesannete ja reaalsusel põhinevate simulatsioonide lõpuleviimiseks",
-      "On võimeline suhtlema tulemuslikult nii individuaaltasandil kui ka meeskonna koosseisus",
-      "Omab piisavat meeskonnatöö kogemust ja on võimeline meeskonda juhtima",
-      "Oskab juhina ja liidrina objektiivselt analüüsida erinevate olukordade eetilisi aspekte ja sellest tulenevalt tegutseda",
-      "On võimeline oma teadmiste ja oskuste rakendamisel demonstreerima eneseteadlikkust ja -usku",
-      "Tunneb rahvusvahelist konteksti ja oskab seda seostada strateegiliste otsuste tegemisega ja nõustamisega."
-    ],
-    "language": "inglise keel",
-    "duration": 1,
-    "requirements": [
-      {
-        "term": "Magistrikraadi või 240 EAP-d bakalaureusekraadi ärijuhtimisega mitteseotud erialal"
-      },
-      {
-        "term": "Inglise keele oskus vähemalt B12 tasemel"
-      },
-      {
-        "term": "Vestlus"
-      },
-      {
-        "term": "3 aastane juhimise kogemus"
-      }
-    ],
-    "name": "Rahvusvaheline ärijuhtimine (1a)",
-    "cost": {
-      "amount": 5500,
-      "currency": "€",
-      "interval": "full"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tallinn"
-    ],
-    "description": [
-      "EBSi 2-aastane MBA programm on mõeldud juhtidele, kes soovivad end üha kiiremini muutuvas ja arenevas keskkonnas pidevalt täiendada. Meie õpetamise põhimõtted ja fookusalad võimaldavad Sulle erakordsel tasemel väljaõpet pidevas koostöös oma ala parimate lektorite ja juhtimistreeneritega.",
-      "• Omandad tugevad alused ettevõtluse põhivaldkondades",
-      "• Õpid ja arened koos õpingukaaslastega",
-      "• Õpid orienteeruma kõige uuemates juhtimisvõtetes",
-      "• Saavutad täiesti uue taseme sinu poolt valitud ärijuhtimise valdkonnas",
-      "• 2-aastase MBA programmi läbimiseks ei pea Sa oma karjääri katkestama ning Sul on võimalik valida, kas läbid õpingud aeglasemas või kiiremas tempos. Õpe toimub inglise keeles. Programm koosneb põhiõppeainetest (45 EAP), lõpetamise moodulist (15 EAP) ning tudengi poolt valitavatest nanokraadidest (60 EAP).",
-      "Meie MBA põhiprogramm annab sulle tugeva põhja organisatsiooni ökonoomika ja finantstulemuste alal; õpetab, kuidas organisatsioone tegelikult korraldada ja hallata ning treenib vastutustundliku juhtimise ja inimsuhete alaseid oskusi. Sellele tugevale alustalale on võimalik ehitada põhjalikud oskused, valides kaks meie kuuest fookusalast.",
-      "Meie programmi poolt pakutavad fookusalad, mida õpetavad tipptasemel õppejõud ja selle ala spetsialistid võimaldavad Sul saavutada täiesti uue taseme Sinu poolt valitud ärijuhtimise valdkonnas. Anname sulle oskused, vahendid, teadmised ja enesekindluse, et teha keerulises tehnoloogiapõhises globaalses ärikeskkonnas teadlikke otsuseid. Meeskonnakeskses õpetamis- ja õppimisprotsessis kasutatakse reaalse elu näiteid.",
-      "Pakume kõigile vastuvõetud tudengitele võimalust kandideerida stipendiumitele. Kui oled ettevõtlik, Sul on kogemused ning saavutused väljaspool õppetööd, on Sul suurepärased eeldused olla parimate kandidaatide hulgas.  Stipendiumile kandideerimiseks kirjuta sooviavaldus EBSi stipendiumikomisjonile, kus kirjeldad oma seniseid tegemisi ning selgitad: "
-    ],
-    "eap": 120,
-    "spots": 0,
-    "majorWebsite": "https://www.ebs.ee/mba-management-2-year-program",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "name": "Semester I",
-        "courses": [
-          {
-            "name": "Ettevõtte rahandus",
-            "eapCount": 6
-          },
-          {
-            "name": "Finants- ja juhtimisarvestus",
-            "eapCount": 6
-          },
-          {
-            "name": "Strateegiline juhtimine ja innovatsioon",
-            "eapCount": 6
-          },
-          {
-            "name": "Inimeste juhtimine ja organisatsioonid",
-            "eapCount": 6
-          },
-          {
-            "name": "Juhtimine je eetika",
-            "eapCount": 3
-          },
-          {
-            "name": "Turndus ja müük",
-            "eapCount": 3
-          },
-          {
-            "name": "Koondeksam I: Coaching",
-            "eapCount": 4
-          }
-        ]
-      },
-      {
-        "name": "Semester II",
-        "courses": [
-          {
-            "name": "Juhtimisökonoomika",
-            "eapCount": 3
-          },
-          {
-            "name": "Uued tehnoloogiad äris",
-            "eapCount": 6
-          },
-          {
-            "name": "Operatsioonide ja projektijuhtimine",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Semester III",
-        "courses": [
-          {
-            "name": "Koondeksam II: Juhtimismäng",
-            "eapCount": 5
-          },
-          {
-            "name": "Koondeksam III: Teoreetiline põhiõppe test",
-            "eapCount": 3
-          },
-          {
-            "name": "Koondeksam IV: Kaasusepõhine lõpueksam",
-            "eapCount": 3
-          }
-        ]
-      }
-    ],
-    "level": "magister",
-    "outcomes": [
-      "Teab, kuidas juhtida ning arendada organisatsiooni globaal- ja regionaalmajanduslikus kontekstis",
-      "Tunneb juhtimisega seotud väljakutseid ja mõju, mida avaldavad keskkond, finantssuutlikkus ja organisatsiooni tehnoloogiline areng",
-      "Mõistab piisavalt andmete haldamise olulisust ja rakendatavust selleks, et teha teadlikke ja objektiivseid juhtimisotsuseid",
-      "On tuttav ettevõtte või organisatsiooni strateegilise ja innovatsiooni juhtimise mudelite ja metoodikatega",
-      "Tunneb kõige uuemaid digi- ja äritehnoloogiaid ning on võimeline analüüsima tehnoloogilisi võimalusi ja väljakutseid, mis viivad ettevõtte või organisatsiooni kasvule ja suurema efektiivsuseni",
-      "On võimeline süstemaatiliselt rakendama teadmisi ja arusaamu teooriast praktikasse, lahendama keerulisi probleeme ja tõstma organisatsiooni konkurentsivõimet",
-      "Oskab rakendada probleemipõhist mõtlemist ja otsuste vastuvõtmist, arvestades lahenduste efektiivsust ülesannete ja reaalsusel põhinevate simulatsioonide lõpuleviimiseks",
-      "On võimeline suhtlema tulemuslikult nii individuaaltasandil kui ka meeskonna koosseisus",
-      "Omab piisavat meeskonnatöö kogemust ja on võimeline meeskonda juhtima",
-      "Oskab juhina ja liidrina objektiivselt analüüsida erinevate olukordade eetilisi aspekte ja sellest tulenevalt tegutseda",
-      "On võimeline oma teadmiste ja oskuste rakendamisel demonstreerima eneseteadlikkust ja -usku",
-      "Tunneb rahvusvahelist konteksti ja oskab seda seostada strateegiliste otsuste tegemisega ja nõustamisega."
-    ],
-    "language": "inglise keel",
-    "duration": 2,
-    "requirements": [
-      {
-        "term": "Bakalauruese krrad"
-      },
-      {
-        "term": "CV"
-      },
-      {
-        "term": "Inglise keele oskus vähemalt B2 tasemel"
-      }
-    ],
-    "name": "Rahvusvaheline ärijuhtimine (2a)",
-    "cost": {
-      "amount": 6125,
-      "currency": "€",
-      "interval": "year"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tallinn",
-      "Helsingi"
-    ],
-    "description": [
-      "Globaliseerumine ja kultuuridevahelised konfliktid, digirevolutsioon ja asendustöö ning väärtuse loomise uued paradigmad on väljakutsed, millega seisame silmitsi praegu ja edaspidi. Meie magistriõppekavad on mõeldud juhtidele tulevikus tekkivate probleemide tundmaõppimiseks, mõistmiseks ja lahendamiseks ning isiklike ja erialaste oskuste arendamiseks järgmise karjäärihüppe jaoks.",
-      "Rahvusvahelise ärijuhtimise magistriprogramm annab Sulle ainulaadse võimaluse kombineerida üldised ettevõtlus-ja ärivaldkonna teadmised valitud spetsialiseerumisvaldkonna pädevustega (rahandus ja majandusarvestus, turundus ning juhtimine ja eestvedamine). Usume, et kõigi ettevõtluse ja ärikorralduse funktsioonide aluste tundmine annab Sulle parema ettevalmistuse asuda tööle juhi või tippspetsialistina. Selle programmi lõpetajana oled oma valdkonna ekspert kuid samas ka võimeline panustama strateegiliste teemade arutellu organisatsioonis laiemalt.",
-      "Õppekava eesmärk on anda Sulle laiapõhjaline erialane teadmistepagas, mida tasakaalustavad asjakohased äriteadmised ja professionaalsed oskused, mida rahvusvaheline tööturg tulevikus vajab. Erinevad õppemeetodid ja praktiline lähenemine aitavad arendada erialaseid oskusi, näiteks kriitilist mõtlemist, probleemide lahendamist, meeskonnatööd ja loovust. Rahanduse valdkonnas on osa õppekavast loodud ACCA nõuete järgi koostöös CFA Instituudiga. Digirevolutsioon kujundab organisatsioone ja ühiskonda tervikuna ning meie roll on mõista üldise äritegevuse ja konkreetsemalt rahanduse, turunduse, organisatsiooniarenduse ja juhtimise valdkonna muutuste võimalusi ja ulatust.",
-      "EBS väärtustab interaktiivset õpet, praktilisi ülesandeid ja päriseluliste ettevõtlusalaste näidete sissetoomist õppetöösse. Mõningates ainetes esineb vähesel määral tavapäraseid loenguid; enamik õppetööst viiakse läbi meeskonnatööde, arutelude ja praktiliste tegevustena. Grupidünaamikad ja suhtlus on õppetöö lahutamatu osa ja seeõttu panemegi sellele suurt rõhku"
-    ],
-    "eap": 120,
-    "spots": 0,
-    "majorWebsite": "https://www.ebs.ee/international-business-administration-ma",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "courses": [
-          {
-            "name": "Globaalne majandus ja poliitika",
-            "eapCount": 6
-          },
-          {
-            "name": "Juhtimisotsuste tegemine ja finantsid",
-            "eapCount": 6
-          },
-          {
-            "name": "Coaching",
-            "eapCount": 3
-          },
-          {
-            "name": "Strateegiline juhtimine",
-            "eapCount": 3
-          }
+    {
+        "studyLocation": [
+            "Tallinn"
         ],
-        "name": "Semester I",
-        "submodules": [
-          {
-            "name": "Valikmoodul: Digitaalne turundus Google lahendustega",
-            "courses": [
-              {
-                "name": "Sissejuhatus digiturundusse, trendid & Google tööriistad ja tooted",
-                "eapCount": 3
-              },
-              {
-                "name": "Otsingumootoriturundus",
-                "eapCount": 3
-              },
-              {
-                "name": "Digitaalse turunduse mõõtmine ja aruandlus",
-                "eapCount": 3
-              },
-              {
-                "name": "Bänner- ja videoreklaami turundus. Mobiil & äpid",
-                "eapCount": 3
-              },
-              {
-                "name": "Digitaalse turnuduse strateegia",
-                "eapCount": 3
-              }
-            ]
-          },
-          {
-            "name": "Valikmoodul: Data-Driven Sustainability in Business with Focus on Finance",
-            "courses": [
-              {
-                "name": "Estonian Private Equity & Venture Capital",
-                "eapCount": 3
-              },
-              {
-                "name": "Sustainable and Circular Business Models",
-                "eapCount": 3
-              },
-              {
-                "name": "Introduction into Green Finance",
-                "eapCount": 3
-              },
-              {
-                "name": "Enablers and Barriers to Sustainable and Circular Business Transition",
-                "eapCount": 3
-              },
-              {
-                "name": "Artificial Intelligence in Energy and Environmental Applications",
-                "eapCount": 3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Semester II",
-        "courses": [
-          {
-            "name": "Uurimistöö disain",
-            "eapCount": 3
-          },
-          {
-            "name": "Akadeemiline kirjutamine",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvalitatiivsed ja kvantitatiivsed andmeanalüüsi meetodid",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Semester III",
-        "courses": [
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester IV",
-        "courses": [
-          {
-            "name": "Magistritöö",
-            "eapCount": 15
-          }
-        ]
-      },
-      {
-        "name": "Valikmoodul: Eestvedamine digiajastul",
-        "courses": [
-          {
-            "name": "Eestvedamise ja juhtimise kontseptsioonid",
-            "eapCount": 3
-          },
-          {
-            "name": "Loov ja mänguline juhtimine",
-            "eapCount": 3
-          },
-          {
-            "name": "Mõjuv suhtumine ja esitlemine",
-            "eapCount": 3
-          },
-          {
-            "name": "Mitmekülgsete ja globaalsete meeskondade juhtimine",
-            "eapCount": 3
-          },
-          {
-            "name": "Mooduli projekt",
-            "eapCount": 3
-          }
-        ]
-      }
-    ],
-    "level": "magister",
-    "outcomes": [
-      "Teadlik oma tegevuse eetilistest aspektidest, võimalustest, piiridest ja sotsiaalsest mõjust ning on võimeline eelpool toodut arvestama keerulistes olukordades",
-      "Omandanud vajalikud teadmised ja teadusliku uurimistöö alased oskused, mis on vajalikud muudatuste juhtimises, turunduses või siis ettevõtte finantsjuhtimises",
-      "Omandanud süsteemsed teadmised peamistest teoreetilistest kontseptsioonidest ja teadusliku uurimistöö meetoditest nii äri- kui ka juhtimisvaldkonnas",
-      "Võimeline kriitiliselt rakendama laiapõhjalisi, süsteemseid ja põhjalikke teadmisi ärialastest alus- ja kaasaegsetest teooriatest, kontseptsioonidest, praktilistest printsiipidest ja protsessidest erinevatel juhtimisalastel positsioonidel rahvusvahelises kontekstis",
-      "Võimeline lahendama probleeme, omades vajalikke oskusi komplitseeritud probleemide teadvustamiseks, formuleerimiseks ja lahendamiseks ning võimet tegutsema ebakindlas keskkonnas piiratud ressurssidega",
-      "Võimeline end väljendama efektiivselt nii kirjalikult kui ka suuliselt paljudes erinevates valdkondades",
-      "Võimeline analüüsima enda ja teiste inimeste edasiõppe- ja professionaalse arendamise vajadusi ning oma efektiivseid iseõppimise oskusi."
-    ],
-    "language": "inglise keel",
-    "duration": 2,
-    "requirements": [
-      {
-        "term": "Eelnev majandus-, äri- või juhtimisalane bakalaureusekraad, rakenduskõrgharidus, diplomiõppe diplom või kutsekõrgharidus."
-      },
-      {
-        "term": "Vestlus"
-      },
-      {
-        "term": "Inglise keele test"
-      }
-    ],
-    "name": "Rahvusvaheline ärijuhtimine",
-    "cost": {
-      "amount": 6475,
-      "currency": "€",
-      "interval": "year"
+        "description": [
+            "**Ülevaade** \n\nSee eestikeelne õppekava sobib Sulle, kui oled huvitatud ettevõtlusest, soovid astuda karjääriredelil järgmise sammu või viia ellu uue äriidee. Õpingute jooksul omandad põhjalikud ajakohased teadmised ja praktilised oskused ettevõtte või meeskonna juhtimiseks. Samuti leiad Eesti ainsas äriharidusele keskendunud ülikoolis õppides uusi sõpru ja mõttekaaslasi ning miks mitte ka tulevasi äripartnereid. Õppekaval saad õppida nii päeva- kui ka sessioonõppes. \n\n**Lõpetaja profiil** \n\nÕppekava lõpetajana tegutsed tulevikus väikeettevõtte juhi või ettevõtjana, äriprojektide arendaja või spetsialistina ettevõtlikkust ja majandusteadmisi eeldaval ametikohal. Sind tunnustatakse põhjalike erialaste teadmiste ja praktiliste oskuste eest. Oled ambitsioonikas ja tulevikku vaatav ebsikas, kelle üle tunnevad uhkust nii koduülikool, kolleegid kui ka koostööpartnerid. Väärtuslik kontaktvõrgustik aitab Sul oma ideid edukalt ellu viia. \n\nEBSile läheb väga korda meie üliõpilaste, vilistlaste ja nende tööandjate hea käekäik. Tegutseme selle nimel, et meie vilistlased oleksid edukad ning tunneme südamest rõõmu nende kordaminekute üle. \n\n**Miks valida just see õppekava?** \n\n**1.** Annab väga hea ülevaate ja põhjalikud alusteadmised ärimaailmas toimuvast; \n\n**2.** Sinust saab hinnatud praktik, kes orienteerub kõikides ettevõtlust- ja ärijuhtimist puudutavates valdkondades (turundus, müük, finantsjuhtimine, tootearendus inimeste juhtimine jne); \n\n**3.** Sind juhendavad oma ala vaieldamatud eksperdid ning kogenud juhid; \n\n**4.** Õpid väikestes gruppides ja Sind nõustab personaalne õppekonsultant - nii teame alati Sinu eesmärke ja oleme Sulle õpiteel igakülgselt toeks; \n\n**5.** Keskendume EBSis võimalikult palju üksteiselt õppimisele - rühmaarutelud, tiimitööd, praktiline õpe ja elulised näited. Nii leiad päriselt toimivaid lahendusi väljakutsetele, millega tööelus silmitsi seisad; \n\n**6.** Sinu õpingukaaslasteks on positiivsed, algatusvõimelised, ägedate ideedega ja ambitsioonikad kaastudengid. Innustav ja motiveeriv seltskond ning väärtuslikud kontaktid jäävad Sinuga aastateks; \n\n**7.** Sulle avaneb mobiilsusaken, mis võimaldab saada rahvusvahelise õpikogemuse välisriigi tippülikoolis; \n\n**8.** Ainult sellel õppekaval saad õppida eesti keeles ja valida päeva- ning sessioonõppe vahel, et ühendada vajadusel õpingud töö- ja pereeluga. \n\n**Mobiilsusaken** \n\nTeisel õppeaastal on Sul võimalik õppida semester või aasta ühes EBSi partnerülikoolis. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt). \n\nMobiilsusaken on välisõpingute semester, kus saad valida partnerülikooli kursuste seast endale meelepäraseid erialakursuseid. Sul on võimalus täiendada teadmisi ka valdkondades, mida ükski Eesti ülikool ei õpeta. \n\nEBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi. \n\nEBS tudengite väga positiivne tagasiside kinnitab, et välisõpingute semester avardab oluliselt maailmapilti ning annab väärt kontaktid ja hindamatu rahvusvahelise ülikoolikogemuse! \n\n**Praktika ja mentorlus** \n\nÕpingute jooksul tuleb Sul sooritada praktika, mille jooksul õpid tundma ettevõtte toimimist ja rakendad õpitut praktikaorganisatsioonis. EBSi bakalaureuseõppes jaguneb praktika kaheks. \n\n**Praktika I** \n\n**1.** Esimese praktika käigus õpid tundma ettevõtte juhtimis- ja otsustusprotsesse; \n**2.** Praktikakoha valikul toetab Sind EBSi magistritudengist mentor. Mentoriga saad läbi arutada erinevaid võimalusi karjääritee kujundamiseks ning paned paika tulevikueesmärgid. Kogenud juhina on mentor Sulle eeskujuks ning jagab ka näpunäiteid, kuidas teha esimesi samme soovitud karjääri suunas. \n\n**Praktika II** \n\n**1.** Teise praktika jooksul saad oma teadmisi ja oskusi veelgi rohkem   proovile panna, sest Sul tuleb lahendada juhtimisprobleem vastavalt praktikaettevõtte vajadusele; \n**2.** Viid läbi uuringu ja esitad selle tulemuste põhjal ettepanekud organisatsioonilise muutuse ellu kutsumiseks. \n**3.** Praktika toetab Sinu ettevalmistust lõputöö kirjutamiseks. \n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad  iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/oppekava/ettevotlus-ja-arijuhtimine-tallinnas",
+        "type": "sotsiaalteadused",
+        "personnel": [
+            {
+                "name": "Anto Liivat",
+                "title": "Bakalaureuseõppe juht, lektor",
+                "email": "anto.liivat@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2019-03/_MG_8828_edited.jpg?itok=IzeQ5SYm"
+            }
+        ],
+        "studyType": "päevaõpe, sessioonõpe",
+        "modules": [
+            {
+                "name": "Semester I",
+                "courses": [
+                    {
+                        "name": "Ettevõtluse alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Majandusteaduste alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise ärikeele keskastme kursus I",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Liidri professionaalne identiteet",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Turundus ja müük",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Majandusmatemaatika ja statistika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Informaatika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Spetsialiseerumisplokk: müük",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Spetsialiseerumisplokk: tehnoloogiaettevõtlus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Spetsialiseerumisplokk: loomeettevõtlus",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Semester II",
+                "courses": [
+                    {
+                        "name": "Tudengiettevõtted",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Mikroökonoomika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Fintantsarvestus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Inglise ärikeele keskastme kursus II",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Õiguse entsüklopeedia",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Juhtimise alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Praktika: Kärjääriväljakutse 1",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Spetsialiseerumisplokk: müük II",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Spetsialiseerumisplokk: tehnoloogiaettevõtlus II",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Spetsialiseerumisplokk: loomeettevõtlus II",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Semester III",
+                "courses": [
+                    {
+                        "name": "Valikained",
+                        "eapCount": 24
+                    }
+                ]
+            },
+            {
+                "name": "Semester IV",
+                "courses": [
+                    {
+                        "name": "Makroökonoomika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Juhtimisarvestus",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise ärikeele kursus edeasijõudnutele I",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Designing Managerial Intervention",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Digitaalne turundus",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "uurimistöö disain",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kvalitatiivsed uurimismeetodid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Ärialane suhtlemine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Filosoofia",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semester V",
+                "courses": [
+                    {
+                        "name": "Rahvusvaheline äri",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Äritegevus Aasia riikides",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise ärikeele kursus edasijõudnutele",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Äriõigus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Maksunduse alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Eestvedamine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kvantitatiivsed uurimismeetodid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sotsiaalpsühholoogia",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sotsioloogia",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semester VI",
+                "courses": [
+                    {
+                        "name": "Äriplaan",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "E-äri",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Juhtimissimulatsioon DYNAMA",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Ärieetika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Lõpueksam",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Bakalaureusetöö",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Valikaine",
+                        "eapCount": 3
+                    }
+                ]
+            }
+        ],
+        "level": "bakalaureus",
+        "outcomes": [
+            "On võimeline omandama, analüüsima ja tõlgenda-ma informatsiooni, mis on vajalik konteksti arvestavate tõendipõhiste otsuste langetamiseks tüüpilistes ettevõtlussituatsioonides",
+            "On võimeline kriitiliselt rakendama laiapõhjalisi ja süsteemseid teadmisi ärivaldkonna alusteooriatest, kontseptsioonidest, praktilistest printsiipidest ja protsessidest",
+            "Oskab kasutada analüüsi- ja otsustusvõimet selleks, et rakendada konteksti arvestavaid sobivaid lahendusi ettevõtlusega seonduvate ülesannete lahendamiseks",
+            "Oskab luua visiooni ning sõnastada ja edastada ideesid ja tegevuskavasid hästi põhjendatud ning efektiivsel viisil",
+            "On võimeline töötama efektiivselt nii juhi kui ka meeskonnamängija rollis erinevates kultuurilistes kontekstides",
+            "Omab süsteemset ülevaadet ettevõtluse ja ärijuhtimise põhimõistetest, teoreetilistest printsiipidest ja uurimismeetoditest.",
+            "Programmi lõpetajad tegutsevad ettevõtjatena või väikeettevõtte juhtidena, samuti äriprojektide arendajate ning spetsialistidena ettevõtlikkust ja majandusteadmisi eeldavatel ametikohtadel. EBSi vilistlaste sissetulek äri- ja juhtimisvaldkonnas on võrreldes teiste ülikoolide lõpetanutega kõrgeim."
+        ],
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Keskharidus või sellele vastav kvalifikatsioon"
+            },
+            {
+                "term": "Inglise keelt B1 tasemel"
+            },
+            {
+                "term": "Väljendab oma huvi, motivatsiooni ja ambitsiooni silmapaistvas ning meeldejäävas avalduses; "
+            },
+            {
+                "term": "Vestlus"
+            }
+        ],
+        "name": "Ettevõtlus ja ärijuhtimine",
+        "cost": {
+            "amount": 6077,
+            "currency": "€",
+            "interval": "year"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn",
+            "Helsingi"
+        ],
+        "description": [
+            "**Ülevaade** \n\nSee õppekava sobib Sulle, kui unistad ärijuhi tööst suuremas rahvusvahelises ettevõttes. Õppekava muudab eriliseks võimalus süvendada teadmisi kas rahanduse ja majandusarvestuse või turunduse ja kommunikatsiooni spetsialiseerumissuunal. Tuues ühte klassiruumi eri rahvustest õppejõud ja üliõpilased, loome unikaalse kultuuriruumi, mis avardab maailmapilti ning julgustab suurelt mõtlema. Sinu karjäärile annavad hoogu mobiilsussemester välisriigi tippülikoolis ja praktika rahvusvahelises ettevõttes. \n\n**Lõpetaja profiil** \n\nÕppekava lõpetajana tegutsed tulevikus keskastmejuhi, turundaja või finantsspetsialistina rahvusvahelises ettevõttes või avaliku sektori asutuses. Sind tunnustatakse põhjalike erialaste teadmiste eest ja väärtuslik kontaktvõrgustik aitab Sul ärimaailmas läbi lüüa. Oled ambitsioonikas ja ettevõtlik ebsikas, kelle üle tunnevad uhkust nii koduülikool, tööandja kui ka kolleegid. \n\nEBSile läheb väga korda meie üliõpilaste, vilistlaste ja nende tööandjate hea käekäik. Tegutseme selle nimel, et meie vilistlased oleksid edukad ning tunneme südamest rõõmu nende kordaminekute üle. \n\n**Miks valida just see õppekava?** \n\n**•** Tegemist on maailma tippklassi kuuluva õppekavaga, mis on pälvinud  kõrgeima  rahvusvahelise tunnustuse ehk EFMD akrediteeringu! \n\n**•** Sinust saab hinnatud valdkonnaekspert, kes tunneb kaasaegset rahvusvahelist ärikeskkonda ning suudab leida lahendusi 21. sajandi organisatsioonide väljakutsetele; \n\n**•** Õpid põhjalikult tundma valitud spetsialiseerumisvaldkonda (rahandus ja majandusarvestus või turundus ja kommunikatsioon) ja ennast professionaalselt inglise keeles väljendama; \n\n**•** Samuti arendad digipädevusi ja omandad teadmised vastutustundlikust ärijuhtimisest; \n\n**•** Sind juhendavad rahvusvahelised eksperdid ning kogenud ärijuhid; \n\n**•** Toome klassiruumi kokku mitmetest rahvustest üliõpilased ja õppejõud. Kultuuriruumi ja maailmavaadete mitmekesisus annab Sulle oskuse töötada rahvusvahelistes meeskondades; \n\n**•** Õpid väikestes gruppides ja Sind nõustab personaalne õppekonsultant - nii teame alati Sinu eesmärke ja oleme Sulle õpiteel igakülgselt toeks; \n\n**•** Keskendume EBSis võimalikult palju üksteiselt õppimisele - rühmaarutelud, tiimitööd, praktiline õpe ja elulised näited. Nii leiad päriselt toimivaid lahendusi väljakutsetele, millega tööelus silmitsi seisad; \n\n**•** Sinu õpingukaaslasteks saavad olema positiivsed, algatusvõimelised, ägedate ideedega ja ambitsioonikad kaastudengid. Innustav ja motiveeriv seltskond ning väärtuslikud kontaktid jäävad Sinuga aastateks; \n\n**•** Sulle avaneb mobiilsusaken, mis võimaldab saada rahvusvahelise õpikogemuse välisriigi tippülikoolis; \n\nSul on võimalus omandada topeltdiplom Suurbritannia 2018. aasta ülikooliks valitud Lancaster University Management School’is; \n\n**Õppevorm** \n\nPäevaõppe loengud ja seminarid  toimuvad EBSis esmaspäevast reedeni tunniplaani alusel ajavahemikus 8.30-17.15. \n\nPäevaõppes on õppejõuga kontakttundide arv suurem, mis aitab teadmisi klassiruumis hõlpsamini omandada. Päevaõppes keskendutakse aktiivselt koos õppimisele, kus lisaks loenguformaadile on fookus rühmatöödel, aruteludel ning esitlustel. \n\n**Mobiilsusaken** \n\nTeisel õppeaastal on Sul võimalik õppida semester või aasta ühes EBSi partnerülikoolis. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt). \n\nMobiilsusaken on välisõpingute semester, kus saad valida partnerülikooli kursuste seast endale meelepäraseid erialakursuseid. Sul on võimalus täiendada teadmisi ka valdkondades, mida ükski Eesti ülikool ei õpeta. \n\nEBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi. \n\nEBS tudengite väga positiivne tagasiside kinnitab, et välisõpingute semester avardab oluliselt maailmapilti ning annab väärt kontaktid ja hindamatu rahvusvahelise ülikoolikogemuse! \n\n**Praktika ja mentorlus** \n\nÕpingute jooksul tuleb Sul sooritada praktika, mille jooksul õpid tundma ettevõtte toimimist ja rakendad õpitut praktikaorganisatsioonis. EBSi bakalaureuseõppes jaguneb praktika kaheks. \n\n**Praktika I** \n\n**1.** Esimese praktika käigus õpid tundma ettevõtte juhtimis- ja otsustusprotsesse; \n\n**2.** Praktikakoha valikul toetab Sind EBSi magistritudengist mentor. Mentoriga saad läbi arutada erinevaid võimalusi karjääritee kujundamiseks ning paned paika tulevikueesmärgid. Kogenud juhina on mentor Sulle eeskujuks ning jagab ka näpunäiteid, kuidas teha esimesi samme soovitud karjääri suunas. \n\n**Praktika II** \n\n**1.** Teise praktika jooksul saad oma teadmisi ja oskusi veelgi rohkem proovile panna, sest Sul tuleb lahendada juhtimisprobleem vastavalt praktikaettevõtte vajadusele; \n\n**2.** Viid läbi uuringu ja esitad selle tulemuste põhjal ettepanekud organisatsioonilise muutuse ellu kutsumiseks. \n\n**3.** Praktika toetab Sinu ettevalmistust lõputöö kirjutamiseks. \n\nEBSi praktikaprogramm on saanud head tagasisidet nii üliõpilastelt kui ka praktikaorganisatsioonidelt. Praktika eesmärgiks on rakendada õpingute käigus omandatud teadmisi elulistes töösituatsioonides ning pakkuda üliõpilastele tuge karjääri planeerimisel. \n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad  iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele. "
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/oppekava/rahvusvaheline-arijuhtimine",
+        "type": "sotsiaalteadused",
+        "personnel": [
+            {
+                "name": "Anto Liivat",
+                "title": "Bakalaureuseõppe juht, lektor",
+                "email": "anto.liivat@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2019-03/_MG_8828_edited.jpg?itok=IzeQ5SYm"
+            }
+        ],
+        "studyType": "päevaõpe",
+        "modules": [
+            {
+                "name": "Semester I",
+                "courses": [
+                    {
+                        "name": "Principles of Economics",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "English for Management and Marketing",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Principles of Management",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Principles of Marketing",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Mathematics for Business",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Computer Fundamentals for Business I",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Development of Study Skills",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Philosophy",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sociology",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semester II",
+                "courses": [
+                    {
+                        "name": "Microeconomics",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Financial Accounting",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Human Resource Management",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "English for Finance and Accounting",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Introduction to Statistics",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Communication and Presentation Skills",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Social Psychology",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Optional",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semester III",
+                "courses": [
+                    {
+                        "name": "Mobility window",
+                        "eapCount": 30
+                    }
+                ]
+            },
+            {
+                "name": "Semester IV",
+                "courses": [
+                    {
+                        "name": "Business Planning",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Macroeconomics",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Managerial Accounting",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "English for Economics and Law",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Law Encyclopedia",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Project Management",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Research Design",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Qualitative Research Methods",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Internship",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Semester V",
+                "courses": [
+                    {
+                        "name": "International Business",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Corporate Finance",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Academic and Business Writing",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Business Law",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Quantitative Research Methods",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Optional",
+                        "eapCount": 9
+                    }
+                ]
+            },
+            {
+                "name": "Semester VI",
+                "courses": [
+                    {
+                        "name": "Strategic Management",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Business Simulation DYNAMA",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Business Ethics",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Public Relations and Media Communication",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Optional",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Bachelor Thesis or Final Exam",
+                        "eapCount": 6
+                    }
+                ]
+            }
+        ],
+        "level": "bakalaureus",
+        "outcomes": [
+            "Oskab objektiivselt analüüsida tüüpiliste äritegevusega seonduvate ülesannete eetilisi ning juriidilisi aspekte",
+            "On võimeline omandama, analüüsima ja tõlgendama informatsiooni, mis on vajalik konteksti arvestavate tõendipõhiste otsuste langetamiseks tüüpilistes äritegevuse situatsioonides",
+            "On võimeline kriitiliselt rakendama laiapõhjalisi ja süsteemseid teadmisi ärivaldkonna alusteooriatest, kontseptsioonidest, praktilistest printsiipidest ja protsessidest",
+            "Oskab kasutada analüüsi- ja otsustusvõimet selleks, et soovitada konteksti arvestavaid sobivaid lahendusi tüüpiliste äritegevusega seonduvate ülesannete lahendamiseks",
+            "Oskab kommunikeerida ideesid ja tegevuskavasid hästi põhjendatud ning efektiivsel viisil nii üksikisiku kui grupi tasandil",
+            "On võimeline töötama efektiivselt nii juhi kui ka meeskonnamängija rollis erinevates kultuurilistes kontekstides.",
+            "Programmi lõpetajad töötavad turundus- ja finantsspetsialistide ning esmatasandi juhtidena rahvusvahelistes ettevõtetes või avaliku sektori asutustes. EBSi vilistlaste sissetulek äri- ja juhtimisvaldkonnas on võrreldes teiste ülikoolide lõpetanutega kõrgeim"
+        ],
+        "language": "inglise keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Omab keskharidust või sellele vastavat kvalifikatsiooni"
+            },
+            {
+                "term": "Inglise keele oskus vähemalt B2 tasemel"
+            },
+            {
+                "term": "Omab piisaval tasemel matemaatika teadmisi"
+            },
+            {
+                "term": "Väljendab oma huvi, motivatsiooni ja ambitsiooni silmapaistvas ning meeldejäävas avalduses"
+            },
+            {
+                "term": "Vestlus"
+            }
+        ],
+        "name": "Rahvusvaheline ärijuhtimine",
+        "cost": {
+            "amount": 5797,
+            "currency": "€",
+            "interval": "year"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Ülevaade** \n\nSee ettevõtluse õppekava on maailmas unikaalne - tegemist on kaasaegse ja uuendusliku ärisimulaatori põhimõttel toimuva õppega. Õppekava sobib Sulle, kui oled ettevõtlushuviline, unistad ettevõtjaks saamisest või soovid viia ellu äriidee, mis muudab maailma paremaks. Õpingute jooksul koged kõiki ettevõtte arenguetappe ning saad väärt teadmised vastutustundlikust ettevõtlusest, kaasaegsetest digilahendustest ja meeskonna juhtimisest. \n\n**Lõpetaja profiil** \n\nÕppekava lõpetajana oled valmis tegutsema ettevõtjana. Soovi korral saad end rakendada ka äriprojektide eestvedajana või spetsialistina ettevõtlikkust eeldatavatel ametikohtadel. Pole ime, kui jätkad õpingute ajal loodud ettevõtte arendamist ja juhtimist ka edaspidi! Omad häid teadmisi ja praktilisi oskusi kõikides ettevõtte eduks vajalikes valdkondades, näiteks tootearendus, turundus, inimeste ja protsesside juhtimine, finantsid ja äriõigus. \n\nEBSile läheb väga korda meie üliõpilaste, vilistlaste ja nende tööandjate hea käekäik. Tegutseme selle nimel, et meie vilistlased oleksid edukad ning tunneme südamest rõõmu nende kordaminekute üle. \n\n**Miks valida just see õppekava?** \n\n**•** Annab unikaalse võimaluse saada ülikoolikraad äriidee arendamise käigus; \n\n**•** Praktilise meeskonnatöö käigus läbid kõik ettevõtte arenguetapid ning saad teadmisi ja kogemusi koheselt rakendada. Õpingute ajal lahendad päriselulisi väljakutseid, millega start-upid ning mõjuettevõtted igapäevaselt silmitsi seisavad; \n\n**•** Omandad parimad võimalikud teadmised ja praktilised oskused ettevõtluse võtmevaldkondades - tootearendus, vastutustundlik ettevõtlus, meeskonna juhtimine, turundus, finantsid, digilahendused ja rahvusvaheline äri; \n\n**•** Kohtud paljude tipptegijatega ning Sind juhendavad oma ala vaieldamatud eksperdid, juhid ja ettevõtjad; \n\n**•** Olulise osana õppetöös keskendume Sinu isiklikule arengule – mõtestad kogetut läbi eneseanalüüsi ja üks ühele mentorkohtumiste; \n\n**•** Õpid väikestes gruppides ja Sind nõustab personaalne õppekonsultant - nii teame alati Sinu eesmärke ja arenguplaane ning oleme Sulle õpiteel igakülgselt toeks; \n\n**•** Keskendume EBSis võimalikult palju üksteiselt õppimisele - rühmaarutelud, tiimitööd, praktiline õpe ja elulised näited. Nii saame olla kindlad, et ülikooli lõpetades oled vilistlasena elus läbilööv, ettevõtlik ja edukas oma valdkonna tegija; \n\n**•** Sinu õpingukaaslasteks saavad olema positiivsed, algatusvõimelised, ägedate ideedega ja ambitsioonikad kaastudengid. Innustav ja motiveeriv seltskond ning väärtuslikud kontaktid jäävad Sinuga aastateks; \n\nSulle avaneb mobiilsusaken, mis võimaldab saada rahvusvahelise õpikogemuse välisriigi tippülikoolis. \n\n**Õppekava sisu** \n\nKolme aasta jooksul koged ettevõtlusprotsessi jätkusuutliku äriidee loomisest kuni ettevõtte müügini. Igas loengus ja seminaris omandad ettevõtte konkreetses arenguetapis vajalikud teadmised ja oskused. \n\nEttevõtte arenguetapid: ärivõimaluste avastamine ja ettevõtlusega alustamine, ettevõtte arendamine ja protsesside tõhustamine, ettevõtte laienemine ja rahvusvahelistumine, ettevõtte müük ja/või tegevuse lõpetamine. \n\nÕppekavas keskendutakse läbivalt seitsmele teemavaldkonnale: ettevõtlus ja turundus, majanduskeskkond ja finantsjuhtimine, õigus ja eetika, jätkusuutlikus ja rohemajandus, organisatsioonikäitumine, juhtimine ja meeskonnatöö, ettevõtja isiklik areng. \n\nÕpingute ajal on Sul toeks ettevõtjad, mentorid ja eksperdid. \n\n**Õppevorm** \n\nSeminarid toimuvad EBSis teisipäevast neljapäevani vastavalt tunniplaanile (ajavahemikus 10.00-16.00). Valikainete loengud ja seminarid võivad toimuda ka esmaspäevast reedeni 8.30-17.00 tunniplaani alusel. \n\nPäevaõppes on õppejõuga kontakttundide arv suurem, mis aitab teadmisi klassiruumis hõlpsamini omandada. Päevaõppes keskendutakse aktiivselt koos õppimisele, kus lisaks loenguformaadile on fookus rühmatöödel, aruteludel ning esitlustel. \n\n**Mobiilsusaken** \n\nTeisel õppeaastal on Sul võimalik õppida semester või aasta ühes EBSi partnerülikoolis. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt). \n\nMobiilsusaken on välisõpingute semester, kus saad valida partnerülikooli kursuste seast endale meelepäraseid erialakursuseid. Sul on võimalus täiendada teadmisi ka valdkondades, mida ükski Eesti ülikool ei õpeta. \n\nEBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi. \n\nEBS tudengite väga positiivne tagasiside kinnitab, et välisõpingute semester avardab oluliselt maailmapilti ning annab väärt kontaktid ja hindamatu rahvusvahelise ülikoolikogemuse! \n\n**Praktika ja mentorlus** \n\nÕpingute jooksul tuleb Sul sooritada praktika, mille jooksul õpid tundma ettevõtte toimimist ja rakendad õpitut praktikaorganisatsioonis. EBSi bakalaureuseõppes jaguneb praktika kaheks. \n\n**Praktika I** \n\n**1.** Esimese praktika käigus õpid tundma ettevõtte juhtimis- ja otsustusprotsesse; \n**2.** Praktikakoha valikul toetab Sind EBSi magistritudengist mentor. Mentoriga saad läbi arutada erinevaid võimalusi karjääritee kujundamiseks ning paned paika tulevikueesmärgid. Kogenud juhina on mentor Sulle eeskujuks ning jagab ka näpunäiteid, kuidas teha esimesi samme soovitud karjääri suunas. \n\n**Praktika II** \n\n**1.** Teise praktika jooksul saad oma teadmisi ja oskusi veelgi rohkem   proovile panna, sest Sul tuleb lahendada juhtimisprobleem vastavalt praktikaettevõtte vajadusele; \n**2.** Viid läbi uuringu ja esitad selle tulemuste põhjal ettepanekud organisatsioonilise muutuse ellu kutsumiseks. \n**3.** Praktika toetab Sinu ettevalmistust lõputöö kirjutamiseks. \n\n\n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad  iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele."
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/mojuettevotlus",
+        "type": "sotsiaalteadused",
+        "studyType": "päevaõpe",
+        "personnel": [
+            {
+                "name": "Anto Liivat",
+                "title": "Bakalaureuseõppe juht, lektor",
+                "email": "anto.liivat@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2019-03/_MG_8828_edited.jpg?itok=IzeQ5SYm"
+            }
+        ],
+        "level": "bakalaureus",
+        "outcomes": [
+            "Oskab kasutada ettevõtluse ja juhtimisega seotud info- ja kommunikatsiooni¬tehnoloogiaid",
+            "Oskab seostada ettevõtlusteooriaid ja praktikaid",
+            "Oskab lahendada probleeme, mis tekivad ettevõtte erinevatel arenguetappidel",
+            "Oskab nõustada ettevõtteid nende igapäevaste probleemide lahendamisel",
+            "Oskab parendada ettevõtlikku meeskonna tulemusi nii meeskonna liikmena kui juhina",
+            "Oskab koostada isikliku arengukava arvestades oma tugevusi ja arenguvaldkondi ettevõtjana või ettevõtliku töötajana",
+            "Oskab arendada edaspidiseks karjääriks vajalikke ülekantavaid pädevusi (pädevus on integreeritud kogum teadmistest, oskustest ja hoiakutest)"
+        ],
+        "language": "inglise keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Omab keskharidust või sellele vastavat kvalifikatsiooni"
+            },
+            {
+                "term": "Valdab piisaval tasemel inglise keelt (B2)"
+            },
+            {
+                "term": "Väljendab oma huvi, motivatsiooni ja ambitsiooni silmapaistvas ning meeldejäävas avalduses"
+            },
+            {
+                "term": "Läbib EBSis sisseastumisvestluse"
+            }
+        ],
+        "name": "Mõjuettevõtlus",
+        "cost": {
+            "amount": 5797,
+            "currency": "€",
+            "interval": "year"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Ülevaade** \n\nMeie innovaatiline üheaastane MBA õppekava aitab Sul omandada magistrikraadi oma praegust karjääri katkestamata. See õppekava sobib Sulle, kui soovid juhtimisalaseid teadmisi täiustada, oma ettevõtte uuele tasemele viia või plaanid aastaga karjääriredelil tõusta. Meie uuenduslik MBA arendab Sind juhiks, kes suudab olla kiiresti muutuvas keskkonnas püsiva kasvu algatajaks. \n\nÕpinguid alustada kaks korda aastas: augustis (inglisekeelne õpperühm) ja jaanuaris (eestikeelne õpperühm). \n\n**Miks valida üheaastane MBA?** \n\n**•** Jõuad uuele tasemele ning saad magistrikraadi kõigest aastaga \n\n**•** MBA annab Sulle tugeva vundamendi äritegevuse võtmevaldkondades - saad põhjaliku ülevaate vastutustundlikust organisatsiooni- ja inimeste juhtimisest, ettevõtte finatsasjadest, uue aja juhtimistööriistadest, turundusest, äriprotsesside juhtimisest ja uute tehnoloogiate rakendamisest äris; \n\n**•** Anname Sulle teadmised, oskused, tööriistad ja enesekindluse, et teha keerulises tehnoloogiapõhises globaalses ärikeskkonnas teadlikke otsuseid; \n\n**•** Töötame reaalse elu näidetega meeskonnakeskses õppimis- ja õpetamiskeskkonnas. Keskendume EBSis võimalikult palju üksteiselt õppimisele - rühmaarutelud, tiimitööd ja praktiline õpe. Nii leiad päriselt toimivaid lahendusi väljakutsetele, millega tööelus silmitsi seisad; \n\n**•** Avardad silmaringi ja ärivõrgustikku - õpid koos erinevate valdkondade tippspetsialistide, ettevõtjate ja kogenud juhtidega. Innustav ja motiveeriv seltskond ning väärtuslikud kontaktid jäävad Sinuga aastateks; \n\n**•** MBAsse investeeritud aeg ja raha teenivad Sulle tulevikus intresse. \n\n**Mis kasu saab Sinu ettevõte?** \n\n**•** Kaasaegsete oskustega töötaja või juht on ettevõtte jaoks väärtuslik investeering, seda nii olemasolevate oskuste uuendamise kui uute oskuste omandamise puhul; \n\n**•** Uued teadmised ja oskused võimaldavad rakendada uuenduslikke meetodeid ja lahendusi, et luua ja tugevdada konkurentsieelist; \n\n**•** Toome kokku erinevatest valdkondadest juhid ning tippspetsialistid, kellega koos leitakse lahendusi reaalsetele ärialastele väljakutsetele. Erinevate valdkondade põimumine rikastab õpikogemust ja vaatenurka; \n\n**•** Töötajate arendamine on olulisel kohal ettevõtte väärtuspakkumises. \n\n**Õppevorm** \n\nÕppetöö toimub sessioonõppes, mis võimaldab magistrikraadi omandada karjääri katkestamata. Loengud ja seminarid toimuvad üle nädala reedeti ja laupäeviti 10:00-17:15. Erandina võib esineda üksikuid loenguid neljapäeval. \n\nOleme oma magistriprogrammi üles ehitanud nii, et klassiruumis toimub aktiivne õpe läbi arutelude, grupitööde ja praktiliste ülesannete. Kohtumiste vahele tuleb Sul õpingutesse panustada loenguteks või seminarideks ette valmistudes. \n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele. \n\n**Lõpetaja profiil** \n\nÄrijuhtimise magistrikraad annab laiapõhjalise vundamendi, et saaksid karjääriteel tõusta ning tõsta oma konkurentsivõimet tööturul. \n\nEBSi vilistlasena tunnustatakse Sind põhjalike erialaste teadmiste eest ja väärtuslik kontaktvõrgustik aitab Sul ärimaailmas läbi lüüa. Oled ambitsioonikas ja ettevõtlik ebsikas, kelle üle tunnevad uhkust nii koduülikool, tööandja kui ka kolleegid. "
+        ],
+        "eap": 60,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/mba-management-1-year-program",
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "modules": [
+            {
+                "name": "Semester I",
+                "courses": [
+                    {
+                        "name": "Ettevõtte rahandus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Finants- ja juhtimisarvestus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Strateegiline juhtimine ja innovatsioon",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Inimeste juhtimine ja organisatsioonid",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Juhtimine je eetika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Turndus ja müük",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Koondeksam I: Coaching",
+                        "eapCount": 4
+                    }
+                ]
+            },
+            {
+                "name": "Semester II",
+                "courses": [
+                    {
+                        "name": "Juhtimisökonoomika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Uued tehnoloogiad äris",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Operatsioonide ja projektijuhtimine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Koondeksam II: Juhtimismäng",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Koondeksam III: Teoreetiline põhiõppe test",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Koondeksam IV: Kaasusepõhine lõpueksam",
+                        "eapCount": 3
+                    }
+                ]
+            }
+        ],
+        "personnel": [
+            {
+                "name": "Jim Seltenrijch",
+                "title": "Magistriõppe juht, lektor",
+                "email": "jim.seltenrijch@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2021-12/O27A1874-Edit.jpg?itok=w9EsrLmb"
+            }
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Teab, kuidas juhtida ning arendada organisatsiooni globaal- ja regionaalmajanduslikus kontekstis",
+            "Tunneb juhtimisega seotud väljakutseid ja mõju, mida avaldavad keskkond, finantssuutlikkus ja organisatsiooni tehnoloogiline areng",
+            "Mõistab piisavalt andmete haldamise olulisust ja rakendatavust selleks, et teha teadlikke ja objektiivseid juhtimisotsuseid",
+            "On tuttav ettevõtte või organisatsiooni strateegilise ja innovatsiooni juhtimise mudelite ja metoodikatega",
+            "Tunneb kõige uuemaid digi- ja äritehnoloogiaid ning on võimeline analüüsima tehnoloogilisi võimalusi ja väljakutseid, mis viivad ettevõtte või organisatsiooni kasvule ja suurema efektiivsuseni",
+            "On võimeline süstemaatiliselt rakendama teadmisi ja arusaamu teooriast praktikasse, lahendama keerulisi probleeme ja tõstma organisatsiooni konkurentsivõimet",
+            "Oskab rakendada probleemipõhist mõtlemist ja otsuste vastuvõtmist, arvestades lahenduste efektiivsust ülesannete ja reaalsusel põhinevate simulatsioonide lõpuleviimiseks",
+            "On võimeline suhtlema tulemuslikult nii individuaaltasandil kui ka meeskonna koosseisus",
+            "Omab piisavat meeskonnatöö kogemust ja on võimeline meeskonda juhtima",
+            "Oskab juhina ja liidrina objektiivselt analüüsida erinevate olukordade eetilisi aspekte ja sellest tulenevalt tegutseda",
+            "On võimeline oma teadmiste ja oskuste rakendamisel demonstreerima eneseteadlikkust ja -usku",
+            "Tunneb rahvusvahelist konteksti ja oskab seda seostada strateegiliste otsuste tegemisega ja nõustamisega."
+        ],
+        "language": "inglise keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Omab mistahes erialal magistrikraadi/bakalaureusekraadi (240 EAP mahus)/rakenduskõrgharidust (240 EAP mahus);"
+            },
+            {
+                "term": "Omab vähemalt 3 - aastast juhtimise või tiimijuhtimise kogemust ning toob selle välja CV-s. Hindame nii inimeste kui ka protsesside juhtimise kogemust;"
+            },
+            {
+                "header": "Valdab piisaval tasemel võõrkeeli",
+                "term": "inglisekeelne õpperühm: inglise keelt (B2) \neestikeelne õpperühm: eesti keelt (B2)"
+            },
+            {
+                "term": "Väljendab oma huvi ja entusiasmi silmapaistvas ning meeldejäävas avalduses;"
+            },
+            {
+                "term": "Läbib edukalt EBSis sisseastumisvestluse"
+            }
+        ],
+        "name": "MBA (1 aasta)",
+        "cost": {
+            "amount": 5500,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Ülevaade** \n\nKaheaastane MBA on veel põhjalikuma ja rikkalikuma valikuga õppekava, mis annab Sulle lisaks ärihariduse vundamendile ka konkreetse valdkonna süvateadmised. See õppekava sobib Sulle, kui soovid end üha kiiremini muutuvas ja arenevas keskkonnas pidevalt täiendada. MBA õppekava läbides õpid orienteeruma kõige uuemates juhtimisvõtetes ja saavutad täiesti uue taseme Sinu poolt valitud ärijuhtimise valdkonnas. \n\nMBA õppekava annab võimaluse omandada magistrikraadi oma praegust karjääri katkestamata. Õpe toimub inglise keeles. \n\n**Miks valida kaheaastane MBA?** \n\n**•** MBA annab Sulle tugeva vundamendi äritegevuse võtmevaldkondades - saad põhjaliku ülevaate vastutustundlikust organisatsiooni- ja inimeste juhtimisest, ettevõtte finatsasjadest, uue aja juhtimistööriistadest, turundusest, äriprotsesside juhtimisest ja uute tehnoloogiate rakendamisest äris; \n\n**•** Teisel õppeaastal saad valida neli meelepärast mikrokraadi ehk valikmoodulit, et täiendada oma teadmisi ja oskusi konkreetses valdkonnas; \n\n**•** Anname Sulle teadmised, oskused, tööriistad ja enesekindluse, et teha keerulises tehnoloogiapõhises globaalses ärikeskkonnas teadlikke otsuseid; \n\n**•** Avardad silmaringi ja ärivõrgustikku - õpid koos erinevate valdkondade tippspetsialistide, ettevõtjate ja juhtidega, kellega jagad sarnaseid väärtusi.  Innustav ja motiveeriv seltskond ning väärtuslikud kontaktid jäävad Sinuga aastateks; \n\n**•** Töötame reaalse elu näidetega meeskonnakeskses õppimis- ja õpetamiskeskkonnas. Keskendume EBSis võimalikult palju üksteiselt õppimisele - rühmaarutelud, tiimitööd ja praktiline õpe. Nii leiad päriselt toimivaid lahendusi väljakutsetele, millega tööelus silmitsi seisad ja saad neid koheselt tööelus rakendada; \n\n**•** Õppejõud on oma alal rahvusvaheliselt tunnustatud eksperdid, kellel on lisaks akadeemilisele taustale ka praktiline ettevõtluskogemus. EBSis on nii täiskohaga õppejõud, lektoritest praktikud kui ka professorid maailma erinevatest ülikoolidest; \n\n**•** Toome klassiruumi kokku mitmetest rahvustest üliõpilased ja õppejõud. Kultuuriruumi ja maailmavaadete mitmekesisus annab Sulle oskuse töötada rahvusvahelistes meeskondades; \n\n**•** MBAsse investeeritud aeg ja raha teenivad Sulle tulevikus intresse. \n\n**Mis kasu saab Sinu ettevõte?** \n\n**•** Kaasaegsete oskustega töötaja või juht on ettevõtte jaoks väärtuslik investeering, seda nii olemasolevate oskuste uuendamise kui uute oskuste omandamise puhul; \n\n**•** Uued teadmised ja oskused võimaldavad rakendada uuenduslikke meetodeid ja lahendusi, et luua ja tugevdada konkurentsieelist; \n\n**•** Toome kokku erinevatest valdkondadest juhid ning tippspetsialistid, kellega koos leitakse lahendusi reaalsetele ärialastele väljakutsetele. Erinevate valdkondade põimumine rikastab õpikogemust ja vaatenurka; \n\n**•** Töötajate arendamine on olulisel kohal ettevõtte väärtuspakkumises. \n\n**Mikrokraadid** \n\nEstonian Business School on Eesti ülikoolidest esimene, kes hakkas pakkuma mikrokraade. EBSi mikrokraadid on magistriõppe valikmoodulid, mis keskenduvad kindlale valdkonnale: näiteks näiteks rohemajandus ja digitaalne transformatsioon, juhtimine, andmehaldus, kommunikatsioon ja turundus, rahandus ja majandusarvestus. \n\nEBSi mikrokraadid annavad sulle alati värskeimad teadmised ning aitavad tõsta konkurentsivõimet tööturul. Uuendame oma valikut pidevalt ning vastavalt ärimaailmas ja ühiskonnas olukorrale. \n\n**Õppevorm** \n\nÕppetöö toimub sessioonõppes, mis võimaldab magistrikraadi omandada karjääri katkestamata. Loengud ja seminarid toimuvad üle nädala reedeti ja laupäeviti 10:00-17:15. Erandina võib esineda üksikuid loenguid neljapäeval. \n\nTeisel õppeaastal kujuneb lõplik tunniplaan vastavalt valitud mikrokraadile. \n\nOleme oma magistriprogrammi üles ehitanud nii, et klassiruumis toimub aktiivne õpe läbi arutelude, grupitööde ja praktiliste ülesannete. Grupidünaamika ja suhtlus on õppetöö lahutamatu osa ja seeõttu panemegi sellele suurt rõhku. Kohtumiste vahele tuleb Sul õpingutesse panustada loenguteks või seminarideks ette valmistudes. \n\n**Välisõpingud** \n\nSoovi korral on Sul võimalik õppida kolmandal semestril ühes EBSi partnerülikoolis. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt). \n\nMobiilsusaken on välisõpingute semester, kus saad valida partnerülikooli kursuste seast endale meelepäraseid erialakursuseid. Sul on võimalus täiendada teadmisi ka valdkondades, mida ükski Eesti ülikool ei õpeta. EBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi. \n\nEBSi üliõpilaste positiivne tagasiside kinnitab, et välisõpingute semester avardab oluliselt maailmapilti, annab väärt kontaktid ja hindamatu rahvusvahelise ülikoolikogemuse! \n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele. \n\n**Lõpetaja profiil** \n\nÄrijuhtimise magistrikraad annab laiapõhjalise vundamendi, et saaksid karjääriteel tõusta ning tõsta oma konkurentsivõimet tööturul. \n\nEBSi vilistlasena tunnustatakse Sind põhjalike erialaste teadmiste eest ja väärtuslik kontaktvõrgustik aitab Sul ärimaailmas läbi lüüa. Oled ambitsioonikas ja ettevõtlik ebsikas, kelle üle tunnevad uhkust nii koduülikool, tööandja kui ka kolleegid. "
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/mba-management-2-year-program",
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "modules": [
+            {
+                "name": "Semester I",
+                "courses": [
+                    {
+                        "name": "Ettevõtte rahandus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Finants- ja juhtimisarvestus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Strateegiline juhtimine ja innovatsioon",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Inimeste juhtimine ja organisatsioonid",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Juhtimine je eetika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Turndus ja müük",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Koondeksam I: Coaching",
+                        "eapCount": 4
+                    }
+                ]
+            },
+            {
+                "name": "Semester II",
+                "courses": [
+                    {
+                        "name": "Juhtimisökonoomika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Uued tehnoloogiad äris",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Operatsioonide ja projektijuhtimine",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Semester III",
+                "courses": [
+                    {
+                        "name": "Koondeksam II: Juhtimismäng",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Koondeksam III: Teoreetiline põhiõppe test",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Koondeksam IV: Kaasusepõhine lõpueksam",
+                        "eapCount": 3
+                    }
+                ]
+            }
+        ],
+        "personnel": [
+            {
+                "name": "Jim Seltenrijch",
+                "title": "Magistriõppe juht, lektor",
+                "email": "jim.seltenrijch@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2021-12/O27A1874-Edit.jpg?itok=w9EsrLmb"
+            }
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Teab, kuidas juhtida ning arendada organisatsiooni globaal- ja regionaalmajanduslikus kontekstis",
+            "Tunneb juhtimisega seotud väljakutseid ja mõju, mida avaldavad keskkond, finantssuutlikkus ja organisatsiooni tehnoloogiline areng",
+            "Mõistab piisavalt andmete haldamise olulisust ja rakendatavust selleks, et teha teadlikke ja objektiivseid juhtimisotsuseid",
+            "On tuttav ettevõtte või organisatsiooni strateegilise ja innovatsiooni juhtimise mudelite ja metoodikatega",
+            "Tunneb kõige uuemaid digi- ja äritehnoloogiaid ning on võimeline analüüsima tehnoloogilisi võimalusi ja väljakutseid, mis viivad ettevõtte või organisatsiooni kasvule ja suurema efektiivsuseni",
+            "On võimeline süstemaatiliselt rakendama teadmisi ja arusaamu teooriast praktikasse, lahendama keerulisi probleeme ja tõstma organisatsiooni konkurentsivõimet",
+            "Oskab rakendada probleemipõhist mõtlemist ja otsuste vastuvõtmist, arvestades lahenduste efektiivsust ülesannete ja reaalsusel põhinevate simulatsioonide lõpuleviimiseks",
+            "On võimeline suhtlema tulemuslikult nii individuaaltasandil kui ka meeskonna koosseisus",
+            "Omab piisavat meeskonnatöö kogemust ja on võimeline meeskonda juhtima",
+            "Oskab juhina ja liidrina objektiivselt analüüsida erinevate olukordade eetilisi aspekte ja sellest tulenevalt tegutseda",
+            "On võimeline oma teadmiste ja oskuste rakendamisel demonstreerima eneseteadlikkust ja -usku",
+            "Tunneb rahvusvahelist konteksti ja oskab seda seostada strateegiliste otsuste tegemisega ja nõustamisega."
+        ],
+        "language": "inglise keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Omab mistahes erialal bakalaureusekraadi, rakenduskõrgharidust või sellega võrdsustatud kvalifikatsiooni;"
+            },
+            {
+                "term": "omab vähemalt 3-aastast juhtimise või tiimijuhtimise kogemust ning toob selle välja CV-s. Hindame nii inimeste kui ka protsesside juhtimise kogemust;"
+            },
+            {
+                "term": "Inglise keele oskus vähemalt B2 tasemel"
+            },
+            {
+                "term": "Väljendab oma huvi ja entusiasmi silmapaistvas ning meeldejäävas avalduses;"
+            },
+            {
+                "term": "Läbib edukalt EBSis sisseastumisvestluse. "
+            }
+        ],
+        "name": "MBA (2 aastat)",
+        "cost": {
+            "amount": 6125,
+            "currency": "€",
+            "interval": "year"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Ülevaade** \n\nLoome koos parema maailma! See õppekava on mõeldud Sulle, kui oled valmis lahendama tulevikumaailma väljakutseid. Lisaks suurepärastele juhi- ja ärioskustele õpid silmitsi seisma muutuva majanduse probleemidega, panustama ühiskonda ja elukeskkonda. Meie magistriõppekava on annab Sulle pädevused, et leida innovatiivseid ja edasiviivaid lahendusi ülemaailmsetele väljakutsetele. Õppekava lõpetajad on uue põlvkonna juhid, kellel on olemas vajalik äriteadmistepagas, profesionaalsed oskused ning tulevikuvaatav hoiak. \n\nMA õppekava eelduseks majandus-, äri või juhtimisalane bakalaureusekraad. Õpe toimub inglise keeles. \n\n**Miks valida äriinnovatsiooni õppekava?** \n\n**•** Õpid muutuvas ärimaailmas edukalt toime tulema; \n\n**•** Magistrikraad aitab kaasa karjääripüüdluste täitmisele ja annab võimaluse teiste hulgast silma paista. Aina suurema konkurentsiga ja kiirelt muutuval tööturul annavad eksperditeadmised oma erialal suure eelise; \n\n**•** Õpingute käigus arendad kriitilist mõtlemist ja juhtimisoskust. Samuti õpid leidma loovaid lahendusi, mida saad rakendada rahvusvahelistes ettevõttetes ja tänapäeva juhtimismudelites; \n\n**•** Õpid põhjalikult tundma valitud spetsialiseerumisvaldkonda: rohemajanduse innovatsiooni võimendamine või digitaliseerumise ja start-up majanduse juhtimine; \n\n**•** Toome klassiruumi kokku mitmetest rahvustest üliõpilased ja õppejõud. Kultuuriruumi ja maailmavaadete mitmekesisus annab Sulle oskuse töötada rahvusvahelistes meeskondades; \n\n**•** Õppejõud on oma alal rahvusvaheliselt tunnustatud eksperdid, kellel on lisaks akadeemilisele taustale ka praktiline ettevõtluskogemus. EBSis on nii täiskohaga õppejõud, lektoritest praktikud kui ka professorid maailma erinevatest ülikoolidest. \n\n**•** Keskendume EBSis võimalikult palju üksteiselt õppimisele - rühmaarutelud, tiimitööd ja praktiline õpe. Nii leiad päriselt toimivaid lahendusi väljakutsetele, millega tööelus silmitsi seisad; \n\n**•** Sulle avaneb mobiilsusaken, mis võimaldab saada rahvusvahelise õpikogemuse välisriigi tippülikoolis. \n\n**Digitaliseerumine ja idufirmade majandus** \n\nDigitaliseerimise ja idufirmade majanduse suunal tegeldakse mitte ainult protsesside tegeliku automatiseerimise ja digitaliseerimisega, vaid ka ettevõtete inimliku poolega, kes need jõupingutused läbi teeb. Meilt leiab vastused küsimustele, kuidas tasakaalustada digitaliseerimise majanduslikku ja sotsiaalset mõju ning mida saavad traditsioonilised ettevõtted idufirmadelt õppida. \n\n**Õppevorm** \n\nÕppetöö toimub sessioonõppes, mis võimaldab magistrikraadi omandada karjääri katkestamata. Loengud ja seminarid toimuvad üle nädala neljapäevast laupäevani 10:00-17:15. \n\nOleme oma magistriprogrammi üles ehitanud nii, et klassiruumis toimub aktiivne õpe läbi arutelude, grupitööde ja praktiliste ülesannete. Grupidünaamikad ja suhtlus on õppetöö lahutamatu osa ja seeõttu panemegi sellele suurt rõhku. Kohtumiste vahele tuleb Sul õpingutesse panustada loenguteks või seminarideks ette valmistudes. \n\n**Välisõpingud** \n\nSoovi korral on Sul võimalik õppida kolmandal semestril ühes EBSi partnerülikoolis. EBSil on Eesti ülikoolidest kõige tugevam partnerülikoolide võrgustik, kuhu kuuluvad paljud Euroopa paremad ärikoolid EMLyon Business School, Università Bocconi, BI Norwegian Business School, Kedge Business School, Copenhagen Business School jpt). \n\nMobiilsusaken on välisõpingute semester, kus saad valida partnerülikooli kursuste seast endale meelepäraseid erialakursuseid. Sul on võimalus täiendada teadmisi ka valdkondades, mida ükski Eesti ülikool ei õpeta. EBSi partnerülikoolis õppides tasud vaid EBSi õppemaksu ning lisaks maksame Euroopa Liidu riikides õppijatele Erasmus+ stipendiumi. \n\nEBSi üliõpilaste positiivne tagasiside kinnitab, et välisõpingute semester avardab oluliselt maailmapilti, annab väärt kontaktid ja hindamatu rahvusvahelise ülikoolikogemuse! \n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele. \n\n**Lõpetaja profiil** \n\nEBSi vilistlasena tunnustatakse Sind põhjalike erialaste teadmiste eest ja väärtuslik kontaktvõrgustik aitab Sul ärimaailmas läbi lüüa. Oled ambitsioonikas ja ettevõtlik ebsikas, kelle üle tunnevad uhkust nii koduülikool, tööandja kui ka kolleegid. "
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/ma",
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "personnel": [
+            {
+                "name": "Jim Seltenrijch",
+                "title": "Magistriõppe juht, lektor",
+                "email": "jim.seltenrijch@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2021-12/O27A1874-Edit.jpg?itok=w9EsrLmb"
+            }
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Omandanud süsteemsed teadmised peamistest teoreetilistest kontseptsioonidest nii äri- kui ka juhtimisvaldkonnas",
+            "Omandanud konkreetsed akadeemilised ja erialased teadmised ning oskused, mis on vajalikud valitud spetsialiseerumissuunal",
+            "Võimeline rakendama laiapõhjaliselt ja süsteemselt erinevaid äri- ja juhtimisvaldkonna uurimismeetodeid akadeemilises ja erialases kontekstis",
+            "Võimeline end väljendama efektiivselt nii kirjalikult kui ka suuliselt erinevates valdkondades",
+            "Võimeline analüüsima enda ja teiste inimeste elukestva õppe ja professionaalse arendamise vajadusi",
+            "Võimeline teadvustama ja formuleerima erinevaid keerulisi äri- ja juhtimisvaldkonna probleeme akadeemilises ja erialases kontekstis",
+            "Omandanud probleemilahendamise teoreetilised teadmised ja praktilised oskused, et kriitiliselt hinnata ja kasutada neid keerulistes olukordades",
+            "Võimeline innovaatilisi lahendusi leidma ebakindlas probleemses keskkonnas piiratud ressurssidega",
+            "Võimeline looma potentsiaalseid uusi akadeemilisi uurimisvaldkondi sidudes neid ärialaste- ja juhtimisprobleemidega",
+            "Omandanud juhi hoiaku koos tervikliku arusaamaga pidevalt muutuvast globaalsest kontekstist ja selle mõjust organisatsioonidele"
+        ],
+        "language": "inglise keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Omab majandus-, äri või juhtimisalast bakalaureusekraadi või nendega võrdsustatud kvalifikatsiooni"
+            },
+            {
+                "term": "Valdab piisaval tasemel inglise keelt (B2)"
+            },
+            {
+                "term": "Väljendab oma huvi ja entusiasmi silmapaistvas ning meeldejäävas avalduses"
+            },
+            {
+                "header": "Magistritöö teema kirjeldus",
+                "term": "**1.** what is your research topic? (i.e. what are you interested in discovering further/ what would you like to write your MA thesis about?) \n\n**2.** What is your main research question/problem (i.e. what is the problem you are investigating?) \n\n**3.** Why is this topic interesting? (i.e. who other than academia should benefit from your research / why should anyone care?)"
+            },
+            {
+                "term": "Läbib edukalt EBSis sisseastumisvestluse"
+            }
+        ],
+        "name": "Äriinnovatsioon muutuvas majanduses",
+        "cost": {
+            "amount": 3190,
+            "currency": "€",
+            "interval": "semester"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Ülevaade** \n\nKaks aastat, kaks riiki, kaks linna, kaks ülikooli, kaks kraadi! EBS-i ja Liège'i Ülikooli  MA õppekava topeltdiplom pakub ainulaadset rahvusvahelist õpikogemust ja topeltkraadi! Esimesel aastal õpitakse EBSis äriinnovatsiooni ja uurimismeetodeid. Teine aasta möödub erialakursustega meie partnerülikoolis Belgias kus õpitakse tarbimiskäitumist, digitaalse  turunduse strateegiat, jätkusuutlikkust ja vastutustundlikku ettevõtlust. Meie magistriõppekava on annab Sulle pädevused, et leida innovatiivseid ja edasiviivaid lahendusi ülemaailmsetele väljakutsetele. Õppekava lõpetajad on uue põlvkonna juhid, kellel on olemas vajalik äriteadmistepagas, professionaalsed oskused ning tulevikuvaatav hoiak. \n\n**Miks valida see õppekava?** \n\n**•** Magistrikraad aitab kaasa karjääripüüdluste täitmisele ja annab võimaluse teiste hulgast silma paista. \n\n**•** Meie topeltdiplom avardab Sinu silmaringi ning laiendab rahvusvahelist ärivõrgustikku - õpid koos erinevate valdkondade tippspetsialistidega  erinevatest riikidest. Innustav ja motiveeriv seltskond ning väärtuslikud kontaktid jäävad Sinuga aastateks; \n\n**•** Õpingute käigus saad põhjaliku ülevaate ärinnovatsiooni valdkonnast ning vajalikud pädevused, et ettevõttes muutusi ellu viia. Oskad toime tulla ülemaailmsete väljakutsetega nagu globaliseerumine ja rahvusvaheline lainemine; \n\n**•** Õpid põhjalikult tundma valitud spetsialiseerumisvaldkonda (turundus); \n\n**•** Õppimine kahes erinevas ülikoolis ning riigis loob unikaalse ja mitmekesise kultuurilise õpikeskkonna, mis laiendab sinu maailmapilti ning julgustab suurelt mõtlema; \n\n**•** Õppejõud on oma alal rahvusvaheliselt tunnustatud eksperdid, kellel on lisaks akadeemilisele taustale ka praktiline ettevõtluskogemus. EBSis on nii täiskohaga õppejõud, lektoritest praktikud kui ka professorid maailma erinevatest ülikoolidest; \n\n**•** Topeltkraadi programm, nagu nimigi ütleb, annab sulle lõpetamisel kaks diplomit! Seeläbi eristud tööturul veelgi enam! \n\n**Tudengielamused EBSis** \n\nEt mälestused ülikooliaastatest oleksid meeldejäävad ja rõõmutoovad, kutsume Sind kaasa lööma EBS Üliõpilasesinduses ja osalema üliõpilastele korraldatud üritustel. Esinduses saad kaasa rääkida ülikoolielu puudutavatel teemadel ning korraldada ka ise- ise ebsikatele erinevaid meelelahutusüritusi. Vahvad üritused ja tegevused varieeruvad akadeemilistest seminaridest pidude ja suurejoonelise Haba Galani välja. Muusikahuvilised saavad laulda EBS Kammerkooris. \n\nSportlikele ebsikatele toimuvad EBS Spordiklubi eestvedamisel spordipäev, golfivõistlused, taliujumine  jpm. Samuti leiavad iganädalaselt aset mitmed regulaarsed sporditreeningud ning käiakse kooli esindamas spordivõistlustel ka väljapool Eestit. \n\nMeie üritused on kohtumispaigaks nii tudengitele, töötajatele, koostööpartneritele kui ka vilistlastele. \n\n**Lõpetaja profiil** \n\nÄrijuhtimise magistrikraad annab laiapõhjalise vundamendi, et saaksid karjääriteel tõusta ning tõsta oma konkurentsivõimet tööturul. \n\nEBSi vilistlasena tunnustatakse Sind põhjalike erialaste teadmiste eest ja väärtuslik kontaktvõrgustik aitab Sul ärimaailmas läbi lüüa. Oled ambitsioonikas ja ettevõtlik ebsikas, kelle üle tunnevad uhkust nii koduülikool, tööandja kui ka kolleegid."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/double-degree-business-innovation-and-marketing-2-year-ma-liege",
+        "personnel": [
+            {
+                "name": "Jim Seltenrijch",
+                "title": "Magistriõppe juht, lektor",
+                "email": "jim.seltenrijch@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2021-12/O27A1874-Edit.jpg?itok=w9EsrLmb"
+            }
+        ],
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "level": "magister",
+        "language": "inglise keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Holds a bachelor's degree in Business Administration, Economics or Management or an equivalent qualification"
+            },
+            {
+                "header": "Application",
+                "term": "Demonstrates their drive in a catchy application, addressing the following (2 pages): \n\n**1.** Reflection on the programme topic, in which you connect your own (future) career ambitions to business innovation, marketing, and internationalisation \n\n**2.** Reflection on how this programme and the international experience, will create a wider impact beyond your personal/organisational goals"
+            },
+            {
+                "term": "Has sufficient proficiency in English (B2)"
+            },
+            {
+                "term": "Completes admission interview at EBS"
+            }
+        ],
+        "name": "Topeltdiplom: koostöös Liège ülikooliga MA",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Overview** \n\n“The last ten years of IT have been about changing the way people work. The next ten years of IT will be about transforming your business.” (Aaron Levie, CEO of BOX cloud storage). The 1-year specialisation MA programme of EBS, enables top-level specialists to contribute to solving the opportunities and challenges of digitalisation. In addition to using digitalisation to increase efficiency and generation profit, digital transformations have also created new challenges such as re-skilling of the labour force and lengthy change management processes. This 75-ECTS specialisation MA will provide you with the desired competencies to tackle current and future digitalisation challenges by looking at innovative solutions from the field of business and start-ups. When you graduate from this programme, you are ready to be a forerunner in dealing with digitalisation efforts and start-up economies and are equipped with relevant knowledge, fine-tuned skills, and an attitude that helps to innovate. \n\n**Why should you choose this programme?** \n\n**•** Our 1-year specialisation MA programme supports your career ambitions as it helps you to stand out from others. However, it also enables you to create a direct impact on creating a better world via your professional career. \n\n**•** You will gain an in-depth understanding in the fields of digitalisation and start-up economies and how to apply this knowledge in your everyday work. \n\n**•** We equip you with the skills and knowledge needed to help organisations forward in their quest to digitalise and continuously innovate and provide you with the tools and leadership mindset to make the change actually happen. \n\n**•** Faculty and students from different nationalities create a unique and diverse cultural learning environment that broadens your worldview and encourages to think big. \n\n**•** We have a roughly equal proportion of full-time faculty members, practitioner-lecturers from companies, and professors from a wide range of international universities. This ensures that during your studies you are able to combine theory with practice. \n\n**Study format** \n\nStudies are in a session-based format, which allows you to combine your professional life with studies. Lectures and seminars take place every second week on Thursdays, Fridays and Saturdays between 10:00-17:15. The final schedule of the second year depends on the chosen microdegrees. \n\nWe have structured our master's program in such a way that active learning takes place in the classroom through discussions, groupworks and practical tasks. Most of student learning occurs through teamwork and hand-on activities. Group dynamics and communication are an integral part of learning, and that's why we put a lot of emphasis on it. In between meetings, you need to contribute to your studies by preparing for lectures or seminars. \n\n**Student Experience at EBS** \n\nTo make your years at the university memorable and joyful, EBS Student Council organises many wonderful events for students. In the Student Council, you can have a say in topics related to university life and organise various entertainment events for EBSikas yourself. Great events and activities range from academic seminars to parties or community events like Haba Gala. Music lovers can sing in the EBS Chamber Choir. \n\nFor athletic students, sports day, golf competitions, winter swimming, etc. are organised by EBS Sports Club. Several regular sports trainings also take place on a weekly basis and the school is represented in sports competitions outside Estonia as well. \n\nOur events are a meeting place for students, employees, partners and alumni. \n\n**Profile of the graduate** \n\nAs an alumni of this programme you will act as a top or mid-level manager, head of the department or team lead in international company or in public sector. \n\nYou will be appreciated for your in-depth specialised knowledge and your valuable network of contacts will help you make it in the world of business. You are an ambitious and entrepreneurial EBS alumnus whom home university, employer, and colleagues take pride in."
+        ],
+        "eap": 75,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/leading-digitalisation-and-navigating-start-economy-1-year-ma",
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "personnel": [
+            {
+                "name": "Jim Seltenrijch",
+                "title": "Magistriõppe juht, lektor",
+                "email": "jim.seltenrijch@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2021-12/O27A1874-Edit.jpg?itok=w9EsrLmb"
+            }
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Applies the domain specific knowledge and skills from the specialisation in an academic and professional context",
+            "Applies consistently different research methods from the field of business and management in an academic and professional context",
+            "Applies effective communication skills in written and oral form in an academic and professional context",
+            "Analyses and acts upon their own needs and those of others in relation to life-long learning and future career development",
+            "Recognises and formulates various complex problems within the field of the specialisation",
+            "Evaluates critically various solutions to complex problems by deploying their problem-solving skills and in-depth practical and theoretical knowledge",
+            "Creates innovative solutions to complex problems while operating in an uncertain environment and with limited resources",
+            "Develops a leadership attitude with a holistic understanding of the everchanging global context and its implications for organisations"
+        ],
+        "language": "inglise keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "Education and professional background",
+                "term": "(one of three options): \n\n**1** Holds a bachelor's degree in any field and has at least 5 years of relevant work experience on a specialist level in a related field \n\n**2.** Holds a master's degree in any field and has at least 5 years of relevant work experience on a specialist level in a related field \n\n**3.** Master’s degree in Business Administration or Economics or Management"
+            },
+            {
+                "header": "Application",
+                "term": "Demonstrates their drive in a catchy application, addressing the following (3-4 pages): \n\n**1.** Reflection on the programme topic, in which you connect your own career to current challenges you face when it comes to sustainability and the green economy. \n\n**2.** Reflection on your self-development, in which you discuss how your professional career has contributed to you as a lifelong learner and how you have achieved your professional ambitions. \n\n**3.** Reflection on how this programme, Leveraging Green Economy Innovation, will create a wider impact beyond your personal/ organisational goals."
+            },
+            {
+                "term": "CV proving the relevant work experience"
+            },
+            {
+                "term": "Has sufficient proficiency in English (B2)"
+            },
+            {
+                "term": "Completes admission interview at EBS"
+            }
+        ],
+        "name": "Leading Digitalisation and Navigating the Start-up Economy",
+        "cost": {
+            "amount": 7000,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "**Overview** \n\n“We have not come to this world only to make footprints but something that creates value to the next generations and would be sustainable” (Madis Habakuk, founder of EBS). The 1-year specialisation MA programme of EBS, enables top-level specialists to contribute to solving the complex issue of sustainability. In addition to making a profit, the need to deal with social, environmental, and economic problems has become an inevitable part of organisations. This 75ECTS specialisation MA will provide you with the desired competencies to tackle current and future worldwide sustainability challenges by providing innovative solutions from the field of business. When you graduate from this programme, you are ready to be a forerunner in dealing with sustainability and green challenges and are equipped with relevant knowledge, fine-tuned skills, and an attitude that helps to innovate. \n\n**Why should you choose this programme?** \n\n**•** Our 1-year specialisation MA programme supports your career ambitions as it helps you to stand out from others. However, it also enables you to create a direct impact on creating a better world via your professional career. \n\n**•** You will gain an in-depth understanding in the field of green economy and how to apply this knowledge in your everyday work. \n\n**•** We equip you with the skills and knowledge needed to help organisations forward in their quest to become greener but also provide you with the tools and leadership mindset to make the change actually happen. \n\n**•** Faculty and students from different nationalities create a unique and diverse cultural learning environment that broadens your worldview and encourages to think big. \n\n**•** We have a roughly equal proportion of full-time faculty members, practitioner-lecturers from companies, and professors from a wide range of international universities. This ensures that during your studies you are able to combine theory with practice. \n\n**Study format** \n\nStudies are in a session-based format, which allows you to combine your professional life with studies. Lectures and seminars take place every second week on Thursdays, Fridays and Saturdays between 10:00-17:15. The final schedule of the second year depends on the chosen microdegrees. \n\nWe have structured our master's program in such a way that active learning takes place in the classroom through discussions, groupworks and practical tasks. Most of student learning occurs through teamwork and hand-on activities. Group dynamics and communication are an integral part of learning, and that's why we put a lot of emphasis on it. In between meetings, you need to contribute to your studies by preparing for lectures or seminars. \n\n**Student Experience at EBS** \n\nTo make your years at the university memorable and joyful, EBS Student Council organises many wonderful events for students. In the Student Council, you can have a say in topics related to university life and organise various entertainment events for EBSikas yourself. Great events and activities range from academic seminars to parties or community events like Haba Gala. Music lovers can sing in the EBS Chamber Choir. \n\nFor athletic students, sports day, golf competitions, winter swimming, etc. are organised by EBS Sports Club. Several regular sports trainings also take place on a weekly basis and the school is represented in sports competitions outside Estonia as well. \n\nOur events are a meeting place for students, employees, partners and alumni. \n\n**Profile of the graduate** \n\nAs an alumni of this programme you will act as a top or mid-level manager, head of the department or team lead in international company or in public sector. \n\nYou will be appreciated for your in-depth specialised knowledge and your valuable network of contacts will help you make it in the world of business. You are an ambitious and entrepreneurial EBS alumnus whom home university, employer, and colleagues take pride in."
+        ],
+        "eap": 75,
+        "spots": 0,
+        "majorWebsite": "https://www.ebs.ee/leveraging-green-economy-innovation-1-year-ma",
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "personnel": [
+            {
+                "name": "Jim Seltenrijch",
+                "title": "Magistriõppe juht, lektor",
+                "email": "jim.seltenrijch@ebs.ee",
+                "photo": "https://www.ebs.ee/sites/default/files/styles/profilepic/public/2021-12/O27A1874-Edit.jpg?itok=w9EsrLmb"
+            }
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Applies the domain specific knowledge and skills from the specialisation in an academic and professional context",
+            "Applies consistently different research methods from the field of business and management in an academic and professional context",
+            "Applies effective communication skills in written and oral form in an academic and professional context",
+            "Analyses and acts upon their own needs and those of others in relation to life-long learning and future career development",
+            "Recognises and formulates various complex problems within the field of the specialisation",
+            "Evaluates critically various solutions to complex problems by deploying their problem-solving skills and in-depth practical and theoretical knowledge",
+            "Creates innovative solutions to complex problems while operating in an uncertain environment and with limited resources",
+            "Develops a leadership attitude with a holistic understanding of the everchanging global context and its implications for organisations"
+        ],
+        "language": "inglise keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "header": "ducation and professional background",
+                "term": "**One of three options:** \n\n**1.** Holds a bachelor's degree in any field and has at least 5 years of relevant work experience on a specialist level in a related field \n\n**2.** Holds a master's degree in any field and has at least 5 years of relevant work experience on a specialist level in a related field \n\n**3.** Master’s degree in Business Administration or Economics or Management"
+            },
+            {
+                "header": "Application",
+                "term": "Demonstrates their drive in a catchy application, addressing the following (3-4 pages): \n\n**1.** Reflection on the programme topic, in which you connect your own career to current challenges you face when it comes to sustainability and the green economy. \n\n**2.** Reflection on your self-development, in which you discuss how your professional career has contributed to you as a lifelong learner and how you have achieved your professional ambitions. \n\n**3.** Reflection on how this programme, Leveraging Green Economy Innovation, will create a wider impact beyond your personal/ organisational goals."
+            },
+            {
+                "term": "CV proving the relevant work experience"
+            },
+            {
+                "term": "Has sufficient proficiency in English (B2)"
+            },
+            {
+                "term": "Completes admission interview at EBS"
+            }
+        ],
+        "name": "Leveraging Green Economy Innovation",
+        "cost": {
+            "amount": 7000,
+            "currency": "€",
+            "interval": "full"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "EBS doctoral programme in Management aims to broaden our understanding of the world by giving deep knowledge of organisational theories and society while developing critical and analytical thinking and research skills. Upon the successful competition of the programme, one has developed the ability to make continuous and logical arguments and synthesise new ideas. PhD degree in Management offers challenges and career opportunities in academia as well as raises one’s value on the labour market. \n\n**This track is suitable for a candidate who:** \n\nIs highly motivated to delve into the many controversial issues in the field of Management Studies. Wishes to advance society’s academic knowledge with best possible practises in business and entrepreneurship. Become a leading expert in the field of Organisational Theory and Responsible Management."
+        ],
+        "eap": 240,
+        "spots": 0,
+        "majorWebsite": "https://ebs.ee/doctoral-studies",
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "modules": [
+            {
+                "name": "Semester I",
+                "courses": [
+                    {
+                        "name": "Doktoriseminar I",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Juhtimisteooriad",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Teadusuuringu kavandamine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Teadusfilosoofia ja teadustöö metodoloogia",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Teadustöö strateegias ja innovatsioonis*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Eetika ja vastutustundlikkus juhtimises*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semester II",
+                "courses": [
+                    {
+                        "name": "Doktoriseminar II",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Institutsiooniökonoomika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Kvalitatiivsed uurimismeetodid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kvantitatiivsed uurimismeetodid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Research Design with Idea Puzzle*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Semester III",
+                "courses": [
+                    {
+                        "name": "Doktoriseminar III",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Organisatsiooniteooriad: traditsiooniliste teooriate meta-teoreetiline vaade ning alternatiivsed lähenemised",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Õppimise olemus ja alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "vabaaine",
+                        "eapCount": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "Semester IV",
+                "courses": [
+                    {
+                        "name": "Doktoriseminar IV",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Kõrgkoolipedagoogika ja õpetamise planeerimine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sotsiaalteaduse kaasaegsed paradigmad",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Vabaaine",
+                        "eapCount": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "Semester V",
+                "courses": [
+                    {
+                        "name": "Doktoriseminar V",
+                        "eapCount": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "Semester VI",
+                "courses": [
+                    {
+                        "name": "Doktoriseminar VI",
+                        "eapCount": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "Määratlemata semester",
+                "courses": [
+                    {
+                        "name": "Tasuvusanalüüs*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Süsteemiteooria*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Loogika*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Mitmekriteeriumilised otsuste tegemise meetodid*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Teadmusjuhtimine ja intellektuaalne kapital*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Organisatsiooniliste muudatuste juhtimisteooriad*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Häguskogumimeetodil tuginev võrdlev analüüs*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Struktuurivõrrandite mudelid*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kultuuripsühholoogia*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Doktoriväitekiri",
+                        "eapCount": 180
+                    },
+                    {
+                        "name": "Erikursus erialakirjanduse baasil",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Erikursus erialakirjanduse baasil",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Erikursus erialakirjanduse baasil",
+                        "eapCount": 4.5
+                    },
+                    {
+                        "name": "Erikursus erialakirjanduse baasil",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Pedagoogiline praktika",
+                        "eapCount": 3
+                    }
+                ]
+            }
+        ],
+        "level": "doktor",
+        "outcomes": [
+            "Has wide knowledge and systematic overview of management and organisational theories, legal and economic environment of organisational management",
+            "Has deep and contemporary knowledge in the field of management",
+            "Has a command of methodological and methodical approaches to social and management research and can make valid choices on using them in different areas of management problems research",
+            "Can individually and critically analyse, synthesize and evaluate new ideas specific to the major and creatively and with scientific accuracy identify and formulate research topics",
+            "Can initiate, plan, implement and critically evaluate research and development projects which will lead to new knowledge and procedural solutions",
+            "Understands the possibilities, limitations and the social role of science, and the responsibility while publishing and using scientific results",
+            "Can analyse the influence of different social norms and evaluate their effect and distinctions on regulation of social relationships",
+            "Is able to orally and in written form present and argue in English problems related to his/her research, conclusions and the underlying theories while communication to both specialists and people outside the specific area",
+            "Can individually participate in diverse learning, working and research environment implementing acquired management and team-working skills",
+            "Can identify the need for new knowledge or skills and support others´ learning and specialised research activity in the context of social changes",
+            "Is able to pass on knowledge via teaching and supervising, via managing applied and action research or development projects."
+        ],
+        "language": "inglise keel",
+        "duration": 4,
+        "requirements": [
+            {
+                "header": "Online application",
+                "term": "Online application in DreamApply [here](https://estonia.dreamapply.com/et_EE/courses/course/260-phd-management) \n\nThe applicant has to submit the application in DreamApply and upload all relevant documents. In order to submit the application account in DreamApply has to be created.",
+            },
+            {
+                "header": "Master's degree or equivalent",
+                "term": "Bachelor’s and Master’s degree diplomas and academic transcripts."
+            },
+            {
+                "header": "Research proposal for the doctoral thesis",
+                "term": "The Research Proposal must be presented by May 1st (non-EU), or by August 1st. Download the template for the research proposal [here](https://ebs.ee/sites/default/files/Phd/Abstract%20of%20the%20research%20project.docx)."
+            },
+            {
+                "header": "English language proficiency certificate (B2)",
+                "term": "FCE, CAE, IELTS 5.5+ or TOEFL 69+ or a previous level of education obtained in English."
+            },
+            {
+                "header": "Reference letter",
+                "term": "By at least one individual"
+            },
+            {
+                "header": "Motivation letter",
+                "term": "Describe your motivation by thinking through the following topics: expectations to the programme and EBS, eligibility to the programme and previous experience, goals during your studies and future professional plans. When applying to the research fellow position please state your interest in the motivation letter, describe your academic background in relation to the position or the topic area and specify what added value would you bring to the academic body of EBS."
+            },
+            {
+                "header": "CV",
+                "term": "Including education, professional development and research- and development activities."
+            },
+            {
+                "header": "Application fee",
+                "term": "The application fee is 120€. Application and relevant documents will be processed only after the application fee is received. The application fee invoice will be sent via DreamApply after your application has been received. Please keep in mind that the invoice is not generated automatically. Candidates from EU/EAA countries and from Turkey, Georgia, Ukraine, Kazakhstan are exempted from the application fee payment. The application fee is non-refundable."
+            }
+        ],
+        "name": "Juhtimisteadus",
+        "cost": {
+            "amount": 7200,
+            "currency": "€",
+            "interval": "year"
+        }
     }
-  },
-  {
-    "studyLocation": [
-      "Tallinn"
-    ],
-    "description": [
-      "EBS doctoral programme in Management aims to broaden our understanding of the world by giving deep knowledge of organisational theories and society while developing critical and analytical thinking and research skills. Upon the successful competition of the programme, one has developed the ability to make continuous and logical arguments and synthesise new ideas. PhD degree in Management offers challenges and career opportunities in the academia as well as raises one’s value on the labour market.",
-      "EBS PhD programme that focuses on the research of business, public and civil society organisations is the only doctoral programme in Management in Estonia and offers a comprehensive perspective on management and organisation studies. The programme is taught in English and has an international student body. On-going development activities and quality assurance of the programme is managed by the EBS Research and Development Council.",
-      "The total volume of the programme is 240 ECTS, of which the studies give 60 ECTS and research activity 180 ECTS. Studies consist of compulsory and elective courses, doctoral/research seminars and teaching internship. The programme curriculum serves as a guideline for doctoral students, but each student has the right and obligation to put together an individual study plan. Research of the doctoral student is carried out according to individual study plan under the guidance of a supervisor. The progress of doctoral student is evaluated yearly by the evaluation committee formed by the EBS R&D Council.",
-      "All doctoral students have an opportunity to go on exchange with the goal to pass part of their studies or conduct research in a foreign university. To exploit this opportunity is highly encouraged.",
-      "The doctoral thesis presented to apply for the doctor’s degree may be in the form of an independent thesis, a series of publications provided with the summarising review article, or a published monograph."
-    ],
-    "eap": 240,
-    "spots": 0,
-    "majorWebsite": "https://ebs.ee/doctoral-studies",
-    "type": "sotsiaalteadused",
-    "modules": [
-      {
-        "name": "Semester I",
-        "courses": [
-          {
-            "name": "Doktoriseminar I",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Juhtimisteooriad",
-            "eapCount": 3
-          },
-          {
-            "name": "Teadusuuringu kavandamine",
-            "eapCount": 3
-          },
-          {
-            "name": "Teadusfilosoofia ja teadustöö metodoloogia",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Teadustöö strateegias ja innovatsioonis*",
-            "eapCount": 3
-          },
-          {
-            "name": "Eetika ja vastutustundlikkus juhtimises*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester II",
-        "courses": [
-          {
-            "name": "Doktoriseminar II",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Institutsiooniökonoomika",
-            "eapCount": 6
-          },
-          {
-            "name": "Kvalitatiivsed uurimismeetodid",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvantitatiivsed uurimismeetodid",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Research Design with Idea Puzzle*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Semester III",
-        "courses": [
-          {
-            "name": "Doktoriseminar III",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Organisatsiooniteooriad: traditsiooniliste teooriate meta-teoreetiline vaade ning alternatiivsed lähenemised",
-            "eapCount": 6
-          },
-          {
-            "name": "Õppimise olemus ja alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "vabaaine",
-            "eapCount": 1.5
-          }
-        ]
-      },
-      {
-        "name": "Semester IV",
-        "courses": [
-          {
-            "name": "Doktoriseminar IV",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Kõrgkoolipedagoogika ja õpetamise planeerimine",
-            "eapCount": 3
-          },
-          {
-            "name": "Sotsiaalteaduse kaasaegsed paradigmad",
-            "eapCount": 3
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Vabaaine",
-            "eapCount": 1.5
-          }
-        ]
-      },
-      {
-        "name": "Semester V",
-        "courses": [
-          {
-            "name": "Doktoriseminar V",
-            "eapCount": 1.5
-          }
-        ]
-      },
-      {
-        "name": "Semester VI",
-        "courses": [
-          {
-            "name": "Doktoriseminar VI",
-            "eapCount": 1.5
-          }
-        ]
-      },
-      {
-        "name": "Määratlemata semester",
-        "courses": [
-          {
-            "name": "Tasuvusanalüüs*",
-            "eapCount": 3
-          },
-          {
-            "name": "Süsteemiteooria*",
-            "eapCount": 3
-          },
-          {
-            "name": "Loogika*",
-            "eapCount": 3
-          },
-          {
-            "name": "Mitmekriteeriumilised otsuste tegemise meetodid*",
-            "eapCount": 3
-          },
-          {
-            "name": "Teadmusjuhtimine ja intellektuaalne kapital*",
-            "eapCount": 3
-          },
-          {
-            "name": "Organisatsiooniliste muudatuste juhtimisteooriad*",
-            "eapCount": 3
-          },
-          {
-            "name": "Häguskogumimeetodil tuginev võrdlev analüüs*",
-            "eapCount": 3
-          },
-          {
-            "name": "Struktuurivõrrandite mudelid*",
-            "eapCount": 3
-          },
-          {
-            "name": "Kultuuripsühholoogia*",
-            "eapCount": 3
-          },
-          {
-            "name": "Doktoriväitekiri",
-            "eapCount": 180
-          },
-          {
-            "name": "Erikursus erialakirjanduse baasil",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Erikursus erialakirjanduse baasil",
-            "eapCount": 3
-          },
-          {
-            "name": "Erikursus erialakirjanduse baasil",
-            "eapCount": 4.5
-          },
-          {
-            "name": "Erikursus erialakirjanduse baasil",
-            "eapCount": 6
-          },
-          {
-            "name": "Pedagoogiline praktika",
-            "eapCount": 3
-          }
-        ]
-      }
-    ],
-    "level": "doktor",
-    "outcomes": [
-      "Omab laiapõhjalisi teadmisi ja süsteemset ülevaadet juhtimis- ja organisatsiooniteooriatest, organisatsioonide juhtimise õiguslikust ja majanduslikust keskkonnast",
-      "Omab sügavaid ja ajakohaseid teadmisi juhtimisteaduse erinevates valdkondades",
-      "Omab süsteemset ülevaadet sotsiaal- ja juhtumisuuringute metodoloogiast ning metoodilistest käsitlustest ja oskab teha põhjendatud valikuid nende kasutamisel erinevates valdkondades juhtimisprobleemide uurimisel",
-      "Tunneb juhtimisteaduse erinevate valdkondade ja valdkondadevahelisi uurimismeetodeid ning oskab neid rakendada",
-      "Oskab iseseisvalt ja kriitiliselt analüüsida, sünteesida ja hinnata uusi erialaspetsiifilisi ideid ja kontseptsioone ning loovalt ja teadusliku täpsusega identifitseerida ja formuleerida uurimis-teemasid",
-      "Oskab algatada, kavandada, rakendada ja kriitiliselt hinnata uurimis- ja arendustöid, mis loovad uusi teadmisi ja rakenduslikke lahendusi",
-      "Mõistab teaduse võimalusi ja piire, ühiskondlikku rolli ning vastutust teadustöö tulemuste avaldamisel ja kasutamisel",
-      "Suudab analüüsida erinevate sotsiaalsete normide toimet ja hinnata nende mõju ja erisusi sotsiaalsete suhete reguleerimisel",
-      "On võimeline suuliselt ja kirjalikult esitama ja argumenteerima oma uurimistööga seonduvaid probleeme, järeldusi ja nende aluseks olevaid teooriaid nii eriala asjatundjatele, kui ka erialavälistele inimestele inglise keeles",
-      "Oskab iseseisvalt tegutseda mitmekülgses õpi-, töö- ja uurimiskeskkonnas rakendades omandatud juhtimis- ja meeskonnatöö oskusi",
-      "Oskab identifitseerida uute teadmiste ja oskuste omandamise vajadusi ning toetada teiste õppimist ja erialast uurimuslikku tegevust ühiskonna muutuste kontekstis",
-      "On võimeline edasi andma oma teadmisi õpetamise, juhendamise ning rakendus- ja tegevusuuringute või arendusprojektide juhtimise kaudu"
-    ],
-    "language": "inglise keel",
-    "duration": 4,
-    "requirements": [
-      {
-        "term": "CV"
-      },
-      {
-        "term": "Magistrikraad"
-      },
-      {
-        "term": "Doktoritöö kavand"
-      },
-      {
-        "term": "Motivatsioonikiri"
-      }
-    ],
-    "name": "Juhtimisteadus",
-    "cost": {
-      "amount": 2750,
-      "currency": "€",
-      "interval": "full"
-    }
-  }
 ]

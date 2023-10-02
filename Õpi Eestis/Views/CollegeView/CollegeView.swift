@@ -14,11 +14,11 @@ struct CollegeView: View {
                 Section(content: summaryContent, header: summaryHeader)
                 Section(content: locationContent, header: locationHeader)
             }
+            .scrollIndicators(.hidden)
             .coordinateSpace(name: "scroll")
             .onPreferenceChange(ViewOffsetKey.self) { offset in
                 model.isSmallImageShown = offset > -30
             }
-            .scrollIndicators(.hidden)
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading, content: backButton)
@@ -113,7 +113,7 @@ extension CollegeView {
                 ForEach(model.majorStats, id: \.self) { item in
                     majorContentCell(item)
                 }
-            }.padding(.vertical, majorContentPadding())
+            }.padding(.vertical, model.majorContentPadding())
         }
         .padding(.vertical, 4)
         .background(content: {
@@ -135,17 +135,7 @@ extension CollegeView {
             ))
         }
     }
-    
-    func majorContentPadding() -> CGFloat {
-        if model.majorStats.count == 1 {
-            return 16
-        } else if model.majorStats.count == 2 {
-            return 8
-        } else {
-            return 0
-        }
-    }
-    
+
     @ViewBuilder
     func admissionContent() -> some View {
         VStack(alignment: .leading, spacing: 0){
@@ -199,7 +189,7 @@ extension CollegeView {
                     .padding(4)
                     .background(.regularMaterial)
                     .clipShape(.rect(cornerRadius: 6, style: .continuous))
-                    .padding(16)
+                    .padding()
                     .padding([.leading, .bottom])
                     .contentShape(Rectangle())
                     .onTapGesture(perform: model.presentMapView)
