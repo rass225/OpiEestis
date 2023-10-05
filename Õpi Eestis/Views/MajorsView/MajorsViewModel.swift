@@ -244,6 +244,7 @@ extension MajorsView.Model {
         selectedDuration = .all
         selectedLanguage = .all
         selectedLocation = .all
+        selectedStudyType = .all
     }
     
     func setTheme() {

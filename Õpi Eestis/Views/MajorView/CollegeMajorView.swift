@@ -4,6 +4,7 @@ struct CollegeMajorView: View {
 //    @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     @Namespace var animation
+    @State private var easterEggPresented = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -34,6 +35,9 @@ struct CollegeMajorView: View {
         .sheet(isPresented: $model.isMapViewPresented, content: {
             CollegeMapView(model: model.createCollegeMapViewModel())
         })
+        .sheet(item: $model.selectedPersonnel) { person in
+            personDetailView(person)
+        }
         .task {
             if !model.didLoad {
                 model.start()
@@ -374,54 +378,6 @@ extension CollegeMajorView {
                         .onTapGesture(perform: model.presentMapView)
                 }
         })
-            
-//        ForEach(model.mapLocations.indices, id: \.self) { index in
-//            if index == 0 {
-//                Section(content: {
-//                    HStack{
-//                        Text(model.mapLocations[index].address)
-//                            .setFont(.subheadline, .regular, .rounded)
-//                            .setColor(Theme.Colors.black)
-//                        Spacer()
-//                        Chevron(type: .link)
-//                    }
-//                    .contentShape(Rectangle())
-//                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-//                    Image(uiImage: model.mapLocations[index].snapshot)
-//                        .resizable()
-//                        .fit()
-//                        .listRowInsets(.zero)
-//                        .listRowSeparator(.hidden)
-//                        .overlay {
-//                            Image("pin")
-//                                .resizable()
-//                                .fit()
-//                                .frame(width: 32, height: 40)
-//                                .setColor(model.college.palette.base.gradient)
-//                                .offset(x: 0, y: -16)
-//                        }
-//                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-//                }, header: locationsHeader)
-//            } else {
-//                Section {
-//                    HStack{
-//                        Text(model.mapLocations[index].address)
-//                            .setFont(.subheadline, .regular, .rounded)
-//                            .setColor(Theme.Colors.black)
-//                        Spacer()
-//                        Chevron(type: .link)
-//                    }
-//                    .contentShape(Rectangle())
-//                    .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-//                    Image(uiImage: model.mapLocations[index].snapshot)
-//                        .resizable()
-//                        .fit()
-//                        .listRowInsets(.zero)
-//                        .listRowSeparator(.hidden)
-//                        .onTapGesture{ model.openMap(model.mapLocations[index].appleMapLink) }
-//                }
-//            }
-//        }
     }
 }
 
@@ -505,22 +461,12 @@ extension CollegeMajorView {
                                 .padding(.trailing, 8)
                         },
                         placeholder: {
-                            Theme.Icons.person
-                                .setFont(.title2, .regular, .rounded)
-                                .setColor(model.college.palette.base.gradient)
-                                .frame(width: 40, height: 40)
-                                .background(model.college.palette.base.opacity(0.175))
-                                .clipShape(Circle())
+                            placeholderPerson()
                                 .padding(.trailing, 8)
                         })
                 }
             } else {
-                Theme.Icons.person
-                    .setFont(.title2, .regular, .rounded)
-                    .setColor(model.college.palette.base.gradient)
-                    .frame(width: 40, height: 40)
-                    .background(model.college.palette.base.opacity(0.175))
-                    .clipShape(Circle())
+                placeholderPerson()
                     .padding(.trailing, 8)
             }
 
@@ -551,6 +497,112 @@ extension CollegeMajorView {
             }
         }
         .padding(.vertical, 4)
+        .contentShape(Rectangle())
+        .onTapGesture {
+            model.selectedPersonnel = person
+        }
+    }
+    
+    @ViewBuilder
+    func personDetailView(_ person: Personnel) -> some View {
+        GeometryReader { geo in
+            VStack {
+                VStack(spacing: 0) {
+                    if let photo = person.photo, let url = URL(string: photo) {
+                        if let cachedImage = model.imageCache[url] {
+                            if easterEggPresented {
+                                Image("Gollum")
+                                    .resizable()
+                                    .fill()
+                                    .frame(width: 160, height: 160, alignment: .top)
+                                    .clipShape(Circle())
+                                    .onTapGesture {
+                                        easterEggPresented.toggle()
+                                    }
+                            } else {
+                                Image(uiImage: cachedImage)
+                                    .resizable()
+                                    .fill()
+                                    .frame(width: 160, height: 160, alignment: .top)
+                                    .clipShape(Circle())
+                                    .onTapGesture(count: 2, perform: {
+                                        if person.name == "Kaire Kollom" {
+                                            easterEggPresented.toggle()
+                                        }
+                                    })
+                            }
+                        } else {
+                            AsyncImage(
+                                url: url,
+                                content: { image in
+                                    image
+                                        .resizable()
+                                        .fill()
+                                        .frame(width: 160, height: 160, alignment: .top)
+                                        .clipShape(Circle())
+                                },
+                                placeholder: {
+                                    placeholderPerson(size: 160, font: .largeTitle)
+                                })
+                        }
+                    } else {
+                        placeholderPerson(size: 160, font: .largeTitle)
+                    }
+                }
+                .padding(.top, geo.size.height / 6)
+                .padding(.bottom, 8)
+                
+                VStack(alignment: .center) {
+                    Text(person.name)
+                        .setFont(.title, .regular, .rounded)
+                    Text(person.title)
+                        .setColor(.gray)
+                        .setFont(.subheadline, .regular, .rounded)
+                        .multilineTextAlignment(.center)
+                }
+                .maxWidth()
+                .padding(.horizontal)
+                .padding(.bottom)
+                
+                HStack(spacing: 16) {
+                    if let email = person.email {
+                        Theme.Icons.envelope
+                            .modifier(ContactButtonModifier(
+                                color: model.college.palette.base,
+                                font: .title3
+                            ))
+                            .onTapGesture {
+                                model.openMail(email)
+                            }
+                    }
+                    if let phone = person.phone {
+                        Theme.Icons.phone
+                            .modifier(ContactButtonModifier(
+                                color: model.college.palette.base,
+                                font: .title3
+                            ))
+                            .onTapGesture {
+                                model.openPhone(phone)
+                            }
+                    }
+                }
+                Spacer()
+            }
+            .maxSize()
+        }
+        .presentationDetents([.medium])
+        .presentationDragIndicator(.visible)
+        .presentationCornerRadius(16)
+    }
+    
+    @ViewBuilder
+    func placeholderPerson(size: CGFloat = 40, font: Font = .title2) -> some View {
+        Theme.Icons.person
+            .setFont(font, .regular, .rounded)
+            .setColor(model.college.palette.base.gradient)
+            .frame(width: size, height: size)
+            .background(model.college.palette.base.opacity(0.175))
+            .clipShape(Circle())
     }
 }
 
@@ -650,9 +702,18 @@ extension CollegeMajorView {
 private extension CollegeMajorView {
     struct ContactButtonModifier: ViewModifier {
         let color: Color
+        let font: Font
+        
+        init(
+            color: Color,
+            font: Font = .body
+        ) {
+            self.color = color
+            self.font = font
+        }
         func body(content: Content) -> some View {
             content
-                .setFont(.body, .regular, .rounded)
+                .setFont(font, .regular, .rounded)
                 .setColor(color.gradient)
                 .padding(10)
                 .background(

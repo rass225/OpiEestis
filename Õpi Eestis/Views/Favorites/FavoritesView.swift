@@ -28,7 +28,7 @@ struct FavoritesView: View {
             Image(systemName: "exclamationmark.triangle")
                 .setFont(.largeTitle, .regular, .rounded)
             Text("Sul ei ole ühtegi lemmikut lisatud")
-                .setFont(.subheadline, .medium, .rounded)
+                .setFont(.subheadline, .regular, .rounded)
         }
         .setColor(.gray)
         .maxSize()

@@ -92,10 +92,10 @@ private extension MajorsView {
                 }
                 .overlay(content: filterViewTitle)
                 List {
+                    durationPicker()
+                    locationPicker()
                     levelPicker()
                     languagePicker()
-                    locationPicker()
-                    durationPicker()
                     studyTypePicker()
                     costPicker()
                     
@@ -234,27 +234,45 @@ private extension MajorsView {
 private extension MajorsView {
     @ViewBuilder
     func levelPicker() -> some View {
-        Picker("Õppeaste", selection: $model.selectedLevel) {
+        Picker(selection: $model.selectedLevel, content: {
             ForEach(model.levels, id: \.self) {
                 Text($0.label)
             }
-        }
+        }, label: {
+            HStack(spacing: 0) {
+                Image(systemName: "graduationcap.circle.fill")
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text("Õppeaste")
+                    .setColor(Theme.Colors.black)
+            }
+        })
         .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
     func languagePicker() -> some View {
-        Picker("Õppekeel", selection: $model.selectedLanguage) {
+        Picker(selection: $model.selectedLanguage, content: {
             ForEach(model.languages, id: \.self) {
                 Text($0.label)
             }
-        }
+        }, label: {
+            HStack(spacing: 0) {
+                Theme.Icons.globe
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text("Õppekeel")
+                    .setColor(Theme.Colors.black)
+            }
+        })
         .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
     func locationPicker() -> some View {
-        Picker("Linn", selection: $model.selectedLocation) {
+        Picker(selection: $model.selectedLocation, content: {
             Text("Kõik")
                 .tag(Model.LocationSelection.all)
             ForEach(model.locations, id: \.self) {
@@ -262,13 +280,22 @@ private extension MajorsView {
                     .tag(Model.LocationSelection.specific($0))
                
             }
-        }
+        }, label: {
+            HStack(spacing: 0) {
+                Image(systemName: "mappin.circle.fill")
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text("Linn")
+                    .setColor(Theme.Colors.black)
+            }
+        })
         .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
     func durationPicker() -> some View {
-        Picker("Kestus", selection: $model.selectedDuration) {
+        Picker(selection: $model.selectedDuration, content: {
             Text("Kõik")
                 .tag(Model.DurationSelection.all)
             ForEach(model.durations, id: \.self) {
@@ -280,27 +307,51 @@ private extension MajorsView {
                         .tag(Model.DurationSelection.specific($0))
                 }
             }
-        }
+        }, label: {
+            HStack(spacing: 0) {
+                Theme.Icons.clock
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text("Kestus")
+                    .setColor(Theme.Colors.black)
+            }
+        })
         .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
     func studyTypePicker() -> some View {
-        Picker("Õppevorm", selection: $model.selectedStudyType) {
+        Picker(selection: $model.selectedStudyType, content: {
             Text("Kõik")
                 .tag(Model.StudyTypeSelection.all)
             ForEach(model.studyTypes, id: \.self) {
                 Text($0.capitalized)
                     .tag(Model.StudyTypeSelection.specific($0))
             }
-        }
+        }, label: {
+            HStack(spacing: 0) {
+                Image(systemName: "door.left.hand.closed")
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text("Õppevorm")
+                    .setColor(Theme.Colors.black)
+            }
+        })
         .tint(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
     func costPicker() -> some View {
         HStack(spacing: 24) {
-            Text("Maksumus")
+            HStack(spacing: 0) {
+                Theme.Icons.euro
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                Text("Maksumus")
+            }
             Picker("Maksumus", selection: $model.selectedCost) {
                 ForEach(Model.CostSelection.allCases, id: \.self) {
                     Text($0.label)

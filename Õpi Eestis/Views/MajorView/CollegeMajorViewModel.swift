@@ -15,6 +15,7 @@ extension CollegeMajorView {
         @Published var oisCourses: [OisDetailedCourse] = []
         @Published var standardMapSnapshot: UIImage
         @Published var isMapViewPresented: Bool
+        @Published var selectedPersonnel: Personnel?
         
         let college: College
         
