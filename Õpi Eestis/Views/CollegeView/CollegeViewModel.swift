@@ -214,7 +214,7 @@ private extension CollegeView.Model {
             )
             return MKCoordinateRegion(center: center, span: span)
         } else {
-            let latitudeDelta = (maxLatitude - minLatitude) * (1.6 + padding)
+            let latitudeDelta = (maxLatitude - minLatitude) * (1.25 + padding)
             let longitudeDelta = (maxLongitude - minLongitude) * (1.0 + padding)
             
             let span = MKCoordinateSpan(

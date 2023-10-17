@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct CollegeMajorView: View {
-//    @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     @Namespace var animation
     @State private var easterEggPresented = false
@@ -70,8 +69,7 @@ private extension CollegeMajorView {
         List {
             Section(
                 content: requirementContent,
-                header: requirementsHeader,
-                footer: requirementsFooter
+                header: requirementsHeader
             )
         }
     }
@@ -105,6 +103,7 @@ extension CollegeMajorView {
         VStack(alignment: .center, spacing: 0){
             Text(model.major.name)
                 .setFont(.title3, .semibold, .rounded)
+                .multilineTextAlignment(.center)
             Text(model.major.level.rawValue.capitalized)
                 .setFont(.body, .semibold, .rounded)
                 .setColor(model.college.palette.base.gradient)
@@ -428,6 +427,7 @@ extension CollegeMajorView {
             }
             .setColor(Theme.Colors.black)
             .setFont(.subheadline, .regular, .rounded)
+            .listRowInsets(.init(top: 16, leading: 16, bottom: 16, trailing: 16))
         }
     }
     
