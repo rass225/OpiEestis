@@ -364,19 +364,22 @@ extension CollegeMajorView {
                 .fill()
                 .listRowInsets(.zero)
                 .listRowSeparator(.hidden)
-                .overlay(alignment: .topTrailing) {
-                    Image(systemName: "location.fill.viewfinder")
-                        .setFont(.title, .medium, .rounded)
-                        .setColor(model.college.palette.base.gradient)
-                        .padding(4)
-                        .background(.regularMaterial)
-                        .clipShape(.rect(cornerRadius: 6, style: .continuous))
-                        .padding(16)
-                        .padding([.leading, .bottom])
-                        .contentShape(Rectangle())
-                        .onTapGesture(perform: model.presentMapView)
-                }
+                .overlay(alignment: .topTrailing, content: expandIcon)
         })
+    }
+    
+    @ViewBuilder
+    func expandIcon() -> some View {
+        Image(systemName: "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left")
+            .setFont(.title2, .medium, .rounded)
+            .setColor(model.college.palette.base.gradient)
+            .padding(4)
+            .background(.regularMaterial)
+            .clipShape(.rect(cornerRadius: 6, style: .continuous))
+            .padding(16)
+            .padding([.leading, .bottom])
+            .contentShape(Rectangle())
+            .onTapGesture(perform: model.presentMapView)
     }
 }
 
@@ -427,7 +430,6 @@ extension CollegeMajorView {
             }
             .setColor(Theme.Colors.black)
             .setFont(.subheadline, .regular, .rounded)
-            .listRowInsets(.init(top: 16, leading: 16, bottom: 16, trailing: 16))
         }
     }
     
