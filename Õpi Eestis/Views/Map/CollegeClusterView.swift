@@ -17,7 +17,7 @@ class CollegeClusterView: MKAnnotationView {
             clusterSizeLabel.text = "\(clusterSize)"
             clusterSizeLabel.textAlignment = .center
             clusterSizeLabel.textColor = .white
-            clusterSizeLabel.font = .boldSystemFont(ofSize: 14)
+            clusterSizeLabel.font = .boldSystemFont(ofSize: 16)
 
             // Add the label to a blue circular background
             let backgroundView = UIView()
@@ -32,7 +32,7 @@ class CollegeClusterView: MKAnnotationView {
             self.addSubview(backgroundView)
             self.frame = backgroundView.frame
             self.displayPriority = .required
-            
+            self.collisionMode = .rectangle
 //            self.centerOffset = CGPoint(x: 0, y: -backgroundView.frame.height / 2)
         }
     }

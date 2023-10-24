@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct Major: Hashable, Codable {
+    var id: String?
     var name: String
     var level: Level
     var type: String
@@ -21,8 +22,10 @@ struct Major: Hashable, Codable {
     var isEnglishOnly: Bool?
     var curriculumDate: String?
     var studyType: String?
+    var videoId: String?
     
     enum CodingKeys: String, CodingKey {
+        case id
         case name
         case level
         case type
@@ -42,10 +45,12 @@ struct Major: Hashable, Codable {
         case curriculumRef
         case isEnglishOnly
         case studyType
+        case videoId
     }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.id = try container.decodeIfPresent(String.self, forKey: .id)
         self.name = try container.decode(String.self, forKey: .name)
         self.level = try container.decode(Level.self, forKey: .level)
         self.type = try container.decode(String.self, forKey: .type)
@@ -67,6 +72,7 @@ struct Major: Hashable, Codable {
         self.curriculumRef = try container.decodeIfPresent(String.self, forKey: .curriculumRef)
         self.isEnglishOnly = try container.decodeIfPresent(Bool.self, forKey: .isEnglishOnly)
         self.studyType = try container.decodeIfPresent(String.self, forKey: .studyType)
+        self.videoId = try container.decodeIfPresent(String.self, forKey: .videoId)
     }
     
     func hasEap() -> Bool {

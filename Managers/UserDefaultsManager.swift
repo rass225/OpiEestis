@@ -21,6 +21,8 @@ class UserDefaultsManager {
         if var universityFavorites = favorites[university.name] {
             universityFavorites.removeAll { $0.name == major.name && $0.language == major.language && $0.level == major.level }
             favorites[university.name] = universityFavorites.isEmpty ? nil : universityFavorites
+        } else {
+            print("MV")
         }
 
         saveFavorites(favorites)
@@ -38,7 +40,9 @@ class UserDefaultsManager {
     }
 
     func getFavorites(forUniversity university: College) -> [Major] {
-        return getAllFavorites()[university.name] ?? []
+        let allFavorites = getAllFavorites()
+        let collegeFavorites = allFavorites[university.name]
+        return collegeFavorites ?? []
     }
     
     func isFavorite(university: College, major: Major) -> Bool {

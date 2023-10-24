@@ -8,6 +8,12 @@ struct MapView: View {
     var body: some View {
         ClusteredMapView(locations: locations)
             .ignoresSafeArea(edges: .top)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    AppPrincipal()
+                }
+            }
     }
 }
 

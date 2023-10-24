@@ -182,24 +182,10 @@ extension CollegeView {
             .fill()
             .listRowInsets(.zero)
             .listRowSeparator(.hidden)
-            .overlay(alignment: .topTrailing, content: expandIcon)
+            .overlay(alignment: .topTrailing, content: expandButton)
             .sheet(isPresented: $model.isMapViewPresented, content: {
                 CollegeMapView(model: model.createCollegeMapViewModel())
             })
-    }
-    
-    @ViewBuilder
-    func expandIcon() -> some View {
-        Image(systemName: "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left")
-            .setFont(.title2, .medium, .rounded)
-            .setColor(model.college.palette.base.gradient)
-            .padding(4)
-            .background(.regularMaterial)
-            .clipShape(.rect(cornerRadius: 6, style: .continuous))
-            .padding(16)
-            .padding([.leading, .bottom])
-            .contentShape(Rectangle())
-            .onTapGesture(perform: model.presentMapView)
     }
     
     @ViewBuilder

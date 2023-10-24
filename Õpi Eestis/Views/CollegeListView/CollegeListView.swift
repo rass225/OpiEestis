@@ -12,16 +12,7 @@ struct CollegesListView: View {
         }
         .toolbar {
             ToolbarItem(placement: .principal, content: {
-                HStack {
-                    Image("estonia2")
-                        .resizable()
-                        .fit()
-                        .frame(height: 22)
-                        .setColor(Theme.Colors.primary)
-                    Text("Õpi Eestis")
-                        .setFont(.title3, .semibold, .rounded)
-                }
-                
+                AppPrincipal()
             })
         }
         .toolbar(.visible, for: .tabBar)

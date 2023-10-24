@@ -39,6 +39,8 @@ class CollegeAnnotationView: MKAnnotationView {
             } else {
                 self.centerOffset = CGPoint(x: 0, y: -25)
             }
+            
+            self.collisionMode = .rectangle
         }
     }
 }

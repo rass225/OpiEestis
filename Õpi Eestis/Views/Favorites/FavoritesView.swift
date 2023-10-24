@@ -5,19 +5,27 @@ struct FavoritesView: View {
     @StateObject var model: Model
     
     var body: some View {
-        if model.favorites.isEmpty {
-            emptyView()
-        } else {
-            List(model.favorites.keys.sorted(), id: \.self) { key in
-                if let favoriteMajorsMinors = model.favorites[key] {
-                    Section(content: {
-                        ForEach(favoriteMajorsMinors, id: \.self) { major in
-                            majorCell(major, schoolName: key)
-                        }
-                    }, header: {
-                        schoolHeader(key)
-                    })
+        VStack(spacing: 0) {
+            if model.favorites.isEmpty {
+                emptyView()
+            } else {
+                List(model.favorites.keys.sorted(), id: \.self) { key in
+                    if let favoriteMajorsMinors = model.favorites[key] {
+                        Section(content: {
+                            ForEach(favoriteMajorsMinors, id: \.self) { major in
+                                majorCell(major, schoolName: key)
+                            }
+                        }, header: {
+                            schoolHeader(key)
+                        })
+                    }
                 }
+            }
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                AppPrincipal()
             }
         }
     }

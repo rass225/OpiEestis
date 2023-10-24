@@ -9,6 +9,7 @@
         "eap": 180,
         "spots": 100,
         "majorWebsite": "https://taltech.ee/informaatika",
+        "videoId": "2ql4jTWcH1M",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -293,6 +294,7 @@
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/it-susteemide-administreerimine",
         "type": "",
         "studyType": "päevaõpe",
+        "videoId": "IiQzfCrodCw",
         "modules": [
             {
                 "courses": [
@@ -578,6 +580,7 @@
         "eap": 180,
         "spots": 180,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/it-susteemide-arendus",
+        "videoId": "IiQzfCrodCw",
         "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "modules": [
@@ -873,6 +876,7 @@
         "eap": 180,
         "spots": 30,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/kuberturbe-tehnoloogiad",
+        "videoId": "IiQzfCrodCw",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -1158,6 +1162,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/riistvara-arendus-ja-programmeerimine",
+        "videoId": "caSBgVnq4Qs",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -1461,6 +1466,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/ariinfotehnoloogia",
+        "videoId": "IiQzfCrodCw",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -2068,6 +2074,7 @@
         "eap": 210,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/arukad-susteemid-ja-rakendusinfotehnoloogia",
+        "videoId": "YBf0I70m1lc",
         "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "personnel": [
@@ -2125,6 +2132,7 @@
         "eap": 300,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/ehitiste-projekteerimine-ja-ehitusjuhtimine",
+        "videoId": "Vlk24hiREB8",
         "type": "Inseneriteadus",
         "studyType": "päevaõpe",
         "modules": [
@@ -2676,8 +2684,7 @@
                 "name": "Mihkel Kiviste",
                 "title": "Programmijuht (Tartu)",
                 "email": "mihkel.kiviste@taltech.ee",
-                "phone": "+3726204805",
-                "photo": "mihkel.kiviste@taltech.ee"
+                "phone": "+3726204805"
             }
         ],
         "level": "integreeritud õpe",
@@ -2719,6 +2726,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/elektroenergeetika-ja-mehhatroonika",
+        "videoId": "qm3bWzFjf0s",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -3065,6 +3073,7 @@
         "eap": 300,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/hoonete-sisekliima-ja-veetehnika",
+        "videoId": "zzhIhQgGRvA",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -3457,6 +3466,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/integreeritud",
+        "videoId": "fDV_HI3nvpg",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -3787,6 +3797,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/keemiatehnoloogia",
+        "videoId": "1k5FPyUZfUk",
         "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "modules": [
@@ -4116,6 +4127,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/keskkonna-energia-ja-keemiatehnoloogia",
+        "videoId": "w_uk_gjqCi8",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -4433,7 +4445,8 @@
         ],
         "eap": 180,
         "spots": 0,
-        "majorWebsite": "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
+        "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/kestlikud-sinimajanduse-tehnoloogiad",
+        "videoId": "VexuXcb4QPU",
         "type": "",
         "studyType": "sessioonõpe",
         "personnel": [
@@ -4485,7 +4498,8 @@
         ],
         "eap": 240,
         "spots": 0,
-        "majorWebsite": "https://www.ttu.ee/teaduskond/inseneriteaduskond/",
+        "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/masinaehitus-ja-energiatehnoloogia-protsesside-juhtimine",
+        "videoId": "Idv8r_jRs5A",
         "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "modules": [
@@ -5032,6 +5046,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/materjalitehnoloogia",
+        "videoId": "Ivy8tQ3bHwE",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -5316,6 +5331,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/meretehnika-ja-vaikelaevaehitus",
+        "videoId": "4CpkyJfgx_8",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -5644,6 +5660,7 @@
         "eap": 300,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/teedeehitus-ja-geodeesia",
+        "videoId": "em14LeJ4ASk",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -6320,6 +6337,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/tootearendus-ja-robootika",
+        "videoId": "C3jozYTN5GU",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -6720,6 +6738,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/maa-susteemid-kliima-ja-tehnoloogiad",
+        "videoId": "k-YvMNfVyww",
         "type": "",
         "studyType": "päevaõpe",
         "personnel": [
@@ -6768,6 +6787,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/rakendusfuusika",
+        "videoId": "lTc5-Ho1iC4",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -7010,6 +7030,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/rakenduskeemia-ja-geenitehnoloogia",
+        "videoId": "PO5onk3IJFA",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -7477,6 +7498,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/toidu-ja-biotehnoloogia",
+        "videoId": "lg-KCpv_CEs",
         "type": "",
         "studyType": "päevaõpe",
         "personnel": [
@@ -7526,6 +7548,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/avalik-haldus-ja-riigiteadused",
+        "videoId": "gjEhOLmYjyE",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -7802,6 +7825,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/rahvusvaheline-arikorraldus",
+        "videoId": "6H_Udja8xf0",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -8411,6 +8435,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/rakenduslik-majandusteadus",
+        "videoId": "y_m7y6WTrEY",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -8670,6 +8695,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/oigusteadus",
+        "videoId": "uTM1GoULAh4",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -8913,6 +8939,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/arindus",
+        "videoId": "I-FaF4mX_aI",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -9465,6 +9492,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/laevajuhtimine",
+        "videoId": "5Gnz8FQeUOc",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -9795,6 +9823,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/laevamehaanika",
+        "videoId": "RxiQxE4YQWY",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -10264,6 +10293,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/mereveonduse-ja-sadamatoo-korraldamine",
+        "videoId": "LG-_zVd49zk",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -10603,6 +10633,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/veeteede-haldamine-ja-ohutuse-korraldamine",
+        "videoId": "l9U_FLS2AD4",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -10939,6 +10970,7 @@
         "eap": 60,
         "spots": 60,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/digimuutused-ettevottes",
+        "videoId": "jHIRZzPZVHA",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -11302,6 +11334,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/e-tervis",
+        "videoId": "Vqb6tTeHl9Y",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -12494,6 +12527,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/meditsiinitehnika-ja-fuusika",
+        "videoId": "D1hH29LHB4I",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -12761,6 +12795,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/vorgutehnoloogiad-ja-teenused",
+        "videoId": "VymZp-hy9EI",
         "type": "",
         "studyType": "päevaõpe",
         "personnel": [
@@ -13843,6 +13878,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/elektrotehnika-ja-mehhatroonika",
+        "videoId": "Pg6ve3wnSwE",
         "type": "",
         "personnel": [
             {
@@ -14918,6 +14954,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/jatkusuutlikud-keemiatehnoloogiad",
+        "videoId": "He6yg29A5gA",
         "type": "",
         "studyType": "päevaõpe",
         "personnel": [
@@ -15602,6 +15639,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/meretehnika",
+        "videoId": "N3Waf_boGR0",
         "type": "",
         "personnel": [
             {
@@ -15662,6 +15700,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/puidu-plasti-ja-tekstiilitehnoloogia",
+        "videoId": "jJwi1wkk0M0",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -16247,6 +16286,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/toostustehnika-ja-juhtimine",
+        "videoId": "FWvYGdmHht4",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -16471,6 +16511,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/toostusokoloogia",
+        "videoId": "6cqAMQbM32c",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -16922,6 +16963,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/rakendusfuusika-ja-andmeteadus",
+        "videoId": "boaOC6hrnTY",
         "type": "",
         "studyType": "päevaõpe",
         "personnel": [
@@ -17292,6 +17334,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/toidutehnoloogia-ja-arendus",
+        "videoId": "Z_cDrKEGjDU",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -17542,6 +17585,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/avaliku-sektori-juhtimine-ja-innovatsioon",
+        "videoId": "72QgsFm7RQQ",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -17730,6 +17774,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/ettevotlik-juhtimine",
+        "videoId": "7M2wgFPT2Tc",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -17890,6 +17935,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/juhtimine-ja-turundus",
+        "videoId": "NEVhTKMV0cQ",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -18271,6 +18317,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/majandusanaluus",
+        "videoId": "pSJccBAZF1M",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -18457,6 +18504,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/personalijuhtimine",
+        "videoId": "k058vV5m7bQ",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -18646,6 +18694,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/rahvusvaheline-arikorraldus",
+        "videoId": "XxcI3n42824",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -18918,6 +18967,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/tehnoloogia-valitsemine-ja-kestlik-areng",
+        "videoId": "Ff73i5aOxMc",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -19101,6 +19151,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/oigusteadus",
+        "videoId": "mm9ibQoXmUY",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -19343,6 +19394,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/arirahandus-ja-majandusarvestus",
+        "videoId": "52qJGcqZ78c",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -19855,6 +19907,7 @@
         "eap": 60,
         "spots": 0,
         "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/merenduse-digitaliseerimine",
+        "videoId": "kMIdzqfhYyI",
         "type": "",
         "studyType": "päevaõpe",
         "personnel": [

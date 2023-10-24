@@ -1,4 +1,5 @@
 import SwiftUI
+import WebKit
 
 struct CollegeMajorView: View {
     @StateObject var model: Model
@@ -52,6 +53,13 @@ private extension CollegeMajorView {
         List {
             Section(content: statsContent, header: statsHeader)
                 .listRowSeparator(.hidden)
+            if let videoId = model.major.videoId {
+                Section {
+                    YouTubeView(videoID: videoId)
+                        .frame(height: 256)
+                        .listRowInsets(.zero)
+                }
+            }
             Section(content: descriptionContent, header: descriptionHeader)
                 .listRowSeparator(.hidden)
             locationsContent()

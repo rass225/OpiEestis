@@ -74,6 +74,13 @@ extension MajorsView {
             return count
         }
         
+        func isFavorite(_ major: Major) -> Bool {
+            favorites.contains(where: {
+                $0.name == major.name &&
+                $0.level == major.level
+            })
+        }
+        
         var displayedMajors: [Major] {
             let result = majors.filter { major in
                 if case let .specific(city) = selectedLocation, !major.studyLocation.contains(city) {

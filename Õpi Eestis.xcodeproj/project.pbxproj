@@ -71,6 +71,8 @@
 		C0C59E432AA8E23100423948 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E422AA8E23100423948 /* ProfileView.swift */; };
 		C0C59E452AAA083900423948 /* CollegeMajorView+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E442AAA083900423948 /* CollegeMajorView+Objects.swift */; };
 		C0C59E472AB4A45400423948 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E462AB4A45400423948 /* String+Extensions.swift */; };
+		C0CE189E2AE7F0EC008288F2 /* AppPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE189D2AE7F0EC008288F2 /* AppPrincipal.swift */; };
+		C0CE18A12AE81364008288F2 /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE18A02AE81364008288F2 /* YoutubeView.swift */; };
 		C0D214432715B688000AD3D0 /* TallinnaTervishoid.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */; };
 		C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214462715C143000AD3D0 /* Pallas.json */; };
 		C0D2144C2715C147000AD3D0 /* Kunstiakadeemia.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */; };
@@ -198,6 +200,8 @@
 		C0C59E422AA8E23100423948 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C0C59E442AAA083900423948 /* CollegeMajorView+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollegeMajorView+Objects.swift"; sourceTree = "<group>"; };
 		C0C59E462AB4A45400423948 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		C0CE189D2AE7F0EC008288F2 /* AppPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPrincipal.swift; sourceTree = "<group>"; };
+		C0CE18A02AE81364008288F2 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
 		C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TallinnaTervishoid.json; sourceTree = "<group>"; };
 		C0D214462715C143000AD3D0 /* Pallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pallas.json; sourceTree = "<group>"; };
 		C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kunstiakadeemia.json; sourceTree = "<group>"; };
@@ -399,6 +403,7 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C0CE189F2AE8134C008288F2 /* YoutubeView */,
 				C041550D2AC8532A00858055 /* CollegeMapView */,
 				C0C59E412AA8E21E00423948 /* ProfileView */,
 				C0460E2725AF0D2200E4A15D /* CollegeListView */,
@@ -433,6 +438,7 @@
 				C007DB8627718EF9002F6BD6 /* Logo.swift */,
 				C0B6D17B2AB639CB009218FC /* BackButton.swift */,
 				C0B6D17D2AB64838009218FC /* Header.swift */,
+				C0CE189D2AE7F0EC008288F2 /* AppPrincipal.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -517,6 +523,14 @@
 				C0C59E422AA8E23100423948 /* ProfileView.swift */,
 			);
 			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		C0CE189F2AE8134C008288F2 /* YoutubeView */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE18A02AE81364008288F2 /* YoutubeView.swift */,
+			);
+			name = YoutubeView;
 			sourceTree = "<group>";
 		};
 		C0F85B3A2A71B2FE007A65F7 /* Managers */ = {
@@ -706,6 +720,7 @@
 			files = (
 				C0518904274BE5AD00C4F352 /* Personnel.swift in Sources */,
 				C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */,
+				C0CE189E2AE7F0EC008288F2 /* AppPrincipal.swift in Sources */,
 				C0C59E222AA1284400423948 /* CollegeView.Cells.swift in Sources */,
 				C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */,
 				C0C59E322AA2614B00423948 /* Submodule.swift in Sources */,
@@ -739,6 +754,7 @@
 				C0C59E2C2AA25FFE00423948 /* Palette.swift in Sources */,
 				C0F85B632A7EA73E007A65F7 /* CollegeMajorView.swift in Sources */,
 				C0460E1725AF0C2700E4A15D /* ContentView.swift in Sources */,
+				C0CE18A12AE81364008288F2 /* YoutubeView.swift in Sources */,
 				C0C59E1A2A90C69500423948 /* Sequence+Extension.swift in Sources */,
 				C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */,
 				C0F85B562A781E3E007A65F7 /* UserDefaultsManager.swift in Sources */,

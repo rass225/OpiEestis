@@ -146,12 +146,12 @@ extension MajorsView {
             }
             .padding(.vertical, 4)
             Spacer()
-            if model.favorites.contains(major) {
+            if model.isFavorite(major) {
                 heartImage()
             }
         }
         .swipeActions {
-            if model.favorites.contains(major) {
+            if model.isFavorite(major) {
                 removeFavoriteButton(major)
             } else {
                addFavoriteButton(major)
@@ -162,7 +162,7 @@ extension MajorsView {
             appState.route(to: CollegeDestination.major(
                 college: model.college,
                 major: major,
-                isFavorite: model.favorites.contains(major)
+                isFavorite: model.isFavorite(major)
             ))
         }
     }
