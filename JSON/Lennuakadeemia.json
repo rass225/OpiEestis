@@ -9,6 +9,7 @@
     "eap": 180,
     "spots": 8,
     "majorWebsite": "https://lennuakadeemia.ee/sisseastumine/korgharidusoppekavad/lennuliiklusteenused",
+    "vimeoId": "548343201",
     "personnel": [
       {
         "email": "kristjan.roosipold@eava.ee",
@@ -147,16 +148,20 @@
     "duration": 3,
     "requirements": [
       {
-        "term": "**Kutsesobivustest (60 punkti)** \n\nFEAST test koosneb kahest osast. FEAST 1. osa tulemuste põhjal tehakse kandidaatide seas esmane valik. FEAST 2. osa testile ja intervjuule lubatakse maksimaalselt 20 kandidaati pingerea alusel. \n\nFEAST 1. osa testi saab sooritada varakult juba enne sisseastumisavalduste esitamise perioodi. "
+          "header": "Kutsesobivustest (60 punkti)",
+        "term": "FEAST test koosneb kahest osast. FEAST 1. osa tulemuste põhjal tehakse kandidaatide seas esmane valik. FEAST 2. osa testile ja intervjuule lubatakse maksimaalselt 20 kandidaati pingerea alusel. \n\nFEAST 1. osa testi saab sooritada varakult juba enne sisseastumisavalduste esitamise perioodi. "
       },
       {
-        "term": "**Intervjuu (40 punkti)** \n\nSuuline intervjuu toimub Eesti Lennuakadeemias kohapeal Intervjuul küsitavast saab täpsemat infot kodulehe sisseastumise rubriigis."
+          "header": "Intervjuu (40 punkti)",
+        "term": "Suuline intervjuu toimub Eesti Lennuakadeemias kohapeal Intervjuul küsitavast saab täpsemat infot kodulehe sisseastumise rubriigis."
       },
       {
-        "term": "**Tervisliku sobivuse kontroll** \n\nLennuliiklusteeninduse erialale kandideerimisel tuleb läbida tervisliku sobivuse kontroll. Eelnevalt tuleb perearstilt saada tõend ja väljavõte ambulatoorsest kaardist ning teha röntgenuuring. \n\nNB! Sisseastumisavaldust esitades pole meditsiinilisi tõendeid ja tervise­uuringute läbimist tõendavaid dokumente vaja kohe akadeemiale esitada, sest terviseuuringutele saadetakse paremusjärjestuse alusel kuni 10 kandidaati."
+          "header": "Tervisliku sobivuse kontroll",
+        "term": "Lennuliiklusteeninduse erialale kandideerimisel tuleb läbida tervisliku sobivuse kontroll. Eelnevalt tuleb perearstilt saada tõend ja väljavõte ambulatoorsest kaardist ning teha röntgenuuring. \n\nNB! Sisseastumisavaldust esitades pole meditsiinilisi tõendeid ja tervise­uuringute läbimist tõendavaid dokumente vaja kohe akadeemiale esitada, sest terviseuuringutele saadetakse paremusjärjestuse alusel kuni 10 kandidaati."
       },
       {
-          "term": "**Õppekeele ja ingliskeele oskus** \n\nEesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nIngliskeele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B2. "
+          "header": "Õppekeele ja ingliskeele oskus",
+          "term": "Eesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nIngliskeele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B2. "
       }
     ],
     "name": "Lennuliiklusteenused",
@@ -177,6 +182,7 @@
     "eap": 240,
     "spots": 27,
     "majorWebsite": "https://lennuakadeemia.ee/sisseastumine/korgharidusoppekavad/lennunduse-ikt",
+    "vimeoId": "827247041",
     "personnel": [
         {
             "name": "Karl-Eerik Unt",
@@ -285,16 +291,20 @@
     "duration": 4,
     "requirements": [
       {
-        "term": "**Reaalaine riigieksam (25 punkti)** \n\nSooritada tuleb (kitsa või laia) matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit. "
+          "header": "Reaalaine riigieksam (25 punkti)",
+        "term": "Sooritada tuleb (kitsa või laia) matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit. "
       },
       {
-        "term": "**Sisseastumiseksam (25 punkti)** \n\nSisseastumiseksam on kirjalik veebipõhine test, mille küsimused põhinevad akadeemia kodulehelt leitaval eriala ja õppekorraldust puudutaval infol ning gümnaasiumi matemaatika ja füüsika programmil. Testi sooritamine võtab aega ligikaudu 20 minutit. "
+          "header": "Sisseastumiseksam (25 punkti)",
+        "term": "Sisseastumiseksam on kirjalik veebipõhine test, mille küsimused põhinevad akadeemia kodulehelt leitaval eriala ja õppekorraldust puudutaval infol ning gümnaasiumi matemaatika ja füüsika programmil. Testi sooritamine võtab aega ligikaudu 20 minutit. "
       },
       {
-        "term": "**Intervjuu (50 punkti)** \n\nSuuline intervjuu toimub veebipõhiselt. Intervjuu kestab ligikaudu 20 minutit."
+          "header": "Intervjuu (50 punkti)",
+        "term": "Suuline intervjuu toimub veebipõhiselt. Intervjuu kestab ligikaudu 20 minutit."
       },
       {
-        "term": "**Õppekeele ja inglise keele oskus** \n\nEesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nInglise keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B1. "
+          "header": "Õppekeele ja inglise keele oskus",
+        "term": "Eesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nInglise keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B1. "
       }
     ],
     "name": "Lennunduse info- ja telekommunikatsioonitehnoloogia",
@@ -315,6 +325,7 @@
     "eap": 240,
     "spots": 27,
     "majorWebsite": "https://lennuakadeemia.ee/sisseastumine/korgharidusoppekavad/ohusoiduki-ehitus-ja-hooldus",
+    "vimeoId": "493408607",
     "personnel": [
         {
             "name": "Karl-Eerik Unt",
@@ -423,16 +434,20 @@
     "duration": 4,
     "requirements": [
       {
-        "term": "**Reaalaine riigieksam (25 punkti)** \n\nSooritada tuleb (kitsa või laia) matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit. "
+          "header": "Reaalaine riigieksam (25 punkti)",
+        "term": "Sooritada tuleb (kitsa või laia) matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit. "
       },
       {
-        "term": "**Sisseastumiseksam (25 punkti)** \n\nSisseastumiseksam on kirjalik veebipõhine test, mille küsimused põhinevad akadeemia kodulehelt leitaval eriala ja õppekorraldust puudutaval infol ning gümnaasiumi matemaatika ja füüsika programmil. Testi sooritamine võtab aega ligikaudu 20 minutit. "
+          "header": "Sisseastumiseksam (25 punkti)",
+        "term": "Sisseastumiseksam on kirjalik veebipõhine test, mille küsimused põhinevad akadeemia kodulehelt leitaval eriala ja õppekorraldust puudutaval infol ning gümnaasiumi matemaatika ja füüsika programmil. Testi sooritamine võtab aega ligikaudu 20 minutit. "
       },
       {
-        "term": "**Intervjuu (50 punkti)** \n\nSuuline intervjuu toimub veebipõhiselt. Intervjuu kestab ligikaudu 20 minutit."
+          "header": "Intervjuu (50 punkti)",
+        "term": "Suuline intervjuu toimub veebipõhiselt. Intervjuu kestab ligikaudu 20 minutit."
       },
       {
-        "term": "**Õppekeele ja inglise keele oskus** \n\nEesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nInglise keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B1. "
+          "header": "Õppekeele ja inglise keele oskus",
+        "term": "Eesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nInglise keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B1. "
       }
     ],
     "name": "Õhusõiduki ehitus ja hooldus",
@@ -453,6 +468,7 @@
     "eap": 180,
     "spots": 15,
     "majorWebsite": "https://lennuakadeemia.ee/sisseastumine/korgharidusoppekavad/lennunduskorraldus",
+    "vimeoId": "492424019",
     "personnel": [
       {
         "email": "kristjan.roosipold@eava.ee",
@@ -591,16 +607,20 @@
     "duration": 3,
     "requirements": [
       {
-        "term": "**Reaalaine riigieksam (30 punkti)** \n\nSooritada tuleb (kitsa või laia) matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit."
+          "header": "Reaalaine riigieksam (30 punkti)",
+        "term": "Sooritada tuleb (kitsa või laia) matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit."
       },
       {
-        "term": "**Sisseastumiseksam (30 punkti)** \n\nSisseastumiseksam on kirjalik veebipõhine test, mille küsimused põhinevad akadeemia kodulehelt leitaval eriala ja õppekorraldust puudutaval infol ning gümnaasiumi matemaatika ja füüsika programmil. Testi sooritamine võtab aega ligikaudu 20 minutit. "
+          "header": "Sisseastumiseksam (30 punkti)",
+        "term": "Sisseastumiseksam on kirjalik veebipõhine test, mille küsimused põhinevad akadeemia kodulehelt leitaval eriala ja õppekorraldust puudutaval infol ning gümnaasiumi matemaatika ja füüsika programmil. Testi sooritamine võtab aega ligikaudu 20 minutit. "
       },
       {
-        "term": "**Intervjuu (40 punkti)** \n\nSuuline intervjuu toimub veebipõhiselt. Intervjuul küsitavast saab täpsemat infot kodulehe sisseastumise rubriigis. Intervjuu kestab ligikaudu 20 minutit ning sellele lubatakse üldise paremusjärjestuse alusel 50 kandidaati. "
+          "header": "Intervjuu (40 punkti)",
+        "term": "Suuline intervjuu toimub veebipõhiselt. Intervjuul küsitavast saab täpsemat infot kodulehe sisseastumise rubriigis. Intervjuu kestab ligikaudu 20 minutit ning sellele lubatakse üldise paremusjärjestuse alusel 50 kandidaati. "
       },
       {
-        "term": "**Õppekeele ja inglise keele oskus** \n\nEesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nIngliskeele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B2. "
+          "header": "Õppekeele ja inglise keele oskus",
+        "term": "Eesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nIngliskeele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B2. "
       }
     ],
     "name": "Lennunduskorraldus",
@@ -621,6 +641,7 @@
     "eap": 240,
     "spots": 10,
     "majorWebsite": "https://lennuakadeemia.ee/sisseastumine/korgharidusoppekavad/ohusoiduki-juhtimine",
+    "vimeoId": "493412200",
     "personnel": [
       {
         "email": "kristjan.roosipold@eava.ee",
@@ -759,19 +780,24 @@
     "duration": 4,
     "requirements": [
       {
-        "term": "**Reaalaine riigieksam (30 punkti)** \n\nSooritada tuleb laia matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit."
+          "header": "Reaalaine riigieksam (30 punkti)",
+        "term": "Sooritada tuleb laia matemaatika riigieksam. \n\nArvestame ainult Eestis sooritatud riigieksamite tulemusi. Vajalikke tulemusi ei saa asendada välisriigi eksamitulemustega. Arvestame ka enne 2014. a sooritatud matemaatika või füüsika riigieksamit."
       },
       {
-        "term": "**Kutsesobivustest (30 punkti)** \n\nLäbida tuleb kutsesobivustest (isiksuslik test ja võimete test). Testid on kirjalikud ja toimuvad lennuakadeemias kohapeal. Testi saab sooritada ka juba enne avalduste esitamise perioodi nii Eesti Lennuakadeemias kui Tallinnas. Kutsesobivustesti lahendamine võtab aega ligikaudu 3 tundi. Testiga hinnatakse psühholoogilist võimekust ning isiksuslikke omadusi."
+          "header": "Kutsesobivustest (30 punkti)",
+        "term": "Läbida tuleb kutsesobivustest (isiksuslik test ja võimete test). Testid on kirjalikud ja toimuvad lennuakadeemias kohapeal. Testi saab sooritada ka juba enne avalduste esitamise perioodi nii Eesti Lennuakadeemias kui Tallinnas. Kutsesobivustesti lahendamine võtab aega ligikaudu 3 tundi. Testiga hinnatakse psühholoogilist võimekust ning isiksuslikke omadusi."
       },
       {
-        "term": "**Intervjuu (40 punkti)** \n\nIntervjuu toimub suuliselt ja Eesti Lennuakadeemias kohapeal. Küsitavast saab täpsemat infot kodulehe sisseastumise rubriigis. Riigieksamitulemuste ja kutsesobivustestide tulemuste põhjal tehakse eelvalik ning intervjuule lubatakse üldise paremusjärjestuse alusel 45 kandidaati.Intervjuule lubatakse üldise paremusjärjestuse alusel 50 kandidaati."
+          "header": "Intervjuu (40 punkti)",
+        "term": "Intervjuu toimub suuliselt ja Eesti Lennuakadeemias kohapeal. Küsitavast saab täpsemat infot kodulehe sisseastumise rubriigis. Riigieksamitulemuste ja kutsesobivustestide tulemuste põhjal tehakse eelvalik ning intervjuule lubatakse üldise paremusjärjestuse alusel 45 kandidaati.Intervjuule lubatakse üldise paremusjärjestuse alusel 50 kandidaati."
       },
       {
-        "term": "**Tervisliku sobivuse kontroll** \n\nhusõiduki juhtimise erialale kandideerimisel tuleb läbida tervisliku sobivuse kontroll. Eelnevalt tuleb perearstilt saada tõend ja väljavõte ambulatoorsest kaardist ning teha röntgenuuring. \n\n**NB!** Sisseastumisavaldust esitades pole meditsiinilisi tõendeid ja tervise­uuringute läbimist tõendavaid dokumente vaja kohe akadeemiale esitada, sest terviseuuringutele saadetakse ainult pingerea esimesed 13 kandidaati. "
+          "header": "Tervisliku sobivuse kontroll",
+        "term": "Õhusõiduki juhtimise erialale kandideerimisel tuleb läbida tervisliku sobivuse kontroll. Eelnevalt tuleb perearstilt saada tõend ja väljavõte ambulatoorsest kaardist ning teha röntgenuuring. \n\n**NB!** Sisseastumisavaldust esitades pole meditsiinilisi tõendeid ja tervise­uuringute läbimist tõendavaid dokumente vaja kohe akadeemiale esitada, sest terviseuuringutele saadetakse ainult pingerea esimesed 13 kandidaati. "
       },
       {
-          "term": "**Õppekeele ja inglise keele oskus** \n\nEesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nIngliskeele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B2."
+          "header": "Õppekeele ja inglise keele osku",
+          "term": "Eesti keele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemele B2. \n\nIngliskeele oskus peab vastama vähemalt Euroopa keeleõppe raamdokumendis määratletud keeleoskustasemel B2."
       }
     ],
     "name": "Õhusõiduki juhtimine",
@@ -792,6 +818,7 @@
     "eap": 180,
     "spots": 20,
     "majorWebsite": "https://lennuakadeemia.ee/admissions/cam#a2",
+    "vimeoId": "671910499",
     "personnel": [
       {
         "email": "kristjan.roosipold@eava.ee",
@@ -931,16 +958,20 @@
     "duration": 3,
     "requirements": [
       {
+          "header": "Application",
         "term": "The application system DreamApply Estonia opens on the 2nd of January. The application closes on the 10th of April for all candidates. If you have any questions please contact admissions@eava.ee. \n\nThe following documents must be submitted electronically via DreamApply by the application deadline: \n\n**•** online application; \n\n**•** motivation letter; \n\n**•** a copy of an identity document (passport or ID card); \n\n**•** official certified copy of the secondary school certificate; \n\n**•** document certifying English language proficiency of at least B2 level; \n\n**•** confirmation/receipt of application fee (50 €), the invoice will be sent to you after you have submitted your application. \n\nDocuments in any other language than English and Estonian must be submitted upon request along with an Estonian or English translation, which must be certified by the issuer of the document, a sworn translator or a notary. "
       },
       {
-        "term": "**Theoretical test** \n\nTo assess your knowledge and skills in maths and economics. \n\nTest is online and duration of the test is 20-30 minutes"
+          "header": "Theoretical test",
+        "term": "To assess your knowledge and skills in maths and economics. \n\nTest is online and duration of the test is 20-30 minutes"
       },
       {
-        "term": "**Motivation letter** \n\nMaximum 1 page (2,000 characters with no spaces). Topics to be covered in the motivation letter: \n\n**•** Describe your interest in the field of aviation and give examples of how your personal characteristics and values support studying and working in this field; \n\n**•** Explain your motivation to work in the aviation sector, outline your career prospects and aspirations; \n\n**•** Describe how your secondary school studies will support your learning in the CAM programme. Which strengths in which subjects will support your learning in the CAM programme? \n\nEvaluation criteria: \n\n**•** Analytical and argumentation skills (60 %) \n\n**•** Proficiency of communication in English (40 %)"
+          "header": "Motivation letter",
+        "term": "Maximum 1 page (2,000 characters with no spaces). Topics to be covered in the motivation letter: \n\n**•** Describe your interest in the field of aviation and give examples of how your personal characteristics and values support studying and working in this field; \n\n**•** Explain your motivation to work in the aviation sector, outline your career prospects and aspirations; \n\n**•** Describe how your secondary school studies will support your learning in the CAM programme. Which strengths in which subjects will support your learning in the CAM programme? \n\nEvaluation criteria: \n\n**•** Analytical and argumentation skills (60 %) \n\n**•** Proficiency of communication in English (40 %)"
       },
       {
-        "term": "**Interview** \n\nSubjects to be covered in the entrance interview: \n\n**•** Explain what interests you about the CAM programme; \n\n**•** Knowledge about Estonia as a (future) place of study; \n\n**•** Knowledge about Tartu relating to the Applicant’s hobbies and interests (options for leisure activities you find interesting); \n\n**•** Describe your career prospects and aspirations; \n\n**•** Questions to test your analytical and problem-solving skills. \n\nTest is online and duration of the test is 20-30 minutes"
+          "header": "Interview",
+        "term": "Subjects to be covered in the entrance interview: \n\n**•** Explain what interests you about the CAM programme; \n\n**•** Knowledge about Estonia as a (future) place of study; \n\n**•** Knowledge about Tartu relating to the Applicant’s hobbies and interests (options for leisure activities you find interesting); \n\n**•** Describe your career prospects and aspirations; \n\n**•** Questions to test your analytical and problem-solving skills. \n\nTest is online and duration of the test is 20-30 minutes"
       }
     ],
     "name": "Commercial Aviation Management",
@@ -961,6 +992,7 @@
     "eap": 180,
     "spots": 20,
     "majorWebsite": "https://lennuakadeemia.ee/admissions/catp/1-year",
+    "vimeoId": "671912508",
     "personnel": [
       {
         "email": "kristjan.roosipold@eava.ee",
@@ -1100,13 +1132,16 @@
     "duration": 3,
     "requirements": [
         {
-            "term": "**Submitting your online application and documents** \n\n The application system DreamApply Estonia opens on the 2nd of January. The application closes on the 30th of April for all candidates. If you have any questions please contact admissions@eava.ee. \n\nThe following documents must be submitted electronically via DreamApply by the application deadline: \n\n**•** online application; \n\n**•** motivation letter; \n\n**•** curriculum vitae (CV); \n\n**•** a copy of an identity document (passport or ID card); \n\n**•** official certified copy of the secondary school certificate; \n\n**•** document certifying English language proficiency of at least B2 level; \n\n**•** document certifying: \n  - CPL(A) or CPL(H) licence with ATPL theory endorsement or \n  - ATPL(A) or ATPL(H) licence or \n  - training documentation that proves passing of CPL(A) or CPL (H) training with ATPL theory. \n\n**•** confirmation/receipt of application fee (50 €). \n\nDocuments in any other language than English and Estonian must be submitted upon request along with an Estonian or English translation, which must be certified by the issuer of the document, a sworn translator or a notary."
+            "header": "Submitting your online application and documents",
+            "term": "The application system DreamApply Estonia opens on the 2nd of January. The application closes on the 30th of April for all candidates. If you have any questions please contact admissions@eava.ee. \n\nThe following documents must be submitted electronically via DreamApply by the application deadline: \n\n**•** online application; \n\n**•** motivation letter; \n\n**•** curriculum vitae (CV); \n\n**•** a copy of an identity document (passport or ID card); \n\n**•** official certified copy of the secondary school certificate; \n\n**•** document certifying English language proficiency of at least B2 level; \n\n**•** document certifying: \n  - CPL(A) or CPL(H) licence with ATPL theory endorsement or \n  - ATPL(A) or ATPL(H) licence or \n  - training documentation that proves passing of CPL(A) or CPL (H) training with ATPL theory. \n\n**•** confirmation/receipt of application fee (50 €). \n\nDocuments in any other language than English and Estonian must be submitted upon request along with an Estonian or English translation, which must be certified by the issuer of the document, a sworn translator or a notary."
         },
         {
-            "term": "**Evaluation of documents and theoretical test** \n\nTo assess an Applicant’s knowledge and skills in maths, physics, logics and use of spreadsheet software (MS Excel). To pass the entrance examination an Applicant must receive at least 50 % of the maximum points. The test is online and the duration of it is 20-30 minutes"
+            "header": "Evaluation of documents and theoretical test",
+            "term": "To assess an Applicant’s knowledge and skills in maths, physics, logics and use of spreadsheet software (MS Excel). To pass the entrance examination an Applicant must receive at least 50 % of the maximum points. The test is online and the duration of it is 20-30 minutes"
         },
         {
-            "term": "**Interview** \n\nSubjects to be covered in the entrance interview: \n\n**•** Explain what interests you about the CATP programme; \n\n**•** Knowledge about Estonia as a (future) place of study; \n\n**•** Knowledge about Tartu relating to the Applicant’s hobbies and interests (options for leisure activities you find interesting); \n\n**•** Describe your career prospects and aspirations; \n\n**•** Questions to test your analytical and problem-solving skills. The interview is online and the duration of it is 20-30 minutes"
+            "header": "Interview",
+            "term": "Subjects to be covered in the entrance interview: \n\n**•** Explain what interests you about the CATP programme; \n\n**•** Knowledge about Estonia as a (future) place of study; \n\n**•** Knowledge about Tartu relating to the Applicant’s hobbies and interests (options for leisure activities you find interesting); \n\n**•** Describe your career prospects and aspirations; \n\n**•** Questions to test your analytical and problem-solving skills. The interview is online and the duration of it is 20-30 minutes"
         }
     ],
     "name": "Commercial Air Transport Pilot (1y)",
@@ -1266,16 +1301,20 @@
     "duration": 3,
     "requirements": [
         {
-            "term": "**Submitting your online application and documents** \n\nThe application system DreamApply Estonia opens on the 2nd of January. The application closes on the 30th of April for all candidates. If you have any questions please contact admissions@eava.ee. \n\nThe following documents must be submitted electronically via DreamApply by the application deadline: \n\n**•** online application; \n**•** motivation letter; \n**•** curriculum vitae (CV); \n**•** a copy of an identity document (passport or ID card); \n**•** official certified copy of the secondary school certificate; \n**•** document certifying English language proficiency of at least B2 level; \n**•** document certifying a valid EASA Class 1 medical examination; \n**•** confirmation/receipt of application fee (50 €). \n\nDocuments in any other language than English and Estonian must be submitted upon request along with an Estonian or English translation, which must be certified by the issuer of the document, a sworn translator or a notary."
+            "Header": "Submitting your online application and documents",
+            "term": "The application system DreamApply Estonia opens on the 2nd of January. The application closes on the 30th of April for all candidates. If you have any questions please contact admissions@eava.ee. \n\nThe following documents must be submitted electronically via DreamApply by the application deadline: \n\n**•** online application; \n**•** motivation letter; \n**•** curriculum vitae (CV); \n**•** a copy of an identity document (passport or ID card); \n**•** official certified copy of the secondary school certificate; \n**•** document certifying English language proficiency of at least B2 level; \n**•** document certifying a valid EASA Class 1 medical examination; \n**•** confirmation/receipt of application fee (50 €). \n\nDocuments in any other language than English and Estonian must be submitted upon request along with an Estonian or English translation, which must be certified by the issuer of the document, a sworn translator or a notary."
         },
         {
-            "term": "**Theoretical test** \n\nTo assess an Applicant’s knowledge and skills in maths, physics, logics and use of spreadsheet software (MS Excel). To pass the entrance examination an Applicant must receive at least 50 % of the maximum points."
+            "header": "Theoretical test",
+            "term": "To assess an Applicant’s knowledge and skills in maths, physics, logics and use of spreadsheet software (MS Excel). To pass the entrance examination an Applicant must receive at least 50 % of the maximum points."
         },
         {
-            "term": "**Pilot aptitude test** \n\n To assess your memory capacity, information processing, spatial abilities, reasoning, logic, long-term concentration, allocation of attention, multitasking, workload management, situation awareness, motivation, self-discipline, self-organisation, self-criticism, safety motivation, stress coping - information load, time pressure, application of procedures, and compliance."
+            "header": "Pilot aptitude test",
+            "term": "To assess your memory capacity, information processing, spatial abilities, reasoning, logic, long-term concentration, allocation of attention, multitasking, workload management, situation awareness, motivation, self-discipline, self-organisation, self-criticism, safety motivation, stress coping - information load, time pressure, application of procedures, and compliance."
         },
         {
-            "term": "**Interview** \n\nSubjects to be covered in the entrance interview: \n\n**•** Explain what interests you about the CATP programme; \n**•** Knowledge about Estonia as a (future) place of study; \n**•** Knowledge about Tartu relating to the Applicant’s hobbies and interests (options for leisure activities you find interesting); \n**•** Describe your career prospects and aspirations; \n**•** Questions to test your analytical and problem-solving skills."
+            "header": "Interview",
+            "term": "Subjects to be covered in the entrance interview: \n\n**•** Explain what interests you about the CATP programme; \n**•** Knowledge about Estonia as a (future) place of study; \n**•** Knowledge about Tartu relating to the Applicant’s hobbies and interests (options for leisure activities you find interesting); \n**•** Describe your career prospects and aspirations; \n**•** Questions to test your analytical and problem-solving skills."
         }
     ],
     "name": "Commercial Air Transport Pilot (3y)",

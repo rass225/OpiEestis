@@ -9,6 +9,7 @@
       "eap": 180,
       "spots": 48,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maamajanduslik-ettevotlus-ja-finantsjuhtimine/",
+      "videoId": "UO6RiZunSV8",
       "type": "sotsiaalteadused",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -296,6 +297,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Anne Põder",
+              "title": "Maamajanduse ökonoomika õppetool",
+              "email": "anne.poder@emu.ee",
+              "phone": "++3727313019"
+          }
       ],
       "level": "bakalaureus",
       "outcomes": [
@@ -617,6 +626,20 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Aive Liibusk",
+              "title": "Kaasprofessor",
+              "email": "aive.liibusk@emu.ee",
+              "phone": "+3727313196"
+          },
+          {
+              "name": "Evelin Jürgenson",
+              "title": "Professor",
+              "email": "evelin.jyrgenson@emu.ee",
+              "phone": "+3727313118"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Teab geodeesia, aerofotogeodeesia, maakorralduse ja maakatastri, maakasutuse planeerimise CAD ja GIS, kinnisvara ökonoomika ja hindamise põhimõisteid ja oskab selgitada vastavaid teoreetilisi printsiipe",
@@ -662,6 +685,7 @@
       "eap": 180,
       "spots": 50,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/metsamajandus/",
+      "videoId": "NlKTsfDu270",
       "type": "Metsandus- ja Maaehitusteadus",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -987,6 +1011,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Maris Hordo",
+              "title": "Dotsent",
+              "email": "maris.hordo@emu.ee",
+              "phone": "+3727313105",
+              "photo": "https://mi.emu.ee/get/image/userfiles/instituudid/mi/image/MI/mimp/Hordo_1.jpg?w=95&h=143"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Omab baasteadmisi metsabioloogiast, metsaökoloogiast, metsakasvatusest, dendroloogiast, metsamullateadusest, metsatakseerimisest, metsakorraldusest, metsandusökonoomikast, metsa- ja puidukasutusest, puiduteadusest ning puidutöötlemise tehnoloogiatest",
@@ -1034,6 +1067,7 @@
       "eap": 180,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/aiandus/",
+      "videoId": "zuiM3JHP_cU",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -1266,6 +1300,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Kadri Karp",
+              "title": "Emeriitprofessor",
+              "email": "kadri.karp@emu.ee",
+              "phone": "+3727313514",
+              "photo": "https://pk.emu.ee/userfiles/instituudid/pk/image/PKI/Aiandus/tootajad/kadripilt.jpg"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Tunneb aiasaaduste tootmist ja haljasalade kujundamist ning teab erialatermineid",
@@ -1310,6 +1353,7 @@
       "eap": 180,
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/kalandus-ja-rakendusokoloogia/",
+      "videoId": "pdX-Zc2S2Ho",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -1680,6 +1724,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Maire Vatsar",
+              "title": "Õppekorralduse spetsialist",
+              "email": "maire.vatsar@emu.ee",
+              "phone": "+3727313886",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020fotod/Maire.jpg?w=200&h=262"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "On omandanud alusteadmised ja oskused põllumajandusmaastike, metsade, märgalade ja veekogude bioressursside kasutamises, majandamises ja kaitses, ning biomajanduslikus ettevõtluses",
@@ -1725,6 +1778,7 @@
       "eap": 180,
       "spots": 34,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/keskkonnakaitse/",
+      "videoId": "TsV9rcuUArs",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -1986,6 +2040,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Pille Tomson",
+              "title": "Vanemlektor",
+              "email": "pille.tomson@emu.ee",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020rs/PilleT_2020RS.jpg?w=200&h=264"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Omab süsteemset ülevaadet keskkonnakaitse ja maastikuarhitektuuri põhimõistetest, teoreetilistest printsiipidest ja uurimismeetoditest ja oskab ära tunda interdistsiplinaarseid seoseid",
@@ -2033,6 +2095,7 @@
       "eap": 180,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maastikukujundus/",
+      "videoId": "V6eQ5YA4Rv4",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -2277,6 +2340,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Toomas Muru",
+              "title": "Õppetooli koordinaator, peaspetsialist",
+              "email": "toomas.muru@emu.ee",
+              "phone": "+3727313139",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/toomas.jpg?w=90&h=120"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Alusteadmised ja arusaamise looduslike protsesside ning inimtegevuse mõjust elurikkusele, maastikele ja inimeste elukeskkonnale, sh maastiku- ja loodusressursside kasutusviisidest, maastiku- ja ruumilisest planeerimisest, maastikukujundusest, keskkonnakorraldusest, loodushoiust, keskkonnaseisundit parendavatest ruumilistest meetmetest",
@@ -2319,6 +2391,7 @@
       "eap": 180,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/loodusturism/",
+      "videoId": "XXwUi7uQx3c",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -2597,6 +2670,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Marika Kose",
+              "title": "Vanemlektor",
+              "email": "marika.kose@emu.ee",
+              "phone": "+37256561373",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/elurikkuse/Marika_Kose.jpg?w=180&h=176"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Bakalaureuseastmes omandatud teadmised ja oskused võimaldavad tööle asuda riigimetsamajandamise keskuses, keskkonnaametis, keskkonnaagentuuris, keskkonnainspektsioonis, omavalitsustes, turismiorganisatsioonides, turismiettevõtetes, turismitaludes, loodushariduskeskustes ja mujal. Lisaks on Sul suurepärane ettevalmistus iseendale töökoha loomiseks.",
@@ -2640,6 +2722,7 @@
       "eap": 180,
       "spots": 45,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/pollumajandussaaduste-tootmine-ja-turustamine/",
+      "videoId": "UTTDUyPQKXc",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -2877,6 +2960,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Merrit Shanskiy",
+              "title": "Kaasprofessor",
+              "email": "merrit.shanskiy@emu.ee",
+              "phone": "+3727313545",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/file/staffphoto/MerritShansky.JPG?w=110&h=130"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Tunneb põllusaaduste tootmist ja teab erialatermineid",
@@ -2909,7 +3001,7 @@
             "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)."
         }
       ],
-      "name": "Põllumajandussaaduste tootmine ja turundamine",
+      "name": "Põllumajandussaaduste tootmine ja turustamine",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -2926,6 +3018,7 @@
       "eap": 180,
       "spots": 75,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/tehnika-ja-tehnoloogia/",
+      "videoId": "xSWq9Wc8_EY",
       "type": "Tehnik, tootmine ja tehnoloogoia",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -3230,6 +3323,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Külli Hovi",
+              "title": "Informaatika ja soojusõpetuse lektor",
+              "email": "kylli.hovi@emu.ee",
+              "phone": "+3727313056"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Omab süsteemset ülevaadet maamajanduslikust tootmisest ja tehnikast",
@@ -3284,6 +3385,7 @@
       "eap": 180,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/loomakasvatus/",
+      "videoId": "jn0sMAIDMrw",
       "type": "Veterinaaria",
       "studyType": "päevaõpe",
       "modules": [
@@ -3531,6 +3633,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Ragnar Leming",
+              "title": "Dotsent",
+              "email": "ragnar.leming@emu.ee",
+              "phone": "+3727313444",
+              "photo": "https://vl.emu.ee/userfiles/instituudid/vl/image/VL/inimesed/leming_r.jpg"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Meie lõpetajad leiavad endale töö nii era- kui ka avalikus sektoris. Omandatud erialased teadmised võimaldavad lõpetanutel tööle asuda loomakasvatus- või turustusettevõtetes, erialaorganisatsioonides või riigiasutustes.",
@@ -3582,6 +3693,7 @@
       "eap": 180,
       "spots": 25,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/toiduainete-tehnoloogia/",
+      "videoId": "iDuJoNEz50I",
       "type": "Veterinaaria",
       "studyType": "päevaõpe",
       "modules": [
@@ -3831,6 +3943,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Vilma Tatar",
+              "title": "Lektor",
+              "email": "http://vilma.tatar@emu.ee/",
+              "phone": "+3727313357",
+              "photo": "https://vl.emu.ee/userfiles/instituudid/vl/image/VL/inimesed/tatar_v.jpg"
+          }
+      ],
       "level": "bakalaureus",
       "outcomes": [
         "Lõpetajana leiad tööd toiduainete tehnoloogina, töötades vastutusrikastel ametikohtadel toiduainetööstuses (piima-, liha-, jookide-, konservi- ning pagari- ja kondiitritööstustes) jt toidukäitlemise ettevõtetes. Samuti on võimalik tööle asuda mitmesugustes toiduainete järelevalve, hariduse ning tarbijakaitse organisatsioonides.",
@@ -4020,6 +4141,14 @@
                 "eapCount": 30
               }
             ]
+          }
+      ],
+      "personnel": [
+          {
+              "name": "Henn Korjus",
+              "title": "Programmijuht",
+              "email": "henn.korjus@emu.ee",
+              "phone": "+3725140550"
           }
       ],
       "level": "magister",
@@ -4288,6 +4417,21 @@
             ]
           }
       ],
+      "personnel": [
+          {
+              "name": "Kalev Sepp",
+              "title": "Õppetooli juht",
+              "email": "kalev.sepp@emu.ee",
+              "phone": "+3727313777",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020rs/kalev_2020RS.jpg?w=200&h=277"
+          },
+          {
+              "name": "Vaike Reisner",
+              "title": "Chief Specialist in International Admissions",
+              "email": "vaike.reisner@emu.ee",
+              "phone": "+3727313890"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Omab süsteemseid ja süvendatud teadmisi keskkonnakorraldusest, -poliitikast ja kliimamuutustest, tunneb valdkonna kontseptsioone ja arengusuundi ning uurimismeetodeid ja oskab neid rakendada, tunneb erialase tegevuse õiguslikku, sotsiaalset ja majanduslikku raamistikku",
@@ -4325,6 +4469,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/metsamajandus/",
+      "videoId": "TtX2JKIA44Y",
       "type": "Metsandus- ja Maaehitusteadus",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -4449,6 +4594,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Jürgen Aosaar",
+              "title": "Metsakasvatuse vanemteadur",
+              "email": "jyrgen.aosaar@emu.ee",
+              "photo": "https://mi.emu.ee/get/image/userfiles/instituudid/mi/MI/MIMK-Failid/metsakasvatus/Jurgen_MI_kodukale.JPG?w=99&h=120"
+          }
       ],
       "level": "magister",
       "outcomes": [
@@ -4662,6 +4815,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Kaja Orupõld",
+              "title": "Kaasprofessor",
+              "email": "kaja.orupold@emu.ee",
+              "phone": "+3727313255",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020rs/kaja_2020RS.jpg?w=200&h=257"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Eesti Maaülikooli loodusteaduste magistrikraad tagab rahvusvahelise konkurentsivõimega keskkonnaspetsialisti staatuse ning meie magistrid on hinnatud eksperdid tööjõuturul. Lõpetajad leiavad töökoha keskkonnaspetsialistina riigi-, kohaliku omavalitsuse, ettevõtlus- või mittetulundussektoris. Paljud meie lõpetajad töötavad keskkonnaministeeriumis ja selle allasutustes (keskkonnaamet, keskkonnainspektsioon, keskkonnaagentuur, RMK), maaeluministeeriumis ja selle allasutustes, kohalikes omavalitsustes, keskkonnaorganisatsioonides, loodushariduskeskustes ning riiklikes ja eraettevõtetes.",
@@ -4706,6 +4868,7 @@
       "eap": 120,
       "spots": 16,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/maastikuarhitektuur/",
+      "videoId": "IIQrOuILYRc",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -4826,6 +4989,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Toomas Muru",
+              "title": "Õppetooli koordinaator, peaspetsialist",
+              "email": "toomas.muru@emu.ee",
+              "phone": "+3727313139",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/toomas.jpg?w=90&h=120"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Maastikuarhitektuuri magistriprogrammi edukas läbija on pädev maastikuarhitekt, kelle diplom on tunnustatud nii Eesti kui rahvusvaheliste erialaorganisatsioonide poolt nagu EMAL, EFLA-IFLA. Omandatud erialane ettevalmistus võimaldab töötada erinevatel era- kui avaliku sektori töökohtadel, kus maastikuarhitekti kompetentsi vajatakse, nii Eestis kui ka mujal Euroopas. Magistridiplom on eelduseks „maastikuarhitekti 7“ kutsetunnistuse taotlemisel või õpingute jätkamiseks doktoriõppes akadeemilise karjääri tegemiseks.",
@@ -4868,6 +5040,7 @@
       "eap": 120,
       "spots": 13,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/maastikuarhitektuur/",
+      "videId": "IIQrOuILYRc",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -4992,6 +5165,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Toomas Muru",
+              "title": "Õppetooli koordinaator, peaspetsialist",
+              "email": "toomas.muru@emu.ee",
+              "phone": "+3727313139",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/toomas.jpg?w=90&h=120"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Maastikuarhitektuuri magistriprogrammi edukas läbija on pädev maastikuarhitekt, kelle diplom on tunnustatud nii Eesti kui rahvusvaheliste erialaorganisatsioonide poolt nagu EMAL, EFLA-IFLA. Omandatud erialane ettevalmistus võimaldab töötada erinevatel era- kui avaliku sektori töökohtadel, kus maastikuarhitekti kompetentsi vajatakse, nii Eestis kui ka mujal Euroopas. Magistridiplom on eelduseks „maastikuarhitekti 7“ kutsetunnistuse taotlemisel või õpingute jätkamiseks doktoriõppes akadeemilise karjääri tegemiseks.",
@@ -5034,6 +5216,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/tootmistehnika/",
+      "videoId": "f_q6K5zxb6o",
       "type": "Tehnik, tootmine ja tehnoloogoia",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -5237,6 +5420,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Risto Ilves",
+              "title": "Programmijuht",
+              "email": "risto.ilves@emu.ee",
+              "phone": "+3727313308"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Tootmistehnika magistriastme lõpetanu on võimeline projekteerima masinaid ja mehhanisme, korraldama nende tootmist, kasutamist ja hooldamist. Laiapõhjalised teadmised võimaldavad töötada inseneribüroodes, põllumajandus- ja tööstusettevõtetes konstruktorina, tehnoloogina, tootmisjuhina, hooldusjuhina või projektijuhina.",
@@ -5404,6 +5595,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Jüri Lehtsaar",
+              "title": "Vanemlektor",
+              "email": "jyri.lehtsaar@emu.ee",
+              "phone": "+3727313822"
+          }
       ],
       "level": "magister",
       "outcomes": [
@@ -5604,6 +5803,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Helis Luik-Lindsaar",
+              "title": "Teadur",
+              "email": "helis.luik@emu.ee",
+              "phone": "+3727313025"
+          }
       ],
       "level": "magister",
       "outcomes": [
@@ -5820,6 +6027,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Evelin Jürgenson",
+              "title": "Professor",
+              "email": "evelin.jyrgenson@emu.ee",
+              "phone": "+3727313118"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Lõpetajana leiad tööd geodeesia, kinnisvara või maakorralduse valdkonnas nii avalikus- kui ka erasektoris: geodeesia- ja kartograafiafirmades, maakorralduse ja planeerimisega tegelevates firmades, kinnisvara arendamise, hindamise ja vahendamisega tegelevates ettevõtetes, kinnisvara haldusfirmades, linna- ja vallavalitsustes või riigiasutustes (Maa-amet, PRIA, Riigi Kinnisvara AS, Lennuamet, Keskkonnaministeerium, Kaitseministeerium jt).",
@@ -5862,6 +6077,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "http://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/metsatoostus/",
+      "videoId": "XiH6xQT2NRA",
       "type": "Metsandus- ja Maaehitusteadus",
       "studyType": "sessioonõpe",
       "modules": [
@@ -6008,6 +6224,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Regino Kask",
+              "title": "Doktor (mets), Nooremprofessor",
+              "email": "regino.kask@emu.ee",
+              "phone": "+3727313106",
+              "photo": "https://mi.emu.ee/get/image/userfiles/instituudid/mi/image/MI/mimp/R_Kask_1.jpg?w=95&h=143"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Lõpetajana leiad tööd metsavarumise, puidutöötlemise või kaubandusettevõtete juhi või spetsialistina; erametsa- või metsakorraldusettevõtetes; projekteerijana; metskondades (Riigimetsa Majandamise Keskus); keskkonnaministeeriumis ja selle allasutustes (keskkonnaagentuur, keskkonnateenistus, keskkonnainspektsioon jne).",
@@ -6050,6 +6275,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/aiandus/",
+      "videoId": "zuiM3JHP_cU",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -6200,6 +6426,15 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Kadri Karp",
+              "title": "Emeriitprofessor",
+              "email": "kadri.karp@emu.ee",
+              "phone": "+3727313514",
+              "photo": "https://pk.emu.ee/userfiles/instituudid/pk/image/PKI/Aiandus/tootajad/kadripilt.jpg"
+          }
       ],
       "level": "magister",
       "outcomes": [
@@ -6439,6 +6674,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Maire Vatsar",
+              "title": "Õppekorralduse spetsialist",
+              "email": "maire.vatsar@emu.ee",
+              "phone": "+3727313886",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020fotod/Maire.jpg?w=200&h=262"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Õppekaval omandatakse järgmised teadmised ja oskused:",
@@ -6481,6 +6725,7 @@
       "eap": 120,
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/loodusturism/",
+      "videoId": "41skfmbhYns",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "sessioonõpe",
       "modules": [
@@ -6544,6 +6789,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Tarmo Pilving",
+              "title": "Lektor",
+              "email": "tarmo.pilving@emu.ee",
+              "phone": "+37256602911",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/KadriTali/Pilving.jpg"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Omab süsteemset ülevaadet ja süvendatud teadmisi keskkonna, elustiku ning jätkusuutliku turismi mõistetest, teooriatest ja uurimismeetoditest",
@@ -6589,6 +6843,7 @@
       "eap": 120,
       "spots": 15,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/loomakasvatus/",
+      "videoId": "QQ5doWohAv0",
       "type": "Veterinaaria",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -6740,6 +6995,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Ragnar Leming",
+              "title": "Dotsent",
+              "email": "ragnar.leming@emu.ee",
+              "phone": "+3727313444",
+              "photo": "https://vl.emu.ee/userfiles/instituudid/vl/image/VL/inimesed/leming_r.jpg"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Omab süsteemset ülevaadet ja süvendatud teadmisi loomakasvatusest",
@@ -6781,6 +7045,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/toiduainete-tehnolooga/",
+      "videoId": "iDuJoNEz50I",
       "type": "Veterinaaria",
       "studyType": "sessioonõpe",
       "modules": [
@@ -6959,6 +7224,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Vilma Tatar",
+              "title": "Lektor",
+              "email": "http://vilma.tatar@emu.ee/",
+              "phone": "+3727313357",
+              "photo": "https://vl.emu.ee/userfiles/instituudid/vl/image/VL/inimesed/tatar_v.jpg"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Oskab süsteemselt rakendada omandatud teadmisi ja uurimismeetodeid erialaste probleemide lahendamisel",
@@ -6997,6 +7271,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/pollumajandussaaduste-tootmine-ja-turustamine/",
+      "videoId": "FtOpB2Z4Tzc",
       "type": "Põllumajandus- ja keskkonnateadus",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -7146,6 +7421,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Eve Veromann",
+              "title": "Professor",
+              "email": "eve.veromann@emu.ee",
+              "phone": "+3727313596"
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Tunneb põllumajandussaaduste tootmise ja turustamise alaseid mõisteid üldiselt ja erialaspetsiifiliselt vastavalt valitud uurimissuunale",
@@ -7188,6 +7471,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/energiakasutus/",
+      "videoId": "tKQ9G3qfZnY",
       "type": "Tehnik, tootmine ja tehnoloogoia",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
@@ -7330,6 +7614,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Protima Rauwel",
+              "title": "Professor",
+              "email": "protima.rauwel@emu.ee",
+              "phone": "+3727313322"
+          }
       ],
       "level": "magister",
       "outcomes": [
@@ -7518,6 +7810,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Eda Merisalu",
+              "title": "Professor",
+              "email": "eda.merisalu@emu.ee",
+              "phone": "+3727313313",
+              "photo": ""
+          }
+      ],
       "level": "magister",
       "outcomes": [
         "Omab süsteemset ülevaadet ergonoomika ja sellega seotud valdkondade teooriatest, uurimismeetoditest, arengusuundadest ja ergonoomika printsiipide rakendamise võimalustest",
@@ -7636,6 +7937,15 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Kalev Sepp",
+              "title": "Õppetooli juht",
+              "email": "kalev.sepp@emu.ee",
+              "phone": "+3727313777",
+              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020rs/kalev_2020RS.jpg"
+          }
       ],
       "level": "doktor",
       "outcomes": [
@@ -7782,6 +8092,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Marika Mänd",
+              "title": "Taimetervise õppetooli juht, professor",
+              "email": "marika.mand@emu.ee",
+              "phone": "+3727313396"
+          }
       ],
       "level": "doktor",
       "outcomes": [
@@ -7953,6 +8271,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Natalja Liba",
+              "title": "Programmijuht",
+              "email": "natalja.liba@emu.ee",
+              "phone": "+3727313120"
+          }
+      ],
       "level": "doktor",
       "outcomes": [
         "Tehnikateaduse doktoriõppekava läbinu:",
@@ -7996,7 +8322,7 @@
           "term": "Väljaspool Euroopa Liitu magistrikraadi omandanud (v.a Eestis keskhariduse omandanud) üliõpilaskandidaadil keskharidust tõendav lõputunnistus ja kõrghariduse eelmiste õppeastmete diplomid ja akadeemilised õiendid"
         },
         {
-          "term": "Vvälismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
+          "term": "Välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.välismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel.älismaal eelmise(d) õppeastmed lõpetanud üliõpilaskandidaadil tõend õppekava õppekeele oskustaseme miinimumnõuetele vastavuse kohta (eesti või inglise keel vähemalt B2 (CEF 2000) tasemel, TOEFL iBT 61 punkti, IELTS  (academic) > 5,0, PTE (academic) 51 punkti). Ülikool aktsepteerib järgmiste institutsioonide poolt väljastatavaid keeleoskustaset tõendavaid dokumente: Tartu Ülikool, Tallinna Ülikool, Tallinna Tehnikaülikool, SA Innove, Briti nõukogu, TOEFL. Dokument ei tohi olla vanem kui kaks aastat. Teiste institutsioonide poolt väljastatud keeleoskust tõendavate dokumentide puhul otsustab vastuvõtukomisjon keeleoskustaseme sobivuse üle. Välismaal inglise keeles kõrghariduse omandanud üliõpilaskandidaadi inglise keele oskus loetakse ilma keeleoskust tõendava dokumendita piisavaks vastavas riigis tunnustatud haridust tõendava dokumendiga, millele on märgitud õppetöö läbiviimise keel."
         }
       ],
       "name": "Tehnikateadus",
@@ -8123,6 +8449,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Natalja Liba",
+              "title": "Programmijuht",
+              "email": "natalja.liba@emu.ee",
+              "phone": "+3727313120"
+          }
       ],
       "level": "doktor",
       "outcomes": [
@@ -8293,6 +8627,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Hardi Tullus",
+              "title": "Programmijuht",
+              "email": "hardi.tullus@emu.ee",
+              "phone": "+3727313715",
+              "photo": "https://mi.emu.ee/get/image/userfiles/instituudid/mi/image/MI/MIMK/hardi_tullu.jpg"
+          }
+      ],
       "level": "doktor",
       "outcomes": [
         "Omab metsanduses oma uurimisvaldkonnas ajakohaseid, põhjalikke ja spetsiifilisi teadmisi, tunneb ja rakendab vastavaid uurimismetoodikaid ja -meetodeid, oskab analüüsida ja sünteesida oma valdkonda arendavaid ideid, püstitada need uurimisküsimustena, ning lähtub uurimistöös teaduseetikast",
@@ -8349,7 +8692,8 @@
       ],
       "eap": 240,
       "spots": 25,
-      "majorWebsite": "http://mi.emu.ee/",
+      "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/puidutootlemise-tehnoloogia/",
+      "videoId": "F_X5tIZ2f_A",
       "type": "Metsandus- ja Maaehitusteadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -8691,6 +9035,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Linnar Pärn",
+              "title": "Arendusjuht",
+              "email": "linnar.parn@emu.ee",
+              "phone": "+3727313157"
+          }
+      ],
       "level": "rakenduskõrgharidus",
       "outcomes": [
         "Omab süsteemseid baasteadmisi puidutöötlemise ja mööblitootmise põhimõtetest ning puidu jätkusuutlikust ja ökonoomsest kasutamisest",
@@ -8737,7 +9089,8 @@
       ],
       "eap": 180,
       "spots": 35,
-      "majorWebsite": "http://te.emu.ee/",
+      "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/tehnotroonika/",
+      "videoId": "EYAdXmyqnT4",
       "type": "Tehnik, tootmine ja tehnoloogoia",
       "studyType": "päevaõpe",
       "modules": [
@@ -9150,6 +9503,14 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Tormi Lillerand",
+              "title": "Nooremteadur",
+              "email": "tormi.lillerand@emu.ee",
+              "phone": "+37256747717"
+          }
+      ],
       "level": "rakenduskõrgharidus",
       "outcomes": [
         "Omab süsteemseid alusteadmisi täppisteadustest ja inseneriasjanduse põhialustest sellises sisus ja mahus, et olla valmis alustama õppekava läbimisel erialast tööd mehhatroonikainseneri või ettevõtjana tööstus- või arendusettevõttes",
@@ -9200,6 +9561,7 @@
       "eap": 300,
       "spots": 35,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maaehitus/",
+      "videoId": "CyRPPQR4gtU",
       "type": "Metsandus- ja Maaehitusteadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -9593,6 +9955,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Alexander Ryabchikov",
+              "title": "Kaasprofessor",
+              "email": "alexander.ryabchikov@emu.ee",
+              "phone": "+3727313173",
+              "photo": "https://mi.emu.ee/userfiles/instituudid/mi/image/list/bigThumb/Ryabchikov-Alexander.jpg"
+          }
+      ],
       "level": "integreeritud õpe",
       "outcomes": [
         "Omab süsteemset ülevaadet ja teadmisi ehitusinseneri baasainetest (matemaatika, füüsika, tugevusõpetus, ehitusmehaanika) ja oskab kirjeldada ehitusvaldkonna põhimõisteid, selgitada teooriaid ning rakendada uurimismeetodeid",
@@ -9641,6 +10012,7 @@
       "eap": 300,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/veemajandus/",
+      "videoId": "HU0aNe6VZxw",
       "type": "Metsandus- ja Maaehitusteadus",
       "studyType": "päevaõpe",
       "modules": [
@@ -10012,6 +10384,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Toomas Tamm",
+              "title": "Professor",
+              "email": "toomas.tamm@emu.ee",
+              "phone": "+3727313130",
+              "photo": "https://mi.emu.ee/userfiles/instituudid/mi/image/list/bigThumb/Tamm-Toomas.jpg"
+          }
+      ],
       "level": "integreeritud õpe",
       "outcomes": [
         "Omab süsteemset ülevaadet ja laiapõhjalisi teadmisi veemajanduse (sh vesiehitiste, veevarustuse ja kanalisatsiooni, reovee puhastamise ja maaparanduse ning jäätmekäitluse) valdkonna mõistetest, teooriatest ja uurimismeetoditest",
@@ -10058,6 +10439,7 @@
       "eap": 360,
       "spots": 34,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/veterinaarmeditsiin/",
+      "videoId": "JH0EK9eu4Y8",
       "type": "Veterinaaria",
       "studyType": "päevaõpe",
       "modules": [
@@ -10526,6 +10908,15 @@
           ]
         }
       ],
+      "personnel": [
+          {
+              "name": "Kristel Peetsalu",
+              "title": "Lektor",
+              "email": "kristel.peetsalu@emu.ee",
+              "phone": "+3727313718",
+              "photo": "https://vl.emu.ee/userfiles/instituudid/vl/image/VL/inimesed/peetsalu_k.jpg"
+          }
+      ],
       "level": "integreeritud õpe",
       "outcomes": [
         "Omab piisavaid teoreetilisi teadmisi veterinaarmeditsiiniga seotud alusteadustest",
@@ -10577,6 +10968,7 @@
       "eap": 360,
       "spots": 38,
       "majorWebsite": "https://www.emu.ee/en/admissions/veterinary-medicine/",
+      "videoId": "IU2NWpLixiw",
       "type": "Veterinaaria",
       "studyType": "päevaõpe",
       "modules": [
@@ -11044,6 +11436,14 @@
             }
           ]
         }
+      ],
+      "personnel": [
+          {
+              "name": "Vaike Reisner",
+              "title": "Chief Specialist in International Admissions",
+              "email": "vaike.reisner@emu.ee",
+              "phone": "+3727313890"
+          }
       ],
       "level": "integreeritud õpe",
       "outcomes": [

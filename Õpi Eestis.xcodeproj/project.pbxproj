@@ -10,6 +10,7 @@
 		C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB8627718EF9002F6BD6 /* Logo.swift */; };
 		C007DB892771918B002F6BD6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB882771918B002F6BD6 /* Environment.swift */; };
 		C018106F25C049530026A86F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018106E25C049530026A86F /* Double.swift */; };
+		C019A7582AE967B80001317C /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C019A7572AE967B80001317C /* SpotifyView.swift */; };
 		C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B642A25C860B2004D144F /* LinearGradient.swift */; };
 		C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0244EE1265DA485009C909A /* CoreData.xcdatamodeld */; };
 		C032995325CC17A100EB7862 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032995225CC17A100EB7862 /* College.swift */; };
@@ -73,6 +74,7 @@
 		C0C59E472AB4A45400423948 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E462AB4A45400423948 /* String+Extensions.swift */; };
 		C0CE189E2AE7F0EC008288F2 /* AppPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE189D2AE7F0EC008288F2 /* AppPrincipal.swift */; };
 		C0CE18A12AE81364008288F2 /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE18A02AE81364008288F2 /* YoutubeView.swift */; };
+		C0CE18A42AE8397D008288F2 /* VimeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE18A32AE8397D008288F2 /* VimeoView.swift */; };
 		C0D214432715B688000AD3D0 /* TallinnaTervishoid.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */; };
 		C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214462715C143000AD3D0 /* Pallas.json */; };
 		C0D2144C2715C147000AD3D0 /* Kunstiakadeemia.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */; };
@@ -133,6 +135,7 @@
 		C007DB8627718EF9002F6BD6 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		C007DB882771918B002F6BD6 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		C018106E25C049530026A86F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		C019A7572AE967B80001317C /* SpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyView.swift; sourceTree = "<group>"; };
 		C01B642A25C860B2004D144F /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		C0244EE2265DA485009C909A /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		C032995225CC17A100EB7862 /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
@@ -202,6 +205,7 @@
 		C0C59E462AB4A45400423948 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		C0CE189D2AE7F0EC008288F2 /* AppPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPrincipal.swift; sourceTree = "<group>"; };
 		C0CE18A02AE81364008288F2 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
+		C0CE18A32AE8397D008288F2 /* VimeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoView.swift; sourceTree = "<group>"; };
 		C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TallinnaTervishoid.json; sourceTree = "<group>"; };
 		C0D214462715C143000AD3D0 /* Pallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pallas.json; sourceTree = "<group>"; };
 		C0D214472715C144000AD3D0 /* Kunstiakadeemia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kunstiakadeemia.json; sourceTree = "<group>"; };
@@ -292,6 +296,14 @@
 				C0C59E272AA2478300423948 /* CollegeAnnotationView.swift */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		C019A7592AE967BC0001317C /* SpotifyView */ = {
+			isa = PBXGroup;
+			children = (
+				C019A7572AE967B80001317C /* SpotifyView.swift */,
+			);
+			path = SpotifyView;
 			sourceTree = "<group>";
 		};
 		C032998F25CC8CB600EB7862 /* Objects */ = {
@@ -403,6 +415,8 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C019A7592AE967BC0001317C /* SpotifyView */,
+				C0CE18A22AE8395E008288F2 /* VimeoView */,
 				C0CE189F2AE8134C008288F2 /* YoutubeView */,
 				C041550D2AC8532A00858055 /* CollegeMapView */,
 				C0C59E412AA8E21E00423948 /* ProfileView */,
@@ -531,6 +545,14 @@
 				C0CE18A02AE81364008288F2 /* YoutubeView.swift */,
 			);
 			name = YoutubeView;
+			sourceTree = "<group>";
+		};
+		C0CE18A22AE8395E008288F2 /* VimeoView */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE18A32AE8397D008288F2 /* VimeoView.swift */,
+			);
+			path = VimeoView;
 			sourceTree = "<group>";
 		};
 		C0F85B3A2A71B2FE007A65F7 /* Managers */ = {
@@ -771,6 +793,8 @@
 				C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */,
 				C09868932766F0DA00C18C44 /* Chevron.swift in Sources */,
 				C007DB892771918B002F6BD6 /* Environment.swift in Sources */,
+				C019A7582AE967B80001317C /* SpotifyView.swift in Sources */,
+				C0CE18A42AE8397D008288F2 /* VimeoView.swift in Sources */,
 				C04CFC1B2AC99194001CB1CD /* CollegeMapViewModel.swift in Sources */,
 				C0F85B452A73DA77007A65F7 /* CollegeListView.swift in Sources */,
 				C032996025CC187100EB7862 /* Major.swift in Sources */,

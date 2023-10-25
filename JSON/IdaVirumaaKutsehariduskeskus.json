@@ -9,6 +9,7 @@
         "eap": 60,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/abikokk%2C-2-aasta-2#abikokk_1_aasta",
+        "videoId": "Vul3RgDRHvg",
         "personnel": [
             {
                 "name": "Ene Valgemäe",
@@ -80,11 +81,12 @@
             "Jõhvi"
         ],
         "description": [
-            "Automaatikud on oskustöötajad, kelle põhitegevus on automaatikasüsteemide, -komponentide ja –seadmete paigaldamine ja käitamine. Tootmisautomaatika ettevõtetes kasutavad nad elektro-, pneumo- ja/või hüdroautomaatika vahendeid, ehitusautomaatika ettevõtetes spetsiifilist seadmestikku ja aparatuuri."
+            "Automaatikud on oskustöötajad, kelle põhitegevus on automaatikasüsteemide, -komponentide ja –seadmete paigaldamine ja käitamine. Tootmisautomaatika ettevõtetes kasutavad nad elektro-, pneumo- ja/või hüdroautomaatika vahendeid, ehitusautomaatika ettevõtetes spetsiifilist seadmestikku ja aparatuuri. \n\n**Praktika võimalused ja võimalikud töökohad:** \n\nTootmisautomaatikale spetsialiseerunud automaatik töötab protsesside, tootmisseadmete ja –süsteemide automatiseerimisega tegelevates ettevõtetes. Ta reguleerib, juhib ja kontrollib elektritootmise, kaugkütte, puidu-, keemia-, toiduainete-, masina-, veevarustuse- ja põllumajandustööstuse jm automaatikasüsteeme. Ta täidab ka tootmisseadmete ja robotite paigaldamise, hooldamise ja käitamisega seotud tööülesandeid. \n\n**Edasi õppe võimalused** \n\n**•** Taastuvenergia tehnoloogia ja seadmete paigaldaja, jätkuõpe \n**•** Turvasüsteemide tehnik, jätkuõpe \n**•** Kõrgharidus TalTech’is (Inseneriteaduskond)"
         ],
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/automaatik%2C-3-aastat-2#automaatik_3_aastat",
+        "videoId": "brQucDleN2U",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -126,6 +128,7 @@
         "eap": 60,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/cnc-puidutootlemiskeskuse-operaator%2C-6-kuud-2#cnc_puidutootlemiskeskuse_operaator_6_kuud",
+        "videoId": "0BJlvfo8o8o",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -167,6 +170,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/ehitusviimistlus%2C-3-aastat#ehitusviimistlus_3_aastat",
+        "videoId": "ICnZ4K3YvFk",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -248,6 +252,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/it-susteemide-nooremspetsialist%2C-2-aastat-2#it-susteemide_nooremspetsialist_2_aastat",
+        "videoId": "e6r78IGegh0",
         "personnel": [
             {
                 "name": "Natella Mihhailova",
@@ -288,6 +293,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/it-susteemide-spetsialist-%28it-akadeemia%29%2C-4-aastat-2#it_susteemide_spetsialist_it_akadeemia_4_aastat",
+        "videoId": "20rmT9oWngE",
         "personnel": [
             {
                 "name": "Natella Mihhailova",
@@ -368,6 +374,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/juuksur%2C-2-aastat-2#juuksur_2_aastat",
+        "videoId": "PuDWY66G1Qk",
         "type": "",
         "studyType": "päevaõpe",
         "level": "kutseharidus",
@@ -400,6 +407,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/juuksur%2C-3-aastat-2#juuksur_3_aastat",
+        "videoId": "PuDWY66G1Qk",
         "personnel": [
             {
                 "name": "Valentina Gorohh",
@@ -600,6 +608,7 @@
         "eap": 60,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/klienditeenindaja-kaubanduses%2C-2-aasta-2#klienditeenindaja_kaubanduses_1_aasta",
+        "videoId": "uXss8gvSuv4",
         "personnel": [
             {
                 "name": "Valentina Gorohh",
@@ -612,7 +621,7 @@
         "studyType": "päevaõpe",
         "level": "kutseharidus",
         "language": "vene keel",
-        "duration": 0,
+        "duration": 1,
         "requirements": [
             {
                 "term": "Põhiharidus"
@@ -640,6 +649,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kokk%2C-2-aastat-2#kokk_2_aastat",
+        "videoId": "jdd1aXL524E",
         "personnel": [
             {
                 "name": "Ene Valgemäe",
@@ -681,6 +691,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kokk%2C-3-aastat-2#kokk_3_aastat",
+        "videoId": "jdd1aXL524E",
         "personnel": [
             {
                 "name": "Ene Valgemäe",
@@ -722,6 +733,7 @@
         "eap": 60,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/kondiiter%2C-2-aasta-2#kondiiter_1_aasta",
+        "videoId": "96wSlZfyqJ8",
         "personnel": [
             {
                 "name": "Ene Valgemäe",
@@ -883,6 +895,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/laborant%2C-3-aastat-2#laborant_3_aastat",
+        "videoId": "nlRlCk5f5tE",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -924,6 +937,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/laotootaja%2C-3-aastat-2#laotootaja_3_aastat",
+        "videoId": "YRel7_Mt850",
         "personnel": [
             {
                 "name": "Natalja Redean",
@@ -1005,6 +1019,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/mehhatroonik%2C-2-aastat-2#mehhatroonik_2_aastat",
+        "videoId": "3tMDEMT5b78",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -1046,6 +1061,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/mehhatroonik%2C-3-aastat-2#mehhatroonik_3_aastat",
+        "videoId": "3tMDEMT5b78",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -1169,6 +1185,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/multimeedia-nooremspetsialist%2C-2-aastat-2#multimeedia_nooremspetsialist_2_aastat",
+        "videoId": "dGPMOh5xYzE",
         "personnel": [
             {
                 "name": "Natella Mihhailova",
@@ -1209,6 +1226,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/multimeedia-nooremspetsialist%2C-3-aastat-2#multimeedia_nooremspetsialist_3_aastat",
+        "videoId": "dGPMOh5xYzE",
         "personnel": [
             {
                 "name": "Natella Mihhailova",
@@ -1249,6 +1267,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/noorem-tarkvaraarendaja%2C-2-aastat-2#noorem_tarkvaraarendaja_2_aastat",
+        "videoId": "84nJ8gGTVzc",
         "personnel": [
             {
                 "name": "Natella Mihhailova",
@@ -1330,6 +1349,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/pagari--ja-kondiitritoodete-tehnoloogia%2C-3-aastat-2#pagari-_ja_kondiitritoodete_tehnoloogia_3_aastat",
+        "videoId": "Y3KXdLaXdNY",
         "personnel": [
             {
                 "name": "Ene Valgemäe",
@@ -1488,6 +1508,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/raamatupidaja%2C-2-aastat-2#raamatupidaja_2_aastat",
+        "videoId": "Fb06VURymw0",
         "personnel": [
             {
                 "name": "Natalja Redean",
@@ -1608,6 +1629,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/sisetoode-elektrik%2C-2-aastat-2#sisetoode_elektrik_2_aastat",
+        "videoId": "KWn5QWDsbMo",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -1649,6 +1671,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/sisetoode-elektrik%2C-3-aastat-2#sisetoode_elektrik_3_aastat",
+        "videoId": "KWn5QWDsbMo",
         "personnel": [
             {
                 "name": "Ander Sile",
@@ -1690,6 +1713,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/tarkvaraarendaja-%28it-akadeemia%29%2C-4-aastat-2#tarkvaraarendaja_it_akadeemia_4_aastat",
+        "videoId": "G_zWf47b6hE",
         "personnel": [
             {
                 "name": "Natella Mihhailova",
@@ -1811,6 +1835,7 @@
         "eap": 90,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/veokorraldaja-logistik%2C-2-aasta-6-kuud-2#veokorraldaja-logistik_1_aasta_6_kuud",
+        "videoId": "jiLoEQGFqVI",
         "personnel": [
             {
                 "name": "Natalja Redean",
@@ -1851,6 +1876,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/arikorralduse-spetsialist%2C-2-aastat-2#arikorralduse_spetsialist_2_aastat",
+        "videoId": "YF2b7h1RNp8",
         "personnel": [
             {
                 "name": "Natalja Redean",

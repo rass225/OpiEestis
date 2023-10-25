@@ -13,6 +13,7 @@ extension CollegeView {
         @Published var mapState: MapState
         @Published var isMapViewPresented: Bool
         @Published var standardMapSnapshot: UIImage
+        @Published var webLink: WebLink?
         
         private let dependencies: DependencyManager
         
@@ -255,6 +256,11 @@ extension CollegeView.Model {
         var doctor: CGFloat
         var applied: CGFloat
         var kutse: CGFloat
+    }
+    
+    struct WebLink: Identifiable {
+        var id = UUID()
+        var link: String
     }
     
     enum MapState {

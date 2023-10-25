@@ -353,6 +353,7 @@
         "eap": 180,
         "spots": 30,
         "majorWebsite": "https://ut.ee/et/oppekavad/disainmotlemine-ja-digiturundus",
+        "videoId": "CLAmUdm0moY",
         "personnel": [
             {
                 "name": "Kaisa Raadik",
@@ -825,6 +826,7 @@
         "eap": 180,
         "spots": 60,
         "majorWebsite": "https://ut.ee/et/oppekavad/ettevotlus-ja-projektijuhtimine",
+        "videoId": "vm1CQd8bVkY",
         "personnel": [
             {
                 "name": "Urve Tammann",
@@ -1015,7 +1017,7 @@
         ],
         "eap": 240,
         "spots": 28,
-        "majorWebsite": "https://ut.ee/et/oppekavad/infokorraldus",
+        "majorWebsite": "https://ut.ee/et/oppekavad/parandtehnoloogia",
         "personnel": [
             {
                 "name": "Ave Matsin",
@@ -1401,6 +1403,7 @@
         "eap": 300,
         "spots": 36,
         "majorWebsite": "https://ut.ee/et/oppekavad/proviisor",
+        "videoId": "Kq80_eBlmXU",
         "personnel": [
             {
                 "name": "Daisy Volmer",
@@ -1615,6 +1618,7 @@
         "eap": 180,
         "spots": 50,
         "majorWebsite": "https://ut.ee/et/oppekavad/arvutitehnika",
+        "videoId": "G8E3bkkk5pY",
         "personnel": [
             {
                 "name": "Heiki Kasemägi",
@@ -1665,6 +1669,7 @@
         "eap": 180,
         "spots": 50,
         "majorWebsite": "https://ut.ee/et/oppekavad/bioloogia-ja-elustiku-kaitse",
+        "videoId": "SgTCJNLihAo",
         "personnel": [
             {
                 "name": "Kersti Riibak",
@@ -1715,6 +1720,7 @@
         "eap": 180,
         "spots": 33,
         "majorWebsite": "https://ut.ee/et/oppekavad/eesti-ja-soome-ugri-keeleteadus-0",
+        "videoId": "7oAwzjIZaec",
         "personnel": [
             {
                 "name": "Pire Teras",
@@ -1962,6 +1968,7 @@
         "eap": 180,
         "spots": 85,
         "majorWebsite": "https://ut.ee/et/oppekavad/fuusika-keemia-ja-materjaliteadus",
+        "videoId": "eDWfSpBYZyk",
         "personnel": [
             {
                 "name": "Peeter Burk",
@@ -2008,6 +2015,7 @@
         "eap": 180,
         "spots": 50,
         "majorWebsite": "https://ut.ee/et/oppekavad/geenitehnoloogia",
+        "videoId": "ANHjCjMksPE",
         "personnel": [
             {
                 "name": "Margus Leppik",
@@ -2202,11 +2210,12 @@
             "Tartu"
         ],
         "description": [
-            "Tartu Ülikoolist saad Baltimaade kõige rahvusvahelisema IT-hariduse, mis annab sulle tööturul konkurentsieelise. Meie tihe koostöö edukate IT-firmadega tagab üliõpilastele soodsa keskkonna ka enda idufirma asutamiseks. Arvutiteaduse instituut pakub parimatele õppuritele stipendiume ja õpingute ajaks saavad kõik üliõpilased tasuta sülearvuti. \n\n**Õppetöö** \n\nInformaatika bakalaureuseõppes omandad sa nii arvutiteaduse teoreetilised alused kui ka tugevad praktilised oskused. Sisseastumiseks ei ole programmeerimise eelteadmised hädavajalikud, kuid teisalt kohtab ka meie kõige nutikam ja olümpiaadikogemusega üliõpilane õpingute jooksul tõsiseid proovikive. \n\nÕppekava kohustuslik osa on pühendatud eelkõige valdkonna alusteadmistele, mis on vajalikud kitsamate oskuste ja tehnoloogiate omandamiseks. Õppekava valikmoodulid võimaldavad sul enda huvide alusel spetsialiseeruda kas andmeteaduse, teoreetilise informaatika, süsteemihalduse või tarkvaraarenduse suunale. \n\nEestis eristub Tartu Ülikooli informaatikaõpe teooria ja praktika tugeva sümbioosiga. Peale meie tipptasemel lektorite ja teadustöötajate käivad loenguid pidamas ka valdkonna praktikud ja ettevõtete esindajad. \n\nSuurem osa meie õppematerjalidest on vabalt kättesaadavad veebis. Me filmime loenguid ja need on järelvaadatavad. \n\n**Õppekeskkond** \n\nSa asud õppima Tartu Ülikooli kõige moodsamas keskkonnas: [Delta keskuses](https://delta.ut.ee/en/). \n\nArvutiteaduse instituudi traditsioonide hulka kuuluvad ka üliõpilasi kaasavad tegevused, näiteks iga-aastane instituudi päev ja Delta karjääripäev, kus on alati kohal Eesti mõjukaimad IT-ettevõtted. Aastaid oleme korraldanud andmeteaduse seminare, kus ülikoolide ja ettevõtete esindajad räägivad oma kogemustest eri valdkondade arendamisel. \n\nPeale selle on instituudis vilgas üliõpilaselu, sest erialane üliõpilasselts korraldab regulaarselt ühisüritusi ja mentorprogrammi. \n\n**Pärast lõpetamist** \n\nMeie lõpetajad on tööturul kõrgelt hinnatud, tänu millele julgeme sulle lubada kindlat ja lennukat karjääri nii tehnilistel kui ka juhtimisega seotud ametikohtadel. \n\nMeie vilistlasi leiab töötamas sellistes ettevõtetes nagu Playtech Estonia, Cybernetica, Meta, Shazam, Spotify ja Google. Nende enda asutatud ettevõtete hulka kuuluvad Wise, Rogue Wave, Mobi Solutions, Fortumo, SaleMove, Plumbr ja Bolt. "
+            "Tartu Ülikoolist saad Baltimaade kõige rahvusvahelisema IT-hariduse, mis annab sulle tööturul konkurentsieelise. Meie tihe koostöö edukate IT-firmadega tagab üliõpilastele soodsa keskkonna ka enda idufirma asutamiseks. Arvutiteaduse instituut pakub parimatele õppuritele stipendiume ja õpingute ajaks saavad kõik üliõpilased tasuta sülearvuti. \n\n**Õppetöö** \n\nInformaatika bakalaureuseõppes omandad sa nii arvutiteaduse teoreetilised alused kui ka tugevad praktilised oskused. Sisseastumiseks ei ole programmeerimise eelteadmised hädavajalikud, kuid teisalt kohtab ka meie kõige nutikam ja olümpiaadikogemusega üliõpilane õpingute jooksul tõsiseid proovikive. \n\nÕppekava kohustuslik osa on pühendatud eelkõige valdkonna alusteadmistele, mis on vajalikud kitsamate oskuste ja tehnoloogiate omandamiseks. Õppekava valikmoodulid võimaldavad sul enda huvide alusel spetsialiseeruda kas andmeteaduse, teoreetilise informaatika, süsteemihalduse või tarkvaraarenduse suunale. \n\nEestis eristub Tartu Ülikooli informaatikaõpe teooria ja praktika tugeva sümbioosiga. Peale meie tipptasemel lektorite ja teadustöötajate käivad loenguid pidamas ka valdkonna praktikud ja ettevõtete esindajad. \n\nSuurem osa meie õppematerjalidest on vabalt kättesaadavad veebis. Me filmime loenguid ja need on järelvaadatavad. \n\n**Õppekeskkond** \n\nSa asud õppima Tartu Ülikooli kõige moodsamas keskkonnas: [Delta keskuses](https://delta.ut.ee/en/). \n\nArvutiteaduse instituudi traditsioonide hulka kuuluvad ka üliõpilasi kaasavad tegevused, näiteks iga-aastane instituudi päev ja Delta karjääripäev, kus on alati kohal Eesti mõjukaimad IT-ettevõtted. Aastaid oleme korraldanud andmeteaduse seminare, kus ülikoolide ja ettevõtete esindajad räägivad oma kogemustest eri valdkondade arendamisel. \n\nPeale selle on instituudis vilgas üliõpilaselu, sest erialane üliõpilasselts korraldab regulaarselt ühisüritusi ja mentorprogrammi. \n\n**Pärast lõpetamist** \n\nMeie lõpetajad on tööturul kõrgelt hinnatud, tänu millele julgeme sulle lubada kindlat ja lennukat karjääri nii tehnilistel kui ka juhtimisega seotud ametikohtadel. \n\nMeie vilistlasi leiab töötamas sellistes ettevõtetes nagu Playtech Estonia, Cybernetica, Meta, Shazam, Spotify ja Google. Nende enda asutatud ettevõtete hulka kuuluvad Wise, Rogue Wave, Mobi Solutions, Fortumo, SaleMove, Plumbr ja Bolt."
         ],
         "eap": 180,
         "spots": 225,
         "majorWebsite": "https://ut.ee/et/oppekavad/informaatika",
+        "videoId": "MnuRwKdo1EI",
         "personnel": [
             {
                 "name": "Varmo Vene",
@@ -2760,6 +2769,7 @@
         "eap": 180,
         "spots": 70,
         "majorWebsite": "https://ut.ee/et/oppekavad/majandusteadus",
+        "videoId": "z4UIUTBVIx0",
         "personnel": [
             {
                 "name": "Kadi Timpmann",
@@ -2813,6 +2823,7 @@
         "eap": 180,
         "spots": 35,
         "majorWebsite": "https://ut.ee/et/oppekavad/matemaatika",
+        "videoId": "MPkfzTGVgiY",
         "personnel": [
             {
                 "name": "Indrek Zolk",
@@ -2858,6 +2869,7 @@
         "eap": 180,
         "spots": 35,
         "majorWebsite": "https://ut.ee/et/oppekavad/matemaatiline-statistika",
+        "videoId": "Gii936O3sJc",
         "personnel": [
             {
                 "name": "Mare Vähi",
@@ -3105,6 +3117,7 @@
         "eap": 180,
         "spots": 45,
         "majorWebsite": "https://ut.ee/et/oppekavad/riigiteadused",
+        "videoId": "t2JFBgLmu80",
         "personnel": [
             {
                 "name": "Aigi Hommik",
@@ -3458,6 +3471,7 @@
         "eap": 120,
         "spots": 25,
         "majorWebsite": "https://ut.ee/et/oppekavad/ajalugu-0",
+        "spotifyPath": "https://open.spotify.com/embed/episode/18Ag3uxuA4N5fAdl7NE24s",
         "personnel": [
             {
                 "name": "Janet Laidla",
@@ -3582,6 +3596,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/arvutitehnika-ja-robootika",
+        "videoId": "ig7gJYm3SoU",
         "personnel": [
             {
                 "name": "Heiki Kasemägi",
@@ -3862,6 +3877,7 @@
         "eap": 120,
         "spots": 12,
         "majorWebsite": "https://ut.ee/et/oppekavad/eesti-keel-ja-soome-ugri-keeled",
+        "spotifyPath": "https://open.spotify.com/embed/episode/3LO48UpUcdjHJhuUYIV9vF",
         "personnel": [
             {
                 "name": "Gerson Stefan Klumpp",
@@ -4058,6 +4074,7 @@
         "eap": 60,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/ettevotlikkus-majanduspoliitika-kujundamises",
+        "videoId": "Jdm2DOdeMHk",
         "personnel": [
             {
                 "name": "Kadri Ukrainski",
@@ -4219,6 +4236,7 @@
         "eap": 120,
         "spots": 14,
         "majorWebsite": "https://ut.ee/et/oppekavad/filosoofia-0",
+        "spotifyPath": "https://open.spotify.com/embed/episode/3flYxtlq9TJlEWYcvOSsCW",
         "personnel": [
             {
                 "name": "Alex Davies",
@@ -4271,6 +4289,7 @@
         "eap": 120,
         "spots": 14,
         "majorWebsite": "https://ut.ee/et/oppekavad/folkloristika-ja-parandirakendused",
+        "videoId": "afHPTKst71I",
         "personnel": [
             {
                 "name": "Elo-Hanna Seljamaa",
@@ -4499,11 +4518,12 @@
             "Tartu"
         ],
         "description": [
-            "Õppides loodusainete õpetajaks, on sul võimalus anda panus õpilaste kujundamisse vastutustundlikeks maailmakodanikeks. Magistriõppe käigus mõtestad sa pedagoogilistes õppeainetes õpetamise ja õppimise olemust, samuti avastad enda potentsiaali õpilaste ja õppeprotsessi juhtimisel ning soovitud muutuste ellukutsumisel, lähtudes omandatud erialastest teadmistest ja oskustest. Sa saad õpetajakutse, et asuda tööle bioloogia-, keemia-, geograafia- või füüsikaõpetajana põhikoolis ja gümnaasiumis, ning oled väga oodatud kolleeg üle Eesti. \n\n**Õppetöö** \n\nMeil on sessioonõpe, mis tähendab kaks korda kuus (neljapäevast pühapäevani) osalemist seminarides, loengutes ja praktikumides. Suur osa on e-õppel, tänu millele saad õpingud ühildada mugavalt igapäevaeluga. \n\nÕppima asudes valid endale sobiva eriala, õppides kas bioloogia-, keemia-, geograafia- või füüsikaõpetajaks. \n\nÕpingud toetavad su oskusi ja teadmisi kujundada õpilastest aktiivsed maailmakodanikud, kes hoolivad ümbritsevast keskkonnast, käituvad vastutustundlikult ning on valmis riskima ja kasutama loovust, kui on vaja pakkuda sisukaid lahendusi ühiskonnas olulistele loodusteadusliku sisuga probleemidele. Seepärast on erialaste (nt bioloogia) teadmiste ja oskuste kujundamise kõrval õppes olulisel kohal õppeained, milles keskendud juhtimisele, kommunikatsioonile ja üldpädevustele. \n\nMeil õpetavad nii oma valdkonna teadlased kui ka üldhariduskoolis õpetamise pikaajalise kogemusega õppejõud. \n\nOma õpingute toetamiseks on sul võimalus taotleda stipendiume. \n\n**Õppekeskkond** \n\nSa hakkad õppima nii Vanemuise 46 õppehoones kui ka teistes Tartu Ülikooli õppehoonetes, mille asupaik sõltub sinu valitud erialast. Osa õppetööst toimub väljaspool ülikooli, näiteks teaduskeskustes ja muuseumides, samuti innovatsioonikoolides üle Eesti, kus sooritad erialase praktika. \n\nMeie üliõpilased on oodatud osalema õpetajate ja haridusteadlaste konverentsidel ja seminaridel ning aineõpetajate talve- ja suvepäevadel. \n\n**Pärast lõpetamist** \n\nLõpetamisel saad haridusteaduse magistri kraadi (bioloogiaõpetaja, keemiaõpetaja, geograafiaõpetaja või füüsikaõpetaja) ja 7. kutsetaseme õpetajakutse. See annab sulle õiguse õpetada põhikoolis ja gümnaasiumis, kus pidevalt kasvab vajadus loodusainete õpetajate järele. \n\nOsa meie vilistlasi on leidnud töö teaduskeskustes, muuseumides, keskkonnahariduskeskustes, huvikoolides ja ettevõtetes. \n\nÕpinguid saad jätkata Tartu Ülikooli haridusteaduse doktoriõppes loodusteadusliku hariduse suunal.  "
+            "Õppides loodusainete õpetajaks, on sul võimalus anda panus õpilaste kujundamisse vastutustundlikeks maailmakodanikeks. Magistriõppe käigus mõtestad sa pedagoogilistes õppeainetes õpetamise ja õppimise olemust, samuti avastad enda potentsiaali õpilaste ja õppeprotsessi juhtimisel ning soovitud muutuste ellukutsumisel, lähtudes omandatud erialastest teadmistest ja oskustest. Sa saad õpetajakutse, et asuda tööle bioloogia-, keemia-, geograafia- või füüsikaõpetajana põhikoolis ja gümnaasiumis, ning oled väga oodatud kolleeg üle Eesti. \n\n**Õppetöö** \n\nMeil on sessioonõpe, mis tähendab kaks korda kuus (neljapäevast pühapäevani) osalemist seminarides, loengutes ja praktikumides. Suur osa on e-õppel, tänu millele saad õpingud ühildada mugavalt igapäevaeluga. \n\nÕppima asudes valid endale sobiva eriala, õppides kas bioloogia-, keemia-, geograafia- või füüsikaõpetajaks. \n\nÕpingud toetavad su oskusi ja teadmisi kujundada õpilastest aktiivsed maailmakodanikud, kes hoolivad ümbritsevast keskkonnast, käituvad vastutustundlikult ning on valmis riskima ja kasutama loovust, kui on vaja pakkuda sisukaid lahendusi ühiskonnas olulistele loodusteadusliku sisuga probleemidele. Seepärast on erialaste (nt bioloogia) teadmiste ja oskuste kujundamise kõrval õppes olulisel kohal õppeained, milles keskendud juhtimisele, kommunikatsioonile ja üldpädevustele. \n\nMeil õpetavad nii oma valdkonna teadlased kui ka üldhariduskoolis õpetamise pikaajalise kogemusega õppejõud. \n\nOma õpingute toetamiseks on sul võimalus taotleda stipendiume. \n\n**Õppekeskkond** \n\nSa hakkad õppima nii Vanemuise 46 õppehoones kui ka teistes Tartu Ülikooli õppehoonetes, mille asupaik sõltub sinu valitud erialast. Osa õppetööst toimub väljaspool ülikooli, näiteks teaduskeskustes ja muuseumides, samuti innovatsioonikoolides üle Eesti, kus sooritad erialase praktika. \n\nMeie üliõpilased on oodatud osalema õpetajate ja haridusteadlaste konverentsidel ja seminaridel ning aineõpetajate talve- ja suvepäevadel. \n\n**Pärast lõpetamist** \n\nLõpetamisel saad haridusteaduse magistri kraadi (bioloogiaõpetaja, keemiaõpetaja, geograafiaõpetaja või füüsikaõpetaja) ja 7. kutsetaseme õpetajakutse. See annab sulle õiguse õpetada põhikoolis ja gümnaasiumis, kus pidevalt kasvab vajadus loodusainete õpetajate järele. \n\nOsa meie vilistlasi on leidnud töö teaduskeskustes, muuseumides, keskkonnahariduskeskustes, huvikoolides ja ettevõtetes. \n\nÕpinguid saad jätkata Tartu Ülikooli haridusteaduse doktoriõppes loodusteadusliku hariduse suunal."
         ],
         "eap": 120,
         "spots": 30,
         "majorWebsite": "https://ut.ee/et/oppekavad/gumnaasiumi-loodusteaduste-opetaja",
+        "videoId": "Z_yYM0D4Z9Q",
         "personnel": [
             {
                 "name": "Regina Soobard",
@@ -4763,6 +4783,7 @@
         "eap": 120,
         "spots": 63,
         "majorWebsite": "https://ut.ee/et/oppekavad/informaatika-0",
+        "videoId": "7hqvlfLGCSY",
         "personnel": [
             {
                 "name": "Eero Vainikko",
@@ -4855,6 +4876,7 @@
         "eap": 60,
         "spots": 25,
         "majorWebsite": "https://ut.ee/et/oppekavad/infotehnoloogiaoigus",
+        "videoId": "OpBOEzKkbF8",
         "personnel": [
             {
                 "name": "Liisi Adamson",
@@ -4903,6 +4925,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/inimesekeskne-sotsiaalne-innovatsioon-0",
+        "videoId": "ilXmZTTtiKM",
         "personnel": [
             {
                 "name": "Urve Tammann",
@@ -5001,6 +5024,7 @@
         "eap": 60,
         "spots": 15,
         "majorWebsite": "https://ut.ee/et/oppekavad/juhtimis-ja-digikommunikatsioon",
+        "videoId": "na2H1u6sYTs",
         "personnel": [
             {
                 "name": "Kaspar Kruup",
@@ -5107,6 +5131,7 @@
         "eap": 120,
         "spots": 56,
         "majorWebsite": "https://ut.ee/et/curriculum/kaasaegne-majandus",
+        "videoId": "FuI6-xvxbPk",
         "personnel": [
             {
                 "name": "Kristian Pentus",
@@ -5594,6 +5619,7 @@
         "eap": 120,
         "spots": 10,
         "majorWebsite": "https://ut.ee/et/oppekavad/kirjandus-ja-teatriteadus",
+        "spotifyPath": "https://open.spotify.com/embed/episode/17u87ivj9oNNE9sKmZ440V",
         "personnel": [
             {
                 "name": "Hedi-Liis Toome",
@@ -5620,7 +5646,7 @@
                 "term": "Erialakatse koosneb kahest osast: kirjalik osa ja intervjuu. \n\nKirjalik erialakatse selgitab sisseastuja erialatundmist ja intervjuu motivatsiooni antud erialal õppida. Intervjuu toimub kirjaliku erialakatse põhjal. Kirjalik osa ja intervjuu toimuvad eraldi igal magistriõppe erialal. Tekstianalüüsiks on aega 45 minutit. \n\n**1) Eesti kirjanduse eriala** \n\n**Kirjalik teoseanalüüs:** ühe emakeelse ilukirjandusliku teksti sisu ja vormi analüütiline tõlgendamine. \n\nKirjandus: Eesti kirjanduslugu. Tallinn, 2001; A. Merilai, A. Saro, E. Annus, Poeetika. Tartu, 2007. \n\n**Intervjuu:** käsitletakse kirjalikku teoseanalüüsi, kirjandusteaduse aktuaalseid küsimusi ja üliõpilaskandidaadi erialast motiveeritust. \n\n**2) Maailmakirjanduse eriala** \n\n**Kirjalik teoseanalüüs:** sisseastuja saab kohapeal katkendid kahest kirjandusteosest, mille poeetikat tal tuleb võrrelda. \n\nKirjandus: J. Talvet, P. Torop, J. Unt, Maailmakirjandus I. Antiikajast valgustuseni. Tallinn, 2001; Maailmakirjandus II. Romantismist postmodernismini (koostanud J. Talvet). Tallinn, 1999. \n\n**Intervjuu:** käsitletakse kirjalikku teoseanalüüsi, kirjandusteaduse aktuaalseid küsimusi ja üliõpilaskandidaadi erialast motiveeritust. \n\n**3) Teatriteaduse eriala** \n\n**Kirjalik teoseanalüüs:** kohapeal vaadatud lavastuse videokatkendi analüüs, mis hõlmab ka lavastuse teatriloolist konteksti. \n\nTeoreetiline kirjandus: Riina Oruaas, Etendusanalüüs. Rmt: Etenduskunstide uurimismeetodid. Kõrgkooliõpik. Tartu, 2022, https://sisu.ut.ee/etenduskunstid/book/etendusanalüüs \n\n**Intervjuu:** käsitletakse analüüsitud videokatkendit, selle põhjal kirjutatud esseed, eesti teatri ja teatriteaduse aktuaalseid küsimusi ning üliõpilaskandidaadi teatriteaduslikke huvisid ja motiveeritust. \n\n**Hindamine** \n\nKirjaliku erialakatse hindamisel võetakse arvesse: \n\n**1.** teksti poeetika mõistmist \n**2.** suulist ja kirjalikku argumenteerimisoskust \n**3.** filoloogilisi ja humanitaarseid teadmisi \n**4.** loomingulist mõtlemist \n**5.** analüüsi- ja üldistusvõimet. \n\nErialakatse annab maksimaalselt 100 punkti. Kandideerimiseks vajalik miinimum on 66 punkti."
             }
         ],
-        "name": "Kirjandus ja teatriteadus",
+        "name": "Kirjandus- ja teatriteadus",
         "curriculumRef": "https://ois2.ut.ee/api/curricula/2554",
         "cost": {
             "amount": 0,
@@ -5769,6 +5795,7 @@
         "eap": 120,
         "spots": 25,
         "majorWebsite": "https://ut.ee/et/oppekavad/kultuurikorraldus-0",
+        "spotifyPath": "https://open.spotify.com/embed/episode/5PgxMY2VVPvwbzei5HmbeJ",
         "personnel": [
             {
                 "name": "Jana Reidla",
@@ -6127,6 +6154,7 @@
         "eap": 120,
         "spots": 15,
         "majorWebsite": "https://ut.ee/et/oppekavad/materjaliteadus-ja-tehnoloogia",
+        "videoId": "9QSKHkXFCtQ",
         "personnel": [
             {
                 "name": "Hele Siimon",
@@ -6436,6 +6464,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/persoonibrandipohine-ettevotlus",
+        "videoId": "sjZjsgFhST0",
         "personnel": [
             {
                 "name": "Riina Tomast",
@@ -6887,6 +6916,7 @@
         "eap": 120,
         "spots": 18,
         "majorWebsite": "https://ut.ee/et/oppekavad/religiooniuuringud-ja-teoloogia-0",
+        "spotifyPath": "https://open.spotify.com/embed/episode/2U2P0gJm7kwAI3VEz0ggqJ",
         "personnel": [
             {
                 "name": "Ain Riistan",
@@ -6986,6 +7016,7 @@
         "eap": 120,
         "spots": 10,
         "majorWebsite": "https://ut.ee/et/oppekavad/semiootika-ja-kultuuriteooria-0",
+        "spotifyPath": "https://open.spotify.com/embed/episode/1VLl2R2kOJz8yA9AwQPAv9",
         "personnel": [
             {
                 "name": "Tiit Remm",
@@ -7038,6 +7069,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/strateegiline-juhtimine",
+        "videoId": "FetIqYyChrw",
         "personnel": [
             {
                 "name": "Krista Jaakson",
@@ -7181,6 +7213,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/teenuste-disain-ja-juhtimine",
+        "videoId": "oxw0hPE69sA",
         "personnel": [
             {
                 "name": "Gerda Mihhailova",
@@ -7232,6 +7265,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://ut.ee/et/oppekavad/tolkeopetus",
+        "spotifyPath": "https://open.spotify.com/embed/episode/79Js6nCvGSFBMdpWSlL7Om",
         "personnel": [
             {
                 "name": "Sirje Kupp-Sazonov",
@@ -7386,6 +7420,7 @@
         "eap": 120,
         "spots": 33,
         "majorWebsite": "https://ut.ee/et/oppekavad/voorkeeleopetaja",
+        "spotifyPath": "https://open.spotify.com/embed/episode/42keehs4lLSAKCcXwkOuWV",
         "personnel": [
             {
                 "name": "Anu Treikelder",

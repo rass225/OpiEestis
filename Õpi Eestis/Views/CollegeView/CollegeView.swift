@@ -4,7 +4,7 @@ import MapKit
 struct CollegeView: View {
     @EnvironmentObject var appState: AppState
     @StateObject var model: Model
-    
+
     var body: some View {
         ScrollViewReader { scrollView in
             List {
@@ -28,6 +28,15 @@ struct CollegeView: View {
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
+        .sheet(item: $model.webLink) { webLink in
+            WebView(urlString: webLink.link)
+                .maxSize()
+                .ignoreEdges(edge: .bottom)
+                .presentationDragIndicator(.visible)
+                .presentationCornerRadius(16)
+                .presentationDetents([.fraction(0.85)])
+                .presentationBackground(.ultraThickMaterial)
+        }
     }
 }
 
@@ -104,6 +113,22 @@ extension CollegeView {
         .tabViewStyle(.page(indexDisplayMode: .always))
         .indexViewStyle(.page(backgroundDisplayMode: .always))
         .listRowInsets(.zero)
+        if let virtualTourUrlString = model.college.virtualTourLink {
+            HStack {
+                Text("Virtuaaltuur")
+                    .setFont(.subheadline, .medium, .rounded)
+                Spacer()
+                Image(systemName: "play.circle")
+                    .setFont(.title2, .regular, .rounded)
+            }
+            .setColor(.white)
+            .padding(.vertical, 6)
+                .listRowBackground(Rectangle().fill(model.college.palette.base.gradient))
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    model.webLink = .init(link: virtualTourUrlString)
+                }
+        }
     }
     
     @ViewBuilder
@@ -237,5 +262,36 @@ struct ViewOffsetKey: PreferenceKey {
     static var defaultValue: CGFloat = 0
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value += nextValue()
+    }
+}
+
+import WebKit
+
+struct WebView: UIViewRepresentable {
+    let urlString: String
+
+    func makeUIView(context: Context) -> WKWebView {
+        let webView = WKWebView()
+        webView.navigationDelegate = context.coordinator
+        return webView
+    }
+
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        if let url = URL(string: urlString) {
+            let request = URLRequest(url: url)
+            uiView.load(request)
+        }
+    }
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+
+    class Coordinator: NSObject, WKNavigationDelegate {
+        var parent: WebView
+
+        init(_ parent: WebView) {
+            self.parent = parent
+        }
     }
 }

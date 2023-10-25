@@ -60,6 +60,22 @@ private extension CollegeMajorView {
                         .listRowInsets(.zero)
                 }
             }
+            if let vimeoId = model.major.vimeoId {
+                Section {
+                    VimeoView(videoID: vimeoId, color: model.college.palette.base)
+                        .frame(height: 256)
+                        .listRowInsets(.zero)
+                        .listRowBackground(Color.clear)
+                }
+            }
+            if let spotifyPath = model.major.spotifyPath {
+                Section {
+                    SpotifyView(urlString: spotifyPath)
+                        .frame(height: 232)
+                        .listRowInsets(.zero)
+                        .listRowBackground(Color.clear)
+                }
+            }
             Section(content: descriptionContent, header: descriptionHeader)
                 .listRowSeparator(.hidden)
             locationsContent()

@@ -755,13 +755,16 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Muusikakuulamise test** \n\nMuusikakuulamise test on osa heliloomingu ja muusikatehnoloogia õppekava (klassikaline helilooming, elektroakustiline looming, audiovisuaalne looming ja helirežii) erialasest sisseastumiseksamist. Selle käigus esitatakse üliõpilaskandidaatidele lühikesi lõike (ca 1 minut) erinevate ajastute muusikast. Kuulamise põhjal tuleb määrata ajastu/stiil, helilooja ning teose pealkiri. Muusikakuulamise testi tulemus ei kajastu eraldi skoorina, vaid seda arvestatakse eriala eksami lõplikus punktisummas."
+                "header": "Muusikakuulamise test",
+                "term": "Muusikakuulamise test on osa heliloomingu ja muusikatehnoloogia õppekava (klassikaline helilooming, elektroakustiline looming, audiovisuaalne looming ja helirežii) erialasest sisseastumiseksamist. Selle käigus esitatakse üliõpilaskandidaatidele lühikesi lõike (ca 1 minut) erinevate ajastute muusikast. Kuulamise põhjal tuleb määrata ajastu/stiil, helilooja ning teose pealkiri. Muusikakuulamise testi tulemus ei kajastu eraldi skoorina, vaid seda arvestatakse eriala eksami lõplikus punktisummas."
             },
             {
-                "term": "**Eriala** \n\nÜliõpilaskandidaat peab: \n\n**Helilooming** \n\n**•** esitama vähemalt 2 omaloomingulist teost (nooditekst koos elava esituse või salvestisega), mis tõendaksid heade loominguliste eelduste olemasolu ja kompositsioonilist vilumust (laulud, klaveripalad vm väikevormis teosed) \n\n**•** orienteeruma erinevate ajastute muusikas (kuulamistest) \n\n**•** improviseerima klaveril (või muul instrumendil) antud teemal \n\n**•** esitama klaveril 3 teost vabal valikul (kontrollitakse klaverimänguoskuse taset) \n\n**•** lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfolio varasemast loomingust \n\n**Helirežii** \n\n**•** esitama heliloomingu ja helirežii vallas vähemalt 2 omaloomingulist tööd (esitada helisalvestisena, kokku ~10 min) \n\n**•** orienteeruma erinevate ajastute muusikas (kuulamistest) \n\n**•** eristama helisalvestiste helitehnilisi iseärasusi (kuulamistest) \n\n**•** lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama nimekirja varasematest loomingulistest töödest \n\n**Elektroakustiline looming** \n\n**•** Esitama vähemalt 2 omaloomingulist elektroakustilist kompositsiooni (kokku ~10 min) helifailide ja/või elavate ettekannetena, samuti on oodatud partituurid. \n\n**•** Orienteeruma erinevate ajastute muusikas (kuulamistest). \n\n**•** Lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfolio varasemast loomingust. \n\n**Audiovisuaalne looming** \n\n**•** Üliõpilaskandidaat peab tutvustama oma audiovisuaalseid kompositsioone (elava esituse või salvestisena, kokku ~ 15 min); \n\n**•** looma 24 tunni jooksul audiovisuaalse lühiteose kasutades sealhulgas ette antud heli- ja videomaterjali; \n\n**•** lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfoolio varasemast loomingust."
+                "header": "Eriala",
+                "term": "Üliõpilaskandidaat peab: \n\n**Helilooming** \n\n**•** esitama vähemalt 2 omaloomingulist teost (nooditekst koos elava esituse või salvestisega), mis tõendaksid heade loominguliste eelduste olemasolu ja kompositsioonilist vilumust (laulud, klaveripalad vm väikevormis teosed) \n\n**•** orienteeruma erinevate ajastute muusikas (kuulamistest) \n\n**•** improviseerima klaveril (või muul instrumendil) antud teemal \n\n**•** esitama klaveril 3 teost vabal valikul (kontrollitakse klaverimänguoskuse taset) \n\n**•** lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfolio varasemast loomingust \n\n**Helirežii** \n\n**•** esitama heliloomingu ja helirežii vallas vähemalt 2 omaloomingulist tööd (esitada helisalvestisena, kokku ~10 min) \n\n**•** orienteeruma erinevate ajastute muusikas (kuulamistest) \n\n**•** eristama helisalvestiste helitehnilisi iseärasusi (kuulamistest) \n\n**•** lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama nimekirja varasematest loomingulistest töödest \n\n**Elektroakustiline looming** \n\n**•** Esitama vähemalt 2 omaloomingulist elektroakustilist kompositsiooni (kokku ~10 min) helifailide ja/või elavate ettekannetena, samuti on oodatud partituurid. \n\n**•** Orienteeruma erinevate ajastute muusikas (kuulamistest). \n\n**•** Lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfolio varasemast loomingust. \n\n**Audiovisuaalne looming** \n\n**•** Üliõpilaskandidaat peab tutvustama oma audiovisuaalseid kompositsioone (elava esituse või salvestisena, kokku ~ 15 min); \n\n**•** looma 24 tunni jooksul audiovisuaalse lühiteose kasutades sealhulgas ette antud heli- ja videomaterjali; \n\n**•** lisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfoolio varasemast loomingust."
             },
             {
-                "term": "**Muusikateooria test** \n\n[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
+                "header": "Muusikateooria test",
+                "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
         "name": "Helilooming ja muusikatehnoloogia",
@@ -1697,6 +1700,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/muusikateadus/",
+        "videoId": "dkJtoA6miMI",
         "personnel": [
             {
                 "name": "Toomas Siitan",
@@ -2431,10 +2435,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala** \n\nEksam toimub kahel päeval ning koosneb järgmistest komponentidest: \n\n**•** essee muusikat puudutaval teemal (kirjutatakse kohapeal, teema annab eksamikomisjon) \n\n**•** pillimängu- ja noodilugemisoskuse kontroll (valmistada ette kaks jõukohase raskusastmega teost klaveril, mõnel muul pillil või lauldes, noodilugemisoskuse kontroll toimub klaveril või lauldes) \n\n**•** vestlus \n\nSisseastujail palutakse eksamile kaasa võtta oma varasemad muusikaalased kirjutised, samuti pill, kui mänguoskust soovitakse näidata mõnel teisel instrumendil peale klaveri. \n\n**Eksamikomisjon hindab ja arvestab:** \n\n**•** sõnalise väljenduse ladusust ning lugemuse ja kultuurikogemuse peegeldumist kirjalikus essees ja suulises vestluses; \n\n**•** orienteerumist muusikaelus ja erinevates muusikastiilides; \n\n**•** musitseerimise ja noodilugemisoskuse puhul esituse ladusust ja väljenduslikkust, samuti soorituse adekvaatsust võrreldes kandidaadi eelneva muusikalise hariduse nõuetega."
+                "header": "Eriala",
+                "term": "Eksam toimub kahel päeval ning koosneb järgmistest komponentidest: \n\n**•** essee muusikat puudutaval teemal (kirjutatakse kohapeal, teema annab eksamikomisjon) \n\n**•** pillimängu- ja noodilugemisoskuse kontroll (valmistada ette kaks jõukohase raskusastmega teost klaveril, mõnel muul pillil või lauldes, noodilugemisoskuse kontroll toimub klaveril või lauldes) \n\n**•** vestlus \n\nSisseastujail palutakse eksamile kaasa võtta oma varasemad muusikaalased kirjutised, samuti pill, kui mänguoskust soovitakse näidata mõnel teisel instrumendil peale klaveri. \n\n**Eksamikomisjon hindab ja arvestab:** \n\n**•** sõnalise väljenduse ladusust ning lugemuse ja kultuurikogemuse peegeldumist kirjalikus essees ja suulises vestluses; \n\n**•** orienteerumist muusikaelus ja erinevates muusikastiilides; \n\n**•** musitseerimise ja noodilugemisoskuse puhul esituse ladusust ja väljenduslikkust, samuti soorituse adekvaatsust võrreldes kandidaadi eelneva muusikalise hariduse nõuetega."
             },
             {
-                "term": "**Muusikateooria** \n\n[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. Muusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. Paremusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
+                "header": "Muusikateooria",
+                "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. Muusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. Paremusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
         "name": "Muusikateadus ning muusikauuringud ja -korraldus",
@@ -2454,6 +2460,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/muusikapedagoogika/",
+        "videoId": "GwP-WR9Xlq8",
         "type": "Muusika ja Teatrikunstid",
         "studyType": "päevaõpe",
         "personnel": [
@@ -3237,10 +3244,16 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**KOORIMUUSIKA SPETSIALISEERUMINE** \n\nEriala eksam koosneb järgmistest komponentidest: \n\n**•** laulmine ja klaverisaade – üliõpilaskandidaat \n\n**•** pillimänguoskuse kontroll – üliõpilaskandidaat esitab peast ühe klassikalisest repertuaarist pärit pala klaveril \n\n**•** vestlus, milles üliõpilaskandidaat demonstreerib oma eeldusi töötamiseks õpetajana ning oskusi arutleda muusika ja hariduse üldistel teemadel (küsimused tuginevad põhiliselt gümnaasiumi muusika aines õpitule, kuid eeldatakse ka algteadmisi koori- ja koolimuusika vallas ning Eesti muusikaeluga kursis olemist). \n\n\n**RÜTMIMUUSIKA SPETSIALISEERUMINE** \n\nEriala eksam koosneb järgmistest komponentidest: \n\n**•** Laulmine ja klaverisaade – üliõpilaskandidaat: \n\n**•** Vestlus, milles üliõpilaskandidaat demonstreerib oma eeldusi töötamiseks õpetajana ning oskusi arutleda muusika ja hariduse üldistel teemadel (küsimused tuginevad põhiliselt gümnaasiumi muusika aines õpitule, kuid eeldatakse ka algteadmisi rütmimuusika stiilide, koosseisude ja koolimuusika vallas ning Eesti muusikaeluga kursis olemist)."
+                "header": "Koorimuusika spetsialiseerumine",
+                "term": "Eriala eksam koosneb järgmistest komponentidest: \n\n**•** laulmine ja klaverisaade – üliõpilaskandidaat \n\n**•** pillimänguoskuse kontroll – üliõpilaskandidaat esitab peast ühe klassikalisest repertuaarist pärit pala klaveril \n\n**•** vestlus, milles üliõpilaskandidaat demonstreerib oma eeldusi töötamiseks õpetajana ning oskusi arutleda muusika ja hariduse üldistel teemadel (küsimused tuginevad põhiliselt gümnaasiumi muusika aines õpitule, kuid eeldatakse ka algteadmisi koori- ja koolimuusika vallas ning Eesti muusikaeluga kursis olemist)."
             },
             {
-                "term": "**Muusikateooria** \n\n[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. Muusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. Paremusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
+                "header": "Rütmimuusika spetsialiseerumine",
+                "term": "Eriala eksam koosneb järgmistest komponentidest: \n\n**•** Laulmine ja klaverisaade – üliõpilaskandidaat: \n\n**•** Vestlus, milles üliõpilaskandidaat demonstreerib oma eeldusi töötamiseks õpetajana ning oskusi arutleda muusika ja hariduse üldistel teemadel (küsimused tuginevad põhiliselt gümnaasiumi muusika aines õpitule, kuid eeldatakse ka algteadmisi rütmimuusika stiilide, koosseisude ja koolimuusika vallas ning Eesti muusikaeluga kursis olemist)."
+            },
+            {
+                "header": "Muusikateooria",
+                "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. Muusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. Paremusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
         "name": "Muusikapedagoogika",
@@ -3262,73 +3275,6 @@
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/interpretatsioonipedagoogika/",
         "type": "Muusika ja Teatrikunstid",
         "studyType": "päevaõpe",
-        "personnel": [
-            {
-                "name": "Lembit Orgse",
-                "title": "Interpretatsioonipedagoogika õppejuht, varase klahvpillimuusika professor",
-                "email": "lembit.orgse@eamt.ee",
-                "phone": "+3726675734",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/mg_0974_1_Viktor-Koshkin-copy-scaled-e1599730950468-1024x902.jpg"
-            },
-            {
-                "name": "Mirjam Kerem",
-                "title": "Viiulipedagoogika vanemlektor",
-                "email": "mirjam.kerem@eamt.ee"
-            },
-            {
-                "name": "Marja Jürisson",
-                "title": "Klaveripedagoogika lektor",
-                "email": "marja.jurisson@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Marja-Ju%CC%88risson-2-scaled-e1601114357667.jpg"
-            },
-            {
-                "name": "Irene Kabonen",
-                "title": "Vokaalpedagoogika lektor",
-                "email": "irene.kabonen@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Kabonen-1024x1418.jpg"
-            },
-            {
-                "name": "Katrin Talmar",
-                "title": "Viiulipedagoogika lektor",
-                "email": "katrin.talmar@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Katrin-Talmar_Foto-Klassikaraadio.jpg"
-            },
-            {
-                "name": "Niina Murdvee",
-                "title": "Viiulipedagoogika emeriitdotsent",
-                "email": "niina.murdvee@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Niina-Murdvee-1-e1600927998321-1024x815.jpg"
-            },
-            {
-                "name": "Lauri Jõeleht",
-                "title": "Kitarripedagoogika tunnitasuline külalisõppejõud",
-                "email": "lauri.joeleht@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Lauri-Jo%CC%83elehtf_KK_00211-1_foto-Kaupo-Kikkas-e1611645908214-1024x1032.jpg"
-            },
-            {
-                "name": "Mart Laas",
-                "title": "Tšello ja tšellopedagoogika vanemlektor",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Mart-Laas_foto-ajakiri-Muusika-scaled-e1601113557731-1024x676.jpg"
-            },
-            {
-                "name": "Kristi Mühling",
-                "title": "Kandle ja kandlepedagoogika tunnitasuline külalisõppejõud",
-                "email": "kristi.muhling@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Kristi_Mu%CC%88hling-1.jpg"
-            },
-            {
-                "name": "Jekaterina Rostovtseva",
-                "title": "Klaveripedagoogika tunnitasuline külalisõppejõud",
-                "email": "jekaterina.rostovtseva@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Rostovtseva.jpg"
-            },
-            {
-                "name": "Tiina Välja",
-                "title": "Akordionipedagoogika tunnitasuline külalisõppejõud",
-                "email": "tiina.valja@eamt.ee",
-                "photo": "https://eamt.ee/wp-content/uploads/2020/09/T.Va%CC%88lja-konkursi-zu%CC%88riis-1-e1645451628255.jpg"
-            }
-        ],
         "modules": [
             {
                 "name": "Erialased õpingud",
@@ -3913,6 +3859,73 @@
                 ]
             }
         ],
+        "personnel": [
+            {
+                "name": "Lembit Orgse",
+                "title": "Interpretatsioonipedagoogika õppejuht, varase klahvpillimuusika professor",
+                "email": "lembit.orgse@eamt.ee",
+                "phone": "+3726675734",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/mg_0974_1_Viktor-Koshkin-copy-scaled-e1599730950468-1024x902.jpg"
+            },
+            {
+                "name": "Mirjam Kerem",
+                "title": "Viiulipedagoogika vanemlektor",
+                "email": "mirjam.kerem@eamt.ee"
+            },
+            {
+                "name": "Marja Jürisson",
+                "title": "Klaveripedagoogika lektor",
+                "email": "marja.jurisson@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Marja-Ju%CC%88risson-2-scaled-e1601114357667.jpg"
+            },
+            {
+                "name": "Irene Kabonen",
+                "title": "Vokaalpedagoogika lektor",
+                "email": "irene.kabonen@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Kabonen-1024x1418.jpg"
+            },
+            {
+                "name": "Katrin Talmar",
+                "title": "Viiulipedagoogika lektor",
+                "email": "katrin.talmar@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Katrin-Talmar_Foto-Klassikaraadio.jpg"
+            },
+            {
+                "name": "Niina Murdvee",
+                "title": "Viiulipedagoogika emeriitdotsent",
+                "email": "niina.murdvee@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Niina-Murdvee-1-e1600927998321-1024x815.jpg"
+            },
+            {
+                "name": "Lauri Jõeleht",
+                "title": "Kitarripedagoogika tunnitasuline külalisõppejõud",
+                "email": "lauri.joeleht@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Lauri-Jo%CC%83elehtf_KK_00211-1_foto-Kaupo-Kikkas-e1611645908214-1024x1032.jpg"
+            },
+            {
+                "name": "Mart Laas",
+                "title": "Tšello ja tšellopedagoogika vanemlektor",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Mart-Laas_foto-ajakiri-Muusika-scaled-e1601113557731-1024x676.jpg"
+            },
+            {
+                "name": "Kristi Mühling",
+                "title": "Kandle ja kandlepedagoogika tunnitasuline külalisõppejõud",
+                "email": "kristi.muhling@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Kristi_Mu%CC%88hling-1.jpg"
+            },
+            {
+                "name": "Jekaterina Rostovtseva",
+                "title": "Klaveripedagoogika tunnitasuline külalisõppejõud",
+                "email": "jekaterina.rostovtseva@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/Rostovtseva.jpg"
+            },
+            {
+                "name": "Tiina Välja",
+                "title": "Akordionipedagoogika tunnitasuline külalisõppejõud",
+                "email": "tiina.valja@eamt.ee",
+                "photo": "https://eamt.ee/wp-content/uploads/2020/09/T.Va%CC%88lja-konkursi-zu%CC%88riis-1-e1645451628255.jpg"
+            }
+        ],
         "level": "bakalaureus",
         "outcomes": [
             "Õppekava täies mahus läbinud üliõpilane:",
@@ -3930,13 +3943,16 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala** \n\nÜliõpilaskandidaat peab peast esitama alltoodud nõuetele ja kandidaadi võimetele vastava kava. \n\n**klaver** \n\n**•** polüfooniline teos (soovitavalt originaalis) \n**•** suurvorm (ulatusliku sonaadi või kontserdi puhul võib esitada I või II+III osa) \n**•** etüüd \n\n**klavessiin** \n\n**•** 2 sonaati (D. Scarlatti) \n**•** 2 väikevormis teost (J. S. Bach või 16.-18. saj tantsud) \n\n**akordion** \n\n**•** polüfooniline teos \n**•** tehniline pala või etüüd \n**•** teos vabal valikul \n\n**viiul** \n\n**•** etüüd \n**•** 2 osa J. S. Bachi või G. Ph. Telemanni sonaadist või partiitast sooloviiulile \n**•** I või II+III osa kontserdist \n**•** pala \n\n**altviiul (vioola)** \n\n**•** etüüd \n**•** 1 osa J. S. Bachi sonaadist või partiitast sooloviiulile või soolotšellole \n**•** 1 osa kontserdist või sonaadist \n**•** pala \n\n**tšello** \n\n**•** etüüd \n**•** 2 osa J. S. Bachi partiitast soolotšellole \n**•** 1 osa kontserdist või klassikalisest sonaadist \n**•** pala \n\n**kontrabass** \n\n**•** etüüd \n**•** keskmise raskusastmega teos \n\n**kitarr** \n\n**•** etüüd \n**•** suurvorm klassikalisest kitarrimuusikast \n**•** karakterpala \n\n**kannel** \n\n**•** 2 teost vabal valikul \n**•** tehniline pala või etüüd \n\n**Puhkpill (v.a plokkflööt)** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** suurvorm (I või II+III osa kontserdist või sonaadist) \n**•** pala \n\n**sopranplokkflööt:** \n\n**•** Jacob van Eycki variatsioonid kogumikust “Der Fluyten Lust-hof” või pala kaasaegsest repertuaarist või estampie. \n\n**altplokkflööt:** \n\n**•** vähemalt 2 erineva karakteriga osa prantsuse stiilis barokksüidist või -sonaadist; \n**•** vähemalt 2 erineva karakteriga osa itaalia stiilis barokksonaadist. \n\n**Jazzmuusika** \n\n**•** kaks improvisatsiooni sisaldavat pala ansambli saatel (kestus ~10 min). EMTA ei garanteeri sisseastujale saateansamblit. Interpretatsioonipedagoogika (jazzmuusika) sisseastumiseksamil toimuvad eriala, kollokvium ja muusikateooria katse järjest ning samale eksamikomisjonile."
+                "header": "Eriala",
+                "term": "Üliõpilaskandidaat peab peast esitama alltoodud nõuetele ja kandidaadi võimetele vastava kava. \n\n**klaver** \n\n**•** polüfooniline teos (soovitavalt originaalis) \n**•** suurvorm (ulatusliku sonaadi või kontserdi puhul võib esitada I või II+III osa) \n**•** etüüd \n\n**klavessiin** \n\n**•** 2 sonaati (D. Scarlatti) \n**•** 2 väikevormis teost (J. S. Bach või 16.-18. saj tantsud) \n\n**akordion** \n\n**•** polüfooniline teos \n**•** tehniline pala või etüüd \n**•** teos vabal valikul \n\n**viiul** \n\n**•** etüüd \n**•** 2 osa J. S. Bachi või G. Ph. Telemanni sonaadist või partiitast sooloviiulile \n**•** I või II+III osa kontserdist \n**•** pala \n\n**altviiul (vioola)** \n\n**•** etüüd \n**•** 1 osa J. S. Bachi sonaadist või partiitast sooloviiulile või soolotšellole \n**•** 1 osa kontserdist või sonaadist \n**•** pala \n\n**tšello** \n\n**•** etüüd \n**•** 2 osa J. S. Bachi partiitast soolotšellole \n**•** 1 osa kontserdist või klassikalisest sonaadist \n**•** pala \n\n**kontrabass** \n\n**•** etüüd \n**•** keskmise raskusastmega teos \n\n**kitarr** \n\n**•** etüüd \n**•** suurvorm klassikalisest kitarrimuusikast \n**•** karakterpala \n\n**kannel** \n\n**•** 2 teost vabal valikul \n**•** tehniline pala või etüüd \n\n**Puhkpill (v.a plokkflööt)** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** suurvorm (I või II+III osa kontserdist või sonaadist) \n**•** pala \n\n**sopranplokkflööt:** \n\n**•** Jacob van Eycki variatsioonid kogumikust “Der Fluyten Lust-hof” või pala kaasaegsest repertuaarist või estampie. \n\n**altplokkflööt:** \n\n**•** vähemalt 2 erineva karakteriga osa prantsuse stiilis barokksüidist või -sonaadist; \n**•** vähemalt 2 erineva karakteriga osa itaalia stiilis barokksonaadist. \n\n**Jazzmuusika** \n\n**•** kaks improvisatsiooni sisaldavat pala ansambli saatel (kestus ~10 min). EMTA ei garanteeri sisseastujale saateansamblit. Interpretatsioonipedagoogika (jazzmuusika) sisseastumiseksamil toimuvad eriala, kollokvium ja muusikateooria katse järjest ning samale eksamikomisjonile."
             },
             {
-                "term": "**Kollokvium** \n\nEksamikomisjon kontrollib suulise vestluse (kollokviumi) käigus kandidaadi teadmisi kitsamas erialavaldkonnas, orienteerumist üldkultuurilistes küsimustes ning eeldusi pedagoogiliseks tööks."
+                "header": "Kollokvium",
+                "term": "Eksamikomisjon kontrollib suulise vestluse (kollokviumi) käigus kandidaadi teadmisi kitsamas erialavaldkonnas, orienteerumist üldkultuurilistes küsimustes ning eeldusi pedagoogiliseks tööks."
             },
             {
-                "term": "**Muusikateooria** \n\nMuusikateooria katsest lähemalt (klahvpillid, keelpillid, puhkpillid) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. Muusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. Paremusjärjestuse koostamisel muusikateooria katse punkte ei arvestata. \n\n**Muusikateooria katse (jazzmuusika)** \n\n**•** Lugeda noodist prima vista (kestus ~3 min) \n**•** Sooritada kuulamise ja järgimängimise test (kestus ~10 min) \n**•** Mängida klaveril noodist prima vista lihtne akordijärgnevus (M7, 7, m7) kuni kahe võtmemärgiga helistikus (kestus ~3 min)"
+                "header": "Muusikateooria",
+                "term": "Muusikateooria katsest lähemalt (klahvpillid, keelpillid, puhkpillid) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. Muusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. Paremusjärjestuse koostamisel muusikateooria katse punkte ei arvestata. \n\n**Muusikateooria katse (jazzmuusika)** \n\n**•** Lugeda noodist prima vista (kestus ~3 min) \n**•** Sooritada kuulamise ja järgimängimise test (kestus ~10 min) \n**•** Mängida klaveril noodist prima vista lihtne akordijärgnevus (M7, 7, m7) kuni kahe võtmemärgiga helistikus (kestus ~3 min)"
             }
         ],
         "name": "Interpretatsioonipedagoogika",
@@ -3956,6 +3972,7 @@
         "eap": 240,
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/lavakunsti-osakond/lavakunst/",
+        "vimeoId": "674792052",
         "personnel": [
             {
                 "name": "Mart Koldits",
@@ -4432,7 +4449,10 @@
         "language": "eesti keel",
         "duration": 4,
         "requirements": [
-            
+            {
+                "header": "Vastuvõtt näitleja õppesuunale toimub igal teisel aastal, lavastaja ja dramaturgi õppesuundadele igal neljandal aastal.",
+                "term": "Järgmised bakalaureusevastuvõtud: \n\n**1.** 2024 – Näitleja õppesuund \n\n**2.** 2026 – Näitleja õppesuund, lavastaja õppesuund, dramaturgi õppesuund \n\n**3.** 2028 – Näitleja õppesuund"
+            }
         ],
         "name": "Lavakunst",
         "cost": {
@@ -5451,10 +5471,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala** \n\nEsitada järgmine kava: \n\n**Klaver (kava tuleb esitada peast)** \n\n**•** polüfooniline teos (soovitavalt originaalis) \n**•** suurvorm (ulatusliku sonaadi või kontserdi puhul võib esitada 1. või 2. ja 3. osa) \n**•** virtuoosne etüüd \n\n**Orel (kava on lubatud esitada noodist)** \n\n**•** J. S. Bachi eelse helilooja teos \n**•** J. S. Bachi teos \n**•** romantismiajastu teos \n\nLisaks peab üliõpilaskandidaat: \n**•** harmoniseerima antud meloodia \n**•** improviseerima jätku antud 4-taktilisele teemale \n**•** lugema noodist prima vista \n\n**Klavessiin (kava on lubatud esitada noodist)** \n\n**•** suurvorm (süit, sonaat, kontsert) \n**•** 2 erinevas stiilis teost (prantsuse, itaalia, inglise jt) \n\nÜliõpilaskandidaat peab tundma numbribassi ja mängima etteantud teose \n\n**Akordion (kava tuleb esitada peast)** \n\n**•** polüfooniline teos \n**•** suurvorm või selle osa \n**•** karakterpala \n\nKava peab sisaldama erinevates stiilides ja erineva karakteriga teoseid, millest vähemalt üks on kirjutatud originaalis akordionile."
+                "header": "Eriala",
+                "term": "Esitada järgmine kava: \n\n**Klaver (kava tuleb esitada peast)** \n\n**•** polüfooniline teos (soovitavalt originaalis) \n**•** suurvorm (ulatusliku sonaadi või kontserdi puhul võib esitada 1. või 2. ja 3. osa) \n**•** virtuoosne etüüd \n\n**Orel (kava on lubatud esitada noodist)** \n\n**•** J. S. Bachi eelse helilooja teos \n**•** J. S. Bachi teos \n**•** romantismiajastu teos \n\nLisaks peab üliõpilaskandidaat: \n**•** harmoniseerima antud meloodia \n**•** improviseerima jätku antud 4-taktilisele teemale \n**•** lugema noodist prima vista \n\n**Klavessiin (kava on lubatud esitada noodist)** \n\n**•** suurvorm (süit, sonaat, kontsert) \n**•** 2 erinevas stiilis teost (prantsuse, itaalia, inglise jt) \n\nÜliõpilaskandidaat peab tundma numbribassi ja mängima etteantud teose \n\n**Akordion (kava tuleb esitada peast)** \n\n**•** polüfooniline teos \n**•** suurvorm või selle osa \n**•** karakterpala \n\nKava peab sisaldama erinevates stiilides ja erineva karakteriga teoseid, millest vähemalt üks on kirjutatud originaalis akordionile."
             },
             {
-                "term": "**Muusikateooria** \n\n[Muusikateooria katsest lähemalt]() \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
+                "header": "Muusikateooria",
+                "term": "[Muusikateooria katsest lähemalt]() \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
         "name": "Klahvpillid",
@@ -6505,10 +6527,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala** \n\nEsitada peast järgmine kava: \n\n**Viiul** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa J. S. Bachi sonaadist või partiitast sooloviiulile \n**•** 1. või 2. ja 3. osa viiulikontserdist \n**•** pala \n\n**Vioola** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa J. S. Bachi sonaadist või partiitast sooloviiulile või süidist soolotšellole \n**•** 1. või 2. ja 3.  osa vioolakontserdist (nt. Walton, Telemann, Hoff  jt.) \n**•** pala \n\n**Tšello** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa J. S. Bachi tšellosüidist \n**•** 1. või 2. ja 3. osa tšellokontserdist \n**•** pala \n\n**Kontrabass** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa sonaadist (nt. Eccles, Marecello jt.) või Siemandli kontsertetüüd \n**•** pala \n\n**Harf** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** suurvorm (süit, variatsioonid, sonaat, kontserdi osa \n**•** pala \n\n**Klassikaline kitarr** \n\n**•** 2 erineva tehnikaga etüüdi (nt. Sor, Giuliani, Legnani, Brower, Villa-Lobos jt.) \n**•** 2 osa J. S. Bachi lautosüidist või mõne muu barokiajastu helilooja süidist \n**•** suurvorm (süit, variatsioonid, sonaat, kontserdi osa) \n\n**Kannel** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** pala"
+                "header": "Eriala",
+                "term": "Esitada peast järgmine kava: \n\n**Viiul** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa J. S. Bachi sonaadist või partiitast sooloviiulile \n**•** 1. või 2. ja 3. osa viiulikontserdist \n**•** pala \n\n**Vioola** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa J. S. Bachi sonaadist või partiitast sooloviiulile või süidist soolotšellole \n**•** 1. või 2. ja 3.  osa vioolakontserdist (nt. Walton, Telemann, Hoff  jt.) \n**•** pala \n\n**Tšello** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa J. S. Bachi tšellosüidist \n**•** 1. või 2. ja 3. osa tšellokontserdist \n**•** pala \n\n**Kontrabass** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** 2 osa sonaadist (nt. Eccles, Marecello jt.) või Siemandli kontsertetüüd \n**•** pala \n\n**Harf** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** suurvorm (süit, variatsioonid, sonaat, kontserdi osa \n**•** pala \n\n**Klassikaline kitarr** \n\n**•** 2 erineva tehnikaga etüüdi (nt. Sor, Giuliani, Legnani, Brower, Villa-Lobos jt.) \n**•** 2 osa J. S. Bachi lautosüidist või mõne muu barokiajastu helilooja süidist \n**•** suurvorm (süit, variatsioonid, sonaat, kontserdi osa) \n\n**Kannel** \n\n**•** 2 erineva tehnikaga etüüdi \n**•** pala"
             },
             {
-                "term": "**Muusikateooria** \n\n[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
+                "header": "Muusikateooria",
+                "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
         "name": "Keelpillid",
@@ -7551,9 +7575,11 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala** \n\nEsitada järgmine kava: \n\n**Puhkpillid** (kava on lubatud esitada noodist) \n\n**•** 1. või 2. ja 3. osa kontserdist või sonaadist \n**•** ulatuslikum teos sooloinstrumendile \n**•** 2 etüüdi \n\nÜliõpilaskandidaat peab oskama esitada kõiki heliredeleid koos kolmkõlade ja septakordidega. \n\n**Löökpillid** (kava on lubatud esitada noodist) \n\n**•** teos marimbale, vibrafonile või ksülofonile, saatega või ilma \n**•** 2 etüüdi väikesele trummile, millest üks on rudimentaalne (nt. Wilcoxoni soolod) \n**•** etüüd või pala timpanitele või pala multiperkussioonile \n\nÜliõpilaskandidaat peab oskama esitada kõiki heliredeleid koos kolmkõlade ja septakordidega (marimbafonil või vibrafonil)."
+                "header": "Eriala",
+                "term": "Esitada järgmine kava: \n\n**Puhkpillid** (kava on lubatud esitada noodist) \n\n**•** 1. või 2. ja 3. osa kontserdist või sonaadist \n**•** ulatuslikum teos sooloinstrumendile \n**•** 2 etüüdi \n\nÜliõpilaskandidaat peab oskama esitada kõiki heliredeleid koos kolmkõlade ja septakordidega. \n\n**Löökpillid** (kava on lubatud esitada noodist) \n\n**•** teos marimbale, vibrafonile või ksülofonile, saatega või ilma \n**•** 2 etüüdi väikesele trummile, millest üks on rudimentaalne (nt. Wilcoxoni soolod) \n**•** etüüd või pala timpanitele või pala multiperkussioonile \n\nÜliõpilaskandidaat peab oskama esitada kõiki heliredeleid koos kolmkõlade ja septakordidega (marimbafonil või vibrafonil)."
             },
             {
+                "header": "Muusikateooria katse",
                 "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
@@ -8603,9 +8629,11 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala** \n\nEsitada peast järgmine kava: \n\n**•** 2 aariat (üks 17.-18. saj. muusikast, teine vabal valikul) \n**•** 2 romanssi \n\nKava peab sisaldama teoseid vähemalt kahes erinevas keeles. Kava esitatakse originaalkeeles ja vastava hääleliigi kõrguses."
+                "header": "Eriala",
+                "term": "Esitada peast järgmine kava: \n\n**•** 2 aariat (üks 17.-18. saj. muusikast, teine vabal valikul) \n**•** 2 romanssi \n\nKava peab sisaldama teoseid vähemalt kahes erinevas keeles. Kava esitatakse originaalkeeles ja vastava hääleliigi kõrguses."
             },
             {
+                "header": "Muusikateooria katse",
                 "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
@@ -9629,9 +9657,11 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Eriala (kooridirigeerimine)** \n\nÜliõpilaskandidaat peab: \n\n**•** juhatama peast kahte erineva karakteriga kooriteost, millest üks võib olla klaverisaatega (üliõpilaskandidaat peab oskama neid peast juhatada ja a cappella kooriteost klaveril peast mängida) \n\n**•** suutma analüüsida eksamiks ettevalmistatud kooriteoseid (teksti ja muusika vahekord, muusikateoreetiline analüüs, teose ettekande motiveeritud plaan) \n\n**•** mängima klaveril võõrast kooriteost (ka neljalt noodirealt) \n\n**•** improviseerima saate vabalt valitud lastelaulule ning transponeerima seda sekundi piires üles ja alla \n\n**•** laulma vabalt valitud laulu (nt. rahvalaulu) kas saateta või ennast klaveril saates \n\n**•** esitama klaveril ühe polüfoonilise teose ja tehnilise pala või etüüdi \n\n**•** lugema lihtsamat klaveriteost noodist prima vista"
+                "header": "Eriala (kooridirigeerimine)",
+                "term": "Üliõpilaskandidaat peab: \n\n**•** juhatama peast kahte erineva karakteriga kooriteost, millest üks võib olla klaverisaatega (üliõpilaskandidaat peab oskama neid peast juhatada ja a cappella kooriteost klaveril peast mängida) \n\n**•** suutma analüüsida eksamiks ettevalmistatud kooriteoseid (teksti ja muusika vahekord, muusikateoreetiline analüüs, teose ettekande motiveeritud plaan) \n\n**•** mängima klaveril võõrast kooriteost (ka neljalt noodirealt) \n\n**•** improviseerima saate vabalt valitud lastelaulule ning transponeerima seda sekundi piires üles ja alla \n\n**•** laulma vabalt valitud laulu (nt. rahvalaulu) kas saateta või ennast klaveril saates \n\n**•** esitama klaveril ühe polüfoonilise teose ja tehnilise pala või etüüdi \n\n**•** lugema lihtsamat klaveriteost noodist prima vista"
             },
             {
+                "header": "Muusikateooria katse",
                 "term": "[Muusikateooria katsest lähemalt](https://eamt.ee/sisseastumine/muusikateooria-katse/) \n\nSisseastumiseksamit hinnatakse skaalal 0–10 punkti. Vastuvõtunõuete täitmiseks (eksami positiivseks tulemuseks) on vaja koguda vähemalt 5 punkti. \n\nMuusikateooria katset hinnatakse skaalal 0-5 punkti. Vastuvõtunõuete täitmiseks on katsel vaja koguda vähemalt 1 punkt. \n\nParemusjärjestuse koostamisel muusikateooria katse punkte ei arvestata."
             }
         ],
@@ -10378,16 +10408,20 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Helilooming** \n\nÜliõpilaskandidaat peab tutvustama oma helitöid (elava esituse või salvestisena, nõutav on ka nooditekst), mille hulgas peaks olema ulatuslik kammerteos ning instrumentaalsed või vokaalsed väikevormid (kokku ~ 15 min)"
+                "header": "Helilooming",
+                "term": "Üliõpilaskandidaat peab tutvustama oma helitöid (elava esituse või salvestisena, nõutav on ka nooditekst), mille hulgas peaks olema ulatuslik kammerteos ning instrumentaalsed või vokaalsed väikevormid (kokku ~ 15 min)"
             },
             {
-                "term": "**Helirežii** \n\nÜliõpilaskandidaat peab: \n\n**•** tutvustama näiteid oma mahukamatest helirežiialastest töödest (kokku ~10 min) koos kirjaliku selgitusega (helirežii eksplikatsioon), mille hulgas on akustilise muusika salvestis ja overdub tehnikas salvestis \n**•** esitama lisaks eksamikavale nimekirja oma varasematest olulisematest erialastest töödest."
+                "header": "Helirežii",
+                "term": "Üliõpilaskandidaat peab: \n\n**•** tutvustama näiteid oma mahukamatest helirežiialastest töödest (kokku ~10 min) koos kirjaliku selgitusega (helirežii eksplikatsioon), mille hulgas on akustilise muusika salvestis ja overdub tehnikas salvestis \n**•** esitama lisaks eksamikavale nimekirja oma varasematest olulisematest erialastest töödest."
             },
             {
-                "term": "**Elektroakustiline looming** \n\nÜliõpilaskandidaat peab tutvustama oma elektroakustilisi kompositsioone (elava esituse või salvestisena, kokku ~ 15 min) \n\nLisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfolio varasemast loomingust."
+                "header": "Elektroakustiline looming",
+                "term": "Üliõpilaskandidaat peab tutvustama oma elektroakustilisi kompositsioone (elava esituse või salvestisena, kokku ~ 15 min) \n\nLisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfolio varasemast loomingust."
             },
             {
-                "term": "**Audiovisuaalne looming** \n\nÜliõpilaskandidaat peab tutvustama oma audiovisuaalseid kompositsioone (elava esituse või salvestisena, kokku ~ 15 min). \n\nLisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfoolio varasemast loomingust."
+                "header": "Audiovisuaalne looming",
+                "term": "Üliõpilaskandidaat peab tutvustama oma audiovisuaalseid kompositsioone (elava esituse või salvestisena, kokku ~ 15 min). \n\nLisaks eksamil esitamisele tulevatele teostele peab kandidaat esitama portfoolio varasemast loomingust."
             }
         ],
         "name": "Helilooming ja muusikatehnoloogia",
@@ -12186,39 +12220,45 @@
         "studyType": "päevaõpe",
         "level": "magister",
         "outcomes": [
-            "omab teadmisi ja orienteerub uuendusliku heliloome ja interpretatsiooni valdkonnas, sealhulgas osaleb nüüdismuusikaelu uute suundumuste kujundamises ning tunneb põhjalikult üldisi loomeprotsesse ja iseenda töömeetodeid",
-            "tunneb heliloome ja interpretatsiooni valdkonnas esinevate keeruliste nähtuste, probleemide ja olukordade lahendamiseks kasutatavaid meetodeid ja protsesse;",
-            "omab teadmisi ja orienteerub uue meedia valdkonnas ning mõistab selle üldist ja muusikaga seotud kultuurikonteksti.",
-            "suudab väljakujundatud isikupäraseid väljendusvahendeid kasutades leida ja ellu viia loomingulisi ideid, iseseisvalt sõnastada ja lahendada kunstilisi ja loomingulisi probleeme ning tegeleda kõrgtasemel loominguliste ülesannetega, kasutades selleks sobivaid meetodeid ettenähtud aja jooksul ja jätkates sellega oma kunstilist arengut, ning hinnata oma sellealast tööd; ",
-            "oskab oma loomingut ja kunstilisi raskusi riigisisesel ja rahvusvahelisel tasandil ettekannetes, kirjalikus ja muus vormis selgelt tutvustada ja selle üle arutleda, olles dialoogis muusikaelu ja üldiselt kogu ühiskonnaga; ",
-            "suudab teha tihedat valdkonnaülest koostööd nii muusikute kui ka teiste kunstialade esindajatega; ",
-            "on võimeline töötama rahvusvahelises keskkonnas, näitama üles algatusvõimet, vastutustunnet, juhiomadusi ja koostöövõimet; ",
-            "omab oskusi ja teadmisi, mis on vajalikud iseseisvalt muusikaelus ning muudes seotud tegevusvaldkondades osalemiseks ja töötamiseks. ",
-            "suudab heliloome ja interpretatsiooni valdkonnas toimuvat kriitiliselt hinnata ning seostada asjakohaste kunstiliste, ühiskondlike ja eetiliste teemadega; ",
-            "on võimeline aktiivselt ühiskonnaelus osalema ning suhtub sallivalt ja lugupidavalt hoiakute ja väärtuste mitmekesisusse; ",
-            "mõistab muusika ja selle ühiskondliku rolli võimalusi ja piiranguid;",
-            "oskab hinnata oma täiendavate teadmiste vajadust ning tegeleb iseseisvalt pideva enesetäiendusega."
+            "Omab teadmisi ja orienteerub uuendusliku heliloome ja interpretatsiooni valdkonnas, sealhulgas osaleb nüüdismuusikaelu uute suundumuste kujundamises ning tunneb põhjalikult üldisi loomeprotsesse ja iseenda töömeetodeid",
+            "Tunneb heliloome ja interpretatsiooni valdkonnas esinevate keeruliste nähtuste, probleemide ja olukordade lahendamiseks kasutatavaid meetodeid ja protsesse;",
+            "Omab teadmisi ja orienteerub uue meedia valdkonnas ning mõistab selle üldist ja muusikaga seotud kultuurikonteksti.",
+            "Suudab väljakujundatud isikupäraseid väljendusvahendeid kasutades leida ja ellu viia loomingulisi ideid, iseseisvalt sõnastada ja lahendada kunstilisi ja loomingulisi probleeme ning tegeleda kõrgtasemel loominguliste ülesannetega, kasutades selleks sobivaid meetodeid ettenähtud aja jooksul ja jätkates sellega oma kunstilist arengut, ning hinnata oma sellealast tööd; ",
+            "Oskab oma loomingut ja kunstilisi raskusi riigisisesel ja rahvusvahelisel tasandil ettekannetes, kirjalikus ja muus vormis selgelt tutvustada ja selle üle arutleda, olles dialoogis muusikaelu ja üldiselt kogu ühiskonnaga; ",
+            "Suudab teha tihedat valdkonnaülest koostööd nii muusikute kui ka teiste kunstialade esindajatega; ",
+            "On võimeline töötama rahvusvahelises keskkonnas, näitama üles algatusvõimet, vastutustunnet, juhiomadusi ja koostöövõimet; ",
+            "Omab oskusi ja teadmisi, mis on vajalikud iseseisvalt muusikaelus ning muudes seotud tegevusvaldkondades osalemiseks ja töötamiseks. ",
+            "Suudab heliloome ja interpretatsiooni valdkonnas toimuvat kriitiliselt hinnata ning seostada asjakohaste kunstiliste, ühiskondlike ja eetiliste teemadega; ",
+            "On võimeline aktiivselt ühiskonnaelus osalema ning suhtub sallivalt ja lugupidavalt hoiakute ja väärtuste mitmekesisusse; ",
+            "Mõistab muusika ja selle ühiskondliku rolli võimalusi ja piiranguid;",
+            "Oskab hinnata oma täiendavate teadmiste vajadust ning tegeleb iseseisvalt pideva enesetäiendusega."
         ],
         "language": "inglise keel",
         "duration": 2,
         "requirements": [
             {
-                "term": "**Proposal for the Masters Degree Project (Independent Project).** \n\nThe MDP (IP) proposal is the most important element of your application, and should relate to at least some of the key features of the CoPeCo programme: collaborative work, cross-disciplinary interaction, new technologies, improvisation and arts management"
+                "header": "Proposal for the Masters Degree Project (Independent Project)",
+                "term": "The MDP (IP) proposal is the most important element of your application, and should relate to at least some of the key features of the CoPeCo programme: collaborative work, cross-disciplinary interaction, new technologies, improvisation and arts management"
             },
             {
-                "term": "**Portfolio** \n\n**For composers** \nPlease submit a portfolio of your scores and/or recordings (where scores are not applicable) containing at least three contrasting original compositions, with a total duration of at least 15 minutes. If you send additional texts to accompany the scores (for example an introduction or performance notes) please provide an English translation. \n\n**For performers** \nPlease submit a portfolio of your recordings containing at least two contrasting performance excerpts with a total duration of at least 15 minutes. \n\n**For composers/performers** \nPlease submit a portfolio containing at least one original composition, a recording of at least one performance excerpt and another work of your choice with a total duration of at least 15 minutes. If you send additional texts to accompany the scores (for example an introduction or performance notes) please provide an English translation."
+                "header": "Portfolio",
+                "term": "**For composers** \nPlease submit a portfolio of your scores and/or recordings (where scores are not applicable) containing at least three contrasting original compositions, with a total duration of at least 15 minutes. If you send additional texts to accompany the scores (for example an introduction or performance notes) please provide an English translation. \n\n**For performers** \nPlease submit a portfolio of your recordings containing at least two contrasting performance excerpts with a total duration of at least 15 minutes. \n\n**For composers/performers** \nPlease submit a portfolio containing at least one original composition, a recording of at least one performance excerpt and another work of your choice with a total duration of at least 15 minutes. If you send additional texts to accompany the scores (for example an introduction or performance notes) please provide an English translation."
             },
             {
+                "header": "Signed confirmation letter",
                 "term": "Signed confirmation letter confirming your authorship of the compositions and/or performance on the recordings submitted in the portfolio. \n\nNB! Specific template file to be found here for applicants wishing to apply through CNSMDL"
             },
             {
+                "header": "Motivation letter",
                 "term": "Motivation letter outlining your aims and goals for the CoPeCo programme."
             },
             {
+                "header": "CV",
                 "term": "CV with a photo and details of your artistic and professional experience."
             },
             {
-                "term": "**Auditions** \n\nAuditions will take place in each of the four institutions. The auditions will be recorded, and if there are more successful applicants than study places the recordings will be evaluated by a joint international panel that will establish a final general ranking list for each category (composers, performers and composers/performers). \n\nAt the audition the panel will assess your artistic and technical skills, your stage presence and your interpersonal and interaction skills. You will be asked to present your work (20 minutes maximum): instrumental or vocal performance of a contemporary music programme of your choice (including your own pieces) and/or a presentation of the material you sent in your portfolio. Please bring your own accompanist if you need one. \n\nThe audition will also include an improvisation test (either individual or group improvisation) and an interview, where you may be asked to discuss your proposal for the Masters Degree Project (Independent Project)."
+                "header": "Auditions",
+                "term": "Auditions will take place in each of the four institutions. The auditions will be recorded, and if there are more successful applicants than study places the recordings will be evaluated by a joint international panel that will establish a final general ranking list for each category (composers, performers and composers/performers). \n\nAt the audition the panel will assess your artistic and technical skills, your stage presence and your interpersonal and interaction skills. You will be asked to present your work (20 minutes maximum): instrumental or vocal performance of a contemporary music programme of your choice (including your own pieces) and/or a presentation of the material you sent in your portfolio. Please bring your own accompanist if you need one. \n\nThe audition will also include an improvisation test (either individual or group improvisation) and an interview, where you may be asked to discuss your proposal for the Masters Degree Project (Independent Project)."
             }
         ],
         "name": "Nüüdismuusika interpretatsioon ja loome",
@@ -12240,6 +12280,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/muusikateadus/",
+        "videoId": "dkJtoA6miMI",
         "personnel": [
             {
                 "name": "Toomas Siitan",
@@ -12956,6 +12997,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/muusikapedagoogika/",
+        "videoId": "GwP-WR9Xlq8",
         "personnel": [
             {
                 "name": "Kristi Kiilu",
@@ -13249,10 +13291,12 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Loominguline konkurss** \n\nmille raames tuleb kandidaadil: \n\n**•** esitada omal valikul laul a cappella \n**•** esitada ettevalmistatud käibelolevatest üldhariduskooli muusikaõpikutest valitud laulu saade koos meloodiaga \n**•** komisjoni poolt antud laulule kujundada klaverisaade (meloodia + harmoonia, ilma laulmiseta) \n**•** muusikateoreetiliste teadmiste eksam*. Faili nõuetega leiab siit \n**•** suuline intervjuu, millel keskendutakse muusikalistele ja üldkultuurilistele teemadele ning arutletakse võimaliku uurimisteema üle."
+                "header": "Loominguline konkurss",
+                "term": "Mille raames tuleb kandidaadil: \n\n**•** esitada omal valikul laul a cappella \n**•** esitada ettevalmistatud käibelolevatest üldhariduskooli muusikaõpikutest valitud laulu saade koos meloodiaga \n**•** komisjoni poolt antud laulule kujundada klaverisaade (meloodia + harmoonia, ilma laulmiseta) \n**•** muusikateoreetiliste teadmiste eksam*. Faili nõuetega leiab siit \n**•** suuline intervjuu, millel keskendutakse muusikalistele ja üldkultuurilistele teemadele ning arutletakse võimaliku uurimisteema üle."
             },
             {
-                "term": "**Kutsesobivuskatse** \n\nKutsesobivuskatse käigus selgitatakse välja kandidaadi eeldused õpetajana töötamiseks, sh suhtlus- ja eneseväljendusoskus, eesti keele ja võõrkeelte oskus, oskus kasutada kaasaegseid info- ja kommunikatsioonitehnoloogia võimalusi ning valmidus meeskonnatööks ja edasiseks professionaalseks arenguks."
+                "header": "Kutsesobivuskatse",
+                "term": "Kutsesobivuskatse käigus selgitatakse välja kandidaadi eeldused õpetajana töötamiseks, sh suhtlus- ja eneseväljendusoskus, eesti keele ja võõrkeelte oskus, oskus kasutada kaasaegseid info- ja kommunikatsioonitehnoloogia võimalusi ning valmidus meeskonnatööks ja edasiseks professionaalseks arenguks."
             }
         ],
         "name": "Muusikaõpetaja",
@@ -14128,10 +14172,12 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Eriala** \n\nÜliõpilaskandidaat peab koos sisseastumisdokumentidega (vähemalt 5 päeva enne eksamit) esitama kirjaliku töö erialaga seotud pedagoogilisel teemal (pedagoogilise praktika lõputöö bakalaureuseõppest, magistriõppe pedagoogilise lõputöö projekti vm) ning põhjendama suuliselt selle teemavalikut, näitama valitud temaatikas orienteerumist ja teemakohase kirjanduse ja repertuaari tundmist. \n\nÜliõpilaskandidaat peab olema valmis esitama oma erialale vastava 20-30 min kestva stiililiselt mitmekesise kava. Kava esitamise vajadusest teavitatakse kandidaati hiljemalt eksamile eelneval päeval."
+                "header": "Eriala",
+                "term": "Üliõpilaskandidaat peab koos sisseastumisdokumentidega (vähemalt 5 päeva enne eksamit) esitama kirjaliku töö erialaga seotud pedagoogilisel teemal (pedagoogilise praktika lõputöö bakalaureuseõppest, magistriõppe pedagoogilise lõputöö projekti vm) ning põhjendama suuliselt selle teemavalikut, näitama valitud temaatikas orienteerumist ja teemakohase kirjanduse ja repertuaari tundmist. \n\nÜliõpilaskandidaat peab olema valmis esitama oma erialale vastava 20-30 min kestva stiililiselt mitmekesise kava. Kava esitamise vajadusest teavitatakse kandidaati hiljemalt eksamile eelneval päeval."
             },
             {
-                "term": "**Kutsesobivuskatse** \n\nKutsesobivuskatse toimub vestluse (kollokviumi) vormis ning selle käigus selgitatakse välja kandidaadi eeldused õpetajana töötamiseks, sh suhtlus- ja eneseväljendusoskus, eesti keele ja võõrkeelte oskus, oskus kasutada kaasaegseid info- ja kommunikatsioonitehnoloogia võimalusi ning valmidus meeskonnatööks ja edasiseks professionaalseks arenguks."
+                "header": "Kutsesobivuskatse",
+                "term": "Kutsesobivuskatse toimub vestluse (kollokviumi) vormis ning selle käigus selgitatakse välja kandidaadi eeldused õpetajana töötamiseks, sh suhtlus- ja eneseväljendusoskus, eesti keele ja võõrkeelte oskus, oskus kasutada kaasaegseid info- ja kommunikatsioonitehnoloogia võimalusi ning valmidus meeskonnatööks ja edasiseks professionaalseks arenguks."
             }
         ],
         "name": "Interpretatsioonipedagoogika",
@@ -14151,6 +14197,7 @@
         "eap": 120,
         "spots": 24,
         "majorWebsite": "https://eamt.ee/erialad/muusikateadus/kultuurikorraldus/",
+        "videoId": "8azJP_1gRUY",
         "personnel": [
             {
                 "name": "Kai Kiiv",
@@ -14312,6 +14359,7 @@
                 "term": "CV inglise keeles"
             },
             {
+                "header": "Essee",
                 "term": "Essee inglise keeles (3-5 A4 lehekülge) teemal, mis on seotud kultuurikorraldusega. Essee tuleks kirjutada akadeemilises stiilis. Soovitav on kasutada akadeemilisi viiteid, nt akadeemilised ajakirjad, aga ka muud allikad. Essee peaks näitama nii taotleja motivatsiooni, huvi ja õppimise eesmärke kui ka näitama oskust akadeemilises kirjutamises. Komisjon hindab ka teema asjakohasust.Kõiki esseesid kontrollitakse plagiaadituvastusprogrammiga. Standarditele mittekohane viitamine, tsiteerimine või refereerimine toob kaasa kandidaadi vastuvõetavate nimekirjast välistamise."
             }
         ],
@@ -15305,16 +15353,20 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Klaver** (kava tuleb esitada peast) \n\nEsitada kava kogupikkusega 30-40 minutit, mis peab sisaldama polüfoonilist teost ja suurvormi"
+                "header": "Klaver (kava tuleb esitada peast)",
+                "term": "Esitada kava kogupikkusega 30-40 minutit, mis peab sisaldama polüfoonilist teost ja suurvormi"
             },
             {
-                "term": "**Klavessiin** (kava on lubatud esitada noodist) \n\nEsitada järgmine kava kogupikkusega 30-40 minutit: \n**•** J. S. Bachi suurvorm (partiita, süit või fantaasia) \n**•** 17.-18. saj. teosed erinevas stiilis (prantsuse, itaalia, saksa, inglise jt.) \n**•** 16. saj. helilooja pala (Byrd, Bull jt.)"
+                "header": "Klavessiin (kava on lubatud esitada noodist)",
+                "term": "Esitada järgmine kava kogupikkusega 30-40 minutit: \n**•** J. S. Bachi suurvorm (partiita, süit või fantaasia) \n**•** 17.-18. saj. teosed erinevas stiilis (prantsuse, itaalia, saksa, inglise jt.) \n**•** 16. saj. helilooja pala (Byrd, Bull jt.)"
             },
             {
-                "term": "**Orel** (kava on lubatud esitada noodist) \n\nEsitada järgmine kava kogupikkusega 30-40 min: \n**•** J. S. Bachi suurvormis teos \n**•** 17. saj. helilooja teos (nt. Buxtehude, Frescobaldi, mõni prantsuse helilooja jt.) \n**•** 19. saj. helilooja suurvorm"
+                "header": "Orel (kava on lubatud esitada noodist)",
+                "term": "Esitada järgmine kava kogupikkusega 30-40 min: \n**•** J. S. Bachi suurvormis teos \n**•** 17. saj. helilooja teos (nt. Buxtehude, Frescobaldi, mõni prantsuse helilooja jt.) \n**•** 19. saj. helilooja suurvorm"
             },
             {
-                "term": "**Akordion** (kava tuleb esitada peast) \n\nEsitada järgmine kava kogupikkusega 30-40 min: \n**•** polüfooniline teos \n**•** suurvorm või selle osa \n**•**kuni 2 teost vabal valikul"
+                "header": "Akordion (kava tuleb esitada peast)",
+                "term": "Esitada järgmine kava kogupikkusega 30-40 min: \n**•** polüfooniline teos \n**•** suurvorm või selle osa \n**•**kuni 2 teost vabal valikul"
             }
         ],
         "name": "Klahvpillid",
@@ -16338,10 +16390,12 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Keelpillid** (viiul, vioola, tšello, kontrabass, harf, klassikaline kitarr) \n\nEsitada peast järgmine kava: \n\n**•** 1. või 2. ja 3. osa suurvormist \n**•** polüfooniline sooloteos \n**•** 2 erineva karakteriga pala"
+                "header": "Keelpillid (viiul, vioola, tšello, kontrabass, harf, klassikaline kitarr)",
+                "term": "Esitada peast järgmine kava: \n\n**•** 1. või 2. ja 3. osa suurvormist \n**•** polüfooniline sooloteos \n**•** 2 erineva karakteriga pala"
             },
             {
-                "term": "**Kannel** \n\nEsitada peast järgmine kava: \n\n**•** polüfooniline sooloteos \n**•** 1. või 2. ja 3. osa suurvormist \n**•** 2 erineva karakteriga pala (neist 1 kaasaegsest muusikast)"
+                "header": "Kannel",
+                "term": "Esitada peast järgmine kava: \n\n**•** polüfooniline sooloteos \n**•** 1. või 2. ja 3. osa suurvormist \n**•** 2 erineva karakteriga pala (neist 1 kaasaegsest muusikast)"
             }
         ],
         "name": "Keelpillid",
@@ -17357,10 +17411,12 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Puhkpillid** (flööt, oboe, klarnet, fagott, saksofon, metsasarv, trompet, tromboon, tuuba, eufoonium) \n\nEsitada erinevate ajastute muusikat sisaldav kava, mis peab sisaldama ühte suurvormi tervikuna ja ühte sooloteost (kava pikkus vaskpillidel 15-25 min., puupillidel 20-35 min.) Kava võib esitada noodist."
+                "header": "Puhkpillid (flööt, oboe, klarnet, fagott, saksofon, metsasarv, trompet, tromboon, tuuba, eufoonium)",
+                "term": "Esitada erinevate ajastute muusikat sisaldav kava, mis peab sisaldama ühte suurvormi tervikuna ja ühte sooloteost (kava pikkus vaskpillidel 15-25 min., puupillidel 20-35 min.) Kava võib esitada noodist."
             },
             {
-                "term": "**Löökpillid** \n\nEsitada järgmisi teoseid sisaldav kava, kus kasutatakse erinevaid löökpille kogupikkusega 20-35 minutit (lubatud esitada noodist): \n\n**•** suurvorm või selle osad (kontsert, süit vm.) löökpillidele (marimbafon, vibrafon, ksülofon, multiperkussioon, väike trumm jne.) klaveri või mõne muu pilli saatega \n**•** sooloteos või -teosed löökpilli(de)le"
+                "header": "Löökpillid",
+                "term": "Esitada järgmisi teoseid sisaldav kava, kus kasutatakse erinevaid löökpille kogupikkusega 20-35 minutit (lubatud esitada noodist): \n\n**•** suurvorm või selle osad (kontsert, süit vm.) löökpillidele (marimbafon, vibrafon, ksülofon, multiperkussioon, väike trumm jne.) klaveri või mõne muu pilli saatega \n**•** sooloteos või -teosed löökpilli(de)le"
             }
         ],
         "name": "Puhkpillid ja löökpillid",
@@ -18382,10 +18438,12 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Ooperi suund** \n\nEsitada peast järgmine kava (kava esitatakse originaalkeeles ja vastava hääleliigi kõrguses ning selles peab sisalduma teoseid vähemalt kolmes erinevas keeles): \n\n**•** aaria suurvormist (oratoorium, kantaat, missa) \n**•** 2 erineva karakteriga ooperiaariat \n**•** 4 romanssi"
+                "header": "Ooperi suund",
+                "term": "Esitada peast järgmine kava (kava esitatakse originaalkeeles ja vastava hääleliigi kõrguses ning selles peab sisalduma teoseid vähemalt kolmes erinevas keeles): \n\n**•** aaria suurvormist (oratoorium, kantaat, missa) \n**•** 2 erineva karakteriga ooperiaariat \n**•** 4 romanssi"
             },
             {
-                "term": "**Oratooriumi- ja ansamblilaulu suund** \n\nEsitada peast järgmine kava (kava esitatakse originaalkeeles ja vastava hääleliigi kõrguses ning selles peab sisalduma teoseid vähemalt kolmes erinevas keeles): \n\n**•** 3 aariat ooperist või vokaalsuurvormist (oratoorium, kantaat, missa jm), millest üks on baroki perioodist, 1 klassitsismi perioodist ning 1 vabal valikul \n**•** 4 laulu, millest 1 on oma emakeeles, 1 kirjutatud pärast 1950. aastat ning 2 vabal valikul."
+                "header": "Oratooriumi- ja ansamblilaulu suund",
+                "term": "Esitada peast järgmine kava (kava esitatakse originaalkeeles ja vastava hääleliigi kõrguses ning selles peab sisalduma teoseid vähemalt kolmes erinevas keeles): \n\n**•** 3 aariat ooperist või vokaalsuurvormist (oratoorium, kantaat, missa jm), millest üks on baroki perioodist, 1 klassitsismi perioodist ning 1 vabal valikul \n**•** 4 laulu, millest 1 on oma emakeeles, 1 kirjutatud pärast 1950. aastat ning 2 vabal valikul."
             }
         ],
         "name": "Klassikaline laul",
@@ -19381,13 +19439,16 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Kooridirigeerimine** \n\nEsitada vähemalt 20 min kestev kava sisseastuja kooriga"
+                "header": "Kooridirigeerimine",
+                "term": "Esitada vähemalt 20 min kestev kava sisseastuja kooriga"
             },
             {
-                "term": "**Orkestridirigeerimine** \n\nSisseastumiseksam koosneb kahest osast. \n**Dirigeerimine** \n\n**•** I voor – dirigeerida teos või osa teosest kestusega maksimaalselt 15 minutit. \n**•** II voor – dirigeerida EMTA keelpilliansambliga komisjoni valikul katkendeid järgmisest teosest: Britten – Simple Symphony \n\n**Kollokvium, mis koosneb alljärgnevast:** \n\n1) Sisseastuja esitab pala või katkendi oma instrumendil. \n\n2) Sisseastuja peab olema kursis ning võimeline partituuri järgi ära tundma järmisi teoseid: \n\n**•** Haydn – Londoni sümfooniad, neli viimast \n**•** Mozart – sümfooniad 39., 40. ja 41. \n**•** Beethoven – sümfooniad \n**•** Schubert – 3., 4., 5., 7.(9.) ja 8. \n**•** Schumann – sümfooniad \n**•** Brahms – sümfooniad \n**•** Berlioz – Symphonie Fantastique \n**•** Bruckner – 4., 7. sümfoonia \n**•** Mahler – 1., 5. sümfoonia \n**•** Tšaikovski – 4., 5., 6. sümfoonia \n**•** Rahmaninov – Sümfoonilised tantsud \n**•** R. Strauss – Don Juan, Till Eulenspiegel, Tod und Verklärung \n**•** Sibelius – 2., 5. sümfoonia \n**•** Prokofjev – 1., 5. sümfoonia \n**•** Debussy – La Mer \n**•** Ravel – Rhapsodie Espagnol \n**•** Stravinski – Le Sacre du Printemps, Petrushka \n**•** Šostakovitš – 1., 5., 6., 9. sümfoonia \n**•** Bartok – Kontsert orkestrile \n\n3) Vaba vestlus. Sisseastuja peab olema võimeline vestlema järgmistest heliloojatest: Bach, Vivaldi, Händel, Liszt, Bruckner, Britten, Lutoslawski, Ligeti, Adams, Glass, Adès, Wagner, Verdi, Puccini. \nKoos avaldusega tuleb esitada põhjalik haridustee kirjeldus ja lühike essee, kus sisseastuja kirjeldab oma visiooni dirigenditööst ja põhjustest, miks ta sellist kõrge riskiga eriala soovib õppida. \n\nVideod on seoses reisimisraskustega aktsepteeritavad, kollokviumil peab osalema reaalajas videolingi alusel, aga eelistatud on eksamil füüsiliselt kohal viibivad sisseastujad."
+                "header": "Orkestridirigeerimine",
+                "term": "Sisseastumiseksam koosneb kahest osast. \n**Dirigeerimine** \n\n**•** I voor – dirigeerida teos või osa teosest kestusega maksimaalselt 15 minutit. \n**•** II voor – dirigeerida EMTA keelpilliansambliga komisjoni valikul katkendeid järgmisest teosest: Britten – Simple Symphony \n\n**Kollokvium, mis koosneb alljärgnevast:** \n\n1) Sisseastuja esitab pala või katkendi oma instrumendil. \n\n2) Sisseastuja peab olema kursis ning võimeline partituuri järgi ära tundma järmisi teoseid: \n\n**•** Haydn – Londoni sümfooniad, neli viimast \n**•** Mozart – sümfooniad 39., 40. ja 41. \n**•** Beethoven – sümfooniad \n**•** Schubert – 3., 4., 5., 7.(9.) ja 8. \n**•** Schumann – sümfooniad \n**•** Brahms – sümfooniad \n**•** Berlioz – Symphonie Fantastique \n**•** Bruckner – 4., 7. sümfoonia \n**•** Mahler – 1., 5. sümfoonia \n**•** Tšaikovski – 4., 5., 6. sümfoonia \n**•** Rahmaninov – Sümfoonilised tantsud \n**•** R. Strauss – Don Juan, Till Eulenspiegel, Tod und Verklärung \n**•** Sibelius – 2., 5. sümfoonia \n**•** Prokofjev – 1., 5. sümfoonia \n**•** Debussy – La Mer \n**•** Ravel – Rhapsodie Espagnol \n**•** Stravinski – Le Sacre du Printemps, Petrushka \n**•** Šostakovitš – 1., 5., 6., 9. sümfoonia \n**•** Bartok – Kontsert orkestrile \n\n3) Vaba vestlus. Sisseastuja peab olema võimeline vestlema järgmistest heliloojatest: Bach, Vivaldi, Händel, Liszt, Bruckner, Britten, Lutoslawski, Ligeti, Adams, Glass, Adès, Wagner, Verdi, Puccini. \nKoos avaldusega tuleb esitada põhjalik haridustee kirjeldus ja lühike essee, kus sisseastuja kirjeldab oma visiooni dirigenditööst ja põhjustest, miks ta sellist kõrge riskiga eriala soovib õppida. \n\nVideod on seoses reisimisraskustega aktsepteeritavad, kollokviumil peab osalema reaalajas videolingi alusel, aga eelistatud on eksamil füüsiliselt kohal viibivad sisseastujad."
             },
             {
-                "term": "**Puhkpilliorkestri dirigeerimine** \n\nEsitada erialainstrumendil erinevate ajastute muusikat sisaldav kava, mis peab sisaldama ühte suurvormi või selle osi ja ühte sooloteost (kava pikkus 15-25 min)"
+                "header": "Puhkpilliorkestri dirigeerimine",
+                "term": "Esitada erialainstrumendil erinevate ajastute muusikat sisaldav kava, mis peab sisaldama ühte suurvormi või selle osi ja ühte sooloteost (kava pikkus 15-25 min)"
             }
         ],
         "name": "Kooridirigeerimine",
@@ -20384,13 +20445,16 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Kooridirigeerimine** \n\nEsitada vähemalt 20 min kestev kava sisseastuja kooriga"
+                "header": "Kooridirigeerimine",
+                "term": "Esitada vähemalt 20 min kestev kava sisseastuja kooriga"
             },
             {
-                "term": "**Orkestridirigeerimine** \n\nSisseastumiseksam koosneb kahest osast. \n**Dirigeerimine** \n\n**•** I voor – dirigeerida teos või osa teosest kestusega maksimaalselt 15 minutit. \n**•** II voor – dirigeerida EMTA keelpilliansambliga komisjoni valikul katkendeid järgmisest teosest: Britten – Simple Symphony \n\n**Kollokvium, mis koosneb alljärgnevast:** \n\n1) Sisseastuja esitab pala või katkendi oma instrumendil. \n\n2) Sisseastuja peab olema kursis ning võimeline partituuri järgi ära tundma järmisi teoseid: \n\n**•** Haydn – Londoni sümfooniad, neli viimast \n**•** Mozart – sümfooniad 39., 40. ja 41. \n**•** Beethoven – sümfooniad \n**•** Schubert – 3., 4., 5., 7.(9.) ja 8. \n**•** Schumann – sümfooniad \n**•** Brahms – sümfooniad \n**•** Berlioz – Symphonie Fantastique \n**•** Bruckner – 4., 7. sümfoonia \n**•** Mahler – 1., 5. sümfoonia \n**•** Tšaikovski – 4., 5., 6. sümfoonia \n**•** Rahmaninov – Sümfoonilised tantsud \n**•** R. Strauss – Don Juan, Till Eulenspiegel, Tod und Verklärung \n**•** Sibelius – 2., 5. sümfoonia \n**•** Prokofjev – 1., 5. sümfoonia \n**•** Debussy – La Mer \n**•** Ravel – Rhapsodie Espagnol \n**•** Stravinski – Le Sacre du Printemps, Petrushka \n**•** Šostakovitš – 1., 5., 6., 9. sümfoonia \n**•** Bartok – Kontsert orkestrile \n\n3) Vaba vestlus. Sisseastuja peab olema võimeline vestlema järgmistest heliloojatest: Bach, Vivaldi, Händel, Liszt, Bruckner, Britten, Lutoslawski, Ligeti, Adams, Glass, Adès, Wagner, Verdi, Puccini. \nKoos avaldusega tuleb esitada põhjalik haridustee kirjeldus ja lühike essee, kus sisseastuja kirjeldab oma visiooni dirigenditööst ja põhjustest, miks ta sellist kõrge riskiga eriala soovib õppida. \n\nVideod on seoses reisimisraskustega aktsepteeritavad, kollokviumil peab osalema reaalajas videolingi alusel, aga eelistatud on eksamil füüsiliselt kohal viibivad sisseastujad."
+                "header": "Orkestridirigeerimine",
+                "term": "Sisseastumiseksam koosneb kahest osast. \n**Dirigeerimine** \n\n**•** I voor – dirigeerida teos või osa teosest kestusega maksimaalselt 15 minutit. \n**•** II voor – dirigeerida EMTA keelpilliansambliga komisjoni valikul katkendeid järgmisest teosest: Britten – Simple Symphony \n\n**Kollokvium, mis koosneb alljärgnevast:** \n\n1) Sisseastuja esitab pala või katkendi oma instrumendil. \n\n2) Sisseastuja peab olema kursis ning võimeline partituuri järgi ära tundma järmisi teoseid: \n\n**•** Haydn – Londoni sümfooniad, neli viimast \n**•** Mozart – sümfooniad 39., 40. ja 41. \n**•** Beethoven – sümfooniad \n**•** Schubert – 3., 4., 5., 7.(9.) ja 8. \n**•** Schumann – sümfooniad \n**•** Brahms – sümfooniad \n**•** Berlioz – Symphonie Fantastique \n**•** Bruckner – 4., 7. sümfoonia \n**•** Mahler – 1., 5. sümfoonia \n**•** Tšaikovski – 4., 5., 6. sümfoonia \n**•** Rahmaninov – Sümfoonilised tantsud \n**•** R. Strauss – Don Juan, Till Eulenspiegel, Tod und Verklärung \n**•** Sibelius – 2., 5. sümfoonia \n**•** Prokofjev – 1., 5. sümfoonia \n**•** Debussy – La Mer \n**•** Ravel – Rhapsodie Espagnol \n**•** Stravinski – Le Sacre du Printemps, Petrushka \n**•** Šostakovitš – 1., 5., 6., 9. sümfoonia \n**•** Bartok – Kontsert orkestrile \n\n3) Vaba vestlus. Sisseastuja peab olema võimeline vestlema järgmistest heliloojatest: Bach, Vivaldi, Händel, Liszt, Bruckner, Britten, Lutoslawski, Ligeti, Adams, Glass, Adès, Wagner, Verdi, Puccini. \nKoos avaldusega tuleb esitada põhjalik haridustee kirjeldus ja lühike essee, kus sisseastuja kirjeldab oma visiooni dirigenditööst ja põhjustest, miks ta sellist kõrge riskiga eriala soovib õppida. \n\nVideod on seoses reisimisraskustega aktsepteeritavad, kollokviumil peab osalema reaalajas videolingi alusel, aga eelistatud on eksamil füüsiliselt kohal viibivad sisseastujad."
             },
             {
-                "term": "**Puhkpilliorkestri dirigeerimine** \n\nEsitada erialainstrumendil erinevate ajastute muusikat sisaldav kava, mis peab sisaldama ühte suurvormi või selle osi ja ühte sooloteost (kava pikkus 15-25 min)"
+                "header": "Puhkpilliorkestri dirigeerimine",
+                "term": "Esitada erialainstrumendil erinevate ajastute muusikat sisaldav kava, mis peab sisaldama ühte suurvormi või selle osi ja ühte sooloteost (kava pikkus 15-25 min)"
             }
         ],
         "name": "Orkestri- ja puhkpilliorkestri dirigeerimine",
@@ -21310,7 +21374,8 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Kammeransambel** \n\nEsitada kava, mis sisaldab kolm teost erinevatest ajastutest, millest vähemalt üks peab olema suurema koosseisuga ansamblile (trio, kvartett, kvintett jne). \n\nKava kogupikkus peab olema 30-40 minutit. Lubatud on esitada videosalvestused. \n\nEMTA üliõpilased, kes on viimase õppeaasta jooksul avalikul kontserdil esitanud sisseastumiseksami nõuetele vastava kava, ei pea sisseastumiseksamil neid teoseid uuesti esitama. \n\nNõue on, et vastuvõtukomisjoni liikmed on neid teoseid kuulanud."
+                "header": "Kammeransambel",
+                "term": "Esitada kava, mis sisaldab kolm teost erinevatest ajastutest, millest vähemalt üks peab olema suurema koosseisuga ansamblile (trio, kvartett, kvintett jne). \n\nKava kogupikkus peab olema 30-40 minutit. Lubatud on esitada videosalvestused. \n\nEMTA üliõpilased, kes on viimase õppeaasta jooksul avalikul kontserdil esitanud sisseastumiseksami nõuetele vastava kava, ei pea sisseastumiseksamil neid teoseid uuesti esitama. \n\nNõue on, et vastuvõtukomisjoni liikmed on neid teoseid kuulanud."
             }
         ],
         "name": "Instrumentaalkammermuusika",
@@ -22224,7 +22289,8 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Saateklass** \n\nEsitada stiililiselt mitmekülgne kava kas vokaal- või instrumentaalsolistiga (või mõlemaga) pikkusega 20-30 minutit."
+                "header": "Saateklass",
+                "term": "Esitada stiililiselt mitmekülgne kava kas vokaal- või instrumentaalsolistiga (või mõlemaga) pikkusega 20-30 minutit."
             }
         ],
         "name": "Vokaalkammermuusika ja saateklass",
@@ -23157,6 +23223,7 @@
         "duration": 2,
         "requirements": [
             {
+                "header": "Kava",
                 "term": "Esitada varajase muusika instrumendil kava, mis sisaldab 2–3 teost erinevatest stiilidest kogupikkusega 30–40 minutit. Sisseastujal on soovitav enne sisseastumist täpsustada, milliste instrumentide õpet EMTA on valmis korraldama."
             }
         ],
@@ -23177,6 +23244,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://eamt.ee/erialad/helilooming-improvisatsiooniline-muusika-ja-kaasaegsed-etenduskunstid/kaasaegsed-etenduskunstid/",
+        "vimeoId": "421537564",
         "modules": [
             {
                 "name": "Baasõpingud ja praktika",
@@ -23301,34 +23369,42 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Bakalaureusekraad**, soovitavalt näitlemise, teatri, tantsu, tsirkuse või muu etenduskunsti alal. Kui kandidaat esitab portfoolio oma senisest loometegevusest, sobivad ka muud erialad."
+                "header": "Bakalaureusekraad",
+                "term": "Soovitavalt näitlemise, teatri, tantsu, tsirkuse või muu etenduskunsti alal. Kui kandidaat esitab portfoolio oma senisest loometegevusest, sobivad ka muud erialad."
             },
             {
                 "term": "Soovitavalt vähemalt kolmeaastane professionaalne kogemus etenduskunstide alal."
             },
             {
-                "term": "**Elulookirjeldus** mis annab põhjaliku ülevaate teie senisest haridusteest, loomingulisest tegevusest ja töökogemusest."
+                "header": "Elulookirjeldus",
+                "term": "Mis annab põhjaliku ülevaate teie senisest haridusteest, loomingulisest tegevusest ja töökogemusest."
             },
             {
-                "term": "**Loominguline portfoolio.** Palun laadige materjalid üles veebiavalduse Meedia sektsioonis."
+                "header": "Loominguline portfoolio",
+                "term": "Palun laadige materjalid üles veebiavalduse Meedia sektsioonis."
             },
             {
-                "term": "**Motivatsiooniväljendus**, milles te selgitate: \n\n**•** Kes te olete, miks te sellele kursusele kandideerite, miks just praegu ja kuidas CPPMi kursusel osalemine teie kunstilist arengut edendaks. \n**•** Millised on teie praegused kunstilised küsimused, huvid ja väljakutsed, millele soovite järgmise kahe aasta jooksul pühenduda. \n\nPõhjenduse võib koostada kirjalikult ja laadida üles veebipõhisese taotluse juurde; või teha videoformaadis (max 10 minutit), mille saate üles laadida koos oma portfoolioga."
+                "header": "Motivatsiooniväljendus",
+                "term": "Milles te selgitate: \n\n**•** Kes te olete, miks te sellele kursusele kandideerite, miks just praegu ja kuidas CPPMi kursusel osalemine teie kunstilist arengut edendaks. \n**•** Millised on teie praegused kunstilised küsimused, huvid ja väljakutsed, millele soovite järgmise kahe aasta jooksul pühenduda. \n\nPõhjenduse võib koostada kirjalikult ja laadida üles veebipõhisese taotluse juurde; või teha videoformaadis (max 10 minutit), mille saate üles laadida koos oma portfoolioga."
             },
             {
-                "term": "**Haridust tõendavate dokumentide elektroonilised koopiad** (diplom koos akadeemilise õiendiga). Kui diplom ei ole eesti- või ingliskeelne, peab see olema inglise keelde tõlgitud (kinnitatud tõlge)."
+                "header": "Haridust tõendavate dokumentide elektroonilised koopiad",
+                "term": "Diplom koos akadeemilise õiendiga. Kui diplom ei ole eesti- või ingliskeelne, peab see olema inglise keelde tõlgitud (kinnitatud tõlge)."
             },
             {
                 "term": "**Passi koopia**"
             },
             {
-                "term": "**Tõend inglise keele oskuse kohta.** Kaasaegsete etenduskunstide õppekava on ingliskeelne. Kui teie varasemate õpingute keel ei ole olnud inglise keel, eeldame IELTS 6.5, Cambridge Advanced English (CAE), Cambridge Proficiency English (CPE) või mõne muu B2/C1/C2 taseme sertifikaadi kinnitatud miinimumstandardit. Kursusele saate kandideerida ilma keeleoskust tõendava dokumendita, kuid enne õpingute alustamist (august 2022) peate vajaliku taseme saavutama. Kui teie varasem haridus on olnud ingliskeelne, olete sellest nõudest vabastatud."
+                "header": "Tõend inglise keele oskuse kohta",
+                "term": "Kaasaegsete etenduskunstide õppekava on ingliskeelne. Kui teie varasemate õpingute keel ei ole olnud inglise keel, eeldame IELTS 6.5, Cambridge Advanced English (CAE), Cambridge Proficiency English (CPE) või mõne muu B2/C1/C2 taseme sertifikaadi kinnitatud miinimumstandardit. Kursusele saate kandideerida ilma keeleoskust tõendava dokumendita, kuid enne õpingute alustamist (august 2022) peate vajaliku taseme saavutama. Kui teie varasem haridus on olnud ingliskeelne, olete sellest nõudest vabastatud."
             },
             {
-                "term": "**Kaks soovituskirja** inimestelt, kes on kursis teie professionaalse loometööga. Te peate avaldusse sisestama kahe enda valitud soovitaja e-posti aadressid. Iseloomustuse konfidentsiaalsuse tagamiseks saadame kutse iseloomustamiseks teie sisestatud e-posti aadressidele ning seejärel saab soovitaja veebis hinnangu anda. Teid teavitatakse iseloomustuse esitamisest, kuid lugeda te neid ei saa."
+                "header": "Kaks soovituskirja",
+                "term": "Kaks soovituskirja inimestelt, kes on kursis teie professionaalse loometööga. Te peate avaldusse sisestama kahe enda valitud soovitaja e-posti aadressid. Iseloomustuse konfidentsiaalsuse tagamiseks saadame kutse iseloomustamiseks teie sisestatud e-posti aadressidele ning seejärel saab soovitaja veebis hinnangu anda. Teid teavitatakse iseloomustuse esitamisest, kuid lugeda te neid ei saa."
             },
             {
-                "term": "**Avalduse esitamise tasu 50 eurot.** Pärast avalduse esitamist saate e-posti teel arve pangaandmetega, et saaksite tasuda avalduse esitamise tasu. Enne avalduse esitamise tasu laekumist vastuvõtukomisjon teie avaldust ei menetle. \n\nVeenduge, et teie esitatud taotlus on viimistletud ja annab põhjaliku ülevaate teie loomingulistest kogemustest, kunstilisest visioonist ja edasistest püüdlustest. Dokumentide põhjal sõelale jäänud kandidaadid kutsutakse vastuvõtukatsetele."
+                "header": "Avalduse esitamise tasu 50 eurot",
+                "term": "Pärast avalduse esitamist saate e-posti teel arve pangaandmetega, et saaksite tasuda avalduse esitamise tasu. Enne avalduse esitamise tasu laekumist vastuvõtukomisjon teie avaldust ei menetle. \n\nVeenduge, et teie esitatud taotlus on viimistletud ja annab põhjaliku ülevaate teie loomingulistest kogemustest, kunstilisest visioonist ja edasistest püüdlustest. Dokumentide põhjal sõelale jäänud kandidaadid kutsutakse vastuvõtukatsetele."
             }
         ],
         "name": "Kaasaegsed Etenduskunstid",
@@ -23459,10 +23535,12 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "**Loovuurimuslik suund muusika või teatri valdkonnas** \n\nEsimene voor on dokumendi- ja salvestiste voor, milleks doktoriõppesse astuja peab vastuvõtusekretärile esitama: \n\n**•** interpretatsioonierialadel 45-60 min pikkuse kava videosalvestisena, heliloomingu erialal ca 45 min salvestatud muusikat (koos nooditekstiga), teatrikunsti erialal olulisemate loominguliste tööde nimekirja koos kirjalike materjalide ja/või salvestistega; \n**•** perspektiivse doktoriõpingute plaani, mis sisaldab 4 kontserdi (või erialaspetsiifiliselt muu loomingulise töö) kava ja vormikohast kirjaliku töö projekti; \n**•** senise loomingulise ja teadusliku tegevuse ülevaate (CV). \n\nTeise vooru lubatakse kahe doktoriõppekava peale kokku kuni 10 kandidaati. \n\n\n**Teises voorus peab doktoriõppesse astuja:** \n\n**•** eksamikomisjoni soovil esitama koha peal komisjoni poolt palutud osa oma salvestisena esitatud kavast või vestlema komisjoniga oma senisest loomingulisest tegevusest (dirigentide puhul ja lavakunsti erialal kohapealset esitust ei nõuta) \n**•** põhjendama ja kaitsma oma perspektiivset doktoriõpingute kava. \n\nTeises voorus on reeglina nõutav kandidaadi isiklik kohalolek. Erandina võib vestlus toimuda ka elektrooniliste sidekanalite vahendusel."
+                "header": "Loovuurimuslik suund muusika või teatri valdkonnas",
+                "term": "Esimene voor on dokumendi- ja salvestiste voor, milleks doktoriõppesse astuja peab vastuvõtusekretärile esitama: \n\n**•** interpretatsioonierialadel 45-60 min pikkuse kava videosalvestisena, heliloomingu erialal ca 45 min salvestatud muusikat (koos nooditekstiga), teatrikunsti erialal olulisemate loominguliste tööde nimekirja koos kirjalike materjalide ja/või salvestistega; \n**•** perspektiivse doktoriõpingute plaani, mis sisaldab 4 kontserdi (või erialaspetsiifiliselt muu loomingulise töö) kava ja vormikohast kirjaliku töö projekti; \n**•** senise loomingulise ja teadusliku tegevuse ülevaate (CV). \n\nTeise vooru lubatakse kahe doktoriõppekava peale kokku kuni 10 kandidaati. \n\n\n**Teises voorus peab doktoriõppesse astuja:** \n\n**•** eksamikomisjoni soovil esitama koha peal komisjoni poolt palutud osa oma salvestisena esitatud kavast või vestlema komisjoniga oma senisest loomingulisest tegevusest (dirigentide puhul ja lavakunsti erialal kohapealset esitust ei nõuta) \n**•** põhjendama ja kaitsma oma perspektiivset doktoriõpingute kava. \n\nTeises voorus on reeglina nõutav kandidaadi isiklik kohalolek. Erandina võib vestlus toimuda ka elektrooniliste sidekanalite vahendusel."
             },
             {
-                "term": "**Muusikateaduslik suund** \n\nEsimene voor on dokumendivoor, milleks doktoriõppesse astuja peab vastuvõtusekretärile esitama: \n\n**•** perspektiivse doktoriõpingute kava koos vormikohase doktoritöö projektiga; \n**•** senise teadusliku ja loomingulise tegevuse ülevaate (CV). \n\nTeise vooru lubatakse kahe doktoriõppekava peale kokku kuni 10 kandidaati. \n\nTeises voorus peab doktoriõppesse astuja põhjendama ja kaitsma oma perspektiivset doktoriõpingute kava ja doktoritöö projekti. Reeglina on nõutav kandidaadi isiklik kohalolek. Erandina võib vestlus toimuda ka elektrooniliste sidekanalite vahendusel."
+                "header": "Muusikateaduslik suund",
+                "term": "Esimene voor on dokumendivoor, milleks doktoriõppesse astuja peab vastuvõtusekretärile esitama: \n\n**•** perspektiivse doktoriõpingute kava koos vormikohase doktoritöö projektiga; \n**•** senise teadusliku ja loomingulise tegevuse ülevaate (CV). \n\nTeise vooru lubatakse kahe doktoriõppekava peale kokku kuni 10 kandidaati. \n\nTeises voorus peab doktoriõppesse astuja põhjendama ja kaitsma oma perspektiivset doktoriõpingute kava ja doktoritöö projekti. Reeglina on nõutav kandidaadi isiklik kohalolek. Erandina võib vestlus toimuda ka elektrooniliste sidekanalite vahendusel."
             }
         ],
         "name": "Muusika ja Teatrikunst",

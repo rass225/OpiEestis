@@ -20,6 +20,7 @@ struct College: Codable, Hashable, Identifiable {
     let website: String
     let worldRanking: Int
     let jsonKeys: JSONKeys
+    let virtualTourLink: String?
     
     var jsonString: String {
         switch name {
@@ -79,7 +80,8 @@ struct College: Codable, Hashable, Identifiable {
              website,
              worldRanking,
              jsonKeys,
-             logoModifiable
+             logoModifiable,
+             virtualTourLink
     }
     
     init(from decoder: Decoder) throws {
@@ -102,6 +104,7 @@ struct College: Codable, Hashable, Identifiable {
         worldRanking = try values.decode(Int.self, forKey: .worldRanking)
         jsonKeys = try values.decode(JSONKeys.self, forKey: .jsonKeys)
         logoModifiable = try values.decode(Bool.self, forKey: .logoModifiable)
+        virtualTourLink = try values.decodeIfPresent(String.self, forKey: .virtualTourLink)
     }
 }
 

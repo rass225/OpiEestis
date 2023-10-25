@@ -9,6 +9,7 @@
     "eap": 180,
     "spots": 9,
     "majorWebsite": "https://www.artun.ee/erialad/animatsioon/ulevaade/",
+    "videoId": "OF4gtKWvjgw",
     "personnel": [
         {
             "email": "ylo.pikkov@artun.ee",
@@ -80,6 +81,7 @@
     "eap": 300,
     "spots": 20,
     "majorWebsite": "https://www.artun.ee/erialad/arhitektuur-ja-linnaplaneerimine/eriala/ulevaade/",
+    "videoId": "uM_V52wxTfQ",
     "personnel": [
         {
             "name": "Sille Pihlak",
@@ -157,6 +159,7 @@
     "eap": 180,
     "spots": 15,
     "majorWebsite": "https://www.artun.ee/erialad/disain-ja-innovatsioon/disain-innovatsioon/",
+    "videoId": "f2V5Kx_Dl1Q",
     "personnel": [
         {
             "name": "Raido-Riho Laasi",
@@ -192,7 +195,8 @@
             "photo": "https://www.artun.ee/app/uploads/fly-images/76864/marion-300x400-c.jpg"
         }
     ],
-    "type": "Disainiteadus",
+    "type": "",
+    "studyType": "sessioonõpe",
     "level": "bakalaureus",
     "language": "eesti keel",
     "duration": 3,
@@ -229,6 +233,7 @@
     "eap": 180,
     "spots": 8,
     "majorWebsite": "https://www.artun.ee/akadeemia/teaduskonnad/vabade-kunstide-teaduskond/",
+    "videoId": "AFkfKwaFcvQ",
     "personnel": [
         {
             "name": "Helen Jürgens",
@@ -313,6 +318,7 @@
     "eap": 180,
     "spots": 15,
     "majorWebsite": "https://www.artun.ee/erialad/graafiline-disain/ulevaade/",
+    "videoId": "1Dhsn-li4O4",
     "personnel": [
         {
             "name": "Ott Kagovere",
@@ -396,6 +402,7 @@
     "eap": 180,
     "spots": 12,
     "majorWebsite": "https://www.artun.ee/erialad/kunstiteadus/erialast/bakalaureuseope/",
+    "videoId": "EvwufNW7PtE",
     "personnel": [
         {
             "name": "Virve Sarapik",
@@ -558,10 +565,12 @@
         "term": "Kandideerimiseks peab olema sooritatud eesti keele/eesti keel teise keelena riigieksam minimaalselt 50/75 punktile ja inglise keele tulemus B1 tasemele"
       },
       {
-        "term": "**Erialane essee** kirjutatakse etteantud kunstiteose reproduktsiooni põhjal. Essee eesmärgiks on teost lühidalt analüüsida ja esitada selle omapoolne tõlgendus. Essee kirjutamine ei eelda eelnevaid teadmisi analüüsitavast teosest ega varasemat kokkupuudet kunstiajaloo ainega. Tudengikandidaat näitab oma kirjatöös pildi vaatamise ja analüüsimise oskust ning võimet siduda pildil nähtut üldkultuuriliste taustateadmistega. Essee pikkuseks on 2–3 lk. Reprode hulgas on nii maalikunsti, arhitektuuri kui disaini näiteid, sisseastuja saab analüüsitava repro valida kahe variandi hulgast. Kaasa võtta kirjutusvahend. Osakonna poolt antakse kunstiteoste reprod ja paber essee kirjutamiseks. Abimaterjale essee kirjutamisel ei kasutata. Hinnatakse kunstiteose analüüsimise võimet, üldkultuurilisi teadmisi, vaatepunkti originaalsust ja põhjendatust, aga ka kirjutamisoskust, sõnastust, keele korrektsust ja kirjatöö ülesehituse loogikat.Kaasa võtta kirjutusvahend. Osakonna poolt antakse kunstiteoste reprod ja paber essee kirjutamiseks. Abimaterjale essee kirjutamisel ei kasutata."
+          "header": "Erialane essee",
+        "term": "kirjutatakse etteantud kunstiteose reproduktsiooni põhjal. Essee eesmärgiks on teost lühidalt analüüsida ja esitada selle omapoolne tõlgendus. Essee kirjutamine ei eelda eelnevaid teadmisi analüüsitavast teosest ega varasemat kokkupuudet kunstiajaloo ainega. Tudengikandidaat näitab oma kirjatöös pildi vaatamise ja analüüsimise oskust ning võimet siduda pildil nähtut üldkultuuriliste taustateadmistega. Essee pikkuseks on 2–3 lk. Reprode hulgas on nii maalikunsti, arhitektuuri kui disaini näiteid, sisseastuja saab analüüsitava repro valida kahe variandi hulgast. Kaasa võtta kirjutusvahend. Osakonna poolt antakse kunstiteoste reprod ja paber essee kirjutamiseks. Abimaterjale essee kirjutamisel ei kasutata. Hinnatakse kunstiteose analüüsimise võimet, üldkultuurilisi teadmisi, vaatepunkti originaalsust ja põhjendatust, aga ka kirjutamisoskust, sõnastust, keele korrektsust ja kirjatöö ülesehituse loogikat.Kaasa võtta kirjutusvahend. Osakonna poolt antakse kunstiteoste reprod ja paber essee kirjutamiseks. Abimaterjale essee kirjutamisel ei kasutata."
       },
       {
-          "term": "**Vestlus.** Individuaalse vestluse aja saab kandidaat peale essee kirjutamist. Kunstiteaduse ja visuaalkultuuri uuringute bakalaureuse erialale astujad vestlusel varasemaid töid esitama ei pea. Vestluse käigus peab sisseastuja olema valmis vastama üldkultuurilist ja kunstiajaloolist problemaatikat puudutavatele küsimustele. Vajaduse korral võidakse küsida täpsustavaid küsimusi essee kohta. Uuritakse tudengikandidaadi motivatsiooni õppima tulekul. Hinnatakse kandidaadi valmisolekut bakalaureuseõpinguteks, üldkultuurilisi teadmisi ja silmaringi, kunstiga (arhitektuuriga, disainiga) suhestumise oskust ja valmidust, motiveeritust õppida kunstiteaduse ja visuaalkultuuri uuringute erialal."
+          "header": "Vestlus",
+          "term": "Individuaalse vestluse aja saab kandidaat peale essee kirjutamist. Kunstiteaduse ja visuaalkultuuri uuringute bakalaureuse erialale astujad vestlusel varasemaid töid esitama ei pea. Vestluse käigus peab sisseastuja olema valmis vastama üldkultuurilist ja kunstiajaloolist problemaatikat puudutavatele küsimustele. Vajaduse korral võidakse küsida täpsustavaid küsimusi essee kohta. Uuritakse tudengikandidaadi motivatsiooni õppima tulekul. Hinnatakse kandidaadi valmisolekut bakalaureuseõpinguteks, üldkultuurilisi teadmisi ja silmaringi, kunstiga (arhitektuuriga, disainiga) suhestumise oskust ja valmidust, motiveeritust õppida kunstiteaduse ja visuaalkultuuri uuringute erialal."
       }
     ],
     "name": "Kunstiteaduse ja visuaalkultuuri uuringud",
@@ -582,6 +591,7 @@
     "eap": 180,
     "spots": 10,
     "majorWebsite": "https://www.artun.ee/erialad/muinsuskaitse-ja-konserveerimine/ulevaade/",
+    "videoId": "nP-lL8fi7Wo",
     "personnel": [
         {
             "name": "Aljona Gineiko",
@@ -878,6 +888,7 @@
     "eap": 180,
     "spots": 12,
     "majorWebsite": "https://www.artun.ee/erialad/sisearhitektuur/eriala/",
+    "videoId": "srNxWZ-Yu5c",
     "personnel": [
         {
             "name": "Jüri Kermik",
@@ -928,6 +939,7 @@
     "eap": 180,
     "spots": 7,
     "majorWebsite": "https://www.artun.ee/erialad/stsenograafia/erialast/",
+    "videoId": "X632WgbE4uI",
     "personnel": [
         {
             "name": "Ene-Liis Semper",
@@ -986,6 +998,7 @@
     "eap": 180,
     "spots": 10,
     "majorWebsite": "https://www.artun.ee/erialad/tootedisain/ulevaade/",
+    "videoId": "HeMs_jI7MRU",
     "personnel": [
         {
             "name": "Taavi Aher",
@@ -1087,6 +1100,7 @@
     "eap": 180,
     "spots": 15,
     "majorWebsite": "https://www.artun.ee/erialad/kunst/",
+    "videoId": "-pmUwObXFCE",
     "personnel": [
         {
             "name": "Charlotte Biszewski",
@@ -1208,6 +1222,7 @@
     "eap": 120,
     "spots": 10,
     "majorWebsite": "https://www.artun.ee/klaas-keraamika-ehe-ja-sepis/",
+    "videoId": "GZYQJQEwrNk",
     "personnel": [
         {
             "name": "Andra Jõgis",
@@ -1381,6 +1396,7 @@
     "eap": 120,
     "spots": 7,
     "majorWebsite": "https://www.artun.ee/erialad/animatsioon/",
+    "videoId": "OF4gtKWvjgw",
     "personnel": [
         {
             "email": "ylo.pikkov@artun.ee",
@@ -1431,7 +1447,8 @@
         "term": "Motivatsioonikiri"
       },
       {
-        "term": "Portfoolio \n\nPortfoolio teksti osa võib olla PDF, eelnevalt tehtud filmid võivad olla failina lisatud, aga sobib ka toimiv link kodulehele või filmide vaatamisvõimalusele internetis (vajadusel koos parooliga). Kandideerija peaks ise välja valima kuni 5 parimat näidet eelnevalt tehtud filmidest või klippidest."
+          "header": "Portfoolio",
+        "term": "Portfoolio teksti osa võib olla PDF, eelnevalt tehtud filmid võivad olla failina lisatud, aga sobib ka toimiv link kodulehele või filmide vaatamisvõimalusele internetis (vajadusel koos parooliga). Kandideerija peaks ise välja valima kuni 5 parimat näidet eelnevalt tehtud filmidest või klippidest."
       },
       {
           "term": "Vestlus"
@@ -1505,6 +1522,7 @@
     "eap": 120,
     "spots": 10,
     "majorWebsite": "https://www.artun.ee/erialad/graafiline-disain/",
+    "videoId": "1Dhsn-li4O4",
     "personnel": [
         {
             "name": "Ott Kagovere",
@@ -1585,6 +1603,7 @@
     "eap": 120,
     "spots": 12,
     "majorWebsite": "https://www.artun.ee/erialad/interaktsioonidisain/",
+    "videoId": "PT4WV4PVf_0",
     "personnel": [
         {
             "name": "Tanel Kärp",
@@ -1628,19 +1647,24 @@
         "term": "Passi või ID-kaardi koopia"
       },
       {
-        "term": "CV (inglise keeles) – Your CV should contain the following information: \n\n**•** Personal and contact information. \n**•** Overview of your education. The higher educational facility, field of study, degree earned and the theme of the graduation work/project should be highlighted. \n**•** Work experience, including the name of the employer, the job title and description of the candidate’s responsibilities at any listed job. \n**•** Hobbies, interests, volunteering experience"
+          "header": "CV (inglise keeles)",
+        "term": "Your CV should contain the following information: \n\n**•** Personal and contact information. \n**•** Overview of your education. The higher educational facility, field of study, degree earned and the theme of the graduation work/project should be highlighted. \n**•** Work experience, including the name of the employer, the job title and description of the candidate’s responsibilities at any listed job. \n**•** Hobbies, interests, volunteering experience"
       },
       {
-        "term": "Motivatsioonikiri \n\nMotivatsioonikiri peab olema inglise keeles ning maksimum pikkusega 4600 tähemärki. Käsitleda tuleks järgmiseid teemasid: \na) Kuidas leidsid tee disaini juurde? \nb) Millisena näed interaktsioonidisaini hetkel ja tulevikus, ning kuidas oma rolli selles? \nc) Mida loodad õppida magistriprogrammi jooksul? \nd) Kuidas näed oma tulevikku pärast õpingute lõpetamist? \n\nMotivatsioonikirjas võib tsiteerida olemasolevat kirjandust, ent sellisel puhul peate kindlasti allikale viitama."
+          "header": "Motivatsioonikiri",
+        "term": "Motivatsioonikiri peab olema inglise keeles ning maksimum pikkusega 4600 tähemärki. Käsitleda tuleks järgmiseid teemasid: \na) Kuidas leidsid tee disaini juurde? \nb) Millisena näed interaktsioonidisaini hetkel ja tulevikus, ning kuidas oma rolli selles? \nc) Mida loodad õppida magistriprogrammi jooksul? \nd) Kuidas näed oma tulevikku pärast õpingute lõpetamist? \n\nMotivatsioonikirjas võib tsiteerida olemasolevat kirjandust, ent sellisel puhul peate kindlasti allikale viitama."
       },
       {
-        "term": "Varasema töö näidised (inglise keeles) \n\nVarasema töö näidised peaksid sisaldama 3-6 näidet teie varasemast tööst, huvidest ja kogemustest ja oskustest. Lisada võib disainilahendusi, tarkvaraarendusprojekte, hobi- ja kunstitöid, artikleid, teadustööde abstrakte, heategevuse ja äriprojektide kirjeldusi jne. Eesmärk on näidata mida olete senises elus teinud, kuidas loote, mõtlete ning lahendate probleeme. Iga näide peab olema illustreeritud ja lühidalt kirjeldatud. Grupitööde esitamise puhul tuleb kandidaadi panust selgelt kirjeldada. Varasema töö näidised tuleb esitada toimiva veebilehena või PDF-failina (maksimum 20 MB). Veebilinkide puhul veenduge, et need toimivad. Suuremate failide edastamiseks võib kasutada WeTransfer, Dropbox vms teenuseid. \n\nPalun lisage varasema töö näidised sisseastumisavaldusele"
+          "header": "Varasema töö näidised (inglise keeles)",
+        "term": "Varasema töö näidised peaksid sisaldama 3-6 näidet teie varasemast tööst, huvidest ja kogemustest ja oskustest. Lisada võib disainilahendusi, tarkvaraarendusprojekte, hobi- ja kunstitöid, artikleid, teadustööde abstrakte, heategevuse ja äriprojektide kirjeldusi jne. Eesmärk on näidata mida olete senises elus teinud, kuidas loote, mõtlete ning lahendate probleeme. Iga näide peab olema illustreeritud ja lühidalt kirjeldatud. Grupitööde esitamise puhul tuleb kandidaadi panust selgelt kirjeldada. Varasema töö näidised tuleb esitada toimiva veebilehena või PDF-failina (maksimum 20 MB). Veebilinkide puhul veenduge, et need toimivad. Suuremate failide edastamiseks võib kasutada WeTransfer, Dropbox vms teenuseid. \n\nPalun lisage varasema töö näidised sisseastumisavaldusele"
       },
       {
-        "term": "Kodune ülesanne (inglise keeles) \n\nMotivatsioonikirja ja teiste dokumentide alusel välja valitud kandidaadid peavad sooritama lühikese koduse eksamiülesande. Neile saadetakse eelnevalt kokkulepitud ajal e-maili kaudu probleemi kirjeldus. Probleemile tuleb pakkuda välja omapoolne lahendus tekstilises ja/või pildilises vormis ning see hiljemalt kahe tunni jooksul e-mailiga eksamikomisjonile saata. Pildilist lahendust peab saatma selgitav tekst. Eksami edukalt läbinud pääsevad edasi vestlusele."
+          "header": "Kodune ülesanne (inglise keeles)",
+        "term": "Motivatsioonikirja ja teiste dokumentide alusel välja valitud kandidaadid peavad sooritama lühikese koduse eksamiülesande. Neile saadetakse eelnevalt kokkulepitud ajal e-maili kaudu probleemi kirjeldus. Probleemile tuleb pakkuda välja omapoolne lahendus tekstilises ja/või pildilises vormis ning see hiljemalt kahe tunni jooksul e-mailiga eksamikomisjonile saata. Pildilist lahendust peab saatma selgitav tekst. Eksami edukalt läbinud pääsevad edasi vestlusele."
       },
       {
-        "term": "Vestlus (inglise keeles) \n\nSisseastuja poolt digitaalselt saadetud eksamiülesande lahenduse, portfoolio, motivatsioonikirja ning muude dokumentide põhjal esitab komisjon täiendavaid küsimusi kandidaadi varasema õpi- ja/või töökogemuse ja tulevikunägemuse kohta. Samuti püütakse intervjuu käigus kindlaks teha kandidaadi motiveeritust ja teadmisi interaktsioonidisaini valdkonna problemaatikast."
+          "header": "Vestlus (inglise keeles)",
+        "term": "Sisseastuja poolt digitaalselt saadetud eksamiülesande lahenduse, portfoolio, motivatsioonikirja ning muude dokumentide põhjal esitab komisjon täiendavaid küsimusi kandidaadi varasema õpi- ja/või töökogemuse ja tulevikunägemuse kohta. Samuti püütakse intervjuu käigus kindlaks teha kandidaadi motiveeritust ja teadmisi interaktsioonidisaini valdkonna problemaatikast."
       }
     ],
     "name": "Interaktsiooni­disain",
@@ -1750,6 +1774,7 @@
         "term": "[Täidetud küsimustik](https://docs.google.com/document/d/1lDmKeClzG1nLWXAS674sXk3WMXmSzlOHfv4JYfrGEPk/edit?usp=sharing)"
       },
       {
+          "header": "Portfoolio",
         "term": "Portfoolio peab olema korrektselt vormistatud, sisaldama vähemalt 8 tööd (mahukamate projektide puhul ka kuni 5 tööd). Portfooliovooru läbimine on vestlusele pääsemise eelduseks. \n\nPortfoolio puhul hinnatakse autoripositsiooni läbitöötatust, kunstiteoste sisukust ja kontseptsiooni, teostuse professionaalsust, adekvaatset teoste kirjeldust ning kaasaegse kunsti konteksti teadlikkust."
       }
     ],
@@ -1860,6 +1885,7 @@
         "term": "[Täidetud küsimustik](https://docs.google.com/document/d/1lDmKeClzG1nLWXAS674sXk3WMXmSzlOHfv4JYfrGEPk/edit?usp=sharing)"
       },
       {
+          "header": "Portfoolio",
         "term": "Portfoolio peab olema korrektselt vormistatud, sisaldama vähemalt 8 tööd (mahukamate projektide puhul ka kuni 5 tööd). Portfooliovooru läbimine on vestlusele pääsemise eelduseks. \n\nPortfoolio puhul hinnatakse autoripositsiooni läbitöötatust, kunstiteoste sisukust ja kontseptsiooni, teostuse professionaalsust, adekvaatset teoste kirjeldust ning kaasaegse kunsti konteksti teadlikkust."
       }
     ],
@@ -1904,6 +1930,7 @@
           "term": "Vajalik on BA kraad kunstides, disainis, arhitektuuris, kunstiõpetuses või muu samaväärne ettevalmistus."
         },
       {
+          "header": "Portfoolio",
         "term": "Sisseastumsiportfoolio (PDF) esita koos avalduse ja muude dokumentidega SAISis. Sisseastumisportfoolio on üks PDF dokument, mis sisaldab: \n\n**•** motivatsioonikirja \n\n**•** magistritöö projekti (kuni 2 lk, kavandatava töö teema kirjeldus, sõnastatud uurimisprobleem ja -eesmärk ning peamised allikad.) \n\n**•** elulookirjeldust (CV) \n\n**•** loominguliste tööde näiteid või linki veebiportfooliole, kodulehele, pildikogule vms"
       },
       {
@@ -1928,6 +1955,7 @@
     "eap": 120,
     "spots": 14,
     "majorWebsite": "https://www.artun.ee/erialad/kunstiteadus/erialast/ylevaade/",
+    "videoId": "EvwufNW7PtE",
     "personnel": [
         {
             "name": "Virve Sarapik",
@@ -2117,6 +2145,7 @@
     "eap": 120,
     "spots": 12,
     "majorWebsite": "https://www.artun.ee/erialad/muinsuskaitse-ja-konserveerimine/ope/",
+    "videoId": "nP-lL8fi7Wo",
     "personnel": [
         {
             "name": "Aljona Gineiko",
@@ -2270,6 +2299,7 @@
     "eap": 120,
     "spots": 8,
     "majorWebsite": "https://www.artun.ee/erialad/sisearhitektuur/eriala/",
+    "videoId": "srNxWZ-Yu5c",
     "personnel": [
         {
             "name": "Jüri Kermik",
@@ -2323,6 +2353,7 @@
     "eap": 120,
     "spots": 6,
     "majorWebsite": "https://www.artun.ee/erialad/stsenograafia/",
+    "videoId": "X632WgbE4uI",
     "personnel": [
         {
             "name": "Ene-Liis Semper",
@@ -2369,6 +2400,7 @@
     "eap": 120,
     "spots": 7,
     "majorWebsite": "https://www.artun.ee/en/curricula/urban-studies/about-the-program/",
+    "videoId": "d1JwqONcfAo",
     "personnel": [
         {
             "name": "Keiti Kljavin",
@@ -2481,6 +2513,7 @@
         "term": "Kandidaadil peab olema inglise keele oskus vähemalt B2-tasemel."
       },
       {
+          "header": "Vastuvõtueksam",
         "term": "Vastuvõtueksam koosneb kirjalikus ja suulisest osast. \n\n**•** Kirjalikult esitatakse kandidaadi koostatud vähemalt 10-leheküljeline ingliskeelne uurimistöö (nt väljavõte bakalaureusetööst või akadeemiline essee) ja võimalikud uurimisteemad koos sisseastumisdokumentidega SAIS-i keskkonnas. Kui kandidaadi BA ei lõppenud bakalaureusetööga, aktsepteeritakse kirjatöö näidisena ka akadeemilisi ingliskeelseid esseesid ja ilmunud teadusartikleid. Kui kirjatöö näidis ei ole inglise keeles, tuleb originaaltekstile lisada tõlge inglise keelde. Tõlke inglise keelde võib teha ise, see ei pea olema notariseeritud. \n\n**•** Suuline osa on vestlus. Vestluse kellaaeg teatatakse kandidaadile e-posti teel. Vastuvõtuperioodil koha peal toimuva intervjuu aega muuta ei saa. NB! Vestlusele kutsutakse kandidaadid, kes on saanud uurimistöö plaani ja eelneva uurimistöö näidise eest minimaalsed vajalikud punktid."
       }
     ],
@@ -2533,6 +2566,7 @@
         "term": "Motivatsiooniessee (1 A4)"
       },
       {
+          "header": "Portfoolio",
         "term": "Digitaalne portfoolio, PDF-formaadis, maht kuni 40 Mb (mitte rohkem kui 10 projekti koos lühikirjeldustega). Kui portfoolio sisaldab videoformaadis töid, tuleb need portfoolios esitada toimiva veebilingina. Kui tööd on välja pandud isiklikule kodulehele, siis võib portfoolio asemel esitada ka kodulehe lingi."
       },
       {
@@ -2602,6 +2636,7 @@
         "term": "Motivatsiooniessee (1 A4)"
       },
       {
+          "header": "Portfoolio",
         "term": "Digitaalne portfoolio, PDF-formaadis, maht kuni 20 Mb. Kui portfoolio sisaldab videoformaadis töid, tuleb need portfoolios esitada toimiva veebilingina."
       },
       {
@@ -2656,9 +2691,11 @@
         "term": "Ankeet (täidetakse SAISis) "
       },
       {
+          "header": "Essee",
         "term": "Essee (1 A4) \n\nSisseastuja esitab essee, mis tuleb lahendada Juhtumiuuringuna. Juhtumiuuring analüüsib ja peegeldab näite või näidete (disainiobjekt, kunsti- või kirjandusteos, külastatud näitus, isikliku või kultuurilise kogemuse / sündmuse analüüs vms) põhjal end huvitavat teemat. Kirjutamisülesanne peab avama kandidaadi mõttemaailma, väärtusi, seoste loomise oskust ja nende selgust, andes aimu, kuidas kogutud näited sisseastujat kõnetavad. Essee esitatakse digitaalselt, PDF-formaadis, maht 1 A4. Lisada võib mõtteid illustreerivat visuaalset materjali."
       },
       {
+          "header": "Portfoolio",
         "term": "Digitaalne portfoolio, PDF-formaadis, maht kuni 40 Mb (mitte rohkem kui 10 projekti koos lühikirjeldustega). Kui portfoolio sisaldab videoformaadis töid, tuleb need portfoolios esitada toimiva veebilingina."
       },
       {
@@ -3080,6 +3117,7 @@
     "eap": 240,
     "spots": 2,
     "majorWebsite": "https://www.artun.ee/erialad/muinsuskaitse-ja-konserveerimine/",
+    "videoId": "nP-lL8fi7Wo",
     "personnel": [
         {
             "name": "Aljona Gineiko",
