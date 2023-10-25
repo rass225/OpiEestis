@@ -10,6 +10,7 @@ struct CollegeView: View {
             List {
                 Section(content: mainDataContent, header: mainDataHeader)
                 Section(content: imageContent)
+                Section(content: virtualTourView)
                 Section(content: majorsContent, header: majorsHeader)
                 Section(content: summaryContent, header: summaryHeader)
                 Section(content: locationContent, header: locationHeader)
@@ -113,21 +114,28 @@ extension CollegeView {
         .tabViewStyle(.page(indexDisplayMode: .always))
         .indexViewStyle(.page(backgroundDisplayMode: .always))
         .listRowInsets(.zero)
+//        virtualTourView()
+    }
+    
+    @ViewBuilder
+    func virtualTourView() -> some View {
         if let virtualTourUrlString = model.college.virtualTourLink {
             HStack {
-                Text("Virtuaaltuur")
-                    .setFont(.subheadline, .medium, .rounded)
+                Text("Vaata virtuaaltuuri")
+                    .setFont(.body, .medium, .rounded)
+                    .setColor(.black)
                 Spacer()
-                Image(systemName: "play.circle")
-                    .setFont(.title2, .regular, .rounded)
+                PulsingView(color: model.college.palette.base)
+                    .frame(width: 28, height: 28)
+                    .foregroundColor(.white)
             }
-            .setColor(.white)
+            .foregroundColor(.white)
             .padding(.vertical, 6)
-                .listRowBackground(Rectangle().fill(model.college.palette.base.gradient))
-                .contentShape(Rectangle())
-                .onTapGesture {
-                    model.webLink = .init(link: virtualTourUrlString)
-                }
+            //                .listRowBackground(Rectangle().fill(model.college.palette.base.gradient))
+            .contentShape(Rectangle())
+            .onTapGesture {
+                model.webLink = .init(link: virtualTourUrlString)
+            }
         }
     }
     
@@ -293,5 +301,45 @@ struct WebView: UIViewRepresentable {
         init(_ parent: WebView) {
             self.parent = parent
         }
+    }
+}
+
+
+class PulsingAnimationManager: ObservableObject {
+    @Published var isPulsing = false
+
+    init() {
+        startPulsing()
+    }
+
+    func startPulsing() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            withAnimation(Animation.easeInOut(duration: 1.6).repeatForever(autoreverses: false)) {
+                self.isPulsing.toggle()
+            }
+        }
+    }
+}
+
+struct PulsingView: View {
+    @StateObject private var animationManager = PulsingAnimationManager()
+    let color: Color
+
+    var body: some View {
+        Image(systemName: "circle")
+            .resizable()
+            .scaleEffect(animationManager.isPulsing ? 1.3 : 0.7)
+            .opacity(animationManager.isPulsing ? 0.0 : 1.0)
+            .foregroundColor(color)
+            .overlay {
+                Image(systemName: "play.circle.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20, height: 20) // Adjust this size as needed
+                    .foregroundColor(color)
+            }
+//            .onAppear() {
+//                animationManager.startPulsing()
+//            }
     }
 }

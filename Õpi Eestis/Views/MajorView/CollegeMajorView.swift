@@ -580,7 +580,7 @@ extension CollegeMajorView {
                                 })
                         }
                     } else {
-                        placeholderPerson(size: 160, font: .largeTitle)
+                        placeholderPerson(size: 160, font: .system(size: 75))
                     }
                 }
                 .padding(.top, geo.size.height / 6)
