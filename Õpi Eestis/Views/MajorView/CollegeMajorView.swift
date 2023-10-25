@@ -76,6 +76,14 @@ private extension CollegeMajorView {
                         .listRowBackground(Color.clear)
                 }
             }
+            if let facebookWatchId = model.major.facebookWatchId {
+                Section {
+                    FacebookVideoView(videoURL: facebookWatchId)
+                        .frame(height: 190)
+                        .listRowInsets(.zero)
+                        .listRowBackground(Color.clear)
+                }
+            }
             Section(content: descriptionContent, header: descriptionHeader)
                 .listRowSeparator(.hidden)
             locationsContent()

@@ -9,6 +9,7 @@
         "eap": 240,
         "spots": 42,
         "majorWebsite": "https://www.tlu.ee/bfm/filmikunst",
+        "videoId": "Ni7O05yhwVQ",
         "type": "Balti Filmi ja Meedia Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -675,7 +676,8 @@
         ],
         "eap": 180,
         "spots": 15,
-        "majorWebsite": "https://www.tlu.ee/haapsalu",
+        "majorWebsite": "https://www.tlu.ee/haapsalu/kasitootehnoloogiad-ja-disain",
+        "videoId": "uiL1iAEHmoY",
         "type": "Humanitaarteaduste Instituut",
         "studyType": "sessioonõpe",
         "modules": [
@@ -983,6 +985,7 @@
         "eap": 180,
         "spots": 15,
         "majorWebsite": "https://www.tlu.ee/haapsalu/liiklusohutus",
+        "videoId": "hb6gS9tWKlQ",
         "type": "sotsiaalteadused",
         "studyType": "sessioonõpe",
         "modules": [
@@ -1267,6 +1270,7 @@
         "eap": 180,
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/hti/noorsootoo",
+        "videoId": "cSgs2c7-gTo",
         "type": "Haridusteaduste Instituut",
         "studyType": "sessioonõpe",
         "modules": [
@@ -1532,6 +1536,7 @@
         "eap": 180,
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/haapsalu/rakendusinformaatika",
+        "videoId": "JPMZXGuanuk",
         "type": "Digitehnoloogiate Instituut",
         "studyType": "sessioonõpe",
         "modules": [
@@ -1826,6 +1831,7 @@
         "eap": 180,
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/haapsalu/tervisejuht",
+        "videoId": "iC1gHaPPC8w",
         "type": "sotsiaalteadused",
         "studyType": "sessioonõpe",
         "modules": [
@@ -2717,7 +2723,7 @@
         ],
         "eap": 240,
         "spots": 2,
-        "majorWebsite": "https://www.tlu.ee/bfm/audiovisuaalkunstid-ja-meediauuringud#oppekeskkond",
+        "majorWebsite": "https://www.tlu.ee/bfm/audiovisuaalkunstid-ja-meediauuringud",
         "type": "Balti Filmi ja Meedia Instituut",
         "modules": [
             {
@@ -3551,6 +3557,7 @@
         "eap": 240,
         "spots": 2,
         "majorWebsite": "https://www.tlu.ee/lti/komplekssed-susteemid-loodusteadustes-phd",
+        "videoId": "iPY79l6VU8Q",
         "type": "loodus- ja terviseteaduste Instituut",
         "modules": [
             {
@@ -5325,6 +5332,7 @@
         "eap": 180,
         "spots": 25,
         "majorWebsite": "https://www.tlu.ee/bfm/ajakirjandus",
+        "videoId": "x3FxLaK9gC4",
         "personnel": [
             {
                 "name": "Külli-Riin Tigasson",
@@ -6887,6 +6895,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/bfm/audiovisuaalne-meedia",
+        "videoId": "aqO9U9UNJlM",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -7182,6 +7191,7 @@
         "eap": 180,
         "spots": 20,
         "majorWebsite": "https://www.tlu.ee/bioloogia",
+        "facebookWatchId": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTLULTI%2Fvideos%2F629113327554372%2F%3Fref%3Dembed_video",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -8121,6 +8131,7 @@
         "eap": 180,
         "spots": 22,
         "majorWebsite": "https://www.tlu.ee/ht/filosoofia",
+        "videoId": "x3XUF21GHLQ",
         "type": "Humanitaarteaduste Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -9019,6 +9030,7 @@
         "eap": 180,
         "spots": 52,
         "majorWebsite": "https://www.tlu.ee/dt/informaatika",
+        "videoId": "UHbMX7rjf9o",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -9549,6 +9561,7 @@
         "eap": 180,
         "spots": 30,
         "majorWebsite": "https://www.tlu.ee/ht/inglise-keel-ja-kultuur",
+        "videoId": "qH-xipLqQrY",
         "type": "Humanitaarteaduste Instituut",
         "studyType": "päevaõpe, sessioonõpe",
         "modules": [
@@ -9784,6 +9797,7 @@
         "eap": 180,
         "spots": 24,
         "majorWebsite": "https://www.tlu.ee/bfm/integreeritud-kunst-muusika-ja-multimeedia",
+        "videoId": "jZ08jJMGPXA",
         "type": "Balti Filmi ja Meedia Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -11407,6 +11421,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/yti/interdistsiplinaarsed-sotsiaalteadused-artes-liberales",
+        "videoId": "JcPmQfqfaQI",
         "type": "Ühiskonnateaduste Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -12518,6 +12533,7 @@
         "eap": 180,
         "spots": 18,
         "majorWebsite": "https://www.tlu.ee/bfm/koreograafia",
+        "videoId": "B5n3yK-PAMM",
         "type": "Balti Filmi ja Meedia Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -13119,6 +13135,7 @@
         "eap": 180,
         "spots": 25,
         "majorWebsite": "https://www.tlu.ee/hti/kutsepedagoogika",
+        "videoId": "LgpXZc3l5JA",
         "type": "Haridusteaduste Instituut",
         "studyType": "sessioonõpe",
         "modules": [
@@ -13646,6 +13663,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/matemaatika",
+        "videoId": "5TdSE-OLOAk",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -13965,6 +13983,7 @@
         "eap": 180,
         "spots": 30,
         "majorWebsite": "https://www.tlu.ee/yti/oigusteadus",
+        "videoId": "8_HJ_qWoBq4",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -14394,6 +14413,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/yti/oigusteadus-ingliskeelne-ope",
+        "videoId": "gcGigzcbdEo",
         "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "modules": [
@@ -15099,6 +15119,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/yti/poliitika-ja-valitsemine",
+        "videoId": "jy061M_yEgQ",
         "type": "Ühiskonnateaduste Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -16241,6 +16262,7 @@
         "eap": 180,
         "spots": 50,
         "majorWebsite": "https://www.tlu.ee/bfm/reklaam-ja-suhtekorraldus",
+        "videoId": "1Za8ZBHpsF8",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -16969,6 +16991,7 @@
         "eap": 180,
         "spots": 26,
         "majorWebsite": "https://www.tlu.ee/yti/riigiteadused-0",
+        "videoId": "z6x7Gc9PwCk",
         "type": "",
         "studyType": "päevaõpe, sessiooniõpe",
         "modules": [
@@ -17265,6 +17288,7 @@
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/bfm/ristmeedia",
+        "videoId": "OVJkiZasqo8",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -18337,6 +18361,7 @@
         "eap": 180,
         "spots": 20,
         "majorWebsite": "https://www.tlu.ee/yti/sotsioloogia",
+        "videoId": "fMIzxSUXc74",
         "type": "Ühiskonnateaduste Instituut",
         "studyType": "päevaõpe, sessioonõpe",
         "modules": [
@@ -19636,6 +19661,7 @@
         "eap": 120,
         "spots": 18,
         "majorWebsite": "https://www.tlu.ee/hti/andragoogika-MA",
+        "videoId": "mfiXf7EIDlI",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -20065,6 +20091,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/ost",
+        "videoId": "yzl6neax7N8",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -20533,6 +20560,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/bfm/dokumentaalfilm",
+        "videoId": "9PbRyim5nWg",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -21415,6 +21443,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/bfm/ekraanimeedia",
+        "videoId": "kNgoEln8ZZM",
         "type": "Balti Filmi ja Meedia Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -21873,6 +21902,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/bfm/filmikunst-jmd",
+        "vimeoId": "486769514",
         "type": "",
         "studyType": "päevaõpe",
         "modules": [
@@ -22840,6 +22870,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://www.tlu.ee/lti/heaolu-ja-tervisekaitumine-ma",
+        "videoId": "7C5MtJc60BY",
         "type": "loodus- ja terviseteaduste Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -23812,6 +23843,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/dt/inimese-ja-arvuti-interaktsioon",
+        "videoId": "zFo21bOIoLk",
         "type": "Digitehnoloogiate Instituut",
         "studyType": "sessioonõpe",
         "modules": [
@@ -24063,6 +24095,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/yti/inimoigused-digitaalses-uhiskonnas",
+        "videoId": "HchmZ00-zWI",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -24392,6 +24425,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/interaktsioonidisain",
+        "videoId": "4zrjtYZhfDk",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -24684,6 +24718,7 @@
         "eap": 120,
         "spots": 18,
         "majorWebsite": "https://www.tlu.ee/hti/kasvatusteadused-MA",
+        "videoId": "6BsHJmXIs_s",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -26330,6 +26365,7 @@
         "eap": 120,
         "spots": 5,
         "majorWebsite": "https://www.tlu.ee/bfm/koreograafia-MA",
+        "videoId": "03n1DaRnZWs",
         "type": "Balti Filmi ja Meedia Instituut",
         "studyType": "päevaõpe",
         "modules": [
@@ -26550,6 +26586,7 @@
         "eap": 120,
         "spots": 12,
         "majorWebsite": "https://www.tlu.ee/bfm/kunstiopetaja",
+        "videoId": "IWII72iraZQ",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -27143,6 +27180,7 @@
         "eap": 120,
         "spots": 20,
         "majorWebsite": "https://www.tlu.ee/hti/kutseopetaja",
+        "videoId": "WNzKMelIMPY",
         "type": "Haridusteaduste Instituut",
         "studyType": "sessioonõpe",
         "modules": [
@@ -27508,6 +27546,7 @@
         "eap": 120,
         "spots": 14,
         "majorWebsite": "https://www.tlu.ee/linnakorraldus",
+        "videoId": "y6sZPGF_Ch8",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -28095,6 +28134,7 @@
         "eap": 120,
         "spots": 30,
         "majorWebsite": "https://www.tlu.ee/hti/mitme-aine-opetaja",
+        "videoId": "1v9GHPKz2hc",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -28355,6 +28395,7 @@
         "eap": 120,
         "spots": 16,
         "majorWebsite": "https://www.tlu.ee/Mbioeco",
+        "videoId": "iPY79l6VU8Q",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -28587,6 +28628,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/bfm/muusikaopetaja",
+        "videoId": "OjkWO-aaZ38",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -28888,6 +28930,7 @@
         "eap": 120,
         "spots": 13,
         "majorWebsite": "https://www.tlu.ee/hti/noorsootoo-korraldus",
+        "videoId": "G6E4qFHiRsw",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -29111,6 +29154,7 @@
         "eap": 120,
         "spots": 14,
         "majorWebsite": "https://www.tlu.ee/ht/nuudiskultuur",
+        "videoId": "vGQIB2ty240",
         "type": "Humanitaarteaduste Instituut",
         "personnel": [
             {
@@ -30276,6 +30320,7 @@
         "eap": 120,
         "spots": 12,
         "majorWebsite": "https://www.tlu.ee/yti/politoloogia",
+        "videoId": "I8g_y4sSLKY",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -31146,6 +31191,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/yti/rahvusvahelised-suhted",
+        "videoId": "L0xV4hSU6XA",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -31373,6 +31419,7 @@
         "eap": 120,
         "spots": 16,
         "majorWebsite": "https://www.tlu.ee/yti/riigiteadused",
+        "videoId": "VdnZf_9cRiw",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -32148,6 +32195,7 @@
         "eap": 120,
         "spots": 0,
         "majorWebsite": "https://www.tlu.ee/yti/sotsiaalne-ettevotlus",
+        "videoId": "_gi5BN0YTFQ",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [
@@ -32583,6 +32631,7 @@
         "eap": 120,
         "spots": 10,
         "majorWebsite": "https://www.tlu.ee/yti/sotsioloogia-0",
+        "videoId": "gAiJ4_h27E8",
         "type": "",
         "studyType": "sessioonõpe",
         "modules": [

@@ -43,6 +43,7 @@
 		C06ED5D826AAEDED00E5812A /* Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06ED5D726AAEDED00E5812A /* Cost.swift */; };
 		C0755B96271793050045F6DC /* TÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0755B95271793050045F6DC /* TÜ.json */; };
 		C09868932766F0DA00C18C44 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09868922766F0DA00C18C44 /* Chevron.swift */; };
+		C09CFB7B2AE976CA005048B0 /* FacebookWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */; };
 		C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D1792AB6273E009218FC /* Theme.swift */; };
 		C0B6D17C2AB639CB009218FC /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17B2AB639CB009218FC /* BackButton.swift */; };
 		C0B6D17E2AB64838009218FC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17D2AB64838009218FC /* Header.swift */; };
@@ -174,6 +175,7 @@
 		C06ED5D726AAEDED00E5812A /* Cost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost.swift; sourceTree = "<group>"; };
 		C0755B95271793050045F6DC /* TÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TÜ.json"; sourceTree = "<group>"; };
 		C09868922766F0DA00C18C44 /* Chevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
+		C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWatchView.swift; sourceTree = "<group>"; };
 		C0B6D1792AB6273E009218FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C0B6D17B2AB639CB009218FC /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		C0B6D17D2AB64838009218FC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -415,6 +417,7 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C09CFB792AE976B1005048B0 /* FacebookWatchView */,
 				C019A7592AE967BC0001317C /* SpotifyView */,
 				C0CE18A22AE8395E008288F2 /* VimeoView */,
 				C0CE189F2AE8134C008288F2 /* YoutubeView */,
@@ -528,6 +531,14 @@
 				C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		C09CFB792AE976B1005048B0 /* FacebookWatchView */ = {
+			isa = PBXGroup;
+			children = (
+				C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */,
+			);
+			path = FacebookWatchView;
 			sourceTree = "<group>";
 		};
 		C0C59E412AA8E21E00423948 /* ProfileView */ = {
@@ -785,6 +796,7 @@
 				C041550F2AC8535300858055 /* CollegeMapView.swift in Sources */,
 				C0C59E432AA8E23100423948 /* ProfileView.swift in Sources */,
 				C01B642B25C860B2004D144F /* LinearGradient.swift in Sources */,
+				C09CFB7B2AE976CA005048B0 /* FacebookWatchView.swift in Sources */,
 				C0F476CF25C197140082A20F /* Array.swift in Sources */,
 				C0C59E282AA2478300423948 /* CollegeAnnotationView.swift in Sources */,
 				C0C59E342AA2615E00423948 /* SubSubModule.swift in Sources */,
