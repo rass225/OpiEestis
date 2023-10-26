@@ -29,14 +29,8 @@ struct CollegeView: View {
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
-        .sheet(item: $model.webLink) { webLink in
-            WebView(urlString: webLink.link)
-                .maxSize()
-                .ignoreEdges(edge: .bottom)
-                .presentationDragIndicator(.visible)
-                .presentationCornerRadius(16)
-                .presentationDetents([.fraction(0.85)])
-                .presentationBackground(.ultraThickMaterial)
+        .sheet(item: $model.webLink) {
+            webView(link: $0)
         }
     }
 }
@@ -51,6 +45,17 @@ extension CollegeView {
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 45)
         }
+    }
+    
+    @ViewBuilder
+    func webView(link: Model.WebLink) -> some View {
+        WebView(urlString: link.link)
+            .maxSize()
+            .ignoreEdges(edge: .bottom)
+            .presentationDragIndicator(.visible)
+            .presentationCornerRadius(16)
+            .presentationDetents([.fraction(0.85)])
+            .presentationBackground(.ultraThickMaterial)
     }
     
     @ViewBuilder
@@ -114,7 +119,6 @@ extension CollegeView {
         .tabViewStyle(.page(indexDisplayMode: .always))
         .indexViewStyle(.page(backgroundDisplayMode: .always))
         .listRowInsets(.zero)
-//        virtualTourView()
     }
     
     @ViewBuilder
@@ -125,13 +129,20 @@ extension CollegeView {
                     .setFont(.body, .medium, .rounded)
                     .setColor(.black)
                 Spacer()
-                PulsingView(color: model.college.palette.base)
+                PulsingPlayView(color: model.college.palette.base)
                     .frame(width: 28, height: 28)
                     .foregroundColor(.white)
             }
             .foregroundColor(.white)
             .padding(.vertical, 6)
-            //                .listRowBackground(Rectangle().fill(model.college.palette.base.gradient))
+            .listRowBackground(
+                ZStack {
+                    Rectangle()
+                        .fill(Color.white)
+                    Rectangle()
+                        .fill(model.college.palette.base.opacity(0.175).gradient)
+                }
+            )
             .contentShape(Rectangle())
             .onTapGesture {
                 model.webLink = .init(link: virtualTourUrlString)
@@ -270,76 +281,5 @@ struct ViewOffsetKey: PreferenceKey {
     static var defaultValue: CGFloat = 0
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value += nextValue()
-    }
-}
-
-import WebKit
-
-struct WebView: UIViewRepresentable {
-    let urlString: String
-
-    func makeUIView(context: Context) -> WKWebView {
-        let webView = WKWebView()
-        webView.navigationDelegate = context.coordinator
-        return webView
-    }
-
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        if let url = URL(string: urlString) {
-            let request = URLRequest(url: url)
-            uiView.load(request)
-        }
-    }
-
-    func makeCoordinator() -> Coordinator {
-        Coordinator(self)
-    }
-
-    class Coordinator: NSObject, WKNavigationDelegate {
-        var parent: WebView
-
-        init(_ parent: WebView) {
-            self.parent = parent
-        }
-    }
-}
-
-
-class PulsingAnimationManager: ObservableObject {
-    @Published var isPulsing = false
-
-    init() {
-        startPulsing()
-    }
-
-    func startPulsing() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            withAnimation(Animation.easeInOut(duration: 1.6).repeatForever(autoreverses: false)) {
-                self.isPulsing.toggle()
-            }
-        }
-    }
-}
-
-struct PulsingView: View {
-    @StateObject private var animationManager = PulsingAnimationManager()
-    let color: Color
-
-    var body: some View {
-        Image(systemName: "circle")
-            .resizable()
-            .scaleEffect(animationManager.isPulsing ? 1.3 : 0.7)
-            .opacity(animationManager.isPulsing ? 0.0 : 1.0)
-            .foregroundColor(color)
-            .overlay {
-                Image(systemName: "play.circle.fill")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 20, height: 20) // Adjust this size as needed
-                    .foregroundColor(color)
-            }
-//            .onAppear() {
-//                animationManager.startPulsing()
-//            }
     }
 }

@@ -1,6 +1,7 @@
 import SwiftUI
 import Combine
 import MapKit
+import FirebaseFirestore
 
 extension CollegeMajorView {
     class Model: ObservableObject {
@@ -42,7 +43,6 @@ extension CollegeMajorView {
             self.dependencies = dependencies
             self.standardMapSnapshot = standardMapSnapshot
             self.isMapViewPresented = false
-            var tabs: [Tabs] = []
             observeUserDefaults()
         }
         
@@ -259,6 +259,7 @@ private extension CollegeMajorView.Model {
         guard let urlString = major.curriculumRef else {
             print("ModuleRef not present")
             DispatchQueue.main.async {
+//                self.addMajorToSchool(major: self.major, schoolID: self.college.id)
                 self.viewState = .success
             }
             return
@@ -314,6 +315,7 @@ private extension CollegeMajorView.Model {
                         self.major.modules = modules
                     }
                     self.viewState = .success
+//                    self.addMajorToSchool(major: self.major, schoolID: self.college.id)
                 } else {
                     self.viewState = .success
                 }
@@ -353,10 +355,7 @@ private extension CollegeMajorView.Model {
                     self.major.outcomes = outcomeStrings
                 }
 
-//                if !self.tabPool.contains(.outcomes) {
-//                    self.tabPool.append(.outcomes)
-//                }
-                
+//                self.addMajorToSchool(major: self.major, schoolID: self.college.id)
                 self.viewState = .success
 
             }
@@ -378,9 +377,6 @@ private extension CollegeMajorView.Model {
                 let convertedModules = convertOisDataToModule(blocks: blocks, detailedCourses: courseResponse)
                 DispatchQueue.main.async {
                     self.major.modules = convertedModules.unique.sorted(by: \.name)
-//                    if !self.tabPool.contains(.modules) {
-//                        self.tabPool.append(.modules)
-//                    }
                 }
             } catch {
                 print("Error getting ois courses")
@@ -500,4 +496,97 @@ private extension CollegeMajorView.Model {
             courses: courses
         )
     }
+    
+    func addMajorToSchool(major: Major, schoolID: String) {
+        let db = Firestore.firestore()
+        var newMajor = NewMajor(
+            id: major.id,
+            name: major.name,
+            level: major.level.rawValue, // Assuming Level is an enum, convert to String
+            language: major.language,
+            majorWebsite: major.majorWebsite,
+            spots: major.spots,
+            duration: major.duration,
+            studyLocation: major.studyLocation,
+            eap: major.eap,
+            ekap: major.ekap,
+            cost: major.cost,
+            curriculumRef: major.curriculumRef,
+            isEnglishOnly: major.isEnglishOnly,
+            curriculumDate: major.curriculumDate,
+            studyType: major.studyType,
+            videoId: major.videoId,
+            vimeoId: major.vimeoId,
+            spotifyPath: major.spotifyPath,
+            facebookWatchId: major.facebookWatchId
+        )
+        
+        // Add the newMajor to the School's collection
+        let schoolRef = db.collection("Schools").document(schoolID)
+        let majorsCollectionRef = schoolRef.collection("majors")
+        var newMajorRef: DocumentReference? = nil
+        
+        do {
+            newMajorRef = try majorsCollectionRef.addDocument(from: newMajor)
+        } catch {
+            print("Error adding newMajor to Firestore: \(error)")
+            return
+        }
+        
+        // Add subcollections for requirements, modules, outcomes, and personnel
+        if let newMajorID = newMajorRef?.documentID {
+            // Add subcollection for Requirements
+            let requirementsCollectionRef = newMajorRef?.collection("requirements")
+            for requirement in major.requirements {
+                do {
+                    try requirementsCollectionRef?.addDocument(from: requirement)
+                } catch {
+                    print("Error adding requirement to Firestore: \(error)")
+                }
+            }
+            
+            // Add subcollection for Modules
+            if let modules = major.modules {
+                let modulesCollectionRef = newMajorRef?.collection("modules")
+                for module in modules {
+                    do {
+                        try modulesCollectionRef?.addDocument(from: module)
+                    } catch {
+                        print("Error adding module to Firestore: \(error)")
+                    }
+                }
+            }
+            
+            // Add subcollection for Outcomes
+            if let outcomes = major.outcomes {
+                let outcomesCollectionRef = newMajorRef?.collection("outcomes")
+                for outcome in outcomes {
+                    let newOutcome: NewOutcome = .init(description: outcome)
+                    do {
+                        try outcomesCollectionRef?.addDocument(from: newOutcome)
+                    } catch {
+                        print("Error adding outcome to Firestore: \(error)")
+                    }
+                }
+            }
+            
+            // Add subcollection for Personnel
+            if let personnel = major.personnel {
+                let personnelCollectionRef = newMajorRef?.collection("personnel")
+                for person in personnel {
+                    do {
+                        try personnelCollectionRef?.addDocument(from: person)
+                    } catch {
+                        print("Error adding personnel to Firestore: \(error)")
+                    }
+                }
+            }
+            
+            print("Added newMajor with ID: \(newMajorID) to Firestore")
+        }
+    }
+}
+
+struct NewOutcome: Codable, Hashable {
+    let description: String
 }

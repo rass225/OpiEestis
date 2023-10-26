@@ -44,6 +44,9 @@
 		C0755B96271793050045F6DC /* TÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0755B95271793050045F6DC /* TÜ.json */; };
 		C09868932766F0DA00C18C44 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09868922766F0DA00C18C44 /* Chevron.swift */; };
 		C09CFB7B2AE976CA005048B0 /* FacebookWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */; };
+		C09CFB7D2AEA6FE7005048B0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB7C2AEA6FE7005048B0 /* WebView.swift */; };
+		C09CFB802AEA703E005048B0 /* PulsingPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB7F2AEA703E005048B0 /* PulsingPlayView.swift */; };
+		C09CFB822AEA7491005048B0 /* NewMajor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB812AEA7491005048B0 /* NewMajor.swift */; };
 		C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D1792AB6273E009218FC /* Theme.swift */; };
 		C0B6D17C2AB639CB009218FC /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17B2AB639CB009218FC /* BackButton.swift */; };
 		C0B6D17E2AB64838009218FC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17D2AB64838009218FC /* Header.swift */; };
@@ -176,6 +179,9 @@
 		C0755B95271793050045F6DC /* TÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TÜ.json"; sourceTree = "<group>"; };
 		C09868922766F0DA00C18C44 /* Chevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
 		C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWatchView.swift; sourceTree = "<group>"; };
+		C09CFB7C2AEA6FE7005048B0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C09CFB7F2AEA703E005048B0 /* PulsingPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingPlayView.swift; sourceTree = "<group>"; };
+		C09CFB812AEA7491005048B0 /* NewMajor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMajor.swift; sourceTree = "<group>"; };
 		C0B6D1792AB6273E009218FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C0B6D17B2AB639CB009218FC /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		C0B6D17D2AB64838009218FC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -329,6 +335,7 @@
 				C06ED5D726AAEDED00E5812A /* Cost.swift */,
 				C032997A25CC192D00EB7862 /* Level.swift */,
 				C032995F25CC187100EB7862 /* Major.swift */,
+				C09CFB812AEA7491005048B0 /* NewMajor.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -417,6 +424,7 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C09CFB7E2AEA6FED005048B0 /* WebView */,
 				C09CFB792AE976B1005048B0 /* FacebookWatchView */,
 				C019A7592AE967BC0001317C /* SpotifyView */,
 				C0CE18A22AE8395E008288F2 /* VimeoView */,
@@ -456,6 +464,7 @@
 				C0B6D17B2AB639CB009218FC /* BackButton.swift */,
 				C0B6D17D2AB64838009218FC /* Header.swift */,
 				C0CE189D2AE7F0EC008288F2 /* AppPrincipal.swift */,
+				C09CFB7F2AEA703E005048B0 /* PulsingPlayView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -539,6 +548,14 @@
 				C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */,
 			);
 			path = FacebookWatchView;
+			sourceTree = "<group>";
+		};
+		C09CFB7E2AEA6FED005048B0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				C09CFB7C2AEA6FE7005048B0 /* WebView.swift */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		C0C59E412AA8E21E00423948 /* ProfileView */ = {
@@ -752,6 +769,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0518904274BE5AD00C4F352 /* Personnel.swift in Sources */,
+				C09CFB7D2AEA6FE7005048B0 /* WebView.swift in Sources */,
 				C0C59E142A8A5CC800423948 /* PathManager.swift in Sources */,
 				C0CE189E2AE7F0EC008288F2 /* AppPrincipal.swift in Sources */,
 				C0C59E222AA1284400423948 /* CollegeView.Cells.swift in Sources */,
@@ -772,9 +790,11 @@
 				C018106F25C049530026A86F /* Double.swift in Sources */,
 				C0F85B542A77FA93007A65F7 /* MajorsView.swift in Sources */,
 				C0C59E402AA8D5BE00423948 /* MapServiceManager.swift in Sources */,
+				C09CFB822AEA7491005048B0 /* NewMajor.swift in Sources */,
 				C0F85B492A73E243007A65F7 /* Text+Extension.swift in Sources */,
 				C0F85B6B2A8392D4007A65F7 /* MarkerView.swift in Sources */,
 				C0460E7025AF0E8100E4A15D /* Mariah.swift in Sources */,
+				C09CFB802AEA703E005048B0 /* PulsingPlayView.swift in Sources */,
 				C0C59E382AA2618600423948 /* Currency.swift in Sources */,
 				C039486626279BC0004D5F00 /* ContentViewModel.swift in Sources */,
 				C0C59E262AA2474E00423948 /* CollegeClusterView.swift in Sources */,
@@ -987,7 +1007,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1013,7 +1033,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
