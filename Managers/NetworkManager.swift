@@ -1,4 +1,6 @@
 import UIKit
+import FirebaseAuth
+import FirebaseFirestore
 
 struct NetworkManager {
     private let firebase: FirebaseManager
@@ -11,11 +13,81 @@ struct NetworkManager {
 }
 
 extension NetworkManager {
-    func fetchColleges(completion: @escaping (Result<[College], Error>) -> ()) {
-        firebase.fetchSchools(completion: completion)
+    func updateUserData(data: [String: String], userId: String) async throws {
+        try await firebase.updateUserData(data: data, userId: userId)
+    }
+    func updateUser(user: FirebaseUser) async throws {
+        try await firebase.updateUser(user: user)
     }
     
-    func fetchMajors(_ ref: String) async -> [Major]? {
+    func createUser(user: FirebaseUser) async throws {
+        try await firebase.createUser(user: user)
+    }
+    
+    func fetchUser(userId: String) async throws -> FirebaseUser? {
+        try await firebase.fetchUser(userId: userId)
+    }
+    
+    func fetchColleges() async throws -> [College] {
+        try await firebase.fetchSchools()
+    }
+    
+    func fetchMajors(schoolId: String) async throws -> [NewMajor] {
+        try await firebase.fetchMajors(schoolId: schoolId)
+    }
+    
+    func streamMajors(schoolId: String, completion: @escaping (Result<[NewMajor], Error>) -> ()) {
+        firebase.streamMajors(schoolId: schoolId, completion: completion)
+    }
+    
+    func fetchPersonnel(schoolId: String, majorId: String) async throws -> [Personnel] {
+        try await firebase.fetchPersonnel(schoolId: schoolId, majorId: majorId)
+    }
+    
+    func fetchOutcomes(schoolId: String, majorId: String) async throws -> [NewOutcome] {
+        try await firebase.fetchOutcomes(schoolId: schoolId, majorId: majorId)
+    }
+    
+    func fetchRequirements(schoolId: String, majorId: String) async throws -> [Requirements] {
+        try await firebase.fetchRequirements(schoolId: schoolId, majorId: majorId)
+    }
+    
+    func fetchModules(schoolId: String, majorId: String) async throws -> [Module] {
+        try await firebase.fetchModules(schoolId: schoolId, majorId: majorId)
+    }
+    
+    func addFavorite(userId: String, major: NewMajor, college: College) async throws {
+        try await firebase.addFavorite(userId: userId, college: college, major: major)
+    }
+    
+    func removeFavorite(userId: String, favoriteId: String) async throws {
+        try await firebase.removeFavorite(userId: userId, favoriteId: favoriteId)
+    }
+    
+    func streamAuthState(completion: @escaping (User?) -> ()) {
+        firebase.streamAuthState(completion: completion)
+    }
+    
+    func streamUserFavoriteMajors(userId: String, completion: @escaping (Result<[Favorite], Error>) -> ()) {
+        firebase.streamUserFavoriteMajors(userId: userId, completion: completion)
+    }
+    
+    func streamUserFavoriteMajor(
+        userId: String,
+        majorId: String,
+        completion: @escaping (Result<Favorite, Error>) -> ()
+    ) {
+        firebase.streamUserFavoriteMajor(majorId: majorId, userId: userId, completion: completion)
+    }
+    
+    func streamUser(
+        userId: String,
+        completion: @escaping (Result<FirebaseUser, Error>) -> ()
+    ) -> ListenerRegistration {
+        return firebase.streamUser(userId: userId, completion: completion)
+    }
+    
+    func fetchLocalMajors(_ ref: String) async -> [Major]? {
         if let url = Bundle.main.url(forResource: ref, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
@@ -64,6 +136,10 @@ extension NetworkManager {
         }
         
         return imageCache
+    }
+    
+    func fetchImage(url: URL) async -> UIImage? {
+        return await self.fetchImageAsync(from: url)
     }
     
     func fetchOisCourses(with uuids: [String]) async throws -> Data {

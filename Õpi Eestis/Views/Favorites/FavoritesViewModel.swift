@@ -3,22 +3,25 @@ import SwiftUI
 
 extension FavoritesView {
     class Model: ObservableObject {
-        @Published var favorites: [String: [Major]]
+        @Published var favorites: [Favorite] = []
         let colleges: [College]
         private let dependencies: DependencyManager
         private var cancellables = Set<AnyCancellable>()
+        let user: FirebaseUser
+        
+        var groupedFavorites: [String: [Favorite]] {
+            Dictionary(grouping: favorites) { $0.collegeId }
+        }
         
         init(
             colleges: [College],
             dependencies: DependencyManager = .shared,
-            favorites: [String: [Major]] = [:]
+            user: FirebaseUser
         ) {
-            self.favorites = favorites
             self.colleges = colleges
             self.dependencies = dependencies
-            
-            observeDefaults()
-            updateFavorites()
+            self.user = user
+            streamFavorites()
         }
     }
 }
@@ -26,34 +29,37 @@ extension FavoritesView {
 // MARK: - Public Methods
 
 extension FavoritesView.Model {
-    func removeFavorite(major: Major, college: College) {
-        dependencies.userDefaults.removeFavorite(university: college, major: major)
+    func removeFavorite(major: NewMajor, college: College) {
+        guard let favorite = favorites.first(where: { $0.major.id == major.id }) else { return }
+        Task {
+            do {
+               try await dependencies.network.removeFavorite(userId: user.id, favoriteId: favorite.id)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
     }
 }
 
 // MARK: - Private Methods
 
 private extension FavoritesView.Model {
-    func observeDefaults() {
-        NotificationCenter.default.publisher(for: UserDefaults.didChangeNotification)
-            .sink { [weak self] _ in
-                self?.updateFavorites()
+    func streamFavorites() {
+        dependencies.network.streamUserFavoriteMajors(userId: user.id) { [weak self] result in
+            switch result {
+            case let .success(favorites):
+                self?.favorites = favorites
+            case let .failure(error):
+                print(error.localizedDescription)
             }
-            .store(in: &cancellables)
-    }
-    
-    func updateFavorites() {
-        DispatchQueue.main.async {
-            self.favorites = self.dependencies.userDefaults.getAllFavorites()
         }
     }
 }
 
 // MARK: - Objects
 
-extension FavoritesView.Model {
-    struct Favorite: Hashable {
-        let college: College
-        let major: Major
-    }
+struct Favorite: Hashable, Codable {
+    let id: String
+    let collegeId: String
+    let major: NewMajor
 }

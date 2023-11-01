@@ -84,7 +84,14 @@ struct ClusteredMapView: UIViewRepresentable {
                 // Deselect the annotation so that it can be re-selected and zoomed in again
                 mapView.deselectAnnotation(clusterAnnotation, animated: false)
             } else if let collegeAnnotation = view.annotation as? CollegeAnnotation {
-                parent.appState.route(to: CollegeDestination.college(collegeAnnotation.branch.parentCollege))
+                switch parent.appState.environment {
+                case .edit:
+                    parent.appState.route(to: .collegeDevelopment(collegeAnnotation.branch.parentCollege))
+                case .local:
+                    parent.appState.route(to: .college(collegeAnnotation.branch.parentCollege))
+                case .remote:
+                    parent.appState.route(to: .college(collegeAnnotation.branch.parentCollege))
+                }
             }
         }
     }

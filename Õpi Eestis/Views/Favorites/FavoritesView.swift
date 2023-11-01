@@ -1,5 +1,22 @@
 import SwiftUI
 
+struct FavoritesViewWrapper: View {
+    @EnvironmentObject private var appState: AppState
+    let colleges: [College]
+    
+    var body: some View {
+        switch appState.authState {
+        case let .authenticated(user):
+            FavoritesView(model: .init(colleges: colleges, user: user))
+        case .unauthenticated:
+            UnauthenticatedView(
+                title: "Lemmikute vaatamiseks palun logi sisse",
+                action: appState.signInApple
+            )
+        }
+    }
+}
+
 struct FavoritesView: View {
     @EnvironmentObject private var appState: AppState
     @StateObject var model: Model
@@ -9,24 +26,14 @@ struct FavoritesView: View {
             if model.favorites.isEmpty {
                 emptyView()
             } else {
-                List(model.favorites.keys.sorted(), id: \.self) { key in
-                    if let favoriteMajorsMinors = model.favorites[key] {
-                        Section(content: {
-                            ForEach(favoriteMajorsMinors, id: \.self) { major in
-                                majorCell(major, schoolName: key)
-                            }
-                        }, header: {
-                            schoolHeader(key)
-                        })
-                    }
+                List(model.colleges, id: \.id) { college in
+                    collegeCell(college)
                 }
             }
         }
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            ToolbarItem(placement: .principal) {
-                AppPrincipal()
-            }
+            ToolbarItem(placement: .principal, content: AppPrincipal.init)
         }
     }
     
@@ -44,7 +51,18 @@ struct FavoritesView: View {
     }
     
     @ViewBuilder
-    func majorCell(_ major: Major, schoolName: String) -> some View {
+    func collegeCell(_ college: College) -> some View {
+        if let favoritesForCollege = model.groupedFavorites[college.id] {
+            Section(header: schoolHeader(college.name)) {
+                ForEach(favoritesForCollege, id: \.id) { favorite in
+                    majorCell(favorite.major, schoolName: college.name)
+                }
+            }
+        }
+    }
+    
+    @ViewBuilder
+    func majorCell(_ major: NewMajor, schoolName: String) -> some View {
         if let college = model.colleges.first(where: { $0.name == schoolName}) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
@@ -103,7 +121,7 @@ struct FavoritesView: View {
         }
     }
     
-    func navigateToMajor(college: College, major: Major) {
-        appState.route(to: .major(college: college, major: major, isFavorite: true))
+    func navigateToMajor(college: College, major: NewMajor) {
+        appState.route(to: .majorRemote(college: college, major: major, isFavorite: true))
     }
 }

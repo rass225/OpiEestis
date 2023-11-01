@@ -29,7 +29,7 @@ struct CollegeView: View {
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
         .navigationBarBackButtonHidden()
-        .sheet(item: $model.webLink) {
+        .fullScreenCover(item: $model.webLink) {
             webView(link: $0)
         }
     }
@@ -49,13 +49,25 @@ extension CollegeView {
     
     @ViewBuilder
     func webView(link: Model.WebLink) -> some View {
-        WebView(urlString: link.link)
-            .maxSize()
-            .ignoreEdges(edge: .bottom)
-            .presentationDragIndicator(.visible)
-            .presentationCornerRadius(16)
-            .presentationDetents([.fraction(0.85)])
-            .presentationBackground(.ultraThickMaterial)
+        VStack(spacing: 0) {
+            WebView(urlString: link.link)
+                .maxSize()
+            Text("Tagasi")
+                .setFont(.body, .medium, .rounded)
+                .setColor(.white)
+                .padding(.vertical, 8)
+                .padding(.horizontal, 32)
+                .background(
+                    Capsule(style: .continuous)
+                        .fill(model.college.palette.base.gradient)
+                )
+                .padding(.top)
+                .onTapGesture {
+                    model.webLink = nil
+                }
+        }
+        .presentationCornerRadius(16)
+        .presentationBackground(Color.black)
     }
     
     @ViewBuilder
@@ -127,20 +139,20 @@ extension CollegeView {
             HStack {
                 Text("Vaata virtuaaltuuri")
                     .setFont(.body, .medium, .rounded)
-                    .setColor(.black)
+                    .setColor(.white)
                 Spacer()
                 PulsingPlayView(color: model.college.palette.base)
-                    .frame(width: 28, height: 28)
+                    .frame(width: 32, height: 32)
                     .foregroundColor(.white)
             }
             .foregroundColor(.white)
             .padding(.vertical, 6)
             .listRowBackground(
                 ZStack {
-                    Rectangle()
+                    Capsule()
                         .fill(Color.white)
-                    Rectangle()
-                        .fill(model.college.palette.base.opacity(0.175).gradient)
+                    Capsule()
+                        .fill(model.college.palette.base.gradient)
                 }
             )
             .contentShape(Rectangle())
@@ -154,8 +166,24 @@ extension CollegeView {
     func majorsContent() -> some View {
         VStack(spacing: 16) {
             VStack(alignment: .leading, spacing: 12){
-                ForEach(model.majorStats, id: \.self) { item in
-                    majorContentCell(item)
+                if model.majorsLevelCounts.vocational > 0 {
+                    levelView(for: .vocational, count: model.majorsLevelCounts.vocational)
+                }
+                
+                if model.majorsLevelCounts.applied > 0 {
+                    levelView(for: .applied, count: model.majorsLevelCounts.applied)
+                }
+                
+                if model.majorsLevelCounts.bachelor > 0 {
+                    levelView(for: .bachelor, count: model.majorsLevelCounts.bachelor)
+                }
+                
+                if model.majorsLevelCounts.integrated + model.majorsLevelCounts.masters > 0 {
+                    levelView(for: .masters, count: model.majorsLevelCounts.masters)
+                }
+                
+                if model.majorsLevelCounts.doctor > 0 {
+                    levelView(for: .doctor, count: model.majorsLevelCounts.doctor)
                 }
             }.padding(.vertical, model.majorContentPadding())
         }
@@ -173,10 +201,7 @@ extension CollegeView {
         .listRowBackground(Rectangle().fill(model.college.palette.base.gradient))
         .contentShape(Rectangle())
         .onTapGesture {
-            appState.route(to: CollegeDestination.majors(
-                college: model.college,
-                majors: model.majors
-            ))
+            appState.route(to: .majors(college: model.college, majors: model.majors))
         }
     }
 
@@ -221,7 +246,7 @@ extension CollegeView {
     }
 
     var mapView: some View {
-        Image(uiImage: model.standardMapSnapshot)
+        Image(uiImage: model.mapSnapshot)
             .resizable()
             .fill()
             .listRowInsets(.zero)

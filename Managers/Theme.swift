@@ -7,6 +7,7 @@ struct Theme {
         static let black: Color = .init(red: 0.1, green: 0.1, blue: 0.1)
         static let white: Color = Color.white
         static let gray: Color = .gray
+        static let secondaryGray: Color = .init(red: 200/255, green: 200/255, blue: 200/255)
     }
     
     enum Icons {

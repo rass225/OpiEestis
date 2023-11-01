@@ -2128,7 +2128,7 @@
       }
     ],
     "name": "Kunstiteadus ja visuaalkultuuri uuringud",
-    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1049/6769?format=json",
+    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1049?format=json",
     "cost": {
       "amount": 0,
       "currency": "€",
@@ -2703,7 +2703,7 @@
       }
     ],
     "name": "Taidestuudium",
-    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2990/6880?format=json",
+    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2990?format=json",
     "cost": {
       "amount": 2600,
       "currency": "€",
@@ -2760,7 +2760,7 @@
       }
     ],
     "name": "Taidestuudium",
-    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2994/6906?format=json",
+    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2994?format=json",
     "cost": {
       "amount": 0,
       "currency": "€",
@@ -3098,7 +3098,7 @@
       }
     ],
     "name": "Kunstiteadus ja visuaalkultuuri uuringud",
-    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1060/6767?format=json",
+    "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1060?format=json",
     "cost": {
       "amount": 0,
       "currency": "€",

@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct Major: Hashable, Codable {
-    var id: String?
+struct Major: Hashable, Codable, Identifiable {
+    var id = UUID()
     var name: String
     var level: Level
     var type: String
@@ -28,7 +28,7 @@ struct Major: Hashable, Codable {
     var facebookWatchId: String?
     
     enum CodingKeys: String, CodingKey {
-        case id
+//        case id
         case name
         case level
         case type
@@ -56,7 +56,7 @@ struct Major: Hashable, Codable {
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.id = try container.decodeIfPresent(String.self, forKey: .id)
+//        self.id = try container.decodeIfPresent(String.self, forKey: .id)
         self.name = try container.decode(String.self, forKey: .name)
         self.level = try container.decode(Level.self, forKey: .level)
         self.type = try container.decode(String.self, forKey: .type)

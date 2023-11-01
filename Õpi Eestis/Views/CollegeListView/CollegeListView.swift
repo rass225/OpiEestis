@@ -11,9 +11,7 @@ struct CollegesListView: View {
             }
         }
         .toolbar {
-            ToolbarItem(placement: .principal, content: {
-                AppPrincipal()
-            })
+            ToolbarItem(placement: .principal, content: AppPrincipal.init)
         }
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.white, for: .tabBar)
@@ -35,7 +33,14 @@ private extension CollegesListView {
         .contentShape(Rectangle())
         .listRowInsets(.collegeListInsets)
         .onTapGesture {
-            appState.route(to: CollegeDestination.college(college))
+            switch appState.environment {
+            case .edit:
+                appState.route(to: .collegeDevelopment(college))
+            case .local:
+                appState.route(to: CollegeDestination.college(college))
+            case .remote:
+                appState.route(to: .college(college))
+            }
         }
     }
     

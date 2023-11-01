@@ -20,7 +20,6 @@ struct MajorsView: View {
         }
         .sheet(isPresented: $model.isFilterPresented, content: filterView)
         .onAppear(perform: model.setTheme)
-        .onAppear(perform: model.getFavorites)
         .navigationBarBackButtonHidden()
     }
 }
@@ -98,7 +97,6 @@ private extension MajorsView {
                     languagePicker()
                     studyTypePicker()
                     costPicker()
-                    
                 }
                 .listStyle(.plain)
                 .scrollIndicators(.hidden)
@@ -121,7 +119,7 @@ private extension MajorsView {
 
 extension MajorsView {
     @ViewBuilder
-    func majorCell(_ major: Major) -> some View {
+    func majorCell(_ major: NewMajor) -> some View {
         HStack(alignment: .center, spacing: 8) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
@@ -159,7 +157,7 @@ extension MajorsView {
         }
         .contentShape(Rectangle())
         .onTapGesture {
-            appState.route(to: CollegeDestination.major(
+            appState.route(to: .majorRemote(
                 college: model.college,
                 major: major,
                 isFavorite: model.isFavorite(major)
@@ -172,7 +170,7 @@ extension MajorsView {
 
 private extension MajorsView {
     @ViewBuilder
-    func removeFavoriteButton(_ major: Major) -> some View {
+    func removeFavoriteButton(_ major: NewMajor) -> some View {
         Button {
             model.removeFavorite(major: major)
         } label: {
@@ -182,7 +180,7 @@ private extension MajorsView {
     }
     
     @ViewBuilder
-    func addFavoriteButton(_ major: Major) -> some View {
+    func addFavoriteButton(_ major: NewMajor) -> some View {
         Button {
             model.addFavorite(major: major)
         } label: {

@@ -1,7 +1,7 @@
 import MapKit
 import SwiftUI
 
-class MapServiceManager {
+struct MapServiceManager {
     func fetchMapSnapshot(for location: CollegeLocation) async -> MapLocation? {
         let options = MKMapSnapshotter.Options()
         options.region = MKCoordinateRegion(center: location.coordinates, latitudinalMeters: 3000, longitudinalMeters: 3000)
@@ -37,7 +37,6 @@ class MapServiceManager {
         baseColor: Color,
         secondaryColor: Color
     ) async -> UIImage? {
-        let coordinates = branches.map(\.coordinates)
         let region = coordinateRegion
         let options = MKMapSnapshotter.Options()
         options.region = region
@@ -62,7 +61,51 @@ class MapServiceManager {
             return nil
         }
     }
+    
+    func getRegion(
+        locations: [CLLocationCoordinate2D],
+        latitudeMultiplier: CGFloat = 1.25
+    ) -> MKCoordinateRegion {
+        let padding: Double = 0.3
+        var minLatitude: Double = 90.0
+        var maxLatitude: Double = -90.0
+        var minLongitude: Double = 180.0
+        var maxLongitude: Double = -180.0
+        
+        for location in locations {
+            let latitude = location.latitude
+            let longitude = location.longitude
+            minLatitude = min(minLatitude, latitude)
+            maxLatitude = max(maxLatitude, latitude)
+            minLongitude = min(minLongitude, longitude)
+            maxLongitude = max(maxLongitude, longitude)
+        }
+        
+        let center = CLLocationCoordinate2D(
+            latitude: (minLatitude + maxLatitude) / 2,
+            longitude: (minLongitude + maxLongitude) / 2
+        )
+        
+        if locations.count == 1 {
+            let span = MKCoordinateSpan(
+                latitudeDelta: 0.05,
+                longitudeDelta: 0.05
+            )
+            return MKCoordinateRegion(center: center, span: span)
+        } else {
+            let latitudeDelta = (maxLatitude - minLatitude) * (latitudeMultiplier + padding)
+            let longitudeDelta = (maxLongitude - minLongitude) * (1.0 + padding)
+            
+            let span = MKCoordinateSpan(
+                latitudeDelta: latitudeDelta,
+                longitudeDelta: longitudeDelta
+            )
+            return MKCoordinateRegion(center: center, span: span)
+        }
+    }
+}
 
+private extension MapServiceManager {
     func drawAnnotations(
         on snapshot: MKMapSnapshotter.Snapshot,
         for branches: [CollegeLocation],
@@ -77,7 +120,7 @@ class MapServiceManager {
             
             for branch in branches {
                 let point = snapshot.point(for: branch.coordinates)
-                let pinView = MarkerViewX(baseColor: baseColor, secondaryColor: secondaryColor)
+                let pinView = MarkerView(baseColor: baseColor, secondaryColor: secondaryColor)
                 let pinImage = pinView.asImage(size: pinSize)
 
                 let adjustedPoint = CGPoint(
@@ -93,6 +136,28 @@ class MapServiceManager {
             return snapshotImage
         }
     }
+    
+    struct MarkerView: View {
+        var baseColor: Color
+        var secondaryColor: Color
+        
+        var body: some View {
+            Image("pin")
+                .resizable()
+                .fit()
+                .setColor(baseColor.gradient)
+                .overlay(alignment: .top) {
+                    circle
+                }
+        }
+        
+        var circle: some View {
+            Circle()
+                .fill(secondaryColor)
+                .frame(width: 8, height: 8)
+                .padding(.top, 6)
+        }
+    }
 }
 
 struct MapLocation: Hashable {
@@ -102,20 +167,4 @@ struct MapLocation: Hashable {
 }
 
 
-struct MarkerViewX: View {
-    var baseColor: Color
-    var secondaryColor: Color
-    
-    var body: some View {
-        Image("pin")
-            .resizable()
-            .fit()
-            .setColor(baseColor.gradient)  // Replaced setColor with colorMultiply for simplicity. Adjust as needed.
-            .overlay(alignment: .top) {
-                Circle()
-                    .fill(secondaryColor)
-                    .frame(width: 8, height: 8)
-                    .padding(.top, 6)
-            }
-    }
-}
+
