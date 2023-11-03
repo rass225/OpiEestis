@@ -2,12 +2,14 @@ import SwiftUI
 import Combine
 import MapKit
 
-extension CollegeMajorViewRemote {
+extension MajorView {
     class Model: ObservableObject {
         @Published var requirements: [Requirements]
         @Published var personnel: [Personnel]
         @Published var outcomes: [NewOutcome]
         @Published var modules: [Module]
+        @Published var reviews: [Review]
+        @Published var ratings: [Rating]
         @Published var tabSelection: Tabs
         @Published var isFavorite: Bool
         @Published var viewState: ViewState
@@ -24,14 +26,12 @@ extension CollegeMajorViewRemote {
         private let dependencies: DependencyManager
         private var favoriteMajor: Favorite?
         
+        
         var availableTabs: [Tabs] {
             var tabs: [Tabs] = []
             tabs.append(.overview)
             if !requirements.isEmpty {
                 tabs.append(.requirements)
-            }
-            if !personnel.isEmpty {
-                tabs.append(.personnel)
             }
             if !outcomes.isEmpty {
                 tabs.append(.outcomes)
@@ -39,7 +39,14 @@ extension CollegeMajorViewRemote {
             if !modules.isEmpty {
                 tabs.append(.modules)
             }
+            tabs.append(.reviews)
             return tabs
+        }
+        
+        var averageRating: Double {
+            let totalCount = ratings.map(\.rating).reduce(0, +)
+            let currentRating = Double(totalCount) / Double(ratings.count)
+            return currentRating
         }
         
         init(
@@ -58,6 +65,16 @@ extension CollegeMajorViewRemote {
             self.personnel = []
             self.outcomes = []
             self.modules = []
+            self.reviews = []
+            self.ratings = [
+                .init(id: "XXX", userId: "YYY", rating: 3),
+                .init(id: "XXX", userId: "YYY", rating: 2),
+                .init(id: "XXX", userId: "YYY", rating: 5),
+                .init(id: "XXX", userId: "YYY", rating: 3),
+                .init(id: "XXX", userId: "YYY", rating: 1),
+                .init(id: "XXX", userId: "YYY", rating: 1),
+                .init(id: "XXX", userId: "YYY", rating: 4)
+            ]
             self.college = college
             self.tabSelection = tabSelection
             self.isFavorite = isFavorite
@@ -84,7 +101,7 @@ extension CollegeMajorViewRemote {
     }
 }
 
-extension CollegeMajorViewRemote.Model {
+extension MajorView.Model {
     func openWebsite() {
         dependencies.network.openLink(with: major.majorWebsite)
     }
@@ -131,7 +148,7 @@ extension CollegeMajorViewRemote.Model {
 
 // MARK: - Private Methods
 
-private extension CollegeMajorViewRemote.Model {
+private extension MajorView.Model {
     func start() {
         Task {
             await withTaskGroup(of: Void.self) { group in
@@ -142,6 +159,8 @@ private extension CollegeMajorViewRemote.Model {
                 group.addTask { await self.fetchPersonnelImages() }
                 group.addTask { self.loadMapSnapshot() }
                 group.addTask { self.streamFavoriteMajor() }
+                group.addTask { await self.fetchRatings() }
+                group.addTask { await self.fetchReviews() }
                 for await _ in group { }
             }
         }
@@ -177,7 +196,7 @@ private extension CollegeMajorViewRemote.Model {
 
 // MARK: - Fetching
 
-private extension CollegeMajorViewRemote.Model {
+private extension MajorView.Model {
     func streamFavoriteMajor() {
         guard let user else { return }
         dependencies.network.streamUserFavoriteMajor(userId: user.id, majorId: major.id) { [weak self] result in
@@ -230,6 +249,28 @@ private extension CollegeMajorViewRemote.Model {
             let modules = try await dependencies.network.fetchModules(schoolId: college.id, majorId: major.id)
             DispatchQueue.main.async {
                 self.modules = modules
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+    
+    func fetchReviews() async {
+        do {
+            let reviews = try await dependencies.network.fetchReviews(collegeId: college.id, majorId: major.id)
+            DispatchQueue.main.async {
+                self.reviews = reviews
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+    
+    func fetchRatings() async {
+        do {
+            let ratings = try await dependencies.network.fetchRatings(collegeId: college.id, majorId: major.id)
+            DispatchQueue.main.async {
+                self.ratings = ratings
             }
         } catch {
             print(error.localizedDescription)

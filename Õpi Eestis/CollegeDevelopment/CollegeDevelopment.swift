@@ -55,7 +55,7 @@ struct CollegeDevelopment: View {
             )
         }
         .sheet(item: $model.remoteMajorSelection) { major in
-            CollegeMajorViewRemote(model: .init(major: major, college: model.college, user: .initial(id: "XXX", email: "Email"), isFavorite: false, appState: .init()))
+            MajorView(model: .init(major: major, college: model.college, user: .initial(id: "XXX", email: "Email"), isFavorite: false, appState: .init()))
         }
     }
     

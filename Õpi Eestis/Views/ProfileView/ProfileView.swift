@@ -9,7 +9,7 @@ struct ProfileView: View {
             authenticatedView(user: user)
         case .unauthenticated:
             UnauthenticatedView(
-                title: "Profiili vaatamiseks palun logi sisse",
+                title: "Profiili vaatamiseks logi sisse",
                 action: appState.signInApple
             )
         }

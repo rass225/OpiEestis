@@ -49,6 +49,16 @@ struct FirebaseManager {
         return try decodeSnapshots(snapshot: snapshot)
     }
     
+    func fetchReviews(collegeId: String, majorId: String) async throws -> [Review] {
+        let snapshot = try await query(for: .majorReviews(collegeId: collegeId, majorId: majorId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func fetchRatings(collegeId: String, majorId: String) async throws -> [Rating] {
+        let snapshot = try await query(for: .majorRatings(collegeId: collegeId, majorId: majorId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
     func addFavorite(
         userId: String,
         college: College,
@@ -190,6 +200,20 @@ private extension FirebaseManager {
                 .document(userId)
                 .collection("favoriteMajors")
                 .whereField("major.id", isEqualTo: majorId)
+        case let .majorReviews(collegeId, majorId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+        case let .majorRatings(collegeId, majorId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("ratings")
         }
     }
 }
@@ -336,6 +360,8 @@ extension FirebaseManager {
         case module(schoolId: String, majorId: String)
         case userFavoriteMajors(userId: String)
         case userFavoriteMajor(userId: String, majorId: String)
+        case majorReviews(collegeId: String, majorId: String)
+        case majorRatings(collegeId: String, majorId: String)
     }
     
     enum DocReference {

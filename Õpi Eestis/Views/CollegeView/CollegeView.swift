@@ -290,6 +290,9 @@ extension CollegeView {
                 bottomLabel: OEAppearance.Locale.major,
                 image: Theme.Icons.textBook
             )
+            .onTapGesture {
+                appState.route(to: .majors(college: model.college, majors: model.majors))
+            }
             Spacer()
             statisticCell(
                 topLabel: String(model.college.branches.count),

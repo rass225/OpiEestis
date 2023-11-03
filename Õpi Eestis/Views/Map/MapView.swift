@@ -6,6 +6,22 @@ struct MapView: View {
     let locations: [CollegeBranch]
     
     var body: some View {
+        switch appState.authState {
+        case .authenticated:
+            authenticatedView()
+        case .unauthenticated:
+            UnauthenticatedView(
+                title: "Kaardi vaatamiseks logi sisse",
+                action: appState.signInApple
+            )
+        }
+        
+    }
+}
+
+extension MapView {
+    @ViewBuilder
+    func authenticatedView() -> some View {
         ClusteredMapView(locations: locations)
             .ignoresSafeArea(edges: .top)
             .navigationBarTitleDisplayMode(.inline)

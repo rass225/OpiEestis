@@ -56,6 +56,14 @@ extension NetworkManager {
         try await firebase.fetchModules(schoolId: schoolId, majorId: majorId)
     }
     
+    func fetchReviews(collegeId: String, majorId: String) async throws -> [Review] {
+        try await firebase.fetchReviews(collegeId: collegeId, majorId: majorId)
+    }
+    
+    func fetchRatings(collegeId: String, majorId: String) async throws -> [Rating] {
+        try await firebase.fetchRatings(collegeId: collegeId, majorId: majorId)
+    }
+    
     func addFavorite(userId: String, major: NewMajor, college: College) async throws {
         try await firebase.addFavorite(userId: userId, college: college, major: major)
     }

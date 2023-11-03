@@ -2,13 +2,13 @@ import SwiftUI
 
 // MARK: - Objects
 
-extension CollegeMajorViewRemote.Model {
+extension MajorView.Model {
     enum Tabs: CaseIterable {
         case overview
         case requirements
         case modules
         case outcomes
-        case personnel
+        case reviews
         
         var image: Image {
             switch self {
@@ -16,7 +16,7 @@ extension CollegeMajorViewRemote.Model {
             case .requirements: return Theme.Icons.requirements
             case .modules: return Theme.Icons.stack
             case .outcomes: return Theme.Icons.outcomes
-            case .personnel: return Theme.Icons.person2
+            case .reviews: return Theme.Icons.star
             }
         }
     }

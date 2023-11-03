@@ -36,7 +36,7 @@ extension ContentView {
                     case let .major(college, major, isFavorite):
                         CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
                     case let .majorRemote(college, major, isFavorite):
-                        CollegeMajorViewRemote(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
+                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
                     case let .collegeMap(college):
                         CollegeMapView(model: .init(college: college, region: .init()))
                     case let .collegeDevelopment(college):
@@ -67,7 +67,7 @@ extension ContentView {
                     case let .major(college, major, isFavorite):
                         CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
                     case let .majorRemote(college, major, isFavorite):
-                        CollegeMajorViewRemote(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
+                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
                     case let .collegeMap(college):
                         CollegeMapView(model: .init(college: college, region: .init()))
                     case let .collegeDevelopment(college):
@@ -98,7 +98,7 @@ extension ContentView {
                     case let .major(college, major, isFavorite):
                         CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
                     case let .majorRemote(college, major, isFavorite):
-                        CollegeMajorViewRemote(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
+                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
                     case let .collegeMap(college):
                         CollegeMapView(model: .init(college: college, region: .init()))
                     case let .collegeDevelopment(college):
@@ -129,7 +129,7 @@ extension ContentView {
                     case let .major(college, major, isFavorite):
                         CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
                     case let .majorRemote(college, major, isFavorite):
-                        CollegeMajorViewRemote(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
+                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
                     case let .collegeMap(college):
                         CollegeMapView(model: .init(college: college, region: .init()))
                     case let .collegeDevelopment(college):

@@ -6,4 +6,5 @@ extension EdgeInsets {
     static let six = EdgeInsets(top: 6, leading: 6, bottom: 6, trailing: 6)
     static let eight = EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8)
     static let collegeListInsets = EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 12)
+    static let sixteen = EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16)
 }

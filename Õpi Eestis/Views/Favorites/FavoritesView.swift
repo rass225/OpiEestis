@@ -10,7 +10,7 @@ struct FavoritesViewWrapper: View {
             FavoritesView(model: .init(colleges: colleges, user: user))
         case .unauthenticated:
             UnauthenticatedView(
-                title: "Lemmikute vaatamiseks palun logi sisse",
+                title: "Lemmikute vaatamiseks logi sisse",
                 action: appState.signInApple
             )
         }
