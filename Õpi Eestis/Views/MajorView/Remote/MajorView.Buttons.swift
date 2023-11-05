@@ -12,13 +12,14 @@ extension MajorView {
     func favoritesButton() -> some View {
         if model.user != nil {
             if model.isFavorite {
-                Image(systemName: "heart.fill")
+                Theme.Icons.heart
+                    .setSymbol(.fill)
                     .setFont(.body, .semibold, .rounded)
                     .setColor(model.college.palette.base.gradient)
                     .padding(.trailing, 4)
                     .onTapGesture(perform: model.removeFavorite)
             } else {
-                Image(systemName: "heart")
+                Theme.Icons.heart
                     .setFont(.body, .bold, .rounded)
                     .setColor(model.college.palette.base.gradient)
                     .padding(.trailing, 4)

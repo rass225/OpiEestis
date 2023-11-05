@@ -5,22 +5,21 @@ struct AboutView: View {
         VStack(spacing: 0){
             List {
                 Section {
-                    Text(OEAppearance.Locale.about.description)
+                    Text(Theme.Locale.About.description)
                         .lineSpacing(5)
                         .multilineTextAlignment(.leading)
                         .setFont(.subheadline, .regular, .rounded)
                 }
                 Section {
                     VStack(spacing: 20){
-                        Text(OEAppearance.Locale.about.author)
-                        Text(OEAppearance.Locale.about.copyright)
+                        Text(Theme.Locale.About.author)
+                        Text(Theme.Locale.About.copyright)
                     }
                     .padding(.top)
                     .maxWidth()
                     .setFont(.footnote, .regular, .rounded)
                     .setColor(Theme.Colors.gray)
                 }
-                
                 .listRowBackground(Color.clear)
             }
         }
@@ -38,7 +37,7 @@ struct AboutView: View {
     
     @ViewBuilder
     func titleView() -> some View {
-        Text(OEAppearance.Locale.title.about)
+        Text(Theme.Locale.About.title)
             .setFont(.title3, .semibold, .rounded)
     }
 }

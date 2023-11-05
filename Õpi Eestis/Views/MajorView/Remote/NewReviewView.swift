@@ -42,7 +42,7 @@ extension MajorView {
             .padding()
             
             Button(action: model.submitReview) {
-                Text("Postita")
+                Text(Theme.Locale.Major.post)
                     .setFont(.title3, .medium, .rounded)
                     .setColor(Theme.Colors.white)
                     .padding(.vertical)

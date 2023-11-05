@@ -10,7 +10,7 @@ struct FavoritesViewWrapper: View {
             FavoritesView(model: .init(colleges: colleges, user: user))
         case .unauthenticated:
             UnauthenticatedView(
-                title: "Lemmikute vaatamiseks logi sisse",
+                title: Theme.Locale.Favorites.unauthenticated,
                 action: appState.signInApple
             )
         }
@@ -40,9 +40,9 @@ struct FavoritesView: View {
     @ViewBuilder
     func emptyView() -> some View {
         VStack(spacing: 10){
-            Image(systemName: "exclamationmark.triangle")
+            Theme.Icons.error
                 .setFont(.largeTitle, .regular, .rounded)
-            Text("Sul ei ole ühtegi lemmikut lisatud")
+            Text(Theme.Locale.Favorites.empty)
                 .setFont(.subheadline, .regular, .rounded)
         }
         .setColor(.gray)

@@ -8,12 +8,12 @@ struct UnauthenticatedView: View {
         GeometryReader { geo in
             VStack(spacing: 0) {
                 VStack(spacing: 24) {
-                    Image("estonia2")
+                    Theme.Icons.appIcon
                         .resizable()
                         .fit()
                         .setColor(Theme.Colors.primary.gradient)
                         .frame(width: geo.size.width / 1.5)
-                    Text("Õpi Eestis")
+                    Text(Theme.Locale.App.name)
                         .setFont(.largeTitle, .semibold, .rounded)
                 }.maxHeight()
 

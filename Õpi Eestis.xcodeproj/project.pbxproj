@@ -618,7 +618,6 @@
 			children = (
 				C09CFB942AEBB2A0005048B0 /* MajorsView.swift */,
 				C09CFB962AEBB2AB005048B0 /* MajorsViewModel.swift */,
-				C09CFB932AEBB292005048B0 /* Remote */,
 			);
 			path = MajorsView;
 			sourceTree = "<group>";
@@ -670,13 +669,6 @@
 				C09CFBA12AEBE076005048B0 /* CollegeDevelopmentModel.swift */,
 			);
 			path = CollegeDevelopment;
-			sourceTree = "<group>";
-		};
-		C09CFB932AEBB292005048B0 /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Remote;
 			sourceTree = "<group>";
 		};
 		C09CFB982AEBB887005048B0 /* Remote */ = {

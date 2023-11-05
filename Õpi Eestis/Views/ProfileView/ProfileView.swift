@@ -9,7 +9,7 @@ struct ProfileView: View {
             authenticatedView(user: user)
         case .unauthenticated:
             UnauthenticatedView(
-                title: "Profiili vaatamiseks logi sisse",
+                title: Theme.Locale.Profile.unauthenticated,
                 action: appState.signInApple
             )
         }
@@ -21,21 +21,21 @@ extension ProfileView {
     func authenticatedView(user: FirebaseUser) -> some View {
         List {
             Section {
-                label(title: "Minu konto", icon: "person.fill")
+                label(title: Theme.Locale.Profile.myAccount, icon: "person.fill")
                     .onTapGesture {
                         appState.route(to: .myAccount(user))
                     }
-                label(title: "Seader", icon: "gearshape.fill")
+                label(title: Theme.Locale.Profile.settings, icon: "gearshape.fill")
                     .onTapGesture {
                         appState.route(to: .settings)
                     }
             }
             Section {
-                label(title: "Rakendusest", icon: "book.pages.fill")
+                label(title: Theme.Locale.Profile.about, icon: "book.pages.fill")
                     .onTapGesture {
                         appState.route(to: .about)
                     }
-                label(title: "Meeldib app? Aita arendajat", icon: "gift.fill")
+                label(title: Theme.Locale.Profile.donations, icon: "gift.fill")
                     .onTapGesture {
                         isDonationsPresented.toggle()
                     }
@@ -43,10 +43,10 @@ extension ProfileView {
             Section {
                 Button(action: appState.signout) {
                     Label(title: {
-                        Text("Logi välja")
+                        Text(Theme.Locale.Profile.logout)
                             .setFont(.body, .regular, .rounded)
                     }, icon: {
-                        Image(systemName: "rectangle.portrait.and.arrow.forward")
+                        Theme.Icons.logout
                     })
                         .maxWidth(alignment: .leading)
                         .padding(.vertical, 8)

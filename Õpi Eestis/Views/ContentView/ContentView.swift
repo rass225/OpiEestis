@@ -77,21 +77,21 @@ extension ContentView {
 extension ContentView {
     @ViewBuilder
     func collegesTabItem() -> some View {
-        Label("Koolid", systemImage: "graduationcap.fill")
+        Label(Theme.Locale.Tabs.schools, systemImage: "graduationcap.fill")
     }
     
     @ViewBuilder
     func mapTabItem() -> some View {
-        Label("Kaart", systemImage: "map.fill")
+        Label(Theme.Locale.Tabs.map, systemImage: "map.fill")
     }
     
     @ViewBuilder
     func favoritesTabItem() -> some View {
-        Label("Lemmikud", systemImage: "heart.fill")
+        Label(Theme.Locale.Tabs.favorites, systemImage: "heart.fill")
     }
     
     @ViewBuilder
     func profileTabItem() -> some View {
-        Label("Profiil", systemImage: "person.fill")
+        Label(Theme.Locale.Tabs.profile, systemImage: "person.fill")
     }
 }

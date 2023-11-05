@@ -11,7 +11,7 @@ struct MapView: View {
             authenticatedView()
         case .unauthenticated:
             UnauthenticatedView(
-                title: "Kaardi vaatamiseks logi sisse",
+                title: Theme.Locale.Map.unauthenticated,
                 action: appState.signInApple
             )
         }

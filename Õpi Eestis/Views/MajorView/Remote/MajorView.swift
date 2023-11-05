@@ -56,9 +56,7 @@ private extension MajorView {
                 descriptionContent()
                 personnelContent()
                 locationsContent()
-                    
             }
-            
             .padding(.top, 68)
             .padding(.bottom, 32)
         }
@@ -80,12 +78,6 @@ private extension MajorView {
     var outcomesView: some View {
         List {
             Section(content: outcomesContent, header: outcomesHeader)
-        }
-    }
-    
-    var personnelView: some View {
-        List {
-            Section(content: personnelContent, header: personnelHeader)
         }
     }
 }
@@ -121,7 +113,7 @@ extension MajorView {
             )
             if let curriculumDate = model.major.curriculumDate {
                 HStack(alignment: .center, spacing: 0) {
-                    Image(systemName: "calendar")
+                    Theme.Icons.calendar
                         .setColor(model.college.palette.base.gradient)
                         .setFont(.body, .regular, .rounded)
                         .frame(width: 32, alignment: .leading)
@@ -129,14 +121,14 @@ extension MajorView {
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(Theme.Colors.black)
                     Spacer()
-                    Text("Õppeaasta")
+                    Text(Theme.Locale.Major.studyYear)
                         .setFont(.footnote, .regular, .rounded)
                         .setColor(Theme.Colors.gray)
                 }
             }
             if let studyType = model.major.studyType {
                 HStack(alignment: .center, spacing: 0) {
-                    Image(systemName: "door.left.hand.closed")
+                    Theme.Icons.studyType
                         .setColor(model.college.palette.base.gradient)
                         .setFont(.body, .regular, .rounded)
                         .frame(width: 32, alignment: .leading)
@@ -144,7 +136,7 @@ extension MajorView {
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(Theme.Colors.black)
                     Spacer()
-                    Text("Õppevorm")
+                    Text(Theme.Locale.Major.studyType)
                         .setFont(.footnote, .regular, .rounded)
                         .setColor(Theme.Colors.gray)
                 }
@@ -201,7 +193,7 @@ extension MajorView {
                                 .setFont(.largeTitle, .semibold, .rounded)
                         }
                         
-                        Image(systemName: "star.fill")
+                        Theme.Icons.star
                             .setFont(.title, .regular, .rounded)
                             .setColor(model.college.palette.base.gradient)
                     }
@@ -214,23 +206,22 @@ extension MajorView {
             }
             .listRowBackground(Color.clear)
             
-            
             Section(content: {
                 if model.reviews.compactMap(\.text).isEmpty && model.user != nil {
                     Button(action: model.openNewReviewView) {
                         HStack {
-                            Text("Lisa arvustus")
+                            Text(Theme.Locale.Major.addReview)
                                 .setFont(.subheadline, .regular, .rounded)
                                 .setColor(Theme.Colors.black)
                             Spacer()
-                            Image(systemName: "plus")
+                            Theme.Icons.plus
                                 .setColor(model.college.palette.base)
                                 .setFont(.body, .medium, .rounded)
                         }
                     }
                 } else if model.reviews.compactMap(\.text).isEmpty && model.user == nil {
                     HStack {
-                        Text("Ühtegi arvustust pole veel lisatud")
+                        Text(Theme.Locale.Major.noReviews)
                             .setFont(.subheadline, .regular, .rounded)
                             .setColor(Theme.Colors.black)
                     }
@@ -242,7 +233,7 @@ extension MajorView {
                                     Button(role: .destructive, action: {
                                         model.deleteReview(review)
                                     }, label: {
-                                        Label("Kustuta", systemImage: "trash")
+                                        Label(Theme.Locale.Major.delete, systemImage: "trash")
                                         
                                     })
                                     .tint(.red)
@@ -265,7 +256,7 @@ extension MajorView {
     @ViewBuilder
     func websiteContent() -> some View {
         HStack(alignment: .center, spacing: 0){
-            Text("Tutvu lähemalt erialaga kooli kodulehel")
+            Text(Theme.Locale.Major.goToMajorWebsite)
                 .setFont(.subheadline, .regular, .rounded)
             Spacer()
             Chevron(type: .link)
@@ -283,15 +274,17 @@ extension MajorView {
     
     @ViewBuilder
     func personnelContent() -> some View {
-        VStack {
-            personnelHeader()
-                .padding(.leading, 28)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 16) {
-                    ForEach(model.personnel, id: \.self) { person in
-                        personnelCell(person)
-                    }
-                }.padding(.horizontal, 20)
+        if !model.personnel.isEmpty {
+            VStack {
+                personnelHeader()
+                    .padding(.leading, 28)
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 16) { 
+                        ForEach(model.personnel, id: \.self) { person in
+                            personnelCell(person)
+                        }
+                    }.padding(.horizontal, 20)
+                }
             }
         }
     }
@@ -329,30 +322,30 @@ extension MajorView {
             case .duration(let duration):
                 image = Theme.Icons.clock
                 if duration.isInt() {
-                    topText = "\(Int(duration)) aastat"
+                    topText = "\(Int(duration)) \(Theme.Locale.Major.years)"
                 } else {
-                    topText = String(format: "%.1f", duration) + " aastat"
+                    topText = String(format: "%.1f", duration) + " \(Theme.Locale.Major.years)"
                 }
-                bottomText = OEAppearance.Locale.duration
+                bottomText = Theme.Locale.Major.duration
             case .spots(let spots):
                 image = Theme.Icons.person
-                topText = spots == 0 ? OEAppearance.Locale.infinity : "\(spots)"
+                topText = spots == 0 ? Theme.Locale.Major.infintiy : "\(spots)"
                 switch spots {
-                case 1: bottomText = "Õppekohtade arv"
-                default: bottomText = "Õppekohtade arv"
+                case 1: bottomText = Theme.Locale.Major.spotCount
+                default: bottomText = Theme.Locale.Major.spotCount
                 }
             case .cost(let cost):
                 image = cost.currency.icon
                 topText = "\(cost.amount)€\(cost.interval.label.lowercased())"
-                bottomText = "Maksumus"
+                bottomText = Theme.Locale.Major.cost
             case .eap(let eap, let hasEap):
                 image = Theme.Icons.squareStack
-                topText = "\(eap) \(hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap)"
-                bottomText = "Maht"
+                topText = "\(eap) \(hasEap ? Theme.Locale.Major.eap : Theme.Locale.Major.ekap)"
+                bottomText = Theme.Locale.Major.amount
             case .language(let language):
                 image = Theme.Icons.globe
                 topText = language
-                bottomText = OEAppearance.Locale.language
+                bottomText = Theme.Locale.Major.language
             }
         }
         

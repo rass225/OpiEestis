@@ -11,7 +11,7 @@ struct MajorsView: View {
         .searchable(
             text: $model.debouncedSearchText,
             placement: .navigationBarDrawer(displayMode: .always),
-            prompt: Text("Otsi eriala")
+            prompt: Text(Theme.Locale.Majors.searchMajors)
         )
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
@@ -68,7 +68,8 @@ private extension MajorsView {
     
     @ViewBuilder
     func heartImage() -> some View {
-        Image(systemName: "heart.fill")
+        Theme.Icons.heart
+            .setSymbol(.fill)
             .setColor(model.college.palette.base.gradient)
     }
     
@@ -110,7 +111,7 @@ private extension MajorsView {
     
     @ViewBuilder
     func filterViewTitle() -> some View {
-        Text("Filtrid")
+        Text(Theme.Locale.Majors.filters)
             .setFont(.body, .medium, .rounded)
     }
 }
@@ -185,6 +186,7 @@ private extension MajorsView {
             model.addFavorite(major: major)
         } label: {
             Theme.Icons.heart
+                .setSymbol(.fill)
         }
         .tint(model.college.palette.base)
     }
@@ -219,7 +221,7 @@ private extension MajorsView {
     func resetButton() -> some View {
         Button(action: model.resetFilters, label: {
             if model.filtersAmount > 0 {
-                Image(systemName: "xmark")
+                Theme.Icons.xmark
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .bold, .rounded)
             }
@@ -238,11 +240,11 @@ private extension MajorsView {
             }
         }, label: {
             HStack(spacing: 0) {
-                Image(systemName: "graduationcap.circle.fill")
+                Theme.Icons.graduationCircle
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
                     .frame(width: 32, alignment: .leading)
-                Text("Õppeaste")
+                Text(Theme.Locale.Majors.studyLevel)
                     .setColor(Theme.Colors.black)
             }
         })
@@ -261,7 +263,7 @@ private extension MajorsView {
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
                     .frame(width: 32, alignment: .leading)
-                Text("Õppekeel")
+                Text(Theme.Locale.Majors.language)
                     .setColor(Theme.Colors.black)
             }
         })
@@ -271,7 +273,7 @@ private extension MajorsView {
     @ViewBuilder
     func locationPicker() -> some View {
         Picker(selection: $model.selectedLocation, content: {
-            Text("Kõik")
+            Text(Theme.Locale.Majors.all)
                 .tag(Model.LocationSelection.all)
             ForEach(model.locations, id: \.self) {
                 Text($0.rawValue)
@@ -280,11 +282,11 @@ private extension MajorsView {
             }
         }, label: {
             HStack(spacing: 0) {
-                Image(systemName: "mappin.circle.fill")
+                Theme.Icons.mappinCircle
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
                     .frame(width: 32, alignment: .leading)
-                Text("Linn")
+                Text(Theme.Locale.Majors.city)
                     .setColor(Theme.Colors.black)
             }
         })
@@ -294,7 +296,7 @@ private extension MajorsView {
     @ViewBuilder
     func durationPicker() -> some View {
         Picker(selection: $model.selectedDuration, content: {
-            Text("Kõik")
+            Text(Theme.Locale.Majors.all)
                 .tag(Model.DurationSelection.all)
             ForEach(model.durations, id: \.self) {
                 if $0.isInt() {
@@ -311,7 +313,7 @@ private extension MajorsView {
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
                     .frame(width: 32, alignment: .leading)
-                Text("Kestus")
+                Text(Theme.Locale.Majors.duration)
                     .setColor(Theme.Colors.black)
             }
         })
@@ -321,7 +323,7 @@ private extension MajorsView {
     @ViewBuilder
     func studyTypePicker() -> some View {
         Picker(selection: $model.selectedStudyType, content: {
-            Text("Kõik")
+            Text(Theme.Locale.Majors.all)
                 .tag(Model.StudyTypeSelection.all)
             ForEach(model.studyTypes, id: \.self) {
                 Text($0.capitalized)
@@ -329,11 +331,11 @@ private extension MajorsView {
             }
         }, label: {
             HStack(spacing: 0) {
-                Image(systemName: "door.left.hand.closed")
+                Theme.Icons.studyType
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
                     .frame(width: 32, alignment: .leading)
-                Text("Õppevorm")
+                Text(Theme.Locale.Major.studyType)
                     .setColor(Theme.Colors.black)
             }
         })
@@ -348,9 +350,9 @@ private extension MajorsView {
                     .setColor(model.college.palette.base.gradient)
                     .setFont(.body, .regular, .rounded)
                     .frame(width: 32, alignment: .leading)
-                Text("Maksumus")
+                Text(Theme.Locale.Majors.cost)
             }
-            Picker("Maksumus", selection: $model.selectedCost) {
+            Picker(Theme.Locale.Majors.cost, selection: $model.selectedCost) {
                 ForEach(Model.CostSelection.allCases, id: \.self) {
                     Text($0.label)
                 }

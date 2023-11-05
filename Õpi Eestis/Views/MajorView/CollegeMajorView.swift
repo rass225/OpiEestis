@@ -205,7 +205,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func descriptionHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.title.description,
+            label: Theme.Locale.Major.description,
             image: Theme.Icons.docs,
             color: model.college.palette.base,
             withTopPadding: false
@@ -215,7 +215,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func modulesHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.title.modules,
+            label: Theme.Locale.Major.modules,
             image: Theme.Icons.stack,
             color: model.college.palette.base,
             withTopPadding: true
@@ -225,7 +225,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func requirementsHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.acceptance,
+            label: Theme.Locale.Major.requirements,
             image: Theme.Icons.requirements,
             color: model.college.palette.base,
             withTopPadding: true
@@ -235,7 +235,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func outcomesHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.title.outcomes,
+            label: Theme.Locale.Major.outcomes,
             image: Theme.Icons.outcomes,
             color: model.college.palette.base,
             withTopPadding: true
@@ -245,7 +245,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func websiteHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.homepage,
+            label: Theme.Locale.Major.homepage,
             image: Theme.Icons.house,
             color: model.college.palette.base,
             withTopPadding: false
@@ -255,7 +255,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func personnelHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.personnel,
+            label: Theme.Locale.Major.personnel,
             image: Theme.Icons.person2,
             color: model.college.palette.base,
             withTopPadding: true
@@ -685,10 +685,10 @@ extension CollegeMajorView {
                 } else {
                     topText = String(format: "%.1f", duration) + " aastat"
                 }
-                bottomText = OEAppearance.Locale.duration
+                bottomText = Theme.Locale.Major.description
             case .spots(let spots):
                 image = Theme.Icons.person
-                topText = spots == 0 ? OEAppearance.Locale.infinity : "\(spots)"
+                topText = spots == 0 ? Theme.Locale.Major.description : "\(spots)"
                 switch spots {
                 case 1: bottomText = "Õppekohtade arv"
                 default: bottomText = "Õppekohtade arv"
@@ -699,12 +699,12 @@ extension CollegeMajorView {
                 bottomText = "Maksumus"
             case .eap(let eap, let hasEap):
                 image = Theme.Icons.squareStack
-                topText = "\(eap) \(hasEap ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap)"
+                topText = "\(eap) \(hasEap ? Theme.Locale.Major.description : Theme.Locale.Major.description)"
                 bottomText = "Maht"
             case .language(let language):
                 image = Theme.Icons.globe
                 topText = language
-                bottomText = OEAppearance.Locale.language
+                bottomText = Theme.Locale.Major.description
             }
         }
         

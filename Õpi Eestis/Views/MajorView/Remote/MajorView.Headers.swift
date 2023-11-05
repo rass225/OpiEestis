@@ -6,7 +6,7 @@ extension MajorView {
     @ViewBuilder
     func statsHeader() -> some View {
         Header(
-            label: "Üldandmed",
+            label: Theme.Locale.Major.generalData,
             image: Theme.Icons.requirements,
             color: model.college.palette.base,
             withTopPadding: true,
@@ -17,7 +17,7 @@ extension MajorView {
     @ViewBuilder
     func descriptionHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.title.description,
+            label: Theme.Locale.Major.description,
             image: Theme.Icons.docs,
             color: model.college.palette.base,
             withTopPadding: false
@@ -27,7 +27,7 @@ extension MajorView {
     @ViewBuilder
     func modulesHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.title.modules,
+            label: Theme.Locale.Major.modules,
             image: Theme.Icons.stack,
             color: model.college.palette.base,
             withTopPadding: true
@@ -37,7 +37,7 @@ extension MajorView {
     @ViewBuilder
     func requirementsHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.acceptance,
+            label: Theme.Locale.Major.requirements,
             image: Theme.Icons.requirements,
             color: model.college.palette.base,
             withTopPadding: true
@@ -47,7 +47,7 @@ extension MajorView {
     @ViewBuilder
     func outcomesHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.title.outcomes,
+            label: Theme.Locale.Major.outcomes,
             image: Theme.Icons.outcomes,
             color: model.college.palette.base,
             withTopPadding: true
@@ -57,7 +57,7 @@ extension MajorView {
     @ViewBuilder
     func websiteHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.homepage,
+            label: Theme.Locale.Major.homepage,
             image: Theme.Icons.house,
             color: model.college.palette.base,
             withTopPadding: false
@@ -67,7 +67,7 @@ extension MajorView {
     @ViewBuilder
     func personnelHeader() -> some View {
         Header(
-            label: OEAppearance.Locale.personnel,
+            label: Theme.Locale.Major.personnel,
             image: Theme.Icons.person2,
             color: model.college.palette.base,
             withTopPadding: false
@@ -77,7 +77,7 @@ extension MajorView {
     @ViewBuilder
     func locationsHeader() -> some View {
         Header(
-            label: "Asukoht",
+            label: Theme.Locale.Major.location,
             image: Theme.Icons.location,
             color: model.college.palette.base,
             withTopPadding: false
@@ -86,7 +86,6 @@ extension MajorView {
     
     @ViewBuilder
     func reviewsHeader(
-        label: String = "Arvustus",
         image: Image = Theme.Icons.review,
         withTopPadding: Bool = false
     ) -> some View {
@@ -97,11 +96,11 @@ extension MajorView {
                 .setColor(.white, model.college.palette.base.gradient)
                 .frame(width: 24, alignment: .leading)
             HStack(spacing: 4) {
-                Text(label.capitalizedSentence)
+                Text(Theme.Locale.Major.review.capitalizedSentence)
                     .setFont(.body, .semibold, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.black)
-                Text("(vabatahtlik)")
+                Text("(\(Theme.Locale.Major.optional)")
                     .setFont(.subheadline, .regular, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.gray)
@@ -115,7 +114,7 @@ extension MajorView {
     @ViewBuilder
     func ratingsHeader() -> some View {
         Header(
-            label: "Hinnang",
+            label: Theme.Locale.Major.rating,
             image: Theme.Icons.star,
             color: model.college.palette.base,
             withTopPadding: false
@@ -124,8 +123,6 @@ extension MajorView {
     
     @ViewBuilder
     func reviewListHeader(
-        label: String = "Arvustused",
-        addLabel: String = "Lisa",
         withTopPadding: Bool = false
     ) -> some View {
         HStack(spacing: 8){
@@ -134,7 +131,7 @@ extension MajorView {
                 .setFont(.body, .regular, .rounded)
                 .setColor(.white, model.college.palette.base.gradient)
                 .frame(width: 24, alignment: .leading)
-            Text(label.capitalizedSentence)
+            Text(Theme.Locale.Major.reviews.capitalizedSentence)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
                 .setColor(Theme.Colors.black)
@@ -147,10 +144,10 @@ extension MajorView {
                 if !model.reviews.compactMap(\.text).isEmpty && !model.reviews.contains(where: { $0.user.id == user.id && $0.text != nil }) {
                     Button(action: model.openNewReviewView) {
                         HStack(spacing: 4) {
-                            Text(addLabel.capitalized)
+                            Text(Theme.Locale.Major.add.capitalized)
                                 .textCase(.none)
                                 .setFont(.subheadline, .medium, .rounded)
-                            Image(systemName: "plus")
+                            Theme.Icons.plus
                                 .setFont(.footnote, .medium, .rounded)
                         }
                         .setColor(model.college.palette.base)

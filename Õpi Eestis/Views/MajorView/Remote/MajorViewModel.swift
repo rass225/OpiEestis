@@ -147,7 +147,7 @@ extension MajorView.Model {
     }
     
     func submitReview() {
-        if let userReview = reviews.first(where: { $0.user == user }) {
+        if reviews.contains(where: { $0.user == user }) {
             updateReview()
         } else {
             addReview()
@@ -155,7 +155,7 @@ extension MajorView.Model {
     }
     
     func updateReview() {
-        guard var userReview = reviews.first(where: { $0.user == user }) else { return }
+        guard let userReview = reviews.first(where: { $0.user == user }) else { return }
         let updatedReview: Review = .init(
             id: userReview.id,
             user: userReview.user,

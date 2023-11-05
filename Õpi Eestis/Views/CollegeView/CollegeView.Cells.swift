@@ -41,13 +41,6 @@ extension CollegeView {
         }
     }
     
-//    @ViewBuilder
-   //    func majorContentCell(_ item: Model.LevelStats) -> some View {
-   //        if item.count != 0 {
-               
-   //        }
-   //    }
-    
     @ViewBuilder
     func levelView(for level: Level, count: Int) -> some View {
         HStack(alignment: .center, spacing: 16){

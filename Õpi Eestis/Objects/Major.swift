@@ -108,6 +108,6 @@ struct Major: Hashable, Codable, Identifiable {
     }
     
     var eapLocale: String {
-        hasEap() ? OEAppearance.Locale.eap : OEAppearance.Locale.ekap
+        hasEap() ? Theme.Locale.Major.eap : Theme.Locale.Major.ekap
     }
 }

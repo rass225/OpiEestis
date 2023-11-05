@@ -52,7 +52,7 @@ extension CollegeView {
         VStack(spacing: 0) {
             WebView(urlString: link.link)
                 .maxSize()
-            Text("Tagasi")
+            Text(Theme.Locale.College.back)
                 .setFont(.body, .medium, .rounded)
                 .setColor(.white)
                 .padding(.vertical, 8)
@@ -137,7 +137,7 @@ extension CollegeView {
     func virtualTourView() -> some View {
         if let virtualTourUrlString = model.college.virtualTourLink {
             HStack {
-                Text("Vaata virtuaaltuuri")
+                Text(Theme.Locale.College.lookVirtualTour)
                     .setFont(.body, .medium, .rounded)
                     .setColor(.white)
                 Spacer()
@@ -230,7 +230,7 @@ extension CollegeView {
                     .lineLimit(isExpanded ? nil : 5)
                     .truncationMode(.tail)
                     .setColor(Theme.Colors.black)
-                Text(isExpanded ? OEAppearance.Locale.expanded.isExpanded : OEAppearance.Locale.expanded.notExpanded)
+                Text(isExpanded ? Theme.Locale.College.less : Theme.Locale.College.more)
                     .setFont(.caption2, .medium, .rounded)
                     .setColor(.gray)
             }
@@ -261,15 +261,15 @@ extension CollegeView {
     func contactContent() -> some View {
         ControlGroup {
             Button(action: model.callCollege) {
-                Text("Helista")
+                Text(Theme.Locale.College.call)
                 Theme.Icons.phone
             }
             Button(action: model.openEmail) {
-                Text("Email")
+                Text(Theme.Locale.College.email)
                 Theme.Icons.envelope
             }
             Button(action: model.openHomePage) {
-                Text("Koduleht")
+                Text(Theme.Locale.College.homepage)
                 Theme.Icons.house
             }
         }
@@ -281,13 +281,13 @@ extension CollegeView {
             Spacer()
             statisticCell(
                 topLabel: String(model.college.students),
-                bottomLabel: OEAppearance.Locale.students,
+                bottomLabel: Theme.Locale.College.students,
                 image: Theme.Icons.person2
             )
             Spacer()
             statisticCell(
                 topLabel: String(model.majors.count),
-                bottomLabel: OEAppearance.Locale.major,
+                bottomLabel: Theme.Locale.College.major,
                 image: Theme.Icons.textBook
             )
             .onTapGesture {
@@ -296,7 +296,7 @@ extension CollegeView {
             Spacer()
             statisticCell(
                 topLabel: String(model.college.branches.count),
-                bottomLabel: OEAppearance.Locale.cities,
+                bottomLabel: Theme.Locale.College.cities,
                 image: Theme.Icons.mappinCircle
             )
             Spacer()

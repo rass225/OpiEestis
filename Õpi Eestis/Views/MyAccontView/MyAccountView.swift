@@ -35,8 +35,8 @@ extension MyAccountView {
     @ViewBuilder
     func addPhotoBotton() -> some View {
         HStack {
-            Image(systemName: "plus")
-            Text("Lisa foto")
+            Theme.Icons.plus
+            Text(Theme.Locale.MyAccount.addPhoto)
         }
         .setFont(.subheadline, .medium, .rounded)
         .setColor(Theme.Colors.primary)
@@ -49,9 +49,9 @@ extension MyAccountView {
     @ViewBuilder
     func editPhotoButton() -> some View {
         HStack {
-            Image(systemName: "square.and.pencil")
+            Theme.Icons.edit
                 .offset(x: 0, y: -1)
-            Text("Muuda fotot")
+            Text(Theme.Locale.MyAccount.editPhoto)
         }
         .setFont(.subheadline, .medium, .rounded)
         .setColor(Theme.Colors.primary)
@@ -67,11 +67,11 @@ extension MyAccountView {
 extension MyAccountView {
     @ViewBuilder
     func nameContent() -> some View {
-        TextField("", text: $model.firstName, prompt: Text("Eesnimi"))
+        TextField("", text: $model.firstName, prompt: Text(Theme.Locale.MyAccount.firstName))
             .onReceive(model.$firstName.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
                 model.updateFirstName()
             }
-        TextField("", text: $model.lastName, prompt: Text("Perekonnanimi"))
+        TextField("", text: $model.lastName, prompt: Text(Theme.Locale.MyAccount.lastName))
             .onReceive(model.$lastName.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
                 model.updateLastName()
             }
@@ -79,7 +79,7 @@ extension MyAccountView {
     
     @ViewBuilder
     func emailContent() -> some View {
-        TextField("", text: $model.email, prompt: Text("Email"))
+        TextField("", text: $model.email, prompt: Text(Theme.Locale.MyAccount.email))
             .onReceive(model.$email.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
                 model.updateEmail()
             }
@@ -97,7 +97,7 @@ extension MyAccountView {
     
     @ViewBuilder
     func titleView() -> some View {
-        TitleView("Minu konto")
+        TitleView(Theme.Locale.MyAccount.title)
     }
     
     @ViewBuilder
@@ -118,7 +118,7 @@ extension MyAccountView {
     
     @ViewBuilder
     func placeholderPhoto() -> some View {
-        Image(systemName: "person.fill")
+        Theme.Icons.person
             .resizable()
             .fit()
             .maxWidth()
@@ -149,11 +149,11 @@ extension MyAccountView {
 extension MyAccountView {
     @ViewBuilder
     func emailHeader() -> some View {
-        Text("Email")
+        Text(Theme.Locale.MyAccount.email)
     }
     
     @ViewBuilder
     func nameHeader() -> some View {
-        Text("Name")
+        Text(Theme.Locale.MyAccount.name)
     }
 }

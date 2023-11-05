@@ -99,7 +99,7 @@ extension CollegeMapView {
     
     @ViewBuilder
     func closeButton() -> some View {
-        Image(systemName: "xmark")
+        Theme.Icons.xmark
             .setFont(.title2, .semibold, .rounded)
             .setColor(model.college.palette.base.gradient)
             .padding(8)
@@ -113,7 +113,7 @@ extension CollegeMapView {
     
     @ViewBuilder
     func detailViewCloseButton() -> some View {
-        Image(systemName: "xmark")
+        Theme.Icons.xmark
             .setFont(.title3, .semibold, .rounded)
             .setColor(model.college.palette.base.gradient)
             .padding(8)
@@ -126,10 +126,10 @@ extension CollegeMapView {
     @ViewBuilder
     func directionsMenuLabel() -> some View {
         HStack {
-            Image(systemName: "car.fill")
+            Theme.Icons.car
                 .setFont(.title2, .regular, .rounded)
                 .setColor(model.college.palette.base.gradient)
-            Text("Juhised")
+            Text(Theme.Locale.Map.directions)
                 .setFont(.subheadline, .semibold, .rounded)
                 .setColor(model.college.palette.base)
         }
@@ -142,9 +142,9 @@ extension CollegeMapView {
     
     @ViewBuilder
     func directionMenuContent(coordinates: CLLocationCoordinate2D) -> some View {
-        Button("Waze", action: { model.openWaze(with: coordinates) })
-        Button("Google Maps", action: { model.openGoogleMaps(with: coordinates) })
-        Button("Apple Maps", action: { model.openAppleMaps(with: coordinates) })
+        Button(Theme.Locale.Map.waze, action: { model.openWaze(with: coordinates) })
+        Button(Theme.Locale.Map.googleMaps, action: { model.openGoogleMaps(with: coordinates) })
+        Button(Theme.Locale.Map.appleMaps, action: { model.openAppleMaps(with: coordinates) })
     }
     
     @ViewBuilder
@@ -155,7 +155,7 @@ extension CollegeMapView {
         circleTopPadding: CGFloat = 6,
         yOffset: CGFloat = -12
     ) -> some View {
-        Image("pin")
+        Theme.Icons.pin
             .resizable()
             .fit()
             .frame(width: pinWidth, height: pinHeight, alignment: .top)

@@ -8,7 +8,7 @@ struct Logo: View {
                 .scaledToFit()
                 .frame(width: 35, height: 35)
                 .setColor(Theme.Colors.primary)
-            Text("Õpi Eestis")
+            Text(Theme.Locale.App.name)
                 .setFont(.title3, .semibold, .rounded)
         }
     }

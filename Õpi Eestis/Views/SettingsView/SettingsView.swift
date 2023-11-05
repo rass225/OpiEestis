@@ -22,19 +22,19 @@ extension SettingsView {
     
     @ViewBuilder
     func titleView() -> some View {
-        Text("Seaded")
+        Text(Theme.Locale.Settings.title)
             .setFont(.title3, .semibold, .rounded)
     }
     
     @ViewBuilder
     func languageHeader() -> some View {
-        Text("Keel")
+        Text(Theme.Locale.Settings.language)
     }
     
     @ViewBuilder
     func languageContent() -> some View {
         HStack {
-            Text("Eesti keel")
+            Text(Theme.Locale.Settings.estonian)
             Spacer()
             Circle()
                 .fill(Theme.Colors.primary.opacity(0.2))
@@ -46,7 +46,7 @@ extension SettingsView {
                 }
         }
         HStack {
-            Text("Inglise keel")
+            Text(Theme.Locale.Settings.english)
             Spacer()
             Circle()
                 .fill(Theme.Colors.primary.opacity(0.2))

@@ -195,7 +195,7 @@ extension NetworkManager {
     }
     
     func callNumber(with phoneNumber: String) {
-        let baseUrl = OEAppearance.Locale.network.telHttps
+        let baseUrl =  "tel://"
         let urlString = baseUrl + phoneNumber
         if let validLink = URL(string: urlString) {
             UIApplication.shared.open(validLink)
