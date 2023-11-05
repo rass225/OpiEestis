@@ -251,7 +251,7 @@ extension MajorView {
                     }
                     .listRowInsets(.sixteen)
                 }
-            }, header: reviewListHeader)
+            }, header: { reviewListHeader() })
         }
     }
     

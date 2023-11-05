@@ -341,12 +341,11 @@ private extension MajorView.Model {
             switch result {
             case let .success(reviews):
                 DispatchQueue.main.async {
-                    self.reviews = reviews
+                    self.reviews = reviews.sorted(by: \.date, descending: true)
                 }
                 Task {
                     await self.fetchReviewImages(reviews: reviews)
                 }
-                
             case let .failure(error):
                 print(error.localizedDescription)
             }
@@ -364,8 +363,6 @@ private extension MajorView.Model {
         let nonNilImages = fetchedImages.compactMapValues { $0 }
         DispatchQueue.main.async {
             self.reviewProfileImagesCache = nonNilImages
-//            self.reviewProfileImagesCache.merge(nonNilImages) { (_, new) in new }
-            
         }
     }
     
