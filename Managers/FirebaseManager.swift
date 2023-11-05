@@ -49,14 +49,14 @@ struct FirebaseManager {
         return try decodeSnapshots(snapshot: snapshot)
     }
     
-    func fetchReviews(collegeId: String, majorId: String) async throws -> [Review] {
-        let snapshot = try await query(for: .majorReviews(collegeId: collegeId, majorId: majorId)).getDocuments()
-        return try decodeSnapshots(snapshot: snapshot)
-    }
-    
-    func fetchRatings(collegeId: String, majorId: String) async throws -> [Rating] {
-        let snapshot = try await query(for: .majorRatings(collegeId: collegeId, majorId: majorId)).getDocuments()
-        return try decodeSnapshots(snapshot: snapshot)
+    func streamReviews(
+        collegeId: String,
+        majorId: String,
+        completion: @escaping (Result<[Review], Error>) -> ()
+    ) {
+        query(for: .majorReviews(collegeId: collegeId, majorId: majorId)).addSnapshotListener {
+            decodeSnapshots(snapshot: $0, error: $1, completion: completion)
+        }
     }
     
     func addFavorite(
@@ -70,9 +70,40 @@ struct FirebaseManager {
         try await addDocument(path: ref, as: favorite)
     }
     
+    func addReview(
+        collegeId: String,
+        majorId: String,
+        review: Review
+    ) async throws {
+        let ref = docRefernce(for: .createMajorReview(collegeId: collegeId, majorId: majorId))
+        let documentId = ref.documentID
+        var updateReview = review
+        updateReview.id = documentId
+        try await addDocument(path: ref, as: updateReview)
+    }
+    
+    func removeMajorReview(collegeId: String, majorId: String, reviewId: String) async throws {
+        let ref = docRefernce(for: .removeMajorReview(collegeId: collegeId, majorId: majorId, reviewId: reviewId))
+        try await ref.delete()
+    }
+    
     func removeFavorite(userId: String, favoriteId: String) async throws {
         let ref = docRefernce(for: .removeUserFavoriteMajor(userId: userId, favoriteId: favoriteId))
         try await ref.delete()
+    }
+    
+    func updateMajorReview(
+        collegeId: String,
+        majorId: String,
+        review: Review
+    ) async throws {
+        // Get a reference to the document with the specified reviewId
+        let ref = docRefernce(for: .updateMajorReview(collegeId: collegeId, majorId: majorId, review: review))
+
+        // Prepare the review data for update
+
+        // Update the document with the new review data
+        try await addDocument(path: ref, as: review)
     }
     
     func updateUser(user: FirebaseUser) async throws {
@@ -243,6 +274,30 @@ private extension FirebaseManager {
                 .document(userId)
                 .collection("favoriteMajors")
                 .document(favoriteId)
+        case let .createMajorReview(collegeId, majorId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+                .document()
+        case let .removeMajorReview(collegeId, majorId, reviewId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+                .document(reviewId)
+        case let .updateMajorReview(collegeId, majorId, review):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+                .document(review.id)
         }
     }
     
@@ -369,5 +424,8 @@ extension FirebaseManager {
         case user(userId: String)
         case createUserFavoriteMajor(userId: String)
         case removeUserFavoriteMajor(userId: String, favoriteId: String)
+        case createMajorReview(collegeId: String, majorId: String)
+        case removeMajorReview(collegeId: String, majorId: String, reviewId: String)
+        case updateMajorReview(collegeId: String, majorId: String, review: Review)
     }
 }

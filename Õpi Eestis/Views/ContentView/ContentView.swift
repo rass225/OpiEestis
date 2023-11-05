@@ -1,6 +1,7 @@
 import SwiftUI
 import CoreLocation
 import MapKit
+
 struct ContentView: View {
     @EnvironmentObject var model: Model
     @EnvironmentObject var appState: AppState
@@ -28,26 +29,7 @@ extension ContentView {
         NavigationStack(path: $appState.profileNavigation) {
             ProfileView()
                 .navigationDestination(for: CollegeDestination.self) {
-                    switch $0 {
-                    case let .college(college):
-                        CollegeView(model: .init(college: college))
-                    case let .majors(college, majors):
-                        MajorsView(model: .init(college: college, majors: majors, user: appState.user, appState: appState))
-                    case let .major(college, major, isFavorite):
-                        CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
-                    case let .majorRemote(college, major, isFavorite):
-                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
-                    case let .collegeMap(college):
-                        CollegeMapView(model: .init(college: college, region: .init()))
-                    case let .collegeDevelopment(college):
-                        CollegeDevelopment(model: .init(college: college))
-                    case .about:
-                        AboutView()
-                    case .settings:
-                        SettingsView()
-                    case let .myAccount(user):
-                        MyAccountView(model: .init(user: user))
-                    }
+                    appState.navigationDestination($0)
                 }
         }
         .tabItem(profileTabItem)
@@ -59,26 +41,7 @@ extension ContentView {
         NavigationStack(path: $appState.favoritesNavigation) {
             FavoritesViewWrapper(colleges: model.schools)
                 .navigationDestination(for: CollegeDestination.self) {
-                    switch $0 {
-                    case let .college(college):
-                        CollegeView(model: .init(college: college))
-                    case let .majors(college, majors):
-                        MajorsView(model: .init(college: college, majors: majors, user: appState.user, appState: appState))
-                    case let .major(college, major, isFavorite):
-                        CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
-                    case let .majorRemote(college, major, isFavorite):
-                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
-                    case let .collegeMap(college):
-                        CollegeMapView(model: .init(college: college, region: .init()))
-                    case let .collegeDevelopment(college):
-                        CollegeDevelopment(model: .init(college: college))
-                    case .about:
-                        AboutView()
-                    case .settings:
-                        SettingsView()
-                    case let .myAccount(user):
-                        MyAccountView(model: .init(user: user))
-                    }
+                    appState.navigationDestination($0)
                 }
         }
         .tabItem(favoritesTabItem)
@@ -90,26 +53,7 @@ extension ContentView {
         NavigationStack(path: $appState.mapNavigation) {
             MapView(locations: model.getAllBranches())
                 .navigationDestination(for: CollegeDestination.self) {
-                    switch $0 {
-                    case let .college(college):
-                        CollegeView(model: .init(college: college))
-                    case let .majors(college, majors):
-                        MajorsView(model: .init(college: college, majors: majors, user: appState.user, appState: appState))
-                    case let .major(college, major, isFavorite):
-                        CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
-                    case let .majorRemote(college, major, isFavorite):
-                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
-                    case let .collegeMap(college):
-                        CollegeMapView(model: .init(college: college, region: .init()))
-                    case let .collegeDevelopment(college):
-                        CollegeDevelopment(model: .init(college: college))
-                    case .about:
-                        AboutView()
-                    case .settings:
-                        SettingsView()
-                    case let .myAccount(user):
-                        MyAccountView(model: .init(user: user))
-                    }
+                    appState.navigationDestination($0)
                 }
         }
         .tabItem(mapTabItem)
@@ -121,26 +65,7 @@ extension ContentView {
         NavigationStack(path: $appState.collegeNavigation) {
             CollegesListView(schools: model.schools)
                 .navigationDestination(for: CollegeDestination.self) {
-                    switch $0 {
-                    case let .college(college):
-                        CollegeView(model: .init(college: college))
-                    case let .majors(college, majors):
-                        MajorsView(model: .init(college: college, majors: majors, user: appState.user, appState: appState))
-                    case let .major(college, major, isFavorite):
-                        CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
-                    case let .majorRemote(college, major, isFavorite):
-                        MajorView(model: .init(major: major, college: college, user: appState.user, isFavorite: isFavorite, appState: appState))
-                    case let .collegeMap(college):
-                        CollegeMapView(model: .init(college: college, region: .init()))
-                    case let .collegeDevelopment(college):
-                        CollegeDevelopment(model: .init(college: college))
-                    case .about:
-                        AboutView()
-                    case .settings:
-                        SettingsView()
-                    case let .myAccount(user):
-                        MyAccountView(model: .init(user: user))
-                    }
+                    appState.navigationDestination($0)
                 }
         }
         .tabItem(collegesTabItem)

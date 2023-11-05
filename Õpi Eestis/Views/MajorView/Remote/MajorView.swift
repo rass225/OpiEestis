@@ -26,11 +26,7 @@ struct MajorView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: smallIconView)
-            ToolbarItem(placement: .navigationBarTrailing, content: {
-                HStack(spacing: 24) {
-                    favoritesButton()
-                }
-            })
+            ToolbarItem(placement: .navigationBarTrailing, content: favoritesButton)
         }
         .toolbar(.visible, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
@@ -42,6 +38,7 @@ struct MajorView: View {
         .sheet(item: $model.selectedPersonnel) { person in
             personDetailView(person)
         }
+        .sheet(isPresented: $model.isNewReviewViewPresented, content: newReviewView)
     }
 }
 
@@ -193,29 +190,69 @@ extension MajorView {
     @ViewBuilder
     func reviewsView() -> some View {
         List {
-            HStack {
-                if model.averageRating > 0 {
+            Section {
+                VStack {
                     HStack {
-                        Text("\(model.averageRating, specifier: "%.1f")")
+                        if model.averageRating > 0 {
+                            Text("\(model.averageRating, specifier: "%.1f")")
+                                .setFont(.largeTitle, .semibold, .rounded)
+                        } else {
+                            Text("N/A")
+                                .setFont(.largeTitle, .semibold, .rounded)
+                        }
+                        
                         Image(systemName: "star.fill")
+                            .setFont(.title, .regular, .rounded)
                             .setColor(model.college.palette.base.gradient)
                     }
-                    .setFont(.title2, .semibold, .rounded)
-                    .padding()
-                    .padding(.horizontal)
+                    Text("\(model.reviews.count) hinnangut")
+                        .setColor(.gray)
+                        .setFont(.footnote, .regular, .rounded)
                 }
-                
-                RatingView(fillColor: model.college.palette.base)
-                    .background(Color.white)
-                    .maxWidth()
+                .padding(.top)
+                .maxWidth()
             }
-            .listRowInsets(.zero)
+            .listRowBackground(Color.clear)
+            
+            
+            Section(content: {
+                if model.reviews.compactMap(\.text).isEmpty && model.user != nil {
+                    Button(action: model.openNewReviewView) {
+                        HStack {
+                            Text("Lisa arvustus")
+                                .setFont(.subheadline, .regular, .rounded)
+                                .setColor(Theme.Colors.black)
+                            Spacer()
+                            Image(systemName: "plus")
+                                .setColor(model.college.palette.base)
+                                .setFont(.body, .medium, .rounded)
+                        }
+                    }
+                } else if model.reviews.compactMap(\.text).isEmpty && model.user == nil {
+                    HStack {
+                        Text("Ühtegi arvustust pole veel lisatud")
+                            .setFont(.subheadline, .regular, .rounded)
+                            .setColor(Theme.Colors.black)
+                    }
+                } else {
+                    ForEach(model.reviews, id: \.id) { review in
+                        reviewCell(review)
+                            .swipeActions(content: {
+                                if review.user == model.user {
+                                    Button(role: .destructive, action: {
+                                        model.deleteReview(review)
+                                    }, label: {
+                                        Label("Kustuta", systemImage: "trash")
+                                        
+                                    })
+                                    .tint(.red)
+                                }
+                            })
+                    }
+                    .listRowInsets(.sixteen)
+                }
+            }, header: reviewListHeader)
         }
-    }
-    
-    @ViewBuilder
-    func ratingsContent() -> some View {
-        
     }
     
     @ViewBuilder

@@ -56,16 +56,28 @@ extension NetworkManager {
         try await firebase.fetchModules(schoolId: schoolId, majorId: majorId)
     }
     
-    func fetchReviews(collegeId: String, majorId: String) async throws -> [Review] {
-        try await firebase.fetchReviews(collegeId: collegeId, majorId: majorId)
-    }
-    
-    func fetchRatings(collegeId: String, majorId: String) async throws -> [Rating] {
-        try await firebase.fetchRatings(collegeId: collegeId, majorId: majorId)
+    func streamReviews(
+        collegeId: String,
+        majorId: String,
+        completion: @escaping (Result<[Review], Error>) -> ()
+    ) {
+        firebase.streamReviews(collegeId: collegeId, majorId: majorId, completion: completion)
     }
     
     func addFavorite(userId: String, major: NewMajor, college: College) async throws {
         try await firebase.addFavorite(userId: userId, college: college, major: major)
+    }
+    
+    func addReview(collegeId: String, majorId: String, review: Review) async throws {
+        try await firebase.addReview(collegeId: collegeId, majorId: majorId, review: review)
+    }
+    
+    func updateReview(collegeId: String, majorId: String, review: Review) async throws {
+        try await firebase.updateMajorReview(collegeId: collegeId, majorId: majorId, review: review)
+    }
+    
+    func removeMajorReview(collegeId: String, majorId: String, reviewId: String) async throws {
+        try await firebase.removeMajorReview(collegeId: collegeId, majorId: majorId, reviewId: reviewId)
     }
     
     func removeFavorite(userId: String, favoriteId: String) async throws {

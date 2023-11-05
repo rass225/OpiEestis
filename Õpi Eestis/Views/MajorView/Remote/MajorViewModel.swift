@@ -9,14 +9,18 @@ extension MajorView {
         @Published var outcomes: [NewOutcome]
         @Published var modules: [Module]
         @Published var reviews: [Review]
-        @Published var ratings: [Rating]
         @Published var tabSelection: Tabs
         @Published var isFavorite: Bool
         @Published var viewState: ViewState
         @Published var imageCache: [URL: UIImage]
+        @Published var reviewProfileImagesCache: [URL: UIImage]
         @Published var standardMapSnapshot: UIImage
         @Published var isMapViewPresented: Bool
         @Published var selectedPersonnel: Personnel?
+        @Published var isNewReviewViewPresented: Bool
+        
+        @Published var newReviewRating: Int = 0
+        @Published var newReviewText = ""
         
         let college: College
         let major: NewMajor
@@ -44,8 +48,8 @@ extension MajorView {
         }
         
         var averageRating: Double {
-            let totalCount = ratings.map(\.rating).reduce(0, +)
-            let currentRating = Double(totalCount) / Double(ratings.count)
+            let totalCount = reviews.map(\.rating).reduce(0, +)
+            let currentRating = Double(totalCount) / Double(reviews.count)
             return currentRating
         }
         
@@ -66,15 +70,6 @@ extension MajorView {
             self.outcomes = []
             self.modules = []
             self.reviews = []
-            self.ratings = [
-                .init(id: "XXX", userId: "YYY", rating: 3),
-                .init(id: "XXX", userId: "YYY", rating: 2),
-                .init(id: "XXX", userId: "YYY", rating: 5),
-                .init(id: "XXX", userId: "YYY", rating: 3),
-                .init(id: "XXX", userId: "YYY", rating: 1),
-                .init(id: "XXX", userId: "YYY", rating: 1),
-                .init(id: "XXX", userId: "YYY", rating: 4)
-            ]
             self.college = college
             self.tabSelection = tabSelection
             self.isFavorite = isFavorite
@@ -84,6 +79,8 @@ extension MajorView {
             self.isMapViewPresented = false
             self.user = user
             self.imageCache = [:]
+            self.reviewProfileImagesCache = [:]
+            self.isNewReviewViewPresented = false
             
             appState.$user
                 .sink { [weak self] user in
@@ -102,6 +99,10 @@ extension MajorView {
 }
 
 extension MajorView.Model {
+    func openNewReviewView() {
+        isNewReviewViewPresented.toggle()
+    }
+    
     func openWebsite() {
         dependencies.network.openLink(with: major.majorWebsite)
     }
@@ -144,6 +145,84 @@ extension MajorView.Model {
         let region = dependencies.mapService.getRegion(locations: coordinates, latitudeMultiplier: 1.6)
         return .init(college: collegeWithFilteredLocations, region: region)
     }
+    
+    func submitReview() {
+        if let userReview = reviews.first(where: { $0.user == user }) {
+            updateReview()
+        } else {
+            addReview()
+        }
+    }
+    
+    func updateReview() {
+        guard var userReview = reviews.first(where: { $0.user == user }) else { return }
+        let updatedReview: Review = .init(
+            id: userReview.id,
+            user: userReview.user,
+            text: newReviewText,
+            rating: newReviewRating,
+            date: .now
+        )
+        Task {
+            do {
+                try await dependencies.network.updateReview(
+                    collegeId: college.id,
+                    majorId: major.id,
+                    review: updatedReview
+                )
+                DispatchQueue.main.async {
+                    self.isNewReviewViewPresented = false
+                    self.newReviewText = ""
+                    self.newReviewRating = 0
+                }
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func addReview() {
+        guard let user else { return }
+        guard newReviewRating > 0 else { return }
+        let text: String? = newReviewText.isEmpty ? nil : newReviewText
+        let review: Review = .init(
+            id: "placeholder",
+            user: user,
+            text: text,
+            rating: newReviewRating,
+            date: .now
+        )
+        Task {
+            do {
+                try await dependencies.network.addReview(
+                    collegeId: college.id,
+                    majorId: major.id,
+                    review: review
+                )
+                DispatchQueue.main.async {
+                    self.isNewReviewViewPresented = false
+                    self.newReviewText = ""
+                    self.newReviewRating = 0
+                }
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func deleteReview(_ review: Review) {
+        guard review.user == user else { return }
+        Task {
+            do {
+                try await dependencies.network.removeMajorReview(
+                    collegeId: college.id,
+                    majorId: major.id,
+                    reviewId: review.id)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+    }
 }
 
 // MARK: - Private Methods
@@ -159,8 +238,7 @@ private extension MajorView.Model {
                 group.addTask { await self.fetchPersonnelImages() }
                 group.addTask { self.loadMapSnapshot() }
                 group.addTask { self.streamFavoriteMajor() }
-                group.addTask { await self.fetchRatings() }
-                group.addTask { await self.fetchReviews() }
+                group.addTask { self.streamReviews() }
                 for await _ in group { }
             }
         }
@@ -254,26 +332,40 @@ private extension MajorView.Model {
             print(error.localizedDescription)
         }
     }
-    
-    func fetchReviews() async {
-        do {
-            let reviews = try await dependencies.network.fetchReviews(collegeId: college.id, majorId: major.id)
-            DispatchQueue.main.async {
-                self.reviews = reviews
+    func streamReviews() {
+        dependencies.network.streamReviews(
+            collegeId: college.id,
+            majorId: major.id
+        ) { [weak self] result in
+            guard let self else { return }
+            switch result {
+            case let .success(reviews):
+                DispatchQueue.main.async {
+                    self.reviews = reviews
+                }
+                Task {
+                    await self.fetchReviewImages(reviews: reviews)
+                }
+                
+            case let .failure(error):
+                print(error.localizedDescription)
             }
-        } catch {
-            print(error.localizedDescription)
         }
     }
     
-    func fetchRatings() async {
-        do {
-            let ratings = try await dependencies.network.fetchRatings(collegeId: college.id, majorId: major.id)
-            DispatchQueue.main.async {
-                self.ratings = ratings
+    func fetchReviewImages(reviews: [Review]) async {
+        let urls = reviews
+            .map(\.user)
+            .compactMap(\.photoUrl)
+            .compactMap { photoUrlString in
+                return URL(string: photoUrlString)
             }
-        } catch {
-            print(error.localizedDescription)
+        let fetchedImages = await dependencies.network.fetchImages(urls: urls)
+        let nonNilImages = fetchedImages.compactMapValues { $0 }
+        DispatchQueue.main.async {
+            self.reviewProfileImagesCache = nonNilImages
+//            self.reviewProfileImagesCache.merge(nonNilImages) { (_, new) in new }
+            
         }
     }
     

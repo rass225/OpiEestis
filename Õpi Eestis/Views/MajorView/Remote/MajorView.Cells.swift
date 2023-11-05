@@ -108,4 +108,50 @@ extension MajorView {
             model.selectedPersonnel = person
         }
     }
+    
+    @ViewBuilder
+    func reviewCell(_ review: Review) -> some View {
+        if let text = review.text {
+            VStack(alignment: .leading, spacing: 16) {
+                HStack {
+                    profileImageView(user: review.user)
+                    
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack(spacing: 2) {
+                            Text("\(review.rating)")
+                                .setFont(.subheadline, .medium, .rounded)
+                            Theme.Icons.star
+                                .setColor(model.college.palette.base.gradient)
+                                .setFont(.caption, .medium, .rounded)
+                                .padding(.trailing, 8)
+                        }
+                        Text("\(review.date.formatted(date: .abbreviated, time: .omitted))")
+                            .setFont(.footnote, .regular, .rounded)
+                            .setColor(Theme.Colors.gray)
+                    }
+                    Spacer()
+                }
+                Text(text)
+                    .setFont(.subheadline, .regular, .rounded)
+                    .multilineTextAlignment(.leading)
+            }
+        }
+    }
+    
+    @ViewBuilder
+    func profileImageView(user: FirebaseUser) -> some View {
+        if let photoUrl = user.photoUrl, let url = URL(string: photoUrl) {
+            if let cachedImage = model.reviewProfileImagesCache[url] {
+                Image(uiImage: cachedImage)
+                    .resizable()
+                    .fill()
+                    .frame(width: 40, height: 40, alignment: .top)
+                    .clipShape(Circle())
+            } else {
+                placeholderPerson(size: 40)
+            }
+        } else {
+            placeholderPerson(size: 40)
+        }
+    }
 }

@@ -38,5 +38,6 @@ struct Theme {
         static let slider: Image = .init(systemName: "slider.horizontal.3")
         static let heart: Image = .init(systemName: "heart.fill")
         static let star: Image = .init(systemName: "star.fill")
+        static let review: Image = .init(systemName: "star.bubble.fill")
     }
 }

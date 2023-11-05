@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct Review: Codable {
-    let id: String
-    let userId: String
-    let userPhotoUrl: String
-    let text: String
+    var id: String
+    let user: FirebaseUser
+    let text: String?
+    let rating: Int
     let date: Date
 }

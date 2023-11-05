@@ -2,7 +2,7 @@ import SwiftUI
 
 struct RatingView: View {
     let fillColor: Color
-    @State private var rating: Int = 0
+    @Binding var rating: Int
     @GestureState private var dragAmount: CGFloat = 0.0
     
     var body: some View {
@@ -45,7 +45,7 @@ extension RatingView {
         var body: some View {
             Image(systemName: isFilled ? "star.fill" : "star")
                 .modifier(FilledStarModifier(isFilled: isFilled, fillColor: fillColor))
-                .setFont(.title2, .regular, .rounded)
+                .setFont(.title, .regular, .rounded)
                 .animation(.easeInOut(duration: 0.3), value: animationValue)
         }
     }

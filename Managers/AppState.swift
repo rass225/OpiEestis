@@ -72,6 +72,30 @@ class AppState: ObservableObject {
         }
     }
     
+    @ViewBuilder
+    func navigationDestination(_ destination: CollegeDestination) -> some View {
+        switch destination {
+        case let .college(college):
+            CollegeView(model: .init(college: college))
+        case let .majors(college, majors):
+            MajorsView(model: .init(college: college, majors: majors, user: self.user, appState: self))
+        case let .major(college, major, isFavorite):
+            CollegeMajorView(model: .init(major: major, college: college, isFavorite: isFavorite))
+        case let .majorRemote(college, major, isFavorite):
+            MajorView(model: .init(major: major, college: college, user: self.user, isFavorite: isFavorite, appState: self))
+        case let .collegeMap(college):
+            CollegeMapView(model: .init(college: college, region: .init()))
+        case let .collegeDevelopment(college):
+            CollegeDevelopment(model: .init(college: college))
+        case .about:
+            AboutView()
+        case .settings:
+            SettingsView()
+        case let .myAccount(user):
+            MyAccountView(model: .init(user: user))
+        }
+    }
+    
     func signInApple() {
         Task {
             do {

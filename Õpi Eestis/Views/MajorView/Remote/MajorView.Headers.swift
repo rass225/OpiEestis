@@ -85,22 +85,51 @@ extension MajorView {
     }
     
     @ViewBuilder
-    func reviewsHeader() -> some View {
-        Header(
-            label: "Arvustus",
-            image: Theme.Icons.location,
-            color: model.college.palette.base,
-            withTopPadding: false
-        )
+    func reviewsHeader(
+        label: String = "Arvustus (vabatahtlik)",
+        image: Image = Theme.Icons.review,
+        withTopPadding: Bool = false
+    ) -> some View {
+        HStack(spacing: 8){
+            image
+                .setFont(.body, .regular, .rounded)
+                .setColor(model.college.palette.base.gradient)
+                .frame(width: 24, alignment: .leading)
+            Text(label.capitalizedSentence)
+                .setFont(.body, .semibold, .rounded)
+                .textCase(.none)
+                .setColor(Theme.Colors.black)
+            Spacer()
+        }
+        .padding(.top, withTopPadding ? 32 : 0)
+        .listRowInsets(.eight)
     }
     
     @ViewBuilder
     func ratingsHeader() -> some View {
         Header(
             label: "Hinnang",
-            image: Theme.Icons.location,
+            image: Theme.Icons.star,
             color: model.college.palette.base,
             withTopPadding: false
         )
+    }
+    
+    @ViewBuilder
+    func reviewListHeader() -> some View {
+        Header(
+            label: "Arvustused",
+            image: Theme.Icons.review,
+            color: model.college.palette.base
+        )
+        .overlay(alignment: .trailing) {
+            if let user = model.user {
+                if !model.reviews.compactMap(\.text).isEmpty && !model.reviews.contains(where: { $0.user.id == user.id && $0.text != nil }) {
+                    Button("", systemImage: "plus", action: model.openNewReviewView)
+                        .setColor(model.college.palette.base)
+                        .setFont(.body, .medium, .rounded)
+                }
+            }
+        }
     }
 }
