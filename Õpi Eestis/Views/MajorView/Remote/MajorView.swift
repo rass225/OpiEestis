@@ -168,7 +168,7 @@ extension MajorView {
     
     @ViewBuilder
     func modulesContent() -> some View {
-        ForEach(model.modules, id: \.self) { item in
+        ForEach(model.modules, id: \.id) { item in
             ModuleCell(
                 item: item,
                 eapLabel: model.major.eapLocale,
@@ -248,7 +248,7 @@ extension MajorView {
     
     @ViewBuilder
     func outcomesContent() -> some View {
-        ForEach(model.outcomes, id: \.self) {
+        ForEach(model.outcomes, id: \.id) {
             outcomeCell($0.description)
         }
     }
@@ -267,7 +267,7 @@ extension MajorView {
     
     @ViewBuilder
     func requirementContent() -> some View {
-        ForEach(model.requirements, id: \.self) { item in
+        ForEach(model.requirements, id: \.id) { item in
             requirementCell(item)
         }
     }
@@ -280,7 +280,7 @@ extension MajorView {
                     .padding(.leading, 28)
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 16) {
-                        ForEach(model.personnel, id: \.self) { person in
+                        ForEach(model.personnel, id: \.id) { person in
                             personnelCell(person)
                         }
                     }.padding(.horizontal, 20)

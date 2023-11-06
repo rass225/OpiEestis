@@ -6,7 +6,25 @@ struct MajorsView: View {
     
     var body: some View {
         List {
-            Section(content: majorsContent, header: hiddenHeader)
+            Section(content: {
+                ForEach(model.displayedMajors, id: \.id) { major in
+                    MajorCell(
+                        major: major,
+                        isFavorite: model.isFavorite(major),
+                        baseColor: model.college.palette.base,
+                        showDetailed: model.detailLevel == .detailed,
+                        routeToMajor: {
+                            appState.route(to: .majorRemote(college: model.college, major: major, isFavorite: model.isFavorite(major)))
+                        },
+                        removeFavorite: {
+                            model.removeFavorite(major: major)
+                        },
+                        addFavorite: {
+                            model.addFavorite(major: major)
+                        }
+                    )
+                }
+            }, header: hiddenHeader)
         }
         .searchable(
             text: $model.debouncedSearchText,
@@ -29,9 +47,7 @@ struct MajorsView: View {
 private extension MajorsView {
     @ViewBuilder
     func majorsContent() -> some View {
-        ForEach(model.displayedMajors, id: \.self) {
-            majorCell($0)
-        }
+        
     }
     
     @ViewBuilder
@@ -64,13 +80,6 @@ private extension MajorsView {
     func hiddenHeader() -> some View {
         Text("Test")
             .opacity(0)
-    }
-    
-    @ViewBuilder
-    func heartImage() -> some View {
-        Theme.Icons.heart
-            .setSymbol(.fill)
-            .setColor(model.college.palette.base.gradient)
     }
     
     @ViewBuilder
@@ -119,18 +128,25 @@ private extension MajorsView {
 // MARK: - Cells
 
 extension MajorsView {
-    @ViewBuilder
-    func majorCell(_ major: NewMajor) -> some View {
-        HStack(alignment: .center, spacing: 8) {
-            VStack(alignment: .leading, spacing: 2) {
-                Text(major.name)
-                    .setFont(.callout, .medium, .rounded)
-                    .setColor(Theme.Colors.black)
-                VStack(alignment: .leading, spacing: 24) {
+    struct MajorCell: View {
+        let major: NewMajor
+        let isFavorite: Bool
+        let baseColor: Color
+        let showDetailed: Bool
+        let routeToMajor: () -> ()
+        let removeFavorite: () -> ()
+        let addFavorite: () -> ()
+        var body: some View {
+            HStack(alignment: .center, spacing: 8) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(major.name)
+                        .setFont(.callout, .medium, .rounded)
+                        .setColor(Theme.Colors.black)
                     Text(major.level.rawValue.capitalized)
                         .setFont(.subheadline, .medium, .rounded)
-                        .setColor(model.college.palette.base)
-                    if model.detailLevel == .detailed {
+                        .setColor(baseColor)
+                        .padding(.bottom, 22)
+                    if showDetailed {
                         HStack(spacing: 8) {
                             Text(major.language.secondaryLabel)
                             Text("•")
@@ -142,27 +158,51 @@ extension MajorsView {
                         .setFont(.footnote, .medium, .rounded)
                     }
                 }
+                .padding(.vertical, 4)
+                Spacer()
+                if isFavorite {
+                    heartImage()
+                }
             }
-            .padding(.vertical, 4)
-            Spacer()
-            if model.isFavorite(major) {
-                heartImage()
+            .swipeActions {
+                if isFavorite {
+                    removeFavoriteButton(major)
+                } else {
+                   addFavoriteButton(major)
+                }
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                routeToMajor()
             }
         }
-        .swipeActions {
-            if model.isFavorite(major) {
-                removeFavoriteButton(major)
-            } else {
-               addFavoriteButton(major)
-            }
+        
+        @ViewBuilder
+        func heartImage() -> some View {
+            Theme.Icons.heart
+                .setSymbol(.fill)
+                .setColor(baseColor.gradient)
         }
-        .contentShape(Rectangle())
-        .onTapGesture {
-            appState.route(to: .majorRemote(
-                college: model.college,
-                major: major,
-                isFavorite: model.isFavorite(major)
-            ))
+        
+        @ViewBuilder
+        func removeFavoriteButton(_ major: NewMajor) -> some View {
+            Button {
+                removeFavorite()
+            } label: {
+                Image(systemName: "heart.slash")
+            }
+            .tint(.red)
+        }
+        
+        @ViewBuilder
+        func addFavoriteButton(_ major: NewMajor) -> some View {
+            Button {
+                addFavorite()
+            } label: {
+                Theme.Icons.heart
+                    .setSymbol(.fill)
+            }
+            .tint(baseColor)
         }
     }
 }
@@ -170,26 +210,6 @@ extension MajorsView {
 //MARK: - Buttons
 
 private extension MajorsView {
-    @ViewBuilder
-    func removeFavoriteButton(_ major: NewMajor) -> some View {
-        Button {
-            model.removeFavorite(major: major)
-        } label: {
-            Image(systemName: "heart.slash")
-        }
-        .tint(.red)
-    }
-    
-    @ViewBuilder
-    func addFavoriteButton(_ major: NewMajor) -> some View {
-        Button {
-            model.addFavorite(major: major)
-        } label: {
-            Theme.Icons.heart
-                .setSymbol(.fill)
-        }
-        .tint(model.college.palette.base)
-    }
     
     @ViewBuilder
     func backButton() -> some View {

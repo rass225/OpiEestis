@@ -492,6 +492,11 @@ private extension CollegeMajorView.Model {
     }
 }
 
-struct NewOutcome: Codable, Hashable {
+struct NewOutcome: Codable, Hashable, Identifiable {
+    var id = UUID()
     let description: String
+    
+    enum CodingKeys: String, CodingKey {
+        case description
+    }
 }
