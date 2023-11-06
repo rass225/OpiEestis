@@ -300,10 +300,10 @@ private extension MajorsView {
                 .tag(Model.DurationSelection.all)
             ForEach(model.durations, id: \.self) {
                 if $0.isInt() {
-                    Text("\(Int($0)) aastat")
+                    Text("\(Int($0)) \(Theme.Locale.Major.years)")
                         .tag(Model.DurationSelection.specific($0))
                 } else {
-                    Text(String(format: "%.1f", $0) + " aastat")
+                    Text(String(format: "%.1f", $0) + " \(Theme.Locale.Major.years)")
                         .tag(Model.DurationSelection.specific($0))
                 }
             }

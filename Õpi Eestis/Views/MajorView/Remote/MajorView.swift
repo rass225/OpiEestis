@@ -197,7 +197,7 @@ extension MajorView {
                             .setFont(.title, .regular, .rounded)
                             .setColor(model.college.palette.base.gradient)
                     }
-                    Text("\(model.reviews.count) hinnangut")
+                    Text("\(model.reviews.count) \(Theme.Locale.Major.amountOfRatings)")
                         .setColor(.gray)
                         .setFont(.footnote, .regular, .rounded)
                 }
@@ -279,7 +279,7 @@ extension MajorView {
                 personnelHeader()
                     .padding(.leading, 28)
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 16) { 
+                    HStack(spacing: 16) {
                         ForEach(model.personnel, id: \.self) { person in
                             personnelCell(person)
                         }
@@ -324,7 +324,7 @@ extension MajorView {
                 if duration.isInt() {
                     topText = "\(Int(duration)) \(Theme.Locale.Major.years)"
                 } else {
-                    topText = String(format: "%.1f", duration) + " \(Theme.Locale.Major.years)"
+                    topText = duration.decimals(1) + " \(Theme.Locale.Major.years)"
                 }
                 bottomText = Theme.Locale.Major.duration
             case .spots(let spots):

@@ -38,6 +38,7 @@ struct Theme {
         static let textBook = Image(systemName: "text.book.closed.fill")
         static let slider: Image = .init(systemName: "slider.horizontal.3")
         static let heart: Image = .init(systemName: "heart")
+        static let heartSlash: Image = .init(systemName: "heart.slash")
         static let star: Image = .init(systemName: "star.fill")
         static let review: Image = .init(systemName: "star.bubble.fill")
         static let help: Image = .init(systemName: "person.crop.circle.badge.questionmark")
@@ -56,6 +57,9 @@ struct Theme {
         static let delete: Image = .init(systemName: "trash")
         static let logout: Image = .init(systemName: "rectangle.portrait.and.arrow.forward")
         static let edit: Image = .init(systemName: "square.and.pencil")
+        static let settings: Image = .init(systemName: "gearshape.fill")
+        static let about: Image = .init(systemName: "book.pages.fill")
+        static let donations: Image = .init(systemName: "gift.fill")
     }
     
     enum Locale {
@@ -73,6 +77,10 @@ struct Theme {
         enum Favorites {
             static let unauthenticated: String = "Lemmikute vaatamiseks logi sisse"
             static let empty: String = "Sul ei ole ühtegi lemmikut lisatud"
+            static let oneYear: String = "aasta"
+            static let multipleYears: String = "aastat"
+            static let free: String = "Tasuta"
+            static let paid: String = "€€€"
         }
         
         enum Map {
@@ -110,7 +118,7 @@ struct Theme {
         }
         
         enum About {
-            static let title: String = "Title"
+            static let title: String = "Rakendusest"
             static let author: String = "Designed and developed by Rasmus Tauts."
             static let copyright: String = "Copyright © 2019 Rasmus Tauts. All rights reserved."
             static let description: String = "Õpi Eestis on ainulaadne mobiilirakendus, mis pakub sulle võimalust leida omale sobiv teekond õpingute jätkamiseks. Kunagi varem pole protsess nii lihtne olnud. Tutvu erinevate Eesti ülikoolidega ning tee oma valik väljatoodud erialade seast. Soovid õppida ärindust, kunstiteadusi, kirjandust või hoopis midagi muud? Valik on sinu! \n\nRakenduse eesmärk on laiendada eestimaalaste teadlikkust Eestis pakutavate õppimisvõimaluste kohta ja lihtsustada informatsiooni kättesaadavust. Rakendus Õpi Eestis loob eeldused edendada haridust ning aidata inimestel oma unistused täita. Informatsioon on kogutud kokku nii kõrgkoolide ametlikelt kodulehekülgedelt kui ka teistest teabeallikatest. \n\nErialade kohta käiv teave pärineb 2023/2024 õppeaastast."
@@ -137,6 +145,7 @@ struct Theme {
             static let review: String = "Arvustus"
             static let reviews: String = "Arvustused"
             static let rating: String = "Hinnang"
+            static let amountOfRatings: String = "hinnangud"
             static let delete: String = "Kustuta"
             static let goToMajorWebsite: String = "Tutvu lähemalt erialaga kooli kodulehel"
             static let cost: String = "Maksumus"
@@ -157,6 +166,7 @@ struct Theme {
             static let city: String = "Linn"
             static let duration: String = "Kestus"
             static let cost: String = "Maksumus"
+            static let years: String = "aastat"
         }
         
         enum College {

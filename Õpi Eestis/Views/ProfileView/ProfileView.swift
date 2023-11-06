@@ -21,24 +21,30 @@ extension ProfileView {
     func authenticatedView(user: FirebaseUser) -> some View {
         List {
             Section {
-                label(title: Theme.Locale.Profile.myAccount, icon: "person.fill")
-                    .onTapGesture {
-                        appState.route(to: .myAccount(user))
-                    }
-                label(title: Theme.Locale.Profile.settings, icon: "gearshape.fill")
-                    .onTapGesture {
-                        appState.route(to: .settings)
-                    }
+                label(
+                    title: Theme.Locale.Profile.myAccount,
+                    icon: Theme.Icons.person
+                )
+                .onTapGesture { appState.route(to: .myAccount(user)) }
+                label(
+                    title: Theme.Locale.Profile.about,
+                    icon: Theme.Icons.about
+                )
+                .onTapGesture { appState.route(to: .about) }
+//                label(
+//                    title: Theme.Locale.Profile.settings,
+//                    icon: Theme.Icons.settings
+//                )
+//                .onTapGesture { appState.route(to: .settings) }
             }
             Section {
-                label(title: Theme.Locale.Profile.about, icon: "book.pages.fill")
-                    .onTapGesture {
-                        appState.route(to: .about)
-                    }
-                label(title: Theme.Locale.Profile.donations, icon: "gift.fill")
-                    .onTapGesture {
-                        isDonationsPresented.toggle()
-                    }
+                
+                
+//                label(
+//                    title: Theme.Locale.Profile.donations,
+//                    icon: Theme.Icons.donations
+//                )
+//                .onTapGesture { isDonationsPresented.toggle() }
             }
             Section {
                 Button(action: appState.signout) {
@@ -70,12 +76,12 @@ extension ProfileView {
     }
     
     @ViewBuilder
-    func label(title: String, icon: String) -> some View {
+    func label(title: String, icon: Image) -> some View {
         Label(title: {
             Text(title)
                 .setFont(.body, .regular, .rounded)
         }, icon: {
-            Image(systemName: icon)
+            icon
                 .setColor(Theme.Colors.primary.gradient)
         })
         .maxWidth(alignment: .leading)

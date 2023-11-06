@@ -100,7 +100,7 @@ extension MajorView {
                     .setFont(.body, .semibold, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.black)
-                Text("(\(Theme.Locale.Major.optional)")
+                Text(Theme.Locale.Major.optional)
                     .setFont(.subheadline, .regular, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.gray)

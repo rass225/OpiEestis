@@ -51,7 +51,7 @@ extension CollegeView {
             Text(level.label)
                 .setFont(.subheadline, .medium, .rounded)
                 .maxWidth(alignment: .leading)
-            Text("\(count)")
+            Text(String(count))
                 .setFont(.body, .semibold, .rounded)
         }
         .setColor(Theme.Colors.white)

@@ -73,11 +73,11 @@ struct FavoritesView: View {
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(college.palette.base)
                     HStack(spacing: 8) {
-                        Text("\(major.language.secondaryLabel)")
+                        Text(major.language.secondaryLabel)
                         Text("•")
-                        Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? "aasta" : "aastat")")
+                        Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? Theme.Locale.Favorites.oneYear : Theme.Locale.Favorites.multipleYears)")
                         Text("•")
-                        Text(major.cost.amount == 0 ? "Tasuta" : "€€€")
+                        Text(major.cost.priceLabel)
                     }
                     .setColor(.gray)
                     .setFont(.footnote, .medium, .rounded)
@@ -85,9 +85,12 @@ struct FavoritesView: View {
             }
             .padding(.vertical, 4)
             .swipeActions {
-                Button("", systemImage: "heart.slash", role: .destructive) {
+                Button(action: {
                     model.removeFavorite(major: major, college: college)
-                }.tint(.red)
+                }, label: {
+                    Theme.Icons.heartSlash
+                })
+                .tint(.red)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(Rectangle())
