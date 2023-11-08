@@ -7,7 +7,7 @@ extension MajorView.Model {
         case overview
         case requirements
         case modules
-        case outcomes
+        case personnel
         case reviews
         
         var image: Image {
@@ -15,7 +15,7 @@ extension MajorView.Model {
             case .overview: return Theme.Icons.doc
             case .requirements: return Theme.Icons.requirements
             case .modules: return Theme.Icons.stack
-            case .outcomes: return Theme.Icons.outcomes
+            case .personnel: return Theme.Icons.person2
             case .reviews: return Theme.Icons.star
             }
         }

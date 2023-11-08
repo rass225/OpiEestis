@@ -50,7 +50,7 @@ extension MajorView {
             label: Theme.Locale.Major.outcomes,
             image: Theme.Icons.outcomes,
             color: model.college.palette.base,
-            withTopPadding: true
+            withTopPadding: false
         )
     }
     
@@ -70,7 +70,7 @@ extension MajorView {
             label: Theme.Locale.Major.personnel,
             image: Theme.Icons.person2,
             color: model.college.palette.base,
-            withTopPadding: false
+            withTopPadding: true
         )
     }
     
@@ -100,7 +100,7 @@ extension MajorView {
                     .setFont(.body, .semibold, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.black)
-                Text(Theme.Locale.Major.optional)
+                Text("(\(Theme.Locale.Major.optional))")
                     .setFont(.subheadline, .regular, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.gray)

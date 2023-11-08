@@ -32,6 +32,9 @@ struct CollegeView: View {
         .fullScreenCover(item: $model.webLink) {
             webView(link: $0)
         }
+        .task {
+            model.start()
+        }
     }
 }
 

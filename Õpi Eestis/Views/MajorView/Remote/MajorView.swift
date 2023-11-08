@@ -2,6 +2,7 @@ import SwiftUI
 import WebKit
 
 struct MajorView: View {
+    @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     @Namespace var animation
     @State var easterEggPresented = false
@@ -16,7 +17,7 @@ struct MajorView: View {
                 case .overview: overviewView
                 case .modules: modulesView
                 case .requirements: requirementsView
-                case .outcomes: outcomesView
+                case .personnel: personnelView
                 case .reviews: reviewsView()
                 }
             case .loading:
@@ -54,7 +55,7 @@ private extension MajorView {
                 spotifyView()
                 facebookView()
                 descriptionContent()
-                personnelContent()
+                outcomesView()
                 locationsContent()
             }
             .padding(.top, 68)
@@ -75,10 +76,30 @@ private extension MajorView {
         }
     }
     
-    var outcomesView: some View {
-        List {
-            Section(content: outcomesContent, header: outcomesHeader)
+    @ViewBuilder
+    func outcomesView() -> some View {
+        if !model.outcomes.isEmpty {
+            VStack(alignment: .leading) {
+                outcomesHeader()
+                    .padding(.leading, 8)
+                HStack {
+                    Text("Vaata mida omandad eriala läbides")
+                    Spacer()
+                    Chevron(type: .normal)
+                }
+                .setFont(.subheadline, .regular, .rounded)
+                .maxWidth()
+                .padding()
+                .background(Color.white)
+                .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                .contentShape(.rect)
+                .onTapGesture {
+                    appState.route(to: .outcomes(model.outcomes))
+                }
+            }
+            .padding(.horizontal)
         }
+        
     }
 }
 
@@ -248,8 +269,10 @@ extension MajorView {
     
     @ViewBuilder
     func outcomesContent() -> some View {
-        ForEach(model.outcomes, id: \.id) {
-            outcomeCell($0.description)
+        VStack {
+            ForEach(model.outcomes, id: \.id) {
+                outcomeCell($0.description)
+            }
         }
     }
     
@@ -272,20 +295,16 @@ extension MajorView {
         }
     }
     
+    var personnelView: some View {
+        List {
+            Section(content: personnelContent, header: personnelHeader)
+        }
+    }
+    
     @ViewBuilder
     func personnelContent() -> some View {
-        if !model.personnel.isEmpty {
-            VStack {
-                personnelHeader()
-                    .padding(.leading, 28)
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 16) {
-                        ForEach(model.personnel, id: \.id) { person in
-                            personnelCell(person)
-                        }
-                    }.padding(.horizontal, 20)
-                }
-            }
+        ForEach(model.personnel, id: \.id) { person in
+            personnelCell(person)
         }
     }
     

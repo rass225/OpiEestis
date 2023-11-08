@@ -35,7 +35,6 @@ extension CollegeView {
             self.college = college
             self.dependencies = dependencies
             self.isMapViewPresented = isMapViewPresented
-            start()
         }
         
         deinit {
@@ -78,9 +77,7 @@ extension CollegeView.Model {
         default: return 0
         }
     }
-}
-
-private extension CollegeView.Model {
+    
     func start() {
         Task {
             await withTaskGroup(of: Void.self) { group in
@@ -91,7 +88,9 @@ private extension CollegeView.Model {
             }
         }
     }
-    
+}
+
+private extension CollegeView.Model {
     func loadMapSnapshot() async {
         let coordinates = college.locationCoordinates
         let mapRegion = dependencies.mapService.getRegion(locations: coordinates)

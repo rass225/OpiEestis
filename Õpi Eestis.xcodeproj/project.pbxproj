@@ -26,6 +26,7 @@
 		C03EA8AC2747FC6D00E07782 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA8AB2747FC6D00E07782 /* FavoritesView.swift */; };
 		C041550C2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json in Resources */ = {isa = PBXBuildFile; fileRef = C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */; };
 		C041550F2AC8535300858055 /* CollegeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041550E2AC8535300858055 /* CollegeMapView.swift */; };
+		C04179A92AFAC7CB00533EF4 /* OutcomesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04179A82AFAC7CB00533EF4 /* OutcomesView.swift */; };
 		C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */; };
 		C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DCF25AF0A9200E4A15D /* Assets.xcassets */; };
 		C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DD225AF0A9200E4A15D /* Preview Assets.xcassets */; };
@@ -182,6 +183,7 @@
 		C03EA8AB2747FC6D00E07782 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IdaVirumaaKutsehariduskeskus.json; sourceTree = "<group>"; };
 		C041550E2AC8535300858055 /* CollegeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMapView.swift; sourceTree = "<group>"; };
+		C04179A82AFAC7CB00533EF4 /* OutcomesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomesView.swift; sourceTree = "<group>"; };
 		C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Õpi Eestis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpiEestisApp.swift; sourceTree = "<group>"; };
 		C0460DCF25AF0A9200E4A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -684,6 +686,7 @@
 				C09CFB9D2AEBB949005048B0 /* MajorViewModel.Objects.swift */,
 				C07307262AF3032900BABA4C /* PersonDetailView.swift */,
 				C01BEF062AF67D4200D197DA /* NewReviewView.swift */,
+				C04179A82AFAC7CB00533EF4 /* OutcomesView.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -936,6 +939,7 @@
 				C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */,
 				C0460EB825AF113300E4A15D /* Color.swift in Sources */,
 				C09CFB852AEAF92E005048B0 /* CollegeDevelopment.swift in Sources */,
+				C04179A92AFAC7CB00533EF4 /* OutcomesView.swift in Sources */,
 				C0ECAE402AF2CCE400815643 /* Review.swift in Sources */,
 				C0C59E2E2AA2601E00423948 /* Link.swift in Sources */,
 				C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */,
@@ -1166,7 +1170,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1193,7 +1197,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

@@ -37,11 +37,11 @@ extension MajorView {
             if !requirements.isEmpty {
                 tabs.append(.requirements)
             }
-            if !outcomes.isEmpty {
-                tabs.append(.outcomes)
-            }
             if !modules.isEmpty {
                 tabs.append(.modules)
+            }
+            if !personnel.isEmpty {
+                tabs.append(.personnel)
             }
             tabs.append(.reviews)
             return tabs
@@ -235,7 +235,6 @@ private extension MajorView.Model {
                 group.addTask { await self.fetchRequirements() }
                 group.addTask { await self.fetchOutcomes() }
                 group.addTask { await self.fetchPersonnel() }
-                group.addTask { await self.fetchPersonnelImages() }
                 group.addTask { self.loadMapSnapshot() }
                 group.addTask { self.streamFavoriteMajor() }
                 group.addTask { self.streamReviews() }
@@ -306,6 +305,9 @@ private extension MajorView.Model {
             DispatchQueue.main.async {
                 self.personnel = personnel
             }
+            Task {
+                await self.fetchPersonnelImages(personnel: personnel)
+            }
         } catch {
             print(error.localizedDescription)
         }
@@ -366,7 +368,7 @@ private extension MajorView.Model {
         }
     }
     
-    func fetchPersonnelImages() async {
+    func fetchPersonnelImages(personnel: [Personnel]) async {
         let urls = personnel
             .compactMap(\.photo)
             .compactMap { photoUrlString in
@@ -375,7 +377,7 @@ private extension MajorView.Model {
         let fetchedImages = await dependencies.network.fetchImages(urls: urls)
         let nonNilImages = fetchedImages.compactMapValues { $0 }
         DispatchQueue.main.async {
-            self.imageCache.merge(nonNilImages) { (_, new) in new }
+            self.imageCache = nonNilImages
         }
     }
 }

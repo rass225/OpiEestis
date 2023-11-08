@@ -280,20 +280,118 @@ extension CollegeDevelopment {
             }
         }
         
-        func overrideMajor(major: Major, schoolID: String, majorID: String) {
-            let db = Firestore.firestore()
-            
-            let schoolRef = db.collection("Schools").document(schoolID)
-            let majorRef = schoolRef.collection("majors").document(majorID)
-            
-            // Delete the major's main document
-            majorRef.delete { error in
-                if let error = error {
-                    print("Error deleting major from Firestore: \(error)")
-                } else {
-                    // After successfully deleting, add the major again using the previous function
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        self.addMajorToSchool(major: major, schoolID: schoolID)
+//        func overrideMajor(major: Major, schoolID: String, majorID: String) {
+//            let db = Firestore.firestore()
+//            
+//            let schoolRef = db.collection("Schools").document(schoolID)
+//            let majorRef = schoolRef.collection("majors").document(majorID)
+//            
+//            // Delete the major's main document
+//            majorRef.delete { error in
+//                if let error = error {
+//                    print("Error deleting major from Firestore: \(error)")
+//                } else {
+//                    // After successfully deleting, add the major again using the previous function
+//                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//                        self.addMajorToSchool(major: major, schoolID: schoolID)
+//                    }
+//                }
+//            }
+//        }
+    }
+}
+
+extension CollegeDevelopment.LocalMajorView {
+    // ... existing code ...
+
+    func overrideMajor(major: Major, schoolID: String, majorID: String) {
+        var newMajor = NewMajor(
+            id: majorID,
+            collegeId: college.id,
+            name: major.name,
+            level: major.level,
+            language: major.language,
+            majorWebsite: major.majorWebsite,
+            description: major.description,
+            spots: major.spots,
+            duration: major.duration,
+            studyLocation: major.studyLocation,
+            eap: major.eap,
+            ekap: major.ekap,
+            cost: major.cost,
+            curriculumRef: major.curriculumRef,
+            isEnglishOnly: major.isEnglishOnly,
+            curriculumDate: major.curriculumDate,
+            studyType: major.studyType,
+            videoId: major.videoId,
+            vimeoId: major.vimeoId,
+            spotifyPath: major.spotifyPath,
+            facebookWatchId: major.facebookWatchId
+        )
+        let db = Firestore.firestore()
+
+        let schoolRef = db.collection("Schools").document(schoolID)
+        let majorRef = schoolRef.collection("majors").document(majorID)
+
+        // Update the major's main document
+        let newMajorData = try! Firestore.Encoder().encode(newMajor)
+        majorRef.setData(newMajorData, merge: true) { error in
+            if let error = error {
+                print("Error updating major in Firestore: \(error)")
+                return
+            }
+
+            // Update subcollections for requirements, modules, outcomes, and personnel
+            updateSubcollection(parentRef: majorRef, collectionName: "requirements", with: major.requirements)
+            if let modules = major.modules {
+                updateSubcollection(parentRef: majorRef, collectionName: "modules", with: modules)
+            }
+            if let outcomes = major.outcomes {
+                updateOutcomes(parentRef: majorRef, with: outcomes)
+            }
+            if let personnel = major.personnel {
+                updateSubcollection(parentRef: majorRef, collectionName: "personnel", with: personnel)
+            }
+
+            print("Updated major with ID: \(majorID) in Firestore")
+        }
+    }
+
+    private func updateSubcollection<T: Encodable>(parentRef: DocumentReference, collectionName: String, with data: [T]) {
+        let collectionRef = parentRef.collection(collectionName)
+        collectionRef.getDocuments { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+                for document in querySnapshot!.documents {
+                    document.reference.delete()
+                }
+                data.forEach { item in
+                    do {
+                        try collectionRef.addDocument(from: item)
+                    } catch {
+                        print("Error adding item to Firestore: \(error)")
+                    }
+                }
+            }
+        }
+    }
+
+    private func updateOutcomes(parentRef: DocumentReference, with outcomes: [String]) {
+        let collectionRef = parentRef.collection("outcomes")
+        collectionRef.getDocuments { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+                for document in querySnapshot!.documents {
+                    document.reference.delete()
+                }
+                outcomes.forEach { outcomeDescription in
+                    let newOutcome = NewOutcome(description: outcomeDescription)
+                    do {
+                        try collectionRef.addDocument(from: newOutcome)
+                    } catch {
+                        print("Error adding outcome to Firestore: \(error)")
                     }
                 }
             }

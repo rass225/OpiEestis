@@ -21,17 +21,18 @@ extension MajorView {
             VStack {
                 reviewsHeader()
                     .padding(.leading, 8)
+                    .overlay(alignment: .bottomTrailing) {
+                        Text("\(model.newReviewText.count)/2000")
+                            .setColor(Theme.Colors.gray)
+                            .setFont(.subheadline, .regular, .rounded)
+                            .padding(.trailing, 8)
+                    }
                 TextEditor(text: $model.newReviewText)
                     .maxSize()
                     .padding(8)
                     .background(Color.white)
                     .clipShape(.rect(cornerRadius: 12, style: .continuous))
-                    .overlay(alignment: .bottomTrailing) {
-                        Text("\(model.newReviewText.count)/2000")
-                            .setColor(Theme.Colors.gray)
-                            .setFont(.footnote, .regular, .rounded)
-                            .padding(8)
-                    }
+                    
                     .onChange(of: model.newReviewText) { newValue in
                         if newValue.count > 2000 {
                             model.newReviewText = String(newValue.prefix(2000))

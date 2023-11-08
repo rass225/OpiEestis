@@ -26,6 +26,8 @@ extension MajorView {
                                     .onTapGesture(count: 2, perform: {
                                         if person.name == "Kaire Kollom" {
                                             easterEggPresented.toggle()
+                                        } else {
+                                            print("NO")
                                         }
                                     })
                             }
@@ -38,6 +40,13 @@ extension MajorView {
                                         .fill()
                                         .frame(width: 160, height: 160, alignment: .top)
                                         .clipShape(Circle())
+                                        .onTapGesture(count: 2, perform: {
+                                            if person.name == "Kaire Kollom" {
+                                                easterEggPresented.toggle()
+                                            } else {
+                                                print("No")
+                                            }
+                                        })
                                 },
                                 placeholder: {
                                     placeholderPerson(size: 160, font: .largeTitle)
