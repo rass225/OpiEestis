@@ -72,7 +72,7 @@ struct CollegeDevelopment: View {
                         .setColor(model.college.palette.base)
                     
                     HStack(spacing: 8) {
-                        Text(major.language.secondaryLabel)
+                        Text(major.language.inLanguageLabel)
                         Text("•")
                         Text(major.durationLabel)
                         Text("•")
@@ -113,7 +113,7 @@ struct CollegeDevelopment: View {
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(model.college.palette.base)
                     HStack(spacing: 8) {
-                        Text(major.language.secondaryLabel)
+                        Text(major.language.inLanguageLabel)
                         Text("•")
                         Text(major.durationLabel)
                         Text("•")

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct OutcomesView: View {
+    let college: College
     let outcomes: [NewOutcome]
     
     var body: some View {
@@ -18,7 +19,7 @@ struct OutcomesView: View {
     
     @ViewBuilder
     func backButton() -> some View {
-        BackButton(color: Theme.Colors.primary)
+        BackButton(color: college.palette.base)
     }
     
     @ViewBuilder

@@ -94,12 +94,11 @@ private extension MajorView {
                 .clipShape(.rect(cornerRadius: 12, style: .continuous))
                 .contentShape(.rect)
                 .onTapGesture {
-                    appState.route(to: .outcomes(model.outcomes))
+                    appState.route(to: .outcomes(college: model.college, model.outcomes))
                 }
             }
             .padding(.horizontal)
         }
-        
     }
 }
 

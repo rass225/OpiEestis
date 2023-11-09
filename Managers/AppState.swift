@@ -93,8 +93,8 @@ class AppState: ObservableObject {
             SettingsView()
         case let .myAccount(user):
             MyAccountView(model: .init(user: user))
-        case let .outcomes(outcomes):
-            OutcomesView(outcomes: outcomes)
+        case let .outcomes(college, outcomes):
+            OutcomesView(college: college, outcomes: outcomes)
         }
     }
     
@@ -218,7 +218,7 @@ enum CollegeDestination: Hashable {
     case about
     case settings
     case myAccount(FirebaseUser)
-    case outcomes([NewOutcome])
+    case outcomes(college: College, [NewOutcome])
 }
 
 enum Tabs {

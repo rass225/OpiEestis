@@ -13,7 +13,8 @@
         "personnel": [
             {
                 "email": "peeter@linnap.com",
-                "title": "Osakonna juhataja",
+                "title": "Professor, osakonna juhataja",
+                "titleEn": "Professor, Head of Department",
                 "phone": "+3727309820",
                 "name": "Peeter Linnap",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/peeter-100-x-100-Pallase-kodukale-650x600.jpg"
@@ -21,18 +22,21 @@
             {
                 "email": "kaisa.eiche@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Assistant Head of Department",
                 "name": "Kaisa Eiche",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/kaisa-2-1000-x-1000-614x600.jpg"
             },
             {
                 "email": "toomas.kalve@pallasart.ee",
                 "title": "Meister",
+                "titleEn": "Technical Assistant",
                 "name": "Toomas Kalve",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/toomas-1000-x-1000-631x600.jpg"
             },
             {
                 "email": "andrus.kannel@pallasart.ee",
                 "title": "Meister",
+                "titleEn": "Technical Assistant, lecturer",
                 "name": "Andrus Kannel",
                 "phone": "+3727309820",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/Andrus-Kannel-1000-1000-mustvalge-IMGP6932-600x600.jpg"

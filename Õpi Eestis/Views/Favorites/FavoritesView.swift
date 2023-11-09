@@ -73,7 +73,7 @@ struct FavoritesView: View {
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(college.palette.base)
                     HStack(spacing: 8) {
-                        Text(major.language.secondaryLabel)
+                        Text(major.language.inLanguageLabel)
                         Text("•")
                         Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? Theme.Locale.Favorites.oneYear : Theme.Locale.Favorites.multipleYears)")
                         Text("•")

@@ -148,7 +148,7 @@ extension MajorsView {
                         .padding(.bottom, 22)
                     if showDetailed {
                         HStack(spacing: 8) {
-                            Text(major.language.secondaryLabel)
+                            Text(major.language.inLanguageLabel)
                             Text("•")
                             Text(major.durationLabel)
                             Text("•")

@@ -1,3 +1,6 @@
+import Foundation
+import SwiftUI
+
 enum Level: String, CaseIterable, Codable, Comparable {
     case applied = "rakenduskõrgharidus"
     case integrated = "integreeritud õpe"
@@ -7,7 +10,7 @@ enum Level: String, CaseIterable, Codable, Comparable {
     case vocational = "kutseharidus"
     case all = "Kõik"
     
-    var label: String {
+    var label: LocalizedStringKey {
         switch self {
         case .applied: return "Rakenduskõrgharidus"
         case .integrated: return "Integreeritud õpe"
