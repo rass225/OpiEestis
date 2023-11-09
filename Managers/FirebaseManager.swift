@@ -13,40 +13,170 @@ struct FirebaseManager {
     private let storage = Storage.storage()
     private let maxSize: Int64 = 1 * 1024 * 1024 * 32
     
-    func fetchSchools(completion: @escaping (Result<[College], Error>) -> ()) {
-        query(for: .fetchSchools)
-            .getDocuments {
+    func fetchUser(userId: String) async throws -> FirebaseUser? {
+        let snapshot = try await docRefernce(for: .user(userId: userId)).getDocument()
+        guard snapshot.exists else { return nil }
+        return try decodeDocument(document: snapshot)
+    }
+    
+    func fetchSchools() async throws -> [College] {
+        let snapshot = try await query(for: .schools).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func fetchMajors(schoolId: String) async throws -> [NewMajor] {
+        let snapshot = try await query(for: .majors(schoolId: schoolId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func fetchRequirements(schoolId: String, majorId: String) async throws -> [Requirements] {
+        let snapshot = try await query(for: .requirements(schoolId: schoolId, majorId: majorId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func fetchOutcomes(schoolId: String, majorId: String) async throws -> [NewOutcome] {
+        let snapshot = try await query(for: .outcomes(schoolId: schoolId, majorId: majorId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func fetchPersonnel(schoolId: String, majorId: String) async throws -> [Personnel] {
+        let snapshot = try await query(for: .personnel(schoolId: schoolId, majorId: majorId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func fetchModules(schoolId: String, majorId: String) async throws -> [Module] {
+        let snapshot = try await query(for: .module(schoolId: schoolId, majorId: majorId)).getDocuments()
+        return try decodeSnapshots(snapshot: snapshot)
+    }
+    
+    func streamReviews(
+        collegeId: String,
+        majorId: String,
+        completion: @escaping (Result<[Review], Error>) -> ()
+    ) {
+        query(for: .majorReviews(collegeId: collegeId, majorId: majorId)).addSnapshotListener {
+            decodeSnapshots(snapshot: $0, error: $1, completion: completion)
+        }
+    }
+    
+    func addFavorite(
+        userId: String,
+        college: College,
+        major: NewMajor
+    ) async throws {
+        let ref = docRefernce(for: .createUserFavoriteMajor(userId: userId))
+        let documentId = ref.documentID
+        let favorite: Favorite = .init(id: documentId, collegeId: college.id, major: major)
+        try await addDocument(path: ref, as: favorite)
+    }
+    
+    func addReview(
+        collegeId: String,
+        majorId: String,
+        review: Review
+    ) async throws {
+        let ref = docRefernce(for: .createMajorReview(collegeId: collegeId, majorId: majorId))
+        let documentId = ref.documentID
+        var updateReview = review
+        updateReview.id = documentId
+        try await addDocument(path: ref, as: updateReview)
+    }
+    
+    func removeMajorReview(collegeId: String, majorId: String, reviewId: String) async throws {
+        let ref = docRefernce(for: .removeMajorReview(collegeId: collegeId, majorId: majorId, reviewId: reviewId))
+        try await ref.delete()
+    }
+    
+    func removeFavorite(userId: String, favoriteId: String) async throws {
+        let ref = docRefernce(for: .removeUserFavoriteMajor(userId: userId, favoriteId: favoriteId))
+        try await ref.delete()
+    }
+    
+    func updateMajorReview(
+        collegeId: String,
+        majorId: String,
+        review: Review
+    ) async throws {
+        // Get a reference to the document with the specified reviewId
+        let ref = docRefernce(for: .updateMajorReview(collegeId: collegeId, majorId: majorId, review: review))
+
+        // Prepare the review data for update
+
+        // Update the document with the new review data
+        try await addDocument(path: ref, as: review)
+    }
+    
+    func updateUser(user: FirebaseUser) async throws {
+        let userDocRef = docRefernce(for: .user(userId: user.id))
+        if let data = objectToDictionary(user) {
+            try await userDocRef.updateData(data)
+        } else {
+            throw createError("Dict failed")
+        }
+    }
+    
+    func updateUserData(data: [String: String], userId: String) async throws {
+        let userDocRef = docRefernce(for: .user(userId: userId))
+        try await userDocRef.updateData(data)
+    }
+    
+    func createUser(user: FirebaseUser) async throws {
+        let userDocRef = docRefernce(for: .user(userId: user.id))
+        if let data = objectToDictionary(user) {
+            try await userDocRef.setData(data)
+        } else {
+            throw createError("Dict failed")
+        }
+    }
+    
+    func streamMajors(
+        schoolId: String,
+        completion: @escaping (Result<[NewMajor], Error>) -> ()
+    ) {
+        query(for: .majors(schoolId: schoolId))
+            .addSnapshotListener {
                 decodeSnapshots(snapshot: $0, error: $1, completion: completion)
             }
     }
     
-    func fetchSchoolImage(
-        ref: String,
-        completion: @escaping (Result<UIImage, Error>) -> ()
+    func streamUserFavoriteMajor(
+        majorId: String,
+        userId: String,
+        completion: @escaping (Result<Favorite, Error>) -> ()
     ) {
-        query(for: .fetchLogo(ref: ref))
-            .getData(maxSize: maxSize) {
-                imageResonse(data: $0, error: $1, completion: completion)
+        query(for: .userFavoriteMajor(userId: userId, majorId: majorId))
+            .addSnapshotListener {
+                decodeSnapshot(snapshot: $0, error: $1, completion: completion)
             }
     }
     
-    func fetchLinkImage(
-        ref: String,
-        completion: @escaping (Result<UIImage, Error>) -> ()
+    func streamAuthState(completion: @escaping (User?) -> ()) {
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            if let user = user {
+                completion(user)
+            } else {
+                completion(nil)
+            }
+        }
+    }
+    
+    func streamUserFavoriteMajors(
+        userId: String,
+        completion: @escaping (Result<[Favorite], Error>) -> ()
     ) {
-        query(for: .fetchLinkImage(ref: ref))
-            .getData(maxSize: maxSize) {
-                imageResonse(data: $0, error: $1, completion: completion)
+        query(for: .userFavoriteMajors(userId: userId))
+            .addSnapshotListener {
+                decodeSnapshots(snapshot: $0, error: $1, completion: completion)
             }
     }
     
-    func fetchImage(
-        ref: String,
-        completion: @escaping (Result<UIImage, Error>) -> ()
-    ) {
-        query(for: .fetchImage(ref: ref))
-            .getData(maxSize: maxSize) {
-                imageResonse(data: $0, error: $1, completion: completion)
+    func streamUser(
+        userId: String,
+        completion: @escaping (Result<FirebaseUser, Error>) -> ()
+    ) -> ListenerRegistration {
+        return docRefernce(for: .user(userId: userId))
+            .addSnapshotListener {
+                decodeDocument(snapshot: $0, error: $1, completion: completion)
             }
     }
 }
@@ -54,20 +184,140 @@ struct FirebaseManager {
 private extension FirebaseManager {
     func query(for reference: QueryReference) -> Query {
         switch reference {
-        case .fetchSchools:
-            return database.collection("Schools")
+        case .schools:
+            return database
+                .collection("Schools")
+        case let .majors(schoolId):
+            return database
+                .collection("Schools")
+                .document(schoolId)
+                .collection("majors")
+        case let .requirements(schoolId, majorId):
+            return database
+                .collection("Schools")
+                .document(schoolId)
+                .collection("majors")
+                .document(majorId)
+                .collection("requirements")
+        case let .outcomes(schoolId, majorId):
+            return database
+                .collection("Schools")
+                .document(schoolId)
+                .collection("majors")
+                .document(majorId)
+                .collection("outcomes")
+        case let .personnel(schoolId, majorId):
+            return database
+                .collection("Schools")
+                .document(schoolId)
+                .collection("majors")
+                .document(majorId)
+                .collection("personnel")
+        case let .module(schoolId, majorId):
+            return database
+                .collection("Schools")
+                .document(schoolId)
+                .collection("majors")
+                .document(majorId)
+                .collection("modules")
+        case let .userFavoriteMajors(userId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("favoriteMajors")
+        case let .userFavoriteMajor(userId, majorId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("favoriteMajors")
+                .whereField("major.id", isEqualTo: majorId)
+        case let .majorReviews(collegeId, majorId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+        case let .majorRatings(collegeId, majorId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("ratings")
+        }
+    }
+}
+
+private extension FirebaseManager {
+    func docRefernce(for reference: DocReference) -> DocumentReference {
+        switch reference {
+        case let .major(schoolId, majorId):
+            return database
+                .collection("Schools")
+                .document(schoolId)
+                .collection("majors")
+                .document(majorId)
+        case let .user(userId):
+            return database
+                .collection("users")
+                .document(userId)
+        case let .createUserFavoriteMajor(userId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("favoriteMajors")
+                .document()
+        case let .removeUserFavoriteMajor(userId, favoriteId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("favoriteMajors")
+                .document(favoriteId)
+        case let .createMajorReview(collegeId, majorId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+                .document()
+        case let .removeMajorReview(collegeId, majorId, reviewId):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+                .document(reviewId)
+        case let .updateMajorReview(collegeId, majorId, review):
+            return database
+                .collection("Schools")
+                .document(collegeId)
+                .collection("majors")
+                .document(majorId)
+                .collection("reviews")
+                .document(review.id)
         }
     }
     
-    func query(for reference: StoreReference) -> StorageReference {
-        let baseUrl = "gs://opi-eestis.appspot.com"
-        switch reference {
-        case .fetchLogo(let ref):
-            return storage.reference(forURL: "\(baseUrl)/Logos/\(ref)")
-        case let .fetchLinkImage(ref):
-            return storage.reference(forURL: "\(baseUrl)/Links/\(ref)")
-        case .fetchImage(ref: let ref):
-            return storage.reference(forURL: "\(baseUrl)/Images/\(ref)")
+    func decodeSnapshot<T: Decodable>(snapshot: QuerySnapshot?, error: Error?, completion: @escaping (Result<T, Error>) -> Void) {
+        if let error = error {
+            completion(.failure(error))
+            return
+        }
+        
+        guard let snapshot = snapshot else {
+            let error = createError("Snapshot is nil for")
+            completion(.failure(error))
+            return
+        }
+        
+        if let data = try? snapshot.documents.first?.data(as: T.self) {
+            completion(.success(data))
+        } else {
+            let error = createError("Decoding error to \(T.self)")
+            completion(.failure(error))
         }
     }
     
@@ -89,8 +339,29 @@ private extension FirebaseManager {
         }
     }
     
+    func decodeSnapshots<T: Decodable>(snapshot: QuerySnapshot) throws -> [T] {
+        guard !snapshot.documents.isEmpty else {
+            throw createError("Snapshot is empty")
+        }
+        return try snapshot.documents.compactMap({ try $0.data(as: T.self) })
+    }
+
+    
     func createError(_ text: String) -> NSError {
         return NSError(domain: "Error", code: 0, userInfo: [NSLocalizedDescriptionKey: text])
+    }
+    
+    func objectToDictionary<T: Encodable>(_ object: T) -> [String: Any]? {
+        let encoder = JSONEncoder()
+        guard let data = try? encoder.encode(object) else { return nil }
+        return (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String: Any]
+    }
+    
+    func decodeDocument<T: Decodable>(document: DocumentSnapshot) throws -> T {
+        guard let data = try? document.data(as: T.self) else {
+            throw createError("Decoding error to \(T.self)")
+        }
+        return data
     }
     
     func decodeDocument<T: Decodable>(snapshot: DocumentSnapshot?, error: Error?, completion: @escaping (Result<T, Error>) -> Void) {
@@ -124,16 +395,37 @@ private extension FirebaseManager {
             }
         }
     }
+    
+    func addDocument<T: Encodable>(path: DocumentReference, as object: T) async throws {
+        guard let dictionary = try? Firestore.Encoder().encode(object) else {
+            throw NSError(domain: "com.error", code: 999, userInfo: ["description": "Error converting object to dictionary"])
+        }
+        
+        try await path.setData(dictionary)
+    }
 }
 
 extension FirebaseManager {
     enum QueryReference {
-        case fetchSchools
+        case schools
+        case majors(schoolId: String)
+        case requirements(schoolId: String, majorId: String)
+        case outcomes(schoolId: String, majorId: String)
+        case personnel(schoolId: String, majorId: String)
+        case module(schoolId: String, majorId: String)
+        case userFavoriteMajors(userId: String)
+        case userFavoriteMajor(userId: String, majorId: String)
+        case majorReviews(collegeId: String, majorId: String)
+        case majorRatings(collegeId: String, majorId: String)
     }
     
-    enum StoreReference {
-        case fetchLogo(ref: String)
-        case fetchLinkImage(ref: String)
-        case fetchImage(ref: String)
+    enum DocReference {
+        case major(schoolId: String, majorId: String)
+        case user(userId: String)
+        case createUserFavoriteMajor(userId: String)
+        case removeUserFavoriteMajor(userId: String, favoriteId: String)
+        case createMajorReview(collegeId: String, majorId: String)
+        case removeMajorReview(collegeId: String, majorId: String, reviewId: String)
+        case updateMajorReview(collegeId: String, majorId: String, review: Review)
     }
 }

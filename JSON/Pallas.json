@@ -13,7 +13,8 @@
         "personnel": [
             {
                 "email": "peeter@linnap.com",
-                "title": "Osakonna juhataja",
+                "title": "Professor, osakonna juhataja",
+                "titleEn": "Professor, Head of Department",
                 "phone": "+3727309820",
                 "name": "Peeter Linnap",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/peeter-100-x-100-Pallase-kodukale-650x600.jpg"
@@ -21,18 +22,21 @@
             {
                 "email": "kaisa.eiche@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Assistant Head of Department",
                 "name": "Kaisa Eiche",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/kaisa-2-1000-x-1000-614x600.jpg"
             },
             {
                 "email": "toomas.kalve@pallasart.ee",
                 "title": "Meister",
+                "titleEn": "Technical Assistant",
                 "name": "Toomas Kalve",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/toomas-1000-x-1000-631x600.jpg"
             },
             {
                 "email": "andrus.kannel@pallasart.ee",
                 "title": "Meister",
+                "titleEn": "Technical Assistant, lecturer",
                 "name": "Andrus Kannel",
                 "phone": "+3727309820",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/Andrus-Kannel-1000-1000-mustvalge-IMGP6932-600x600.jpg"
@@ -369,7 +373,7 @@
             "Tartu"
         ],
         "description": [
-            "Pallase skulptuuriosakond on kaasaegne loov õpikeskkond, mis annab teoreetilised ja praktilised vahendid, et saada kunstnikuks. Õpitakse teostama oma ideid, fookusega ideede meisterlikule väljendusele. Lisaks klassikalistele skulptuuri väljendusvahenditele õpetame 3D tehnoloogiate kasutamist skulptuuris. \n\n**Kuidas skulptuuri õpitakse?** Skulptuuri on nimetatud intelligentsuse kunstiks. Tee selleni  viib sammhaaval. Koos teoreetiliste kunsti alusteadmistega omandatakse esimestel kursustel tööriistade käsitlusoskused ja tehniline baas, 3D ruumi- ja vormiloomega seotud tarkvaralised teadmised, oskused kasutada erinevaid materjale ideede teostamiseks. Järgnevad kursused on seotud autoriprojektidega kas näitusesaali või avalikku ruumi. Skulptuuri eluringi täiuse nägemiseks on õppekavas restaureerimisprojektid. Suvised praktikad annavad reaalse kogemuse võimalikust tulevasest töökohast. \n\n**Kes Pallase skulptuuriosakonnas õpetavad?** \n\nMeie õppejõud on kunstnikud, kelle looming rikastab Eesti ja rahvusvahelist kunstipilti. \n\nÕppekava vastutav õppejõud on prof Anne Rudanovski, kelle loomingus valitseb geomeetriline abstraktsioon ning kelle ootamatud kannapöörded võivad viia skulptuuriosakonna Guinnessi rekordi või  ümbermaailmarännuni. Rasmus Eist avastab maad 3D meediaga seotud aladel, dotsent Tõnis Paberit kannab klassikalise skulptuuri ideaale, prof Mati Karmin on Eesti esimonumentalist. \n\nKülalisõppejõud on Eestist, Saksamaalt ja Soomest: Uwe Schloen’i armastus skulptuuri vastu ja pikaajalised kogemused kinnitavad ala järjepidevust. Jevgeni Zolotko apokalüptilised hoiakud kainestavad. Eike Eplik toob värskust kaasaegse skulptuuri materjalide mitmekesisusest, Maria Väinsar aitab mõista restaureerimise saladusi, Rauno Thomas Mossi tasakaalukas põhjalikkus inimkeha tundmaõppimisel paneb pliiatsit ja savi mõtestatult kasutama. Kivimeister Rein Karuse tunnid tõestavad, et iga idee järgmine staadium on raske töö. \n\nÕppejõudude panus skulptuuri laiapõhjalisuse mõistmiseks soodustab iga tudengi isikupära esiletulemist. \n\n**Mida teevad skulptuuri lõpetajad, Pallase skulptuuriosakonna vilistlased?** \n\nSkulptorid Art Allmägi, Eike Eplik, Jass Kaselaan jpt toovad värskeid tuuli Eesti galeriidesse. Kunstnik-butafoor Jane Ausi leiame Vanemuise dekoratsioonialalt. Pikaaegne Rakvere linnakunstnik Teet Suur teeb lisaks äratuntavale käekirjale skulptuuris kunstiks ka traditsioonilise jõulupuu. Bruno Kadak alustas pronkisvalutöökojaga Tartumaal, ta jätkab  Tallinnas, kus tema osalusel on valmimas loominguline töökeskkond kunstnikele. \n\nMõnedest lõpetajatest on saanud ärimaailmast skulptuuri toetajad, teised rakendavad oskusi disaineritena või kunstitunde andes. Loomingulisus on iga skulptuuriosakonna lõpetaja elu juhtija üht või teist pidi. \n\nSkulptuur on laiapõhjaline eriala. Millist teed lõpetamise eluristmikul valida, otsustab lõpetaja oma huvidest ja isiksusest lähtuvalt. Pallase skulptuuriosakond teeb omalt poolt kõik, et igal lõpetajal on teadmised ja oskused, millega edasi minna."
+            "Pallase skulptuuriosakond on kaasaegne loov õpikeskkond, mis annab teoreetilised ja praktilised vahendid, et saada kunstnikuks. Õpitakse teostama oma ideid, fookusega ideede meisterlikule väljendusele. Lisaks klassikalistele skulptuuri väljendusvahenditele õpetame 3D tehnoloogiate kasutamist skulptuuris. \n\n**Kuidas skulptuuri õpitakse?** \n\nSkulptuuri on nimetatud intelligentsuse kunstiks. Tee selleni  viib sammhaaval. Koos teoreetiliste kunsti alusteadmistega omandatakse esimestel kursustel tööriistade käsitlusoskused ja tehniline baas, 3D ruumi- ja vormiloomega seotud tarkvaralised teadmised, oskused kasutada erinevaid materjale ideede teostamiseks. Järgnevad kursused on seotud autoriprojektidega kas näitusesaali või avalikku ruumi. Skulptuuri eluringi täiuse nägemiseks on õppekavas restaureerimisprojektid. Suvised praktikad annavad reaalse kogemuse võimalikust tulevasest töökohast. \n\n**Kes Pallase skulptuuriosakonnas õpetavad?** \n\nMeie õppejõud on kunstnikud, kelle looming rikastab Eesti ja rahvusvahelist kunstipilti. \n\nÕppekava vastutav õppejõud on prof Anne Rudanovski, kelle loomingus valitseb geomeetriline abstraktsioon ning kelle ootamatud kannapöörded võivad viia skulptuuriosakonna Guinnessi rekordi või  ümbermaailmarännuni. Rasmus Eist avastab maad 3D meediaga seotud aladel, dotsent Tõnis Paberit kannab klassikalise skulptuuri ideaale, prof Mati Karmin on Eesti esimonumentalist. \n\nKülalisõppejõud on Eestist, Saksamaalt ja Soomest: Uwe Schloen’i armastus skulptuuri vastu ja pikaajalised kogemused kinnitavad ala järjepidevust. Jevgeni Zolotko apokalüptilised hoiakud kainestavad. Eike Eplik toob värskust kaasaegse skulptuuri materjalide mitmekesisusest, Maria Väinsar aitab mõista restaureerimise saladusi, Rauno Thomas Mossi tasakaalukas põhjalikkus inimkeha tundmaõppimisel paneb pliiatsit ja savi mõtestatult kasutama. Kivimeister Rein Karuse tunnid tõestavad, et iga idee järgmine staadium on raske töö. \n\nÕppejõudude panus skulptuuri laiapõhjalisuse mõistmiseks soodustab iga tudengi isikupära esiletulemist. \n\n**Mida teevad skulptuuri lõpetajad, Pallase skulptuuriosakonna vilistlased?** \n\nSkulptorid Art Allmägi, Eike Eplik, Jass Kaselaan jpt toovad värskeid tuuli Eesti galeriidesse. Kunstnik-butafoor Jane Ausi leiame Vanemuise dekoratsioonialalt. Pikaaegne Rakvere linnakunstnik Teet Suur teeb lisaks äratuntavale käekirjale skulptuuris kunstiks ka traditsioonilise jõulupuu. Bruno Kadak alustas pronkisvalutöökojaga Tartumaal, ta jätkab  Tallinnas, kus tema osalusel on valmimas loominguline töökeskkond kunstnikele. \n\nMõnedest lõpetajatest on saanud ärimaailmast skulptuuri toetajad, teised rakendavad oskusi disaineritena või kunstitunde andes. Loomingulisus on iga skulptuuriosakonna lõpetaja elu juhtija üht või teist pidi. \n\nSkulptuur on laiapõhjaline eriala. Millist teed lõpetamise eluristmikul valida, otsustab lõpetaja oma huvidest ja isiksusest lähtuvalt. Pallase skulptuuriosakond teeb omalt poolt kõik, et igal lõpetajal on teadmised ja oskused, millega edasi minna."
         ],
         "eap": 240,
         "spots": 10,

@@ -375,6 +375,14 @@
         "spots": 0,
         "majorWebsite": "https://kutsehariduskeskus.ee/et/erialad/juuksur%2C-2-aastat-2#juuksur_2_aastat",
         "videoId": "PuDWY66G1Qk",
+        "personnel": [
+            {
+                "name": "Valentina Gorohh",
+                "title": "Erialade juht (teenindus)",
+                "email": "%20valentina.gorohh@ivkhk.ee",
+                "phone": "+3725234757"
+            }
+        ],
         "type": "",
         "studyType": "päevaõpe",
         "level": "kutseharidus",

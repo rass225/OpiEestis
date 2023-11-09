@@ -89,9 +89,9 @@ struct CourseCell: View {
                 .setFont(.subheadline, .regular, .rounded)
             Spacer()
             HStack(spacing: 3){
-                Text(eap.isInt() ? "\(Int(eap))" : "\(eap, specifier: "%.1f")")
+                Text(eap.isInt() ? "\(Int(eap))" : "\(eap.decimals(1))")
                     .setFont(.subheadline, .medium, .rounded)
-                Text("\(eapLabel)")
+                Text(eapLabel)
                     .setFont(.subheadline, .medium, .rounded)
             }
             .setColor(color)

@@ -11,7 +11,7 @@ extension MajorsView {
         @Published var selectedStudyType: StudyTypeSelection
         @Published var searchText: String
         @Published var debouncedSearchText: String
-        @Published var favorites: [Major]
+        @Published var favorites: [Favorite]
         @Published var detailLevel: DetailLevel
         @Published var isFilterPresented: Bool
         @Published var levels: [Level]
@@ -23,11 +23,14 @@ extension MajorsView {
         private var cancellables = Set<AnyCancellable>()
         
         let college: College
-        let majors: [Major]
+        let majors: [NewMajor]
+        var user: FirebaseUser?
         
         init(
             college: College,
-            majors: [Major],
+            majors: [NewMajor],
+            user: FirebaseUser?,
+            appState: AppState,
             selectedLevel: Level = .all
         ) {
             print("✅ Majors View Model initialized")
@@ -49,12 +52,20 @@ extension MajorsView {
             self.majors = majors
             self.detailLevel = .detailed
             self.debouncedSearchText = ""
+            self.user = user
             start()
             
             $debouncedSearchText
                 .debounce(for: .seconds(0.2), scheduler: DispatchQueue.main)
                 .sink { [weak self] term in
                     self?.searchText = term
+                }
+                .store(in: &cancellables)
+            
+            appState.$user
+                .sink { [weak self] user in
+                    guard let self else { return }
+                    self.user = user
                 }
                 .store(in: &cancellables)
         }
@@ -74,14 +85,12 @@ extension MajorsView {
             return count
         }
         
-        func isFavorite(_ major: Major) -> Bool {
-            favorites.contains(where: {
-                $0.name == major.name &&
-                $0.level == major.level
-            })
+        func isFavorite(_ major: NewMajor) -> Bool {
+            guard user != nil else { return false }
+            return favorites.contains(where: { $0.major.id == major.id })
         }
         
-        var displayedMajors: [Major] {
+        var displayedMajors: [NewMajor] {
             let result = majors.filter { major in
                 if case let .specific(city) = selectedLocation, !major.studyLocation.contains(city) {
                     return false
@@ -109,10 +118,8 @@ extension MajorsView {
                 }
                 
                 if case let .specific(specificStudyType) = selectedStudyType {
-                    if let studyType = major.studyType {
-                        if !studyType.contains(specificStudyType) {
-                            return false
-                        }
+                    if let studyType = major.studyType, !studyType.contains(specificStudyType) {
+                       return false
                     }
                 }
 
@@ -136,14 +143,16 @@ extension MajorsView {
 
 private extension MajorsView.Model {
     
-    func observeUserDefaults() {
-        NotificationCenter
-            .default
-            .publisher(for: UserDefaults.didChangeNotification)
-            .sink { [weak self] _ in
-                self?.getFavorites()
+    func streamFavorites() {
+        guard let user else { return }
+        dependencies.network.streamUserFavoriteMajors(userId: user.id) { [weak self] result in
+            switch result {
+            case let .success(favorites):
+                self?.favorites = favorites
+            case let .failure(error):
+                print(error.localizedDescription)
             }
-            .store(in: &cancellables)
+        }
     }
     
     func configureLevels() {
@@ -221,29 +230,32 @@ extension MajorsView.Model {
         configureLanguages()
         configureLocations()
         configureStudyTypes()
-        observeUserDefaults()
+        streamFavorites()
     }
     
-    func addFavorite(major: Major) {
-        dependencies.userDefaults.addFavorite(
-            university: college,
-            major: major
-        )
-    }
-                                        
-    func removeFavorite(major: Major) {
-        dependencies.userDefaults.removeFavorite(
-            university: college,
-            major: major
-        )
-    }
-    
-    func getFavorites() {
-        let favorites = dependencies.userDefaults.getFavorites(forUniversity: college)
-        DispatchQueue.main.async {
-            self.favorites = favorites
+    func addFavorite(major: NewMajor) {
+        guard let user else { return }
+        Task {
+            do {
+                try await dependencies.network.addFavorite(userId: user.id, major: major, college: college)
+            } catch {
+                print(error.localizedDescription)
+            }
         }
     }
+                                        
+    func removeFavorite(major: NewMajor) {
+        guard let user else { return }
+        guard let favorite = favorites.first(where: { $0.major.id == major.id }) else { return }
+        Task {
+            do {
+                try await dependencies.network.removeFavorite(userId: user.id, favoriteId: favorite.id)
+            } catch {
+                
+            }
+        }
+    }
+    
     
     func resetFilters() {
         selectedCost = .all
@@ -279,7 +291,6 @@ extension MajorsView.Model {
         var majors: [Major]
     }
     
-   
     enum DetailLevel: CaseIterable {
         case minimal
         case detailed

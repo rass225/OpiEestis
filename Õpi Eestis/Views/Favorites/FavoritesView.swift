@@ -1,5 +1,22 @@
 import SwiftUI
 
+struct FavoritesViewWrapper: View {
+    @EnvironmentObject private var appState: AppState
+    let colleges: [College]
+    
+    var body: some View {
+        switch appState.authState {
+        case let .authenticated(user):
+            FavoritesView(model: .init(colleges: colleges, user: user))
+        case .unauthenticated:
+            UnauthenticatedView(
+                title: Theme.Locale.Favorites.unauthenticated,
+                action: appState.signInApple
+            )
+        }
+    }
+}
+
 struct FavoritesView: View {
     @EnvironmentObject private var appState: AppState
     @StateObject var model: Model
@@ -9,33 +26,23 @@ struct FavoritesView: View {
             if model.favorites.isEmpty {
                 emptyView()
             } else {
-                List(model.favorites.keys.sorted(), id: \.self) { key in
-                    if let favoriteMajorsMinors = model.favorites[key] {
-                        Section(content: {
-                            ForEach(favoriteMajorsMinors, id: \.self) { major in
-                                majorCell(major, schoolName: key)
-                            }
-                        }, header: {
-                            schoolHeader(key)
-                        })
-                    }
+                List(model.colleges, id: \.id) { college in
+                    collegeCell(college)
                 }
             }
         }
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            ToolbarItem(placement: .principal) {
-                AppPrincipal()
-            }
+            ToolbarItem(placement: .principal, content: AppPrincipal.init)
         }
     }
     
     @ViewBuilder
     func emptyView() -> some View {
         VStack(spacing: 10){
-            Image(systemName: "exclamationmark.triangle")
+            Theme.Icons.error
                 .setFont(.largeTitle, .regular, .rounded)
-            Text("Sul ei ole ühtegi lemmikut lisatud")
+            Text(Theme.Locale.Favorites.empty)
                 .setFont(.subheadline, .regular, .rounded)
         }
         .setColor(.gray)
@@ -44,7 +51,18 @@ struct FavoritesView: View {
     }
     
     @ViewBuilder
-    func majorCell(_ major: Major, schoolName: String) -> some View {
+    func collegeCell(_ college: College) -> some View {
+        if let favoritesForCollege = model.groupedFavorites[college.id] {
+            Section(header: schoolHeader(college.name)) {
+                ForEach(favoritesForCollege, id: \.id) { favorite in
+                    majorCell(favorite.major, schoolName: college.name)
+                }
+            }
+        }
+    }
+    
+    @ViewBuilder
+    func majorCell(_ major: NewMajor, schoolName: String) -> some View {
         if let college = model.colleges.first(where: { $0.name == schoolName}) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(major.name)
@@ -55,11 +73,11 @@ struct FavoritesView: View {
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(college.palette.base)
                     HStack(spacing: 8) {
-                        Text("\(major.language.secondaryLabel)")
+                        Text(major.language.inLanguageLabel)
                         Text("•")
-                        Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? "aasta" : "aastat")")
+                        Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? Theme.Locale.Favorites.oneYear : Theme.Locale.Favorites.multipleYears)")
                         Text("•")
-                        Text(major.cost.amount == 0 ? "Tasuta" : "€€€")
+                        Text(major.cost.priceLabel)
                     }
                     .setColor(.gray)
                     .setFont(.footnote, .medium, .rounded)
@@ -67,9 +85,12 @@ struct FavoritesView: View {
             }
             .padding(.vertical, 4)
             .swipeActions {
-                Button("", systemImage: "heart.slash", role: .destructive) {
+                Button(action: {
                     model.removeFavorite(major: major, college: college)
-                }.tint(.red)
+                }, label: {
+                    Theme.Icons.heartSlash
+                })
+                .tint(.red)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(Rectangle())
@@ -103,7 +124,7 @@ struct FavoritesView: View {
         }
     }
     
-    func navigateToMajor(college: College, major: Major) {
-        appState.route(to: .major(college: college, major: major, isFavorite: true))
+    func navigateToMajor(college: College, major: NewMajor) {
+        appState.route(to: .majorRemote(college: college, major: major, isFavorite: true))
     }
 }

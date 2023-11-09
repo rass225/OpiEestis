@@ -6,7 +6,7 @@ extension CollegeView {
     @ViewBuilder
     func helpButton() -> some View {
         Menu(content: contactContent) {
-            Image(systemName: "person.crop.circle.badge.questionmark")
+            Theme.Icons.help
                 .setFont(.body, .semibold, .rounded)
                 .setColor(model.college.palette.base.gradient)
                 .padding(.trailing, 4)
@@ -20,7 +20,7 @@ extension CollegeView {
     
     @ViewBuilder
     func expandButton() -> some View {
-        Image(systemName: "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left")
+        Theme.Icons.expand
             .setFont(.title2, .medium, .rounded)
             .setColor(model.college.palette.base.gradient)
             .padding(6)

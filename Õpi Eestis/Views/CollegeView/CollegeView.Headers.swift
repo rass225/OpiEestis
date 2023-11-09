@@ -13,7 +13,7 @@ extension CollegeView {
     @ViewBuilder
     func contactHeader() -> some View {
         Header(
-            label: "Kontakt",
+            label: Theme.Locale.College.contact,
             image: Theme.Icons.phone,
             color: model.college.palette.base
         )
@@ -22,7 +22,7 @@ extension CollegeView {
     @ViewBuilder
     func admissionHeader() -> some View {
         Header(
-            label: "Vastuvõtt",
+            label: Theme.Locale.College.admission,
             image: Theme.Icons.requirements,
             color: model.college.palette.base
         )
@@ -31,7 +31,7 @@ extension CollegeView {
     @ViewBuilder
     func summaryHeader() -> some View {
         Header(
-            label: "Koolist",
+            label: Theme.Locale.College.aboutSchool,
             image: Theme.Icons.graduation,
             color: model.college.palette.base
         )
@@ -40,8 +40,8 @@ extension CollegeView {
     @ViewBuilder
     func locationHeader() -> some View {
         Header(
-            label: "Asukoht",
-            image: Image(systemName: "map.fill"),
+            label: Theme.Locale.College.location,
+            image: Theme.Icons.map,
             color: model.college.palette.base
         )
     }
@@ -49,7 +49,7 @@ extension CollegeView {
     @ViewBuilder
     func majorsHeader() -> some View {
         Header(
-            label: "Erialad",
+            label: Theme.Locale.College.majors,
             image: Theme.Icons.textBook,
             color: model.college.palette.base
         )

@@ -13,7 +13,9 @@ extension ContentView {
             print("✅ Content View Model initialized")
             self.dependencies = dependencies
             self.schools = []
-            fetchSchools()
+            Task {
+                await fetchSchools()
+            }
         }
     }
 }
@@ -30,21 +32,19 @@ extension ContentView.Model {
                     allBranches.append(collegeBranch)
                 }
             }
-            
             return allBranches
     }
 }
 
 private extension ContentView.Model {
-    func fetchSchools() {
-        dependencies.firebase.fetchSchools { [weak self] result in
-            switch result {
-            case let .success(schools):
-                print("Colleges fetched")
-                self?.schools = schools.sorted(by: \.name)
-            case let .failure(error):
-                print(error)
+    func fetchSchools() async {
+        do {
+            let colleges = try await dependencies.network.fetchColleges()
+            DispatchQueue.main.async {
+                self.schools = colleges.sorted(by: \.name)
             }
+        } catch {
+            print(error.localizedDescription)
         }
     }
 }

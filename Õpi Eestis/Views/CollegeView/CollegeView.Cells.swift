@@ -42,21 +42,19 @@ extension CollegeView {
     }
     
     @ViewBuilder
-    func majorContentCell(_ item: Model.StatEntity) -> some View {
-        if item.count != 0 {
-            HStack(alignment: .center, spacing: 16){
-                Circle()
-                    .fill(model.college.palette.secondary.gradient)
-                    .frame(width: 10, height: 10, alignment: .center)
-                
-                Text(item.name.rawValue.capitalized)
-                    .setFont(.subheadline, .medium, .rounded)
-                    .maxWidth(alignment: .leading)
-                Text("\(item.count)")
-                    .setFont(.body, .semibold, .rounded)
-            }
-            .setColor(Theme.Colors.white)
+    func levelView(for level: Level, count: Int) -> some View {
+        HStack(alignment: .center, spacing: 16){
+            Circle()
+                .fill(model.college.palette.secondary.gradient)
+                .frame(width: 10, height: 10, alignment: .center)
+
+            Text(level.label)
+                .setFont(.subheadline, .medium, .rounded)
+                .maxWidth(alignment: .leading)
+            Text(String(count))
+                .setFont(.body, .semibold, .rounded)
         }
+        .setColor(Theme.Colors.white)
     }
     
     @ViewBuilder

@@ -1,59 +1,97 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @EnvironmentObject var appState: AppState
     @State var isDonationsPresented = false
     var body: some View {
+        switch appState.authState {
+        case let .authenticated(user):
+            authenticatedView(user: user)
+        case .unauthenticated:
+            UnauthenticatedView(
+                title: Theme.Locale.Profile.unauthenticated,
+                action: appState.signInApple
+            )
+        }
+    }
+}
+
+extension ProfileView {
+    @ViewBuilder
+    func authenticatedView(user: FirebaseUser) -> some View {
         List {
-            Text("Tere")
             Section {
-                NavigationLink(destination: AboutView(), label: {
-                    Text("Rakendusest")
-                })
-            }
-            Section {
-                HStack(spacing: 16) {
-                    Image(systemName: "gift")
-                        .setFont(.title3, .medium, .rounded)
-                        .frame(width: 25, height: 30)
-                    Text("Meeldib app? Aita arendajat")
-                        .setFont(.subheadline, .medium, .rounded)
-                }
-                .maxWidth(alignment: .leading)
-                .contentShape(Rectangle())
-                .onTapGesture {
-                    isDonationsPresented.toggle()
-                }
-                .listRowBackground(
-                    Rectangle()
-                        .fill(Theme.Colors.primary.gradient)
+                label(
+                    title: Theme.Locale.Profile.myAccount,
+                    icon: Theme.Icons.person
                 )
-                .foregroundColor(.white)
+                .onTapGesture { appState.route(to: .myAccount(user)) }
+                label(
+                    title: Theme.Locale.Profile.about,
+                    icon: Theme.Icons.about
+                )
+                .onTapGesture { appState.route(to: .about) }
+//                label(
+//                    title: Theme.Locale.Profile.settings,
+//                    icon: Theme.Icons.settings
+//                )
+//                .onTapGesture { appState.route(to: .settings) }
             }
             Section {
-                Button(action: { print("Log out") }) {
-                    HStack(spacing: 16) {
-                        Image(systemName: "rectangle.portrait.and.arrow.forward")
-                            .setFont(.title3, .medium, .rounded)
-                            .frame(width: 25, height: 30)
-                        Text("Logi välja")
-                            .setFont(.subheadline, .medium, .rounded)
-                    }
-                    .setColor(.red)
-                    .maxWidth(alignment: .leading)
+                
+                
+//                label(
+//                    title: Theme.Locale.Profile.donations,
+//                    icon: Theme.Icons.donations
+//                )
+//                .onTapGesture { isDonationsPresented.toggle() }
+            }
+            Section {
+                Button(action: appState.signout) {
+                    Label(title: {
+                        Text(Theme.Locale.Profile.logout)
+                            .setFont(.body, .regular, .rounded)
+                    }, icon: {
+                        Theme.Icons.logout
+                    })
+                        .maxWidth(alignment: .leading)
+                        .padding(.vertical, 8)
+                        .setColor(.red)
                 }
                 .buttonStyle(.borderless)
             }
         }
-        .navigationTitle(Text("Hello, Rasmus"))
+        .toolbar {
+            ToolbarItem(placement: .principal, content: AppPrincipal.init)
+        }
         .sheet(isPresented: $isDonationsPresented, content: {
             DonationView()
         })
     }
+    
+    @ViewBuilder
+    func chevronRight() -> some View {
+        Theme.Icons.chevronRight
+            .setColor(Theme.Colors.secondaryGray)
+    }
+    
+    @ViewBuilder
+    func label(title: String, icon: Image) -> some View {
+        Label(title: {
+            Text(title)
+                .setFont(.body, .regular, .rounded)
+        }, icon: {
+            icon
+                .setColor(Theme.Colors.primary.gradient)
+        })
+        .maxWidth(alignment: .leading)
+        .padding(.vertical, 8)
+        .overlay(alignment: .trailing, content: chevronRight)
+        .contentShape(.rect)
+    }
 }
 
-
 struct DonationView: View {
-    
     var body: some View {
         Text("Donations")
     }

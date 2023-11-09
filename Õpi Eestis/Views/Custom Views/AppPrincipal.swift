@@ -3,12 +3,12 @@ import SwiftUI
 struct AppPrincipal: View {
     var body: some View {
         HStack {
-            Image("estonia2")
+            Theme.Icons.appIcon
                 .resizable()
                 .fit()
                 .frame(height: 22)
                 .setColor(Theme.Colors.primary)
-            Text("Õpi Eestis")
+            Text(Theme.Locale.App.name)
                 .setFont(.title3, .semibold, .rounded)
         }
     }

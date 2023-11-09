@@ -22,6 +22,10 @@ struct College: Codable, Hashable, Identifiable {
     let jsonKeys: JSONKeys
     let virtualTourLink: String?
     
+    var locationCoordinates: [CLLocationCoordinate2D] {
+        branches.map(\.coordinates)
+    }
+    
     var jsonString: String {
         switch name {
         case "Eesti Ettevõtluskõrgkool Mainor":

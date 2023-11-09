@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 enum Language: String, Codable, CaseIterable {
     case estonian = "eesti keel"
@@ -33,8 +34,16 @@ enum Language: String, Codable, CaseIterable {
         }
     }
     
-    var secondaryLabel: String {
-        return label + "es"
+    var inLanguageLabel: LocalizedStringKey {
+        switch self {
+        case .estonian: return "Eesti keeles"
+        case .english: return "Inglise keeles"
+        case .spanish: return "Hispaania keeles"
+        case .french: return "Prantsuse keeles"
+        case .german: return "Saksa keeles"
+        case .russian: return "Vene keeles"
+        case .all: return "Kõik"
+        }
     }
     
     init?(from string: String) {
