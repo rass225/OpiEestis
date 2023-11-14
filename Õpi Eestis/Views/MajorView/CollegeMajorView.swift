@@ -194,7 +194,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func statsHeader() -> some View {
         Header(
-            label: "Üldandmed",
+            label: "",
             image: Theme.Icons.requirements,
             color: model.college.palette.base,
             withTopPadding: true,
@@ -265,7 +265,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func locationsHeader() -> some View {
         Header(
-            label: "Asukoht",
+            label: Theme.Locale.Major.location,
             image: Theme.Icons.location,
             color: model.college.palette.base,
             withTopPadding: false
@@ -290,7 +290,7 @@ extension CollegeMajorView {
             color: model.college.palette.base
         )
         MajorStat(
-            type: .language(lang: model.major.language.label),
+            type: .language(lang: "model.major.language.label"),
             color: model.college.palette.base
         )
         MajorStat(
@@ -311,7 +311,7 @@ extension CollegeMajorView {
                     .setFont(.subheadline, .medium, .rounded)
                     .setColor(Theme.Colors.black)
             }
-            .badge(Text("Õppeaasta").setFont(.footnote, .regular, .rounded))
+            .badge(Text(Theme.Locale.Major.studyYear).setFont(.footnote, .regular, .rounded))
         }
         if let studyType = model.major.studyType {
             HStack(alignment: .center, spacing: 0) {
@@ -323,7 +323,7 @@ extension CollegeMajorView {
                     .setFont(.subheadline, .medium, .rounded)
                     .setColor(Theme.Colors.black)
             }
-            .badge(Text("Õppevorm").setFont(.footnote, .regular, .rounded))
+            .badge(Text(Theme.Locale.Major.studyType).setFont(.footnote, .regular, .rounded))
         }
     }
     
@@ -363,7 +363,7 @@ extension CollegeMajorView {
     @ViewBuilder
     func websiteContent() -> some View {
         HStack(alignment: .center, spacing: 0){
-            Text("Tutvu lähemalt erialaga kooli kodulehel")
+            Text(Theme.Locale.Major.goToMajorWebsite)
                 .setFont(.subheadline, .regular, .rounded)
             Spacer()
             Chevron(type: .link)
@@ -420,7 +420,7 @@ extension CollegeMajorView {
 extension CollegeMajorView {
     @ViewBuilder
     func requirementsFooter() -> some View {
-        Text("Protsendiga tähistatud kriteeriumid on sisseastumisprotsessiga seotud. Ülejäänud vastuvõtutingimused on eelduseks kandideerimisel.")
+        Text("")
     }
 }
 
@@ -683,12 +683,12 @@ extension CollegeMajorView {
                 if duration.isInt() {
                     topText = "\(Int(duration)) aastat"
                 } else {
-                    topText = String(format: "%.1f", duration) + " aastat"
+                    topText = String(format: duration.decimals(1)) + " aastat"
                 }
-                bottomText = Theme.Locale.Major.description
+                bottomText = "Theme.Locale.Major.description"
             case .spots(let spots):
                 image = Theme.Icons.person
-                topText = spots == 0 ? Theme.Locale.Major.description : "\(spots)"
+                topText = spots == 0 ? "Theme.Locale.Major.description" : "\(spots)"
                 switch spots {
                 case 1: bottomText = "Õppekohtade arv"
                 default: bottomText = "Õppekohtade arv"
@@ -704,7 +704,7 @@ extension CollegeMajorView {
             case .language(let language):
                 image = Theme.Icons.globe
                 topText = language
-                bottomText = Theme.Locale.Major.description
+                bottomText = "Theme.Locale.Major.description"
             }
         }
         

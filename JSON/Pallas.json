@@ -6,6 +6,7 @@
         "description": [
             "Fotograafia osakond loodi 1997. aastal Vallo Kalamehe juhtimisel, alates 2001 juhib osakonda professor Peeter Linnap (PhD). Osakonna eesmärk on anda üliõpilastele rahvusvaheliselt pädev erialane kunstiharidus. \n\n**Õppekava keskendub kolmele suunale:** \n\n**•** Vabaloominguline tegevus \n\n**•** Professionaalne fotograafia ja uurimuslik dokumentalistika \n\n**•** Internetipõhised projektid, fotograafiaga seonduva loomingu kureerimine, uurimine ja korraldustöö. \n\nOsakond teadvustab ennast rahvusvahelises kultuuriruumis. Üliõpilased osalevad aktiivselt vahetusprogrammides, sage on välisüliõpilaste õppima tulek fotograafiaosakonda. Osakonnas on publitseeritud üle kümne erialase raamatu ja kataloogi."
         ],
+        "descriptionEn": "The Department of Photography was founded in 1997 under the direction of Vallo Kalamees. Since 2001, the head of the department is Professor Peeter Linnap (PhD). The aim of the Department of Photography is to provide students with an internationally recognised art education. \n\n**The curriculum is focused on three major fields:** \n\n**•** freelance creative practices \n\n**•** professional photography and critical documentary \n\n**•** curatorial practices, research projects and art management. \n\nThe department positions itself as an integral part of an international cultural community. Students actively participate in exchange programs and the department frequently admits international students. The department has published over twenty academic books, research volumes and catalogues. \n\nOur research work includes magisterial volumes by Peeter Linnap: “History of Estonian Photography 1839-2015“ (Tartu 2016); “Fotoloogia/ Photology” (Tallinn, 2008); “Anthology of Estonian photography. Vol-s I 1839-1939 and II 1940 to 2010 (Tartu, Pallas 2021-2022). Major research contributions include European wide „The History of European Photography 1900-2000“. III (Bratislava SEDF, 2010-2016). and „History of Estonian Art“ I-VI, vol.-s 5 and 6. Current research work in progress is “Anthology of Estonian Photography III”, international collection of research papers “Morphology of Photography” (Estonian-Portugese co-operation, 5 universities involved) and “The impact of social transition processes on documentary practices and the development of national photography education in the 1990s”. \n\nOur research papers have been published in „Society“ (Springer, NY), IJETA (Intellect Bristol, UK) etc.",
         "eap": 240,
         "spots": 12,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/fotograafia/",
@@ -49,13 +50,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Fotograafia",
+        "nameEn": "Photography",
         "cost": {
             "amount": 0,
             "currency": "€",
@@ -69,6 +83,7 @@
         "description": [
             "Maali ja restaureerimise õppekava loodi 1996. aastal professor Heli Tuksami eestvedamisel. Alates 2021 juhatab osakonda Margus Meinart. Maaliosakonna õppekava on spetsialiseerumine kahel suunal: maalikunst ja maalingute restaureerimine. Suunavalik tuleb teha enne õppima asumist. \n\n**KUNSTISUUNA** läbinud üliõpilane saab põhjapanevad teadmised maalikunsti ajaloolistest tehnikatest ja töövõtetest. Oluline fookus on materjalil ja töötamisel natuuriga. Seome tehnilise võimekuse nüüdiskunsti analüütilise ja kriitilise meelega. Õppekava läbinud tudeng valdab tahvelmaali ning oskab luua monumentaalseid teoseid interjööri ja linnaruumi. \n\n**KONSERVEERIMISE/RESTAUREERIMISE SUUNA** fookuses on seina- ja laemaalingute konserveerimine ja restaureerimine ning ajalooliste interjööride stiilitundega käsitlemine. Rakenduslik kõrgkool annab tudengile häid praktilisi töökogemusi reaalsetel objektidel mitmel pool Eestis. Osakonna laboratoorium tagab valmisoleku uurimistööks. Suunamooduli läbinud üliõpilane saab koos bakalaureuse diplomiga ka konservaatori tase 6 esmase kutse. \n\nKunsti ja konserveerimise/restaureerimise suunamooduleid liidavad tervikuks ühised praktilised ja teoreetilised baasained ning kahel esimesel õppeaastal õpitakse üksikute eranditega sama õppekava alusel. Stuudiomaal, joonistamine, tänapäeval unikaalsed fresko-, sgrafiito-, mosaiigi- ja vitraažitehnikad, marmoreerimine, aaderdamine ja ornamentika kuuluvad võrdses mahus mõlema suuna õppekavasse. Esimesel kahe aastal toimub ühine suvine maalipraktika. \n\n Osakonnal on rohkelt pikaajalisi kontakte Euroopa erinevate kunstikõrgkoolidega, kus meie tudengid käivad end aktiivselt Erasmus+ programmi raames täiendamas."
         ],
+        "descriptionEn": "The curriculum of painting and restoration was founded in 1996. The Head of Department is Margus Meinart. \n\nThe aim of the Department of Painting is to provide a broad education in painting and the conservation/restoration of historical interior paintings. Of particular importance is the sensitivity to change over time while remaining connected to tradition. The department emphasizes classical study and proficiency in different painting techniques. It is possible to specialize in two fields: arts and restoration/conservation. The selection has to be made before the beginning of studies. \n\nStudents specializing in arts will learn to design both historical and contemporary spaces, will be well-versed in the history of interior design, will be familiar with historical styles, contemporary design practices and artistic trends, the students will be able to design monumental art in urban spaces as well as dedicate themselves to free creative activity. \n\nThe focus of the conservation/restoration track is the conservation of wall and ceiling paintings, and the handling of historical interiors.",
         "eap": 240,
         "spots": 12,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/maaliosakond/",
@@ -77,6 +92,7 @@
             {
                 "email": "margus.meinart@pallasart.ee",
                 "title": "Osakonna juhataja",
+                "titleEn": "Head of Department",
                 "phone": "+3727309818",
                 "name": "Margus Meinart",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/MargusMeinart-1.jpg"
@@ -84,6 +100,7 @@
             {
                 "email": "pille.johanson@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Lecturer, Assistant Head of Department",
                 "phone": "+3727309818",
                 "name": "Pille Johanson",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/PilleJohanson.jpg"
@@ -91,6 +108,7 @@
             {
                 "email": "indrek.aavik@pallasart.ee",
                 "title": "Meister, lektor",
+                "titleEn": "Technical Assistant, lecturer",
                 "phone": "+3727309818",
                 "name": "Indrek Aavik",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/IndrekAavik.jpg"
@@ -98,38 +116,46 @@
             {
                 "email": "heli.tuksam@pallasart.ee",
                 "title": "Professor",
+                "titleEn": "Professor",
                 "name": "Heli Tuksam",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/HeliTuksam.jpg"
             },
             {
                 "email": "sirje.petersen@pallasart.ee",
                 "title": "Kaasprofessor",
+                "titleEn": "Associate Professor",
                 "name": "Sirje Petersen"
             },
             {
                 "email": "tuuli.puhvel@pallasart.ee",
                 "title": "Lektor",
+                "titleEn": "Lecturer",
                 "name": "Tuuli Puhvel"
             },
             {
                 "name": "Madis Liplap",
-                "title": "Lektor"
+                "title": "Lektor",
+                "titleEn": "Lecturer"
             },
             {
                 "name": "Piret Veski",
-                "title": "Lektor"
+                "title": "Lektor",
+                "titleEn": "Lecturer"
             },
             {
                 "name": "Katrin Maask",
-                "title": "Lektor"
+                "title": "Lektor",
+                "titleEn": "Lecturer"
             },
             {
                 "name": "Veiko Klemmer",
-                "title": "Lektor"
+                "title": "Lektor",
+                "titleEn": "Lecturer"
             },
             {
                 "name": "Rauno Thomas Moss",
-                "title": "Lektor"
+                "title": "Lektor",
+                "titleEn": "Lecturer"
             }
         ],
         "type": "kunstid",
@@ -138,13 +164,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Maal ja restaureerimine",
+        "nameEn": "Painting and Restoration",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/750?format=json",
         "cost": {
             "amount": 0,
@@ -159,6 +198,7 @@
         "description": [
             "Meedia- ja reklaamidisaini õppekava tugevus on mitmekülgsus. Õppekava vastutav õppejõud on osakonnajuhataja Jaanus Eensalu. Osakonna õppekava võib jagada kaheks suuremaks plokiks: graafiline disain ja meediadisain. \n\n**GRAAFILINE DISAIN** \n\nGraafiline disain hõlmab trükimeediat ja sellega seonduvat. Graafilise disainiga tegeletakse peamiselt esimesel kahel õppeaastal, kuid selle valdkonna teadmised on aluseks iga erialase projekti juures. Graafilise disaini alla kuuluvad õppeained nagu kompositsioon ja stilistika, trükitehnoloogiad, tüpograafia, erialane joonistamine, foto manipulatsioonid, küljendamine, pakendidisain, reklaammaterjalide tehnoloogia, korporatiiv- ja infograafika jm. Vastutavaks õppejõuks on professor Marko Kekišev. \n\n**MEEDIADISAIN** \n\nMeediadisain hõlmab videotöötluse, veebimeedia, interaktiivse multimeedia, animatsiooni ja 3D graafikaga seotud aineid. Meediadisaini alla kuuluvad õppeained nagu videorežii, videomontaaž, video eriefektid ja animatsioon, animatsiooniteooria ja -tehnikad, 3D graafika, kasutajaliidese disain, veebidisain, helidisain, virtuaalne ruum jpm. Vastutavaks õppejõuks on professor Raivo Kelomees. \n\n\nMõlemas valdkonnas saavad tudengid teemadest nii teoreetilise ülevaate kui praktilise kogemuse. Õppekava oluliseks osaks on praktilised projektid ja koostöö reaalsete klientidega. \n\nOsakonna üliõpilased on aktiivsed nii kohalikest kui rahvusvahelistest konkurssidest ja festivalidest osa võtmisel, kus jõuavad tihtipeale märkimisväärsete tulemusteni. \n\nLõputöödena valmivad graafilise disaini, audiovisuaalse ja interaktiivse meedia tooted: interaktiivsed esitlused, veebilehtede kujundused, videod, filmid, animatsioonid, raamatukujundused, terviklikud reklaamiprojektid, firmagraafika terviklahendused jne. \n\nÕppekava läbinud vilistlased töötavad meedia- ja reklaamifirmades disainerite, loovjuhtide, kujundajate ja veebidisaineritena. Paljud on asutanud ka oma ettevõtte või töötavad edukalt vabakutseliste disaineritena. Samuti on mitmed jätkanud õpinguid magistriõppes. \n\nAastatel 2001 – 2007 juhtis osakonda Raivo Kelomees, aastast 2008 on osakonna juhataja Jaanus Eensalu."
         ],
+        "descriptionEn": "The strength of  Department of Media Design is its multifaceted nature. The department’s curriculum can be divided into two large blocks: graphic design and media design. Head of Department is Jaanus Eensalu. \n\n**Graphic design** covers subjects concerned with print media. This field is mostly studied during the first two years, but good knowledge in this subject forms the basis for all future professional projects. Composition and styling, print technologies, typography, professional drawing, photo manipulation, desktop publishing, packaging design, advertising technology, corporate and info graphics are only some amongst many subject matters taught as a part of the graphic design curriculum. The lecturer in charge is Professor Marko Kekišev. \n\n**Media design** covers subjects concerned with video editing, web media and interactive multimedia, animation and 3D-graphics. Amongst the curriculum are subjects such as video directing, video montage, special effects and animation, animation theory and techniques, 3D-graphics, Flash, user interface design, web design, sound design, virtual space etc. The lecturer in charge is Professor Raivo Kelomees. \n\nStudents get both a theoretical knowledge as well as a practical experience in both of these fields. Practical projects and collaboration with real customers are an important part of the curriculum. \n\nThe department’s students are actively partaking in local and international competitions and festivals, where they have often received noteworthy results.",
         "eap": 240,
         "spots": 12,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/meediaosakond/",
@@ -167,6 +207,7 @@
             {
                 "email": "jaanus.eensalu@pallasart.ee",
                 "title": "Osakonna juhataja",
+                "titleEn": "Head of Department, Associate Professor",
                 "phone": "+3727338992",
                 "name": "Jaanus Eensalu",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/12/Jaanus_Eensalu_Pallas_2022.jpg"
@@ -174,6 +215,7 @@
             {
                 "email": "pirgit.liblik@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Assistant Head of Department",
                 "phone": "+3727338997",
                 "name": "Pirgit Liblik",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/12/Pirgit_Liblik_Pallas_2022.jpg"
@@ -181,6 +223,7 @@
             {
                 "email": "ardo.sagi@pallasart.ee",
                 "title": "Trükitehnoloogia meister",
+                "titleEn": "Lecturer, Technical Assistant in printing",
                 "phone": "+3727338974",
                 "name": "Ardo Sägi",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/12/Ardo_Sagi_Pallas_2022.jpg"
@@ -188,6 +231,7 @@
             {
                 "email": "mart.mannik@pallasart.ee",
                 "title": "Meister",
+                "titleEn": "Technical Assistant in digital media",
                 "phone": "+3727338971",
                 "name": "Mart Männik",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/12/Mart_Mannik_Pallas_2022.jpg"
@@ -195,12 +239,14 @@
             {
                 "email": "marko.kekishev@pallasart.ee",
                 "title": "Professor",
+                "titleEn": "Professor, lecturer",
                 "name": "Marko Kekišev",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/12/Marko_Kekisev_Pallas_2022.jpg"
             },
             {
                 "name": "Raivo Kelomees",
                 "title": "Professor",
+                "titleEn": "Professor, lecturer",
                 "email": "raivo.kelomees@pallasart.ee",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/12/Raivo_Kelomees_Pallas_2022.jpg"
             }
@@ -211,13 +257,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Meedia ja reklaamidisain",
+        "nameEn": "Media and Advertisement Design",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/754?format=json",
         "cost": {
             "amount": 0,
@@ -232,6 +291,7 @@
         "description": [
             "Mööbliosakonnas saab õppida mööbli disainimist või vana mööbli restaureerimist/konserveerimist. Mõlemas valdkonnas saadakse kvaliteetsed erialased teadmised, kuid suunavalik peaks olema tehtud enne õppima asumist. \n\n**MÖÖBLIDISAIN** \n\nViimase kümne aasta jooksul hea taseme saavutanud perspektiivikate tulevikuväljavaadetega eriala. Praktilise suunitlusega õpe, mille läbimise jooksul saavad õppurid kogemusi töötades reaalsete esemetega ja tehes koostööprojekte. Mööbliosakond on üks kahest osakonnast Pallases, mille lõpetajat on pärjatud rahvusvahelise disainiauhinnaga Red Dot. \n\n**MÖÖBLI RESTAUREERIMINE/KONSERVEERIMINE** \n\nMööbli restaureerimine/konserveerimine keskendub mööblipärandi taastamisele või säilitamisele. Praktiline, erialaselt süvitsi õpetatav suund tagab teadmised mööbliajaloost, klassikalistest polstritest, kuldamisest, jpm vajalikust ja huvitavast. Konserveerimise/restaureerimise valdkonnas tehakse koostööd Eesti Muinsuskaitseameti, ERM’i ja paljude teiste muuseumidega, kuhu on nüüdseks tööle asunud ka kooli lõpetanuid. \n\nLaiahaardeline õpe pakub suurt vaheldusrikkust ja kaasaegset lähenemist ning tööriistu. Käiakse messidel: näiteks Stockholmis, Helsinkis, Londonis, ja erialastel väljasõitudel. Õppekava läbimine loob eeldused töötamiseks mööbli valdkonnas disainerina või konservaatorina/restauraatorina nii riigi- kui erasektoris, andes samas põhjaliku hariduse, millega on hea jätkata ka magistriõppes. \n\nViimaste aastate põhiõppejõud on Aivar Habakukk, Annes Hermann, Teet Papson, Kristjan Bachman, Kristina Allik. \n\nKülalisõppejõududena on olnud kaasatud Pavel Sidorenko, Vitali Valtanen, Ingemar Maasikmäe, Madis Liplap, Aet Ollisaar, Ardo Sägi, Jaanus Eensalu, Anne Rudanovski, Aigar Needo, Holger Rajavee, Siim Hendrikson, Riho Tiivel, Jaak Roosi. \n\nLõpetajaid: Karl Annus, Maria Rästa, Karoliine Korol, Kristiina Piirisild, Mari-Liis Vaks, Markus Pärnamets, Mirjam Pärnamets jpt."
         ],
+        "descriptionEn": "The curriculum of artistic wood design was created in 1955, and re-conceived as the curriculum of furniture design and restoration in 1990. The curriculum was developed by Jaak Roosi. In the department of furniture it is possible to study design or the restoration/conservation. Both fields provide high-quality specialized knowledge. The Head of Department is Aivar Habakukk. \n\nThe curriculum provides a broad education in furniture, specializing in either design or conservation/restoration. The selection must be made before the beginning of studies. \n\nThe design track is oriented towards small and medium-size businesses, without excluding cooperation with major industries. An integral part of the curriculum is participation in collaborative projects and exhibitions, including consistent participation at trade fairs in Stockholm and London. \n\nThe purpose of the conservation/restoration track is to educate specialists in conservation and research of heritage furniture. Students in conservation/restoration collaborate with museums and the National Heritage Board. Graduates work as designers, practitioners, or conservationists/restorers in both the public and private sector. Many continue on to postgraduate study.",
         "eap": 240,
         "spots": 12,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/moobliosakond/",
@@ -240,6 +300,7 @@
             {
                 "email": "aivar.habakukk@pallasart.ee",
                 "title": "Osakonna juhataja",
+                "titleEn": "Head of Department",
                 "phone": "+3727338996",
                 "name": "Aivar Habakukk",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/AivarHabakukk.jpg"
@@ -247,6 +308,7 @@
             {
                 "email": "kristina.allik@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Assistant Head of Department",
                 "phone": "+3727338996",
                 "name": "Kristina Allik",
                 "photo": "https://pallasart.ee/wp-content/uploads/2023/03/IMG_20230310_131241-600x600.jpg"
@@ -254,6 +316,7 @@
             {
                 "email": "kristjan.bachman@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Assistant Head of Department",
                 "phone": "+3727338996",
                 "name": "Kristjan Bachman",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/KristjanBachman.jpg"
@@ -261,13 +324,22 @@
             {
                 "email": "annes.hermann@pallasart.ee",
                 "title": "Meister",
+                "titleEn": "Technical Assistant",
                 "phone": "+3727309819",
                 "name": "Annes Hermann",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/Annes_Hermann.jpg"
             },
             {
+                "email": "jaak.roosi@pallasart.ee",
+                "title": "Õpetaja",
+                "titleEn": "Lecturer",
+                "name": "Jaak Roosi",
+                "photo": "https://pallasart.ee/wp-content/uploads/2022/09/Jaak_Roosi.jpg"
+            },
+            {
                 "email": "teet.papson@pallasart.ee",
                 "title": "Õpetaja",
+                "titleEn": "Lecturer",
                 "name": "Teet Papson",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/TeetPapson.jpg"
             }
@@ -278,13 +350,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Mööblidisain ja restaureerimine",
+        "nameEn": "Furniture Design and Restoration",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/755?format=json",
         "cost": {
             "amount": 0,
@@ -299,6 +384,7 @@
         "description": [
             "Osakonna eesmärk on rakendusliku nahadisaini ja –restaureerimise valdkonna õpetamine ja arendamine Eestis. Nelja õppeaasta jooksul õpetatakse erialaainetele lisaks nii klassikalisi aineid – joonistamine, maal ja skulptuur, kui ka üldaineid – kunstiajalugu, filosoofiat, kompositsiooni jne. Õppetöö on väga mitmekülgne, sisaldades erinevaid projektiõppe ja ka köitekunsti tunde. Oluline maht on praktikatel käimisel ja lõputöö teostamisel. Nahadisaini osakonnas on võimalik õppida kahel õppesuunal – disain ja restaureerimine/konserveerimine. Suunavalik tuleb teha enne õppima asumist. \n\nNahadisaini ja restaureerimise õppekava väärtustab traditsioone, innustades samas otsima uudseid lahendusi nii tehnikas kui ka kujunduses. Käsitletavad teemad annavad erialaoskusi alates naha töötlemise tehnikatest kuni raamatuköitmise ja konserveerimise/restaureerimise ning mitmesuguste nahktoodete disainimiseni. Õppetöös tehakse koostööd tellijatega ja osaletakse aktiivselt näitustel ja konkurssidel, kus üliõpilased on saavutanud auhinnalisi kohti. \n\nDisainisuund annab süvendatud teadmised nahkobjektide, -kottide ja -rõivaste disainimisel ja teostamisel. Käsitletav praktiliste teemade ring on lai sisaldades kindakursust ja moevaldkonnaga seotud õppeaineid. Õppesse on kaasatud uute tehnoloogiate, alternatiivmaterjalide ja suundumiste tutvustamine. Nahadisaini suuna lõpetajad on aktiivsed jätkama magistriõppes ning looma oma ettevõtteid. \n\nKonserveerimise ja restaureerimise suund lähtub konservaatori kutsestandardi nõuetest. Õpitakse restaureerima erineva kattematerjali ja struktuuriga köiteid, pabermaterjale ja nahkobjekte ning esitama sobivaid säilitusjuhiseid. Eriala lõpetaja saab konservaatori 6 taseme kutsetunnistuse, mis võimaldab tööd erinevate mäluasutuste juures. \n\nNahadisaini õppekava eelkäija nahakunsti eriala loodi 1965. aastal. Osakonnas on õpetanud mitmed tunnustatud lektorid nii Eestist kui välismaalt: Hans-Peter Frölich, Michel Frölich (Saksamaa), Jeff Clements (Holland), Enrico Flaiani (Itaalia), Manfred Mayer (Austria), Kaia Lukats, Jolana Laidma, Hedvig Mäe, Karin Kallas, Illu Erma, Stella Soomlais. \n\nViimastel aastatel on külalisõppejõududena loenguid ja praktilist õpet andmas käinud disainivaldkonnas Juta Mölder, Gerda Retter, Tiina Andron, Vilve Unt, Evelyn Reeman, Madis Palm, Lennart-Jaak Mänd ning konserveerimise vallas Silli Peedosk, Tulvi-Hanneli Turo, Küllike Pihkva, Tiia Nurmsalu ja Dorel Sabre."
         ],
+        "descriptionEn": "The curriculum of leather art, the predecessor of the current curriculum, was founded in 1965. From 2000-2013 the department was led by Professor Rutt Maantoa, 2013-2019 by Maila Käos and since September 2019 the Head of Department is Professor Rene Haljasmäe. \n\nThe curriculum of leather design and restoration respects tradition, while encouraging students to seek out innovative solutions in both technique and design. Students gain competence in fields ranging from leather processing to book binding, conservation/restoration and the design of various leather products. Students can specialize in either leather design or conservation/restoration. The choice must be made before the beginning of studies. \n\nThe design track provides in-depth knowledge in the production and design of leather accessories, bags and clothes. \n\nThe conservation/restoration track is based on the vocational standards of conservators. Students acquire skills in restoring books of different covers and structure, paper materials and leather objects, as well as developing different conservation instructions. \n\nStudents work with clients and participate actively on exhibitions and competitions, where many students have won awards.",
         "eap": 240,
         "spots": 10,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/nahaosakond/",
@@ -307,45 +393,53 @@
             {
                 "email": "rene.haljasmae@pallasart.ee",
                 "title": "Osakonna juhataja",
+                "titleEn": "Professor, Head of Department",
                 "phone": "+3727309817",
                 "name": "Rene Haljasmäe",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/ReneHaljasma%CC%88e.jpg"
             },
             {
-                "name": "Tiina Karu",
-                "title": "Osakonnajuhataja abi",
-                "email": "tiina.karu@pallasart.ee",
+                "email": "kristel.suigussaar@pallasart.ee",
+                "title": "Vanemõpetaja",
+                "titleEn": "Assistant Head of Department, Lecturer, Technical Assistant",
                 "phone": "+3727309815",
-                "photo": "https://pallasart.ee/wp-content/uploads/2022/09/TiinaKaru.jpg"
+                "name": "Kristel Suigussaar",
+                "photo": "https://pallasart.ee/wp-content/uploads/2022/09/KristelSuigussaar.jpg"
             },
             {
                 "email": "rutt.maantoa@pallasart.ee",
                 "title": "Professor",
+                "titleEn": "Professor",
                 "name": "Rutt Maantoa",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/RuttMaantoa.jpg"
             },
             {
                 "name": "Maila Käos",
                 "title": "Lektor",
+                "titleEn": "Lecturer",
                 "email": "maila.kaos@pallasart.ee",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/MailaKa%CC%88os.jpg"
             },
             {
                 "name": "Kerli Jõgi",
                 "title": "Vanemõpetaja",
+                "titleEn": "Lecturer",
                 "email": "kerli.jogi@pallasart.ee"
             },
             {
                 "name": "Tõnu Ojaperv",
                 "title": "Meister",
+                "titleEn": "Technical Assistant",
                 "phone": "+3727309815",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/TonuOjaperv.jpg"
             },
             {
-                "email": "kristel.suigussaar@pallasart.ee",
-                "title": "Vanemõpetaja",
-                "name": "Kristel Suigussaar",
-                "photo": "https://pallasart.ee/wp-content/uploads/2022/09/KristelSuigussaar.jpg"
+                "name": "Tiina Karu",
+                "title": "Osakonnajuhataja abi",
+                "titleEn": "Visiting Lecturer",
+                "email": "tiina.karu@pallasart.ee",
+                "phone": "+3727309815",
+                "photo": "https://pallasart.ee/wp-content/uploads/2022/09/TiinaKaru.jpg"
             }
         ],
         "type": "kunstid",
@@ -354,13 +448,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Nahadisain ja restaureerimine",
+        "nameEn": "Leather Design and Restoration",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/751?format=json",
         "cost": {
             "amount": 0,
@@ -375,6 +482,7 @@
         "description": [
             "Pallase skulptuuriosakond on kaasaegne loov õpikeskkond, mis annab teoreetilised ja praktilised vahendid, et saada kunstnikuks. Õpitakse teostama oma ideid, fookusega ideede meisterlikule väljendusele. Lisaks klassikalistele skulptuuri väljendusvahenditele õpetame 3D tehnoloogiate kasutamist skulptuuris. \n\n**Kuidas skulptuuri õpitakse?** \n\nSkulptuuri on nimetatud intelligentsuse kunstiks. Tee selleni  viib sammhaaval. Koos teoreetiliste kunsti alusteadmistega omandatakse esimestel kursustel tööriistade käsitlusoskused ja tehniline baas, 3D ruumi- ja vormiloomega seotud tarkvaralised teadmised, oskused kasutada erinevaid materjale ideede teostamiseks. Järgnevad kursused on seotud autoriprojektidega kas näitusesaali või avalikku ruumi. Skulptuuri eluringi täiuse nägemiseks on õppekavas restaureerimisprojektid. Suvised praktikad annavad reaalse kogemuse võimalikust tulevasest töökohast. \n\n**Kes Pallase skulptuuriosakonnas õpetavad?** \n\nMeie õppejõud on kunstnikud, kelle looming rikastab Eesti ja rahvusvahelist kunstipilti. \n\nÕppekava vastutav õppejõud on prof Anne Rudanovski, kelle loomingus valitseb geomeetriline abstraktsioon ning kelle ootamatud kannapöörded võivad viia skulptuuriosakonna Guinnessi rekordi või  ümbermaailmarännuni. Rasmus Eist avastab maad 3D meediaga seotud aladel, dotsent Tõnis Paberit kannab klassikalise skulptuuri ideaale, prof Mati Karmin on Eesti esimonumentalist. \n\nKülalisõppejõud on Eestist, Saksamaalt ja Soomest: Uwe Schloen’i armastus skulptuuri vastu ja pikaajalised kogemused kinnitavad ala järjepidevust. Jevgeni Zolotko apokalüptilised hoiakud kainestavad. Eike Eplik toob värskust kaasaegse skulptuuri materjalide mitmekesisusest, Maria Väinsar aitab mõista restaureerimise saladusi, Rauno Thomas Mossi tasakaalukas põhjalikkus inimkeha tundmaõppimisel paneb pliiatsit ja savi mõtestatult kasutama. Kivimeister Rein Karuse tunnid tõestavad, et iga idee järgmine staadium on raske töö. \n\nÕppejõudude panus skulptuuri laiapõhjalisuse mõistmiseks soodustab iga tudengi isikupära esiletulemist. \n\n**Mida teevad skulptuuri lõpetajad, Pallase skulptuuriosakonna vilistlased?** \n\nSkulptorid Art Allmägi, Eike Eplik, Jass Kaselaan jpt toovad värskeid tuuli Eesti galeriidesse. Kunstnik-butafoor Jane Ausi leiame Vanemuise dekoratsioonialalt. Pikaaegne Rakvere linnakunstnik Teet Suur teeb lisaks äratuntavale käekirjale skulptuuris kunstiks ka traditsioonilise jõulupuu. Bruno Kadak alustas pronkisvalutöökojaga Tartumaal, ta jätkab  Tallinnas, kus tema osalusel on valmimas loominguline töökeskkond kunstnikele. \n\nMõnedest lõpetajatest on saanud ärimaailmast skulptuuri toetajad, teised rakendavad oskusi disaineritena või kunstitunde andes. Loomingulisus on iga skulptuuriosakonna lõpetaja elu juhtija üht või teist pidi. \n\nSkulptuur on laiapõhjaline eriala. Millist teed lõpetamise eluristmikul valida, otsustab lõpetaja oma huvidest ja isiksusest lähtuvalt. Pallase skulptuuriosakond teeb omalt poolt kõik, et igal lõpetajal on teadmised ja oskused, millega edasi minna."
         ],
+        "descriptionEn": "The curriculum of sculpture was founded in 1952. As a post-secondary program, the curriculum has been developed by heads of the department Mati Karmin, Jaan Luik and Anne Rudanovski. \n\nThe aim of the Department of Sculpture is to maintain the quality of instruction in sculpture and to ensure the education for internationally competitive sculpture artists in Estonia. Graduates of the department are independently thinking artists, shaping our visual environment and capable of synthesising rapidly changing technology into new sculptural artworks. \n\nThe curriculum includes both traditional fields of sculpture education (history of sculpture, object and environment, installation, traditional techniques and modelling, public space projects, practical sculptural forms, theory of form), as well as experimental practises, combining digitally generated form creation with manual skills. The parallel use of different media requires competence in different space and form-related software and enables the students to attain a level of competence required by the contemporary world. \n\nFaculty of the department are: Mati Karmin, Tõnis Paberit, Anne Rudanovski, Rauno Thomas Moss, Jass Kaselaan, Kaire Nurk, Ain Ilves, Eike Eplik, Maria Väinsar.",
         "eap": 240,
         "spots": 10,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/skulptuur/",
@@ -383,22 +491,31 @@
             {
                 "email": "anne.rudanovski@pallasart.ee",
                 "title": "Osakonna juhataja",
+                "titleEn": "Head of Department",
                 "phone": "+3727338970",
                 "name": "Anne Rudanovski"
             },
             {
                 "email": "rasmus.eist@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Technical Assistant",
                 "phone": "+3727338970",
                 "name": "Rasmus Eist"
             },
             {
                 "name": "Dmitry Gorbushin",
-                "title": "Meister"
+                "title": "Meister",
+                "titleEn": "Technical Assistant",
             },
             {
                 "name": "Tõnis Paberit",
-                "title": "Kaasprofessor"
+                "title": "Kaasprofessor",
+                "titleEn": "Associate Professor"
+            },
+            {
+                "name": "Rein Karus",
+                "title": "Õpetaja",
+                "titleEn": "Teacher"
             }
         ],
         "type": "kunstid",
@@ -407,13 +524,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Skulptuur",
+        "nameEn": "Sculpture",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/749?format=json",
         "cost": {
             "amount": 0,
@@ -428,6 +558,7 @@
         "description": [
             "Osakonna eesmärk on arendada tekstiilikunsti ja -disaini valdkonda Eestis, õppekava on laiapõhjaline ja sisaldab ka moe valdkonna aineid. \n\nTekstiili õppekava on loodud 1993. aastal, osakonna looja ja arendaja on osakonnajuhataja professor Aet Ollisaar. \n\nOluliseks peetakse nii individuaalseid oskusi kui ka valdkondadeülest koostööd, üliõpilastele luuakse võimalus osaleda erinevates projektides ja täiendada oma oskusi praktikatel nii Eestis kui välismaal. Tekstiiliosakonna üliõpilaste initsiatiivil toimub järjepidevalt moeprojekt Mood-Performance-Tants, koostöös mööbliosakonnaga osaletakse rahvusvahelistel mööblimessidel Stockholmis ja Londonis. \n\nTekstiiliosakonna lõpetajad on aktiivsed jätkama magistriõppes ning looma oma ettevõtteid. \n\nAastate vältel on tudengeid juhendanud erinevad õppejõud Eestist ja välismaalt – Anu Raud, Eva Jakovits, Monika Järg, Piret Valk, Keret Altpere, Maarja Tamjärv, Vaike Reemann, Signe Kivi, Anu Samarüütel, Juha Laurikainen, Tiina Karhu, Kaisa Klemola, Monika Zaltauskaite-Grasiene, Annika Ekdahl, Wlodzimierz Cygan ja paljud teised. Osakonna põhiõppejõud on prof Aet Ollisaar, prof Kadi Pajupuu, moe valdkonna lektor Kairi Lentsius, lektor Liina Kool ja Marju Roos."
         ],
+        "descriptionEn": "The curriculum of textile was formed in 1993, the founder and major developer of the department is the current head of the department, Professor Aet Ollisaar. \n\nThe aim of the department is to develop the field of textile art and design in Estonia. The curriculum is broad and includes courses in fashion. The focus of the curriculum is both on individual skills as well as cross-disciplinary collaboration. The students have the possibility to participate in different projects and acquire additional skills both in Estonia and abroad. Started on the initiative of the students, the department continuously organises the fashion project Fashion-Performance-Dance, in collaboration with the Department of Furniture, students participate on international trade shows in Stockholm and London. \n\nGraduates of the department actively pursue post-graduate studies and start their own enterprises.",
         "eap": 240,
         "spots": 10,
         "majorWebsite": "https://pallasart.ee/sisseastumine/erialad/tekstiil/",
@@ -436,6 +567,7 @@
             {
                 "email": "aet.ollisaar@pallasart.ee",
                 "title": "Osakonna juhataja",
+                "titleEn": "Professor, Head of Department",
                 "phone": "+3727309825",
                 "name": "Aet Ollisaar",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/AetOllisaar-1.jpg"
@@ -443,18 +575,21 @@
             {
                 "email": "kadi.pajupuu@pallasart.ee",
                 "title": "Professor",
+                "titleEn": "Professor",
                 "name": "Kadi Pajupuu",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/KadiPajupuu1.jpg"
             },
             {
                 "email": "kairi.lentsius@pallasart.ee",
                 "title": "Moedisaini lektor",
+                "titleEn": "Lecturer",
                 "name": "Kairi Lentsius",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/KairiLentsius.jpg"
             },
             {
                 "email": "liina.kool@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Assistant Head of Department, Technical Assistant",
                 "phone": "+3727309825",
                 "name": "Liina Kool",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/LiinaKool.jpg"
@@ -462,6 +597,7 @@
             {
                 "email": "mari.kirs@pallasart.ee",
                 "title": "Osakonnajuhataja abi",
+                "titleEn": "Technical Assistant",
                 "phone": "+3727309825",
                 "name": "Mari-Triin Kirs",
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/Mari-TriinKirs.jpg"
@@ -473,13 +609,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidust tõendav dokument"
+                "header": "Eesti keele oskus vähemalt B1 tasemel",
+                "headerEn": "Estonian language proficiency of at least level B1 as defined in CEFR",
+                "term": "Muukeelse õppekeelega kooli lõpetanutel tuleb esitada eesti keele kui teise keele riigieksami­tunnistus või eesti keele taseme­tunnistus (B1)",
+                "termEn": "Or in-depth study of Estonian as the official language in the first academic year in the capacity of 60 ECTS credits and completion of the test on B1 level."
             },
             {
-                "term": "Sisseastumiskatse"
+                "header": "Keskharidust tõendav dokument",
+                "headerEn": "Secondary education is a prerequisite for applying",
+                "term": "Kandideerida saab ka kutseharidusega",
+                "termEn": "Vocational secondary education is also acceptable. Those who completed their secondary education outside of Estonia are required to submit the Estonian, English or Russian translations of the educational documents that are notarized (by a notary or sworn translator) and certified by a translation agency or the issuer of the document. \n\nThe original or a notarized or an officially certified copy of the document certifying secondary education of the student candidate who completed their secondary education outside Estonia must be confirmed by the certificate (apostil) of the issuing country or legalized. \n\nThe educational documents issued in the Russian Federation, Lithuania, Latvia, Ukraine, and Poland do not need a certification (with an apostil) or legalization. \n\nThe student candidate who acquired their secondary education outside the European Union must submit the assessment decision of the Academic Recognition Information Centre ([the Estonian ENIC / NARIC](https://harno.ee/eesti-enicnaric))  of the compliance of the educational documents of the foreign country with the documents valid in the Estonian education system. \n\nAll the documents have to be submitted to the Admission Committee before the beginning of speciality subject exams."
+            },
+            {
+                "header": "Sisseastumiskatse",
+                "headerEn": "Entrance exams",
+                "term": "Pallase sisseastumiseksamid toimuvad virtuaalselt. \n\nEksamiülesannete kirjeldused ja täpsed juhised kandidaadile tulevad SAIS-i.",
+                "termEn": "Entrance exams at Pallas in 2023 are web-based. \n\nThe list of items necessary for exams can be found on SAIS next to the respective exam description. In addition, mobile phone or computer equipped with webcamera, microphone and internet connection is required."
             }
         ],
         "name": "Tekstiil",
+        "nameEn": "Textile",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/752?format=json",
         "cost": {
             "amount": 0,

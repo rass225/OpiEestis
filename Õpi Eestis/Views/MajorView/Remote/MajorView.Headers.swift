@@ -96,11 +96,11 @@ extension MajorView {
                 .setColor(.white, model.college.palette.base.gradient)
                 .frame(width: 24, alignment: .leading)
             HStack(spacing: 4) {
-                Text(Theme.Locale.Major.review.capitalizedSentence)
+                Text(Theme.Locale.Major.review)
                     .setFont(.body, .semibold, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.black)
-                Text("(\(Theme.Locale.Major.optional))")
+                Text(Theme.Locale.Major.optional)
                     .setFont(.subheadline, .regular, .rounded)
                     .textCase(.none)
                     .setColor(Theme.Colors.gray)
@@ -131,7 +131,7 @@ extension MajorView {
                 .setFont(.body, .regular, .rounded)
                 .setColor(.white, model.college.palette.base.gradient)
                 .frame(width: 24, alignment: .leading)
-            Text(Theme.Locale.Major.reviews.capitalizedSentence)
+            Text(Theme.Locale.Major.reviews)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
                 .setColor(Theme.Colors.black)
@@ -144,7 +144,7 @@ extension MajorView {
                 if !model.reviews.compactMap(\.text).isEmpty && !model.reviews.contains(where: { $0.user.id == user.id && $0.text != nil }) {
                     Button(action: model.openNewReviewView) {
                         HStack(spacing: 4) {
-                            Text(Theme.Locale.Major.add.capitalized)
+                            Text(Theme.Locale.Major.add)
                                 .textCase(.none)
                                 .setFont(.subheadline, .medium, .rounded)
                             Theme.Icons.plus

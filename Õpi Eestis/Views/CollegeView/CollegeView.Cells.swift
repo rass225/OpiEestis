@@ -6,7 +6,7 @@ extension CollegeView {
     @ViewBuilder
     func statisticCell(
         topLabel: String,
-        bottomLabel: String,
+        bottomLabel: LocalizedStringKey,
         image: Image
     ) -> some View {
         HStack(alignment: .center, spacing: 5){

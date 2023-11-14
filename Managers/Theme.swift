@@ -64,10 +64,10 @@ struct Theme {
     
     enum Locale {
         enum Tabs {
-            static let schools: String = "Koolid"
-            static let map: String = "Kaart"
-            static let favorites: String = "Lemmikud"
-            static let profile: String = "Profiil"
+            static let schools: LocalizedStringKey = "tab_schools"
+            static let map: LocalizedStringKey = "tab_map"
+            static let favorites: LocalizedStringKey = "tab_favorites"
+            static let profile: LocalizedStringKey = "tab_profile"
         }
        
         enum App {
@@ -75,7 +75,7 @@ struct Theme {
         }
         
         enum Favorites {
-            static let unauthenticated: String = "Lemmikute vaatamiseks logi sisse"
+            static let unauthenticated: LocalizedStringKey = "favorites_unauthenticated"
             static let empty: String = "Sul ei ole ühtegi lemmikut lisatud"
             static let oneYear: String = "aasta"
             static let multipleYears: String = "aastat"
@@ -84,113 +84,180 @@ struct Theme {
         }
         
         enum Map {
-            static let unauthenticated: String = "Kaardi vaatamiseks logi sisse"
-            static let directions: String = "Juhised"
-            static let waze: String = "Waze"
-            static let googleMaps: String = "Google Maps"
-            static let appleMaps: String = "Apple Maps"
+            static let unauthenticated: LocalizedStringKey = "map_unauthenticated"
+            static let directions: LocalizedStringKey = "map_directions"
+            static let waze: LocalizedStringKey = "map_waze"
+            static let googleMaps: LocalizedStringKey = "map_googleMaps"
+            static let appleMaps: LocalizedStringKey = "map_appleMaps"
         }
         
         enum Profile {
-            static let unauthenticated: String = "Profiili vaatamiseks logi sisse"
-            static let myAccount: String = "Minu konto"
-            static let settings: String = "Seaded"
-            static let about: String = "Rakendusest"
-            static let donations: String = "Meeldib app? Aita arendajat"
-            static let logout: String = "Logi välja"
+            static let unauthenticated: LocalizedStringKey = "profile_unauthenticated"
+            static let myAccount: LocalizedStringKey = "profile_myAccount"
+            static let settings: LocalizedStringKey = "profile_settings"
+            static let about: LocalizedStringKey = "profile_about"
+            static let donations: LocalizedStringKey = "profile_donations"
+            static let logout: LocalizedStringKey = "profile_logout"
         }
         
         enum MyAccount {
-            static let addPhoto: String = "Lisa foto"
-            static let editPhoto: String = "Muuda fotot"
-            static let name: String = "Nimi"
-            static let firstName: String = "Eesnimi"
-            static let lastName: String = "Perekonnanimi"
-            static let email: String = "Email"
-            static let title: String = "Minu konto"
+            static let addPhoto: LocalizedStringKey = "myAccount_addPhoto"
+            static let editPhoto: LocalizedStringKey = "myAccount_editPhoto"
+            static let name: LocalizedStringKey = "myAccount_name"
+            static let firstName: LocalizedStringKey = "myAccount_firstName"
+            static let lastName: LocalizedStringKey = "myAccount_lastName"
+            static let email: LocalizedStringKey = "myAccount_email"
+            static let title: LocalizedStringKey = "myAccount_title"
         }
         
         enum Settings {
-            static let title: String = "Seaded"
-            static let language: String = "Keel"
-            static let estonian: String = "Eesti keel"
-            static let english: String = "Inglise keel"
+            static let title: LocalizedStringKey = "settings_title"
+            static let language: LocalizedStringKey = "settings_language"
         }
         
         enum About {
-            static let title: String = "Rakendusest"
+            static let title: LocalizedStringKey = "about_title"
             static let author: String = "Designed and developed by Rasmus Tauts."
             static let copyright: String = "Copyright © 2019 Rasmus Tauts. All rights reserved."
-            static let description: String = "Õpi Eestis on ainulaadne mobiilirakendus, mis pakub sulle võimalust leida omale sobiv teekond õpingute jätkamiseks. Kunagi varem pole protsess nii lihtne olnud. Tutvu erinevate Eesti ülikoolidega ning tee oma valik väljatoodud erialade seast. Soovid õppida ärindust, kunstiteadusi, kirjandust või hoopis midagi muud? Valik on sinu! \n\nRakenduse eesmärk on laiendada eestimaalaste teadlikkust Eestis pakutavate õppimisvõimaluste kohta ja lihtsustada informatsiooni kättesaadavust. Rakendus Õpi Eestis loob eeldused edendada haridust ning aidata inimestel oma unistused täita. Informatsioon on kogutud kokku nii kõrgkoolide ametlikelt kodulehekülgedelt kui ka teistest teabeallikatest. \n\nErialade kohta käiv teave pärineb 2023/2024 õppeaastast."
+            static let description: LocalizedStringKey = "about_description"
         }
         
         enum Major {
-            static let studyYear: String = "Õppeaasta"
-            static let studyType: String = "Õppevorm"
-            static let eap: String = "EAP"
-            static let ekap: String = "EKAP"
-            static let duration: String = "Kestus"
-            static let infintiy: String = "∞"
-            static let language: String = "Keel"
-            static let description: String = "Kirjeldus"
-            static let modules: String = "Moodulid"
-            static let requirements: String = "Vastuvõtt"
-            static let outcomes: String = "Õpiväljundid"
-            static let homepage: String = "Koduleht"
-            static let personnel: String = "Personal"
-            static let location: String = "Asukoht"
-            static let generalData: String = "Üldandmed"
-            static let addReview: String = "Lisa arvustus"
-            static let noReviews: String = "Ühtegi arvustust pole veel lisatud"
-            static let review: String = "Arvustus"
-            static let reviews: String = "Arvustused"
-            static let rating: String = "Hinnang"
-            static let amountOfRatings: String = "hinnangud"
-            static let delete: String = "Kustuta"
-            static let goToMajorWebsite: String = "Tutvu lähemalt erialaga kooli kodulehel"
-            static let cost: String = "Maksumus"
-            static let amount: String = "Maht"
-            static let optional: String = "vabatahtlik"
-            static let spotCount: String = "Õppekohtade arv"
-            static let years: String = "aastat"
-            static let add: String = "Lisa"
-            static let post: String = "Postita"
+            static let studyYear: LocalizedStringKey = "major_studyYear"
+            static let studyType: LocalizedStringKey = "major_studyType"
+            static let eap: LocalizedStringKey = "major_eap"
+            static let ekap: LocalizedStringKey = "major_ekap"
+            static let duration: LocalizedStringKey = "major_duration"
+            static let infintiy: LocalizedStringKey = "major_infinity"
+            static let language: LocalizedStringKey = "major_language"
+            static let description: LocalizedStringKey = "major_description"
+            static let modules: LocalizedStringKey = "major_modules"
+            static let requirements: LocalizedStringKey = "major_requirements"
+            static let outcomes: LocalizedStringKey = "major_outcomes"
+            static let homepage: LocalizedStringKey = "major_homepage"
+            static let personnel: LocalizedStringKey = "major_personnel"
+            static let location: LocalizedStringKey = "major_location"
+            static let generalData: LocalizedStringKey = "major_generalData"
+            static let addReview: LocalizedStringKey = "major_addReview"
+            static let noReviews: LocalizedStringKey = "major_noReviews"
+            static let review: LocalizedStringKey = "major_review"
+            static let reviews: LocalizedStringKey = "major_reviews"
+            static let rating: LocalizedStringKey = "major_rating"
+            static let amountOfRatings: LocalizedStringKey = "major_amountOfRatings"
+            static let delete: LocalizedStringKey = "major_delete"
+            static let goToMajorWebsite: LocalizedStringKey = "major_goToMajorWebsite"
+            static let cost: LocalizedStringKey = "major_cost"
+            static let amount: LocalizedStringKey = "major_amount"
+            static let optional: LocalizedStringKey = "major_optional"
+            static let spotCount: LocalizedStringKey = "major_spotCount"
+            static let years: LocalizedStringKey = "major_years"
+            static let add: LocalizedStringKey = "major_add"
+            static let post: LocalizedStringKey = "major_post"
+            static let outcomesLabel: LocalizedStringKey = "major_outcomesLabel"
+            static let na: LocalizedStringKey = "major_na"
         }
         
         enum Majors {
-            static let searchMajors: String = "Otsi eriala"
-            static let filters: String = "Filtrid"
-            static let studyLevel: String = "Õppeaste"
-            static let language: String = "Õppekeel"
-            static let all: String = "Kõik"
-            static let city: String = "Linn"
-            static let duration: String = "Kestus"
-            static let cost: String = "Maksumus"
-            static let years: String = "aastat"
+            static let searchPlaceholder: LocalizedStringKey = "majors_searchPlaceholder"
+            static let filters: LocalizedStringKey = "majors_filters"
+            static let studyLevel: LocalizedStringKey = "majors_studyLevel"
+            static let language: LocalizedStringKey = "majors_language"
+            static let all: LocalizedStringKey = "majors_all"
+            static let city: LocalizedStringKey = "majors_city"
+            static let duration: LocalizedStringKey = "majors_duration"
+            static let cost: LocalizedStringKey = "majors_cost"
+            static let years: LocalizedStringKey = "majors_years"
+            static let free: LocalizedStringKey = "majors_cost_free"
+            static let paid: LocalizedStringKey = "majors_cost_paid"
+        }
+        
+        enum Duration {
+            static let fiveAndHalfYears: LocalizedStringKey = "duration_five_and_half_years"
+            static let fiveYears: LocalizedStringKey = "duration_five_years"
+            static let fourAndHalfYears: LocalizedStringKey = "duration_four_and_half_years"
+            static let fourYears: LocalizedStringKey = "duration_four_years"
+            static let oneAndHalfYears: LocalizedStringKey = "duration_one_and_half_years"
+            static let oneYear: LocalizedStringKey = "duration_one_year"
+            static let sixYears: LocalizedStringKey = "duration_six_years"
+            static let threeAndHalfYears: LocalizedStringKey = "duration_three_and_half_years"
+            static let threeYears: LocalizedStringKey = "duration_three_years"
+            static let twoAndHalfYears: LocalizedStringKey = "duration_two_and_half_years"
+            static let twoYears: LocalizedStringKey = "duration_two_years"
+            static let halfYear: LocalizedStringKey = "duration_half_year"
+            static let fourFifthsYear: LocalizedStringKey = "duration_four_fifths_year"
+            
+            static func getYears(amount: Double) -> LocalizedStringKey {
+                switch amount {
+                case 0.5: return Self.halfYear
+                case 0.8: return Self.fourFifthsYear
+                case 1: return Self.oneYear
+                case 1.5: return Self.oneAndHalfYears
+                case 2: return Self.twoYears
+                case 2.5: return Self.twoAndHalfYears
+                case 3: return Self.threeYears
+                case 3.5: return Self.threeAndHalfYears
+                case 4: return Self.fourYears
+                case 4.5: return Self.fourAndHalfYears
+                case 5: return Self.fiveYears
+                case 5.5: return Self.fiveAndHalfYears
+                case 6: return Self.sixYears
+                default:
+                    return "Issue"
+                }
+            }
         }
         
         enum College {
-            static let more: String = "Rokhem"
-            static let less: String = "Vähem"
-            static let students: String = "Õpilast"
-            static let major: String = "Eriala"
-            static let cities: String = "Linnas"
-            static let back: String = "Tagasi"
-            static let lookVirtualTour: String = "Vaata virtuaaltuuri"
-            static let call: String = "Helista"
-            static let email: String = "Email"
-            static let homepage: String = "Koduleht"
-            static let contact: String = "Kontakt"
-            static let admission: String = "Vastuvõtt"
-            static let aboutSchool: String = "Koolist"
-            static let location: String = "Asukoht"
-            static let majors: String = "Erialad"
+            static let more: LocalizedStringKey = "college_more"
+            static let less: LocalizedStringKey = "college_less"
+            static let students: LocalizedStringKey = "college_students"
+            static let major: LocalizedStringKey = "college_major"
+            static let cities: LocalizedStringKey = "college_cities"
+            static let back: LocalizedStringKey = "college_back"
+            static let lookVirtualTour: LocalizedStringKey = "college_lookVirtualTour"
+            static let call: LocalizedStringKey = "college_call"
+            static let email: LocalizedStringKey = "college_email"
+            static let homepage: LocalizedStringKey = "college_homepage"
+            static let admission: LocalizedStringKey = "college_admission"
+            static let aboutSchool: LocalizedStringKey = "college_aboutSchool"
+            static let location: LocalizedStringKey = "college_location"
+            static let majors: LocalizedStringKey = "college_majors"
         }
         
         enum Interval {
             static let semester: String = "Semester"
             static let year: String = "Aasta"
             static let eap: String = "EAP"
+        }
+        
+        enum Outcomes {
+            static let title: LocalizedStringKey = "outcomes_title"
+        }
+        
+        enum Language {
+            static let all: LocalizedStringKey = "language_all"
+            static let english: LocalizedStringKey = "language_english"
+            static let estonian: LocalizedStringKey = "language_estonian"
+            static let french: LocalizedStringKey = "language_french"
+            static let german: LocalizedStringKey = "language_german"
+            static let russian: LocalizedStringKey = "language_russian"
+            static let spanish: LocalizedStringKey = "language_spanish"
+            static let inEnglish: LocalizedStringKey = "language_in_english"
+            static let inEstonian: LocalizedStringKey = "language_in_estonian"
+            static let inFrench: LocalizedStringKey = "language_in_french"
+            static let inGerman: LocalizedStringKey = "language_in_german"
+            static let inRussian: LocalizedStringKey = "language_in_russian"
+            static let inSpanish: LocalizedStringKey = "language_in_spanish"
+        }
+        
+        enum Level {
+            static let all: LocalizedStringKey = "level_all"
+            static let applied: LocalizedStringKey = "level_applied"
+            static let bachelors: LocalizedStringKey = "level_bachelors"
+            static let doctorate: LocalizedStringKey = "level_doctorate"
+            static let masters: LocalizedStringKey = "level_masters"
+            static let integrated: LocalizedStringKey = "level_integrated"
+            static let vocational: LocalizedStringKey = "level_vocational"
         }
     }
 }

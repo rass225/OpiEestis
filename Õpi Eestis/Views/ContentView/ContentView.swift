@@ -78,6 +78,7 @@ extension ContentView {
     @ViewBuilder
     func collegesTabItem() -> some View {
         Label(Theme.Locale.Tabs.schools, systemImage: "graduationcap.fill")
+//        Label(Theme.Locale.Tabs.schools, systemImage: "graduationcap.fill")
     }
     
     @ViewBuilder

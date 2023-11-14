@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @EnvironmentObject var localizationManager: LocalizationManager
     var body: some View {
         List {
             Section(content: languageContent, header: languageHeader)
@@ -22,35 +23,41 @@ extension SettingsView {
     
     @ViewBuilder
     func titleView() -> some View {
-        Text(Theme.Locale.Settings.title)
-            .setFont(.title3, .semibold, .rounded)
+        TitleView(Theme.Locale.Settings.title)
     }
     
     @ViewBuilder
     func languageHeader() -> some View {
         Text(Theme.Locale.Settings.language)
+            .textCase(.none)
+            .setFont(.subheadline, .regular, .rounded)
     }
     
     @ViewBuilder
     func languageContent() -> some View {
-        HStack {
-            Text(Theme.Locale.Settings.estonian)
-            Spacer()
-            Circle()
-                .fill(Theme.Colors.primary.opacity(0.2))
-                .frame(width: 24)
-                .overlay {
+        ForEach(AppLocale.allCases, id: \.self) { locale in
+            HStack {
+                Text(locale.label)
+                Spacer()
+                if localizationManager.currentLocale == locale {
                     Circle()
-                        .fill(Theme.Colors.primary.gradient)
-                        .frame(width: 14)
+                        .fill(Theme.Colors.primary.opacity(0.2))
+                        .frame(width: 24)
+                        .overlay {
+                            Circle()
+                                .fill(Theme.Colors.primary.gradient)
+                                .frame(width: 14)
+                        }
+                } else {
+                    Circle()
+                        .fill(Theme.Colors.primary.opacity(0.2))
+                        .frame(width: 24)
                 }
-        }
-        HStack {
-            Text(Theme.Locale.Settings.english)
-            Spacer()
-            Circle()
-                .fill(Theme.Colors.primary.opacity(0.2))
-                .frame(width: 24)
+            }
+            .contentShape(.rect)
+            .onTapGesture {
+                localizationManager.currentLocale = locale
+            }
         }
     }
 }

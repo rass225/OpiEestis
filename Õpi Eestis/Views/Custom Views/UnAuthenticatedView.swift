@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct UnauthenticatedView: View {
-    let title: String
+    let title: LocalizedStringKey
     let action: () -> ()
     
     var body: some View {

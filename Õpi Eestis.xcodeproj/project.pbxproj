@@ -27,6 +27,8 @@
 		C041550C2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json in Resources */ = {isa = PBXBuildFile; fileRef = C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */; };
 		C041550F2AC8535300858055 /* CollegeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041550E2AC8535300858055 /* CollegeMapView.swift */; };
 		C04179A92AFAC7CB00533EF4 /* OutcomesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04179A82AFAC7CB00533EF4 /* OutcomesView.swift */; };
+		C04179AC2AFD5E6D00533EF4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C04179AB2AFD5E6D00533EF4 /* Localizable.xcstrings */; };
+		C04179AE2AFD606E00533EF4 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04179AD2AFD606E00533EF4 /* LocalizationManager.swift */; };
 		C0460DCC25AF0A8F00E4A15D /* OpiEestisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */; };
 		C0460DD025AF0A9200E4A15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DCF25AF0A9200E4A15D /* Assets.xcassets */; };
 		C0460DD325AF0A9200E4A15D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0460DD225AF0A9200E4A15D /* Preview Assets.xcassets */; };
@@ -45,8 +47,6 @@
 		C061A35B2AC49184003D8D01 /* TallinnaMajanduskool.json in Resources */ = {isa = PBXBuildFile; fileRef = C061A35A2AC49184003D8D01 /* TallinnaMajanduskool.json */; };
 		C0644C2D2AEDB4E500AD6E0E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C2C2AEDB4E500AD6E0E /* SettingsView.swift */; };
 		C0644C2F2AEE6F1000AD6E0E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C2E2AEE6F1000AD6E0E /* User.swift */; };
-		C0644C332AEE727E00AD6E0E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C322AEE727E00AD6E0E /* SignupView.swift */; };
-		C0644C352AEE7D6000AD6E0E /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C342AEE7D6000AD6E0E /* SignupViewModel.swift */; };
 		C0644C372AEEA73B00AD6E0E /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C362AEEA73A00AD6E0E /* AuthenticationManager.swift */; };
 		C0644C3A2AEEDF2100AD6E0E /* SignInWithAppleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C392AEEDF2100AD6E0E /* SignInWithAppleHelper.swift */; };
 		C0644C3C2AEEE01C00AD6E0E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0644C3B2AEEE01C00AD6E0E /* UIViewController.swift */; };
@@ -184,6 +184,8 @@
 		C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IdaVirumaaKutsehariduskeskus.json; sourceTree = "<group>"; };
 		C041550E2AC8535300858055 /* CollegeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMapView.swift; sourceTree = "<group>"; };
 		C04179A82AFAC7CB00533EF4 /* OutcomesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomesView.swift; sourceTree = "<group>"; };
+		C04179AB2AFD5E6D00533EF4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C04179AD2AFD606E00533EF4 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
 		C0460DC825AF0A8F00E4A15D /* Õpi Eestis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Õpi Eestis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0460DCB25AF0A8F00E4A15D /* OpiEestisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpiEestisApp.swift; sourceTree = "<group>"; };
 		C0460DCF25AF0A9200E4A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -209,8 +211,6 @@
 		C0644C2C2AEDB4E500AD6E0E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C0644C2E2AEE6F1000AD6E0E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C0644C302AEE719B00AD6E0E /* Õpi Eestis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Õpi Eestis.entitlements"; sourceTree = "<group>"; };
-		C0644C322AEE727E00AD6E0E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
-		C0644C342AEE7D6000AD6E0E /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		C0644C362AEEA73A00AD6E0E /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		C0644C392AEEDF2100AD6E0E /* SignInWithAppleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleHelper.swift; sourceTree = "<group>"; };
 		C0644C3B2AEEE01C00AD6E0E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
@@ -418,9 +418,18 @@
 			path = CollegeMapView;
 			sourceTree = "<group>";
 		};
+		C04179AA2AFD5E5900533EF4 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				C04179AB2AFD5E6D00533EF4 /* Localizable.xcstrings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		C0460DBF25AF0A8E00E4A15D = {
 			isa = PBXGroup;
 			children = (
+				C04179AA2AFD5E5900533EF4 /* Localization */,
 				C0F85B3A2A71B2FE007A65F7 /* Managers */,
 				C0755B9727182B820045F6DC /* JSON */,
 				C0460DCA25AF0A8F00E4A15D /* Õpi Eestis */,
@@ -500,7 +509,6 @@
 				C007DBA82773E8B8002F6BD6 /* Modules */,
 				C0C59E412AA8E21E00423948 /* ProfileView */,
 				C0644C2B2AEDB4D300AD6E0E /* SettingsView */,
-				C0644C312AEE726C00AD6E0E /* SignupView */,
 				C019A7592AE967BC0001317C /* SpotifyView */,
 				C0CE18A22AE8395E008288F2 /* VimeoView */,
 				C09CFB7E2AEA6FED005048B0 /* WebView */,
@@ -578,15 +586,6 @@
 				C0644C2C2AEDB4E500AD6E0E /* SettingsView.swift */,
 			);
 			path = SettingsView;
-			sourceTree = "<group>";
-		};
-		C0644C312AEE726C00AD6E0E /* SignupView */ = {
-			isa = PBXGroup;
-			children = (
-				C0644C322AEE727E00AD6E0E /* SignupView.swift */,
-				C0644C342AEE7D6000AD6E0E /* SignupViewModel.swift */,
-			);
-			path = SignupView;
 			sourceTree = "<group>";
 		};
 		C0644C382AEEDEF800AD6E0E /* Authentication */ = {
@@ -727,6 +726,7 @@
 				C0B6D1792AB6273E009218FC /* Theme.swift */,
 				C0F85B552A781E3E007A65F7 /* UserDefaultsManager.swift */,
 				C0644C3D2AEEE10A00AD6E0E /* Utilities.swift */,
+				C04179AD2AFD606E00533EF4 /* LocalizationManager.swift */,
 				C0644C382AEEDEF800AD6E0E /* Authentication */,
 			);
 			path = Managers;
@@ -837,6 +837,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"et-EE",
 			);
 			mainGroup = C0460DBF25AF0A8E00E4A15D;
 			packageReferences = (
@@ -863,6 +864,7 @@
 				C0D2144D2715C147000AD3D0 /* Lennuakadeemia.json in Resources */,
 				C0D2144E2715C147000AD3D0 /* Mainor.json in Resources */,
 				C0D2144C2715C147000AD3D0 /* Kunstiakadeemia.json in Resources */,
+				C04179AC2AFD5E6D00533EF4 /* Localizable.xcstrings in Resources */,
 				C0D214512715C74D000AD3D0 /* EBS.json in Resources */,
 				C041550C2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json in Resources */,
 				C061A35B2AC49184003D8D01 /* TallinnaMajanduskool.json in Resources */,
@@ -951,6 +953,7 @@
 				C09CFB8C2AEBA7D9005048B0 /* CollegeView.Headers.swift in Sources */,
 				C073071B2AF2FD3B00BABA4C /* RatingView.swift in Sources */,
 				C0F85B632A7EA73E007A65F7 /* CollegeMajorView.swift in Sources */,
+				C04179AE2AFD606E00533EF4 /* LocalizationManager.swift in Sources */,
 				C0460E1725AF0C2700E4A15D /* ContentView.swift in Sources */,
 				C073071D2AF3017E00BABA4C /* MajorView.Headers.swift in Sources */,
 				C0CE18A12AE81364008288F2 /* YoutubeView.swift in Sources */,
@@ -977,7 +980,6 @@
 				C0F85B3E2A71BBD2007A65F7 /* Optional+Extension.swift in Sources */,
 				C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */,
 				C09CFB882AEBA75D005048B0 /* CollegeView.swift in Sources */,
-				C0644C332AEE727E00AD6E0E /* SignupView.swift in Sources */,
 				C09868932766F0DA00C18C44 /* Chevron.swift in Sources */,
 				C007DB892771918B002F6BD6 /* Environment.swift in Sources */,
 				C019A7582AE967B80001317C /* SpotifyView.swift in Sources */,
@@ -994,7 +996,6 @@
 				C0C59E362AA2616E00423948 /* Course.swift in Sources */,
 				C0644C3C2AEEE01C00AD6E0E /* UIViewController.swift in Sources */,
 				C032997B25CC192D00EB7862 /* Level.swift in Sources */,
-				C0644C352AEE7D6000AD6E0E /* SignupViewModel.swift in Sources */,
 				C0C59E302AA2613900423948 /* Module.swift in Sources */,
 				C07307232AF3027D00BABA4C /* MajorView.Buttons.swift in Sources */,
 				C07307212AF3023300BABA4C /* MajorView.Modifiers.swift in Sources */,
@@ -1170,7 +1171,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1197,7 +1198,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

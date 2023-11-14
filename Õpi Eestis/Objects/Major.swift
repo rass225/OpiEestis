@@ -3,10 +3,12 @@ import SwiftUI
 struct Major: Hashable, Codable, Identifiable {
     var id = UUID()
     var name: String
+    var nameEn: String?
     var level: Level
     var type: String
     var requirements: [Requirements]
     var description: [String]
+    var descriptionEn: String?
     var outcomes: [String]?
     var language: Language
     var majorWebsite: String
@@ -30,10 +32,12 @@ struct Major: Hashable, Codable, Identifiable {
     enum CodingKeys: String, CodingKey {
 //        case id
         case name
+        case nameEn
         case level
         case type
         case requirements
         case description
+        case descriptionEn
         case outcomes
         case language
         case majorWebsite
@@ -58,10 +62,12 @@ struct Major: Hashable, Codable, Identifiable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
 //        self.id = try container.decodeIfPresent(String.self, forKey: .id)
         self.name = try container.decode(String.self, forKey: .name)
+        self.nameEn = try container.decodeIfPresent(String.self, forKey: .nameEn)
         self.level = try container.decode(Level.self, forKey: .level)
         self.type = try container.decode(String.self, forKey: .type)
         self.requirements = try container.decode([Requirements].self, forKey: .requirements)
         self.description = try container.decode([String].self, forKey: .description)
+        self.descriptionEn = try container.decodeIfPresent(String.self, forKey: .descriptionEn)
         description = description.map { $0.replacingOccurrences(of: "\\n", with: "\n") }
         self.outcomes = try container.decodeIfPresent([String].self, forKey: .outcomes)
 //        outcomes = outcomes.map { $0.replacingOccurrences(of: "\r\n-", with: "\n\n**•**") }
@@ -107,7 +113,7 @@ struct Major: Hashable, Codable, Identifiable {
         }
     }
     
-    var eapLocale: String {
+    var eapLocale: LocalizedStringKey {
         hasEap() ? Theme.Locale.Major.eap : Theme.Locale.Major.ekap
     }
 }

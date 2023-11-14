@@ -31,11 +31,11 @@ extension ProfileView {
                     icon: Theme.Icons.about
                 )
                 .onTapGesture { appState.route(to: .about) }
-//                label(
-//                    title: Theme.Locale.Profile.settings,
-//                    icon: Theme.Icons.settings
-//                )
-//                .onTapGesture { appState.route(to: .settings) }
+                label(
+                    title: Theme.Locale.Profile.settings,
+                    icon: Theme.Icons.settings
+                )
+                .onTapGesture { appState.route(to: .settings) }
             }
             Section {
                 
@@ -76,7 +76,7 @@ extension ProfileView {
     }
     
     @ViewBuilder
-    func label(title: String, icon: Image) -> some View {
+    func label(title: LocalizedStringKey, icon: Image) -> some View {
         Label(title: {
             Text(title)
                 .setFont(.body, .regular, .rounded)
@@ -92,7 +92,8 @@ extension ProfileView {
 }
 
 struct DonationView: View {
+    let don: String = "Donations"
     var body: some View {
-        Text("Donations")
+        Text(don)
     }
 }

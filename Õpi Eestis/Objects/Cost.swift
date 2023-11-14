@@ -5,7 +5,7 @@ struct Cost: Hashable, Codable {
     var currency: Currency
     var interval: interval
     
-    var priceLabel: String {
-        amount == 0 ? Theme.Locale.Favorites.free : Theme.Locale.Favorites.paid
+    var priceLabel: LocalizedStringKey {
+        amount == 0 ? Theme.Locale.Majors.free : Theme.Locale.Majors.paid
     }
 }

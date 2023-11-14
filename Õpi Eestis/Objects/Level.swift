@@ -12,13 +12,13 @@ enum Level: String, CaseIterable, Codable, Comparable {
     
     var label: LocalizedStringKey {
         switch self {
-        case .applied: return "Rakenduskõrgharidus"
-        case .integrated: return "Integreeritud õpe"
-        case .bachelor: return "Bakalaureus"
-        case .masters: return "Magister"
-        case .doctor: return "Doktor"
-        case .vocational: return "Kutseharidus"
-        case .all: return "Kõik"
+        case .applied: return Theme.Locale.Level.applied
+        case .integrated: return Theme.Locale.Level.integrated
+        case .bachelor: return Theme.Locale.Level.bachelors
+        case .masters: return Theme.Locale.Level.masters
+        case .doctor: return Theme.Locale.Level.doctorate
+        case .vocational: return Theme.Locale.Level.vocational
+        case .all: return Theme.Locale.Level.all
         }
     }
     

@@ -37,7 +37,6 @@ struct AboutView: View {
     
     @ViewBuilder
     func titleView() -> some View {
-        Text(Theme.Locale.About.title)
-            .setFont(.title3, .semibold, .rounded)
+        TitleView(Theme.Locale.About.title)
     }
 }

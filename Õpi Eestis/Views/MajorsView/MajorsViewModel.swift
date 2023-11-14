@@ -322,11 +322,11 @@ extension MajorsView.Model {
         case free
         case paid
         
-        var label: String {
+        var label: LocalizedStringKey {
             switch self {
-            case .all: return "Kõik"
-            case .free: return "Tasuta"
-            case .paid: return "Tasuline"
+            case .all: return Theme.Locale.Majors.all
+            case .free: return Theme.Locale.Majors.free
+            case .paid: return Theme.Locale.Majors.paid
             }
         }
     }

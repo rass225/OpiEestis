@@ -69,13 +69,13 @@ struct FavoritesView: View {
                     .setFont(.callout, .medium, .rounded)
                     .setColor(Theme.Colors.black)
                 VStack(alignment: .leading, spacing: 24) {
-                    Text(major.level.rawValue.capitalized)
+                    Text(major.level.label)
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(college.palette.base)
                     HStack(spacing: 8) {
                         Text(major.language.inLanguageLabel)
                         Text("•")
-                        Text("\(major.duration.formattedDecimals(1)) \(major.duration == 1.0 ? Theme.Locale.Favorites.oneYear : Theme.Locale.Favorites.multipleYears)")
+                        Text(Theme.Locale.Duration.getYears(amount: major.duration))
                         Text("•")
                         Text(major.cost.priceLabel)
                     }

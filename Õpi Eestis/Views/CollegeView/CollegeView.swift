@@ -2,6 +2,7 @@ import SwiftUI
 import MapKit
 
 struct CollegeView: View {
+    @EnvironmentObject var localizationManager: LocalizationManager
     @EnvironmentObject var appState: AppState
     @StateObject var model: Model
 
@@ -98,7 +99,7 @@ extension CollegeView {
     @ViewBuilder
     func mainDataContent() -> some View {
         VStack(spacing: 0) {
-            Text(model.college.name.capitalized)
+            Text(localizationManager.currentLocale == .estonian ? model.college.name : model.college.nameEn)
                 .setFont(.title3, .semibold, .rounded)
                 .setColor(Theme.Colors.black)
                 .textCase(.none)

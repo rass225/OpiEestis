@@ -11,15 +11,6 @@ extension CollegeView {
     }
     
     @ViewBuilder
-    func contactHeader() -> some View {
-        Header(
-            label: Theme.Locale.College.contact,
-            image: Theme.Icons.phone,
-            color: model.college.palette.base
-        )
-    }
-    
-    @ViewBuilder
     func admissionHeader() -> some View {
         Header(
             label: Theme.Locale.College.admission,

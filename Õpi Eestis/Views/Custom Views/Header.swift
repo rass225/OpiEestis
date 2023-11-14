@@ -1,14 +1,14 @@
 import SwiftUI
 
 struct Header: View {
-    let label: String
+    let label: LocalizedStringKey
     let image: Image
     let color: Color
     let withTopPadding: Bool
     let isHidden: Bool
     
     init(
-        label: String,
+        label: LocalizedStringKey,
         image: Image,
         color: Color,
         withTopPadding: Bool = false,
@@ -27,7 +27,7 @@ struct Header: View {
                 .setFont(.body, .regular, .rounded)
                 .setColor(color.gradient)
                 .frame(width: 24, alignment: .leading)
-            Text(label.capitalized)
+            Text(label)
                 .setFont(.body, .semibold, .rounded)
                 .textCase(.none)
                 .setColor(Theme.Colors.black)

@@ -42,6 +42,44 @@ extension MajorView {
     }
     
     @ViewBuilder
+    func requirementCellEn(_ requirement: Requirements) -> some View {
+        if let header = requirement.headerEn {
+            DisclosureGroup(content: {
+                HStack(alignment: .top, spacing: 4){
+                    Text(.init(requirement.termEn ?? requirement.term))
+                        .tint(model.college.palette.base)
+                    Spacer()
+                    if let percentage = requirement.percentage {
+                        Text("\(percentage)%")
+                            .setFont(.subheadline, .medium, .rounded)
+                    }
+                }
+                .setColor(Theme.Colors.black)
+                .setFont(.subheadline, .regular, .rounded)
+                .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
+            }, label: {
+                Text(.init(header))
+                    .setColor(Theme.Colors.black)
+                    .setFont(.subheadline, .regular, .rounded)
+            })
+            .setFont(.subheadline, .semibold, .rounded)
+            .tint(model.college.palette.base)
+        } else {
+            HStack(alignment: .top, spacing: 4){
+                Text(.init(requirement.termEn ?? requirement.term))
+                    .tint(model.college.palette.base)
+                Spacer()
+                if let percentage = requirement.percentage {
+                    Text("\(percentage)%")
+                        .setFont(.subheadline, .medium, .rounded)
+                }
+            }
+            .setColor(Theme.Colors.black)
+            .setFont(.subheadline, .regular, .rounded)
+        }
+    }
+    
+    @ViewBuilder
     func outcomeCell(_ outcome: String) -> some View {
         Text(.init(outcome))
             .setFont(.subheadline, .regular, .rounded)
@@ -83,7 +121,7 @@ extension MajorView {
             VStack(alignment: .leading) {
                 Text(person.name)
                     .setFont(.subheadline, .regular, .rounded)
-                Text(person.title)
+                Text(localizationManager.currentLocale == .estonian ? person.title : person.titleEn ?? person.title)
                     .setColor(.gray)
                     .setFont(.footnote, .regular, .rounded)
             }

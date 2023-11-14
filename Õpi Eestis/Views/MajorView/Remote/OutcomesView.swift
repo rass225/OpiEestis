@@ -24,7 +24,7 @@ struct OutcomesView: View {
     
     @ViewBuilder
     func titleView() -> some View {
-        Text("Õpiväljundid")
+        Text(Theme.Locale.Outcomes.title)
             .setFont(.title3, .semibold, .rounded)
     }
 }

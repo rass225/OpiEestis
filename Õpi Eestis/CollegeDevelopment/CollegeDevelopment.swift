@@ -3,11 +3,13 @@ import FirebaseFirestore
 
 struct CollegeDevelopment: View {
     @StateObject var model: Model
+    let local: String = "Local"
+    let remote: String = "Remote"
     
     var body: some View {
         VStack {
             HStack {
-                Text("Local")
+                Text(local)
                     .setColor(.white)
                     .padding(.vertical, 12)
                     .maxWidth()
@@ -16,7 +18,7 @@ struct CollegeDevelopment: View {
                     .onTapGesture {
                         model.listSelection = .local
                     }
-                Text("Remote")
+                Text(remote)
                     .setColor(.white)
                     .padding(.vertical, 12)
                     .maxWidth()
@@ -140,6 +142,7 @@ extension CollegeDevelopment {
         let college: College
         let model: CollegeMajorView.Model
         private let dependencies: DependencyManager
+        let override: String = "Override"
         
         init(
             college: College,
@@ -172,7 +175,7 @@ extension CollegeDevelopment {
                             Button(action: {
                                 overrideMajor(major: model.major, schoolID: college.id, majorID: remoteMajor.id)
                             }, label: {
-                                Text("Override")
+                                Text(override)
                                     .padding()
                                     .background(Color.green)
                                     .setColor(.white)
@@ -186,13 +189,15 @@ extension CollegeDevelopment {
         func addMajorToSchool(major: Major, schoolID: String) {
             let db = Firestore.firestore()
             var newMajor = NewMajor(
-                id: "placeholder", 
+                id: "majorID",
                 collegeId: college.id,
                 name: major.name,
+                nameEn: major.nameEn,
                 level: major.level,
                 language: major.language,
-                majorWebsite: major.majorWebsite, 
+                majorWebsite: major.majorWebsite,
                 description: major.description,
+                descriptionEn: major.descriptionEn,
                 spots: major.spots,
                 duration: major.duration,
                 studyLocation: major.studyLocation,
@@ -279,25 +284,6 @@ extension CollegeDevelopment {
                 print("Added newMajor with ID: \(newMajorID) to Firestore")
             }
         }
-        
-//        func overrideMajor(major: Major, schoolID: String, majorID: String) {
-//            let db = Firestore.firestore()
-//            
-//            let schoolRef = db.collection("Schools").document(schoolID)
-//            let majorRef = schoolRef.collection("majors").document(majorID)
-//            
-//            // Delete the major's main document
-//            majorRef.delete { error in
-//                if let error = error {
-//                    print("Error deleting major from Firestore: \(error)")
-//                } else {
-//                    // After successfully deleting, add the major again using the previous function
-//                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-//                        self.addMajorToSchool(major: major, schoolID: schoolID)
-//                    }
-//                }
-//            }
-//        }
     }
 }
 
@@ -309,10 +295,12 @@ extension CollegeDevelopment.LocalMajorView {
             id: majorID,
             collegeId: college.id,
             name: major.name,
+            nameEn: major.nameEn,
             level: major.level,
             language: major.language,
             majorWebsite: major.majorWebsite,
             description: major.description,
+            descriptionEn: major.descriptionEn,
             spots: major.spots,
             duration: major.duration,
             studyLocation: major.studyLocation,

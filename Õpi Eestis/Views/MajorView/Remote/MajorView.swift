@@ -2,6 +2,7 @@ import SwiftUI
 import WebKit
 
 struct MajorView: View {
+    @EnvironmentObject var localizationManager: LocalizationManager
     @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     @Namespace var animation
@@ -83,7 +84,7 @@ private extension MajorView {
                 outcomesHeader()
                     .padding(.leading, 8)
                 HStack {
-                    Text("Vaata mida omandad eriala läbides")
+                    Text(Theme.Locale.Major.outcomesLabel)
                     Spacer()
                     Chevron(type: .normal)
                 }
@@ -112,15 +113,24 @@ extension MajorView {
                 type: .duration(duration: model.major.duration),
                 color: model.college.palette.base
             )
+            HStack(alignment: .center, spacing: 0) {
+                Theme.Icons.squareStack
+                    .setColor(model.college.palette.base.gradient)
+                    .setFont(.body, .regular, .rounded)
+                    .frame(width: 32, alignment: .leading)
+                HStack(spacing: 4) {
+                    Text(model.major.eapString)
+                    Text(model.major.eapLocale)
+                }
+                .setFont(.subheadline, .medium, .rounded)
+                .setColor(Theme.Colors.black)
+                Spacer()
+                Text(Theme.Locale.Major.amount)
+                    .setFont(.footnote, .regular, .rounded)
+                    .setColor(Theme.Colors.gray)
+            }
             MajorStat(
-                type: .eap(
-                    count: model.major.eapString,
-                    hasEAP: model.major.hasEap()
-                ),
-                color: model.college.palette.base
-            )
-            MajorStat(
-                type: .language(lang: model.major.language.label),
+                type: .language(lang: model.major.language),
                 color: model.college.palette.base
             )
             MajorStat(
@@ -174,14 +184,34 @@ extension MajorView {
         VStack {
             descriptionHeader()
                 .padding(.leading, 8)
-            ForEach(model.major.description, id: \.self) { element in
-                Text(.init(element))
-                    .setFont(.subheadline, .regular, .rounded)
-                    .tint(model.college.palette.base)
+            if localizationManager.currentLocale == .estonian {
+                ForEach(model.major.description, id: \.self) { element in
+                    Text(.init(element))
+                        .setFont(.subheadline, .regular, .rounded)
+                        .tint(model.college.palette.base)
+                }
+                .padding()
+                .background(Color.white)
+                .clipShape(.rect(cornerRadius: 12, style: .continuous))
+            } else {
+                if let englishgDescription = model.major.descriptionEn {
+                    Text(.init(englishgDescription))
+                        .setFont(.subheadline, .regular, .rounded)
+                        .tint(model.college.palette.base)
+                        .padding()
+                        .background(Color.white)
+                        .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                } else {
+                    ForEach(model.major.description, id: \.self) { element in
+                        Text(.init(element))
+                            .setFont(.subheadline, .regular, .rounded)
+                            .tint(model.college.palette.base)
+                    }
+                    .padding()
+                    .background(Color.white)
+                    .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                }
             }
-            .padding()
-            .background(Color.white)
-            .clipShape(.rect(cornerRadius: 12, style: .continuous))
         }
         .padding(.horizontal, 20)
     }
@@ -206,10 +236,10 @@ extension MajorView {
                 VStack {
                     HStack {
                         if model.averageRating > 0 {
-                            Text("\(model.averageRating, specifier: "%.1f")")
+                            Text("\(model.averageRating.decimals(1))")
                                 .setFont(.largeTitle, .semibold, .rounded)
                         } else {
-                            Text("N/A")
+                            Text(Theme.Locale.Major.na)
                                 .setFont(.largeTitle, .semibold, .rounded)
                         }
                         
@@ -217,9 +247,13 @@ extension MajorView {
                             .setFont(.title, .regular, .rounded)
                             .setColor(model.college.palette.base.gradient)
                     }
-                    Text("\(model.reviews.count) \(Theme.Locale.Major.amountOfRatings)")
-                        .setColor(.gray)
-                        .setFont(.footnote, .regular, .rounded)
+                    HStack(spacing: 2) {
+                        Text(String(model.reviews.count))
+                        Text(Theme.Locale.Major.amountOfRatings)
+                    }
+                    .setColor(.gray)
+                    .setFont(.footnote, .regular, .rounded)
+                        
                 }
                 .padding(.top)
                 .maxWidth()
@@ -290,7 +324,11 @@ extension MajorView {
     @ViewBuilder
     func requirementContent() -> some View {
         ForEach(model.requirements, id: \.id) { item in
-            requirementCell(item)
+            if localizationManager.currentLocale == .estonian {
+                requirementCell(item)
+            } else {
+                requirementCellEn(item)
+            }
         }
     }
     
@@ -330,8 +368,8 @@ extension MajorView {
 extension MajorView {
     struct MajorStat: View {
         let image: Image
-        let topText: String
-        let bottomText: String
+        let topText: LocalizedStringKey
+        let bottomText: LocalizedStringKey
         let color: Color
         
         init(type: StatType, color: Color) {
@@ -339,15 +377,16 @@ extension MajorView {
             switch type {
             case .duration(let duration):
                 image = Theme.Icons.clock
-                if duration.isInt() {
-                    topText = "\(Int(duration)) \(Theme.Locale.Major.years)"
-                } else {
-                    topText = duration.decimals(1) + " \(Theme.Locale.Major.years)"
-                }
+                topText = Theme.Locale.Duration.getYears(amount: duration)
                 bottomText = Theme.Locale.Major.duration
             case .spots(let spots):
                 image = Theme.Icons.person
-                topText = spots == 0 ? Theme.Locale.Major.infintiy : "\(spots)"
+                if spots == 0 {
+                    topText = Theme.Locale.Major.infintiy
+                } else {
+                    topText = "\(spots)"
+                }
+                
                 switch spots {
                 case 1: bottomText = Theme.Locale.Major.spotCount
                 default: bottomText = Theme.Locale.Major.spotCount
@@ -356,13 +395,13 @@ extension MajorView {
                 image = cost.currency.icon
                 topText = "\(cost.amount)€\(cost.interval.label.lowercased())"
                 bottomText = Theme.Locale.Major.cost
-            case .eap(let eap, let hasEap):
+            case .eap:
                 image = Theme.Icons.squareStack
-                topText = "\(eap) \(hasEap ? Theme.Locale.Major.eap : Theme.Locale.Major.ekap)"
+                topText = "s"
                 bottomText = Theme.Locale.Major.amount
             case .language(let language):
                 image = Theme.Icons.globe
-                topText = language
+                topText = language.label
                 bottomText = Theme.Locale.Major.language
             }
         }
@@ -388,7 +427,7 @@ extension MajorView {
         case duration(duration: Double)
         case spots(spots: Int)
         case cost(cost: Cost)
-        case eap(count: String, hasEAP: Bool)
-        case language(lang: String)
+        case eap(count: String, label: LocalizedStringKey)
+        case language(lang: Language)
     }
 }

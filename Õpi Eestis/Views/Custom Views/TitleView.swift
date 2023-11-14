@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct TitleView: View {
-    let label: String
+    let label: LocalizedStringKey
     
-    init(_ label: String) {
+    init(_ label: LocalizedStringKey) {
         self.label = label
     }
     var body: some View {

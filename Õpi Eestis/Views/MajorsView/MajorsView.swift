@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct MajorsView: View {
+    @EnvironmentObject var locale: LocalizationManager
     @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     
@@ -21,7 +22,8 @@ struct MajorsView: View {
                         },
                         addFavorite: {
                             model.addFavorite(major: major)
-                        }
+                        }, 
+                        locale: locale.currentLocale
                     )
                 }
             }, header: hiddenHeader)
@@ -29,7 +31,7 @@ struct MajorsView: View {
         .searchable(
             text: $model.debouncedSearchText,
             placement: .navigationBarDrawer(displayMode: .always),
-            prompt: Text(Theme.Locale.Majors.searchMajors)
+            prompt: Text(Theme.Locale.Majors.searchPlaceholder)
         )
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
@@ -78,7 +80,7 @@ private extension MajorsView {
     
     @ViewBuilder
     func hiddenHeader() -> some View {
-        Text("Test")
+        Text("")
             .opacity(0)
     }
     
@@ -136,13 +138,15 @@ extension MajorsView {
         let routeToMajor: () -> ()
         let removeFavorite: () -> ()
         let addFavorite: () -> ()
+        let locale: AppLocale
+        
         var body: some View {
             HStack(alignment: .center, spacing: 8) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(major.name)
+                    Text(locale == .estonian ? major.name : major.nameEn ?? major.name)
                         .setFont(.callout, .medium, .rounded)
                         .setColor(Theme.Colors.black)
-                    Text(major.level.rawValue.capitalized)
+                    Text(major.level.label)
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(baseColor)
                         .padding(.bottom, 22)
@@ -318,14 +322,15 @@ private extension MajorsView {
         Picker(selection: $model.selectedDuration, content: {
             Text(Theme.Locale.Majors.all)
                 .tag(Model.DurationSelection.all)
-            ForEach(model.durations, id: \.self) {
-                if $0.isInt() {
-                    Text("\(Int($0)) \(Theme.Locale.Major.years)")
-                        .tag(Model.DurationSelection.specific($0))
-                } else {
-                    Text(String(format: "%.1f", $0) + " \(Theme.Locale.Major.years)")
-                        .tag(Model.DurationSelection.specific($0))
-                }
+            ForEach(model.durations, id: \.self) { duration in
+                Text(Theme.Locale.Duration.getYears(amount: duration))
+                    .tag(Model.DurationSelection.specific(duration))
+//                if duration.isInt() {
+//                    
+//                } else {
+//                    Text(String(duration.decimals(1)) + " \(Theme.Locale.Majors.years)")
+//                        .tag(Model.DurationSelection.specific(duration))
+//                }
             }
         }, label: {
             HStack(spacing: 0) {

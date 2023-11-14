@@ -5,6 +5,7 @@ import MapKit
 struct College: Codable, Hashable, Identifiable {
     let id: String
     let name: String
+    let nameEn: String
     var branches: [CollegeLocation]
     let contact: CollegeContact
     var description: String
@@ -70,6 +71,7 @@ struct College: Codable, Hashable, Identifiable {
     enum CodingKeys: String, CodingKey {
         case id,
              name,
+             nameEn,
              branches,
              contact,
              description,
@@ -92,6 +94,7 @@ struct College: Codable, Hashable, Identifiable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         id = try values.decode(String.self, forKey: .id)
         name = try values.decode(String.self, forKey: .name)
+        nameEn = try values.decode(String.self, forKey: .nameEn)
         branches = try values.decode([CollegeLocation].self, forKey: .branches)
         contact = try values.decode(CollegeContact.self, forKey: .contact)
         description = try values.decode(String.self, forKey: .description)

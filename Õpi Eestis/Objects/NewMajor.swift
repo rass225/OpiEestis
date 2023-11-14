@@ -4,10 +4,12 @@ struct NewMajor: Hashable, Codable, Identifiable {
     var id: String
     var collegeId: String
     var name: String
+    var nameEn: String?
     var level: Level
     var language: Language
     var majorWebsite: String
     var description: [String]
+    var descriptionEn: String?
     var spots: Int
     var duration: Double
     var studyLocation: [City]
@@ -28,12 +30,12 @@ struct NewMajor: Hashable, Codable, Identifiable {
         return true
     }
     
-    var durationLabel: String {
-        "\(duration.formattedDecimals(1)) \(duration == 1.0 ? "aasta" : "aastat")"
+    var durationLabel: LocalizedStringKey {
+        Theme.Locale.Duration.getYears(amount: duration)
     }
     
-    var costLabel: String {
-        cost.amount == 0 ? "Tasuta" : "€€€"
+    var costLabel: LocalizedStringKey {
+        cost.amount == 0 ? Theme.Locale.Majors.free : Theme.Locale.Majors.paid
     }
     
     var eapString: String {
@@ -46,7 +48,7 @@ struct NewMajor: Hashable, Codable, Identifiable {
         }
     }
     
-    var eapLocale: String {
+    var eapLocale: LocalizedStringKey {
         hasEap() ? Theme.Locale.Major.eap : Theme.Locale.Major.ekap
     }
 }

@@ -22,27 +22,27 @@ enum Language: String, Codable, CaseIterable {
         }
     }
     
-    var label: String {
+    var label: LocalizedStringKey {
         switch self {
-        case .estonian: return "Eesti keel"
-        case .english: return "Inglise keel"
-        case .spanish: return "Hispaania keel"
-        case .french: return "Prantsuse keel"
-        case .german: return "Saksa keel"
-        case .russian: return "Vene keel"
-        case .all: return "Kõik"
+        case .estonian: return Theme.Locale.Language.estonian
+        case .english: return Theme.Locale.Language.english
+        case .spanish: return Theme.Locale.Language.spanish
+        case .french: return Theme.Locale.Language.french
+        case .german: return Theme.Locale.Language.german
+        case .russian: return Theme.Locale.Language.russian
+        case .all: return Theme.Locale.Language.all
         }
     }
     
     var inLanguageLabel: LocalizedStringKey {
         switch self {
-        case .estonian: return "Eesti keeles"
-        case .english: return "Inglise keeles"
-        case .spanish: return "Hispaania keeles"
-        case .french: return "Prantsuse keeles"
-        case .german: return "Saksa keeles"
-        case .russian: return "Vene keeles"
-        case .all: return "Kõik"
+        case .estonian: return Theme.Locale.Language.inEstonian
+        case .english: return Theme.Locale.Language.inEnglish
+        case .spanish: return Theme.Locale.Language.inSpanish
+        case .french: return Theme.Locale.Language.inFrench
+        case .german: return Theme.Locale.Language.inGerman
+        case .russian: return Theme.Locale.Language.inRussian
+        case .all: return Theme.Locale.Language.all
         }
     }
     

@@ -46,10 +46,10 @@ extension MajorView {
     @ViewBuilder
     func titleView() -> some View {
         VStack(alignment: .center, spacing: 0){
-            Text(model.major.name)
+            Text(localizationManager.currentLocale == .estonian ? model.major.name : model.major.nameEn ?? model.major.name)
                 .setFont(.title3, .semibold, .rounded)
                 .multilineTextAlignment(.center)
-            Text(model.major.level.rawValue.capitalized)
+            Text(model.major.level.label)
                 .setFont(.body, .semibold, .rounded)
                 .setColor(model.college.palette.base.gradient)
         }

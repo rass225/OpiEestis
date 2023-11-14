@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ModuleCell: View {
     let item: Module
-    let eapLabel: String
+    let eapLabel: LocalizedStringKey
     let color: Color
 
     var body: some View {
@@ -28,7 +28,7 @@ struct ModuleCell: View {
 
 struct SubmoduleCell: View {
     let item: Submodule
-    let eapLabel: String
+    let eapLabel: LocalizedStringKey
     let color: Color
 
     var body: some View {
@@ -48,7 +48,7 @@ struct SubmoduleCell: View {
 
 struct SubSubmoduleCell: View {
     let item: SubSubmodule
-    let eapLabel: String
+    let eapLabel: LocalizedStringKey
     let color: Color
 
     var body: some View {
@@ -68,7 +68,7 @@ struct SubSubmoduleCell: View {
 
 struct CoursesCell: View {
     let courses: [Course]
-    let eapLabel: String
+    let eapLabel: LocalizedStringKey
     let color: Color
 
     var body: some View {
@@ -81,7 +81,7 @@ struct CoursesCell: View {
 struct CourseCell: View {
     let name: String
     let eap: Double
-    let eapLabel: String
+    let eapLabel: LocalizedStringKey
     let color: Color
     var body : some View {
         HStack(spacing: 0){
