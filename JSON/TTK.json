@@ -13,37 +13,42 @@
             {
                 "email": "hindrek.kesler@tktk.ee",
                 "title": "Direktor, rakendusarhitektuuri õppekava juht",
+                "titleEn": "Director, Head of Applied Architecture Curriculum",
                 "phone": "+372666 4542",
                 "name": "Hindrek Kesler"
             },
             {
                 "email": "kristina.aimla@tktk.ee",
                 "title": "Juhiabi",
+                "titleEn": "Director's Assistant",
                 "phone": "+3726664543",
                 "name": "Kristina Aimla-Volkova"
             },
             {
                 "email": "maris.kiel@tktk.ee",
-                "title": "Õppekorralduse spetsialist ",
+                "title": "Õppekorralduse spetsialist",
                 "phone": "+37256830069",
                 "name": "Maris Kiel",
                 "photo": "https://media.licdn.com/dms/image/D4E03AQEFUjx3SdoMJg/profile-displayphoto-shrink_800_800/0/1680761901401?e=2147483647&v=beta&t=w7iTrkiHIM-ozZm2ELE3WtI5H7nF0B8X1nsxwYXGzmM"
             }
         ],
-        "type": "Ehitusinstituut",
+        "type": "",
         "studyType": "päevaõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 3.5,
         "requirements": [
             {
-                "term": "Lävend 3,4 keskmine hinne"
+                "term": "Lävend 3,4 keskmine hinne",
+                "termEn": "Lävend 3,4 keskmine hinne"
             },
             {
-                "term": "Sisseastumiskatsed (joonistamine, kompositsioon)"
+                "term": "Sisseastumiskatsed (joonistamine, kompositsioon)",
+                "termEn": "Sisseastumiskatsed (joonistamine, kompositsioon)"
             }
         ],
         "name": "Rakendusarhitektuur",
+        "nameEn": "Applied Architecture",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2993?format=json",
         "cost": {
             "amount": 0,
@@ -89,10 +94,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Hoonete ehitus",
+        "nameEn": "Building Construction",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2986?format=json",
         "cost": {
             "amount": 0,
@@ -138,10 +145,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Teedeehitus",
+        "nameEn": "Road Construction",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2987?format=json",
         "cost": {
             "amount": 0,
@@ -186,10 +195,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Rakendusgeodeesia",
+        "nameEn": "Construction Geodesy",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2988?format=json",
         "cost": {
             "amount": 0,
@@ -234,10 +245,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Transport ja logistika",
+        "nameEn": "Transport and Logistics",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1237?format=json",
         "cost": {
             "amount": 0,
@@ -282,13 +295,16 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "Lävend 3,4 keskmine hinne"
+                "term": "Lävend 3,4 keskmine hinne",
+                "termEn": "Lävend 3,4 keskmine hinne"
             },
             {
-                "term": "Grupivestlus"
+                "term": "Grupivestlus",
+                "termEn": "Grupivestlus"
             }
         ],
         "name": "Transpordi- ja liikluskorraldus",
+        "nameEn": "Transport and Traffic Management",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1227?format=json",
         "cost": {
             "amount": 0,
@@ -333,10 +349,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Ostu- ja hankekorraldus",
+        "nameEn": "Purchasing and Procurement Management",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1229?format=json",
         "cost": {
             "amount": 0,
@@ -381,13 +399,16 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             },
             {
-                "term": "Grupivestlus"
+                "term": "Grupivestlus",
+                "termEn": "Grupivestlus"
             }
         ],
         "name": "Keskkonnatehnoloogia ja -juhtimine",
+        "nameEn": "Environmental Technology and Management",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1861?format=json",
         "cost": {
             "amount": 0,
@@ -433,13 +454,16 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3.4 keskmine hinne"
+                "term": "3.4 keskmine hinne",
+                "termEn": "3.4 keskmine hinne"
             },
             {
-                "term": "Grupivestlus"
+                "term": "Grupivestlus",
+                "termEn": "Grupivestlus"
             }
         ],
         "name": "Tootmine ja tootmiskorraldus",
+        "nameEn": "Production and Organization of Production",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1859?format=json",
         "cost": {
             "amount": 0,
@@ -485,10 +509,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3.4 keskmine hinne"
+                "term": "3.4 keskmine hinne",
+                "termEn": "3.4 keskmine hinne"
             }
         ],
         "name": "Kinnisvara korrashoid",
+        "nameEn": "Facilities Management",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1217?format=json",
         "cost": {
             "amount": 0,
@@ -539,13 +565,16 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "Lävend 3,4 keskmine hinne"
+                "term": "Lävend 3,4 keskmine hinne",
+                "termEn": "Lävend 3,4 keskmine hinne"
             },
             {
-                "term": "Grupivestlus"
+                "term": "Grupivestlus",
+                "termEn": "Grupivestlus"
             }
         ],
         "name": "Moetööstus",
+        "nameEn": "Fashion Engineering",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1860?format=json",
         "cost": {
             "amount": 0,
@@ -591,13 +620,16 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "Lävend 3,4 keskmine hinne"
+                "term": "Lävend 3,4 keskmine hinne",
+                "termEn": "Lävend 3,4 keskmine hinne"
             },
             {
-                "term": "Sisseastumiskatse"
+                "term": "Sisseastumiskatse",
+                "termEn": "Sisseastumiskatse"
             }
         ],
         "name": "Autotehnika",
+        "nameEn": "Automotive Engineering",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1238?format=json",
         "cost": {
             "amount": 0,
@@ -643,10 +675,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Elektritehnika",
+        "nameEn": "Electrical Engineering",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1789?format=json",
         "cost": {
             "amount": 0,
@@ -692,10 +726,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Masinaehitus",
+        "nameEn": "Mechanical Engineering",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2546?format=json",
         "cost": {
             "amount": 0,
@@ -740,10 +776,12 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Robotitehnika",
+        "nameEn": "Robotics Engineering",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2547?format=json",
         "cost": {
             "amount": 0,
@@ -788,13 +826,16 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "Keskharidus"
+                "term": "Keskharidus",
+                "termEn": "Keskharidus"
             },
             {
-                "term": "Laia matemaatika riigieksami tulemus vähemalt 40 punkti"
+                "term": "Laia matemaatika riigieksami tulemus vähemalt 40 punkti",
+                "termEn": "Laia matemaatika riigieksami tulemus vähemalt 40 punkti"
             }
         ],
         "name": "Ärijuhtimine",
+        "nameEn": "Business Administration",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1236?format=json",
         "cost": {
             "amount": 0,
@@ -839,10 +880,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Majandusarvestus",
+        "nameEn": "Accounting",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1232?format=json",
         "cost": {
             "amount": 0,
@@ -887,10 +930,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Sotsiaaltöö",
+        "nameEn": "Social Work",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1234?format=json",
         "cost": {
             "amount": 0,
@@ -935,10 +980,12 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "3,4 keskmine hinne"
+                "term": "3,4 keskmine hinne",
+                "termEn": "3,4 keskmine hinne"
             }
         ],
         "name": "Teabehalduse ja infosüsteemide korraldus",
+        "nameEn": "Information Governance and Information Systems Management",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1235?format=json",
         "cost": {
             "amount": 0,

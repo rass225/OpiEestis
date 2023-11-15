@@ -26,10 +26,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Ärikorralduse spetsialist",
+        "nameEn": "Business Administration Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2790?format=json",
         "cost": {
             "amount": 0,
@@ -63,10 +66,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Väikeettevõtja",
+        "nameEn": "Small Business Entrepreneur",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2789?format=json",
         "cost": {
             "amount": 0,
@@ -89,8 +95,7 @@
                 "name": "Helen Raid",
                 "title": "Õppedirektor",
                 "email": "helen.raid@tmk.edu.ee",
-                "phone": "+3726507866",
-                "photo": ""
+                "phone": "+3726507866"
             }
         ],
         "type": "",
@@ -101,10 +106,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Personalispetsialist",
+        "nameEn": "Human Resource Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2714?format=json",
         "cost": {
             "amount": 0,
@@ -137,10 +145,12 @@
         "duration": 1,
         "requirements": [
             {
-                "term": "Ostu-ja hankespetsialisti erialale saavad õppima asuda need, kellel on vähemalt 4. kvalifikatsioonitaseme kutse järgmistel kutsealade: transport ja logistika ning ärindus, haldus või vastavate kompetentside olemasolu. Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning [portfoolio](https://docs.google.com/document/d/1Q3aHunuUntXMpVxCw8FUpsVm4d__dIky/edit?usp=sharing&ouid=101574084989071337799&rtpof=true&sd=true), mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11)."
+                "term": "Ostu-ja hankespetsialisti erialale saavad õppima asuda need, kellel on vähemalt 4. kvalifikatsioonitaseme kutse järgmistel kutsealade: transport ja logistika ning ärindus, haldus või vastavate kompetentside olemasolu. Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning [portfoolio](https://docs.google.com/document/d/1Q3aHunuUntXMpVxCw8FUpsVm4d__dIky/edit?usp=sharing&ouid=101574084989071337799&rtpof=true&sd=true), mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11).",
+                "termEn": "Ostu-ja hankespetsialisti erialale saavad õppima asuda need, kellel on vähemalt 4. kvalifikatsioonitaseme kutse järgmistel kutsealade: transport ja logistika ning ärindus, haldus või vastavate kompetentside olemasolu. Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning [portfoolio](https://docs.google.com/document/d/1Q3aHunuUntXMpVxCw8FUpsVm4d__dIky/edit?usp=sharing&ouid=101574084989071337799&rtpof=true&sd=true), mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11)."
             }
         ],
         "name": "Ostu- ja hankespetsialist",
+        "nameEn": "Purchasing and Procurement Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2275?format=json",
         "cost": {
             "amount": 0,
@@ -174,10 +184,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Nooremprojektijuht",
+        "nameEn": "Certified Project Management Associat",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1608?format=json",
         "cost": {
             "amount": 0,
@@ -210,10 +223,12 @@
         "duration": 1,
         "requirements": [
             {
-                "term": "Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning portfoolio, mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11). \n\nÕppima saavad asuda need, kellel on vähemalt 5. taseme kutse järgmistel kutsealadel: põllumajandus, kalandus, metsandus, toiduainetööstus, teenindus, tehnika, tootmine ja töötlemine või vastavate kompetentside olemasolu."
+                "term": "Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning portfoolio, mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11). \n\nÕppima saavad asuda need, kellel on vähemalt 5. taseme kutse järgmistel kutsealadel: põllumajandus, kalandus, metsandus, toiduainetööstus, teenindus, tehnika, tootmine ja töötlemine või vastavate kompetentside olemasolu.",
+                "termEn": "Sisseastumiseks on tarvis esitada eelneva hariduse tõend ning portfoolio, mis kinnitab Sinu omandatud oskusi ja vastavalt vastuvõtueeskirjas toodud lisadokumendid (lk 11). \n\nÕppima saavad asuda need, kellel on vähemalt 5. taseme kutse järgmistel kutsealadel: põllumajandus, kalandus, metsandus, toiduainetööstus, teenindus, tehnika, tootmine ja töötlemine või vastavate kompetentside olemasolu."
             }
         ],
         "name": "Meeskonnajuht",
+        "nameEn": "Team Leader",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1714?format=json",
         "cost": {
             "amount": 0,
@@ -247,13 +262,17 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             },
             {
-                "term": "Õpingute alustamiseks on vajalik inglise keele oskus vähemalt algtasemel A2."
+                "term": "Õpingute alustamiseks on vajalik inglise keele oskus vähemalt algtasemel A2.",
+                "termEn": "Õpingute alustamiseks on vajalik inglise keele oskus vähemalt algtasemel A2."
             }
         ],
         "name": "Kvaliteedispetsialist",
+        "nameEn": "Quality Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1603?format=json",
         "cost": {
             "amount": 0,
@@ -288,10 +307,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Turundusspetsialist",
+        "nameEn": "Marketing Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1611?format=json",
         "cost": {
             "amount": 0,
@@ -326,10 +348,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Sotsiaalmeedia spetsialist",
+        "nameEn": "Social Media Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1610?format=json",
         "cost": {
             "amount": 0,
@@ -363,10 +388,13 @@
         "requirements": [
             {
                 "header": "Sisseastumiskatse",
-                "term": "Sisseastumisel arvestatakse sisseastumistesti, õppepäeval loengutest osavõttu ja vestluse tulemust."
+                "headerEn": "Sisseastumiskatse",
+                "term": "Sisseastumisel arvestatakse sisseastumistesti, õppepäeval loengutest osavõttu ja vestluse tulemust.",
+                "termEn": "Sisseastumisel arvestatakse sisseastumistesti, õppepäeval loengutest osavõttu ja vestluse tulemust."
             }
         ],
         "name": "Õigusassistent",
+        "nameEn": "Legal Aid Assistant",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1607?format=json",
         "cost": {
             "amount": 0,
@@ -401,10 +429,13 @@
         "requirements": [
             {
                 "header": "Vestlus",
-                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumisel arvestatakse vestluse tulemust. Vestluse käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Sekretär",
+        "nameEn": "Secretary",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2717?format=json",
         "cost": {
             "amount": 0,
@@ -438,13 +469,16 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "Vestlus"
+                "term": "Vestlus",
+                "termEn": "Vestlus"
             },
             {
-                "term": "Sisseastumistest"
+                "term": "Sisseastumistest",
+                "termEn": "Sisseastumistest"
             }
         ],
         "name": "Raamatupidaja",
+        "nameEn": "Accountant",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2784?format=json",
         "cost": {
             "amount": 0,
@@ -478,14 +512,18 @@
         "duration": 1,
         "requirements": [
             {
-                "term": "Maksuspetsialisti õppekaval võib õppima asuda isik, kes on lõpetanud majandusarvestuse või raamatupidaja eriala või sooritanud Raamatupidaja 5. taseme või Raamatupidaja assistendi 1. kutseeksami."
+                "term": "Maksuspetsialisti õppekaval võib õppima asuda isik, kes on lõpetanud majandusarvestuse või raamatupidaja eriala või sooritanud Raamatupidaja 5. taseme või Raamatupidaja assistendi 1. kutseeksami.",
+                "termEn": "Maksuspetsialisti õppekaval võib õppima asuda isik, kes on lõpetanud majandusarvestuse või raamatupidaja eriala või sooritanud Raamatupidaja 5. taseme või Raamatupidaja assistendi 1. kutseeksami."
             },
             {
                 "header": "Vestlus",
-                "term": "Sisseastumiskatseteks on vestlus, mille käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
+                "headerEn": "Vestlus",
+                "term": "Sisseastumiskatseteks on vestlus, mille käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni.",
+                "termEn": "Sisseastumiskatseteks on vestlus, mille käigus õpitakse tundma kandidaati, tema sobivust erialale ja õpimotivatsiooni."
             }
         ],
         "name": "Maksuspetsialist",
+        "nameEn": "Tax Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1716?format=json",
         "cost": {
             "amount": 0,

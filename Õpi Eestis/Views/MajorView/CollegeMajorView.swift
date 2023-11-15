@@ -685,10 +685,10 @@ extension CollegeMajorView {
                 } else {
                     topText = String(format: duration.decimals(1)) + " aastat"
                 }
-                bottomText = "Theme.Locale.Major.description"
+                bottomText = "description"
             case .spots(let spots):
                 image = Theme.Icons.person
-                topText = spots == 0 ? "Theme.Locale.Major.description" : "\(spots)"
+                topText = spots == 0 ? "spots" : "\(spots)"
                 switch spots {
                 case 1: bottomText = "Õppekohtade arv"
                 default: bottomText = "Õppekohtade arv"
@@ -699,12 +699,12 @@ extension CollegeMajorView {
                 bottomText = "Maksumus"
             case .eap(let eap, let hasEap):
                 image = Theme.Icons.squareStack
-                topText = "\(eap) \(hasEap ? Theme.Locale.Major.description : Theme.Locale.Major.description)"
+                topText = "\(eap) \(hasEap ? "EAP" : "EKAP")"
                 bottomText = "Maht"
             case .language(let language):
                 image = Theme.Icons.globe
-                topText = language
-                bottomText = "Theme.Locale.Major.description"
+                topText = "language"
+                bottomText = "language"
             }
         }
         

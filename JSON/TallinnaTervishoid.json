@@ -15,6 +15,7 @@
             {
                 "name": "Kristi Puusepp",
                 "title": "Õenduse õppetooli juhataja",
+                "titleEn": "Head of Chair",
                 "email": "kristi.puusepp@ttk.ee",
                 "phone": "+3726711719",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_12.jpeg"
@@ -22,6 +23,7 @@
             {
                 "name": "Kaspar Kurve",
                 "title": "Referent",
+                "titleEn": "Referent",
                 "email": "kaspar.kurve@ttk.ee",
                 "phone": "+3726711710",
                 "photo": "https://www.ttk.ee/sites/default/files/kurve.jpg"
@@ -29,24 +31,28 @@
             {
                 "name": "Mikhail Bendera",
                 "title": "Simulatsioonijuht",
+                "titleEn": "IT Specialist",
                 "email": "mikhail.bendera@ttk.ee",
                 "phone": "+3726711758"
             },
             {
                 "name": "Eve Vister",
                 "title": "Tehniline assistent",
+                "titleEn": "Technical assistant",
                 "email": "eve.vister@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202022_3.jpg"
             },
             {
                 "name": "Agve Kask",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "agve.kask@ttk.ee",
                 "phone": "+3726711757"
             },
             {
                 "name": "Aivar Kärner",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "aivar.karner@ttk.ee",
                 "phone": "+3726711758",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%202019_30.jpeg"
@@ -54,6 +60,7 @@
             {
                 "name": "Aleksei Gaidajenko",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "aleksei.gaidajenko@ttk.ee",
                 "phone": "+3726711710",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_28.jpg"
@@ -61,6 +68,7 @@
             {
                 "name": "Alex Tamm",
                 "title": "Õe õppekava intensiivõenduse mooduli vastutaja, õppejõud-õpetaja",
+                "titleEn": "Responsible person of the Intensive Nursing module of the General Nurse Curriculum, Lecturer-teacher",
                 "email": "alex.tamm@ttk.ee",
                 "phone": "+3726711758",
                 "photo": "https://www.ttk.ee/sites/default/files/IMG_5680_0.jpg"
@@ -68,6 +76,7 @@
             {
                 "name": "Angela Eensalu-Lind",
                 "title": "Terviseõenduse valdkonna juht, õppejõud-lektor",
+                "titleEn": "Head of the Health Nursing module, Lecturer-lector",
                 "email": "angela.eensalulind@ttk.ee",
                 "phone": "+3726711720",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_0171-Edit_1.JPG"
@@ -75,6 +84,7 @@
             {
                 "name": "Anne Ehasalu",
                 "title": "Teadur",
+                "titleEn": "Researcher",
                 "email": "anne.ehasalu@ttk.ee",
                 "phone": "+3726711728",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_4073-Edit_1.JPG"
@@ -88,6 +98,7 @@
             {
                 "name": "Anžela Kaminskas",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "anzela.kaminskas@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_55.jpg"
@@ -95,6 +106,7 @@
             {
                 "name": "Attila Lőrincz",
                 "title": "Välis-külalisõppejõud-lektor",
+                "titleEn": "Visiting Foreign Lecturer-lector",
                 "email": "attila.lorincz@ttk.ee",
                 "phone": "+3726711758",
                 "photo": "https://www.ttk.ee/sites/default/files/Ati%20foto.JPG"
@@ -102,11 +114,13 @@
             {
                 "name": "Dickon William Weir-Hughes",
                 "title": "Välis-külalisõppejõud",
+                "titleEn": "Visiting Foreign Lecturer",
                 "email": "Dickon.Weir-Hughes@ouh.nhs.uk"
             },
             {
                 "name": "Eha Hõrrak",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "eha.horrak@ttk.ee",
                 "phone": "+3726711768",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202020_32.jpg"
@@ -114,17 +128,20 @@
             {
                 "name": "Elina Peri",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "elina.reva@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2001.2019_19.jpeg"
             },
             {
                 "name": "Elina Annikki Haavisto",
                 "title": "Välis-külalisõppejõud",
+                "titleEn": "Visiting Foreign Lecturer",
                 "email": "elina.haavisto@utu.fi"
             },
             {
                 "name": "Ene Vadi",
                 "title": "Õppejõud-kaaslektor",
+                "titleEn": "Associate Lecturer",
                 "email": "ene.vadi@ttk.ee",
                 "phone": "+3726711762",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_8.jpg"
@@ -132,6 +149,7 @@
             {
                 "name": "Irma Nool",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "irma.nool@ttk.ee",
                 "phone": "+3726711723",
                 "photo": "https://www.ttk.ee/sites/default/files/irma.jpg"
@@ -139,6 +157,7 @@
             {
                 "name": "Jandra Ristikivi",
                 "title": "Õe õppekava juht ja õenduse aluste mooduli juht, õppejõud-juhtivlektor",
+                "titleEn": "Head of the General Nurse Curriculum, Leading lecturer",
                 "email": "jandra.ristikivi@ttk.ee",
                 "phone": "+3726711706",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%202019_9.jpeg"
@@ -146,29 +165,34 @@
             {
                 "name": "Jane Kaju",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher (Kuressaare)",
                 "email": "jane.kaju@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2009.2022.jpg"
             },
             {
                 "name": "Janika Mavor",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "janika.mavor@ttk.ee",
                 "phone": "+3726711739"
             },
             {
                 "name": "Jekaterina Semennikova",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "jekaterina.semennikova@ttk.ee"
             },
             {
                 "name": "Jekaterina Šteinmiller",
                 "title": "Õppejõud-dotsent",
+                "titleEn": "Associate Professor",
                 "email": "jekaterina.steinmiller@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/ttk_pilt.jpg"
             },
             {
                 "name": "Jekaterina Umjarova",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "jekaterina.umjarova@ttk.ee",
                 "phone": "+3726711757",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202022_9.jpg"
@@ -176,18 +200,21 @@
             {
                 "name": "Kadri Strömberg-Järvis",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "kadri.stromberg-jarvis@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_66.jpg"
             },
             {
                 "name": "Kaja Lempu",
                 "title": "Kuressaare õppetöö koordinaator, õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "kaja.lempu@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_16.jpg"
             },
             {
                 "name": "Kadri Kööp",
                 "title": "Õe isiksusliku ja professionaalse arengu valdkonna juht, õppejõud-lektor",
+                "titleEn": "Head of the Personal and Professional Development of the Nurse module, Lecturer-lector",
                 "email": "kadri.koop@ttk.ee",
                 "phone": "+3726711739",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_9667-Edit.JPG"
@@ -195,17 +222,20 @@
             {
                 "name": "Katre Zirel",
                 "title": "Intensiivõenduse valdkonna juht õe ja terviseteaduse magistriõppe õppekaval, külalisõppejõud-lektor",
+                "titleEn": "Head of Intensive Nursing module of the General Nurse and Health Sciences Master’s Curriculum, Lecturer-lector",
                 "email": "katre.zirel@ttk.ee"
             },
             {
                 "name": "Kristi Rannus",
                 "title": "Terviseteaduse magistriõppekava juht, õppejõud-kaasprofessor",
+                "titleEn": "Head of the Health Sciences Masters Curriculum, Associate Professor",
                 "email": "kristi.rannus@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202018_6.jpeg"
             },
             {
                 "name": "Kurt Cassar",
                 "title": "Külalisõppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "kurt.cassar@ttk.ee",
                 "phone": "+3726711758",
                 "photo": "https://www.ttk.ee/sites/default/files/Kurt%20Cassar%20-%20Profile%20Picture.jpg"
@@ -213,6 +243,7 @@
             {
                 "name": "Liina Männiksaar",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "liina.manniksaar@ttk.ee",
                 "phone": "+3726711757",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_2.jpg"
@@ -220,6 +251,7 @@
             {
                 "name": "Liis Tõnismäe",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "liis.tonismae@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/TTK_045_%28Silver_Raidla%29_1.jpg"
@@ -227,12 +259,14 @@
             {
                 "name": "Liis Kristiin Vaher",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "liiskristiin.vaher@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_13.jpg"
             },
             {
                 "name": "Lily Parm",
                 "title": "Kliinilise õenduse valdkonna juht, õppejõud-lektor",
+                "titleEn": "Head of the Clinical Nursing module, Lecturer-lector",
                 "email": "lily.parm@ttk.ee",
                 "phone": "+3726711723",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_0443-Edit_1.JPG"
@@ -240,6 +274,7 @@
             {
                 "name": "Ljudmila Linnik",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "ljudmila.linnik@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_0961-Edit_1.JPG"
@@ -247,6 +282,7 @@
             {
                 "name": "Maarja Randväli",
                 "title": "Õppejõud-kaaslektor",
+                "titleEn": "Associate lecturer",
                 "email": "maarja.randvali@ttk.ee",
                 "phone": "+3726711757",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202020_20.jpg"
@@ -254,6 +290,7 @@
             {
                 "name": "Mare Tupits",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "mare.tupits@ttk.ee",
                 "phone": "+3726711723",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%202019_36.jpeg"
@@ -261,6 +298,7 @@
             {
                 "name": "Mare Vanatoa",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "mare.vanatoa@ttk.ee",
                 "phone": "+3726711768",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_22.jpg"
@@ -268,6 +306,7 @@
             {
                 "name": "Marelle Grünthal-Drell",
                 "title": "Alusainete valdkonna juht, õppejõud-assistent",
+                "titleEn": "Head of the Basic Subjects module, Lecturer-assistant",
                 "email": "marelle.grunthal-drell@ttk.ee",
                 "phone": "+3726711768",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202020_26.jpg"
@@ -275,6 +314,7 @@
             {
                 "name": "Marianne Annion",
                 "title": "Vaimse tervise õenduse mooduli juht, õppejõud-lektor",
+                "titleEn": "Head of the Mental Health Nursing module, Lecturer-lector",
                 "email": "marianne.annion@ttk.ee",
                 "phone": "+3726711739",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2011.2022.JPG"
@@ -282,12 +322,14 @@
             {
                 "name": "Marianne Lilienberg",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "marianne.lilienberg@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_83.jpg"
             },
             {
                 "name": "Merle Ojasoo",
                 "title": "Õppejõud-dotsent",
+                "titleEn": "Associate Professor",
                 "email": "merle.ojasoo@ttk.ee",
                 "phone": "+3726711710",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2001.2019.jpeg"
@@ -295,6 +337,7 @@
             {
                 "name": "Merilin Kuhi",
                 "title": "Õppejõud-kaaslektor",
+                "titleEn": "Lecturer-lector",
                 "email": "merilin.kuhi@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%202019_24.jpeg"
@@ -302,12 +345,14 @@
             {
                 "name": "Merle Talvik",
                 "title": "Uurimistöö metoodika valdkonna juht, õppejõud-kaasprofessor",
+                "titleEn": "Head of the Research Methodology module, Associate Professor",
                 "email": "merle.talvik@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/foto2019.jpeg"
             },
             {
                 "name": "Peeter-Harry Loit",
                 "title": "Külalisõppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "peeter-harry.loit@ttk.ee",
                 "phone": "+3726711768",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_1007-Edit_1.JPG"
@@ -315,12 +360,14 @@
             {
                 "name": "Pirge Toms",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "pirge.toms@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/TTK%20P.%20%28Toms%29.jpg"
             },
             {
                 "name": "Pirkko Elina Routasalo",
                 "title": "Välis-külalisõppejõud-dotsent",
+                "titleEn": "Visiting Associate Professor",
                 "email": "pirkko.routasalo@ttk.ee",
                 "phone": "+3726711762",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%20PirkkoRoutasalo.jpg"
@@ -328,6 +375,7 @@
             {
                 "name": "Raili Alandi",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "raili.alandi@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_2.jpeg"
@@ -335,16 +383,19 @@
             {
                 "name": "Anu Kärner",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "anu.karner@ttk.ee"
             },
             {
                 "name": "Elis Tenso",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "elis.tenso@ttk.ee"
             },
             {
                 "name": "Signe Juhkam",
                 "title": "Õppejõud-kaaslektor",
+                "titleEn": "Associate lecturer",
                 "email": "signe.juhkam@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_94.jpg"
@@ -352,31 +403,37 @@
             {
                 "name": "Ivar Käsper",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "ivar.kasper@ttk.ee"
             },
             {
                 "name": "Kaire Kindel",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "kaire.kindel@ttk.ee"
             },
             {
                 "name": "Helena Tern",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "helena.tern@ttk.ee"
             },
             {
                 "name": "Tuuli Volber",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "tuuli.volber@ttk.ee"
             },
             {
                 "name": "Heli Veber",
                 "title": "Õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "heli.veber@ttk.ee"
             },
             {
                 "name": "Siiri Maasen",
                 "title": "Õe õppekava praktika mooduli juht, õppejõud-lektor",
+                "titleEn": "Lecturer-lector",
                 "email": "siiri.maasen@ttk.ee",
                 "phone": "+3726711704",
                 "photo": "https://www.ttk.ee/sites/default/files/Siiri%20Maasen_1.jpg"
@@ -384,6 +441,7 @@
             {
                 "name": "Sirje Tarraste",
                 "title": "Õppejõud-assistent",
+                "titleEn": "Lecturer-assistant",
                 "email": "sirje.tarraste@ttk.ee",
                 "phone": "671 1762",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%202019_22.jpeg"
@@ -391,6 +449,7 @@
             {
                 "name": "Taimi Tulva",
                 "title": "Õppejõud-dotsent",
+                "titleEn": "Associate Professor",
                 "email": "taimi.tulva@ttk.ee",
                 "phone": "+3726711762",
                 "photo": "https://www.ttk.ee/sites/default/files/Taimi%20Tulva%2001.11.2016.jpg"
@@ -398,6 +457,7 @@
             {
                 "name": "Valentina Raudsepp",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "valentina.raudsepp@ttk.ee",
                 "phone": "+3726711724",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2001.2019_3.jpeg"
@@ -405,24 +465,28 @@
             {
                 "name": "Viktoria Repina",
                 "title": "Õppejõud-kaaslektor",
+                "titleEn": "Associate lecturer",
                 "email": "viktoria.repina@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_99.jpg"
             },
             {
                 "name": "Helina Paat",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "helina.paat@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto.jpeg"
             },
             {
                 "name": "Kristin Lichtfeldt",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Lecturer-teacher",
                 "email": "kristin.lichtfeldt@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_70.jpg"
             },
             {
                 "name": "Teele Vaga",
                 "title": "Õppejõud-assistent",
+                "titleEn": "Lecturer-assistant",
                 "email": "teele.vaga@ttk.ee",
                 "phone": "+3726711728",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202020_35.jpg"
@@ -435,16 +499,26 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)."
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10).",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)."
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5), eetilised hoiakud (5), valmisolek õppetööks (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)",
+                "termEn": "**1.** Õpimotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)"
             }
         ],
         "name": "Õde",
+        "nameEn": "General Nurse",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1548?format=json",
         "cost": {
             "amount": 0,
@@ -467,6 +541,7 @@
             {
                 "name": "Katrin Klein",
                 "title": "Ämmaemanda õppekava juht, õppejõud-lektor",
+                "titleEn": "Head of the Midwife Curriculum, Lecturer-lector",
                 "email": "katrin.klein@ttk.ee",
                 "phone": "+3726711709",
                 "photo": "https://www.ttk.ee/sites/default/files/IMG_5567.jpg"
@@ -474,6 +549,7 @@
             {
                 "name": "Silja Mets-Oja",
                 "title": "Õppejõud",
+                "titleEn": "Head of the Centre, Leading lecturer",
                 "email": "silja.mets-oja@ttk.ee",
                 "phone": "+3726711702",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2010.2018_1.jpeg"
@@ -482,18 +558,21 @@
             {
                 "name": "Riin Rosenperk",
                 "title": "Ämmaemanda õppekava õppejõud-õpetaja",
+                "titleEn": "Midwife Curriculum Lecturer-teacher",
                 "email": "riin.rosenperk@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_76.jpg"
             },
             {
                 "name": "Kaire Sildver",
                 "title": "Ämmaemanda õppekava õppejõud-lektor",
+                "titleEn": "Midwife Curriculum Lecturer-lector",
                 "email": "kaire.sildver@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/3421_%28Silver_Raidla%29_preview_1.jpeg"
             },
             {
                 "name": "Annely Kärema",
                 "title": "Ämmaemanda õppekava õppejõud-lektor",
+                "titleEn": "Midwife Curriculum Lecturer-lector",
                 "email": "annely.karema@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/annely.jpg"
             },
@@ -506,18 +585,21 @@
             {
                 "name": "Kristina Krivats-Arba",
                 "title": "Ämmaemanda õppekava õppejõud-õpetaja",
+                "titleEn": "Midwife Curriculum Lecturer-teacher",
                 "email": "kristina.krivats-arba@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/TTK_132_%28Silver_Raidla%29_1.jpg"
             },
             {
                 "name": "Marge Põldma",
                 "title": "Ämmaemanda õppekava õppejõud-õpetaja",
+                "titleEn": "Midwife Curriculum Lecturer-teacher",
                 "email": "marge.poldma@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_42.jpg"
             },
             {
                 "name": "Marika Merits",
                 "title": "Õppejõud-juhtivlektor",
+                "titleEn": "Leading lecturer",
                 "email": "marika.merits@ttk.ee",
                 "phone": "+3726711731",
                 "photo": "https://www.ttk.ee/sites/default/files/IMG_5866_Marika_Merits_1.jpg"
@@ -525,12 +607,14 @@
             {
                 "name": "Urve Kaasik-Aaslav",
                 "title": "Ämmaemanda õppekava õppejõud-lektor",
+                "titleEn": "Midwife Curriculum Lecturer-lector",
                 "email": "urve.kaasik-aaslav@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/3439_%28Silver_Raidla%29_preview.jpeg"
             },
             {
                 "name": "Larysa Shelestova",
                 "title": "Õppejõud-juhtivlektor",
+                "titleEn": "Leading lecturer",
                 "email": "larysa.shelestova@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto.png"
             }
@@ -542,16 +626,26 @@
         "duration": 4.5,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)."
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutsemotivatsioon (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5), eetilised hoiakud (5), valmisolek õppetööks (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)",
+                "termEn": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)",
             }
         ],
         "name": "Ämmaemand",
+        "nameEn": "Midwife",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1549?format=json",
         "cost": {
             "amount": 0,
@@ -574,6 +668,7 @@
             {
                 "name": "Vootele Tamme",
                 "title": "Optometristi õppekava juht, õppejõud-lektor",
+                "titleEn": "Head of the Optometrist Curriculum, Lecturer-lector",
                 "email": "vootele.tamme@ttk.ee",
                 "phone": "+3726711737",
                 "photo": "https://www.ttk.ee/sites/default/files/tamme_645x763.jpg"
@@ -581,6 +676,7 @@
             {
                 "name": "Lilian Ruuben",
                 "title": "Meditsiinitehnilise hariduse keskuse juhataja, õppejõud-juhtivlektor",
+                "titleEn": "Head of the Centre, Leading lecturer",
                 "email": "lilian.ruuben@ttk.ee",
                 "phone": "+3726711721",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_3675-Edit.JPG"
@@ -588,6 +684,7 @@
             {
                 "name": "Liis Roostik",
                 "title": "Optometristi õppekava õpetaja",
+                "titleEn": "Optometrist Curriculum Lecturer-teacher",
                 "email": "liis.roostik@ttk.ee",
                 "phone": "+3726711754",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%202019_33.jpeg"
@@ -600,16 +697,26 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10). "
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutse- ja õpimotivatsioon (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5), 5 erinevat peast lahendamise matemaatikaülesannet (liitmine, lahutamine, jagamine, korrutamine, astendamine, juurimine), iga õige vastus annab 2 punkti (10)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Kutse- ja õpimotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** 5 erinevat peast lahendamise matemaatikaülesannet (liitmine, lahutamine, jagamine, korrutamine, astendamine, juurimine), iga õige vastus annab 2 punkti (10).",
+                "termEn": "**1.** Kutse- ja õpimotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** 5 erinevat peast lahendamise matemaatikaülesannet (liitmine, lahutamine, jagamine, korrutamine, astendamine, juurimine), iga õige vastus annab 2 punkti (10)."
             }
         ],
         "name": "Optometrist",
+        "nameEn": "Optometrist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1551?format=json",
         "cost": {
             "amount": 0,
@@ -632,6 +739,7 @@
             {
                 "name": "Heli Kuuse",
                 "title": "Hambatehniku õppekava juht, õppejõud-lektor",
+                "titleEn": "Head of the Dental Technician Curriculum, Lecturer-lector",
                 "email": "heli.kuuse@ttk.ee",
                 "phone": "+3726711722",
                 "photo": "https://www.ttk.ee/sites/default/files/Heli%20Kuuse_pilt-45_TTK_0.jpg"
@@ -639,6 +747,7 @@
             {
                 "name": "Lilian Ruuben",
                 "title": "Meditsiinitehnilise hariduse keskuse juhataja, õppejõud-juhtivlektor",
+                "titleEn": "Head of the Centre, Leading lecturer",
                 "email": "lilian.ruuben@ttk.ee",
                 "phone": "+3726711721",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_3675-Edit.JPG"
@@ -651,19 +760,32 @@
         "duration": 3.5,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)."
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutsemotivatsioon, valmisolek õppetööks (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Kutsemotivatsioon, valmisolek õppetööks (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5)",
+                "termEn": "**1.** Kutsemotivatsioon, valmisolek õppetööks (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5)"
             },
             {
-                "term": "**Vastuvõtukatse: modelleerimine** \n\nAjakasutus – mudeli valmistamiseks on aega 40 minutit (10), detailide kopeerimine – kopeerida on vaja kuue erineva detaili kuju, arvestades seejuures nurki, kaldeid, ümarusi, teravuste kopeerimist ja puhtust (15), sügavuste kopeerimine – arvesse võetakse nelja erineva külje sügavuse kopeerimist (15)."
+                "header": "Vastuvõtukatse: modelleerimine",
+                "headerEn": "Vastuvõtukatse: modelleerimine",
+                "term": "**1.** Ajakasutus – mudeli valmistamiseks on aega 40 minutit (10) \n\n**2.** Detailide kopeerimine – kopeerida on vaja kuue erineva detaili kuju, arvestades seejuures nurki, kaldeid, ümarusi, teravuste kopeerimist ja puhtust (15) \n\n**3.** Sügavuste kopeerimine – arvesse võetakse nelja erineva külje sügavuse kopeerimist (15)",
+                "termEn": "**1.** Ajakasutus – mudeli valmistamiseks on aega 40 minutit (10) \n\n**2.** Detailide kopeerimine – kopeerida on vaja kuue erineva detaili kuju, arvestades seejuures nurki, kaldeid, ümarusi, teravuste kopeerimist ja puhtust (15) \n\n**3.** Sügavuste kopeerimine – arvesse võetakse nelja erineva külje sügavuse kopeerimist (15)"
             }
         ],
         "name": "Hambatehnik",
+        "nameEn": "Dental Technician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1558?format=json",
         "cost": {
             "amount": 0,
@@ -686,6 +808,7 @@
             {
                 "name": "Hanna-Maria Põldma",
                 "title": "Tegevusterapeudi õppekava juht, õppejõud-juhtivlektor",
+                "titleEn": "Head of the Occupational Therapist Curriculum, Leading lecturer",
                 "email": "hannamaria.poldma@ttk.ee",
                 "phone": "+3726711752",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_3881-Edit.JPG"
@@ -693,12 +816,14 @@
             {
                 "name": "Grete Eiche",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Occupational Therapist Curriculum Lecturer-teacher",
                 "email": "grete.eiche@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202020_23.jpg"
             },
             {
                 "name": "Anne-Mari Rebane",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Occupational Therapist Curriculum Lecturer-teacher",
                 "email": "anne-mari.rebane@ttk.ee",
                 "phone": "+3726711752",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_6.jpeg"
@@ -706,12 +831,14 @@
             {
                 "name": "Liia Tretjakova",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Occupational Therapist Curriculum Teacher",
                 "email": "liia.tretjakova@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_25.jpg"
             },
             {
                 "name": "Anneliis Aavik",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Occupational Therapist Curriculum Lecturer-Teacher",
                 "email": "anneliis.aavik@ttk.ee",
                 "phone": "+3726711752",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_11.jpg"
@@ -724,16 +851,26 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10). "
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutsemotivatsioon (5), kutsealatundmine (5), probleemülesande lahendamine vestluse käigus (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5), eetilised hoiakud (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Kutsemotivatsioon (5) \n**2.** Kutsealatundmine (5) \n**3.** Probleemülesande lahendamine vestluse käigus (5) \n**4.** Väljendusoskus eesti keeles (5) \n**5.** Suhtlemisoskus (5) \n**6.** Eetilised hoiakud (5).",
+                "termEn": "**1.** Kutsemotivatsioon (5) \n**2.** Kutsealatundmine (5) \n**3.** Probleemülesande lahendamine vestluse käigus (5) \n**4.** Väljendusoskus eesti keeles (5) \n**5.** Suhtlemisoskus (5) \n**6.** Eetilised hoiakud (5)."
             }
         ],
         "name": "Tegevusterapeut",
+        "nameEn": "Occupational Therapist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1557?format=json",
         "cost": {
             "amount": 0,
@@ -756,11 +893,15 @@
             {
                 "name": "Nele Kunder",
                 "title": "Tervisedenduse õppekava juht, õppejõud-lektor",
+                "titleEn": "Head of the Health Promotion Curriculum, Lecturer-lector",
+                "email": "nele.kunder@ttk.ee",
+                "phone": "+3726711756",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2001.2019_30.jpeg"
             },
             {
                 "name": "Epp Reedik",
                 "title": "Õppejõud-kaaslektor",
+                "titleEn": "Health Promotion Curriculum Lecturer-lector",
                 "email": "epp.reedik@ttk.ee",
                 "phone": "+3726711756",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto_19.jpg"
@@ -768,6 +909,7 @@
             {
                 "name": "Liina Riisenberg",
                 "title": "õppejõud-assistent",
+                "titleEn": "Health Promotion Curriculum Lecturer-assistant",
                 "email": "liina.riisenberg@ttk.ee",
                 "phone": "+3726711756",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202022_15.jpg"
@@ -775,6 +917,7 @@
             {
                 "name": "Linda Vaher-Kõrge",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Health Promotion Curriculum Lecturer-teacher",
                 "email": "linda.vaher-korge@ttk.ee",
                 "phone": "+3726711752",
                 "photo": "https://www.ttk.ee/sites/default/files/Pilt%20Vaher.png"
@@ -782,6 +925,7 @@
             {
                 "name": "Kristi Mõistus",
                 "title": "Õppejõud-õpetaja",
+                "titleEn": "Health Promotion Curriculum Lecturer-teacher",
                 "email": "kristi.moistus@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/foto%20KristiM%C3%B5istus.jpg"
             }
@@ -793,16 +937,26 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10). "
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutsemotivatsioon (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5), eetilised hoiakud (5), valmisolek õppetööks (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)",
+                "termEn": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)"
             }
         ],
         "name": "Terviseedendus",
+        "nameEn": "Health Promotion",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1559?format=json",
         "cost": {
             "amount": 0,
@@ -825,6 +979,7 @@
             {
                 "name": "Merle Kiloman",
                 "title": "Farmatseudi õppekava juht, õppejõud-kaaslektor",
+                "titleEn": "Head of the Assistant Pharmacist Curriculum",
                 "email": "merle.kiloman@ttk.ee",
                 "phone": "+3726711725",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2001.2019_30.jpeg"
@@ -832,6 +987,7 @@
             {
                 "name": "Monika Drews",
                 "title": "Inglise keelse farmatseudi õppekava juht, õppejõud-õpetaja",
+                "titleEn": "Head of the Assistant Pharmacist Curriculum, Assistant Pharmacist Curriculum Lecturer-teacher",
                 "email": "monika.drews@ttk.ee",
                 "phone": "+3726711761",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_3818-Edit_1.JPG"
@@ -844,19 +1000,32 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika.",
+                "termEn": "Keskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)."
+                "header": "Vastuvõtutest",
+                "headerEn": "Vastuvõtutest",
+                "term": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)",
+                "termEn": "**1.** Funktsionaalne lugemisoskus (10) \n**2.** Õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutsemotivatsioon, valmisolek õppetööks (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Kutsemotivatsioon, valmisolek õppetööks (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5)",
+                "termEn": "**1.** Kutsemotivatsioon, valmisolek õppetööks (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5)"
             },
             {
-                "term": "**Vastuvõtukatse: reaal- ja loodus- teaduslike ainete komplekstest** \n\nTestis hinnatakse üldiseid teadmisi keemiast, botaanikast, anatoomiast ja füsioloogiast. Test on arvutipõhine valikvastustega test, milles on 40 küsimust. Iga õige vastus annab ühe punkti.  "
+                "header": "Vastuvõtukatse: reaal- ja loodus- teaduslike ainete komplekstest",
+                "headerEn": "Vastuvõtukatse: reaal- ja loodus- teaduslike ainete komplekstest",
+                "term": "Testis hinnatakse üldiseid teadmisi keemiast, botaanikast, anatoomiast ja füsioloogiast. Test on arvutipõhine valikvastustega test, milles on 40 küsimust. Iga õige vastus annab ühe punkti.",
+                "termEn": "Testis hinnatakse üldiseid teadmisi keemiast, botaanikast, anatoomiast ja füsioloogiast. Test on arvutipõhine valikvastustega test, milles on 40 küsimust. Iga õige vastus annab ühe punkti."
             }
         ],
         "name": "Farmatseut",
+        "nameEn": "Assistant Pharmacist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1550?format=json",
         "cost": {
             "amount": 0,
@@ -869,15 +1038,18 @@
             "Tallinn"
         ],
         "description": [
-            "Farmatseut on spetsialist, kes tunneb ravimeid ja apteegitööd ning tegeleb apteegis ravimite valmistamise ja väljastamisega ning ravimitealase kliendinõustamisega. Ta võib töötada ka ravimite hulgimüügifirmades ja teistes farmaatsiaettevõtetes. Töö sellel erialal eeldab täpsust, korrektsust ja head suhtlemisoskust abivajajatega. \n\nÕppeaeg eriala omandamiseks on 3 aastat, millest 25 nädalat on õppepraktika apteekides. Väljaõppe aluseks on rahvusvaheliselt akrediteeritud õppekava, selle läbinud üliõpilane omandab rakenduskõrghariduse. Diplomi (ja koos sellega farmatseudi kutsekvalifikatsiooni) saamiseks tuleb sooritada eriala põhiaineid hõlmav lõpueksam. \n\nFarmatseudi elukutse nõuab häid reaalteadmisi ning vastavalt sellele on koostatud ka õppeprogramm. Esimesel õppeaastal omandatakse alusteadmised inimorganismi ehitusest ja talitlustest, mikrobioloogiast, botaanikast, geneetikast ning keemilistest ainetest ja nendega seotud protsessidest – teadmised, mis on aluseks ravimite ja ravimtaimede tundmisele ning nende kasutamisele. Erialakeelena õpitakse ladina keelt. \n\nTeisel ja kolmandal õppeaastal omandatakse erialased teadmised farmatseutilises keemias, farmakognoosias ja farmakoloogias; teadmised kaasaegsetest ravimpreparaatidest, nende toimest ja kasutamisest haiguste raviks; teadmised ja praktilised oskused ravimite valmistamiseks. Samuti omandatakse teadmised apteegitöö ja farmaatsia-ala korraldusest ning neid valdkondi reguleerivatest õigusaktidest. \n\nVajadus farmatseutide järele on Eestis suur. Sobiva töökoha leidmine ei valmista raskusi. Farmatseudi diplom ja kutsetunnistus võimaldavad erialasele tööle asuda ka teistes riikides. "
+            "At Tallinn Health Care College, admission is a constant process, which takes place during different admission periods around the year. Most admissions require an Estonian language certificate, but as of spring 2021, the admission is open for English-speaking candidates as well. English speaking candidates can apply to our new curriculum - Assistant Pharmacist (Professional higher education). Read more about applying to Assistant Pharmacist curriculum [HERE](https://ttk.ee/howtoapply). \n\nAssistant Pharmacist curriculum in English is unique in the Baltic Region and will be carried out for 3 years in a system of study cycles, including contact studies and mostly independent work and e-learning via Moodle and web-based seminars (e.g. Zoom). \n\nYou can see the specific information about contact studies and e-learning periods grouped by semesters and weeks [HERE](https://www.ttk.ee/sites/default/files/2023-03/assistant_pharmacist_learning_periods_varv_1.pdf). \n\nDuring the contact studies period students will take part of lectures, seminars and practical work in modern and well-equipped laboratories for example in chemistry, botany, phytotherapy and pharmaceutical technology. In addition to practical assignments in laboratories the students will have Pharmacy Practical Training (35 ECTS) which can be fulfilled in Estonia or other countries. Every year different field trips take place to introduce different aspects of pharmacy assistant profession and pharmacy industry. \n\nThe curriculum is focused on pharmacotherapy, pharmacology and phytotherapy. All lecturers of the curriculum are acclaimed professionals from different countries as well as from Estonia with long work experience in different academic fields and professional work. Students can take part of research projects, conferences and speciality events. Interdisciplinary studies help students to recognize problems outside their own profession and develop cooperation between different health care professionals. \n\n**Aim of the curriculum** \n\nThe aim of the curriculum to train assistant pharmacists with professional higher education, who are ready to work in general pharmacies but are also able to work in pharmaceutical and health care companies involved in handling medicines, medical products and health care products and to equip them with the resources required to maintain and develop their professional skills. \n\nStudents can use the help of tutors to get to know college life and different possibilities to get used to student life and study organization rules in Tallinn Health Care College. Different counselling services are available for psychological, professional and technical difficulties. During the 3-year program, students can take part of Estonian Language courses to obtain C1 level for working in Estonia. Students can be accommodated at Student Hostel, which is located near the College."
         ],
+        "descriptionEn": "At Tallinn Health Care College, admission is a constant process, which takes place during different admission periods around the year. Most admissions require an Estonian language certificate, but as of spring 2021, the admission is open for English-speaking candidates as well. English speaking candidates can apply to our new curriculum - Assistant Pharmacist (Professional higher education). Read more about applying to Assistant Pharmacist curriculum [HERE](https://ttk.ee/howtoapply). \n\nAssistant Pharmacist curriculum in English is unique in the Baltic Region and will be carried out for 3 years in a system of study cycles, including contact studies and mostly independent work and e-learning via Moodle and web-based seminars (e.g. Zoom). \n\nYou can see the specific information about contact studies and e-learning periods grouped by semesters and weeks [HERE](https://www.ttk.ee/sites/default/files/2023-03/assistant_pharmacist_learning_periods_varv_1.pdf). \n\nDuring the contact studies period students will take part of lectures, seminars and practical work in modern and well-equipped laboratories for example in chemistry, botany, phytotherapy and pharmaceutical technology. In addition to practical assignments in laboratories the students will have Pharmacy Practical Training (35 ECTS) which can be fulfilled in Estonia or other countries. Every year different field trips take place to introduce different aspects of pharmacy assistant profession and pharmacy industry. \n\nThe curriculum is focused on pharmacotherapy, pharmacology and phytotherapy. All lecturers of the curriculum are acclaimed professionals from different countries as well as from Estonia with long work experience in different academic fields and professional work. Students can take part of research projects, conferences and speciality events. Interdisciplinary studies help students to recognize problems outside their own profession and develop cooperation between different health care professionals. \n\n**Aim of the curriculum** \n\nThe aim of the curriculum to train assistant pharmacists with professional higher education, who are ready to work in general pharmacies but are also able to work in pharmaceutical and health care companies involved in handling medicines, medical products and health care products and to equip them with the resources required to maintain and develop their professional skills. \n\nStudents can use the help of tutors to get to know college life and different possibilities to get used to student life and study organization rules in Tallinn Health Care College. Different counselling services are available for psychological, professional and technical difficulties. During the 3-year program, students can take part of Estonian Language courses to obtain C1 level for working in Estonia. Students can be accommodated at Student Hostel, which is located near the College.",
         "eap": 180,
         "spots": 0,
         "majorWebsite": "https://www.ttk.ee/et/farmatseut-0",
+        "videoId": "DaV9dAtxBzs",
         "personnel": [
             {
                 "name": "Merle Kiloman",
                 "title": "Farmatseudi õppekava juht, õppejõud-kaaslektor",
+                "titleEn": "Head of the Assistant Pharmacist Curriculum",
                 "email": "merle.kiloman@ttk.ee",
                 "phone": "+3726711725",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2001.2019_30.jpeg"
@@ -885,6 +1057,7 @@
             {
                 "name": "Monika Drews",
                 "title": "Inglise keelse farmatseudi õppekava juht, õppejõud-õpetaja",
+                "titleEn": "Head of the Assistant Pharmacist Curriculum, Assistant Pharmacist Curriculum Lecturer-teacher",
                 "email": "monika.drews@ttk.ee",
                 "phone": "+3726711761",
                 "photo": "https://www.ttk.ee/sites/default/files/_MG_3818-Edit_1.JPG"
@@ -897,24 +1070,35 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKeskmine hinne järgmiste  gümnaasiumi lõputunnistuse õppeainete põhjal: füüsika, eesti keel (vene õppekeelega gümnaasiumi lõpetanutel riigikeel või eesti keel võõrkeelena), B-võõrkeel, keemia, matemaatika."
+                "term": "Certificate of completion of secondary education or equivalent (certified at the Estonian ENIC/NARIC Centre, if the certificate has been obtained abroad)",
+                "termEn": "Certificate of completion of secondary education or equivalent (certified at the Estonian ENIC/NARIC Centre, if the certificate has been obtained abroad)"
             },
             {
-                "term": "**Vastuvõtutest** \n\nFunktsionaalne lugemisoskus (10), õigekirjaoskus ja üldkeele sõnavara kasutamise oskus (10)."
+                "header": "Certificate of proficiency in English at least at the B2 level",
+                "headerEn": "Certificate of proficiency in English at least at the B2 level",
+                "term": "**Acceptable language certificates:** \n\n**1.** Cambridge language test \n**2.** IELTS language test \n**3.** TOEFL language test \n**4.** Innove Cambridge Assessment English C1 Advanced",
+                "termEn": "**Acceptable language certificates:** \n\n**1.** Cambridge language test \n**2.** IELTS language test \n**3.** TOEFL language test \n**4.** Innove Cambridge Assessment English C1 Advanced",
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nKutsemotivatsioon, valmisolek õppetööks (5), kutseala tundmine (5), väljendusoskus eesti keeles (5), suhtlemisoskus (5)."
+                "header": "Specialty Test",
+                "headerEn": "Specialty Test",
+                "term": "Covering Botany, Chemistry, Anatomy, and Physiology. The specialty test is in written form with multiple choice and short answer questions.",
+                "termEn": "Covering Botany, Chemistry, Anatomy, and Physiology. The specialty test is in written form with multiple choice and short answer questions."
             },
             {
-                "term": "**Vastuvõtukatse: reaal- ja loodus- teaduslike ainete komplekstest** \n\nTestis hinnatakse üldiseid teadmisi keemiast, botaanikast, anatoomiast ja füsioloogiast. Test on arvutipõhine valikvastustega test, milles on 40 küsimust. Iga õige vastus annab ühe punkti.  "
+                "header": "Admission interview",
+                "headerEn": "Admission interview",
+                "term": "In the interview, the following criteria will be assessed: vocational motivation, preparedness to study, knowledge of the profession, ability to express oneself in English, communication skills.",
+                "termEn": "In the interview, the following criteria will be assessed: vocational motivation, preparedness to study, knowledge of the profession, ability to express oneself in English, communication skills."
             }
         ],
         "name": "Farmatseut",
-        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1550?format=json",
+        "nameEn": "Assistant Pharmacist",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1556?format=json",
         "cost": {
-            "amount": 0,
+            "amount": 3100,
             "currency": "€",
-            "interval": "full"
+            "interval": "semester"
         }
     },
     {
@@ -932,6 +1116,7 @@
             {
                 "name": "Kristi Rannus",
                 "title": "Terviseteaduse magistriõppekava juht, õppejõud-kaasprofessor",
+                "titleEn": "Head of the Health Sciences Masters Curriculum, Associate Professor",
                 "email": "kristi.rannus@ttk.ee",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%202018_6.jpeg"
             }
@@ -943,16 +1128,26 @@
         "duration": 1.5,
         "requirements": [
             {
-                "term": "**Lõputunnistuse keskmine hinne** \n\nKaalutud keskmine hinne rakenduskõrghariduse akadeemilisel õiendil (diplomi lisa)"
+                "header": "Lõputunnistuse keskmine hinne",
+                "headerEn": "Lõputunnistuse keskmine hinne",
+                "term": "Kaalutud keskmine hinne rakenduskõrghariduse akadeemilisel õiendil (diplomi lisa)",
+                "termEn": "Kaalutud keskmine hinne rakenduskõrghariduse akadeemilisel õiendil (diplomi lisa)"
             },
             {
-                "term": "**Magistritöö ideekavand** \n\nProbleemikäsitlus (5), informatsioonikasutus (5), projekti visioon, missioon ja peamised tegevused (5), koostöövalmidus (5), enesereflektsioon (5)"
+                "header": "Magistritöö ideekavand",
+                "headerEn": "Magistritöö ideekavand",
+                "term": "**1.** Probleemikäsitlus (5) \n**2.** Informatsioonikasutus (5) \n**3.** Projekti visioon, missioon ja peamised tegevused (5) \n**4.** Koostöövalmidus (5) \n**5.** Enesereflektsioon (5)",
+                "termEn": "**1.** Probleemikäsitlus (5) \n**2.** Informatsioonikasutus (5) \n**3.** Projekti visioon, missioon ja peamised tegevused (5) \n**4.** Koostöövalmidus (5) \n**5.** Enesereflektsioon (5)"
             },
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (3-5), analüüsioskus  (3-5), valmisolek kutse- või eriala arendustöö juhtimiseks (3-5), valmisolek õppetööks (3-5)"
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (3-5) \n**2.** Analüüsioskus (3-5) \n**3.** Valmisolek kutse- või eriala arendustöö juhtimiseks (3-5) \n**4.** Valmisolek õppetööks (3-5)",
+                "termEn": "**1.** Õpimotivatsioon (3-5) \n**2.** Analüüsioskus (3-5) \n**3.** Valmisolek kutse- või eriala arendustöö juhtimiseks (3-5) \n**4.** Valmisolek õppetööks (3-5)"
             }
         ],
         "name": "Terviseteadus",
+        "nameEn": "Health Sciences",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2759?format=json",
         "cost": {
             "amount": 0,
@@ -976,6 +1171,7 @@
             {
                 "name": "Piret Tamme",
                 "title": "Kutseõppe osakonna juhataja, elukestva õppe keskuse õppejõud-juhtivlektor",
+                "titleEn": "Head of the Department, Lifelong-Learning Centre Leading lecturer",
                 "email": "piret.tamme@ttk.ee",
                 "phone": "+3726711729",
                 "photo": "https://www.ttk.ee/sites/default/files/DSC_7164_%28Silver_Raidla%29.jpg"
@@ -983,6 +1179,7 @@
             {
                 "name": "Roman Paluste",
                 "title": "Kutseõppe õpetaja",
+                "titleEn": "Teacher",
                 "email": "roman.paluste@ttk.ee",
                 "phone": "+3726711738",
                 "photo": "https://www.ttk.ee/sites/default/files/foto.jpeg"
@@ -995,10 +1192,14 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (3); kutseala tundmine  (6); väljendusoskus eesti keeles (8);  valmisolek õppetööks (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (6) \n**3.** Väljendusoskus eesti keeles (8) \n**4.** Valmisolek õppetööks (5)",
+                "termEn": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (6) \n**3.** Väljendusoskus eesti keeles (8) \n**4.** Valmisolek õppetööks (5)"
             }
         ],
         "name": "Hooldustöötaja",
+        "nameEn": "Care Worker",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2218?format=json",
         "cost": {
             "amount": 0,
@@ -1021,6 +1222,7 @@
             {
                 "name": "Piret Tamme",
                 "title": "Kutseõppe osakonna juhataja, elukestva õppe keskuse õppejõud-juhtivlektor",
+                "titleEn": "Head of the Department, Lifelong-Learning Centre Leading lecturer",
                 "email": "piret.tamme@ttk.ee",
                 "phone": "+3726711729",
                 "photo": "https://www.ttk.ee/sites/default/files/DSC_7164_%28Silver_Raidla%29.jpg"
@@ -1028,6 +1230,7 @@
             {
                 "name": "Roman Paluste",
                 "title": "Kutseõppe õpetaja",
+                "titleEn": "Teacher",
                 "email": "roman.paluste@ttk.ee",
                 "phone": "+3726711738",
                 "photo": "https://www.ttk.ee/sites/default/files/foto.jpeg"
@@ -1040,14 +1243,21 @@
         "duration": 1,
         "requirements": [
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (6); kutseala tundmine sh kutse-eetika (5); väljendusoskus eesti keeles (5);  valmisolek õppetööks (4)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (6) \n**2.** Kutseala tundmine sh kutse-eetika (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Valmisolek õppetööks (4)",
+                "termEn": "**1.** Õpimotivatsioon (6) \n**2.** Kutseala tundmine sh kutse-eetika (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Valmisolek õppetööks (4)"
             },
             {
-                "term": "**Vastuvõtukatse** \n\nI Elustamine: Juhendite järgimine (2); tegevuskiirus (3) \n\nII Ülesanne: Tähelepanu, loogika, matemaatika (10)"
+                "header": "Vastuvõtukatse",
+                "headerEn": "Vastuvõtukatse",
+                "term": "**I Elustamine:** \n\n**1.** Juhendite järgimine (2) \n**2.** Tegevuskiirus (3) \n\n**II Ülesanne:** \n\n**1.** Tähelepanu, loogika, matemaatika (10)",
+                "termEn": "**I Elustamine:** \n\n**1.** Juhendite järgimine (2) \n**2.** Tegevuskiirus (3) \n\n**II Ülesanne:** \n\n**1.** Tähelepanu, loogika, matemaatika (10)"
             }
         ],
         "name": "Erakorralise meditsiini tehnik",
-        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1545?format=json",
+        "nameEn": "Emergency Medical Technician",
+        "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3258?format=json",
         "cost": {
             "amount": 0,
             "currency": "€",
@@ -1069,6 +1279,7 @@
             {
                 "name": "Piret Tamme",
                 "title": "Kutseõppe osakonna juhataja, elukestva õppe keskuse õppejõud-juhtivlektor",
+                "titleEn": "Head of the Department, Lifelong-Learning Centre Leading lecturer",
                 "email": "piret.tamme@ttk.ee",
                 "phone": "+3726711729",
                 "photo": "https://www.ttk.ee/sites/default/files/DSC_7164_%28Silver_Raidla%29.jpg"
@@ -1076,6 +1287,7 @@
             {
                 "name": "Roman Paluste",
                 "title": "Kutseõppe õpetaja",
+                "titleEn": "Teacher",
                 "email": "roman.paluste@ttk.ee",
                 "phone": "+3726711738",
                 "photo": "https://www.ttk.ee/sites/default/files/foto.jpeg"
@@ -1088,10 +1300,14 @@
         "duration": 1,
         "requirements": [
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (3); kutseala tundmine (6); väljendusoskus eesti keeles (6);  valmisolek õppetööks (5)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (6) \n**3.** Väljendusoskus eesti keeles (6) \n**4.** Valmisolek õppetööks (5)",
+                "termEn": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (6) \n**3.** Väljendusoskus eesti keeles (6) \n**4.** Valmisolek õppetööks (5)"
             }
         ],
         "name": "Lapsehoidja",
+        "nameEn": "Childminder",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2184?format=json",
         "cost": {
             "amount": 0,
@@ -1114,6 +1330,7 @@
             {
                 "name": "Piret Tamme",
                 "title": "Kutseõppe osakonna juhataja, elukestva õppe keskuse õppejõud-juhtivlektor",
+                "titleEn": "Head of the Department, Lifelong-Learning Centre Leading lecturer",
                 "email": "piret.tamme@ttk.ee",
                 "phone": "+3726711729",
                 "photo": "https://www.ttk.ee/sites/default/files/DSC_7164_%28Silver_Raidla%29.jpg"
@@ -1121,6 +1338,7 @@
             {
                 "name": "Roman Paluste",
                 "title": "Kutseõppe õpetaja",
+                "titleEn": "Teacher",
                 "email": "roman.paluste@ttk.ee",
                 "phone": "+3726711738",
                 "photo": "https://www.ttk.ee/sites/default/files/foto.jpeg"
@@ -1133,10 +1351,14 @@
         "duration": 1,
         "requirements": [
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (3); kutseala tundmine (6); väljendusoskus eesti keeles (8);  valmisolek õppetööks (3)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (6) \n**3.** Väljendusoskus eesti keeles (8) \n**4.** Valmisolek õppetööks (3)",
+                "termEn": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (6) \n**3.** Väljendusoskus eesti keeles (8) \n**4.** Valmisolek õppetööks (3)"
             }
         ],
         "name": "Tegevusjuhendaja",
+        "nameEn": "Client Worker for People with Mental Health Problems",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1552?format=json",
         "cost": {
             "amount": 0,
@@ -1159,6 +1381,7 @@
             {
                 "name": "Piret Tamme",
                 "title": "Kutseõppe osakonna juhataja, elukestva õppe keskuse õppejõud-juhtivlektor",
+                "titleEn": "Head of the Department, Lifelong-Learning Centre Leading lecturer",
                 "email": "piret.tamme@ttk.ee",
                 "phone": "+3726711729",
                 "photo": "https://www.ttk.ee/sites/default/files/DSC_7164_%28Silver_Raidla%29.jpg"
@@ -1166,6 +1389,7 @@
             {
                 "name": "Roman Paluste",
                 "title": "Kutseõppe õpetaja",
+                "titleEn": "Teacher",
                 "email": "roman.paluste@ttk.ee",
                 "phone": "+3726711738",
                 "photo": "https://www.ttk.ee/sites/default/files/foto.jpeg"
@@ -1178,10 +1402,14 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "**Vastuvõtuvestlus** \n\nÕpimotivatsioon (3); kutseala tundmine (8); väljendusoskus eesti keeles (4); valmisolek õppetööks (6)."
+                "header": "Vastuvõtuvestlus",
+                "headerEn": "Vastuvõtuvestlus",
+                "term": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (8) \n**3.** Väljendusoskus eesti keeles (4) \n**4.** Valmisolek õppetööks (6)",
+                "termEn": "**1.** Õpimotivatsioon (3) \n**2.** Kutseala tundmine (8) \n**3.** Väljendusoskus eesti keeles (4) \n**4.** Valmisolek õppetööks (6)"
             }
         ],
         "name": "Hambaraviassistent",
+        "nameEn": "Dental assistent",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2791?format=json",
         "cost": {
             "amount": 0,
