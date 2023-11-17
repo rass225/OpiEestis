@@ -102,6 +102,7 @@ extension CollegeView {
             Text(localizationManager.currentLocale == .estonian ? model.college.name : model.college.nameEn)
                 .setFont(.title3, .semibold, .rounded)
                 .setColor(Theme.Colors.black)
+                .multilineTextAlignment(.center)
                 .textCase(.none)
                 .maxWidth()
                 .padding(.top, 16)

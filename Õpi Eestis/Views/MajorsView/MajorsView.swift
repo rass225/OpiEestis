@@ -152,14 +152,17 @@ extension MajorsView {
                         .padding(.bottom, 22)
                     if showDetailed {
                         HStack(spacing: 8) {
-                            Text(major.language.inLanguageLabel)
+                            HStack(spacing: 4) {
+                                Text(major.language.symbol)
+                                Text(major.language.inLanguageLabel)
+                            }
                             Text("•")
                             Text(major.durationLabel)
                             Text("•")
                             Text(major.costLabel)
                         }
-                        .setColor(.gray)
-                        .setFont(.footnote, .medium, .rounded)
+                        .setColor(Theme.Colors.gray)
+                        .setFont(.caption, .medium, .rounded)
                     }
                 }
                 .padding(.vertical, 4)

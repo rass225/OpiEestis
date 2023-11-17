@@ -14,6 +14,7 @@
             {
                 "email": "olga.nezerenko@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Olga Nežerenko",
                 "photo": "https://eek.ee/code/img/tootajad/_MG_5895.jpg"
             }
@@ -221,6 +222,7 @@
             }
         ],
         "name": "Logistika",
+        "nameEn": "Logistics",
         "cost": {
             "amount": 4540,
             "currency": "€",
@@ -242,6 +244,7 @@
             {
                 "email": "katriin.visnapuu@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Katriin Visnapuu",
                 "photo": "https://eek.ee/code/img/tootajad/_MG_5970.jpg"
             }
@@ -426,6 +429,7 @@
             }
         ],
         "name": "Kvaliteedijuhtimine",
+        "nameEn": "Quality Management",
         "cost": {
             "amount": 4540,
             "currency": "€",
@@ -447,6 +451,7 @@
             {
                 "email": "karin.kuimet@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Karin Kuimet",
                 "photo": "https://eek.ee/code/img/tootajad/KarinKuimet.jpg"
             }
@@ -657,6 +662,7 @@
             }
         ],
         "name": "Personalijuhtimine",
+        "nameEn": "Personnel Management",
         "cost": {
             "amount": 4540,
             "currency": "€",
@@ -670,13 +676,15 @@
         "description": [
             "Loovuse ja äriinnovatsiooni õppekava eesmärk on valmistada ette ettevõtluseksperte, kes suudavad organiseerida ja rakendada keerulisi lahendusi tänapäeva ühiskonnas. Sellistel ekspertidel on voli kasutada uuenduslikku mõtlemist, uusi teooriaid ja meetodeid, saada loovaid ideid ja lahendusi ettevõtete kasvatamiseks, tegeleda strateegiliste äriprotsesside järjepideva arendamisega ja suhelda sidusrühmadega, et töötada välja uusi kontseptsioone. \n\n**Miks õppida** \n\nLoovuse ja äriinnovatsiooni õppekava on mõeldud tulevastele ettevõtjatele, toote- ja teenusejuhtidele ning ettevõtte juhtidele. See annab hea ülevaate innovatiivse äritegevuse põhialustest, olenemata sellest, kas see moodustab osa olemasolevast ettevõttest või uuest ettevõtlusprojektist. \n\nParimatele äritavadele toetuv õppekava annab teadmised, kuidas uuenduslikke ärimudeleid avastada ja arendada, kaasasutajaid ja töötajaid inspireerida ning kasvavat organisatsiooni juhtida."
         ],
+        "descriptionEn": "The goal of the Creativity and Business Innovation Programme is to train business professionals who can organise and implement complex solutions in our modern society. These professionals will: be empowered by innovative thinking, new theories, and new methods; obtain creative ideas and solutions to help businesses grow; relate to the continuous development of strategic business processes and communicate with stakeholders to develop fresh concepts. \n\n**Why to study?** \n\nThe Creativity and Business Innovation Programme is designed for aspiring entrepreneurs, product and service managers, and business executives. The programme provides a good conceptual grasp of the fundamental elements of an innovative business, irrespective of whether it is a part of an existing enterprise or a new venture. \n\nBased on the best of business practices, the curriculum will train you how to identify and build unique business models, encourage co-founders and workers, and manage a growing organisation.",
         "eap": 180,
         "spots": 30,
-        "majorWebsite": "https://eek.ee/eriala/loovus_ja_ariinnovatsioon__uhisoppekava_",
+        "majorWebsite": "https://eek.ee/eriala/loovus_ja_ariinnovatsioon",
         "personnel": [
             {
                 "email": "marleen.kedars@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Marleen Lillemaa",
                 "photo": "https://eek.ee/code/img/tootajad/Marleen_Kedars_2020.jpg"
             }
@@ -857,27 +865,34 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "Rahvusvaheliselt tunnustatud keskharidus"
+                "term": "Rahvusvaheliselt tunnustatud keskharidus",
+                "termEn": "Internationally recognized secondary education"
             },
             {
-                "term": "Veebitest"
+                "term": "Veebitest",
+                "termEn": "Online test"
             },
             {
-                "term": "Motivatsioonikiri/lühiessee"
+                "term": "Motivatsioonikiri/lühiessee",
+                "termEn": "Motivation letter/short essay"
             },
             {
-                "term": "Vastuvõtuvestlus"
+                "term": "Vastuvõtuvestlus",
+                "termEn": "Admission interview"
             },
             {
-                "term": "Kinnitus inglise keele oskuse kohta: IELTS 5.5 (IELTS-i tulemus kehtib kolm aastat), TOEFL 46-59 (TOEFL-i tulemus kehtib kaks aastat), Cambridge 162-170."
+                "term": "Kinnitus inglise keele oskuse kohta: IELTS 5.5 (IELTS-i tulemus kehtib kolm aastat), TOEFL 46-59 (TOEFL-i tulemus kehtib kaks aastat), Cambridge 162-170.",
+                "termEn": "Proof of English proficiency: IELTS 5.5 (IELTS score validity is three years), TOEFL 46-59 (TOEFL score validity is two years), Cambridge 162-170."
             },
             {
-                "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+                "term": "Õpimotivatsioon ja ettevõtlik eluhoiak",
+                "termEn": "Motivation to study and an entrepreneurial mindset"
             }
         ],
         "name": "Loovus ja äriinnovatsioon",
+        "nameEn": "Creativity and Business Innovation",
         "cost": {
-            "amount": 4780,
+            "amount": 6520,
             "currency": "€",
             "interval": "year"
         }
@@ -897,6 +912,7 @@
             {
                 "email": "anu.olvik@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Anu Olvik",
                 "photo": "https://eek.ee/code/img/tootajad/_MG_6527.jpg"
             }
@@ -1105,6 +1121,7 @@
             }
         ],
         "name": "Finantsjuhtimine",
+        "nameEn": "Financial Management",
         "cost": {
             "amount": 4540,
             "currency": "€",
@@ -1126,6 +1143,7 @@
             {
                 "email": "aet.kull@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Aet Kull",
                 "photo": "https://eek.ee/code/img/tootajad/AetKull.jpg"
             }
@@ -1353,6 +1371,7 @@
             }
         ],
         "name": "Turundus",
+        "nameEn": "Marketing",
         "cost": {
             "amount": 4540,
             "currency": "€",
@@ -1582,6 +1601,7 @@
             }
         ],
         "name": "Infotehnoloogia juhtimine",
+        "nameEn": "Information Technology Management",
         "cost": {
             "amount": 4540,
             "currency": "€",
@@ -1595,6 +1615,7 @@
         "description": [
             "Meie tarkvaraarenduse ja ettevõtluse õppekava on üsna eriline, sest tagab praegu enim hinnatud oskused ja teadmised IT- ja ärivaldkonnas. Õppekava eesmärk on koolitada välja kvalifitseeritud IT-spetsialistid, kellel on ühtaegu tugevad tarkvaraoskused ja põhjalikud teadmised ettevõtete toimimisest. Kursus ei piirdu ainult loengute ja kodutöödega. Meie hinnangul peaks hea õppetöö põhinema koostööl ja olema sotsiaalne. Seetõttu osalevad tudengid nii individuaalsetes kui ka meeskondlikes projektides, et arendada teisi väärtuslikke ülekantavaid oskusi, nagu hea esinemisoskus, meeskonnatöö ja aruannete koostamine – kõik see aitab teil saada veelgi paremaks tulevaseks tippjuhiks. \n\n**Miks õppida** \n\nEdukas tarkvaraarenduse ja ettevõtluse tudeng võib olla igaüks, kes on: \n\n**•** piisavalt hea enesedistsipliiniga \n**•** õpingutes vastutustundlik ja sihikindel \n**•** suuteline ületama ebaõnnestumisi ja näeb probleeme kui midagi, millest on võimalik õppida \n**•** valmis end pidevalt edasi arendama \n**•** ettevõtlusele orienteeritud mõtteviisiga \n**•** suuteline töötama edukalt nii iseseisvalt kui ka meeskonnas. \n\nKui oled lisaks kõigele muule tugev loogilises mõtlemises, naudid probleemide lahendamist ja saad suurepäraselt hakkama näiteks matemaatikas, siis on tarkvaraarenduse ja ettevõtluse eriala kindlasti sinu jaoks. \n\nOma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Tutvu ka igakuise maksmise võimalust pakkuva Mainori Kõrgharidusfondiga. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale. \n\nPraktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus."
         ],
+        "descriptionEn": "Our Software Development and Entrepreneurship Programme is rather unique, as it will equip you with the currently most valued skills and knowledge in the fields of IT and Business. This programme aims to develop skilled IT professionals with strong software related skills and deep knowledge of how businesses function. The course consists of more than just lecturers and homework. Instead, we believe that good learning should be collaborative and social. Thus, you will be involved in individual as well as team projects, which will help you to develop other valuable transferable skills such as effective presentation skills, teamwork and report writing – all of which will further enhance you as a future leader in the industry. \n\n**A successful Software Development and Entrepreneurship Programme student could be anyone, who:** \n\n**1.** Possesses good self-discipline. \n**2.** Is responsible and determined about his/her studies. \n**3.** Can overcome failures and sees problems as learning opportunities. \n**4.** Never stops trying to improve. \n**5.** Has a business-oriented mindset. \n**4** Can successfully work both independently as well and as a part of a team. \n\nAnd if, on top of everything abovementioned, you have a knack for logical thinking, enjoy problem-solving and excel in subjects like mathematics – a degree in Software Development and Entrepreneurship is definitely for you.",
         "eap": 180,
         "spots": 30,
         "majorWebsite": "https://eek.ee/eriala/tarkvaraarendus_ja_ettevotlus",
@@ -1602,6 +1623,7 @@
             {
                 "email": "inna.svartsman@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Inna Švartsman",
                 "photo": "https://eek.ee/code/img/tootajad/_MG_6437.jpg"
             }
@@ -1813,24 +1835,30 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "Rahvusvaheliselt tunnustatud keskharidus"
+                "term": "Rahvusvaheliselt tunnustatud keskharidus",
+                "termEn": "Internationally recognized secondary education"
             },
             {
-                "term": "Veebitest"
+                "term": "Veebitest",
+                "termEn": "Online test"
             },
             {
-                "term": "Vastuvõtuvestlus;"
+                "term": "Vastuvõtuvestlus",
+                "termEn": "Admission interview"
             },
             {
-                "term": "Motivatsioonikiri/lühiessee"
+                "term": "Motivatsioonikiri/lühiessee",
+                "termEn": "Motivation letter/short essay"
             },
             {
-                "term": "Kinnitus inglise keele oskuse kohta: IELTS 5.5 (IELTS-i tulemus kehtib kolm aastat), TOEFL 46-59 (TOEFL-i tulemus kehtib kaks aastat), Cambridge 162-170"
+                "term": "Kinnitus inglise keele oskuse kohta: IELTS 5.5 (IELTS-i tulemus kehtib kolm aastat), TOEFL 46-59 (TOEFL-i tulemus kehtib kaks aastat), Cambridge 162-170",
+                "termEn": "Proof of English proficiency: IELTS 5.5 (IELTS score validity is three years), TOEFL 46-59 (TOEFL score validity is two years), Cambridge 162-170."
             }
         ],
         "name": "Tarkvaraarendus ja ettevõtlus",
+        "nameEn": "Software Development and Entrepreneurship",
         "cost": {
-            "amount": 5980,
+            "amount": 6520,
             "currency": "€",
             "interval": "year"
         }
@@ -1850,6 +1878,7 @@
             {
                 "email": "inna.svartsman@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Inna Švartsman",
                 "photo": "https://eek.ee/code/img/tootajad/_MG_6437.jpg"
             }
@@ -1878,6 +1907,7 @@
             }
         ],
         "name": "Robootikatarkvara arendus",
+        "nameEn": "Robotics Software Development",
         "cost": {
             "amount": 0,
             "currency": "€",
@@ -1898,6 +1928,7 @@
             {
                 "email": "inna.svartsman@eek.ee",
                 "title": "Erialajuht",
+                "titleEn": "Head of Curriculum",
                 "name": "Inna Švartsman",
                 "photo": "https://eek.ee/code/img/tootajad/_MG_6437.jpg"
             }
@@ -2101,6 +2132,7 @@
             }
         ],
         "name": "Veebitehnoloogiad",
+        "nameEn": "Web technologies",
         "cost": {
             "amount": 4780,
             "currency": "€",
@@ -2114,15 +2146,17 @@
         "description": [
             "Arvutimängude disaini ja arenduse õppekava on koostatud nii mobiili- kui ka arvutimängude arendamiseks ja mängude arendamisega tegelevate ettevõtete loomiseks vajalike oskuste omandamiseks. Pole saladus, et videomängutööstus on maailma kõige kiiremini kasvav meelelahutustööstus. Ainuüksi 2021. aastal ületas videomängude turumaht 80 miljardit eurot – seda on rohkem kui filmi- ja muusikaturg kokku. Tehnoloogia kiire arengu ja pea lakkamatult peale tulevate uute mängude tingimustes pakub mängutööstus hulgaliselt karjäärivõimalusi erinevates valdkondades. Just selle mõttega loodi ka arvutimängude disaini ja arenduse õppekava. \n\n**Miks õppida** \n\nÕpingute käigus keskendutakse peamiselt mängude arendamisele, mängumehaanikale ja rahastamismudeli kavandamisele. Tudengid saavad spetsialiseeruda mängugraafikale või tarkvaraarendusele. Seega sobib arvutimängude disaini ja arenduse õppekava inimesele, kes tunneb suurt huvi mängude vastu ja kellel on soovitavalt palju mitmesuguseid hobisid. Üks olulisemaid eeldusi on oskus näha mängust kaugemale. Kui sul on kombeks analüüsida mänge, mida mängid, siis oled valinud õige õppekava. Arvutigraafika või programmeerimisega seotud eelteadmised on samuti eeliseks, sest see õppekava pakub suurepärast väljundit näiliselt vastandlikele huvidele, nagu kunstiline programmeerimine või muusikaline graafiline kujundamine. \n\nÕppekava soodustab tudengite loovust, käsitledes kõiki mänguloome aspekte ning andes teadmised ja vahendid uute virtuaalsete maailmade loomiseks n-ö nullist. Mäng on kompleksne toode ja mängudisainerist, kes on sina peal nii tarkvaraarenduse, arvutigraafika kui ka ärilise mõtlemisega, võib saada meeskonna raudvara, kelle erialateadmised aitavad välja töötada suurepärase mängumehaanika ja kaasahaarava mängumehhanismi. \n\nEesti Ettevõtluskõrgkool Mainor teeb arvutimängude arendamise õpetamisel koostööd näiteks järgmiste ettevõtete ja ühendustega: Creative Mobile, Derivco Estonia, GameLab, IGDA Estonia, Level1. \n\n**Lõpetajana on teil võimalik suunduda mitmesugustele ametikohtadele, et alustada karjääri mängutööstuses. Näiteks:** \n\n**•** mängutegelase disainer (character designer) \n**•** mängutasandi disainer (level designer) \n**•** mängudisainer (game designer) \n**•** mängude jaoks tarkvara arendaja \n**•** kunstnik (concept artist) \n**•** videomängude graafiline kunstnik (graphics artist)"
         ],
+        "descriptionEn": "Game Design and Development is a curriculum designed to provide skills for developing both mobile and PC games, as well as starting up game companies. As you may know, the video game industry is the fastest growing entertainment industry in the world. In the year 2021 only, the video games market volume exceeded €80bn, which is more than that of film and music combined. The rapid development of technology and almost constant release of new games means that the gaming industry offers a vast array of career opportunities in various disciplines. This is exactly the direction towards which the Game Design and Development program steers. \n\n**Why to study?** \n\nIts main focus is on gameplay development, game mechanics and monetisation model design; with possible specialisation in game graphics or software development. Hence, the curriculum of Game Design and Development is suited for people who have a deep interest in games and, possibly, a wide array of hobbies. One of the most important parts is having the ability to look past the gameplay. If you find yourself analysing the games you play, you have selected the correct curriculum. Students with prior knowledge or skills in graphics or programming have another advantage, since this curriculum is a great option for finding an outlet for seemingly exclusive interests like artistic programming or music graphic designing. \n\nThe curriculum will facilitate the flow of students' creativity by covering all the aspects of game-creation and providing knowledge and tools to design new virtual worlds from the ground up. As you know, a game is a complex product and a game designer – who is well-versed in software development, computer graphics and business thinking – could become a core member of a team, a specialist for developing magnificent game mechanics and captivating gameplay. \n\n**As a graduate, there are many positions from which you can begin your career in the games industry. Some include:** \n\n**1.** Character designer \n**2.** Level designer \n**3.** Game designer \n**4.** Software developer for games \n**5.** Concept artist \n**6.** Videogame graphics artist",
         "eap": 180,
         "spots": 30,
         "majorWebsite": "https://eek.ee/eriala/arvutimangude_disain_ja_arendus",
         "personnel": [
             {
-                "email": "marianna.krjakvina@eek.ee",
+                "email": "inna.svartsman@eek.ee",
                 "title": "Erialajuht",
-                "name": "Marianna Rannik",
-                "photo": "https://eek.ee/code/img/tootajad/MariannaKrjakvina.jpg"
+                "titleEn": "Head of Curriculum",
+                "name": "Inna Švartsman",
+                "photo": "https://eek.ee/code/img/tootajad/_MG_6437.jpg"
             }
         ],
         "type": "sotsiaalteadused",
@@ -2322,27 +2356,34 @@
         "duration": 3,
         "requirements": [
             {
-                "term": "Rahvusvaheliselt tunnustatud keskharidus"
+                "term": "Rahvusvaheliselt tunnustatud keskharidus",
+                "termEn": "internationally recognized secondary education"
             },
             {
-                "term": "Veebitest"
+                "term": "Veebitest",
+                "termEn": "Online test"
             },
             {
-                "term": "Motivatsioonikiri/lühiessee"
+                "term": "Motivatsioonikiri/lühiessee",
+                "termEn": "Motivation letter/short essay"
             },
             {
-                "term": "Vastuvõtuvestlus"
+                "term": "Vastuvõtuvestlus",
+                "termEn": "Admission interview"
             },
             {
-                "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+                "term": "Õpimotivatsioon ja ettevõtlik eluhoiak",
+                "termEn": "Motivation to study and an entrepreneurial mindset"
             },
             {
-                "term": "Kinnitus inglise keele oskuse kohta: IELTS 5.5 (IELTS-i tulemus kehtib kolm aastat), TOEFL 46-59 (TOEFL-i tulemus kehtib kaks aastat), Cambridge 162-170."
+                "term": "Kinnitus inglise keele oskuse kohta: IELTS 5.5 (IELTS-i tulemus kehtib kolm aastat), TOEFL 46-59 (TOEFL-i tulemus kehtib kaks aastat), Cambridge 162-170.",
+                "termEn": "Proof of English proficiency: IELTS 5.5 (IELTS score validity is three years), TOEFL 46-59 (TOEFL score validity is two years), Cambridge 162-170."
             }
         ],
         "name": "Arvutimängude disain ja arendus",
+        "nameEn": "Game Design and Development",
         "cost": {
-            "amount": 5980,
+            "amount": 6520,
             "currency": "€",
             "interval": "year"
         }
@@ -2598,6 +2639,7 @@
             }
         ],
         "name": "Graafiline disain",
+        "nameEn": "Graphic Design",
         "cost": {
             "amount": 4780,
             "currency": "€",
@@ -2611,6 +2653,7 @@
         "description": [
             "Rahvusvaheline ärijuhtimise magistrikava kasutab interdistsiplinaarset lähenemist, et anda tudengitele terviklik arusaam rahvusvahelisest ettevõtluskeskkonnast, milles tänapäeva juhid äriotsuseid langetavad. Õpe keskendub juhtimisomaduste arendamisele, ettevõtluse juhtimisele ja arendamisele ning terve ja tänapäevase organisatsiooni ülesehitusele. \n\n**Miks õppida** \n\nÕppekava eesmärk: \n\n**•** arendada analüütilise mõtlemisega ja meeskonnarolle tundvaid tugevaid tippspetsialiste ja -juhte, kes vastavad tänapäevastele professionaalsele standardile \n\n**•** anda ettevõtlusest ja haldusülesannetest süsteemne ning lai ülevaade, toetades seda akadeemiliste teadmiste ja meetoditega \n\n**•** julgustada tudengeid märkama ja looma interdistsiplinaarseid seoseid, tundma ära probleeme ja lahendama neid kohaste meetmetega etteantud aja jooksul ja piiratud teabe alusel \n\n**•** valmistada tudengeid ette tööks, mis eeldab kutsealast professionaalsust, algatus- ja vastutusvõimet, juhiomadusi ning meeskonnatöö oskusi \n\nÕppetööd viivad läbi kogenud teadlased ja õppejõud Eestist ja välismaalt. Samuti on kaasatud rahvusvaheliste ettevõtete tippspetsialistid ja -juhid. Rahvusvahelise ärijuhtimise magistrikava viiakse läbi strateegilises koostöös Ülemiste City‘ga, mis on Baltikumi suurim ja kõige kiiremini kasvav ärilinnak."
         ],
+        "descriptionEn": "The MBA program in International Business Administration takes a cross-disciplinary approach to build a comprehensive understanding of the international business environment in which today’s managers make business decisions. Emphasis is put on leadership, entrepreneurial management, and building a healthy organisation. \n\n**The program aims to:** \n\nDevelop good analytical and team-player skills in top specialists and managers, in compliance with professional standards. \n\nProvide a systematic and wide overview of the main concepts of entrepreneurship and administration, academic theory, and research methods. \n\nEmpower students to identify and create interdisciplinary connections, identify problems and solve them with appropriate measures within given timeframes and within limited information. \n\nPrepare students to work in an area of activity requiring professional qualifications, showing initiative, responsibility, leadership, and teamwork skills. \n\nStudies are conducted by experienced scholars and lecturers from Estonia and abroad as well as top professionals and managers from international enterprises. \n\nThe program International Business Administration is executed in strategic partnership with Ülemiste City, the largest and fastest-growing business campus in the Baltics.",
         "eap": 120,
         "spots": 25,
         "majorWebsite": "https://eek.ee/eriala/rahvusvaheline_arijuhtimine",
@@ -2618,6 +2661,7 @@
             {
                 "email": "janus.paurman@eek.ee",
                 "title": "Magistriõppe juht",
+                "titleEn": "Head of Curriculum",
                 "name": "Janus Paurman",
                 "photo": "https://eek.ee/code/img/tootajad/janus21.jpg"
             }
@@ -2772,25 +2816,32 @@
         "duration": 2,
         "requirements": [
             {
-                "term": "Rahvusvaheliselt tunnustatud bakalaureuse- või rakenduskõrghariduse kraad"
+                "term": "Rahvusvaheliselt tunnustatud bakalaureuse- või rakenduskõrghariduse kraad",
+                "termEn": "Internationally recognized bachelor or professional higher education degree"
             },
             {
-                "term": "Veebitest"
+                "term": "Veebitest",
+                "termEn": "Online test"
             },
             {
-                "term": "Akadeemilised võimed"
+                "term": "Akadeemilised võimed",
+                "termEn": "Academic aptitude"
             },
             {
-                "term": "Motivatsioonikiri/essee"
+                "term": "Motivatsioonikiri/essee",
+                "termEn": "Motivation letter/essay"
             },
             {
-                "term": "Ettevõtlik eluhoiak ja huvi õppida vastaval õppekaval – vastuvõtuvestlus"
+                "term": "Ettevõtlik eluhoiak ja huvi õppida vastaval õppekaval – vastuvõtuvestlus",
+                "termEn": "Entrepreneurial mindset and interest to pursue studies in the respective program – the admission interview"
             },
             {
-                "term": "IELTS 6.0 või samaväärne tõend inglise keele oskuse kohta (IELTS-i tulemused ei tohi olla vanemad kui kolm aastat)"
+                "term": "IELTS 6.0 või samaväärne tõend inglise keele oskuse kohta (IELTS-i tulemused ei tohi olla vanemad kui kolm aastat)",
+                "termEn": "IELTS 6.0 or equivalent proof of English proficiency (IELTS results can not be over three years old)"
             }
         ],
         "name": "Rahvusvaheline ärijuhtimine",
+        "nameEn": "International Business Administration",
         "cost": {
             "amount": 6280,
             "currency": "€",
@@ -2811,11 +2862,12 @@
             {
                 "email": "janus.paurman@eek.ee",
                 "title": "Magistriõppe juht",
+                "titleEn": "Head of Curriculum",
                 "name": "Janus Paurman",
                 "photo": "https://eek.ee/code/img/tootajad/janus21.jpg"
             }
         ],
-        "type": "sotsiaalteadused",
+        "type": "",
         "studyType": "sessioonõpe",
         "modules": [
             {
@@ -2951,7 +3003,7 @@
             "On omandanud pädevused valdkonnas töötamiseks, organisatsioonis vajalike uuringute läbiviimiseks ning organisatsiooni juhtimiseks ja arendamiseks",
             "Omab ettevalmistust töötamiseks valitud erialal spetsialistina ja/või keskastmejuhina ning on motiveeritud ja valmis pidevaks enesearenduseks ja doktoriõppeks."
         ],
-        "language": "inglise keel",
+        "language": "eesti keel",
         "duration": 2,
         "requirements": [
             {
@@ -2968,6 +3020,7 @@
             }
         ],
         "name": "Finantslahenduste juhtimine",
+        "nameEn": "Financial Solutions Management",
         "cost": {
             "amount": 5320,
             "currency": "€",
@@ -2988,6 +3041,7 @@
             {
                 "email": "janus.paurman@eek.ee",
                 "title": "Magistriõppe juht",
+                "titleEn": "Head of Curriculum",
                 "name": "Janus Paurman",
                 "photo": "https://eek.ee/code/img/tootajad/janus21.jpg"
             }
@@ -3128,7 +3182,7 @@
             "On omandanud pädevused valdkonnas töötamiseks, organisatsioonis vajalike uuringute läbiviimiseks ning organisatsiooni juhtimiseks ja arendamiseks",
             "Omab ettevalmistust töötamiseks valitud erialal spetsialistina ja/või keskastmejuhina ning on motiveeritud ja valmis pidevaks enesearenduseks ja doktoriõppeks."
         ],
-        "language": "inglise keel",
+        "language": "eesti keel",
         "duration": 2,
         "requirements": [
             {
@@ -3145,8 +3199,54 @@
             }
         ],
         "name": "Inimressursside juhtimine",
+        "nameEn": "Human Resource Management",
         "cost": {
             "amount": 5320,
+            "currency": "€",
+            "interval": "year"
+        }
+    },
+    {
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Hotelli- ja restoraniettevõtluse erialal õpid looma unikaalseid, elamust pakkuvaid külalislahkuse teenuseid. Õpid olema oma meeskonnale uue põlvkonna liider, kes on samavõrd kodus nii kliendikogemuse kujundamises, teenuse disainis kui ka äriplaneerimises ja turunduses. \n\nSee eriala on mõeldud just sulle, kui soovid olla toitlustus- või majutusettevõttele suurepäraseks juhiks. Ja ka sulle, kes sa juba töötad majutus- või toitlustusvaldkonnas ning soovid areneda spetsialistist juhiks, omandada värskeid teadmisi ja saada väärtuslikke kontakte. \n\nÜlemiste City töötajatele ja Eesti Ettevõtluskõrgkool Mainor vilistlastele kehtib õppemaksu soodustus 10%. \n\nEHRL liidu liikmetele ja töötajatele kehtib esimesel õppeaastal õppemaksu soodustus 10%. \n\n**Miks õppida?** \n\nErialaõpe keskendub teemadele: \n**1.** Vastutustundlik ettevõtlus ja jäktusuutlikkus \n**2.** Coaching ja meeskonnatöö \n**3.** Teenusedisain ja tootearendus \n**4.** Workaction ning konverentsikorraldus ja -teenindus \n**5.** Sommeljee baaskursus \n**6.** Toitlustusettevõtte töökorraldus \n**7.** Majutusettevõtte töökorraldus \n**8.** Kaasaegne klienditeenindus \n\nOma varasemat kogemust ja õpinguid, mille sisu on õppekavaga sama, saad lasta arvestada, et vähendada oma õppekoormust ja õppemaksu. Õppekorraldus on üles ehitatud selliselt, et kõik uurimistööd ja praktikad saad mugavalt siduda oma tööga. Sellega säästad enda aega, ühtlasi lood aga ka suuremat väärtust oma ettevõttele või tööandjale. \n\nPraktiline kõrgharidus nõuab õppijate ja kooli tihedat koostööd. Seetõttu ootame kandideerima inimesi, kes on valinud eriala teadlikult, kellel on selge plaan, miks soovitakse haridust omandada, kõrge motivatsioon õppida ja valmidus kaasa mõelda, kuidas õpet veel paremini korraldada. Meie jaoks on kõrgharidus professionaalsete osapoolte vaheline võrdne partnerlus. \n\nÕppeaastal 2023/2024 võetakse hotelli- ja restoraniettevõtluse erialale vastu kuni 30 uut üliõpilast. Lõpetaja omandab bakalaureusekraadi (Bachelor of Arts, BA) hotelli- ja restoraniettevõtluse õppekaval. Kandideerimiseks esita avaldus siinsamas kodulehel ja lae seejärel üles vajalikud dokumendid. \n\n**Kaugõpe** \n\nKoolis toimuv õpe on korraldatud kaugõppena, mis sobib õppimiseks töö ja pere kõrvalt. Meie vilistlaste ja varem teistes kõrgkoolides õppinud tudengite tagasiside põhjal saame kinnitada, et meil on Eesti parim töö kõrvalt õppimist toetav õppekorraldus. Kaugõpe toimub keskmiselt kord kuus neljapäevast pühapäevani, millele lisandub iseseisev õppimine. Sessioonidena toimuv õpe on jõukohane ka täiskohaga töötavale inimesele. Õppest suure osa moodustab erialane praktika. Heida ka pilk kooli igapäevaellu meie Facebooki lehel. \n\nKogu õpe on toetatud spetsiaalselt kaugõppijate vajaduste järgi arendatud IT-lahendustega. Oleme 99% paberdokumentide vaba kõrgkool. Eesti Ettevõtluskõrgkooli Mainor pidevalt arendatav õppeinfosüsteem on pälvinud korduvalt rahvusvaheliste hindamiskomisjonide tunnustuse. \n\n**Õpingute finantseerimine** \n\nRohkem kui 15% meie kaugõppe üliõpilaste õpinguid finantseerib tööandja ja see osakaal kasvab iga aastaga. Kõrghariduse finantseerimine on töötajale motiveeriv ja samal ajal tööandjale odavam kui palgatõus või preemia. Töö sisuga otseselt seotud kõrghariduse finantseerimiselt ei tule maksta ei sotsiaal- ega tulumaksu. Kindlasti paku oma tööandjale võimalust investeerida ettevõtte tähtsaimasse varasse - andekasse inimesse. Meie üliõpilaste ja vilistlaste kogemus näitab, et kaks tööpäeva kuus, mis veedad koolis, ei vähenda, vaid hoopis väga selgelt suurendab Sinu tööpanust. \n\n**Pärast lõpetamist** \n\nLisaks erialaoskustele omandad turismi- ja restoraniettevõtluse erialal ka edasiseks karjääriks vajalikke juhtimis-, suhtlemis-, analüüsi-, õigus- ja majandusalaseid teadmisi. Sinu õppejõudude seas on oma valdkonna kogenud praktikud, paljusid ettevõtteid nõustanud koolitajad ning Eesti tuntud majandus- ja ettevõtlusalased arvamusliidrid."
+        ],
+        "eap": 120,
+        "spots": 25,
+        "majorWebsite": "https://eek.ee/eriala/inimressursside_juhtimine",
+        "personnel": [
+            {
+                "email": "kadi.elmeste@eek.ee",
+                "title": "Erialajuht",
+                "name": "Kadi Elmeste",
+                "photo": "https://eek.ee/code/img/tootajad/image007.jpg"
+            }
+        ],
+        "type": "sotsiaalteadused",
+        "studyType": "sessioonõpe",
+        "level": "bakalaureus",
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Keskharidus"
+            },
+            {
+                "term": "Lühiessee, milles kirjeldad oma tööalaseid ambitsioone, karjääriplaane ja tulevase hariduse rolli nendes"
+            },
+            {
+                "term": "Vastuvõtuvestlus"
+            },
+            {
+                "term": "Õpimotivatsioon ja ettevõtlik eluhoiak"
+            }
+        ],
+        "name": "Hotelli- ja restoraniettevõtlus",
+        "nameEn": "Hotel and Restaurant Business",
+        "cost": {
+            "amount": 4900,
             "currency": "€",
             "interval": "year"
         }

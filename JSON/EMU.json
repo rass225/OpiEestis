@@ -1,344 +1,345 @@
 [
     {
-      "studyLocation": [
-        "Tartu"
-      ],
-      "description": [
-        "Maamajandusliku ettevõtluse ja finantsjuhtimise õppekaval saad suurepäraste teoreetiliste teadmistega spetsialistiks. Ühtlasi saad ka praktilised oskused ettevõtte tegevuse korraldamiseks, analüüsimiseks ja arendamiseks. Selline kombinatsioon võimaldab sul tööle asuda nii era- kui avalikus sektoris. \n\n**Meil õpid** \n\n**•** Tunnetama ja tuvastama maamajanduse eripärasid \n\n**•** Aru saama biomajandusest ehk taastuvatel bioressurssidel põhinevast tootmisest ja väärindamisest \n\n**•** Mõistma maapiirkondades toimuvaid protsesse ja neid juhtima. Samuti omandad oskuse nägema ette, hoidma ära ja lahendama riskiolukordi \n\n**•** Majandusarvestust (raamatupidamist), maksundust ja finantsjuhtimist \n\n**•** Väärtustama maaelu ja ressursside kestlikku kasutamist ning hindama puhast elukeskkonda.\n\nBakalaureuseõppes omandatakse põhiteadmised ökonoomikast (rõhuga maamajandusele), rahandusest ja finantsjuhtimisest, õpitakse tundma maamajanduse arengusuundi ja aktuaalseid probleeme. Õppekava annab akadeemilise lugemisoskuse ja oskuse mõelda analüütiliselt. Õpe on praktiline, mis annab hea ettevalmistuse ning aitab lõpetamise järel kiiresti tööellu siirduda. \n\nÕpingud annavad mitmekesise õppekogemuse: teadmisi omandatakse loengutes, seminarides ja praktikumides. Lisaks arendavad kodutööd iseseisva töö oskust, meeskonnatöö-, koostöö- ja läbirääkimisoskust ning ettekanded esinemisoskust. Suvine ettevõttepraktika annab ka praktilise töökogemuse, mis tuleb pärast ülikooli lõpetamist kasuks tööle kandideerimisel.\n\nMaamajandusliku ettevõtluse ja finantsjuhtimise õppekava on pälvinud rahvusvahelise tunnustuse. Õppejõud on oma ala eksperdid, kes osalevad teadusprojektides ning kujundavad põllumajanduspoliitika üldsuundi. Õpetamisse on kaasatud ka praktikud nii era- kui ka avalikust sektorist. Siinne õpikeskkond on sõbralik ja teineteist toetav. \n\nMaamajandusliku ettevõtluse ja finantsjuhtimise bakalaureuseõppekaval saab õppida nii päeva- kui sessioonõppevormis. Sessioonõpe toimub üldjuhul üle kolme nädala neljapäevast pühapäevani. Sessioonõppes õppija peab olema valmis suuremas mahus iseseisvaks tööks. \n\nMeie lõpetajad leiavad endale töö nii era- kui ka avalikus sektoris. Omandatud erialased teadmised võimaldavad lõpetanutel tööle asuda majandusspetsialistina (ökonomist, majandusanalüütik, raamatupidaja, finantsist, tootmis- ja müügikorraldaja, ostu- ja müügijuht) ettevõtetes, kohalikes omavalitsustes jt riigivalitsusorganites, mittetulundussektoris või enda poolt asutatud ettevõttes. \n\nÕppekava kõigil tudengitel on võimalik vahetustudengina õppida mõnes välisülikoolis. Välisülikoolides õppimise ja praktika kohta leiad lisainfot [SIIT](https://www.emu.ee/oppijale/oppimine-valismaal/). Bakalaureuse õppekava kestab kolm aastat ning lõpetanud saavad jätka oma õpinguid Maaülikoolis sessioonõppe vormis magistriõppes."
-      ],
-      "eap": 180,
-      "spots": 48,
-      "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maamajanduslik-ettevotlus-ja-finantsjuhtimine/",
-      "videoId": "UO6RiZunSV8",
-      "type": "sotsiaalteadused",
-      "studyType": "päevaõpe, sessioonõpe",
-      "modules": [
-        {
-          "name": "Üldmoodul",
-          "courses": [
+        "studyLocation": [
+            "Tartu"
+        ],
+        "description": [
+            "Maamajandusliku ettevõtluse ja finantsjuhtimise õppekaval saad suurepäraste teoreetiliste teadmistega spetsialistiks. Ühtlasi saad ka praktilised oskused ettevõtte tegevuse korraldamiseks, analüüsimiseks ja arendamiseks. Selline kombinatsioon võimaldab sul tööle asuda nii era- kui avalikus sektoris. \n\n**Meil õpid** \n\n**•** Tunnetama ja tuvastama maamajanduse eripärasid \n\n**•** Aru saama biomajandusest ehk taastuvatel bioressurssidel põhinevast tootmisest ja väärindamisest \n\n**•** Mõistma maapiirkondades toimuvaid protsesse ja neid juhtima. Samuti omandad oskuse nägema ette, hoidma ära ja lahendama riskiolukordi \n\n**•** Majandusarvestust (raamatupidamist), maksundust ja finantsjuhtimist \n\n**•** Väärtustama maaelu ja ressursside kestlikku kasutamist ning hindama puhast elukeskkonda.\n\nBakalaureuseõppes omandatakse põhiteadmised ökonoomikast (rõhuga maamajandusele), rahandusest ja finantsjuhtimisest, õpitakse tundma maamajanduse arengusuundi ja aktuaalseid probleeme. Õppekava annab akadeemilise lugemisoskuse ja oskuse mõelda analüütiliselt. Õpe on praktiline, mis annab hea ettevalmistuse ning aitab lõpetamise järel kiiresti tööellu siirduda. \n\nÕpingud annavad mitmekesise õppekogemuse: teadmisi omandatakse loengutes, seminarides ja praktikumides. Lisaks arendavad kodutööd iseseisva töö oskust, meeskonnatöö-, koostöö- ja läbirääkimisoskust ning ettekanded esinemisoskust. Suvine ettevõttepraktika annab ka praktilise töökogemuse, mis tuleb pärast ülikooli lõpetamist kasuks tööle kandideerimisel.\n\nMaamajandusliku ettevõtluse ja finantsjuhtimise õppekava on pälvinud rahvusvahelise tunnustuse. Õppejõud on oma ala eksperdid, kes osalevad teadusprojektides ning kujundavad põllumajanduspoliitika üldsuundi. Õpetamisse on kaasatud ka praktikud nii era- kui ka avalikust sektorist. Siinne õpikeskkond on sõbralik ja teineteist toetav. \n\nMaamajandusliku ettevõtluse ja finantsjuhtimise bakalaureuseõppekaval saab õppida nii päeva- kui sessioonõppevormis. Sessioonõpe toimub üldjuhul üle kolme nädala neljapäevast pühapäevani. Sessioonõppes õppija peab olema valmis suuremas mahus iseseisvaks tööks. \n\nMeie lõpetajad leiavad endale töö nii era- kui ka avalikus sektoris. Omandatud erialased teadmised võimaldavad lõpetanutel tööle asuda majandusspetsialistina (ökonomist, majandusanalüütik, raamatupidaja, finantsist, tootmis- ja müügikorraldaja, ostu- ja müügijuht) ettevõtetes, kohalikes omavalitsustes jt riigivalitsusorganites, mittetulundussektoris või enda poolt asutatud ettevõttes. \n\nÕppekava kõigil tudengitel on võimalik vahetustudengina õppida mõnes välisülikoolis. Välisülikoolides õppimise ja praktika kohta leiad lisainfot [SIIT](https://www.emu.ee/oppijale/oppimine-valismaal/). Bakalaureuse õppekava kestab kolm aastat ning lõpetanud saavad jätka oma õpinguid Maaülikoolis sessioonõppe vormis magistriõppes."
+        ],
+        "eap": 180,
+        "spots": 48,
+        "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/maamajanduslik-ettevotlus-ja-finantsjuhtimine/",
+        "videoId": "UO6RiZunSV8",
+        "type": "",
+        "studyType": "päevaõpe, sessioonõpe",
+        "modules": [
             {
-              "name": "Filosoofia",
-              "eapCount": 3
+                "name": "Üldmoodul",
+                "courses": [
+                    {
+                        "name": "Filosoofia",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise erialakeel",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Kõrgem matemaatika",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Maasotsioloogia üldkursus",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Majandusinformaatika",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Riskianalüüs ja töökeskkonna ohutus",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Teadustöö alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Õigusõpetus",
+                        "eapCount": 3
+                    }
+                ]
             },
             {
-              "name": "Inglise erialakeel",
-              "eapCount": 4
+                "courses": [],
+                "name": "Erialamoodul",
+                "submodules": [
+                    {
+                        "name": "Majandusteaduse alused",
+                        "courses": [
+                            {
+                                "name": "Makroökonoomika",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Mikroekonoomika",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Rahvusvaheline majandus",
+                                "eapCount": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Põlluimajandusökonoomika",
+                        "courses": [
+                            {
+                                "name": "Loomakasvatuse alused",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Põllumajandusökonoomika põhikursus",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Põllumajandusökonoomika üldkursus",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Taimekasvatus",
+                                "eapCount": 4
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Statistika ja ökonomeetria",
+                        "courses": [
+                            {
+                                "name": "Operatsioonianalüüs",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Tõenäosusteooria ja statistika",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Ökonomeetria",
+                                "eapCount": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Majandusarvestus",
+                        "courses": [
+                            {
+                                "name": "Finantsraamatupidamine üldkursus",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Füüsilisest isikust ettevõtja arvestus",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Juhtimisraamatupidamine",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Raamatupidamise alused",
+                                "eapCount": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maksud ja rahandus",
+                        "courses": [
+                            {
+                                "name": "Euroopa Liidu rahandus ja poliitika",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Maksud",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Rahandus",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Ärirahandus ja finantseerimine",
+                                "eapCount": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ettevõtlus",
+                        "courses": [
+                            {
+                                "name": "Logistika maamajanduses",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Maaettevõtluse põhikursus",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Maaettevõtluse üldkursus",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Ühistegevuse alused",
+                                "eapCount": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Turundus ja juhtimine",
+                        "courses": [
+                            {
+                                "name": "Ettevõtte juhtimise üldkursus",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Hinnapoliitika ja -streteegia",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Turundus",
+                                "eapCount": 4
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Keskkonnakorraldus ja biomajandus",
+                        "courses": [
+                            {
+                                "name": "Biomajanduse alused",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Keskkonnakaitse ja -korraldus",
+                                "eapCount": 4
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ettevõttepraktika",
+                        "courses": [
+                            {
+                                "name": "Ettevõttepraktika",
+                                "eapCount": 6
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "name": "Kõrgem matemaatika",
-              "eapCount": 7
+                "courses": [],
+                "name": "Valikmoodul",
+                "submodules": [
+                    {
+                        "name": "Tarbija ja põllumajandustootja",
+                        "courses": [
+                            {
+                                "name": "Põllumajandus- ja toidusüsteemiturundus",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Põllumajandusturundus",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Tarbijakäitumine",
+                                "eapCount": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ettevõtluse õiguslikud ja eetilised alused",
+                        "courses": [
+                            {
+                                "name": "Majandusõigus",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Ärieetika",
+                                "eapCount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bioloogilise vara ja avaliku sektori arvestus",
+                        "courses": [
+                            {
+                                "name": "Avaliku sektori arvestus ja finantsjuhtimine",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Bioloogilise vara arvestus ja hindamine",
+                                "eapCount": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaelu juhtimine",
+                        "courses": [
+                            {
+                                "name": "Avalik esinemine",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Maaelu arendamine ja juhtimine",
+                                "eapCount": 3
+                            }
+                        ]
+                    }
+                ]
             },
             {
-              "name": "Maasotsioloogia üldkursus",
-              "eapCount": 4
+                "name": "Vabaained",
+                "courses": [
+                    {
+                        "name": "Vabaainete valiku teeb üliõpilane vastavalt oma huvidele Eesti Maaülikooli või teiste kõrgkoolide õppeainete hulgast, soovituslikult erialamoodulis antavate teadmiste täienduseks.",
+                        "eapCount": 8
+                    }
+                ]
             },
             {
-              "name": "Majandusinformaatika",
-              "eapCount": 4
-            },
-            {
-              "name": "Riskianalüüs ja töökeskkonna ohutus",
-              "eapCount": 3
-            },
-            {
-              "name": "Teadustöö alused",
-              "eapCount": 3
-            },
-            {
-              "name": "Õigusõpetus",
-              "eapCount": 3
+                "name": "Bakalaureusetöö/eksam",
+                "courses": [
+                    {
+                        "name": "Bakalraureuseeksam",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Bakalaureusetöö",
+                        "eapCount": 10
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "courses": [],
-          "name": "Erialamoodul",
-          "submodules": [
+        ],
+        "personnel": [
             {
-              "name": "Majandusteaduse alused",
-              "courses": [
-                {
-                  "name": "Makroökonoomika",
-                  "eapCount": 5
-                },
-                {
-                  "name": "Mikroekonoomika",
-                  "eapCount": 5
-                },
-                {
-                  "name": "Rahvusvaheline majandus",
-                  "eapCount": 6
-                }
-              ]
-            },
-            {
-              "name": "Põlluimajandusökonoomika",
-              "courses": [
-                {
-                  "name": "Loomakasvatuse alused",
-                  "eapCount": 4
-                },
-                {
-                  "name": "Põllumajandusökonoomika põhikursus",
-                  "eapCount": 5
-                },
-                {
-                  "name": "Põllumajandusökonoomika üldkursus",
-                  "eapCount": 5
-                },
-                {
-                  "name": "Taimekasvatus",
-                  "eapCount": 4
-                }
-              ]
-            },
-            {
-              "name": "Statistika ja ökonomeetria",
-              "courses": [
-                {
-                  "name": "Operatsioonianalüüs",
-                  "eapCount": 5
-                },
-                {
-                  "name": "Tõenäosusteooria ja statistika",
-                  "eapCount": 5
-                },
-                {
-                  "name": "Ökonomeetria",
-                  "eapCount": 5
-                }
-              ]
-            },
-            {
-              "name": "Majandusarvestus",
-              "courses": [
-                {
-                  "name": "Finantsraamatupidamine üldkursus",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Füüsilisest isikust ettevõtja arvestus",
-                  "eapCount": 2
-                },
-                {
-                  "name": "Juhtimisraamatupidamine",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Raamatupidamise alused",
-                  "eapCount": 5
-                }
-              ]
-            },
-            {
-              "name": "Maksud ja rahandus",
-              "courses": [
-                {
-                  "name": "Euroopa Liidu rahandus ja poliitika",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Maksud",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Rahandus",
-                  "eapCount": 4
-                },
-                {
-                  "name": "Ärirahandus ja finantseerimine",
-                  "eapCount": 6
-                }
-              ]
-            },
-            {
-              "name": "Ettevõtlus",
-              "courses": [
-                {
-                  "name": "Logistika maamajanduses",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Maaettevõtluse põhikursus",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Maaettevõtluse üldkursus",
-                  "eapCount": 2
-                },
-                {
-                  "name": "Ühistegevuse alused",
-                  "eapCount": 3
-                }
-              ]
-            },
-            {
-              "name": "Turundus ja juhtimine",
-              "courses": [
-                {
-                  "name": "Ettevõtte juhtimise üldkursus",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Hinnapoliitika ja -streteegia",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Turundus",
-                  "eapCount": 4
-                }
-              ]
-            },
-            {
-              "name": "Keskkonnakorraldus ja biomajandus",
-              "courses": [
-                {
-                  "name": "Biomajanduse alused",
-                  "eapCount": 4
-                },
-                {
-                  "name": "Keskkonnakaitse ja -korraldus",
-                  "eapCount": 4
-                }
-              ]
-            },
-            {
-              "name": "Ettevõttepraktika",
-              "courses": [
-                {
-                  "name": "Ettevõttepraktika",
-                  "eapCount": 6
-                }
-              ]
+                "name": "Anne Põder",
+                "title": "Maamajanduse ökonoomika õppetool",
+                "email": "anne.poder@emu.ee",
+                "phone": "++3727313019"
             }
-          ]
-        },
-        {
-          "courses": [],
-          "name": "Valikmoodul",
-          "submodules": [
+        ],
+        "level": "bakalaureus",
+        "outcomes": [
+            "On maamajandust tundev bakalaureusekraadiga spetsialist, kes omab süsteemset ülevaadet majanduslike protsesside üldistest seaduspärasustest ja oskusi ärivaldkonnas tegutsemiseks",
+            "Tunneb ökonoomika põhimõisteid, ja omab teadmisi ökonoomilise analüüsi teostamiseks ja ettevõtte majandustegevuse tulemuste hindamiseks rõhuga maamajandusele, sh põllumajandusele",
+            "Tunneb arvestuse aluseid ja rahanduse alusteooriaid, korraldab arvestust ja finantsjuhtimist ettevõtetes",
+            "Oskab erialastele teadmistele tuginedes asutada ja majandada ettevõtet",
+            "Oskab erialaste ülesannete ja probleemide lahendamiseks valida sobivaid meetodeid ning on valmis osalema vastavasisulistes aruteludes",
+            "Tunneb maamajanduse arengusuundi ja aktuaalseid probleeme maaelus ja on orienteeritud panustama maamajanduse arendamisse",
+            "Omab valmisolekut õpingute jätkamiseks ning iseseisvaks erialaseks ja tööalaseks täiendamiseks",
+            "Osaleb aktiivselt kodanikuühiskonnas ning väärtustab oma eriala eetilisi aspekte ja ühiskondlikku rolli."
+        ],
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
             {
-              "name": "Tarbija ja põllumajandustootja",
-              "courses": [
-                {
-                  "name": "Põllumajandus- ja toidusüsteemiturundus",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Põllumajandusturundus",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Tarbijakäitumine",
-                  "eapCount": 3
-                }
-              ]
+                "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st (4-20 konkursipunkti)"
             },
             {
-              "name": "Ettevõtluse õiguslikud ja eetilised alused",
-              "courses": [
-                {
-                  "name": "Majandusõigus",
-                  "eapCount": 4
-                },
-                {
-                  "name": "Ärieetika",
-                  "eapCount": 2
-                }
-              ]
+                "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
             },
             {
-              "name": "Bioloogilise vara ja avaliku sektori arvestus",
-              "courses": [
-                {
-                  "name": "Avaliku sektori arvestus ja finantsjuhtimine",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Bioloogilise vara arvestus ja hindamine",
-                  "eapCount": 3
-                }
-              ]
+                "term": "Konkursil saab riigieksamite eest 4­˗20 konkursipunkti ja keskmise hinde eest 3-5 konkursipunkti. Kokku: 7-25 konkursipunkti. 3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus"
             },
             {
-              "name": "Maaelu juhtimine",
-              "courses": [
-                {
-                  "name": "Avalik esinemine",
-                  "eapCount": 3
-                },
-                {
-                  "name": "Maaelu arendamine ja juhtimine",
-                  "eapCount": 3
-                }
-              ]
+                "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
             }
-          ]
-        },
-        {
-          "name": "Vabaained",
-          "courses": [
-            {
-              "name": "Vabaainete valiku teeb üliõpilane vastavalt oma huvidele Eesti Maaülikooli või teiste kõrgkoolide õppeainete hulgast, soovituslikult erialamoodulis antavate teadmiste täienduseks.",
-              "eapCount": 8
-            }
-          ]
-        },
-        {
-          "name": "Bakalaureusetöö/eksam",
-          "courses": [
-            {
-              "name": "Bakalraureuseeksam",
-              "eapCount": 10
-            },
-            {
-              "name": "Bakalaureusetöö",
-              "eapCount": 10
-            }
-          ]
+        ],
+        "name": "Maamajanduslik ettevõtlus ja finantsjuhtimine",
+        "nameEn": "Rural Entrepreneurship and Financial Management",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
         }
-      ],
-      "personnel": [
-          {
-              "name": "Anne Põder",
-              "title": "Maamajanduse ökonoomika õppetool",
-              "email": "anne.poder@emu.ee",
-              "phone": "++3727313019"
-          }
-      ],
-      "level": "bakalaureus",
-      "outcomes": [
-        "On maamajandust tundev bakalaureusekraadiga spetsialist, kes omab süsteemset ülevaadet majanduslike protsesside üldistest seaduspärasustest ja oskusi ärivaldkonnas tegutsemiseks",
-        "Tunneb ökonoomika põhimõisteid, ja omab teadmisi ökonoomilise analüüsi teostamiseks ja ettevõtte majandustegevuse tulemuste hindamiseks rõhuga maamajandusele, sh põllumajandusele",
-        "Tunneb arvestuse aluseid ja rahanduse alusteooriaid, korraldab arvestust ja finantsjuhtimist ettevõtetes",
-        "Oskab erialastele teadmistele tuginedes asutada ja majandada ettevõtet",
-        "Oskab erialaste ülesannete ja probleemide lahendamiseks valida sobivaid meetodeid ning on valmis osalema vastavasisulistes aruteludes",
-        "Tunneb maamajanduse arengusuundi ja aktuaalseid probleeme maaelus ja on orienteeritud panustama maamajanduse arendamisse",
-        "Omab valmisolekut õpingute jätkamiseks ning iseseisvaks erialaseks ja tööalaseks täiendamiseks",
-        "Osaleb aktiivselt kodanikuühiskonnas ning väärtustab oma eriala eetilisi aspekte ja ühiskondlikku rolli."
-      ],
-      "language": "eesti keel",
-      "duration": 3,
-      "requirements": [
-        {
-          "term": "Eesti keele / eesti keele kui teise keele ja kitsa matemaatika riigieksamite summa: kahe riigieksami peale kokku vähemalt 40 punkti 200-st (4-20 konkursipunkti)"
-        },
-        {
-          "term": "Keskharidust tõendava dokumendi keskmine hinne (3-5 konkursipunkti)"
-        },
-        {
-          "term": "Konkursil saab riigieksamite eest 4­˗20 konkursipunkti ja keskmise hinde eest 3-5 konkursipunkti. Kokku: 7-25 konkursipunkti. 3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus"
-        },
-        {
-            "term": "3 lisakonkursipunkti annab kutseregistrisse (https://www.kutseregister.ee/) kantud kehtiv kutsetunnistus vastavalt [eeskirja lisas toodule](https://www.emu.ee/userfiles/emu2015/emu2022/Vastuvotueeskiri_2023_lisa_5.pdf)"
-        }
-      ],
-      "name": "Maamajanduslik ettevõtlus ja finantsjuhtimine",
-      "cost": {
-        "amount": 0,
-        "currency": "€",
-        "interval": "full"
-      }
     },
     {
       "studyLocation": [
@@ -669,6 +670,7 @@
         }
       ],
       "name": "Geodeesia, kinnisvara- ja maakorraldus",
+      "nameEn": "Land Surveying, Property and Land Management",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -686,7 +688,7 @@
       "spots": 50,
       "majorWebsite": "https://www.emu.ee/sisseastujale/bakalaureuseope/pohioppe-erialade-luhitutvustused/metsamajandus/",
       "videoId": "NlKTsfDu270",
-      "type": "Metsandus- ja Maaehitusteadus",
+      "type": "",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
@@ -1051,6 +1053,7 @@
         }
       ],
       "name": "Metsandus",
+      "nameEn": "Forestry",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -1337,6 +1340,7 @@
         }
       ],
       "name": "Aiandus",
+      "nameEn": "Horticulture",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -1762,6 +1766,7 @@
         }
       ],
       "name": "Kalandus ja rakendusökoloogia",
+      "nameEn": "Fisheries and applied ecology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -2079,6 +2084,7 @@
         }
       ],
       "name": "Keskkonnakaitse",
+      "nameEn": "Environmental Protection",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -2375,6 +2381,7 @@
         }
       ],
       "name": "Keskkonnaplaneerimine ja maastikukujundus",
+      "nameEn": "Environmental Planning and Landscape Design",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -2706,6 +2713,7 @@
         }
       ],
       "name": "Loodusturism",
+      "nameEn": "Nature Based Tourism",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -3002,6 +3010,7 @@
         }
       ],
       "name": "Põllumajandussaaduste tootmine ja turustamine",
+      "nameEn": "Production and Marketing of Agricultural Products",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -3369,6 +3378,7 @@
         }
       ],
       "name": "Tehnika ja tehnoloogia",
+      "nameEn": "Engineering",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -3677,6 +3687,7 @@
         }
       ],
       "name": "Loomakasvatus",
+      "nameEn": "Animal Science",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -3984,6 +3995,7 @@
         }
       ],
       "name": "Toiduainete tehnoloogia",
+      "nameEn": "Food Technology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -3995,7 +4007,7 @@
         "Tartu"
       ],
       "description": [
-        "To prepare leading specialists for planning and analysis in multifunctional forestry, who can take responsibility and make sustainable strategic decisions."
+        "To prepare leading specialists for planning and analysis in multifunctional forestry, who can take responsibility and make sustainable strategic decisions. \n\n**Scholarships** \n\nThe Estonian University of Life Sciences offers 2 extra scholarships (a tuition fee free study place, no extra money for living and travel included) for citizens of Ukraine with the status of war refugees. The scholarship will be awarded to the candidates with the highest amount of admission points collected for the interview and by default, all candidates (citizens of Ukraine with the status of war refugees) are considered as applicants to the scholarship. \n\nThe decision about awarding scholarships will be announced on the 21st of June."
       ],
       "eap": 120,
       "spots": 20,
@@ -4147,6 +4159,7 @@
           {
               "name": "Henn Korjus",
               "title": "Programmijuht",
+              "titleEn": "Head of Curriculum",
               "email": "henn.korjus@emu.ee",
               "phone": "+3725140550"
           }
@@ -4172,6 +4185,7 @@
         }
       ],
       "name": "Metsanduslik kavandamine ja analüüs",
+      "nameEn": "Planning and Analysis in Multifunctional Forestry",
       "cost": {
         "amount": 3200,
         "currency": "€",
@@ -4185,6 +4199,7 @@
       "description": [
         "**Miks valida uus ühisõppekava?** \nKeskkonnajuhtimine kliimamuutuse tingimustes (KKT) õppekava: \n\n**•** pakub kvaliteetset ja mitmekülgset kõrgharidust, keskendudes uusimatele teadustulemustele ja arengutele strateegiliselt esmatähtsates säästva arengu, kliimamuutuste ja ringmajanduse valdkondades \n\n**•** pöörab suurt rõhku Euroopa rohelise kokkuleppe mitmekülgseks integreerimiseks õppeprogrammi erinevatesse ainetesse \n\n**•** toetab teoreetiliste teadmiste kinnistamist läbi arvukate praktikumide, välitööde ja grupiprojektide \n\n**•** pakub mitmekesist ja paindlikku õppekava, andes tudengitele suurema vabaduse oma õppeplaani kujundamisel vastavalt isiklikele õpieesmärkidele \n\n**•** keskendub rohe- ja ringmajandusele ning juurutamisele ühiskonnas – õppekaval omandatud mitmekülgsed teadmised ja oskused annavad hiljem tugeva strateegilise eelise tööturul \n\n**•** annab lõpetajatele ainulaadse võimaluse saada ühisdiplom korraga kahest Eesti silmapaistvast ülikoolist. \n\n**Õppekava kokkuvõte** \n\nKui sa oled aktiivne ning edumeelne noor, kes on huvitatud maailma tulevikust ja soovib meie kiirestimuutuvas maailmas kaasa rääkida, siis KKT on õppekava just sinule. KKT on rahvusvaheline programm, mille eesmärk on anda sulle oskused ja vahendid lahendamaks tõsiseid sotsiaalseid-, keskkonnaalaseid- ja majanduslikke probleeme, millega maailm täna silmitsi seisab. Õppekava keskendub just kliimamuutustest tingitud väljakutsetele hõlmates väga laia valdkonda alates poliitikast ja seadusandlusest kuni infotehnoloogia ja teaduseni. Jäätmeprobleemid, veepuudus, kliimasoojenemisest tingitud keskkonnamuutused – need on karm reaalsus, millega me täna silmitsi seisame. Kahjuks on oodata nende probleemide süvenemist tulevikus. \n\nKliimamuutustega kohanemise tingimustes on kogu maailmas igapäevaselt vaja rohkem selliseid spetsialiste, kes oskavad leida globaalprobleemidele interdistsiplinaarseid lahendusi - lahendusi, mis on sobilikud erinevatele sotsiaalmajanduslikele sihtgruppidele alates valitsustest kuni ettevõtete ja üksikisikuteni. Meie eesmärk on õpetada sulle, kuidas kujundada ja muuta inimkonna mentaliteeti jätkusuutlikuma maailmamajanduse suunas, kuidas leida lahendusi keskkonnasõbralikuks koostööks äri- ja poliitikavaldkondade, tööstusettevõtete ja teadusvaldkondade vahel. \n\nKKT programmi üliõpilasena kohtud mõttekaaslastega üle kogu maailma. Anname sulle oskused suhtlemiseks ning loovate lahenduste leidmiseks töötades erinevatest rahvustest ja erineva kultuurilise taustaga inimestega. Õppekava pakub sulle arvukalt võimalusi teoreetiliste teadmiste rakendamiseks praktikas ning saamaks esmase ettekujutuse töötamisest keskkonnajuhtimise valdkonnas. Õppekava pakub põnevaid väljakutseid ning on piisavalt mitmekülgne, et aidata igal tudengil leida oma tugevused ja huvid. \n\nKKT õppekavale õppima asudes kohtud oma eriala tippspetsialistega, leiad huvitavaid mentoreid karjääriplaneerimiseks ning sõpru kogu eluks. KKT õppekava lõpetajana hindavad tulevased tööandjad kõrgelt sellel õppekaval saadud mitmekülgset ning praktilist haridust, milles on põimitud kahe Eesti tippülikooli hariduslikud tugevused ühtseks kordumatuks haridusväljundiks. \n\n**Õppekava struktuur** \n\nKKT kursused jagunevad nelja põhimoodulisse: \n\n**•** keskkonnajuhtimise erialamooduli ained, mis annavad kõigile keskkonna valdkonnas töötavatele spetsialistidele ja juhtidele vajalikud üldised teadmised ja oskused \n\n**•** spetsialiseerumismoodulite raames on tudengitel võimalik vastavalt oma huvialale keskenduda teadmiste omandamisele kitsamas keskkonnavaldkonnas, milleks on: kliima, atmosfääriprotsessid ja kaugseire; ökotehnoloogia, veemajandus ja -käitlus; ringmajandus ja jäätmete väärindamine \n\n**•** eriala valikmooduli ained annavad võimaluse täiendada interdistsiplinaarseid teadmisi ning pakuvad praktilist ja rakenduspõhist lähenemist vastavalt valitud temaatikale \n\n**•** valikainete moodul võimaldab tudengitel isiklikest hariduseesmärkidest lähtuvalt valida erialaseid kursuseid olemasolevate teadmiste süvendamiseks, silmaringi laiendamiseks teistes keskkonnavaldkondades või enesetäienduses näiteks ettevõtlusvaldkonnas. \n\n**Ainekursuste jagunemine nelja semestri vahel:** \n\n**I semester:** Euroopa Liidu rohelepe (TÜ), globaalsed muutused ökosüsteemides ja nende mõju loodusressursside kasutamisele (EMÜ), keskkonnakorraldus ja poliitika (EMÜ), saasteained keskkonnas ja ökotoksikoloogia (EMÜ), atmosfääri ja kliimateadused (TÜ), aineringed ja energiavood (TÜ). Lisaks üks valikuline aine järgnevate seast: looduse kaugseire, sini-rohetaristud, tulevikumaavarad ja kaevandustehnoloogiad. \n\n**II semester:** jäätmekäitlus ja ringmajandus (EMÜ), sissejuhatus keskkonnaõigusesse (EMÜ), kaasamine ja osalus keskkonnakorralduses (EMÜ), teadustöö metodoloogia ja uurimismeetodid (EMÜ, loodusehüved (EMÜ), sissejuhatus ökotehnoloogiasse (TÜ). Lisaks valitakse 27 - 29 EAPd kas kliima, atmosfääriprotsessid ja kaugseire ainete hulgast; ökotehnoloogia, veemajandus ja -käitlus ainete hulgast; või ringmajanduse ja jäätmete väärindamise ainete hulgast. Samuti omal valikul aineid lisamooduli ainete hulgast 3 - 6 EAP mahus. \n\n**III semester:** praktiline keskkonnakorraldus Euroopa Liidus (EMÜ), keskkonnaseiremeetodid praktikum (TÜ), rakenduslik hüdrodünaamika (TÜ). Lisaks valitakse 9 - 11 EAPd kas kliima, atmosfääriprotsessid ja kaugseire ainete hulgast; ökotehnoloogia, veemajandus ja -käitlus ainete hulgast; või ringmajanduse ja jäätmete väärindamise ainete hulgast. Samuti omal valikul aineid lisamooduli ainete hulgast 10 EAP mahus. \n\n**IV semester:** magistritöö (EMÜ või TÜ) \n\n\n**Karjäärivõimalused** \n\nKKT rahvusvahelise magistriõppekava läbijana on sul karjäärivõimalusi paljudes säästva arengu ja keskkonnateemalistes valdkondades üle maailma. Sa võid leida tööd erinevates valitsusasutustes, tööstuses, EL-i asutustes, valitsusvälistes organisatsioonides. Samuti on sul võimalik karjääri teha rahvusvahelistes organisatsioonides nagu näiteks Maailmapank ja OECD. Võid jätkata ka ettevõtjana või astuda hoopis doktoriõppesse, et jätkata akadeemilist karjääri. \n\n**Stipendiumid** \n\n**•** 5 sihtstipendiumit silmapaistvatele Eesti kodakondususega üliõpilastele; 1 sihtstipendium silmapaistvale Euroopa Liidu kodakondsusega üliõpilasele \n\n**•** võimalus taotleda erinevaid riigisiseseid või rahvusvahelisi lisastipendiume \n\n**•** erinevad võimalused liituda ülikoolide sihtfinantseeritud teadusrühmadega. \n\n\n**Miks valida rahvusvaheline ühisõppekava keskkonnajuhtimise alal Eestis?** \n\n**•** Saad diplomi kahest juhtivast ülikoolist korraga, mis annab strateegilise eelise tööturul. \n\n**•**Õppekavas on kokku pandud Eesti Maaülikooli ja Tartu Ülikooli parimad, põnevaimad ja asjakohaseimad ained keskkonnajuhtimise valdkonnas. \n\n**•** Programmijuhitugi, õppeosakonna tugi jm mõlemast ülikoolist. \n\n **•** Laiendatud suhtlusvõrgustik, sotsiaalsed üritused, erialased kontaktid. \n\n **•** Võimalus võtta valik- ja vabaaineid mõlemast ülikoolist. \n\n**•** Inglisekeelne õpe tagab tugeva rahvusvahelise haridusbaasi ja keeletaseme."
       ],
+      "descriptionEn": "Environmental Governance and Adaptation to Climate Change is a joint study programme between the Estonian University of Life Sciences and the University of Tartu. The general objective is to prepare middle managers with comprehensive and specific knowledge and practical skills, who, as specialists, are able to take responsibility and make strategic decisions to formulate and implement environmental management and environmental policy at international level, considering the climate change and the European Green Deal. \n\n**Environmental Governance and Adaptation to Climate Change (EGACC):** \n\n**•** Focuses on high-quality, research supported education in strategically top-priority fields of sustainable development, climate change and circular economy; \n\n**•** Lays major emphasis on lining the curricula with latest developments regarding the implementation of the European Green Deal; \n\n**•** Supports theoretical knowledge with numerous practical training activities, field courses, and group projects; \n\n**•** Provides diverse and flexible curricula, giving students more freedom to shape their study plan regarding personal learning goals; \n\n**•** Focuses on green economy and its adaptation from many angles – the acquired knowledge and skills have a direct output for future career options; \n\n**•** Provides a unique opportunity for graduates to receive a joint diploma from two universities. \n\n**About the programme** \n\nIf you are interested in the future of the world and want to have a say in the rapidly changing environment, then EGACC is the programme for you. EGACC is an international programme designed to teach how to resolve social, environmental, and economic challenges the world is facing today. It covers a very broad field of subjects from policies and legislation to information technology and science in the light of various challenges caused by the climatic change. Waste issues, water shortage problems, global warming induced challenges are all the harsh reality we are facing today, and sadly it is getting worse tomorrow. \n\nMore environmental specialists are needed, world-wide on a daily basis, who can find interdisciplinary solutions to these major problems, solutions that appeal to very different audiences from governments to small businesses to individuals. During the courses you will learn and obtain skills how to build appealing cases which can help to change the humanity’s mentality towards more sustainable global economy, towards green co-operation between all fields and levels of business, politics, industry, and science. \n\nAs a student of EGACC programme you will meet like-minded young people from all over the world. We will give you the skills to effectively communicate and to work alongside various nationalities and cultures to find creative solutions to common problems. The curricula provide you with numerous opportunities to put the theoretical knowledge into practise and get a taste of what it actually feels like to work in the field of sustainability and environmental management. The programme is designed to engage and to challenge and bring out the best potential and strongest qualities in each student. \n\nYou will also encounter various top-professionals, mentors, or perhaps even future employers. As a graduate environmental manager, you will be highly valued for your practical and versatile education. A joint diploma from the two universities will be an attractive asset in your portfolio when entering the job market. \n\n**Overview of the course plan for the 4 semesters:** \n\n**I semester:** European Union Green Deal, Environmental Management and Policy, Pollutants in Environment and Ecotoxicology, Atmospheric and Climate Sciences, Material Cycles and Energy Flows. In addition, one course selected from the following: Environmental Goods and Services, Blue-Green Infrastructures, or Mineral Resources of Future and Mining Technologies. \n\n**II semester:** Waste Management and Circular Economy, Intro to Environmental Legislation, Participation and Environmental Governance, Research Methodology, Environmental Goods and Services, Introduction to Ecotechnology. In addition, 29 ECTS of specialisation courses will be elected from climate, atmospheric processes and remote sensing; ecotechnology, water management and treatment; or circular economy and waste beneficiation submodules. \n\n**III semester:** Practical Training in Environmental Monitoring and Sampling, Applied Fluid Mechanics. In addition, 15 ECTS of specialisation courses will be elected from climate, atmospheric processes and remote sensing; ecotechnology, water management and -treatment; or circular economy and waste beneficiation submodules. \n\n**IV semester: Master’s Thesis** \n\nTo see the detailed course distribution over the four semesters please visit ÕIS. \n\n**Career prospects** \n\nAs an EGACC MSc graduate you will be able to find career opportunities in broad range of sustainable economy and environment-related options world-wide. You can find a position in government, industry, EU bodies, NGOs. You can also pursue a career in international organisations like the World Bank and the OECD. You can also continue as an entrepreneur or enrol in PhD programmes to pursue an academic career instead. \n\n**Scholarships** \n\n**•** 5 targeted scholarships for outstanding students with Estonian citizenship; 1 targeted scholarship for an outstanding student with EU citizenship. \n\n**•** 2 targeted scholarships for citizens of Ukraine with the status of war refugees. \n\n**•** Various options to apply for country-specific or external scholarships. \n\n**•** Various possibilities for outstanding students to join funded research groups. \n\n**Why study in Estonia?** \n\n**•** Estonia is a very unique e-society, with electronic ID-cards, e-government, e-health, e-school and much more (www.e-estonia.com). \n\n**•** It is Europe’s start-up hot-spot! \n\n**•** One of the safest countries in the world. \n\n Ranks 2nd place for internet freedom in the world. \n\n**•** Beautiful nature and unique culture.",
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/keskkonnajuhtimine-kliimamuutuste-tingimustes/",
@@ -4421,13 +4436,15 @@
           {
               "name": "Kalev Sepp",
               "title": "Õppetooli juht",
+              "titleEn": "Chair of Environmental Protection and Landscape",
               "email": "kalev.sepp@emu.ee",
               "phone": "+3727313777",
               "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/image/MH/2020rs/kalev_2020RS.jpg?w=200&h=277"
           },
           {
               "name": "Vaike Reisner",
-              "title": "Chief Specialist in International Admissions",
+              "title": "Õppeosakond",
+              "titleEn": "Chief Specialist in International Admissions",
               "email": "vaike.reisner@emu.ee",
               "phone": "+3727313890"
           }
@@ -4453,6 +4470,7 @@
         }
       ],
       "name": "Keskkonnajuhtimine kliimamuutuse tingimustes",
+      "nameEn": "Environmental Governance and Adaptation to Climate Change",
       "cost": {
         "amount": 3800,
         "currency": "€",
@@ -4470,7 +4488,7 @@
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/metsamajandus/",
       "videoId": "TtX2JKIA44Y",
-      "type": "Metsandus- ja Maaehitusteadus",
+      "type": "",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
@@ -4629,6 +4647,7 @@
         }
       ],
       "name": "Metsamajandus ja metsaökoloogia",
+      "nameEn": "Forest management and forest ecology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -4852,6 +4871,7 @@
         }
       ],
       "name": "Keskkonnakorraldus ja -poliitika",
+      "nameEn": "Environmental Management and Policy",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -5024,6 +5044,7 @@
         }
       ],
       "name": "Maastikuarhitektuur",
+      "nameEn": "Landscape Architecture",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -5035,13 +5056,14 @@
         "Tartu"
       ],
       "description": [
-        "Maastikuarhitektuur on eriala, mis oma igapäevases praktikas seob loovuse ja argumentatsiooni abil omavahel komponente loodusteadustest, sotsiaalteadustest, inseneriteadustest ja kunstidest. See tähendab, et maastikuarhitekt on spetsialist, kes hoolides ühiskonna vajadustest ja maastiku väärtustest, loob toimivaid, tähenduslikke ja esteetiliselt nauditavaid paiku ehk elukeskkonda inimestele. Maastikuarhitektuur kui eriala ei piirdu mingi kindla konteksti või mõõtkavaga, vaid tegevusala hõlmab nii maa- kui linnaruumi, nii universaalseid kui erifunktsiooniga alasid, nii avalikku- kui privaatset ruumi \n\n**Õppekavast** \n\nMagistriastme õppetöö jätkab bakalaureuseastmes alustatud õpinguid ja toetub orgaaniliselt eelnevatele teadmistele, oskustele ja arusaamisele erialast. Magistriõpe kätkeb maastikuarhitektuuri teoreetilisi käsitlusi ning planeerimis- ja kujundamisoskuste süvendamist. Õppe käigus käsitletakse nii Eesti konteksti kui ka laiemalt Euroopa omaseid praktikaid. Õppetöö eripäraks on see, et meie rahvusvahelises kuid siiski koduses keskkonnas õpivad paljudes ainetes eesti üliõpilased koos välisüliõpilastega inglise keeles, saades nii tänapäeval hädavajalikku rahvusvahelist kogemust ilma Eestist lahkumata. Õppetööd viivad läbi nii Eesti kui meie välisõppejõud, aegajalt ka Eesti praktikud kui ka külalised välisriikidest. Loomulikult on ka võimalus läbida vaid eesti üliõpilastele toimuvaid eesti keelseid aineid ja koostada ja kaitsta magistritöö eesti keeles. \n\n**Õppemeetodid** \n\nÕppemeetoditest moodustavad loengute ja seminaride kõrval suurema õppetöö mahu praktilised stuudiotöö põhiseid õpitegevused, mitmed erialased väljasõidud ja välitööd ning erialane uurimistöö. Tööd tehakse nii grupis kui ka individuaalselt nii õppejõu juhendamisel kui loomulikult ka iseseisvalt. Õpieesmärkide saavutamist hinnatakse kirjalike eksamite, esseede, raportite ja nii digitaalsete kui käsitsi joonistatud kursuseprojektide põhjal. Tihti kasutatakse hindamise läbiviimisel ja tagasiside andmisel avalikku esitlust, kus tagasisidet annavad ka spetsialistid väljastpoolt ülikooli. Õppeprotsessi käigus lahendatakse mitmeid erinevaid planeerimis-, kujundus- või maastikuhoolduse ülesandeid, mis põhinevad realistlikel situatsioonidel. \n\n**Karjäärivõimalused** \n\nMaastikuarhitektuuri magistriprogrammi edukas läbija on pädev maastikuarhitekt, kelle diplom on tunnustatud nii Eesti kui rahvusvaheliste erialaorganisatsioonide poolt nagu EMAL, EFLA-IFLA. Omandatud erialane ettevalmistus võimaldab töötada erinevatel era- kui avaliku sektori töökohtadel, kus maastikuarhitekti kompetentsi vajatakse, nii Eestis kui ka mujal Euroopas. Magistridiplom on eelduseks „maastikuarhitekti 7“ kutsetunnistuse taotlemisel või õpingute jätkamiseks doktoriõppes akadeemilise karjääri tegemiseks."
+        "Landscape Architecture is a discipline that focuses on intervention in the landscape through the activities of planning, design, and management. It also focuses on the science that underpins these activities and the implementation of proposals.  It is united around the concept of landscape, which is defined in various ways but is generally understood to mean outdoor spaces, environments and places and relationships between people and these spaces, environments, and places, both in terms of activities and perceptions. \n\nLandscape Architecture is concerned with landscapes of all types, both urban and rural, and at all scales from the smallest open space to the region. \n\nThe curriculum builds on the level of achievement expected at bachelor level with in-depth studies of a range of more specialized subjects covering both practical and theoretical fields, including ones which have special aspects suitable for study in Estonia. \n\n**Teaching methods** \n\nIn the programme, we use a mix of individual study and group project work. Teaching modes range from formal lectures and seminars or field trips to tuition on studio-based design projects, opportunities for research range from library-based research to field work. \n\nAssessment methods include writing examination papers, essays, and reports, but also hand-drawn or digital graphic-based plans and images. We consider open, public presentation and criticism of design projects important. We discuss realistic planning, design or management problems, which form the basis of the project work. A relatively large proportion of the curriculum is dedicated to design studios, field visits, and research. \n\n**Career opportunities** \n\nGraduates of the programme will be able to work in professional practice in private design offices, in local government or government agencies throughout Europe and beyond where their skills are needed. They may also use the master degree as a basis for entering a doctoral programme. \n\n**Financing your studies** \n\nThe Estonian University of Life Sciences offers 2 scholarships (a tuition fee free study place, no extra money for living and travel included) for the 2023 intake for candidates not from Estonia. The scholarship will be awarded to the candidate with the highest amount of admission points and by default, all candidates are considered as applicants to the scholarship. In order to maintain the scholarship during the whole nominal period of studies, the scholarship recipient must comply with the requirements set for full-time study (30 European Credit Transfer System credit points (ECTS) in each semester). If not, the scholarship recipient shall cover his/her cost of tuition, pursuant to the University Council Regulation 'Terms and Procedure for Covering the Cost of Tuition in Formal Study', for the remaining study period. \n\nThe Estonian University of Life Sciences offers 2 extra scholarships (a tuition fee free study place, no extra money for living and travel included) for citizens of Ukraine with the status of war refugees. The scholarship will be awarded to the candidates with the highest amount of admission points collected for the interview and by default, all candidates (citizens of Ukraine with the status of war refugees) are considered as applicants to the scholarship. \n\nThe decision about awarding scholarships will be announced on the 7th of June (candidates from non-EU countries) and on the 21st of June (candidates from EU countries and citizens of Ukraine with the status of war refugees). \n\nStudy loans are offered through Erasmus+ for master students from Spain, Italy (Emilia Romagna region), Croatia, Romania and Turkey. See here to find out more."
       ],
+      "descriptionEn":  "Landscape Architecture is a discipline that focuses on intervention in the landscape through the activities of planning, design, and management. It also focuses on the science that underpins these activities and the implementation of proposals.  It is united around the concept of landscape, which is defined in various ways but is generally understood to mean outdoor spaces, environments and places and relationships between people and these spaces, environments, and places, both in terms of activities and perceptions. \n\nLandscape Architecture is concerned with landscapes of all types, both urban and rural, and at all scales from the smallest open space to the region. \n\nThe curriculum builds on the level of achievement expected at bachelor level with in-depth studies of a range of more specialized subjects covering both practical and theoretical fields, including ones which have special aspects suitable for study in Estonia. \n\n**Teaching methods** \n\nIn the programme, we use a mix of individual study and group project work. Teaching modes range from formal lectures and seminars or field trips to tuition on studio-based design projects, opportunities for research range from library-based research to field work. \n\nAssessment methods include writing examination papers, essays, and reports, but also hand-drawn or digital graphic-based plans and images. We consider open, public presentation and criticism of design projects important. We discuss realistic planning, design or management problems, which form the basis of the project work. A relatively large proportion of the curriculum is dedicated to design studios, field visits, and research. \n\n**Career opportunities** \n\nGraduates of the programme will be able to work in professional practice in private design offices, in local government or government agencies throughout Europe and beyond where their skills are needed. They may also use the master degree as a basis for entering a doctoral programme. \n\n**Financing your studies** \n\nThe Estonian University of Life Sciences offers 2 scholarships (a tuition fee free study place, no extra money for living and travel included) for the 2023 intake for candidates not from Estonia. The scholarship will be awarded to the candidate with the highest amount of admission points and by default, all candidates are considered as applicants to the scholarship. In order to maintain the scholarship during the whole nominal period of studies, the scholarship recipient must comply with the requirements set for full-time study (30 European Credit Transfer System credit points (ECTS) in each semester). If not, the scholarship recipient shall cover his/her cost of tuition, pursuant to the University Council Regulation 'Terms and Procedure for Covering the Cost of Tuition in Formal Study', for the remaining study period. \n\nThe Estonian University of Life Sciences offers 2 extra scholarships (a tuition fee free study place, no extra money for living and travel included) for citizens of Ukraine with the status of war refugees. The scholarship will be awarded to the candidates with the highest amount of admission points collected for the interview and by default, all candidates (citizens of Ukraine with the status of war refugees) are considered as applicants to the scholarship. \n\nThe decision about awarding scholarships will be announced on the 7th of June (candidates from non-EU countries) and on the 21st of June (candidates from EU countries and citizens of Ukraine with the status of war refugees). \n\nStudy loans are offered through Erasmus+ for master students from Spain, Italy (Emilia Romagna region), Croatia, Romania and Turkey. See here to find out more.",
       "eap": 120,
       "spots": 13,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/maastikuarhitektuur/",
       "videId": "IIQrOuILYRc",
-      "type": "Põllumajandus- ja keskkonnateadus",
+      "type": "",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
@@ -5167,11 +5189,10 @@
       ],
       "personnel": [
           {
-              "name": "Toomas Muru",
-              "title": "Õppetooli koordinaator, peaspetsialist",
-              "email": "toomas.muru@emu.ee",
-              "phone": "+3727313139",
-              "photo": "https://pk.emu.ee/get/image/userfiles/instituudid/pk/toomas.jpg?w=90&h=120"
+              "name": "Joanna Tamar Storie",
+              "title": "Head of Master programmes",
+              "email": "joannatamar.storie@emu.ee",
+              "photo": "https://www.emu.ee/get/image/userfiles/emu2015/image/sisseastujale/Joanna_Storie.jpeg?w=136&h=204"
           }
       ],
       "level": "magister",
@@ -5193,13 +5214,16 @@
       "duration": 2,
       "requirements": [
         {
-          "term": "Vastuvõtukatse: portfoolio"
+          "term": "Portfoolio",
+          "termEn": "Portfolio"
         },
         {
-          "term": "Vastuvõtukatse: vestlus"
+          "term": "Vestlus",
+          "termEn": "Interview"
         }
       ],
       "name": "Maastikuarhitektuur",
+      "nameEn": "Landscape Architecture",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -5450,6 +5474,7 @@
         }
       ],
       "name": "Tootmistehnika",
+      "nameEn": "Production Engineering",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -5637,6 +5662,7 @@
         }
       ],
       "name": "Majandusarvestus ja finantsjuhtimine",
+      "nameEn": "Accounting and Financial Management",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -5838,6 +5864,7 @@
         }
       ],
       "name": "Ökonoomika ja ettevõtlus",
+      "nameEn": "Economics and Entrepreneurship",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -5854,7 +5881,7 @@
       "eap": 120,
       "spots": 20,
       "majorWebsite": "https://www.emu.ee/sisseastujale/magistriope/magistrioppekavade-tutvustused/geodeesia-kinnisvara-ja-maakorraldus/",
-      "type": "Metsandus- ja Maaehitusteadus",
+      "type": "",
       "studyType": "päevaõpe, sessioonõpe",
       "modules": [
         {
@@ -6060,6 +6087,7 @@
         }
       ],
       "name": "Geodeesia, kinnisvara- ja maakorraldus",
+      "nameEn": "Land Surveying, Property and Land Management",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -6259,6 +6287,7 @@
         }
       ],
       "name": "Metsatööstus",
+      "nameEn": "Forest Industry",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -6463,6 +6492,7 @@
           }
       ],
       "name": "Aiandus",
+      "nameEn": "Horticulture",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -6709,6 +6739,7 @@
         }
       ],
       "name": "Kalandus ja rakendusökoloogia",
+      "nameEn": "Fisheries and applied ecology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -6827,6 +6858,7 @@
         }
       ],
       "name": "Loodusturism",
+      "nameEn": "Nature Based Tourism",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -7029,6 +7061,7 @@
         }
       ],
       "name": "Loomakasvatus",
+      "nameEn": "Animal Science",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -7254,6 +7287,7 @@
         }
       ],
       "name": "Toiduainete tehnoloogia",
+      "nameEn": "Food Technology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -7455,6 +7489,7 @@
         }
       ],
       "name": "Põllumajandussaaduste tootmine ja turustamine",
+      "nameEn": "Production and Marketing of Agricultural Products",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -7650,6 +7685,7 @@
         }
       ],
       "name": "Energiakasutus",
+      "nameEn": "Energy Application Engineering",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -7839,6 +7875,7 @@
         }
       ],
       "name": "Ergonoomika",
+      "nameEn": "Ergonomics",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -7855,7 +7892,7 @@
       "eap": 240,
       "spots": 2,
       "majorWebsite": "http://pk.emu.ee/",
-      "type": "Põllumajandus- ja keskkonnateadus",
+      "type": "",
       "studyType": "päevaõpe",
       "modules": [
         {
@@ -7993,6 +8030,7 @@
         }
       ],
       "name": "Keskkonnateadus ja rakendusbioloogia",
+      "nameEn": "Environmental Sciences and Applied Biology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -8147,6 +8185,7 @@
         }
       ],
       "name": "Põllumajandus",
+      "nameEn": "Agricultural Sciences",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -8326,6 +8365,7 @@
         }
       ],
       "name": "Tehnikateadus",
+      "nameEn": "Engineering Sciences",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -8503,6 +8543,7 @@
         }
       ],
       "name": "Veterinaarmeditsiin ja toiduteadus",
+      "nameEn": "Veterinary Medicine and Food Science",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -8677,6 +8718,7 @@
         }
       ],
       "name": "Metsandus",
+      "nameEn": "Forestry",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -9073,6 +9115,7 @@
         }
       ],
       "name": "Puidutöötlemise tehnoloogia",
+      "nameEn": "Wood Processing Technology",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -9545,6 +9588,7 @@
         }
       ],
       "name": "Tehnotroonika",
+      "nameEn": "Technotronics",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -9996,6 +10040,7 @@
         }
       ],
       "name": "Maaehitus",
+      "nameEn": "Civil Engineering (Rural Building)",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -10423,6 +10468,7 @@
         }
       ],
       "name": "Vesiehitus ja veekaitse",
+      "nameEn": "Hydraulic Engineering and Water Pollution Control",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -10952,6 +10998,7 @@
         }
       ],
       "name": "Veterinaarmeditsiin",
+      "nameEn": "Veterinary Medicine",
       "cost": {
         "amount": 0,
         "currency": "€",
@@ -11469,6 +11516,7 @@
         }
       ],
       "name": "Veterinaarmeditsiin",
+      "nameEn": "Veterinary Medicine",
       "cost": {
         "amount": 9400,
         "currency": "€",

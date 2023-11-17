@@ -7,9 +7,14 @@ extension MajorView {
     func requirementCell(_ requirement: Requirements) -> some View {
         if let header = requirement.header {
             DisclosureGroup(content: {
-                HStack(alignment: .top, spacing: 4){
-                    Text(.init(requirement.term))
-                        .tint(model.college.palette.base)
+                Text(.init(requirement.term))
+                    .tint(model.college.palette.base)
+                    .setFont(.subheadline, .regular, .rounded)
+            }, label: {
+                HStack {
+                    Text(.init(header))
+                        .setColor(Theme.Colors.black)
+                        .setFont(.subheadline, .regular, .rounded)
                     Spacer()
                     if let percentage = requirement.percentage {
                         Text("\(percentage)%")
@@ -19,10 +24,6 @@ extension MajorView {
                 .setColor(Theme.Colors.black)
                 .setFont(.subheadline, .regular, .rounded)
                 .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
-            }, label: {
-                Text(.init(header))
-                    .setColor(Theme.Colors.black)
-                    .setFont(.subheadline, .regular, .rounded)
             })
             .setFont(.subheadline, .semibold, .rounded)
             .tint(model.college.palette.base)
@@ -45,9 +46,16 @@ extension MajorView {
     func requirementCellEn(_ requirement: Requirements) -> some View {
         if let header = requirement.headerEn {
             DisclosureGroup(content: {
-                HStack(alignment: .top, spacing: 4){
-                    Text(.init(requirement.termEn ?? requirement.term))
-                        .tint(model.college.palette.base)
+                Text(.init(requirement.termEn ?? requirement.term))
+                    .tint(model.college.palette.base)
+                    .setColor(Theme.Colors.black)
+                    .setFont(.subheadline, .regular, .rounded)
+                    .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
+            }, label: {
+                HStack {
+                    Text(.init(header))
+                        .setColor(Theme.Colors.black)
+                        .setFont(.subheadline, .regular, .rounded)
                     Spacer()
                     if let percentage = requirement.percentage {
                         Text("\(percentage)%")
@@ -57,10 +65,6 @@ extension MajorView {
                 .setColor(Theme.Colors.black)
                 .setFont(.subheadline, .regular, .rounded)
                 .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
-            }, label: {
-                Text(.init(header))
-                    .setColor(Theme.Colors.black)
-                    .setFont(.subheadline, .regular, .rounded)
             })
             .setFont(.subheadline, .semibold, .rounded)
             .tint(model.college.palette.base)
