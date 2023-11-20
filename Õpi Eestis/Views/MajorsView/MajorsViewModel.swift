@@ -132,7 +132,7 @@ extension MajorsView {
                 }
                 
                 return true
-            }.sorted(by: \.name)
+            }
             
             return result
         }

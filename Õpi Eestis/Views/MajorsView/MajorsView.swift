@@ -8,7 +8,10 @@ struct MajorsView: View {
     var body: some View {
         List {
             Section(content: {
-                ForEach(model.displayedMajors, id: \.id) { major in
+                ForEach(
+                    model.displayedMajors.customSorted(by: locale.currentLocale),
+                    id: \.id
+                ) { major in
                     MajorCell(
                         major: major,
                         isFavorite: model.isFavorite(major),

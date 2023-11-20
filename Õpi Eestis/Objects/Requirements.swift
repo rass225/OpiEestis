@@ -7,6 +7,7 @@ struct Requirements: Hashable, Codable, Identifiable {
     var percentage: Int?
     var header: String?
     var headerEn: String?
+    var orderNr: Int?
     
     enum CodingKeys: String, CodingKey {
         case term
@@ -14,5 +15,6 @@ struct Requirements: Hashable, Codable, Identifiable {
         case header
         case termEn
         case headerEn
+        case orderNr
     }
 }

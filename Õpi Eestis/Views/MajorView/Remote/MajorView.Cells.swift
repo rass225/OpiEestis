@@ -50,7 +50,6 @@ extension MajorView {
                     .tint(model.college.palette.base)
                     .setColor(Theme.Colors.black)
                     .setFont(.subheadline, .regular, .rounded)
-                    .listRowInsets(.init(top: 16, leading: 0, bottom: 16, trailing: 0))
             }, label: {
                 HStack {
                     Text(.init(header))

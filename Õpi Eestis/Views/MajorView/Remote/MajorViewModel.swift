@@ -292,7 +292,7 @@ private extension MajorView.Model {
         do {
             let requirements = try await dependencies.network.fetchRequirements(schoolId: college.id, majorId: major.id)
             DispatchQueue.main.async {
-                self.requirements = requirements
+                self.requirements = requirements.customSorted()
             }
         } catch {
             print(error.localizedDescription)
@@ -303,7 +303,7 @@ private extension MajorView.Model {
         do {
             let personnel = try await dependencies.network.fetchPersonnel(schoolId: college.id, majorId: major.id)
             DispatchQueue.main.async {
-                self.personnel = personnel
+                self.personnel = personnel.sorted(by: \.name)
             }
             Task {
                 await self.fetchPersonnelImages(personnel: personnel)

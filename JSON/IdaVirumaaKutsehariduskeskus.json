@@ -31,6 +31,7 @@
             }
         ],
         "name": "Abikokk",
+        "nameEn": "Cook assistent",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2971?format=json",
         "cost": {
             "amount": 0,
@@ -69,6 +70,7 @@
             }
         ],
         "name": "Abipagar",
+        "nameEn": "Baker",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2235?format=json",
         "cost": {
             "amount": 0,
@@ -111,6 +113,7 @@
             }
         ],
         "name": "Automaatik",
+        "nameEn": "Automatician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2769?format=json",
         "cost": {
             "amount": 0,
@@ -153,6 +156,7 @@
             }
         ],
         "name": "CNC puidutöötlemiskeskuse operaator",
+        "nameEn": "CNC Wood Machine Operator",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3107?format=json",
         "cost": {
             "amount": 0,
@@ -195,6 +199,7 @@
             }
         ],
         "name": "Ehitusviimistlus",
+        "nameEn": "Finishing work in construction",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3018?format=json",
         "cost": {
             "amount": 0,
@@ -235,6 +240,7 @@
             }
         ],
         "name": "IT kasutajatoe tehnik",
+        "nameEn": "IT Support Technician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2735?format=json",
         "cost": {
             "amount": 0,
@@ -276,6 +282,7 @@
             }
         ],
         "name": "IT-süsteemide nooremspetsialist",
+        "nameEn": "Junior IT systems specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/742?format=json",
         "cost": {
             "amount": 0,
@@ -317,6 +324,7 @@
             }
         ],
         "name": "IT süsteemide spetsialist",
+        "nameEn": "IT systems specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/741?format=json",
         "cost": {
             "amount": 0,
@@ -357,6 +365,7 @@
             }
         ],
         "name": "IT-turvaspetsialist",
+        "nameEn": "ICT Security Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1927?format=json",
         "cost": {
             "amount": 0,
@@ -398,6 +407,7 @@
             }
         ],
         "name": "Juuksur",
+        "nameEn": "Hairdresser",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1947?format=json",
         "cost": {
             "amount": 0,
@@ -439,6 +449,7 @@
             }
         ],
         "name": "Juuksur",
+        "nameEn": "Hairdresser",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1947?format=json",
         "cost": {
             "amount": 0,
@@ -480,6 +491,7 @@
             }
         ],
         "name": "Keevitaja",
+        "nameEn": "Welder",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2606?format=json",
         "cost": {
             "amount": 0,
@@ -521,6 +533,7 @@
             }
         ],
         "name": "Keevitus- ja metallitööd",
+        "nameEn": "Welding and Metal work",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3182?format=json",
         "cost": {
             "amount": 0,
@@ -561,6 +574,7 @@
             }
         ],
         "name": "Kergete rõivaste rätsep",
+        "nameEn": "Dressmaker",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2727?format=json",
         "cost": {
             "amount": 0,
@@ -599,6 +613,7 @@
             }
         ],
         "name": "Kinnisvarahooldaja",
+        "nameEn": "Facility Serviceman",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2943?format=json",
         "cost": {
             "amount": 0,
@@ -640,6 +655,7 @@
             }
         ],
         "name": "Klienditeenindaja kaubanduses",
+        "nameEn": "Shop assistant",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1955?format=json",
         "cost": {
             "amount": 0,
@@ -682,6 +698,7 @@
             }
         ],
         "name": "Kokk",
+        "nameEn": "Cook",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2968?format=json",
         "cost": {
             "amount": 0,
@@ -724,6 +741,7 @@
             }
         ],
         "name": "Kokk",
+        "nameEn": "Cook",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2969?format=json",
         "cost": {
             "amount": 0,
@@ -766,6 +784,7 @@
             }
         ],
         "name": "Kondiiter",
+        "nameEn": "Confectioner",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/972?format=json",
         "cost": {
             "amount": 0,
@@ -807,6 +826,7 @@
             }
         ],
         "name": "Köögiabiline",
+        "nameEn": "Kitchen assistant",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2970?format=json",
         "cost": {
             "amount": 0,
@@ -845,6 +865,7 @@
             }
         ],
         "name": "Koostelukksepp",
+        "nameEn": "Assembler",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1964?format=json",
         "cost": {
             "amount": 0,
@@ -886,6 +907,7 @@
             }
         ],
         "name": "Kütte- ja jahutussüsteemide lukksepp",
+        "nameEn": "Cooling and Heating System Technician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2603?format=json",
         "cost": {
             "amount": 0,
@@ -928,6 +950,7 @@
             }
         ],
         "name": "Laborant",
+        "nameEn": "Laboratory Technician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2761?format=json",
         "cost": {
             "amount": 0,
@@ -969,6 +992,7 @@
             }
         ],
         "name": "Laotöötaja",
+        "nameEn": "Warehouse Worker",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2745?format=json",
         "cost": {
             "amount": 0,
@@ -1010,6 +1034,7 @@
             }
         ],
         "name": "Mäetööline",
+        "nameEn": "Miner, Mine Worker",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1939?format=json",
         "cost": {
             "amount": 0,
@@ -1052,6 +1077,7 @@
             }
         ],
         "name": "Mehhatroonik",
+        "nameEn": "Mechatronic",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1936?format=json",
         "cost": {
             "amount": 0,
@@ -1094,6 +1120,7 @@
             }
         ],
         "name": "Mehhatroonik",
+        "nameEn": "Mechatronic",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2758?format=json",
         "cost": {
             "amount": 0,
@@ -1135,6 +1162,7 @@
             }
         ],
         "name": "Mootorsõidukitehnik",
+        "nameEn": "Vehicle Technician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2625?format=json",
         "cost": {
             "amount": 0,
@@ -1176,6 +1204,7 @@
             }
         ],
         "name": "Mootorsõidukitehnik",
+        "nameEn": "Vehicle Technician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2743?format=json",
         "cost": {
             "amount": 0,
@@ -1217,6 +1246,7 @@
             }
         ],
         "name": "Multimeedia nooremspetsialist",
+        "nameEn": "Junior multimeedia specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1928?format=json",
         "cost": {
             "amount": 0,
@@ -1258,6 +1288,7 @@
             }
         ],
         "name": "Multimeedia nooremspetsialist",
+        "nameEn": "Junior multimeedia specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2739?format=json",
         "cost": {
             "amount": 0,
@@ -1299,6 +1330,7 @@
             }
         ],
         "name": "Noorem tarkvaraarendaja",
+        "nameEn": "Junior Software Developer",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1930?format=json",
         "cost": {
             "amount": 0,
@@ -1340,6 +1372,7 @@
             }
         ],
         "name": "Pagar",
+        "nameEn": "Baker",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/973?format=json",
         "cost": {
             "amount": 0,
@@ -1382,6 +1415,7 @@
             }
         ],
         "name": "Pagari- ja kondiitritoodete tehnoloogia",
+        "nameEn": "Technology of Bakery and Pastry-Cook",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1960?format=json",
         "cost": {
             "amount": 0,
@@ -1419,6 +1453,7 @@
             }
         ],
         "name": "Puhastusteenindaja",
+        "nameEn": "Cleaner",
         "cost": {
             "amount": 0,
             "currency": "€",
@@ -1459,6 +1494,7 @@
             }
         ],
         "name": "Puidupingioperaator",
+        "nameEn": "Machine operator",
         "cost": {
             "amount": 0,
             "currency": "€",
@@ -1499,6 +1535,7 @@
             }
         ],
         "name": "Puitkonstruktsioonide ehitus",
+        "nameEn": "Carpenter-Log house builder",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1235?format=json",
         "cost": {
             "amount": 0,
@@ -1540,6 +1577,7 @@
             }
         ],
         "name": "Raamatupidaja",
+        "nameEn": "Accountant",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2725?format=json",
         "cost": {
             "amount": 1380,
@@ -1580,6 +1618,7 @@
             }
         ],
         "name": "Reisikonsultant",
+        "nameEn": "Travel Consultant",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1944?format=json",
         "cost": {
             "amount": 0,
@@ -1620,6 +1659,7 @@
             }
         ],
         "name": "Rõivaõmblemine",
+        "nameEn": "Clothing sewing (Light clothing sewing)",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1951?format=json",
         "cost": {
             "amount": 0,
@@ -1662,6 +1702,7 @@
             }
         ],
         "name": "Sisetööde elektrik",
+        "nameEn": "Electrician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1933?format=json",
         "cost": {
             "amount": 0,
@@ -1704,6 +1745,7 @@
             }
         ],
         "name": "Sisetööde elektrik",
+        "nameEn": "Electrician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2765?format=json",
         "cost": {
             "amount": 0,
@@ -1745,6 +1787,7 @@
             }
         ],
         "name": "Tarkvaraarendaja",
+        "nameEn": "Software Developer",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1931?format=json",
         "cost": {
             "amount": 0,
@@ -1785,6 +1828,7 @@
             }
         ],
         "name": "Väikeettevõtja",
+        "nameEn": "Small Business Entrepreneur",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/2685?format=json",
         "cost": {
             "amount": 0,
@@ -1826,6 +1870,7 @@
             }
         ],
         "name": "Ventilatsioonisüsteemide lukksepp",
+        "nameEn": "Ventilation duct fitter",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/3027?format=json",
         "cost": {
             "amount": 0,
@@ -1867,6 +1912,7 @@
             }
         ],
         "name": "Veokorraldaja-logistik",
+        "nameEn": "Transport organizer – logistician",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/686?format=json",
         "cost": {
             "amount": 0,
@@ -1908,6 +1954,7 @@
             }
         ],
         "name": "Ärikorralduse spetsialist",
+        "nameEn": "Business Administration Specialist",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/1235?format=json",
         "cost": {
             "amount": 0,
