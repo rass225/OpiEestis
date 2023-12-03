@@ -524,7 +524,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -554,7 +557,6 @@
                 "phone": "+3726711702",
                 "photo": "https://www.ttk.ee/sites/default/files/Foto%2010.2018_1.jpeg"
             },
-            
             {
                 "name": "Riin Rosenperk",
                 "title": "Ämmaemanda õppekava õppejõud-õpetaja",
@@ -641,7 +643,7 @@
                 "header": "Vastuvõtuvestlus",
                 "headerEn": "Vastuvõtuvestlus",
                 "term": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)",
-                "termEn": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)",
+                "termEn": "**1.** Kutsemotivatsioon (5) \n**2.** Kutseala tundmine (5) \n**3.** Väljendusoskus eesti keeles (5) \n**4.** Suhtlemisoskus (5) \n**5.** Eetilised hoiakud (5) \n**6.** Valmisolek õppetööks (5)"
             }
         ],
         "name": "Ämmaemand",
@@ -651,7 +653,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -722,7 +727,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -791,7 +799,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -876,7 +887,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -962,7 +976,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1031,7 +1048,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1077,7 +1097,7 @@
                 "header": "Certificate of proficiency in English at least at the B2 level",
                 "headerEn": "Certificate of proficiency in English at least at the B2 level",
                 "term": "**Acceptable language certificates:** \n\n**1.** Cambridge language test \n**2.** IELTS language test \n**3.** TOEFL language test \n**4.** Innove Cambridge Assessment English C1 Advanced",
-                "termEn": "**Acceptable language certificates:** \n\n**1.** Cambridge language test \n**2.** IELTS language test \n**3.** TOEFL language test \n**4.** Innove Cambridge Assessment English C1 Advanced",
+                "termEn": "**Acceptable language certificates:** \n\n**1.** Cambridge language test \n**2.** IELTS language test \n**3.** TOEFL language test \n**4.** Innove Cambridge Assessment English C1 Advanced"
             },
             {
                 "header": "Specialty Test",
@@ -1099,7 +1119,10 @@
             "amount": 3100,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1153,7 +1176,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1205,11 +1231,14 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Tallinn",
+            "Tallinn"
         ],
         "description": [
             "Erakorralise meditsiini tehnik on erakorralise meditsiini spetsialist (kutseõpe tase 4), kelle tegevuse eesmärgiks on patsientidele osutada erakorralist meditsiinilist abi ja olla suursündmuste lahendamise meeskondades. \n\nÕppeaeg erakorralise meditsiini tehniku erialal on üks aasta. Aasta jooksul omandab õpilane teadmised erakorralises meditsiinis kasutatavate ravimite omadustest, ravimvormidest ning manustamisviisidest. Oskab kasutada erakorralises meditsiinis kasutatavat aparatuuri ja varustust, valdab kannatanu transpordi ja liigutamise tehnikaid, oskab anda esmast ja edasijõudnud abi ja elustada. \n\nOn valmis koostöös teiste ametkondadega lahendama suursündmusi, kus oskab teostada kannatanute triaaži, teab sidepidamisviise. \n\nKutseõppe lõpetanul on valmisolek töötada erinevates olukordades nii meeskonnas, kui iseseisvalt, nii puhkepäevadel kui ka öisel ajal. Erakorralise meditsiini tehniku õppekava pöörab tähelepanu heale suhtlemisoskusele, vastutus-, koostöö- ja empaatiavõime kujundamisele. \n\nErakorralise meditsiini tehniku kutsega ametikohad on kiirabis teise või kolmanda liikmena, haiglate erakorralise meditsiini osakondades ja kaitsejõududes (võrdub parameediku ametikohaga). Lisaks on erakorralise meditsiini tehniku kutset omava isiku oskused ja teadmised rakendatavad ka vetelpäästes, politseiteenistustes, päästeteenistuses ja turvateenistuses. \n\n**Õppetöö** \n\n**•** Õppetöö toimub üle nädala. Vahepealsetel nädalatel toimub iseseisev õpe ning e-õpe. \n\n**•** Õpe toimub kaasaegses simulatsiooni keskkonnas, mis on Balti riikidest üks parimatest. Kasutusel olev varustus on maksimaalselt võrdsustatud kiirabiautos oleva varustusega. \n\n**•** Õpetajad on suurte praktiliste kogemustega erakorralises meditsiinis praktiseerivad tervishoiutöötajad. \n\n**•** Õpe toimub koostöös erinevate pääste- ja julgeolekustruktuuridega. \n\n**•** Praktikat läbitakse suurimates kiirabi ettevõtetes ja haiglates, mis tagab maksimaalselt hea kogemuse enne tööle asumist. \n\n**•** Projektide raames on võimalik praktiseerida ka väljaspool Eestit. \n\n**•** Õppijatel on võimalik heade õpitulemuste korral taotleda õppetoetust, väljaspool Tallinnat elavatel õppijatel sõidukompensatsiooni. \n\n**•** Kõrgkoolil on üliõpilaskodu mis asub kõrgkoolist vaid 1,2 km kaugusel. \n\n**•** Vajadusel tagatakse õpilastele täiendav eesti ja vene keele õpe, mida saab võtta valikainetena. \n\n**•** Töötavatel õpilastel on õigus saada õppepuhkust, seda kahe kalendriaasta jooksu"
@@ -1262,11 +1291,14 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Tallinn",
+            "Tallinn"
         ],
         "description": [
             "Lapsehoidja on töötaja, kes on omandanud vajalikud teadmised ja oskused laste hooldamiseks ning nende arengu toetamiseks. Lapsehoidja teeb koostööd lapsevanema või hooldajaga. Lapsehoidja töö eesmärk on toetada lapse füüsilist, emotsionaalset, intellektuaalset ja sotsiaalset arengut, arvestades perekonna vajadusi lapse hoidmisel. Ta lähtub oma töös seadustest, lapse heaolust ja turvalisusest. Lapsehoidja kutsealal on ka kutsestandard Lapsehoidja, tase 5, mis hõlmab lisaks suure hooldusvajadusega laste hoidmise ja juhendamisega seotud kompetentse. Lapsehoidja töö eeldab head vaimset ja füüsilist tervist. Lapsehoidja järgib oma töös kutse-eetikat (Lisa 3: Lapsehoidja kutse-eetika). Lapsehoidja on orienteeritud pidevale enesearendamisele ja uute teadmiste omandamisele. \n\nÕppeaeg lapsehoidja kutseõppes on üks aasta. Lapsehoidja töö eesmärk on kaasa aidata lapse füüsilisele, emotsionaalsele, intellektuaalsele ja sotsiaalsele arengule, arvestades perekonna vajadusi lapse hooldamisel. Lapsehoidja lähtub oma töös lapse õigustest, heaolust ja turvalisusest. Ta osutab lapsehoiuteenust, mida võib pakkuda lapse kodus, lapsehoidja kodus või mujal lapsevanema poolt soovitud kohas."
@@ -1313,11 +1345,14 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Tallinn",
+            "Tallinn"
         ],
         "description": [
             "Sotsiaal- ja tervishoiuvaldkonna spetsialisti töö on kliendi sotsiaalsete oskuste ja tegevusvõime arendamine, säilitamine ja toetamine, juhendamine ja toetamine igapäevaelu toimingutes, toetamine võimetekohasel panustamisel ühiskonda ja asjaajamise korraldamisel. \n\nSotsiaal- ja tervishoiuvaldkonna spetsialist võib spetsialiseeruda tööle intellektihäire ja vaimse tervise probleemidega täiskasvanu, sõltuvushäirega isiku, abivajadusega (tervisest tuleneva erivajadusega) lapse, toimetulekuraskustes isiku, rahvusvahelise kaitse saaja, väärkoheldud isiku või toimetulekuraskustes perega. \n\n**Kellena ja kus saab töötada?** \n\nKooli lõpetanud isik saab eluaegse kutse, mis registreeritakse kutseregistrisse. \n\nSotsiaal- ja tervishoiuvaldkonna spetsialist võib töötada nii era- kui avalikus sektoris, nt kohalikus omavalitsuses, haridusasutuses, päevakeskuses ja tugikeskuses. Ta töötab seal, kus on klient, näiteks kliendi kodus, koolis ja hoolekandeasutuses."
@@ -1364,11 +1399,14 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Tallinn",
+            "Tallinn"
         ],
         "description": [
             "Hambaraviassistent on suutervishoiu töötaja, kes abistab hambaarsti ja/või suuhügienisti vastavalt iga tööetapi iseloomule, sh neljakäetöö meetodil, saavutamaks optimaalset ravitulemust. \n\nHambaraviassistendi töö on osaleda aktiivselt hambaravi meeskonna liikmena kvaliteetse suutervishoiuteenuse tagamisel ja nõustada erinevaid sihtgruppe suutervise teemadel. Olulisel kohal on hügieeni-, anti- ja aseptika nõuete järgimine. Hambaraviassistent on võimeline iseseisvalt ja korrektselt täitma hambaarsti poolt delegeeritud ülesandeid. \n\nHambaraviassistent töötab hambaravi kabinetis, mis koos vastava sisustusega peab tagama nii patsiendile kui personalile turvalise keskkonna. Töös võib esineda erinevaid tervist kahjustavaid faktoreid (nt sundasend, rutiinsed liigutused, keemilised, bioloogilised jt ohutegurid). \n\n**Kuidas toimub õppetöö?** \n\nSellel õppekaval saab õppida ainult töökohapõhises õppevormis, mis tähendab, et 1/3 auditoorset õpet toimub koolis ja 2/3 õppest töökohal, töökoha poolse juhendaja suunamisel. Nominaalne õppeaeg on 2 aastat. Auditoorne õpe toimub 3-4 päeval kuus, näiteks igal reedel. \n\n**Kellena ja kus saab töötada?** \n\nKooli lõpetanud isik saab eluaegse kutse, mis registreeritakse kutseregistrisse. Hambaraviassistent saab töötada ainult hambaarsti abilisena hambaravi kabinetis teostades seejuures patsiendiga ka iseseisvalt mitmeid protseduure (nt anamneesi fotode ülesvõtted/ hambumusjäljendite võtmine, hügieeni nõustamine jne). Hambaraviassistent ei kuulu meditsiinitöötajate registrisse ega saa pakkuda iseseisvat teenust suuhügienistina."
@@ -1415,6 +1453,9 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     }
 ]

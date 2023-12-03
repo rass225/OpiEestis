@@ -1,1930 +1,1945 @@
 [
-  {
-    "studyLocation": [
-      "Tartu"
-    ],
-    "description": [
-      "Sõjaväelise juhtimise õhuväe õppekava eesmärgiks on valmistada õppureid ette täitma teenistusülesandeid nooremohvitseridena õhuväes. Õppekava võimaldab spetsialiseeruda lennuvälja, õhuseire või õhuoperatsioonide erialale. Õppekava maht on 180 EAP-d ja nominaalne õppeaeg on kolm aastat. Õpe toimub koostöös Eesti Lennuakadeemiaga. \n\n**Kaitseväe Akadeemias õppimise hüved:** \n\n**•** Palk – igale kadetile on õpingute ajal tagatud palk alates 1000€ \n\n**•** Tasuta elukoht – tasuta elamiskoht Tartu kesklinnas asuvas ühiselamus \n\n**•** Tasuta arstiabi – tasuta arsti- ja hambaravi nii õpingute ajal kui ka edasises teenistuses \n\n**•** Garanteeritud amet – Kaitseväe Akadeemia lõpetajale on garanteeritud töökoht kaitseväes palgaga alates 2050€ \n\n**•** Sport – kadettidele on tagatud lai valik sportimisvõimalusi ning erialaseid huviringe (nt laskurring)"
-    ],
-    "eap": 180,
-    "spots": 0,
-    "majorWebsite": "",
-    "type": "Riigikaitse",
-    "studyType": "päevaõpe",
-    "modules": [
-      {
-        "name": "Üldjuhtimine",
-        "courses": [
-          {
-            "name": "Riigikaitseõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Juhtimise alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Riik, poliitika ja valitsemine",
-            "eapCount": 2
-          },
-          {
-            "name": "Relvakonfliktiõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Maailma sõjaajalugu",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B1 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B1 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B2 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Eesti sõjaajalugu",
-            "eapCount": 4
-          },
-          {
-            "name": "Õhusõja ajalugu",
-            "eapCount": 3
-          },
-          {
-            "name": "Lennundusalune inglise keel",
-            "eapCount": 2
-          },
-          {
-            "name": "Julgeolekupoliitika ja riigikaitse",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise keel (B1 tasemel)*",
-            "eapCount": 3
-          },
-          {
-            "name": "Suhtlemispsühholoogia*",
-            "eapCount": 3
-          },
-          {
-            "name": "Vene keel (A1 tasemel)*",
-            "eapCount": 3
-          }
+    {
+        "studyLocation": [
+            "Tartu"
+        ],
+        "description": [
+            "Sõjaväelise juhtimise õhuväe õppekava eesmärgiks on valmistada õppureid ette täitma teenistusülesandeid nooremohvitseridena õhuväes. Õppekava võimaldab spetsialiseeruda lennuvälja, õhuseire või õhuoperatsioonide erialale. Õppekava maht on 180 EAP-d ja nominaalne õppeaeg on kolm aastat. Õpe toimub koostöös Eesti Lennuakadeemiaga. \n\n**Kaitseväe Akadeemias õppimise hüved:** \n\n**•** Palk – igale kadetile on õpingute ajal tagatud palk alates 1000€ \n\n**•** Tasuta elukoht – tasuta elamiskoht Tartu kesklinnas asuvas ühiselamus \n\n**•** Tasuta arstiabi – tasuta arsti- ja hambaravi nii õpingute ajal kui ka edasises teenistuses \n\n**•** Garanteeritud amet – Kaitseväe Akadeemia lõpetajale on garanteeritud töökoht kaitseväes palgaga alates 2050€ \n\n**•** Sport – kadettidele on tagatud lai valik sportimisvõimalusi ning erialaseid huviringe (nt laskurring)"
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "",
+        "type": "Riigikaitse",
+        "studyType": "päevaõpe",
+        "modules": [
+            {
+                "name": "Üldjuhtimine",
+                "courses": [
+                    {
+                        "name": "Riigikaitseõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Juhtimise alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Riik, poliitika ja valitsemine",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Relvakonfliktiõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Maailma sõjaajalugu",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B1 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B1 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B2 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Eesti sõjaajalugu",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Õhusõja ajalugu",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Lennundusalune inglise keel",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise keel (B1 tasemel)*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Suhtlemispsühholoogia*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Vene keel (A1 tasemel)*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Sõjaline juhtimine",
+                "courses": [
+                    {
+                        "name": "Lahingutegevuse alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Lennundusohutuse alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Jalaväerühma lahingutegevus",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Lennundusõiguse alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Lennuväljad",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Käitamisprotseduurid ja lendude planeerimine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Aeronavigatsioonilise teabe teenindus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Õhuvõimu teooria ja õhuoperatsioonid",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Sõjaväeline juhtimine õhuväes",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Lennuliikluse korraldamise alused",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Lennupääste",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "NATO õhukaitsesüsteemi juhtimise ja lahingutegevuse alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Eesti õhuväeüksuste juhtimise ja lahingutegevuse alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Sisejulgeoleku asutused ja ülesanded*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Tehnikamoodul",
+                "courses": [
+                    {
+                        "name": "Sõjatehnoloogia I: varustuse hooldus ja rakendusmehaanika alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sõjatehnoloogia II: ballistika ja vaatlusvahendid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Meditsiiniõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Lennundusmeteoroloogia",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Lennunduse raadioside",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia III: elekter",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia IV: maismaaplatvormid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia V: side- ja juhtimissüsteemid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia VI: elektroonika alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Õhusõiduki ehitus",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Aerodünaamika",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Õhuseire",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Aeronavigatsiooni alused",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Lennujaama tehnika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sõjatehnoloogia rakendusuuringud*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kvantitatiivne andmeanalüüs*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Pedagoogika ja uurimistöö",
+                "courses": [
+                    {
+                        "name": "Instruktori algõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Psühholoogia rakendused Kaitseväes",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Teadustöö alused ja väljendusõpetus",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Lõputöö",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Suhtluspõhised õppemeetodid*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kvalitatiivne andmeanalüüs*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul I – õhuoperatsioonide eriala",
+                "courses": [
+                    {
+                        "name": "Õhuväe allüksuste praktika",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Õhuoperatsioonide planeerimine ja läbiviimine",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Õhuoperatsioonide eriala praktika",
+                        "eapCount": 23
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul II – lennuvälja eriala",
+                "courses": [
+                    {
+                        "name": "Õhuväe allüksuste praktika",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Lennubaasi operatsioonid ja tehnika",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Lennuvälja eriala praktika",
+                        "eapCount": 23
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul III – õhuseire eriala",
+                "courses": [
+                    {
+                        "name": "Õhuväe allüksuste praktika",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Õhuseire operatsioonid ja tehnoloogia",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Õhuseire eriala praktika",
+                        "eapCount": 23
+                    }
+                ]
+            }
+        ],
+        "level": "rakenduskõrgharidus",
+        "outcomes": [
+            "Teab õhuväe ülesandeid ja allüksuste toimimist ning mõistab õhuväe sisese ja väeliikide vahelise koostöö põhimõtteid",
+            "Oskab oma teenistusülesannete täitmisel arvestada õhuväe ja tsiviillennunduse ning NATO õhukaitse süsteemi koostööpõhimõtteid",
+            "Teab spetsialiseerumisjärgse eriala põhimõisteid, töövahendeid ja -meetodeid ning oskab neid eesmärgipäraselt rakendada oma igapäevaste teenistuskohustuste täitmisel",
+            "On võimeline juhtima jalaväerühmasuurust üksust sõjaaja tingimustes",
+            "On omandanud teadmised ja oskused üksuse väljaõppe läbiviimiseks ning hindamiseks",
+            "Oskab ühiskondlikke ja eetilisi aspekte arvestades hinnata enda kui sõjaväelise juhi rolli ja oma tegevuse tagajärgi ühiskonnale",
+            "Teab sõjandusega seotud reaalteaduslikke mõisteid, seaduspärasusi ning erinevate teadus- ja tehnikasaavutuste rakendusvõimalusi sõjapidamises",
+            "On võimeline eesti keeles ja vähemalt ühes võõrkeeles mõistma ning selgitama oma taseme töövaldkonnaga seotud küsimusi suulises ja kirjalikus vormis",
+            "Oskab oma teenistusülesannete täitmiseks kohaseid meetodeid ja vahendeid kasutades iseseisvalt informatsiooni koguda, seda kriitiliselt ja loovalt tõlgendada ning vormistada tulemused nõuetekohaseks uurimistööks",
+            "On võimeline ennast iseseisvalt täiendama ning jätkama õpinguid."
+        ],
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
+            },
+            {
+                "term": "Eesti keele oskus vähemalt keeletasemel B2"
+            },
+            {
+                "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
+            },
+            {
+                "term": "Vaimse võimekuse test"
+            },
+            {
+                "term": "Kutsesobivusvestlus"
+            },
+            {
+                "term": "Eesti kodakondsus"
+            }
+        ],
+        "name": "Sõjaväeline Juhtimine Õhuväes",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        },
+        "studyTypes": [
+            "päevaõpe"
         ]
-      },
-      {
-        "name": "Sõjaline juhtimine",
-        "courses": [
-          {
-            "name": "Lahingutegevuse alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Lennundusohutuse alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Jalaväerühma lahingutegevus",
-            "eapCount": 10
-          },
-          {
-            "name": "Lennundusõiguse alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Lennuväljad",
-            "eapCount": 3
-          },
-          {
-            "name": "Käitamisprotseduurid ja lendude planeerimine",
-            "eapCount": 3
-          },
-          {
-            "name": "Aeronavigatsioonilise teabe teenindus",
-            "eapCount": 2
-          },
-          {
-            "name": "Õhuvõimu teooria ja õhuoperatsioonid",
-            "eapCount": 6
-          },
-          {
-            "name": "Sõjaväeline juhtimine õhuväes",
-            "eapCount": 2
-          },
-          {
-            "name": "Lennuliikluse korraldamise alused",
-            "eapCount": 2
-          },
-          {
-            "name": "Lennupääste",
-            "eapCount": 2
-          },
-          {
-            "name": "NATO õhukaitsesüsteemi juhtimise ja lahingutegevuse alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Eesti õhuväeüksuste juhtimise ja lahingutegevuse alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Sisejulgeoleku asutused ja ülesanded*",
-            "eapCount": 3
-          }
+    },
+    {
+        "studyLocation": [
+            "Tartu"
+        ],
+        "description": [
+            "Sõjaväelise juhtimise mereväe õppekava eesmärgiks on nooremohvitseride ettevalmistamine Eesti mereväele rahu- ja sõjaaja ametikohtadel teenimiseks. Õppekava järgi saab spetsialiseeruda mereväe taktika või tehnika erialale. Õppekava maht on 180 EAP-d ja nominaalne õppeaeg kolm aastat. Õpe toimub koostöös TTÜ Eesti Mereakadeemiaga. \n\n**Kaitseväe Akadeemias õppimise hüved:** \n\n**•** Palk – igale kadetile on õpingute ajal tagatud palk alates 1000€ \n\n**•** Tasuta elukoht – tasuta elamiskoht Tartu kesklinnas asuvas ühiselamus \n\n**•** Tasuta arstiabi – tasuta arsti- ja hambaravi nii õpingute ajal kui ka edasises teenistuses \n\n**•** Garanteeritud amet – Kaitseväe Akadeemia lõpetajale on garanteeritud töökoht kaitseväes palgaga alates 2050€ \n\n**•** Sport – kadettidele on tagatud lai valik sportimisvõimalusi ning erialaseid huviringe (nt laskurring)"
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "",
+        "type": "Riigikaitse",
+        "studyType": "päevaõpe",
+        "modules": [
+            {
+                "name": "Sõjaväeline juhtimine",
+                "courses": [
+                    {
+                        "name": "Jalaväerühma lahingutegevuse juhtimise alused",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Mereväetehnika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Lahingutegevuse alused ja jalaväerühma lahingutegevus",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Merepraktika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Psühholoogia rakendused Kaitseväes",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Meresõja alused",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Sõjalaeva juhtimise praktika",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Sõjalaeva tehnikasektsiooni juhtimise praktika",
+                        "eapCount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Pedagoogika ja uurimistöö",
+                "courses": [
+                    {
+                        "name": "Instruktori algõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Teadustöö alused ja väljendusõpetus",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Jalaväejao õppelaskmiste korraldamine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Lõputöö",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Sõjalaevameeskonna väljaõpe",
+                        "eapCount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Haldus- ja tehnikamoodul",
+                "courses": [
+                    {
+                        "name": "Meditsiiniõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sõjatehnoloogia I: varustuse hooldus ja rakendusmehaanika alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sõjatehnoloogia II: ballistika ja vaatlusvahendid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Avariitõrje sõjalaeval",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Sõjatehnoloogia III: elekter",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Mereväe relvastus",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Mereväeside",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Mereväeside algõpe",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Keemiaalased analüüsid sõjalaeval",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia IV: maismaaplatvormid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia V: side- ja juhtimissüsteemid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia VI: elektroonika alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Administreerimine mereväes",
+                        "eapCount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul I – mereväe taktika eriala",
+                "courses": [
+                    {
+                        "name": "Laevade ehitus",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Meresõiduohutus I",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Laeva jõuseadmed ja abimehhanismid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Navigatsioon laeval I",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Laevajuhtimine I",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Laevateooria ja püstuvus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Meresõiduohutus II",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Taktikaline navigatsioon",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Navigatsiooni praktika",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Navigatsioon laeval II",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Laevajuhtimine II",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Mereõigus ja meresõjaõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Mereside",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Laevasilla matkeväljaõpe",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Elektronkaardi kasutamine",
+                        "eapCount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Üldjuhtimine",
+                "courses": [
+                    {
+                        "name": "Riik, poliitika ja valitsemine",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Riigikaitseõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Maailma sõjaajalugu",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Juhtimise alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Eesti sõjaajalugu",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Relvakonfliktiõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise keel (B1 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B2 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (C1 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Merendusalane inglise keel",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Merendusalane inglise keel",
+                        "eapCount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul II – mereväe tehnika eriala",
+                "courses": [
+                    {
+                        "name": "Laevade ehitus",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Rakendusmehaanika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Elektrotehnika ja elektroonika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Termodünaamika ja soojusülekanne",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Metallide tehnoloogiad, materjalid I",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Laeva püstuvus",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Metallide tehnoloogiad, materjalid II",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Laeva elektriseadmed",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Elektrimontaaži õppepraktika",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Laeva diiseljõuseadmed",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Laeva abimehhanismid",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Laevaremondi tehnoloogia",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Laevaremondi praktika",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Masinaruumi matkepraktika",
+                        "eapCount": 4
+                    }
+                ]
+            }
+        ],
+        "level": "rakenduskõrgharidus",
+        "outcomes": [
+            "On võimeline juhtima laeva rolliplaanijärgseid tegevusi, laevasektsioone ja -meeskondi erinevates olukordades ning tagama tegevusvalmiduse temale alluvas üksuses rahu- ja sõjaajal nii Eestis kui ka rahvusvahelises töökeskkonnas",
+            "On vastavalt spetsialiseerumisele võimeline täitma sõjalaeva taktika- või tehnikaohvitseri teenistusülesandeid",
+            "On võimeline juhtima jalaväerühmasuurust üksust sõjaaja tingimustes",
+            "On omandanud teadmised individuaal- ja grupiõppe metoodika ja hindamise kohta ning vastavad oskused, et korraldada spetsialiseerumisjärgsel erialal õppetööd",
+            "Oskab ühiskondlikke ja eetilisi aspekte arvestades hinnata enda kui sõjaväelise juhi rolli ja oma tegevuse tagajärgi ühiskonnale ning orienteerub õigusterminoloogias ja õiguse rakendamise põhimõtetes",
+            "Teab nüüdisaegse sõjapidamise kujunemislugu ning Eesti riigikaitse ülesehitust tänapäevases julgeolekukontseptsioonis",
+            "Teab sõjalaeva käitamiseks vajalikke reaalteaduslikke mõisteid ja printsiipe",
+            "On võimeline eesti ja inglise keeles mõistma ning selgitama oma taseme töövaldkonnaga seonduvat suulises ja kirjalikus vormis",
+            "Oskab oma teenistusülesannete täitmiseks sobivate meetodite ja vahendite abil koguda iseseisvalt informatsiooni, seda kriitiliselt ja loovalt tõlgendada",
+            "Oskab läbi viia ja vormistada nõuetekohast uurimistööd."
+        ],
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
+            },
+            {
+                "term": "Eesti keele oskus vähemalt keeletasemel B2"
+            },
+            {
+                "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
+            },
+            {
+                "term": "Vaimse võimekuse test"
+            },
+            {
+                "term": "Kutsesobivusvestlus"
+            },
+            {
+                "term": "Eesti kodakondsus"
+            }
+        ],
+        "name": "Sõjaväeline Juhtimine Mereväes",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        },
+        "studyTypes": [
+            "päevaõpe"
         ]
-      },
-      {
-        "name": "Tehnikamoodul",
-        "courses": [
-          {
-            "name": "Sõjatehnoloogia I: varustuse hooldus ja rakendusmehaanika alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Sõjatehnoloogia II: ballistika ja vaatlusvahendid",
-            "eapCount": 2
-          },
-          {
-            "name": "Meditsiiniõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Lennundusmeteoroloogia",
-            "eapCount": 3
-          },
-          {
-            "name": "Lennunduse raadioside",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia III: elekter",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia IV: maismaaplatvormid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia V: side- ja juhtimissüsteemid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia VI: elektroonika alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Õhusõiduki ehitus",
-            "eapCount": 3
-          },
-          {
-            "name": "Aerodünaamika",
-            "eapCount": 4
-          },
-          {
-            "name": "Õhuseire",
-            "eapCount": 3
-          },
-          {
-            "name": "Aeronavigatsiooni alused",
-            "eapCount": 2
-          },
-          {
-            "name": "Lennujaama tehnika",
-            "eapCount": 3
-          },
-          {
-            "name": "Sõjatehnoloogia rakendusuuringud*",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvantitatiivne andmeanalüüs*",
-            "eapCount": 3
-          }
+    },
+    {
+        "studyLocation": [
+            "Tartu"
+        ],
+        "description": [
+            "Sõjaväelise juhtimise maaväe õppekava eesmärgiks on valmistada õppureid ette teenima rühma- ja kompanii-/patareiülemana rahu- ning sõjaaja ametikohtadel. Õppekava võimaldab spetsialiseeruda jalaväe, mehhaniseeritud jalaväe, kaudtule, logistika, pioneeri, side ja õhutõrje erialale ning saada vastava relvaliigi nooremohvitseri ettevalmistus. Õppekava maht on 180 EAP-d ja nominaalne õppeaeg on kolm aastat. \n\n**Kaitseväe Akadeemias õppimise hüved:** \n\n**•** Palk – igale kadetile on õpingute ajal tagatud palk alates 1000€ \n\n**•** Tasuta elukoht – tasuta elamiskoht Tartu kesklinnas asuvas ühiselamus \n\n**•** Tasuta arstiabi – tasuta arsti- ja hambaravi nii õpingute ajal kui ka edasises teenistuses \n\n**•** Garanteeritud amet – Kaitseväe Akadeemia lõpetajale on garanteeritud töökoht kaitseväes palgaga alates 2050€ \n\n**•** Sport – kadettidele on tagatud lai valik sportimisvõimalusi ning erialaseid huviringe (nt laskurring)"
+        ],
+        "eap": 180,
+        "spots": 0,
+        "majorWebsite": "",
+        "type": "Riigikaitse",
+        "studyType": "päevaõpe",
+        "modules": [
+            {
+                "name": "Logistika eriala",
+                "courses": [
+                    {
+                        "name": "Tsiviillogistika alused",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Kaitseväe logistika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Majanduse alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Riski- ja ohutuseõpetus",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Materjalimajandus Kaitseväes",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Tehnikaõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Logistikafunktsioonid lahinguväljal",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Logistilise toetuse planeerimine ja juhtimine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Transpordikorraldus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Logistika operatsioonide planeerimine",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Logistilise toetuse planeerimise ja juhtimise praktika",
+                        "eapCount": 4
+                    }
+                ]
+            },
+            {
+                "name": "Üldjuhtimine",
+                "courses": [
+                    {
+                        "name": "Juhtimise alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Riigikaitseõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Relvakonfliktiõigus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Maailma sõjaajalugu",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B1 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B1+ tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Inglise keel (B2 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Maaväe erialane inglise keel",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Inglise keel (C1 tasemel)",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Eesti sõjaajalugu",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Riik, poliitika ja valitsemine",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Vene keel valikainena (A1 tasemel)",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise keel valikainena (B1+ tasemel)*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Suhtlemispsühholoogia*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Sõjaväeline juhtimine",
+                "courses": [
+                    {
+                        "name": "Lahingutegevuse alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Jalaväerühm erinevates lahinguliikides",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Jalaväerühma lahingutegevuse planeerimine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Jalaväerühm erinevates lahingukeskkondades ja -tingimustes",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Jalaväerühma juhtimise praktika",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Jalaväekompanii lahingutegevuse planeerimine",
+                        "eapCount": 12
+                    },
+                    {
+                        "name": "Jalaväekompanii erinevates lahingukeskkondades ja -tingimustes",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Jalaväejao lahinglaskmised ja lõhkamised",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Rahuajaüksuse juhtimine I",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Praktika nooremohvitseri rahuaja ametikohal",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Jalaväepataljoni lahingutegevuse planeerimise baasõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sisejulgeoleku asutused ja ülesanded*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Tehnikamoodul",
+                "courses": [
+                    {
+                        "name": "Topograafia ja geoinfosüsteemid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Meditsiiniõpe",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sõjatehnoloogia I: varustuse hooldus ja rakendusmehaanika alused",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Sõjatehnoloogia II: ballistika ja vaatlusvahendid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia III: elekter",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia IV: maismaaplatvormid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia V: side- ja juhtimissüsteemid",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Sõjatehnoloogia rakendusuuringud*",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Kvantitatiivne andmeanalüüs*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Pedagoogika ja uurimistöö",
+                "courses": [
+                    {
+                        "name": "Instruktoriõpe",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Psühholoogia rakendused Kaitseväes",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Teadustöö alused ja väljendusõpetus",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Treeninguõpetus",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Riigikaitseõpetuse didaktika",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Jalaväerühma väljaõppe planeerimine",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Lõputöö",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Suhtluspõhised õppemeetodid*",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Jalaväe eriala",
+                "courses": [
+                    {
+                        "name": "Jalaväepataljoni relvastuse ja eritehnika õpe ning laskmised",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Jalaväepataljoni relvaliigilahing",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Luureallüksuse taktika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Miinipilduja materiaaltehniline õpe, taktika ja laskmised",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Tankitõrjeallüksuse taktika",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Õppuste hindamine ja vahekohtuteenistus",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Jalaväerühma lahinglaskmiste läbiviimine",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Mehhaniseeritud üksuste taktika",
+                        "eapCount": 7
+                    }
+                ]
+            },
+            {
+                "name": "Pioneeri eriala",
+                "courses": [
+                    {
+                        "name": "Rakendusmehaanika",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Pioneeritehnika ja pioneeriluure",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Geodeesia ja rakendusgeoloogia alused",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Lahinglaskmiste ja lõhkamisõpe",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Lahinguvõime säilitamine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Liikuvuse tagamine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Pioneerirühma ja -kompanii lahingutegevus",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Tõkestamine ja lõhketööd",
+                        "eapCount": 5
+                    }
+                ]
+            },
+            {
+                "name": "Õhutõrje eriala",
+                "courses": [
+                    {
+                        "name": "Õhutõrje lahingutegevuse planeerimise ja juhtimise praktika",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Õhutõrje alusõpe",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Õhutõrje side- ja tulejuhtimisõpe",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Õhutõrje-kahuripatarei relva- ja lahinguõpe",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Õhutõrje-raketipatarei relva- ja lahinguõpe",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Õhutõrje instruktori praktika",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Soomusjalaväe eriala",
+                "courses": [
+                    {
+                        "name": "Jalaväepataljoni relvaliigilahing",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Luureallüksuse taktika",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Jalaväepataljoni relvastuse ja eritehnika õpe",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Jalaväerühma lahinglaskmiste läbiviimine",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Jalaväe lahingumasina materjalitehniline- ja meeskonnaõpe",
+                        "eapCount": 15
+                    },
+                    {
+                        "name": "Soomusjalaväeüksuste taktika ja juhtimine",
+                        "eapCount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Suurtükiväe eriala",
+                "courses": [
+                    {
+                        "name": "Suurtükiväe laskeandmete arvutamine",
+                        "eapCount": 7
+                    },
+                    {
+                        "name": "Suurtükiväe mõõdistusõpe",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Suurtükiväe alused",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Suurtükiväe relva- ja laskemoonaõpe ning relvameeskonna ülesanded",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Tulerühma ja -patarei lahinguõpe",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Tulejuhtimine ning jalaväekompanii ja -pataljoni tuletoetus",
+                        "eapCount": 5
+                    }
+                ]
+            },
+            {
+                "name": "Side eriala",
+                "courses": [
+                    {
+                        "name": "Elektrotehnika alused",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Sidetehnika alused",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Infotehnoloogia alused",
+                        "eapCount": 5
+                    },
+                    {
+                        "name": "Sidetehnika",
+                        "eapCount": 4
+                    },
+                    {
+                        "name": "Sidevahendid, -võrgud ja -protseduurid",
+                        "eapCount": 10
+                    },
+                    {
+                        "name": "Sideohvitseri-instruktori praktika",
+                        "eapCount": 7
+                    }
+                ]
+            }
+        ],
+        "level": "rakenduskõrgharidus",
+        "outcomes": [
+            "On võimeline juhtima rühma- ja kompaniisuurust üksust rahu- ja sõjaaja tingimustes",
+            "On omandanud teadmised ja oskused rühma tasemel väljaõppe korraldamiseks, läbiviimiseks ning hindamiseks",
+            "On vastavalt spetsialiseerumisele võimeline tegutsema relvaliigi asjatundjana kuni pataljonisuuruses üksuses",
+            "Tunneb ja oskab kasutada jalaväerühma ning spetsialiseerumisjärgse relvaliigi varustust ja relvastust",
+            "Omab ülevaadet kaitseväe- ja tsiviilstruktuuride koostööpõhimõtetest ning teenistusest rahvusvahelises töökeskkonnas",
+            "On kursis sõjanduse arengu erinevate aspektidega, tunneb vastavaid mõisteid, seaduspärasusi ning erinevate teadus- ja tehnikasaavutuste rakendusvõimalusi sõjapidamises. Omab ülevaadet sõjapidamisest kui kogu ühiskonda ja selle erinevaid valdkondi hõlmavast tegevusest",
+            "On võimeline eesti keeles ja vähemalt ühes võõrkeeles mõistma ja selgitama oma taseme töövaldkonnaga seotud küsimusi suulises ja kirjalikus vormis",
+            "Oskab oma teenistusülesannete täitmiseks kohaseid meetodeid ja vahendeid kasutades iseseisvalt informatsiooni koguda, seda kriitiliselt ja loovalt tõlgendada ning vormistada tulemused nõuetekohaseks uurimistööks",
+            "Oskab ühiskondlikke ja eetilisi aspekte arvestades hinnata enda kui sõjaväelise juhi rolli ja oma tegevuse tagajärgi ühiskonnale",
+            "On võimeline ennast iseseisvalt täiendama ning jätkama õpinguid."
+        ],
+        "language": "eesti keel",
+        "duration": 3,
+        "requirements": [
+            {
+                "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
+            },
+            {
+                "term": "Eesti keele oskus vähemalt keeletasemel B2"
+            },
+            {
+                "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
+            },
+            {
+                "term": "Vaimse võimekuse test"
+            },
+            {
+                "term": "Kutsesobivusvestlus"
+            },
+            {
+                "term": "Eesti kodakondsus"
+            }
+        ],
+        "name": "Sõjaväeline Juhtimine Maaväes",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        },
+        "studyTypes": [
+            "päevaõpe"
         ]
-      },
-      {
-        "name": "Pedagoogika ja uurimistöö",
-        "courses": [
-          {
-            "name": "Instruktori algõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Psühholoogia rakendused Kaitseväes",
-            "eapCount": 4
-          },
-          {
-            "name": "Teadustöö alused ja väljendusõpetus",
-            "eapCount": 7
-          },
-          {
-            "name": "Lõputöö",
-            "eapCount": 10
-          },
-          {
-            "name": "Suhtluspõhised õppemeetodid*",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvalitatiivne andmeanalüüs*",
-            "eapCount": 3
-          }
+    },
+    {
+        "studyLocation": [
+            "Tartu"
+        ],
+        "description": [
+            "Kaheaastases magistriõppes toimub omandatud üld- ning erialateadmiste ja -oskuste süvendamine ning kitsam erialaõpe. \n\nMagistriõpe võimaldab jätkata õpinguid varem omandatud erialal ning saada ettevalmistus teenistuseks jalaväepataljoni ja jalaväebrigaadi staabis, sõjaaja pataljoniülema ametikohal või nendega võrdsetel ametikohtadel. Lõpetajad saavad magistrikraadi sõjateaduses ja -tehnoloogias. \n\nKaitseväe Akadeemia sõjaväelise juhtimise magistriõppe õppekava koosneb kolmest suuremast osast – alus- ja suunaõppe moodulist ja erialamoodulist. Alus- ja suunaõppes antakse lisaks sõjaväelistele distsipliinidele kuulajatele terviklik ja nüüdisaegne, kaitseväele ning riigile püstitatud nõudeid ja ülesandeid arvestav akadeemiline haridus. Lisaks kohustuslikele õppeainetele on kuulajatele antud võimalus valida valikaineid mitmete erinevate valdkondade aineblokkide vahel. \n\nSuunaõppe eesmärk on valdkonnasisene spetsialiseerumine pataljoniülema ja staabiohvitseri tasemel vajaminevate teadmiste ja kutseoskuste omandamiseks. Varem jalaväe erialale spetsialiseerunud ohvitserid omandavad magistriõppe erialaõppes jalaväepataljoni ja -brigaadi staabi luureohvitseri, operatiivohvitseri ning pataljoni staabiülema kutseoskused. \n\nPärast erialaõppe läbimist täidavad ohvitserid suunaõppe raames toimuvatel praktilistel harjutustel ametikohti, mis vastavad nende erialale. Samas saavad kõik ohvitserid üldise staabitöö ettevalmistuse. \n\nAlus- ja suunaõppe läbimise järel on tulevastel ohvitseridel võimalik õpinguid jätkata juba spetsiifilistel sõjaväelistel õppesuundadel – jalaväe, side, pioneeri, õhutõrje, suurtükiväe või logistika erialal. \n\nPärast keskastmekursuse lõpetamist ja eeskujulikku teenistust kaitseväes on ohvitseril võimalik jätkata õpinguid Kaitseväe Akadeemiaga samas majas paiknevas Balti Kaitsekolledžis, mis annab vanemstaabiohvitseri ettevalmistuse."
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://www.kvak.ee/files/2023/01/20221221_A_KVA_magistri_ppe_S_jav_eline_juhtimine_kaitsev_es_MUUDETUD__ppekava.pdf",
+        "type": "Riigikaitse",
+        "studyType": "päevaõpe",
+        "modules": [
+            {
+                "name": "Üldjuhtimismoodul",
+                "courses": [
+                    {
+                        "name": "Juhtimispsühholoogia",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse strateegia ",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus ",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Sõjakunsti ajalugu",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Vene keel",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Prantsuse kee",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Prantsuse keel edasijõudnutele",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise keele akadeemilise kirjutamise e-kursus (B1+ ja B2)",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Inglise keel: suuline eneseväljendus (B1+ ja B2)",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Keerulised suhtlussituatsioonid ja läbirääkimine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Analüütilised meetodid otsustusprotsessis",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Riigikaitse planeerimine",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Vene ühiskonna mõtestamine kultuuriloolises kontekstis",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Pedagoogika ja uurimistöö moodul",
+                "courses": [
+                    {
+                        "name": "Teadustöö meetodid",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Õppuste korraldamine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Operatsioonianalüüsi meetodid",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Taktikaliste otsustusharjutuste korraldamine",
+                        "eapCount": 3
+                    },
+                    {
+                        "name": "Magistritöö",
+                        "eapCount": 15
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul I: Maaväe eriala",
+                "courses": [
+                    {
+                        "name": "Ühendväeliigi- ja relvaliigi lahingutegevus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Jalaväepataljoni lahingutegevuse planeerimine ja staabi tegevus",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Lahinguväljasüsteemid",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Jalaväebrigaadi lahingutegevuse planeerimine ja staabi praktika",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Sõjapidamise arengusuunad 21. sajandil",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul I: Maaväe eriala praktika",
+                "courses": [
+                    {
+                        "name": "Õppuste korraldamine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse strateegia",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Jalaväepataljoni lahingutegevuse planeerimine ja staabi tegevus",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Jalaväebrigaadi lahingutegevuse planeerimine ja staabi praktika",
+                        "eapCount": 9
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul II: Mereväe eriala",
+                "courses": [
+                    {
+                        "name": "Meresõja strateegia",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Mereväe taktika",
+                        "eapCount": 12
+                    },
+                    {
+                        "name": "Mereoperatsioonide planeerimine ja juhtimine ",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Juhtimine ja koostöö rahvusvahelises meeskonnas",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Sõjapidamise arengusuunad 21. sajandil",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul II: Mereväe eriala praktika",
+                "courses": [
+                    {
+                        "name": "Õppuste korraldamine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse strateegia",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Mereoperatsioonide planeerimine ja juhtimine",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul III: Õhuväe eriala",
+                "courses": [
+                    {
+                        "name": "Õhusõja strateegia",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Õhukomponendi lahingutegevuse alused",
+                        "eapCount": 12
+                    },
+                    {
+                        "name": "Õhuoperatsioonide planeerimine ja juhtimine",
+                        "eapCount": 12
+                    },
+                    {
+                        "name": "Sõjapidamise arengusuunad 21. sajandil",
+                        "eapCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Spetsialiseerumismoodul III: ÕHUVÄE eriala praktika",
+                "courses": [
+                    {
+                        "name": "Õppuste korraldamine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Julgeolekupoliitika ja riigikaitse strateegia",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
+                        "eapCount": 9
+                    },
+                    {
+                        "name": "Õhuoperatsioonide planeerimine ja juhtimine",
+                        "eapCount": 12
+                    }
+                ]
+            }
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Kasutab juhtimistoiminguid ning juhtimist toetavaid infotehnoloogilisi vahendeid iseseisvalt, õigel ajal, süsteemselt ja loovalt taktikaliste üksuste ning nii rahuaegse kui ka lahingutegevuse juhtimises, sh. rahvusvahelises keskkonnas",
+            "Analüüsib laiapindse riigikaitse, sh sõjalise riigikaitse põhimõtteid ja korraldust ning arutleb selle üle argumenteeritult suulistelt ja kirjalikult",
+            "Lahendab kompleksseid teenistuslikke olukordi, kogudes ja analüüsides selleks süsteemselt nii sõjandusalast, kui ka muud vajalikku informatsiooni, prognoosides võimalikke arengusuundi ning töötades kogutud informatsiooni alusel välja erinevaid tegevuskäike",
+            "Koostab iseseisvalt teaduslikku uurimustööd ning on ette valmistatud juhendama madalama taseme uurimistöid sõjandusega seotud valdkonnas",
+            "Korraldab oma väeliigi tehniliste süsteemide taktikalist kasutamist innovatiivselt, kuid samas eesmärgipäraselt, heaperemehelikult ja õiguspäraselt, järgides kehtestatud ohutusnõudeid",
+            "Korraldab üksuste väljaõpet, planeerides õpieesmärkide saavutamist, luues sobiva keerukuse astmega õppesituatsioone, kaasates vajalikke eksperte, kasutades sobilike meetodeid ja õppevahendeid ning hinnates, suunates juhtide ja üksuse arengut",
+            "Analüüsib ja hindab enda ning alluvate tugevusi ja nõrkuseid, kultuurilisi ja teisi eripärasid, oma tegevuste või otsuste võimalikke tagajärgi, lähtudes üldkehtivatest moraalinormidest ja Kaitseväe põhiväärtustest ning valides alluvate arengut toetavaid ja meeskonnatööd soodustavaid suhtlemisviise ja -meetodeid",
+            "Valdab iseseisvaks õppimiseks vajalikke efektiivseid meetodeid ning kasutab neid vajadust mööda loovalt tööülesannete täitmiseks",
+            "Valdab teise võõrkeelena vene või prantsuse keelt tasemel, mis võimaldab teha kirjalikke märkmeid ja osaleda igapäevastes tööalastes aruteludes"
+        ],
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
+            {
+                "term": "Kõrghariduse I aste sõjaväelise juhtimise erialal või kõrgharidus koos sõjaväelise väljaõppe I astmega"
+            },
+            {
+                "term": "Riigisaladusele juurdepääsu luba vähemalt tasemel „salajane“"
+            },
+            {
+                "term": "Inglise keele oskus NATO STANAGi 6001 tasemel 2222"
+            },
+            {
+                "term": "Kandideerima on suunanud KRA Personaliteenuste osakonna Karjäärikeskus"
+            },
+            {
+                "term": "Maaväe eriala kandidaatidel tuleb läbida enne magistriõpingute algust „Pataljoni staabiohvitseri täienduskursus“"
+            },
+            {
+                "term": "Kandideerija (sh eksternõppesse kandideerija) esitab akadeemia ülema nimele e-posti aadressil oppeinfo@mil.ee vabas vormis avalduse ja motivatsioonikirja õppekavale õppima asumiseks lisas 1 määratud ajavahemikul."
+            },
+            {
+                "term": "Vaimse võimekuse test"
+            },
+            {
+                "term": "Essee"
+            }
+        ],
+        "name": "Sõjaväeline Juhtimine Kaitseväes",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        },
+        "studyTypes": [
+            "päevaõpe"
         ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul I – õhuoperatsioonide eriala",
-        "courses": [
-          {
-            "name": "Õhuväe allüksuste praktika",
-            "eapCount": 8
-          },
-          {
-            "name": "Õhuoperatsioonide planeerimine ja läbiviimine",
-            "eapCount": 4
-          },
-          {
-            "name": "Õhuoperatsioonide eriala praktika",
-            "eapCount": 23
-          }
+    },
+    {
+        "studyLocation": [
+            "Tartu"
+        ],
+        "description": [
+            "Kaitseväe Akadeemia vanemallohvitseride põhikursus on vanemallohvitseride sõjalise karjäärisüsteemi baaskoolituseks. Kursuse lõpetajad saavad kutsehariduse sõjalise juhtimise erialal ning õppekava täies mahus täitmine on ühtlasi eelduseks nooremveebli auastmele esitamiseks. \n\nVanemallohvitseride põhikursuse (VAPK) ehk vanemallohvitseride sõjaväelise juhtimise eriala eesmärk on: \n\n**•** anda alused ja suunised esimese tasandi vanemaallohvitseride ettevalmistamiseks kõikidele Eesti Kaitseväe väeliikidele ning Kaitseliidule \n\n**•** õppekava läbinu on võimeline teenima rahuajal rühma/meeskonna/lüli suuruse üksuse ülema abi ja instruktori ametikohtadel ning allüksuse ülemana sõjaajal. \n\nÕppekava  võimaldab  spetsialiseeruda  maa-,  mere-  või õhuväe suunal. Maaväe suunal on võimalik valida jalaväe, soomusjalaväe, pioneeri, õhutõrje, suurtükiväe, side, logistika või sõjaväepolitsei eriala."
+        ],
+        "ekap": 60,
+        "spots": 0,
+        "majorWebsite": "https://www.kvak.ee/files/2019/07/S%C3%B5jav%C3%A4eline-juhtimine-vanemallohvitseridele-kutse%C3%B5ppe-%C3%B5ppekava.pdf",
+        "type": "Riigikaitse",
+        "studyType": "päevaõpe",
+        "modules": [
+            {
+                "name": "Üldjuhtimismoodul",
+                "courses": [
+                    {
+                        "name": "Kirjalik ja suuline eneseväljendus",
+                        "eapCount": 1.5
+                    },
+                    {
+                        "name": "Juhtimise alused",
+                        "eapCount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Sõjaväelise juhtimise moodul",
+                "courses": [
+                    {
+                        "name": "Lahingutegevuse alused",
+                        "eapCount": 2
+                    },
+                    {
+                        "name": "Lahingutegevuse planeerimine ja juhtimine",
+                        "eapCount": 9
+                    }
+                ]
+            },
+            {
+                "name": "Pedagoogikamoodul",
+                "courses": [
+                    {
+                        "name": "Instruktoriõpe",
+                        "eapCount": 8
+                    },
+                    {
+                        "name": "Laske- ja lõhkamisõpe",
+                        "eapCount": 7.5
+                    }
+                ]
+            },
+            {
+                "name": "Valikõpingute moodulid",
+                "courses": [],
+                "submodules": [
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Jalaväe eriala",
+                        "courses": [
+                            {
+                                "name": "Jalaväerühma taktika",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Jalaväekompanii taktika",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Mehhaniseeritud üksuse taktika",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Tankitõrjeallüksuse taktika",
+                                "eapCount": 1.5
+                            },
+                            {
+                                "name": "Kaudtuletoetusallüksuse taktika",
+                                "eapCount": 4.5
+                            },
+                            {
+                                "name": "Luureallüksuse taktika",
+                                "eapCount": 1.5
+                            },
+                            {
+                                "name": "Jalaväekompanii lahinguteenindus",
+                                "eapCount": 1.5
+                            },
+                            {
+                                "name": "Laskeõppe jätkuväljaõpe ja jalaväekompanii toetusrelvade laskeharjutuste korraldamine",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Jalaväe eriala praktika",
+                                "eapCount": 9
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Soomusjalaväe eriala",
+                        "courses": [
+                            {
+                                "name": "Soomusjalaväe materiaaltehniline ja meeskonnaõpe",
+                                "eapCount": 21
+                            },
+                            {
+                                "name": "Loengud",
+                                "eapCount": 2.5
+                            },
+                            {
+                                "name": "Harjutused",
+                                "eapCount": 12
+                            },
+                            {
+                                "name": "Laskeharjutused",
+                                "eapCount": 2.5
+                            },
+                            {
+                                "name": "Hooldus- ja remonditööd",
+                                "eapCount": 2.5
+                            },
+                            {
+                                "name": "Hindamine",
+                                "eapCount": 1.5
+                            },
+                            {
+                                "name": "Soomusjalaväe eriala praktika",
+                                "eapCount": 9
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Pioneeri eriala",
+                        "courses": [
+                            {
+                                "name": "Tõkestamine ja lõhketööd",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Liikuvuse tagamine",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Lahinglaskmiste ja lõhkamiste õpe",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Pioneeritehnika ja pioneeriluure",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Pioneeri relvaliigi vanemallohvitseride ülesanded rahu- ja sõjaajal",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Lahinguvõime säilitamine",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Pioneerirühma ja -kompanii lahingutegevus",
+                                "eapCount": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Õhutõrje eriala",
+                        "courses": [
+                            {
+                                "name": "Üldine õhutõrje- ja õhuvastase õpe",
+                                "eapCount": 1.5
+                            },
+                            {
+                                "name": "Õhutõrje-kahuripatarei relva- ja lahinguõpe",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Õhutõrje-raketipatarei relva- ja lahinguõpe",
+                                "eapCount": 3.5
+                            },
+                            {
+                                "name": "Õhutõrje side- ja tulejuhtimise tehnika- ning lahinguõpe",
+                                "eapCount": 7
+                            },
+                            {
+                                "name": "Õhutõrje laskeinstruktori ja tulekontrollija õpe",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Õhutõrjeallüksusepraktika",
+                                "eapCount": 10
+                            },
+                            {
+                                "name": "Pioneerirühma ja -kompanii lahingutegevus",
+                                "eapCount": 5
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Suurtükiväe eriala",
+                        "courses": [
+                            {
+                                "name": "Suurtükiväe alused",
+                                "eapCount": 1.5
+                            },
+                            {
+                                "name": "Suurtükiväe relva- ja relvameeskonna õpe",
+                                "eapCount": 8
+                            },
+                            {
+                                "name": "Suurtükiväe mõõdistusõpe",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Suurtükiväe laskeandmete arvutamine",
+                                "eapCount": 3.5
+                            },
+                            {
+                                "name": "Tulerühma ja -patarei lahinguõpe",
+                                "eapCount": 1
+                            },
+                            {
+                                "name": "Suurtükiväelaskmiste ohutustehnika",
+                                "eapCount": 1
+                            },
+                            {
+                                "name": "Suurtükiväe eriala praktika",
+                                "eapCount": 9
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Side eriala",
+                        "courses": [
+                            {
+                                "name": "Elektrotehnika alused",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Sidetehnika alused",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Infotehnoloogia alused",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Sidevahendid, -võrgud ja -protseduurid",
+                                "eapCount": 8
+                            },
+                            {
+                                "name": "Sidetaktika",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Sideallohvitseri praktika",
+                                "eapCount": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Logistika eriala",
+                        "courses": [
+                            {
+                                "name": "Lahingteenindustaktika alused",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Sissejuhatus logistika põhifunktsioonidesse",
+                                "eapCount": 7
+                            },
+                            {
+                                "name": "Lahingteeninduse juhtimine",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Varustamine ja transport",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Transpordivahendite hooldus ja remont",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Relvastuse hooldus ja remont",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Transpordi ja liikumise koordinatsioon ja kontroll (MOVCON)",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Logistika eriala praktika",
+                                "eapCount": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maaväe spetsialiseerumismoodul - Sõjaväepolitsei eriala",
+                        "courses": [
+                            {
+                                "name": "Sõjaväepolitsei baasõpe",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Süütegude menetlemise alused",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Julgeolekuoperatsioonid",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Teede kontroll ja liiklusjärelvalve",
+                                "eapCount": 1
+                            },
+                            {
+                                "name": "Korrakaitse",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Sõjaväepolitsei allüksuse praktika",
+                                "eapCount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mereväe spetsialiseerumismoodul",
+                        "courses": [
+                            {
+                                "name": "Meresõja alused",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Mere- ja meresõjaõigus",
+                                "eapCount": 4
+                            },
+                            {
+                                "name": "Mereväeside algõpe",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Merendusalane inglisekeel",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Administreerimine mereväes",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Mereväe relvastusteooria",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Rolliplaanijärgsete ülesannete täitmine sõjalaeval",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Väikelaeva juhtimine",
+                                "eapCount": 3
+                            },
+                            {
+                                "name": "Juhtimis- ja instruktoripraktika mereväes",
+                                "eapCount": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Õhuväe spetsialiseerumismoodul",
+                        "courses": [
+                            {
+                                "name": "Lennunduse alused",
+                                "eapCount": 5
+                            },
+                            {
+                                "name": "Õhusõja ajalugu ja õhuoperatsioonid",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "NATO õhukaitsesüsteemi juhtimise ja lahingutegevuse alused",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Eesti õhuväeüksuste juhtimise ja lahingutegevuse alused",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Sõjaväline juhtimine ja allohvitseri roll õhuväes",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Õhuväe praktika",
+                                "eapCount": 2
+                            },
+                            {
+                                "name": "Õhuväe allüksuse praktika",
+                                "eapCount": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "level": "kutseharidus",
+        "outcomes": [
+            "Mõistab Eesti riigikaitse ülesehitust ja riigikaitse organisatsioonide ootusi oma teenistujatele;",
+            "Langetab otsuseid ning väljendab neid selgelt ja üheselt mõistetavalt nii suuliselt kui kirjalikult;",
+            "On võimeline läbi viima tunde ja harjutusi kuni rühmasuurusele üksusele",
+            "On iseseisvalt võimeline läbi viima jao tasemel lahinglaskmisi ja tegutsema abipersonali ülesannetes kõrgema taseme üksuse lahinglaskmistel",
+            "Tunneb ja käsitseb Kaitseväes ning oma väe- ja relvaliigi kasutuses olevaid vahendeid vastavalt ametikohale kehtestatud nõuetele",
+            "Juhib eriala allüksuseid erinevates taktikalistes olukordades."
+        ],
+        "language": "eesti keel",
+        "duration": 1,
+        "requirements": [
+            {
+                "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
+            },
+            {
+                "term": "Eesti keele oskus vähemalt keeletasemel B2"
+            },
+            {
+                "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
+            },
+            {
+                "term": "Vaimse võimekuse test"
+            },
+            {
+                "term": "Kutsesobivusvestlus"
+            },
+            {
+                "term": "Eesti kodakondsus"
+            }
+        ],
+        "name": "Sõjaväeline juhtimine vanemallohvitseridele",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        },
+        "studyTypes": [
+            "päevaõpe"
         ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul II – lennuvälja eriala",
-        "courses": [
-          {
-            "name": "Õhuväe allüksuste praktika",
-            "eapCount": 8
-          },
-          {
-            "name": "Lennubaasi operatsioonid ja tehnika",
-            "eapCount": 4
-          },
-          {
-            "name": "Lennuvälja eriala praktika",
-            "eapCount": 23
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul III – õhuseire eriala",
-        "courses": [
-          {
-            "name": "Õhuväe allüksuste praktika",
-            "eapCount": 8
-          },
-          {
-            "name": "Õhuseire operatsioonid ja tehnoloogia",
-            "eapCount": 4
-          },
-          {
-            "name": "Õhuseire eriala praktika",
-            "eapCount": 23
-          }
-        ]
-      }
-    ],
-    "level": "rakenduskõrgharidus",
-    "outcomes": [
-      "Teab õhuväe ülesandeid ja allüksuste toimimist ning mõistab õhuväe sisese ja väeliikide vahelise koostöö põhimõtteid",
-      "Oskab oma teenistusülesannete täitmisel arvestada õhuväe ja tsiviillennunduse ning NATO õhukaitse süsteemi koostööpõhimõtteid",
-      "Teab spetsialiseerumisjärgse eriala põhimõisteid, töövahendeid ja -meetodeid ning oskab neid eesmärgipäraselt rakendada oma igapäevaste teenistuskohustuste täitmisel",
-      "On võimeline juhtima jalaväerühmasuurust üksust sõjaaja tingimustes",
-      "On omandanud teadmised ja oskused üksuse väljaõppe läbiviimiseks ning hindamiseks",
-      "Oskab ühiskondlikke ja eetilisi aspekte arvestades hinnata enda kui sõjaväelise juhi rolli ja oma tegevuse tagajärgi ühiskonnale",
-      "Teab sõjandusega seotud reaalteaduslikke mõisteid, seaduspärasusi ning erinevate teadus- ja tehnikasaavutuste rakendusvõimalusi sõjapidamises",
-      "On võimeline eesti keeles ja vähemalt ühes võõrkeeles mõistma ning selgitama oma taseme töövaldkonnaga seotud küsimusi suulises ja kirjalikus vormis",
-      "Oskab oma teenistusülesannete täitmiseks kohaseid meetodeid ja vahendeid kasutades iseseisvalt informatsiooni koguda, seda kriitiliselt ja loovalt tõlgendada ning vormistada tulemused nõuetekohaseks uurimistööks",
-      "On võimeline ennast iseseisvalt täiendama ning jätkama õpinguid."
-    ],
-    "language": "eesti keel",
-    "duration": 3,
-    "requirements": [
-      {
-        "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
-      },
-      {
-        "term": "Eesti keele oskus vähemalt keeletasemel B2"
-      },
-      {
-        "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
-      },
-      {
-        "term": "Vaimse võimekuse test"
-      },
-      {
-        "term": "Kutsesobivusvestlus"
-      },
-      {
-        "term": "Eesti kodakondsus"
-      }
-    ],
-    "name": "Sõjaväeline Juhtimine Õhuväes",
-    "cost": {
-      "amount": 0,
-      "currency": "€",
-      "interval": "full"
     }
-  },
-  {
-    "studyLocation": [
-      "Tartu"
-    ],
-    "description": [
-      "Sõjaväelise juhtimise mereväe õppekava eesmärgiks on nooremohvitseride ettevalmistamine Eesti mereväele rahu- ja sõjaaja ametikohtadel teenimiseks. Õppekava järgi saab spetsialiseeruda mereväe taktika või tehnika erialale. Õppekava maht on 180 EAP-d ja nominaalne õppeaeg kolm aastat. Õpe toimub koostöös TTÜ Eesti Mereakadeemiaga. \n\n**Kaitseväe Akadeemias õppimise hüved:** \n\n**•** Palk – igale kadetile on õpingute ajal tagatud palk alates 1000€ \n\n**•** Tasuta elukoht – tasuta elamiskoht Tartu kesklinnas asuvas ühiselamus \n\n**•** Tasuta arstiabi – tasuta arsti- ja hambaravi nii õpingute ajal kui ka edasises teenistuses \n\n**•** Garanteeritud amet – Kaitseväe Akadeemia lõpetajale on garanteeritud töökoht kaitseväes palgaga alates 2050€ \n\n**•** Sport – kadettidele on tagatud lai valik sportimisvõimalusi ning erialaseid huviringe (nt laskurring)"
-    ],
-    "eap": 180,
-    "spots": 0,
-    "majorWebsite": "",
-    "type": "Riigikaitse",
-    "studyType": "päevaõpe",
-    "modules": [
-      {
-        "name": "Sõjaväeline juhtimine",
-        "courses": [
-          {
-            "name": "Jalaväerühma lahingutegevuse juhtimise alused",
-            "eapCount": 10
-          },
-          {
-            "name": "Mereväetehnika",
-            "eapCount": 6
-          },
-          {
-            "name": "Lahingutegevuse alused ja jalaväerühma lahingutegevus",
-            "eapCount": 10
-          },
-          {
-            "name": "Merepraktika",
-            "eapCount": 6
-          },
-          {
-            "name": "Psühholoogia rakendused Kaitseväes",
-            "eapCount": 4
-          },
-          {
-            "name": "Meresõja alused",
-            "eapCount": 6
-          },
-          {
-            "name": "Sõjalaeva juhtimise praktika",
-            "eapCount": 10
-          },
-          {
-            "name": "Sõjalaeva tehnikasektsiooni juhtimise praktika",
-            "eapCount": 8
-          }
-        ]
-      },
-      {
-        "name": "Pedagoogika ja uurimistöö",
-        "courses": [
-          {
-            "name": "Instruktori algõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Teadustöö alused ja väljendusõpetus",
-            "eapCount": 7
-          },
-          {
-            "name": "Jalaväejao õppelaskmiste korraldamine",
-            "eapCount": 3
-          },
-          {
-            "name": "Lõputöö",
-            "eapCount": 10
-          },
-          {
-            "name": "Sõjalaevameeskonna väljaõpe",
-            "eapCount": 2
-          }
-        ]
-      },
-      {
-        "name": "Haldus- ja tehnikamoodul",
-        "courses": [
-          {
-            "name": "Meditsiiniõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Sõjatehnoloogia I: varustuse hooldus ja rakendusmehaanika alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Sõjatehnoloogia II: ballistika ja vaatlusvahendid",
-            "eapCount": 2
-          },
-          {
-            "name": "Avariitõrje sõjalaeval",
-            "eapCount": 4
-          },
-          {
-            "name": "Sõjatehnoloogia III: elekter",
-            "eapCount": 2
-          },
-          {
-            "name": "Mereväe relvastus",
-            "eapCount": 5
-          },
-          {
-            "name": "Mereväeside",
-            "eapCount": 7
-          },
-          {
-            "name": "Mereväeside algõpe",
-            "eapCount": 2
-          },
-          {
-            "name": "Keemiaalased analüüsid sõjalaeval",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia IV: maismaaplatvormid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia V: side- ja juhtimissüsteemid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia VI: elektroonika alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Administreerimine mereväes",
-            "eapCount": 2
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul I – mereväe taktika eriala",
-        "courses": [
-          {
-            "name": "Laevade ehitus",
-            "eapCount": 4
-          },
-          {
-            "name": "Meresõiduohutus I",
-            "eapCount": 4
-          },
-          {
-            "name": "Laeva jõuseadmed ja abimehhanismid",
-            "eapCount": 3
-          },
-          {
-            "name": "Navigatsioon laeval I",
-            "eapCount": 4
-          },
-          {
-            "name": "Laevajuhtimine I",
-            "eapCount": 3
-          },
-          {
-            "name": "Laevateooria ja püstuvus",
-            "eapCount": 6
-          },
-          {
-            "name": "Meresõiduohutus II",
-            "eapCount": 3
-          },
-          {
-            "name": "Taktikaline navigatsioon",
-            "eapCount": 3
-          },
-          {
-            "name": "Navigatsiooni praktika",
-            "eapCount": 8
-          },
-          {
-            "name": "Navigatsioon laeval II",
-            "eapCount": 4
-          },
-          {
-            "name": "Laevajuhtimine II",
-            "eapCount": 5
-          },
-          {
-            "name": "Mereõigus ja meresõjaõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Mereside",
-            "eapCount": 3
-          },
-          {
-            "name": "Laevasilla matkeväljaõpe",
-            "eapCount": 4
-          },
-          {
-            "name": "Elektronkaardi kasutamine",
-            "eapCount": 2
-          }
-        ]
-      },
-      {
-        "name": "Üldjuhtimine",
-        "courses": [
-          {
-            "name": "Riik, poliitika ja valitsemine",
-            "eapCount": 2
-          },
-          {
-            "name": "Riigikaitseõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Maailma sõjaajalugu",
-            "eapCount": 4
-          },
-          {
-            "name": "Juhtimise alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Eesti sõjaajalugu",
-            "eapCount": 4
-          },
-          {
-            "name": "Relvakonfliktiõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Julgeolekupoliitika ja riigikaitse",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise keel (B1 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B2 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (C1 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Merendusalane inglise keel",
-            "eapCount": 2
-          },
-          {
-            "name": "Merendusalane inglise keel",
-            "eapCount": 2
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul II – mereväe tehnika eriala",
-        "courses": [
-          {
-            "name": "Laevade ehitus",
-            "eapCount": 4
-          },
-          {
-            "name": "Rakendusmehaanika",
-            "eapCount": 6
-          },
-          {
-            "name": "Elektrotehnika ja elektroonika",
-            "eapCount": 6
-          },
-          {
-            "name": "Termodünaamika ja soojusülekanne",
-            "eapCount": 4
-          },
-          {
-            "name": "Metallide tehnoloogiad, materjalid I",
-            "eapCount": 3
-          },
-          {
-            "name": "Laeva püstuvus",
-            "eapCount": 4
-          },
-          {
-            "name": "Metallide tehnoloogiad, materjalid II",
-            "eapCount": 4
-          },
-          {
-            "name": "Laeva elektriseadmed",
-            "eapCount": 2
-          },
-          {
-            "name": "Elektrimontaaži õppepraktika",
-            "eapCount": 4
-          },
-          {
-            "name": "Laeva diiseljõuseadmed",
-            "eapCount": 6
-          },
-          {
-            "name": "Laeva abimehhanismid",
-            "eapCount": 7
-          },
-          {
-            "name": "Laevaremondi tehnoloogia",
-            "eapCount": 4
-          },
-          {
-            "name": "Laevaremondi praktika",
-            "eapCount": 4
-          },
-          {
-            "name": "Masinaruumi matkepraktika",
-            "eapCount": 4
-          }
-        ]
-      }
-    ],
-    "level": "rakenduskõrgharidus",
-    "outcomes": [
-      "On võimeline juhtima laeva rolliplaanijärgseid tegevusi, laevasektsioone ja -meeskondi erinevates olukordades ning tagama tegevusvalmiduse temale alluvas üksuses rahu- ja sõjaajal nii Eestis kui ka rahvusvahelises töökeskkonnas",
-      "On vastavalt spetsialiseerumisele võimeline täitma sõjalaeva taktika- või tehnikaohvitseri teenistusülesandeid",
-      "On võimeline juhtima jalaväerühmasuurust üksust sõjaaja tingimustes",
-      "On omandanud teadmised individuaal- ja grupiõppe metoodika ja hindamise kohta ning vastavad oskused, et korraldada spetsialiseerumisjärgsel erialal õppetööd",
-      "Oskab ühiskondlikke ja eetilisi aspekte arvestades hinnata enda kui sõjaväelise juhi rolli ja oma tegevuse tagajärgi ühiskonnale ning orienteerub õigusterminoloogias ja õiguse rakendamise põhimõtetes",
-      "Teab nüüdisaegse sõjapidamise kujunemislugu ning Eesti riigikaitse ülesehitust tänapäevases julgeolekukontseptsioonis",
-      "Teab sõjalaeva käitamiseks vajalikke reaalteaduslikke mõisteid ja printsiipe",
-      "On võimeline eesti ja inglise keeles mõistma ning selgitama oma taseme töövaldkonnaga seonduvat suulises ja kirjalikus vormis",
-      "Oskab oma teenistusülesannete täitmiseks sobivate meetodite ja vahendite abil koguda iseseisvalt informatsiooni, seda kriitiliselt ja loovalt tõlgendada",
-      "Oskab läbi viia ja vormistada nõuetekohast uurimistööd."
-    ],
-    "language": "eesti keel",
-    "duration": 3,
-    "requirements": [
-      {
-        "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
-      },
-      {
-        "term": "Eesti keele oskus vähemalt keeletasemel B2"
-      },
-      {
-        "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
-      },
-      {
-        "term": "Vaimse võimekuse test"
-      },
-      {
-        "term": "Kutsesobivusvestlus"
-      },
-      {
-        "term": "Eesti kodakondsus"
-      }
-    ],
-    "name": "Sõjaväeline Juhtimine Mereväes",
-    "cost": {
-      "amount": 0,
-      "currency": "€",
-      "interval": "full"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tartu"
-    ],
-    "description": [
-      "Sõjaväelise juhtimise maaväe õppekava eesmärgiks on valmistada õppureid ette teenima rühma- ja kompanii-/patareiülemana rahu- ning sõjaaja ametikohtadel. Õppekava võimaldab spetsialiseeruda jalaväe, mehhaniseeritud jalaväe, kaudtule, logistika, pioneeri, side ja õhutõrje erialale ning saada vastava relvaliigi nooremohvitseri ettevalmistus. Õppekava maht on 180 EAP-d ja nominaalne õppeaeg on kolm aastat. \n\n**Kaitseväe Akadeemias õppimise hüved:** \n\n**•** Palk – igale kadetile on õpingute ajal tagatud palk alates 1000€ \n\n**•** Tasuta elukoht – tasuta elamiskoht Tartu kesklinnas asuvas ühiselamus \n\n**•** Tasuta arstiabi – tasuta arsti- ja hambaravi nii õpingute ajal kui ka edasises teenistuses \n\n**•** Garanteeritud amet – Kaitseväe Akadeemia lõpetajale on garanteeritud töökoht kaitseväes palgaga alates 2050€ \n\n**•** Sport – kadettidele on tagatud lai valik sportimisvõimalusi ning erialaseid huviringe (nt laskurring)"
-    ],
-    "eap": 180,
-    "spots": 0,
-    "majorWebsite": "",
-    "type": "Riigikaitse",
-    "studyType": "päevaõpe",
-    "modules": [
-      {
-        "name": "Logistika eriala",
-        "courses": [
-          {
-            "name": "Tsiviillogistika alused",
-            "eapCount": 2
-          },
-          {
-            "name": "Kaitseväe logistika",
-            "eapCount": 3
-          },
-          {
-            "name": "Majanduse alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Riski- ja ohutuseõpetus",
-            "eapCount": 4
-          },
-          {
-            "name": "Materjalimajandus Kaitseväes",
-            "eapCount": 3
-          },
-          {
-            "name": "Tehnikaõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Logistikafunktsioonid lahinguväljal",
-            "eapCount": 3
-          },
-          {
-            "name": "Logistilise toetuse planeerimine ja juhtimine",
-            "eapCount": 6
-          },
-          {
-            "name": "Transpordikorraldus",
-            "eapCount": 2
-          },
-          {
-            "name": "Logistika operatsioonide planeerimine",
-            "eapCount": 2
-          },
-          {
-            "name": "Logistilise toetuse planeerimise ja juhtimise praktika",
-            "eapCount": 4
-          }
-        ]
-      },
-      {
-        "name": "Üldjuhtimine",
-        "courses": [
-          {
-            "name": "Juhtimise alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Riigikaitseõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Relvakonfliktiõigus",
-            "eapCount": 2
-          },
-          {
-            "name": "Maailma sõjaajalugu",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B1 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B1+ tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Inglise keel (B2 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Maaväe erialane inglise keel",
-            "eapCount": 2
-          },
-          {
-            "name": "Inglise keel (C1 tasemel)",
-            "eapCount": 4
-          },
-          {
-            "name": "Eesti sõjaajalugu",
-            "eapCount": 4
-          },
-          {
-            "name": "Riik, poliitika ja valitsemine",
-            "eapCount": 2
-          },
-          {
-            "name": "Julgeolekupoliitika ja riigikaitse",
-            "eapCount": 3
-          },
-          {
-            "name": "Vene keel valikainena (A1 tasemel)",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise keel valikainena (B1+ tasemel)*",
-            "eapCount": 3
-          },
-          {
-            "name": "Suhtlemispsühholoogia*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Sõjaväeline juhtimine",
-        "courses": [
-          {
-            "name": "Lahingutegevuse alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Jalaväerühm erinevates lahinguliikides",
-            "eapCount": 6
-          },
-          {
-            "name": "Jalaväerühma lahingutegevuse planeerimine",
-            "eapCount": 6
-          },
-          {
-            "name": "Jalaväerühm erinevates lahingukeskkondades ja -tingimustes",
-            "eapCount": 9
-          },
-          {
-            "name": "Jalaväerühma juhtimise praktika",
-            "eapCount": 6
-          },
-          {
-            "name": "Jalaväekompanii lahingutegevuse planeerimine",
-            "eapCount": 12
-          },
-          {
-            "name": "Jalaväekompanii erinevates lahingukeskkondades ja -tingimustes",
-            "eapCount": 9
-          },
-          {
-            "name": "Jalaväejao lahinglaskmised ja lõhkamised",
-            "eapCount": 3
-          },
-          {
-            "name": "Rahuajaüksuse juhtimine I",
-            "eapCount": 2
-          },
-          {
-            "name": "Praktika nooremohvitseri rahuaja ametikohal",
-            "eapCount": 8
-          },
-          {
-            "name": "Jalaväepataljoni lahingutegevuse planeerimise baasõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Sisejulgeoleku asutused ja ülesanded*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Tehnikamoodul",
-        "courses": [
-          {
-            "name": "Topograafia ja geoinfosüsteemid",
-            "eapCount": 3
-          },
-          {
-            "name": "Meditsiiniõpe",
-            "eapCount": 3
-          },
-          {
-            "name": "Sõjatehnoloogia I: varustuse hooldus ja rakendusmehaanika alused",
-            "eapCount": 3
-          },
-          {
-            "name": "Sõjatehnoloogia II: ballistika ja vaatlusvahendid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia III: elekter",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia IV: maismaaplatvormid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia V: side- ja juhtimissüsteemid",
-            "eapCount": 2
-          },
-          {
-            "name": "Sõjatehnoloogia rakendusuuringud*",
-            "eapCount": 3
-          },
-          {
-            "name": "Kvantitatiivne andmeanalüüs*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Pedagoogika ja uurimistöö",
-        "courses": [
-          {
-            "name": "Instruktoriõpe",
-            "eapCount": 10
-          },
-          {
-            "name": "Psühholoogia rakendused Kaitseväes",
-            "eapCount": 4
-          },
-          {
-            "name": "Teadustöö alused ja väljendusõpetus",
-            "eapCount": 7
-          },
-          {
-            "name": "Treeninguõpetus",
-            "eapCount": 2
-          },
-          {
-            "name": "Riigikaitseõpetuse didaktika",
-            "eapCount": 2
-          },
-          {
-            "name": "Jalaväerühma väljaõppe planeerimine",
-            "eapCount": 2
-          },
-          {
-            "name": "Lõputöö",
-            "eapCount": 10
-          },
-          {
-            "name": "Suhtluspõhised õppemeetodid*",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Jalaväe eriala",
-        "courses": [
-          {
-            "name": "Jalaväepataljoni relvastuse ja eritehnika õpe ning laskmised",
-            "eapCount": 5
-          },
-          {
-            "name": "Jalaväepataljoni relvaliigilahing",
-            "eapCount": 3
-          },
-          {
-            "name": "Luureallüksuse taktika",
-            "eapCount": 3
-          },
-          {
-            "name": "Miinipilduja materiaaltehniline õpe, taktika ja laskmised",
-            "eapCount": 7
-          },
-          {
-            "name": "Tankitõrjeallüksuse taktika",
-            "eapCount": 2
-          },
-          {
-            "name": "Õppuste hindamine ja vahekohtuteenistus",
-            "eapCount": 4
-          },
-          {
-            "name": "Jalaväerühma lahinglaskmiste läbiviimine",
-            "eapCount": 4
-          },
-          {
-            "name": "Mehhaniseeritud üksuste taktika",
-            "eapCount": 7
-          }
-        ]
-      },
-      {
-        "name": "Pioneeri eriala",
-        "courses": [
-          {
-            "name": "Rakendusmehaanika",
-            "eapCount": 2
-          },
-          {
-            "name": "Pioneeritehnika ja pioneeriluure",
-            "eapCount": 3
-          },
-          {
-            "name": "Geodeesia ja rakendusgeoloogia alused",
-            "eapCount": 2
-          },
-          {
-            "name": "Lahinglaskmiste ja lõhkamisõpe",
-            "eapCount": 5
-          },
-          {
-            "name": "Lahinguvõime säilitamine",
-            "eapCount": 3
-          },
-          {
-            "name": "Liikuvuse tagamine",
-            "eapCount": 6
-          },
-          {
-            "name": "Pioneerirühma ja -kompanii lahingutegevus",
-            "eapCount": 9
-          },
-          {
-            "name": "Tõkestamine ja lõhketööd",
-            "eapCount": 5
-          }
-        ]
-      },
-      {
-        "name": "Õhutõrje eriala",
-        "courses": [
-          {
-            "name": "Õhutõrje lahingutegevuse planeerimise ja juhtimise praktika",
-            "eapCount": 5
-          },
-          {
-            "name": "Õhutõrje alusõpe",
-            "eapCount": 2
-          },
-          {
-            "name": "Õhutõrje side- ja tulejuhtimisõpe",
-            "eapCount": 8
-          },
-          {
-            "name": "Õhutõrje-kahuripatarei relva- ja lahinguõpe",
-            "eapCount": 10
-          },
-          {
-            "name": "Õhutõrje-raketipatarei relva- ja lahinguõpe",
-            "eapCount": 7
-          },
-          {
-            "name": "Õhutõrje instruktori praktika",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Soomusjalaväe eriala",
-        "courses": [
-          {
-            "name": "Jalaväepataljoni relvaliigilahing",
-            "eapCount": 3
-          },
-          {
-            "name": "Luureallüksuse taktika",
-            "eapCount": 3
-          },
-          {
-            "name": "Jalaväepataljoni relvastuse ja eritehnika õpe",
-            "eapCount": 2
-          },
-          {
-            "name": "Jalaväerühma lahinglaskmiste läbiviimine",
-            "eapCount": 4
-          },
-          {
-            "name": "Jalaväe lahingumasina materjalitehniline- ja meeskonnaõpe",
-            "eapCount": 15
-          },
-          {
-            "name": "Soomusjalaväeüksuste taktika ja juhtimine",
-            "eapCount": 8
-          }
-        ]
-      },
-      {
-        "name": "Suurtükiväe eriala",
-        "courses": [
-          {
-            "name": "Suurtükiväe laskeandmete arvutamine",
-            "eapCount": 7
-          },
-          {
-            "name": "Suurtükiväe mõõdistusõpe",
-            "eapCount": 5
-          },
-          {
-            "name": "Suurtükiväe alused",
-            "eapCount": 2
-          },
-          {
-            "name": "Suurtükiväe relva- ja laskemoonaõpe ning relvameeskonna ülesanded",
-            "eapCount": 10
-          },
-          {
-            "name": "Tulerühma ja -patarei lahinguõpe",
-            "eapCount": 6
-          },
-          {
-            "name": "Tulejuhtimine ning jalaväekompanii ja -pataljoni tuletoetus",
-            "eapCount": 5
-          }
-        ]
-      },
-      {
-        "name": "Side eriala",
-        "courses": [
-          {
-            "name": "Elektrotehnika alused",
-            "eapCount": 4
-          },
-          {
-            "name": "Sidetehnika alused",
-            "eapCount": 5
-          },
-          {
-            "name": "Infotehnoloogia alused",
-            "eapCount": 5
-          },
-          {
-            "name": "Sidetehnika",
-            "eapCount": 4
-          },
-          {
-            "name": "Sidevahendid, -võrgud ja -protseduurid",
-            "eapCount": 10
-          },
-          {
-            "name": "Sideohvitseri-instruktori praktika",
-            "eapCount": 7
-          }
-        ]
-      }
-    ],
-    "level": "rakenduskõrgharidus",
-    "outcomes": [
-      "On võimeline juhtima rühma- ja kompaniisuurust üksust rahu- ja sõjaaja tingimustes",
-      "On omandanud teadmised ja oskused rühma tasemel väljaõppe korraldamiseks, läbiviimiseks ning hindamiseks",
-      "On vastavalt spetsialiseerumisele võimeline tegutsema relvaliigi asjatundjana kuni pataljonisuuruses üksuses",
-      "Tunneb ja oskab kasutada jalaväerühma ning spetsialiseerumisjärgse relvaliigi varustust ja relvastust",
-      "Omab ülevaadet kaitseväe- ja tsiviilstruktuuride koostööpõhimõtetest ning teenistusest rahvusvahelises töökeskkonnas",
-      "On kursis sõjanduse arengu erinevate aspektidega, tunneb vastavaid mõisteid, seaduspärasusi ning erinevate teadus- ja tehnikasaavutuste rakendusvõimalusi sõjapidamises. Omab ülevaadet sõjapidamisest kui kogu ühiskonda ja selle erinevaid valdkondi hõlmavast tegevusest",
-      "On võimeline eesti keeles ja vähemalt ühes võõrkeeles mõistma ja selgitama oma taseme töövaldkonnaga seotud küsimusi suulises ja kirjalikus vormis",
-      "Oskab oma teenistusülesannete täitmiseks kohaseid meetodeid ja vahendeid kasutades iseseisvalt informatsiooni koguda, seda kriitiliselt ja loovalt tõlgendada ning vormistada tulemused nõuetekohaseks uurimistööks",
-      "Oskab ühiskondlikke ja eetilisi aspekte arvestades hinnata enda kui sõjaväelise juhi rolli ja oma tegevuse tagajärgi ühiskonnale",
-      "On võimeline ennast iseseisvalt täiendama ning jätkama õpinguid."
-    ],
-    "language": "eesti keel",
-    "duration": 3,
-    "requirements": [
-      {
-        "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
-      },
-      {
-        "term": "Eesti keele oskus vähemalt keeletasemel B2"
-      },
-      {
-        "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
-      },
-      {
-        "term": "Vaimse võimekuse test"
-      },
-      {
-        "term": "Kutsesobivusvestlus"
-      },
-      {
-        "term": "Eesti kodakondsus"
-      }
-    ],
-    "name": "Sõjaväeline Juhtimine Maaväes",
-    "cost": {
-      "amount": 0,
-      "currency": "€",
-      "interval": "full"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tartu"
-    ],
-    "description": [
-      "Kaheaastases magistriõppes toimub omandatud üld- ning erialateadmiste ja -oskuste süvendamine ning kitsam erialaõpe. \n\nMagistriõpe võimaldab jätkata õpinguid varem omandatud erialal ning saada ettevalmistus teenistuseks jalaväepataljoni ja jalaväebrigaadi staabis, sõjaaja pataljoniülema ametikohal või nendega võrdsetel ametikohtadel. Lõpetajad saavad magistrikraadi sõjateaduses ja -tehnoloogias. \n\nKaitseväe Akadeemia sõjaväelise juhtimise magistriõppe õppekava koosneb kolmest suuremast osast – alus- ja suunaõppe moodulist ja erialamoodulist. Alus- ja suunaõppes antakse lisaks sõjaväelistele distsipliinidele kuulajatele terviklik ja nüüdisaegne, kaitseväele ning riigile püstitatud nõudeid ja ülesandeid arvestav akadeemiline haridus. Lisaks kohustuslikele õppeainetele on kuulajatele antud võimalus valida valikaineid mitmete erinevate valdkondade aineblokkide vahel. \n\nSuunaõppe eesmärk on valdkonnasisene spetsialiseerumine pataljoniülema ja staabiohvitseri tasemel vajaminevate teadmiste ja kutseoskuste omandamiseks. Varem jalaväe erialale spetsialiseerunud ohvitserid omandavad magistriõppe erialaõppes jalaväepataljoni ja -brigaadi staabi luureohvitseri, operatiivohvitseri ning pataljoni staabiülema kutseoskused. \n\nPärast erialaõppe läbimist täidavad ohvitserid suunaõppe raames toimuvatel praktilistel harjutustel ametikohti, mis vastavad nende erialale. Samas saavad kõik ohvitserid üldise staabitöö ettevalmistuse. \n\nAlus- ja suunaõppe läbimise järel on tulevastel ohvitseridel võimalik õpinguid jätkata juba spetsiifilistel sõjaväelistel õppesuundadel – jalaväe, side, pioneeri, õhutõrje, suurtükiväe või logistika erialal. \n\nPärast keskastmekursuse lõpetamist ja eeskujulikku teenistust kaitseväes on ohvitseril võimalik jätkata õpinguid Kaitseväe Akadeemiaga samas majas paiknevas Balti Kaitsekolledžis, mis annab vanemstaabiohvitseri ettevalmistuse."
-    ],
-    "eap": 120,
-    "spots": 0,
-    "majorWebsite": "https://www.kvak.ee/files/2023/01/20221221_A_KVA_magistri_ppe_S_jav_eline_juhtimine_kaitsev_es_MUUDETUD__ppekava.pdf",
-    "type": "Riigikaitse",
-    "studyType": "päevaõpe",
-    "modules": [
-      {
-        "name": "Üldjuhtimismoodul",
-        "courses": [
-          {
-            "name": "Juhtimispsühholoogia",
-            "eapCount": 6
-          },
-          {
-            "name": "Julgeolekupoliitika ja riigikaitse strateegia ",
-            "eapCount": 9
-          },
-          {
-            "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus ",
-            "eapCount": 6
-          },
-          {
-            "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
-            "eapCount": 9
-          },
-          {
-            "name": "Sõjakunsti ajalugu",
-            "eapCount": 6
-          },
-          {
-            "name": "Vene keel",
-            "eapCount": 6
-          },
-          {
-            "name": "Prantsuse kee",
-            "eapCount": 6
-          },
-          {
-            "name": "Prantsuse keel edasijõudnutele",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise keele akadeemilise kirjutamise e-kursus (B1+ ja B2)",
-            "eapCount": 3
-          },
-          {
-            "name": "Inglise keel: suuline eneseväljendus (B1+ ja B2)",
-            "eapCount": 3
-          },
-          {
-            "name": "Keerulised suhtlussituatsioonid ja läbirääkimine",
-            "eapCount": 3
-          },
-          {
-            "name": "Analüütilised meetodid otsustusprotsessis",
-            "eapCount": 3
-          },
-          {
-            "name": "Riigikaitse planeerimine",
-            "eapCount": 9
-          },
-          {
-            "name": "Vene ühiskonna mõtestamine kultuuriloolises kontekstis",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Pedagoogika ja uurimistöö moodul",
-        "courses": [
-          {
-            "name": "Teadustöö meetodid",
-            "eapCount": 9
-          },
-          {
-            "name": "Õppuste korraldamine",
-            "eapCount": 6
-          },
-          {
-            "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
-            "eapCount": 6
-          },
-          {
-            "name": "Operatsioonianalüüsi meetodid",
-            "eapCount": 3
-          },
-          {
-            "name": "Taktikaliste otsustusharjutuste korraldamine",
-            "eapCount": 3
-          },
-          {
-            "name": "Magistritöö",
-            "eapCount": 15
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul I: Maaväe eriala",
-        "courses": [
-          {
-            "name": "Ühendväeliigi- ja relvaliigi lahingutegevus",
-            "eapCount": 6
-          },
-          {
-            "name": "Jalaväepataljoni lahingutegevuse planeerimine ja staabi tegevus",
-            "eapCount": 9
-          },
-          {
-            "name": "Lahinguväljasüsteemid",
-            "eapCount": 6
-          },
-          {
-            "name": "Jalaväebrigaadi lahingutegevuse planeerimine ja staabi praktika",
-            "eapCount": 9
-          },
-          {
-            "name": "Sõjapidamise arengusuunad 21. sajandil",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul I: Maaväe eriala praktika",
-        "courses": [
-          {
-            "name": "Õppuste korraldamine",
-            "eapCount": 6
-          },
-          {
-            "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
-            "eapCount": 6
-          },
-          {
-            "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus",
-            "eapCount": 6
-          },
-          {
-            "name": "Julgeolekupoliitika ja riigikaitse strateegia",
-            "eapCount": 9
-          },
-          {
-            "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
-            "eapCount": 9
-          },
-          {
-            "name": "Jalaväepataljoni lahingutegevuse planeerimine ja staabi tegevus",
-            "eapCount": 9
-          },
-          {
-            "name": "Jalaväebrigaadi lahingutegevuse planeerimine ja staabi praktika",
-            "eapCount": 9
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul II: Mereväe eriala",
-        "courses": [
-          {
-            "name": "Meresõja strateegia",
-            "eapCount": 6
-          },
-          {
-            "name": "Mereväe taktika",
-            "eapCount": 12
-          },
-          {
-            "name": "Mereoperatsioonide planeerimine ja juhtimine ",
-            "eapCount": 6
-          },
-          {
-            "name": "Juhtimine ja koostöö rahvusvahelises meeskonnas",
-            "eapCount": 6
-          },
-          {
-            "name": "Sõjapidamise arengusuunad 21. sajandil",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul II: Mereväe eriala praktika",
-        "courses": [
-            {
-              "name": "Õppuste korraldamine",
-              "eapCount": 6
-            },
-            {
-              "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
-              "eapCount": 6
-            },
-            {
-              "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus",
-              "eapCount": 6
-            },
-            {
-              "name": "Julgeolekupoliitika ja riigikaitse strateegia",
-              "eapCount": 9
-            },
-            {
-              "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
-              "eapCount": 9
-            },
-          {
-            "name": "Mereoperatsioonide planeerimine ja juhtimine",
-            "eapCount": 6
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul III: Õhuväe eriala",
-        "courses": [
-          {
-            "name": "Õhusõja strateegia",
-            "eapCount": 6
-          },
-          {
-            "name": "Õhukomponendi lahingutegevuse alused",
-            "eapCount": 12
-          },
-          {
-            "name": "Õhuoperatsioonide planeerimine ja juhtimine",
-            "eapCount": 12
-          },
-          {
-            "name": "Sõjapidamise arengusuunad 21. sajandil",
-            "eapCount": 3
-          }
-        ]
-      },
-      {
-        "name": "Spetsialiseerumismoodul III: ÕHUVÄE eriala praktika",
-        "courses": [
-            {
-              "name": "Õppuste korraldamine",
-              "eapCount": 6
-            },
-            {
-              "name": "Üksuse väljaõppe korraldamise pedagoogilised alused",
-              "eapCount": 6
-            },
-            {
-              "name": "Riigikaitse õigus ja laiapindse riigikaitse korraldus",
-              "eapCount": 6
-            },
-            {
-              "name": "Julgeolekupoliitika ja riigikaitse strateegia",
-              "eapCount": 9
-            },
-            {
-              "name": "Rahuaja üksuste juhtimine tänapäeva ühiskonnas",
-              "eapCount": 9
-            },
-          {
-            "name": "Õhuoperatsioonide planeerimine ja juhtimine",
-            "eapCount": 12
-          }
-        ]
-      }
-    ],
-    "level": "magister",
-    "outcomes": [
-      "Kasutab juhtimistoiminguid ning juhtimist toetavaid infotehnoloogilisi vahendeid iseseisvalt, õigel ajal, süsteemselt ja loovalt taktikaliste üksuste ning nii rahuaegse kui ka lahingutegevuse juhtimises, sh. rahvusvahelises keskkonnas",
-      "Analüüsib laiapindse riigikaitse, sh sõjalise riigikaitse põhimõtteid ja korraldust ning arutleb selle üle argumenteeritult suulistelt ja kirjalikult",
-      "Lahendab kompleksseid teenistuslikke olukordi, kogudes ja analüüsides selleks süsteemselt nii sõjandusalast, kui ka muud vajalikku informatsiooni, prognoosides võimalikke arengusuundi ning töötades kogutud informatsiooni alusel välja erinevaid tegevuskäike",
-      "Koostab iseseisvalt teaduslikku uurimustööd ning on ette valmistatud juhendama madalama taseme uurimistöid sõjandusega seotud valdkonnas",
-      "Korraldab oma väeliigi tehniliste süsteemide taktikalist kasutamist innovatiivselt, kuid samas eesmärgipäraselt, heaperemehelikult ja õiguspäraselt, järgides kehtestatud ohutusnõudeid",
-      "Korraldab üksuste väljaõpet, planeerides õpieesmärkide saavutamist, luues sobiva keerukuse astmega õppesituatsioone, kaasates vajalikke eksperte, kasutades sobilike meetodeid ja õppevahendeid ning hinnates, suunates juhtide ja üksuse arengut",
-      "Analüüsib ja hindab enda ning alluvate tugevusi ja nõrkuseid, kultuurilisi ja teisi eripärasid, oma tegevuste või otsuste võimalikke tagajärgi, lähtudes üldkehtivatest moraalinormidest ja Kaitseväe põhiväärtustest ning valides alluvate arengut toetavaid ja meeskonnatööd soodustavaid suhtlemisviise ja -meetodeid",
-      "Valdab iseseisvaks õppimiseks vajalikke efektiivseid meetodeid ning kasutab neid vajadust mööda loovalt tööülesannete täitmiseks",
-      "Valdab teise võõrkeelena vene või prantsuse keelt tasemel, mis võimaldab teha kirjalikke märkmeid ja osaleda igapäevastes tööalastes aruteludes"
-    ],
-    "language": "eesti keel",
-    "duration": 2,
-    "requirements": [
-      {
-        "term": "Kõrghariduse I aste sõjaväelise juhtimise erialal või kõrgharidus koos sõjaväelise väljaõppe I astmega"
-      },
-      {
-        "term": "Riigisaladusele juurdepääsu luba vähemalt tasemel „salajane“"
-      },
-      {
-        "term": "Inglise keele oskus NATO STANAGi 6001 tasemel 2222"
-      },
-      {
-        "term": "Kandideerima on suunanud KRA Personaliteenuste osakonna Karjäärikeskus"
-      },
-      {
-        "term": "Maaväe eriala kandidaatidel tuleb läbida enne magistriõpingute algust „Pataljoni staabiohvitseri täienduskursus“"
-      },
-      {
-        "term": "Kandideerija (sh eksternõppesse kandideerija) esitab akadeemia ülema nimele e-posti aadressil oppeinfo@mil.ee vabas vormis avalduse ja motivatsioonikirja õppekavale õppima asumiseks lisas 1 määratud ajavahemikul."
-      },
-      {
-        "term": "Vaimse võimekuse test"
-      },
-      {
-        "term": "Essee"
-      }
-    ],
-    "name": "Sõjaväeline Juhtimine Kaitseväes",
-    "cost": {
-      "amount": 0,
-      "currency": "€",
-      "interval": "full"
-    }
-  },
-  {
-    "studyLocation": [
-      "Tartu"
-    ],
-    "description": [
-      "Kaitseväe Akadeemia vanemallohvitseride põhikursus on vanemallohvitseride sõjalise karjäärisüsteemi baaskoolituseks. Kursuse lõpetajad saavad kutsehariduse sõjalise juhtimise erialal ning õppekava täies mahus täitmine on ühtlasi eelduseks nooremveebli auastmele esitamiseks. \n\nVanemallohvitseride põhikursuse (VAPK) ehk vanemallohvitseride sõjaväelise juhtimise eriala eesmärk on: \n\n**•** anda alused ja suunised esimese tasandi vanemaallohvitseride ettevalmistamiseks kõikidele Eesti Kaitseväe väeliikidele ning Kaitseliidule \n\n**•** õppekava läbinu on võimeline teenima rahuajal rühma/meeskonna/lüli suuruse üksuse ülema abi ja instruktori ametikohtadel ning allüksuse ülemana sõjaajal. \n\nÕppekava  võimaldab  spetsialiseeruda  maa-,  mere-  või õhuväe suunal. Maaväe suunal on võimalik valida jalaväe, soomusjalaväe, pioneeri, õhutõrje, suurtükiväe, side, logistika või sõjaväepolitsei eriala."
-    ],
-    "ekap": 60,
-    "spots": 0,
-    "majorWebsite": "https://www.kvak.ee/files/2019/07/S%C3%B5jav%C3%A4eline-juhtimine-vanemallohvitseridele-kutse%C3%B5ppe-%C3%B5ppekava.pdf",
-    "type": "Riigikaitse",
-    "studyType": "päevaõpe",
-    "modules": [
-      {
-        "name": "Üldjuhtimismoodul",
-        "courses": [
-          {
-            "name": "Kirjalik ja suuline eneseväljendus",
-            "eapCount": 1.5
-          },
-          {
-            "name": "Juhtimise alused",
-            "eapCount": 2
-          }
-        ]
-      },
-      {
-        "name": "Sõjaväelise juhtimise moodul",
-        "courses": [
-          {
-            "name": "Lahingutegevuse alused",
-            "eapCount": 2
-          },
-          {
-            "name": "Lahingutegevuse planeerimine ja juhtimine",
-            "eapCount": 9
-          }
-        ]
-      },
-      {
-        "name": "Pedagoogikamoodul",
-        "courses": [
-          {
-            "name": "Instruktoriõpe",
-            "eapCount": 8
-          },
-          {
-            "name": "Laske- ja lõhkamisõpe",
-            "eapCount": 7.5
-          }
-        ]
-      },
-      {
-          "name": "Valikõpingute moodulid",
-          "courses": [],
-          "submodules": [
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Jalaväe eriala",
-                  "courses": [
-                      {
-                          "name": "Jalaväerühma taktika",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Jalaväekompanii taktika",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Mehhaniseeritud üksuse taktika",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Tankitõrjeallüksuse taktika",
-                          "eapCount": 1.5
-                      },
-                      {
-                          "name": "Kaudtuletoetusallüksuse taktika",
-                          "eapCount": 4.5
-                      },
-                      {
-                          "name": "Luureallüksuse taktika",
-                          "eapCount": 1.5
-                      },
-                      {
-                          "name": "Jalaväekompanii lahinguteenindus",
-                          "eapCount": 1.5
-                      },
-                      {
-                          "name": "Laskeõppe jätkuväljaõpe ja jalaväekompanii toetusrelvade laskeharjutuste korraldamine",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Jalaväe eriala praktika",
-                          "eapCount": 9
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Soomusjalaväe eriala",
-                  "courses": [
-                      {
-                          "name": "Soomusjalaväe materiaaltehniline ja meeskonnaõpe",
-                          "eapCount": 21
-                      },
-                      {
-                          "name": "Loengud",
-                          "eapCount": 2.5
-                      },
-                      {
-                          "name": "Harjutused",
-                          "eapCount": 12
-                      },
-                      {
-                          "name": "Laskeharjutused",
-                          "eapCount": 2.5
-                      },
-                      {
-                          "name": "Hooldus- ja remonditööd",
-                          "eapCount": 2.5
-                      },
-                      {
-                          "name": "Hindamine",
-                          "eapCount": 1.5
-                      },
-                      {
-                          "name": "Soomusjalaväe eriala praktika",
-                          "eapCount": 9
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Pioneeri eriala",
-                  "courses": [
-                      {
-                          "name": "Tõkestamine ja lõhketööd",
-                          "eapCount": 5
-                      },
-                      {
-                          "name": "Liikuvuse tagamine",
-                          "eapCount": 6
-                      },
-                      {
-                          "name": "Lahinglaskmiste ja lõhkamiste õpe",
-                          "eapCount": 5
-                      },
-                      {
-                          "name": "Pioneeritehnika ja pioneeriluure",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Pioneeri relvaliigi vanemallohvitseride ülesanded rahu- ja sõjaajal",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Lahinguvõime säilitamine",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Pioneerirühma ja -kompanii lahingutegevus",
-                          "eapCount": 5
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Õhutõrje eriala",
-                  "courses": [
-                      {
-                          "name": "Üldine õhutõrje- ja õhuvastase õpe",
-                          "eapCount": 1.5
-                      },
-                      {
-                          "name": "Õhutõrje-kahuripatarei relva- ja lahinguõpe",
-                          "eapCount": 6
-                      },
-                      {
-                          "name": "Õhutõrje-raketipatarei relva- ja lahinguõpe",
-                          "eapCount": 3.5
-                      },
-                      {
-                          "name": "Õhutõrje side- ja tulejuhtimise tehnika- ning lahinguõpe",
-                          "eapCount": 7
-                      },
-                      {
-                          "name": "Õhutõrje laskeinstruktori ja tulekontrollija õpe",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Õhutõrjeallüksusepraktika",
-                          "eapCount": 10
-                      },
-                      {
-                          "name": "Pioneerirühma ja -kompanii lahingutegevus",
-                          "eapCount": 5
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Suurtükiväe eriala",
-                  "courses": [
-                      {
-                          "name": "Suurtükiväe alused",
-                          "eapCount": 1.5
-                      },
-                      {
-                          "name": "Suurtükiväe relva- ja relvameeskonna õpe",
-                          "eapCount": 8
-                      },
-                      {
-                          "name": "Suurtükiväe mõõdistusõpe",
-                          "eapCount": 6
-                      },
-                      {
-                          "name": "Suurtükiväe laskeandmete arvutamine",
-                          "eapCount": 3.5
-                      },
-                      {
-                          "name": "Tulerühma ja -patarei lahinguõpe",
-                          "eapCount": 1
-                      },
-                      {
-                          "name": "Suurtükiväelaskmiste ohutustehnika",
-                          "eapCount": 1
-                      },
-                      {
-                          "name": "Suurtükiväe eriala praktika",
-                          "eapCount": 9
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Side eriala",
-                  "courses": [
-                      {
-                          "name": "Elektrotehnika alused",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Sidetehnika alused",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Infotehnoloogia alused",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Sidevahendid, -võrgud ja -protseduurid",
-                          "eapCount": 8
-                      },
-                      {
-                          "name": "Sidetaktika",
-                          "eapCount": 4
-                      },
-                      {
-                          "name": "Sideallohvitseri praktika",
-                          "eapCount": 10
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Logistika eriala",
-                  "courses": [
-                      {
-                          "name": "Lahingteenindustaktika alused",
-                          "eapCount": 6
-                      },
-                      {
-                          "name": "Sissejuhatus logistika põhifunktsioonidesse",
-                          "eapCount": 7
-                      },
-                      {
-                          "name": "Lahingteeninduse juhtimine",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Varustamine ja transport",
-                          "eapCount": 4
-                      },
-                      {
-                          "name": "Transpordivahendite hooldus ja remont",
-                          "eapCount": 4
-                      },
-                      {
-                          "name": "Relvastuse hooldus ja remont",
-                          "eapCount": 4
-                      },
-                      {
-                          "name": "Transpordi ja liikumise koordinatsioon ja kontroll (MOVCON)",
-                          "eapCount": 4
-                      },
-                      {
-                          "name": "Logistika eriala praktika",
-                          "eapCount": 10
-                      }
-                  ]
-              },
-              {
-                  "name": "Maaväe spetsialiseerumismoodul - Sõjaväepolitsei eriala",
-                  "courses": [
-                      {
-                          "name": "Sõjaväepolitsei baasõpe",
-                          "eapCount": 5
-                      },
-                      {
-                          "name": "Süütegude menetlemise alused",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Julgeolekuoperatsioonid",
-                          "eapCount": 5
-                      },
-                      {
-                          "name": "Teede kontroll ja liiklusjärelvalve",
-                          "eapCount": 1
-                      },
-                      {
-                          "name": "Korrakaitse",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Sõjaväepolitsei allüksuse praktika",
-                          "eapCount": 15
-                      }
-                  ]
-              },
-              {
-                  "name": "Mereväe spetsialiseerumismoodul",
-                  "courses": [
-                      {
-                          "name": "Meresõja alused",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Mere- ja meresõjaõigus",
-                          "eapCount": 4
-                      },
-                      {
-                          "name": "Mereväeside algõpe",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Merendusalane inglisekeel",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Administreerimine mereväes",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Mereväe relvastusteooria",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Rolliplaanijärgsete ülesannete täitmine sõjalaeval",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Väikelaeva juhtimine",
-                          "eapCount": 3
-                      },
-                      {
-                          "name": "Juhtimis- ja instruktoripraktika mereväes",
-                          "eapCount": 10
-                      }
-                  ]
-              },
-              {
-                  "name": "Õhuväe spetsialiseerumismoodul",
-                  "courses": [
-                      {
-                          "name": "Lennunduse alused",
-                          "eapCount": 5
-                      },
-                      {
-                          "name": "Õhusõja ajalugu ja õhuoperatsioonid",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "NATO õhukaitsesüsteemi juhtimise ja lahingutegevuse alused",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Eesti õhuväeüksuste juhtimise ja lahingutegevuse alused",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Sõjaväline juhtimine ja allohvitseri roll õhuväes",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Õhuväe praktika",
-                          "eapCount": 2
-                      },
-                      {
-                          "name": "Õhuväe allüksuse praktika",
-                          "eapCount": 10
-                      }
-                  ]
-              }
-          ]
-      }
-    ],
-    "level": "kutseharidus",
-    "outcomes": [
-      "Mõistab Eesti riigikaitse ülesehitust ja riigikaitse organisatsioonide ootusi oma teenistujatele;",
-      "Langetab otsuseid ning väljendab neid selgelt ja üheselt mõistetavalt nii suuliselt kui kirjalikult;",
-      "On võimeline läbi viima tunde ja harjutusi kuni rühmasuurusele üksusele",
-      "On iseseisvalt võimeline läbi viima jao tasemel lahinglaskmisi ja tegutsema abipersonali ülesannetes kõrgema taseme üksuse lahinglaskmistel",
-      "Tunneb ja käsitseb Kaitseväes ning oma väe- ja relvaliigi kasutuses olevaid vahendeid vastavalt ametikohale kehtestatud nõuetele",
-      "Juhib eriala allüksuseid erinevates taktikalistes olukordades."
-    ],
-    "language": "eesti keel",
-    "duration": 1,
-    "requirements": [
-      {
-        "term": "Keskharidus või sellele vastav välisriigi kvalifikatsioon"
-      },
-      {
-        "term": "Eesti keele oskus vähemalt keeletasemel B2"
-      },
-      {
-        "term": "Kaitseväe tegevteenistus või Kaitseväe tegevteenistusse asumine"
-      },
-      {
-        "term": "Vaimse võimekuse test"
-      },
-      {
-        "term": "Kutsesobivusvestlus"
-      },
-      {
-        "term": "Eesti kodakondsus"
-      }
-    ],
-    "name": "Sõjaväeline juhtimine vanemallohvitseridele",
-    "cost": {
-      "amount": 0,
-      "currency": "€",
-      "interval": "full"
-    }
-  },
 ]

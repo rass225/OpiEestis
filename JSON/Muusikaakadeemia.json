@@ -795,7 +795,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1012,7 +1015,7 @@
                     {
                         "name": "Improvisatsioon",
                         "eapCount": 12
-                    },
+                    }
                 ]
             },
             {
@@ -1668,7 +1671,7 @@
                 "header": "Sooritama kuulamise ja järgimängimise testi (kestus ~10 min), mis sisaldab",
                 "headerEn": "Pass an ear training test (duration ca 10 min)",
                 "term": "**1.** Kõrva järgi improvisatsiooni saateharmooniale \n\n**2.** Meloodia ja harmoonia imitatsiooni pillil (trummaritele rütmiimitatsioon)",
-                "termEn": "**Consisting of:** \n\n**1.** An improvisation by ear to harmonic accompaniment \n\n**2.** Recreating melody and harmony on an instrument (recreating rhythm for drummers).",
+                "termEn": "**Consisting of:** \n\n**1.** An improvisation by ear to harmonic accompaniment \n\n**2.** Recreating melody and harmony on an instrument (recreating rhythm for drummers)."
             },
             {
                 "term": "Mängima klaveril noodist prima vista lihtsa akordijärgnevuse (M7, 7, m7) kuni kahe võtmemärgiga helistikus (kestus ~3 min)",
@@ -1685,7 +1688,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1851,7 +1857,7 @@
                     {
                         "name": "Improvisatsioon",
                         "eapCount": 12
-                    },
+                    }
                 ]
             },
             {
@@ -2516,7 +2522,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -3300,7 +3309,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -4087,7 +4099,7 @@
                         "eapCount": 10
                     }
                 ]
-            },
+            }
         ],
         "level": "bakalaureus",
         "outcomes": [
@@ -4127,7 +4139,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -4835,7 +4850,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -5329,7 +5347,7 @@
                         "eapCount": 20
                     }
                 ]
-            },
+            }
         ],
         "type": "",
         "studyType": "päevaõpe",
@@ -5353,7 +5371,7 @@
             {
                 "header": "Vastuvõtt näitleja õppesuunale toimub igal teisel aastal, lavastaja ja dramaturgi õppesuundadele igal neljandal aastal.",
                 "headerEn": "Vastuvõtt näitleja õppesuunale toimub igal teisel aastal, lavastaja ja dramaturgi õppesuundadele igal neljandal aastal.",
-                "term": "Järgmised bakalaureusevastuvõtud: \n\n**1.** 2024 – Näitleja õppesuund \n\n**2.** 2026 – Näitleja õppesuund, lavastaja õppesuund, dramaturgi õppesuund \n\n**3.** 2028 – Näitleja õppesuund",
+                "term": "Järgmised bakalaureusevastuvõtud: \n\n**1.** 2024 – Näitleja õppesuund \n\n**2.** 2026 – Näitleja õppesuund, lavastaja õppesuund, dramaturgi õppesuund \n\n**3.** 2028 – Näitleja õppesuund"
             }
         ],
         "name": "Lavakunst",
@@ -5362,7 +5380,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -6412,7 +6433,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -7497,7 +7521,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -7658,7 +7685,7 @@
                 "title": "Pianist-kontsertmeister",
                 "titleEn": "Pianist-accompanist",
                 "email": "kristjan.veermae@eamt.ee"
-            },
+            }
         ],
         "modules": [
             {
@@ -8572,7 +8599,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -9474,7 +9504,7 @@
                 "name": "Taavi Tampuu",
                 "title": "Laulu vanemlektor",
                 "titleEn": "Senior Lecturer in Voice",
-                "email": "taavi.tampuu@eamt.ee",
+                "email": "taavi.tampuu@eamt.ee"
             },
             {
                 "name": "Taimo Toomast",
@@ -9639,7 +9669,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -10691,7 +10724,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -11425,7 +11461,7 @@
                         "eapCount": 50
                     }
                 ]
-            },
+            }
         ],
         "level": "magister",
         "outcomes": [
@@ -11480,7 +11516,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -12329,7 +12368,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13105,7 +13147,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13197,7 +13242,7 @@
                     {
                         "name": "Vaba improvisatsiooni ajalugu",
                         "eapCount": 6
-                    },
+                    }
                 ]
             },
             {
@@ -13343,7 +13388,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -14085,7 +14133,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -14419,7 +14470,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -15175,7 +15229,7 @@
                         "eapCount": 4
                     }
                 ]
-            },
+            }
         ],
         "type": "",
         "studyType": "päevaõpe",
@@ -15212,7 +15266,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -15414,7 +15471,10 @@
             "amount": 2800,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -16438,7 +16498,7 @@
                 "header": "Akordion (kava tuleb esitada peast)",
                 "headernEn": "Accordion",
                 "term": "Esitada järgmine kava kogupikkusega 30-40 min: \n**•** polüfooniline teos \n**•** suurvorm või selle osa \n**•**kuni 2 teost vabal valikul",
-                "termEn": "Perform from memory the following program lasting 30-40 minutes: \n\n**•** A polyphonic work; \n\n**•** A large form (sonata, variations, romantic ballades, or something comparable in length and substance) or a movement from it; \n\n**•** Up to two works of your free choice.",
+                "termEn": "Perform from memory the following program lasting 30-40 minutes: \n\n**•** A polyphonic work; \n\n**•** A large form (sonata, variations, romantic ballades, or something comparable in length and substance) or a movement from it; \n\n**•** Up to two works of your free choice."
             }
         ],
         "name": "Klahvpillid",
@@ -16447,7 +16507,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -17506,7 +17569,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -18516,7 +18582,7 @@
                 "title": "Pianist-kontsertmeister",
                 "titleEn": "Pianist-accompanist",
                 "email": "kristjan.veermae@eamt.ee"
-            },
+            }
         ],
         "type": "Muusika ja Teatrikunstid",
         "studyType": "päevaõpe",
@@ -18555,7 +18621,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -19430,7 +19499,7 @@
                 "name": "Taavi Tampuu",
                 "title": "Laulu vanemlektor",
                 "titleEn": "Senior Lecturer in Voice",
-                "email": "taavi.tampuu@eamt.ee",
+                "email": "taavi.tampuu@eamt.ee"
             },
             {
                 "name": "Taimo Toomast",
@@ -19596,7 +19665,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -20616,7 +20688,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -21643,7 +21718,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -22573,7 +22651,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -23496,7 +23577,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -24436,7 +24520,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -24667,7 +24754,7 @@
             },
             {
                 "term": "Passi koopia",
-                "termEn": "A copy of your passport",
+                "termEn": "A copy of your passport"
             },
             {
                 "header": "Tõend inglise keele oskuse kohta",
@@ -24845,6 +24932,9 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
-    },
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
+    }
 ]

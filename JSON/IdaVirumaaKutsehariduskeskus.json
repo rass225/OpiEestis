@@ -37,7 +37,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -76,7 +79,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -119,7 +125,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -162,7 +171,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -205,7 +217,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -246,11 +261,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Jõhvi", "Narva"
+            "Jõhvi",
+            "Narva"
         ],
         "description": [
             "IT-süsteemide nooremspetsialist vastutab standardsete IT-probleemide lahendamise eest ja esitab keerulisemad vanemspetsialistidele. \n\nIT-süsteemide nooremspetsialisti põhiline tööülesanne on IT-süsteemide toote või projekti väljatöötamine. Näiteks kohtvõrgu arhitektuuriprojekt. Ettevõtte jaoks seadmete leidmine, paigutamine ja seadistamine, tarkvara installeerimine ja konfigureerimine jne. Lisaks ettevõtte infrastruktuuri hooldamise igapäevased ülesanded: lahenduste juurutamine, dokumentatsiooni koostamine, kasutajatugi, diagnostika ja seadmete väljavahetamine, muutmiste tugi, müügikanalite haldamine ja infoturbe tagamine. \n\nIT-süsteemide nooremspetsialist suudab oma suhtlemisstiili kohandada mitmesugustele olukordadele ja inimestele. Oskab kontrollida oma emotsioone ka keerulistes olukordades. Tema töös on vajalik tahe ja oskus töötada meeskonnas. Lõpetaja saab sooritada kutseeksami, et saada kutsestandardi tunnistus (EUCIP)."
@@ -288,7 +307,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -330,7 +352,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -371,7 +396,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -413,7 +441,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -455,7 +486,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -497,11 +531,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Esimesel kursusel omandatakse keevitus- ja metallitööde alusteadmised ning teisel kursusel spetsialiseerutakse keevitaja või koostelukksepa või CNC metallilõikepingi operaatori eriala omandamiseks. \n\nKeevitaja valmistab detaile/kooste, kasutades erinevaid keevitusseadmeid, lähtudes tööjoonisest, detaili/koostu töötlemistehnoloogiatest, tööprotsessidest, töövahenditest ja töödeldavatest materjalidest \n\nKoostelukksepp koostab erineva keerukusastmega koostusid. Koostelukksepa põhilised tööülesanded on toorikute ettevalmistamine, detailide mõõtmine, märkimine, töötlemine, puhastamine ning koostude koostamine ja reguleerimine. Koostelukksepa töö eeldab jooniste lugemise oskust, masinaehitustehnoloogia ja kasutatavate materjalide tundmist. \n\nCNC metallilõikepinkide operaator töötleb reeglina treipingis pöörlevaid detaile paigal olevate lõikeriistadega ja freespingis paigal olevaid detaile pöörlevate lõikeriistadega. Ta tunneb trei- ja freespinkide töö põhimõtteid, kasutamist ning erinevatel pinkidel töötamise eripära. Ta oskab koostada juhtprogramme, seadistada pinke ja valmistada CNC trei- ja freespinkidel detaile."
@@ -539,7 +577,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -580,7 +621,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -619,7 +663,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -661,11 +708,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Kokk valmistab erinevaid roogasid ja jooke, kasutades uusi kulinaarseid tehnikaid ja kaasaegseid seadmeid. Korraldab enda tööd ratsionaalselt. Oskab töötada nii individuaalselt kui ka meeskonnas. Serveerib toite vastavalt klientide vajadustele ja soovidele. Samuti nõuab koka amet pideva seismise ja liikumise tõttu head füüsilist vormi."
@@ -704,11 +755,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Kokk valmistab erinevaid roogasid ja jooke, kasutades uusi kulinaarseid tehnikaid ja kaasaegseid seadmeid. Korraldab enda tööd ratsionaalselt. Oskab töötada nii individuaalselt kui ka meeskonnas. Serveerib toite vastavalt klientide vajadustele ja soovidele. Samuti nõuab koka amet pideva seismise ja liikumise tõttu head füüsilist vormi."
@@ -747,7 +802,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -790,7 +848,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -832,7 +893,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -871,7 +935,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -913,7 +980,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -956,11 +1026,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Sillamäe", "Jõhvi"
+            "Sillamäe",
+            "Jõhvi"
         ],
         "description": [
             "Laotöötajate töö eesmärk on tagada logistilises ahelas materjalide ja kaupade optimaalsete koguste ajutine hoiustamine ning lisaväärtusteenuste osutamine 4. taseme laotöötaja ülesandeks on: \n\n**•** kaupade vastuvõtmine, hoiustamine, väljastamine \n**•** väljastustellimuse komplekteerimine \n**•** markeerimine jm lisaväärtustoimingute tegemine \n**•** kaupade inventeerimine \n**•** klientide teenindamine laos \n**•** töö laoinfosüsteemis (laotarkvara kasutamine, töö skänneritega, kontoritehnikaga) \n\nKaupade teisaldamiseks on vajalik läbida laotõstukite ja muude laoseadmete kasutamise väljaõpe. Laotöötaja töötab iseseisvalt ja meeskonnas. Laotöötaja vastutab laoga seotud varade säilimise ja heaperemeheliku kasutamise eest. Laotöötaja tervikkutse sisaldab 'Kauba käitleja' osakutset, mis seondub terminalitöö ning jaotus- ja korjevedudega ja hõlmab kauba käitlemist saadetiste tasemel."
@@ -998,7 +1072,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1040,11 +1117,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Mehhatroonika on mehaanika-, elektroonika- ja infotehnoloogiasüsteemide samasuunalist koostoimet käsitlev tehnikavaldkond. \n\nMehhatroonik on oskustööline, tema peamine tööülesanne on mehhatrooniliste seadmete, süsteemide ja alamsüsteemide koostamine, kasutamine ja testimine, kindlustamaks nende tõrgeteta toimimise. Ta häälestab tööjuhendi alusel mehhatroonilisi süsteeme, kasutades selleks sobivaid kontroll- ja mõõtevahendeid. Oma tööülesannete täitmisel juhindub mehhatroonik etteantud tööjuhendist, tehnilistest ja normdokumentidest ning kvaliteedinõuetest."
@@ -1083,7 +1164,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1126,11 +1210,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Mootorsõidukitehnik (spetsialiseerumine: sõiduautotehnik) diagnoosib, hooldab ja remondib erinevaid mootorsõidukeid vastavalt remondi- ja hooldusjuhistele ning tehnilistele joonistele, vastutab oma töö tulemuste eest. Töötamisel järgib keskkonnasäästlikke töövõtteid, tööohutuse  ja  töötervishoiu nõudeid ning kasutab materjale säästlikult.  Töös on olulised koostöö ja osalemine  meeskonnatöös  ning oma pädevuse piires teiste töötajate juhendamine.  Mootorsõidukitehnik käitub  vastastikust suhtlemist toetaval viisil, kasutab infotehnoloogilisi vahendeid. Mootorsõidukitehniku töö eeldab tehniliste jooniste ja skeemide lugemise oskust ning kataloogide jt. juhendmaterjalide kasutamist. Seoses kiiresti uueneva tehnoloogiaga on vajalik pidev enesetäiendamine. \n\nKutseõppe valikained laiendavad erialaseid kompetentse ja suurendavad kutseõppe lõpetaja konkurentsivõimet tööturul. Valikainete kaudu on võimalik arendada  võõrkeeleoskust, IKT alaseid kompetentse, omandada keevituse- ja tuletöö teadmised jne."
@@ -1168,11 +1256,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Mootorsõidukitehnik diagnoosib, hooldab ja remondib erinevaid mootorsõidukeid vastavalt remondi- ja hooldusjuhistele ning tehnilistele joonistele, vastutab oma töö tulemuste eest. Töötamisel järgib keskkonnasäästlikke töövõtteid, tööohutuse  ja  töötervishoiu nõudeid ning kasutab materjale säästlikult.  Töös on olulised koostöö ja osalemine  meeskonnatöös  ning oma pädevuse piires teiste töötajate juhendamine.  Mootorsõidukitehnik käitub  vastastikust suhtlemist toetaval viisil, kasutab infotehnoloogilisi vahendeid. Mootorsõidukitehniku töö eeldab tehniliste jooniste ja skeemide lugemise oskust ning kataloogide jt. juhendmaterjalide kasutamist. Seoses kiiresti uueneva tehnoloogiaga on vajalik pidev enesetäiendamine. \n\nKutseõppe valikained laiendavad erialaseid kompetentse ja suurendavad kutseõppe lõpetaja konkurentsivõimet tööturul. Valikainete kaudu on võimalik arendada  võõrkeeleoskust, IKT alaseid kompetentse, omandada keevituse- ja tuletöö teadmised jne."
@@ -1210,7 +1302,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1252,7 +1347,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1294,7 +1393,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1336,7 +1438,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1378,7 +1483,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1421,7 +1529,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1458,7 +1569,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1499,7 +1613,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe",
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1541,7 +1659,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1583,7 +1704,10 @@
             "amount": 1380,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1624,7 +1748,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1665,11 +1792,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Elektrik on spetsialist tööstus- ja olmeenergeetika valdkonnas. Sisetööde elektrikud paigaldavad ja hooldavad kuni 1000 V vahelduvpingelisi ja kuni 1500 V alalisepingelisi elektrijuhistike süsteeme, masinaid ja seadmeid mitmesugustes elamutes, hoonetes, tehnilistes rajatistes ning kuni 1000 V välisvõrkudes (alates liitumispunktist)."
@@ -1708,7 +1839,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1751,11 +1885,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Narva", "Jõhvi"
+            "Narva",
+            "Jõhvi"
         ],
         "description": [
             "Tarkvaraarendaja põhiliseks tööks on tarkvara lähtekoodi kirjutamine vastavalt kokkulepitud disainile. Ta osaleb tarkvara lahenduse väljatöötamisel, vastutab kirjutatud koodi tehnilise kasutamise eest ja pakub erinevaid lahendusi, arvestades süsteemi kui tervikut. \n\nTarkvaraarendaja suudab oma tööd iseseisvalt organiseerida, aega planeerida ning vastutust võtta. Ta täidab tööülesandeid muutuvates olukordades nõuetekohaselt, on hea kaasamõtleja ning lahenduste otsija. Tarkvaraarendaja on hea meeskonnaliige, mõistab ja rakendab meeskonnas kasutatavat tarkvara arenduse metoodikat."
@@ -1793,7 +1931,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1834,7 +1975,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1876,7 +2020,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "õhtuõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1918,7 +2065,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1960,6 +2110,9 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
-    },
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
+    }
 ]

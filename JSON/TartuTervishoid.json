@@ -42,7 +42,7 @@
             },
             {
                 "percentage": 20,
-                "term": "Gümnaasiumi/keskkooli lõputunnistuse matemaatika ja eesti keele hinnet.",
+                "term": "Gümnaasiumi/keskkooli lõputunnistuse matemaatika ja eesti keele hinnet."
             }
         ],
         "name": "Õde",
@@ -52,7 +52,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -97,7 +100,7 @@
             },
             {
                 "percentage": 20,
-                "term": "Gümnaasiumi/keskkooli lõputunnistuse matemaatika ja eesti keele hinnet.",
+                "term": "Gümnaasiumi/keskkooli lõputunnistuse matemaatika ja eesti keele hinnet."
             }
         ],
         "name": "Ämmaemand",
@@ -107,7 +110,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -147,7 +153,7 @@
                 "headerEn": "Akadeemiline test",
                 "percentage": 50,
                 "term": "[Loe lisaks siit](https://www.nooruse.ee/akadeemiline-test/)",
-                "termEn": "[Loe lisaks siit](https://www.nooruse.ee/akadeemiline-test/)",
+                "termEn": "[Loe lisaks siit](https://www.nooruse.ee/akadeemiline-test/)"
             },
             {
                 "header": "Kehalise võimekuse katse",
@@ -221,7 +227,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -421,11 +430,15 @@
             "amount": 3300,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Tartu", "Võru"
+            "Tartu",
+            "Võru"
         ],
         "description": [
             "Hooldustöötaja on hoolekande- ja tervishoiuspetsialist, kes toetab ja juhendab abivajajat väärika elu korraldamisel, et tagada talle võimalikult hea elukvaliteet. \n\nÕppe pikkus hooldustöötaja õppekaval on kaks aastat, maht 120 EKAP-d (Eesti Kutsehariduse Arvestuspunkti). Auditoorne õppetöö toimub tsüklitena üks või kaks korda kuus. Õppetöö toimub rakenduskava alusel. Ette on nähtud ka õppepraktika töökeskkonnas, mis jaguneb kolmeks tsükliks. Alates 2013. aastast on võimalik üks praktikatsükkel läbida ka välismaal. \n\nKõrgkooli õppurid on SA Innove korraldatud kutsemeisterlikkuse võistlustel saanud mitmeid auhinnalisi kohti: hooldustöötaja õppekava õpilased saavutasid kutsemeisterlikkuse võistlusel Noor Meister 2022 1. ja 3. koha. Lisaks kutsevõistlustele  tutvustavad ja esindavad hooldustöötaja õppekava õpilased kõrgkooli ja õpitavat eriala ka haridusmessidel ning avatud uste päevadel. \n\nKõigil õppijail on võimalus taotleda varasema töö- ja õpikogemuse arvestamist, mis suurendab õppetöö korralduse paindlikkust ning sobivust ka töötava õppija jaoks. \n\nÕpe lõpeb kutseeksamiga ja kõrgkoolil on esmakutse andmise õigus. Kõrgkooli lõpetamisel saadav esmakutse on eluaegse kehtivusega ja seda taastõendada ei ole vaja. \n\nEesti Töötukassa kaudu saavad hooldustöötaja õppekava õpilased taotleda toetust, mis on mõeldud tööealistele töötavatele ja töötutele inimestele, kellel puuduliku või vananenud hariduse või oskuste tõttu on keeruline leida uut tööd või kellel on oht oma töökoht kaotada. \n\n**Pärast lõpetamist** \n\nTartu Tervishoiu Kõrgkooli lõpetanud hooldustöötajad on oodatud nii haiglates, hooldekodudes kui koduhoolduses. Enamus õpilastest leiab töökoha juba õppimise ajal."
@@ -473,7 +486,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -524,7 +540,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "Õpipoisiõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -571,7 +590,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -623,7 +645,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -670,7 +695,10 @@
             "amount": 2000,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -716,6 +744,9 @@
             "amount": 4100,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     }
 ]

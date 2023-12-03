@@ -274,7 +274,11 @@
             "amount": 6077,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -528,7 +532,10 @@
             "amount": 5797,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -589,7 +596,10 @@
             "amount": 5797,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -701,12 +711,12 @@
             },
             {
                 "term": "Omab vähemalt 3 - aastast juhtimise või tiimijuhtimise kogemust ning toob selle välja CV-s. Hindame nii inimeste kui ka protsesside juhtimise kogemust",
-                "termEn": "Has at least 3 years of management or team-lead experience. We value both people and process management experience. Show us that in your submitted CV",
+                "termEn": "Has at least 3 years of management or team-lead experience. We value both people and process management experience. Show us that in your submitted CV"
             },
             {
                 "header": "Valdab piisaval tasemel võõrkeeli",
                 "term": "inglisekeelne õpperühm: inglise keelt (B2) \neestikeelne õpperühm: eesti keelt (B2)",
-                "termEn": "Has sufficient proficiency in English (B2). We offer some courses both in English and Estonian but we expect you to be ready to study in English",
+                "termEn": "Has sufficient proficiency in English (B2). We offer some courses both in English and Estonian but we expect you to be ready to study in English"
             },
             {
                 "term": "Väljendab oma huvi ja entusiasmi silmapaistvas ning meeldejäävas avalduses",
@@ -723,7 +733,10 @@
             "amount": 8000,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -861,7 +874,10 @@
             "amount": 17500,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -930,7 +946,10 @@
             "amount": 6380,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -983,7 +1002,10 @@
             "amount": 17000,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1052,7 +1074,10 @@
             "amount": 7000,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1121,7 +1146,10 @@
             "amount": 7000,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1362,7 +1390,7 @@
                 "header": "Online application",
                 "headerEn": "Online application",
                 "term": "Online application in DreamApply [here](https://estonia.dreamapply.com/et_EE/courses/course/260-phd-management) \n\nThe applicant has to submit the application in DreamApply and upload all relevant documents. In order to submit the application account in DreamApply has to be created.",
-                "termEn": "Online application in DreamApply [here](https://estonia.dreamapply.com/et_EE/courses/course/260-phd-management) \n\nThe applicant has to submit the application in DreamApply and upload all relevant documents. In order to submit the application account in DreamApply has to be created.",
+                "termEn": "Online application in DreamApply [here](https://estonia.dreamapply.com/et_EE/courses/course/260-phd-management) \n\nThe applicant has to submit the application in DreamApply and upload all relevant documents. In order to submit the application account in DreamApply has to be created."
             },
             {
                 "header": "Master's degree or equivalent",
@@ -1413,6 +1441,9 @@
             "amount": 7200,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     }
 ]

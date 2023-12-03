@@ -227,7 +227,10 @@
             "amount": 4540,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -434,7 +437,10 @@
             "amount": 4540,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -667,7 +673,10 @@
             "amount": 4540,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -849,7 +858,7 @@
                         "eapCount": 10
                     }
                 ]
-            },
+            }
         ],
         "level": "bakalaureus",
         "outcomes": [
@@ -895,7 +904,10 @@
             "amount": 6520,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1126,7 +1138,10 @@
             "amount": 4540,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1376,7 +1391,10 @@
             "amount": 4540,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1549,7 +1567,7 @@
                     {
                         "name": "IT infrastruktuuride kavandamine",
                         "eapCount": 5
-                    },
+                    }
                 ]
             },
             {
@@ -1606,7 +1624,10 @@
             "amount": 4540,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1861,7 +1882,10 @@
             "amount": 6520,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1912,7 +1936,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1992,7 +2019,7 @@
                     {
                         "name": "Avalik esinemine",
                         "eapCount": 2
-                    },
+                    }
                 ]
             },
             {
@@ -2137,7 +2164,10 @@
             "amount": 4780,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -2333,7 +2363,7 @@
                     {
                         "name": "Erialase meeskonnatöö praktika II",
                         "eapCount": 7
-                    },
+                    }
                 ]
             }
         ],
@@ -2386,7 +2416,10 @@
             "amount": 6520,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -2465,7 +2498,7 @@
                     {
                         "name": "Avalik esinemine",
                         "eapCount": 2
-                    },
+                    }
                 ]
             },
             {
@@ -2644,7 +2677,10 @@
             "amount": 4780,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -2795,12 +2831,9 @@
                     {
                         "name": "Majanduskeskkonda kujundav õigusruum",
                         "eapCount": 3
-                    },
+                    }
                 ]
-            },
-            
-            
-            
+            }
         ],
         "level": "magister",
         "outcomes": [
@@ -2846,7 +2879,10 @@
             "amount": 6280,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -2927,7 +2963,6 @@
                         "name": "Organisatsiooni analüütika",
                         "eapCount": 3
                     },
-                    
                     {
                         "name": "Kvaliteedijuhtimissüsteemid",
                         "eapCount": 3
@@ -2989,9 +3024,9 @@
                     {
                         "name": "Andmetöötlus ja visualiseerimine",
                         "eapCount": 4
-                    },
+                    }
                 ]
-            },
+            }
         ],
         "level": "magister",
         "outcomes": [
@@ -3025,7 +3060,10 @@
             "amount": 5320,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -3106,7 +3144,6 @@
                         "name": "Organisatsiooni analüütika",
                         "eapCount": 3
                     },
-                    
                     {
                         "name": "Kvaliteedijuhtimissüsteemid",
                         "eapCount": 3
@@ -3168,7 +3205,7 @@
                     {
                         "name": "Andmetöötlus ja visualiseerimine",
                         "eapCount": 4
-                    },
+                    }
                 ]
             }
         ],
@@ -3204,7 +3241,10 @@
             "amount": 5320,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -3249,6 +3289,9 @@
             "amount": 4900,
             "currency": "€",
             "interval": "year"
-        }
-    },
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
+    }
 ]

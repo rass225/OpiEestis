@@ -54,7 +54,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -105,7 +108,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -156,7 +163,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -256,7 +267,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -310,7 +325,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -360,7 +378,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -414,7 +435,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -469,7 +493,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -520,7 +548,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -580,7 +611,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -635,7 +670,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -686,7 +725,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -737,7 +780,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -787,7 +834,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -841,7 +891,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -891,7 +944,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -941,7 +998,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -991,6 +1052,9 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     }
 ]

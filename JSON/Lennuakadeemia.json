@@ -121,7 +121,7 @@
                 "titleEn": "Aviation Services Teacher",
                 "email": "iluta.savicka@eava.ee",
                 "phone": "+37129279571",
-                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg",
+                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg"
             },
             {
                 "name": "Kristjan Kõrgesaar",
@@ -198,7 +198,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -353,7 +356,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -508,7 +514,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -632,7 +641,7 @@
                 "titleEn": "Aviation Services Teacher",
                 "email": "iluta.savicka@eava.ee",
                 "phone": "+37129279571",
-                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg",
+                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg"
             },
             {
                 "name": "Kristjan Kõrgesaar",
@@ -709,7 +718,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -833,7 +845,7 @@
                 "titleEn": "Aviation Services Teacher",
                 "email": "iluta.savicka@eava.ee",
                 "phone": "+37129279571",
-                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg",
+                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg"
             },
             {
                 "name": "Kristjan Kõrgesaar",
@@ -916,7 +928,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1040,7 +1055,7 @@
                 "titleEn": "Aviation Services Teacher",
                 "email": "iluta.savicka@eava.ee",
                 "phone": "+37129279571",
-                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg",
+                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg"
             },
             {
                 "name": "Kristjan Kõrgesaar",
@@ -1118,7 +1133,10 @@
             "amount": 3000,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1242,7 +1260,7 @@
                 "titleEn": "Aviation Services Teacher",
                 "email": "iluta.savicka@eava.ee",
                 "phone": "+37129279571",
-                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg",
+                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg"
             },
             {
                 "name": "Kristjan Kõrgesaar",
@@ -1314,7 +1332,10 @@
             "amount": 4050,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "kaugõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1437,7 +1458,7 @@
                 "titleEn": "Aviation Services Teacher",
                 "email": "iluta.savicka@eava.ee",
                 "phone": "+37129279571",
-                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg",
+                "photo": "https://media.voog.com/0000/0044/7474/photos/Iluta%20Savicka_homepage_1_block.jpg"
             },
             {
                 "name": "Kristjan Kõrgesaar",
@@ -1515,6 +1536,9 @@
             "amount": 92475,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     }
 ]

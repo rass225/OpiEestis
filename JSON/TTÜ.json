@@ -282,7 +282,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -577,7 +580,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -876,7 +882,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1174,7 +1184,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1481,7 +1494,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -1715,7 +1731,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -2102,11 +2121,15 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
-            "Kohtla Järve", "Tartu"
+            "Kohtla Järve",
+            "Tartu"
         ],
         "description": [
             "Asjade internet, küberfüüsikalised süsteemid ning pilve- ja tarkvaratehnoloogiad on loonud täiesti uusi võimalusi alates isejuhtivatest sõidukitest kuni tööstusrobotiteni. \n\nSeetõttu on oluliselt kasvanud nõudlus IT ja automaatika spetsialistide järele, kes suudavad arendada, programmeerida ja rakendada tööstuslikku tarkvara, hooneautomaatikat ning nii juhtimis- ja arukaid süsteeme koos prototüübiga. See on valdkond, mida iseloomustavad innovaatilisus ja kiire arengutempo. Kui tuled õppima Arukate süsteemide ja rakendusinfotehnoloogia õppekavale, garanteerid endale põneva ning võimalusterohke tuleviku! \n\n**Eriala sisu** \n\nArukate süsteemide ja rakendusinfotehnoloogia õppekava ühendab IoT,  tarkvara (sh tööstusliku) programmeerimise, automaatika, robootika andmesidevõrkude telemaatika ja küberfüüsikaliste süsteemide valdkonnad. \n\nÕppimise käigus saad selgeks arukate süsteemide ülesehituse ja programmeerimise, nende teadmiste põhjalt õpid looma nutikaid IKT-lahendusi. Üksikasjaliku ülevaate saad ka andmesidevõrkudest ja küberturbesüsteemidest. Möödapääsmatud on teadmised robootikast, mehaanikast ja elektroonikast ning ka sellest, kuidas seadmeid ja erinevaid süsteeme omavahel suhtlema panna. \n\nÕppeainetes keskendud praktilistele näidetele, teed mitmeid rakenduslikke projekte ning harjutad meeskonnatööd. Läbid mitu tööpraktikat, mille käigus võid omale juba töökoha leida ja millest saadud kogemused annavad sulle tulevikus konkurentsieelise. \n\nKui baasteadmised selged, saad valida kahe spetsialiseerumissuuna vahel. Õppeaeg on 3,5 aastat ning lõpetades antakse sulle bakalaureusehariduse diplom. Tarkvara arenduse ja digilahenduste peaeriala õpe toimub Virumaa kolledžis, küberfüüsikaliste süsteemide peaerialal Tartu kolledžis. \n\n**Tarkvara arendus ja digilahendused peaeriala** \n\nTarkvara arenduse ja digilahenduste peaerialal õpid tundma programmeerimiskeeli ja –tehnoloogiaid, mida kasutatakse arukate süsteemide loomisel, saad põhjaliku ülevaate kontrollerite programmeerimisest ning tutvud andmetöötluse ja masinõppe meetoditega. Omandad professionaalsed võtted tööks andmesidevõrkude ning andmeedastuse tehnoloogiatega. \n\n**Küberfüüsikaliste süsteemide peaeriala** \n\nSaad ettekujutuse, mis on ja kuidas toimib küberfüüsikaline süsteem. Omandad teadmised ja oskused selle kohta, kuidas panna IT ja füüsilised süsteemid ning seadmed omavahel nutikalt toimima. Lahendus on inimkeskne, mugav kasutada ja vajaduspõhine. Oskad lahenduse kavandada, programmeerida ning omad võimekust seda ka ise valmis ehitada. Meie lõputöödena on valminud näiteks nutikas peegel, tark ja laiendatav bussitabloo, navigatsioonilahendus siseruumide jaoks. Võimalik töökoht näiteks elektroonika, arvutivõrkude, tarkvaraarenduse ja automaatika vallas. \n\n**Tulevase spetsialistina:** \n\n**•** oskad kasutada erinevaid programmeerimiskeeli ja -tehnoloogiaid erinevat tüüpi rakenduste loomiseks ja arendamiseks; \n\n**•** tunned andmete edastamise tehnoloogiaid, arvutivõrke ja oskad neid turvalisuse printsiipe arvestades administreerida; \n\n**•** oskad analüüsida, kavandada, realiseerida ja hallata küberfüüsikalisi süsteeme erinevates rakendusvaldkondades; \n\n**•** omad lisaks süsteemset ülevaadet loodus-, täppis-, sotsiaal- ja majandusteaduste ning tehnikateaduste alustest; \n\n**•** oskad töötada meeskonnas erinevate valdkondade spetsialistidega. \n\n**Tulevik** \n\nKüberfüüsikalised ja arukad süsteemid juhatavad sisse uut ajastut meditsiinitehnoloogias, kodutehnikas, tootmisliinidel ning ka sõiduvahendite funktsionaalsuses ja turvalisuses. IT ja füüsilise maailma sidumise oskused on siiski veel üsna lapsekingades ja valdkonna arengupotentsiaal on tohutu. Arvestades arukate süsteemide olulisust ja kasvavat rolli paljudel tähtsatel elualadel, on nii Eestis kui mujal maailmas järsult suurenenud vajadus vastavate spetsialistide järele, kellel on lisaks praktilistele oskustele ka visionäärlik mõtlemine. \n\n**Kelleks saab arukate süsteemide ja digilahenduste peaeriala (Virumaa) lõpetaja?** \n\n**•** IoT insener või IoT spetsialist, kes arendab asjade internetti tehnoloogiaettevõtetes. \n\n**•** Andmeinsener (data engineer), kes vastutab andmeinfrastruktuuri, kaevandamise, säilitamise, töötlemise eest. \n\n**•** Tarkvaraarendaja, kelle töö on tarkvara, IT-lahenduste ja –toodete loomine. Vastavalt loodava tarkvara tüübile või osale võib see olla veebiarendaja (veebilehe tarkvara või teenuste loomine) või (mobiil)seadmete arendaja (erinevate mobiilseadmete, tahvelarvutite, nutitelefonide, IoT seadmete jaoks tarkvara loomine) töö. \n\n**•** Infosüsteemi projekteerija, infosüsteemi haldur tegeleb infosüsteemide analüüsi, disaini, arenduse ja haldusega, sh andmebaasidega. \n\n**•** DevOps (software development and technology operations) insener. \n\n**•** Arvutivõrgu ja operatsioonisüsteemi administraator, kes tegeleb arvutivõrgu, serverite projekteerimise, paigaldamise, hooldamise ja kaitsega, hoolitseb arvutivõrkude ja infosüsteemide turvalisuse eest. \n\n**Kelleks saab küberfüüsikaliste süsteemide peaeriala (Tartu) lõpetaja?** \n\n**•** IoT insener või IoT spetsialist, kes arendab asjade internetti tehnoloogiaettevõtetes \n\n**•** Tarkvara insener \n\n**•** Hooneautomaatika insener \n\n**•** Tööstusautomaatika insener \n\n**•** Süsteemiinsener (andurite, täiturite ja mikrokontrollerite omavahel tööle panemine eesmärgiga luua midagi uut või täiendada olemasolevat lahendust, mis muudab inimeste elu kas lihtsamaks või huvitavamaks [nt nutipeegel, nutisahtel jmt]) \n\n**Kas sobib mulle?** \n\nSinu edaspidine töö saab olema reaalse, virtuaalse ja IT-maailma ühendamine. Seega võiksid juba täna tunda huvi nii tehnikat kui ühiskonda puudutavate ja ühendavate teemade vastu. \n\nKindlasti tuleb sulle kasuks loogiline mõtlemine, analüüsivõime, hea detailitaju ning uudishimu. Oled oma hinges visionäär ja leiutaja, kelle jaoks kogu maailm on avatud!"
@@ -2166,7 +2189,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -2174,7 +2201,7 @@
             "Tartu"
         ],
         "description": [
-           "Ehitusinseneri töö on kodude ja töökohtade rajamine. Ehitiste projekteerimise ja ehitusjuhtimise eriala lõpetajana saad hakkama kõigega: väikeelamutest pilvelõhkujate ning keerukate tööstushooneteni. Kui sind tõmbab ehitusvaldkonna poole ja sulle meeldib näha oma mõtteid realiseerumas siis sellele erialale õppima tulek on kindel ja tulus investeering sinu tulevikku. Uuri lähemalt! \n\n**Eriala sisu** \n\nEhitus on maailma suurim majandusharu ja ehitusinseneri valikute mõju loodusele on märkimisväärne. Ehitatud keskkonna kujundamine on vastutusrikas töö, kuna hooned peavad olema vastupidavad ning ehitatud loodusressursse mõttetult raiskamata. Eesti vajab rohelise mõtteviisiga insenere. \n\nSa õpid konstruktsioonide, ehitusmaterjalide ning ehitusfüüsika, energiatõhususe, ehitustehnoloogia, ehituskorralduse ja ehitusjuhtimise aineid. Õppetöö käigus omandad vajalikud teoreetilised ja praktilised põhiteadmised betoon-, puit-, metall- ja kivikonstruktsioonidest, modelleerimise ja projekteerimise tarkvaradest (FEM, CAD ja BIM), samuti piirdetarindite soojus- ja niiskusfüüsikast, akustikast ja energiasimulatsioonidest. \n\nValikainete lai spekter võimaldab keskenduda just sellele, mis sulle kõige enam huvi pakub: ehitiste projekteerimisele, ehitusjuhtimisele, ehitusmaterjalidele, ehitusfüüsikale või hoopis energiatõhususele. Saad proovida ja otsustada, kas sulle meeldiks olla ehitusplatsil sündmuste keskpunktis, arvutil projekteerida või hoopis süveneda teadustöösse. \n\nÕpe kestab kokku viis aastat, spetsialiseerumine toimub neljal erineval suunal. Kõigil neljal peaerialal on õppekavas märkimisväärne ühisosa, kuna lõpetajad saavad tehnikateaduste magistrikraadi ning neile omistatakse diplomeeritud ehitusinseneri 7. taseme esmane kutse. Õpinguid võib soovi korral jätkata doktoriõppes. \n\n**Miks õppida ehitiste projekteerimist ja ehitusjuhtimist just TalTechis?** \n\n21. sajandi ehitustehnika tähendab tipptasemel simulatsioonitarkvarasid, laboreid ja katsemajasid – need kõik on TalTechi linnakus olemas. Sind ootavad FEM, CAD, BIM, ehitusfüüsika- ja energiasimulatsioonitarkvarad, mille valdamine on ehitusinseneri elementaarne kirjaoskus. \n\nSuuremõõtmelisi konstruktsioone katsetad Mäepealse katselaboris. Liginullenergia testhoones tutvud liginullenergiahoonete tehniliste lahendustega ja teed mõõtmisi. Ehituse Mäemajaga saad juba nüüd virtuaaltuuri vahendusel tutvuda. \n\nMeil on tihe koostöö paljude ehitusfirmadega, mis võimaldab sul üliõpilasena käia ehitusplatsidel, kus saad jälgida ja analüüsida reaalses elus toimuvat teoreetiliste teadmiste valguses. \n\nTudengina saad kandideerida mitmetele ehitusfirmade ja eraisikute nimelistele stipendiumitele. Välisõpingutest ja -praktikast huvitatutel on võimalus õppida vahetustudengina erinevates välisülikoolides ning leida kontakte praktika sooritamiseks välisriikides. \n\n**Kes saab sinust peale lõpetamist?** \n\nKui oled valinud spetsialiseerumiseks ehitiste projekteerimise suuna, leiad lõpetajana tööd näiteks mõnes projekteerimisbüroos või ehitusfirmas. Samuti võid vastutada suuremate ehitus- ja kinnisvaraprojektide arenduse eest või nõustada ehitushangete korraldamist. Kui sind kontoritöö eriti ei paelu, siis oled vägagi oodatud hoonete püstitamisega tegelevatesse ehitusettevõtetesse, kus saad juhtida reaalseid ehitustöid. Ka avalik sektor ehk ministeeriumid, linnad ja ametkonnad vajavad spetsialiste, kes korraldaksid ehituse valdkonda. \n\n**Ehitusjuhtimisele spetsialiseerumine** valmistab sind ette tööks ehitustööde juhina, ehituse eelarvestajana ja ökonomistina, ehituse tellijana, järelevalve insenerina või kinnisvara arendajana. Põhjalikult erinevaid ehitusmaterjale uurinud lõpetaja on oodatud ehitusmaterjalide tööstuses juhtivale positsioonile kvaliteedijuhiks, tootmisettevõtte juhiks, laboratooriumi juhatajaks või sarnasele vastutavale ametikohale. Võimalikud töökohad on ka riigiasutustes, mis on seotud ehitusmaterjalide tootmise juhtimise või kontrolliga. \n\n**Ehitiste restaureerimise** peaeriala lõpetajana oled sa ehitusinsener, kellel on lisaks ehitusalastele oskustele ka teadmised restaureerimisest, muinsuskaitse alustest ning arhitektuuriajaloost. Sinu tulevasteks tööandjateks on nii ehitus-, restaureerimis- ja projekteerimisfirmad kui ka kohalikud omavalitsused ja erinevad riigiasutused. Pärast lõpetamist ja ettenähtud töökogemuse omandamist saad muinsuskaitseametilt taotleda pädevustunnistust töötamaks ehitusmälestistel ja isegi UNESCO maailmapärandi nimekirja kuuluvatel objektidel. \n\n**Ehitiste projekteerimise ja arhitektuuri peaeriala** lõpetanuna oled ehitusinsener, kellel on lisaks teadmised arhitektuurist ning praktilised oskused erinevate hoonete projekteerimiseks ning esteetika eest vastutamiseks. Võid töötada iseseisvalt ehitusinsenerina või suuremates meeskondades koos disainerite, arhitektide ja teiste inseneridega. Ehitiste projekteerimise ja arhitektuuri suund on analoogne vastavate õppekavadega mitmetes Euroopa ülikoolides, näiteks Taani Tehnikaülikoolis, Praha Tehnikaülikoolis ja Edinburgh´i Ülikoolis. \n\n**Kas sobib mulle?** \n\nEhitiste projekteerimine ja ehitusjuhtimine eriala sobib sulle, kui sul on tehnilist taipu ning ruumilist kujutlusvõimet. Koolis võiksid olla sõber matemaatika ja füüsikaga. \n\nEhitusinsener peab olema oma töös äärmiselt põhjalik, täpne ja kalkuleeriv - kõik projekteerimis- ja ehitusetapid tuleb hoolega läbi mõelda ning arvutused üle kontrollida, et hoone poleks inimestele ja ümbritsevale keskkonnale (elu)ohtlik. \n\nSamuti peab oskama lugeda ja koostada skeeme ning jooniseid. Kindlasti nõuab töö ka tubli annuse loovust, kuid seda peab kontrollima analüüsivõime. Töö eeldab nii iseseisvat otsustamisjulgust kui ka koostöövõimet. \n\n**Suurimad tööandjad** \n\n**•** Nordecon \n**•** Merko \n**•** Arco Vara \n**•** Riigi Kinnisvara AS \n**•** Restor \n**•** Kodumaja AS \n**•** AS Tartu Ehitus \n**•** OÜ Mapri Ehitus"
+            "Ehitusinseneri töö on kodude ja töökohtade rajamine. Ehitiste projekteerimise ja ehitusjuhtimise eriala lõpetajana saad hakkama kõigega: väikeelamutest pilvelõhkujate ning keerukate tööstushooneteni. Kui sind tõmbab ehitusvaldkonna poole ja sulle meeldib näha oma mõtteid realiseerumas siis sellele erialale õppima tulek on kindel ja tulus investeering sinu tulevikku. Uuri lähemalt! \n\n**Eriala sisu** \n\nEhitus on maailma suurim majandusharu ja ehitusinseneri valikute mõju loodusele on märkimisväärne. Ehitatud keskkonna kujundamine on vastutusrikas töö, kuna hooned peavad olema vastupidavad ning ehitatud loodusressursse mõttetult raiskamata. Eesti vajab rohelise mõtteviisiga insenere. \n\nSa õpid konstruktsioonide, ehitusmaterjalide ning ehitusfüüsika, energiatõhususe, ehitustehnoloogia, ehituskorralduse ja ehitusjuhtimise aineid. Õppetöö käigus omandad vajalikud teoreetilised ja praktilised põhiteadmised betoon-, puit-, metall- ja kivikonstruktsioonidest, modelleerimise ja projekteerimise tarkvaradest (FEM, CAD ja BIM), samuti piirdetarindite soojus- ja niiskusfüüsikast, akustikast ja energiasimulatsioonidest. \n\nValikainete lai spekter võimaldab keskenduda just sellele, mis sulle kõige enam huvi pakub: ehitiste projekteerimisele, ehitusjuhtimisele, ehitusmaterjalidele, ehitusfüüsikale või hoopis energiatõhususele. Saad proovida ja otsustada, kas sulle meeldiks olla ehitusplatsil sündmuste keskpunktis, arvutil projekteerida või hoopis süveneda teadustöösse. \n\nÕpe kestab kokku viis aastat, spetsialiseerumine toimub neljal erineval suunal. Kõigil neljal peaerialal on õppekavas märkimisväärne ühisosa, kuna lõpetajad saavad tehnikateaduste magistrikraadi ning neile omistatakse diplomeeritud ehitusinseneri 7. taseme esmane kutse. Õpinguid võib soovi korral jätkata doktoriõppes. \n\n**Miks õppida ehitiste projekteerimist ja ehitusjuhtimist just TalTechis?** \n\n21. sajandi ehitustehnika tähendab tipptasemel simulatsioonitarkvarasid, laboreid ja katsemajasid – need kõik on TalTechi linnakus olemas. Sind ootavad FEM, CAD, BIM, ehitusfüüsika- ja energiasimulatsioonitarkvarad, mille valdamine on ehitusinseneri elementaarne kirjaoskus. \n\nSuuremõõtmelisi konstruktsioone katsetad Mäepealse katselaboris. Liginullenergia testhoones tutvud liginullenergiahoonete tehniliste lahendustega ja teed mõõtmisi. Ehituse Mäemajaga saad juba nüüd virtuaaltuuri vahendusel tutvuda. \n\nMeil on tihe koostöö paljude ehitusfirmadega, mis võimaldab sul üliõpilasena käia ehitusplatsidel, kus saad jälgida ja analüüsida reaalses elus toimuvat teoreetiliste teadmiste valguses. \n\nTudengina saad kandideerida mitmetele ehitusfirmade ja eraisikute nimelistele stipendiumitele. Välisõpingutest ja -praktikast huvitatutel on võimalus õppida vahetustudengina erinevates välisülikoolides ning leida kontakte praktika sooritamiseks välisriikides. \n\n**Kes saab sinust peale lõpetamist?** \n\nKui oled valinud spetsialiseerumiseks ehitiste projekteerimise suuna, leiad lõpetajana tööd näiteks mõnes projekteerimisbüroos või ehitusfirmas. Samuti võid vastutada suuremate ehitus- ja kinnisvaraprojektide arenduse eest või nõustada ehitushangete korraldamist. Kui sind kontoritöö eriti ei paelu, siis oled vägagi oodatud hoonete püstitamisega tegelevatesse ehitusettevõtetesse, kus saad juhtida reaalseid ehitustöid. Ka avalik sektor ehk ministeeriumid, linnad ja ametkonnad vajavad spetsialiste, kes korraldaksid ehituse valdkonda. \n\n**Ehitusjuhtimisele spetsialiseerumine** valmistab sind ette tööks ehitustööde juhina, ehituse eelarvestajana ja ökonomistina, ehituse tellijana, järelevalve insenerina või kinnisvara arendajana. Põhjalikult erinevaid ehitusmaterjale uurinud lõpetaja on oodatud ehitusmaterjalide tööstuses juhtivale positsioonile kvaliteedijuhiks, tootmisettevõtte juhiks, laboratooriumi juhatajaks või sarnasele vastutavale ametikohale. Võimalikud töökohad on ka riigiasutustes, mis on seotud ehitusmaterjalide tootmise juhtimise või kontrolliga. \n\n**Ehitiste restaureerimise** peaeriala lõpetajana oled sa ehitusinsener, kellel on lisaks ehitusalastele oskustele ka teadmised restaureerimisest, muinsuskaitse alustest ning arhitektuuriajaloost. Sinu tulevasteks tööandjateks on nii ehitus-, restaureerimis- ja projekteerimisfirmad kui ka kohalikud omavalitsused ja erinevad riigiasutused. Pärast lõpetamist ja ettenähtud töökogemuse omandamist saad muinsuskaitseametilt taotleda pädevustunnistust töötamaks ehitusmälestistel ja isegi UNESCO maailmapärandi nimekirja kuuluvatel objektidel. \n\n**Ehitiste projekteerimise ja arhitektuuri peaeriala** lõpetanuna oled ehitusinsener, kellel on lisaks teadmised arhitektuurist ning praktilised oskused erinevate hoonete projekteerimiseks ning esteetika eest vastutamiseks. Võid töötada iseseisvalt ehitusinsenerina või suuremates meeskondades koos disainerite, arhitektide ja teiste inseneridega. Ehitiste projekteerimise ja arhitektuuri suund on analoogne vastavate õppekavadega mitmetes Euroopa ülikoolides, näiteks Taani Tehnikaülikoolis, Praha Tehnikaülikoolis ja Edinburgh´i Ülikoolis. \n\n**Kas sobib mulle?** \n\nEhitiste projekteerimine ja ehitusjuhtimine eriala sobib sulle, kui sul on tehnilist taipu ning ruumilist kujutlusvõimet. Koolis võiksid olla sõber matemaatika ja füüsikaga. \n\nEhitusinsener peab olema oma töös äärmiselt põhjalik, täpne ja kalkuleeriv - kõik projekteerimis- ja ehitusetapid tuleb hoolega läbi mõelda ning arvutused üle kontrollida, et hoone poleks inimestele ja ümbritsevale keskkonnale (elu)ohtlik. \n\nSamuti peab oskama lugeda ja koostada skeeme ning jooniseid. Kindlasti nõuab töö ka tubli annuse loovust, kuid seda peab kontrollima analüüsivõime. Töö eeldab nii iseseisvat otsustamisjulgust kui ka koostöövõimet. \n\n**Suurimad tööandjad** \n\n**•** Nordecon \n**•** Merko \n**•** Arco Vara \n**•** Riigi Kinnisvara AS \n**•** Restor \n**•** Kodumaja AS \n**•** AS Tartu Ehitus \n**•** OÜ Mapri Ehitus"
         ],
         "eap": 300,
         "spots": 0,
@@ -2764,7 +2791,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -3113,7 +3143,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -3481,13 +3514,13 @@
         ],
         "level": "integreeritud õpe",
         "outcomes": [
-           "On omandanud teadmised kütte",
-           "Ventilatsiooni ja jahutuse, veevarustuse- ja kanalisatsioonisüsteemide teoreetilistest alustest ja erinevatest aspektidest",
-           "Suudab algatada, loovalt läheneda, läbi viia ja võtta vastutuse praktilise, rakendusliku ja muu erialast kvalifikatsiooni nõudva probleemi lahendamisele suunatud tegevuse eest nii iseseisvalt kui meeskonnas töötades",
-           "Oskab seostada teoreetilisi teadmisi kütte, ventilatsiooni ja jahutuse või veevarustuse- ja kanalisatsioonisüsteemide praktilise tegevusega ning analüüsida, üldistada ja hinnata erialaste protsesside mõjusust, tõhusust ja säästlikkust",
-           "On võimeline ennast väljendama eri- ja kutsealaselt oma õppekeeles ja vähemalt ühes võõrkeeles kõnes ja kirjas kasutades korrektset erialast terminoloogiat",
-           "Suudab kriitiliselt hinnata oma teadmisi ja oskusi nii ühiskonnas kui kütte, ventilatsiooni ja jahutuse või veevarustuse- ja kanalisatsioonisüsteemide valdkonnas asetleidvate arengute kontekstis ning valdab iseseisvaks õppimiseks vajalikke meetodeid",
-           "Valdab erialaseks tööks vajalikke info- ja kommunikatsioonitehnoloogiaid, mille tulemusena suudab lihtsalt kasutada kutseala reguleerivaid õigusakte, tehnilisi norme ja standardeid. On võimeline jätkama õpinguid doktoriõppes."
+            "On omandanud teadmised kütte",
+            "Ventilatsiooni ja jahutuse, veevarustuse- ja kanalisatsioonisüsteemide teoreetilistest alustest ja erinevatest aspektidest",
+            "Suudab algatada, loovalt läheneda, läbi viia ja võtta vastutuse praktilise, rakendusliku ja muu erialast kvalifikatsiooni nõudva probleemi lahendamisele suunatud tegevuse eest nii iseseisvalt kui meeskonnas töötades",
+            "Oskab seostada teoreetilisi teadmisi kütte, ventilatsiooni ja jahutuse või veevarustuse- ja kanalisatsioonisüsteemide praktilise tegevusega ning analüüsida, üldistada ja hinnata erialaste protsesside mõjusust, tõhusust ja säästlikkust",
+            "On võimeline ennast väljendama eri- ja kutsealaselt oma õppekeeles ja vähemalt ühes võõrkeeles kõnes ja kirjas kasutades korrektset erialast terminoloogiat",
+            "Suudab kriitiliselt hinnata oma teadmisi ja oskusi nii ühiskonnas kui kütte, ventilatsiooni ja jahutuse või veevarustuse- ja kanalisatsioonisüsteemide valdkonnas asetleidvate arengute kontekstis ning valdab iseseisvaks õppimiseks vajalikke meetodeid",
+            "Valdab erialaseks tööks vajalikke info- ja kommunikatsioonitehnoloogiaid, mille tulemusena suudab lihtsalt kasutada kutseala reguleerivaid õigusakte, tehnilisi norme ja standardeid. On võimeline jätkama õpinguid doktoriõppes."
         ],
         "language": "eesti keel",
         "duration": 5,
@@ -3508,7 +3541,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -3855,7 +3891,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -4188,7 +4227,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -4482,13 +4525,13 @@
         ],
         "level": "bakalaureus",
         "outcomes": [
-           "Oskab õpitud loodusteaduslikke ning insenerlikke teadmisi kasutades luua interdistsiplinaarseid seoseid erinevate tehnoloogiliste lahenduste, sealhulgas loodus- ja tehnikateaduste piiril olevate uute tehnoloogiate, olemuste mõistmiseks",
-           "Oskab nii meid ümbritsevas isiklikus elukeskkonnas, looduskeskkonnas kui ka tööstuslikes tehnoloogiates toimuvaid füüsikalis-keemilisi protsesse ja seaduspärasusi nii kvalitatiivselt kui ka kvantitatiivselt kirjeldada (modelleerida)",
-           "Oskab rakendada füüsikalis-keemiliste protsesside põhiprintsiipe (keemia ja füüsika üldprintsiibid, ainete ja materjalide omadused, massi- ja energiabilansid, reaktsiooniprotsesside mehhanismid, leviprotsesside tasakaal ja kineetika, jt) seadmete ja tehnoloogiate valikul",
-           "Omab alusteadmisi erialapõhise protsessi- ja tootearendustega, kvaliteedikontrolliga ning seirega kaasnevatest mõõtmistest (metroloogiast), seire ja protsessikontrolli kontseptsioonidest ning vastavast aruandlusest",
-           "Omab teadmisi keskkonna - ja tööohutuse ning auditi läbiviimise tehnilistest ja seadusandlikest põhiprintsiipidest",
-           "Tunneb erialase kirjanduse ja käsiraamatute ning kaasaegsete infotehnoloogia ja erialaste tarkvaraliste vahendite kasutamise põhimõtteid",
-           "On võimeline iseseisvalt teavet koguma ning seda kriitiliselt ja loovalt tõlgendama lähtudes tehnilisest ja majanduslikust otstarbekusest."
+            "Oskab õpitud loodusteaduslikke ning insenerlikke teadmisi kasutades luua interdistsiplinaarseid seoseid erinevate tehnoloogiliste lahenduste, sealhulgas loodus- ja tehnikateaduste piiril olevate uute tehnoloogiate, olemuste mõistmiseks",
+            "Oskab nii meid ümbritsevas isiklikus elukeskkonnas, looduskeskkonnas kui ka tööstuslikes tehnoloogiates toimuvaid füüsikalis-keemilisi protsesse ja seaduspärasusi nii kvalitatiivselt kui ka kvantitatiivselt kirjeldada (modelleerida)",
+            "Oskab rakendada füüsikalis-keemiliste protsesside põhiprintsiipe (keemia ja füüsika üldprintsiibid, ainete ja materjalide omadused, massi- ja energiabilansid, reaktsiooniprotsesside mehhanismid, leviprotsesside tasakaal ja kineetika, jt) seadmete ja tehnoloogiate valikul",
+            "Omab alusteadmisi erialapõhise protsessi- ja tootearendustega, kvaliteedikontrolliga ning seirega kaasnevatest mõõtmistest (metroloogiast), seire ja protsessikontrolli kontseptsioonidest ning vastavast aruandlusest",
+            "Omab teadmisi keskkonna - ja tööohutuse ning auditi läbiviimise tehnilistest ja seadusandlikest põhiprintsiipidest",
+            "Tunneb erialase kirjanduse ja käsiraamatute ning kaasaegsete infotehnoloogia ja erialaste tarkvaraliste vahendite kasutamise põhimõtteid",
+            "On võimeline iseseisvalt teavet koguma ning seda kriitiliselt ja loovalt tõlgendama lähtudes tehnilisest ja majanduslikust otstarbekusest."
         ],
         "language": "eesti keel",
         "duration": 3,
@@ -4509,7 +4552,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -4536,14 +4582,14 @@
         ],
         "level": "bakalaureus",
         "outcomes": [
-           "Loob loodusteaduslikke ja insenertehnilisi teadmisi kasutades interdistsiplinaarseid seoseid erinevate tehnoloogiliste lahenduste, sealhulgas loodus- ja tehnikateaduste piiril olevate uute tehnoloogiate mõistmiseks",
-           "Kirjeldab looduskeskkonnas ja sinimajanduse tehnoloogiates toimivaid füüsikalis-keemilisi seaduspärasusi ja protsesse ning rakendab nende protsesside põhiprintsiipe tehnoloogiate valikul; saab aru ühiskonna ja looduskeskkonna omavahelistest seostest",
-           "On omandanud baasteadmised säästlikest materjalitehnoloogiatest ja energiatehnoloogiatest, erialapõhisest protsessi- ja tootearendusest ning kvaliteediohjest",
-           "Analüüsib, hindab ja kavandab jätkusuutlikke, ringmajanduse põhimõtetel baseeruvaid ärimudeleid, strateegiaid ja tegevuskavasid ning seab eesmärke jätkusuutliku arengu aspektidest lähtudes, pidades silmas vastutustundliku ettevõtluse ja eetika põhimõtteid",
-           "Analüüsib jätkusuutliku arenguga (sh rohepöördega) seotud probleeme, oskab valida nende lahendamiseks sobivaid strateegiaid, meetodeid ja tehnoloogiaid, rakendab lihtsamaid meetodeid olelusringi analüüsimiseks ning keskkonnajalajälje hindamiseks",
-           "Mõistab keskkonnast tulenevaid piiranguid, sh rahvusvahelisi strateegiaid ja leppeid ning õiguslikke regulatsioone ning omab teadmisi (loodus)ressursside säästlikust kasutamisest lähtuva ringmajanduse põhimõtete juurutamiseks",
-           "On võimeline iseseisvalt teavet koguma ning seda kriitiliselt ja loovalt tõlgendama lähtudes tehnilisest ja majanduslikust otstarbekusest; analüüsib valdkonna spetsiifikast lähtudes tuleviku arengutrende",
-           "Valib ja kasutab erialaste probleemide analüüsimisel, hindamisel ja lahendamisel interdistsiplinaarseid meetodeid ja sobivaid tehnoloogiaid ning oskab hinnata lahenduste võimalikke tagajärgi"
+            "Loob loodusteaduslikke ja insenertehnilisi teadmisi kasutades interdistsiplinaarseid seoseid erinevate tehnoloogiliste lahenduste, sealhulgas loodus- ja tehnikateaduste piiril olevate uute tehnoloogiate mõistmiseks",
+            "Kirjeldab looduskeskkonnas ja sinimajanduse tehnoloogiates toimivaid füüsikalis-keemilisi seaduspärasusi ja protsesse ning rakendab nende protsesside põhiprintsiipe tehnoloogiate valikul; saab aru ühiskonna ja looduskeskkonna omavahelistest seostest",
+            "On omandanud baasteadmised säästlikest materjalitehnoloogiatest ja energiatehnoloogiatest, erialapõhisest protsessi- ja tootearendusest ning kvaliteediohjest",
+            "Analüüsib, hindab ja kavandab jätkusuutlikke, ringmajanduse põhimõtetel baseeruvaid ärimudeleid, strateegiaid ja tegevuskavasid ning seab eesmärke jätkusuutliku arengu aspektidest lähtudes, pidades silmas vastutustundliku ettevõtluse ja eetika põhimõtteid",
+            "Analüüsib jätkusuutliku arenguga (sh rohepöördega) seotud probleeme, oskab valida nende lahendamiseks sobivaid strateegiaid, meetodeid ja tehnoloogiaid, rakendab lihtsamaid meetodeid olelusringi analüüsimiseks ning keskkonnajalajälje hindamiseks",
+            "Mõistab keskkonnast tulenevaid piiranguid, sh rahvusvahelisi strateegiaid ja leppeid ning õiguslikke regulatsioone ning omab teadmisi (loodus)ressursside säästlikust kasutamisest lähtuva ringmajanduse põhimõtete juurutamiseks",
+            "On võimeline iseseisvalt teavet koguma ning seda kriitiliselt ja loovalt tõlgendama lähtudes tehnilisest ja majanduslikust otstarbekusest; analüüsib valdkonna spetsiifikast lähtudes tuleviku arengutrende",
+            "Valib ja kasutab erialaste probleemide analüüsimisel, hindamisel ja lahendamisel interdistsiplinaarseid meetodeid ja sobivaid tehnoloogiaid ning oskab hinnata lahenduste võimalikke tagajärgi"
         ],
         "language": "eesti keel",
         "duration": 3,
@@ -4564,7 +4610,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -5088,10 +5137,10 @@
         ],
         "level": "rakenduskõrgharidus",
         "outcomes": [
-           "omab süsteemset ülevaadet tehnoloogilistest protsessidest ja nende juhtimisest energiatehnika, mäenduse ja masinaehitustehnoloogia valdkonnas",
-           "Tunneb tehnikaala ja oma peaeriala aktuaalseid probleeme, rakendusvõimalusi ja arengusuundi ning oskab hinnata erialase tegevuse rolli ja tagajärgi ühiskonnale",
-           "Suudab oma pädevuse piires langetada iseseisvaid otsuseid",
-           "On suuteline omandatud teadmisi ja oskusi töös rakendama ning ennast pidevalt täiendama"
+            "omab süsteemset ülevaadet tehnoloogilistest protsessidest ja nende juhtimisest energiatehnika, mäenduse ja masinaehitustehnoloogia valdkonnas",
+            "Tunneb tehnikaala ja oma peaeriala aktuaalseid probleeme, rakendusvõimalusi ja arengusuundi ning oskab hinnata erialase tegevuse rolli ja tagajärgi ühiskonnale",
+            "Suudab oma pädevuse piires langetada iseseisvaid otsuseid",
+            "On suuteline omandatud teadmisi ja oskusi töös rakendama ning ennast pidevalt täiendama"
         ],
         "language": "eesti keel",
         "duration": 4,
@@ -5114,7 +5163,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -5401,7 +5454,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -5712,7 +5768,7 @@
         "duration": 4,
         "requirements": [
             {
-                "term": "Keskharidus",
+                "term": "Keskharidus"
             },
             {
                 "term": "Lõputunnistuse keskmine hinne VÕI lai matemaatika / enne 2014 sooritatud matemaatika riigieksam / TalTech matemaatika katse"
@@ -5734,7 +5790,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -6413,7 +6472,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -6816,7 +6878,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -6867,7 +6932,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -7112,7 +7180,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -7582,7 +7653,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -7634,7 +7708,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -7914,7 +7991,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -8606,7 +8686,10 @@
             "amount": 2100,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -8869,7 +8952,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -9133,7 +9219,7 @@
             {
                 "term": "Keskharidus",
                 "headerEn": "Secondary school diploma or equivalent",
-                "termEn": "In order to qualify for the studies in Tallinn University of Technology an applicant has to have at least 60% of the highest possible CGPA.",
+                "termEn": "In order to qualify for the studies in Tallinn University of Technology an applicant has to have at least 60% of the highest possible CGPA."
             },
             {
                 "headerEn": "Online test",
@@ -9162,7 +9248,10 @@
             "amount": 2100,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -9718,7 +9807,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -10054,7 +10146,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -10529,7 +10624,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -10872,7 +10970,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -11177,16 +11278,16 @@
         ],
         "level": "rakenduskõrgharidus",
         "outcomes": [
-           "Tunneb laevatee projekteerimise protsesse ja põhimõtteid ning oskab määratleda veealade kasutusse võtmiseks vajalikke algandmeid ja nende allikaid ning kasutada joonestamistarkvara",
-           "Omab süsteemset ülevaadet hüdrograafia valdkonna põhimõistetest, teoreetilistest printsiipidest ja uurimismeetoditest",
-           "Oskab planeerida, teostada ning analüüsida hüdrograafilisi mõõdistusi",
-           "Oskab kavandada merede ning suurte siseveekogude laevateid ja tingimusi, tagades laevaliikluse ohutust",
-           "Teab väikelaevajuhile vajalikku meresõidu teooriat ja reegleid meresõidu ohutuse tagamisest ning mereside võimalusi",
-           "Oskab valmistada standarditele vastavaid navigeerimiskaarte",
-           "Oskab valida otstarbekat rannikumere inseneritehnilise rajatise tüüpi olenevalt pinnasetingimustest, koormustest ja ehitise iseloomust ning määrata hüdrotehnilistele rajatistele mõjuvaid koormusi ja mõjureid",
-           "Mõistab keskkonnakaitse põhiprintsiipe, oskab analüüsida ja hinnata oma erialaga seotud võimalikke keskkonnaprobleeme ja- mõjusid",
-           "Oskab analüüsida veeteede haldamise ja meresõiduohutuse korraldamisega seotud probleeme, koguda asjakohast informatsiooni ning pakkuda välja lahendusi ning leida erinevate valdkondade interdistsiplinaarseid seoseid",
-           "On valmis nii iseseisvaks tööks kui tööks meeskonnas multikultuurses keskkonnas ning oskab suhelda erialases eesti ja inglise keeles, valdab tööks vajalikke info - ja kommunikatsioonitehnoloogiaid."
+            "Tunneb laevatee projekteerimise protsesse ja põhimõtteid ning oskab määratleda veealade kasutusse võtmiseks vajalikke algandmeid ja nende allikaid ning kasutada joonestamistarkvara",
+            "Omab süsteemset ülevaadet hüdrograafia valdkonna põhimõistetest, teoreetilistest printsiipidest ja uurimismeetoditest",
+            "Oskab planeerida, teostada ning analüüsida hüdrograafilisi mõõdistusi",
+            "Oskab kavandada merede ning suurte siseveekogude laevateid ja tingimusi, tagades laevaliikluse ohutust",
+            "Teab väikelaevajuhile vajalikku meresõidu teooriat ja reegleid meresõidu ohutuse tagamisest ning mereside võimalusi",
+            "Oskab valmistada standarditele vastavaid navigeerimiskaarte",
+            "Oskab valida otstarbekat rannikumere inseneritehnilise rajatise tüüpi olenevalt pinnasetingimustest, koormustest ja ehitise iseloomust ning määrata hüdrotehnilistele rajatistele mõjuvaid koormusi ja mõjureid",
+            "Mõistab keskkonnakaitse põhiprintsiipe, oskab analüüsida ja hinnata oma erialaga seotud võimalikke keskkonnaprobleeme ja- mõjusid",
+            "Oskab analüüsida veeteede haldamise ja meresõiduohutuse korraldamisega seotud probleeme, koguda asjakohast informatsiooni ning pakkuda välja lahendusi ning leida erinevate valdkondade interdistsiplinaarseid seoseid",
+            "On valmis nii iseseisvaks tööks kui tööks meeskonnas multikultuurses keskkonnas ning oskab suhelda erialases eesti ja inglise keeles, valdab tööks vajalikke info - ja kommunikatsioonitehnoloogiaid."
         ],
         "language": "eesti keel",
         "duration": 4,
@@ -11212,7 +11313,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -11358,7 +11462,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -11600,7 +11707,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -11875,7 +11985,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -12119,7 +12232,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -12303,7 +12419,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -12833,7 +12952,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13046,7 +13168,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13112,7 +13237,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13183,7 +13311,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13704,7 +13835,11 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -13771,7 +13906,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -14236,7 +14374,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -14296,7 +14437,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -14467,7 +14611,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -15324,7 +15471,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -15390,7 +15540,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -15572,7 +15725,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -15768,7 +15924,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -16027,7 +16186,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -16103,7 +16265,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -16400,7 +16565,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -16478,253 +16646,261 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
-      "studyLocation": [
-        "Tallinn"
-      ],
-      "description": [
-          "Kas sul on tulnud ette olukordi, kus hoiad käes mõnda kasutajavaenulikult tehtud asjakest ning juurdled, kui palju paremini oleks võinud seda toodet konstrueerida? Samuti tead, et tööstuse tulevik on automatiseerimine ning soov selles innovatsioonis kaasa lüüa paneb sul silmad särama? Kui jah, siis ootame sind edasi õppima tootearenduse ja tootmistehnika magistrikavale. \n\n**Eriala sisu** \n\nÕppe jooksul läbid järgmised olulised erialaained, mis loovad sulle tugeva vundamendi: optimeerimismeetodid, X- keskne projekteerimine, tootmistehnoloogiad, tootmise planeerimine ja juhtimine, raalintegreeritud tootmine, materjalitehnika, kvaliteedijuhtimine, mehhatroonikasüsteemid, tööstusautomaatika ja elektriajamid. Ole valmis osasid õppeaineid läbima inglise keeles. \n\nPeaerialasid on kaks, mõlemal saab õppida nii statsionaarses kui kaugõppes: tootearendus ning tootmistehnika ja robootika. \n\n**Peaeraialad** \n\n**Tootearendus** \nSaad teadmised toote- ja tootmisseadmete projekteerimisest, samuti projektijuhtimisest. Õpid, kuidas konstrueerida toode nii, et see oleks uudne, mõistlikult valmistatav, tarbijale atraktiivne ja keskkonnasõbralik. Toote konstruktsiooni õpid disainima erinevate arvutustehnikate ja tarkvaradega. \n\n**Tootmistehnika ja robootika** \nÕpid toodete valmistamise tehnikatest, seadmetest, materjalidest ja tehnoloogiatest, lisaks info- ja kommunikatsioonivahendeist ning tootmise korraldamisest ja majandamisest. Õpid tundma erinevate tehniliste süsteemide nagu robotid, manipulaatorid, autod, tööpingid jms ehitust ja muidugi nende otstarbekat kasutamist. Oluline rõhk on automatiseerimise õppimisel. Tootmistehnika erialal saad spetsialiseeruda materjalitehnikale. Õppekava sobib ka mehhatroonika bakalaureuseõppe lõpetajatele õpingute jätkamiseks. \n\n**Tulevik** \n\nLõpetajad leiavad tööd tootearendajatena, projekteerijatena, tootmisjuhtidena, ekspertidena, firmajuhtidena. Tööd jagub kõikides majandusharudes, sest kes ei vajaks süsteemselt mõtlevaid spetsialiste, kes on võimelised looma uudseid tooteid ja rakendama uusi tehnoloogiaid ning arvutipõhiseid süsteeme. \n\n**Miks õppida just TalTechis?** \n\n**•** Õppetöö algab valdavalt kell 16.00, mis annab võimaluse õppida töötamise kõrvalt. \n\n**•** TalTechis on inseneriõppeks parim materiaaltehniline baas - meil on uued kõrgtehnoloogilised teaduslaborid ja auditooriumid. Samuti toimub osa õppetööst MEKTORYs, kus on selleks töökojad ja muu infrastruktuur. \n\n**•** Õppekava annab laiapõhjalise mehaanikainseneri kvalifikatsiooni. \n\n**•** Meie partnerülikoolid, kuhu saab minna vahetusõpingutele: Polytechnic University of Catalonia, Hispaania; University of Oulu, Soome; Tuscia University, Itaalia"
-      ],
-      "eap": 120,
-      "spots": 0,
-      "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/tootearendus-ja-tootmistehnika",
-      "type": "",
-      "studyType": "päevaõpe, sessioonõpe",
-      "modules": [
-        {
-          "name": "Üldaine",
-          "courses": [
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Kas sul on tulnud ette olukordi, kus hoiad käes mõnda kasutajavaenulikult tehtud asjakest ning juurdled, kui palju paremini oleks võinud seda toodet konstrueerida? Samuti tead, et tööstuse tulevik on automatiseerimine ning soov selles innovatsioonis kaasa lüüa paneb sul silmad särama? Kui jah, siis ootame sind edasi õppima tootearenduse ja tootmistehnika magistrikavale. \n\n**Eriala sisu** \n\nÕppe jooksul läbid järgmised olulised erialaained, mis loovad sulle tugeva vundamendi: optimeerimismeetodid, X- keskne projekteerimine, tootmistehnoloogiad, tootmise planeerimine ja juhtimine, raalintegreeritud tootmine, materjalitehnika, kvaliteedijuhtimine, mehhatroonikasüsteemid, tööstusautomaatika ja elektriajamid. Ole valmis osasid õppeaineid läbima inglise keeles. \n\nPeaerialasid on kaks, mõlemal saab õppida nii statsionaarses kui kaugõppes: tootearendus ning tootmistehnika ja robootika. \n\n**Peaeraialad** \n\n**Tootearendus** \nSaad teadmised toote- ja tootmisseadmete projekteerimisest, samuti projektijuhtimisest. Õpid, kuidas konstrueerida toode nii, et see oleks uudne, mõistlikult valmistatav, tarbijale atraktiivne ja keskkonnasõbralik. Toote konstruktsiooni õpid disainima erinevate arvutustehnikate ja tarkvaradega. \n\n**Tootmistehnika ja robootika** \nÕpid toodete valmistamise tehnikatest, seadmetest, materjalidest ja tehnoloogiatest, lisaks info- ja kommunikatsioonivahendeist ning tootmise korraldamisest ja majandamisest. Õpid tundma erinevate tehniliste süsteemide nagu robotid, manipulaatorid, autod, tööpingid jms ehitust ja muidugi nende otstarbekat kasutamist. Oluline rõhk on automatiseerimise õppimisel. Tootmistehnika erialal saad spetsialiseeruda materjalitehnikale. Õppekava sobib ka mehhatroonika bakalaureuseõppe lõpetajatele õpingute jätkamiseks. \n\n**Tulevik** \n\nLõpetajad leiavad tööd tootearendajatena, projekteerijatena, tootmisjuhtidena, ekspertidena, firmajuhtidena. Tööd jagub kõikides majandusharudes, sest kes ei vajaks süsteemselt mõtlevaid spetsialiste, kes on võimelised looma uudseid tooteid ja rakendama uusi tehnoloogiaid ning arvutipõhiseid süsteeme. \n\n**Miks õppida just TalTechis?** \n\n**•** Õppetöö algab valdavalt kell 16.00, mis annab võimaluse õppida töötamise kõrvalt. \n\n**•** TalTechis on inseneriõppeks parim materiaaltehniline baas - meil on uued kõrgtehnoloogilised teaduslaborid ja auditooriumid. Samuti toimub osa õppetööst MEKTORYs, kus on selleks töökojad ja muu infrastruktuur. \n\n**•** Õppekava annab laiapõhjalise mehaanikainseneri kvalifikatsiooni. \n\n**•** Meie partnerülikoolid, kuhu saab minna vahetusõpingutele: Polytechnic University of Catalonia, Hispaania; University of Oulu, Soome; Tuscia University, Itaalia"
+        ],
+        "eap": 120,
+        "spots": 0,
+        "majorWebsite": "https://taltech.ee/sisseastuja/magistrioppe-erialad/tootearendus-ja-tootmistehnika",
+        "type": "",
+        "studyType": "päevaõpe, sessioonõpe",
+        "modules": [
             {
-              "name": "Kvaliteedijuhtimine",
-              "eapCount": 6
+                "name": "Üldaine",
+                "courses": [
+                    {
+                        "name": "Kvaliteedijuhtimine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Ettevõtlus ja äri planeerimine",
+                        "eapCount": 6
+                    }
+                ]
             },
             {
-              "name": "Ettevõtlus ja äri planeerimine",
-              "eapCount": 6
+                "name": "Modelleerimine",
+                "courses": [
+                    {
+                        "name": "Tööstusautomaatika ja elektriajamid",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Toodete ja protsesside modelleerimine",
+                        "eapCount": 6
+                    },
+                    {
+                        "name": "Optimeerimismeetodid",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "courses": [],
+                "name": "Peaeriala: Tootearendus",
+                "submodules": [
+                    {
+                        "name": "Eritehnoloogia",
+                        "courses": [
+                            {
+                                "name": "Materjalitehnika II",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Raalintegreeritud tootmine",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Tööstusrobootika ja kaasaegne tootmine - projekt",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Tootmise planeerimise ja juhtimise süsteemid",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Hüdraulika ja pneumaatika",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Keevitustehnoloogia",
+                                "eapCount": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Projekteerimine I",
+                        "courses": [
+                            {
+                                "name": "Projekteerimise metoodika",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Tooteprojekt",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "X-keskne projekteerimine",
+                                "eapCount": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Projekteerimine II",
+                        "courses": [
+                            {
+                                "name": "Mehhatroonikasüsteemid - projekt",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Raalkonstrueerimissüsteemid",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Tootmisseadmete integratsiooni praktika",
+                                "eapCount": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "courses": [],
+                "name": "Peaeriala: Tootmistehnika ja robootika",
+                "submodules": [
+                    {
+                        "name": "Eritehnika I",
+                        "courses": [
+                            {
+                                "name": "Materjalitehnika II",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Raalintegreeritud tootmine",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Metallide vormimistehnoloogiad",
+                                "eapCount": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eritehnika II",
+                        "courses": [
+                            {
+                                "name": "Tööstusrobootika ja kaasaegne tootmine - projekt",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Tootmisseadmete integratsiooni praktika",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Tootmise planeerimise ja juhtimise süsteemid",
+                                "eapCount": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eritehnika III",
+                        "courses": [
+                            {
+                                "name": "Mehhatroonikasüsteemid - projekt",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Projekteerimise metoodika",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Raalkonstrueerimissüsteemid",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "X-keskne projekteerimine",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Hüdraulika ja pneumaatika",
+                                "eapCount": 6
+                            },
+                            {
+                                "name": "Keevitustehnoloogia",
+                                "eapCount": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Vabaõpe",
+                "courses": [
+                    {
+                        "name": "Vabaõpe",
+                        "eapCount": 6
+                    }
+                ]
+            },
+            {
+                "name": "Magistritöö",
+                "courses": [
+                    {
+                        "name": "Magistritöö",
+                        "eapCount": 30
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "name": "Modelleerimine",
-          "courses": [
+        ],
+        "personnel": [
             {
-              "name": "Tööstusautomaatika ja elektriajamid",
-              "eapCount": 6
+                "name": "Martin Eerme",
+                "title": "Programmijuht",
+                "titleEn": "Tenured Full Professor, Programme Director",
+                "email": "martin.eerme@taltech.ee",
+                "phone": "+3726203270"
             },
             {
-              "name": "Toodete ja protsesside modelleerimine",
-              "eapCount": 6
-            },
-            {
-              "name": "Optimeerimismeetodid",
-              "eapCount": 6
+                "name": "Anne Urbla",
+                "title": "Vastuvõtu ja õppenõustamise peaspetsialist",
+                "titleEn": "Chief Admissions and Academic Advising Officer, Head of Centre",
+                "email": "anne.urbla@taltech.ee",
+                "phone": "+3726203530",
+                "photo": "https://volt.ttu.ee/v1/2V6C7Q/photo:T002986"
             }
-          ]
-        },
-        {
-          "courses": [],
-          "name": "Peaeriala: Tootearendus",
-          "submodules": [
+        ],
+        "level": "magister",
+        "outcomes": [
+            "Osaleb uute tootearenduse ja/või robootika projektide planeerimisel käivitamisel ja täitmisel ning arvestab majanduslikku efektiivsust ja uue toote või lahenduse turupotentsiaali",
+            "Tunneb ettevõtte majandustegevuse aluseid, oskab hinnata ärivõimalusi ja analüüsida ettevõtluskeskkonna mõju ettevõtte tegevusele, omab praktilist kogemust äriplaani kirjutamisel, meeskonnatöö kogemusi äriidee arendamiseks ja ettevõtte asutamiseks",
+            "Rakendab IT vahendeid keerukate inseneriülesannete lahendamisel ja praktiliste probleemide lahendamisel",
+            "Kasutab kaasaegseid modelleerimise ja simulatsiooni ning analüüsi- ja sünteesitehnikaid",
+            "Kasutab projekteerimise metoodikaid, mõistab projekteerimisprotsessi ning oskab valida ja rakendada sobiliku projekteerimismetoodika",
+            "Kavandab toote jaoks sobiva materjali ja valmistustehnoloogia, planeerib kompetentset inimressurssi ja tehnoloogilist ressurssi, tunneb tootmise planeerimise ja korraldamise põhimõtteid"
+        ],
+        "language": "eesti keel",
+        "duration": 2,
+        "requirements": [
             {
-              "name": "Eritehnoloogia",
-              "courses": [
-                {
-                  "name": "Materjalitehnika II",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Raalintegreeritud tootmine",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Tööstusrobootika ja kaasaegne tootmine - projekt",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Tootmise planeerimise ja juhtimise süsteemid",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Hüdraulika ja pneumaatika",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Keevitustehnoloogia",
-                  "eapCount": 6
-                }
-              ]
+                "term": "Kõrgharidus lähedasel erialal"
             },
             {
-              "name": "Projekteerimine I",
-              "courses": [
-                {
-                  "name": "Projekteerimise metoodika",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Tooteprojekt",
-                  "eapCount": 6
-                },
-                {
-                  "name": "X-keskne projekteerimine",
-                  "eapCount": 6
-                }
-              ]
-            },
-            {
-              "name": "Projekteerimine II",
-              "courses": [
-                {
-                  "name": "Mehhatroonikasüsteemid - projekt",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Raalkonstrueerimissüsteemid",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Tootmisseadmete integratsiooni praktika",
-                  "eapCount": 6
-                }
-              ]
+                "header": "Test",
+                "headerEn": "Test",
+                "term": "Tootearenduse ja tootmistehnika erialale kandideerimisel on vaja sooritada test. Õppekoht garanteeritakse, kui testi tulemus on vähemalt 5 punkti kümnest. \n\nTeaduskonna poolt koostatud materjali testi kohta leiab [SIIT](https://haldus.taltech.ee/sites/default/files/2020-06/N%C3%A4idis%C3%BClesanded%20MATM.pdf?_ga=2.80959573.311932570.1697547197-1476409527.1693491818)!"
             }
-          ]
+        ],
+        "name": "Tootearendus ja tootmistehnika",
+        "nameEn": "Product Development and Production Engineering",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
         },
-        {
-          "courses": [],
-          "name": "Peaeriala: Tootmistehnika ja robootika",
-          "submodules": [
-            {
-              "name": "Eritehnika I",
-              "courses": [
-                {
-                  "name": "Materjalitehnika II",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Raalintegreeritud tootmine",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Metallide vormimistehnoloogiad",
-                  "eapCount": 6
-                }
-              ]
-            },
-            {
-              "name": "Eritehnika II",
-              "courses": [
-                {
-                  "name": "Tööstusrobootika ja kaasaegne tootmine - projekt",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Tootmisseadmete integratsiooni praktika",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Tootmise planeerimise ja juhtimise süsteemid",
-                  "eapCount": 6
-                }
-              ]
-            },
-            {
-              "name": "Eritehnika III",
-              "courses": [
-                {
-                  "name": "Mehhatroonikasüsteemid - projekt",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Projekteerimise metoodika",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Raalkonstrueerimissüsteemid",
-                  "eapCount": 6
-                },
-                {
-                  "name": "X-keskne projekteerimine",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Hüdraulika ja pneumaatika",
-                  "eapCount": 6
-                },
-                {
-                  "name": "Keevitustehnoloogia",
-                  "eapCount": 6
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Vabaõpe",
-          "courses": [
-            {
-              "name": "Vabaõpe",
-              "eapCount": 6
-            }
-          ]
-        },
-        {
-          "name": "Magistritöö",
-          "courses": [
-            {
-              "name": "Magistritöö",
-              "eapCount": 30
-            }
-          ]
-        }
-      ],
-      "personnel": [
-          {
-              "name": "Martin Eerme",
-              "title": "Programmijuht",
-              "titleEn": "Tenured Full Professor, Programme Director",
-              "email": "martin.eerme@taltech.ee",
-              "phone": "+3726203270"
-          },
-          {
-              "name": "Anne Urbla",
-              "title": "Vastuvõtu ja õppenõustamise peaspetsialist",
-              "titleEn": "Chief Admissions and Academic Advising Officer, Head of Centre",
-              "email": "anne.urbla@taltech.ee",
-              "phone": "+3726203530",
-              "photo": "https://volt.ttu.ee/v1/2V6C7Q/photo:T002986"
-          }
-      ],
-      "level": "magister",
-      "outcomes": [
-          "Osaleb uute tootearenduse ja/või robootika projektide planeerimisel käivitamisel ja täitmisel ning arvestab majanduslikku efektiivsust ja uue toote või lahenduse turupotentsiaali",
-          "Tunneb ettevõtte majandustegevuse aluseid, oskab hinnata ärivõimalusi ja analüüsida ettevõtluskeskkonna mõju ettevõtte tegevusele, omab praktilist kogemust äriplaani kirjutamisel, meeskonnatöö kogemusi äriidee arendamiseks ja ettevõtte asutamiseks",
-          "Rakendab IT vahendeid keerukate inseneriülesannete lahendamisel ja praktiliste probleemide lahendamisel",
-          "Kasutab kaasaegseid modelleerimise ja simulatsiooni ning analüüsi- ja sünteesitehnikaid",
-          "Kasutab projekteerimise metoodikaid, mõistab projekteerimisprotsessi ning oskab valida ja rakendada sobiliku projekteerimismetoodika",
-          "Kavandab toote jaoks sobiva materjali ja valmistustehnoloogia, planeerib kompetentset inimressurssi ja tehnoloogilist ressurssi, tunneb tootmise planeerimise ja korraldamise põhimõtteid"
-      ],
-      "language": "eesti keel",
-      "duration": 2,
-      "requirements": [
-        {
-          "term": "Kõrgharidus lähedasel erialal"
-        },
-        {
-          "header": "Test",
-          "headerEn": "Test",
-          "term": "Tootearenduse ja tootmistehnika erialale kandideerimisel on vaja sooritada test. Õppekoht garanteeritakse, kui testi tulemus on vähemalt 5 punkti kümnest. \n\nTeaduskonna poolt koostatud materjali testi kohta leiab [SIIT](https://haldus.taltech.ee/sites/default/files/2020-06/N%C3%A4idis%C3%BClesanded%20MATM.pdf?_ga=2.80959573.311932570.1697547197-1476409527.1693491818)!"
-        }
-      ],
-      "name": "Tootearendus ja tootmistehnika",
-      "nameEn": "Product Development and Production Engineering",
-      "cost": {
-        "amount": 0,
-        "currency": "€",
-        "interval": "full"
-      }
+        "studyTypes": [
+            "päevaõpe",
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -16965,7 +17141,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -17137,7 +17316,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -17425,7 +17607,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -17484,7 +17669,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -17804,7 +17992,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -18059,7 +18250,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -18254,7 +18448,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -18437,7 +18634,10 @@
             "amount": 10650,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -18824,7 +19024,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -19016,7 +19219,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -19176,14 +19382,14 @@
         ],
         "level": "magister",
         "outcomes": [
-           "Omab laiapõhjalisi erialaspetsiifilisi teadmisi ja oskusi personalitöös ning oskab neid rakendada oma spetsialiseerumise valdkondades",
-           "Mõistab personalijuhtimise strateegilist tähtsust organisatsiooni juhtimise laiemas kontekstis",
-           "Oskab hinnata laiemate ühiskondlik-majanduslike regulatsioonimehhanismide ja protsesside mõju organisatsiooni toimimisele, töökeskkonnale ja töösuhetele",
-           "On pädev algatama erialast kvalifikatsiooni nõudvate probleemide lahendamist ning nõustama juhte ja kaastöötajaid personalitöö ja töösuhetega seonduvates valdkondades",
-           "Oskab valida asjakohaseid teooriaid ja uurimismetoodikaid personaliuuringute läbiviimiseks ning analüüsida ja tõlgendada tulemusi",
-           "Omab võimekust tegutseda professionaalselt keerulistes olukordades, on teadlik oma tegevuse eetilistest aspektidest ja oma rolli mõjust organisatsioonis ja ühiskonnas laiemalt",
-           "Hindab kriitiliselt oma teadmisi ja oskusi muutuvas sotsiaal-majanduslikus keskkonnas ja valdab iseseisvaks elukestvaks õppimiseks vajalikke meetodeid",
-           "Omab põhjalikke metoodilisi ja teadustöö oskusi, et jätkata doktoriõpingutega"
+            "Omab laiapõhjalisi erialaspetsiifilisi teadmisi ja oskusi personalitöös ning oskab neid rakendada oma spetsialiseerumise valdkondades",
+            "Mõistab personalijuhtimise strateegilist tähtsust organisatsiooni juhtimise laiemas kontekstis",
+            "Oskab hinnata laiemate ühiskondlik-majanduslike regulatsioonimehhanismide ja protsesside mõju organisatsiooni toimimisele, töökeskkonnale ja töösuhetele",
+            "On pädev algatama erialast kvalifikatsiooni nõudvate probleemide lahendamist ning nõustama juhte ja kaastöötajaid personalitöö ja töösuhetega seonduvates valdkondades",
+            "Oskab valida asjakohaseid teooriaid ja uurimismetoodikaid personaliuuringute läbiviimiseks ning analüüsida ja tõlgendada tulemusi",
+            "Omab võimekust tegutseda professionaalselt keerulistes olukordades, on teadlik oma tegevuse eetilistest aspektidest ja oma rolli mõjust organisatsioonis ja ühiskonnas laiemalt",
+            "Hindab kriitiliselt oma teadmisi ja oskusi muutuvas sotsiaal-majanduslikus keskkonnas ja valdab iseseisvaks elukestvaks õppimiseks vajalikke meetodeid",
+            "Omab põhjalikke metoodilisi ja teadustöö oskusi, et jätkata doktoriõpingutega"
         ],
         "language": "eesti keel",
         "duration": 2,
@@ -19211,7 +19417,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "sessioonõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -19496,7 +19705,10 @@
             "amount": 2100,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -19708,7 +19920,10 @@
             "amount": 1550,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -19994,7 +20209,10 @@
             "amount": 1800,
             "currency": "€",
             "interval": "semester"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -20282,7 +20500,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -20517,7 +20738,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -20579,7 +20803,7 @@
                 "header": "Vestlus",
                 "headerEn": "Online interview",
                 "term": "Vestlus toetub motivatsioonikirjale. Vestlusele pääsemise eelduseks on motivatsioonikirja eest saadud positiivne tulemus (vähemalt 5 punkti). Maksimaalselt on võimalik saada 10 punkti. Vestlus toimub inglise keeles \n\n**Intervjuu eesmärgiks on hinnata kandidaadi:** \n\n**•** valmisolekut magistriõppeks ja õppekava läbimiseks toetudes motivatsioonikirjale \n\n**•** õpimotivatsioon toetudes motivatsioonikirjale \n\n**•** valmisolekut läbida õppekava täies mahus nominaalajaga \n\n**•** õppekavale sobivust karjääri, hariduse, keeleoskuse jne põhjal",
-                "termEn": "The online interview is based on the master’s thesis proposal and motivation letter. It is possible to get a maximum of 10 points for the interview. A candidate who does not participate in the interview will receive 0 points. A prerequisite for admission to the interview is a positive result for the motivation letter and master's thesis proposal. \n\nThe purpose of the interview is to identify the candidate’s: \n\n**•** readiness for master's studies based on the master’s thesis proposal; \n\n**•** learning motivation based on the motivation letter; \n\n**•** the candidate's motivation to complete the curriculum; \n\n**•** the necessity of the studies regarding the candidate’s professional development and career.",
+                "termEn": "The online interview is based on the master’s thesis proposal and motivation letter. It is possible to get a maximum of 10 points for the interview. A candidate who does not participate in the interview will receive 0 points. A prerequisite for admission to the interview is a positive result for the motivation letter and master's thesis proposal. \n\nThe purpose of the interview is to identify the candidate’s: \n\n**•** readiness for master's studies based on the master’s thesis proposal; \n\n**•** learning motivation based on the motivation letter; \n\n**•** the candidate's motivation to complete the curriculum; \n\n**•** the necessity of the studies regarding the candidate’s professional development and career."
             },
             {
                 "header": "GRE General Test",
@@ -20597,7 +20821,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -20770,7 +20997,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -21246,70 +21476,70 @@
         }
     },
     {
-      "studyLocation": [
-        "Tallinn"
-      ],
-      "description": [
-          "Õppekava eesmärk on: \n\n**1.** valmistada ette kõrgelt kvalifitseeritud spetsialiste Maa-teaduste alase tootmis- ja teadustegevuse arendamiseks; \n\n**2.** loodusteaduslike (geoloogia, okeanograafia) ja insenerilike (ehitus-, kaevandusgeoloogia, merendus) teadmiste tiheda põimingu tagamine; \n\n**3.** erialaselt kõrgelt kvalifitseeritud rahvusliku ressursi loomine riiklike, munitsipaal-, kommerts- ja akadeemiliste asutuste ja organisatsioonide tipp- ja muude spetsialistide võimekuse tõstmiseks tänapäeval nõutavale tasemele. \n\n**4.** interdistsiplinaarse teaduse ja selle rakenduste juurutamine. \n\n**5.** arendada välja iseseisvaks professionaalseks teadustegevuseks võimeline teadlane, kes: \n\n   **a)** valdab oma teadussuuna teoreetilist baasi ja uurimismeetodeid; \n\n   **b)** oskab teadusprobleeme püstitada, analüüsida ja lahendada; \n\n   **c)** omab uurimisrühma juhtimise kogemust; \n\n   **d)** tunneb põhjalikult erialast teaduskirjandust."
-      ],
-      "descriptionEn": "Study programme aims too educate and train highly qualified specialists in Earth Sciences who can develop science and industry; to guarantee interdisciplinary knowledge on natural sciences (geology, oceanography) and engineering (geotechnology, maritime affairs); to create highly qualified national resources for raising the competency of top specialists of municipal, commercial and academic institutions and organizations; to develop interdisciplinary science and its applications; to prepare a scientist who is capable of independent professional activities and who: possesses the theoretical basis and research methods of his/her scientific field; has the skills to formulate, analyze and solve scientific problems; has the experience of leading a research group; has a fundamental knowledge regarding scientific literature in his/her specialty.",
-      "eap": 240,
-      "spots": 0,
-      "majorWebsite": "https://ois2.ttu.ee/uusois/kava/LALD22/22",
-      "type": "",
-      "personnel": [
-          {
-              "name": "Olle Hints",
-              "title": "Programmijuht",
-              "titleEn": "Tenured Associate Professor, Head of Division, Programme Director",
-              "email": "olle.hints@taltech.ee",
-              "phone": "+3726203027",
-              "photo": "https://volt.ttu.ee/v1/2V6C7Q/photo:T003766"
-          },
-          {
-              "name": "Urmas Raudsepp",
-              "title": "Täisprofessor tenuuris",
-              "titleEn": "Tenured Full Professor",
-              "email": "urmas.raudsepp@taltech.ee",
-              "phone": "+3726204303"
-          }
-      ],
-      "level": "doktor",
-      "outcomes": [
-          "Valdab loodusteaduste, sh füüsikaliste loodusteaduste ja nendega seotud inseneri ning IKT valdkonna üldteoreetilist tausta ja tunneb sügavuti oma kitsama uurimisvaldkonna terminoloogiat, teaduskirjandust ja meetodeid",
-          "Omab teadmisi ja oskusi, mis võimaldavad töötada juhtivspetsialistina nii riigiasutustes, ettevõtluses kui ka õppe- ja teadusasutustes",
-          "Omab ülevaadet teadusmetoodikast ja kasutab erinevaid teaduslikke meetodeid keerukate päriseluprobleemide lahendamiseks",
-          "Avaldab oma teadustöö tulemusi tunnustatud teadusajakirjades ja esineb ettekannetega seminaridel ning konverentsidel",
-          "Omab praktilisi kogemusi erialase õppetöö planeerimiseks ja läbiviimiseks bakalaureuse- ning magistriõppes",
-          "Juhindub teaduseetika põhimõtetest ja orienteerub ühiskonna humanistlikes, sotsiaalsetes ning majanduslikes probleemides"
-      ],
-      "language": "eesti keel",
-      "duration": 4,
-      "requirements": [
-          {
-              "term": "Magistrikraad või sellele vastav kvalifikatsioon",
-              "termEn": "Master's degree or equivalent qualification"
-          },
-          {
-              "header": "CV",
-              "headerEn": "CV",
-              "term": "sh andmed haridustee ning teadus- ja arendustegevuse kohta",
-              "termEn": "Include details about your education and research experience"
-          },
-          {
-              "header": "Dokumendid",
-              "headerEn": "Documents",
-              "term": "**•** koopia magistridiplomist \n**•** koopia diplomi juurde kuuluvast akadeemilisest õiendist \n**•** koopia isikut tõendavast dokumendist \n\nVälisriigi haridust tõendava dokumendi korral nõutakse üldjuhul [Eesti ENIC/NARIC Keskuse](http://www.archimedes.ee/enic/) (Akadeemilise Tunnustamise Infokeskuse) hinnangut ja soovitust. \n\nKõik dokumendid tuleb esitada PDF formaadis, ühe dokumendi maksimaalne suurus 1 MB. Enne esitamist veendu, et dokument on loetav. \n\nFailide väiksemaks tegemiseks saab kasutada näiteks neid veebitööriistu: \n\n**•** http://smallpdf.com/compress-pdf \n**•** https://www.pdfcompress.com/",
-              "termEn": "**•** Copy of the identification page of your passport or official Estonian identification document (ID-card, Temporary Residence Permit card) \n\n**•** Bachelor’s degree diploma in its original language and an official English translation of your bachelor’s diploma (if not provided by the awarding institution) \n\n**•** Bachelor’s academic transcript in its original language and an official English translation of your bachelor’s academic transcript (if not provided by the awarding institution) \n\n**•** Master's degree diploma and an official English translation of your master’s diploma (if not provided by the awarding institution) \n\n**•** Master’s academic transcript in its original language and an official English translation of your master’s academic transcript (if not provided by the awarding institution)"
-          }
-      ],
-      "name": "Maateadused",
-      "nameEn": "Earth Sciences",
-      "cost": {
-        "amount": 0,
-        "currency": "€",
-        "interval": "full"
-      }
+        "studyLocation": [
+            "Tallinn"
+        ],
+        "description": [
+            "Õppekava eesmärk on: \n\n**1.** valmistada ette kõrgelt kvalifitseeritud spetsialiste Maa-teaduste alase tootmis- ja teadustegevuse arendamiseks; \n\n**2.** loodusteaduslike (geoloogia, okeanograafia) ja insenerilike (ehitus-, kaevandusgeoloogia, merendus) teadmiste tiheda põimingu tagamine; \n\n**3.** erialaselt kõrgelt kvalifitseeritud rahvusliku ressursi loomine riiklike, munitsipaal-, kommerts- ja akadeemiliste asutuste ja organisatsioonide tipp- ja muude spetsialistide võimekuse tõstmiseks tänapäeval nõutavale tasemele. \n\n**4.** interdistsiplinaarse teaduse ja selle rakenduste juurutamine. \n\n**5.** arendada välja iseseisvaks professionaalseks teadustegevuseks võimeline teadlane, kes: \n\n   **a)** valdab oma teadussuuna teoreetilist baasi ja uurimismeetodeid; \n\n   **b)** oskab teadusprobleeme püstitada, analüüsida ja lahendada; \n\n   **c)** omab uurimisrühma juhtimise kogemust; \n\n   **d)** tunneb põhjalikult erialast teaduskirjandust."
+        ],
+        "descriptionEn": "Study programme aims too educate and train highly qualified specialists in Earth Sciences who can develop science and industry; to guarantee interdisciplinary knowledge on natural sciences (geology, oceanography) and engineering (geotechnology, maritime affairs); to create highly qualified national resources for raising the competency of top specialists of municipal, commercial and academic institutions and organizations; to develop interdisciplinary science and its applications; to prepare a scientist who is capable of independent professional activities and who: possesses the theoretical basis and research methods of his/her scientific field; has the skills to formulate, analyze and solve scientific problems; has the experience of leading a research group; has a fundamental knowledge regarding scientific literature in his/her specialty.",
+        "eap": 240,
+        "spots": 0,
+        "majorWebsite": "https://ois2.ttu.ee/uusois/kava/LALD22/22",
+        "type": "",
+        "personnel": [
+            {
+                "name": "Olle Hints",
+                "title": "Programmijuht",
+                "titleEn": "Tenured Associate Professor, Head of Division, Programme Director",
+                "email": "olle.hints@taltech.ee",
+                "phone": "+3726203027",
+                "photo": "https://volt.ttu.ee/v1/2V6C7Q/photo:T003766"
+            },
+            {
+                "name": "Urmas Raudsepp",
+                "title": "Täisprofessor tenuuris",
+                "titleEn": "Tenured Full Professor",
+                "email": "urmas.raudsepp@taltech.ee",
+                "phone": "+3726204303"
+            }
+        ],
+        "level": "doktor",
+        "outcomes": [
+            "Valdab loodusteaduste, sh füüsikaliste loodusteaduste ja nendega seotud inseneri ning IKT valdkonna üldteoreetilist tausta ja tunneb sügavuti oma kitsama uurimisvaldkonna terminoloogiat, teaduskirjandust ja meetodeid",
+            "Omab teadmisi ja oskusi, mis võimaldavad töötada juhtivspetsialistina nii riigiasutustes, ettevõtluses kui ka õppe- ja teadusasutustes",
+            "Omab ülevaadet teadusmetoodikast ja kasutab erinevaid teaduslikke meetodeid keerukate päriseluprobleemide lahendamiseks",
+            "Avaldab oma teadustöö tulemusi tunnustatud teadusajakirjades ja esineb ettekannetega seminaridel ning konverentsidel",
+            "Omab praktilisi kogemusi erialase õppetöö planeerimiseks ja läbiviimiseks bakalaureuse- ning magistriõppes",
+            "Juhindub teaduseetika põhimõtetest ja orienteerub ühiskonna humanistlikes, sotsiaalsetes ning majanduslikes probleemides"
+        ],
+        "language": "eesti keel",
+        "duration": 4,
+        "requirements": [
+            {
+                "term": "Magistrikraad või sellele vastav kvalifikatsioon",
+                "termEn": "Master's degree or equivalent qualification"
+            },
+            {
+                "header": "CV",
+                "headerEn": "CV",
+                "term": "sh andmed haridustee ning teadus- ja arendustegevuse kohta",
+                "termEn": "Include details about your education and research experience"
+            },
+            {
+                "header": "Dokumendid",
+                "headerEn": "Documents",
+                "term": "**•** koopia magistridiplomist \n**•** koopia diplomi juurde kuuluvast akadeemilisest õiendist \n**•** koopia isikut tõendavast dokumendist \n\nVälisriigi haridust tõendava dokumendi korral nõutakse üldjuhul [Eesti ENIC/NARIC Keskuse](http://www.archimedes.ee/enic/) (Akadeemilise Tunnustamise Infokeskuse) hinnangut ja soovitust. \n\nKõik dokumendid tuleb esitada PDF formaadis, ühe dokumendi maksimaalne suurus 1 MB. Enne esitamist veendu, et dokument on loetav. \n\nFailide väiksemaks tegemiseks saab kasutada näiteks neid veebitööriistu: \n\n**•** http://smallpdf.com/compress-pdf \n**•** https://www.pdfcompress.com/",
+                "termEn": "**•** Copy of the identification page of your passport or official Estonian identification document (ID-card, Temporary Residence Permit card) \n\n**•** Bachelor’s degree diploma in its original language and an official English translation of your bachelor’s diploma (if not provided by the awarding institution) \n\n**•** Bachelor’s academic transcript in its original language and an official English translation of your bachelor’s academic transcript (if not provided by the awarding institution) \n\n**•** Master's degree diploma and an official English translation of your master’s diploma (if not provided by the awarding institution) \n\n**•** Master’s academic transcript in its original language and an official English translation of your master’s academic transcript (if not provided by the awarding institution)"
+            }
+        ],
+        "name": "Maateadused",
+        "nameEn": "Earth Sciences",
+        "cost": {
+            "amount": 0,
+            "currency": "€",
+            "interval": "full"
+        }
     },
     {
         "studyLocation": [
@@ -22360,7 +22590,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -22428,7 +22661,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
     },
     {
         "studyLocation": [
@@ -22497,6 +22733,9 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
-    },
+        },
+        "studyTypes": [
+            "päevaõpe"
+        ]
+    }
 ]
