@@ -17,7 +17,7 @@ class LocalizationManager: ObservableObject {
     }
 }
 
-enum AppLocale: String, CaseIterable {
+enum AppLocale: String, CaseIterable, Codable {
     case english = "en"
     case estonian = "et-EE"
 
