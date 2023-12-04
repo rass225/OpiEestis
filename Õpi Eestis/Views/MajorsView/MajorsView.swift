@@ -1,17 +1,13 @@
 import SwiftUI
 
 struct MajorsView: View {
-    @EnvironmentObject var locale: LocalizationManager
     @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     
     var body: some View {
         List {
             Section(content: {
-                ForEach(
-                    model.displayedMajors.customSorted(by: locale.currentLocale),
-                    id: \.id
-                ) { major in
+                ForEach(model.displayedMajors, id: \.id) { major in
                     MajorCell(
                         major: major,
                         isFavorite: model.isFavorite(major),
@@ -26,7 +22,7 @@ struct MajorsView: View {
                         addFavorite: {
                             model.addFavorite(major: major)
                         }, 
-                        locale: locale.currentLocale
+                        locale: model.currentLocale
                     )
                 }
             }, header: hiddenHeader)

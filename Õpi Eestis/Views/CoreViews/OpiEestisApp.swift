@@ -17,15 +17,14 @@ struct OpiEestisApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var model: ContentView.Model = .init()
     @StateObject private var appState = AppState()
-    @StateObject private var localizationManager = LocalizationManager()
+    @StateObject private var localeManager = DependencyManager.shared.localeManager
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(model)
                 .environmentObject(appState)
-                .environmentObject(localizationManager)
-                .environment(\.locale, .init(identifier: localizationManager.currentLocale.identifier))
+                .environment(\.locale, .init(identifier: localeManager.currentLocale.identifier))
                 .statusBarHidden()
         }
     }

@@ -37,7 +37,7 @@ extension MajorView {
             if !requirements.isEmpty {
                 tabs.append(.requirements)
             }
-            if !modules.isEmpty {
+            if !modules.isEmpty, currentLocale == .estonian {
                 tabs.append(.modules)
             }
             if !personnel.isEmpty {
@@ -51,6 +51,10 @@ extension MajorView {
             let totalCount = reviews.map(\.rating).reduce(0, +)
             let currentRating = Double(totalCount) / Double(reviews.count)
             return currentRating
+        }
+        
+        var currentLocale: AppLocale {
+            DependencyManager.shared.localeManager.currentLocale
         }
         
         init(

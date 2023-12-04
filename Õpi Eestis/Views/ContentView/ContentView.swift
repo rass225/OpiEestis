@@ -63,7 +63,7 @@ extension ContentView {
     @ViewBuilder
     func collegesView() -> some View {
         NavigationStack(path: $appState.collegeNavigation) {
-            CollegesListView(schools: model.schools)
+            CollegesListView(model: .init(colleges: model.schools))
                 .navigationDestination(for: CollegeDestination.self) {
                     appState.navigationDestination($0)
                 }

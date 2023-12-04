@@ -17,6 +17,10 @@ extension CollegeView {
         private let dependencies: DependencyManager
         
         let college: College
+        
+        var currentLocale: AppLocale {
+            DependencyManager.shared.localeManager.currentLocale
+        }
 
         init(
             college: College,

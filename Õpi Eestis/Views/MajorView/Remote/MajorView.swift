@@ -2,7 +2,6 @@ import SwiftUI
 import WebKit
 
 struct MajorView: View {
-    @EnvironmentObject var localizationManager: LocalizationManager
     @EnvironmentObject var appState: AppState
     @StateObject var model: Model
     @Namespace var animation
@@ -79,7 +78,7 @@ private extension MajorView {
     
     @ViewBuilder
     func outcomesView() -> some View {
-        if !model.outcomes.isEmpty {
+        if !model.outcomes.isEmpty, model.currentLocale == .estonian {
             VStack(alignment: .leading) {
                 outcomesHeader()
                     .padding(.leading, 8)
@@ -189,7 +188,7 @@ extension MajorView {
         VStack {
             descriptionHeader()
                 .padding(.leading, 8)
-            if localizationManager.currentLocale == .estonian {
+            if model.currentLocale == .estonian {
                 ForEach(model.major.description, id: \.self) { element in
                     Text(.init(element))
                         .setFont(.subheadline, .regular, .rounded)
@@ -329,7 +328,7 @@ extension MajorView {
     @ViewBuilder
     func requirementContent() -> some View {
         ForEach(model.requirements, id: \.id) { item in
-            if localizationManager.currentLocale == .estonian {
+            if model.currentLocale == .estonian {
                 requirementCell(item)
             } else {
                 requirementCellEn(item)

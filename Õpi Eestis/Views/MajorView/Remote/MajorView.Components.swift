@@ -46,7 +46,7 @@ extension MajorView {
     @ViewBuilder
     func titleView() -> some View {
         VStack(alignment: .center, spacing: 0){
-            Text(localizationManager.currentLocale == .estonian ? model.major.name : model.major.nameEn ?? model.major.name)
+            Text(model.currentLocale == .estonian ? model.major.name : model.major.nameEn ?? model.major.name)
                 .setFont(.title3, .semibold, .rounded)
                 .multilineTextAlignment(.center)
             Text(model.major.level.label)

@@ -124,7 +124,7 @@ extension MajorView {
             VStack(alignment: .leading) {
                 Text(person.name)
                     .setFont(.subheadline, .regular, .rounded)
-                Text(localizationManager.currentLocale == .estonian ? person.title : person.titleEn ?? person.title)
+                Text(model.currentLocale == .estonian ? person.title : person.titleEn ?? person.title)
                     .setColor(.gray)
                     .setFont(.footnote, .regular, .rounded)
             }

@@ -1,13 +1,15 @@
 import Foundation
 
 class LocalizationManager: ObservableObject {
+    static let shared = LocalizationManager()
+
     @Published var currentLocale: AppLocale {
         didSet {
             UserDefaults.standard.set(currentLocale.rawValue, forKey: "selectedLocale")
         }
     }
     
-    init() {
+    private init() {
         let savedLocaleIdentifier = UserDefaults.standard.string(forKey: "selectedLocale") ?? AppLocale.english.rawValue
         self.currentLocale = AppLocale.locale(from: savedLocaleIdentifier)
     }
@@ -16,6 +18,7 @@ class LocalizationManager: ObservableObject {
         currentLocale = locale
     }
 }
+
 
 enum AppLocale: String, CaseIterable, Codable {
     case english = "en"

@@ -1,13 +1,13 @@
 import SwiftUI
 
 struct CollegesListView: View {
-    @EnvironmentObject var localizationManager: LocalizationManager
     @EnvironmentObject var appState: AppState
-    let schools: [College]
+    
+    @StateObject var model: Model
     
     var body: some View {
         List {
-            ForEach(schools.sorted(by: localizationManager.currentLocale == .estonian ? \.name : \.nameEn)) { college in
+            ForEach(model.colleges) { college in
                 collegeCell(college)
             }
         }
@@ -26,7 +26,7 @@ private extension CollegesListView {
         HStack(alignment: .center, spacing: 10){
             collegeImage(college.logoRef)
             VStack(alignment: .leading, spacing: 5){
-                collegeName(localizationManager.currentLocale == .estonian ? college.name : college.nameEn)
+                collegeName(model.currentLocale == .estonian ? college.name : college.nameEn)
                 collegeLocation(college.location.city)
             }
             .frame(maxWidth: .infinity, alignment: .leading)

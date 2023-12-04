@@ -26,6 +26,10 @@ extension MajorsView {
         let majors: [NewMajor]
         var user: FirebaseUser?
         
+        var currentLocale: AppLocale {
+            DependencyManager.shared.localeManager.currentLocale
+        }
+        
         init(
             college: College,
             majors: [NewMajor],
@@ -53,6 +57,7 @@ extension MajorsView {
             self.detailLevel = .detailed
             self.debouncedSearchText = ""
             self.user = user
+            
             start()
             
             $debouncedSearchText
@@ -127,14 +132,29 @@ extension MajorsView {
                     return false
                 }
                 
-                if !searchText.isEmpty, !major.name.lowercased().contains(searchText.lowercased()) {
-                    return false
+                if !searchText.isEmpty {
+                    switch dependencies.localeManager.currentLocale {
+                    case .english:
+                        if let name = major.nameEn {
+                            if !name.lowercased().contains(searchText.lowercased()) {
+                                return false
+                            }
+                        } else {
+                            if !major.name.lowercased().contains(searchText.lowercased()) {
+                                return false
+                            }
+                        }
+                    case .estonian:
+                        if !major.name.lowercased().contains(searchText.lowercased()) {
+                            return false
+                        }
+                    }
                 }
                 
                 return true
             }
-            
-            return result
+            let sortedResult = result.customSorted(by: currentLocale)
+            return sortedResult
         }
     }
 }

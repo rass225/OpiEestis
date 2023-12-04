@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @EnvironmentObject var localizationManager: LocalizationManager
+    @ObservedObject var localeManager = DependencyManager.shared.localeManager
     var body: some View {
         List {
             Section(content: languageContent, header: languageHeader)
@@ -39,7 +39,7 @@ extension SettingsView {
             HStack {
                 Text(locale.label)
                 Spacer()
-                if localizationManager.currentLocale == locale {
+                if localeManager.currentLocale == locale {
                     Circle()
                         .fill(Theme.Colors.primary.opacity(0.2))
                         .frame(width: 24)
@@ -56,7 +56,7 @@ extension SettingsView {
             }
             .contentShape(.rect)
             .onTapGesture {
-                localizationManager.currentLocale = locale
+                localeManager.currentLocale = locale
             }
         }
     }
