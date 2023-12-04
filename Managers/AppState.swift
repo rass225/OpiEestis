@@ -159,7 +159,7 @@ private extension AppState {
     }
     
     func addUserToDatabase(user: User) async throws -> FirebaseUser {
-        let newUser = FirebaseUser.initial(id: user.uid, email: user.email)
+        let newUser = FirebaseUser.initial(id: user.uid, email: user.email, dateJoined: .now)
         try await self.dependencies.network.createUser(user: newUser)
         return newUser
     }

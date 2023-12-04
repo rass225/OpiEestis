@@ -798,6 +798,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -1691,6 +1694,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -2525,6 +2531,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -3312,6 +3321,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -4142,6 +4154,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -4853,6 +4868,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -5383,6 +5401,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -6436,6 +6457,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -7524,6 +7548,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -8602,6 +8629,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -9672,6 +9702,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -10727,6 +10760,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -11519,6 +11555,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -12371,6 +12410,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "inglise keel"
         ]
     },
     {
@@ -13150,6 +13192,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "inglise keel"
         ]
     },
     {
@@ -13391,6 +13436,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "inglise keel"
         ]
     },
     {
@@ -14136,6 +14184,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -14473,6 +14524,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -15269,6 +15323,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -15474,6 +15531,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "inglise keel"
         ]
     },
     {
@@ -16510,6 +16570,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -17572,6 +17635,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -18624,6 +18690,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -19668,6 +19737,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -20691,6 +20763,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -21721,6 +21796,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -22654,6 +22732,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -23580,6 +23661,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -24523,6 +24607,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -24787,7 +24874,10 @@
             "amount": 7000,
             "currency": "€",
             "interval": "year"
-        }
+        },
+        "languages": [
+            "inglise keel"
+        ]
     },
     {
         "studyLocation": [
@@ -24935,6 +25025,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "inglise keel"
         ]
     }
 ]

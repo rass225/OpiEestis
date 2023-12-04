@@ -55,6 +55,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -113,6 +116,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -170,7 +176,10 @@
             "amount": 55,
             "currency": "€",
             "interval": "eap"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -230,6 +239,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -283,7 +295,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -336,7 +351,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -378,7 +396,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -433,6 +454,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "inglise keel"
         ]
     },
     {
@@ -489,6 +513,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -543,6 +570,9 @@
         },
         "studyTypes": [
             "õpipoisiõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -593,6 +623,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -648,6 +681,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -698,6 +734,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -747,6 +786,9 @@
         },
         "studyTypes": [
             "sessioonõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     }
 ]

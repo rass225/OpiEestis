@@ -331,6 +331,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -688,6 +691,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -1182,6 +1188,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -1498,6 +1507,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     },
     {
@@ -1940,6 +1952,9 @@
         },
         "studyTypes": [
             "päevaõpe"
+        ],
+        "languages": [
+            "eesti keel"
         ]
     }
 ]

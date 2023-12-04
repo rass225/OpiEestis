@@ -74,7 +74,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -189,7 +192,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -282,7 +288,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -375,7 +384,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -473,7 +485,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -549,7 +564,10 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     },
     {
         "studyLocation": [
@@ -634,6 +652,9 @@
             "amount": 0,
             "currency": "€",
             "interval": "full"
-        }
+        },
+        "languages": [
+            "eesti keel"
+        ]
     }
 ]
