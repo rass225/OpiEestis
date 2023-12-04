@@ -20,6 +20,7 @@ struct NewMajor: Hashable, Codable, Identifiable {
     var isEnglishOnly: Bool?
     var curriculumDate: String?
     var studyType: String?
+    var studyTypes: [StudyType]?
     var videoId: String?
     var vimeoId: String?
     var spotifyPath: String?

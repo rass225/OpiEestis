@@ -4,6 +4,9 @@
     " %@" : {
 
     },
+    ", " : {
+
+    },
     "%@" : {
 
     },
@@ -1826,6 +1829,9 @@
         }
       }
     },
+    "override" : {
+
+    },
     "profile_about" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1952,6 +1958,91 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seaded"
+          }
+        }
+      }
+    },
+    "studyType_apprenticeship" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apprenticeship"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Õpipoisiõpe"
+          }
+        }
+      }
+    },
+    "studyType_cyclical" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cyclical"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessiooniõpe"
+          }
+        }
+      }
+    },
+    "studyType_evening" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Evening"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Õhtuõpe"
+          }
+        }
+      }
+    },
+    "studyType_regular" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regular"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päevaõpe"
+          }
+        }
+      }
+    },
+    "studyType_remote" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaugõpe"
           }
         }
       }

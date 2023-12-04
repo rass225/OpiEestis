@@ -121,6 +121,9 @@
 		C0D214592715CA5C000AD3D0 /* TartuTervishoid.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214582715CA5C000AD3D0 /* TartuTervishoid.json */; };
 		C0D2145B2715E773000AD3D0 /* TTÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D2145A2715E773000AD3D0 /* TTÜ.json */; };
 		C0D214C3271639EF000AD3D0 /* TLÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D214C2271639EE000AD3D0 /* TLÜ.json */; };
+		C0E19AD02B1D4206008935AE /* StudyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19ACF2B1D4206008935AE /* StudyType.swift */; };
+		C0E19AD22B1DF6AD008935AE /* LocalMajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19AD12B1DF6AD008935AE /* LocalMajorView.swift */; };
+		C0E19AD42B1DF712008935AE /* LocalMajorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19AD32B1DF712008935AE /* LocalMajorViewModel.swift */; };
 		C0E7F7BC26B047BE00AAD132 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7F7BB26B047BE00AAD132 /* City.swift */; };
 		C0ECAE3C2AF17ED100815643 /* UnAuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE3B2AF17ED100815643 /* UnAuthenticatedView.swift */; };
 		C0ECAE3E2AF1A5E900815643 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE3D2AF1A5E900815643 /* TitleView.swift */; };
@@ -285,6 +288,9 @@
 		C0D214582715CA5C000AD3D0 /* TartuTervishoid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TartuTervishoid.json; sourceTree = "<group>"; };
 		C0D2145A2715E773000AD3D0 /* TTÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TTÜ.json"; sourceTree = "<group>"; };
 		C0D214C2271639EE000AD3D0 /* TLÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TLÜ.json"; sourceTree = "<group>"; };
+		C0E19ACF2B1D4206008935AE /* StudyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyType.swift; sourceTree = "<group>"; };
+		C0E19AD12B1DF6AD008935AE /* LocalMajorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMajorView.swift; sourceTree = "<group>"; };
+		C0E19AD32B1DF712008935AE /* LocalMajorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMajorViewModel.swift; sourceTree = "<group>"; };
 		C0E7F7BB26B047BE00AAD132 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		C0ECAE3B2AF17ED100815643 /* UnAuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnAuthenticatedView.swift; sourceTree = "<group>"; };
 		C0ECAE3D2AF1A5E900815643 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
@@ -396,6 +402,7 @@
 				C0644C2E2AEE6F1000AD6E0E /* User.swift */,
 				C0ECAE3F2AF2CCE400815643 /* Review.swift */,
 				C0ECAE412AF2CE0900815643 /* Rating.swift */,
+				C0E19ACF2B1D4206008935AE /* StudyType.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -667,6 +674,8 @@
 			isa = PBXGroup;
 			children = (
 				C09CFB842AEAF92E005048B0 /* CollegeDevelopment.swift */,
+				C0E19AD12B1DF6AD008935AE /* LocalMajorView.swift */,
+				C0E19AD32B1DF712008935AE /* LocalMajorViewModel.swift */,
 				C09CFBA12AEBE076005048B0 /* CollegeDevelopmentModel.swift */,
 			);
 			path = CollegeDevelopment;
@@ -908,6 +917,7 @@
 				C09CFB7D2AEA6FE7005048B0 /* WebView.swift in Sources */,
 				C0C59E142A8A5CC800423948 /* AppState.swift in Sources */,
 				C0CE189E2AE7F0EC008288F2 /* AppPrincipal.swift in Sources */,
+				C0E19AD42B1DF712008935AE /* LocalMajorViewModel.swift in Sources */,
 				C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */,
 				C0C59E322AA2614B00423948 /* Submodule.swift in Sources */,
 				C09CFBA22AEBE076005048B0 /* CollegeDevelopmentModel.swift in Sources */,
@@ -945,6 +955,7 @@
 				C0ECAE402AF2CCE400815643 /* Review.swift in Sources */,
 				C0C59E2E2AA2601E00423948 /* Link.swift in Sources */,
 				C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */,
+				C0E19AD02B1D4206008935AE /* StudyType.swift in Sources */,
 				C0F85B3C2A71B30A007A65F7 /* FirebaseManager.swift in Sources */,
 				C09CFB972AEBB2AB005048B0 /* MajorsViewModel.swift in Sources */,
 				C0C59E2C2AA25FFE00423948 /* Palette.swift in Sources */,
@@ -1008,6 +1019,7 @@
 				C00093292AEFDACA008DB108 /* MyAccountViewModel.swift in Sources */,
 				C0C59E182A8D4FD600423948 /* FavoritesViewModel.swift in Sources */,
 				C09CFB952AEBB2A0005048B0 /* MajorsView.swift in Sources */,
+				C0E19AD22B1DF6AD008935AE /* LocalMajorView.swift in Sources */,
 				C09CFB9A2AEBB896005048B0 /* MajorView.swift in Sources */,
 				C06ED5D826AAEDED00E5812A /* Cost.swift in Sources */,
 				C0C59E162A8A5DC100423948 /* CollegeListViewModel.swift in Sources */,

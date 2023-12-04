@@ -24,6 +24,7 @@ struct Major: Hashable, Codable, Identifiable {
     var isEnglishOnly: Bool?
     var curriculumDate: String?
     var studyType: String?
+    var studyTypes: [StudyType]?
     var videoId: String?
     var vimeoId: String?
     var spotifyPath: String?
@@ -52,6 +53,7 @@ struct Major: Hashable, Codable, Identifiable {
         case curriculumRef
         case isEnglishOnly
         case studyType
+        case studyTypes
         case videoId
         case vimeoId
         case spotifyPath
@@ -84,6 +86,7 @@ struct Major: Hashable, Codable, Identifiable {
         self.curriculumRef = try container.decodeIfPresent(String.self, forKey: .curriculumRef)
         self.isEnglishOnly = try container.decodeIfPresent(Bool.self, forKey: .isEnglishOnly)
         self.studyType = try container.decodeIfPresent(String.self, forKey: .studyType)
+        self.studyTypes = try container.decodeIfPresent([StudyType].self, forKey: .studyTypes)
         self.videoId = try container.decodeIfPresent(String.self, forKey: .videoId)
         self.vimeoId = try container.decodeIfPresent(String.self, forKey: .vimeoId)
         self.spotifyPath = try container.decodeIfPresent(String.self, forKey: .spotifyPath)

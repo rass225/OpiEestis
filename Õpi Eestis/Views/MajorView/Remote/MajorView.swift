@@ -156,15 +156,20 @@ extension MajorView {
                         .setColor(Theme.Colors.gray)
                 }
             }
-            if let studyType = model.major.studyType {
+            if let studyTypes = model.major.studyTypes {
                 HStack(alignment: .center, spacing: 0) {
                     Theme.Icons.studyType
                         .setColor(model.college.palette.base.gradient)
                         .setFont(.body, .regular, .rounded)
                         .frame(width: 32, alignment: .leading)
-                    Text(studyType.capitalizedSentence)
-                        .setFont(.subheadline, .medium, .rounded)
-                        .setColor(Theme.Colors.black)
+                    ForEach(studyTypes.indices, id: \.self) { index in
+                        Text(studyTypes[index].label)
+                            .setFont(.subheadline, .medium, .rounded)
+                            .setColor(Theme.Colors.black)
+                        if index < studyTypes.count - 1 {
+                            Text(", ")
+                        }
+                    }
                     Spacer()
                     Text(Theme.Locale.Major.studyType)
                         .setFont(.footnote, .regular, .rounded)

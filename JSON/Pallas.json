@@ -43,7 +43,7 @@
                 "photo": "https://pallasart.ee/wp-content/uploads/2022/09/Andrus-Kannel-1000-1000-mustvalge-IMGP6932-600x600.jpg"
             }
         ],
-        "type": "kunstid",
+        "type": "",
         "level": "bakalaureus",
         "curriculumRef": "https://tahvel.edu.ee/hois_back/public/curriculum/753?format=json",
         "language": "eesti keel",
@@ -158,7 +158,7 @@
                 "titleEn": "Lecturer"
             }
         ],
-        "type": "kunstid",
+        "type": "",
         "level": "bakalaureus",
         "language": "eesti keel",
         "duration": 4,

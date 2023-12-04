@@ -259,5 +259,13 @@ struct Theme {
             static let integrated: LocalizedStringKey = "level_integrated"
             static let vocational: LocalizedStringKey = "level_vocational"
         }
+        
+        enum StudyType {
+            static let regular: LocalizedStringKey = "studyType_regular"
+            static let cyclical: LocalizedStringKey = "studyType_cyclical"
+            static let apprenticeship: LocalizedStringKey = "studyType_apprenticeship"
+            static let evening: LocalizedStringKey = "studyType_evening"
+            static let remote: LocalizedStringKey = "studyType_remote"
+        }
     }
 }

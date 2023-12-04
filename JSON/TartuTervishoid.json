@@ -513,7 +513,7 @@
             }
         ],
         "type": "",
-        "studyType": "Õpipoisiõpe",
+        "studyType": "õpipoisiõpe",
         "level": "kutseharidus",
         "language": "eesti keel",
         "duration": 1,
@@ -542,7 +542,7 @@
             "interval": "full"
         },
         "studyTypes": [
-            "Õpipoisiõpe"
+            "õpipoisiõpe"
         ]
     },
     {
