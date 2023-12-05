@@ -18,7 +18,7 @@ extension MajorsView {
         @Published var languages: [Language]
         @Published var durations: [Double]
         @Published var locations: [City]
-        @Published var studyTypes: [String]
+        @Published var studyTypes: [StudyType]
         private let dependencies: DependencyManager = .shared
         private var cancellables = Set<AnyCancellable>()
         
@@ -105,8 +105,10 @@ extension MajorsView {
                     return false
                 }
                 
-                if selectedLanguage != .all, major.language != selectedLanguage {
-                    return false
+                if selectedLanguage != .all {
+                    if let languages = major.languages, !languages.contains(selectedLanguage) {
+                        return false
+                    }
                 }
                 
                 switch selectedCost {
@@ -123,7 +125,7 @@ extension MajorsView {
                 }
                 
                 if case let .specific(specificStudyType) = selectedStudyType {
-                    if let studyType = major.studyType, !studyType.contains(specificStudyType) {
+                    if let studyTypes = major.studyTypes, !studyTypes.contains(specificStudyType) {
                        return false
                     }
                 }
@@ -199,7 +201,9 @@ private extension MajorsView.Model {
     }
     
     func configureLanguages() {
-        var allLanguages = majors.map(\.language)
+        var allLanguages = majors
+            .compactMap(\.languages)
+            .flatMap { $0 }
         allLanguages.append(.all)
         let uniqueLanguages = Set(allLanguages)
         languages = Array(uniqueLanguages).sorted(by: \.rawValue)
@@ -218,16 +222,11 @@ private extension MajorsView.Model {
     }
     
     func configureStudyTypes() {
-        let studyTypes = majors
-            .map(\.studyType)
-            .map {
-                $0?.split(separator: ",")
-                    .map { String($0).trimmingCharacters(in: .whitespacesAndNewlines) }
-            }
-            .compactMap { $0 }
+        let studyTypesX = majors
+            .compactMap(\.studyTypes)
             .flatMap { $0 }
-        let uniquestudyTypes = Set(studyTypes)
-        self.studyTypes = Array(uniquestudyTypes)
+        let uniqueTypes = Set(studyTypesX)
+        self.studyTypes = Array(uniqueTypes)
     }
     
     func setSearchBarColor() {
@@ -363,6 +362,6 @@ extension MajorsView.Model {
     
     enum StudyTypeSelection: Equatable, Hashable {
         case all
-        case specific(String)
+        case specific(StudyType)
     }
 }

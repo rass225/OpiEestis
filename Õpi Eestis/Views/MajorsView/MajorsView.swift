@@ -88,10 +88,6 @@ private extension MajorsView {
         NavigationStack {
             VStack(spacing: 0) {
                 HStack {
-                    if model.filtersAmount > 0 {
-                        resetButton()
-                            .padding(.leading, 16)
-                    }
                     Spacer()
                     Image(systemName: model.detailLevel.reverseIcon)
                         .setColor(model.college.palette.base.gradient)
@@ -111,11 +107,16 @@ private extension MajorsView {
                 }
                 .listStyle(.plain)
                 .scrollIndicators(.hidden)
+                .padding(.bottom)
+                
+                if model.filtersAmount > 0 {
+                    resetButton()
+                }
             }
             .setFont(.subheadline, .medium, .rounded)
             .navigationBarTitleDisplayMode(.inline)
         }
-        .presentationDetents([.fraction(0.45)])
+        .presentationDetents([.fraction(0.55)])
         .presentationCornerRadius(16)
     }
     
@@ -232,16 +233,19 @@ private extension MajorsView {
             .setFont(.body, .bold, .rounded)
             .setColor(model.college.palette.base.gradient)
             .padding(.trailing, 4)
+            .padding(.leading)
+            .padding(.vertical, 8)
             .overlay(alignment: .topTrailing) {
                 if model.filtersAmount > 0 {
                     Text(String(model.filtersAmount))
                         .setFont(.footnote, .semibold, .rounded)
                         .setColor(Theme.Colors.white)
                         .padding(5)
-                        .background(Circle().fill(Color.red))
-                        .offset(x: 0, y: -10)
+                        .background(Circle().fill(Color.red.gradient))
+                        .offset(x: 0, y: -4)
                 }
             }
+            .contentShape(.rect)
             .onTapGesture {
                 model.isFilterPresented.toggle()
             }
@@ -249,13 +253,15 @@ private extension MajorsView {
     
     @ViewBuilder
     func resetButton() -> some View {
-        Button(action: model.resetFilters, label: {
+        Button(action: model.resetFilters) {
             if model.filtersAmount > 0 {
                 Theme.Icons.xmark
-                    .setColor(model.college.palette.base.gradient)
-                    .setFont(.body, .bold, .rounded)
+                    .setSymbol(.circle.fill, .palette)
+                    .setColor(.white, model.college.palette.base.gradient)
+                    .setFont(.largeTitle, .medium, .rounded)
+                    .padding()
             }
-        })
+        }
     }
 }
 
@@ -351,7 +357,7 @@ private extension MajorsView {
             Text(Theme.Locale.Majors.all)
                 .tag(Model.StudyTypeSelection.all)
             ForEach(model.studyTypes, id: \.self) {
-                Text($0.capitalized)
+                Text($0.label)
                     .tag(Model.StudyTypeSelection.specific($0))
             }
         }, label: {
