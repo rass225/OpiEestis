@@ -11,6 +11,7 @@ struct Major: Hashable, Codable, Identifiable {
     var descriptionEn: String?
     var outcomes: [String]?
     var language: Language
+    var languages: [Language]
     var majorWebsite: String
     var spots: Int
     var duration: Double
@@ -41,6 +42,7 @@ struct Major: Hashable, Codable, Identifiable {
         case descriptionEn
         case outcomes
         case language
+        case languages
         case majorWebsite
         case spots
         case duration
@@ -74,6 +76,7 @@ struct Major: Hashable, Codable, Identifiable {
         self.outcomes = try container.decodeIfPresent([String].self, forKey: .outcomes)
 //        outcomes = outcomes.map { $0.replacingOccurrences(of: "\r\n-", with: "\n\n**•**") }
         self.language = try container.decode(Language.self, forKey: .language)
+        self.languages = try container.decode([Language].self, forKey: .languages)
         self.majorWebsite = try container.decode(String.self, forKey: .majorWebsite)
         self.spots = try container.decode(Int.self, forKey: .spots)
         self.duration = try container.decode(Double.self, forKey: .duration)

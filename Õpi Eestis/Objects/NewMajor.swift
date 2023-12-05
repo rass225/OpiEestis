@@ -7,6 +7,7 @@ struct NewMajor: Hashable, Codable, Identifiable {
     var nameEn: String?
     var level: Level
     var language: Language
+    var languages: [Language]?
     var majorWebsite: String
     var description: [String]
     var descriptionEn: String?

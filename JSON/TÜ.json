@@ -137,7 +137,9 @@
             "päevaõpe"
         ],
         "languages": [
-            "inglise keel"
+            "eesti keel",
+            "inglise keel",
+            "vene keel"
         ]
     },
     {
@@ -205,6 +207,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -353,6 +356,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -420,6 +424,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -487,6 +492,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -612,6 +618,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -679,6 +686,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -746,6 +754,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -1031,7 +1040,7 @@
                 "photo": "https://ut.ee/sites/default/files/styles/contact_photo/public/2023-03/An%C5%BEelika%20Pratkunas.png?h=698767fa&itok=KqPgl0Uv"
             }
         ],
-        "type": "sotsiaalteadused",
+        "type": "",
         "studyType": "sessioonõpe",
         "level": "rakenduskõrgharidus",
         "language": "eesti keel",
@@ -2379,7 +2388,7 @@
                 "photo": "https://ut.ee/sites/default/files/styles/contact_photo/public/2022-08/_MG_0024.jpg?h=74c1bf4d&itok=zENSqBNE"
             }
         ],
-        "type": "sotsiaalteadused",
+        "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
@@ -3346,7 +3355,7 @@
                 "phone": "+3727376444"
             }
         ],
-        "type": "sotsiaalteadused",
+        "type": "",
         "studyType": "päevaõpe, sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",
@@ -3409,7 +3418,7 @@
                 "email": "katrin.saluvee@ut.ee"
             }
         ],
-        "type": "sotsiaalteadused",
+        "type": "",
         "studyType": "sessioonõpe",
         "level": "bakalaureus",
         "language": "eesti keel",

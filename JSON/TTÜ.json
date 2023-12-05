@@ -21224,6 +21224,7 @@
             "päevaõpe"
         ],
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -21294,6 +21295,7 @@
             "interval": "full"
         },
         "languages": [
+            "eesti keel",
             "inglise keel"
         ]
     },
@@ -21703,7 +21705,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -21772,7 +21775,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -22077,7 +22081,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -22255,7 +22260,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -22431,13 +22437,15 @@
             }
         ],
         "name": "Keemia- materjali- ja energiatehnoloogia",
+        "nameEn": "Chemical, materials and energy technology",
         "cost": {
             "amount": 0,
             "currency": "€",
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -22502,7 +22510,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -22566,7 +22575,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {
@@ -22631,7 +22641,8 @@
             "interval": "full"
         },
         "languages": [
-            "eesti keel"
+            "eesti keel",
+            "inglise keel"
         ]
     },
     {

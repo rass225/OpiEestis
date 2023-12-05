@@ -151,10 +151,14 @@ extension MajorsView {
                         .padding(.bottom, 22)
                     if showDetailed {
                         HStack(spacing: 8) {
-                            HStack(spacing: 4) {
-                                Text(major.language.symbol)
-                                Text(major.language.inLanguageLabel)
+                            if let languages = major.languages {
+                                HStack(spacing: 4) {
+                                    ForEach(languages, id: \.self) { language in
+                                        Text(language.symbol)
+                                    }
+                                }
                             }
+                            
                             Text("•")
                             Text(major.durationLabel)
                             Text("•")
@@ -327,12 +331,6 @@ private extension MajorsView {
             ForEach(model.durations, id: \.self) { duration in
                 Text(Theme.Locale.Duration.getYears(amount: duration))
                     .tag(Model.DurationSelection.specific(duration))
-//                if duration.isInt() {
-//                    
-//                } else {
-//                    Text(String(duration.decimals(1)) + " \(Theme.Locale.Majors.years)")
-//                        .tag(Model.DurationSelection.specific(duration))
-//                }
             }
         }, label: {
             HStack(spacing: 0) {
