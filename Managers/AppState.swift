@@ -9,6 +9,7 @@ class AppState: ObservableObject {
     @Published var profileNavigation: NavigationPath
     @Published private(set) var selectedIndex: Tabs
     @Published private(set) var authState: AuthState
+    @Published private(set) var appInformation: AppInformation
     
     let environment: AppEnvironment = .remote
     @Published private(set) var user: FirebaseUser?
@@ -29,7 +30,7 @@ class AppState: ObservableObject {
         self.profileNavigation = profileNavigation
         self.selectedIndex = selectedIndex
         self.authState = authState
-        
+        self.appInformation = .initial
         start()
     }
     
@@ -123,6 +124,9 @@ class AppState: ObservableObject {
 private extension AppState {
     func start() {
         monitorAuthState()
+        Task {
+            await fetchAppInformation()
+        }
     }
     
     func monitorAuthState() {
@@ -191,6 +195,17 @@ private extension AppState {
             case .failure(let error):
                 print("Error listening for user updates: \(error)")
             }
+        }
+    }
+    
+    func fetchAppInformation() async {
+        do {
+            let appInformation = try await dependencies.network.fetchAppInformation()
+            DispatchQueue.main.async {
+                self.appInformation = appInformation
+            }
+        } catch {
+            print(error.localizedDescription)
         }
     }
 }

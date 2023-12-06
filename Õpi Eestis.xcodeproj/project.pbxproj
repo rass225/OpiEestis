@@ -124,6 +124,7 @@
 		C0E19AD02B1D4206008935AE /* StudyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19ACF2B1D4206008935AE /* StudyType.swift */; };
 		C0E19AD22B1DF6AD008935AE /* LocalMajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19AD12B1DF6AD008935AE /* LocalMajorView.swift */; };
 		C0E19AD42B1DF712008935AE /* LocalMajorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19AD32B1DF712008935AE /* LocalMajorViewModel.swift */; };
+		C0E19AD62B20E086008935AE /* AppInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E19AD52B20E086008935AE /* AppInformation.swift */; };
 		C0E7F7BC26B047BE00AAD132 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E7F7BB26B047BE00AAD132 /* City.swift */; };
 		C0ECAE3C2AF17ED100815643 /* UnAuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE3B2AF17ED100815643 /* UnAuthenticatedView.swift */; };
 		C0ECAE3E2AF1A5E900815643 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE3D2AF1A5E900815643 /* TitleView.swift */; };
@@ -291,6 +292,7 @@
 		C0E19ACF2B1D4206008935AE /* StudyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyType.swift; sourceTree = "<group>"; };
 		C0E19AD12B1DF6AD008935AE /* LocalMajorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMajorView.swift; sourceTree = "<group>"; };
 		C0E19AD32B1DF712008935AE /* LocalMajorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMajorViewModel.swift; sourceTree = "<group>"; };
+		C0E19AD52B20E086008935AE /* AppInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformation.swift; sourceTree = "<group>"; };
 		C0E7F7BB26B047BE00AAD132 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		C0ECAE3B2AF17ED100815643 /* UnAuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnAuthenticatedView.swift; sourceTree = "<group>"; };
 		C0ECAE3D2AF1A5E900815643 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 				C0ECAE3F2AF2CCE400815643 /* Review.swift */,
 				C0ECAE412AF2CE0900815643 /* Rating.swift */,
 				C0E19ACF2B1D4206008935AE /* StudyType.swift */,
+				C0E19AD52B20E086008935AE /* AppInformation.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -998,6 +1001,7 @@
 				C073071F2AF301BF00BABA4C /* MajorView.Cells.swift in Sources */,
 				C04CFC1B2AC99194001CB1CD /* CollegeMapViewModel.swift in Sources */,
 				C0644C2F2AEE6F1000AD6E0E /* User.swift in Sources */,
+				C0E19AD62B20E086008935AE /* AppInformation.swift in Sources */,
 				C0F85B452A73DA77007A65F7 /* CollegeListView.swift in Sources */,
 				C032996025CC187100EB7862 /* Major.swift in Sources */,
 				C09CFB922AEBB10E005048B0 /* UITabBarController.swift in Sources */,

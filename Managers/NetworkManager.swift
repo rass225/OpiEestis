@@ -28,6 +28,10 @@ extension NetworkManager {
         try await firebase.fetchUser(userId: userId)
     }
     
+    func fetchAppInformation() async throws -> AppInformation {
+        try await firebase.fetchAppInformation()
+    }
+    
     func fetchColleges() async throws -> [College] {
         try await firebase.fetchSchools()
     }

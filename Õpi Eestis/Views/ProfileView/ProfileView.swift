@@ -3,6 +3,7 @@ import SwiftUI
 struct ProfileView: View {
     @EnvironmentObject var appState: AppState
     @State var isDonationsPresented = false
+    
     var body: some View {
         switch appState.authState {
         case let .authenticated(user):

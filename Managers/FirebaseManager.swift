@@ -49,6 +49,11 @@ struct FirebaseManager {
         return try decodeSnapshots(snapshot: snapshot)
     }
     
+    func fetchAppInformation() async throws -> AppInformation {
+        let snapshot = try await docRefernce(for: .appInformation).getDocument()
+        return try decodeDocument(document: snapshot)
+    }
+    
     func streamReviews(
         collegeId: String,
         majorId: String,
@@ -298,6 +303,10 @@ private extension FirebaseManager {
                 .document(majorId)
                 .collection("reviews")
                 .document(review.id)
+        case .appInformation:
+            return database
+                .collection("App")
+                .document("Information")
         }
     }
     
@@ -427,5 +436,6 @@ extension FirebaseManager {
         case createMajorReview(collegeId: String, majorId: String)
         case removeMajorReview(collegeId: String, majorId: String, reviewId: String)
         case updateMajorReview(collegeId: String, majorId: String, review: Review)
+        case appInformation
     }
 }

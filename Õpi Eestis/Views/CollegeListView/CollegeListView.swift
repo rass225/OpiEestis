@@ -2,7 +2,6 @@ import SwiftUI
 
 struct CollegesListView: View {
     @EnvironmentObject var appState: AppState
-    
     @StateObject var model: Model
     
     var body: some View {
