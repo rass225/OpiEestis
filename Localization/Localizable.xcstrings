@@ -517,6 +517,23 @@
         }
       }
     },
+    "favorites_add_unauthenticated" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in to add this major as favorite"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logi sisse et lisada"
+          }
+        }
+      }
+    },
     "favorites_unauthenticated" : {
       "extractionState" : "manual",
       "localizations" : {

@@ -18,7 +18,7 @@ extension MajorView {
         @Published var isMapViewPresented: Bool
         @Published var selectedPersonnel: Personnel?
         @Published var isNewReviewViewPresented: Bool
-        
+        @Published var isLoginSuggestionPresented: Bool
         @Published var newReviewRating: Int = 0
         @Published var newReviewText = ""
         
@@ -85,6 +85,7 @@ extension MajorView {
             self.imageCache = [:]
             self.reviewProfileImagesCache = [:]
             self.isNewReviewViewPresented = false
+            self.isLoginSuggestionPresented = false
             
             appState.$user
                 .sink { [weak self] user in
@@ -131,11 +132,18 @@ extension MajorView.Model {
         guard let favoriteMajor else { return }
         Task {
             do {
-                try await dependencies.network.removeFavorite(userId: user.id, favoriteId: favoriteMajor.id)
+                try await dependencies.network.removeFavorite(
+                    userId: user.id,
+                    favoriteId: favoriteMajor.id
+                )
             } catch {
                 print(error.localizedDescription)
             }
         }
+    }
+    
+    func presentLogin() {
+        isLoginSuggestionPresented.toggle()
     }
     
     func presentMapView() {

@@ -11,7 +11,7 @@ struct FavoritesViewWrapper: View {
         case .unauthenticated:
             UnauthenticatedView(
                 title: Theme.Locale.Favorites.unauthenticated,
-                action: appState.signInApple
+                action: { appState.signInApple() }
             )
         }
     }

@@ -12,10 +12,9 @@ struct MapView: View {
         case .unauthenticated:
             UnauthenticatedView(
                 title: Theme.Locale.Map.unauthenticated,
-                action: appState.signInApple
+                action: { appState.signInApple() }
             )
         }
-        
     }
 }
 

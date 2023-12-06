@@ -99,14 +99,16 @@ class AppState: ObservableObject {
         }
     }
     
-    func signInApple() {
+    func signInApple(completion: ((Result<Void, Error>) -> Void)? = nil) {
         Task {
             do {
                 let helper = await SignInWithAppleHelper()
                 let tokens = try await helper.startSignInWithApple()
                 try await AuthenticationManager.shared.signInWithApple(tokens: tokens)
+                completion?(.success(()))
             } catch {
                 print(error)
+                completion?(.failure(error))
             }
         }
     }

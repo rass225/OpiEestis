@@ -76,6 +76,7 @@ struct Theme {
         
         enum Favorites {
             static let unauthenticated: LocalizedStringKey = "favorites_unauthenticated"
+            static let addUnauthenticated: LocalizedStringKey = "favorites_add_unauthenticated"
             static let empty: String = "Sul ei ole ühtegi lemmikut lisatud"
             static let oneYear: String = "aasta"
             static let multipleYears: String = "aastat"

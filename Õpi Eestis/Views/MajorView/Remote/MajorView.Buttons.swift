@@ -17,14 +17,26 @@ extension MajorView {
                     .setFont(.body, .semibold, .rounded)
                     .setColor(model.college.palette.base.gradient)
                     .padding(.trailing, 4)
+                    .padding(.leading)
+                    .padding(.vertical,4)
                     .onTapGesture(perform: model.removeFavorite)
             } else {
                 Theme.Icons.heart
                     .setFont(.body, .bold, .rounded)
                     .setColor(model.college.palette.base.gradient)
                     .padding(.trailing, 4)
+                    .padding(.leading)
+                    .padding(.vertical,4)
                     .onTapGesture(perform: model.addFavorite)
             }
+        } else {
+            Theme.Icons.heart
+                .setFont(.body, .bold, .rounded)
+                .setColor(model.college.palette.base.gradient)
+                .padding(.trailing, 4)
+                .padding(.leading)
+                .padding(.vertical,4)
+                .onTapGesture(perform: model.presentLogin)
         }
     }
 }

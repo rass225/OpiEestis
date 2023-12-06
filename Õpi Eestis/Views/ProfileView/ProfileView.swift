@@ -9,15 +9,41 @@ struct ProfileView: View {
         case let .authenticated(user):
             authenticatedView(user: user)
         case .unauthenticated:
-            UnauthenticatedView(
-                title: Theme.Locale.Profile.unauthenticated,
-                action: appState.signInApple
-            )
+            unauthenticatedView()
         }
     }
 }
 
 extension ProfileView {
+    @ViewBuilder
+    func unauthenticatedView() -> some View {
+        List {
+            Section {
+                label(
+                    title: Theme.Locale.Profile.about,
+                    icon: Theme.Icons.about
+                )
+                .onTapGesture { appState.route(to: .about) }
+                label(
+                    title: Theme.Locale.Profile.settings,
+                    icon: Theme.Icons.settings
+                )
+                .onTapGesture { appState.route(to: .settings) }
+            }
+            Section {
+                Button(action: { appState.signInApple() }) {
+                    SignInWithAppleButtonViewRepresentable(type: .default, style: .black)
+                        .allowsHitTesting(false)
+                }
+                .frame(height: 55)
+                .listRowInsets(.zero)
+            }
+        }
+        .toolbar {
+            ToolbarItem(placement: .principal, content: AppPrincipal.init)
+        }
+    }
+    
     @ViewBuilder
     func authenticatedView(user: FirebaseUser) -> some View {
         List {
@@ -38,15 +64,7 @@ extension ProfileView {
                 )
                 .onTapGesture { appState.route(to: .settings) }
             }
-            Section {
-                
-                
-//                label(
-//                    title: Theme.Locale.Profile.donations,
-//                    icon: Theme.Icons.donations
-//                )
-//                .onTapGesture { isDonationsPresented.toggle() }
-            }
+
             Section {
                 Button(action: appState.signout) {
                     Label(title: {

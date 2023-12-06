@@ -40,6 +40,23 @@ struct MajorView: View {
             personDetailView(person)
         }
         .sheet(isPresented: $model.isNewReviewViewPresented, content: newReviewView)
+        .sheet(isPresented: $model.isLoginSuggestionPresented, content: {
+            UnauthenticatedView(
+                title: Theme.Locale.Favorites.addUnauthenticated,
+                action: {
+                    appState.signInApple { result in
+                        switch result {
+                        case .success:
+                            DispatchQueue.main.async {
+                                model.isLoginSuggestionPresented = false
+                            }
+                        case let .failure(error):
+                            print(error.localizedDescription)
+                        }
+                    }
+                }
+            )
+        })
     }
 }
 
@@ -257,7 +274,7 @@ extension MajorView {
                     }
                     .setColor(.gray)
                     .setFont(.footnote, .regular, .rounded)
-                        
+                    
                 }
                 .padding(.top)
                 .maxWidth()
@@ -426,7 +443,7 @@ extension MajorView {
             }
         }
     }
-
+    
     enum StatType {
         case duration(duration: Double)
         case spots(spots: Int)
