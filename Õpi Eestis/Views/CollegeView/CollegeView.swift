@@ -220,23 +220,33 @@ extension CollegeView {
     
     @ViewBuilder
     func summaryContent() -> some View {
-        SummaryContent(school: model.college)
+        SummaryContent(college: model.college)
     }
     
     struct SummaryContent: View {
-        let school: College
+        let college: College
         @State private var isExpanded = false
  
         var body: some View {
             VStack(alignment: .center, spacing: 16){
-                Text(.init(school.description))
+                Text(.init(college.description))
                     .setFont(.subheadline, .regular, .rounded)
-                    .lineLimit(isExpanded ? nil : 5)
+                    .lineLimit(isExpanded ? nil : 15)
                     .truncationMode(.tail)
                     .setColor(Theme.Colors.black)
                 Text(isExpanded ? Theme.Locale.College.less : Theme.Locale.College.more)
-                    .setFont(.caption2, .medium, .rounded)
-                    .setColor(.gray)
+                    .setFont(.caption, .medium, .rounded)
+                    .setColor(college.palette.base)
+                    .padding(.vertical, 4)
+                    .padding(.horizontal, 12)
+                    .background(
+                        ZStack {
+                            Capsule(style: .continuous)
+                                .fill(Color.white)
+                            Capsule(style: .continuous)
+                                .fill(college.palette.base.opacity(0.175).gradient)
+                        }
+                    )
             }
             .onTapGesture {
                 isExpanded.toggle()

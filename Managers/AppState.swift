@@ -1,18 +1,23 @@
 import SwiftUI
 import FirebaseAuth
 import FirebaseFirestore
+import FirebaseStorage
 
 class AppState: ObservableObject {
     @Published var collegeNavigation: NavigationPath
     @Published var mapNavigation: NavigationPath
     @Published var favoritesNavigation: NavigationPath
     @Published var profileNavigation: NavigationPath
-    @Published private(set) var selectedIndex: Tabs
+    
+    
     @Published private(set) var authState: AuthState
     @Published private(set) var appInformation: AppInformation
     
-    let environment: AppEnvironment = .remote
     @Published private(set) var user: FirebaseUser?
+    @Published var pendingUser: PendingUser?
+    
+    let environment: AppEnvironment = .remote
+    private var selectedIndex: Tabs
     private let dependencies: DependencyManager = .shared
     private var userListener: ListenerRegistration?
     
@@ -60,6 +65,125 @@ class AppState: ObservableObject {
         }
     )}
     
+    
+}
+
+private extension AppState {
+    func start() {
+        monitorAuthState()
+        Task {
+            await fetchAppInformation()
+        }
+    }
+    
+    func monitorAuthState() {
+        dependencies.network.streamAuthState { user in
+            guard let user else {
+                self.handleUnauthenticated()
+                return
+            }
+            
+            Task {
+                if let firebaseUser = try await self.checkIfUserInDatabase(id: user.uid) {
+                    DispatchQueue.main.async {
+                        self.handleAuthenticated(user: firebaseUser)
+                    }
+                } else {
+                    DispatchQueue.main.async {
+                        self.handlePartiallyAuthenticated(id: user.uid, email: user.email)
+                    }
+                }
+            }
+        }
+    }
+    
+    func handleAuthenticated(user: FirebaseUser) {
+        print("User with UID \(user.id) and email \(user.email) is logged in!")
+        assignUser(user)
+        setAuthState(to: .authenticated(user: user))
+        streamUser(for: user.id)
+        pendingUser = nil
+    }
+    
+    func handlePartiallyAuthenticated(id: String, email: String?) {
+        print("User with UID \(id) has signed in but has no account yet!")
+        pendingUser = .init(id: id, email: email)
+    }
+    
+    func handleUnauthenticated() {
+        print("User is not logged in.")
+        self.invalidateUser()
+        self.userListener?.remove()
+        self.setAuthState(to: .unauthenticated)
+    }
+    
+    func checkIfUserInDatabase(id: String) async throws -> FirebaseUser? {
+        try await self.dependencies.network.fetchUser(userId: id)
+    }
+    
+    func assignUser(_ user: FirebaseUser) {
+        self.user = user
+    }
+    
+    func invalidateUser() {
+        self.user = nil
+    }
+    
+    func setAuthState(to newState: AuthState) {
+        self.authState = newState
+    }
+}
+
+extension AppState {
+    func setupNewUser(
+        id: String,
+        firstName: String,
+        lastName: String,
+        email: String,
+        nationality: Nationality,
+        photo: UIImage?
+    ) {
+        print("Setting up account")
+        Task {
+            if let photo {
+                let photoUrl = try await uploadImageAsync(photo)
+                let user: FirebaseUser = .init(
+                    id: id,
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: email,
+                    photoUrl: photoUrl.absoluteString,
+                    nationality: nationality,
+                    dateJoined: Date.now.dateAndTimeString
+                )
+                try await self.dependencies.network.createUser(user: user)
+                
+                DispatchQueue.main.async {
+                    self.handleAuthenticated(user: user)
+                }
+            } else {
+                let user: FirebaseUser = .init(
+                    id: id,
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: email,
+                    photoUrl: nil,
+                    nationality: nationality,
+                    dateJoined: Date.now.dateAndTimeString
+                )
+                try await self.dependencies.network.createUser(user: user)
+                
+                DispatchQueue.main.async {
+                    self.handleAuthenticated(user: user)
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Navigation methods
+
+extension AppState {
     func route(to destination: CollegeDestination) {
         switch selectedIndex {
         case .colleges:
@@ -98,91 +222,12 @@ class AppState: ObservableObject {
             OutcomesView(college: college, outcomes: outcomes)
         }
     }
-    
-    func signInApple(completion: ((Result<Void, Error>) -> Void)? = nil) {
-        Task {
-            do {
-                let helper = await SignInWithAppleHelper()
-                let tokens = try await helper.startSignInWithApple()
-                try await AuthenticationManager.shared.signInWithApple(tokens: tokens)
-                completion?(.success(()))
-            } catch {
-                print(error)
-                completion?(.failure(error))
-            }
-        }
-    }
-    
-    func signout() {
-        do {
-            try AuthenticationManager.shared.signOut()
-            authState = .unauthenticated
-        } catch {
-            print(error.localizedDescription)
-        }
-    }
 }
 
+// MARK: - Network methods
+
 private extension AppState {
-    func start() {
-        monitorAuthState()
-        Task {
-            await fetchAppInformation()
-        }
-    }
-    
-    func monitorAuthState() {
-        dependencies.network.streamAuthState { [weak self] user in
-            guard let self else { return }
-            if let user = user {
-                print("User with UID \(user.uid) is logged in.")
-                Task {
-                    if let firebaseUser = try await self.checkIfUserInDatabase(id: user.uid) {
-                        DispatchQueue.main.async {
-                            self.assignUser(firebaseUser)
-                            self.setAuthState(to: .authenticated(user: firebaseUser))
-                            self.startListeningToUserDocument(for: firebaseUser.id)
-                        }
-                    } else {
-                        let newUser = try await self.addUserToDatabase(user: user)
-                        DispatchQueue.main.async {
-                            self.assignUser(newUser)
-                            self.setAuthState(to: .authenticated(user: newUser))
-                            self.userListener?.remove()
-                        }
-                    }
-                }
-            } else {
-                print("User is not logged in.")
-                self.invalidateUser()
-                self.setAuthState(to: .unauthenticated)
-            }
-        }
-    }
-    
-    func checkIfUserInDatabase(id: String) async throws -> FirebaseUser? {
-        try await self.dependencies.network.fetchUser(userId: id)
-    }
-    
-    func addUserToDatabase(user: User) async throws -> FirebaseUser {
-        let newUser = FirebaseUser.initial(id: user.uid, email: user.email, dateJoined: .now)
-        try await self.dependencies.network.createUser(user: newUser)
-        return newUser
-    }
-    
-    func assignUser(_ user: FirebaseUser) {
-        self.user = user
-    }
-    
-    func invalidateUser() {
-        self.user = nil
-    }
-    
-    func setAuthState(to newState: AuthState) {
-        self.authState = newState
-    }
-    
-    func startListeningToUserDocument(for userId: String) {
+    func streamUser(for userId: String) {
         userListener?.remove() // Remove any existing listener
         
         userListener = dependencies.network.streamUser(userId: userId) { [weak self] result in
@@ -210,7 +255,65 @@ private extension AppState {
             print(error.localizedDescription)
         }
     }
+    
+    func uploadImageAsync(_ image: UIImage) async throws -> URL {
+        guard let data = image.jpegData(compressionQuality: 0.8) else {
+            throw NSError(domain: "S", code: 0)
+        }
+        
+        let storage = Storage.storage()
+        let storageRef = storage.reference()
+        let photoRef = storageRef.child("photos/\(UUID().uuidString).jpg")
+        
+        return try await withCheckedThrowingContinuation { continuation in
+            photoRef.putData(data, metadata: nil) { _, error in
+                if let error = error {
+                    continuation.resume(throwing: error)
+                    return
+                }
+                
+                photoRef.downloadURL { url, error in
+                    if let error = error {
+                        continuation.resume(throwing: error)
+                    } else if let downloadUrl = url {
+                        continuation.resume(returning: downloadUrl)
+                    } else {
+                        continuation.resume(throwing: NSError(domain: "X", code: 0))
+                    }
+                }
+            }
+        }
+    }
 }
+
+// MARK: - Signing methods
+
+extension AppState {
+    func signout() {
+        do {
+            try AuthenticationManager.shared.signOut()
+            authState = .unauthenticated
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+    
+    func signInApple(completion: ((Result<Void, Error>) -> Void)? = nil) {
+        Task {
+            do {
+                let helper = await SignInWithAppleHelper()
+                let tokens = try await helper.startSignInWithApple()
+                try await AuthenticationManager.shared.signInWithApple(tokens: tokens)
+                completion?(.success(()))
+            } catch {
+                print(error)
+                completion?(.failure(error))
+            }
+        }
+    }
+}
+
+// MARK: - Objects
 
 extension AppState {
     enum AppEnvironment {
@@ -222,6 +325,11 @@ extension AppState {
     enum AuthState {
         case authenticated(user: FirebaseUser)
         case unauthenticated
+    }
+    
+    struct PendingUser: Identifiable {
+        let id: String
+        let email: String?
     }
 }
 

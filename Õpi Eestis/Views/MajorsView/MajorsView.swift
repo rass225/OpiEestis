@@ -159,14 +159,13 @@ extension MajorsView {
                                     }
                                 }
                             }
-                            
                             Text("•")
                             Text(major.durationLabel)
                             Text("•")
                             Text(major.costLabel)
                         }
                         .setColor(Theme.Colors.gray)
-                        .setFont(.caption, .medium, .rounded)
+                        .setFont(.footnote, .medium, .rounded)
                     }
                 }
                 .padding(.vertical, 4)

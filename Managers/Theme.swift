@@ -60,6 +60,7 @@ struct Theme {
         static let settings: Image = .init(systemName: "gearshape.fill")
         static let about: Image = .init(systemName: "book.pages.fill")
         static let donations: Image = .init(systemName: "gift.fill")
+        static let translate: Image = Image("translate")
     }
     
     enum Locale {
@@ -109,6 +110,7 @@ struct Theme {
             static let lastName: LocalizedStringKey = "myAccount_lastName"
             static let email: LocalizedStringKey = "myAccount_email"
             static let title: LocalizedStringKey = "myAccount_title"
+            static let nationality: LocalizedStringKey = "myAccount_nationality"
         }
         
         enum Settings {
@@ -121,6 +123,14 @@ struct Theme {
             static let author: String = "Designed and developed by Rasmus Tauts."
             static let copyright: String = "Copyright © 2019 Rasmus Tauts. All rights reserved."
             static let description: LocalizedStringKey = "about_description"
+        }
+        
+        enum UserSetup {
+            static let title: LocalizedStringKey = "userSetup_title"
+            static let nationality: LocalizedStringKey = "userSetup_nationality"
+            static let name: LocalizedStringKey = "userSetup_name"
+            static let email: LocalizedStringKey = "userSetup_email"
+            static let signup: LocalizedStringKey = "userSetup_signup"
         }
         
         enum Major {

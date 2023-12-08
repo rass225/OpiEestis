@@ -24,7 +24,7 @@ extension AuthenticationManager {
             rawNonce: tokens.nonce
         )
         let firebaseAuthDataResult = try await Auth.auth().signIn(with: credentials)
-        let firebaseUser = firebaseAuthDataResult.user
+//        let firebaseUser = firebaseAuthDataResult.user
     }
     
     func signIn(credentials: AuthCredential) async throws -> AuthDataResultModel {

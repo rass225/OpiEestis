@@ -1,25 +1,27 @@
 import Foundation
+import FirebaseFirestore
 
 struct FirebaseUser: Codable, Hashable, Equatable {
     let id: String
-    let firstName: String?
-    let lastName: String?
-    let email: String?
+    let firstName: String
+    let lastName: String
+    let email: String
     let photoUrl: String?
-    let dateJoined: Date?
+    let nationality: Nationality
+    let dateJoined: String
     
     static func initial(
         id: String,
-        email: String?,
-        dateJoined: Date
+        email: String
     ) -> FirebaseUser {
         return .init(
             id: id,
-            firstName: nil,
-            lastName: nil,
+            firstName: "",
+            lastName: "",
             email: email,
             photoUrl: nil,
-            dateJoined: .now
+            nationality: .init(name: "Estonia", symbol: "🇪🇪"),
+            dateJoined: Date().dateAndTimeString
         )
     }
 }

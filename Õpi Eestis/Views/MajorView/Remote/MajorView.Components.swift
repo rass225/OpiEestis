@@ -63,6 +63,7 @@ extension MajorView {
         HStack {
             ForEach(model.availableTabs, id: \.self) { tab in
                 tab.image
+                    .setFont(.body, .regular, .rounded)
                     .maxSize()
                     .background {
                         if model.tabSelection == tab {
@@ -73,7 +74,7 @@ extension MajorView {
                     }
                     .contentShape(.capsule)
                     .onTapGesture {
-                        withAnimation(.easeInOut(duration: 0.2)) {model.tabSelection = tab }
+                        withAnimation(.easeInOut(duration: 0.2)) { model.tabSelection = tab }
                     }
             }
         }

@@ -44,12 +44,11 @@ struct MajorView: View {
             UnauthenticatedView(
                 title: Theme.Locale.Favorites.addUnauthenticated,
                 action: {
+                    model.isLoginSuggestionPresented = false
                     appState.signInApple { result in
                         switch result {
                         case .success:
-                            DispatchQueue.main.async {
-                                model.isLoginSuggestionPresented = false
-                            }
+                            print("Signed in")
                         case let .failure(error):
                             print(error.localizedDescription)
                         }
@@ -145,10 +144,27 @@ extension MajorView {
                     .setFont(.footnote, .regular, .rounded)
                     .setColor(Theme.Colors.gray)
             }
-            MajorStat(
-                type: .language(lang: model.major.language),
-                color: model.college.palette.base
-            )
+            if let languages = model.major.languages {
+                HStack(alignment: .center, spacing: 0) {
+                    Theme.Icons.translate
+                        .resizable()
+                        .frame(width: 20, height: 22)
+                        .setColor(model.college.palette.base.gradient)
+//                        .setFont(.body, .regular, .rounded)
+                        .frame(width: 32, alignment: .leading)
+                    HStack(spacing: 4) {
+                        ForEach(languages, id: \.self) { language in
+                            Text(language.symbol)
+                                .setFont(.title3, .medium, .rounded)
+                                .setColor(Theme.Colors.black)
+                        }
+                    }
+                    Spacer()
+                    Text(Theme.Locale.Major.language)
+                        .setFont(.footnote, .regular, .rounded)
+                        .setColor(Theme.Colors.gray)
+                }
+            }
             MajorStat(
                 type: .spots(spots: model.major.spots),
                 color: model.college.palette.base

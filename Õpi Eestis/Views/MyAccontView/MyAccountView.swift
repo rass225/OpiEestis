@@ -11,6 +11,7 @@ struct MyAccountView: View {
                 .listRowSeparator(.hidden)
             Section(content: nameContent, header: nameHeader)
             Section(content: emailContent, header: emailHeader)
+            Section(content: nationalityContent, header: nationalityHeader)
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden()
@@ -79,10 +80,20 @@ extension MyAccountView {
     
     @ViewBuilder
     func emailContent() -> some View {
-        TextField("", text: $model.email, prompt: Text(Theme.Locale.MyAccount.email))
-            .onReceive(model.$email.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
-                model.updateEmail()
-            }
+        Text(model.email)
+            .setFont(.subheadline, .regular, .rounded)
+//        TextField("", text: $model.email, prompt: Text(Theme.Locale.MyAccount.email))
+//            .onReceive(model.$email.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
+//                model.updateEmail()
+//            }
+    }
+    
+    @ViewBuilder
+    func nationalityContent() -> some View {
+        HStack {
+            Text(model.nationality.symbol)
+            Text(model.nationality.name)
+        }
     }
     
     @ViewBuilder
@@ -155,5 +166,10 @@ extension MyAccountView {
     @ViewBuilder
     func nameHeader() -> some View {
         Text(Theme.Locale.MyAccount.name)
+    }
+    
+    @ViewBuilder
+    func nationalityHeader() -> some View {
+        Text(Theme.Locale.MyAccount.nationality)
     }
 }

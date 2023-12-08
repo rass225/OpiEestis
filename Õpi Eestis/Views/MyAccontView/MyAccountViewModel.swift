@@ -11,6 +11,7 @@ extension MyAccountView {
         @Published var email: String
         @Published var image: UIImage?
         @Published var selectedImages: [PhotosPickerItem] = []
+        let nationality: Nationality
         
         private let dependencies: DependencyManager
         private var subscriptions: Set<AnyCancellable> = []
@@ -22,9 +23,10 @@ extension MyAccountView {
             user: FirebaseUser,
             dependencies: DependencyManager = .shared
         ) {
-            self.firstName = user.firstName ?? ""
-            self.lastName = user.lastName ?? ""
-            self.email = user.email ?? ""
+            self.firstName = user.firstName
+            self.lastName = user.lastName
+            self.email = user.email
+            self.nationality = user.nationality
             self.userId = user.id
             self.userInternal = user
             self.dependencies = dependencies

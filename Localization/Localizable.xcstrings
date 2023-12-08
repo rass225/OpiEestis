@@ -1809,6 +1809,23 @@
         }
       }
     },
+    "myAccount_nationality" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nationality"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rahvus"
+          }
+        }
+      }
+    },
     "myAccount_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2125,6 +2142,91 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koolid"
+          }
+        }
+      }
+    },
+    "userSetup_email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "userSetup_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimi"
+          }
+        }
+      }
+    },
+    "userSetup_nationality" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nationality"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rahvus"
+          }
+        }
+      }
+    },
+    "userSetup_signup" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kinnita"
+          }
+        }
+      }
+    },
+    "userSetup_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personal Details"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isiklikud andmed"
           }
         }
       }

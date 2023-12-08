@@ -26,6 +26,10 @@ struct OpiEestisApp: App {
                 .environmentObject(appState)
                 .environment(\.locale, .init(identifier: localeManager.currentLocale.identifier))
                 .statusBarHidden()
+                .sheet(item: $appState.pendingUser) { user in
+                    UserSetupView(model: .init(user: user))
+                        .environmentObject(appState)
+                }
         }
     }
 }
