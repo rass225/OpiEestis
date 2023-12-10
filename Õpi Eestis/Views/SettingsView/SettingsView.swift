@@ -40,18 +40,9 @@ extension SettingsView {
                 Text(locale.label)
                 Spacer()
                 if localeManager.currentLocale == locale {
-                    Circle()
-                        .fill(Theme.Colors.primary.opacity(0.2))
-                        .frame(width: 24)
-                        .overlay {
-                            Circle()
-                                .fill(Theme.Colors.primary.gradient)
-                                .frame(width: 14)
-                        }
+                    selectedCircle()
                 } else {
-                    Circle()
-                        .fill(Theme.Colors.primary.opacity(0.2))
-                        .frame(width: 24)
+                    unselectedCircle()
                 }
             }
             .contentShape(.rect)
@@ -59,6 +50,25 @@ extension SettingsView {
                 localeManager.currentLocale = locale
             }
         }
+    }
+    
+    @ViewBuilder
+    func selectedCircle() -> some View {
+        Circle()
+            .fill(Theme.Colors.primary.opacity(0.2))
+            .frame(width: 24)
+            .overlay {
+                Circle()
+                    .fill(Theme.Colors.primary.gradient)
+                    .frame(width: 14)
+            }
+    }
+    
+    @ViewBuilder
+    func unselectedCircle() -> some View {
+        Circle()
+            .fill(Theme.Colors.primary.opacity(0.2))
+            .frame(width: 24)
     }
 }
 

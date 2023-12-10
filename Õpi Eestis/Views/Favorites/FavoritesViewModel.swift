@@ -13,6 +13,10 @@ extension FavoritesView {
             Dictionary(grouping: favorites) { $0.collegeId }
         }
         
+        var currentLocale: AppLocale {
+            DependencyManager.shared.localeManager.currentLocale
+        }
+        
         init(
             colleges: [College],
             dependencies: DependencyManager = .shared,

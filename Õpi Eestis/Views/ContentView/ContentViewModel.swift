@@ -4,7 +4,8 @@ import SwiftUI
 
 extension ContentView {
     class Model: ObservableObject {
-        @Published var schools: [College]
+        @Published private(set) var schools: [College]
+        @Published private(set) var viewState: ViewState = .loading
         private let dependencies: DependencyManager
         
         init(
@@ -13,38 +14,49 @@ extension ContentView {
             print("✅ Content View Model initialized")
             self.dependencies = dependencies
             self.schools = []
-            Task {
-                await fetchSchools()
+            self.start()
+        }
+    }
+}
+
+extension ContentView.Model {
+    func refresh() {
+        Task {
+            await fetchSchools()
+        }
+    }
+}
+
+private extension ContentView.Model {
+    func start() {
+        Task {
+            await fetchSchools()
+        }
+    }
+    
+    func fetchSchools() async {
+        DispatchQueue.main.async {
+            self.viewState = .loading
+        }
+        do {
+            let colleges = try await dependencies.network.fetchColleges()
+            DispatchQueue.main.async {
+                self.schools = colleges.sorted(by: \.name)
+                self.viewState = .normal
+            }
+        } catch {
+            print(error.localizedDescription)
+            DispatchQueue.main.async {
+                self.viewState = .error(error)
             }
         }
     }
 }
 
 extension ContentView.Model {
-    func getAllBranches() -> [CollegeBranch] {
-        var allBranches: [CollegeBranch] = []
-            for college in schools {
-                for branch in college.branches {
-                    let collegeBranch = CollegeBranch(
-                        location: branch,
-                        parentCollege: college
-                    )
-                    allBranches.append(collegeBranch)
-                }
-            }
-            return allBranches
-    }
-}
-
-private extension ContentView.Model {
-    func fetchSchools() async {
-        do {
-            let colleges = try await dependencies.network.fetchColleges()
-            DispatchQueue.main.async {
-                self.schools = colleges.sorted(by: \.name)
-            }
-        } catch {
-            print(error.localizedDescription)
-        }
+    enum ViewState {
+        case loading
+        case normal
+        case error(Error)
     }
 }

@@ -10,8 +10,8 @@ struct ClusteredMapView: UIViewRepresentable {
             longitude: 25.2
         ),
         span:  .init(
-            latitudeDelta: 6.5,
-            longitudeDelta: 6.5
+            latitudeDelta: 5.35,
+            longitudeDelta: 5.35
         )
     )
 
@@ -54,7 +54,7 @@ struct ClusteredMapView: UIViewRepresentable {
             if let clusterAnnotation = view.annotation as? MKClusterAnnotation {
                 // Get the current zoom level
                 let currentSpan = mapView.region.span
-                let tolerance: Double = 0.5
+                let tolerance: Double = 1.75
                 
                 if currentSpan.latitudeDelta > parent.region.span.latitudeDelta + tolerance ||
                     currentSpan.longitudeDelta > parent.region.span.longitudeDelta + tolerance {

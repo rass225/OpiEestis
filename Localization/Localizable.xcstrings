@@ -517,6 +517,40 @@
         }
       }
     },
+    "error_buttonLabel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proovi uuesti"
+          }
+        }
+      }
+    },
+    "error_fetchSchools" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error occurred when loading colleges"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viga koolide alla laadimisel!"
+          }
+        }
+      }
+    },
     "favorites_add_unauthenticated" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1959,6 +1993,9 @@
         }
       }
     },
+    "QUIZ GAME" : {
+
+    },
     "settings_language" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2095,23 +2132,6 @@
         }
       }
     },
-    "tab_map" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Map"
-          }
-        },
-        "et-EE" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kaart"
-          }
-        }
-      }
-    },
     "tab_profile" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2125,6 +2145,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profiil"
+          }
+        }
+      }
+    },
+    "tab_quiz" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
           }
         }
       }

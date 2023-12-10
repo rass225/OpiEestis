@@ -19,7 +19,7 @@ struct AppPrincipal: View {
                 .resizable()
                 .fit()
                 .frame(height: 22)
-                .setColor(Theme.Colors.primary)
+                .setColor(Theme.Colors.primary.gradient)
             Text(appName)
                 .setFont(.title3, .semibold, .rounded)
         }

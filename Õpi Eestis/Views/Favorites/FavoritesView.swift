@@ -64,39 +64,20 @@ struct FavoritesView: View {
     @ViewBuilder
     func majorCell(_ major: NewMajor, schoolName: String) -> some View {
         if let college = model.colleges.first(where: { $0.name == schoolName}) {
-            VStack(alignment: .leading, spacing: 2) {
-                Text(major.name)
-                    .setFont(.callout, .medium, .rounded)
-                    .setColor(Theme.Colors.black)
-                VStack(alignment: .leading, spacing: 24) {
-                    Text(major.level.label)
-                        .setFont(.subheadline, .medium, .rounded)
-                        .setColor(college.palette.base)
-                    HStack(spacing: 8) {
-                        Text(major.language.inLanguageLabel)
-                        Text("•")
-                        Text(Theme.Locale.Duration.getYears(amount: major.duration))
-                        Text("•")
-                        Text(major.cost.priceLabel)
-                    }
-                    .setColor(.gray)
-                    .setFont(.footnote, .medium, .rounded)
-                }
-            }
-            .padding(.vertical, 4)
-            .swipeActions {
-                Button(action: {
+            MajorsView.MajorCell(
+                major: major,
+                isFavorite: true,
+                baseColor: college.palette.base,
+                showDetailed: true,
+                routeToMajor: {
+                    navigateToMajor(college: college, major: major)
+                },
+                removeFavorite: {
                     model.removeFavorite(major: major, college: college)
-                }, label: {
-                    Theme.Icons.heartSlash
-                })
-                .tint(.red)
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .contentShape(Rectangle())
-            .onTapGesture {
-                navigateToMajor(college: college, major: major)
-            }
+                },
+                addFavorite: {},
+                locale: model.currentLocale
+            )
         }
     }
     

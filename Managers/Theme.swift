@@ -61,12 +61,13 @@ struct Theme {
         static let about: Image = .init(systemName: "book.pages.fill")
         static let donations: Image = .init(systemName: "gift.fill")
         static let translate: Image = Image("translate")
+        static let x = Image(systemName: "x")
     }
     
     enum Locale {
         enum Tabs {
             static let schools: LocalizedStringKey = "tab_schools"
-            static let map: LocalizedStringKey = "tab_map"
+            static let quiz: LocalizedStringKey = "tab_quiz"
             static let favorites: LocalizedStringKey = "tab_favorites"
             static let profile: LocalizedStringKey = "tab_profile"
         }
@@ -277,6 +278,11 @@ struct Theme {
             static let apprenticeship: LocalizedStringKey = "studyType_apprenticeship"
             static let evening: LocalizedStringKey = "studyType_evening"
             static let remote: LocalizedStringKey = "studyType_remote"
+        }
+        
+        enum Error {
+            static let buttonLabel: LocalizedStringKey = "error_buttonLabel"
+            static let fetchSchools: LocalizedStringKey = "error_fetchSchools"
         }
     }
 }

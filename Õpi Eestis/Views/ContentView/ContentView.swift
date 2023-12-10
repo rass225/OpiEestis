@@ -3,27 +3,52 @@ import CoreLocation
 import MapKit
 
 struct ContentView: View {
-    @EnvironmentObject var model: Model
+    @StateObject private var model: Model = .init()
     @EnvironmentObject var appState: AppState
     
     var body: some View {
-        if model.schools.isEmpty {
-            ProgressView()
-                .progressViewStyle(.circular)
-        } else {
-            TabView(selection: appState.tabSelection) {
-                collegesView()
-                mapView()
-                favoritesView()
-                profileView()
-            }
-            .tint(Theme.Colors.primary.gradient)
+        switch model.viewState {
+        case .loading:
+            loadingStateView()
+        case .normal:
+            normalStateView()
+        case let .error(error):
+            errorStateView(error: error)
         }
     }
 }
 
-// MARK: - Tabs
+// MARK: - ViewStates
+
 extension ContentView {
+    @ViewBuilder
+    func loadingStateView() -> some View {
+        ProgressView()
+            .progressViewStyle(.circular)
+    }
+    
+    @ViewBuilder
+    func normalStateView() -> some View {
+        TabView(selection: appState.tabSelection) {
+            collegesView()
+            quizView()
+            favoritesView()
+            profileView()
+        }
+        .tint(Theme.Colors.primary.gradient)
+    }
+    
+    @ViewBuilder
+    func errorStateView(error: Error) -> some View {
+        ErrorView(
+            error: .fetchSchools,
+            viewType: .view(action: model.refresh)
+        )
+    }
+}
+
+// MARK: - Tabs
+private extension ContentView {
     @ViewBuilder
     func profileView() -> some View {
         NavigationStack(path: $appState.profileNavigation) {
@@ -49,21 +74,24 @@ extension ContentView {
     }
     
     @ViewBuilder
-    func mapView() -> some View {
+    func quizView() -> some View {
         NavigationStack(path: $appState.mapNavigation) {
-            MapView(locations: model.getAllBranches())
+            Text("QUIZ GAME")
+                .maxSize()
+                .background(Theme.Colors.systemGray)
                 .navigationDestination(for: CollegeDestination.self) {
                     appState.navigationDestination($0)
                 }
         }
-        .tabItem(mapTabItem)
+        .tabItem(quizTabItem)
         .tag(Tabs.map)
     }
     
     @ViewBuilder
     func collegesView() -> some View {
         NavigationStack(path: $appState.collegeNavigation) {
-            CollegesListView(model: .init(colleges: model.schools))
+            CollegesView(model: .init(schools: model.schools))
+//            CollegesListView(model: .init(colleges: model.schools))
                 .navigationDestination(for: CollegeDestination.self) {
                     appState.navigationDestination($0)
                 }
@@ -78,12 +106,11 @@ extension ContentView {
     @ViewBuilder
     func collegesTabItem() -> some View {
         Label(Theme.Locale.Tabs.schools, systemImage: "graduationcap.fill")
-//        Label(Theme.Locale.Tabs.schools, systemImage: "graduationcap.fill")
     }
     
     @ViewBuilder
-    func mapTabItem() -> some View {
-        Label(Theme.Locale.Tabs.map, systemImage: "map.fill")
+    func quizTabItem() -> some View {
+        Label(Theme.Locale.Tabs.quiz, systemImage: "doc.questionmark.fill")
     }
     
     @ViewBuilder

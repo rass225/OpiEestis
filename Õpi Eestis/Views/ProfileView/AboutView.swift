@@ -14,26 +14,24 @@ struct AboutView: View {
     }
     
     var body: some View {
-        VStack(spacing: 0){
-            List {
-                Section {
-                    Text(.init(description))
-                        .lineSpacing(5)
-                        .multilineTextAlignment(.leading)
-                        .setFont(.subheadline, .regular, .rounded)
-                }
-                Section {
-                    VStack(spacing: 20){
-                        Text(Theme.Locale.About.author)
-                        Text(Theme.Locale.About.copyright)
-                    }
-                    .padding(.top)
-                    .maxWidth()
-                    .setFont(.footnote, .regular, .rounded)
-                    .setColor(Theme.Colors.gray)
-                }
-                .listRowBackground(Color.clear)
+        List {
+            Section {
+                Text(.init(description))
+                    .lineSpacing(5)
+                    .multilineTextAlignment(.leading)
+                    .setFont(.subheadline, .regular, .rounded)
             }
+            Section {
+                VStack(spacing: 20){
+                    Text(Theme.Locale.About.author)
+                    Text(Theme.Locale.About.copyright)
+                }
+                .padding(.top)
+                .maxWidth()
+                .setFont(.footnote, .regular, .rounded)
+                .setColor(Theme.Colors.gray)
+            }
+            .listRowBackground(Color.clear)
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)

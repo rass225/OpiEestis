@@ -17,9 +17,9 @@ class CollegeAnnotationView: MKAnnotationView {
                 let markerView = MarkerView(
                     color: collegeAnnotation.branch.parentCollege.palette.base,
                     logo: collegeAnnotation.branch.parentCollege.logoRef
-                ).frame(height: 60, alignment: .top)
+                ).frame(height: 48, alignment: .top)
                 customView = UIHostingController(rootView: markerView).view
-                customView.frame.size = .init(width: 50, height: 60)
+                customView.frame.size = .init(width: 40, height: 48)
                 customView.backgroundColor = UIColor.clear
             } else {
                 let littleMarkerView = LittleMarkerView(
@@ -35,7 +35,7 @@ class CollegeAnnotationView: MKAnnotationView {
             self.frame = customView.frame
             self.displayPriority = .required
             if collegeAnnotation.branch.location.isPrimary {
-                self.centerOffset = CGPoint(x: 0, y: -40)
+                self.centerOffset = CGPoint(x: 0, y: -35)
             } else {
                 self.centerOffset = CGPoint(x: 0, y: -25)
             }

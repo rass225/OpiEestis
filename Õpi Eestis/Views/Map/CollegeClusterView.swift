@@ -22,17 +22,17 @@ class CollegeClusterView: MKAnnotationView {
             // Add the label to a blue circular background
             let backgroundView = UIView()
             backgroundView.backgroundColor = UIColor(Theme.Colors.primary)
-            backgroundView.layer.cornerRadius = 22
+            backgroundView.layer.cornerRadius = 16
             backgroundView.layer.masksToBounds = true
-            backgroundView.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
+            backgroundView.frame = CGRect(x: 0, y: 0, width: 32, height: 32)
             clusterSizeLabel.frame = backgroundView.frame
             backgroundView.addSubview(clusterSizeLabel)
 
             // Set the background view as the content of the annotation view
             self.addSubview(backgroundView)
             self.frame = backgroundView.frame
-            self.displayPriority = .required
-            self.collisionMode = .rectangle
+            self.displayPriority = .defaultLow
+            self.collisionMode = .none
 //            self.centerOffset = CGPoint(x: 0, y: -backgroundView.frame.height / 2)
         }
     }

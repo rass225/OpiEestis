@@ -11,8 +11,8 @@ struct MarkerView: View {
     init(
         color: Color,
         logo: String,
-        pinHeight: CGFloat = 60,
-        pinWidth: CGFloat = 50
+        pinHeight: CGFloat = 48,
+        pinWidth: CGFloat = 40
     ) {
         self.color = color
         self.logo = logo
@@ -34,7 +34,7 @@ struct MarkerView: View {
                             .padding(4)
                     }
                     .clipShape(Circle())
-                    .padding(5)
+                    .padding(4)
             }
             .contentShape(Rectangle())
     }
@@ -44,7 +44,7 @@ struct MarkerView: View {
             let bodyWidth: CGFloat = width
             let bodyHeight: CGFloat = height
             let tipHeight: CGFloat = 10
-            let cornerRadius: CGFloat = 15
+            let cornerRadius: CGFloat = 11
             
             path.move(to: CGPoint(x: 0, y: cornerRadius))
             

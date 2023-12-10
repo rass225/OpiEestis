@@ -14,6 +14,13 @@ struct MapView: View {
                 title: Theme.Locale.Map.unauthenticated,
                 action: { appState.signInApple() }
             )
+            .padding(.top)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    AppPrincipal()
+                }
+            }
         }
     }
 }
@@ -22,7 +29,14 @@ extension MapView {
     @ViewBuilder
     func authenticatedView() -> some View {
         ClusteredMapView(locations: locations)
-            .ignoresSafeArea(edges: .top)
+            .clipShape(.rect(
+                topLeadingRadius: 12,
+                topTrailingRadius: 12,
+                style: .continuous
+            ))
+            .padding(.top, 20)
+            .padding(.top)
+            .background(Theme.Colors.systemGray)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {

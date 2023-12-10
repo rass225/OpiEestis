@@ -7,23 +7,8 @@ struct MajorsView: View {
     var body: some View {
         List {
             Section(content: {
-                ForEach(model.displayedMajors, id: \.id) { major in
-                    MajorCell(
-                        major: major,
-                        isFavorite: model.isFavorite(major),
-                        baseColor: model.college.palette.base,
-                        showDetailed: model.detailLevel == .detailed,
-                        routeToMajor: {
-                            appState.route(to: .majorRemote(college: model.college, major: major, isFavorite: model.isFavorite(major)))
-                        },
-                        removeFavorite: {
-                            model.removeFavorite(major: major)
-                        },
-                        addFavorite: {
-                            model.addFavorite(major: major)
-                        }, 
-                        locale: model.currentLocale
-                    )
+                ForEach(model.displayedMajors, id: \.id) {
+                    majorCell($0)
                 }
             }, header: hiddenHeader)
         }
@@ -46,11 +31,6 @@ struct MajorsView: View {
 // MARK: - Content
 
 private extension MajorsView {
-    @ViewBuilder
-    func majorsContent() -> some View {
-        
-    }
-    
     @ViewBuilder
     func levelsContent() -> some View {
         Section {
@@ -130,6 +110,26 @@ private extension MajorsView {
 // MARK: - Cells
 
 extension MajorsView {
+    @ViewBuilder
+    func majorCell(_ major: NewMajor) -> some View {
+        MajorCell(
+            major: major,
+            isFavorite: model.isFavorite(major),
+            baseColor: model.college.palette.base,
+            showDetailed: model.detailLevel == .detailed,
+            routeToMajor: {
+                appState.route(to: .majorRemote(college: model.college, major: major, isFavorite: model.isFavorite(major)))
+            },
+            removeFavorite: {
+                model.removeFavorite(major: major)
+            },
+            addFavorite: {
+                model.addFavorite(major: major)
+            },
+            locale: model.currentLocale
+        )
+    }
+    
     struct MajorCell: View {
         let major: NewMajor
         let isFavorite: Bool
@@ -151,18 +151,36 @@ extension MajorsView {
                         .setColor(baseColor)
                         .padding(.bottom, 22)
                     if showDetailed {
-                        HStack(spacing: 8) {
-                            if let languages = major.languages {
-                                HStack(spacing: 4) {
-                                    ForEach(languages, id: \.self) { language in
-                                        Text(language.symbol)
+                        HStack(spacing: 24) {
+                            HStack(spacing: 4) {
+                                Theme.Icons.translate
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 16, height: 16)
+                                    .setColor(baseColor.gradient)
+                                if let languages = major.languages {
+                                    HStack(spacing: 2) {
+                                        ForEach(languages, id: \.self) { language in
+                                            Text(language.symbol)
+                                        }
                                     }
                                 }
                             }
-                            Text("•")
-                            Text(major.durationLabel)
-                            Text("•")
-                            Text(major.costLabel)
+                            
+//                            Text("•")
+                            HStack(spacing: 4) {
+                                Theme.Icons.clock
+                                    .setColor(baseColor.gradient)
+                                Text(major.durationLabel)
+                            }
+                            
+//                            Text("•")
+                            HStack(spacing: 4) {
+                                major.cost.currency.icon
+                                    .setColor(baseColor.gradient)
+                                Text(major.costLabel)
+                            }
+                            
                         }
                         .setColor(Theme.Colors.gray)
                         .setFont(.footnote, .medium, .rounded)
@@ -196,11 +214,9 @@ extension MajorsView {
         
         @ViewBuilder
         func removeFavoriteButton(_ major: NewMajor) -> some View {
-            Button {
-                removeFavorite()
-            } label: {
+            Button(role: .destructive, action: removeFavorite, label: {
                 Image(systemName: "heart.slash")
-            }
+            })
             .tint(.red)
         }
         
