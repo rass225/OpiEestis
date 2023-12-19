@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    " %@ / %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " %1$@ / %2$@"
+          }
+        }
+      }
+    },
     ", " : {
 
     },
@@ -17,6 +27,17 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@%2$"
+          }
+        }
+      }
+    },
+    "%@% " : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$ "
           }
         }
       }
@@ -296,6 +317,9 @@
         }
       }
     },
+    "Discover careers that align with your unique profile. We've analyzed your strengths and interests to suggest potential career paths where you can thrive. Explore industries where your skills are in high demand and learn about the educational paths to get you there." : {
+
+    },
     "duration_five_and_half_years" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -551,6 +575,9 @@
         }
       }
     },
+    "Explore majors that align perfectly with your unique strengths and interests. These recommendations are tailored to your individual profile, offering you a pathway to academic success and a fulfilling career." : {
+
+    },
     "favorites_add_unauthenticated" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -584,6 +611,9 @@
           }
         }
       }
+    },
+    "Kahjuks ei oska me teile ühtegi eriala soovitada" : {
+
     },
     "language_all" : {
       "extractionState" : "manual",
@@ -1877,6 +1907,9 @@
         }
       }
     },
+    "Nothing here yet pussyboi" : {
+
+    },
     "outcomes_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1896,6 +1929,635 @@
     },
     "override" : {
 
+    },
+    "pathfinder_careerInsights_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gain insights into future career prospects and industry trends based on your preferred majors."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saage teadmisi tulevaste karjääriväljavaadete ja tööstustrendide kohta, mis põhinevad soovitatud erialadel."
+          }
+        }
+      }
+    },
+    "pathfinder_careerInsights_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Career Insights"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karjääriülevaade"
+          }
+        }
+      }
+    },
+    "pathfinder_history_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pathfinder History"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rajaleidja Ajalugu"
+          }
+        }
+      }
+    },
+    "pathfinder_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pathfinder"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rajaleidja"
+          }
+        }
+      }
+    },
+    "pathfinder_result_academia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Academia"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akadeemia"
+          }
+        }
+      }
+    },
+    "pathfinder_result_applied" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applied"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rakendatud"
+          }
+        }
+      }
+    },
+    "pathfinder_result_career" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Career"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karjäär"
+          }
+        }
+      }
+    },
+    "pathfinder_result_careerInsights_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Career Insights"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karjääriülevaade"
+          }
+        }
+      }
+    },
+    "pathfinder_result_characteristics_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Characteristics"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinu omadused"
+          }
+        }
+      }
+    },
+    "pathfinder_result_collaboration" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collaboration"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koostöö"
+          }
+        }
+      }
+    },
+    "pathfinder_result_global" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Global"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Globaalne"
+          }
+        }
+      }
+    },
+    "pathfinder_result_independence" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Independence"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iseseisvus"
+          }
+        }
+      }
+    },
+    "pathfinder_result_innovation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innovation"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innovatsioon"
+          }
+        }
+      }
+    },
+    "pathfinder_result_local" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokaalne"
+          }
+        }
+      }
+    },
+    "pathfinder_result_match" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Match"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobivus"
+          }
+        }
+      }
+    },
+    "pathfinder_result_recommendedMajors_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended Majors"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soovitatavad erialad"
+          }
+        }
+      }
+    },
+    "pathfinder_result_structure" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Structure"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Struktuur"
+          }
+        }
+      }
+    },
+    "pathfinder_result_technological" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Technological"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehnoloogiline"
+          }
+        }
+      }
+    },
+    "pathfinder_result_theoretical" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theoretical"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teoreetiline"
+          }
+        }
+      }
+    },
+    "pathfinder_result_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test Results"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tulemus"
+          }
+        }
+      }
+    },
+    "pathfinder_result_traditional" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traditional"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traditsiooniline"
+          }
+        }
+      }
+    },
+    "pathfinder_result_viewHistory" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View history"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testide ajalugu"
+          }
+        }
+      }
+    },
+    "pathfinder_setup_continue" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edasi"
+          }
+        }
+      }
+    },
+    "pathfinder_setup_speakEnglishQuestion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you speak English?"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kas sa räägid inglise keelt?"
+          }
+        }
+      }
+    },
+    "pathfinder_setup_speakEstonianQuestion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you speak Estonian?"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kas sa räägid eesti keelt?"
+          }
+        }
+      }
+    },
+    "pathfinder_setup_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before we begin..."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enne kui me alustame..."
+          }
+        }
+      }
+    },
+    "pathfinder_setup_yourCurrentEducation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your current education"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinu praegune haridus"
+          }
+        }
+      }
+    },
+    "pathfinder_start_promotionalText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover and embrace your academic journey! Uncover your unique strengths and personality traits, explore majors tailored to your profile, and gain valuable insights into future career paths and industry trends. Start your journey to find the perfect academic and career fit with Pathfinder."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alusta oma akadeemilise teekonnaga. Kaardista oma tugevad küljed ja isikuomadused, avasta erialasid, mis sobivad just sulle, ning kogu väärtusliku teavet sinu karjäärimaastikust. Pathfinder aitab sul leida kindla sihi kooli- ja tööturul."
+          }
+        }
+      }
+    },
+    "pathfinder_start_recommendedMajors_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore majors that match your skills and interests."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uuri erialasid, mis sobivad sinu oskuste ja huvidega."
+          }
+        }
+      }
+    },
+    "pathfinder_start_recommendedMajors_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended Majors"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soovitatavad erialad"
+          }
+        }
+      }
+    },
+    "pathfinder_start_start" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alusta"
+          }
+        }
+      }
+    },
+    "pathfinder_start_strenghts_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover your key strengths and how they align with various fields of study."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avasta oma peamised tugevused ja kuidas need sobituvad erinevate õppevaldkondadega"
+          }
+        }
+      }
+    },
+    "pathfinder_start_strenghts_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Strengths"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinu tugevused"
+          }
+        }
+      }
+    },
+    "pathfinder_test_next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Järgmine"
+          }
+        }
+      }
+    },
+    "pathfinder_test_previous" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previous"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eelmine"
+          }
+        }
+      }
+    },
+    "pathfinder_test_question" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Küsimus"
+          }
+        }
+      }
+    },
+    "pathfinder_test_submit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esita"
+          }
+        }
+      }
     },
     "profile_about" : {
       "extractionState" : "manual",
@@ -1993,7 +2655,7 @@
         }
       }
     },
-    "QUIZ GAME" : {
+    "s" : {
 
     },
     "settings_language" : {
@@ -2155,13 +2817,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Test"
+            "value" : "Pathfinder"
           }
         },
         "et-EE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Test"
+            "value" : "Rajaleidja"
           }
         }
       }
@@ -2182,6 +2844,9 @@
           }
         }
       }
+    },
+    "TBD -  To be determined / To be dropped" : {
+
     },
     "userSetup_email" : {
       "extractionState" : "manual",

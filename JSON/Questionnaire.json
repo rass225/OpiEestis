@@ -1,0 +1,1142 @@
+[
+    {
+        "label": "",
+        "labelEn": "Do you enjoy brainstorming new and unconventional ideas?",
+        "answers": [
+            {
+                "label": "Jah, väga",
+                "labelEn": "Yes, very much",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Jah, mõnikord",
+                "labelEn": "Yes, sometimes",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei, mitte eriti",
+                "labelEn": "No, not really",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": -1,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei, üldse mitte",
+                "labelEn": "No, not at all",
+                "affect": {
+                    "structureAndInnovation": -4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": -2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "When faced with a challenge, do you prefer to follow established methods or create your own solutions?",
+        "answers": [
+            {
+                "label": "Jälgin kindlaksmääratud meetodeid",
+                "labelEn": "Follow established methods",
+                "affect": {
+                    "structureAndInnovation": -4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -2,
+                    "theoreticalAndApplied": 2
+                }
+            },
+            {
+                "label": "Eelistan tavaliselt kindlaksmääratud meetodeid",
+                "labelEn": "Usually prefer established methods",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": 1
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Eelistan tavaliselt oma lahendusi",
+                "labelEn": "Usually prefer my own solutions",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": -1
+                }
+            },
+            {
+                "label": "Loon omad lahendused",
+                "labelEn": "Create my own solutions",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": -2
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How important is originality and uniqueness in your work or projects?",
+        "answers": [
+            {
+                "label": "Väga oluline",
+                "labelEn": "Very important",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Mõnevõrra oluline",
+                "labelEn": "Somewhat important",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole eriti oluline",
+                "labelEn": "Not very important",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole oluline",
+                "labelEn": "Not important",
+                "affect": {
+                    "structureAndInnovation": -4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -2,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Do you often find yourself thinking about ways to improve or change everyday items or processes?",
+        "answers": [
+            {
+                "label": "Alati",
+                "labelEn": "Always",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Mõnikord",
+                "labelEn": "Sometimes",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Harva",
+                "labelEn": "Rarely",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Kunagi",
+                "labelEn": "Never",
+                "affect": {
+                    "structureAndInnovation": -4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -2,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Which of the following activities excites you the most?",
+        "answers": [
+            {
+                "label": "Kunsti loomine või disainimine",
+                "labelEn": "Creating art or designing",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Uurimistöö või teaduslik analüüs",
+                "labelEn": "Research or scientific analysis",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": -2,
+                    "theoreticalAndApplied": 4
+                }
+            },
+            {
+                "label": "Ürituste korraldamine või juhtimine",
+                "labelEn": "Organizing or leading events",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Tehniliste probleemide lahendamine",
+                "labelEn": "Solving technical problems",
+                "affect": {
+                    "structureAndInnovation": 3,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 4,
+                    "theoreticalAndApplied": 2
+                }
+            },
+            {
+                "label": "Kirjutamine ja loov kirjutamine",
+                "labelEn": "Writing and creative writing",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 1
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How do you approach problem-solving?",
+        "answers": [
+            {
+                "label": "Analüüsin olukorda süvitsi",
+                "labelEn": "I analyze the situation in depth",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 4
+                }
+            },
+            {
+                "label": "Leian kiireid ja loovaid lahendusi",
+                "labelEn": "I find quick and creative solutions",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 3,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Nõustun meeskonna ühise otsusega",
+                "labelEn": "I go along with the team's collective decision",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Mõtlen välja süsteemseid lahendusi",
+                "labelEn": "I devise systematic solutions",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 3
+                }
+            },
+            {
+                "label": "Küsin nõu ja arvamusi teistelt",
+                "labelEn": "I seek advice and opinions from others",
+                "affect": {
+                    "structureAndInnovation": -1,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 3,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": -1
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Which of these topics would you be most interested in studying?",
+        "answers": [
+            {
+                "label": "Tehnoloogia ja selle areng",
+                "labelEn": "Technology and its development",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 4,
+                    "theoreticalAndApplied": 2
+                }
+            },
+            {
+                "label": "Kultuuridevaheline suhtlus",
+                "labelEn": "Intercultural communication",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 4,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 1
+                }
+            },
+            {
+                "label": "Loodusteadused",
+                "labelEn": "Natural sciences",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 4
+                }
+            },
+            {
+                "label": "Sotsiaalteadused",
+                "labelEn": "Social sciences",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 3,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": 2
+                }
+            },
+            {
+                "label": "Kunst ja loovus",
+                "labelEn": "Art and creativity",
+                "affect": {
+                    "structureAndInnovation": 3,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Do you prefer working on projects alone or as part of a team?",
+        "answers": [
+            {
+                "label": "Üksinda",
+                "labelEn": "Alone",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -4,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 2
+                }
+            },
+            {
+                "label": "Eelistan mõlemat",
+                "labelEn": "Prefer both",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Meeskonna osana",
+                "labelEn": "As part of a team",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": -2
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How do you feel about working in a field that requires constant adaptation to new technologies?",
+        "answers": [
+            {
+                "label": "See on põnev",
+                "labelEn": "It's exciting",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 4,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Olen avatud, kuid ettevaatlik",
+                "labelEn": "I'm open to it, but cautious",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "See on hirmutav",
+                "labelEn": "It's intimidating",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -4,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Do you see yourself in a leadership role in your future career?",
+        "answers": [
+            {
+                "label": "Jah, kindlasti",
+                "labelEn": "Yes, definitely",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 4,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Võib-olla tulevikus",
+                "labelEn": "Maybe in the future",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei, eelistan individuaalset tööd",
+                "labelEn": "No, I prefer individual work",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": -4,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 2
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How important is it for you to have a career that positively impacts society?",
+        "answers": [
+            {
+                "label": "Väga oluline",
+                "labelEn": "Very important",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": -4,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 8,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Oluline",
+                "labelEn": "Important",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 4,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Mitte oluline",
+                "labelEn": "Not important",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": -4,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Üldse mitte oluline",
+                "labelEn": "Not important at all",
+                "affect": {
+                    "structureAndInnovation": -4,
+                    "academiaAndCareer": 4,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": -8,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Would you prefer a career with a predictable routine or one that offers new challenges every day?",
+        "answers": [
+            {
+                "label": "Eelistaksin etteaimatavat rutiini",
+                "labelEn": "I would prefer a predictable routine",
+                "affect": {
+                    "structureAndInnovation": -3,
+                    "academiaAndCareer": 3,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -2,
+                    "theoreticalAndApplied": 3
+                }
+            },
+            {
+                "label": "Sooviksin mõnikord uusi väljakutseid",
+                "labelEn": "I would like new challenges occasionally",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Sooviksin sageli uusi väljakutseid",
+                "labelEn": "I would like new challenges frequently",
+                "affect": {
+                    "structureAndInnovation": 3,
+                    "academiaAndCareer": -3,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 3,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": -3
+                }
+            },
+            {
+                "label": "Sooviksin iga päev uusi väljakutseid",
+                "labelEn": "I would like new challenges every day",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": -4,
+                    "independenceAndCollaboration": 3,
+                    "localAndGlobal": 4,
+                    "lowAndHighTech": 3,
+                    "theoreticalAndApplied": -4
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How do you prefer to learn new information?",
+        "answers": [
+            {
+                "label": "Loengute ja raamatute kaudu",
+                "labelEn": "Lectures and books",
+                "affect": {
+                    "structureAndInnovation": -3,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -3,
+                    "theoreticalAndApplied": -4
+                }
+            },
+            {
+                "label": "Interaktiivsete vahendite kaudu",
+                "labelEn": "Interactive tools",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": -1,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 3,
+                    "theoreticalAndApplied": 2
+                }
+            },
+            {
+                "label": "Grupiarutelude kaudu",
+                "labelEn": "Group discussions",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Iseseisva uurimistöö kaudu",
+                "labelEn": "Independent research",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 3,
+                    "independenceAndCollaboration": -3,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": 3
+                }
+            },
+            {
+                "label": "Praktilise tegevuse kaudu",
+                "labelEn": "Hands-on activities",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 4,
+                    "theoreticalAndApplied": -4
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Which is more important to you: high salary or job satisfaction?",
+        "answers": [
+            {
+                "label": "Kõrge palk",
+                "labelEn": "High salary",
+                "affect": {
+                    "structureAndInnovation": -3,
+                    "academiaAndCareer": 5,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Tööga rahulolu",
+                "labelEn": "Job satisfaction",
+                "affect": {
+                    "structureAndInnovation": 3,
+                    "academiaAndCareer": -5,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 3,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How do you feel about working in an environment that is constantly changing?",
+        "answers": [
+            {
+                "label": "See sobib mulle",
+                "labelEn": "It suits me",
+                "affect": {
+                    "structureAndInnovation": 4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 3,
+                    "localAndGlobal": 3,
+                    "lowAndHighTech": 3,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Olen avatud mõlemale",
+                "labelEn": "I'm open to both",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Eelistan stabiilsust",
+                "labelEn": "I prefer stability",
+                "affect": {
+                    "structureAndInnovation": -4,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -3,
+                    "localAndGlobal": -3,
+                    "lowAndHighTech": -3,
+                    "theoreticalAndApplied": 2
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "Do you see yourself in a leadership role in your future career?",
+        "answers": [
+            {
+                "label": "Jah, kindlasti",
+                "labelEn": "Yes, definitely",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": 4,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Võib-olla tulevikus",
+                "labelEn": "Maybe in the future",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole kindel",
+                "labelEn": "Not sure",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei, eelistan individuaalset tööd",
+                "labelEn": "No, I prefer individual work",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": -4,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 2
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "What aspect of a job would most influence your job satisfaction?",
+        "answers": [
+            {
+                "label": "Huvitavad ja väljakutsuvad ülesanded",
+                "labelEn": "Interesting and challenging tasks",
+                "affect": {
+                    "structureAndInnovation": 5,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 5,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 5,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Töö- ja eraelu tasakaal",
+                "labelEn": "Work-life balance",
+                "affect": {
+                    "structureAndInnovation": -5,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": -5,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": -5,
+                    "theoreticalAndApplied": 5
+                }
+            },
+            {
+                "label": "Hea meeskonnatöö ja kolleegidega suhtlemine",
+                "labelEn": "Good teamwork and interaction with colleagues",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 5,
+                    "independenceAndCollaboration": 10,
+                    "localAndGlobal": 5,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": -5
+                }
+            },
+            {
+                "label": "Karjääri kasvu ja arenguvõimalused",
+                "labelEn": "Career growth and development opportunities",
+                "affect": {
+                    "structureAndInnovation": 0,
+                    "academiaAndCareer": 10,
+                    "independenceAndCollaboration": 0,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How important are global issues and international perspectives in your field of interest?",
+        "answers": [
+            {
+                "label": "Väga oluline",
+                "labelEn": "Very important",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": -1,
+                    "independenceAndCollaboration": 3,
+                    "localAndGlobal": 5,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Mõnevõrra oluline",
+                "labelEn": "Somewhat important",
+                "affect": {
+                    "structureAndInnovation": 1,
+                    "academiaAndCareer": -1,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 3,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Ei ole oluline",
+                "labelEn": "Not important",
+                "affect": {
+                    "structureAndInnovation": -2,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": -3,
+                    "localAndGlobal": -5,
+                    "lowAndHighTech": -1,
+                    "theoreticalAndApplied": 1
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "What is your approach to handling stress and pressure?",
+        "answers": [
+            {
+                "label": "Jään rahulikuks ja keskendun lahendustele",
+                "labelEn": "I stay calm and focus on solutions",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": -1,
+                    "independenceAndCollaboration": 1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 3
+                }
+            },
+            {
+                "label": "Otsin tuge ja nõuandeid teistelt",
+                "labelEn": "I seek support and advice from others",
+                "affect": {
+                    "structureAndInnovation": -1,
+                    "academiaAndCareer": 0,
+                    "independenceAndCollaboration": 4,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Vältin stressi tekitavaid olukordi",
+                "labelEn": "I avoid stressful situations",
+                "affect": {
+                    "structureAndInnovation": -3,
+                    "academiaAndCareer": 2,
+                    "independenceAndCollaboration": -3,
+                    "localAndGlobal": -1,
+                    "lowAndHighTech": -2,
+                    "theoreticalAndApplied": 1
+                }
+            }
+        ]
+    },
+    {
+        "label": "",
+        "labelEn": "How do you approach long-term projects or goals?",
+        "answers": [
+            {
+                "label": "Kavandan ette ja järgin plaani",
+                "labelEn": "I plan ahead and follow a set plan",
+                "affect": {
+                    "structureAndInnovation": -3,
+                    "academiaAndCareer": 3,
+                    "independenceAndCollaboration": -1,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 4
+                }
+            },
+            {
+                "label": "Kohandan strateegiat jooksvalt",
+                "labelEn": "I adapt my strategy as I go",
+                "affect": {
+                    "structureAndInnovation": 3,
+                    "academiaAndCareer": -2,
+                    "independenceAndCollaboration": 2,
+                    "localAndGlobal": 1,
+                    "lowAndHighTech": 1,
+                    "theoreticalAndApplied": -2
+                }
+            },
+            {
+                "label": "Otsin regulaarselt tagasisidet ja juhendamist",
+                "labelEn": "I regularly seek feedback and guidance",
+                "affect": {
+                    "structureAndInnovation": -1,
+                    "academiaAndCareer": 1,
+                    "independenceAndCollaboration": 3,
+                    "localAndGlobal": 2,
+                    "lowAndHighTech": 0,
+                    "theoreticalAndApplied": 0
+                }
+            },
+            {
+                "label": "Keskendun lühiajalistele eesmärkidele",
+                "labelEn": "I focus on short-term goals within it",
+                "affect": {
+                    "structureAndInnovation": 2,
+                    "academiaAndCareer": -3,
+                    "independenceAndCollaboration": -2,
+                    "localAndGlobal": 0,
+                    "lowAndHighTech": 2,
+                    "theoreticalAndApplied": -3
+                }
+            }
+        ]
+    }
+]

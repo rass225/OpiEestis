@@ -3,6 +3,7 @@ import SwiftUI
 struct ProfileView: View {
     @EnvironmentObject var appState: AppState
     @State var isDonationsPresented = false
+    let colleges: [College]
     
     var body: some View {
         switch appState.authState {
@@ -53,6 +54,13 @@ extension ProfileView {
                     icon: Theme.Icons.person
                 )
                 .onTapGesture { appState.route(to: .myAccount(user)) }
+                label(
+                    title: Theme.Locale.PathFinder.History.title,
+                    icon: Theme.Icons.pathfinder
+                )
+                .onTapGesture {
+                    appState.route(to: .pathFinderHistory(colleges: colleges))
+                }
                 label(
                     title: Theme.Locale.Profile.about,
                     icon: Theme.Icons.about

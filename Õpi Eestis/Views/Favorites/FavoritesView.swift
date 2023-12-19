@@ -9,10 +9,15 @@ struct FavoritesViewWrapper: View {
         case let .authenticated(user):
             FavoritesView(model: .init(colleges: colleges, user: user))
         case .unauthenticated:
-            UnauthenticatedView(
-                title: Theme.Locale.Favorites.unauthenticated,
-                action: { appState.signInApple() }
-            )
+            VStack {
+                UnauthenticatedView(
+                    title: Theme.Locale.Favorites.unauthenticated,
+                    action: { appState.signInApple() }
+                )
+            }
+            .background(Color.white)
+            .toolbar(.visible, for: .tabBar)
+            .toolbarBackground(.visible, for: .tabBar)
         }
     }
 }
@@ -31,6 +36,7 @@ struct FavoritesView: View {
                 }
             }
         }
+        
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .principal, content: AppPrincipal.init)
@@ -76,7 +82,9 @@ struct FavoritesView: View {
                     model.removeFavorite(major: major, college: college)
                 },
                 addFavorite: {},
-                locale: model.currentLocale
+                unFavoriteButtonRole: .destructive,
+                allowSwipeActions: true,
+                matchingPercentage: nil
             )
         }
     }

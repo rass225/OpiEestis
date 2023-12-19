@@ -63,3 +63,36 @@ extension Array where Element == NewMajor {
         }
     }
 }
+
+extension Array where Element == QuizAnswer {
+    func sumCharacteristics() -> Characteristics {
+        // Initialize each characteristic with a base value of 50
+        var totalStructureAndInnovation = 50
+        var totalAcademiaAndCareer = 50
+        var totalIndependenceAndCollaboration = 50
+        var totalLocalAndGlobal = 50
+        var totalLowAndHighTech = 50
+        var totalTheoreticalAndApplied = 50
+        
+        // Iterate through each quiz answer
+        for answer in self where answer.isSelected {
+            // Add the characteristics of the selected answers
+            totalStructureAndInnovation += answer.affect.structureAndInnovation
+            totalAcademiaAndCareer += answer.affect.academiaAndCareer
+            totalIndependenceAndCollaboration += answer.affect.independenceAndCollaboration
+            totalLocalAndGlobal += answer.affect.localAndGlobal
+            totalLowAndHighTech += answer.affect.lowAndHighTech
+            totalTheoreticalAndApplied += answer.affect.theoreticalAndApplied
+        }
+
+        // Return the total sum of characteristics
+        return Characteristics(
+            structureAndInnovation: totalStructureAndInnovation,
+            academiaAndCareer: totalAcademiaAndCareer,
+            independenceAndCollaboration: totalIndependenceAndCollaboration,
+            localAndGlobal: totalLocalAndGlobal,
+            lowAndHighTech: totalLowAndHighTech,
+            theoreticalAndApplied: totalTheoreticalAndApplied
+        )
+    }
+}

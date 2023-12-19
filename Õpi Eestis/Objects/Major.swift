@@ -30,6 +30,7 @@ struct Major: Hashable, Codable, Identifiable {
     var vimeoId: String?
     var spotifyPath: String?
     var facebookWatchId: String?
+    var characteristics: Characteristics?
     
     enum CodingKeys: String, CodingKey {
 //        case id
@@ -60,6 +61,7 @@ struct Major: Hashable, Codable, Identifiable {
         case vimeoId
         case spotifyPath
         case facebookWatchId
+        case characteristics
     }
     
     init(from decoder: Decoder) throws {
@@ -94,6 +96,7 @@ struct Major: Hashable, Codable, Identifiable {
         self.vimeoId = try container.decodeIfPresent(String.self, forKey: .vimeoId)
         self.spotifyPath = try container.decodeIfPresent(String.self, forKey: .spotifyPath)
         self.facebookWatchId = try container.decodeIfPresent(String.self, forKey: .facebookWatchId)
+        self.characteristics = try container.decodeIfPresent(Characteristics.self, forKey: .characteristics)
     }
     
     func hasEap() -> Bool {

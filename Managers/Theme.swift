@@ -62,6 +62,7 @@ struct Theme {
         static let donations: Image = .init(systemName: "gift.fill")
         static let translate: Image = Image("translate")
         static let x = Image(systemName: "x")
+        static let pathfinder = Image(systemName: "doc.questionmark.fill")
     }
     
     enum Locale {
@@ -283,6 +284,63 @@ struct Theme {
         enum Error {
             static let buttonLabel: LocalizedStringKey = "error_buttonLabel"
             static let fetchSchools: LocalizedStringKey = "error_fetchSchools"
+        }
+        
+        enum PathFinder {
+            static let name: LocalizedStringKey = "pathfinder_name"
+            
+            enum History {
+                static let title: LocalizedStringKey = "pathfinder_history_title"
+            }
+            
+            enum Start {
+                static let start: LocalizedStringKey = "pathfinder_start_start"
+                static let promotionalText: LocalizedStringKey = "pathfinder_start_promotionalText"
+                static let strengthsTitle: LocalizedStringKey = "pathfinder_start_strenghts_title"
+                static let strengthsSubtitle: LocalizedStringKey = "pathfinder_start_strenghts_subtitle"
+                static let recommendedMajorsTitle: LocalizedStringKey = "pathfinder_start_recommendedMajors_title"
+                static let recommendedMajorsSubtitle: LocalizedStringKey = "pathfinder_start_recommendedMajors_subtitle"
+                static let careerInsightsTitle: LocalizedStringKey = "pathfinder_careerInsights_title"
+                static let careerInsightsSubtitle: LocalizedStringKey = "pathfinder_careerInsights_subtitle"
+            }
+            
+            enum Setup {
+                static let continues: LocalizedStringKey = "pathfinder_setup_continue"
+                static let speakEstonianQuestion: LocalizedStringKey = "pathfinder_setup_speakEstonianQuestion"
+                static let speakEnglishQuestion: LocalizedStringKey = "pathfinder_setup_speakEnglishQuestion"
+                static let yourCurrentEducation: LocalizedStringKey = "pathfinder_setup_yourCurrentEducation"
+                static let title: LocalizedStringKey = "pathfinder_setup_title"
+            }
+            
+            enum Test {
+                static let question: LocalizedStringKey = "pathfinder_test_question"
+                static let previous: LocalizedStringKey = "pathfinder_test_previous"
+                static let submit: LocalizedStringKey = "pathfinder_test_submit"
+                static let next: LocalizedStringKey = "pathfinder_test_next"
+            }
+            
+            enum Result {
+                static let viewHistory: LocalizedStringKey = "pathfinder_result_viewHistory"
+                static let title: LocalizedStringKey = "pathfinder_result_title"
+                static let structure: LocalizedStringKey = "pathfinder_result_structure"
+                static let innovation: LocalizedStringKey = "pathfinder_result_innovation"
+                static let academia: LocalizedStringKey = "pathfinder_result_academia"
+                static let career: LocalizedStringKey = "pathfinder_result_career"
+                static let independence: LocalizedStringKey = "pathfinder_result_independence"
+                static let collaboration: LocalizedStringKey = "pathfinder_result_collaboration"
+                static let local: LocalizedStringKey = "pathfinder_result_local"
+                static let global: LocalizedStringKey = "pathfinder_result_global"
+                static let traditional: LocalizedStringKey = "pathfinder_result_traditional"
+                static let technological: LocalizedStringKey = "pathfinder_result_technological"
+                static let theoretical: LocalizedStringKey = "pathfinder_result_theoretical"
+                static let applied: LocalizedStringKey = "pathfinder_result_applied"
+                static let characteristicsTitle: LocalizedStringKey = "pathfinder_result_characteristics_title"
+                static let recommendedMajorsTitle: LocalizedStringKey = "pathfinder_result_recommendedMajors_title"
+                static let recommendedMajorsSubtitle: LocalizedStringKey = "pathfinder_result_recommendedMajors_subtitle"
+                static let careerInsightsTitle: LocalizedStringKey = "pathfinder_result_careerInsights_title"
+                static let careerInsightsSubtitle: LocalizedStringKey = "pathfinder_result_careerInsights_subtitle"
+                static let match: LocalizedStringKey = "pathfinder_result_match"
+            }
         }
     }
 }

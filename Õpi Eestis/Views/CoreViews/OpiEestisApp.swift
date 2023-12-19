@@ -15,10 +15,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct OpiEestisApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
     @StateObject private var appState = AppState()
     @StateObject private var localeManager = DependencyManager.shared.localeManager
-    
+//    
     var body: some Scene {
         WindowGroup {
             ContentView()

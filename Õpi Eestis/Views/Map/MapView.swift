@@ -30,13 +30,13 @@ extension MapView {
     func authenticatedView() -> some View {
         ClusteredMapView(locations: locations)
             .clipShape(.rect(
-                topLeadingRadius: 12,
-                topTrailingRadius: 12,
+                topLeadingRadius: 16,
+                topTrailingRadius: 16,
                 style: .continuous
             ))
             .padding(.top, 20)
             .padding(.top)
-            .background(Theme.Colors.systemGray)
+            .background(.white)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {

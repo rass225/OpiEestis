@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C00093292AEFDACA008DB108 /* MyAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00093282AEFDACA008DB108 /* MyAccountViewModel.swift */; };
+		C003EA332B31E9FF00F1FB67 /* PathFinderSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA322B31E9FF00F1FB67 /* PathFinderSetupView.swift */; };
 		C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB8627718EF9002F6BD6 /* Logo.swift */; };
 		C007DB892771918B002F6BD6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB882771918B002F6BD6 /* Environment.swift */; };
 		C018106F25C049530026A86F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018106E25C049530026A86F /* Double.swift */; };
@@ -46,6 +47,9 @@
 		C0460E5125AF0DDD00E4A15D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E4E25AF0DDD00E4A15D /* View.swift */; };
 		C0460E7025AF0E8100E4A15D /* Mariah.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460E6825AF0E8100E4A15D /* Mariah.swift */; };
 		C0460EB825AF113300E4A15D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0460EB725AF113300E4A15D /* Color.swift */; };
+		C0473D722B263FC9008B60D4 /* Questionnaire.json in Resources */ = {isa = PBXBuildFile; fileRef = C0473D712B263FC9008B60D4 /* Questionnaire.json */; };
+		C0473D752B29EDA0008B60D4 /* PathFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473D742B29EDA0008B60D4 /* PathFinderView.swift */; };
+		C0473D772B29EDFF008B60D4 /* PathFinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473D762B29EDFF008B60D4 /* PathFinderViewModel.swift */; };
 		C04CFC1B2AC99194001CB1CD /* CollegeMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04CFC1A2AC99194001CB1CD /* CollegeMapViewModel.swift */; };
 		C0518904274BE5AD00C4F352 /* Personnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0518903274BE5AD00C4F352 /* Personnel.swift */; };
 		C056AFC227704C5C00D4F9CA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C056AFC127704C5C00D4F9CA /* MapView.swift */; };
@@ -87,6 +91,11 @@
 		C0B6D17A2AB6273E009218FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D1792AB6273E009218FC /* Theme.swift */; };
 		C0B6D17C2AB639CB009218FC /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17B2AB639CB009218FC /* BackButton.swift */; };
 		C0B6D17E2AB64838009218FC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B6D17D2AB64838009218FC /* Header.swift */; };
+		C0B8D8EE2B2F29BD004B7ED1 /* PathFinderStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8D8ED2B2F29BD004B7ED1 /* PathFinderStartView.swift */; };
+		C0B8D8F02B2F2AA0004B7ED1 /* PathFinderProccessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8D8EF2B2F2AA0004B7ED1 /* PathFinderProccessingView.swift */; };
+		C0B8D8F22B2F2B34004B7ED1 /* PathFinderResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8D8F12B2F2B34004B7ED1 /* PathFinderResultView.swift */; };
+		C0B8D8F42B2F3293004B7ED1 /* PathFinderResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8D8F32B2F3293004B7ED1 /* PathFinderResultViewModel.swift */; };
+		C0B8D8F62B2F429E004B7ED1 /* PathFinderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8D8F52B2F429E004B7ED1 /* PathFinderHistoryView.swift */; };
 		C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B93FBC265271FD00CE9130 /* CourseView.swift */; };
 		C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BFA255272D40E40025BD1E /* UINavigationController.swift */; };
 		C0C59E142A8A5CC800423948 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C59E132A8A5CC800423948 /* AppState.swift */; };
@@ -175,6 +184,7 @@
 
 /* Begin PBXFileReference section */
 		C00093282AEFDACA008DB108 /* MyAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewModel.swift; sourceTree = "<group>"; };
+		C003EA322B31E9FF00F1FB67 /* PathFinderSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderSetupView.swift; sourceTree = "<group>"; };
 		C007DB8627718EF9002F6BD6 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		C007DB882771918B002F6BD6 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		C018106E25C049530026A86F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -219,6 +229,9 @@
 		C0460E4E25AF0DDD00E4A15D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C0460E6825AF0E8100E4A15D /* Mariah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mariah.swift; sourceTree = "<group>"; };
 		C0460EB725AF113300E4A15D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C0473D712B263FC9008B60D4 /* Questionnaire.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questionnaire.json; sourceTree = "<group>"; };
+		C0473D742B29EDA0008B60D4 /* PathFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderView.swift; sourceTree = "<group>"; };
+		C0473D762B29EDFF008B60D4 /* PathFinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderViewModel.swift; sourceTree = "<group>"; };
 		C04CFC1A2AC99194001CB1CD /* CollegeMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMapViewModel.swift; sourceTree = "<group>"; };
 		C0518903274BE5AD00C4F352 /* Personnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personnel.swift; sourceTree = "<group>"; };
 		C056AFC127704C5C00D4F9CA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -261,6 +274,11 @@
 		C0B6D1792AB6273E009218FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C0B6D17B2AB639CB009218FC /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		C0B6D17D2AB64838009218FC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C0B8D8ED2B2F29BD004B7ED1 /* PathFinderStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderStartView.swift; sourceTree = "<group>"; };
+		C0B8D8EF2B2F2AA0004B7ED1 /* PathFinderProccessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderProccessingView.swift; sourceTree = "<group>"; };
+		C0B8D8F12B2F2B34004B7ED1 /* PathFinderResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderResultView.swift; sourceTree = "<group>"; };
+		C0B8D8F32B2F3293004B7ED1 /* PathFinderResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderResultViewModel.swift; sourceTree = "<group>"; };
+		C0B8D8F52B2F429E004B7ED1 /* PathFinderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderHistoryView.swift; sourceTree = "<group>"; };
 		C0B93FBC265271FD00CE9130 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		C0BFA255272D40E40025BD1E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C0C59E132A8A5CC800423948 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -543,6 +561,7 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C0473D732B29ED8A008B60D4 /* PathFinderView */,
 				C03420912B25ED4100086AB9 /* ErrorView */,
 				C034208C2B24EDAB00086AB9 /* CollegesView */,
 				C031F9F92B2323030063D556 /* UserSetupView */,
@@ -632,6 +651,21 @@
 			path = MajorView;
 			sourceTree = "<group>";
 		};
+		C0473D732B29ED8A008B60D4 /* PathFinderView */ = {
+			isa = PBXGroup;
+			children = (
+				C0B8D8F52B2F429E004B7ED1 /* PathFinderHistoryView.swift */,
+				C0B8D8EF2B2F2AA0004B7ED1 /* PathFinderProccessingView.swift */,
+				C0B8D8F12B2F2B34004B7ED1 /* PathFinderResultView.swift */,
+				C0B8D8F32B2F3293004B7ED1 /* PathFinderResultViewModel.swift */,
+				C003EA322B31E9FF00F1FB67 /* PathFinderSetupView.swift */,
+				C0B8D8ED2B2F29BD004B7ED1 /* PathFinderStartView.swift */,
+				C0473D742B29EDA0008B60D4 /* PathFinderView.swift */,
+				C0473D762B29EDFF008B60D4 /* PathFinderViewModel.swift */,
+			);
+			path = PathFinderView;
+			sourceTree = "<group>";
+		};
 		C0644C2B2AEDB4D300AD6E0E /* SettingsView */ = {
 			isa = PBXGroup;
 			children = (
@@ -678,6 +712,7 @@
 		C0755B9727182B820045F6DC /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				C0473D712B263FC9008B60D4 /* Questionnaire.json */,
 				C0D214422715B688000AD3D0 /* TallinnaTervishoid.json */,
 				C0D214502715C74D000AD3D0 /* EBS.json */,
 				C0D2145A2715E773000AD3D0 /* TTÜ.json */,
@@ -932,6 +967,7 @@
 				C0D2144B2715C147000AD3D0 /* Pallas.json in Resources */,
 				C0D214552715C894000AD3D0 /* Muusikaakadeemia.json in Resources */,
 				C0D214432715B688000AD3D0 /* TallinnaTervishoid.json in Resources */,
+				C0473D722B263FC9008B60D4 /* Questionnaire.json in Resources */,
 				C0D214C3271639EF000AD3D0 /* TLÜ.json in Resources */,
 				C0D214592715CA5C000AD3D0 /* TartuTervishoid.json in Resources */,
 			);
@@ -965,6 +1001,7 @@
 				C03420932B25ED5500086AB9 /* ErrorView.swift in Sources */,
 				C0E19AD42B1DF712008935AE /* LocalMajorViewModel.swift in Sources */,
 				C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */,
+				C0B8D8F42B2F3293004B7ED1 /* PathFinderResultViewModel.swift in Sources */,
 				C0C59E322AA2614B00423948 /* Submodule.swift in Sources */,
 				C09CFBA22AEBE076005048B0 /* CollegeDevelopmentModel.swift in Sources */,
 				C0460E3F25AF0D8A00E4A15D /* Mail.swift in Sources */,
@@ -974,6 +1011,7 @@
 				C0F85B522A753240007A65F7 /* EdgeInsets+Extension.swift in Sources */,
 				C0ECAE422AF2CE0900815643 /* Rating.swift in Sources */,
 				C032995B25CC180900EB7862 /* Location.swift in Sources */,
+				C0B8D8F22B2F2B34004B7ED1 /* PathFinderResultView.swift in Sources */,
 				C0644C3E2AEEE10A00AD6E0E /* Utilities.swift in Sources */,
 				C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */,
 				C031F9FB2B23230F0063D556 /* UserSetupView.swift in Sources */,
@@ -988,6 +1026,7 @@
 				C0644C372AEEA73B00AD6E0E /* AuthenticationManager.swift in Sources */,
 				C0F85B492A73E243007A65F7 /* Text+Extension.swift in Sources */,
 				C0F85B6B2A8392D4007A65F7 /* MarkerView.swift in Sources */,
+				C0B8D8F62B2F429E004B7ED1 /* PathFinderHistoryView.swift in Sources */,
 				C0460E7025AF0E8100E4A15D /* Mariah.swift in Sources */,
 				C09CFB802AEA703E005048B0 /* PulsingPlayView.swift in Sources */,
 				C0C59E382AA2618600423948 /* Currency.swift in Sources */,
@@ -1024,6 +1063,7 @@
 				C0F85B652A8000A3007A65F7 /* CollegeMajorViewModel.swift in Sources */,
 				C041550F2AC8535300858055 /* CollegeMapView.swift in Sources */,
 				C0C59E432AA8E23100423948 /* ProfileView.swift in Sources */,
+				C0473D772B29EDFF008B60D4 /* PathFinderViewModel.swift in Sources */,
 				C0D52D672B224D0300F1D018 /* Country.swift in Sources */,
 				C09CFB902AEBA823005048B0 /* CollegeViewModel.swift in Sources */,
 				C09CFB8A2AEBA796005048B0 /* CollegeView.Buttons.swift in Sources */,
@@ -1050,9 +1090,11 @@
 				C0644C2F2AEE6F1000AD6E0E /* User.swift in Sources */,
 				C0E19AD62B20E086008935AE /* AppInformation.swift in Sources */,
 				C0F85B452A73DA77007A65F7 /* CollegeListView.swift in Sources */,
+				C0B8D8F02B2F2AA0004B7ED1 /* PathFinderProccessingView.swift in Sources */,
 				C032996025CC187100EB7862 /* Major.swift in Sources */,
 				C09CFB922AEBB10E005048B0 /* UITabBarController.swift in Sources */,
 				C0C59E472AB4A45400423948 /* String+Extensions.swift in Sources */,
+				C0473D752B29EDA0008B60D4 /* PathFinderView.swift in Sources */,
 				C0460E4F25AF0DDD00E4A15D /* Button Configure.swift in Sources */,
 				C03EA8AC2747FC6D00E07782 /* FavoritesView.swift in Sources */,
 				C0C59E362AA2616E00423948 /* Course.swift in Sources */,
@@ -1060,6 +1102,8 @@
 				C032997B25CC192D00EB7862 /* Level.swift in Sources */,
 				C0C59E302AA2613900423948 /* Module.swift in Sources */,
 				C07307232AF3027D00BABA4C /* MajorView.Buttons.swift in Sources */,
+				C0B8D8EE2B2F29BD004B7ED1 /* PathFinderStartView.swift in Sources */,
+				C003EA332B31E9FF00F1FB67 /* PathFinderSetupView.swift in Sources */,
 				C07307212AF3023300BABA4C /* MajorView.Modifiers.swift in Sources */,
 				C07307272AF3032900BABA4C /* PersonDetailView.swift in Sources */,
 				C0C59E452AAA083900423948 /* CollegeMajorView+Objects.swift in Sources */,
@@ -1235,7 +1279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1245,7 +1289,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.4;
+				MARKETING_VERSION = 4.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;
@@ -1262,7 +1306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1272,7 +1316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.4;
+				MARKETING_VERSION = 4.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Estonian-Universities";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;

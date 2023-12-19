@@ -5,10 +5,9 @@ import FirebaseStorage
 
 class AppState: ObservableObject {
     @Published var collegeNavigation: NavigationPath
-    @Published var mapNavigation: NavigationPath
+    @Published var pathFinderNavigation: NavigationPath
     @Published var favoritesNavigation: NavigationPath
     @Published var profileNavigation: NavigationPath
-    
     
     @Published private(set) var authState: AuthState
     @Published private(set) var appInformation: AppInformation
@@ -23,14 +22,14 @@ class AppState: ObservableObject {
     
     init(
         collegeNavigation: NavigationPath = .init(),
-        mapNavigation: NavigationPath = .init(),
+        pathFinderNavigation: NavigationPath = .init(),
         favoritesNavigation: NavigationPath = .init(),
         profileNavigation: NavigationPath = .init(),
         selectedIndex: Tabs = .colleges,
         authState: AuthState = .unauthenticated
     ) {
         self.collegeNavigation = collegeNavigation
-        self.mapNavigation = mapNavigation
+        self.pathFinderNavigation = pathFinderNavigation
         self.favoritesNavigation = favoritesNavigation
         self.profileNavigation = profileNavigation
         self.selectedIndex = selectedIndex
@@ -52,13 +51,19 @@ class AppState: ObservableObject {
                 print("Pop to root view for \($0)!")
                 switch $0 {
                 case .map:
-                    self.mapNavigation = .init()
+                    self.pathFinderNavigation = .init()
                 case .colleges:
-                    self.collegeNavigation = .init()
+                    if !self.collegeNavigation.isEmpty {
+                        self.collegeNavigation = .init()
+                    }
                 case .favorites:
-                    self.favoritesNavigation = .init()
+                    if !self.favoritesNavigation.isEmpty {
+                        self.favoritesNavigation = .init()
+                    }
                 case .profile:
-                    self.profileNavigation = .init()
+                    if !self.profileNavigation.isEmpty {
+                        self.profileNavigation = .init()
+                    }
                 }
             }
             self.selectedIndex = $0
@@ -189,7 +194,21 @@ extension AppState {
         case .colleges:
             collegeNavigation.append(destination)
         case .map:
-            mapNavigation.append(destination)
+            pathFinderNavigation.append(destination)
+        case .favorites:
+            favoritesNavigation.append(destination)
+        case .profile:
+            profileNavigation.append(destination)
+        }
+    }
+    
+    func route(to destination: CollegeDestination, in tab: Tabs) {
+        selectedIndex = tab
+        switch tab {
+        case .colleges:
+            collegeNavigation.append(destination)
+        case .map:
+            pathFinderNavigation.append(destination)
         case .favorites:
             favoritesNavigation.append(destination)
         case .profile:
@@ -220,6 +239,8 @@ extension AppState {
             MyAccountView(model: .init(user: user))
         case let .outcomes(college, outcomes):
             OutcomesView(college: college, outcomes: outcomes)
+        case let .pathFinderHistory(colleges):
+            PathFinderHistoryView(model: .init(colleges: colleges))
         }
     }
 }
@@ -344,6 +365,7 @@ enum CollegeDestination: Hashable {
     case settings
     case myAccount(FirebaseUser)
     case outcomes(college: College, [NewOutcome])
+    case pathFinderHistory(colleges: [College])
 }
 
 enum Tabs {

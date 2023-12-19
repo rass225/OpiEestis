@@ -52,7 +52,7 @@ private extension ContentView {
     @ViewBuilder
     func profileView() -> some View {
         NavigationStack(path: $appState.profileNavigation) {
-            ProfileView()
+            ProfileView(colleges: model.schools)
                 .navigationDestination(for: CollegeDestination.self) {
                     appState.navigationDestination($0)
                 }
@@ -75,8 +75,8 @@ private extension ContentView {
     
     @ViewBuilder
     func quizView() -> some View {
-        NavigationStack(path: $appState.mapNavigation) {
-            Text("QUIZ GAME")
+        NavigationStack(path: $appState.pathFinderNavigation) {
+            PathFinderView(model: .init(colleges: model.schools))
                 .maxSize()
                 .background(Theme.Colors.systemGray)
                 .navigationDestination(for: CollegeDestination.self) {
@@ -91,7 +91,6 @@ private extension ContentView {
     func collegesView() -> some View {
         NavigationStack(path: $appState.collegeNavigation) {
             CollegesView(model: .init(schools: model.schools))
-//            CollegesListView(model: .init(colleges: model.schools))
                 .navigationDestination(for: CollegeDestination.self) {
                     appState.navigationDestination($0)
                 }

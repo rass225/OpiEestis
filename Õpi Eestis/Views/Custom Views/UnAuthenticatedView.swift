@@ -29,8 +29,8 @@ struct UnauthenticatedView: View {
                 }.maxHeight()
             }
             .maxSize()
+            .background(BackgroundView())
         }
-        .background(BackgroundView())
     }
 }
 

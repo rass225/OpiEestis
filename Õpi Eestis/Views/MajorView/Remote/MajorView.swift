@@ -144,7 +144,7 @@ extension MajorView {
                     .setFont(.footnote, .regular, .rounded)
                     .setColor(Theme.Colors.gray)
             }
-            if let languages = model.major.languages {
+//            if let languages = model.major.languages {
                 HStack(alignment: .center, spacing: 0) {
                     Theme.Icons.translate
                         .resizable()
@@ -153,7 +153,7 @@ extension MajorView {
 //                        .setFont(.body, .regular, .rounded)
                         .frame(width: 32, alignment: .leading)
                     HStack(spacing: 4) {
-                        ForEach(languages, id: \.self) { language in
+                        ForEach(model.major.languages, id: \.self) { language in
                             Text(language.symbol)
                                 .setFont(.title3, .medium, .rounded)
                                 .setColor(Theme.Colors.black)
@@ -164,7 +164,7 @@ extension MajorView {
                         .setFont(.footnote, .regular, .rounded)
                         .setColor(Theme.Colors.gray)
                 }
-            }
+//            }
             MajorStat(
                 type: .spots(spots: model.major.spots),
                 color: model.college.palette.base

@@ -126,11 +126,14 @@ extension MajorsView {
             addFavorite: {
                 model.addFavorite(major: major)
             },
-            locale: model.currentLocale
+            unFavoriteButtonRole: .cancel,
+            allowSwipeActions: true, 
+            matchingPercentage: nil
         )
     }
     
     struct MajorCell: View {
+        @ObservedObject var locale = DependencyManager.shared.localeManager
         let major: NewMajor
         let isFavorite: Bool
         let baseColor: Color
@@ -138,65 +141,74 @@ extension MajorsView {
         let routeToMajor: () -> ()
         let removeFavorite: () -> ()
         let addFavorite: () -> ()
-        let locale: AppLocale
+        let unFavoriteButtonRole: ButtonRole
+        let allowSwipeActions: Bool
+        let matchingPercentage: Int?
         
         var body: some View {
             HStack(alignment: .center, spacing: 8) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(locale == .estonian ? major.name : major.nameEn ?? major.name)
+                    Text(locale.currentLocale == .estonian ? major.name : major.nameEn ?? major.name)
                         .setFont(.callout, .medium, .rounded)
                         .setColor(Theme.Colors.black)
                     Text(major.level.label)
-                        .setFont(.subheadline, .medium, .rounded)
+                        .setFont(.footnote, .medium, .rounded)
                         .setColor(baseColor)
                         .padding(.bottom, 22)
                     if showDetailed {
-                        HStack(spacing: 24) {
+                        HStack(spacing: 20) {
                             HStack(spacing: 4) {
                                 Theme.Icons.translate
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 16, height: 16)
                                     .setColor(baseColor.gradient)
-                                if let languages = major.languages {
+//                                if let languages = major.languages {
                                     HStack(spacing: 2) {
-                                        ForEach(languages, id: \.self) { language in
+                                        ForEach(major.languages, id: \.self) { language in
                                             Text(language.symbol)
                                         }
                                     }
-                                }
+//                                }
                             }
-                            
-//                            Text("•")
                             HStack(spacing: 4) {
                                 Theme.Icons.clock
                                     .setColor(baseColor.gradient)
                                 Text(major.durationLabel)
                             }
-                            
-//                            Text("•")
                             HStack(spacing: 4) {
                                 major.cost.currency.icon
                                     .setColor(baseColor.gradient)
                                 Text(major.costLabel)
                             }
-                            
                         }
-                        .setColor(Theme.Colors.gray)
-                        .setFont(.footnote, .medium, .rounded)
+                        .setColor(.black)
+                        .setFont(.footnote, .regular, .rounded)
                     }
                 }
                 .padding(.vertical, 4)
                 Spacer()
                 if isFavorite {
                     heartImage()
+                } else if let matchingPercentage {
+                    HStack(spacing: 1) {
+                        Text("\(matchingPercentage)%")
+                            .setColor(.black)
+                        Image(systemName: "scope")
+                            .setColor(Theme.Colors.primary.gradient)
+                            .setFont(.body, .bold, .rounded)
+                    }
+                    .setFont(.subheadline, .medium, .rounded)
+                    
                 }
             }
             .swipeActions {
-                if isFavorite {
-                    removeFavoriteButton(major)
-                } else {
-                   addFavoriteButton(major)
+                if allowSwipeActions {
+                    if isFavorite {
+                        removeFavoriteButton(major)
+                    } else {
+                       addFavoriteButton(major)
+                    }
                 }
             }
             .contentShape(Rectangle())
@@ -214,7 +226,7 @@ extension MajorsView {
         
         @ViewBuilder
         func removeFavoriteButton(_ major: NewMajor) -> some View {
-            Button(role: .destructive, action: removeFavorite, label: {
+            Button(role: unFavoriteButtonRole, action: removeFavorite, label: {
                 Image(systemName: "heart.slash")
             })
             .tint(.red)
@@ -229,6 +241,24 @@ extension MajorsView {
                     .setSymbol(.fill)
             }
             .tint(baseColor)
+        }
+        
+        struct BadgeModifier: ViewModifier {
+            let matchingPercentage: Int?
+            func body(content: Content) -> some View {
+                if let matchingPercentage {
+                    content
+                        .badge(
+                            Text("\(matchingPercentage)% ")
+                                .setFont(.subheadline, .medium, .rounded)
+                                .setBadgeColor(.black) + Text(Theme.Locale.PathFinder.Result.match)
+                                .setFont(.subheadline, .medium, .rounded)
+                                .setBadgeColor(.black)
+                        )
+                } else {
+                    content
+                }
+            }
         }
     }
 }

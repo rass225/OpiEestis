@@ -149,7 +149,8 @@ extension CollegeDevelopment.LocalMajorView {
                 videoId: modelX.major.videoId,
                 vimeoId: modelX.major.vimeoId,
                 spotifyPath: modelX.major.spotifyPath,
-                facebookWatchId: modelX.major.facebookWatchId
+                facebookWatchId: modelX.major.facebookWatchId,
+                characteristics: modelX.major.characteristics
             )
             let db = Firestore.firestore()
 

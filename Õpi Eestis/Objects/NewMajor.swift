@@ -7,7 +7,7 @@ struct NewMajor: Hashable, Codable, Identifiable {
     var nameEn: String?
     var level: Level
     var language: Language
-    var languages: [Language]?
+    var languages: [Language]
     var majorWebsite: String
     var description: [String]
     var descriptionEn: String?
@@ -26,6 +26,7 @@ struct NewMajor: Hashable, Codable, Identifiable {
     var vimeoId: String?
     var spotifyPath: String?
     var facebookWatchId: String?
+    var characteristics: Characteristics?
     
     func hasEap() -> Bool {
         guard eap != nil else { return false }

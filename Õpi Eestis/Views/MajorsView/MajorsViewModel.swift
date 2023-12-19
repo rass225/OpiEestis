@@ -106,7 +106,7 @@ extension MajorsView {
                 }
                 
                 if selectedLanguage != .all {
-                    if let languages = major.languages, !languages.contains(selectedLanguage) {
+                    if !major.languages.contains(selectedLanguage) {
                         return false
                     }
                 }
@@ -202,7 +202,7 @@ private extension MajorsView.Model {
     
     func configureLanguages() {
         var allLanguages = majors
-            .compactMap(\.languages)
+            .map(\.languages)
             .flatMap { $0 }
         allLanguages.append(.all)
         let uniqueLanguages = Set(allLanguages)

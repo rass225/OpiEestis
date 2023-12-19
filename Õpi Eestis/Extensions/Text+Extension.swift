@@ -7,4 +7,9 @@ extension Text {
             .fontWeight(fontWeight)
             .fontDesign(fontDesign)
     }
+    
+    func setBadgeColor(_ color: Color) -> Text {
+        return self
+            .foregroundColor(color)
+    }
 }
