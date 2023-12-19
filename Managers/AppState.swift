@@ -50,7 +50,7 @@ class AppState: ObservableObject {
             if $0 == self.selectedIndex {
                 print("Pop to root view for \($0)!")
                 switch $0 {
-                case .map:
+                case .pathfinder:
                     self.pathFinderNavigation = .init()
                 case .colleges:
                     if !self.collegeNavigation.isEmpty {
@@ -193,7 +193,7 @@ extension AppState {
         switch selectedIndex {
         case .colleges:
             collegeNavigation.append(destination)
-        case .map:
+        case .pathfinder:
             pathFinderNavigation.append(destination)
         case .favorites:
             favoritesNavigation.append(destination)
@@ -207,7 +207,7 @@ extension AppState {
         switch tab {
         case .colleges:
             collegeNavigation.append(destination)
-        case .map:
+        case .pathfinder:
             pathFinderNavigation.append(destination)
         case .favorites:
             favoritesNavigation.append(destination)
@@ -370,7 +370,7 @@ enum CollegeDestination: Hashable {
 
 enum Tabs {
     case colleges
-    case map
+    case pathfinder
     case favorites
     case profile
 }

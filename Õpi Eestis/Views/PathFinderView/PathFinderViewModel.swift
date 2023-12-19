@@ -55,14 +55,7 @@ extension PathFinderView.Model {
         viewState = .setup
     }
     
-    func setup(
-        currentEducation: EducationLevel,
-        isSpeakingEstonian: Bool,
-        isSpeakingEnglish: Bool
-    ) {
-        self.currentEducation = currentEducation
-        self.isSpeakingEstonian = isSpeakingEstonian
-        self.isSpeakingEnglish = isSpeakingEnglish
+    func setup() {
         viewState = .test
     }
     

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C00093292AEFDACA008DB108 /* MyAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00093282AEFDACA008DB108 /* MyAccountViewModel.swift */; };
 		C003EA332B31E9FF00F1FB67 /* PathFinderSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA322B31E9FF00F1FB67 /* PathFinderSetupView.swift */; };
+		C003EA352B32153900F1FB67 /* PathFinderQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA342B32153900F1FB67 /* PathFinderQuestionsView.swift */; };
 		C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB8627718EF9002F6BD6 /* Logo.swift */; };
 		C007DB892771918B002F6BD6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB882771918B002F6BD6 /* Environment.swift */; };
 		C018106F25C049530026A86F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018106E25C049530026A86F /* Double.swift */; };
@@ -185,6 +186,7 @@
 /* Begin PBXFileReference section */
 		C00093282AEFDACA008DB108 /* MyAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewModel.swift; sourceTree = "<group>"; };
 		C003EA322B31E9FF00F1FB67 /* PathFinderSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderSetupView.swift; sourceTree = "<group>"; };
+		C003EA342B32153900F1FB67 /* PathFinderQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinderQuestionsView.swift; sourceTree = "<group>"; };
 		C007DB8627718EF9002F6BD6 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		C007DB882771918B002F6BD6 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		C018106E25C049530026A86F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -661,6 +663,7 @@
 				C003EA322B31E9FF00F1FB67 /* PathFinderSetupView.swift */,
 				C0B8D8ED2B2F29BD004B7ED1 /* PathFinderStartView.swift */,
 				C0473D742B29EDA0008B60D4 /* PathFinderView.swift */,
+				C003EA342B32153900F1FB67 /* PathFinderQuestionsView.swift */,
 				C0473D762B29EDFF008B60D4 /* PathFinderViewModel.swift */,
 			);
 			path = PathFinderView;
@@ -1061,6 +1064,7 @@
 				C0F85B562A781E3E007A65F7 /* UserDefaultsManager.swift in Sources */,
 				C032998825CC196100EB7862 /* Language.swift in Sources */,
 				C0F85B652A8000A3007A65F7 /* CollegeMajorViewModel.swift in Sources */,
+				C003EA352B32153900F1FB67 /* PathFinderQuestionsView.swift in Sources */,
 				C041550F2AC8535300858055 /* CollegeMapView.swift in Sources */,
 				C0C59E432AA8E23100423948 /* ProfileView.swift in Sources */,
 				C0473D772B29EDFF008B60D4 /* PathFinderViewModel.swift in Sources */,

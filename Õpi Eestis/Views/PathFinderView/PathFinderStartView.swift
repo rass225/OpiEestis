@@ -14,13 +14,11 @@ extension PathFinderView {
                         featureTitle: Theme.Locale.PathFinder.Start.strengthsTitle,
                         featureDescription: Theme.Locale.PathFinder.Start.strengthsSubtitle
                     )
-                    
                     FeatureView(
                         iconName: "text.book.closed.fill",
                         featureTitle: Theme.Locale.PathFinder.Start.recommendedMajorsTitle,
                         featureDescription: Theme.Locale.PathFinder.Start.recommendedMajorsSubtitle
                     )
-//                    
                     FeatureView(
                         iconName: "chart.pie.fill",
                         featureTitle: Theme.Locale.PathFinder.Start.careerInsightsTitle,

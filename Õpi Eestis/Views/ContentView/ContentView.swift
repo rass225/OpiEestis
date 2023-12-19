@@ -31,7 +31,7 @@ extension ContentView {
     func normalStateView() -> some View {
         TabView(selection: appState.tabSelection) {
             collegesView()
-            quizView()
+            pathfinderView()
             favoritesView()
             profileView()
         }
@@ -74,7 +74,7 @@ private extension ContentView {
     }
     
     @ViewBuilder
-    func quizView() -> some View {
+    func pathfinderView() -> some View {
         NavigationStack(path: $appState.pathFinderNavigation) {
             PathFinderView(model: .init(colleges: model.schools))
                 .maxSize()
@@ -84,7 +84,7 @@ private extension ContentView {
                 }
         }
         .tabItem(quizTabItem)
-        .tag(Tabs.map)
+        .tag(Tabs.pathfinder)
     }
     
     @ViewBuilder
