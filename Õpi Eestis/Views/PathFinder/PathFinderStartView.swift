@@ -8,26 +8,11 @@ extension PathFinderView {
             VStack(spacing: 0) {
                 headerView()
                 Spacer()
-                VStack(alignment: .leading, spacing: 24) {
-                    FeatureView(
-                        iconName: "person.fill",
-                        featureTitle: Theme.Locale.PathFinder.Start.strengthsTitle,
-                        featureDescription: Theme.Locale.PathFinder.Start.strengthsSubtitle
-                    )
-                    FeatureView(
-                        iconName: "text.book.closed.fill",
-                        featureTitle: Theme.Locale.PathFinder.Start.recommendedMajorsTitle,
-                        featureDescription: Theme.Locale.PathFinder.Start.recommendedMajorsSubtitle
-                    )
-                    FeatureView(
-                        iconName: "chart.pie.fill",
-                        featureTitle: Theme.Locale.PathFinder.Start.careerInsightsTitle,
-                        featureDescription: Theme.Locale.PathFinder.Start.careerInsightsSubtitle
-                    )
-                }
-                .maxWidth(alignment: .leading)
-                .padding(.horizontal, 32)
-                .padding(.bottom, 32)
+                Image("pathfinderIllustration")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .maxWidth()
+                    .padding(.bottom, 24)
                 Spacer()
                 startButton()
             }
@@ -52,16 +37,16 @@ extension PathFinderView {
         
         @ViewBuilder
         func headerView() -> some View {
-            VStack(spacing: 24) {
+            VStack(alignment: .leading, spacing: 8) {
                 Text(Theme.Locale.PathFinder.name)
-                    .setFont(.largeTitle, .semibold, .rounded)
+                    .setFont(.title, .semibold, .rounded)
                 Text(Theme.Locale.PathFinder.Start.promotionalText)
                     .setFont(.subheadline, .regular, .rounded)
                     .setColor(.gray)
             }
+            .maxWidth(alignment: .leading)
             .padding(.horizontal, 32)
             .padding(.top, 32)
-            .padding(.bottom, 16)
         }
         
         struct FeatureView: View {
@@ -74,10 +59,10 @@ extension PathFinderView {
                     Image(systemName: iconName)
                         .setFont(.title, .regular, .rounded)
                         .setColor(Theme.Colors.primary.gradient)
-                        .frame(width: 40, alignment: .center)
+                        .frame(width: 32, alignment: .leading)
                     VStack(alignment: .leading, spacing: 2) {
                         Text(featureTitle)
-                            .setFont(.title3, .semibold, .rounded)
+                            .setFont(.title3, .medium, .rounded)
                         Text(featureDescription)
                             .lineLimit(nil)
                             .setFont(.footnote, .regular, .rounded)

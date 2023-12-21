@@ -13,7 +13,7 @@ extension PathFinderView {
         
         @ViewBuilder
         func questionCountLabel() -> some View {
-            HStack(spacing: 2) {
+            HStack(spacing: 3) {
                 Text(Theme.Locale.PathFinder.Test.question)
                 Text(model.questionCountLabel)
             }
@@ -27,8 +27,7 @@ extension PathFinderView {
                 questionCountLabel()
                 progressView()
             }
-            .padding(.vertical)
-            .padding(.bottom)
+            .padding(.vertical, 32)
             .padding(.horizontal, 24)
             .background(.white)
         }

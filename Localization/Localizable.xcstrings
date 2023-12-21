@@ -307,6 +307,9 @@
         }
       }
     },
+    "Design coming soon" : {
+
+    },
     "Discover careers that align with your unique profile. We've analyzed your strengths and interests to suggest potential career paths where you can thrive. Explore industries where your skills are in high demand and learn about the educational paths to get you there." : {
 
     },
@@ -1920,6 +1923,9 @@
     "override" : {
 
     },
+    "Pathfinder" : {
+
+    },
     "pathfinder_careerInsights_subtitle" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2391,7 +2397,7 @@
         "et-EE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alusta oma akadeemilise teekonnaga. Kaardista oma tugevad küljed ja isikuomadused, avasta erialasid, mis sobivad just sulle, ning kogu väärtusliku teavet sinu karjäärimaastikust. Pathfinder aitab sul leida kindla sihi kooli- ja tööturul."
+            "value" : "Alusta oma akadeemilise teekonnaga. Kaardista oma tugevad küljed ja isikuomadused, avasta erialasid, mis sobivad just sulle ning kogu väärtusliku teavet sinu karjäärimaastikust. Rajaleidja aitab sul leida kindla sihi kooli- ja tööturul."
           }
         }
       }
@@ -2549,6 +2555,12 @@
         }
       }
     },
+    "Personality test" : {
+
+    },
+    "Personality Test" : {
+
+    },
     "profile_about" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2645,6 +2657,9 @@
         }
       }
     },
+    "Question" : {
+
+    },
     "settings_language" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2678,6 +2693,9 @@
           }
         }
       }
+    },
+    "Start" : {
+
     },
     "studyType_apprenticeship" : {
       "extractionState" : "manual",

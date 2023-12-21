@@ -9,7 +9,7 @@ extension PathFinderView {
                 header()
                 userCharacteristics()
                 recommendedMajors()
-                careerInsights()
+//                careerInsights()
                 viewHistoryButton()
             }
         }
@@ -219,18 +219,20 @@ extension PathFinderView.ResultView {
     
     @ViewBuilder
     func viewHistoryButton() -> some View {
-        Button(action: {
-            appState.route(
-                to: .pathFinderHistory(colleges: model.colleges),
-                in: .profile
-            )
-        }, label: {
-            Text(Theme.Locale.PathFinder.Result.viewHistory)
-                .setFont(.title3, .regular, .rounded)
-                .setColor(Theme.Colors.primary)
-                .maxWidth()
-        })
-        .listRowBackground(Color.clear)
+        Section {
+            Button(action: {
+                appState.route(
+                    to: .pathFinderHistory(colleges: model.colleges),
+                    in: .profile
+                )
+            }, label: {
+                Text(Theme.Locale.PathFinder.Result.viewHistory)
+                    .setFont(.title3, .regular, .rounded)
+                    .setColor(Theme.Colors.primary)
+                    .maxWidth()
+            })
+            .listRowBackground(Color.clear)
+        }
     }
     
     @ViewBuilder

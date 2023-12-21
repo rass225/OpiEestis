@@ -32,6 +32,15 @@ extension PathFinderView {
             }
         }
         
+        var backButtonVisible: Bool {
+            switch viewState {
+            case .test, .proccessing:
+                return false
+            case .start, .setup, .result:
+                return true
+            }
+        }
+        
         init(colleges: [College]) {
             self.colleges = colleges
             self.setupModel()

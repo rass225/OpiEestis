@@ -19,10 +19,14 @@ struct PathFinderView: View {
                 resultView()
             }
         }
+        .navigationBarBackButtonHidden()
         .navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(model.toolbarVisibility, for: .navigationBar)
         .toolbar {
             ToolbarItem(placement: .principal, content: AppPrincipal.init)
+            if model.backButtonVisible {
+                ToolbarItem(placement: .navigationBarLeading, content: backButton)
+            }
         }
     }
 }
@@ -74,5 +78,12 @@ extension PathFinderView {
                 .setFont(.subheadline, .bold, .rounded)
                 .setColor(Theme.Colors.primary.gradient)
         }
+    }
+    
+    
+    
+    @ViewBuilder
+    func backButton() -> some View {
+        BackButton(color: Theme.Colors.primary)
     }
 }

@@ -5,7 +5,7 @@ import FirebaseStorage
 
 class AppState: ObservableObject {
     @Published var collegeNavigation: NavigationPath
-    @Published var pathFinderNavigation: NavigationPath
+    @Published var testsNavigation: NavigationPath
     @Published var favoritesNavigation: NavigationPath
     @Published var profileNavigation: NavigationPath
     
@@ -22,14 +22,14 @@ class AppState: ObservableObject {
     
     init(
         collegeNavigation: NavigationPath = .init(),
-        pathFinderNavigation: NavigationPath = .init(),
+        testsNavigation: NavigationPath = .init(),
         favoritesNavigation: NavigationPath = .init(),
         profileNavigation: NavigationPath = .init(),
         selectedIndex: Tabs = .colleges,
         authState: AuthState = .unauthenticated
     ) {
         self.collegeNavigation = collegeNavigation
-        self.pathFinderNavigation = pathFinderNavigation
+        self.testsNavigation = testsNavigation
         self.favoritesNavigation = favoritesNavigation
         self.profileNavigation = profileNavigation
         self.selectedIndex = selectedIndex
@@ -50,8 +50,8 @@ class AppState: ObservableObject {
             if $0 == self.selectedIndex {
                 print("Pop to root view for \($0)!")
                 switch $0 {
-                case .pathfinder:
-                    self.pathFinderNavigation = .init()
+                case .tests:
+                    self.testsNavigation = .init()
                 case .colleges:
                     if !self.collegeNavigation.isEmpty {
                         self.collegeNavigation = .init()
@@ -193,8 +193,8 @@ extension AppState {
         switch selectedIndex {
         case .colleges:
             collegeNavigation.append(destination)
-        case .pathfinder:
-            pathFinderNavigation.append(destination)
+        case .tests:
+            testsNavigation.append(destination)
         case .favorites:
             favoritesNavigation.append(destination)
         case .profile:
@@ -207,8 +207,8 @@ extension AppState {
         switch tab {
         case .colleges:
             collegeNavigation.append(destination)
-        case .pathfinder:
-            pathFinderNavigation.append(destination)
+        case .tests:
+            testsNavigation.append(destination)
         case .favorites:
             favoritesNavigation.append(destination)
         case .profile:
@@ -241,6 +241,10 @@ extension AppState {
             OutcomesView(college: college, outcomes: outcomes)
         case let .pathFinderHistory(colleges):
             PathFinderHistoryView(model: .init(colleges: colleges))
+        case let .pathfinder(colleges):
+            PathFinderView(model: .init(colleges: colleges))
+        case .personalityTests:
+            PersonalityTestView()
         }
     }
 }
@@ -366,11 +370,13 @@ enum CollegeDestination: Hashable {
     case myAccount(FirebaseUser)
     case outcomes(college: College, [NewOutcome])
     case pathFinderHistory(colleges: [College])
+    case pathfinder(colleges: [College])
+    case personalityTests
 }
 
 enum Tabs {
     case colleges
-    case pathfinder
+    case tests
     case favorites
     case profile
 }
