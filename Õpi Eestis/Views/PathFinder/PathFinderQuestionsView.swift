@@ -6,9 +6,15 @@ extension PathFinderView {
         @ObservedObject var model: PathFinderView.Model
         var body: some View {
             VStack(spacing: 0) {
-                testViewHeader()
+                questionCountLabel()
+                progressView()
                 testViewContent()
+                buttonContainer()
             }
+            .padding(.top, 24)
+            .padding(.horizontal, 32)
+            .padding(.bottom, 32)
+            .background(Theme.Colors.white)
         }
         
         @ViewBuilder
@@ -18,37 +24,10 @@ extension PathFinderView {
                 Text(model.questionCountLabel)
             }
             .setColor(.black)
-            .setFont(.title3, .medium, .rounded)
+            .setFont(.body, .medium, .rounded)
+            .maxWidth(alignment: .leading)
+            .padding(.bottom, 4)
         }
-        
-        @ViewBuilder
-        func testViewHeader() -> some View {
-            VStack(alignment: .leading, spacing: 8) {
-                questionCountLabel()
-                progressView()
-            }
-            .padding(.vertical, 32)
-            .padding(.horizontal, 24)
-            .background(.white)
-        }
-        
-        @ViewBuilder
-        func testViewContent() -> some View {
-            GeometryReader { geo in
-                let size = geo.size
-                VStack {
-                    if model.currentQuestionIndex < model.quizQuestions.count {
-                        questionCell(question: model.quizQuestions[model.currentQuestionIndex])
-                            .padding(.horizontal, 20)
-                            .frame(height: size.height / 1.1)
-                    }
-                }
-                .maxSize()
-                .background(Theme.Colors.white)
-            }
-        }
-        
-        
         
         @ViewBuilder
         func progressView() -> some View {
@@ -66,6 +45,26 @@ extension PathFinderView {
                 }
             }
             .frame(height: 20)
+            .clipShape(Capsule())
+            .padding(.bottom, 32)
+        }
+        
+        @ViewBuilder
+        func testViewContent() -> some View {
+            if model.currentQuestionIndex < model.quizQuestions.count {
+                questionCell(question: model.quizQuestions[model.currentQuestionIndex])
+                    .maxSize()
+            }
+        }
+        
+        @ViewBuilder
+        func buttonContainer() -> some View {
+            HStack {
+                previousButton()
+                Spacer()
+                nextButton(for: model.quizQuestions[model.currentQuestionIndex])
+            }
+            .padding(.top)
         }
     }
 }
@@ -77,8 +76,8 @@ extension PathFinderView.PathFinderQuestionsView {
     @ViewBuilder
     func questionCell(question: QuizQuestion) -> some View {
         VStack(alignment: .leading, spacing: 24) {
-            Text(question.labelEn)
-                .setFont(.title3, .medium, .rounded)
+            Text(locale.currentLocale == .estonian ? question.label : question.labelEn)
+                .setFont(.body, .medium, .rounded)
                 .setColor(Theme.Colors.black)
             VStack(spacing: 8) {
                 ForEach(question.answers.indices, id: \.self) { index in
@@ -86,38 +85,23 @@ extension PathFinderView.PathFinderQuestionsView {
                 }
             }
             .maxHeight(alignment: .top)
-            HStack {
-                previousButton()
-                Spacer()
-                nextButton(for: question)
-            }
         }
-        .padding(16)
         .maxSize(alignment: .top)
         .background(Theme.Colors.white)
-        .clipShape(.rect(cornerRadius: 16, style: .continuous))
-        .shadow(color: Theme.Colors.gray.opacity(0.4), radius: 4, x: 0, y: 0)
     }
     
     @ViewBuilder
     func answerCell(answer: QuizAnswer, question: QuizQuestion, index: Int) -> some View {
-        HStack(spacing: 8) {
-            Text(locale.currentLocale == .estonian ? answer.label : answer.labelEn)
-                .setColor(answer.isSelected ? Color.white : Color.black)
-                .setFont(.subheadline, answer.isSelected ? .medium : .medium, .rounded)
-                .padding(.vertical)
-                .maxWidth(alignment: .leading)
-                
-            Image(systemName: "checkmark.circle.fill")
-                .setFont(.title2, .semibold, .rounded)
-                .setColor(.white)
-                .opacity(answer.isSelected ? 1 : 0)
-        }
-        .padding(.horizontal, 12)
-        .modifier(AnswerBackground(answer: answer))
-        .clipShape(.rect(cornerRadius: 12, style: .continuous))
-        .contentShape(.rect)
-        .onTapGesture(perform: { model.selectAnswer(for: question, at: index) })
+        Text(locale.currentLocale == .estonian ? answer.label : answer.labelEn)
+            .setColor(answer.isSelected ? Color.white : Color.black)
+            .setFont(.subheadline, .regular, .rounded)
+            .padding(.vertical)
+            .maxWidth(alignment: .leading)
+            .padding(.horizontal, 12)
+            .modifier(AnswerBackground(answer: answer))
+            .clipShape(.rect(cornerRadius: 12, style: .continuous))
+            .contentShape(.rect)
+            .onTapGesture(perform: { model.selectAnswer(for: question, at: index) })
     }
 }
 
@@ -130,8 +114,8 @@ extension PathFinderView.PathFinderQuestionsView {
             Text(Theme.Locale.PathFinder.Test.previous)
                 .setFont(.subheadline, .medium, .rounded)
                 .setColor(.black)
-                .padding(.vertical, 12)
-                .padding(.horizontal, 10)
+                .padding(.vertical, 14)
+                .padding(.horizontal, 20)
                 .background(Theme.Colors.systemGray)
                 .clipShape(.rect(cornerRadius: 12, style: .continuous))
                 .contentShape(.rect)
@@ -144,8 +128,8 @@ extension PathFinderView.PathFinderQuestionsView {
         Text(model.currentQuestionIndex == model.quizQuestions.count - 1 ? Theme.Locale.PathFinder.Test.submit : Theme.Locale.PathFinder.Test.next)
             .setFont(.subheadline, .medium, .rounded)
             .setColor(.white)
-            .padding(.vertical, 12)
-            .padding(.horizontal, 20)
+            .padding(.vertical, 14)
+            .padding(.horizontal, 32)
             .background(Theme.Colors.primary.gradient)
             .clipShape(.rect(cornerRadius: 12, style: .continuous))
             .contentShape(.rect)

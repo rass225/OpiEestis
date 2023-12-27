@@ -2816,23 +2816,6 @@
         }
       }
     },
-    "tab_quiz" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pathfinder"
-          }
-        },
-        "et-EE" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rajaleidja"
-          }
-        }
-      }
-    },
     "tab_schools" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2846,6 +2829,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koolid"
+          }
+        }
+      }
+    },
+    "tab_tests" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tests"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Testid"
           }
         }
       }

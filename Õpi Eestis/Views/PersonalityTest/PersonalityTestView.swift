@@ -72,10 +72,7 @@ extension PersonalityTestView {
         VStack(spacing: 24) {
             Text("Personality Test")
                 .matchedGeometryEffect(id: "PersonalityTestText", in: animation)
-//                .setFont(.largeTitle, .semibold, .rounded)
         }
-//        .padding(.horizontal, 32)
         .padding(.top, 32)
-//        .padding(.bottom, 16)
     }
 }

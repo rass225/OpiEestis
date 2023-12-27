@@ -9,7 +9,6 @@ extension PathFinderView {
                 header()
                 userCharacteristics()
                 recommendedMajors()
-//                careerInsights()
                 viewHistoryButton()
             }
         }

@@ -81,7 +81,7 @@ private extension ContentView {
                     appState.navigationDestination($0)
                 }
         }
-        .tabItem(quizTabItem)
+        .tabItem(testsTabItem)
         .tag(Tabs.tests)
     }
     
@@ -106,8 +106,8 @@ extension ContentView {
     }
     
     @ViewBuilder
-    func quizTabItem() -> some View {
-        Label(Theme.Locale.Tabs.quiz, systemImage: "doc.questionmark.fill")
+    func testsTabItem() -> some View {
+        Label(Theme.Locale.Tabs.tests, systemImage: "doc.questionmark.fill")
     }
     
     @ViewBuilder

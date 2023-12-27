@@ -8,20 +8,12 @@ extension PathFinderView {
         @Binding var isSpeakingEnglish: Bool
         private let shadowColor = Theme.Colors.gray.opacity(0.4)
         var body: some View {
-            VStack(spacing: 0) {
+            VStack(spacing: 8) {
                 titleView()
-                VStack(spacing: 8) {
-                    educationPicker()
-                        .padding(.leading, 32)
-                        .padding(.trailing, 20)
-                    estoniaToggle()
-                        .padding(.horizontal, 32)
-                    englishToggle()
-                        .padding(.horizontal, 32)
-                }
-                .maxHeight(alignment: .top)
-                .padding(.top, 16)
-                
+                educationPicker()
+                estoniaToggle()
+                englishToggle()
+                Spacer()
                 setupButton()
             }
         }
@@ -29,10 +21,11 @@ extension PathFinderView {
         @ViewBuilder
         func titleView() -> some View {
             Text(Theme.Locale.PathFinder.Setup.title)
-                .setFont(.title, .semibold, .rounded)
+                .setFont(.title3, .medium, .rounded)
                 .maxWidth(alignment: .leading)
                 .padding(.horizontal, 32)
-                .padding(.top, 32)
+                .padding(.top, 24)
+                .padding(.bottom)
         }
         
         @ViewBuilder
@@ -64,40 +57,51 @@ extension PathFinderView {
         @ViewBuilder
         func estoniaToggle() -> some View {
             Toggle(Theme.Locale.PathFinder.Setup.speakEstonianQuestion, isOn: $isSpeakingEstonian)
-                    .tint(Theme.Colors.primary.gradient)
-            
-            .setFont(.subheadline, .medium, .rounded)
-            .padding(.vertical, 4)
-            .maxWidth(alignment: .leading)
+                .tint(Theme.Colors.primary.gradient)
+                .setFont(.subheadline, .regular, .rounded)
+                .padding(.vertical, 8)
+                .maxWidth(alignment: .leading)
+                .padding(.leading, 12)
+                .padding(.trailing)
+                .background(Theme.Colors.systemGray)
+                .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                .padding(.horizontal, 32)
         }
         
         @ViewBuilder
         func englishToggle() -> some View {
             Toggle(Theme.Locale.PathFinder.Setup.speakEnglishQuestion, isOn: $isSpeakingEnglish)
-                    .tint(Theme.Colors.primary.gradient)
-            
-            .setFont(.subheadline, .medium, .rounded)
-            .padding(.vertical, 4)
-            .maxWidth(alignment: .leading)
+                .tint(Theme.Colors.primary.gradient)
+                .setFont(.subheadline, .regular, .rounded)
+                .padding(.vertical, 8)
+                .maxWidth(alignment: .leading)
+                .padding(.leading, 12)
+                .padding(.trailing)
+                .background(Theme.Colors.systemGray)
+                .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                .padding(.horizontal, 32)
         }
         
         @ViewBuilder
         func educationPicker() -> some View {
             HStack {
                 Text(Theme.Locale.PathFinder.Setup.yourCurrentEducation)
-                    .setFont(.subheadline, .medium, .rounded)
                     .maxWidth(alignment: .leading)
                 Picker("", selection: $currentEducation) {
                     ForEach(EducationLevel.allCases, id: \.self) {
                         Text($0.label)
                     }
                 }
-                .padding(.vertical, 4)
-                .setFont(.subheadline, .regular, .rounded)
+                .padding(.vertical, 8)
                 .pickerStyle(.menu)
                 .tint(Theme.Colors.primary.gradient)
             }
+            .setFont(.subheadline, .regular, .rounded)
+            .padding(.leading, 12)
+            .padding(.trailing, 4)
+            .background(Theme.Colors.systemGray)
+            .clipShape(.rect(cornerRadius: 12, style: .continuous))
+            .padding(.horizontal, 32)
         }
     }
 }
-

@@ -46,7 +46,7 @@ extension PathFinderView {
             }
             .maxWidth(alignment: .leading)
             .padding(.horizontal, 32)
-            .padding(.top, 32)
+            .padding(.top, 24)
         }
         
         struct FeatureView: View {

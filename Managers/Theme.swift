@@ -68,7 +68,7 @@ struct Theme {
     enum Locale {
         enum Tabs {
             static let schools: LocalizedStringKey = "tab_schools"
-            static let quiz: LocalizedStringKey = "tab_quiz"
+            static let tests: LocalizedStringKey = "tab_tests"
             static let favorites: LocalizedStringKey = "tab_favorites"
             static let profile: LocalizedStringKey = "tab_profile"
         }
