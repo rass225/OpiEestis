@@ -1,0 +1,4258 @@
+[
+    {
+        "label": "I regularly make new friends.",
+        "labelEn": "I regularly make new friends.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I spend a lot of my free time exploring various random topics that pique my interest.",
+        "labelEn": "I spend a lot of my free time exploring various random topics that pique my interest.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "Seeing other people cry can easily make me feel like I want to cry too.",
+        "labelEn": "Seeing other people cry can easily make me feel like I want to cry too.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I often make a backup plan for a backup plan.",
+        "labelEn": "I often make a backup plan for a backup plan.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I prefer to completely finish one project before starting another.",
+        "labelEn": "I prefer to completely finish one project before starting another.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I are very sentimental.",
+        "labelEn": "I are very sentimental.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "Even a small mistake can cause me to doubt my overall abilities and knowledge.",
+        "labelEn": "Even a small mistake can cause me to doubt my overall abilities and knowledge.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I feel comfortable just walking up to someone I find interesting and striking up a conversation.",
+        "labelEn": "I feel comfortable just walking up to someone I find interesting and striking up a conversation.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am not too interested in discussing various interpretations and analyses of creative works.",
+        "labelEn": "I am not too interested in discussing various interpretations and analyses of creative works.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am more inclined to follow my head than my heart.",
+        "labelEn": "I am more inclined to follow my head than my heart.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I usually prefer just doing what I feel like at any given moment instead of planning a particular daily routine.",
+        "labelEn": "I usually prefer just doing what I feel like at any given moment instead of planning a particular daily routine.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I rarely worry about whether I make a good impression on people I meet.",
+        "labelEn": "I rarely worry about whether I make a good impression on people I meet.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy participating in group activities.",
+        "labelEn": "I enjoy participating in group activities.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I like books and movies that make me come up with my own interpretation of the ending.",
+        "labelEn": "I like books and movies that make me come up with my own interpretation of the ending.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "My happiness comes more from helping others accomplish things than my own accomplishments.",
+        "labelEn": "My happiness comes more from helping others accomplish things than my own accomplishments.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I am interested in so many things that I find it difficult to choose what to try next.",
+        "labelEn": "I am interested in so many things that I find it difficult to choose what to try next.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I am prone to worrying that things will take a turn for the worse.",
+        "labelEn": "I am prone to worrying that things will take a turn for the worse.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I avoid leadership roles in group settings.",
+        "labelEn": "I avoid leadership roles in group settings.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I am definitely not an artistic type of person.",
+        "labelEn": "I am definitely not an artistic type of person.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I think the world would be a better place if people relied more on rationality and less on their feelings.",
+        "labelEn": "I think the world would be a better place if people relied more on rationality and less on their feelings.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I prefer to do my chores before allowing myself to relax.",
+        "labelEn": "I prefer to do my chores before allowing myself to relax.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy watching people argue.",
+        "labelEn": "I enjoy watching people argue.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I tend to avoid drawing attention to myself.",
+        "labelEn": "I tend to avoid drawing attention to myself.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "My mood can change very quickly.",
+        "labelEn": "My mood can change very quickly.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I lose patience with people who are not as efficient as me.",
+        "labelEn": "I lose patience with people who are not as efficient as me.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I often end up doing things at the last possible moment.",
+        "labelEn": "I often end up doing things at the last possible moment.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I usually prefer to be around others rather than on my own.",
+        "labelEn": "I usually prefer to be around others rather than on my own.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I become bored or lose interest when the discussion gets highly theoretical.",
+        "labelEn": "I become bored or lose interest when the discussion gets highly theoretical.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I find it easy to empathize with a person whose experiences are very different from mine.",
+        "labelEn": "I find it easy to empathize with a person whose experiences are very different from mine.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I usually postpone finalizing decisions for as long as possible.",
+        "labelEn": "I usually postpone finalizing decisions for as long as possible.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I rarely second-guess the choices that I have made.",
+        "labelEn": "I rarely second-guess the choices that I have made.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I often have a hard time understanding other people\u2019s feelings.",
+        "labelEn": "I often have a hard time understanding other people\u2019s feelings.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I like to have a to-do list for each day.",
+        "labelEn": "I like to have a to-do list for each day.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I rarely feel insecure.",
+        "labelEn": "I rarely feel insecure.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I avoid making phone calls.",
+        "labelEn": "I avoid making phone calls.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I often spend a lot of time trying to understand views that are very different from my own.",
+        "labelEn": "I often spend a lot of time trying to understand views that are very different from my own.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am still bothered by mistakes that I made a long time ago.",
+        "labelEn": "I am still bothered by mistakes that I made a long time ago.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I rarely contemplate the reasons for human existence or the meaning of life.",
+        "labelEn": "I rarely contemplate the reasons for human existence or the meaning of life.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "My emotions control me more than I control them.",
+        "labelEn": "My emotions control me more than I control them.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "My personal work style is closer to spontaneous bursts of energy than organized and consistent efforts.",
+        "labelEn": "My personal work style is closer to spontaneous bursts of energy than organized and consistent efforts.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I would love a job that requires me to work alone most of the time.",
+        "labelEn": "I would love a job that requires me to work alone most of the time.",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I believe that pondering abstract philosophical questions is a waste of time.",
+        "labelEn": "I believe that pondering abstract philosophical questions is a waste of time.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I know at first glance how someone is feeling.",
+        "labelEn": "I know at first glance how someone is feeling.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I often feel overwhelmed.",
+        "labelEn": "I often feel overwhelmed.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I complete things methodically without skipping over any steps.",
+        "labelEn": "I complete things methodically without skipping over any steps.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am very intrigued by things labeled as controversial.",
+        "labelEn": "I am very intrigued by things labeled as controversial.",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I would pass along a good opportunity if I thought someone else needed it more.",
+        "labelEn": "I would pass along a good opportunity if I thought someone else needed it more.",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I struggle with deadlines.",
+        "labelEn": "I struggle with deadlines.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I feel confident that things will work out for me.",
+        "labelEn": "I feel confident that things will work out for me.",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I feel uncomfortable when I disagree with someone",
+        "labelEn": "I feel uncomfortable when I disagree with someone",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I lose my belongings",
+        "labelEn": "I lose my belongings",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I have a vivid imagination",
+        "labelEn": "I have a vivid imagination",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I would enjoy attending a large party in my honor",
+        "labelEn": "I would enjoy attending a large party in my honor",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I dislike being in competition with others",
+        "labelEn": "I dislike being in competition with others",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I prefer to follow a schedule",
+        "labelEn": "I prefer to follow a schedule",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I question the wisdom of my elders",
+        "labelEn": "I question the wisdom of my elders",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy being the center of attention",
+        "labelEn": "I enjoy being the center of attention",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I try to avoid conflict",
+        "labelEn": "I try to avoid conflict",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I make sure my work is finished on time",
+        "labelEn": "I make sure my work is finished on time",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I make an effort to be popular",
+        "labelEn": "I make an effort to be popular",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I sympathize with the homeless",
+        "labelEn": "I sympathize with the homeless",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I have trouble controlling my impulses",
+        "labelEn": "I have trouble controlling my impulses",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I think about why people do the things they do",
+        "labelEn": "I think about why people do the things they do",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "Being around lots of people energizes me",
+        "labelEn": "Being around lots of people energizes me",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am helpful to the people around me",
+        "labelEn": "I am helpful to the people around me",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I like to do things as they were done in the past",
+        "labelEn": "I like to do things as they were done in the past",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I forgive easily",
+        "labelEn": "I forgive easily",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I like trying out new hobbies",
+        "labelEn": "I like trying out new hobbies",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I like to stay active",
+        "labelEn": "I like to stay active",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "It is best to be totally objective when making a decision",
+        "labelEn": "It is best to be totally objective when making a decision",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I keep my belongings in their proper place",
+        "labelEn": "I keep my belongings in their proper place",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I have a rich fantasy life",
+        "labelEn": "I have a rich fantasy life",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I have little to say",
+        "labelEn": "I have little to say",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy being there for people when they are feeling sad",
+        "labelEn": "I enjoy being there for people when they are feeling sad",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I would rather go with the flow than have a set schedule",
+        "labelEn": "I would rather go with the flow than have a set schedule",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy philosophical discussions",
+        "labelEn": "I enjoy philosophical discussions",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I let other people know what I think",
+        "labelEn": "I let other people know what I think",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am very attentive to deadlines",
+        "labelEn": "I am very attentive to deadlines",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I resist temptations",
+        "labelEn": "I resist temptations",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I have a lot of fun",
+        "labelEn": "I have a lot of fun",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "It is easy for me to talk to strangers",
+        "labelEn": "It is easy for me to talk to strangers",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am concerned for the welfare of elderly people",
+        "labelEn": "I am concerned for the welfare of elderly people",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am determined to achieve success in life",
+        "labelEn": "I am determined to achieve success in life",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I believe in the importance of art",
+        "labelEn": "I believe in the importance of art",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I like to spend my free time alone",
+        "labelEn": "I like to spend my free time alone",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I believe people should be punished for their mistakes",
+        "labelEn": "I believe people should be punished for their mistakes",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy having a daily routine",
+        "labelEn": "I enjoy having a daily routine",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I spend time seeking out new experiences",
+        "labelEn": "I spend time seeking out new experiences",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I like to tidy up",
+        "labelEn": "I like to tidy up",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy imagining the future",
+        "labelEn": "I enjoy imagining the future",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I find it difficult to express my opinions",
+        "labelEn": "I find it difficult to express my opinions",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I finish assignments before they are due",
+        "labelEn": "I finish assignments before they are due",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I like thinking about the mysteries of the universe",
+        "labelEn": "I like thinking about the mysteries of the universe",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I have a lot of energy",
+        "labelEn": "I have a lot of energy",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I can't stand when someone doesn't like me",
+        "labelEn": "I can't stand when someone doesn't like me",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I follow my impulses",
+        "labelEn": "I follow my impulses",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy trying to understand complicated ideas",
+        "labelEn": "I enjoy trying to understand complicated ideas",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I feel very happy",
+        "labelEn": "I feel very happy",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I spend time trying to understand myself",
+        "labelEn": "I spend time trying to understand myself",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I get a thrill out of meeting new people",
+        "labelEn": "I get a thrill out of meeting new people",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I need support from other people",
+        "labelEn": "I need support from other people",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am not bothered by disorder",
+        "labelEn": "I am not bothered by disorder",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I avoid noisy crowds",
+        "labelEn": "I avoid noisy crowds",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I make plans and stick to them",
+        "labelEn": "I make plans and stick to them",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I do not like to sit still for long",
+        "labelEn": "I do not like to sit still for long",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I hold back my opinions",
+        "labelEn": "I hold back my opinions",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I am easily distracted",
+        "labelEn": "I am easily distracted",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy learning about scientific theories",
+        "labelEn": "I enjoy learning about scientific theories",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I work hard to please others",
+        "labelEn": "I work hard to please others",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I give to people who are less fortunate than",
+        "labelEn": "I give to people who are less fortunate than",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I wonder why I am the way I am",
+        "labelEn": "I wonder why I am the way I am",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "It\u2019s important to me that other people like me",
+        "labelEn": "It\u2019s important to me that other people like me",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I have trouble sticking to a routine",
+        "labelEn": "I have trouble sticking to a routine",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I appreciate the beauty of nature",
+        "labelEn": "I appreciate the beauty of nature",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I prefer quiet surroundings",
+        "labelEn": "I prefer quiet surroundings",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I find it difficult to get down to work",
+        "labelEn": "I find it difficult to get down to work",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "Emotional people make me uncomfortable",
+        "labelEn": "Emotional people make me uncomfortable",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "People tell me I am too quiet",
+        "labelEn": "People tell me I am too quiet",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I am concerned about others",
+        "labelEn": "I am concerned about others",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy chatting with new acquaintances",
+        "labelEn": "I enjoy chatting with new acquaintances",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "It is important to me to make decisions without being swayed by emotions",
+        "labelEn": "It is important to me to make decisions without being swayed by emotions",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I carry out my plans",
+        "labelEn": "I carry out my plans",
+        "categoryPair": "Judging-Perceiving",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "It is important to me to understand the bigger picture",
+        "labelEn": "It is important to me to understand the bigger picture",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I enjoy examining myself and my life",
+        "labelEn": "I enjoy examining myself and my life",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I find it challenging to make new friends",
+        "labelEn": "I find it challenging to make new friends",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I like poetry",
+        "labelEn": "I like poetry",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am a private person",
+        "labelEn": "I am a private person",
+        "categoryPair": "Extraversion-Introversion",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    },
+    {
+        "label": "I question why things are the way they are",
+        "labelEn": "I question why things are the way they are",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I let others know that I care about their feelings",
+        "labelEn": "I let others know that I care about their feelings",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I think about the needs of others",
+        "labelEn": "I think about the needs of others",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I like to be needed by other people",
+        "labelEn": "I like to be needed by other people",
+        "categoryPair": "Feeling-Thinking",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I would prefer to come up with an original solution to a problem",
+        "labelEn": "I would prefer to come up with an original solution to a problem",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": -2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": -1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": 1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "label": "I am full of new ideas",
+        "labelEn": "I am full of new ideas",
+        "categoryPair": "Sensing-Intuition",
+        "answers": [
+            {
+                "label": "Strongly Agree",
+                "labelEn": "Strongly Agree",
+                "value": 2
+            },
+            {
+                "label": "Agree",
+                "labelEn": "Agree",
+                "value": 1
+            },
+            {
+                "label": "Unsure",
+                "labelEn": "Unsure",
+                "value": 0
+            },
+            {
+                "label": "Disagree",
+                "labelEn": "Disagree",
+                "value": -1
+            },
+            {
+                "label": "Strongly Disagree",
+                "labelEn": "Strongly Disagree",
+                "value": -2
+            }
+        ]
+    }
+]

@@ -69,7 +69,9 @@ extension PathFinderView.Model {
     }
     
     func processComplete() {
-        viewState = .result
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.75) {
+            self.viewState = .result
+        }
     }
     func shuffle() {
         quizQuestions = quizQuestions.shuffled()

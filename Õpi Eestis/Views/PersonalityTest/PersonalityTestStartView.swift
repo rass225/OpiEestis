@@ -1,6 +1,6 @@
 import SwiftUI
 
-extension PathFinderView {
+extension PersonalityTestView {
     struct StartView: View {
         let action: () -> ()
         
@@ -19,9 +19,9 @@ extension PathFinderView {
         @ViewBuilder
         func headerView() -> some View {
             VStack(alignment: .leading, spacing: 8) {
-                Text(Theme.Locale.PathFinder.name)
+                Text(Theme.Locale.PersonalityTest.name)
                     .setFont(.title, .semibold, .rounded)
-                Text(Theme.Locale.PathFinder.Start.promotionalText)
+                Text(Theme.Locale.PersonalityTest.Start.promotionalText)
                     .setFont(.subheadline, .regular, .rounded)
                     .setColor(.gray)
             }
@@ -32,7 +32,7 @@ extension PathFinderView {
         
         @ViewBuilder
         func illustrationView() -> some View {
-            Image("pathfinderIllustration")
+            Image("personalityIllustration")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .maxWidth()
@@ -42,7 +42,7 @@ extension PathFinderView {
         @ViewBuilder
         func startButton() -> some View {
             Button(action: action, label: {
-                Text(Theme.Locale.PathFinder.Start.start)
+                Text(Theme.Locale.PersonalityTest.Start.start)
                     .setColor(.white)
                     .setFont(.title3, .medium, .rounded)
                     .padding(.vertical)

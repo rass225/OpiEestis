@@ -342,5 +342,13 @@ struct Theme {
                 static let match: LocalizedStringKey = "pathfinder_result_match"
             }
         }
+        
+        enum PersonalityTest {
+            static let name: LocalizedStringKey = "mbti_name"
+            enum Start {
+                static let start: LocalizedStringKey = "mbti_start_start"
+                static let promotionalText: LocalizedStringKey = "mbti_start_promotionalText"
+            }
+        }
     }
 }

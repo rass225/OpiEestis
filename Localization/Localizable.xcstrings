@@ -32,6 +32,17 @@
         }
       }
     },
+    "%@% Completed" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$ Completed"
+          }
+        }
+      }
+    },
     "•" : {
 
     },
@@ -68,6 +79,9 @@
           }
         }
       }
+    },
+    "Careers" : {
+
     },
     "college_aboutSchool" : {
       "extractionState" : "manual",
@@ -1764,6 +1778,57 @@
         }
       }
     },
+    "mbti_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personality Test"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Isiksuse test"
+          }
+        }
+      }
+    },
+    "mbti_start_promotionalText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Myers-Briggs Personality Type Indicator is a self-report inventory designed to identify a person's personality type, strengths, and preferences. The questionnaire was developed by Isabel Myers and her mother Katherine Briggs based on their work with Carl Jung's theory of personality types. Today, the MBTI inventory is one of the world's most widely used psychological instruments."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Myers Briggsi psühholoogilised testid (inglise keeles Myers Briggs type indicator ehk MBTI) on maailmas kõige laiemat kasutust leidnud testid. Tegemist on testidega, mis aitab sul enda isiksusetüüpi leida olemasoleva 16 erineva isiksuse seast ja mis omakorda võib kasu tuua nii suhetes teiste inimestega või töö leidmise juures."
+          }
+        }
+      }
+    },
+    "mbti_start_start" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alusta"
+          }
+        }
+      }
+    },
     "myAccount_addPhoto" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2555,9 +2620,6 @@
         }
       }
     },
-    "Personality test" : {
-
-    },
     "Personality Test" : {
 
     },
@@ -2657,9 +2719,6 @@
         }
       }
     },
-    "Question" : {
-
-    },
     "settings_language" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2694,7 +2753,7 @@
         }
       }
     },
-    "Start" : {
+    "Strengths" : {
 
     },
     "studyType_apprenticeship" : {
@@ -2782,6 +2841,9 @@
         }
       }
     },
+    "Submit" : {
+
+    },
     "tab_favorites" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2844,7 +2906,7 @@
         },
         "et-EE" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Testid"
           }
         }
@@ -2937,6 +2999,12 @@
           }
         }
       }
+    },
+    "Weaknesses" : {
+
+    },
+    "You are %@" : {
+
     }
   },
   "version" : "1.0"

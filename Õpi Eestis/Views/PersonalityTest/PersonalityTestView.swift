@@ -8,7 +8,7 @@ struct PersonalityTestView: View {
         VStack {
             switch model.viewState {
             case .start:
-                startView()
+                StartView(action: model.startTest)
             case .test:
                 testView()
             case .processing:
@@ -17,62 +17,41 @@ struct PersonalityTestView: View {
                 resultView()
             }
         }
+        .navigationBarBackButtonHidden()
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(.automatic, for: .navigationBar)
+        .toolbarBackground(model.toolbarVisibility, for: .navigationBar)
         .toolbar {
             ToolbarItem(placement: .principal, content: AppPrincipal.init)
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
         }
-        .navigationBarBackButtonHidden(true)
     }
 }
 
 extension PersonalityTestView {
     @ViewBuilder
-    func startView() -> some View {
-        VStack {
-            headerView()
-            Button(action: {
-                model.startTest()
-            }, label: {
-                Text("Start")
-            })
-            Spacer()
-        }
-    }
-    
-    @ViewBuilder
     func testView() -> some View {
-        VStack {
-            Text("Personality test")
-               
-            GeometryReader { geo in
-                Text("Question")
-            }
-        }
+        PersonalityTestQuestionsView(model: model)
     }
     
     @ViewBuilder
     func processingView() -> some View {
-        
+        PathFinderView.ProcessingView(
+            duration: 5.0,
+            completion: model.processComplete
+        )
     }
     
     @ViewBuilder
     func resultView() -> some View {
-        
+        if let personalityType = model.result {
+            PersonalityTestResultView(personalityType: personalityType)
+        }
     }
     
     @ViewBuilder
     func backButton() -> some View {
-        BackButton(color: Theme.Colors.primary)
-    }
-    
-    @ViewBuilder
-    func headerView() -> some View {
-        VStack(spacing: 24) {
-            Text("Personality Test")
-                .matchedGeometryEffect(id: "PersonalityTestText", in: animation)
+        if model.backButtonVisible {
+            BackButton(color: Theme.Colors.primary)
         }
-        .padding(.top, 32)
     }
 }

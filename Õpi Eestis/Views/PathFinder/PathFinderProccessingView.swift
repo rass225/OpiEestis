@@ -3,10 +3,18 @@ import SwiftUI
 extension PathFinderView {
     struct ProcessingView: View {
         @State private var progress: CGFloat = 0
-        private let totalTime = Double.random(in: 7.5...10)
-        private let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+        private let duration: Double
+        private let timer = Timer.publish(every: 0.05, on: .main, in: .common).autoconnect()
         
         let completion: () -> ()
+        
+        init(
+            duration: Double = Double.random(in: 7.5...10),
+            completion: @escaping () -> Void
+        ) {
+            self.duration = duration
+            self.completion = completion
+        }
 
         var body: some View {
             ZStack {
@@ -29,7 +37,7 @@ extension PathFinderView {
         }
 
         private func updateProgress() {
-            let increment = 0.1 / totalTime
+            let increment = 0.05 / duration
             if progress < 1 {
                 progress += CGFloat(increment)
             } else {
@@ -39,9 +47,7 @@ extension PathFinderView {
         }
 
         private func onComplete() {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.75) {
-                completion()
-            }
+            completion()
         }
     }
 }
