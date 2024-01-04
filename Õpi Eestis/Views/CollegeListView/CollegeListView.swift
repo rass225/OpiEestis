@@ -6,15 +6,17 @@ struct CollegesListView: View {
     
     var body: some View {
         List {
-            ForEach(model.colleges) { college in
-                collegeCell(college)
+            VStack(spacing: 4) {
+                ForEach(model.colleges) { college in
+                    collegeCell(college)
+                }
             }
+            .listRowInsets(.zero)
+            .listRowBackground(Color.clear)
         }
         .toolbar {
             ToolbarItem(placement: .principal, content: AppPrincipal.init)
         }
-        .toolbar(.visible, for: .tabBar)
-        .toolbarBackground(.white, for: .tabBar)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -32,7 +34,11 @@ private extension CollegesListView {
         }
         .padding(.vertical, 6)
         .contentShape(Rectangle())
-        .listRowInsets(.collegeListInsets)
+        .padding()
+        .maxWidth()
+        .background(Color.white)
+        .clipShape(.rect(cornerRadius: 12, style: .continuous))
+        
         .onTapGesture {
             switch appState.environment {
             case .edit:
@@ -64,7 +70,7 @@ private extension CollegesListView {
     @ViewBuilder
     func collegeLocation(_ city: String) -> some View {
         Text(city)
-            .setFont(.footnote, .medium, .rounded)
+            .setFont(.subheadline, .medium, .rounded)
             .setColor(.gray)
     }
 }

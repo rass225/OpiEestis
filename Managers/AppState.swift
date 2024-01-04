@@ -244,7 +244,13 @@ extension AppState {
         case let .pathfinder(colleges):
             PathFinderView(model: .init(colleges: colleges))
         case .personalityTests:
-            PersonalityTestView()
+            PersonalityTestView(model: .init(appState: self))
+        case let .testsHistory(colleges):
+            TestsHistoryView(model: .init(colleges: colleges, appState: self))
+        case .personalityTestHistory:
+            PersonalityTestHistoryView(model: .init(appState: self))
+        case let .personalityTestResult(result):
+            PersonalityTestView.PersonalityTestResultView(model: .init(result: result))
         }
     }
 }
@@ -372,6 +378,9 @@ enum CollegeDestination: Hashable {
     case pathFinderHistory(colleges: [College])
     case pathfinder(colleges: [College])
     case personalityTests
+    case testsHistory(colleges: [College])
+    case personalityTestHistory
+    case personalityTestResult(result: PersonalityTestResult)
 }
 
 enum Tabs {

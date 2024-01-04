@@ -47,7 +47,7 @@ extension SettingsView {
             }
             .contentShape(.rect)
             .onTapGesture {
-                localeManager.currentLocale = locale
+                localeManager.setLocale(locale)
             }
         }
     }

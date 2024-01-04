@@ -4,7 +4,7 @@ extension PathFinderView {
     struct ProcessingView: View {
         @State private var progress: CGFloat = 0
         private let duration: Double
-        private let timer = Timer.publish(every: 0.05, on: .main, in: .common).autoconnect()
+        private let timer = Timer.publish(every: 0.005, on: .main, in: .common).autoconnect()
         
         let completion: () -> ()
         
@@ -26,7 +26,7 @@ extension PathFinderView {
                     )
                     .frame(width: 200, height: 200)
                     .rotationEffect(Angle(degrees: -90))
-                    .animation(.default, value: progress)
+                    .animation(.linear, value: progress)
                 
                 Text("\(Int(min(progress * 100, 100)))%")
                     .setFont(.largeTitle, .medium, .rounded)
@@ -37,7 +37,7 @@ extension PathFinderView {
         }
 
         private func updateProgress() {
-            let increment = 0.05 / duration
+            let increment = 0.005 / duration
             if progress < 1 {
                 progress += CGFloat(increment)
             } else {

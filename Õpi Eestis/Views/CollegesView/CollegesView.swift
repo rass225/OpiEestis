@@ -13,8 +13,6 @@ struct CollegesView: View {
                 MapView(locations: model.getAllBranches())
             }
         }
-        .toolbar(.visible, for: .tabBar)
-        .toolbarBackground(.visible, for: .tabBar)
         .toolbarBackground(.hidden, for: .navigationBar)
     }
     

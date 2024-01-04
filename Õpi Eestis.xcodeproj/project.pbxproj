@@ -37,6 +37,7 @@
 		C03420902B24EE3500086AB9 /* CollegesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034208F2B24EE3500086AB9 /* CollegesViewModel.swift */; };
 		C03420932B25ED5500086AB9 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03420922B25ED5500086AB9 /* ErrorView.swift */; };
 		C039486626279BC0004D5F00 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039486526279BC0004D5F00 /* ContentViewModel.swift */; };
+		C03B543E2B47444E00D278B9 /* PersonalityTestHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B543D2B47444E00D278B9 /* PersonalityTestHistoryViewModel.swift */; };
 		C03EA8AC2747FC6D00E07782 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03EA8AB2747FC6D00E07782 /* FavoritesView.swift */; };
 		C041550C2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json in Resources */ = {isa = PBXBuildFile; fileRef = C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */; };
 		C041550F2AC8535300858055 /* CollegeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041550E2AC8535300858055 /* CollegeMapView.swift */; };
@@ -78,6 +79,11 @@
 		C07307252AF302AA00BABA4C /* MajorView.Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07307242AF302AA00BABA4C /* MajorView.Components.swift */; };
 		C07307272AF3032900BABA4C /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07307262AF3032900BABA4C /* PersonDetailView.swift */; };
 		C0755B96271793050045F6DC /* TÜ.json in Resources */ = {isa = PBXBuildFile; fileRef = C0755B95271793050045F6DC /* TÜ.json */; };
+		C0943ABF2B4580CC00496602 /* PersonalityTestResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0943ABE2B4580CC00496602 /* PersonalityTestResultViewModel.swift */; };
+		C0943AC22B46FF7900496602 /* TestsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0943AC12B46FF7900496602 /* TestsHistoryView.swift */; };
+		C0943AC42B47050900496602 /* PersonalityTestHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0943AC32B47050900496602 /* PersonalityTestHistoryView.swift */; };
+		C0943AC62B471AC400496602 /* TestsHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0943AC52B471AC400496602 /* TestsHistoryViewModel.swift */; };
+		C0943AC82B471BF400496602 /* PersonalityTestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0943AC72B471BF400496602 /* PersonalityTestResult.swift */; };
 		C09868932766F0DA00C18C44 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09868922766F0DA00C18C44 /* Chevron.swift */; };
 		C09CFB7B2AE976CA005048B0 /* FacebookWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */; };
 		C09CFB7D2AEA6FE7005048B0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09CFB7C2AEA6FE7005048B0 /* WebView.swift */; };
@@ -223,6 +229,7 @@
 		C034208F2B24EE3500086AB9 /* CollegesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesViewModel.swift; sourceTree = "<group>"; };
 		C03420922B25ED5500086AB9 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		C039486526279BC0004D5F00 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		C03B543D2B47444E00D278B9 /* PersonalityTestHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestHistoryViewModel.swift; sourceTree = "<group>"; };
 		C03EA8AB2747FC6D00E07782 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IdaVirumaaKutsehariduskeskus.json; sourceTree = "<group>"; };
 		C041550E2AC8535300858055 /* CollegeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMapView.swift; sourceTree = "<group>"; };
@@ -271,6 +278,11 @@
 		C07307242AF302AA00BABA4C /* MajorView.Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorView.Components.swift; sourceTree = "<group>"; };
 		C07307262AF3032900BABA4C /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
 		C0755B95271793050045F6DC /* TÜ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "TÜ.json"; sourceTree = "<group>"; };
+		C0943ABE2B4580CC00496602 /* PersonalityTestResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestResultViewModel.swift; sourceTree = "<group>"; };
+		C0943AC12B46FF7900496602 /* TestsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsHistoryView.swift; sourceTree = "<group>"; };
+		C0943AC32B47050900496602 /* PersonalityTestHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestHistoryView.swift; sourceTree = "<group>"; };
+		C0943AC52B471AC400496602 /* TestsHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsHistoryViewModel.swift; sourceTree = "<group>"; };
+		C0943AC72B471BF400496602 /* PersonalityTestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestResult.swift; sourceTree = "<group>"; };
 		C09868922766F0DA00C18C44 /* Chevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
 		C09CFB7A2AE976CA005048B0 /* FacebookWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWatchView.swift; sourceTree = "<group>"; };
 		C09CFB7C2AEA6FE7005048B0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -396,11 +408,12 @@
 		C003EA3C2B34619300F1FB67 /* PersonalityTest */ = {
 			isa = PBXGroup;
 			children = (
-				C003EA3D2B3461B400F1FB67 /* PersonalityTestView.swift */,
 				C0F4EBD22B40A8FF007ADA7D /* PersonalityTestQuestionsView.swift */,
-				C003EA442B3C490100F1FB67 /* PersonalityTestStartView.swift */,
-				C003EA3F2B34620C00F1FB67 /* PersonalityTestViewModel.swift */,
 				C0F4EBD02B40A4FF007ADA7D /* PersonalityTestResultView.swift */,
+				C0943ABE2B4580CC00496602 /* PersonalityTestResultViewModel.swift */,
+				C003EA442B3C490100F1FB67 /* PersonalityTestStartView.swift */,
+				C003EA3D2B3461B400F1FB67 /* PersonalityTestView.swift */,
+				C003EA3F2B34620C00F1FB67 /* PersonalityTestViewModel.swift */,
 			);
 			path = PersonalityTest;
 			sourceTree = "<group>";
@@ -486,6 +499,7 @@
 				C0E19AD52B20E086008935AE /* AppInformation.swift */,
 				C0D52D662B224D0300F1D018 /* Country.swift */,
 				C003EA3A2B332F3B00F1FB67 /* PersonalityType.swift */,
+				C0943AC72B471BF400496602 /* PersonalityTestResult.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -514,6 +528,15 @@
 				C0460E0B25AF0C2600E4A15D /* ContentView.swift */,
 			);
 			path = ContentView;
+			sourceTree = "<group>";
+		};
+		C03B543C2B47442D00D278B9 /* PersonalityTestHistory */ = {
+			isa = PBXGroup;
+			children = (
+				C0943AC32B47050900496602 /* PersonalityTestHistoryView.swift */,
+				C03B543D2B47444E00D278B9 /* PersonalityTestHistoryViewModel.swift */,
+			);
+			path = PersonalityTestHistory;
 			sourceTree = "<group>";
 		};
 		C041550D2AC8532A00858055 /* CollegeMapView */ = {
@@ -602,31 +625,33 @@
 		C0460E2625AF0D0E00E4A15D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C003EA412B346A2B00F1FB67 /* TestView */,
-				C003EA3C2B34619300F1FB67 /* PersonalityTest */,
-				C0473D732B29ED8A008B60D4 /* PathFinder */,
-				C03420912B25ED4100086AB9 /* ErrorView */,
-				C034208C2B24EDAB00086AB9 /* CollegesView */,
-				C031F9F92B2323030063D556 /* UserSetupView */,
 				C0460E2725AF0D2200E4A15D /* CollegeListView */,
 				C041550D2AC8532A00858055 /* CollegeMapView */,
+				C034208C2B24EDAB00086AB9 /* CollegesView */,
 				C0F85B4A2A743469007A65F7 /* CollegeView */,
 				C039486426279BAD004D5F00 /* ContentView */,
 				C06ED5D326AAB4F800E5812A /* CoreViews */,
 				C0460E3125AF0D6200E4A15D /* Custom Views */,
+				C03420912B25ED4100086AB9 /* ErrorView */,
 				C09CFB792AE976B1005048B0 /* FacebookWatchView */,
 				C007DBA92773E994002F6BD6 /* Favorites */,
 				C06ED5D426AAB56100E5812A /* MajorsView */,
 				C0460E6525AF0E6700E4A15D /* MajorView */,
 				C007DBAB2773E9B9002F6BD6 /* Map */,
 				C007DBA82773E8B8002F6BD6 /* Modules */,
+				C0644C412AEFB8C300AD6E0E /* MyAccontView */,
+				C0473D732B29ED8A008B60D4 /* PathFinder */,
+				C003EA3C2B34619300F1FB67 /* PersonalityTest */,
+				C03B543C2B47442D00D278B9 /* PersonalityTestHistory */,
 				C0C59E412AA8E21E00423948 /* ProfileView */,
 				C0644C2B2AEDB4D300AD6E0E /* SettingsView */,
 				C019A7592AE967BC0001317C /* SpotifyView */,
+				C0943AC02B46FF3700496602 /* TestsHistory */,
+				C003EA412B346A2B00F1FB67 /* TestView */,
+				C031F9F92B2323030063D556 /* UserSetupView */,
 				C0CE18A22AE8395E008288F2 /* VimeoView */,
 				C09CFB7E2AEA6FED005048B0 /* WebView */,
 				C0CE189F2AE8134C008288F2 /* YoutubeView */,
-				C0644C412AEFB8C300AD6E0E /* MyAccontView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -778,6 +803,15 @@
 				C041550B2AC5BE8500858055 /* IdaVirumaaKutsehariduskeskus.json */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		C0943AC02B46FF3700496602 /* TestsHistory */ = {
+			isa = PBXGroup;
+			children = (
+				C0943AC12B46FF7900496602 /* TestsHistoryView.swift */,
+				C0943AC52B471AC400496602 /* TestsHistoryViewModel.swift */,
+			);
+			path = TestsHistory;
 			sourceTree = "<group>";
 		};
 		C09CFB792AE976B1005048B0 /* FacebookWatchView */ = {
@@ -1050,6 +1084,7 @@
 				C0E19AD42B1DF712008935AE /* LocalMajorViewModel.swift in Sources */,
 				C0F85B502A750E96007A65F7 /* DependencyManager.swift in Sources */,
 				C0B8D8F42B2F3293004B7ED1 /* PathFinderResultViewModel.swift in Sources */,
+				C0943AC82B471BF400496602 /* PersonalityTestResult.swift in Sources */,
 				C0C59E322AA2614B00423948 /* Submodule.swift in Sources */,
 				C09CFBA22AEBE076005048B0 /* CollegeDevelopmentModel.swift in Sources */,
 				C0460E3F25AF0D8A00E4A15D /* Mail.swift in Sources */,
@@ -1062,6 +1097,7 @@
 				C0B8D8F22B2F2B34004B7ED1 /* PathFinderResultView.swift in Sources */,
 				C0644C3E2AEEE10A00AD6E0E /* Utilities.swift in Sources */,
 				C0B93FBD265271FD00CE9130 /* CourseView.swift in Sources */,
+				C0943AC22B46FF7900496602 /* TestsHistoryView.swift in Sources */,
 				C031F9FB2B23230F0063D556 /* UserSetupView.swift in Sources */,
 				C0460E5125AF0DDD00E4A15D /* View.swift in Sources */,
 				C0C59E3A2AA261BD00423948 /* Interval.swift in Sources */,
@@ -1079,6 +1115,7 @@
 				C09CFB802AEA703E005048B0 /* PulsingPlayView.swift in Sources */,
 				C0C59E382AA2618600423948 /* Currency.swift in Sources */,
 				C0644C402AEFB8BF00AD6E0E /* MyAccountView.swift in Sources */,
+				C0943AC62B471AC400496602 /* TestsHistoryViewModel.swift in Sources */,
 				C039486626279BC0004D5F00 /* ContentViewModel.swift in Sources */,
 				C031F9F82B231A900063D556 /* Date+Extensions.swift in Sources */,
 				C0C59E262AA2474E00423948 /* CollegeClusterView.swift in Sources */,
@@ -1091,6 +1128,7 @@
 				C0C59E2E2AA2601E00423948 /* Link.swift in Sources */,
 				C0244EE3265DA485009C909A /* CoreData.xcdatamodeld in Sources */,
 				C0E19AD02B1D4206008935AE /* StudyType.swift in Sources */,
+				C0943AC42B47050900496602 /* PersonalityTestHistoryView.swift in Sources */,
 				C0F85B3C2A71B30A007A65F7 /* FirebaseManager.swift in Sources */,
 				C09CFB972AEBB2AB005048B0 /* MajorsViewModel.swift in Sources */,
 				C0C59E2C2AA25FFE00423948 /* Palette.swift in Sources */,
@@ -1135,8 +1173,10 @@
 				C09868932766F0DA00C18C44 /* Chevron.swift in Sources */,
 				C007DB892771918B002F6BD6 /* Environment.swift in Sources */,
 				C03420902B24EE3500086AB9 /* CollegesViewModel.swift in Sources */,
+				C03B543E2B47444E00D278B9 /* PersonalityTestHistoryViewModel.swift in Sources */,
 				C019A7582AE967B80001317C /* SpotifyView.swift in Sources */,
 				C0CE18A42AE8397D008288F2 /* VimeoView.swift in Sources */,
+				C0943ABF2B4580CC00496602 /* PersonalityTestResultViewModel.swift in Sources */,
 				C073071F2AF301BF00BABA4C /* MajorView.Cells.swift in Sources */,
 				C04CFC1B2AC99194001CB1CD /* CollegeMapViewModel.swift in Sources */,
 				C0644C2F2AEE6F1000AD6E0E /* User.swift in Sources */,
@@ -1335,7 +1375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1362,7 +1402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

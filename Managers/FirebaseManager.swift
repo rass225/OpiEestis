@@ -64,6 +64,14 @@ struct FirebaseManager {
         }
     }
     
+    func addPersonalityTestResult(
+        userId: String,
+        result: PersonalityTestResult
+    ) async throws {
+        let ref = docRefernce(for: .createPersonalityTestResult(userId: userId))
+        try await addDocument(path: ref, as: result)
+    }
+    
     func addFavorite(
         userId: String,
         college: College,
@@ -184,6 +192,26 @@ struct FirebaseManager {
                 decodeDocument(snapshot: $0, error: $1, completion: completion)
             }
     }
+    
+    func streamPersonalityTestHistory(
+        userId: String,
+        completion: @escaping (Result<[PersonalityTestResult], Error>) -> ()
+    ) {
+        query(for: .personalityTestHistory(userId: userId))
+            .addSnapshotListener {
+                decodeSnapshots(snapshot: $0, error: $1, completion: completion)
+            }
+    }
+    
+    func streamPathfinderTestHistory(
+        userId: String,
+        completion: @escaping (Result<[PathfinderTestResult], Error>) -> ()
+    ) {
+        query(for: .pathfinderTestHistory(userId: userId))
+            .addSnapshotListener {
+                decodeSnapshots(snapshot: $0, error: $1, completion: completion)
+            }
+    }
 }
 
 private extension FirebaseManager {
@@ -250,6 +278,16 @@ private extension FirebaseManager {
                 .collection("majors")
                 .document(majorId)
                 .collection("ratings")
+        case let .personalityTestHistory(userId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("personalityTestHistory")
+        case let .pathfinderTestHistory(userId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("pathfinderTestHistory")
         }
     }
 }
@@ -307,6 +345,12 @@ private extension FirebaseManager {
             return database
                 .collection("App")
                 .document("Information")
+        case let .createPersonalityTestResult(userId):
+            return database
+                .collection("users")
+                .document(userId)
+                .collection("personalityTestHistory")
+                .document()
         }
     }
     
@@ -426,6 +470,8 @@ extension FirebaseManager {
         case userFavoriteMajor(userId: String, majorId: String)
         case majorReviews(collegeId: String, majorId: String)
         case majorRatings(collegeId: String, majorId: String)
+        case personalityTestHistory(userId: String)
+        case pathfinderTestHistory(userId: String)
     }
     
     enum DocReference {
@@ -437,5 +483,6 @@ extension FirebaseManager {
         case removeMajorReview(collegeId: String, majorId: String, reviewId: String)
         case updateMajorReview(collegeId: String, majorId: String, review: Review)
         case appInformation
+        case createPersonalityTestResult(userId: String)
     }
 }

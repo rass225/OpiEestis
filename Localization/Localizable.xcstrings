@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "-" : {
+
+    },
     ", " : {
 
     },
@@ -28,17 +31,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@%2$ "
-          }
-        }
-      }
-    },
-    "%@% Completed" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@%2$ Completed"
           }
         }
       }
@@ -79,9 +71,6 @@
           }
         }
       }
-    },
-    "Careers" : {
-
     },
     "college_aboutSchool" : {
       "extractionState" : "manual",
@@ -1778,6 +1767,159 @@
         }
       }
     },
+    "mbti_category_extraverted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extraverted"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekstravertne"
+          }
+        }
+      }
+    },
+    "mbti_category_feeling" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feeling"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunded"
+          }
+        }
+      }
+    },
+    "mbti_category_introverted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introverted"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introvertne"
+          }
+        }
+      }
+    },
+    "mbti_category_intuitive" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intuitive"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intuitiivne"
+          }
+        }
+      }
+    },
+    "mbti_category_judging" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Judging"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otsustaja"
+          }
+        }
+      }
+    },
+    "mbti_category_perceiving" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perceiving"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohaneja"
+          }
+        }
+      }
+    },
+    "mbti_category_sensing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sensing"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sensoorne"
+          }
+        }
+      }
+    },
+    "mbti_category_thinking" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loogika"
+          }
+        }
+      }
+    },
+    "mbti_history_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Personality Tests"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minu isiksuse testid"
+          }
+        }
+      }
+    },
     "mbti_name" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1789,8 +1931,76 @@
         },
         "et-EE" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Isiksuse test"
+          }
+        }
+      }
+    },
+    "mbti_result_careers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Careers"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karjäärid"
+          }
+        }
+      }
+    },
+    "mbti_result_strengths" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strengths"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tugevused"
+          }
+        }
+      }
+    },
+    "mbti_result_weaknesses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weaknesses"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nõrkused"
+          }
+        }
+      }
+    },
+    "mbti_result_youAre" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You are"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sa oled"
           }
         }
       }
@@ -1806,7 +2016,7 @@
         },
         "et-EE" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Myers Briggsi psühholoogilised testid (inglise keeles Myers Briggs type indicator ehk MBTI) on maailmas kõige laiemat kasutust leidnud testid. Tegemist on testidega, mis aitab sul enda isiksusetüüpi leida olemasoleva 16 erineva isiksuse seast ja mis omakorda võib kasu tuua nii suhetes teiste inimestega või töö leidmise juures."
           }
         }
@@ -1823,8 +2033,25 @@
         },
         "et-EE" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Alusta"
+          }
+        }
+      }
+    },
+    "mbti_test_completed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completed"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tehtud"
           }
         }
       }
@@ -1986,9 +2213,6 @@
       }
     },
     "override" : {
-
-    },
-    "Pathfinder" : {
 
     },
     "pathfinder_careerInsights_subtitle" : {
@@ -2620,9 +2844,6 @@
         }
       }
     },
-    "Personality Test" : {
-
-    },
     "profile_about" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2702,6 +2923,23 @@
         }
       }
     },
+    "profile_tests" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My tests"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minu testid"
+          }
+        }
+      }
+    },
     "profile_unauthenticated" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2752,9 +2990,6 @@
           }
         }
       }
-    },
-    "Strengths" : {
-
     },
     "studyType_apprenticeship" : {
       "extractionState" : "manual",
@@ -2841,9 +3076,6 @@
         }
       }
     },
-    "Submit" : {
-
-    },
     "tab_favorites" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2914,6 +3146,23 @@
     },
     "TBD -  To be determined / To be dropped" : {
 
+    },
+    "tests_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My tests"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minu testid"
+          }
+        }
+      }
     },
     "userSetup_email" : {
       "extractionState" : "manual",
@@ -2999,12 +3248,6 @@
           }
         }
       }
-    },
-    "Weaknesses" : {
-
-    },
-    "You are %@" : {
-
     }
   },
   "version" : "1.0"

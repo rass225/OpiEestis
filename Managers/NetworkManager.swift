@@ -68,6 +68,13 @@ extension NetworkManager {
         firebase.streamReviews(collegeId: collegeId, majorId: majorId, completion: completion)
     }
     
+    func addPersonalityTestResult(
+        userId: String,
+        result: PersonalityTestResult
+    ) async throws {
+        try await firebase.addPersonalityTestResult(userId: userId, result: result)
+    }
+    
     func addFavorite(userId: String, major: NewMajor, college: College) async throws {
         try await firebase.addFavorite(userId: userId, college: college, major: major)
     }
@@ -109,6 +116,20 @@ extension NetworkManager {
         completion: @escaping (Result<FirebaseUser, Error>) -> ()
     ) -> ListenerRegistration {
         return firebase.streamUser(userId: userId, completion: completion)
+    }
+    
+    func streamPersonalityTestHistory(
+        userId: String,
+        completion: @escaping (Result<[PersonalityTestResult], Error>) -> ()
+    ) {
+        firebase.streamPersonalityTestHistory(userId: userId, completion: completion)
+    }
+    
+    func streamPathfinderTestHistory(
+        userId: String,
+        completion: @escaping (Result<[PathfinderTestResult], Error>) -> ()
+    ) {
+        firebase.streamPathfinderTestHistory(userId: userId, completion: completion)
     }
     
     func fetchLocalMajors(_ ref: String) async -> [Major]? {

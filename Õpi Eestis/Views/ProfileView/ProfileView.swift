@@ -55,11 +55,11 @@ extension ProfileView {
                 )
                 .onTapGesture { appState.route(to: .myAccount(user)) }
                 label(
-                    title: Theme.Locale.PathFinder.History.title,
+                    title: Theme.Locale.Profile.tests,
                     icon: Theme.Icons.pathfinder
                 )
                 .onTapGesture {
-                    appState.route(to: .pathFinderHistory(colleges: colleges))
+                    appState.route(to: .testsHistory(colleges: colleges))
                 }
                 label(
                     title: Theme.Locale.Profile.about,

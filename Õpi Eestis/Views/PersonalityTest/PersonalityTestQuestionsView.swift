@@ -21,9 +21,12 @@ extension PersonalityTestView {
 extension PersonalityTestView.PersonalityTestQuestionsView {
     @ViewBuilder
     func headerView() -> some View {
-        Text("\(model.completionPercentage.decimals(0))% Completed")
-            .setFont(.subheadline, .semibold, .rounded)
-            .padding(.top, 6)
+        HStack(spacing: 3) {
+            Text("\(model.completionPercentage.decimals(0))%")
+            Text(Theme.Locale.PersonalityTest.Test.completed)
+        }
+        .setFont(.body, .semibold, .rounded)
+        .padding(.top, 6)
     }
     
     @ViewBuilder
@@ -39,7 +42,7 @@ extension PersonalityTestView.PersonalityTestQuestionsView {
     @ViewBuilder
     func questionCell(question: MbtiQuestion) -> some View {
         VStack(alignment: .leading) {
-            Text(question.label)
+            Text(model.currentLocale == .estonian ? question.label : question.labelEn)
                 .setFont(.title3, .regular, .rounded)
             VStack(alignment: .leading) {
                 ForEach(question.answers.indices, id: \.self) { index in
@@ -56,7 +59,7 @@ extension PersonalityTestView.PersonalityTestQuestionsView {
     
     @ViewBuilder
     func answerCell(answer: MbtiAnswer, question: MbtiQuestion, index: Int) -> some View {
-        Text(answer.label)
+        Text(model.currentLocale == .estonian ? answer.label : answer.labelEn)
             .setColor(answer.isSelected ? Color.white : Color.black)
             .setFont(.subheadline, .regular, .rounded)
             .padding(.vertical)
@@ -70,7 +73,7 @@ extension PersonalityTestView.PersonalityTestQuestionsView {
     
     @ViewBuilder
     func submitButton() -> some View {
-        Text("Submit")
+        Text(Theme.Locale.PathFinder.Test.submit)
             .setColor(.white)
             .setFont(.title3, .medium, .rounded)
             .padding(.vertical)

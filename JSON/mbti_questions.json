@@ -1,4255 +1,4255 @@
 [
     {
-        "label": "I regularly make new friends.",
+        "label": "Ma leian regulaarselt uusi sõpru.",
         "labelEn": "I regularly make new friends.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I spend a lot of my free time exploring various random topics that pique my interest.",
+        "label": "Ma veedan palju oma vaba aega erinevate juhuslike teemade uurimisega, mis mu huvi äratavad.",
         "labelEn": "I spend a lot of my free time exploring various random topics that pique my interest.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "Seeing other people cry can easily make me feel like I want to cry too.",
+        "label": "Teiste inimeste nutmine võib kergesti panna mind tundma, et tahan ka nutta.",
         "labelEn": "Seeing other people cry can easily make me feel like I want to cry too.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I often make a backup plan for a backup plan.",
+        "label": "Ma teen tihti varuplaani varuplaanile.",
         "labelEn": "I often make a backup plan for a backup plan.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I prefer to completely finish one project before starting another.",
+        "label": "Eelistan ühe projekti täielikult lõpetada enne teise alustamist.",
         "labelEn": "I prefer to completely finish one project before starting another.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I are very sentimental.",
+        "label": "Ma olen väga sentimentaalne.",
         "labelEn": "I are very sentimental.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "Even a small mistake can cause me to doubt my overall abilities and knowledge.",
+        "label": "Isegi väike viga võib panna mind kahtlema oma üldistes võimetes ja teadmistes.",
         "labelEn": "Even a small mistake can cause me to doubt my overall abilities and knowledge.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I feel comfortable just walking up to someone I find interesting and striking up a conversation.",
+        "label": "Ma tunnen end mugavalt lihtsalt kellegi juurde kõndides, keda ma huvitavaks pean, ja vestluse alustamisega.",
         "labelEn": "I feel comfortable just walking up to someone I find interesting and striking up a conversation.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am not too interested in discussing various interpretations and analyses of creative works.",
+        "label": "Ma ei ole liiga huvitatud erinevate tõlgenduste ja analüüside arutamisest loomingulistest töödest.",
         "labelEn": "I am not too interested in discussing various interpretations and analyses of creative works.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am more inclined to follow my head than my heart.",
+        "label": "Ma kaldun rohkem järgima oma pead kui südant.",
         "labelEn": "I am more inclined to follow my head than my heart.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I usually prefer just doing what I feel like at any given moment instead of planning a particular daily routine.",
+        "label": "Tavaliselt eelistan teha seda, mis parasjagu pähe tuleb, mitte planeerida kindlat igapäevast rutiini.",
         "labelEn": "I usually prefer just doing what I feel like at any given moment instead of planning a particular daily routine.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I rarely worry about whether I make a good impression on people I meet.",
+        "label": "Harva muretsen selle pärast, kas jätan inimestele, keda kohtan, hea mulje.",
         "labelEn": "I rarely worry about whether I make a good impression on people I meet.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy participating in group activities.",
+        "label": "Mulle meeldib osaleda grupitegevustes.",
         "labelEn": "I enjoy participating in group activities.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I like books and movies that make me come up with my own interpretation of the ending.",
+        "label": "Mulle meeldivad raamatud ja filmid, mis panevad mind mõtlema oma lõpplahenduse peale.",
         "labelEn": "I like books and movies that make me come up with my own interpretation of the ending.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "My happiness comes more from helping others accomplish things than my own accomplishments.",
+        "label": "Minu õnn tuleneb rohkem teiste aitamisest saavutada asju kui minu enda saavutustest.",
         "labelEn": "My happiness comes more from helping others accomplish things than my own accomplishments.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I am interested in so many things that I find it difficult to choose what to try next.",
+        "label": "Mind huvitavad nii paljud asjad, et mul on raske otsustada, mida järgmiseks proovida.",
         "labelEn": "I am interested in so many things that I find it difficult to choose what to try next.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I am prone to worrying that things will take a turn for the worse.",
+        "label": "Kalduvus on muretseda, et asjad lähevad halvemaks.",
         "labelEn": "I am prone to worrying that things will take a turn for the worse.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I avoid leadership roles in group settings.",
+        "label": "Vältin juhirolle grupiseadetes.",
         "labelEn": "I avoid leadership roles in group settings.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I am definitely not an artistic type of person.",
+        "label": "Ma kindlasti ei ole kunstiline inimene.",
         "labelEn": "I am definitely not an artistic type of person.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I think the world would be a better place if people relied more on rationality and less on their feelings.",
+        "label": "Ma arvan, et maailm oleks parem koht, kui inimesed toetuksid rohkem ratsionaalsusele ja vähem oma tunnetele.",
         "labelEn": "I think the world would be a better place if people relied more on rationality and less on their feelings.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I prefer to do my chores before allowing myself to relax.",
+        "label": "Eelistan oma toimetused ära teha enne, kui luban endale lõõgastuda.",
         "labelEn": "I prefer to do my chores before allowing myself to relax.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I enjoy watching people argue.",
+        "label": "Mulle meeldib vaadata, kuidas inimesed vaidlevad.",
         "labelEn": "I enjoy watching people argue.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I tend to avoid drawing attention to myself.",
+        "label": "Kaldun vältima tähelepanu endale tõmbamist.",
         "labelEn": "I tend to avoid drawing attention to myself.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "My mood can change very quickly.",
+        "label": "Minu tuju võib väga kiiresti muutuda.",
         "labelEn": "My mood can change very quickly.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I lose patience with people who are not as efficient as me.",
+        "label": "Kaotan kannatuse inimestega, kes ei ole sama tõhusad kui mina.",
         "labelEn": "I lose patience with people who are not as efficient as me.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I often end up doing things at the last possible moment.",
+        "label": "Sageli teen asju viimasel võimalikul hetkel.",
         "labelEn": "I often end up doing things at the last possible moment.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I usually prefer to be around others rather than on my own.",
+        "label": "Tavaliselt eelistan olla teiste seas, mitte üksi.",
         "labelEn": "I usually prefer to be around others rather than on my own.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I become bored or lose interest when the discussion gets highly theoretical.",
+        "label": "Ma hakkan igavust tundma või kaotan huvi, kui arutelu muutub väga teoreetiliseks.",
         "labelEn": "I become bored or lose interest when the discussion gets highly theoretical.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I find it easy to empathize with a person whose experiences are very different from mine.",
+        "label": "Mul on lihtne samastuda inimesega, kelle kogemused on minu omadest väga erinevad.",
         "labelEn": "I find it easy to empathize with a person whose experiences are very different from mine.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I usually postpone finalizing decisions for as long as possible.",
+        "label": "Tavaliselt lükkan otsuste lõpliku tegemise võimalikult kaua edasi.",
         "labelEn": "I usually postpone finalizing decisions for as long as possible.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I rarely second-guess the choices that I have made.",
+        "label": "Ma harva kahtlen oma tehtud valikutes.",
         "labelEn": "I rarely second-guess the choices that I have made.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I often have a hard time understanding other people\u2019s feelings.",
-        "labelEn": "I often have a hard time understanding other people\u2019s feelings.",
+        "label": "Mul on sageli raske mõista teiste inimeste tundeid.",
+        "labelEn": "I often have a hard time understanding other people's feelings.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I like to have a to-do list for each day.",
+        "label": "Mulle meeldib iga päeva jaoks omada tegevuste nimekirja.",
         "labelEn": "I like to have a to-do list for each day.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I rarely feel insecure.",
+        "label": "Harva tunnen end ebakindlalt.",
         "labelEn": "I rarely feel insecure.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I avoid making phone calls.",
+        "label": "Vältin telefonikõnede tegemist.",
         "labelEn": "I avoid making phone calls.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I often spend a lot of time trying to understand views that are very different from my own.",
+        "label": "Sageli veedan palju aega, üritades mõista vaateid, mis on minu omadest väga erinevad.",
         "labelEn": "I often spend a lot of time trying to understand views that are very different from my own.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am still bothered by mistakes that I made a long time ago.",
+        "label": "Mind häirivad endiselt vead, mida tegin kaua aega tagasi.",
         "labelEn": "I am still bothered by mistakes that I made a long time ago.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I rarely contemplate the reasons for human existence or the meaning of life.",
+        "label": "Harva mõtisklen inimese olemasolu põhjuste või elu mõtte üle.",
         "labelEn": "I rarely contemplate the reasons for human existence or the meaning of life.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "My emotions control me more than I control them.",
+        "label": "Minu emotsioonid kontrollivad mind rohkem kui mina neid.",
         "labelEn": "My emotions control me more than I control them.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "My personal work style is closer to spontaneous bursts of energy than organized and consistent efforts.",
+        "label": "Minu isiklik tööstiil on lähemal spontaansetele energiapuhangutele kui organiseeritud ja järjepidevatele pingutustele.",
         "labelEn": "My personal work style is closer to spontaneous bursts of energy than organized and consistent efforts.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I would love a job that requires me to work alone most of the time.",
+        "label": "Ma armastaksin tööd, mis nõuab minult enamiku ajast üksinda töötamist.",
         "labelEn": "I would love a job that requires me to work alone most of the time.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I believe that pondering abstract philosophical questions is a waste of time.",
+        "label": "Ma usun, et abstraktsete filosoofiliste küsimuste üle juurdlemine on aja raiskamine.",
         "labelEn": "I believe that pondering abstract philosophical questions is a waste of time.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I know at first glance how someone is feeling.",
+        "label": "Ma tean esmapilgul, kuidas keegi end tunneb.",
         "labelEn": "I know at first glance how someone is feeling.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I often feel overwhelmed.",
+        "label": "Sageli tunnen end ülekoormatuna.",
         "labelEn": "I often feel overwhelmed.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I complete things methodically without skipping over any steps.",
+        "label": "Ma viin asjad metoodiliselt lõpule, jättes vahele mingeid samme.",
         "labelEn": "I complete things methodically without skipping over any steps.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am very intrigued by things labeled as controversial.",
+        "label": "Mind väga huvitavad asjad, mis on märgistatud kui vastuolulised.",
         "labelEn": "I am very intrigued by things labeled as controversial.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I would pass along a good opportunity if I thought someone else needed it more.",
+        "label": "Ma loobuksin heast võimalusest, kui arvaksin, et keegi teine vajab seda rohkem.",
         "labelEn": "I would pass along a good opportunity if I thought someone else needed it more.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I struggle with deadlines.",
+        "label": "Mul on raskusi tähtaegadest kinnipidamisega.",
         "labelEn": "I struggle with deadlines.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I feel confident that things will work out for me.",
+        "label": "Ma tunnen kindlust, et asjad laabuvad minu jaoks.",
         "labelEn": "I feel confident that things will work out for me.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I feel uncomfortable when I disagree with someone",
-        "labelEn": "I feel uncomfortable when I disagree with someone",
+        "label": "Ma tunnen end ebamugavalt, kui ma kellegagi ei nõustu.",
+        "labelEn": "I feel uncomfortable when I disagree with someone.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I lose my belongings",
-        "labelEn": "I lose my belongings",
+        "label": "Ma kaotan oma asju.",
+        "labelEn": "I lose my belongings.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I have a vivid imagination",
-        "labelEn": "I have a vivid imagination",
+        "label": "Mul on elav kujutlusvõime.",
+        "labelEn": "I have a vivid imagination.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I would enjoy attending a large party in my honor",
-        "labelEn": "I would enjoy attending a large party in my honor",
+        "label": "Mulle meeldiks osaleda suurel peol minu auks.",
+        "labelEn": "I would enjoy attending a large party in my honor.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I dislike being in competition with others",
-        "labelEn": "I dislike being in competition with others",
+        "label": "Mulle ei meeldi teistega konkureerida.",
+        "labelEn": "I dislike being in competition with others.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I prefer to follow a schedule",
-        "labelEn": "I prefer to follow a schedule",
+        "label": "Eelistan järgida ajakava.",
+        "labelEn": "I prefer to follow a schedule.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I question the wisdom of my elders",
-        "labelEn": "I question the wisdom of my elders",
+        "label": "Ma kahtlen oma vanemate inimeste tarkuses.",
+        "labelEn": "I question the wisdom of my elders.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy being the center of attention",
-        "labelEn": "I enjoy being the center of attention",
+        "label": "Mulle meeldib olla tähelepanu keskpunktis.",
+        "labelEn": "I enjoy being the center of attention.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I try to avoid conflict",
-        "labelEn": "I try to avoid conflict",
+        "label": "Ma püüan vältida konflikte.",
+        "labelEn": "I try to avoid conflict.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I make sure my work is finished on time",
-        "labelEn": "I make sure my work is finished on time",
+        "label": "Ma veendun, et mu töö saab õigeaegselt valmis.",
+        "labelEn": "I make sure my work is finished on time.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I make an effort to be popular",
-        "labelEn": "I make an effort to be popular",
+        "label": "Ma teen jõupingutusi populaarseks saamiseks.",
+        "labelEn": "I make an effort to be popular.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I sympathize with the homeless",
-        "labelEn": "I sympathize with the homeless",
+        "label": "Ma tunnen kaasa kodututele.",
+        "labelEn": "I sympathize with the homeless.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I have trouble controlling my impulses",
-        "labelEn": "I have trouble controlling my impulses",
+        "label": "Mul on raskusi oma impulsside kontrollimisega.",
+        "labelEn": "I have trouble controlling my impulses.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I think about why people do the things they do",
-        "labelEn": "I think about why people do the things they do",
+        "label": "Ma mõtlen sellele, miks inimesed teevad asju, mida nad teevad.",
+        "labelEn": "I think about why people do the things they do.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "Being around lots of people energizes me",
-        "labelEn": "Being around lots of people energizes me",
+        "label": "Paljude inimeste keskel viibimine annab mulle energiat.",
+        "labelEn": "Being around lots of people energizes me.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am helpful to the people around me",
-        "labelEn": "I am helpful to the people around me",
+        "label": "Ma olen abivalmis inimestele enda ümber.",
+        "labelEn": "I am helpful to the people around me.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I like to do things as they were done in the past",
-        "labelEn": "I like to do things as they were done in the past",
+        "label": "Mulle meeldib teha asju nii, nagu neid minevikus tehti.",
+        "labelEn": "I like to do things as they were done in the past.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I forgive easily",
-        "labelEn": "I forgive easily",
+        "label": "Ma andestan kergesti.",
+        "labelEn": "I forgive easily.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I like trying out new hobbies",
-        "labelEn": "I like trying out new hobbies",
+        "label": "Mulle meeldib proovida uusi hobisid.",
+        "labelEn": "I like trying out new hobbies.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I like to stay active",
-        "labelEn": "I like to stay active",
+        "label": "Mulle meeldib olla aktiivne.",
+        "labelEn": "I like to stay active.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "It is best to be totally objective when making a decision",
-        "labelEn": "It is best to be totally objective when making a decision",
+        "label": "Otsuse tegemisel on kõige parem olla täiesti objektiivne.",
+        "labelEn": "It is best to be totally objective when making a decision.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I keep my belongings in their proper place",
-        "labelEn": "I keep my belongings in their proper place",
+        "label": "Hoian oma asju nende õiges kohas.",
+        "labelEn": "I keep my belongings in their proper place.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I have a rich fantasy life",
+        "label": "Mul on rikas fantaasiaelu.",
         "labelEn": "I have a rich fantasy life",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I have little to say",
+        "label": "Mul pole palju öelda.",
         "labelEn": "I have little to say",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy being there for people when they are feeling sad",
-        "labelEn": "I enjoy being there for people when they are feeling sad",
+        "label": "Mulle meeldib olla inimeste jaoks olemas, kui nad on kurvad.",
+        "labelEn": "I enjoy being there for people when they are feeling sad.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I would rather go with the flow than have a set schedule",
-        "labelEn": "I would rather go with the flow than have a set schedule",
+        "label": "Eelistan minna vooluga kaasa kui järgida kindlat ajakava.",
+        "labelEn": "I would rather go with the flow than have a set schedule.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy philosophical discussions",
-        "labelEn": "I enjoy philosophical discussions",
+        "label": "Mulle meeldivad filosoofilised arutelud.",
+        "labelEn": "I enjoy philosophical discussions.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I let other people know what I think",
-        "labelEn": "I let other people know what I think",
+        "label": "Ma annan teistele inimestele teada, mida ma mõtlen.",
+        "labelEn": "I let other people know what I think.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am very attentive to deadlines",
-        "labelEn": "I am very attentive to deadlines",
+        "label": "Ma olen väga tähelepanelik tähtaegade suhtes.",
+        "labelEn": "I am very attentive to deadlines.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I resist temptations",
-        "labelEn": "I resist temptations",
+        "label": "Ma suudan kiusatustele vastu seista.",
+        "labelEn": "I resist temptations.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I have a lot of fun",
-        "labelEn": "I have a lot of fun",
+        "label": "Mul on palju lõbu.",
+        "labelEn": "I have a lot of fun.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "It is easy for me to talk to strangers",
-        "labelEn": "It is easy for me to talk to strangers",
+        "label": "Mul on kerge võõrastega rääkida.",
+        "labelEn": "It is easy for me to talk to strangers.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am concerned for the welfare of elderly people",
-        "labelEn": "I am concerned for the welfare of elderly people",
+        "label": "Mul on mure eakate inimeste heaolu pärast.",
+        "labelEn": "I am concerned for the welfare of elderly people.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am determined to achieve success in life",
-        "labelEn": "I am determined to achieve success in life",
+        "label": "Ma olen kindel soovis saavutada elus edu.",
+        "labelEn": "I am determined to achieve success in life.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I believe in the importance of art",
-        "labelEn": "I believe in the importance of art",
+        "label": "Ma usun kunsti tähtsusesse.",
+        "labelEn": "I believe in the importance of art.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I like to spend my free time alone",
-        "labelEn": "I like to spend my free time alone",
+        "label": "Mulle meeldib veeta oma vaba aega üksi.",
+        "labelEn": "I like to spend my free time alone.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I believe people should be punished for their mistakes",
-        "labelEn": "I believe people should be punished for their mistakes",
+        "label": "Ma usun, et inimesi tuleks nende vigade eest karistada.",
+        "labelEn": "I believe people should be punished for their mistakes.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy having a daily routine",
-        "labelEn": "I enjoy having a daily routine",
+        "label": "Mulle meeldib omada igapäevast rutiini.",
+        "labelEn": "I enjoy having a daily routine.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I spend time seeking out new experiences",
-        "labelEn": "I spend time seeking out new experiences",
+        "label": "Ma veedan aega uute kogemuste otsimisega.",
+        "labelEn": "I spend time seeking out new experiences.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I like to tidy up",
+        "label": "Mulle meeldib koristada.",
         "labelEn": "I like to tidy up",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I enjoy imagining the future",
-        "labelEn": "I enjoy imagining the future",
+        "label": "Mulle meeldib tulevikku ette kujutada.",
+        "labelEn": "I enjoy imagining the future.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I find it difficult to express my opinions",
-        "labelEn": "I find it difficult to express my opinions",
+        "label": "Mul on raske oma arvamust avaldada.",
+        "labelEn": "I find it difficult to express my opinions.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I finish assignments before they are due",
-        "labelEn": "I finish assignments before they are due",
+        "label": "Ma lõpetan ülesanded enne tähtaega.",
+        "labelEn": "I finish assignments before they are due.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I like thinking about the mysteries of the universe",
-        "labelEn": "I like thinking about the mysteries of the universe",
+        "label": "Mulle meeldib mõelda universumi saladustele.",
+        "labelEn": "I like thinking about the mysteries of the universe.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I have a lot of energy",
-        "labelEn": "I have a lot of energy",
+        "label": "Mul on palju energiat.",
+        "labelEn": "I have a lot of energy.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I can't stand when someone doesn't like me",
-        "labelEn": "I can't stand when someone doesn't like me",
+        "label": "Ma ei talu, kui keegi mind ei salli.",
+        "labelEn": "I can't stand when someone doesn't like me.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I follow my impulses",
-        "labelEn": "I follow my impulses",
+        "label": "Ma järgnen oma impulssidele.",
+        "labelEn": "I follow my impulses.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy trying to understand complicated ideas",
-        "labelEn": "I enjoy trying to understand complicated ideas",
+        "label": "Mulle meeldib üritada mõista keerukaid ideid.",
+        "labelEn": "I enjoy trying to understand complicated ideas.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I feel very happy",
+        "label": "Ma tunnen end väga õnnelikuna.",
         "labelEn": "I feel very happy",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I spend time trying to understand myself",
-        "labelEn": "I spend time trying to understand myself",
+        "label": "Ma veedan aega, üritades endast aru saada.",
+        "labelEn": "I spend time trying to understand myself.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I get a thrill out of meeting new people",
-        "labelEn": "I get a thrill out of meeting new people",
+        "label": "Uute inimestega kohtumine pakub mulle põnevust.",
+        "labelEn": "I get a thrill out of meeting new people.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I need support from other people",
-        "labelEn": "I need support from other people",
+        "label": "Ma vajan teiste inimeste tuge.",
+        "labelEn": "I need support from other people.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am not bothered by disorder",
-        "labelEn": "I am not bothered by disorder",
+        "label": "Korralagedus mind ei häiri.",
+        "labelEn": "I am not bothered by disorder.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I avoid noisy crowds",
-        "labelEn": "I avoid noisy crowds",
+        "label": "Ma väldin lärmakaid rahvahulki.",
+        "labelEn": "I avoid noisy crowds.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I make plans and stick to them",
-        "labelEn": "I make plans and stick to them",
+        "label": "Ma teen plaane ja pean nendest kinni.",
+        "labelEn": "I make plans and stick to them.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I do not like to sit still for long",
-        "labelEn": "I do not like to sit still for long",
+        "label": "Mulle ei meeldi kaua paigal istuda.",
+        "labelEn": "I do not like to sit still for long.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I hold back my opinions",
-        "labelEn": "I hold back my opinions",
+        "label": "Ma hoian oma arvamused tagasi.",
+        "labelEn": "I hold back my opinions.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I am easily distracted",
-        "labelEn": "I am easily distracted",
+        "label": "Mind on kerge häirida.",
+        "labelEn": "I am easily distracted.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy learning about scientific theories",
-        "labelEn": "I enjoy learning about scientific theories",
+        "label": "Mulle meeldib õppida teaduslikke teooriaid.",
+        "labelEn": "I enjoy learning about scientific theories.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I work hard to please others",
-        "labelEn": "I work hard to please others",
+        "label": "Ma töötan kõvasti, et teistele meele järele olla.",
+        "labelEn": "I work hard to please others.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I give to people who are less fortunate than",
+        "label": "Ma annan inimestele, kes on vähem õnnelikud kui (mina).",
         "labelEn": "I give to people who are less fortunate than",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I wonder why I am the way I am",
-        "labelEn": "I wonder why I am the way I am",
+        "label": "Ma mõtlen, miks ma selline olen.",
+        "labelEn": "I wonder why I am the way I am.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "It\u2019s important to me that other people like me",
-        "labelEn": "It\u2019s important to me that other people like me",
+        "label": "Minu jaoks on oluline, et ma teistele inimestele meeldiks.",
+        "labelEn": "It’s important to me that other people like me.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I have trouble sticking to a routine",
-        "labelEn": "I have trouble sticking to a routine",
+        "label": "Mul on raskusi rutiinist kinnipidamisega.",
+        "labelEn": "I have trouble sticking to a routine.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I appreciate the beauty of nature",
-        "labelEn": "I appreciate the beauty of nature",
+        "label": "Ma hindan looduse ilu.",
+        "labelEn": "I appreciate the beauty of nature.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I prefer quiet surroundings",
-        "labelEn": "I prefer quiet surroundings",
+        "label": "Eelistan vaikset ümbrust.",
+        "labelEn": "I prefer quiet surroundings.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I find it difficult to get down to work",
-        "labelEn": "I find it difficult to get down to work",
+        "label": "Mul on raske tööle asuda.",
+        "labelEn": "I find it difficult to get down to work.",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "Emotional people make me uncomfortable",
-        "labelEn": "Emotional people make me uncomfortable",
+        "label": "Emotsionaalsed inimesed teevad mind ebamugavaks.",
+        "labelEn": "Emotional people make me uncomfortable.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "People tell me I am too quiet",
-        "labelEn": "People tell me I am too quiet",
+        "label": "Inimesed ütlevad, et ma olen liiga vaikne.",
+        "labelEn": "People tell me I am too quiet.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I am concerned about others",
+        "label": "Ma olen teiste pärast mures.",
         "labelEn": "I am concerned about others",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I enjoy chatting with new acquaintances",
-        "labelEn": "I enjoy chatting with new acquaintances",
+        "label": "Mulle meeldib vestelda uute tuttavatega.",
+        "labelEn": "I enjoy chatting with new acquaintances.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "It is important to me to make decisions without being swayed by emotions",
+        "label": "Minu jaoks on oluline teha otsuseid ilma, et emotsioonid neid mõjutaksid.",
         "labelEn": "It is important to me to make decisions without being swayed by emotions",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I carry out my plans",
+        "label": "Ma viin oma plaanid ellu.",
         "labelEn": "I carry out my plans",
         "categoryPair": "Judging-Perceiving",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "It is important to me to understand the bigger picture",
+        "label": "Minu jaoks on tähtis mõista suuremat pilti.",
         "labelEn": "It is important to me to understand the bigger picture",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I enjoy examining myself and my life",
-        "labelEn": "I enjoy examining myself and my life",
+        "label": "Mulle meeldib uurida iseennast ja oma elu.",
+        "labelEn": "I enjoy examining myself and my life.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I find it challenging to make new friends",
-        "labelEn": "I find it challenging to make new friends",
+        "label": "Uute sõprade leidmine on mulle väljakutse.",
+        "labelEn": "I find it challenging to make new friends.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I like poetry",
+        "label": "Mulle meeldib luule.",
         "labelEn": "I like poetry",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am a private person",
-        "labelEn": "I am a private person",
+        "label": "Ma olen privaatne inimene.",
+        "labelEn": "I am a private person.",
         "categoryPair": "Extraversion-Introversion",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }
         ]
     },
     {
-        "label": "I question why things are the way they are",
-        "labelEn": "I question why things are the way they are",
+        "label": "Ma juurdlen miks asjad on nii, nagu nad on.",
+        "labelEn": "I question why things are the way they are.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I let others know that I care about their feelings",
-        "labelEn": "I let others know that I care about their feelings",
+        "label": "Ma annan teistele teada, et hoolin nende tunnetest.",
+        "labelEn": "I let others know that I care about their feelings.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I think about the needs of others",
-        "labelEn": "I think about the needs of others",
+        "label": "Ma mõtlen teiste vajadustele.",
+        "labelEn": "I think about the needs of others.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I like to be needed by other people",
-        "labelEn": "I like to be needed by other people",
+        "label": "Mulle meeldib, kui teised inimesed mind vajavad.",
+        "labelEn": "I like to be needed by other people.",
         "categoryPair": "Feeling-Thinking",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I would prefer to come up with an original solution to a problem",
+        "label": "Eelistaksin probleemile originaalset lahendust leida.",
         "labelEn": "I would prefer to come up with an original solution to a problem",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": -2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": -1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": 1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": 2
             }
         ]
     },
     {
-        "label": "I am full of new ideas",
-        "labelEn": "I am full of new ideas",
+        "label": "Ma olen pungil uutest ideedest.",
+        "labelEn": "I am full of new ideas.",
         "categoryPair": "Sensing-Intuition",
         "answers": [
             {
-                "label": "Strongly Agree",
+                "label": "Täiesti nõus",
                 "labelEn": "Strongly Agree",
                 "value": 2
             },
             {
-                "label": "Agree",
+                "label": "Nõus",
                 "labelEn": "Agree",
                 "value": 1
             },
             {
-                "label": "Unsure",
+                "label": "Pole kindel",
                 "labelEn": "Unsure",
                 "value": 0
             },
             {
-                "label": "Disagree",
+                "label": "Ei ole nõus",
                 "labelEn": "Disagree",
                 "value": -1
             },
             {
-                "label": "Strongly Disagree",
+                "label": "Ei ole üldse nõus",
                 "labelEn": "Strongly Disagree",
                 "value": -2
             }

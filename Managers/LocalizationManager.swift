@@ -3,7 +3,7 @@ import Foundation
 class LocalizationManager: ObservableObject {
     static let shared = LocalizationManager()
 
-    @Published var currentLocale: AppLocale {
+    @Published private(set) var currentLocale: AppLocale {
         didSet {
             UserDefaults.standard.set(currentLocale.rawValue, forKey: "selectedLocale")
         }

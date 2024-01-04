@@ -102,6 +102,7 @@ struct Theme {
             static let about: LocalizedStringKey = "profile_about"
             static let donations: LocalizedStringKey = "profile_donations"
             static let logout: LocalizedStringKey = "profile_logout"
+            static let tests: LocalizedStringKey = "profile_tests"
         }
         
         enum MyAccount {
@@ -286,6 +287,10 @@ struct Theme {
             static let fetchSchools: LocalizedStringKey = "error_fetchSchools"
         }
         
+        enum Tests {
+            static let title: LocalizedStringKey = "tests_title"
+        }
+        
         enum PathFinder {
             static let name: LocalizedStringKey = "pathfinder_name"
             
@@ -348,6 +353,53 @@ struct Theme {
             enum Start {
                 static let start: LocalizedStringKey = "mbti_start_start"
                 static let promotionalText: LocalizedStringKey = "mbti_start_promotionalText"
+            }
+            
+            enum Test {
+                static let completed: LocalizedStringKey = "mbti_test_completed"
+            }
+            
+            enum History {
+                static let title: LocalizedStringKey = "mbti_history_title"
+            }
+            
+            enum Result {
+                static let youAre: LocalizedStringKey = "mbti_result_youAre"
+                static let careers: LocalizedStringKey = "mbti_result_careers"
+                static let weaknesses: LocalizedStringKey = "mbti_result_weaknesses"
+                static let strengths: LocalizedStringKey = "mbti_result_strengths"
+            }
+            
+            enum PersonalityType {
+                enum Title {
+                    static let logistician: LocalizedStringKey = "mbti_titles_logistician" //ISTJ
+                    static let defender: LocalizedStringKey = "mbti_titles_defender" //ISFJ
+                    static let advocate: LocalizedStringKey = "mbti_titles_advocate" //INFJ
+                    static let architect: LocalizedStringKey = "mbti_titles_architect" //
+                    static let crafter: LocalizedStringKey = "mbti_titles_crafter"
+                    static let artist: LocalizedStringKey = "mbti_titles_artist"
+                    static let mediator: LocalizedStringKey = "mbti_titles_mediator"
+                    static let thinker: LocalizedStringKey = "mbti_titles_thinker"
+                    static let persuader: LocalizedStringKey = "mbti_titles_persuader"
+                    static let performer: LocalizedStringKey = "mbti_titles_performer"
+                    static let champion: LocalizedStringKey = "mbti_titles_champion"
+                    static let debater: LocalizedStringKey = "mbti_titles_debater"
+                    static let director: LocalizedStringKey = "mbti_titles_director"
+                    static let consul: LocalizedStringKey = "mbti_titles_consul"
+                    static let giver: LocalizedStringKey = "mbti_titles_giver"
+                    static let commander: LocalizedStringKey = "mbti_titles_commander"
+                }
+                
+                enum Category {
+                    static let extraverted: LocalizedStringKey = "mbti_category_extraverted"
+                    static let introverted: LocalizedStringKey = "mbti_category_introverted"
+                    static let sensing: LocalizedStringKey = "mbti_category_sensing"
+                    static let intuitive: LocalizedStringKey = "mbti_category_intuitive"
+                    static let feeling: LocalizedStringKey = "mbti_category_feeling"
+                    static let thinking: LocalizedStringKey = "mbti_category_thinking"
+                    static let judging: LocalizedStringKey = "mbti_category_judging"
+                    static let perceiving: LocalizedStringKey = "mbti_category_perceiving"
+                }
             }
         }
     }
