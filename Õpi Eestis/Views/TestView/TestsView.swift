@@ -3,28 +3,19 @@ import SwiftUI
 struct TestsView: View {
     @EnvironmentObject var appState: AppState
     let colleges: [College]
+    @State var isLoginSuggestionPresented = false
     var body: some View {
         GeometryReader(content: { geometry in
             let size = geometry.size
             ScrollView {
                 VStack(spacing: 8) {
-//                    Button(action: {
-//                        appState.route(to: .pathfinder(colleges: colleges))
-//                    }, label: {
-//                        VStack {
-//                            Text(Theme.Locale.PathFinder.name)
-//                                .setFont(.body, .regular, .rounded)
-//                            Text("Design coming soon")
-//                                .setColor(.gray)
-//                                .setFont(.footnote, .regular, .rounded)
-//                        }
-//                        .frame(height: size.width / 3 * 2)
-//                        .maxWidth()
-//                        .background(Color.white)
-//                        .clipShape(.rect(cornerRadius: 12, style: .continuous))
-//                    })
                     Button(action: {
-                        appState.route(to: .personalityTests)
+                        if appState.user == nil {
+                            isLoginSuggestionPresented = true
+                        } else {
+                            appState.route(to: .personalityTests)
+                        }
+                        
                     }, label: {
                         VStack {
                             Text(Theme.Locale.PersonalityTest.name)
@@ -54,5 +45,21 @@ struct TestsView: View {
         .toolbar {
             ToolbarItem(placement: .principal, content: AppPrincipal.init)
         }
+        .sheet(isPresented: $isLoginSuggestionPresented, content: {
+            UnauthenticatedView(
+                title: Theme.Locale.PersonalityTest.unauthenticated,
+                action: {
+                    isLoginSuggestionPresented = false
+                    appState.signInApple { result in
+                        switch result {
+                        case .success:
+                            print("Signed in")
+                        case let .failure(error):
+                            print(error.localizedDescription)
+                        }
+                    }
+                }
+            )
+        })
     }
 }

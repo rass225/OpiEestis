@@ -350,6 +350,7 @@ struct Theme {
         
         enum PersonalityTest {
             static let name: LocalizedStringKey = "mbti_name"
+            static let unauthenticated: LocalizedStringKey = "mbti_unauthenticated"
             enum Start {
                 static let start: LocalizedStringKey = "mbti_start_start"
                 static let promotionalText: LocalizedStringKey = "mbti_start_promotionalText"

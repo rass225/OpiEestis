@@ -611,6 +611,9 @@
     "Kahjuks ei oska me teile ühtegi eriala soovitada" : {
 
     },
+    "Key" : {
+      "extractionState" : "manual"
+    },
     "language_all" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2050,8 +2053,25 @@
         },
         "et-EE" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Tehtud"
+          }
+        }
+      }
+    },
+    "mbti_unauthenticated" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in to take Personality Test"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Isiksuse testi tegemiseks logi sisse"
           }
         }
       }
