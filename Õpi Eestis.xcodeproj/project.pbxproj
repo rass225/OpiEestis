@@ -14,7 +14,7 @@
 		C003EA3B2B332F3B00F1FB67 /* PersonalityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA3A2B332F3B00F1FB67 /* PersonalityType.swift */; };
 		C003EA3E2B3461B400F1FB67 /* PersonalityTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA3D2B3461B400F1FB67 /* PersonalityTestView.swift */; };
 		C003EA402B34620C00F1FB67 /* PersonalityTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA3F2B34620C00F1FB67 /* PersonalityTestViewModel.swift */; };
-		C003EA432B346A3D00F1FB67 /* TestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA422B346A3D00F1FB67 /* TestsView.swift */; };
+		C003EA432B346A3D00F1FB67 /* TestsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA422B346A3D00F1FB67 /* TestsListView.swift */; };
 		C003EA452B3C490100F1FB67 /* PersonalityTestStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003EA442B3C490100F1FB67 /* PersonalityTestStartView.swift */; };
 		C003EA472B3EE59400F1FB67 /* mbti_questions.json in Resources */ = {isa = PBXBuildFile; fileRef = C003EA462B3EE59400F1FB67 /* mbti_questions.json */; };
 		C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007DB8627718EF9002F6BD6 /* Logo.swift */; };
@@ -159,6 +159,8 @@
 		C0ECAE3E2AF1A5E900815643 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE3D2AF1A5E900815643 /* TitleView.swift */; };
 		C0ECAE402AF2CCE400815643 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE3F2AF2CCE400815643 /* Review.swift */; };
 		C0ECAE422AF2CE0900815643 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ECAE412AF2CE0900815643 /* Rating.swift */; };
+		C0F189272B497E2900A0E598 /* PersonalityTestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F189262B497E2900A0E598 /* PersonalityTestButton.swift */; };
+		C0F189292B49A03500A0E598 /* TestsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F189282B49A03500A0E598 /* TestsListViewModel.swift */; };
 		C0F476CF25C197140082A20F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F476CE25C197140082A20F /* Array.swift */; };
 		C0F4EBD12B40A4FF007ADA7D /* PersonalityTestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4EBD02B40A4FF007ADA7D /* PersonalityTestResultView.swift */; };
 		C0F4EBD32B40A8FF007ADA7D /* PersonalityTestQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4EBD22B40A8FF007ADA7D /* PersonalityTestQuestionsView.swift */; };
@@ -206,7 +208,7 @@
 		C003EA3A2B332F3B00F1FB67 /* PersonalityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityType.swift; sourceTree = "<group>"; };
 		C003EA3D2B3461B400F1FB67 /* PersonalityTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestView.swift; sourceTree = "<group>"; };
 		C003EA3F2B34620C00F1FB67 /* PersonalityTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestViewModel.swift; sourceTree = "<group>"; };
-		C003EA422B346A3D00F1FB67 /* TestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsView.swift; sourceTree = "<group>"; };
+		C003EA422B346A3D00F1FB67 /* TestsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsListView.swift; sourceTree = "<group>"; };
 		C003EA442B3C490100F1FB67 /* PersonalityTestStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestStartView.swift; sourceTree = "<group>"; };
 		C003EA462B3EE59400F1FB67 /* mbti_questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mbti_questions.json; sourceTree = "<group>"; };
 		C007DB8627718EF9002F6BD6 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
@@ -358,6 +360,8 @@
 		C0ECAE3D2AF1A5E900815643 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		C0ECAE3F2AF2CCE400815643 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		C0ECAE412AF2CE0900815643 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		C0F189262B497E2900A0E598 /* PersonalityTestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestButton.swift; sourceTree = "<group>"; };
+		C0F189282B49A03500A0E598 /* TestsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsListViewModel.swift; sourceTree = "<group>"; };
 		C0F476CE25C197140082A20F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		C0F4EBD02B40A4FF007ADA7D /* PersonalityTestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestResultView.swift; sourceTree = "<group>"; };
 		C0F4EBD22B40A8FF007ADA7D /* PersonalityTestQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestQuestionsView.swift; sourceTree = "<group>"; };
@@ -414,16 +418,18 @@
 				C003EA442B3C490100F1FB67 /* PersonalityTestStartView.swift */,
 				C003EA3D2B3461B400F1FB67 /* PersonalityTestView.swift */,
 				C003EA3F2B34620C00F1FB67 /* PersonalityTestViewModel.swift */,
+				C0F189262B497E2900A0E598 /* PersonalityTestButton.swift */,
 			);
 			path = PersonalityTest;
 			sourceTree = "<group>";
 		};
-		C003EA412B346A2B00F1FB67 /* TestView */ = {
+		C003EA412B346A2B00F1FB67 /* TestsListView */ = {
 			isa = PBXGroup;
 			children = (
-				C003EA422B346A3D00F1FB67 /* TestsView.swift */,
+				C003EA422B346A3D00F1FB67 /* TestsListView.swift */,
+				C0F189282B49A03500A0E598 /* TestsListViewModel.swift */,
 			);
-			path = TestView;
+			path = TestsListView;
 			sourceTree = "<group>";
 		};
 		C007DBA82773E8B8002F6BD6 /* Modules */ = {
@@ -647,7 +653,7 @@
 				C0644C2B2AEDB4D300AD6E0E /* SettingsView */,
 				C019A7592AE967BC0001317C /* SpotifyView */,
 				C0943AC02B46FF3700496602 /* TestsHistory */,
-				C003EA412B346A2B00F1FB67 /* TestView */,
+				C003EA412B346A2B00F1FB67 /* TestsListView */,
 				C031F9F92B2323030063D556 /* UserSetupView */,
 				C0CE18A22AE8395E008288F2 /* VimeoView */,
 				C09CFB7E2AEA6FED005048B0 /* WebView */,
@@ -1121,6 +1127,7 @@
 				C0C59E262AA2474E00423948 /* CollegeClusterView.swift in Sources */,
 				C007DB8727718EF9002F6BD6 /* Logo.swift in Sources */,
 				C003EA3E2B3461B400F1FB67 /* PersonalityTestView.swift in Sources */,
+				C0F189292B49A03500A0E598 /* TestsListViewModel.swift in Sources */,
 				C0460EB825AF113300E4A15D /* Color.swift in Sources */,
 				C09CFB852AEAF92E005048B0 /* CollegeDevelopment.swift in Sources */,
 				C04179A92AFAC7CB00533EF4 /* OutcomesView.swift in Sources */,
@@ -1166,6 +1173,7 @@
 				C031F9FD2B2323190063D556 /* UserSetupViewModel.swift in Sources */,
 				C09CFB9C2AEBB8EB005048B0 /* MajorViewModel.swift in Sources */,
 				C0C59E1E2AA1268900423948 /* MKMapSnapshotter+Extension.swift in Sources */,
+				C0F189272B497E2900A0E598 /* PersonalityTestButton.swift in Sources */,
 				C09CFB9E2AEBB949005048B0 /* MajorViewModel.Objects.swift in Sources */,
 				C0F85B3E2A71BBD2007A65F7 /* Optional+Extension.swift in Sources */,
 				C0BFA256272D40E40025BD1E /* UINavigationController.swift in Sources */,
@@ -1203,7 +1211,7 @@
 				C0C59E452AAA083900423948 /* CollegeMajorView+Objects.swift in Sources */,
 				C0C59E2A2AA247C600423948 /* ClusteredMapView.swift in Sources */,
 				C003EA3B2B332F3B00F1FB67 /* PersonalityType.swift in Sources */,
-				C003EA432B346A3D00F1FB67 /* TestsView.swift in Sources */,
+				C003EA432B346A3D00F1FB67 /* TestsListView.swift in Sources */,
 				C0B6D17C2AB639CB009218FC /* BackButton.swift in Sources */,
 				C0B6D17E2AB64838009218FC /* Header.swift in Sources */,
 				C032995325CC17A100EB7862 /* College.swift in Sources */,
@@ -1375,7 +1383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
@@ -1402,7 +1410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;

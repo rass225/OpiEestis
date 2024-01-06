@@ -2,6 +2,7 @@ import SwiftUI
 
 extension PersonalityTestView {
     struct PersonalityTestResultView: View {
+        @EnvironmentObject var appState: AppState
         @StateObject var model: Model
         
         var body: some View {
@@ -12,6 +13,15 @@ extension PersonalityTestView {
                 strengthsView()
                 weaknessesView()
                 careersView()
+                footer()
+            }
+            .navigationBarBackButtonHidden(model.showBackButton)
+            .toolbar {
+                if model.showBackButton {
+                    ToolbarItem(placement: .topBarLeading, content: {
+                        BackButton(color: Theme.Colors.primary)
+                    })
+                }
             }
         }
     }
@@ -241,6 +251,28 @@ extension PersonalityTestView.PersonalityTestResultView {
         .overlay {
             Text("\(value)%")
                 .setFont(.body, .semibold, .rounded)
+        }
+    }
+    
+    @ViewBuilder
+    func footer() -> some View {
+        if model.showFooter {
+            Section {
+                VStack {
+                    Text(Theme.Locale.PersonalityTest.Result.footerTitle)
+                        .setColor(.gray)
+                    Text(Theme.Locale.PersonalityTest.Result.footerSubtitle)
+                        .setColor(Theme.Colors.primary)
+                        .contentShape(.rect)
+                        .onTapGesture {
+                            appState.route(to: .personalityTestHistory)
+                        }
+                }
+                .maxWidth()
+                .setFont(.subheadline, .regular, .rounded)
+                .listRowBackground(Color.clear)
+                .listRowInsets(.zero)
+            }
         }
     }
 }

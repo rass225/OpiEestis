@@ -21,12 +21,24 @@ extension PersonalityTestView {
 extension PersonalityTestView.PersonalityTestQuestionsView {
     @ViewBuilder
     func headerView() -> some View {
-        HStack(spacing: 3) {
-            Text("\(model.completionPercentage.decimals(0))%")
-            Text(Theme.Locale.PersonalityTest.Test.completed)
+        HStack(spacing: 8) {
+            HStack(spacing: 3) {
+                Text("\(model.completionCount) / \(model.quizQuestions.count)")
+            }
+            Text("•")
+                .setColor(.gray)
+                .setFont(.body, .regular, .rounded)
+            HStack(spacing: 3) {
+                Text("\(model.completionPercentage.decimals(0))%")
+                Text(Theme.Locale.PersonalityTest.Test.completed)
+            }
+            
+            
+            
         }
         .setFont(.body, .semibold, .rounded)
         .padding(.top, 6)
+        .padding(.horizontal, 32)
     }
     
     @ViewBuilder

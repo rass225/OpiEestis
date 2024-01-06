@@ -1,14 +1,21 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "-" : {
-
-    },
     ", " : {
 
     },
     "%@" : {
 
+    },
+    "%@ / %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ / %2$@"
+          }
+        }
+      }
     },
     "%@/2000" : {
 
@@ -309,9 +316,6 @@
           }
         }
       }
-    },
-    "Design coming soon" : {
-
     },
     "Discover careers that align with your unique profile. We've analyzed your strengths and interests to suggest potential career paths where you can thrive. Explore industries where your skills are in high demand and learn about the educational paths to get you there." : {
 
@@ -1770,6 +1774,9 @@
         }
       }
     },
+    "MBTI Test" : {
+
+    },
     "mbti_category_extraverted" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1957,6 +1964,40 @@
         }
       }
     },
+    "mbti_result_footerSubtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Access History"
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaata ajalugu"
+          }
+        }
+      }
+    },
+    "mbti_result_footerTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your test result has been saved."
+          }
+        },
+        "et-EE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinu testi tulemus on salvestatud"
+          }
+        }
+      }
+    },
     "mbti_result_strengths" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2070,7 +2111,7 @@
         },
         "et-EE" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Isiksuse testi tegemiseks logi sisse"
           }
         }

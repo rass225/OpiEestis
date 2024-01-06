@@ -76,7 +76,7 @@ private extension ContentView {
     @ViewBuilder
     func testsView() -> some View {
         NavigationStack(path: $appState.testsNavigation) {
-            TestsView(colleges: model.schools)
+            TestsListView(model: .init(colleges: model.schools))
                 .navigationDestination(for: CollegeDestination.self) {
                     appState.navigationDestination($0)
                 }

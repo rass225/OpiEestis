@@ -369,6 +369,8 @@ struct Theme {
                 static let careers: LocalizedStringKey = "mbti_result_careers"
                 static let weaknesses: LocalizedStringKey = "mbti_result_weaknesses"
                 static let strengths: LocalizedStringKey = "mbti_result_strengths"
+                static let footerTitle: LocalizedStringKey = "mbti_result_footerTitle"
+                static let footerSubtitle: LocalizedStringKey = "mbti_result_footerSubtitle"
             }
             
             enum PersonalityType {

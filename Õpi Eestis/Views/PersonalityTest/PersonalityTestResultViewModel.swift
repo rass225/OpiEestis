@@ -6,6 +6,8 @@ extension PersonalityTestView.PersonalityTestResultView {
         @Published private var currentLocale: AppLocale = .english
         
         let result: PersonalityTestResult
+        let showFooter: Bool
+        let showBackButton: Bool
         private var cancellables = Set<AnyCancellable>()
         
         var acronym: String {
@@ -57,8 +59,14 @@ extension PersonalityTestView.PersonalityTestResultView {
             }
         }
         
-        init(result: PersonalityTestResult) {
+        init(
+            result: PersonalityTestResult,
+            showFooter: Bool,
+            showBackButton: Bool
+        ) {
             self.result = result
+            self.showFooter = showFooter
+            self.showBackButton = showBackButton
             
             DependencyManager.shared.localeManager.$currentLocale
                 .sink { [weak self] currentLocale in

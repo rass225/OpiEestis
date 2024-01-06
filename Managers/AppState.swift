@@ -250,7 +250,11 @@ extension AppState {
         case .personalityTestHistory:
             PersonalityTestHistoryView(model: .init(appState: self))
         case let .personalityTestResult(result):
-            PersonalityTestView.PersonalityTestResultView(model: .init(result: result))
+            PersonalityTestView.PersonalityTestResultView(model: .init(
+                result: result,
+                showFooter: true,
+                showBackButton: true
+            ))
         }
     }
 }

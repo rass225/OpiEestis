@@ -40,17 +40,9 @@ struct PersonalityTestHistoryView: View {
                     Text(test.personalityType.rawValue)
                         .setFont(.title3, .medium, .rounded)
                         .setColor(.black)
-//                    Text("-")
-//                        .setColor(.gray)
-                    if model.currentLocale == .estonian {
-                        Text(test.personalityType.title.capitalized)
-                            .setFont(.subheadline, .medium, .rounded)
-                            .setColor(Theme.Colors.primary.gradient)
-                    } else {
-                        Text(test.personalityType.titleEn.capitalized)
-                            .setFont(.subheadline, .medium, .rounded)
-                            .setColor(.gray)
-                    }
+                    Text(test.personalityType.titleEn.capitalized)
+                        .setFont(.subheadline, .medium, .rounded)
+                        .setColor(.gray)
                 }
                 .maxWidth(alignment: .leading)
                 Text(test.dateCreated)
@@ -58,7 +50,7 @@ struct PersonalityTestHistoryView: View {
                     .setColor(.gray)
             }
             Spacer()
-            Chevron(type: .normal)
+            chevronRight()
         }
         .padding()
         .maxWidth()
@@ -67,5 +59,11 @@ struct PersonalityTestHistoryView: View {
         .onTapGesture {
             appState.route(to: .personalityTestResult(result: test))
         }
+    }
+    
+    @ViewBuilder
+    func chevronRight() -> some View {
+        Theme.Icons.chevronRight
+            .setColor(Theme.Colors.secondaryGray)
     }
 }

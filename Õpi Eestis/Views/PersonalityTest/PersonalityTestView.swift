@@ -46,7 +46,11 @@ extension PersonalityTestView {
     @ViewBuilder
     func resultView() -> some View {
         if let result = model.result {
-            PersonalityTestResultView(model: .init(result: result))
+            PersonalityTestResultView(model: .init(
+                result: result,
+                showFooter: true,
+                showBackButton: false
+            ))
         }
     }
     

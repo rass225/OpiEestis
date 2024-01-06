@@ -21,6 +21,13 @@ extension PersonalityTestView {
             return percentage
         }
         
+        var completionCount: Int {
+            quizQuestions
+                .flatMap(\.answers)
+                .filter(\.isSelected)
+                .count
+        }
+        
         var toolbarVisibility: Visibility {
             switch viewState {
             case .start, .processing:
@@ -173,7 +180,7 @@ private extension PersonalityTestView.Model {
                     judgingPerceiving
                 )
                     .shuffled()
-                    .prefix(3)
+//                    .prefix(3)
                 quizQuestions = Array(mergedQuestions)
             } catch {
                 print("Error loading file:", error)
