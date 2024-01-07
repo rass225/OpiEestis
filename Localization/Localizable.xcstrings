@@ -45,6 +45,9 @@
     "•" : {
 
     },
+    "10 min" : {
+
+    },
     "about_description" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1774,9 +1777,6 @@
         }
       }
     },
-    "MBTI Test" : {
-
-    },
     "mbti_category_extraverted" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2055,13 +2055,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The Myers-Briggs Personality Type Indicator is a self-report inventory designed to identify a person's personality type, strengths, and preferences. The questionnaire was developed by Isabel Myers and her mother Katherine Briggs based on their work with Carl Jung's theory of personality types. Today, the MBTI inventory is one of the world's most widely used psychological instruments."
+            "value" : "The test helps people assess their personality using four specific dichotomies, or scales: introversion-extraversion, sensing-intuition, thinking-feeling and judging-perceiving. The test is designed to identify a person's personality type, strengths, weaknesses, and preferences. The results may be beneficial for relationship and in job or higher education hunt."
           }
         },
         "et-EE" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Myers Briggsi psühholoogilised testid (inglise keeles Myers Briggs type indicator ehk MBTI) on maailmas kõige laiemat kasutust leidnud testid. Tegemist on testidega, mis aitab sul enda isiksusetüüpi leida olemasoleva 16 erineva isiksuse seast ja mis omakorda võib kasu tuua nii suhetes teiste inimestega või töö leidmise juures."
+            "value" : "Isiksuse test on laialdaselt kasutatav hindamistööriist, mis liigitab inimesed ühte 16 isiksusetüübist. Need tüübid määratakse teie eelistuste põhjal neljas peamises dihhotoomias. Nende eelistuste kombinatsioon annab tulemuseks neljatähelise isiksusetüübi, mis annab tervikliku ülevaate teie ainulaadsetest omadustest ning võib kasu tuua nii suhetes teiste inimestega või töö ning õppesuuna leidmise juures."
           }
         }
       }

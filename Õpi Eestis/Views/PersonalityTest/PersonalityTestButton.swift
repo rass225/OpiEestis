@@ -32,7 +32,7 @@ struct PersonalityTestButton: View {
         VStack(alignment: .leading, spacing: 2) {
             Text(Theme.Locale.PersonalityTest.name)
                 .setFont(.title, .medium, .rounded)
-            Text("MBTI Test")
+            Text("10 min")
                 .setFont(.subheadline, .medium, .rounded)
         }
         .maxWidth(alignment: .leading)

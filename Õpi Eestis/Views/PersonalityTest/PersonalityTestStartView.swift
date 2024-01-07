@@ -28,6 +28,7 @@ extension PersonalityTestView {
             .maxWidth(alignment: .leading)
             .padding(.horizontal, 32)
             .padding(.top, 24)
+            .padding(.bottom, 8)
         }
         
         @ViewBuilder
@@ -37,6 +38,7 @@ extension PersonalityTestView {
                 .aspectRatio(contentMode: .fit)
                 .maxWidth()
                 .padding(.bottom, 24)
+                .padding(.horizontal, 8)
         }
         
         @ViewBuilder

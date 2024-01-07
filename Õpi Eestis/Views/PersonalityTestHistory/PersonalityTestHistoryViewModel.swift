@@ -43,7 +43,7 @@ extension PersonalityTestHistoryView.Model {
         dependencies.network.streamPersonalityTestHistory(userId: user.id) { [weak self] response in
             switch response {
             case let .success(history):
-                self?.personalityTestHistory = history
+                self?.personalityTestHistory = history.sorted(by: \.dateCreated, descending: true)
             case .failure(let failure):
                 print("Error getting history: \(failure.localizedDescription)")
             }

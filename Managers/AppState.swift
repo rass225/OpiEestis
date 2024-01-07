@@ -252,7 +252,7 @@ extension AppState {
         case let .personalityTestResult(result):
             PersonalityTestView.PersonalityTestResultView(model: .init(
                 result: result,
-                showFooter: true,
+                showFooter: false,
                 showBackButton: true
             ))
         }

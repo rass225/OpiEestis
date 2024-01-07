@@ -1383,11 +1383,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Õpi Eestis/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Õpi Eestis";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1410,11 +1411,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Õpi Eestis/Õpi Eestis.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Õpi Eestis/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6B2DLVPJB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Õpi Eestis/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Õpi Eestis";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
