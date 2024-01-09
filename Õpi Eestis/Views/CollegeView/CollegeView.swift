@@ -151,14 +151,7 @@ extension CollegeView {
             }
             .foregroundColor(.white)
             .padding(.vertical, 6)
-            .listRowBackground(
-                ZStack {
-                    Capsule()
-                        .fill(Color.white)
-                    Capsule()
-                        .fill(model.college.palette.base.gradient)
-                }
-            )
+            .listRowBackground(TwoLayerCapsule(color: model.college.palette.base, opacity: 1))
             .contentShape(Rectangle())
             .onTapGesture {
                 model.webLink = .init(link: virtualTourUrlString)
@@ -239,14 +232,7 @@ extension CollegeView {
                     .setColor(college.palette.base)
                     .padding(.vertical, 4)
                     .padding(.horizontal, 12)
-                    .background(
-                        ZStack {
-                            Capsule(style: .continuous)
-                                .fill(Color.white)
-                            Capsule(style: .continuous)
-                                .fill(college.palette.base.opacity(0.175).gradient)
-                        }
-                    )
+                    .background(TwoLayerCapsule(color: college.palette.base))
             }
             .onTapGesture {
                 isExpanded.toggle()

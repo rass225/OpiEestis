@@ -14,13 +14,14 @@ struct CollegesListView: View {
             .listRowInsets(.zero)
             .listRowBackground(Color.clear)
         }
+        .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .principal, content: AppPrincipal.init)
         }
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
+// MARK: - Cells
 private extension CollegesListView {
     @ViewBuilder
     func collegeCell(_ college: College) -> some View {
@@ -38,7 +39,6 @@ private extension CollegesListView {
         .maxWidth()
         .background(Color.white)
         .clipShape(.rect(cornerRadius: 12, style: .continuous))
-        
         .onTapGesture {
             switch appState.environment {
             case .edit:
@@ -50,7 +50,10 @@ private extension CollegesListView {
             }
         }
     }
-    
+}
+
+// MARK: - View Components
+private extension CollegesListView {
     @ViewBuilder
     func collegeImage(_ reference: String) -> some View {
         Image(reference)

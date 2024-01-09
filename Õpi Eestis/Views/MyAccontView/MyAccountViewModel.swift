@@ -101,12 +101,6 @@ extension MyAccountView {
                 }
             }
         }
-        
-        func saveImageUrlToFirestore(_ imageUrl: String) {
-            Task {
-                try await dependencies.network.updateUserData(data: ["photoUrl": imageUrl], userId: userId)
-            }
-        }
     }
 }
 
@@ -129,6 +123,12 @@ private extension MyAccountView.Model {
             case let .failure(error):
                 print(error.localizedDescription)
             }
+        }
+    }
+    
+    func saveImageUrlToFirestore(_ imageUrl: String) {
+        Task {
+            try await dependencies.network.updateUserData(data: ["photoUrl": imageUrl], userId: userId)
         }
     }
 }

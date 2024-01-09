@@ -6,17 +6,28 @@ struct OutcomesView: View {
     
     var body: some View {
         List(outcomes) { outcome in
-            Text(.init(outcome.description))
-                .setFont(.subheadline, .regular, .rounded)
-                .setColor(Theme.Colors.black)
+            outcomeCell(outcome)
         }
+        .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading, content: backButton)
             ToolbarItem(placement: .principal, content: titleView)
         }
-        .navigationBarBackButtonHidden(true)
     }
-    
+}
+
+// MARK: - Cells
+private extension OutcomesView {
+    @ViewBuilder
+    func outcomeCell(_ outcome: NewOutcome) -> some View {
+        Text(.init(outcome.description))
+            .setFont(.subheadline, .regular, .rounded)
+            .setColor(Theme.Colors.black)
+    }
+}
+
+// MARK: - View Components
+private extension OutcomesView {
     @ViewBuilder
     func backButton() -> some View {
         BackButton(color: college.palette.base)

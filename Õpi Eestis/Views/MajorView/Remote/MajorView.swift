@@ -144,27 +144,24 @@ extension MajorView {
                     .setFont(.footnote, .regular, .rounded)
                     .setColor(Theme.Colors.gray)
             }
-//            if let languages = model.major.languages {
-                HStack(alignment: .center, spacing: 0) {
-                    Theme.Icons.translate
-                        .resizable()
-                        .frame(width: 20, height: 22)
-                        .setColor(model.college.palette.base.gradient)
-//                        .setFont(.body, .regular, .rounded)
-                        .frame(width: 32, alignment: .leading)
-                    HStack(spacing: 4) {
-                        ForEach(model.major.languages, id: \.self) { language in
-                            Text(language.symbol)
-                                .setFont(.title3, .medium, .rounded)
-                                .setColor(Theme.Colors.black)
-                        }
+            HStack(alignment: .center, spacing: 0) {
+                Theme.Icons.translate
+                    .resizable()
+                    .frame(width: 20, height: 22)
+                    .setColor(model.college.palette.base.gradient)
+                    .frame(width: 32, alignment: .leading)
+                HStack(spacing: 4) {
+                    ForEach(model.major.languages, id: \.self) { language in
+                        Text(language.symbol)
+                            .setFont(.title3, .medium, .rounded)
+                            .setColor(Theme.Colors.black)
                     }
-                    Spacer()
-                    Text(Theme.Locale.Major.language)
-                        .setFont(.footnote, .regular, .rounded)
-                        .setColor(Theme.Colors.gray)
                 }
-//            }
+                Spacer()
+                Text(Theme.Locale.Major.language)
+                    .setFont(.footnote, .regular, .rounded)
+                    .setColor(Theme.Colors.gray)
+            }
             MajorStat(
                 type: .spots(spots: model.major.spots),
                 color: model.college.palette.base

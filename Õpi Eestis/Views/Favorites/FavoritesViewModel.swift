@@ -3,18 +3,15 @@ import SwiftUI
 
 extension FavoritesView {
     class Model: ObservableObject {
-        @Published var favorites: [Favorite] = []
+        @Published private(set) var favorites: [Favorite] = []
+        @Published var currentLocale: AppLocale = .english
         let colleges: [College]
         private let dependencies: DependencyManager
         private var cancellables = Set<AnyCancellable>()
-        let user: FirebaseUser
+        private let user: FirebaseUser
         
         var groupedFavorites: [String: [Favorite]] {
             Dictionary(grouping: favorites) { $0.collegeId }
-        }
-        
-        var currentLocale: AppLocale {
-            DependencyManager.shared.localeManager.currentLocale
         }
         
         init(
@@ -22,10 +19,18 @@ extension FavoritesView {
             dependencies: DependencyManager = .shared,
             user: FirebaseUser
         ) {
+            self.currentLocale = DependencyManager.shared.localeManager.currentLocale
             self.colleges = colleges
             self.dependencies = dependencies
             self.user = user
             streamFavorites()
+            
+            DependencyManager.shared.localeManager.$currentLocale
+                .sink { [weak self] locale in
+                    guard let self else { return }
+                    self.currentLocale = locale
+                }
+                .store(in: &cancellables)
         }
     }
 }

@@ -9,42 +9,18 @@ struct UserSetupView: View {
         NavigationView {
             switch model.viewState {
             case .loading:
-                ProgressView().progressViewStyle(.circular)
+                progressView()
             case .normal:
                 Form {
                     Section(content: imageContent)
                         .listRowSeparator(.hidden)
-                    Section(content: {
-                        TextField("", text: $model.firstName, prompt: Text(Theme.Locale.MyAccount.firstName))
-                        TextField("", text: $model.lastName, prompt: Text(Theme.Locale.MyAccount.lastName))
-                    }, header: {
-                        Text(Theme.Locale.UserSetup.name)
-                    })
-                    
-                    Picker(Theme.Locale.UserSetup.nationality, selection: $model.selectedNationality) {
-                        ForEach(Nationality.nations, id: \.name) { nationality in
-                            HStack {
-                                Text(nationality.symbol)
-                                Text(nationality.name)
-                            }
-                            .tag(nationality)
-                            .setFont(.subheadline, .regular, .rounded)
-                        }
-                    }
-                    .pickerStyle(.navigationLink)
-                    
-                    Section(content: {
-                        Text(model.email)
-                            .setColor(Theme.Colors.gray)
-                    }, header: {
-                        Text(Theme.Locale.UserSetup.email)
-                    })
+                    Section(content: nameContent, header: nameHeader)
+                    Section(content: nationalityContent)
+                    Section(content: emailContent, header: emailHeader)
                     signupButton()
                 }
                 .toolbar {
-                    ToolbarItem(placement: .principal) {
-                        TitleView(Theme.Locale.UserSetup.title)
-                    }
+                    ToolbarItem(placement: .principal, content: titleView)
                 }
             }
         }
@@ -53,6 +29,74 @@ struct UserSetupView: View {
         .onChange(of: model.selectedImages) { _ in
             model.setPickedImageData()
         }
+    }
+}
+
+// MARK: - Headers
+private extension UserSetupView {
+    @ViewBuilder
+    func nameHeader() -> some View {
+        Text(Theme.Locale.UserSetup.name)
+    }
+    
+    @ViewBuilder
+    func emailHeader() -> some View {
+        Text(Theme.Locale.UserSetup.email)
+    }
+}
+
+// MARK: - Contents
+
+private extension UserSetupView {
+    @ViewBuilder
+    func imageContent() -> some View {
+        if let image = model.image {
+            profilePhoto(image: image)
+        } else {
+            placeholderPhoto()
+        }
+        photoPicker()
+    }
+    
+    @ViewBuilder
+    func nameContent() -> some View {
+        TextField("", text: $model.firstName, prompt: Text(Theme.Locale.MyAccount.firstName))
+        TextField("", text: $model.lastName, prompt: Text(Theme.Locale.MyAccount.lastName))
+    }
+    
+    @ViewBuilder
+    func nationalityContent() -> some View {
+        Picker(Theme.Locale.UserSetup.nationality, selection: $model.selectedNationality) {
+            ForEach(Nationality.nations, id: \.name) { nationality in
+                HStack {
+                    Text(nationality.symbol)
+                    Text(nationality.name)
+                }
+                .tag(nationality)
+                .setFont(.subheadline, .regular, .rounded)
+            }
+        }
+        .pickerStyle(.navigationLink)
+    }
+    
+    @ViewBuilder
+    func emailContent() -> some View {
+        Text(model.email)
+            .setColor(Theme.Colors.gray)
+    }
+}
+
+// MARK: - View Components
+
+private extension UserSetupView {
+    @ViewBuilder
+    func progressView() -> some View {
+        ProgressView().progressViewStyle(.circular)
+    }
+    
+    @ViewBuilder
+    func titleView() -> some View {
+        TitleView(Theme.Locale.UserSetup.title)
     }
     
     @ViewBuilder
@@ -65,7 +109,7 @@ struct UserSetupView: View {
                     id: model.id,
                     firstName: model.firstName,
                     lastName: model.lastName,
-                    email: model.email, 
+                    email: model.email,
                     nationality: model.selectedNationality,
                     photo: model.image
                 )
@@ -84,16 +128,6 @@ struct UserSetupView: View {
     }
     
     @ViewBuilder
-    func imageContent() -> some View {
-        if let image = model.image {
-            profilePhoto(image: image)
-        } else {
-            placeholderPhoto()
-        }
-        photoPicker()
-    }
-    
-    @ViewBuilder
     func photoPicker() -> some View {
         PhotosPicker(
             selection: $model.selectedImages,
@@ -101,9 +135,9 @@ struct UserSetupView: View {
             matching: .images
         ) {
             if model.image == nil {
-                addPhotoBotton()
+                addPhotoLabel()
             } else {
-                editPhotoButton()
+                editPhotoLabel()
             }
         }
         .listRowBackground(Color.clear)
@@ -123,7 +157,7 @@ struct UserSetupView: View {
     }
     
     @ViewBuilder
-    func addPhotoBotton() -> some View {
+    func addPhotoLabel() -> some View {
         HStack {
             Theme.Icons.plus
             Text(Theme.Locale.MyAccount.addPhoto)
@@ -137,7 +171,7 @@ struct UserSetupView: View {
     }
     
     @ViewBuilder
-    func editPhotoButton() -> some View {
+    func editPhotoLabel() -> some View {
         HStack {
             Theme.Icons.edit
                 .offset(x: 0, y: -1)

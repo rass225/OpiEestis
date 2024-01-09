@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CollegesView: View {
     @StateObject var model: Model
+    
     @Namespace var animation
     var body: some View {
         VStack(spacing: 0) {
@@ -10,12 +11,14 @@ struct CollegesView: View {
             case .collegesList:
                 CollegesListView(model: .init(colleges: model.schools))
             case .collegesMap:
-                MapView(locations: model.getAllBranches())
+                MapView(locations: model.allBranches)
             }
         }
         .toolbarBackground(.hidden, for: .navigationBar)
     }
-    
+}
+
+extension CollegesView {
     @ViewBuilder
     func tabView() -> some View {
         HStack {
@@ -32,21 +35,16 @@ struct CollegesView: View {
                     }
                     .contentShape(.capsule)
                     .onTapGesture {
-                        withAnimation(.easeInOut(duration: 0.2)) { model.tabSelection = tab }
+                        withAnimation(.easeInOut(duration: 0.15)) {
+                            model.switchTab(to: tab)
+                        }
                     }
             }
         }
         .setColor(Theme.Colors.primary.gradient)
         .padding(2)
         .frame(height: 40)
-        .background(
-            ZStack {
-                Capsule(style: .continuous)
-                    .fill(Color.white)
-                Capsule(style: .continuous)
-                    .fill(Theme.Colors.primary.opacity(0.175).gradient)
-            }
-        )
+        .background(TwoLayerCapsule())
         .padding(.horizontal, 16)
         .offset(x: 0, y: 20)
         .zIndex(100)

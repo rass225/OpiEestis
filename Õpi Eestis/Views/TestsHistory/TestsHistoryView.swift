@@ -9,7 +9,7 @@ struct TestsHistoryView: View {
             let size = geometry.size
             ScrollView {
                 VStack(spacing: 8) {
-                    PersonalityTestButton(size: size) {
+                    PersonalityTestView.PersonalityTestButton(size: size) {
                         appState.route(to: .personalityTestHistory)
                     }
                 }
@@ -35,38 +35,5 @@ struct TestsHistoryView: View {
     @ViewBuilder
     func titleView() -> some View {
         TitleView(Theme.Locale.Tests.title)
-    }
-    
-    @ViewBuilder
-    func mbtiTestCell(size: CGSize) -> some View {
-        Button(action: {
-            appState.route(to: .personalityTestHistory)
-        }, label: {
-            VStack(spacing: 0) {
-                Text(Theme.Locale.PersonalityTest.name)
-                    .setFont(.title2, .medium, .rounded)
-                    .maxWidth(alignment: .leading)
-                    .setColor(.white)
-                Image("personalityIllustration")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .maxWidth()
-                    .padding(.bottom, 8)
-            }
-            .padding([.horizontal, .top])
-            .frame(height: size.width / 3 * 2)
-            .maxWidth()
-            .background(
-                ZStack {
-                    Color.white
-                    LinearGradient(
-                        gradient: Gradient(colors: [Theme.Colors.primary.opacity(1), Color.white]),
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                }
-            )
-            .clipShape(.rect(cornerRadius: 12, style: .continuous))
-        })
     }
 }

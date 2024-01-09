@@ -26,7 +26,6 @@ struct MyAccountView: View {
 }
 
 // MARK: - Buttons
-
 extension MyAccountView {
     @ViewBuilder
     func backButton() -> some View {
@@ -63,29 +62,50 @@ extension MyAccountView {
     }
 }
 
-// MARK: - View Components
+// MARK: - Headers
+private extension MyAccountView {
+    @ViewBuilder
+    func emailHeader() -> some View {
+        Text(Theme.Locale.MyAccount.email)
+    }
+    
+    @ViewBuilder
+    func nameHeader() -> some View {
+        Text(Theme.Locale.MyAccount.name)
+    }
+    
+    @ViewBuilder
+    func nationalityHeader() -> some View {
+        Text(Theme.Locale.MyAccount.nationality)
+    }
+}
 
-extension MyAccountView {
+// MARK: - Contents
+private extension MyAccountView {
     @ViewBuilder
     func nameContent() -> some View {
-        TextField("", text: $model.firstName, prompt: Text(Theme.Locale.MyAccount.firstName))
-            .onReceive(model.$firstName.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
-                model.updateFirstName()
-            }
-        TextField("", text: $model.lastName, prompt: Text(Theme.Locale.MyAccount.lastName))
-            .onReceive(model.$lastName.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
-                model.updateLastName()
-            }
+        TextField(
+            "",
+            text: $model.firstName,
+            prompt: Text(Theme.Locale.MyAccount.firstName)
+        )
+        .onReceive(model.$firstName.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
+            model.updateFirstName()
+        }
+        TextField(
+            "",
+            text: $model.lastName,
+            prompt: Text(Theme.Locale.MyAccount.lastName)
+        )
+        .onReceive(model.$lastName.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
+            model.updateLastName()
+        }
     }
     
     @ViewBuilder
     func emailContent() -> some View {
         Text(model.email)
             .setFont(.subheadline, .regular, .rounded)
-//        TextField("", text: $model.email, prompt: Text(Theme.Locale.MyAccount.email))
-//            .onReceive(model.$email.debounce(for: 0.5, scheduler: RunLoop.main)) { _ in
-//                model.updateEmail()
-//            }
     }
     
     @ViewBuilder
@@ -105,7 +125,10 @@ extension MyAccountView {
         }
         photoPicker()
     }
-    
+}
+
+// MARK: - View Components
+extension MyAccountView {
     @ViewBuilder
     func titleView() -> some View {
         TitleView(Theme.Locale.MyAccount.title)
@@ -153,23 +176,5 @@ extension MyAccountView {
             )
             .maxWidth()
             .listRowBackground(Color.clear)
-    }
-}
-
-// MARK: - Headers
-extension MyAccountView {
-    @ViewBuilder
-    func emailHeader() -> some View {
-        Text(Theme.Locale.MyAccount.email)
-    }
-    
-    @ViewBuilder
-    func nameHeader() -> some View {
-        Text(Theme.Locale.MyAccount.name)
-    }
-    
-    @ViewBuilder
-    func nationalityHeader() -> some View {
-        Text(Theme.Locale.MyAccount.nationality)
     }
 }

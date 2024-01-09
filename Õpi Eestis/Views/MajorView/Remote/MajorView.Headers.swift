@@ -153,14 +153,7 @@ extension MajorView {
                         .setColor(model.college.palette.base)
                         .padding(.vertical, 4)
                         .padding(.horizontal, 8)
-                        .background(
-                            ZStack {
-                                Capsule(style: .continuous)
-                                    .fill(Color.white)
-                                Capsule(style: .continuous)
-                                    .fill(model.college.palette.base.opacity(0.175).gradient)
-                            }
-                        )
+                        .background(TwoLayerCapsule(color: model.college.palette.base))
                         .padding(.bottom, 6)
                     }
                 }

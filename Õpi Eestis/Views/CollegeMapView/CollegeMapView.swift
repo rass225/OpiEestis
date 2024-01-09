@@ -44,9 +44,6 @@ struct CollegeMapView: View {
         .sheet(item: $model.selectedBranch) { branch in
             detailView(branch: branch)
         }
-//        .onAppear {
-//            localRegion = model.region
-//        }
     }
 }
 

@@ -126,7 +126,6 @@ extension PersonalityTestView.Model {
 }
 
 // MARK: - Private methods
-
 private extension PersonalityTestView.Model {
     func createResult(
         personalityType: PersonalityType,
@@ -179,8 +178,7 @@ private extension PersonalityTestView.Model {
                     feelingThinking +
                     judgingPerceiving
                 )
-                    .shuffled()
-//                    .prefix(3)
+                .shuffled()
                 quizQuestions = Array(mergedQuestions)
             } catch {
                 print("Error loading file:", error)
@@ -194,9 +192,9 @@ private extension PersonalityTestView.Model {
         fetchMbtiQuestionsLocally()
         
         DependencyManager.shared.localeManager.$currentLocale
-            .sink { [weak self] currentLocale in
+            .sink { [weak self] locale in
                 guard let self else { return }
-                self.currentLocale = currentLocale
+                self.currentLocale = locale
             }
             .store(in: &cancellables)
     }
@@ -290,7 +288,6 @@ private extension PersonalityTestView.Model {
 }
 
 // MARK: - Objects
-
 extension PersonalityTestView.Model {
     enum ViewState {
         case start

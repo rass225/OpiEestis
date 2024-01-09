@@ -163,13 +163,11 @@ extension MajorsView {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 16, height: 16)
                                     .setColor(baseColor.gradient)
-//                                if let languages = major.languages {
-                                    HStack(spacing: 2) {
-                                        ForEach(major.languages, id: \.self) { language in
-                                            Text(language.symbol)
-                                        }
+                                HStack(spacing: 2) {
+                                    ForEach(major.languages, id: \.self) { language in
+                                        Text(language.symbol)
                                     }
-//                                }
+                                }
                             }
                             HStack(spacing: 4) {
                                 Theme.Icons.clock

@@ -6,27 +6,34 @@ extension CollegesView {
         let schools: [College]
         let availableTabs: [ViewTabs] = [.collegesList, .collegesMap]
         
+        @Published var mapView: MapView? = nil
+        
+        var allBranches: [CollegeBranch] {
+            var allBranches: [CollegeBranch] = []
+                for college in schools {
+                    for branch in college.branches {
+                        let collegeBranch = CollegeBranch(
+                            location: branch,
+                            parentCollege: college
+                        )
+                        allBranches.append(collegeBranch)
+                    }
+                }
+                return allBranches
+        }
+        
         init(schools: [College]) {
             self.schools = schools
+            mapView = MapView(locations: allBranches)
+        }
+        
+        func switchTab(to tab: ViewTabs) {
+            tabSelection = tab
         }
     }
 }
 
 extension CollegesView.Model {
-    func getAllBranches() -> [CollegeBranch] {
-        var allBranches: [CollegeBranch] = []
-            for college in schools {
-                for branch in college.branches {
-                    let collegeBranch = CollegeBranch(
-                        location: branch,
-                        parentCollege: college
-                    )
-                    allBranches.append(collegeBranch)
-                }
-            }
-            return allBranches
-    }
-    
     enum ViewTabs {
         case collegesList
         case collegesMap

@@ -9,7 +9,7 @@ struct TestsListView: View {
             let size = geometry.size
             ScrollView {
                 VStack(spacing: 8) {
-                    PersonalityTestButton(size: size) {
+                    PersonalityTestView.PersonalityTestButton(size: size) {
                         if appState.user == nil {
                             model.openLoginView()
                         } else {

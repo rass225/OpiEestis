@@ -32,9 +32,6 @@ extension PersonalityTestView.PersonalityTestQuestionsView {
                 Text("\(model.completionPercentage.decimals(0))%")
                 Text(Theme.Locale.PersonalityTest.Test.completed)
             }
-            
-            
-            
         }
         .setFont(.body, .semibold, .rounded)
         .padding(.top, 6)

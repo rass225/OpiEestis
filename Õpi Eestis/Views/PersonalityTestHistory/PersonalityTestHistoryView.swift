@@ -7,8 +7,8 @@ struct PersonalityTestHistoryView: View {
     var body: some View {
         List {
             VStack(spacing: 4) {
-                ForEach(model.personalityTestHistory, id: \.self) { test in
-                    testCell(test)
+                ForEach(model.personalityTestHistory, id: \.self) {
+                    testCell($0)
                 }
             }
             .listRowInsets(.zero)
@@ -21,17 +21,10 @@ struct PersonalityTestHistoryView: View {
             ToolbarItem(placement: .topBarLeading, content: backButton)
         }
     }
-    
-    @ViewBuilder
-    func backButton() -> some View {
-        BackButton(color: Theme.Colors.primary)
-    }
-    
-    @ViewBuilder
-    func titleView() -> some View {
-        TitleView(Theme.Locale.PersonalityTest.History.title)
-    }
-    
+}
+
+// MARK: - Cells
+private extension PersonalityTestHistoryView {
     @ViewBuilder
     func testCell(_ test: PersonalityTestResult) -> some View {
         HStack {
@@ -40,7 +33,7 @@ struct PersonalityTestHistoryView: View {
                     Text(test.personalityType.rawValue)
                         .setFont(.title3, .medium, .rounded)
                         .setColor(.black)
-                    Text(test.personalityType.titleEn.capitalized)
+                    Text(model.currentLocale == .estonian ? test.personalityType.title.capitalized : test.personalityType.titleEn.capitalized)
                         .setFont(.subheadline, .medium, .rounded)
                         .setColor(.gray)
                 }
@@ -59,6 +52,19 @@ struct PersonalityTestHistoryView: View {
         .onTapGesture {
             appState.route(to: .personalityTestResult(result: test))
         }
+    }
+}
+
+// MARK: - View Components
+private extension PersonalityTestHistoryView {
+    @ViewBuilder
+    func backButton() -> some View {
+        BackButton(color: Theme.Colors.primary)
+    }
+    
+    @ViewBuilder
+    func titleView() -> some View {
+        TitleView(Theme.Locale.PersonalityTest.History.title)
     }
     
     @ViewBuilder

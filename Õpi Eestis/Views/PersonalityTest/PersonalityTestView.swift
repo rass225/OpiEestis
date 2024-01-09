@@ -2,7 +2,6 @@ import SwiftUI
 
 struct PersonalityTestView: View {
     @EnvironmentObject var appState: AppState
-    @Namespace var animation
     @StateObject var model: Model
     
     var body: some View {
@@ -22,14 +21,14 @@ struct PersonalityTestView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(model.toolbarVisibility, for: .navigationBar)
         .toolbar {
-            ToolbarItem(placement: .principal, content: AppPrincipal.init)
             ToolbarItem(placement: .topBarLeading, content: backButton)
+            ToolbarItem(placement: .principal, content: AppPrincipal.init)
             ToolbarItem(placement: .topBarTrailing, content: historyButton)
         }
     }
 }
 
-extension PersonalityTestView {
+private extension PersonalityTestView {
     @ViewBuilder
     func testView() -> some View {
         PersonalityTestQuestionsView(model: model)

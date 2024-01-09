@@ -5,10 +5,15 @@ extension CollegesListView {
     class Model: ObservableObject {
         private let staticColleges: [College]
         private var cancellables = Set<AnyCancellable>()
-        @Published var currentLocale: AppLocale = .english
+        @Published private(set) var currentLocale: AppLocale = .english
         
         var colleges: [College] {
-            staticColleges.sorted(by: currentLocale == .estonian ? \.name : \.nameEn)
+            switch currentLocale {
+            case .english:
+                staticColleges.sorted(by: \.nameEn)
+            case .estonian:
+                staticColleges.sorted(by: \.name)
+            }
         }
         
         init(colleges: [College]) {

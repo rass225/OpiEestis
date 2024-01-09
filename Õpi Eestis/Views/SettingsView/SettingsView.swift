@@ -15,24 +15,18 @@ struct SettingsView: View {
     }
 }
 
+// MARK: - Headers
 extension SettingsView {
-    @ViewBuilder
-    func backButton() -> some View {
-        BackButton(color: Theme.Colors.primary)
-    }
-    
-    @ViewBuilder
-    func titleView() -> some View {
-        TitleView(Theme.Locale.Settings.title)
-    }
-    
     @ViewBuilder
     func languageHeader() -> some View {
         Text(Theme.Locale.Settings.language)
             .textCase(.none)
             .setFont(.subheadline, .regular, .rounded)
     }
-    
+}
+
+// MARK: - Contents
+private extension SettingsView {
     @ViewBuilder
     func languageContent() -> some View {
         ForEach(AppLocale.allCases, id: \.self) { locale in
@@ -51,7 +45,10 @@ extension SettingsView {
             }
         }
     }
-    
+}
+
+// MARK: - View Components
+private extension SettingsView {
     @ViewBuilder
     func selectedCircle() -> some View {
         Circle()
@@ -70,8 +67,14 @@ extension SettingsView {
             .fill(Theme.Colors.primary.opacity(0.2))
             .frame(width: 24)
     }
-}
-
-#Preview {
-    SettingsView()
+    
+    @ViewBuilder
+    func backButton() -> some View {
+        BackButton(color: Theme.Colors.primary)
+    }
+    
+    @ViewBuilder
+    func titleView() -> some View {
+        TitleView(Theme.Locale.Settings.title)
+    }
 }
